@@ -2867,7 +2867,7 @@ app-misc/toilet 0.3-r1: The Other Implementations letters. Figlet replacement
 app-misc/tpipe 1.6-r2: Command to duplicate standard input to more than one program
 app-misc/tprint 1.1.0-r1: Transparent Print Utility for terminals
 app-misc/tracker 3.5.3 3.6.0: A tagging metadata database, search tool and indexer
-app-misc/tracker-miners 3.5.2 3.5.3 3.6.0 3.6.1: Collection of data extractors for Tracker/Nepomuk
+app-misc/tracker-miners 3.5.2 3.5.3 3.6.1: Collection of data extractors for Tracker/Nepomuk
 app-misc/transfolio 1.0.1-r2: Enables data transfer between the PC and the Atari Portfolio
 app-misc/trash-cli 0.22.8.27 0.23.2.13.2: Python scripts to manipulate trash cans via the command line
 app-misc/tty-clock 2.3: Displays a simple digital clock on the terminal
@@ -11717,7 +11717,7 @@ gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20220928 1.2.0_p20230626: Key
 gnome-extra/gnome-shell-extension-weather-in-the-clock 20221024-r1 20221024-r2: Display the current weather in the clock
 gnome-extra/gnome-shell-extensions 44.0 45.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 44.1: Unofficial extension pack providing GNOME 2-like features
-gnome-extra/gnome-software 44.4 45.0: Gnome install & update software
+gnome-extra/gnome-software 44.4 45.0 45.1: Gnome install & update software
 gnome-extra/gnome-system-monitor 44.0 45.0.2: The Gnome System Monitor
 gnome-extra/gnome-tweaks 40.10-r1 42_beta 45.0: Customize advanced GNOME options
 gnome-extra/gnome-user-docs 44.3 45.0: GNOME end user documentation
