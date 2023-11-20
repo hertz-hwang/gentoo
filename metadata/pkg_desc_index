@@ -14571,7 +14571,7 @@ net-im/sendxmpp-amm 1.1.1-r1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.11.3 0.11.5.1: Send and receive messages of Signal Messenger over a command line interface
 net-im/signal-desktop-bin 6.39.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/skypeforlinux 8.100.0.203 8.102.0.211 8.103.0.208 8.105.0.208: Instant messaging client, with support for audio and video
-net-im/slack 4.34.121 4.35.121: Team collaboration tool
+net-im/slack 4.35.121 4.35.126: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r1: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.93.0-r1 1.95.0-r1 1.96.0: Reference implementation of Matrix homeserver
@@ -17474,7 +17474,7 @@ sys-kernel/genkernel 4.3.2-r1 4.3.3 4.3.5 4.3.5-r1 4.3.6 4.3.7 4.3.8 9999: Gento
 sys-kernel/gentoo-kernel 5.10.199 5.10.200 5.15.137 5.15.138 6.1.60 6.1.61 6.1.62 6.5.10 6.5.11 6.6.1: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.199 5.10.200 5.15.137 5.15.138 6.1.60 6.1.61 6.1.62 6.5.10 6.5.11 6.6.1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.187 5.10.198 5.10.199 5.10.200 5.15.122 5.15.135 5.15.136-r1 5.15.137 5.15.138 6.1.53-r1 6.1.56 6.1.57 6.1.60 6.1.61 6.1.62 6.5.9 6.5.10 6.5.11 6.6.0 6.6.1: Full sources including the Gentoo patchset for the 6.6 kernel tree
-sys-kernel/git-sources 6.7_rc1: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 6.7_rc1 6.7_rc2: The very latest -git version of the Linux kernel
 sys-kernel/installkernel-gentoo 7: Gentoo fork of installkernel script from debianutils
 sys-kernel/installkernel-systemd 2-r4 2-r5: Wrap kernel-install from systemd as installkernel
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
