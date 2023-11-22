@@ -3011,7 +3011,7 @@ app-portage/kuroo 1.2.2 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.3-r2 0.7.3-r3 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 41: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.4.0 9999: Tool to help select distfiles mirrors for Gentoo
-app-portage/nattka 0.4.1: A New Arch Tester Toolkit -- open-source stable-bot replacement
+app-portage/nattka 0.4.1 0.4.1-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r4: Simple tool for static analysis of overlays
 app-portage/pfl 3.2.1: Searchable online file/package database for Gentoo
@@ -3364,7 +3364,7 @@ app-text/xlsx2csv 0.8.1: Convert MS Office xlsx files to CSV
 app-text/xml2 0.5: These tools are used to convert XML and HTML to and from a line-oriented format
 app-text/xml2doc 20030510-r2: Tool to convert simple XML to a variety of formats (pdf, html, txt, manpage)
 app-text/xml2rfc 3.17.4 3.18.0: Generates RFCs and IETF drafts from document source in XML
-app-text/xmldiff 2.4: A tool that figures out the differences between two similar XML files
+app-text/xmldiff 2.4 2.6.3: A tool that figures out the differences between two similar XML files
 app-text/xmlformat 1.04: Reformat XML documents to your custom style
 app-text/xmlstarlet 1.6.1 1.6.1-r1: A set of tools to transform, query, validate, and edit XML documents
 app-text/xmlto 0.0.28-r11: Script for converting XML and DocBook documents to a variety of output formats
@@ -8049,7 +8049,7 @@ dev-python/capturer 3.0-r1: Easily capture stdout/stderr of the current process 
 dev-python/carbon 1.1.10: Backend data caching and persistence daemon for Graphite
 dev-python/casttube 0.2.1-r1: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/cattrs 23.1.2 23.2.1 23.2.2: Composable complex class support for attrs and dataclasses
-dev-python/cbor2 5.4.6 5.5.0 5.5.1: Pure Python CBOR (de)serializer with extensive tag support
+dev-python/cbor2 5.5.1: Pure Python CBOR (de)serializer with extensive tag support
 dev-python/cchardet 2.1.19: High speed universal character encoding detector
 dev-python/cerberus 1.3.5: A lightweight and extensible data-validation library for Python
 dev-python/certifi 3021.3.16-r4: A certifi hack to use system trust store on Linux/FreeBSD
@@ -8103,7 +8103,7 @@ dev-python/confuse 2.0.1: Confuse is a configuration library for Python that use
 dev-python/cons 0.4.6: Implementation of Lisp/Scheme-like cons in Python
 dev-python/consonance 0.1.5-r1: WhatsApp's handshake implementation using Noise Protocol
 dev-python/constantly 15.1.0-r3 23.10.4: Symbolic constants in Python
-dev-python/construct 2.10.68 2.10.69: A powerful declarative parser for binary data
+dev-python/construct 2.10.69: A powerful declarative parser for binary data
 dev-python/contourpy 1.1.1 1.2.0: Python library for calculating contours in 2D quadrilateral grids
 dev-python/cookies 2.2.1-r2: Friendlier RFC 6265-compliant cookie parser/renderer
 dev-python/coverage 7.3.1 7.3.2: Code coverage measurement for Python
@@ -8115,7 +8115,7 @@ dev-python/crispy-bootstrap4 2022.1 2023.1: Bootstrap4 template pack for django-
 dev-python/crispy-bootstrap5 0.7 2023.10: Bootstrap5 template pack for django-crispy-forms
 dev-python/croniter 2.0.1: Python module to provide iteration for datetime object
 dev-python/cryptography 41.0.3 41.0.4 41.0.5: Library providing cryptographic recipes and primitives
-dev-python/css-parser 1.0.9 1.0.10: A CSS Cascading Style Sheets library (fork of cssutils)
+dev-python/css-parser 1.0.10: A CSS Cascading Style Sheets library (fork of cssutils)
 dev-python/csscompressor 0.9.5-r2: A python port of YUI CSS Compressor
 dev-python/cssselect 1.2.0: Parse CSS3 Selectors and translate them to XPath 1.0
 dev-python/cssselect2 0.7.0: Parses CSS3 Selectors and translates them to XPath 1.0
@@ -8872,7 +8872,7 @@ dev-python/pylru 1.2.1: A least recently used (LRU) cache for Python
 dev-python/pyls-spyder 0.4.0-r2: Spyder extensions for the python language server
 dev-python/pymacaroons 0.13.0-r1: A Python implementation of Macaroons
 dev-python/pymad 0.11.3: Python wrapper for libmad MP3 decoding in python
-dev-python/pymdown-extensions 10.3 10.3.1 10.4: Extensions for Python Markdown
+dev-python/pymdown-extensions 10.4: Extensions for Python Markdown
 dev-python/pymdown-lexers 0_pre20210902: Additional lexers for use in Pygments
 dev-python/pymdstat 0.4.3: Python library to parse Linux /proc/mdstat
 dev-python/pymediainfo 6.0.1 6.1.0: A wrapper around the mediainfo library
@@ -9322,7 +9322,7 @@ dev-python/stestr 4.0.1 4.1.0: A parallel Python test runner built around subuni
 dev-python/stevedore 5.1.0: Manage dynamic plugins for Python applications
 dev-python/stomp-py 8.1.0: Python client library for the STOMP messaging protocol
 dev-python/strict-rfc3339 0.7-r2: Strict, simple, lightweight RFC3339 functions
-dev-python/stripe 6.7.0 7.0.0 7.1.0 7.2.0 7.3.0 7.4.0 7.5.0 7.6.0: Stripe python bindings
+dev-python/stripe 7.4.0 7.6.0: Stripe python bindings
 dev-python/structlog 23.2.0: Structured Logging for Python
 dev-python/subprocess-tee 0.4.1: subprocess.run replacement with tee(1)-like output
 dev-python/subunit 1.4.3 1.4.4: A streaming protocol for test results
@@ -9352,7 +9352,7 @@ dev-python/tenacity 8.2.3: General-purpose retrying library
 dev-python/termcolor 2.3.0: ANSI Color formatting for output in terminal
 dev-python/terminado 0.17.1 0.18.0: Terminals served to term.js using Tornado websockets
 dev-python/terminaltables 3.1.10-r1 9999: Generate simple tables in terminals from a nested list of strings
-dev-python/testfixtures 7.2.0 7.2.2: A collection of helpers and mock objects for unit tests and doc tests
+dev-python/testfixtures 7.2.2: A collection of helpers and mock objects for unit tests and doc tests
 dev-python/testpath 0.6.0: Test utilities for code working with files and commands
 dev-python/testresources 2.0.1-r3: A pyunit extension for managing expensive test resources
 dev-python/testscenarios 0.5.0-r3: A pyunit extension for dependency injection
@@ -9434,7 +9434,7 @@ dev-python/uri-template 1.3.0: URI Template expansion in strict adherence to RFC
 dev-python/uritemplate 4.1.1: Python implementation of RFC6570, URI Template
 dev-python/uritools 4.0.1 4.0.2: RFC 3986-compliant URI parsing, classification and composition
 dev-python/url-normalize 1.4.3-r1: URL normalization for Python
-dev-python/urllib3 1.26.17 1.26.18 2.0.7 2.1.0: HTTP library with thread-safe connection pooling, file post, and more
+dev-python/urllib3 1.26.18 2.0.7 2.1.0: HTTP library with thread-safe connection pooling, file post, and more
 dev-python/urwid 2.1.2-r1 2.2.3: Curses-based user interface library for Python
 dev-python/urwid_readline 0.13-r1: Text input widget for urwid that supports readline shortcuts
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
@@ -14765,7 +14765,7 @@ net-libs/libsoup 2.74.3 3.4.2 3.4.3 3.4.4: HTTP client/server library for GNOME
 net-libs/libsrsirc 0.0.14-r1: A lightweight, cross-platform IRC library
 net-libs/libsrtp 1.6.0-r1 2.4.2: Open-source implementation of the Secure Real-time Transport Protocol (SRTP)
 net-libs/libssh 0.10.5 9999: Access a working SSH implementation by means of a library
-net-libs/libssh2 1.11.0-r1 1.11.0-r2 9999: Library implementing the SSH2 protocol
+net-libs/libssh2 1.11.0-r2 9999: Library implementing the SSH2 protocol
 net-libs/libtelnet 0.23-r1 9999: Simple RFC-compliant TELNET implementation as a C library
 net-libs/libtirpc 1.3.3 1.3.4: Transport Independent RPC library (SunRPC replacement)
 net-libs/libtorrent 0.13.8-r3: BitTorrent library written in C++ for *nix
@@ -14827,7 +14827,7 @@ net-libs/wandio 4.2.3_p1-r1 4.2.3_p1-r2 4.2.4: C library for simple and efficien
 net-libs/webkit-gtk 2.40.5 2.40.5-r410 2.40.5-r600 2.42.1 2.42.1-r410 2.42.1-r600: Open source web browser engine
 net-libs/wslay 1.1.1_p20210115: WebSocket library in C
 net-libs/wvstreams 4.6.1_p14-r2: A network programming library in C++
-net-libs/xdp-tools 1.4.0 1.4.1: The libxdp library and various tools for use with XDP
+net-libs/xdp-tools 1.4.0 1.4.1-r1: The libxdp library and various tools for use with XDP
 net-libs/xrootd 5.5.4-r1 5.5.5-r1 5.6.2 5.6.3-r1: Extended ROOT remote file server
 net-libs/xrootd-ceph 5.5.4 5.5.5: xrootd OSS plug-in for interfacing with Ceph storage platform
 net-libs/zeromq 4.3.3-r1 4.3.4-r1 4.3.4-r2 4.3.5: High-performance asynchronous messaging library
@@ -17269,15 +17269,15 @@ sys-devel/distcc 3.4-r1 3.4-r2 3.4-r3: Distribute compilation of C code across s
 sys-devel/dwz 0.14 0.15-r1: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1-r2 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r5 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r1 9.5.0 10.4.1_p20230426-r1 10.5.0 11.3.1_p20230427 11.4.1_p20230622 11.4.1_p20230824 11.4.1_p20231012 11.4.1_p20231019 11.4.1_p20231026 11.4.1_p20231102 11.4.1_p20231109 11.4.1_p20231116 11.5.9999 12.3.1_p20230526 12.3.1_p20230825 12.3.1_p20231006 12.3.1_p20231013 12.3.1_p20231020 12.3.1_p20231027 12.3.1_p20231103 12.3.1_p20231110 12.3.1_p20231117 12.4.9999 13.2.1_p20230826 13.2.1_p20231014 13.2.1_p20231021 13.2.1_p20231028 13.2.1_p20231104 13.2.1_p20231111 13.2.1_p20231118 13.3.9999 14.0.0_pre20231015 14.0.0_pre20231015-r1 14.0.0_pre20231022 14.0.0_pre20231022-r1 14.0.0_pre20231029 14.0.0_pre20231105 14.0.0_pre20231112 14.0.0_pre20231119 14.0.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r1 9.5.0 10.5.0 11.3.1_p20230427 11.4.1_p20230622 11.4.1_p20230824 11.4.1_p20231116 11.5.9999 12.3.1_p20230526 12.3.1_p20230825 12.3.1_p20231117 12.4.9999 13.2.1_p20230826 13.2.1_p20231014 13.2.1_p20231118 13.3.9999 14.0.0_pre20231119 14.0.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.11 9999: Utility to manage compilers
-sys-devel/gdb 13.2 13.2-r1 13.2-r2 14.0.91 9999: GNU debugger
+sys-devel/gdb 13.2-r1 13.2-r2 14.0.91 9999: GNU debugger
 sys-devel/gdb-apple 1752: Apple branch of the GNU Debugger, Developer Tools 4.3
 sys-devel/gettext 0.21.1 0.22-r1 0.22.2 0.22.3 0.22.4: GNU locale utilities
 sys-devel/gnuconfig 20221007 20230121 20230731 99999999: Updated config.sub and config.guess file from GNU
 sys-devel/icecream 1.4: Distributed compiler with a central scheduler to share build load
-sys-devel/kgcc64 10.5.0 11.3.0 11.4.0 11.4.1_p20230622 11.4.1_p20230824 12.2.0 12.3.1_p20230512-r1 12.3.1_p20230825 13.2.1_p20230826 13.2.1_p20231014: 64bit kernel compiler
+sys-devel/kgcc64 10.5.0 11.4.1_p20230622 11.4.1_p20230824 12.3.1_p20230512-r1 12.3.1_p20230825 13.2.1_p20230826 13.2.1_p20231014: 64bit kernel compiler
 sys-devel/libtool 2.4.7 2.4.7-r1 9999: A shared library tool for developers
 sys-devel/lld 14.0.6-r1 15.0.7 16.0.6 17.0.4 17.0.5 18.0.0_pre20231104 18.0.0_pre20231111 18.0.0_pre20231119 18.0.0.9999: The LLVM linker (link editor)
 sys-devel/lld-toolchain-symlinks 14-r2 15-r2 16-r2 17 18: Symlinks to use LLD on binutils-free system
@@ -17607,7 +17607,7 @@ sys-power/powermgmt-base 1.31-r2: Script to test whether computer is running on 
 sys-power/powernowd 1.00-r5: Daemon to control the speed and voltage of CPUs
 sys-power/powerstat 0.02.22 0.02.27 9999: Laptop power measuring tool
 sys-power/powertop 2.15 9999: tool to diagnose issues with power consumption and power management
-sys-power/sandmann-bin 0.9: An autosuspend and wakeup daemon
+sys-power/sandmann-bin 0.9-r1: An autosuspend and wakeup daemon
 sys-power/sispmctl 4.1-r1: GEMBIRD SiS-PM control utility
 sys-power/suspend 1.0_p20190605 1.0_p20200924: Userspace Software Suspend and S2Ram
 sys-power/switcheroo-control 2.6-r2: D-Bus service to check the availability of dual-GPU
