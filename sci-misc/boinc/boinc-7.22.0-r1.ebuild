@@ -1,12 +1,10 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-# For live ebuilds this should be set to the latest available patch in ${FILESDIR}
-# It does not need to reflect the actual internal version reported by BOINC unless that patch is broken.
-MY_PV=7.18
-WX_GTK_VER=3.2-gtk3
+MY_PV=$(ver_cut 1-2)
+WX_GTK_VER=3.0-gtk3
 
 inherit autotools desktop flag-o-matic linux-info optfeature wxwidgets xdg-utils
 
@@ -19,7 +17,7 @@ if [[ ${PV} == *9999 ]] ; then
 	inherit git-r3
 else
 	SRC_URI+=" https://github.com/BOINC/boinc/archive/client_release/${MY_PV}/${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+	KEYWORDS="amd64 arm64 ~ia64 ~ppc ppc64 sparc ~x86"
 	S="${WORKDIR}/${PN}-client_release-${MY_PV}-${PV}"
 fi
 
@@ -45,7 +43,6 @@ DEPEND="
 	)
 	dev-libs/openssl:=
 	net-misc/curl[curl_ssl_gnutls(-)=,curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
-	sys-apps/util-linux
 	sys-libs/zlib
 	X? (
 		dev-libs/glib:2
@@ -73,7 +70,7 @@ RDEPEND="
 
 PATCHES=(
 	# >=x11-libs/wxGTK-3.0.2.0-r3 has webview removed, bug 587462
-	"${FILESDIR}"/${PN}-${MY_PV}-fix_webview.patch
+	"${FILESDIR}"/${PN}-7.18-fix_webview.patch
 )
 
 pkg_setup() {
