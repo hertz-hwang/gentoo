@@ -6,6 +6,6 @@
 <name>Jason A. Donenfeld</name>
 </maintainer>
 <upstream>
-<remote-id type="github">geoffreybennett/alsa-scarlett-gui</remote-id>
+<remote-id type="github">michaelwillis/dragonfly-reverb</remote-id>
 </upstream>
 </pkgmetadata>
