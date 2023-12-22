@@ -1326,7 +1326,7 @@ app-containers/cosign 2.0.0 2.0.1 2.2.0 2.2.1: container signing utility
 app-containers/cri-o 1.26.0: OCI-based implementation of Kubernetes Container Runtime Interface
 app-containers/cri-tools 1.25.0 1.27.0: CLI and validation tools for Kubelet Container Runtime (CRI)
 app-containers/crun 1.8.1 1.8.4 1.11.2: A fast and low-memory footprint OCI Container Runtime fully written in C
-app-containers/devcontainer 0.54.2: Reference implementation of the Development Containers specification
+app-containers/devcontainer 0.54.2 0.55.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.5.0.2 1.6.0.1 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0: System container image builder for LXC and incus
 app-containers/docker 24.0.5 24.0.6 24.0.7: The core functions you need to create Docker images and run Docker containers
@@ -2127,7 +2127,7 @@ app-emacs/ocaml-mode 4.05.0: Emacs mode for OCaml
 app-emacs/orderless 0.7 0.8 1.0: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.0: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.4.1 0.4.2: Contributed packages to Org
-app-emacs/org-mode 9.5.5 9.6.9 9.6.10 9.6.11 9.6.12 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.5.5 9.6.11 9.6.12 9.6.13 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 0.10 1.1: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.5.0 1.6.0: Static site generator using Emacs's org-mode
@@ -3933,6 +3933,7 @@ dev-dotnet/dotnet-runtime-nugets 6.0.24 6.0.25 7.0.13 7.0.14 8.0.0: .NET runtime
 dev-dotnet/dotnet-script 1.5.0: Run C# scripts from the CLI
 dev-dotnet/dotnet-sdk 8.0.100-r1: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/dotnet-sdk-bin 6.0.417-r1 7.0.404-r1 8.0.100-r1: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/fable 4.9.0: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
 dev-dotnet/fantomas 6.2.3: FSharp source code formatter
 dev-dotnet/fsautocomplete 0.68.0: F# language server using the Language Server Protocol
 dev-dotnet/libgdiplus 6.0.2-r4: Library for using System.Drawing with Mono
@@ -3941,6 +3942,7 @@ dev-dotnet/nake 3.0.0-r1: C# scripting build automation task runner
 dev-dotnet/ndesk-dbus 0.6.1a: Managed D-Bus Implementation for .NET
 dev-dotnet/ndesk-dbus-glib 0.4.1: glib integration for DBus-Sharp
 dev-dotnet/netcoredbg 3.0.0.1012: NetCoreDbg is a managed code debugger with MI interface for CoreCLR
+dev-dotnet/omnisharp-roslyn 1.39.11: OmniSharp server (HTTP, STDIO) based on Roslyn workspaces
 dev-dotnet/pe-format 2.1.2-r1 9999: Intelligent PE executable wrapper for binfmt_misc
 dev-embedded/arduino 1.8.19: An open-source AVR electronics prototyping platform
 dev-embedded/arduino-builder 1.5.4-r1: A command line tool for compiling Arduino sketches
@@ -13222,7 +13224,7 @@ media-libs/libvisio 0.1.7 9999: Library parsing the file format of MS Visio docu
 media-libs/libvisual 0.4.1 0.4.2-r1: Abstraction library between applications and audio visualisation plugins
 media-libs/libvmaf 2.3.1 9999: C libary for Netflix's Perceptual video quality assessment
 media-libs/libvorbis 1.3.7-r1: The Ogg Vorbis sound file format library
-media-libs/libvpx 1.12.0-r1 1.13.0 1.13.0-r1 1.13.1 1.13.1-r1: WebM VP8 and VP9 Codec SDK
+media-libs/libvpx 1.13.1 1.13.1-r1: WebM VP8 and VP9 Codec SDK
 media-libs/libwebp 1.2.4-r2 1.3.1_p20230908 1.3.1_p20230912 1.3.2: A lossy image compression format
 media-libs/libwmf 0.2.8.4-r9 0.2.13-r1: A library for reading vector images in Microsoft's Windows Metafile Format (WMF)
 media-libs/libxmi 1.3-r1: C/C++ function library for rasterizing 2-D vector graphics
@@ -15354,7 +15356,7 @@ net-print/cnrdrvcups-lb 5.40: Canon UFR II / LIPSLX Printer Driver for Linux
 net-print/cups 2.4.6 2.4.7-r1 2.4.7-r2 9999: The Common Unix Printing System
 net-print/cups-bjnp 2.0.3 2.0.3-r1: CUPS backend for canon printers using proprietary USB over IP BJNP protocol
 net-print/cups-browsed 2.0.0: helper daemon to browse for remote CUPS queues and IPP network printers
-net-print/cups-filters 1.28.17 1.28.17-r2 2.0.0: Cups filters
+net-print/cups-filters 1.28.17-r2 2.0.0: Cups filters
 net-print/cups-meta 1: Metapackage for a fully configured cups printer setup
 net-print/cups-pdf 3.0.1-r2: Provides a virtual printer for CUPS to produce PDF files
 net-print/cups-pk-helper 0.2.7-r1: PolicyKit helper to configure cups with fine-grained privileges
@@ -15822,7 +15824,7 @@ sci-electronics/librepcb 0.1.7 1.0.0-r1: Free EDA software to develop printed ci
 sci-electronics/magic 8.3.232-r1 8.3.309-r2 8.3.309-r3 8.3.365: The VLSI design CAD tool
 sci-electronics/netgen 1.4.52: LVS tool (layout versus schematic comparison)
 sci-electronics/ngspice 36 40: The Next Generation Spice (Electronic Circuit Simulator)
-sci-electronics/nvc 1.11.0: NVC is a VHDL compiler and simulator
+sci-electronics/nvc 1.11.0 1.11.1: NVC is a VHDL compiler and simulator
 sci-electronics/osqoop 1.2.0_pre20170131: Multi-platform open source software oscilloscope based on Qt
 sci-electronics/pcb 4.2.2 4.3.0: GPL Electronic Design Automation: Printed Circuit Board editor
 sci-electronics/petrify 4.2-r1: Synthesize Petri nets into asynchronous circuits
@@ -17702,7 +17704,7 @@ sys-process/rtirq 20220923: Modify realtime scheduling policy and priority of IR
 sys-process/runit 2.1.2-r1: A UNIX init scheme with service supervision
 sys-process/schedtool 1.3.0-r1: A tool to query or alter a process' scheduling policy
 sys-process/supervise-scripts 4.0-r1 4.0-r2: Starting and stopping daemontools managed services
-sys-process/systemd-cron 1.15.19-r1 1.15.20 1.16.7-r1 2.1.3-r1 2.2.0 2.3.0: systemd units to create timers for cron directories and crontab
+sys-process/systemd-cron 1.15.19-r1 1.15.20 1.16.7-r1 2.1.3-r1 2.2.0-r1 2.3.0-r1: systemd units to create timers for cron directories and crontab
 sys-process/time 1.9-r1: Displays info about resources used by a program
 sys-process/tini 0.19.0-r1: A tiny but valid init for containers
 sys-process/tiptop 2.3.1_p4 2.3.1_p4_p20221211: top for performance counters
