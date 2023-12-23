@@ -2038,7 +2038,7 @@ app-emacs/google-c-style 20140929: Provides the google C/C++ coding style
 app-emacs/graphql 0.1.1 0.1.2: GraphQL utilities
 app-emacs/graphviz-dot-mode 0.4 0.4.20181118: Emacs mode for editing and previewing Graphviz dot graphs
 app-emacs/groovy-emacs-modes 2.1: Groovy major mode, grails minor mode, and a groovy inferior mode
-app-emacs/gruvbox-theme 1.30.1 9999: Gruvbox is a retro groove color scheme, now in Emacs
+app-emacs/gruvbox-theme 1.30.1-r1 9999: Gruvbox is a retro groove color scheme, now in Emacs
 app-emacs/h4x0r 0.13-r1: Aid in writing like a script kiddie does
 app-emacs/haskell-mode 17.4 17.5 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/haxe-mode 0.3.3: Major mode for editing Haxe files
@@ -3757,7 +3757,7 @@ dev-cpp/cctz 2.3_p20230228: C++ library for dealing with time zones and time con
 dev-cpp/cli11 2.3.2: Command line parser for C++11
 dev-cpp/clucene 2.3.3.4-r9: High-performance, full-featured text search engine based off of lucene in C++
 dev-cpp/cpp-hocon 0.3.0-r1: Provides C++ support for the HOCON configuration file format
-dev-cpp/cpp-httplib 0.14.1-r1 0.14.2: C++ HTTP/HTTPS server and client library
+dev-cpp/cpp-httplib 0.14.1-r1 0.14.2 0.14.3: C++ HTTP/HTTPS server and client library
 dev-cpp/cppdap 0_pre20230605-r1: C++ library for the Debug Adapter Protocol
 dev-cpp/cppgir 0_p20230701 0_p20230926: GObject-Introspection C++ binding wrapper generator
 dev-cpp/ctemplate 2.4: A simple but powerful template language for C++
@@ -16488,6 +16488,7 @@ sec-keys/openpgp-keys-wireshark 20230903: OpenPGP keys used to sign Wireshark re
 sec-keys/openpgp-keys-xpdf 20220515: OpenPGP key used to sign Xpdf releases
 sec-keys/openpgp-keys-yorhel 20221110: OpenPGP keys used by Yoran Heling
 sec-keys/openpgp-keys-yubico 20230825: OpenPGP keys used by Yubico's developers
+sec-keys/openpgp-keys-zackweinberg 20231223: OpenPGP keys used by Zack Weinberg
 sec-keys/signify-keys-signify 30: Signify keys used to sign signify portable releases
 sec-policy/apparmor-profiles 3.0.8 3.0.10 3.1.4 9999: A collection of profiles for the AppArmor application security system
 sec-policy/selinux-accountsd 2.20231002-r2 9999: SELinux policy for accountsd
@@ -17268,10 +17269,10 @@ sys-cluster/vzctl 4.9.4-r1: OpenVZ ConTainers control utility
 sys-cluster/zetcd 0.0.4-r2: ZooKeeper personality for etcd
 sys-cluster/zookeeper-bin 3.7.1 3.8.0 3.8.1 3.8.2 3.8.3 3.9.0 3.9.1: A high-performance coordination service for distributed applications
 sys-cluster/zookeepercli 1.0.12: Simple, lightweight, dependable CLI for ZooKeeper
-sys-devel/autoconf 2.13-r2 2.13-r7 2.13-r8 2.69-r5 2.69-r8 2.69-r9 2.71-r1 2.71-r5 2.71-r6 2.71-r7 2.72c-r2 2.72d 9999: Used to create autoconfiguration files
+sys-devel/autoconf 2.13-r7 2.13-r8 2.69-r9 2.71-r6 2.71-r7 2.72 9999: Used to create autoconfiguration files
 sys-devel/autoconf-archive 2022.09.03 2023.02.20: GNU Autoconf Macro Archive
 sys-devel/autoconf-dickey 2.52_p20210509-r1 2.52_p20221202 2.52_p20230114: Fork of sys-devel/autoconf for Thomas Dickey's packages
-sys-devel/autoconf-vanilla 2.13 2.69 2.71 2.72c 9999: Used to create autoconfiguration files
+sys-devel/autoconf-vanilla 2.13 2.69 2.71 9999: Used to create autoconfiguration files
 sys-devel/autoconf-wrapper 20221207 20221207-r1 99999999: Wrapper for autoconf to manage multiple autoconf versions
 sys-devel/autogen 5.18.16-r1 5.18.16-r2 5.18.16-r3: Program and text file generation
 sys-devel/automake 1.11.6-r4 1.16.5-r1 9999: Used to generate Makefile.in from Makefile.am
@@ -17542,7 +17543,7 @@ sys-libs/fortify-headers 1.1 9999: Standalone implementation of fortify source
 sys-libs/freeipmi 1.6.10-r1 1.6.11: Provides Remote-Console and System Management Software as per IPMI v1.5/2.0
 sys-libs/fts-standalone 1.2.7: Standalone fts library for use with musl
 sys-libs/gdbm 1.23: Standard GNU database libraries
-sys-libs/glibc 2.19-r2 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r7 2.37-r8 2.38-r6 2.38-r7 9999: GNU libc C library
+sys-libs/glibc 2.19-r2 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r7 2.37-r8 2.38-r6 2.38-r7 2.38-r8 9999: GNU libc C library
 sys-libs/gpm 1.20.7-r5: Console-based mouse driver
 sys-libs/gwenhywfar 5.10.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 23.08.3 23.08.4: Library for managing partitions
