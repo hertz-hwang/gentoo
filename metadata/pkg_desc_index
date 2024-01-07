@@ -2954,9 +2954,9 @@ app-office/kraft 1.0: Software to manage quotes and invoices in small enterprise
 app-office/ktimetracker 5.0.1-r1: Todo management and time tracker
 app-office/ledger 3.3.2: Double-entry accounting system with a command-line reporting interface
 app-office/libalkimia 8.1.2: Library with common classes and functionality used by KDE finance applications
-app-office/libreoffice 7.5.6.2 7.5.8.2 7.5.8.2-r2 7.5.9.2 9999: A full office productivity suite
-app-office/libreoffice-bin 7.5.6.2 7.5.8.2: A full office productivity suite. Binary package
-app-office/libreoffice-bin-debug 7.5.6.2 7.5.8.2: LibreOffice, a full office productivity suite. Binary package, debug info
+app-office/libreoffice 7.5.9.2 9999: A full office productivity suite
+app-office/libreoffice-bin 7.5.6.2-r1 7.5.8.2: A full office productivity suite. Binary package
+app-office/libreoffice-bin-debug 7.5.6.2-r1 7.5.8.2: LibreOffice, a full office productivity suite. Binary package, debug info
 app-office/libreoffice-l10n 7.5.6.2 7.5.8.2 7.5.9.2: Translations for the Libreoffice suite
 app-office/libreoffice-voikko 5.0-r1: Free Finnish spell checking and hyphenation for LibreOffice
 app-office/lyx 2.3.7: WYSIWYM (What You See Is What You Mean) document processor based on LaTeX
@@ -4723,7 +4723,7 @@ dev-java/gin 2.1.2-r1: Google Gin (GWT INjection)
 dev-java/glassfish-persistence 1.0-r2: Glassfish implementation of persistence API
 dev-java/gnu-jaf 1.1.2-r1: GNU implementation of the JavaBeans Activation Framework
 dev-java/gnu-regexp 1.1.4-r4: GNU regular expression package for Java
-dev-java/gradle-bin 6.8.3 7.1.1 7.2 7.3.3 7.4.2 7.5.1 7.6.1 8.0.2 8.1.1 8.2.1 8.3 8.4: A project automation and build tool with a Groovy based DSL
+dev-java/gradle-bin 8.4 8.5: A project automation and build tool with a Groovy based DSL
 dev-java/greenmail 2.0.0_alpha2: GreenMail - Email Test Servers
 dev-java/gson 2.10.2_pre20231128: Gson JSON library
 dev-java/guava 32.1.2-r1 32.1.3 33.0.0: A collection of Google's core Java libraries
@@ -4809,7 +4809,7 @@ dev-java/jchart2d 3.2.2-r1: A minimalistic realtime charting library for Java
 dev-java/jcifs 1.3.19-r2: Library that implements the CIFS/SMB networking protocol in Java
 dev-java/jclasslib 3.1-r1: Java bytecode viewer
 dev-java/jcommander 1.64-r1 1.82: Command line parsing framework for Java
-dev-java/jctools-core 4.0.1 4.0.2: Java Concurrency Tools Core Library
+dev-java/jctools-core 4.0.2: Java Concurrency Tools Core Library
 dev-java/jdbc-mysql 8.1.0: JDBC Type 4 driver for MySQL
 dev-java/jdbc-postgresql 42.6.0 42.7.1: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database
 dev-java/jdepend 2.10 2.10-r1: Traverses Java class file directories and generates design quality metrics
@@ -13938,7 +13938,7 @@ media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be us
 media-sound/rhythmbox 3.4.7-r3: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
 media-sound/ripperx 2.7.3: GTK program to rip CD audio tracks to Ogg, MP3 or FLAC
-media-sound/rosegarden 23.06 23.12: MIDI and audio sequencer and notation editor
+media-sound/rosegarden 23.12: MIDI and audio sequencer and notation editor
 media-sound/saydate 0.3.0: A Linux shell program that talks the date and system uptime
 media-sound/schismtracker 20231029: Free implementation of Impulse Tracker, a tool used to create high quality music
 media-sound/scmpc 0.4.1: a client for MPD which submits your tracks to last.fm
@@ -15136,7 +15136,7 @@ net-misc/ndppd 0.2.5: Proxies NDP messages between interfaces
 net-misc/nemesis 1.7-r1: A commandline-based, portable human IP stack for UNIX/Linux
 net-misc/netdate 1.2-r1: utility to synchronize the time with ntp-servers
 net-misc/netevent 2.0_p20200217 2.2.1: Tool to share Linux event devices with other machines
-net-misc/netifrc 0.7.7 9999: Gentoo Network Interface Management Scripts
+net-misc/netifrc 0.7.7 0.7.8 9999: Gentoo Network Interface Management Scripts
 net-misc/netkit-bootparamd 0.17-r5: Netkit - bootparamd: Net-boot support daemon
 net-misc/netkit-bootpd 2.4-r2: Netkit - bootp
 net-misc/netkit-fingerd 0.17-r3: Netkit - fingerd and finger client
