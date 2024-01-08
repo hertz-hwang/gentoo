@@ -39,8 +39,8 @@ BDEPEND="
 		app-text/docbook-xml-dtd:4.3
 		app-text/docbook-xml-dtd:4.5
 	)
-	sys-devel/bison
-	sys-devel/flex
+	app-alternatives/yacc
+	app-alternatives/lex
 	test? (
 		x11-libs/cairo[glib]
 		$(python_gen_cond_dep '

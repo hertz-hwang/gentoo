@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: toolchain.eclass
@@ -303,8 +303,8 @@ if tc_has_feature graphite ; then
 fi
 
 BDEPEND="
-	>=sys-devel/bison-1.875
-	>=sys-devel/flex-2.5.4
+	app-alternatives/yacc
+	app-alternatives/lex
 	nls? ( sys-devel/gettext )
 	test? (
 		>=dev-util/dejagnu-1.4.4
