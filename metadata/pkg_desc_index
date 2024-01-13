@@ -8266,7 +8266,7 @@ dev-python/emcee 3.1.4: Python ensemble sampling toolkit for affine-invariant MC
 dev-python/emoji 2.9.0: Emoji for Python
 dev-python/enrich 1.2.7-r1: Extend rich functionality
 dev-python/ensurepip-pip 23.3.2: Shared pip wheel for ensurepip Python module
-dev-python/ensurepip-setuptools 69.0.2 69.0.3: Shared setuptools wheel for ensurepip Python module
+dev-python/ensurepip-setuptools 69.0.3: Shared setuptools wheel for ensurepip Python module
 dev-python/ensurepip-wheel 0.42.0: Shared wheel wheel for use in pip tests
 dev-python/ensurepip-wheels 100: Shared wheels for ensurepip Python module
 dev-python/entrypoint2 1.1: Easy to use command-line interface for python modules
@@ -9255,7 +9255,7 @@ dev-python/serpent 1.41: A simple serialization library based on ast.literal_eva
 dev-python/serverfiles 0.3.1-r1: Utility for accessing HTTP server and storing files locally for reuse
 dev-python/service-identity 23.1.0: Service identity verification for pyOpenSSL
 dev-python/setproctitle 1.3.3: Allow customization of the process title
-dev-python/setuptools 69.0.2-r1 69.0.3: Collection of extensions to Distutils
+dev-python/setuptools 69.0.3: Collection of extensions to Distutils
 dev-python/setuptools-gettext 0.1.8-r1: Setuptools plugin for building mo files
 dev-python/setuptools-git 1.2-r3: Setuptools revision control system plugin for Git
 dev-python/setuptools-rust 1.6.0 1.8.1: A plugin for setuptools to build Rust Python extensions
@@ -10953,7 +10953,7 @@ dev-vcs/hg-git 0.10.3 1.0.2 1.0.2-r1: push to and pull from a Git repository usi
 dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at GitHub
 dev-vcs/kdesvn 2.1.0-r1: Frontend to the subversion vcs
 dev-vcs/lab 0.25.1: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
-dev-vcs/mercurial 6.2.3 6.3.2 6.4.4 6.5.3 9999: Scalable distributed SCM
+dev-vcs/mercurial 6.2.3 6.3.2 6.4.4 6.5.3 6.6.2 9999: Scalable distributed SCM
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/notify-webhook 0.1.0-r1: Git post-receive web hook notifier in Python
 dev-vcs/pre-commit 3.3.3 3.5.0 3.6.0: A framework for managing and maintaining multi-language Git pre-commit hooks
