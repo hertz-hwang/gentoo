@@ -1202,7 +1202,7 @@ app-backup/backupninja 1.2.2: lightweight, extensible meta-backup system
 app-backup/backuppc 3.3.1-r6 4.4.0-r1: High-performance backups to a server's disk
 app-backup/bacula 13.0.3-r2: Featureful client/server network backup suite
 app-backup/bareos 20.0.9 21.1.8 22.1.2-r1 9999: Featureful client/server network backup suite
-app-backup/borgbackup 1.2.6 1.2.7: Deduplicating backup program with compression and authenticated encryption
+app-backup/borgbackup 1.2.7: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 1.8.3 1.8.5: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
 app-backup/burp 3.1.4: Network backup and restore client and server for Unix and Windows
@@ -2120,7 +2120,7 @@ app-emacs/ninja-mode 1.11.1-r2: GNU Emacs mode for handling Ninja build files
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.0 5.1: Add support for DocBook 5 schemas to NXML
 app-emacs/nxml-gentoo-schemas 20231022: Extension for nxml-mode with Gentoo-specific schemas
-app-emacs/nxml-libvirt-schemas 8.8.0 8.9.0 9.2.0 9.3.0 9.6.0 9.8.0 9.9.0: Extension for nxml-mode with libvirt schemas
+app-emacs/nxml-libvirt-schemas 8.8.0 8.9.0 9.2.0 9.3.0 9.6.0 9.8.0 9.9.0 10.0.0: Extension for nxml-mode with libvirt schemas
 app-emacs/nxml-svg-schemas 1.1.20081123-r1: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.16: OAuth 2.0 authorization protocol
 app-emacs/ocaml-mode 4.05.0: Emacs mode for OCaml
@@ -2320,7 +2320,7 @@ app-emulation/libdsk 1.5.18: LIBDSK is a library for accessing discs and disc im
 app-emulation/libguestfs 1.48.6: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.46.0: VM appliance disk image used in libguestfs package
 app-emulation/libspectrum 1.5.0: Spectrum emulation library
-app-emulation/libvirt 9.3.0-r1 9.4.0-r4 9.5.0-r1 9.6.0 9.8.0 9.9.0 9999: C toolkit to manipulate virtual machines
+app-emulation/libvirt 9.3.0-r1 9.4.0-r4 9.5.0-r1 9.6.0 9.8.0 9.9.0 10.0.0 9999: C toolkit to manipulate virtual machines
 app-emulation/libvirt-glib 4.0.0 5.0.0: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.0.0 3.1.0 3.3.0: Ncurses interface for QEMU
 app-emulation/open-vm-tools 12.2.0 12.2.5: Tools for VMware guests
@@ -2858,7 +2858,7 @@ app-misc/solaar 1.1.8-r1 1.1.9 9999: Linux Device Manager for Logitech Unifying 
 app-misc/sonypid 1.9: Tool to use the Sony Vaios jog-dial as a mouse-wheel
 app-misc/spacenavd 0.8 1.1 1.2: The spacenavd daemon provides free alternative to the 3dxserv daemon
 app-misc/sphinx 2.2.11-r5: Full-text search engine with support for MySQL and PostgreSQL
-app-misc/spire 1.3.3 1.7.1: the spiffe runtime environment
+app-misc/spire 1.3.3 1.7.1 1.8.7: the spiffe runtime environment
 app-misc/splitvt 1.6.6_p7: Splitting terminals into two shells
 app-misc/srm 1.2.15: A command-line compatible rm which destroys file contents before unlinking
 app-misc/supercat 0.5.7 0.5.8: A text file colorizer using powerful regular expressions
@@ -3016,7 +3016,7 @@ app-portage/g-sorcery 0.2.3: framework for ebuild generators
 app-portage/gemato 20.5 9999: Stand-alone Manifest generation & verification tool
 app-portage/genlop 0.30.10-r2 0.30.11 9999: Nice emerge.log parser
 app-portage/gentle 0.3.1 0.4.0: Gentoo Lazy Entry - a metadata.xml generator
-app-portage/gentoolkit 0.6.1-r3 0.6.3-r1 9999: Collection of administration scripts for Gentoo
+app-portage/gentoolkit 0.6.3-r1 0.6.4 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.9.1 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
 app-portage/golop 0.2.1 9999: A pure Go re-implementation of genlop
@@ -3779,7 +3779,7 @@ dev-build/kbuild 0.1.9998.3499-r4 0.1.9998.3572-r4 0.1.9998.3592 9999: A makefil
 dev-build/libtool 2.4.7-r1 2.4.7-r2 9999: A shared library tool for developers
 dev-build/mage 1.11.0 1.13.0 1.15.0: make/rake like tool using go
 dev-build/make 4.3-r1 4.4.1-r1 9999: Standard tool to compile source trees
-dev-build/meson 1.1.1 1.2.1-r1 1.2.1-r2 1.2.2 1.2.2-r1 1.2.3 1.3.0-r1 1.3.0-r2 1.3.1 9999: Open source build system
+dev-build/meson 1.1.1 1.2.1-r1 1.2.1-r2 1.2.2 1.2.2-r1 1.2.3 1.3.0-r1 1.3.0-r2 1.3.1-r1 9999: Open source build system
 dev-build/meson-format-array 0: Format shell expressions into a meson array
 dev-build/muon 0.2.0-r1: A meson-compatible build system
 dev-build/netsurf-buildsystem 1.9-r2: Build system used for netsurf and its libs
@@ -7398,7 +7398,7 @@ dev-perl/Sys-Mmap 0.200.0: Uses mmap to map in a file as a Perl variable
 dev-perl/Sys-SigAction 0.230.0-r1: Perl extension for Consistent Signal Handling
 dev-perl/Sys-Statistics-Linux 0.660.0-r2: Collect linux system statistics
 dev-perl/Sys-Syscall 0.250.0-r3: Access system calls that Perl doesn't normally provide access to
-dev-perl/Sys-Virt 9.2.0 9.4.0 9.7.0: API for using the libvirt library from Perl
+dev-perl/Sys-Virt 9.2.0 9.4.0 9.7.0 9.8.0 10.0.0: API for using the libvirt library from Perl
 dev-perl/Sysadm-Install 0.480.0-r1: Typical installation tasks for system administrators
 dev-perl/TAP-Parser-SourceHandler-pgTAP 3.350.0-r1 3.360.0: Stream TAP from pgTAP test scripts
 dev-perl/Taint-Runtime 0.30.0-r2: Runtime enable taint checking
@@ -8062,7 +8062,7 @@ dev-python/appdirs 1.4.4-r3: Module for determining appropriate platform-specifi
 dev-python/apprise 1.6.0 1.7.1: Push Notifications that work with just about every platform
 dev-python/apsw 3.44.2.0: APSW - Another Python SQLite Wrapper
 dev-python/argcomplete 3.2.1: Bash tab completion for argparse
-dev-python/argh 0.30.5 0.31.0: A simple argparse wrapper
+dev-python/argh 0.31.0: A simple argparse wrapper
 dev-python/argon2-cffi 23.1.0: CFFI bindings to the Argon2 password hashing library
 dev-python/argon2-cffi-bindings 21.2.0-r1: Low-level CFFI bindings for the Argon2 password hashing library
 dev-python/argparse-manpage 4.5: Automatically build man-pages for your Python project
@@ -8158,7 +8158,7 @@ dev-python/cfn-lint 0.83.7 0.83.8 0.84.0: CloudFormation Linter
 dev-python/cftime 1.6.3: Time-handling functionality from netcdf4-python
 dev-python/cgroup-utils 0.8-r1: Tools and libraries for control groups of Linux
 dev-python/chainstream 1.0.1: Chain I/O-Streams together into a single stream
-dev-python/chameleon 4.3.0 4.4.2 4.4.3 4.5.0: Fast HTML/XML template compiler for Python
+dev-python/chameleon 4.4.3 4.5.0: Fast HTML/XML template compiler for Python
 dev-python/characteristic 14.3.0-r4: Python attributes without the boilerplate
 dev-python/chardet 5.2.0: Universal encoding detector
 dev-python/charset-normalizer 3.3.2: The Real First Universal Charset Detector
@@ -8192,7 +8192,7 @@ dev-python/coloredlogs 15.0.1-r1: Colored stream handler for the logging module
 dev-python/colorful 0.5.5 0.5.6: Terminal string styling done right, in Python
 dev-python/colorlog 6.8.0: Log formatting with colors
 dev-python/colour 0.1.5 0.1.5-r1: Python color representations manipulation library
-dev-python/comm 0.2.0 0.2.1: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
+dev-python/comm 0.2.1: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
 dev-python/commentjson 0.9.0-r2: Add Python and JavaScript style comments in your JSON files
 dev-python/commonmark 0.9.1-r1: Python parser for the CommonMark Markdown spec
 dev-python/configclass 0.2.0-r1: A Python to class to hold configuration values
@@ -8405,8 +8405,8 @@ dev-python/gitdb 4.0.11: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gmpy 2.1.5-r2: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.15.0: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.111.0 2.112.0 2.113.0 2.114.0: Google API Client for Python
-dev-python/google-auth 2.25.2 2.26.1 2.26.2: Google Authentication Library
+dev-python/google-api-python-client 2.112.0 2.113.0 2.114.0: Google API Client for Python
+dev-python/google-auth 2.26.1 2.26.2: Google Authentication Library
 dev-python/google-auth-httplib2 0.2.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.2.0-r1: Google Authentication Library
 dev-python/google-i18n-address 3.1.0: Google's i18n address metadata repository
@@ -8430,7 +8430,7 @@ dev-python/h11 0.14.0: A pure-Python implementation of HTTP/1.1 inspired by hype
 dev-python/h2 4.1.0-r1: HTTP/2 State-Machine based protocol implementation
 dev-python/h5py 3.10.0-r1: Simple Python interface to HDF5 files
 dev-python/happybase 1.2.0-r1: A developer-friendly Python library to interact with Apache HBase
-dev-python/hatch-fancy-pypi-readme 23.1.0 23.2.0 24.1.0: Fancy PyPI READMEs with Hatch
+dev-python/hatch-fancy-pypi-readme 24.1.0: Fancy PyPI READMEs with Hatch
 dev-python/hatch-jupyter-builder 0.8.3: A hatch plugin to help build Jupyter packages
 dev-python/hatch-vcs 0.4.0: Hatch plugin for versioning with your preferred VCS
 dev-python/hatchling 1.21.0: Modern, extensible Python build backend
@@ -8457,7 +8457,7 @@ dev-python/hvac 2.0.0 2.1.0: HashiCorp Vault API client
 dev-python/hypercorn 0.14.4 0.15.0 0.16.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.0.1-r1: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.92.0 6.92.2 6.92.6 6.92.7 6.92.8 6.92.9 6.93.0 6.93.2 6.94.0 6.96.0 6.96.1: A library for property based testing
+dev-python/hypothesis 6.92.2 6.92.6 6.92.7 6.92.8 6.92.9 6.93.0 6.93.2 6.94.0 6.96.0 6.96.1: A library for property based testing
 dev-python/icalendar 5.0.11: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/identify 2.5.33: File identification library for Python
 dev-python/idna 3.6: Internationalized Domain Names in Applications (IDNA)
@@ -8547,7 +8547,7 @@ dev-python/junit-xml 1.9-r1: Create JUnit XML test result documents
 dev-python/jupyter 1.0.0-r4: Jupyter metapackage. Install all the Jupyter components in one go
 dev-python/jupyter-client 8.6.0: Jupyter protocol implementation and client libraries
 dev-python/jupyter-console 6.6.3: A terminal-based console frontend for Jupyter kernels
-dev-python/jupyter-core 5.5.0 5.5.1 5.6.0 5.6.1 5.7.0 5.7.1: Core common functionality of Jupyter projects
+dev-python/jupyter-core 5.7.0 5.7.1: Core common functionality of Jupyter projects
 dev-python/jupyter-events 0.9.0: Jupyter Event System library
 dev-python/jupyter-kernel-test 0.6.0: A tool for testing Jupyter kernels
 dev-python/jupyter-lsp 2.2.1: Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab
@@ -8592,7 +8592,7 @@ dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libpillowfight 0.3.0_p20210816-r1: Small library containing various image processing algorithms
 dev-python/libsass 0.22.0-r1 0.23.0: A straightforward binding of libsass for Python
 dev-python/libtmux 0.21.0 0.22.1 0.23.0 0.23.2 0.24.1 0.25.0: Python API for tmux
-dev-python/libvirt-python 9.3.0 9.4.0 9.5.0 9.6.0 9.8.0 9.9.0 9999: libvirt Python bindings
+dev-python/libvirt-python 9.3.0 9.4.0 9.5.0 9.6.0 9.8.0 9.9.0 10.0.0 9999: libvirt Python bindings
 dev-python/license-expression 30.2.0: Parse, compare, simplify and normalize license expressions
 dev-python/line-profiler 4.1.2: Line-by-line profiler
 dev-python/linkify-it-py 2.0.2: Links recognition library with full unicode support
@@ -8710,7 +8710,7 @@ dev-python/natsort 8.4.0: Natural sorting for Python
 dev-python/nautilus-python 4.0: Python bindings for the Nautilus file manager
 dev-python/nbclassic 1.0.0-r1: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.9.0: A client library for executing Jupyter notebooks
-dev-python/nbconvert 7.13.1 7.14.0 7.14.1 7.14.2: Converting Jupyter Notebooks
+dev-python/nbconvert 7.14.0 7.14.1 7.14.2: Converting Jupyter Notebooks
 dev-python/nbdime 4.0.1: Diff and merge of Jupyter Notebooks
 dev-python/nbformat 5.9.2: Reference implementation of the Jupyter Notebook format
 dev-python/nbsphinx 0.9.3: Jupyter Notebook Tools for Sphinx
@@ -8718,7 +8718,7 @@ dev-python/nbval 0.10.0-r1: A pytest plugin to validate Jupyter notebooks
 dev-python/nbxmpp 4.5.3: Python library to use Jabber/XMPP networks in a non-blocking way
 dev-python/neovim-remote 2.5.1 9999: A tool that helps control neovim processes
 dev-python/nest-asyncio 1.5.8 1.5.9: Patch asyncio to allow nested event loops
-dev-python/netaddr 0.9.0 0.10.0 0.10.1: Network address representation and manipulation library
+dev-python/netaddr 0.10.0 0.10.1: Network address representation and manipulation library
 dev-python/netcdf4 1.6.5: Python/numpy interface to the netCDF C library
 dev-python/netifaces 0.11.0-r1 0.11.0-r2: Portable network interface information
 dev-python/networkx 3.1 3.2.1: Python tools to manipulate graphs and complex networks
@@ -8920,7 +8920,7 @@ dev-python/pycurl-requests 0.5.0-r1: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.7: Set of facilities to extend Python with C++
 dev-python/pydantic 1.10.13 2.4.2 2.5.1 2.5.2 2.5.3: Data parsing and validation using Python type hints
 dev-python/pydantic-core 2.10.1 2.14.3 2.14.4 2.14.5 2.14.6 2.15.0 2.16.0: Core validation logic for pydantic written in Rust
-dev-python/pydata-sphinx-theme 0.14.4 0.15.1: Bootstrap-based Sphinx theme from the PyData community
+dev-python/pydata-sphinx-theme 0.15.1: Bootstrap-based Sphinx theme from the PyData community
 dev-python/pydbus 0.6.0-r1: Pythonic DBus library
 dev-python/pydecomp 0.3-r3 9999: A python library of common (de)compression and contents handling
 dev-python/pydevd 2.9.5 2.10.0: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
@@ -8972,7 +8972,7 @@ dev-python/pylru 1.2.1: A least recently used (LRU) cache for Python
 dev-python/pyls-spyder 0.4.0-r2: Spyder extensions for the python language server
 dev-python/pymacaroons 0.13.0-r1: A Python implementation of Macaroons
 dev-python/pymad 0.11.3: Python wrapper for libmad MP3 decoding in python
-dev-python/pymdown-extensions 10.5 10.6 10.7: Extensions for Python Markdown
+dev-python/pymdown-extensions 10.7: Extensions for Python Markdown
 dev-python/pymdown-lexers 0_pre20210902: Additional lexers for use in Pygments
 dev-python/pymdstat 0.4.3: Python library to parse Linux /proc/mdstat
 dev-python/pymediainfo 6.1.0: A wrapper around the mediainfo library
@@ -9045,11 +9045,11 @@ dev-python/pysvg 0.2.2_p3-r1: Python SVG document creation library
 dev-python/pysvn 1.9.18: Object-oriented python bindings for subversion
 dev-python/pyte 0.8.2: Simple VTXXX-compatible terminal emulator
 dev-python/pytesseract 0.3.12: Optical character recognition (OCR) tool
-dev-python/pytest 7.4.2 7.4.3 7.4.4: Simple powerful testing with Python
+dev-python/pytest 7.4.4: Simple powerful testing with Python
 dev-python/pytest-aiohttp 1.0.5: pytest plugin for aiohttp support
 dev-python/pytest-asyncio 0.23.2 0.23.3 0.23.4_alpha1 0.23.4_alpha2: Library for testing asyncio code with pytest
 dev-python/pytest-bdd 7.0.1: BDD library for the pytest runner
-dev-python/pytest-check 2.2.2 2.2.3 2.2.4 2.3.0: pytest plugin that allows multiple failures per test
+dev-python/pytest-check 2.2.3 2.2.4 2.3.0: pytest plugin that allows multiple failures per test
 dev-python/pytest-codeblocks 0.17.0: Extract code blocks from markdown
 dev-python/pytest-console-scripts 1.4.1: Pytest plugin for testing console scripts
 dev-python/pytest-cov 4.1.0: pytest plugin for coverage reporting
@@ -9118,7 +9118,7 @@ dev-python/python-constraint 1.4.0: Constraint Solving Problem resolver for Pyth
 dev-python/python-ctags3 1.6.0: Exuberant Ctags indexing python bindings
 dev-python/python-daemon 2.3.2: Library to implement a well-behaved Unix daemon process
 dev-python/python-dateutil 2.8.2-r1: Extensions to the standard Python datetime module
-dev-python/python-dbusmock 0.30.0 0.30.1 0.30.2: Easily create mock objects on D-Bus for software testing
+dev-python/python-dbusmock 0.30.2: Easily create mock objects on D-Bus for software testing
 dev-python/python-debian 0.1.49: Python modules to work with Debian-related data formats
 dev-python/python-distutils-extra 2.47: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-dotenv 1.0.0: Manage .env files
@@ -9482,12 +9482,12 @@ dev-python/towncrier 23.11.0: Building newsfiles for your project
 dev-python/tox 3.28.0 4.11.4 4.12.0 4.12.1: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.1.0-r1: Python bindings for TSS
 dev-python/tqdm 4.66.1: Add a progress meter to your loops in a second
-dev-python/traitlets 5.14.0 5.14.1: A configuration system for Python applications
+dev-python/traitlets 5.14.1: A configuration system for Python applications
 dev-python/transitions 0.9.0: A lightweight, object-oriented state machine implementation in Python
 dev-python/translate-toolkit 3.12.1: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.20.1-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 23.11.0: A requests-like API built on top of twisted.web's Agent
-dev-python/trimesh 4.0.7 4.0.8 4.0.9: Python library for loading and using triangular meshes
+dev-python/trimesh 4.0.8 4.0.9: Python library for loading and using triangular meshes
 dev-python/trio 0.23.2 0.24.0: Python library for async concurrency and I/O
 dev-python/trio-websocket 0.11.1: WebSocket client and server implementation for Python Trio
 dev-python/trove-classifiers 2023.11.29 2024.1.8: Canonical source for classifiers on PyPI (pypi.org)
@@ -13129,7 +13129,7 @@ media-libs/libdc1394 2.2.6: Library to interface with IEEE 1394 cameras followin
 media-libs/libdca 0.0.7: Library for decoding DTS Coherent Acoustics streams used in DVD
 media-libs/libde265 1.0.11 9999: Open h.265 video codec implementation
 media-libs/libdiscid 0.6.4: Client library to create MusicBrainz enabled tagging applications
-media-libs/libdisplay-info 0_p20230112 0.1.1: Simple framework for writing Vulkan layers
+media-libs/libdisplay-info 0.1.1: Simple framework for writing Vulkan layers
 media-libs/libdmtx 0.7.7: Barcode data matrix reading and writing library
 media-libs/libdv 1.0.0-r4: Software codec for dv-format video (camcorders etc)
 media-libs/libdvbcsa 1.1.0-r1: Free implementation of the DVB Common Scrambling Algorithm - DVB/CSA
@@ -15341,7 +15341,7 @@ net-news/canto-curses 0.9.9: The ncurses client for canto-daemon
 net-news/canto-daemon 0.9.8: Daemon part of Canto-NG RSS reader
 net-news/liferea 1.14.5-r1 1.15.4: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
 net-news/newsboat 2.21-r1 2.23-r1 2.28 2.29 2.30.1: An RSS/Atom feed reader for text terminals
-net-news/rssguard 4.5.5 4.6.1 4.6.2 4.6.3: Simple (yet powerful) news feed reader
+net-news/rssguard 4.6.3: Simple (yet powerful) news feed reader
 net-news/rsstail 2.1 2.1_p20200310: A tail-like RSS-reader
 net-news/rsstool 1.0.1_rc2: cmdline tool to read, parse, merge, and write RSS (and Atom) feeds
 net-news/sfeed 1.6 1.8 1.9: Simple RSS and Atom parser
@@ -15417,8 +15417,8 @@ net-print/foomatic-db-engine 4.0.12-r1: Generates ppds out of xml foomatic print
 net-print/foomatic-db-ppds 4.0.20190226: linuxprinting.org PPD files for postscript printers
 net-print/gtklp 1.3.1: A GUI for cupsd
 net-print/gutenprint 5.3.4-r2: Ghostscript and cups printer drivers
-net-print/hplip 3.23.8 3.23.12: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
-net-print/hplip-plugin 3.23.8 3.23.12: Proprietary plugins and firmware for HPLIP
+net-print/hplip 3.23.12: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
+net-print/hplip-plugin 3.23.12: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r1: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/lexmark-upd-ppd 1.0.0.20220702: Lexmark universal printer driver PPDs
@@ -17557,7 +17557,7 @@ sys-kernel/installkernel-systemd 2-r4 2-r5 3 4-r1: Wrap kernel-install from syst
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.1.70: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20231030 20231111-r1 20231211 20240115 99999999: Linux firmware files
+sys-kernel/linux-firmware 20231111-r1 20231211 20240115 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.14.307 4.19.275 5.4.234: Kernel.org sources for MIPS-based machines
@@ -18060,7 +18060,7 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.0: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 6.5.3206.50 6.5.3206.53: A browser for our friends
+www-client/vivaldi 6.5.3206.53 6.5.3206.55: A browser for our friends
 www-client/vivaldi-snapshot 6.5.3222.3 6.6.3238.3: A browser for our friends
 www-client/w3m 0.5.3_p20210102 0.5.3_p20220216 0.5.3_p20220429 0.5.3_p20220429-r1 0.5.3_p20230121: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r12: A variant of w3m with support for multiple character encodings
