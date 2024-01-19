@@ -3,19 +3,23 @@
 
 EAPI=8
 
-inherit cmake-multilib flag-o-matic git-r3 gnome2-utils
+inherit cmake-multilib flag-o-matic gnome2-utils
 
+# This changes frequently.  Please check the testdata submodule when bumping.
+TESTDATA_COMMIT="ff8d743aaba05b3014f17e5475e576242fa979fc"
 DESCRIPTION="JPEG XL image format reference implementation"
 HOMEPAGE="https://github.com/libjxl/libjxl"
-
-EGIT_REPO_URI="https://github.com/libjxl/libjxl.git"
-EGIT_SUBMODULES=(third_party/libjpeg-turbo
-	third_party/skcms
-	third_party/testdata
-)
+SRC_URI="
+	https://github.com/libjxl/libjxl/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+	test? (
+		https://github.com/libjxl/testdata/archive/${TESTDATA_COMMIT}.tar.gz
+			-> ${PN}-testdata-${TESTDATA_COMMIT}.tar.gz
+	)
+"
 
 LICENSE="BSD"
-SLOT="0"
+SLOT="0/$(ver_cut 1-2)"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="gdk-pixbuf openexr test"
 RESTRICT="!test? ( test )"
 
@@ -35,6 +39,10 @@ DEPEND="
 	test? ( dev-cpp/gtest[${MULTILIB_USEDEP}] )
 "
 RDEPEND="${DEPEND}"
+PATCHES=(
+	"${FILESDIR}/${PN}-0.9.1-backport-pr3138.patch"
+	"${FILESDIR}/${PN}-0.9.1-backport-pr3143.patch"
+)
 
 multilib_src_configure() {
 	filter-lto
