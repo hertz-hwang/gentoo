@@ -5211,8 +5211,8 @@ dev-lang/qu-prolog 10.6 10.7: Extended Prolog supporting quantifiers, object-var
 dev-lang/rakudo 2023.02 2023.10 2023.12: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/ruby 3.1.4-r3 3.1.4-r4 3.1.4-r5 3.2.2-r3 3.2.2-r4 3.2.2-r5 3.2.3 3.3.0 3.3.0-r1: An object-oriented scripting language
-dev-lang/rust 1.65.0 1.66.1 1.67.1-r1 1.68.2 1.69.0-r1 1.70.0 1.71.0 1.71.1 1.72.0-r1 1.73.0 1.74.1: Systems programming language from Mozilla
-dev-lang/rust-bin 1.65.0-r1 1.66.1-r1 1.67.1-r3 1.68.2-r2 1.69.0-r1 1.70.0-r3 1.71.0 1.71.1 1.72.0 1.73.0 1.74.1: Systems programming language from Mozilla
+dev-lang/rust 1.71.0 1.71.1 1.73.0 1.74.1: Systems programming language from Mozilla
+dev-lang/rust-bin 1.71.0 1.71.1 1.73.0 1.74.1: Systems programming language from Mozilla
 dev-lang/sassc 3.6.2: A libsass command line driver
 dev-lang/scala 2.12.4 2.12.10: The Scala Programming Language
 dev-lang/scala-bin 2.13.9: The Scala Programming Language
@@ -5220,7 +5220,7 @@ dev-lang/smlnj 110.99.3 110.99.4: Standard ML of New Jersey compiler and librari
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.4.1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2021: Software development for high-reliability applications
-dev-lang/spidermonkey 91.13.0-r1 102.15.0 115.3.1 115.7.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 102.15.0 115.3.1 115.7.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/srf 1.0-r2: The Simple Recursive Functions programming language
 dev-lang/starlark-rust 0.8.0: A Rust implementation of the Starlark language
@@ -5630,7 +5630,7 @@ dev-libs/libxml2 2.11.5 2.11.5-r1 2.11.6 2.12.4 9999: XML C parser and toolkit
 dev-libs/libxmlb 0.3.14: Library to help create and query binary XML blobs
 dev-libs/libxslt 1.1.39 9999: XSLT libraries and tools
 dev-libs/libyaml 0.2.2 0.2.5: YAML 1.1 parser and emitter written in C
-dev-libs/libzia 4.52 4.54: Platform abstraction code for tucnak package
+dev-libs/libzia 4.52 4.54 4.55: Platform abstraction code for tucnak package
 dev-libs/libzip 1.9.2: Library for manipulating zip archives
 dev-libs/light 1.2.2-r2: A program to control backlights (and other hardware lights)
 dev-libs/link-grammar 5.12.3: A Syntactic English parser
@@ -10646,7 +10646,7 @@ dev-util/bdelta 0.3.1-r1: Binary Delta - Efficient difference algorithm and form
 dev-util/bear 3.0.20-r1 3.0.21 3.1.2 3.1.3: Build EAR generates a compilation database for clang tooling
 dev-util/biew 6.1.0-r3: A portable viewer of binary files, hexadecimal and disassembler modes
 dev-util/bin_replace_string 0.2: A tool to edit C strings in compiled binaries
-dev-util/bindgen 0.62.0 0.68.1: Automatically generates Rust FFI bindings to C and C++ libraries.
+dev-util/bindgen 0.68.1: Automatically generates Rust FFI bindings to C and C++ libraries.
 dev-util/bingrep 0.10.1 0.11.0: Binary file analysis tool
 dev-util/bitcoin-tx 25.1: Transitional package for net-p2p/bitcoin-core
 dev-util/bitrise 1.24.0: Run your Bitrise.io automations on any Mac or Linux machine
@@ -10672,10 +10672,10 @@ dev-util/buildbot-wsgi-dashboards 3.6.1 3.9.0 3.11.0: Buildbot plugin to integra
 dev-util/buildbot-www 3.6.1 3.9.0 3.11.0: BuildBot base web interface, use with buildbot-{console-view,waterfall-view}...
 dev-util/buildbot-www-react 3.9.0 3.11.0: BuildBot base web interface, use with buildbot-react-{console-view,grid-view}...
 dev-util/byacc 20230521 20240109: The best variant of the Yacc parser generator
-dev-util/cargo-audit 0.17.0 0.17.6: Audit Cargo.lock for crates with security vulnerabilities
+dev-util/cargo-audit 0.17.6: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.9.14 0.9.20 0.9.28 0.9.29: Helper program to build and install c-like libraries
-dev-util/cargo-ebuild 0.5.2 0.5.4 0.5.4-r1: Generates an ebuild for a package using the in-tree eclasses.
-dev-util/cargo-license 0.4.2 0.5.1: Cargo subcommand to see license of dependencies
+dev-util/cargo-ebuild 0.5.4-r1: Generates an ebuild for a package using the in-tree eclasses.
+dev-util/cargo-license 0.5.1: Cargo subcommand to see license of dependencies
 dev-util/cargo-nextest 0.9.59: Next-generation test runner for Rust
 dev-util/cargo-tarpaulin 0.27.1: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/catalyst 3.0.21-r1 3.0.22-r1 3.0.22-r3 4.0_rc1 9999: Release metatool used for creating releases based on Gentoo Linux
@@ -13754,7 +13754,7 @@ media-radio/cwdaemon 0.11.0: A morse daemon for the parallel or serial port
 media-radio/direwolf 1.6 1.7: Decoded Information from Radio Emissions for Windows Or Linux Fans
 media-radio/dxcc 20191204: A ham radio callsign DXCC lookup utility
 media-radio/flamp 2.2.07: Fldigi helper for transferring files
-media-radio/fldigi 4.2.03: Sound card based multimode software modem for Amateur Radio use
+media-radio/fldigi 4.2.03 4.2.04: Sound card based multimode software modem for Amateur Radio use
 media-radio/flmsg 4.0.20 4.0.22 4.0.23: Fldigi helper for creating radiograms
 media-radio/flrig 2.0.04 2.0.05: Transceiver control program for Amateur Radio use
 media-radio/fsync-mdc1200-decode 1.0-r1 9999: Linux Fleetsync / MDC1200 decoder
@@ -13768,7 +13768,7 @@ media-radio/qsstv 9.5.8-r1: Amateur radio SSTV software
 media-radio/svxlink 19.09.2: Multi Purpose Voice Services System, including Qtel for EchoLink
 media-radio/tlf 1.4.1-r4: Console-mode amateur radio contest logger
 media-radio/tqsl 2.6.4 2.6.5: ARRL Logbook of the World
-media-radio/tucnak 4.52 4.54: Amateur Radio VHF Contest Logbook
+media-radio/tucnak 4.52 4.54 4.55: Amateur Radio VHF Contest Logbook
 media-radio/unixcw 3.6.0-r1 3.6.0-r2 3.6.1: Collection of programs that fit together to form a morse code tutor program
 media-radio/wsjtx 2.6.1: Weak signal ham radio communication
 media-radio/xastir 2.2.0: X Amateur Station Tracking and Information Reporting
@@ -17991,7 +17991,7 @@ virtual/qmail 1.03-r1: Virtual for qmail
 virtual/resolvconf 1: Virtual to select between different resolvconf providers
 virtual/ruby-ssl 12 13 14: Virtual ebuild for the Ruby OpenSSL bindings
 virtual/rubygems 17 18 19 20: Virtual ebuild for rubygems
-virtual/rust 1.65.0-r2 1.66.1-r1 1.67.1-r1 1.68.2-r1 1.69.0-r1 1.70.0-r1 1.71.0-r1 1.71.1-r1 1.72.0-r1 1.73.0 1.74.1: Virtual for Rust language compiler
+virtual/rust 1.71.0-r1 1.71.1-r1 1.73.0 1.74.1: Virtual for Rust language compiler
 virtual/secret-service 0: Virtual for a freedesktop.org Secret Service API provider
 virtual/service-manager 1-r1: Virtual for various service managers
 virtual/skkserv 0-r1: Virtual for SKK server
