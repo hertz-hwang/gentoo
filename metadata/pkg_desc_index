@@ -1757,7 +1757,7 @@ app-editors/diakonos 0.9.7: A Linux editor for the masses
 app-editors/e3 2.8.2: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r15 25.3-r19 26.3-r16 27.2-r14 28.2-r10 29.1-r1 29.1-r5 29.1-r6 29.2 29.2.9999 30.0.9999: The extensible, customizable, self-documenting real-time display editor
+app-editors/emacs 18.59-r15 25.3-r19 26.3-r16 27.2-r14 28.2-r10 29.1-r1 29.1-r5 29.1-r6 29.2-r1 29.2.9999 30.0.9999: The extensible, customizable, self-documenting real-time display editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
 app-editors/fe 2.0-r1: A small and easy to use folding editor
@@ -14659,7 +14659,7 @@ net-fs/ksmbd-tools 3.4.4 3.4.6-r1 3.4.8: cifsd/ksmbd kernel server userspace uti
 net-fs/libnfs 5.0.2 9999: Client library for accessing NFS shares over a network
 net-fs/mc 2021.03.23.05.46.11: Minio client provides alternatives for ls, cat on cloud storage and filesystems
 net-fs/netatalk 3.1.18: Open Source AFP server
-net-fs/nfs-utils 2.6.3-r2 2.6.4-r1 2.6.4-r3: NFS client and server daemons
+net-fs/nfs-utils 2.6.3-r3 2.6.4-r4 2.6.4-r10: NFS client and server daemons
 net-fs/nfs4-acl-tools 0.3.7-r1: Commandline and GUI tools that deal directly with NFSv4 ACLs
 net-fs/openafs 1.8.7 1.8.8.1-r1: The OpenAFS distributed file system
 net-fs/s3backer 1.6.3: FUSE-based single file backing store via Amazon S3
@@ -17645,7 +17645,7 @@ sys-kernel/raspberrypi-image 4.14.98_p20190215 4.19.75_p20190925 5.4.79_p2020120
 sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230405: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.306_p132 5.4.264_p88 5.10.209_p101 5.15.145_p73 6.0.5_p14 6.1.77_p24 6.5.2_p8 6.6.15_p22: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/vanilla-kernel 5.10.208 5.10.209 5.10.9999 5.15.147 5.15.148 5.15.9999 6.1.74 6.1.75 6.1.76 6.1.77 6.1.9999 6.6.13 6.6.14 6.6.15 6.6.16 6.6.9999 6.7.1 6.7.2 6.7.3 6.7.4: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 4.19.306 5.4.268 5.10.209 5.15.148 6.1.77 6.6.16 6.7.4: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 4.19.306 5.4.268 5.10.209 5.15.148 6.1.78 6.6.17 6.7.5: Full sources for the Linux kernel
 sys-kernel/zen-sources 6.6.10: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.0 0.2.0-r1 0.2.1: The sd-bus library, extracted from systemd
