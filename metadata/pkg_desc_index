@@ -1746,7 +1746,7 @@ app-doc/selflinux 0.13.0-r1: A german-language hypertext tutorial about Linux
 app-doc/single-unix-specification 4_p2 4_p2018: The Single UNIX Specification, Version 4, 2018 Edition
 app-doc/tldp-howto 20120707: The Linux Documentation Project HOWTOs
 app-doc/vilearn 1.0: An interactive vi tutorial comprised of 5 tutorials for the vi-impaired
-app-doc/zsh-lovers 0.9.1 0.10.1: Tips, tricks and examples for the Z shell
+app-doc/zsh-lovers 0.10.1: Tips, tricks and examples for the Z shell
 app-editors/aee 2.2.21: An easy to use text editor
 app-editors/bluefish 2.2.12-r2 2.2.13: GTK HTML editor for the experienced web designer or programmer
 app-editors/bvi 1.4.1 1.4.2: Display-oriented editor for binary files, based on the vi texteditor
@@ -13845,6 +13845,7 @@ media-sound/dcadec 0.2.0-r1: DTS Coherent Acoustics decoder with support for HD 
 media-sound/dcaenc 2-r2 3-r1: DTS Coherent Acoustics audio encoder
 media-sound/dcd 0.95: A simple command-line based CD Player
 media-sound/deadbeef 1.9.6-r1: DeaDBeeF is a modular audio player similar to foobar2000
+media-sound/deadbeef-mpris2-plugin 1.16: MPRISv2 plugin for the DeaDBeeF music player
 media-sound/declick 0.6.5-r1: Dynamic digital declicker for audio sample files
 media-sound/denemo 2.6.0-r2 2.6.0-r3: A music notation editor
 media-sound/denonavr-cli 3: A simple CLI for Denon AV receivers
