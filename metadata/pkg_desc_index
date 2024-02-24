@@ -1187,7 +1187,7 @@ app-arch/wimlib 1.13.4-r1 1.14.1: The open source Windows Imaging (WIM) library
 app-arch/xar 1.8.0.0.487.100.1 1.8.0.0.498: An easily extensible archive format
 app-arch/xarchiver 0.5.4.22: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
-app-arch/xz-utils 5.4.5 5.4.6-r1 5.5.1_alpha 5.5.2_beta 9999: Utils for managing LZMA compressed files
+app-arch/xz-utils 5.4.5 5.4.6-r1 5.6.0 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 9999: File format designed for highly efficient deltas with good compression
 app-arch/zip 3.0-r7: Info ZIP (encryption support)
 app-arch/zoo 2.10-r5 2.10-r6: Manipulate archives of files in compressed form
@@ -3024,7 +3024,7 @@ app-portage/gentoolkit 0.6.3-r1 0.6.5 9999: Collection of administration scripts
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.9.1 1.10 1.10.1 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
 app-portage/golop 0.2.1 9999: A pure Go re-implementation of genlop
-app-portage/gpyutils 0.13 0.13.1: Utitilies for maintaining Python packages
+app-portage/gpyutils 0.13.1: Utitilies for maintaining Python packages
 app-portage/grs 0.7 0.8-r1 9999: Suite to build Gentoo Reference Systems
 app-portage/gs-elpa 0.2.2-r2 0.2.3: g-sorcery backend for elisp packages
 app-portage/gverify 2: gentoo.git signature verification tool
@@ -8589,7 +8589,7 @@ dev-python/isort 5.13.2: A python utility/library to sort imports
 dev-python/itsdangerous 2.1.2: Various helpers to pass trusted data to untrusted environments and back
 dev-python/itunespy 1.6-r1: A simple library to fetch data from the iTunes Store API
 dev-python/jack-client 0.5.4: JACK Audio Connection Kit client for Python
-dev-python/jaraco-classes 3.3.0 3.3.1: Classes used by other projects by developer jaraco
+dev-python/jaraco-classes 3.3.1: Classes used by other projects by developer jaraco
 dev-python/jaraco-collections 5.0.0: Models and classes to supplement the stdlib collections module
 dev-python/jaraco-context 4.3.0: Context managers by jaraco
 dev-python/jaraco-env 1.0.0: Facilities for environment variables
@@ -9435,7 +9435,7 @@ dev-python/sphinx 7.2.6: Python documentation generator
 dev-python/sphinx-aiohttp-theme 0.1.6-r1: Sphinx theme for aiohttp
 dev-python/sphinx-argparse 0.4.0: Sphinx extension that automatically documents argparse commands and options
 dev-python/sphinx-autoapi 3.0.0: A new approach to API documentation in Sphinx
-dev-python/sphinx-autodoc-typehints 1.25.3 2.0.0: Type hints support for the Sphinx autodoc extension
+dev-python/sphinx-autodoc-typehints 2.0.0: Type hints support for the Sphinx autodoc extension
 dev-python/sphinx-basic-ng 1.0.0_beta2: A modern skeleton for Sphinx themes
 dev-python/sphinx-bootstrap-theme 0.8.1: Sphinx theme integrates the Bootstrap CSS / JavaScript framework
 dev-python/sphinx-celery 2.1.3: Celery Sphinx Theme and Utilities
@@ -14016,7 +14016,7 @@ media-sound/ptabtools 0.5.0: Utilities for PowerTab Guitar files (.ptb)
 media-sound/puddletag 2.2.0-r1: Audio tag editor
 media-sound/pulseaudio 16.1: A meta package for PulseAudio (networked sound server)
 media-sound/pulseaudio-ctl 1.70-r1: CLI utility to control PulseAudio volume
-media-sound/pulseaudio-daemon 16.1-r7 16.1-r8 16.99.1 17.0: Daemon component of PulseAudio (networked sound server)
+media-sound/pulseaudio-daemon 16.1-r7 16.1-r8 16.99.1 17.0 17.0-r1: Daemon component of PulseAudio (networked sound server)
 media-sound/pulseeffects 4.8.7: Limiter, compressor, reverberation, equalizer auto volume effects for Pulseaudio
 media-sound/pulsemixer 1.5.1-r2 9999: CLI and curses mixer for PulseAudio
 media-sound/pwavecat 0.4.5: Concatenates any number of audio files to stdout
