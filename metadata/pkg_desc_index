@@ -12084,7 +12084,7 @@ gui-libs/xdg-desktop-portal-wlr 0.5.0 0.6.0 0.7.0 0.7.0-r1 9999: xdg-desktop-por
 gui-wm/dwl 0.5 9999 9999-r1: dwm for Wayland
 gui-wm/gamescope 3.14.0: Efficient micro-compositor for running games
 gui-wm/hikari 2.3.3: Wayland compositor inspired by CWM
-gui-wm/hyprland 0.34.0 0.35.0-r1 0.36.0 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+gui-wm/hyprland 0.34.0 0.35.0-r2 0.36.0-r1 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
 gui-wm/sway 1.8.1 1.8.1-r2 1.9 9999: i3-compatible Wayland window manager
 gui-wm/wayfire 0.7.5-r1 0.8.0 0.8.0-r1 9999: compiz like 3D wayland compositor
 kde-apps/akonadi 23.08.4-r1 23.08.5 24.02.0: Storage service for PIM data and libraries for PIM apps
@@ -14733,7 +14733,7 @@ net-im/qtox 1.17.6-r2 9999: Instant messaging client using the encrypted p2p Tox
 net-im/rocketchat-desktop-bin 3.8.16 3.9.10: The Ultimate Open Source Web Chat Platform
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-amm 1.1.1-r1 9999: Send XMPP (Jabber) messages via command line
-net-im/signal-cli-bin 0.11.5.1 0.12.7: Send and receive messages of Signal Messenger over a command line interface
+net-im/signal-cli-bin 0.12.7 0.13.1: Send and receive messages of Signal Messenger over a command line interface
 net-im/signal-desktop-bin 6.48.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/skypeforlinux 8.108.0.205 8.110.76.107: Instant messaging client, with support for audio and video
 net-im/slack 4.36.138 4.36.140: Team collaboration tool
@@ -17422,7 +17422,7 @@ sys-cluster/vzctl 4.9.4-r1: OpenVZ ConTainers control utility
 sys-cluster/zetcd 0.0.4-r2: ZooKeeper personality for etcd
 sys-cluster/zookeeper-bin 3.7.1 3.8.0 3.8.1 3.8.2 3.8.3 3.9.0 3.9.1: A high-performance coordination service for distributed applications
 sys-cluster/zookeepercli 1.0.12: Simple, lightweight, dependable CLI for ZooKeeper
-sys-devel/autogen 5.18.16-r1 5.18.16-r2 5.18.16-r3: Program and text file generation
+sys-devel/autogen 5.18.16-r3: Program and text file generation
 sys-devel/bc 1.07.1-r6: Handy console-based calculator utility
 sys-devel/bin86 0.16.21-r1 0.16.21-r2: Assembler and loader used to create kernel bootsector
 sys-devel/binutils 2.32-r2 2.33.1-r1 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r9 2.41-r2 2.41-r3 2.41-r4 2.41-r5 2.42-r1 9999: Tools necessary to build programs
@@ -18112,7 +18112,7 @@ www-apps/rt 4.4.4-r3: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 4.2.10 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr 4.0.2.1192: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr 4.0.2.1223: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20230901 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.4 1.7.4-r1 9999: ttyd, a simple command-line tool for sharing terminal over the web
@@ -18892,7 +18892,7 @@ x11-terms/st-terminfo 0.8.5 0.9 9999: Terminfo for x11-terms/st
 x11-terms/terminator 2.1.3: Multiple GNOME terminals in one window
 x11-terms/terminology 1.13.0: Feature rich terminal emulator using the Enlightenment Foundation Libraries
 x11-terms/tilda 1.5.4: A drop down terminal, similar to the consoles found in first person shooters
-x11-terms/wezterm 20230408.112425 20230712.072601: A GPU-accelerated cross-platform terminal emulator and multiplexer
+x11-terms/wezterm 20230712.072601: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-terms/xfce4-terminal 1.1.1 1.1.2 1.1.3: A terminal emulator for the Xfce desktop environment
 x11-terms/xterm 388 389 390: Terminal Emulator for X Windows
 x11-terms/yeahconsole 0.3.4-r2: yeahconsole turns an xterm or rxvt-unicode into a game-like console
