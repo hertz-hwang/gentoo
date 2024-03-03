@@ -1136,7 +1136,7 @@ app-arch/lunzip 1.14: Decompressor for the lzip format, written in C
 app-arch/lxqt-archiver 0.9.0 0.9.1: Qt GUI File Archiver
 app-arch/lz4 1.9.4: Extremely Fast Compression algorithm
 app-arch/lz5 2.0-r1: An efficient compressor with very fast decompression
-app-arch/lzip 1.23 1.24: Lossless data compressor based on the LZMA algorithm
+app-arch/lzip 1.23 1.24 1.24.1: Lossless data compressor based on the LZMA algorithm
 app-arch/lziprecover 1.24: Lziprecover is a data recovery tool and decompressor for lzip compressed files
 app-arch/lzlib 1.14: Library for lzip compression
 app-arch/lzma 19.00: LZMA Stream Compressor from the SDK
@@ -1408,7 +1408,7 @@ app-crypt/envchain 1.0.1: Save environment variables in a secret vault
 app-crypt/fcrackzip 1.0: Zip password cracker
 app-crypt/gcr 3.41.1-r2 4.1.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
-app-crypt/glep63-check 10 11: GLEP 63 compliance checker for OpenPGP keys
+app-crypt/glep63-check 11: GLEP 63 compliance checker for OpenPGP keys
 app-crypt/gnupg 2.2.41 2.2.42-r1 2.2.42-r2 2.4.3-r1 2.4.4 2.4.4-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.9.2-r1: PKCS#11 support for GnuPG
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -1767,7 +1767,7 @@ app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU
 app-editors/fe 2.0-r1: A small and easy to use folding editor
 app-editors/featherpad 1.4.0 1.4.1 1.5.0: Lightweight Qt5 Plain-Text Editor for Linux
 app-editors/focuswriter 1.7.6: Fullscreen and distraction-free word processor
-app-editors/gedit 46.1-r1: A text editor for the GNOME desktop
+app-editors/gedit 46.1-r1 46.2: A text editor for the GNOME desktop
 app-editors/gedit-plugins 46.0-r1: Collection of extra plugins for the gedit Text Editor
 app-editors/ghex 44.2 45.0 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 23.08.4 23.08.5 24.02.0: Cross-platform, aesthetic, distraction-free markdown editor
@@ -2931,7 +2931,7 @@ app-mobilephone/gnokii 0.6.31-r4 9999: User space driver and tools for use with 
 app-mobilephone/heimdall 2.0.1 2.0.2 9999: Tool suite used to flash firmware onto Samsung devices
 app-mobilephone/qtadb 0.8.1-r1: Android phone manager via ADB
 app-mobilephone/scmxx 0.9.0-r1: Exchange data with Siemens phones
-app-mobilephone/scrcpy 2.3.1-r1 2.3.1-r2: Display and control your Android device
+app-mobilephone/scrcpy 2.3.1-r2 2.4: Display and control your Android device
 app-mobilephone/smstools 3.1.21-r2: Send and receive short messages through GSM modems
 app-mobilephone/sobexsrv 1.0.1-r3: Scripting/Secure OBEX Server (for BlueZ Linux)
 app-mobilephone/vmoconv 1.0-r1: A tool that converts Siemens phones VMO and VMI audio files to gsm and wav
@@ -2983,7 +2983,7 @@ app-office/texmaker 5.1.4: Powerful LaTeX-IDE
 app-office/texstudio 4.3.1-r1 4.7.1: Free cross-platform LaTeX editor (fork from texmakerX)
 app-office/unoconv 0.9.0-r1: Convert between document formats supported by LibreOffice
 app-office/worklog-assistant-bin 2.1.3580: Hassle-free time tracking for JIRA self-hosted and OnDemand
-app-office/wps-office 11.1.0.11698 11.1.0.11719: WPS Office is an office productivity suite
+app-office/wps-office 11.1.0.11719: WPS Office is an office productivity suite
 app-officeext/barcode 1.3.5.0-r1: Extension for reading barcodes
 app-officeext/ct2n 1.5.0: Extension for converting text to numbers
 app-officeext/dmaths 3.4.9.0-r1: Mathematics Formula Editor Extension
@@ -5462,7 +5462,7 @@ dev-libs/libdynd 0.7.2-r1: C++ dynamic multi-dimensionnal array library with Pyt
 dev-libs/libebml 1.4.4 1.4.5: Extensible binary format library (kinda like XML)
 dev-libs/libedit 20221030.3.1: BSD replacement for libreadline
 dev-libs/libee 0.4.1: An Event Expression Library inspired by CEE
-dev-libs/libei 1.1.0 1.2.0 1.2.1: Library for Emulated Input, primarily aimed at the Wayland stack
+dev-libs/libei 1.2.0 1.2.1: Library for Emulated Input, primarily aimed at the Wayland stack
 dev-libs/libelf 0.8.13-r3 0.8.13-r4: ELF object file access library
 dev-libs/liberasurecode 1.6.3: Erasure Code API library written in C with pluggable Erasure Code backends
 dev-libs/libestr 0.1.11-r1: Library for some string essentials
@@ -9624,7 +9624,7 @@ dev-python/uritemplate 4.1.1: Python implementation of RFC6570, URI Template
 dev-python/uritools 4.0.1 4.0.2: RFC 3986-compliant URI parsing, classification and composition
 dev-python/url-normalize 1.4.3-r1: URL normalization for Python
 dev-python/urllib3 1.26.18 2.0.7 2.1.0 2.2.0-r1 2.2.1: HTTP library with thread-safe connection pooling, file post, and more
-dev-python/urwid 2.4.6 2.5.3 2.6.4 2.6.5 2.6.6 2.6.7: Curses-based user interface library for Python
+dev-python/urwid 2.5.3 2.6.7: Curses-based user interface library for Python
 dev-python/urwid-readline 0.14: Text input widget for urwid that supports readline shortcuts
 dev-python/urwidtrees 1.0.3-r1: Tree widgets for urwid
 dev-python/userpath 1.9.1 1.9.2: Cross-platform tool for adding locations to the user PATH
@@ -10793,7 +10793,7 @@ dev-util/gitlab-runner 16.5.0 16.6.1 16.7.0 16.8.0 16.8.1 16.9.0: The official G
 dev-util/glade 3.40.0-r1: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.76.4 2.78.3 2.78.4: Build utilities for GLib using projects
 dev-util/global 6.6.4 6.6.10: Tag system to find an object location in various sources
-dev-util/glslang 1.3.250 1.3.261 1.3.268-r2 1.3.275 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.3.275 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 44.2-r1: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
@@ -10864,7 +10864,7 @@ dev-util/massif-visualizer 0.7.0-r1: Tool visualising massif data
 dev-util/maturin 1.4.0: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1 9999: Collection of multi-dimensional data structure and indexing algorithm
-dev-util/meld 3.22.0-r2: A graphical diff and merge tool
+dev-util/meld 3.22.0-r2 3.22.1: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r1: Profiling and leak detection tool
 dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 11.0.0: Free Win64 runtime and import library definitions
@@ -10954,9 +10954,9 @@ dev-util/shunit2 2.1.8: Unit-test framework for Bourne-based shell scripts
 dev-util/smem 1.5-r2: A tool that can give numerous reports on memory usage on Linux systems
 dev-util/snakeviz 2.2.0: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r1 3.1.9-r2: Generate highlighted source code as an (x)html document
-dev-util/spirv-headers 1.3.268 1.3.275 99999999: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-headers 1.3.275 99999999: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 15.0.0-r1 16.0.0-r1 17.0.0-r2: Bi-directional translator between SPIR-V and LLVM IR
-dev-util/spirv-tools 1.3.268 1.3.275 99999999: Provides an API and commands for processing SPIR-V modules
+dev-util/spirv-tools 1.3.275 99999999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r2: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.1 0.1.2 9999: Efficient (partially uncompressed) SquashFS binary delta tool
 dev-util/squashmerge 0.1 9999: dev-util/squashdelta delta merge tool
@@ -10990,9 +10990,9 @@ dev-util/visualvm 2.1.7-r1: Integrates commandline JDK tools and profiling capab
 dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagnostics and control
 dev-util/volk 1.3.275 9999: Meta loader for Vulkan API
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
-dev-util/vulkan-headers 1.3.268 1.3.275 9999: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.3.268 1.3.275 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.3.268 1.3.268-r1 1.3.275 9999: Share code across various Vulkan repositories
+dev-util/vulkan-headers 1.3.275 9999: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.3.275 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.3.275 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
 dev-util/wasmer 0.11.0: universal web assembly runtime
@@ -12115,7 +12115,7 @@ kde-apps/dolphin-plugins-mercurial 23.04.3 23.08.4 23.08.5 24.02.0: Dolphin plug
 kde-apps/dolphin-plugins-subversion 23.04.3 23.08.4 23.08.5 24.02.0: Dolphin plugin for Subversion integration
 kde-apps/dragon 23.08.4 23.08.5 24.02.0: Simple video player
 kde-apps/eventviews 23.08.4 23.08.5 24.02.0: Calendar viewer for KDE PIM
-kde-apps/ffmpegthumbs 23.08.4 23.08.5 24.02.0: FFmpeg based thumbnail generator for video files
+kde-apps/ffmpegthumbs 23.08.4 23.08.5 24.02.0-r1: FFmpeg based thumbnail generator for video files
 kde-apps/filelight 23.08.4 23.08.5 24.02.0: Visualise disk usage with interactive map of concentric, segmented rings
 kde-apps/granatier 23.08.4 23.08.5 24.02.0: KDE Bomberman game
 kde-apps/grantlee-editor 23.08.4 23.08.5 24.02.0: Utilities and tools to manage themes in KDE PIM applications
@@ -12778,7 +12778,7 @@ media-fonts/mplus-fonts 2.2.4-r1: M+ Japanese bitmap fonts
 media-fonts/mplus-outline-fonts 0_pre063_p1: M+ Japanese outline fonts
 media-fonts/nanum 3.0: Korean fonts distributed by Naver
 media-fonts/nanumfont 2.5: Korean monospace font distributed by Naver
-media-fonts/noto 20230930 20231128 20240131: Google's font family that aims to support all the world's languages
+media-fonts/noto 20230930 20231128 20240131 20240229: Google's font family that aims to support all the world's languages
 media-fonts/noto-cjk 20190416: Google's CJK font family
 media-fonts/noto-emoji 20220912-r2 20231117 20231130: Google Noto Emoji fonts
 media-fonts/nunito 1.0-r1: Sans Serif font with rounded terminals
@@ -12929,7 +12929,7 @@ media-gfx/graphicsmagick 1.3.42 9999: Collection of tools and libraries for many
 media-gfx/graphite2 1.3.14_p20210810-r3: Library providing rendering capabilities for complex non-Roman writing systems
 media-gfx/graphviz 8.1.0 9.0.0: Open Source Graph Visualization Software
 media-gfx/gscan2pdf 2.13.2 2.13.2-r1: Scan documents, perform OCR, produce PDFs and DjVus
-media-gfx/gthumb 3.12.2-r5 3.12.3 3.12.4: Image viewer and browser for Gnome
+media-gfx/gthumb 3.12.3 3.12.4 3.12.5: Image viewer and browser for Gnome
 media-gfx/gtkimageview 1.6.4: A simple image viewer widget for GTK
 media-gfx/hp2xx 3.4.4-r3 3.4.4-r4: Convert Hewlett-Packard's HP-GL plotter language to other graphics formats
 media-gfx/hugin 2022.0.0 2022.0.0-r1 2023.0.0 9999: GUI for the creation & processing of panoramic images
@@ -13027,7 +13027,7 @@ media-gfx/raw-thumbnailer 0.2.1-r1: A lightweight and fast raw image thumbnailer
 media-gfx/rawtherapee 5.9-r3 5.10: A powerful cross-platform raw image processing program
 media-gfx/realesrgan-ncnn-vulkan 0.2.0-r1: NCNN implementation of Real-ESRGAN
 media-gfx/recoverjpeg 2.2.3-r1: Recover JPEG pictures from a possibly corrupted disk image
-media-gfx/renderdoc 1.27-r1 1.29-r2 1.30 1.30-r1: A stand-alone graphics debugging tool
+media-gfx/renderdoc 1.30-r1: A stand-alone graphics debugging tool
 media-gfx/ristretto 0.13.0 0.13.2: A fast and lightweight picture viewer for Xfce
 media-gfx/rotoscope 0.2-r2: Graphics program that can be used to give photos a cartoon-like appearance
 media-gfx/sam2p 0.49.4_p20190718-r1: Utility to convert raster images to EPS, PDF and many others
@@ -13443,7 +13443,7 @@ media-libs/sdl2-ttf 2.20.0 2.20.2: Library that allows you to use TrueType fonts
 media-libs/sdl_audiolib 0_p20220622-r1 9999: Audio decoding, resampling and mixing library for SDL
 media-libs/sg 1.5: Socket Graphics tool for displaying polygons
 media-libs/sge 030809: Graphics extensions library for SDL
-media-libs/shaderc 2023.7 2023.8: Collection of tools, libraries and tests for shader compilation
+media-libs/shaderc 2023.8: Collection of tools, libraries and tests for shader compilation
 media-libs/simage 1.8.1-r3 1.8.3 9999: Image and video texturing library
 media-libs/smpeg 0.4.4-r11 0.4.4-r12: SDL MPEG Player Library
 media-libs/smpeg2 2.0.0-r4: SDL MPEG Player Library
@@ -13479,8 +13479,8 @@ media-libs/vkroots 0_p20231108: Simple framework for writing Vulkan layers
 media-libs/vo-aacenc 0.1.3 9999: VisualOn AAC encoder library
 media-libs/vo-amrwbenc 0.1.3 9999: VisualOn AMR-WB encoder library
 media-libs/volpack 1.0_p7-r2: Volume rendering library
-media-libs/vulkan-layers 1.3.268 1.3.275 9999: Vulkan Validation Layers
-media-libs/vulkan-loader 1.3.268 1.3.275 9999: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-layers 1.3.275 9999: Vulkan Validation Layers
+media-libs/vulkan-loader 1.3.275 9999: Vulkan Installable Client Driver (ICD) Loader
 media-libs/waffle 1.8.0 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1 0.3.1-r1 1.3-r1 1.3-r2 1.3-r3: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r5: Encode/decode WOFF2 font format
@@ -17358,7 +17358,7 @@ sys-boot/yaboot-static 1.3.17-r2: Static yaboot ppc boot loader for machines wit
 sys-cluster/ampi 0_pre20140616: MPI library for algorithmic differentiation
 sys-cluster/c3 4.0.1: The Cluster Command and Control (C3) tool suite
 sys-cluster/ceph 16.2.14-r1 17.2.6-r8 17.2.7 18.2.0-r2: Ceph distributed filesystem
-sys-cluster/charliecloud 0.35 0.36 9999: Lightweight user-defined software stacks for high-performance computing
+sys-cluster/charliecloud 0.36 0.37 9999: Lightweight user-defined software stacks for high-performance computing
 sys-cluster/charm 6.8.2: Message-passing parallel language and runtime system
 sys-cluster/charmdebug 6.2.0-r1: A debugger for Charm++ applications
 sys-cluster/cilium-cli 0.12.1 0.13.0: Next generation command line interface for cilium
@@ -18099,7 +18099,7 @@ www-apps/nikola 8.2.3-r2 8.2.4-r1 8.3.0: A static website and blog generator
 www-apps/novnc 1.2.0 1.3.0 1.4.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.11: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.3: A customizable PHP script that displays information about your system nicely
-www-apps/piwigo 14.2.0 14.3.0: a photo gallery software for the web
+www-apps/piwigo 14.3.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.13: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prowlarr 1.14.0.4286: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr 5.4.0.8636: A fork of Sonarr to work with movies a la Couchpotato
@@ -18214,7 +18214,7 @@ x11-apps/fslsfonts 1.0.6: list fonts served by X font server
 x11-apps/fstobdf 1.0.7: generate BDF font from X font server
 x11-apps/iceauth 1.0.9: ICE authority file utility
 x11-apps/ico 1.0.6: animate an icosahedron or other polyhedron
-x11-apps/igt-gpu-tools 1.27.1-r1 1.28 9999: Intel GPU userland tools
+x11-apps/igt-gpu-tools 1.28 9999: Intel GPU userland tools
 x11-apps/listres 1.0.5: list resources in widgets
 x11-apps/luit 20230201 20240102: Locale and ISO 2022 support for Unicode terminals
 x11-apps/mesa-progs 8.5.0 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
@@ -18233,7 +18233,7 @@ x11-apps/viewres 1.0.7: graphical class browser for Xt
 x11-apps/x11perf 1.6.2: X rendering operation stress test utility
 x11-apps/xauth 1.1.2 9999: X authority file utility
 x11-apps/xbacklight 1.2.3: Sets backlight level using the RandR 1.2 BACKLIGHT output property
-x11-apps/xbiff 1.0.4 1.0.5: mailbox flag for X
+x11-apps/xbiff 1.0.5: mailbox flag for X
 x11-apps/xcalc 1.1.2: scientific calculator for X
 x11-apps/xclipboard 1.1.4: interchange between cut buffer and selection
 x11-apps/xclock 1.1.1: analog / digital clock for X
@@ -18351,7 +18351,7 @@ x11-libs/libX11 1.8.7: X.Org X11 library
 x11-libs/libXScrnSaver 1.2.4: X.Org XScrnSaver library
 x11-libs/libXau 1.0.11: X.Org X authorization library
 x11-libs/libXaw 1.0.15-r1: X.Org Xaw library
-x11-libs/libXaw3d 1.6.5 1.6.5-r1 1.6.6: X.Org Xaw3d library
+x11-libs/libXaw3d 1.6.5-r1 1.6.6: X.Org Xaw3d library
 x11-libs/libXaw3dXft 1.6.2h-r1: Xaw3dXft library
 x11-libs/libXcomposite 0.4.6: X.Org Xcomposite library
 x11-libs/libXcursor 1.2.1 1.2.2: X.Org Xcursor library
@@ -18402,7 +18402,7 @@ x11-libs/libxshmfence 1.3.2: Shared memory fences using futexes
 x11-libs/motif 2.3.8-r5: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
 x11-libs/pango 1.42.4-r2 1.51.0: Internationalized text layout and rendering library
-x11-libs/pixman 0.42.2 0.43.0 0.43.2 0.43.4 9999: Low-level pixel manipulation routines
+x11-libs/pixman 0.43.2 0.43.4 9999: Low-level pixel manipulation routines
 x11-libs/qscintilla 2.13.3 2.14.1: Qt port of Neil Hodgson's Scintilla C++ editor control
 x11-libs/qtermwidget 1.3.0 1.4.0 9999: Qt terminal emulator widget
 x11-libs/qwt 5.2.3_p20210211 5.2.3_p20210828 6.1.5 6.2.0-r1 6.2.0-r3: 2D plotting library for Qt
@@ -18509,7 +18509,7 @@ x11-misc/icon-naming-utils 0.8.90-r2: Utils to help with the transition to the n
 x11-misc/iconbox 0.2: App for placing icons in a menu which auto-hides
 x11-misc/idesk 0.7.8: Utility to place icons on the root window
 x11-misc/idesk-extras 1.37-r3: Graphical configuration for iDesk plus icons
-x11-misc/imake 1.0.9 1.0.10: C preprocessor interface to the make utility
+x11-misc/imake 1.0.10: C preprocessor interface to the make utility
 x11-misc/imwheel 1.0.0_pre13_p20100827: mouse tool for advanced features such as wheels and 3+ buttons
 x11-misc/j4-dmenu-desktop 2.18-r1: A fast desktop replacement for i3-dmenu-desktop
 x11-misc/kapow 1.5.10: A punch clock program designed to easily keep track of your hours
