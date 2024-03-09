@@ -2463,7 +2463,7 @@ app-i18n/fcitx-hangul 0.3.1 4.9999 5.1.1: Korean Hangul input method for Fcitx
 app-i18n/fcitx-libpinyin 0.5.3 0.5.4 4.9999: Chinese LibPinyin input methods for Fcitx
 app-i18n/fcitx-lua 5.0.12: Lua support for fcitx
 app-i18n/fcitx-m17n 0.2.4 4.9999 5.1.0: m17n-provided input methods for Fcitx5
-app-i18n/fcitx-qt 5.1.4 5.1.5: Qt library and IM module for fcitx5
+app-i18n/fcitx-qt 5.1.4 5.1.5-r1: Qt library and IM module for fcitx5
 app-i18n/fcitx-qt5 1.2.5 4.9999: Fcitx input method module for Qt 5
 app-i18n/fcitx-rime 0.3.2-r1 4.9999 5.1.4: Chinese RIME input methods for Fcitx
 app-i18n/fcitx-sayura 0.1.2 4.9999: Sinhala Sayura input method for Fcitx
@@ -15317,7 +15317,7 @@ net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.2 3.3: Redir is a port redirector
 net-misc/remmina 1.4.31-r1 1.4.35: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73: redirects TCP connections from one IP address and port to another
-net-misc/rsync 3.2.4-r3 3.2.7-r2 3.2.7-r3 3.2.7-r4 9999: File transfer program to keep remote files into sync
+net-misc/rsync 3.2.7-r3 3.2.7-r4 9999: File transfer program to keep remote files into sync
 net-misc/rsync-bpc 3.1.3.0: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6-r2 1.5.9.6-r3: ARIN rwhois daemon
