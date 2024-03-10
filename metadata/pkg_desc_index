@@ -5734,7 +5734,7 @@ dev-libs/redland 1.0.17-r3: High-level interface for the Resource Description Fr
 dev-libs/redland-bindings 1.0.17.1-r101: Language bindings for Redland
 dev-libs/rinutils 0.10.0 0.10.2 0.10.2-r1: Set of C headers containing macros and static functions
 dev-libs/rlog 1.4: A C++ logging library
-dev-libs/rocksdb 6.14.6-r2 6.14.6-r3 6.15.5-r1 6.17.3-r1 6.29.5 7.9.2 7.9.2-r1 8.6.7 8.9.1 8.10.0: Embeddable, persistent key-value store for fast storage
+dev-libs/rocksdb 6.14.6-r2 6.14.6-r3 7.9.2 7.9.2-r1 8.10.0 8.11.3: Embeddable, persistent key-value store for fast storage
 dev-libs/rocm-comgr 5.1.3-r3 5.3.3-r2 5.4.3-r1 5.5.1 5.7.1 6.0.0: Radeon Open Compute Code Object Manager
 dev-libs/rocm-device-libs 5.1.3-r1 5.3.3 5.4.3 5.5.1 5.7.1 6.0.0: Radeon Open Compute Device Libraries
 dev-libs/rocm-opencl-runtime 5.1.3 5.3.3-r1 5.4.3-r1 5.5.1 5.7.1-r1 6.0.0 9999: Radeon Open Compute OpenCL Compatible Runtime
@@ -17672,7 +17672,7 @@ sys-kernel/raspberrypi-image 4.14.98_p20190215 4.19.75_p20190925 5.4.79_p2020120
 sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230405: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.307_p133 5.4.264_p88 5.10.210_p102 5.15.148_p74 6.0.5_p14 6.1.80_p26 6.5.2_p8 6.6.20_p25: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/vanilla-kernel 5.10.209 5.10.210 5.10.211 5.10.212 5.10.9999 5.15.148 5.15.149 5.15.150 5.15.151 5.15.9999 6.1.77 6.1.78 6.1.79 6.1.80 6.1.81 6.1.9999 6.6.16 6.6.17 6.6.18 6.6.19 6.6.21 6.6.9999 6.7.5 6.7.6 6.7.7 6.7.9: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 4.19.309 5.4.271 5.10.212 5.15.151 6.1.81 6.6.21 6.7.9: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 4.19.309 5.4.271 5.10.212 5.15.151 6.1.81 6.6.21 6.7.9 6.8.0: Full sources for the Linux kernel
 sys-kernel/zen-sources 6.6.10: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.0 0.2.0-r1 0.2.1: The sd-bus library, extracted from systemd
