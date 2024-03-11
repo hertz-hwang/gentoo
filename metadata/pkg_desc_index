@@ -13767,7 +13767,7 @@ media-plugins/zam-plugins 4.2: Collection of LV2/LADSPA/VST/JACK audio plugins f
 media-radio/adifmerg 31-r1: A small conversion and check utility for ADIF files
 media-radio/ax25-apps 0.0.8_rc5: Basic AX.25 (Amateur Radio) user tools, additional daemons
 media-radio/ax25-tools 0.0.10_rc5: Basic AX.25 (Amateur Radio) administrative tools and daemons
-media-radio/chirp 20231223 20240217: A free, open-source tool for programming your radio
+media-radio/chirp 20231223 20240217 20240311: A free, open-source tool for programming your radio
 media-radio/cqrlog 2.5.2: CQRLOG is an advanced ham radio logger based on MySQL database
 media-radio/cwdaemon 0.11.0 0.12.0: A morse daemon for the parallel or serial port
 media-radio/direwolf 1.6 1.7: Decoded Information from Radio Emissions for Windows Or Linux Fans
@@ -16000,7 +16000,7 @@ sci-geosciences/gpsd 3.23.1-r2 3.24 3.25 9999: GPS daemon and library for USB/se
 sci-geosciences/gpsprune-bin 23.2: An application for viewing, editing and converting GPS data
 sci-geosciences/gpx-viewer 0.4.0-r1: Simple program to visualize a gpx file
 sci-geosciences/gpxlab 0.7.0: An application to display and manage GPS tracks
-sci-geosciences/gpxsee 13.14 13.15 13.16 13.17: A viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
+sci-geosciences/gpxsee 13.14 13.17: A viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
 sci-geosciences/grass 8.3.1 9999: A free GIS with raster and vector functionality, as well as 3D vizualization
 sci-geosciences/gshhg-gmt 2.3.7: Global Self-consistent, Hierarchical, High-resolution Geography Database
 sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolution Shoreline programs
