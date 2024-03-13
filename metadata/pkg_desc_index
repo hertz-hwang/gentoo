@@ -3760,7 +3760,7 @@ dev-ada/gnatsymbolize 2021-r2: Translates addresses into filename, line number, 
 dev-ada/gpr 23.0.0-r6: LibGPR2 - Parser for GPR Project files
 dev-ada/gpr-unit-provider 23.0.0-r4: GPR Unit Provider
 dev-ada/gprbuild 23.0.0-r1 23.0.0-r2 24.0.0-r1: Multi-Language Management
-dev-ada/gprconfig_kb 23.0.0-r3 23.0.0-r4: GPR configuration knowledge base
+dev-ada/gprconfig_kb 23.0.0-r3 23.0.0-r4 24.0.0: GPR configuration knowledge base
 dev-ada/gtkada 23.0.0-r2: A complete Ada graphical toolkit
 dev-ada/langkit 23.0.0-r3: A Python framework to generate language parsers
 dev-ada/libadalang 23.0.0-r3: high performance semantic engine for the Ada programming language
@@ -14723,7 +14723,7 @@ net-im/coturn 4.5.2-r1 4.6.0 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dianara 1.4.2: Qt-based client for the pump.io distributed social network
 net-im/dino 0.4.2-r2 0.4.3 0.4.3-r1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 0.0.44-r1: All-in-one voice and text chat for gamers
+net-im/discord 0.0.45: All-in-one voice and text chat for gamers
 net-im/ejabberd 22.10 23.01 23.04 23.10-r1 24.02-r1: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.11.54: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
