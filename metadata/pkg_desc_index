@@ -901,7 +901,7 @@ app-admin/apachetop 0.19.7 0.23.2: A realtime Apache log analyzer
 app-admin/apg 2.3.0b_p20150129-r1: Another Password Generator
 app-admin/augeas 1.14.1: A library for changing configuration files
 app-admin/authbind 2.1.2: Bind sockets to privileged ports without root
-app-admin/awscli 1.32.49 1.32.54 1.32.59 1.32.60 1.32.61 1.32.62: Universal Command Line Environment for AWS
+app-admin/awscli 1.32.49 1.32.54 1.32.59 1.32.60 1.32.61 1.32.62 1.32.63: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.11.17 2.12.0 2.13.11: command line interface for Amazon Web Services
 app-admin/bitwarden-desktop-bin 2024.2.0: Bitwarden password manager desktop client
 app-admin/calamares 3.2.60-r5: Distribution-independent installer framework
@@ -3092,7 +3092,7 @@ app-shells/loksh 7.1 7.3: Linux port of OpenBSD's ksh
 app-shells/mcfly 0.5.13: Context-aware bash history search replacement (ctrl-r)
 app-shells/mksh 59c 9999: MirBSD Korn Shell
 app-shells/mpibash 1.3-r1 9999: Parallel scripting right from the Bourne-Again Shell (Bash)
-app-shells/nushell 0.85.0 0.88.1 0.89.0 0.90.1: A new type of shell, written in Rust
+app-shells/nushell 0.85.0 0.89.0 0.91.0: A new type of shell, written in Rust
 app-shells/pdmenu 1.3.6: A simple console menu program
 app-shells/pdsh 2.34-r2: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
@@ -5689,7 +5689,7 @@ dev-libs/opencryptoki 3.6.1-r1: PKCS#11 provider cryptographic hardware
 dev-libs/openct 0.6.20-r5: library for accessing smart card terminals
 dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transferring data to mobile devices
 dev-libs/openpace 1.1.3: Cryptographic library for EAC version 2
-dev-libs/opensc 0.24.0 0.25.0 9999: Libraries and applications to access smartcards
+dev-libs/opensc 0.24.0 0.25.0 0.25.0-r1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.3 0.5.5: A collection of special mathematical functions
 dev-libs/openssl 1.0.2u-r1 1.1.1w 3.0.11 3.0.12 3.0.13 3.1.5-r1 3.2.1-r1: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u: Full-strength general purpose cryptography library (including SSL and TLS)
@@ -8215,8 +8215,8 @@ dev-python/blurb 1.1.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 23.1.1: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 4.0: Define boolean algebras, create and parse boolean expressions
 dev-python/boto 2.49.0-r6: Amazon Web Services API
-dev-python/boto3 1.34.49 1.34.54 1.34.59 1.34.60 1.34.61 1.34.62: The AWS SDK for Python
-dev-python/botocore 1.34.49 1.34.54 1.34.59 1.34.60 1.34.61 1.34.62: Low-level, data-driven core of boto 3
+dev-python/boto3 1.34.49 1.34.54 1.34.59 1.34.60 1.34.61 1.34.62 1.34.63: The AWS SDK for Python
+dev-python/botocore 1.34.49 1.34.54 1.34.59 1.34.60 1.34.61 1.34.62 1.34.63: Low-level, data-driven core of boto 3
 dev-python/bottle 0.12.25-r1: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.3.8: Fast NumPy array functions written in C
 dev-python/bpython 0.24: Syntax highlighting and autocompletion for the Python interpreter
@@ -8556,7 +8556,7 @@ dev-python/hvac 2.1.0: HashiCorp Vault API client
 dev-python/hypercorn 0.16.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.0.1-r1: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.98.9 6.98.15 6.98.17 6.98.18 6.99.0 6.99.2 6.99.4 6.99.5: A library for property based testing
+dev-python/hypothesis 6.98.9 6.98.15 6.98.17 6.98.18 6.99.0 6.99.2 6.99.4 6.99.5 6.99.6: A library for property based testing
 dev-python/icalendar 5.0.11: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/identify 2.5.35: File identification library for Python
 dev-python/idna 3.6: Internationalized Domain Names in Applications (IDNA)
@@ -10655,7 +10655,7 @@ dev-util/argouml 0.34-r1: Modelling tool that helps you do your design using UML
 dev-util/aruba 0.6.2-r3 2.1.0 2.2.0: Cucumber steps for driving out command line applications
 dev-util/astyle 3.1-r2 3.4.8 3.4.9: Artistic Style is a re-indenter and reformatter for C++, C and Java source code
 dev-util/autodia 2.140.0-r2: Parses source code, XML or data and produces an XML document in Dia format
-dev-util/autoproject 0.20_p5: Start a programming project using autotools and a command line parser generator
+dev-util/autoproject 0.20_p5 0.20_p15: Start a programming project using autotools and a command line parser generator
 dev-util/azuredatastudio 1.47.1-r1 1.48.0: Data management and development tool from Microsoft
 dev-util/babeltrace 1.5.8 1.5.11 2.0.5: A command-line tool and library to read and convert trace files
 dev-util/bats 1.10.0: Bats-core: Bash Automated Testing System
@@ -10943,7 +10943,7 @@ dev-util/rocprofiler 5.1.3-r1 5.3.3: Callback/Activity Library for Performance t
 dev-util/roctracer 5.1.3-r1 5.3.3-r1 5.7.1-r1: Callback/Activity Library for Performance tracing AMD GPU's
 dev-util/ropper 1.13.8 9999: Use to display information about binary files in different file formats
 dev-util/rpmdevtools 9.5: Collection of rpm packaging related utilities
-dev-util/rr 5.6.0-r2 5.6.0-r4 5.7.0: Record and Replay Framework
+dev-util/rr 5.7.0: Record and Replay Framework
 dev-util/rt-tests 2.6: A collection of latency testing tools for the linux(-rt) kernel
 dev-util/ruff 0.3.2: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5: Execute your runbooks, docs and READMEs
@@ -13383,7 +13383,7 @@ media-libs/libxtract 0.6.6: A simple, portable, lightweight library of audio fea
 media-libs/libzen 0.4.39 0.4.41: Shared library for libmediainfo and mediainfo
 media-libs/libzmf 0.0.2-r1 9999: Library for parsing Zoner Callisto/Draw documents
 media-libs/lilv 0.24.24: Library to make the use of LV2 plugins as simple as possible for applications
-media-libs/lsp-plugins 1.1.29 1.2.3 1.2.3-r1 1.2.6 1.2.14 9999: Linux Studio Plugins
+media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 9999: Linux Studio Plugins
 media-libs/lv2 1.18.10: A simple but extensible successor of LADSPA
 media-libs/lvtk 1.2.0-r2: A set of C++ wrappers around the LV2 C API
 media-libs/mesa 23.3.5 23.3.6 24.0.1 24.0.2 24.0.3 9999: OpenGL-like graphic library for Linux
@@ -14467,7 +14467,7 @@ net-analyzer/nfdump 1.7.2: A set of tools to collect and process netflow data
 net-analyzer/ngrep 1.47-r2: A grep for network layers
 net-analyzer/nikto 2.1.6_p20220602 2.5.0: Web server vulnerability scanner
 net-analyzer/nipper 0.12.0: Router configuration security analysis tool
-net-analyzer/nload 0.7.4-r1 0.7.5_pre20180309: Real time network traffic monitor for the command line interface
+net-analyzer/nload 0.7.5_pre20180309: Real time network traffic monitor for the command line interface
 net-analyzer/nmap 7.94 9999: Network exploration tool and security / port scanner
 net-analyzer/nmapsi 0.5_alpha2-r1: Qt frontend to nmap
 net-analyzer/nmbscan 1.2.5-r1: Scans the shares of a SMB/NetBIOS network
@@ -14475,7 +14475,7 @@ net-analyzer/notus-scanner 22.6.2: Notus is a vulnerability scanner for creating
 net-analyzer/nrpe 4.0.0 4.0.2 4.0.3 4.1.0: Nagios Remote Plugin Executor
 net-analyzer/nsat 1.5-r6: Network Security Analysis Tool, an application-level network security scanner
 net-analyzer/nsca 2.7.2-r103: Nagios Service Check Acceptor
-net-analyzer/nstats 0.4-r3: Displays statistics about ethernet traffic including protocol breakdown
+net-analyzer/nstats 0.4-r4: Displays statistics about ethernet traffic including protocol breakdown
 net-analyzer/ntopng 5.2.1-r1 5.6-r2: Network traffic analyzer with web interface
 net-analyzer/nttcp 1.47-r3: Tool to test TCP and UDP throughput
 net-analyzer/nuttcp 8.1.4: Network performance measurement tool
@@ -14761,7 +14761,7 @@ net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r2: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.100.0 1.101.0 1.102.0: Reference implementation of Matrix homeserver
 net-im/telegram-desktop 4.14.15 4.15.0-r1 4.15.2: Official desktop client for Telegram
-net-im/telegram-desktop-bin 4.14.15 4.15.0: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 4.14.15 4.15.0 4.15.2: Official desktop client for Telegram (binary package)
 net-im/telepathy-connection-managers 2-r2: Meta-package for Telepathy Connection Managers
 net-im/telepathy-logger 0.8.2-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -15465,7 +15465,7 @@ net-p2p/arti 1.1.13-r1 9999: An implementation of Tor, in Rust.
 net-p2p/automatic 0.9.0: RSS downloader for Tranmission
 net-p2p/biglybt 3.5.0.0: Feature-filled Bittorrent client based on the Azureus open source project
 net-p2p/bitcoin-cli 25.1: Transitional package for net-p2p/bitcoin-core[bitcoin-cli]
-net-p2p/bitcoin-core 25.1-r2 25.2_rc1 26.0-r1 26.1_rc1: Reference implementation of the Bitcoin cryptocurrency
+net-p2p/bitcoin-core 25.1-r2 25.2_rc1 26.0-r1 26.1_rc2 27.0_rc1: Reference implementation of the Bitcoin cryptocurrency
 net-p2p/bitcoin-qt 25.1: Transitional package for net-p2p/bitcoin-core[gui]
 net-p2p/bitcoind 25.1: Transitional package for net-p2p/bitcoin-core[daemon]
 net-p2p/bitflu 1.52-r1: BitTorrent client, written in Perl and is designed to run as a daemon
@@ -16462,7 +16462,7 @@ sci-misc/lttoolbox 3.7.1: Toolbox for lexical processing, morphological analysis
 sci-misc/nco 5.1.3-r1: Command line utilities for operating on netCDF files
 sci-misc/ncview 2.1.8: X-based viewer for netCDF files
 sci-misc/netlogo-bin 6.2.0 6.2.2: Programming language and IDE for agent-based modelling
-sci-misc/oww 0.86.5: A one-wire weather station for Dallas Semiconductor
+sci-misc/oww 0.86.5 0.86.5-r1: A one-wire weather station for Dallas Semiconductor
 sci-misc/vitables 3.0.2_p4-r1: A graphical tool for browsing / editing files in both PyTables and HDF5 formats
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1: High Energy Physics C++ library
@@ -17172,7 +17172,7 @@ sys-apps/semodule-utils 3.5 3.6 9999: SELinux policy module utilities
 sys-apps/sensei-raw-ctl 0.0_pre20180729-r1: SteelSeries Sensei Raw configuration tool
 sys-apps/servicelog 1.1.15 1.1.16: Provides utilities for logging service-related events
 sys-apps/setserial 2.17-r6: Configure your serial ports with it
-sys-apps/sg3_utils 1.47 1.47-r1: Apps for querying the sg SCSI interface
+sys-apps/sg3_utils 1.47 1.47-r1 1.47-r2: Apps for querying the sg SCSI interface
 sys-apps/shadow 4.13-r4 4.14.2 4.14.5 4.14.6: Utilities to deal with user accounts
 sys-apps/smartmontools 7.3 7.4 7.4-r1 9999: Tools to monitor storage systems to provide advanced warning of disk degradation
 sys-apps/smc-sum 2.13.0.20230825: Updates the BIOS and IPMI firmware and system settings on Supermicro mainboards
