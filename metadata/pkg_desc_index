@@ -940,7 +940,7 @@ app-admin/evtxtools 1.1.1-r2: Read, decode and dump Windows Vista/2008/7 event l
 app-admin/exo 1.76.0: Command-line tool for everything at Exoscale: compute, storage, dns
 app-admin/fam 2.7.0_p17_p3: FAM, the File Alteration Monitor
 app-admin/fetchlog 1.4-r2: Displays the last new messages of a logfile
-app-admin/fifo-cronolog 1.1.1-r2 1.2.3: cronolog wrapper for use with dumb daemons like squid, varnish and so on
+app-admin/fifo-cronolog 1.2.3-r1: cronolog wrapper for use with dumb daemons like squid, varnish and so on
 app-admin/filebeat 7.17.16: Lightweight log shipper for Logstash and Elasticsearch
 app-admin/filewatcher 2.4.6-r1: File control configuration system and IDS
 app-admin/fluentd 1.16.3: data collector and unified logging layer (project under CNCF)
@@ -15374,7 +15374,7 @@ net-misc/sipcalc 1.1.6-r1: Advanced console-based IPv4/IPv6 subnet calculator
 net-misc/sipp 3.7.1: A free Open Source test tool / traffic generator for the SIP protocol
 net-misc/sipsak 0.9.8: small command line tool for testing SIP applications and devices
 net-misc/sitecopy 0.16.6-r2: Maintain remote web sites with ease
-net-misc/sks 1.1.6_p20200624-r1: An OpenPGP keyserver which is decentralized with highly reliable synchronization
+net-misc/sks 1.1.6_p20200624-r2: An OpenPGP keyserver which is decentralized with highly reliable synchronization
 net-misc/smb4k 3.2.5-r1 3.2.5-r2: Advanced network neighborhood browser
 net-misc/smbc 1.2.2-r3: Text mode (ncurses) SMB network commander. Features: resume and UTF-8
 net-misc/snarf 7.0-r4 7.0-r5: Small and fast CLI resource grabber for http, gopher, finger, ftp
