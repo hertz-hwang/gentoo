@@ -10755,7 +10755,7 @@ dev-util/diffball 1.0.1-r2: Delta compression suite for using/generating binary 
 dev-util/diffoscope 257 261 262 263: Will try to get to the bottom of what makes files or directories different
 dev-util/diffstat 1.65 1.66: Display a histogram of diff changes
 dev-util/difftastic 0.54.0 0.55.0 0.57.0: A structural diff that understands syntax.
-dev-util/diffuse 0.8.2: A graphical tool to compare and merge text files
+dev-util/diffuse 0.8.2 0.9.0: A graphical tool to compare and merge text files
 dev-util/dirdiff 2.1-r4: A tool for differing and merging directories
 dev-util/directx-headers 1.611.0 1.613.1 9999: DirectX header files and WSL stubs
 dev-util/dissembler 0.9-r1: polymorphs bytecode to a printable ASCII string
@@ -12868,7 +12868,7 @@ media-gfx/apngdis 2.9: Extract PNG frames from an APNG
 media-gfx/apngopt 1.4-r1: Optimize APNG images
 media-gfx/argyllcms 2.1.2-r3 2.3.1-r1 3.1.0: Open source, ICC compatible color management system
 media-gfx/arss 0.2.3-r1: Analysis & Resynthesis Sound Spectrograph
-media-gfx/asymptote 2.86: A vector graphics language that provides a framework for technical drawing
+media-gfx/asymptote 2.86 2.89: A vector graphics language that provides a framework for technical drawing
 media-gfx/autopano-sift-C 2.5.1-r1: SIFT algorithm for automatic panorama creation in C
 media-gfx/aview 1.3.0_rc1-r3: ASCII Image Viewer
 media-gfx/blender 3.3.8 3.3.15 3.6.8 4.0.2 9999: 3D Creation/Animation/Publishing System
@@ -15142,7 +15142,7 @@ net-misc/dibbler 1.0.1-r3 1.0.1-r4: Portable DHCPv6 implementation (server, clie
 net-misc/downloader-cli 0.3.4: Simple downloader with an customizable progressbar
 net-misc/dropbear 2022.83 2024.84: Small SSH 2 client/server designed for small memory environments
 net-misc/dropbox 195.4.4995 196.4.6900: Dropbox daemon (pretends to be GUI-less)
-net-misc/dropbox-cli 2023: Cli interface for dropbox (python), part of nautilus-dropbox
+net-misc/dropbox-cli 2023 2024.01.22: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electron-cash 4.2.11: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-misc/electrum 4.5.4: User friendly Bitcoin client
