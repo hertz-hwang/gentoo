@@ -5760,7 +5760,7 @@ dev-libs/tntnet 3.0: Modular, multithreaded web application server extensible wi
 dev-libs/tomsfastmath 0.13.1-r1: Fast public domain large integer arithmetic library
 dev-libs/totem-pl-parser 3.26.6-r1: Playlist parsing library
 dev-libs/tre 0.8.0_p20210321-r1 0.8.0_p20210321-r2 0.8.0_p20210321-r3: Lightweight, robust, and efficient POSIX compliant regexp matching library
-dev-libs/tree-sitter 0.20.8 0.20.8-r1 0.20.9-r1 0.22.1 0.22.2 9999: Tree-sitter is a parser generator tool and an incremental parsing library
+dev-libs/tree-sitter 0.20.9-r1 0.22.1 0.22.2 0.22.4 9999: Tree-sitter is a parser generator tool and an incremental parsing library
 dev-libs/tree-sitter-bash 0.19.0 0.20.4-r1 0.20.5 0.21.0-r1: Bash grammar for Tree-sitter
 dev-libs/tree-sitter-c 0.20.6 0.20.7 0.21.0: C grammar for Tree-sitter
 dev-libs/tree-sitter-c-sharp 0.19.1 0.20.0: C# grammar for Tree-sitter
@@ -5769,11 +5769,11 @@ dev-libs/tree-sitter-cpp 0.20.3 0.20.5 0.21.0: C++ grammar for Tree-sitter
 dev-libs/tree-sitter-css 0.20.0: CSS grammar for Tree-sitter
 dev-libs/tree-sitter-embedded-template 0.19.0 0.20.0: Embedded template languages (like ERB, EJS) grammar for Tree-sitter
 dev-libs/tree-sitter-gleam 0.33.0: Gleam grammar for Tree-sitter
-dev-libs/tree-sitter-go 0.19.1 0.20.0-r1: Go grammar for Tree-sitter
+dev-libs/tree-sitter-go 0.20.0-r1 0.21.0: Go grammar for Tree-sitter
 dev-libs/tree-sitter-haskell 0.13.0_p20211114 0.15.0: Haskell grammar for Tree-sitter
 dev-libs/tree-sitter-html 0.19.0 0.20.2: HTML grammar for Tree-sitter
-dev-libs/tree-sitter-java 0.19.1 0.20.0 0.20.1 0.20.2: Java grammar for Tree-sitter
-dev-libs/tree-sitter-javascript 0.20.0 0.20.1-r1 0.20.3 0.20.4: JavaScript grammar for Tree-sitter
+dev-libs/tree-sitter-java 0.20.2 0.21.0: Java grammar for Tree-sitter
+dev-libs/tree-sitter-javascript 0.20.1-r1 0.20.4 0.21.0: JavaScript grammar for Tree-sitter
 dev-libs/tree-sitter-jsdoc 0.19.0: JSDoc grammar for Tree-sitter
 dev-libs/tree-sitter-json 0.19.0 0.20.1 0.20.2 0.21.0: JSON grammar for Tree-sitter
 dev-libs/tree-sitter-julia 0.19.0 0.20.0: Julia grammar for Tree-sitter
@@ -8353,14 +8353,14 @@ dev-python/django-debug-toolbar 4.3.0: A configurable set of panels that display
 dev-python/django-filter 23.5 24.1 24.2: Django app allowing declarative dynamic QuerySet filtering from URL parameters
 dev-python/django-js-asset 2.2.0: Script tag with additional attributes for django.forms.Media
 dev-python/django-otp 1.3.0 1.4.0 1.4.1: Django framework adding two-factor authentication using one-time passwords
+dev-python/django-polymorphic 3.1-r1: Seamless Polymorphic Inheritance for Django Models
 dev-python/django-prometheus 2.3.1: Library to export Django metrics for Prometheus
 dev-python/django-redis 5.4.0: Full featured redis cache backend for Django
 dev-python/django-registration 3.4-r1: user-registration application for Django
 dev-python/django-sortedm2m 3.1.1-r2: Drop-in replacement for django's many to many field with sorted relations
 dev-python/django-tables2 2.7.0: Table/data-grid framework for Django
-dev-python/django-taggit 3.1.0: Simple tagging for Django
+dev-python/django-taggit 3.1.0 5.0.1: Simple tagging for Django
 dev-python/django-timezone-field 6.1.0: A Django app providing database and form fields for timezone objects
-dev-python/django_polymorphic 3.1-r1: Seamless Polymorphic Inheritance for Django Models
 dev-python/djangorestframework 3.15.0 3.15.1: Web APIs with django made easy
 dev-python/dkimpy 1.1.5: DKIM and ARC email signing and verification library
 dev-python/dns-lexicon 3.17.0: Manipulate DNS records on various DNS providers in a standardized/agnostic way
@@ -10978,7 +10978,7 @@ dev-util/tinlink 1.0.0-r2: Tool to create very small elf binary from pure binary
 dev-util/tkdiff 5.5.2 5.6: Graphical front end to the diff program
 dev-util/tmake 2.12-r2: A Cross platform Makefile tool
 dev-util/trace-cmd 3.1.4-r2 3.1.5-r2 3.1.6-r1 3.1.7 3.2-r2: User-space front-end for Ftrace
-dev-util/tree-sitter-cli 0.20.8 0.20.9 0.22.1 0.22.2: Command-line tool for creating and testing tree-sitter grammars
+dev-util/tree-sitter-cli 0.20.9 0.22.1 0.22.2 0.22.4: Command-line tool for creating and testing tree-sitter grammars
 dev-util/treecc 0.3.10-r1 0.3.10-r2: Compiler-compiler tool for aspect-oriented programming
 dev-util/txt2regex 0.8-r3: A Regular Expression wizard that converts human sentences to regexs
 dev-util/uftrace 0.14 0.15.2: Function (graph) tracer for user-space
@@ -16246,7 +16246,7 @@ sci-libs/octomap 1.9.8: An Efficient Probabilistic 3D Mapping Framework Based on
 sci-libs/ogdi 4.1.0-r1: Open Geographical Datastore Interface, a GIS support library
 sci-libs/onnx 1.14.1-r2 1.15.0-r1: Open Neural Network Exchange (ONNX)
 sci-libs/openblas 0.3.25-r1 0.3.26: Optimized BLAS library based on GotoBLAS2
-sci-libs/opencascade 7.6.3-r2 7.7.0-r2 7.7.1 7.7.2 7.8.0 9999: Development platform for CAD/CAE, 3D surface/solid modeling and data exchange
+sci-libs/opencascade 7.6.3-r2 7.7.0-r2 7.7.2-r1 7.8.1 9999: Development platform for CAD/CAE, 3D surface/solid modeling and data exchange
 sci-libs/openlibm 0.7.5 0.8.0: High quality system independent, open source libm
 sci-libs/orocos-bfl 0.8.0: Bayesian Filtering Library
 sci-libs/orocos_kdl 1.5.1 9999: Kinematics and Dynamics Library (KDL)
@@ -16262,7 +16262,7 @@ sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.2.1-r1 9.3.0-r1: PROJ coordinate transformation software
 sci-libs/punc 1.5: Portable Understructure for Numerical Computing
-sci-libs/pyshp 2.3.1-r1: Pure Python read/write support for ESRI Shapefile format
+sci-libs/pyshp 2.3.1-r1 2.3.1-r2: Pure Python read/write support for ESRI Shapefile format
 sci-libs/pytorch 2.1.2-r1 2.2.2: Tensors and Dynamic neural networks in Python
 sci-libs/qd 2.3.23: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0: ESO stand-alone C library offering easy access to FITS files
@@ -17656,7 +17656,7 @@ sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230
 sys-kernel/rt-sources 4.14.336_p159 4.19.307_p133 5.4.271_p89 5.10.213_p105 5.15.153_p75 6.0.5_p14 6.1.83_p28 6.5.2_p8 6.6.25_p29: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/vanilla-kernel 5.10.212 5.10.214 5.10.215 5.10.9999 5.15.151 5.15.154 5.15.155 5.15.9999 6.1.81 6.1.85 6.1.86 6.1.9999 6.6.21 6.6.26 6.6.27 6.6.9999 6.8.5 6.8.6: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 4.19.312 5.4.274 5.10.215 5.15.155 6.1.86 6.6.27 6.8.6: Full sources for the Linux kernel
-sys-kernel/zen-sources 6.6.10: The Zen Kernel Live Sources
+sys-kernel/zen-sources 6.7.9: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.0 0.2.0-r1 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r2 2.41-r3 2.41-r5 2.42-r1: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
