@@ -17,6 +17,7 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
+RESTRICT="test" # tests are for CLI and not the lib
 
 PATCHES=(
 	"${FILESDIR}/${PN}-0.22.2-no-static.patch"
@@ -30,7 +31,8 @@ src_prepare() {
 src_compile() {
 	emake \
 		PREFIX="${EPREFIX}/usr" \
-		LIBDIR="${EPREFIX}/usr/$(get_libdir)"
+		LIBDIR="${EPREFIX}/usr/$(get_libdir)" \
+		STRIP="" # bug 930020
 }
 
 src_install() {
