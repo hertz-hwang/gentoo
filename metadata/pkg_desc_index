@@ -2487,7 +2487,7 @@ app-i18n/ibus-handwrite 3.0.0-r1: Hand write recognition/input for IBus
 app-i18n/ibus-hangul 1.5.4: Korean Hangul engine for IBus
 app-i18n/ibus-input-pad 1.4.99_pre20140916: Input Pad for IBus
 app-i18n/ibus-libpinyin 1.13.1-r1 1.15.2: Intelligent Pinyin and Bopomofo input methods based on LibPinyin for IBus
-app-i18n/ibus-m17n 1.4.28: M17N engine for IBus
+app-i18n/ibus-m17n 1.4.28 1.4.29: M17N engine for IBus
 app-i18n/ibus-pinyin 1.5.0-r5 1.5.0-r6: Chinese Pinyin and Bopomofo engines for IBus
 app-i18n/ibus-rime 1.5.0: Chinese Rime Input Method Engine for IBus
 app-i18n/ibus-skk 1.4.3: Japanese SKK engine for IBus
@@ -2496,7 +2496,7 @@ app-i18n/ibus-table-chinese 1.8.3: Chinese tables for IBus-Table
 app-i18n/ibus-table-extraphrase 1.3.9.20110826: Chinese extra phrases for IBus-Table
 app-i18n/ibus-table-latin 1.2.0.20100305: Latin tables for IBus-Table
 app-i18n/ibus-table-others 1.3.17: Various tables for IBus-Table
-app-i18n/ibus-typing-booster 2.25.3 2.25.4: Completion input method for IBus
+app-i18n/ibus-typing-booster 2.25.3 2.25.4 2.25.6: Completion input method for IBus
 app-i18n/ibus-unikey 0.7.0_beta1: Vietnamese UniKey engine for IBus
 app-i18n/im-chooser 1.7.3: Desktop Input Method configuration tool
 app-i18n/im-freewnn 0.0.2-r3: Japanese FreeWnn input method module for GTK+2
@@ -2524,7 +2524,7 @@ app-i18n/mecab-skkserv 0.03-r1: mecab-skkserv is a Kana-Kanji conversion server 
 app-i18n/mozc 2.28.5029.102 2.28.5029.102-r1 2.28.5029.102-r2: Mozc - Japanese input method editor
 app-i18n/multiskkserv 20100128: SKK server that handles multiple dictionaries
 app-i18n/nabi 1.0.1: Simple Hanguk X Input Method
-app-i18n/nkf 2.1.5 2.1.5-r1: Network Kanji code conversion Filter with UTF-8/16 support
+app-i18n/nkf 2.1.5-r1: Network Kanji code conversion Filter with UTF-8/16 support
 app-i18n/opencc 1.1.4 9999: Library for conversion between Traditional and Simplified Chinese characters
 app-i18n/poedit 2.2.4 2.3.1: GUI gettext translations editor
 app-i18n/pyzy 0.1.0-r3: The Chinese PinYin and Bopomofo conversion library
@@ -4769,7 +4769,7 @@ dev-java/ant-core 1.10.14: Compatibility link to ant-core for >=dev-java/ant-1.1
 dev-java/ant-ivy 2.5.0-r1: Ivy is a free java based dependency manager
 dev-java/antlr 2.7.7-r9 3.2-r1 3.5.3 4.9.3: A parser generator for many languages
 dev-java/antlr-runtime 3.5.3 4.9.3: ANTLR 4 Runtime
-dev-java/antlr-tool 3.5.3 4.9.3-r1: The ANTLR 4 grammar compiler
+dev-java/antlr-tool 3.5.3 4.9.3-r2: The ANTLR 4 grammar compiler
 dev-java/antunit 1.4.1-r1: An Antlib that provides a test framework for Apache Ant tasks and types
 dev-java/aopalliance 1.0-r3: Aspect-Oriented Programming (AOP) Alliance classes
 dev-java/apache-rat 0.15-r1: Apache Rat is a release audit tool, focused on licenses
@@ -4867,7 +4867,7 @@ dev-java/httpcore 4.4.14: Apache HttpComponents Core (blocking I/O)
 dev-java/icedtea-bin 3.16.0-r2: A Gentoo-made binary build of the IcedTea JDK
 dev-java/icedtea-sound 1.0.1-r1: Plugins for javax.sound
 dev-java/icedtea-web 1.8.8-r1: FOSS Java browser plugin and Web Start implementation
-dev-java/icu4j 74.2: A set of Java libraries providing Unicode and Globalization support
+dev-java/icu4j 74.2-r1: A set of Java libraries providing Unicode and Globalization support
 dev-java/identicon 1.0: Visual representation of a hash value
 dev-java/injection-api 2.0.1: Jakarta Dependency Injection
 dev-java/iso-relax 20050331-r5: Interfaces useful for applications which support RELAX Core
@@ -10376,7 +10376,7 @@ dev-ruby/syslogger 1.6.6-r2: Drop-in replacement for the standard Logger, that l
 dev-ruby/systemu 2.6.5-r1: Universal capture of STDOUT and STDERR and handling of child process PID
 dev-ruby/tdiff 0.3.4-r1 0.4.0: Calculates the differences between two tree-like structures
 dev-ruby/temple 0.10.2 0.10.3: An abstraction and a framework for compiling templates to pure Ruby
-dev-ruby/term-ansicolor 1.7.1-r1 1.7.2: Small Ruby library that colors strings using ANSI escape sequences
+dev-ruby/term-ansicolor 1.7.1-r1 1.7.2 1.8.0: Small Ruby library that colors strings using ANSI escape sequences
 dev-ruby/terminal-table 1.8.0-r4 2.0.0-r1 3.0.2: Simple, feature rich ascii table generation library
 dev-ruby/test-unit 3.5.8 3.6.1 3.6.2: An xUnit family unit testing framework for Ruby
 dev-ruby/test-unit-rr 1.0.5-r2: RR adapter for Test::Unit
@@ -10432,7 +10432,7 @@ dev-ruby/vlad 2.7.1-r1: Pragmatic application deployment automation, without mer
 dev-ruby/warden 1.2.9-r1: General Rack Authentication Framework
 dev-ruby/warning 1.3.0: Custom processing for warnings
 dev-ruby/web-console 4.2.0 4.2.1: A debugging tool for your Ruby on Rails applications
-dev-ruby/webmock 3.18.1 3.19.1: Allows stubbing HTTP requests and setting expectations on HTTP requests
+dev-ruby/webmock 3.18.1 3.19.1 3.23.0: Allows stubbing HTTP requests and setting expectations on HTTP requests
 dev-ruby/webrick 1.7.0-r1 1.8.1: An HTTP server toolkit
 dev-ruby/webrobots 0.1.2-r3: A library to help write robots.txt compliant web robots
 dev-ruby/websocket 1.2.9-r2 1.2.10: Universal Ruby library to handle WebSocket protocol
@@ -13339,7 +13339,7 @@ media-libs/libshout 2.4.6: library for connecting and sending data to icecast se
 media-libs/libshumate 1.0.5 1.1.3: Shumate is a GTK toolkit providing widgets for embedded maps
 media-libs/libsidplay 1.36.59-r3 2.1.1-r7: C64 SID player library
 media-libs/libsidplayfp 2.6.0 2.7.0: Library for the sidplay2 fork with resid-fp
-media-libs/libsixel 1.10.3: A lightweight, fast implementation of DEC SIXEL graphics codec
+media-libs/libsixel 1.10.3-r1: A lightweight, fast implementation of DEC SIXEL graphics codec
 media-libs/libsmf 1.3: Standard MIDI File format library
 media-libs/libsndfile 1.2.2 1.2.2-r2 9999: C library for reading and writing files containing sampled sound
 media-libs/libsoundio 2.0.0-r1: C library for cross-platform real-time audio input and output
