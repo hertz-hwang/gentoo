@@ -1,25 +1,24 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit go-module systemd
 
-KEYWORDS="~amd64"
-EGO_PN="github.com/hashicorp/serf"
 DESCRIPTION="Service orchestration and management tool"
 HOMEPAGE="https://www.serfdom.io/"
 SRC_URI="https://github.com/hashicorp/serf/archive/v${PV}.tar.gz -> ${P}.tar.gz
-	https://dev.gentoo.org/~zmedico/dist/${P}-deps.tar.xz"
+	https://dev.gentoo.org/~zmedico/dist/${PF}-deps.tar.xz"
 
+LICENSE="MPL-2.0"
+LICENSE+=" Apache-2.0 BSD MIT"
 SLOT="0"
-LICENSE="MPL-2.0 Apache-2.0 BSD MIT"
-IUSE=""
+KEYWORDS="~amd64"
 RESTRICT+=" test"
-BDEPEND=""
 RDEPEND="
 	acct-user/serf
 	acct-group/serf"
+PATCHES=("${S}/go-mod-sum.patch")
 
 src_prepare() {
 	default
@@ -31,7 +30,7 @@ src_prepare() {
 
 src_compile() {
 	mkdir -p ./bin
-	go build -o ./bin/serf ./cmd/serf || die
+	ego build -o ./bin/serf ./cmd/serf || die
 }
 
 src_install() {
