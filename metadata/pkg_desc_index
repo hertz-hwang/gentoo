@@ -4764,7 +4764,7 @@ dev-haskell/zlib 0.6.2.3 0.6.3.0: Compression and decompression in the gzip and 
 dev-java/angus-activation 1.0.0-r1: Provides the implementation of the Jakarta Activation Specification
 dev-java/animal-sniffer-annotations 1.15-r1: Java annotations for marking methods that Animal Sniffer should ignore
 dev-java/ant 1.10.14-r3: Java-based build tool similar to 'make' that uses XML configuration files
-dev-java/ant-contrib 1.0_beta6_pre20201123-r1: Ant-contrib tasks for Apache Ant
+dev-java/ant-contrib 1.0_beta6_pre20201123-r2: Ant-contrib tasks for Apache Ant
 dev-java/ant-core 1.10.14: Compatibility link to ant-core for >=dev-java/ant-1.10.14
 dev-java/ant-ivy 2.5.0-r2: Ivy is a free java based dependency manager
 dev-java/antlr 2.7.7-r9 3.2-r2 3.5.3 4.9.3: A parser generator for many languages
@@ -4867,7 +4867,7 @@ dev-java/httpcore 4.4.14: Apache HttpComponents Core (blocking I/O)
 dev-java/icedtea-bin 3.16.0-r2: A Gentoo-made binary build of the IcedTea JDK
 dev-java/icedtea-sound 1.0.1-r1: Plugins for javax.sound
 dev-java/icedtea-web 1.8.8-r1: FOSS Java browser plugin and Web Start implementation
-dev-java/icu4j 74.2-r1: A set of Java libraries providing Unicode and Globalization support
+dev-java/icu4j 74.2-r1 75.1: A set of Java libraries providing Unicode and Globalization support
 dev-java/identicon 1.0: Visual representation of a hash value
 dev-java/injection-api 2.0.1: Jakarta Dependency Injection
 dev-java/iso-relax 20050331-r6: Interfaces useful for applications which support RELAX Core
@@ -5005,7 +5005,7 @@ dev-java/metainf-services 1.9: Generates META-INF/services files automatically
 dev-java/miglayout 5.3: MiGLayout - Java Layout Manager for Swing, SWT and JavaFX
 dev-java/mill-bin 0.11.5 0.11.6 0.11.7: A Java/Scala build tool
 dev-java/minidns-core 1.0.4: DNS library for Java and Android systems
-dev-java/mockito 1.9.5-r3 2.28.2 4.11.0: Mockito mock objects library core API and implementation
+dev-java/mockito 1.9.5-r4 2.28.2 4.11.0: Mockito mock objects library core API and implementation
 dev-java/msv 2022.7: Multi-Schema Validator Core package
 dev-java/mvel 2.5.0: MVFLEX Expression Language
 dev-java/objenesis 3.3: A library for instantiating Java objects
@@ -13406,7 +13406,7 @@ media-libs/openimageio 2.4.6.0-r1 2.4.12.0 2.4.13.0 2.4.14.0 2.4.15.0 2.4.16.0 2
 media-libs/openjpeg 2.5.0-r5 2.5.0-r6 2.5.2: Open-source JPEG 2000 library
 media-libs/openpgl 0.5.0-r1 0.6.0: Intel Open Path Guiding Library
 media-libs/opensubdiv 3.4.4-r3 3.5.0 3.5.1 3.6.0-r1: An Open-Source subdivision surface library
-media-libs/opus 1.4 1.5.1-r1: Open codec for interactive speech and music transmission over the Internet
+media-libs/opus 1.4 1.5.1-r1 1.5.2: Open codec for interactive speech and music transmission over the Internet
 media-libs/opusfile 0.12-r1: A high-level decoding and seeking API for .opus files
 media-libs/osl 1.12.7.0 1.12.11.0 1.12.13.0 1.12.14.0 1.12.14.0-r1 1.13.7.0 9999: Advanced shading language for production GI renderers
 media-libs/partio 1.14.6 1.17.1: Library for particle IO and manipulation
@@ -13808,7 +13808,7 @@ media-sound/alsa-utils 1.2.10-r1 1.2.11: Advanced Linux Sound Architecture Utils
 media-sound/alsamixer-app 0.1-r1: simple alsa mixer dockapp
 media-sound/alsamixergui 0.9.0.1.2-r4: FLTK based amixer Frontend
 media-sound/alsaplayer 0.99.81-r4: A heavily multi-threaded pluggable audio player
-media-sound/amsynth 1.13.2: Virtual analogue synthesizer
+media-sound/amsynth 1.13.2 1.13.3: Virtual analogue synthesizer
 media-sound/apetag 1.12-r3: Command-line ape 2.0 tagger
 media-sound/apulse 0.1.13-r2: PulseAudio emulation for ALSA
 media-sound/aqualung 1.2-r3: Music player for a wide range of formats designed for gapless playback
