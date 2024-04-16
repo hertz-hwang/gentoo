@@ -1788,7 +1788,7 @@ app-editors/jed 0.99.19-r1: Console S-Lang-based editor
 app-editors/jedit 5.6.0-r1: Programmer's editor written in Java
 app-editors/joe 4.6-r2: A free ASCII-Text Screen Editor for UNIX
 app-editors/jove 4.17.3.7 4.17.5.3: Jonathan's Own Version of Emacs, a light emacs-like editor without LISP bindings
-app-editors/juffed 0.10_p20200103: QScintilla-based tabbed text editor with syntax highlighting
+app-editors/juffed 0.10_p20200103-r1: QScintilla-based tabbed text editor with syntax highlighting
 app-editors/jupp 3.1_p40 3.1_p41: Portable version of Joe's Own Editor
 app-editors/kakoune 2022.10.31 2023.08.05: Modal editor inspired by vim
 app-editors/kile 2.9.93_p20221123-r1 2.9.94: Latex Editor and TeX shell based on KDE Frameworks
@@ -3988,8 +3988,8 @@ dev-db/sqlcipher 4.5.1 4.5.5: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 23.3.0.270.1251: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
 dev-db/sqlite 3.44.2-r1 3.44.2-r2 3.45.1-r1 3.45.2 9999: SQL database engine
-dev-db/sqlitebrowser 3.12.2-r1 9999: A light GUI editor for SQLite databases
-dev-db/sqliteman 1.2.2-r5: Powerful GUI manager for the Sqlite3 database
+dev-db/sqlitebrowser 3.12.2-r2 9999: A light GUI editor for SQLite databases
+dev-db/sqliteman 1.2.2-r6: Powerful GUI manager for the Sqlite3 database
 dev-db/sqlitestudio 3.4.4-r1: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.7.9 1.8 1.8.2 9999: An automatic SQL injection and database takeover tool
 dev-db/textsearch_ja 9.0.0: Integrated Full-Text-Search for Japanese language using morphological analyze
@@ -9288,7 +9288,7 @@ dev-python/qiskit-aer 0.12.2 0.13.3: High performance simulator for quantum circ
 dev-python/qiskit-terra 0.46.0 0.46.1: Terra is the foundation on which Qiskit is built
 dev-python/qpageview 0.6.2: Page-based viewer widget for Qt5/PyQt5
 dev-python/qrcode 7.4.2: QR Code generator on top of PIL
-dev-python/qscintilla-python 2.13.3 2.14.1: Python bindings for QScintilla
+dev-python/qscintilla-python 2.13.3 2.14.1 2.14.1-r1: Python bindings for QScintilla
 dev-python/qstylizer 0.2.2: Stylesheet Generator for PyQt5/PySide2
 dev-python/qtawesome 1.3.1: Enables iconic fonts such as Font Awesome in PyQt
 dev-python/qtconsole 5.4.3 5.4.3-r1 5.4.4 5.5.0 5.5.1: Qt-based console for Jupyter with support for rich media output
@@ -11138,7 +11138,7 @@ games-action/noiz2sa 0.51a-r2: Abstract Shooting Game
 games-action/orbital-eunuchs-sniper 1.30-r1: Snipe terrorists from your orbital base
 games-action/postalplus 1-r1: Ultraviolent and controversial game featuring the Postal Dude
 games-action/powermanga 0.93.1-r1: Arcade 2D shoot-em-up game
-games-action/prismlauncher 8.2 8.2-r1 9999: A custom, open source Minecraft launcher
+games-action/prismlauncher 8.2-r1 9999: A custom, open source Minecraft launcher
 games-action/psychonauts-gog 2.0.0.4: A mind-bending platforming adventure from Double Fine Productions
 games-action/psychonauts-hb 20130506: A mind-bending platforming adventure from Double Fine Productions
 games-action/psychonauts2-hb 1097251: Platform-adventure game with cinematic style and customizable psychic powers
@@ -11300,7 +11300,7 @@ games-board/cgoban 1.9.14-r2: Go-frontend with a large set of go-related service
 games-board/chessx 1.5.4-r4: Qt5-based Chess Database Utility
 games-board/cockatrice 20230914: Open-source multiplatform software for playing card games over a network
 games-board/crafty 24.1-r2: Bob Hyatt's strong chess engine
-games-board/cutechess 1.3.1: Cross-platform tools for working with chess engines
+games-board/cutechess 1.3.1-r1: Cross-platform tools for working with chess engines
 games-board/domination 1.1.1.6-r2: The well-known board game, written in java
 games-board/eboard 1.1.1-r2: chess interface for POSIX systems
 games-board/four-in-a-row 3.38.1: Make lines of the same color to win
@@ -12426,71 +12426,71 @@ kde-misc/rsibreak 0.12.15: Small utility which bothers you at certain intervals
 kde-misc/skanlite 23.08.5 24.02.2: Simple image scanning application based on libksane and KDE Frameworks
 kde-misc/tellico 3.5.3 3.5.4: Collection manager based on KDE Frameworks
 kde-misc/zanshin 23.08.5 24.02.2: Getting things done application by KDE
-kde-plasma/bluedevil 5.27.11 6.0.3: Bluetooth stack for KDE Plasma
-kde-plasma/breeze 5.27.11 6.0.3: Breeze visual style for the Plasma desktop
-kde-plasma/breeze-grub 5.27.11 6.0.3: Breeze theme for GRUB
-kde-plasma/breeze-gtk 5.27.11 6.0.3: Official GTK+ port of Plasma's Breeze widget style
-kde-plasma/breeze-plymouth 5.27.11 6.0.3: Breeze theme for Plymouth
-kde-plasma/discover 5.27.11 6.0.3: KDE Plasma resources management GUI
-kde-plasma/drkonqi 5.27.11 6.0.3: Plasma crash handler, gives the user feedback if a program crashed
-kde-plasma/flatpak-kcm 5.27.11 6.0.3: Flatpak Permissions Management KCM
-kde-plasma/kactivitymanagerd 5.27.11 6.0.3: System service to manage user's activities, track the usage patterns etc.
-kde-plasma/kde-cli-tools 5.27.11 6.0.3: Tools based on KDE Frameworks 6 to better interact with the system
-kde-plasma/kde-gtk-config 5.27.11 6.0.3: Syncs KDE Plasma theme settings to GTK applications
-kde-plasma/kdecoration 5.27.11 6.0.3: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 5.27.11 6.0.3: Extra Plasma applets and engines
-kde-plasma/kgamma 5.27.11 6.0.3: Screen gamma values kcontrol module
-kde-plasma/kglobalacceld 6.0.3: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+kde-plasma/bluedevil 5.27.11 6.0.4: Bluetooth stack for KDE Plasma
+kde-plasma/breeze 5.27.11 6.0.4: Breeze visual style for the Plasma desktop
+kde-plasma/breeze-grub 5.27.11 6.0.4: Breeze theme for GRUB
+kde-plasma/breeze-gtk 5.27.11 6.0.4.1: Official GTK+ port of Plasma's Breeze widget style
+kde-plasma/breeze-plymouth 5.27.11 6.0.4.1: Breeze theme for Plymouth
+kde-plasma/discover 5.27.11 6.0.4: KDE Plasma resources management GUI
+kde-plasma/drkonqi 5.27.11 6.0.4: Plasma crash handler, gives the user feedback if a program crashed
+kde-plasma/flatpak-kcm 5.27.11 6.0.4: Flatpak Permissions Management KCM
+kde-plasma/kactivitymanagerd 5.27.11 6.0.4: System service to manage user's activities, track the usage patterns etc.
+kde-plasma/kde-cli-tools 5.27.11 6.0.4: Tools based on KDE Frameworks 6 to better interact with the system
+kde-plasma/kde-gtk-config 5.27.11 6.0.4: Syncs KDE Plasma theme settings to GTK applications
+kde-plasma/kdecoration 5.27.11 6.0.4: Plugin based library to create window decorations
+kde-plasma/kdeplasma-addons 5.27.11 6.0.4: Extra Plasma applets and engines
+kde-plasma/kgamma 5.27.11 6.0.4: Screen gamma values kcontrol module
+kde-plasma/kglobalacceld 6.0.4: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
 kde-plasma/khotkeys 5.27.11: KDE Plasma workspace hotkey module
-kde-plasma/kinfocenter 5.27.11 6.0.3: Utility providing information about the computer hardware
-kde-plasma/kmenuedit 5.27.11 6.0.3: KDE Plasma menu editor
-kde-plasma/kpipewire 5.27.11 6.0.3: Components relating to Flatpak pipewire use in Plasma
-kde-plasma/kscreen 5.27.11 6.0.3: KDE Plasma screen management
-kde-plasma/kscreenlocker 5.27.11 6.0.3-r1: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 5.27.11 6.0.3: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/kinfocenter 5.27.11 6.0.4: Utility providing information about the computer hardware
+kde-plasma/kmenuedit 5.27.11 6.0.4: KDE Plasma menu editor
+kde-plasma/kpipewire 5.27.11 6.0.4: Components relating to Flatpak pipewire use in Plasma
+kde-plasma/kscreen 5.27.11 6.0.4: KDE Plasma screen management
+kde-plasma/kscreenlocker 5.27.11 6.0.4: Library and components for secure lock screen architecture
+kde-plasma/ksshaskpass 5.27.11 6.0.4: Implementation of ssh-askpass with KDE Wallet integration
 kde-plasma/ksysguard 5.22.0-r1: Network-enabled resource usage monitor
-kde-plasma/ksystemstats 5.27.11 6.0.3: Plugin-based system monitoring daemon
-kde-plasma/kwallet-pam 5.27.11 6.0.3: PAM module to not enter KWallet password again after login
-kde-plasma/kwayland 5.115.0 6.0.3: Qt-style API to interact with the wayland-client API
-kde-plasma/kwayland-integration 5.27.11 6.0.3: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 5.27.11 6.0.3.1: Flexible, composited Window Manager for windowing systems on Linux
-kde-plasma/kwrited 5.27.11 6.0.3: KDE Plasma daemon listening for wall and write messages
-kde-plasma/layer-shell-qt 5.27.11 6.0.3: Qt component to allow applications make use of Wayland wl-layer-shell protocol
-kde-plasma/libkscreen 5.27.11 6.0.3: Plasma screen management library
-kde-plasma/libksysguard 5.27.11 6.0.3: Task management and system monitoring library
+kde-plasma/ksystemstats 5.27.11 6.0.4: Plugin-based system monitoring daemon
+kde-plasma/kwallet-pam 5.27.11 6.0.4: PAM module to not enter KWallet password again after login
+kde-plasma/kwayland 5.115.0 6.0.4: Qt-style API to interact with the wayland-client API
+kde-plasma/kwayland-integration 5.27.11 6.0.4: Provides KWindowSystem integration plugin for Wayland
+kde-plasma/kwin 5.27.11 6.0.4: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwrited 5.27.11 6.0.4: KDE Plasma daemon listening for wall and write messages
+kde-plasma/layer-shell-qt 5.27.11 6.0.4: Qt component to allow applications make use of Wayland wl-layer-shell protocol
+kde-plasma/libkscreen 5.27.11 6.0.4: Plasma screen management library
+kde-plasma/libksysguard 5.27.11 6.0.4: Task management and system monitoring library
 kde-plasma/libkworkspace 5.27.11: Workspace library to interact with the Plasma session manager
-kde-plasma/libplasma 5.115.0 6.0.3: Plasma library and runtime components based upon KF6 and Qt6
-kde-plasma/milou 5.27.11 6.0.3: Dedicated search application built on top of Baloo
-kde-plasma/ocean-sound-theme 6.0.3: Ocean Sound Theme for Plasma
-kde-plasma/oxygen 5.27.11 6.0.3: Oxygen visual style for the Plasma desktop
-kde-plasma/oxygen-sounds 5.27.11 6.0.3: Oxygen sound theme for the Plasma desktop
-kde-plasma/plasma-activities 5.115.0 6.0.3: Core components for KDE's Activities System
-kde-plasma/plasma-activities-stats 5.115.0 6.0.3: Library for accessing usage data collected by the activities system
-kde-plasma/plasma-browser-integration 5.27.11 6.0.3: Integrate Chrome/Firefox better into Plasma through browser extensions
-kde-plasma/plasma-desktop 5.27.11 6.0.3: KDE Plasma desktop
-kde-plasma/plasma-disks 5.27.11 6.0.3: Monitors S.M.A.R.T. capable devices for imminent failure
-kde-plasma/plasma-firewall 5.27.11 6.0.3: Plasma frontend for Firewalld or UFW
-kde-plasma/plasma-integration 5.27.11 6.0.3: Qt Platform Theme integration plugins for the Plasma workspaces
-kde-plasma/plasma-meta 5.27.11 6.0.3: Merge this to pull in all Plasma 6 packages
-kde-plasma/plasma-nm 5.27.11 6.0.3: KDE Plasma applet for NetworkManager
-kde-plasma/plasma-pa 5.27.11 6.0.3: Plasma applet for audio volume management using PulseAudio
-kde-plasma/plasma-sdk 5.27.11.1 6.0.3: Useful applications for Plasma development
-kde-plasma/plasma-systemmonitor 5.27.11 6.0.3: Monitor system sensors, process information and other system resources
-kde-plasma/plasma-thunderbolt 5.27.11 6.0.3: Plasma integration for controlling Thunderbolt devices
-kde-plasma/plasma-vault 5.27.11 6.0.3: Plasma applet and services for creating encrypted vaults
-kde-plasma/plasma-welcome 5.27.11 6.0.3: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 5.27.11 6.0.3: KDE Plasma workspace
-kde-plasma/plasma-workspace-wallpapers 5.27.11 6.0.3: Wallpapers for the Plasma workspace
-kde-plasma/plasma5support 6.0.3: Support components for porting from KF5/Qt5 to KF6/Qt6
-kde-plasma/plymouth-kcm 5.27.11 6.0.3: KDE Plasma control module for Plymouth
-kde-plasma/polkit-kde-agent 5.27.11 6.0.3: PolKit agent module for KDE Plasma
-kde-plasma/powerdevil 5.27.11 6.0.3: Power management for KDE Plasma Shell
-kde-plasma/print-manager 6.0.3 23.08.5 23.08.5-r100: Shim print-manager to ease slot 5 users into slot 6
-kde-plasma/qqc2-breeze-style 6.0.3: Breeze inspired QQC2 Style
-kde-plasma/sddm-kcm 5.27.11 6.0.3: KDE Plasma control module for SDDM
-kde-plasma/systemsettings 5.27.11 6.0.3: Control Center to configure KDE Plasma desktop
-kde-plasma/wacomtablet 3.2.0-r3 6.0.3: Wacom system settings module that supports different button/pen layout profiles
-kde-plasma/xdg-desktop-portal-kde 5.27.11 6.0.3: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
+kde-plasma/libplasma 5.115.0 6.0.4: Plasma library and runtime components based upon KF6 and Qt6
+kde-plasma/milou 5.27.11 6.0.4: Dedicated search application built on top of Baloo
+kde-plasma/ocean-sound-theme 6.0.4: Ocean Sound Theme for Plasma
+kde-plasma/oxygen 5.27.11 6.0.4: Oxygen visual style for the Plasma desktop
+kde-plasma/oxygen-sounds 5.27.11 6.0.4: Oxygen sound theme for the Plasma desktop
+kde-plasma/plasma-activities 5.115.0 6.0.4: Core components for KDE's Activities System
+kde-plasma/plasma-activities-stats 5.115.0 6.0.4: Library for accessing usage data collected by the activities system
+kde-plasma/plasma-browser-integration 5.27.11 6.0.4: Integrate Chrome/Firefox better into Plasma through browser extensions
+kde-plasma/plasma-desktop 5.27.11 6.0.4: KDE Plasma desktop
+kde-plasma/plasma-disks 5.27.11 6.0.4: Monitors S.M.A.R.T. capable devices for imminent failure
+kde-plasma/plasma-firewall 5.27.11 6.0.4: Plasma frontend for Firewalld or UFW
+kde-plasma/plasma-integration 5.27.11 6.0.4: Qt Platform Theme integration plugins for the Plasma workspaces
+kde-plasma/plasma-meta 5.27.11 6.0.4: Merge this to pull in all Plasma 6 packages
+kde-plasma/plasma-nm 5.27.11 6.0.4: KDE Plasma applet for NetworkManager
+kde-plasma/plasma-pa 5.27.11 6.0.4: Plasma applet for audio volume management using PulseAudio
+kde-plasma/plasma-sdk 5.27.11.1 6.0.4: Useful applications for Plasma development
+kde-plasma/plasma-systemmonitor 5.27.11 6.0.4: Monitor system sensors, process information and other system resources
+kde-plasma/plasma-thunderbolt 5.27.11 6.0.4: Plasma integration for controlling Thunderbolt devices
+kde-plasma/plasma-vault 5.27.11 6.0.4: Plasma applet and services for creating encrypted vaults
+kde-plasma/plasma-welcome 5.27.11 6.0.4: Friendly onboarding wizard for Plasma
+kde-plasma/plasma-workspace 5.27.11 6.0.4: KDE Plasma workspace
+kde-plasma/plasma-workspace-wallpapers 5.27.11 6.0.4: Wallpapers for the Plasma workspace
+kde-plasma/plasma5support 6.0.4: Support components for porting from KF5/Qt5 to KF6/Qt6
+kde-plasma/plymouth-kcm 5.27.11 6.0.4: KDE Plasma control module for Plymouth
+kde-plasma/polkit-kde-agent 5.27.11 6.0.4: PolKit agent module for KDE Plasma
+kde-plasma/powerdevil 5.27.11 6.0.4: Power management for KDE Plasma Shell
+kde-plasma/print-manager 6.0.4 23.08.5 23.08.5-r100: Shim print-manager to ease slot 5 users into slot 6
+kde-plasma/qqc2-breeze-style 6.0.4: Breeze inspired QQC2 Style
+kde-plasma/sddm-kcm 5.27.11 6.0.4: KDE Plasma control module for SDDM
+kde-plasma/systemsettings 5.27.11 6.0.4: Control Center to configure KDE Plasma desktop
+kde-plasma/wacomtablet 3.2.0-r3 6.0.4: Wacom system settings module that supports different button/pen layout profiles
+kde-plasma/xdg-desktop-portal-kde 5.27.11 6.0.4: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 kde-plasma/xembed-sni-proxy 5.27.11: Legacy xembed tray icons support for SNI-only system trays
 lxde-base/lxappearance 0.6.3-r3: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r2: LXAppearance plugin for configuring OpenBox
@@ -12996,7 +12996,7 @@ media-gfx/okularpart 23.08.5-r1: Universal document viewer kpart based on KDE Fr
 media-gfx/openclipart 0.20: Open Clip Art Library (openclipart.org)
 media-gfx/opencsg 1.5.1-r1 1.6.0: The Constructive Solid Geometry rendering library
 media-gfx/openmesh 7.1-r1: A generic data structure to represent and manipulate polygonal meshes
-media-gfx/openscad 2021.01-r4 9999: The Programmers Solid 3D CAD Modeller
+media-gfx/openscad 2021.01-r5 9999: The Programmers Solid 3D CAD Modeller
 media-gfx/opentoonz 1.6.0: An open-source full-featured 2D animation creation software
 media-gfx/openvdb 10.0.1 11.0.0: Library for the efficient manipulation of volumetric data
 media-gfx/optipng 0.7.8: Compress PNG files without affecting image quality
@@ -14673,7 +14673,7 @@ net-firewall/ufw 0.36.1: A program used to manage a netfilter firewall
 net-firewall/xtables-addons 3.24-r1: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.8-r1 5.1.9 5.1.9-r1: Kernel based automounter
 net-fs/btfs 2.24: a bittorrent filesystem based on FUSE
-net-fs/cifs-utils 6.15-r1 7.0 7.0-r1: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 7.0 7.0-r1: Tools for Managing Linux CIFS Client Filesystems
 net-fs/curlftpfs 0.9.2-r5: File system for accessing ftp hosts based on FUSE
 net-fs/cvmfs 2.11.2: HTTP read-only file system for distributing software
 net-fs/davfs2 1.6.0-r1 1.6.0-r2 1.6.1-r2 1.7.0: Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
@@ -14994,7 +14994,7 @@ net-libs/udns 0.4-r2 0.4-r3: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0: A cross-platform userland SCTP stack
 net-libs/wandio 4.2.3_p1-r1 4.2.3_p1-r2 4.2.4: C library for simple and efficient file IO
-net-libs/webkit-gtk 2.42.3 2.42.3-r410 2.42.3-r600 2.42.4 2.42.4-r410 2.42.4-r600 2.42.5 2.42.5-r410 2.42.5-r600 2.44.1 2.44.1-r410 2.44.1-r600: Open source web browser engine
+net-libs/webkit-gtk 2.42.5 2.42.5-r410 2.42.5-r600 2.44.1 2.44.1-r410 2.44.1-r600: Open source web browser engine
 net-libs/wslay 1.1.1_p20210115: WebSocket library in C
 net-libs/wvstreams 4.6.1_p14-r2: A network programming library in C++
 net-libs/xdp-tools 1.4.1-r1 1.4.2: The libxdp library and various tools for use with XDP
@@ -15160,7 +15160,7 @@ net-misc/exabgp 4.2.21: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/fatrat 1.2.0_beta2_p20161204: Qt5-based download/upload manager
 net-misc/felix 3.1.3: Calico's per-host agent, responsible for programming routes and security policy
-net-misc/freerdp 2.11.5-r2 2.11.5-r10 2.9999 3.4.0-r11 9999: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 2.11.5-r2 2.11.5-r10 2.9999 3.4.0-r11 3.5.0 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 9.0.2: The FRRouting Protocol Suite
 net-misc/gallery-dl 1.26.8 1.26.9 9999: Download image galleries and collections from several image hosting sites
 net-misc/geoipupdate 4.9.0 6.0.0 6.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -16386,7 +16386,7 @@ sci-mathematics/nauty 2.8.8 2.8.8-r1: Computing automorphism groups of graphs an
 sci-mathematics/nestedsums 1.5.2-r1: A GiNaC-based library for symbolic expansion of certain transcendental functions
 sci-mathematics/normaliz 3.9.3 3.10.1: Tool for computations in affine monoids and more
 sci-mathematics/num-utils 0.5-r2: A set of programs for dealing with numbers from the command line
-sci-mathematics/octave 8.3.0-r1: High-level interactive language for numerical computations
+sci-mathematics/octave 8.3.0-r2: High-level interactive language for numerical computations
 sci-mathematics/octave-epstk 2.4: Graphical output functions for Matlab and Octave
 sci-mathematics/opensmt 2.5.2: Compact and open-source SMT-solver written in C++
 sci-mathematics/otter 3.3-r4: An Automated Deduction System
@@ -16506,7 +16506,7 @@ sec-keys/openpgp-keys-apache-commons-httpclient 20220903: OpenPGP keys used by h
 sec-keys/openpgp-keys-apache-creadur 20230123: OpenPGP keys used by creadur.apache.org
 sec-keys/openpgp-keys-apache-felix 20200125: OpenPGP keys used by felix.apache.org
 sec-keys/openpgp-keys-apache-logging 20220918: OpenPGP keys used by logging.apache.org
-sec-keys/openpgp-keys-apache-tomcat 8.5.99 8.5.100 9.0.86 9.0.87 10.1.19 10.1.20: OpenPGP keys used by tomcat.apache.org
+sec-keys/openpgp-keys-apache-tomcat 8.5.99 8.5.100 9.0.86 9.0.87 9.0.88 10.1.19 10.1.20: OpenPGP keys used by tomcat.apache.org
 sec-keys/openpgp-keys-apache-tomcat-connectors 20141023: OpenPGP keys used by tomcat-connectors
 sec-keys/openpgp-keys-apache-xalan-c 20221123: OpenPGP keys used to sign Apache Xalan-C
 sec-keys/openpgp-keys-apache-xalan-j 20221029: OpenPGP keys used by xalan.apache.org
@@ -17386,14 +17386,14 @@ sys-cluster/keepalived 2.2.7 2.2.8: A strong & robust keepalive facility to the 
 sys-cluster/knem 1.1.4 9999: High-Performance Intra-Node MPI Communication
 sys-cluster/kops 1.23.2 1.28.2: Kubernetes Operations
 sys-cluster/kronosnet 1.19 1.19-r1 1.23 1.25: Network abstraction layer designed for High Availability use cases
-sys-cluster/kube-apiserver 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: Kubernetes API server
-sys-cluster/kube-controller-manager 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: Kubernetes Controller Manager
-sys-cluster/kube-proxy 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: Kubernetes Proxy service
+sys-cluster/kube-apiserver 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: Kubernetes API server
+sys-cluster/kube-controller-manager 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: Kubernetes Controller Manager
+sys-cluster/kube-proxy 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: Kubernetes Proxy service
 sys-cluster/kube-router 1.1.1 1.2.2 1.5.0 1.6.0: A turnkey solution for Kubernetes networking
-sys-cluster/kube-scheduler 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: Kubernetes Scheduler
-sys-cluster/kubeadm 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: CLI to Easily bootstrap a secure Kubernetes cluster
-sys-cluster/kubectl 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: CLI to run commands against Kubernetes clusters
-sys-cluster/kubelet 1.26.13 1.27.10 1.27.11 1.27.12 1.28.6 1.28.7 1.28.8 1.29.1 1.29.2 1.29.3: Kubernetes Node Agent
+sys-cluster/kube-scheduler 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: Kubernetes Scheduler
+sys-cluster/kubeadm 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: CLI to Easily bootstrap a secure Kubernetes cluster
+sys-cluster/kubectl 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: CLI to run commands against Kubernetes clusters
+sys-cluster/kubelet 1.27.10 1.27.12 1.28.6 1.28.8 1.29.1 1.29.3: Kubernetes Node Agent
 sys-cluster/kubeletctl 1.6: A client for kubelet
 sys-cluster/kubelogin 1.27.0 1.28.0: kubectl plugin for Kubernetes OpenID Connect authentication
 sys-cluster/kubeseal 0.23.0 0.24.5: Client-side utility for one-way encrypted secrets in kubernetes
@@ -17737,8 +17737,8 @@ sys-libs/readline 8.1_p2-r1 8.1_p2-r2 8.2_p10 9999: Another cute console display
 sys-libs/rpmatch-standalone 1.0: Standalone rpmatch library for use with musl
 sys-libs/slang 2.3.2 2.3.3 2.3.3-r1: Multi-platform library designed to allow a developer to create robust software
 sys-libs/snapd-glib 1.63 1.64 1.64-r100: glib library for communicating with snapd
-sys-libs/talloc 2.3.4 2.4.0 2.4.1: Samba talloc library
-sys-libs/tdb 1.4.7-r1 1.4.8 1.4.9: Simple database API
+sys-libs/talloc 2.4.0 2.4.1: Samba talloc library
+sys-libs/tdb 1.4.8 1.4.9: Simple database API
 sys-libs/tevent 0.12.1 0.13.0 0.14.0 0.14.1 0.15.0: Samba tevent library
 sys-libs/timezone-data 2023d 2024a-r1: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 sys-libs/uid_wrapper 1.3.0: Wrapper to fake privilege separation
@@ -17826,7 +17826,7 @@ sys-process/rtirq 20220923 20240120: Modify realtime scheduling policy and prior
 sys-process/runit 2.1.2-r1: A UNIX init scheme with service supervision
 sys-process/schedtool 1.3.0-r1 1.3.0-r2: A tool to query or alter a process' scheduling policy
 sys-process/supervise-scripts 4.0-r1 4.0-r2: Starting and stopping daemontools managed services
-sys-process/systemd-cron 1.16.7-r1 2.2.0-r1 2.3.0-r1 2.3.0-r2 2.3.4: systemd units to create timers for cron directories and crontab
+sys-process/systemd-cron 2.2.0-r1 2.3.4-r1: systemd units to create timers for cron directories and crontab
 sys-process/time 1.9-r1: Displays info about resources used by a program
 sys-process/tini 0.19.0-r1: A tiny but valid init for containers
 sys-process/tiptop 2.3.1_p4 2.3.1_p4_p20221211: top for performance counters
@@ -18193,7 +18193,7 @@ www-servers/servefile 0.5.4 0.5.4-r1: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.4-r1: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 1.8.1-r3 1.8.2: A fast and very simple Ruby web server
-www-servers/tomcat 8.5.99-r1 8.5.100 9.0.86-r1 9.0.87-r1 9.0.87-r3 10.1.19-r1 10.1.20-r1: Tomcat Servlet-6.0/JSP-3.1/EL-5.0/WebSocket-2.1/JASPIC-3.0 Container
+www-servers/tomcat 8.5.99-r1 8.5.100 9.0.86-r1 9.0.87-r1 9.0.87-r3 9.0.88 10.1.19-r1 10.1.20-r1: Tomcat Servlet-6.0/JSP-3.1/EL-5.0/WebSocket-2.1/JASPIC-3.0 Container
 www-servers/uwsgi 2.0.21-r1 2.0.21-r2 2.0.23: uWSGI server for Python web applications
 www-servers/varnish 7.1.2-r2: Varnish is a state-of-the-art, high-performance HTTP accelerator
 www-servers/webfs 1.21: Lightweight HTTP server for static content
@@ -18357,7 +18357,7 @@ x11-libs/libXfont2 2.0.6-r1: X.Org Xfont library
 x11-libs/libXft 2.3.8: X.Org Xft library
 x11-libs/libXi 1.8.1: X.Org Xi library
 x11-libs/libXinerama 1.1.5: X.Org Xinerama library
-x11-libs/libXmu 1.1.4 1.2.0: X.Org Xmu library
+x11-libs/libXmu 1.1.4 1.2.0 1.2.1: X.Org Xmu library
 x11-libs/libXpm 3.5.17: X.Org Xpm library
 x11-libs/libXpresent 1.0.1: X Present Extension C Library
 x11-libs/libXrandr 1.5.4: X.Org Xrandr library
@@ -18397,7 +18397,7 @@ x11-libs/motif 2.3.8-r5: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
 x11-libs/pango 1.42.4-r2 1.51.0 1.52.1: Internationalized text layout and rendering library
 x11-libs/pixman 0.43.2 0.43.4 9999: Low-level pixel manipulation routines
-x11-libs/qscintilla 2.13.3 2.14.1: Qt port of Neil Hodgson's Scintilla C++ editor control
+x11-libs/qscintilla 2.13.3 2.14.1 2.14.1-r1: Qt port of Neil Hodgson's Scintilla C++ editor control
 x11-libs/qtermwidget 1.3.0 1.4.0 9999: Qt terminal emulator widget
 x11-libs/qwt 5.2.3_p20210211 5.2.3_p20210828 6.1.5 6.2.0-r1 6.2.0-r3: 2D plotting library for Qt
 x11-libs/qwtplot3d 0.2 0.2_p20210828: 3D plotting library for Qt5
@@ -18612,7 +18612,7 @@ x11-misc/urxvt-font-size 1.3 9999: Perl extension for rxvt-unicode to change the
 x11-misc/urxvt-perls 2.3-r1: Perl extensions for rxvt-unicode
 x11-misc/urxvt-tabbedex 22.32: An extended version of rxvt-unicode's tabbed perl extension
 x11-misc/urxvtconfig 1.0-r1: GUI configuration tool for the rxvt-unicode terminal emulator
-x11-misc/util-macros 1.20.0: X.Org autotools utility macros
+x11-misc/util-macros 1.20.0 1.20.1: X.Org autotools utility macros
 x11-misc/vdpauinfo 1.5-r1: Displays info about your card's VDPAU support
 x11-misc/viewglob 2.0.4-r1: Graphical display of directories and globs referenced at the shell prompt
 x11-misc/virtualgl 3.0.2 3.1 3.1-r1: Run OpenGL applications remotely with full 3D hardware acceleration
