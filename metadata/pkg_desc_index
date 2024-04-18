@@ -8912,7 +8912,7 @@ dev-python/picobox 3.0.0 4.0.0: Dependency injection framework designed with Pyt
 dev-python/pid 3.0.4-r1: Pidfile featuring stale detection and file-locking
 dev-python/piexif 1.1.3-r2: Exif manipulation with pure Python
 dev-python/pika 1.3.2: Pure-Python implementation of the AMQP
-dev-python/pikepdf 8.4.1 8.11.2 8.12.0 8.13.0 8.14.0 8.15.0 8.15.1: Python library to work with pdf files based on qpdf
+dev-python/pikepdf 8.4.1-r1 8.11.2-r1 8.14.0-r1 8.15.1-r1: Python library to work with pdf files based on qpdf
 dev-python/pillow 10.0.1 10.1.0-r1 10.2.0 10.2.0-r1 10.3.0: Python Imaging Library (fork)
 dev-python/pip 24.0: The PyPA recommended tool for installing Python packages
 dev-python/pip-run 12.6.1: Install packages and run Python with them
@@ -14205,7 +14205,7 @@ media-video/dvgrab 3.5-r1 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
 media-video/ffdiaporama 2.2_pre20230525 2.2_pre20240203: Movie creator from photos and video clips
 media-video/ffmpeg 4.4.4-r9 6.0-r12 6.0.1-r4 6.1.1-r5 9999: Complete solution to record/convert/stream audio and video. Includes libavcodec
-media-video/ffmpeg-chromium 120 121 123 124: FFmpeg built specifically for codec support in Chromium-based browsers
+media-video/ffmpeg-chromium 120 121 123 124 125: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpegthumbnailer 2.2.2-r1: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
@@ -17640,8 +17640,8 @@ sys-kernel/dkms 3.0.12-r1 3.0.13: Dynamic Kernel Module Support
 sys-kernel/dracut 059-r7 060_pre20231030-r2 060_pre20240104-r4 101 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.7 1.0.8: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.2-r1 4.3.3 4.3.5 4.3.5-r1 4.3.6 4.3.7 4.3.8 4.3.10 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 6.1.81 6.1.85 6.1.86 6.6.21 6.6.26 6.6.26-r1 6.6.27 6.8.5 6.8.6: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 6.1.81 6.1.85 6.1.86 6.6.21 6.6.26 6.6.26-r1 6.6.27 6.8.5 6.8.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 5.15.156 6.1.81 6.1.85 6.1.86 6.1.87 6.6.21 6.6.26 6.6.26-r1 6.6.27 6.6.28 6.8.5 6.8.6 6.8.7: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 5.15.156 6.1.81 6.1.85 6.1.86 6.1.87 6.6.21 6.6.26 6.6.26-r1 6.6.27 6.6.28 6.8.5 6.8.6 6.8.7: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.208 5.10.212 5.10.213 5.10.214 5.10.215 5.15.147 5.15.151 5.15.152 5.15.153 5.15.154 5.15.155 5.15.156 6.1.74 6.1.81 6.1.83 6.1.84 6.1.85 6.1.86 6.1.87 6.6.13 6.6.21 6.6.24 6.6.25 6.6.26 6.6.26-r1 6.6.27 6.6.28 6.8.3 6.8.4 6.8.5 6.8.5-r1 6.8.6 6.8.7: Full sources including the Gentoo patchset for the 6.8 kernel tree
 sys-kernel/git-sources 6.9_rc4: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 28 36: Gentoo fork of installkernel script from debianutils
@@ -17656,7 +17656,7 @@ sys-kernel/pf-sources 6.8_p1 6.8_p5: Linux kernel fork that includes the pf-kern
 sys-kernel/raspberrypi-image 4.14.98_p20190215 4.19.75_p20190925 5.4.79_p20201201 5.10.11_p20210201 5.10.17_p20210527 5.10.63_p20211029 5.15.32_p20220331 6.1.21_p20230405 9999: Raspberry Pi (all versions) kernel and modules
 sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230405: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.307_p133 5.4.271_p89 5.10.213_p105 5.15.153_p75 6.0.5_p14 6.1.83_p28 6.5.2_p8 6.6.25_p29: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
-sys-kernel/vanilla-kernel 5.10.212 5.10.214 5.10.215 5.10.9999 5.15.151 5.15.154 5.15.155 5.15.9999 6.1.81 6.1.85 6.1.86 6.1.9999 6.6.21 6.6.26 6.6.27 6.6.9999 6.8.5 6.8.6: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.212 5.10.214 5.10.215 5.10.9999 5.15.151 5.15.154 5.15.155 5.15.156 5.15.9999 6.1.81 6.1.85 6.1.86 6.1.87 6.1.9999 6.6.21 6.6.26 6.6.27 6.6.28 6.6.9999 6.8.5 6.8.6 6.8.7: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 4.19.312 5.4.274 5.10.215 5.15.156 6.1.87 6.6.28 6.8.7: Full sources for the Linux kernel
 sys-kernel/zen-sources 6.7.9: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -17847,7 +17847,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 6.1.81 6.1.85 6.1.86 6.6.21 6.6.26 6.6.27 6.8.5 6.8.6: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.212 5.10.214 5.10.215 5.15.151 5.15.154 5.15.155 5.15.156 6.1.81 6.1.85 6.1.86 6.1.87 6.6.21 6.6.26 6.6.27 6.6.28 6.8.5 6.8.6 6.8.7: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18117,7 +18117,7 @@ www-apps/wiliki 0.6.1-r1: WiLiKi is a lightweight Wiki engine written in and run
 www-apps/wordpress 6.4.4 6.5.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 6.1 10.1: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.10.1: Web-based interactive data analytics notebook launcher
-www-client/chromium 123.0.6312.105 123.0.6312.122 124.0.6367.60: Open-source version of Google Chrome web browser
+www-client/chromium 123.0.6312.105 123.0.6312.122 124.0.6367.60 125.0.6422.4: Open-source version of Google Chrome web browser
 www-client/elinks 0.16.1.1-r2 9999: Advanced and well-established text-mode web browser
 www-client/epiphany 44.6 45.3 46.0: GNOME webbrowser based on Webkit
 www-client/falkon 23.08.5 24.02.2: Cross-platform web browser using QtWebEngine
@@ -18125,7 +18125,7 @@ www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 115.9.0 115.9.1 115.10.0 122.0.1 124.0.1 124.0.2 125.0.1: Firefox Web Browser
 www-client/firefox-bin 115.9.1 115.10.0 124.0.1 124.0.2 125.0.1: Firefox Web Browser
 www-client/google-chrome 124.0.6367.60: The web browser from Google
-www-client/google-chrome-beta 124.0.6367.60: The web browser from Google
+www-client/google-chrome-beta 125.0.6422.4: The web browser from Google
 www-client/google-chrome-unstable 125.0.6420.3: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
@@ -18133,12 +18133,12 @@ www-client/links 2.29 2.29-r1: A fast and lightweight web browser running in bot
 www-client/luakit 2.3.3-r1 2.3.6: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0_pre12-r1 2.9.0_pre12-r2 2.9.0: An excellent console-based web browser with ssl support
 www-client/microsoft-edge 123.0.2420.97: The web browser from Microsoft
-www-client/microsoft-edge-beta 124.0.2478.19 124.0.2478.27 124.0.2478.39: The web browser from Microsoft
+www-client/microsoft-edge-beta 124.0.2478.27 124.0.2478.39 124.0.2478.49: The web browser from Microsoft
 www-client/microsoft-edge-dev 125.0.2492.1 125.0.2506.0 125.0.2518.0: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11 9999: A free, open source web browser
 www-client/opera 109.0.5097.45: A fast and secure web browser
-www-client/opera-beta 109.0.5097.5-r1 109.0.5097.24-r1 110.0.5130.4: A fast and secure web browser
+www-client/opera-beta 109.0.5097.24-r1 110.0.5130.4 110.0.5130.8: A fast and secure web browser
 www-client/opera-developer 110.0.5117.0 111.0.5131.0 111.0.5138.0: A fast and secure web browser
 www-client/otter 1.0.03-r1 9999: Project aiming to recreate classic Opera (12.x) UI using Qt5
 www-client/pybugz 0.13-r2 0.13-r3 0.14 9999: Command line interface to (Gentoo) Bugzilla
@@ -18168,7 +18168,7 @@ www-misc/urlwatch 2.25 2.28-r1: A tool for monitoring webpages for updates
 www-misc/vdradmin-am 3.6.10-r1 3.6.10-r2: WWW Admin for the Video Disk Recorder
 www-misc/visitors 0.7-r2: Fast web log analyzer
 www-plugins/browserpass 3.1.0: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 124.0.6367.60_beta 124.0.6367.60 125.0.6420.3_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 124.0.6367.60 125.0.6420.3_alpha 125.0.6422.4_beta: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.8.6.1 0.8.7: High performance flash player
 www-plugins/passff-host 1.2.3-r1 1.2.4: Host app for the PassFF WebExtension
 www-plugins/pdfjs 2.14.305 3.9.179 4.0.269 4.0.379: A PDF reader in JavaScript
