@@ -1209,7 +1209,7 @@ app-backup/backuppc 3.3.1-r6 4.4.0-r1: High-performance backups to a server's di
 app-backup/bacula 13.0.3-r2 13.0.4: Featureful client/server network backup suite
 app-backup/bareos 21.1.8-r1 22.1.2-r1 23.0.1 23.0.2 9999: Featureful client/server network backup suite
 app-backup/borgbackup 1.2.7 1.2.8: Deduplicating backup program with compression and authenticated encryption
-app-backup/borgmatic 1.8.8 1.8.9: Automatically create, prune and verify backups with borgbackup
+app-backup/borgmatic 1.8.8 1.8.9 1.8.10: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
 app-backup/burp 3.1.4: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r1 0.8-r2: Pseudo incremental backup with different exclude lists using hardlinks and rsync
@@ -15165,6 +15165,7 @@ net-misc/freerdp 2.11.5-r2 2.11.5-r10 2.9999 3.4.0-r11 3.5.0 9999: Free implemen
 net-misc/frr 9.0.2: The FRRouting Protocol Suite
 net-misc/gallery-dl 1.26.8 1.26.9 9999: Download image galleries and collections from several image hosting sites
 net-misc/geoipupdate 4.9.0 6.0.0 6.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
+net-misc/geoipyupdate 0.0.1: Simple python replacement for the MaxMind geoipupdate program
 net-misc/geomyidae 0.34-r1 0.69: A daemon to serve the gopher protocol
 net-misc/gerbera 1.12.1-r1 9999: UPnP Media Server
 net-misc/getdate 1.2-r2: Network Date/Time Query and Set Local Date/Time Utility
