@@ -36,9 +36,10 @@ RDEPEND="
 	)
 	dev-libs/libyaml
 	dev-libs/libffi:=
+	sys-libs/readline:0=
 	sys-libs/zlib
 	virtual/libcrypt:=
-	>=app-eselect/eselect-ruby-20231226
+	>=app-eselect/eselect-ruby-20231008
 "
 
 DEPEND="
@@ -47,32 +48,31 @@ DEPEND="
 "
 
 BUNDLED_GEMS="
-	>=dev-ruby/debug-1.9.1[ruby_targets_ruby33(-)]
-	>=dev-ruby/irb-1.11.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/matrix-0.4.2[ruby_targets_ruby33(-)]
-	>=dev-ruby/minitest-5.20.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/net-ftp-0.3.3[ruby_targets_ruby33(-)]
-	>=dev-ruby/net-imap-0.4.9[ruby_targets_ruby33(-)]
-	>=dev-ruby/net-pop-0.1.2[ruby_targets_ruby33(-)]
-	>=dev-ruby/net-smtp-0.4.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/power_assert-2.0.3[ruby_targets_ruby33(-)]
-	>=dev-ruby/prime-0.1.2[ruby_targets_ruby33(-)]
-	>=dev-ruby/racc-1.7.3[ruby_targets_ruby33(-)]
-	>=dev-ruby/rake-13.1.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/rbs-3.4.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/rexml-3.2.6[ruby_targets_ruby33(-)]
-	>=dev-ruby/rss-0.3.0[ruby_targets_ruby33(-)]
-	>=dev-ruby/test-unit-3.6.1[ruby_targets_ruby33(-)]
-	>=dev-ruby/typeprof-0.21.9[ruby_targets_ruby33(-)]
+	>=dev-ruby/debug-1.7.1[ruby_targets_ruby32(-)]
+	>=dev-ruby/irb-1.6.2[ruby_targets_ruby32(-)]
+	>=dev-ruby/matrix-0.4.2[ruby_targets_ruby32(-)]
+	>=dev-ruby/minitest-5.16.3[ruby_targets_ruby32(-)]
+	>=dev-ruby/net-ftp-0.2.0[ruby_targets_ruby32(-)]
+	>=dev-ruby/net-imap-0.3.4[ruby_targets_ruby32(-)]
+	>=dev-ruby/net-pop-0.1.2[ruby_targets_ruby32(-)]
+	>=dev-ruby/net-smtp-0.3.3[ruby_targets_ruby32(-)]
+	>=dev-ruby/power_assert-2.0.3[ruby_targets_ruby32(-)]
+	>=dev-ruby/prime-0.1.2[ruby_targets_ruby32(-)]
+	>=dev-ruby/rake-13.0.6-r2[ruby_targets_ruby32(-)]
+	>=dev-ruby/rbs-2.8.2[ruby_targets_ruby32(-)]
+	>=dev-ruby/rexml-3.2.5[ruby_targets_ruby32(-)]
+	>=dev-ruby/rss-0.2.9[ruby_targets_ruby32(-)]
+	>=dev-ruby/test-unit-3.5.7[ruby_targets_ruby32(-)]
+	>=dev-ruby/typeprof-0.21.3[ruby_targets_ruby32(-)]
 "
 
 PDEPEND="
 	${BUNDLED_GEMS}
-	virtual/rubygems[ruby_targets_ruby33(-)]
-	>=dev-ruby/bundler-2.5.3[ruby_targets_ruby33(-)]
-	>=dev-ruby/did_you_mean-1.6.3[ruby_targets_ruby33(-)]
-	>=dev-ruby/json-2.7.1[ruby_targets_ruby33(-)]
-	>=dev-ruby/rdoc-6.6.2[ruby_targets_ruby33(-)]
+	virtual/rubygems[ruby_targets_ruby32(-)]
+	>=dev-ruby/bundler-2.3.3[ruby_targets_ruby32(-)]
+	>=dev-ruby/did_you_mean-1.6.1[ruby_targets_ruby32(-)]
+	>=dev-ruby/json-2.6.1[ruby_targets_ruby32(-)]
+	>=dev-ruby/rdoc-6.3.3[ruby_targets_ruby32(-)]
 	xemacs? ( app-xemacs/ruby-modes )
 "
 
@@ -91,15 +91,13 @@ src_prepare() {
 	# 539700.
 	rm -fr gems/* || die
 	touch gems/bundled_gems || die
-
-	# Avoid the irb default gemspec since we will install the normal gem
-	# instead. This avoids a file collision with dev-ruby/irb.
-	rm lib/irb/irb.gemspec || die
+	# Don't install CLI tools since they will clash with the gem
+	rm -f bin/{racc,racc2y,y2racc} || die
+	sed -i -e '/executables/ s:^:#:' lib/racc/racc.gemspec || die
 
 	# Remove tests that are known to fail or require a network connection
 	rm -f test/ruby/test_process.rb test/rubygems/test_gem{,_path_support}.rb || die
-	rm -f test/rinda/test_rinda.rb test/socket/test_tcp.rb test/fiber/test_address_resolve.rb \
-	   spec/ruby/library/socket/tcpsocket/{initialize,open}_spec.rb|| die
+	rm -f test/rinda/test_rinda.rb test/socket/test_tcp.rb test/fiber/test_address_resolve.rb spec/ruby/library/socket/tcpsocket/{initialize,open}_spec.rb|| die
 
 	# Remove webrick tests because setting LD_LIBRARY_PATH does not work for them.
 	rm -rf tool/test/webrick || die
@@ -111,8 +109,8 @@ src_prepare() {
 	sed -i -e '/def blockdev/a@blockdev = nil' test/ruby/test_file_exhaustive.rb || die
 
 	# Avoid tests that require gem downloads
-	sed -e '/^\(test-syntax-suggest\|PREPARE_SYNTAX_SUGGEST\)/ s/\$(TEST_RUNNABLE)/no/' \
-		-i common.mk
+	sed -i -e '/^test-syntax-suggest/ s/\$(TEST_RUNNABLE)/no/' common.mk || die
+	sed -i -e '/^check:/ s/\$(TEST_RUNNABLE)-\$(PREPARE_SYNTAX_SUGGEST) test-syntax-suggest//' common.mk || die
 
 	# Avoid test that fails intermittently
 	sed -i -e '/test_gem_exec_gem_uninstall/aomit "Fails intermittently"' test/rubygems/test_gem_commands_exec_command.rb || die
@@ -198,6 +196,7 @@ src_configure() {
 	INSTALL="${EPREFIX}/usr/bin/install -c" LIBPATHENV="" econf \
 		--program-suffix=${MY_SUFFIX} \
 		--with-soname=ruby${MY_SUFFIX} \
+		--with-readline-dir="${EPREFIX}"/usr \
 		--enable-shared \
 		--enable-pthread \
 		--disable-rpath \
