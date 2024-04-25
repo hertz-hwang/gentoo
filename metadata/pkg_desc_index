@@ -13016,7 +13016,7 @@ media-gfx/photoqt 3.2: Simple but powerful Qt-based image viewer
 media-gfx/phototonic 2.1: Image viewer and organizer
 media-gfx/pinta 2.1.1-r1: Pinta is a free, open source program for drawing and image editing
 media-gfx/pixels2pgf 0.1-r1 9999: Convert pixel images (e.g. QRCode) to PGF/Tikz rectangles
-media-gfx/plantuml 1.2024.3 1.2024.4: Draw UML diagrams using a simple and human readable text description
+media-gfx/plantuml 1.2024.3 1.2024.4 1.2024.4-r1: Draw UML diagrams using a simple and human readable text description
 media-gfx/png2ico 2002.12.08: PNG to icon converter
 media-gfx/pngcheck 3.0.2 3.0.3: Verifies the integrity of PNG, JNG, and MNG files with internal checksums
 media-gfx/pngcrush 1.8.13: Portable Network Graphics (PNG) optimizing utility
@@ -15155,6 +15155,7 @@ net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electron-cash 4.2.11: Lightweight Bitcoin Cash client (BCH fork of Electrum)
 net-misc/electrum 4.5.4: User friendly Bitcoin client
 net-misc/electrum-ltc 4.2.2.1: User friendly Litecoin client
+net-misc/email-validator 1.1.0: Basic syntax and deliverability checks on email addresses
 net-misc/ena-driver 2.11.1 2.12.0: Amazon EC2 Elastic Network Adapter (ENA) kernel driver
 net-misc/endlessh 1.1-r2: SSH tarpit that slowly sends and endless banner
 net-misc/ethercard-diag 20050321.1g-r2: Low level mii diagnostic tools including mii-diag and etherwake
