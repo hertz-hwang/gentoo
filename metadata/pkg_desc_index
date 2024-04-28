@@ -2664,7 +2664,7 @@ app-misc/c_rehash 1.7-r1: c_rehash script from OpenSSL
 app-misc/ca-certificates 20230311.3.96.1 20230311.3.96.1-r2 20230311.3.97 20240203.3.98: Common CA Certificates PEM files
 app-misc/cadubi 1.3.4: An application that allows you to draw ASCII-Art images
 app-misc/calendar 0.9.1-r2: Standard unix calendar program for Linux, ported from OpenBSD
-app-misc/carbon-c-relay 3.7.3 3.7.4-r1 3.7.4-r3: Enhanced C version of Carbon relay, aggregator and rewriter
+app-misc/carbon-c-relay 3.7.4-r3 3.8.1: Enhanced C version of Carbon relay, aggregator and rewriter
 app-misc/cbview 0.06-r2: viewer/converter for CBR/CBZ comic book archives
 app-misc/cdargs 1.35-r2 2.1: Bookmarks and browser for the shell builtin cd command
 app-misc/cdcat 0.3-r1: Simple yet effective CD indexing program
@@ -12438,7 +12438,7 @@ kde-plasma/breeze 5.27.11 6.0.4: Breeze visual style for the Plasma desktop
 kde-plasma/breeze-grub 5.27.11 6.0.4: Breeze theme for GRUB
 kde-plasma/breeze-gtk 5.27.11 6.0.4.1: Official GTK+ port of Plasma's Breeze widget style
 kde-plasma/breeze-plymouth 5.27.11 6.0.4.1: Breeze theme for Plymouth
-kde-plasma/discover 5.27.11 6.0.4-r1: KDE Plasma resources management GUI
+kde-plasma/discover 5.27.11 6.0.4: KDE Plasma resources management GUI
 kde-plasma/drkonqi 5.27.11 6.0.4: Plasma crash handler, gives the user feedback if a program crashed
 kde-plasma/flatpak-kcm 5.27.11 6.0.4: Flatpak Permissions Management KCM
 kde-plasma/kactivitymanagerd 5.27.11 6.0.4: System service to manage user's activities, track the usage patterns etc.
@@ -16284,7 +16284,7 @@ sci-libs/rocThrust 5.1.3 5.7.1: HIP back-end for the parallel algorithm library 
 sci-libs/rocWMMA 5.7.1: library for accelerating mixed precision matrix multiply-accumulate operations
 sci-libs/rtabmap 0.20.23 0.21.3 9999: Real-Time Appearance-Based Mapping (RGB-D Graph SLAM)
 sci-libs/rtree 1.0.0: R-Tree spatial index for Python GIS
-sci-libs/safetensors 0.3.3: Simple, safe way to store and distribute tensors
+sci-libs/safetensors 0.4.3: Simple, safe way to store and distribute tensors
 sci-libs/scalapack 2.1.0-r1: Subset of LAPACK routines redesigned for heterogenous (MPI) computing
 sci-libs/scotch 6.1.2 7.0.1-r1: Software for graph, mesh and hypergraph partitioning
 sci-libs/seqeval 1.2.2-r3: Python framework for sequence labeling evaluation
@@ -16920,7 +16920,7 @@ sys-apps/asahi-configs 1.0: Asahi Linux configurations
 sys-apps/asahi-nvram 0.2.1: Tool to read and write nvram variables on ARM Macs
 sys-apps/asahi-scripts 20231219.1: Apple Silicon support scripts
 sys-apps/asahi-startup-disk 0.1.3: Interface to choose the startup volume on Apple Silicon systems
-sys-apps/attr 2.5.1-r2 2.5.2-r1 9999: Extended attributes tools
+sys-apps/attr 2.5.2-r1 9999: Extended attributes tools
 sys-apps/audio-entropyd 2.0.3-r1: Audio-entropyd generates entropy-data for the /dev/random device
 sys-apps/baobab 45.0: Disk usage browser for GNOME
 sys-apps/bar 1.11.1: Console Progress Bar
@@ -17646,8 +17646,8 @@ sys-kernel/dkms 3.0.12-r1 3.0.13: Dynamic Kernel Module Support
 sys-kernel/dracut 059-r7 060_pre20231030-r2 060_pre20240104-r4 101 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.7 1.0.8: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.2-r1 4.3.3 4.3.5 4.3.5-r1 4.3.6 4.3.7 4.3.8 4.3.10 4.3.11 4.3.12 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.215 5.15.156 6.1.87 6.6.28 6.8.7 6.8.8: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.215 5.15.156 6.1.87 6.6.28 6.8.7 6.8.8: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.215 5.15.156 5.15.157 6.1.87 6.1.88 6.6.28 6.6.29 6.8.7 6.8.8: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.215 5.15.156 5.15.157 6.1.87 6.1.88 6.6.28 6.6.29 6.8.7 6.8.8: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.208 5.10.212 5.10.214 5.10.215 5.15.147 5.15.151 5.15.155 5.15.156 5.15.157 6.1.74 6.1.81 6.1.86 6.1.87 6.1.88 6.6.13 6.6.21 6.6.27 6.6.28 6.6.29 6.8.6 6.8.7 6.8.8: Full sources including the Gentoo patchset for the 6.8 kernel tree
 sys-kernel/git-sources 6.9_rc5: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 28 37: Gentoo fork of installkernel script from debianutils
@@ -17662,7 +17662,7 @@ sys-kernel/pf-sources 6.8_p1 6.8_p5: Linux kernel fork that includes the pf-kern
 sys-kernel/raspberrypi-image 4.14.98_p20190215 4.19.75_p20190925 5.4.79_p20201201 5.10.11_p20210201 5.10.17_p20210527 5.10.63_p20211029 5.15.32_p20220331 6.1.21_p20230405 9999: Raspberry Pi (all versions) kernel and modules
 sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230405: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.307_p133 5.4.271_p89 5.10.213_p105 5.15.153_p75 6.0.5_p14 6.1.83_p28 6.5.2_p8 6.6.25_p29: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
-sys-kernel/vanilla-kernel 5.10.215 5.10.9999 5.15.156 5.15.9999 6.1.87 6.1.9999 6.6.28 6.6.9999 6.8.7 6.8.8: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.215 5.10.9999 5.15.156 5.15.157 5.15.9999 6.1.87 6.1.88 6.1.9999 6.6.28 6.6.29 6.6.9999 6.8.7 6.8.8: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 4.19.312 5.4.274 5.10.215 5.15.157 6.1.88 6.6.29 6.8.8: Full sources for the Linux kernel
 sys-kernel/zen-sources 6.7.9: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -17743,7 +17743,7 @@ sys-libs/queue-standalone 0.1-r1: Install <sys/queue.h> from glibc
 sys-libs/readline 8.1_p2-r1 8.1_p2-r2 8.2_p10 8.3_alpha 9999: Another cute console display library
 sys-libs/rpmatch-standalone 1.0 1.0-r1: Standalone rpmatch library for use with musl
 sys-libs/slang 2.3.2 2.3.3 2.3.3-r1: Multi-platform library designed to allow a developer to create robust software
-sys-libs/snapd-glib 1.63 1.64 1.65-r1: glib library for communicating with snapd
+sys-libs/snapd-glib 1.63 1.65-r2 1.65-r102: glib library for communicating with snapd
 sys-libs/talloc 2.4.0 2.4.1 2.4.2: Samba talloc library
 sys-libs/tdb 1.4.8 1.4.9 1.4.10: Simple database API
 sys-libs/tevent 0.12.1 0.13.0 0.14.0 0.14.1 0.15.0 0.16.1: Samba tevent library
@@ -17853,7 +17853,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.215 5.15.156 6.1.87 6.6.28 6.8.7 6.8.8: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.215 5.15.156 5.15.157 6.1.87 6.1.88 6.6.28 6.6.29 6.8.7 6.8.8: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
