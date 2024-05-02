@@ -1805,7 +1805,7 @@ app-editors/mg 20220614 20230501: MicroGnuEmacs, a port from the BSDs
 app-editors/micro 2.0.13-r1: Modern and intuitive terminal-based text editor
 app-editors/moe 1.12: A powerful and user-friendly console text editor
 app-editors/mousepad 0.6.2: GTK+-based editor for the Xfce Desktop Environment
-app-editors/nano 7.2-r1 9999: GNU GPL'd Pico clone with more functionality
+app-editors/nano 7.2-r1 8.0 9999: GNU GPL'd Pico clone with more functionality
 app-editors/ne 3.3.1 3.3.2 3.3.3: The nice editor, easy to use for the beginner and powerful for the wizard
 app-editors/nedit 5.7: Multi-purpose text editor for the X Window System
 app-editors/neovim 0.9.4 0.9.5 9999: Vim-fork focused on extensibility and agility
@@ -7664,7 +7664,7 @@ dev-perl/Time-Duration-Parse 0.160.0: Parse string that represents time duration
 dev-perl/Time-Format 1.160.0: Easy-to-use date/time formatting
 dev-perl/Time-Moment 0.440.0: Represents a date and time of day with an offset from UTC
 dev-perl/Time-Monotonic 0.9.8-r1: A clock source that only increments and never jumps
-dev-perl/Time-Out 0.220.0: Easily timeout long running operations
+dev-perl/Time-Out 0.220.0 0.240.0: Easily timeout long running operations
 dev-perl/Time-ParseDate 2015.103.0-r1: A Date/Time Parsing Perl Module
 dev-perl/Time-Period 1.250.0-r1: Time period Perl module
 dev-perl/Time-Piece-MySQL 0.60.0-r2: MySQL-specific functions for Time::Piece
@@ -7703,14 +7703,14 @@ dev-perl/UltraDNS 0.60.0-r3: Client API for the NeuStar UltraDNS Transaction Pro
 dev-perl/Unicode-EastAsianWidth 12.0.0: East Asian Width properties
 dev-perl/Unicode-LineBreak 2019.1.0: UAX #14 Unicode Line Breaking Algorithm
 dev-perl/Unicode-Map 0.112.0-r2: Map charsets from and to utf16 code
-dev-perl/Unicode-Map8 0.130.0-r2 0.130.0-r3: Convert between most 8bit encodings
+dev-perl/Unicode-Map8 0.130.0-r3: Convert between most 8bit encodings
 dev-perl/Unicode-MapUTF8 1.140.0: Conversions to and from arbitrary character sets and UTF8
 dev-perl/Unicode-String 2.100.0-r1: String manipulation for Unicode strings
 dev-perl/Unicode-Stringprep 1.105.0-r3: Preparation of Internationalized Strings (RFC 3454)
 dev-perl/Unicode-UTF8 0.620.0-r1: Encoding and decoding of UTF-8 encoding form
 dev-perl/Unicode-UTF8simple 1.60.0-r1: Conversions to/from UTF8 from/to charactersets
 dev-perl/Unix-Getrusage 0.30.0-r2: Perl interface to the Unix getrusage system call
-dev-perl/Unix-Mknod 0.40.0: Filesys-Statvfs
+dev-perl/Unix-Mknod 0.40.0 0.50.0: Perl extension for mknod, major, minor, and makedev
 dev-perl/Unix-Syslog 1.100.0-r3: A Perl module which provides access to the system logger
 dev-perl/User-Identity 1.20.0: Maintains info about a physical person
 dev-perl/VM-EC2 1.280.0-r1: Interface to Amazon EC2, VPC, ELB, Autoscaling, and Relational DB services
@@ -19057,7 +19057,7 @@ x11-wm/metacity 3.46.1 3.50.0: GNOME Flashback window manager
 x11-wm/muffin 5.8.1 6.0.1: Compositing window manager forked from Mutter for use with Cinnamon
 x11-wm/musca 0.9.24_p20100226-r4: A simple dynamic window manager, with features nicked from ratpoison and dwm
 x11-wm/mutter 45.2-r1 45.4 45.5 45.6 9999: GNOME compositing window manager based on Clutter
-x11-wm/notion 4.0.2_p20220613 9999: Notion is a tiling, tabbed window manager for the X window system
+x11-wm/notion 4.0.2_p20220613 4.0.2_p20220613-r1 9999: Notion is a tiling, tabbed window manager for the X window system
 x11-wm/openbox 3.6.1-r5 3.6.1-r8 9999: Standards compliant, fast, light-weight, extensible window manager
 x11-wm/oroborus 2.0.20-r2: Small and fast window manager
 x11-wm/page 1.9.10 1.9.10-r1: A mouse friendly tiling window manager
