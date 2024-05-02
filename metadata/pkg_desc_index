@@ -6278,7 +6278,7 @@ dev-perl/Cache-FastMmap 1.570.0: Uses an mmaped file to act as a shared memory i
 dev-perl/Cache-Memcached 1.300.0-r2: Perl API for memcached
 dev-perl/Cache-Memcached-Fast 0.280.0: Perl client for memcached, in C language
 dev-perl/Cache-Simple-TimedExpiry 0.270.0-r2: Lightweight cache with timed expiration
-dev-perl/Cairo 1.109.0: Perl interface to the cairo library
+dev-perl/Cairo 1.109.0 1.109.0-r1: Perl interface to the cairo library
 dev-perl/Cairo-GObject 1.5.0-r1: Integrate Cairo into the Glib type system
 dev-perl/Calendar-Simple 2.0.3: Perl extension to create simple calendars
 dev-perl/Canary-Stability 2013.0.0: Canary to check perl compatibility for schmorp's modules
@@ -10022,7 +10022,7 @@ dev-ruby/hiera-eyaml-gpg 0.7.4-r1: A GPG backend for hiera-eyaml
 dev-ruby/hiera-eyaml-plaintext 0.6-r2: A plaintext backend for hiera-eyaml
 dev-ruby/highline 2.1.0 3.0.1: Highline is a high-level command-line IO library for ruby
 dev-ruby/histogram 0.2.4.1-r1: Gives objects the ability to 'histogram' in several useful ways
-dev-ruby/hitimes 2.0.0-r1: A fast, high resolution timer library
+dev-ruby/hitimes 2.0.0-r1 3.0.0: A fast, high resolution timer library
 dev-ruby/hocon 1.4.0: This is a port of the Typesafe Config library to Ruby
 dev-ruby/hoe 4.0.4 4.0.5 4.1.0 4.2.0: Hoe extends rake to provide full project automation
 dev-ruby/html-pipeline 2.14.3: GitHub HTML processing filters and utilities
@@ -10248,7 +10248,7 @@ dev-ruby/ref 2.0.0-r1: Implements weak, soft, and strong references in Ruby
 dev-ruby/regexp_parser 2.8.2 2.8.3 2.9.0: A library for tokenizing, lexing, and parsing Ruby regular expressions
 dev-ruby/regexp_property_values 1.4.0 1.5.1: See which property values are supported by the regular expression engine
 dev-ruby/reline 0.4.3 0.5.0 0.5.1 0.5.2: Alternative readline implementation in pure Ruby
-dev-ruby/request_store 1.5.1 1.6.0: Per-request global storage for Rack
+dev-ruby/request_store 1.5.1 1.7.0: Per-request global storage for Rack
 dev-ruby/rest-client 2.1.0-r1: Simple Simple HTTP and REST client for Ruby
 dev-ruby/rexical 1.0.7-r1: Rexical is a lexical scanner generator
 dev-ruby/rexml 3.2.6: An XML toolkit for Ruby
@@ -16261,7 +16261,7 @@ sci-libs/oc 2.0-r1: Network Data Access Protocol client C library
 sci-libs/octomap 1.9.8: An Efficient Probabilistic 3D Mapping Framework Based on Octrees
 sci-libs/ogdi 4.1.0-r1: Open Geographical Datastore Interface, a GIS support library
 sci-libs/onnx 1.14.1-r2 1.15.0-r1: Open Neural Network Exchange (ONNX)
-sci-libs/openblas 0.3.25-r1 0.3.26: Optimized BLAS library based on GotoBLAS2
+sci-libs/openblas 0.3.25-r1 0.3.26 0.3.26-r1: Optimized BLAS library based on GotoBLAS2
 sci-libs/opencascade 7.6.3-r2 7.7.0-r2 7.7.2-r1 7.8.1 9999: Development platform for CAD/CAE, 3D surface/solid modeling and data exchange
 sci-libs/openlibm 0.7.5 0.8.0: High quality system independent, open source libm
 sci-libs/orocos-bfl 0.8.0: Bayesian Filtering Library
