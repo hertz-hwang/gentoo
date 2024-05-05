@@ -1508,9 +1508,9 @@ app-crypt/tpm-tools 1.3.9.2-r1: TrouSerS' support tools for the Trusted Platform
 app-crypt/tpm2-abrmd 3.0.0-r2: TPM2 Access Broker & Resource Manager
 app-crypt/tpm2-openssl 1.2.0: OpenSSL Provider for TPM2 integration
 app-crypt/tpm2-pkcs11 1.9.0 1.9.0-r1: A PKCS#11 interface for TPM2 hardware
-app-crypt/tpm2-tools 5.5 5.6-r1: Tools for the TPM 2.0 TSS
+app-crypt/tpm2-tools 5.5 5.6-r1 5.6.1 5.7: Tools for the TPM 2.0 TSS
 app-crypt/tpm2-totp 0.3.0-r1: Attest the trustworthiness of a device against a human using time-based OTP
-app-crypt/tpm2-tss 4.0.1 4.0.1-r1: TCG Trusted Platform Module 2.0 Software Stack
+app-crypt/tpm2-tss 4.0.1 4.0.1-r1 4.0.2 4.1.0: TCG Trusted Platform Module 2.0 Software Stack
 app-crypt/trousers 0.3.15 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
 app-crypt/ubuntu-keyring 2020.02.11.2 2020.06.17.1 2021.03.26 2023.11.28.1: GnuPG archive keys of the Ubuntu archive
 app-crypt/veracrypt 1.25.9 1.26.7: Disk encryption with strong security based on TrueCrypt
@@ -5496,7 +5496,7 @@ dev-libs/libgnt 2.14.2 2.14.3: Pidgin's GLib Ncurses Toolkit
 dev-libs/libgpg-error 1.47-r1 1.48 1.49: Contains error handling functions used by GnuPG software
 dev-libs/libgpiod 1.6.3-r4 1.6.4 2.1 2.1.1: C library and tools for interacting with the linux GPIO character device
 dev-libs/libgrapheme 2.0.2: Unicode string library
-dev-libs/libgudev 238-r1: GObject bindings for libudev
+dev-libs/libgudev 238-r1 238-r2: GObject bindings for libudev
 dev-libs/libgusb 0.4.8: GObject wrapper for libusb
 dev-libs/libgweather 4.4.2: Location and timezone database and weather-lookup library
 dev-libs/libhid 0.2.17-r1: Provides a generic and flexible way to access and interact with USB HID devices
