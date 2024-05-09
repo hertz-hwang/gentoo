@@ -2351,7 +2351,7 @@ app-emulation/plus42 1.1.3 1.1.9 1.1.10: An Enhanced HP-42S Calculator Simulator
 app-emulation/protontricks 1.10.5 1.11.1: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.3.13: Qt GUI configuration tool for Wine
-app-emulation/qemu 7.2.4 7.2.9 7.2.10 7.2.11 8.0.4 8.0.5 8.1.5 8.2.1 8.2.2 8.2.3 9.0.0 9999: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 7.2.4 7.2.11 8.0.5 8.1.5 8.2.3 9.0.0 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 6.0.0 7.1.0 8.0.0 8.0.2 8.0.3 8.2.0: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.7: RISC-V CPU simulator for education
@@ -3177,7 +3177,7 @@ app-text/convertlit 1.8-r4: CLit converts MS ebook .lit files to .opf (xml+html+
 app-text/convmv 2.05-r1: convert filenames to utf8 or any other charset
 app-text/cpdf 2.3.1: A command line tool for manipulating PDF files
 app-text/crengine-ng 0.9.11: Cross-platform library designed to implement e-book readers
-app-text/crf++ 0.58-r1: Yet Another CRF toolkit for segmenting/labelling sequential data
+app-text/crf++ 0.58-r1 0.58-r2: Yet Another CRF toolkit for segmenting/labelling sequential data
 app-text/crm114 20100106-r2: A powerful text processing tool, mainly used for spam filtering
 app-text/crqt-ng 1.0.13: Cross-platform e-book reader
 app-text/crwx-ng 0.3.1-r1: Cross-platform e-book reader
@@ -13119,7 +13119,7 @@ media-libs/ampache_browser 1.0.4 1.0.6 1.0.7: Ampache desktop client library
 media-libs/aribb24 1.0.3-r2: Library for decoding ARIB STD-B24 subtitles
 media-libs/assimp 5.2.5-r1 5.2.5-r2 5.3.1: Importer library to import assets from 3D files
 media-libs/aubio 0.4.9-r2: Library for audio labelling
-media-libs/audiofile 0.3.6-r5: An elegant API for accessing audio files
+media-libs/audiofile 0.3.6-r5 0.3.6-r6: An elegant API for accessing audio files
 media-libs/avidemux-core 2.8.1-r1: Core libraries for simple video cutting, filtering and encoding tasks
 media-libs/avidemux-plugins 2.8.1-r2: Plugins for the video editor media-video/avidemux
 media-libs/babl 0.1.106 0.1.108 9999: A dynamic, any to any, pixel format conversion library
@@ -14106,7 +14106,7 @@ media-sound/splay 0.9.5.2-r2: An audio player, primarily for the console
 media-sound/split2flac 122 9999: sh script to split an APE/FLAC/WV/WAV audio image with CUE sheet into tracks
 media-sound/spotify 1.2.31: Spotify is a social music platform
 media-sound/strawberry 1.0.23 1.0.23-r1 9999: Modern music player and library organizer based on Clementine and Qt
-media-sound/streamripper 1.64.6: Extracts and records individual MP3 file tracks from shoutcast streams
+media-sound/streamripper 1.64.6 1.64.6-r1: Extracts and records individual MP3 file tracks from shoutcast streams
 media-sound/streamtranscoder 3.1.11-r1: Commandline program to transcode shoutcast/icecast streams to different bitrates
 media-sound/subsonic-bin 6.1.6: Subsonic is a complete, personal media streaming solution
 media-sound/substract_wave 0.3-r1: Substracts 2 mono wave files from each other by a factor specified
@@ -15391,7 +15391,7 @@ net-misc/usbip 5.15: Userspace utilities for a general USB device sharing system
 net-misc/utelnetd 0.1.11-r3 0.1.11-r4: Small telnet daemon derived from the Axis tools
 net-misc/vconfig 1.9: 802.1Q vlan control utility
 net-misc/vde 2.3.3 9999: Virtual distributed ethernet emulator for emulators like qemu, bochs, and uml
-net-misc/vmnet 0.4-r1: A simple virtual networking program - SLIP over stdin/out
+net-misc/vmnet 0.4-r2: A simple virtual networking program - SLIP over stdin/out
 net-misc/vmpsd 1.4: An open-source VLAN management system
 net-misc/vncrec 0.2-r3: VNC session recorder and player
 net-misc/vncsnapshot 1.2a: A command-line tool for taking JPEG snapshots of VNC servers
@@ -15685,7 +15685,7 @@ net-wireless/urh 2.9.4 2.9.5 9999: Universal Radio Hacker: investigate wireless 
 net-wireless/wavemon 0.9.3-r1 0.9.4 0.9.5: Ncurses based monitor for IEEE 802.11 wireless LAN cards
 net-wireless/wepattack 0.1.3-r6: WLAN tool for breaking 802.11 WEP keys
 net-wireless/wepdecrypt 0.8-r2: Enhanced version of WepAttack a tool for breaking 802.11 WEP keys
-net-wireless/wireless-regdb 20220606 20230503-r2: Wireless Regulatory database for Linux
+net-wireless/wireless-regdb 20220606 20230503-r2 20240508: Wireless Regulatory database for Linux
 net-wireless/wireless-tools 30_pre9-r1: A collection of tools to configure IEEE 802.11 wireless LAN cards
 net-wireless/wpa_supplicant 2.10-r4 2.10-r5 9999: IEEE 802.1X/WPA supplicant for secure wireless transfers
 perl-core/CPAN 2.290.0-r1: Query, download and build perl modules from CPAN sites
@@ -15795,7 +15795,7 @@ sci-biology/foldingathome 7.6.13-r1 7.6.21: Folding@Home is a distributed comput
 sci-biology/glimmer 3.02b: An HMM-based microbial gene finding system from TIGR
 sci-biology/glimmerhmm 3.0.1-r1 3.0.4: A eukaryotic gene finding system from TIGR
 sci-biology/gmap 2020.10.27: A Genomic Mapping and Alignment Program for mRNA and EST Sequences
-sci-biology/hmmer 2.3.2-r5 3.1_beta2-r1: Sequence analysis using profile hidden Markov models
+sci-biology/hmmer 2.3.2-r6 3.1_beta2-r1: Sequence analysis using profile hidden Markov models
 sci-biology/iedera 1.05-r2: Subset seed design tool for DNA sequence alignment
 sci-biology/infernal 1.0.2-r1: Inference of RNA alignments
 sci-biology/iqpnni 3.3.2-r2: Important Quartet Puzzling and NNI Operation
@@ -15945,7 +15945,7 @@ sci-electronics/gspeakers 0.11-r2: GTK based loudspeaker enclosure and crossover
 sci-electronics/gspiceui 1.1.0 1.2.87 1.2.87-r1: GUI frontend for Ngspice and Gnucap
 sci-electronics/gtkwave 3.3.106 3.3.111: A wave viewer for LXT, LXT2, VZT, GHW and standard Verilog VCD/EVCD files
 sci-electronics/gwave 20190116: Analog waveform viewer for SPICE-like simulations
-sci-electronics/irsim 9.7.93: IRSIM is a "switch-level" simulator
+sci-electronics/irsim 9.7.93 9.7.93-r1: IRSIM is a "switch-level" simulator
 sci-electronics/iverilog 10.3 11.0 12.0 9999: A Verilog simulation and synthesis tool
 sci-electronics/kicad 7.0.7 7.0.10 7.0.11 8.0.0 8.0.1 8.0.2-r1 9999: Electronic Schematic and PCB design tools
 sci-electronics/kicad-footprints 7.0.7 7.0.10 7.0.11 8.0.0 8.0.1 8.0.2 9999: Electronic Schematic and PCB design tools footprint libraries
@@ -17192,7 +17192,7 @@ sys-apps/usbredir 0.13.0-r1 0.14.0: TCP daemon and set of libraries for usbredir
 sys-apps/usbutils 016 017: USB enumeration utilities
 sys-apps/usermode-utilities 20070815-r4 20070815-r5: Tools for use with Usermode Linux virtual machines
 sys-apps/uswid 0.4.7: Pure-Python library and CLI tool for processing SBoM metadata
-sys-apps/utempter 0.5.5.6-r1: App that allows non-privileged apps to write utmp (login) info
+sys-apps/utempter 0.5.5.6-r1 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
 sys-apps/util-linux 2.39.3-r2 2.39.3-r7 2.39.4 2.40.1 9999: Various useful Linux utilities
 sys-apps/uutils-coreutils 0.0.25 9999: GNU coreutils rewritten in Rust
 sys-apps/uutils-findutils 0.4.2-r1 9999: GNU findutils rewritten in Rust
@@ -18740,7 +18740,7 @@ x11-plugins/gkrellmss 2.6-r5: A plugin for GKrellM2 that has a VU meter and a so
 x11-plugins/gkrellmwireless 2.0.3-r3: A plugin for GKrellM that monitors your wireless network card
 x11-plugins/gkrellshoot 0.4.4-r5: GKrellm2 plugin to take screen shots and lock screen
 x11-plugins/gkrellstock 0.5.1-r2: Get Stock quotes plugin for Gkrellm2
-x11-plugins/gkrellsun 1.0.0-r5: A GKrellM plugin that shows sunrise and sunset times
+x11-plugins/gkrellsun 1.0.0-r5 1.0.0-r6: A GKrellM plugin that shows sunrise and sunset times
 x11-plugins/gkrelltop 2.2.13-r3: a GKrellM2 plugin which displays the top three processes
 x11-plugins/gkrellweather 2.0.8-r2: GKrellM2 Plugin that monitors a METAR station and displays weatherinfo
 x11-plugins/gkwebmon 0.2.1: A web monitor plugin for GKrellM2
