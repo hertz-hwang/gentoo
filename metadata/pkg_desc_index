@@ -3264,7 +3264,7 @@ app-text/kchmviewer 8.0: Feature rich chm file viewer, based on Qt
 app-text/kjots 5.1.1: Note taking utility by KDE
 app-text/kramdown-rfc 1.6.36 1.6.39: An XML2RFC (RFC799x) backend for Thomas Leitner's kramdown markdown parser
 app-text/krop 0.6.0-r2 0.6.0-r3: A tool to crop PDF files
-app-text/languagetool 5.4-r2: A proof-reading tool for many languages
+app-text/languagetool 5.4-r2 6.3: A proof-reading tool for many languages
 app-text/lcdf-typetools 2.108-r1 2.110: Font utilities for eg manipulating OTF
 app-text/lesspipe 2.11-r1 2.12: Preprocessor for less
 app-text/letterize 1.4: Generate English-plausible alphabetic mnemonics for a phone number
@@ -11103,7 +11103,7 @@ dev-vcs/repo 2.37 2.40: Google tool for managing git, particularly multiple repo
 dev-vcs/reposurgeon 4.27: Tool for editing VCS repositories and translating among different systems
 dev-vcs/rsvndump 0.6-r1 0.6.1 0.6.1-r1 0.6.2: Dump a remote Subversion repository
 dev-vcs/stagit 1.2: Generates static HTML pages for a Git repository
-dev-vcs/stgit 2.4.0 2.4.5 2.4.6 2.4.7: Stack-based patch management for Git
+dev-vcs/stgit 2.4.6 2.4.7: Stack-based patch management for Git
 dev-vcs/subversion 1.14.2-r1 1.14.3: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.18-r1 9999: Tool for one-time conversion from svn to git
