@@ -1,7 +1,7 @@
 # Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit alternatives flag-o-matic toolchain-funcs multilib multiprocessing
 
@@ -70,9 +70,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="${RDEPEND}"
-
 PDEPEND="
-	>=app-admin/perl-cleaner-2.30
 	!minimal? (
 		>=virtual/perl-CPAN-2.290.0
 		>=virtual/perl-Encode-3.120.0
@@ -82,6 +80,7 @@ PDEPEND="
 		virtual/perl-Test-Harness
 	)
 "
+IDEPEND="app-admin/perl-cleaner"
 # bug 390719, bug 523624
 # virtual/perl-Test-Harness is here for the bundled ExtUtils::MakeMaker
 
