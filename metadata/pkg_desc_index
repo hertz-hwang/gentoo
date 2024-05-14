@@ -16995,7 +16995,7 @@ sys-apps/fwupd 1.9.14 1.9.16 1.9.18: Aims to make updating firmware on Linux aut
 sys-apps/fwupd-efi 1.4 1.5 1.6: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.2.2 5.3.0-r1: GNU awk pattern-matching language
-sys-apps/gentoo-functions 0.19 1.0 9999: Base functions required by all Gentoo systems
+sys-apps/gentoo-functions 0.19 1.0 1.1 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9 9999: systemd integration files for Gentoo
 sys-apps/gnome-disk-utility 45.1: Disk Utility for GNOME using udisks
 sys-apps/goawk 1.25.0 1.26.0 1.27.0: POSIX-compliant AWK interpreter written in Go, with CSV support
@@ -17654,7 +17654,7 @@ sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.8.9: Developer documentation generated from the Linux kernel
 sys-kernel/linux-firmware 20240220-r2 20240312 20240410 20240513 99999999: Linux firmware files
-sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.7-r1 6.8-r1: Linux system headers
+sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.7-r1 6.8-r1 6.9: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.307 5.4.269: Kernel.org sources for MIPS-based machines
 sys-kernel/modprobed-db 2.47: Keeps track of EVERY kernel module ever used - useful for make localmodconfig
