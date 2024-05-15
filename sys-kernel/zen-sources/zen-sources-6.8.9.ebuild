@@ -4,7 +4,7 @@
 EAPI="8"
 ETYPE="sources"
 K_WANT_GENPATCHES="base extras"
-K_GENPATCHES_VER="13"
+K_GENPATCHES_VER="12"
 K_SECURITY_UNSUPPORTED="1"
 K_NOSETEXTRAVERSION="1"
 
@@ -12,17 +12,16 @@ inherit kernel-2 unpacker
 detect_version
 detect_arch
 
-KEYWORDS="~amd64 ~arm64 ~x86"
+DESCRIPTION="The Zen Kernel Live Sources"
 HOMEPAGE="https://github.com/zen-kernel"
-IUSE=""
 
 # Needed for zstd compression of the patch
 BDEPEND="$(unpacker_src_uri_depends)"
 
-DESCRIPTION="The Zen Kernel Live Sources"
-
 ZEN_URI="https://github.com/zen-kernel/zen-kernel/releases/download/v${PV}-zen1/linux-v${PV}-zen1.patch.zst"
 SRC_URI="${KERNEL_URI} ${GENPATCHES_URI} ${ARCH_URI} ${ZEN_URI}"
+
+KEYWORDS="~amd64 ~arm64 ~x86"
 
 UNIPATCH_LIST="${WORKDIR}/linux-v${PV}-zen1.patch"
 UNIPATCH_STRICTORDER="yes"
