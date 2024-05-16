@@ -941,7 +941,7 @@ app-admin/emacs-updater 1.17 1.18: Rebuild Emacs packages
 app-admin/entr 5.5: Run arbitrary commands when files change
 app-admin/eselect 1.4.26-r1 1.4.27-r1 9999: Gentoo's multi-purpose configuration and management tool
 app-admin/evtxtools 1.1.1-r2: Read, decode and dump Windows Vista/2008/7 event log file
-app-admin/exo 1.78.1: Command-line tool for everything at Exoscale: compute, storage, dns
+app-admin/exo 1.78.2: Command-line tool for everything at Exoscale: compute, storage, dns
 app-admin/fam 2.7.0_p17_p3: FAM, the File Alteration Monitor
 app-admin/fetchlog 1.4-r2: Displays the last new messages of a logfile
 app-admin/fifo-cronolog 1.2.3-r1: cronolog wrapper for use with dumb daemons like squid, varnish and so on
@@ -11353,7 +11353,7 @@ games-board/gtkatlantic 0.6.3: Monopoly-like game that works with the monopd ser
 games-board/gtkboard 0.11_pre0-r2: Board games system
 games-board/hexxagon 1.0.2-r1: Clone of the original DOS game
 games-board/iagno 3.38.1-r1: Dominate the board in a classic version of Reversi
-games-board/jja 0.7.1 0.8.0 0.8.1 0.9.0 9999: swiss army knife for chess file formats
+games-board/jja 0.9.1 9999: swiss army knife for chess file formats
 games-board/mah-jong 1.16: A networked Mah Jong program, together with a computer player
 games-board/maitretarot 0.1.98-r2: Server for the french tarot game maitretarot
 games-board/megamek 0.34.10-r2: Unofficial online version of the Classic BattleTech board game
