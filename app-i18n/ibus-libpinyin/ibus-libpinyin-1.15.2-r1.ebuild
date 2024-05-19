@@ -1,9 +1,9 @@
-# Copyright 2015-2023 Gentoo Authors
+# Copyright 2015-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 LUA_COMPAT=( lua5-{1..3} )
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 
 inherit autotools gnome2-utils lua-single python-single-r1
 
@@ -13,16 +13,17 @@ SRC_URI="https://github.com/libpinyin/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="boost lua opencc"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
 	lua? ( ${LUA_REQUIRED_USE} )"
 
 BDEPEND="dev-db/sqlite:3
+	sys-devel/gettext
 	virtual/pkgconfig"
 
 DEPEND="${PYTHON_DEPS}
-	>=app-i18n/libpinyin-2.2.1:=
+	>=app-i18n/libpinyin-2.7.91:=
 	dev-db/sqlite:3
 	dev-libs/glib:2
 	virtual/libintl
@@ -35,10 +36,6 @@ DEPEND="${PYTHON_DEPS}
 	opencc? ( app-i18n/opencc:= )"
 
 RDEPEND="${DEPEND}"
-
-PATCHES=(
-	"${FILESDIR}"/${P}_sqlite3.41_fix_quotes.patch
-)
 
 pkg_setup() {
 	python-single-r1_pkg_setup
