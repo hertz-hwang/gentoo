@@ -8919,7 +8919,7 @@ dev-python/patiencediff 0.2.14 0.2.15: Python implementation of the patiencediff
 dev-python/patsy 0.5.6: Python module to describe statistical models and design matrices
 dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 6.0.0: Inject some useful and sensible default behaviors into setuptools
-dev-python/pbs-installer 2024.4.1: Installer for Python Build Standalone
+dev-python/pbs-installer 2024.4.24: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
 dev-python/pdm 2.15.1 2.15.2 2.15.3: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.1.8 2.2.0 2.2.1 2.3.0: A PEP 517 backend for PDM that supports PEP 621 metadata
@@ -19063,7 +19063,7 @@ x11-wm/selectwm 0.4.1-r2: window manager selector tool
 x11-wm/sithwm 1.2.3: Minimalist Window Manager for X
 x11-wm/spectrwm 3.5.1: Small dynamic tiling window manager for X11
 x11-wm/stumpwm 22.05_p20220818: A Window Manager written entirely in Common Lisp
-x11-wm/stumpwm-contrib 20180128: Extension Modules for StumpWM
+x11-wm/stumpwm-contrib 20180128-r1: Extension Modules for StumpWM
 x11-wm/treewm 0.4.5-r2: WindowManager that arranges the windows in a tree (not in a list)
 x11-wm/twm 1.0.12: X.Org Tab Window Manager
 x11-wm/vtwm 5.4.7-r3: TWM descendant that implements a Virtual Desktop
