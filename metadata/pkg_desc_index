@@ -15027,7 +15027,7 @@ net-mail/mailbox-count 0.0.6 0.0.8: Count mailboxes in a SQL database
 net-mail/mailfront 2.22: Mail server network protocol front-ends
 net-mail/mailgraph 1.14-r3: A mail statistics RRDtool frontend for Postfix
 net-mail/mailshears 0.1.0: Mangle your mail garden
-net-mail/mailutils 3.15 3.16 3.17: A useful collection of mail servers, clients, and filters
+net-mail/mailutils 3.17: A useful collection of mail servers, clients, and filters
 net-mail/mairix 0.24-r1: Indexes and searches Maildir/MH folders
 net-mail/mboxgrep 0.7.9-r2 0.7.9-r3: Grep for mbox files
 net-mail/mess822 0.58-r2: Collection of utilities for parsing Internet mail messages
@@ -18556,7 +18556,7 @@ x11-misc/picom 10.2 11.1 11.2 9999: A lightweight compositor for X11 (previously
 x11-misc/piedock 1.6.9-r1: A little bit like the famous OS X dock but in shape of a pie menu
 x11-misc/polybar 3.6.3-r3 3.7.1-r1: A fast and easy-to-use tool for creating status bars
 x11-misc/prime-run 1.0: Run programs on the discrete nVidia video card
-x11-misc/primus 0.2-r3: Faster OpenGL offloading for Bumblebee
+x11-misc/primus 0.2-r4: Faster OpenGL offloading for Bumblebee
 x11-misc/projecteur 0.10: Linux Desktop Application for the Logitech Spotlight device
 x11-misc/py3status 3.57: py3status is an extensible i3status wrapper written in python
 x11-misc/qarma 1: Zenity Clone for Qt5
