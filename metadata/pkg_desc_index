@@ -9022,7 +9022,7 @@ dev-python/pycparser 2.22: C parser and AST generator written in Python
 dev-python/pycryptodome 3.20.0: A self-contained cryptographic library for Python
 dev-python/pycuda 2024.1: Python wrapper for NVIDIA CUDA
 dev-python/pycups 2.0.1-r1: Python bindings for the CUPS API
-dev-python/pycurl 7.45.2-r1 7.45.3: Python bindings for curl/libcurl
+dev-python/pycurl 7.45.3: Python bindings for curl/libcurl
 dev-python/pycurl-requests 0.5.0-r1: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.8: Set of facilities to extend Python with C++
 dev-python/pydantic 2.7.1 2.7.2 2.7.3: Data parsing and validation using Python type hints
@@ -9430,7 +9430,7 @@ dev-python/simplebayes 1.5.8-r1: memory-based, optional-persistence naive bayesi
 dev-python/simpleeval 0.9.13: A simple, safe single expression evaluator library
 dev-python/simplejson 3.19.2: Simple, fast, extensible JSON encoder/decoder for Python
 dev-python/simplekml 1.3.6: Enables you to generate KML with as little effort as possible
-dev-python/simpy 4.0.2 4.1.0 4.1.1: Object-oriented, process-based discrete-event simulation language
+dev-python/simpy 4.1.1: Object-oriented, process-based discrete-event simulation language
 dev-python/simsimd 4.3.1: Fastest SIMD-Accelerated Vector Similarity Functions for x86 and Arm
 dev-python/sip 6.8.3: Python bindings generator for C/C++ libraries
 dev-python/six 1.16.0-r1: Python 2 and 3 compatibility library
@@ -9740,7 +9740,7 @@ dev-qt/pixeltool 5.15.13 5.15.14: Qt screen magnifier
 dev-qt/qdbus 5.15.13 5.15.14: Interface to Qt applications communicating over D-Bus
 dev-qt/qdbusviewer 5.15.13 5.15.14: Graphical tool that lets you introspect D-Bus objects and messages
 dev-qt/qdoc 5.15.13 5.15.14: Qt documentation generator
-dev-qt/qt-creator 13.0.1 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qt-creator 13.0.1 13.0.2 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qt-docs 5.15.2_p202011130614 6.7.0_p202403252230 6.7.1_p202404231200: Qt6 documentation and examples for Qt Creator and other tools
 dev-qt/qt3d 5.15.13 5.15.14 6.7.0 6.7.1 6.7.9999 6.8.9999 6.9999: 3D rendering module for the Qt6 framework
 dev-qt/qt5compat 6.7.0 6.7.1 6.7.9999 6.8.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
@@ -14749,7 +14749,7 @@ net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r2: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.105.1 1.106.0 1.107.0 1.108.0: Reference implementation of Matrix homeserver
 net-im/telegram-desktop 4.15.0-r2 5.0.1-r1 5.0.4: Official desktop client for Telegram
-net-im/telegram-desktop-bin 4.16.8 5.0.1: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 5.0.1 5.1.2: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
 net-im/tkabber 1.1.2: A jabber client written in Tcl/Tk
