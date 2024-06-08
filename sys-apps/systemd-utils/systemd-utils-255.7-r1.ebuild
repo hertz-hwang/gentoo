@@ -357,6 +357,8 @@ multilib_src_compile() {
 				rules.d/50-udev-default.rules
 				rules.d/60-persistent-storage.rules
 				rules.d/64-btrfs.rules
+				# Needed for tests
+				rules.d/99-systemd.rules
 			)
 			if use test; then
 				targets+=(
@@ -399,7 +401,7 @@ multilib_src_compile() {
 		meson_src_compile "${targets[@]}"
 	fi
 	if [[ ${#optional_targets[@]} -ne 0 ]]; then
-		nonfatal meson_src_compile "${optional_targets[@]}"
+		ninja ${NINJAOPTS} "${optional_targets[@]}"
 	fi
 }
 
