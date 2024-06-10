@@ -1762,7 +1762,7 @@ app-doc/tldp-howto 20120707: The Linux Documentation Project HOWTOs
 app-doc/vilearn 1.0: An interactive vi tutorial comprised of 5 tutorials for the vi-impaired
 app-doc/zsh-lovers 0.10.1: Tips, tricks and examples for the Z shell
 app-editors/aee 2.2.21: An easy to use text editor
-app-editors/bluefish 2.2.12-r2 2.2.13: GTK HTML editor for the experienced web designer or programmer
+app-editors/bluefish 2.2.12-r2 2.2.13 2.2.15: GTK HTML editor for the experienced web designer or programmer
 app-editors/bvi 1.4.1 1.4.2: Display-oriented editor for binary files, based on the vi texteditor
 app-editors/curses-hexedit 0.9.7-r1: full screen curses hex editor (with insert/delete support)
 app-editors/dav 0.8.5-r2: Minimal console text editor
@@ -18099,7 +18099,7 @@ www-apps/postfixadmin 3.3.13: Web Based Management tool for Postfix style virtua
 www-apps/prowlarr-bin 1.18.0.4543: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 5.6.0.8846: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.1.8-r1 3.1.9: A simple CalDAV calendar server
-www-apps/readarr-bin 0.3.27.2538: An ebook and audiobook collection manager for Usenet and BitTorrent users
+www-apps/readarr-bin 0.3.28.2554: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 5.0.6 5.1.0: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.2.0 2.3.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 4.4.4-r3: RT is an enterprise-grade ticketing system
