@@ -1197,7 +1197,7 @@ app-arch/wimlib 1.13.4-r1 1.14.1 1.14.4: The open source Windows Imaging (WIM) l
 app-arch/xar 1.8.0.0.487.100.1 1.8.0.0.498: An easily extensible archive format
 app-arch/xarchiver 0.5.4.23: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
-app-arch/xz-utils 5.4.2 5.4.7 5.4.7-r1 5.6.2 5.6.2-r1 9999: Utils for managing LZMA compressed files
+app-arch/xz-utils 5.4.2 5.4.7-r1 5.6.2-r1 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 9999: File format designed for highly efficient deltas with good compression
 app-arch/zip 3.0-r7: Info ZIP (encryption support)
 app-arch/zoo 2.10-r5 2.10-r6: Manipulate archives of files in compressed form
@@ -5544,7 +5544,7 @@ dev-libs/libp11 0.4.12-r7: Abstraction layer to simplify PKCS#11 API
 dev-libs/libparserutils 0.2.5: C library for building efficient parsers
 dev-libs/libpcre 8.45-r1 8.45-r2 8.45-r3: Perl-compatible regular expression library
 dev-libs/libpcre-debian 8-r3: libpcre(posix).so.3 symlinks for compatibility with Debian
-dev-libs/libpcre2 10.42-r1 10.42-r2 10.43: Perl-compatible regular expression library
+dev-libs/libpcre2 10.42-r1 10.42-r2 10.43 10.44: Perl-compatible regular expression library
 dev-libs/libpeas 1.36.0: A GObject plugins library
 dev-libs/libpfm 4.11.0 4.12.0 4.13.0: Hardware-based performance monitoring interface for Linux
 dev-libs/libphonenumber 8.12.39: Library for parsing, formatting, and validating international phone numbers
@@ -5657,7 +5657,7 @@ dev-libs/msgpack 5.0.0 6.0.0-r1: MessagePack is a binary-based efficient data in
 dev-libs/mxml 3.3.1-r1 4.0.3: A small XML parsing library that you can use to read XML data files or strings
 dev-libs/nanomsg 1.1.5-r1 1.2.1: High-performance messaging interface for distributed applications
 dev-libs/ncnn 20240410: High-performance neural network inference framework
-dev-libs/nettle 3.8.1 3.9 3.9.1: Low-level cryptographic library
+dev-libs/nettle 3.8.1 3.9-r1 3.9.1-r1: Low-level cryptographic library
 dev-libs/newt 0.52.24: Redhat's Newt windowing toolkit development files
 dev-libs/nmeap 0.3-r2: Extensible NMEA-0183 (GPS) data parser in standard C
 dev-libs/npth 1.6-r1 1.6-r2 1.7-r1: New GNU Portable Threads Library
@@ -17054,7 +17054,7 @@ sys-apps/man-db 2.11.2 2.12.0 2.12.1 9999: A man replacement that utilizes dbm i
 sys-apps/man-pages 6.05.01 6.06 9999: A somewhat comprehensive collection of Linux man pages
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g 1.6g-r2: Standard commands to read man pages
-sys-apps/mawk 1.3.4_p20231126 1.3.4_p20240123: An (often faster than gawk) awk-interpreter
+sys-apps/mawk 1.3.4_p20231126 1.3.4_p20240123 1.3.4_p20240622: An (often faster than gawk) awk-interpreter
 sys-apps/mcstrans 3.5 3.6 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.0: Stand alone memory testing software for x86 EFI hardware
@@ -17454,7 +17454,7 @@ sys-devel/llvm-common 15.0.7 16.0.6 17.0.6 18.1.7 19.0.0_pre20240608 19.0.0_pre2
 sys-devel/llvm-toolchain-symlinks 15-r1 16-r1 17 18 19: Symlinks to use LLVM on binutils-free system
 sys-devel/llvmgold 15 16 17 18 19: LLVMgold plugin symlink for autoloading
 sys-devel/m4 1.4.19-r2: GNU macro processor
-sys-devel/mold 2.1.0 2.4.0 2.4.1 2.30.0 2.31.0 9999: A Modern Linker
+sys-devel/mold 2.1.0 2.30.0 2.31.0 2.32.0 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
 sys-devel/native-cctools 5-r1: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20230122 9999: Collection of tools for use with nvptx-none GCC toolchains
