@@ -14,12 +14,12 @@ DESCRIPTION="Flexible, composited Window Manager for windowing systems on Linux"
 
 LICENSE="GPL-2+"
 SLOT="6"
-KEYWORDS="~amd64 ~arm64"
+KEYWORDS="~amd64"
 IUSE="accessibility +caps gles2-only lock screencast +shortcuts systemd"
 
 RESTRICT="test"
 
-# qtbase slot up: GuiPrivate use in tabbox
+# qtbase slot op: GuiPrivate use in tabbox
 COMMON_DEPEND="
 	dev-libs/libei
 	>=dev-libs/libinput-1.19:=
@@ -93,7 +93,7 @@ RDEPEND="${COMMON_DEPEND}
 	)
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	>=kde-frameworks/kitemmodels-${KFMIN}:6
-	>=kde-plasma/libplasma-${PVCUT}:6[wayland]
+	>=kde-plasma/libplasma-${PVCUT}:6[wayland(+)]
 	sys-apps/hwdata
 	x11-base/xwayland[libei]
 "
