@@ -3925,7 +3925,7 @@ dev-db/freetds 1.2.18 1.4.17: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
 dev-db/futuresql5 0.1.1: Non-blocking Qt database framework
 dev-db/gqlplus 1.16-r2: a front-end for Oracle program sqlplus with command-line editing
-dev-db/hsqldb 1.8.1.3-r5: The leading SQL relational database engine written in Java
+dev-db/hsqldb 1.8.1.3-r5 2.7.3: HSQLDB - Lightweight 100% Java SQL Database Engine
 dev-db/influx-cli 2.7.3: The command line for influxdb
 dev-db/influxdb 1.8.10 2.7.5 2.7.6: Scalable datastore for metrics, events, and real-time analytics
 dev-db/innotop 1.13.0: A text-mode MySQL and InnoDB monitor like mytop, but with many more features
@@ -5110,7 +5110,7 @@ dev-lang/cfortran 4.4-r4 20110621 20210827: Header file allowing to call Fortran
 dev-lang/clips 6.40: Tool for building Expert Systems (native version)
 dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
-dev-lang/clojure 1.11.3: General-purpose programming language with an emphasis on functional programming
+dev-lang/clojure 1.11.3-r1: General-purpose programming language with an emphasis on functional programming
 dev-lang/closure-compiler-bin 20240317: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.12.1 1.12.2: The Crystal Programming Language
@@ -6041,7 +6041,7 @@ dev-ml/ordering 3.6.2 3.7.1 3.10.0 3.11.1: Element ordering
 dev-ml/ounit2 2.2.6 2.2.7-r1: Unit testing framework for OCaml
 dev-ml/parmap 1.2 1.2.1 1.2.3 1.2.4-r1 1.2.5: Library to exploit multicore architectures for OCaml programs
 dev-ml/parsexp 0.14.0 0.14.1 0.15.0 0.16.0 0.17.0: S-expression parsing library
-dev-ml/patience_diff 0.14.0 0.15.0: Tool and library implementing patience diff
+dev-ml/patience_diff 0.14.0 0.15.0 0.16.0 0.17.0: Tool and library implementing patience diff
 dev-ml/pcre-ocaml 7.4.6-r2 7.5.0: Perl Compatibility Regular Expressions for O'Caml
 dev-ml/pp 1.1.2: Pretty-printing library
 dev-ml/pprint 20211129 20220103 20230830: A pretty-printing combinator library and rendering engine
@@ -13393,7 +13393,7 @@ media-libs/munt-mt32emu 2.7.0: Library for emulating the Roland MT-32, CM-32L, C
 media-libs/musicbrainz 5.1.0-r1: Client Library for accessing the latest XML based MusicBrainz web service
 media-libs/mutagen 1.47.0: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20221222: NanoSVG is a simple stupid single-header-file SVG parse.
-media-libs/nas 1.9.5 1.9.5-r1: Network Audio System
+media-libs/nas 1.9.5 1.9.5-r2: Network Audio System
 media-libs/netpbm 11.2.9-r1 11.7.0: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.03 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 11.1.5.2 12.1.14.0: FFmpeg version of headers required to interface with Nvidias codec APIs
@@ -18199,7 +18199,7 @@ www-servers/servefile 0.5.4 0.5.4-r1: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.4-r1: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 1.8.1-r3 1.8.2: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.89 9.0.90 10.1.24-r1 10.1.25: Tomcat Servlet-6.0/JSP-3.1/EL-5.0/WebSocket-2.1/JASPIC-3.0 Container
+www-servers/tomcat 9.0.89 9.0.90 9.0.90-r1 10.1.24-r1 10.1.25 10.1.25-r1: Tomcat Servlet-6.0/JSP-3.1/EL-5.0/WebSocket-2.1/JASPIC-3.0 Container
 www-servers/uwsgi 2.0.23: uWSGI server for Python web applications
 www-servers/varnish 7.1.2-r2 7.5.0: Varnish is a state-of-the-art, high-performance HTTP accelerator
 www-servers/webfs 1.21: Lightweight HTTP server for static content
