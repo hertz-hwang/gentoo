@@ -4380,9 +4380,6 @@ media-libs/libva-intel-driver:hybrid - Enable support for hybrid vaapi hardware 
 media-libs/libva-intel-media-driver:redistributable - Install redistributable media kernel binaries (no source code) files (primarily needed for video encoding support)
 media-libs/libvisio:tools - Build conversion tools
 media-libs/libvmaf:embed-models - Compile default vmaf models into the library (needs app-editors/vim-core)
-media-libs/libvpl:drm - Build with DRM support
-media-libs/libvpl:experimental - Build dispatcher with experimental APIs
-media-libs/libvpl:tools - Build decode/encode/analyse/inspect tools
 media-libs/libvpl-tools:drm - Build with DRM support
 media-libs/libvpx:highbitdepth - Enable 10 and 12 bit support for VP9.
 media-libs/libvpx:postproc - Enable additional post processing filters
@@ -4421,7 +4418,6 @@ media-libs/noise-suppression-for-voice:vst3 - Enable the VST3 plugin
 media-libs/oidn:apps - Build the standalone denoise, self test, and benchmark binaries.
 media-libs/oidn:hip - Build OIDN with AMD HIP support.
 media-libs/oidn:openimageio - Enable OpenImageIO Support
-media-libs/oneVPL-cpu:experimental - Enable experimental API
 media-libs/oneVPL-cpu:openh264 - Use media-libs/openh264 instead of media-libs/x264
 media-libs/openal:pipewire - Enable support for the media-video/pipewire audio backend
 media-libs/openal:sndio - Enable support for the media-sound/sndio backend
