@@ -24,7 +24,7 @@ else
 
 	MY_P="${P/_rc/.RC}"
 	MY_P="${MY_P%%_p*}"
-	VALGRIND_PATCH_TARBALL="${MY_P}-patches-1"
+	VALGRIND_PATCH_TARBALL="${MY_P}-patches-${PV##*_p}"
 	SRC_URI="
 		https://sourceware.org/pub/valgrind/${MY_P}.tar.bz2
 		verify-sig? ( https://sourceware.org/pub/valgrind/${MY_P}.tar.bz2.asc )
