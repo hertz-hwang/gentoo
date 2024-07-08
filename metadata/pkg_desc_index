@@ -9901,7 +9901,7 @@ dev-ruby/colored 1.2-r1: Console coloring
 dev-ruby/colored2 3.1.2-r1: Console coloring
 dev-ruby/colorize 1.1.0: Adds methods to set color, background color and text effect on console easier
 dev-ruby/columnize 0.9.0-r2: Sorts an array in column order
-dev-ruby/combustion 1.3.7-r2 1.4.0: Elegant Rails Engine Testing
+dev-ruby/combustion 1.4.0 1.5.0: Elegant Rails Engine Testing
 dev-ruby/commander 4.6.0 4.6.0-r1 5.0.0: The complete solution for Ruby command-line executables
 dev-ruby/commonmarker 0.23.10: A fast, safe, extensible parser for CommonMark, wrapping the libcmark library
 dev-ruby/concurrent-ruby 1.2.2 1.2.3 1.3.1 1.3.2 1.3.3: Modern concurrency tools including agents, futures, promises, thread pools, more
@@ -14775,7 +14775,7 @@ net-irc/epic5 2.0.1-r2: Epic5 IRC Client
 net-irc/ergo 2.12.0 2.13.0: A modern IRC server written in Go
 net-irc/hexchat 2.16.1-r1 2.16.2 9999: Graphical IRC client based on XChat
 net-irc/ii 1.8 1.9 2.0 9999: A minimalist FIFO and filesystem-based IRC client
-net-irc/inspircd 3.16.1: Inspire IRCd - The Stable, High-Performance Modular IRCd
+net-irc/inspircd 3.16.1 3.17.1: Inspire IRCd - The Stable, High-Performance Modular IRCd
 net-irc/irccloud-desktop-bin 0.16.0-r1: IRCCloud Desktop Client
 net-irc/ircii 20240111: An IRC and ICB client that runs under most UNIX platforms
 net-irc/ircmap 0.99-r1: Scripts to treate diagrams of IRC networks using the LINKS command
