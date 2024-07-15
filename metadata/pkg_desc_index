@@ -2825,7 +2825,7 @@ app-misc/nut 20.1: Record what you eat and analyze your nutrient levels
 app-misc/ola 0.10.9-r2: Open Lighting Architecture, a framework for lighting control information
 app-misc/ondir 0.2.4: Automatically execute scripts as you traverse directories
 app-misc/oneko 1.2_p6_p14-r1: A cat, dog and others which chase the mouse or windows around the screen
-app-misc/openhab-bin 4.1.1 4.1.2: An open-source automation software for your home
+app-misc/openhab-bin 4.1.1 4.1.2 4.2.0: An open-source automation software for your home
 app-misc/openrgb 0.9 9999: Open source RGB lighting control
 app-misc/openrgb-plugin-effects 0.8 0.9: Plugin for OpenRGB with various Effects that can be synced across devices
 app-misc/openrgb-plugin-skin 0.8 0.9: Plugin for OpenRGB that allows you to customize the look and feel of OpenRGB
@@ -18032,7 +18032,7 @@ www-apps/rt 4.4.4-r3: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 4.3.5 4.3.6 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr-bin 4.0.7.1863: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr-bin 4.0.7.1868: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20230901 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7 9999: ttyd, a simple command-line tool for sharing terminal over the web
