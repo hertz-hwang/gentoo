@@ -8478,7 +8478,7 @@ dev-python/httplib2 0.22.0: A comprehensive HTTP client library
 dev-python/httpretty 1.1.4-r1: HTTP client mock for Python
 dev-python/httpx 0.27.0: Fully-featured HTTP client which provides sync and async APIs
 dev-python/httpx-socks 0.9.1: Proxy (HTTP, SOCKS) transports for httpx
-dev-python/huawei-lte-api 1.8.1 1.9.3: API For huawei LAN/WAN LTE Modems
+dev-python/huawei-lte-api 1.9.3: API For huawei LAN/WAN LTE Modems
 dev-python/humanfriendly 10.0-r2: Human friendly output for text interfaces using Python
 dev-python/humanize 4.9.0 4.10.0: Common humanization utilities
 dev-python/hvac 2.3.0: HashiCorp Vault API client
@@ -10744,7 +10744,7 @@ dev-util/gertty 1.6.0-r2 9999: Gertty is a console-based interface to the Gerrit
 dev-util/gi-docgen 2023.1-r1 2023.3: A documentation generator for GObject-based libraries
 dev-util/git-delta 0.16.5 0.17.0: A syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
-dev-util/gitchangelog 3.1.2: Creates a nicely formatted changelog from git log history
+dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
 dev-util/github-cli 2.27.0 2.31.0 2.32.1 2.33.0 2.42.0 2.52.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.2.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.28.1 1.29.4 1.31.0 1.32.0 1.35.0 1.36.0 1.41.0: the official gitlab command line interface
@@ -15054,7 +15054,7 @@ net-misc/connman-json-client 1.0_p20150721-r3: An ncurses UI for connman
 net-misc/connman-notify 0_pre20191003-r3: Desktop notification integration for connman
 net-misc/connman-ui 0_p20150622-r1: A full-featured GTK based trayicon UI for ConnMan
 net-misc/croc 9.6.15 9.6.17: Easily and securely send things from one computer to another
-net-misc/curl 8.7.1-r3 8.7.1-r4 8.8.0 8.8.0-r1 9999: A Client that groks URLs
+net-misc/curl 8.7.1-r3 8.7.1-r4 8.8.0 8.8.0-r1 8.9.0 9999: A Client that groks URLs
 net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
