@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit flag-o-matic gnome2-utils meson python-any-r1 virtualx
 
@@ -13,8 +13,8 @@ SRC_URI="https://github.com/linuxmint/muffin/archive/${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="BSD GPL-2+ LGPL-2+ LGPL-2.1+ MIT SGI-B-2.0"
 SLOT="0"
+KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
 IUSE="input_devices_wacom +introspection screencast sysprof systemd test udev wayland video_cards_nvidia"
-KEYWORDS="amd64 ~arm64 ~loong ~ppc64 ~riscv x86"
 REQUIRED_USE="wayland? ( udev )"
 
 # Dependencies listed in meson order
@@ -28,7 +28,7 @@ COMDEPEND="
 	>=dev-libs/fribidi-1.0.0
 	>=dev-libs/glib-2.61.1:2
 	>=dev-libs/json-glib-0.12.0[introspection?]
-	>=gnome-extra/cinnamon-desktop-5.8:0=
+	>=gnome-extra/cinnamon-desktop-6.2:0=
 	>=x11-libs/libXcomposite-0.4
 	x11-libs/libXcursor
 	x11-libs/libXdamage
@@ -115,13 +115,6 @@ BDEPEND="
 		x11-libs/libxcvt
 	)
 "
-
-PATCHES=(
-	# -Werror=incompatible-pointer-types
-	# https://bugs.gentoo.org/919091
-	# https://github.com/linuxmint/muffin/pull/683
-	"${FILESDIR}"/38919a88b2b8381f5b24b69742d1b9db32029c61.patch
-)
 
 src_prepare() {
 	default
