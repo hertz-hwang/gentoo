@@ -2311,7 +2311,7 @@ app-emulation/cloud-init 23.4 24.2 9999: Cloud instance initialisation magic
 app-emulation/coldfire 0.3.1 0.3.1-r1: Motorola Coldfire Emulator
 app-emulation/crossover-bin 22.1.1 23.6.0 24.0.0 24.0.4: Commercial version of app-emulation/wine with paid support
 app-emulation/dinero 4.7-r1: Cache simulator
-app-emulation/diskimage-builder 3.32.0 9999: Golden Disk Image builder
+app-emulation/diskimage-builder 3.32.0 3.33.0 9999: Golden Disk Image builder
 app-emulation/dosemu 1.4.1_pre20130107-r5: DOS Emulator
 app-emulation/dxvk 1.10.3-r1 2.3.1-r1 2.4 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
@@ -2528,7 +2528,7 @@ app-i18n/mozc 2.28.5029.102 2.28.5029.102-r1 2.28.5029.102-r2: Mozc - Japanese i
 app-i18n/multiskkserv 20100128: SKK server that handles multiple dictionaries
 app-i18n/nabi 1.0.1: Simple Hanguk X Input Method
 app-i18n/nkf 2.1.5-r1: Network Kanji code conversion Filter with UTF-8/16 support
-app-i18n/opencc 1.1.4 1.1.7: Library for conversion between Traditional and Simplified Chinese characters
+app-i18n/opencc 1.1.4 1.1.7 1.1.7-r1: Library for conversion between Traditional and Simplified Chinese characters
 app-i18n/poedit 2.2.4 2.3.1: GUI gettext translations editor
 app-i18n/pyzy 0.1.0-r3: The Chinese PinYin and Bopomofo conversion library
 app-i18n/qkc 1.00: Quick KANJI code Converter
@@ -2938,7 +2938,7 @@ app-mobilephone/anyremote 6.5: Bluetooth, infrared or cable remote control servi
 app-mobilephone/dfu-util 0.11 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
 app-mobilephone/gammu 1.42.0-r1: A tool to handle your cellular phone
 app-mobilephone/gnokii 0.6.31-r5: User space driver and tools for use with mobile phones
-app-mobilephone/heimdall 2.0.1 2.0.2 9999: Tool suite used to flash firmware onto Samsung devices
+app-mobilephone/heimdall 2.0.1 2.0.2 2.1.0 9999: Tool suite used to flash firmware onto Samsung devices
 app-mobilephone/qtadb 0.8.1-r1: Android phone manager via ADB
 app-mobilephone/scmxx 0.9.0-r1: Exchange data with Siemens phones
 app-mobilephone/scrcpy 2.4 2.5 2.6.1: Display and control your Android device
@@ -8632,7 +8632,7 @@ dev-python/logutils 0.3.5-r1: The logutils package provides a set of handlers fo
 dev-python/loky 3.4.1: Robust and reusable Executor for joblib
 dev-python/looseversion 1.3.0: A backwards/forwards-compatible fork of distutils.version.LooseVersion
 dev-python/lrcalc 2.1-r1: Python bindings for sci-mathematics/lrcalc
-dev-python/lxml 5.2.2: A Pythonic binding for the libxml2 and libxslt libraries
+dev-python/lxml 5.2.2 5.3.0: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/lxml-html-clean 0.2.0: Separate project for HTML cleaning functionalities copied from lxml.html.clean
 dev-python/lz4 4.3.3: LZ4 Bindings for Python
 dev-python/m2crypto 0.41.0 0.42.0: A Python crypto and SSL toolkit
@@ -10817,7 +10817,7 @@ dev-util/mk-configure 0.38.3: Lightweight replacement for GNU autotools
 dev-util/nihtest 1.5.2 1.7.0: A testing tool for command line utilities
 dev-util/ninka 2.0_pre1_p20220619: A license identification tool for source code
 dev-util/numdiff 5.9.0: File comparision, ignoring small numeric differences and formats
-dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.0 12.4.1 12.5.0-r1 12.5.1: NVIDIA CUDA Toolkit (compiler and friends)
+dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.0 12.4.1 12.5.0-r1 12.5.1 12.6.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/objconv 2.51: object code file converted (COFF, ELF, OMF, MACHO)
 dev-util/omake 0.10.3-r1: Make replacement
 dev-util/open-vcdiff 0.8.4-r2: An encoder/decoder for the VCDIFF (RFC3284) format
