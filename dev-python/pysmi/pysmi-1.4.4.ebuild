@@ -7,15 +7,15 @@ DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1 pypi
 
-DESCRIPTION="A pure-Python implementation of SNMP/SMI MIB parsing and conversion library."
+DESCRIPTION="Pure-Python implementation of SNMP/SMI MIB parsing and conversion library"
 HOMEPAGE="
-	https://github.com/lextudiopysmi/
+	https://github.com/lextudio/pysmi/
 	https://pypi.org/project/pysmi/
 "
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~sparc"
 
 RDEPEND="
 	>=dev-python/jinja-3.1.3[${PYTHON_USEDEP}]
