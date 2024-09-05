@@ -2745,7 +2745,7 @@ app-misc/go-jira 1.0.28: A simple JIRA commandline client in Go
 app-misc/gojq 0.12.16: Pure Go implementation of jq with yaml support
 app-misc/golly 4.2-r1 4.3-r1: simulator for Conway's Game of Life and other cellular automata
 app-misc/grabcartoons 2.8.5 9999: Comic-summarizing utility
-app-misc/gramps 5.1.6-r3 5.2.2: Community genealogy program aiming to be both intuitive and feature-complete
+app-misc/gramps 5.2.2 5.2.3: Community genealogy program aiming to be both intuitive and feature-complete
 app-misc/graphlcd-base 2.0.3-r3: Contains the lowlevel lcd drivers for GraphLCD
 app-misc/grc 1.13: Generic Colouriser beautifies your logfiles or output of commands
 app-misc/gtk-sunlight 0.4.2-r2: Real-time Sunlight Wallpaper
@@ -3984,7 +3984,7 @@ dev-db/phpmyadmin 5.2.1: Web-based administration for MySQL database in PHP
 dev-db/phppgadmin 7.14.5 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.1.8-r1 3.1.11 3.2.6 3.3.2-r1 3.3.6 3.4.1 3.4.2 3.5.0_alpha2: Geographic Objects for PostgreSQL
-dev-db/postgresql 12.19-r2 12.20 13.15-r2 13.16 14.12-r2 14.13 15.7-r2 15.8 16.3-r2 16.4 17_beta3 9999: PostgreSQL RDBMS
+dev-db/postgresql 12.19-r2 12.20 13.15-r2 13.16 14.12-r2 14.13 15.7-r2 15.8 16.3-r2 16.4 17_rc1 9999: PostgreSQL RDBMS
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5: A better pager for CLI database clients and can be used in place of psql
 dev-db/psqlodbc 11.01.0000 13.00.0000 15.00.0000 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
@@ -12287,7 +12287,7 @@ kde-frameworks/kimageformats 5.116.0 6.5.0: Framework providing additional forma
 kde-frameworks/kinit 5.116.0: Helper library to speed up start of applications on KDE workspaces
 kde-frameworks/kio 5.116.0-r2 6.5.0: Framework providing transparent file and data management
 kde-frameworks/kio-trash-desktop-file 5.116.0: KIO Trash KCM service desktop file
-kde-frameworks/kirigami 5.116.0-r1 6.5.0: Lightweight user interface framework for mobile and convergent applications
+kde-frameworks/kirigami 5.116.0-r1 6.5.0 6.5.0-r1: Lightweight user interface framework for mobile and convergent applications
 kde-frameworks/kitemmodels 5.116.0 6.5.0: Framework providing data models to help with tasks such as sorting and filtering
 kde-frameworks/kitemviews 5.116.0 6.5.0: Framework providing additional widgets for item models
 kde-frameworks/kjobwidgets 5.116.0 6.5.0: Framework providing assorted widgets for showing the progress of jobs
@@ -14880,7 +14880,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.61.0 1.62.0 1.62.1 9999: HTTP/2 C Library
 net-libs/nghttp3 1.3.0 1.4.0 1.5.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 0.14.1 1.1.0 1.2.0 1.3.0 1.4.0 1.5.0 1.6.0 1.7.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 18.20.4 20.15.1 20.16.0 20.17.0 22.4.1-r1 22.6.0 22.7.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 18.20.4 20.15.1 20.16.0 20.17.0 22.4.1-r1 22.6.0 22.7.0 22.8.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 5.0 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.0 1.4.2 1.4.3 1.4.5: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.13: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS.
@@ -16165,7 +16165,7 @@ sci-libs/proj 9.2.1-r1 9.3.0-r1 9.4.1 9999: PROJ coordinate transformation softw
 sci-libs/punc 1.5: Portable Understructure for Numerical Computing
 sci-libs/pyshp 2.3.1-r2: Pure Python read/write support for ESRI Shapefile format
 sci-libs/pytorch 2.2.2 2.3.0 2.3.1 2.4.0: Tensors and Dynamic neural networks in Python
-sci-libs/qd 2.3.23: Quad-double and double-double float arithmetics
+sci-libs/qd 2.3.23 2.3.24: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0: ESO stand-alone C library offering easy access to FITS files
 sci-libs/qrupdate 1.1.2-r2: Library for updating of QR and Cholesky decompositions
 sci-libs/rocBLAS 5.1.3-r4 5.4.2-r3 5.7.1-r2 6.1.1: AMD's library for BLAS on ROCm
@@ -17542,9 +17542,9 @@ sys-fs/xfsprogs 6.8.0 6.9.0 6.10.0-r2: XFS filesystem utilities
 sys-fs/xwmfs 0.92: FUSE-based X11 Window-Manager file system
 sys-fs/yaffs2utils 0.2.9: tools for generating YAFFS images
 sys-fs/zerofree 1.1.1-r1: Zeroes out all free space on a filesystem
-sys-fs/zfs 2.1.14 2.1.15 2.2.2-r1 2.2.3 2.2.4 2.2.5 9999: Userland utilities for ZFS Linux kernel module
+sys-fs/zfs 2.1.14 2.1.15 2.2.2-r1 2.2.3 2.2.4 2.2.5 2.2.6 9999: Userland utilities for ZFS Linux kernel module
 sys-fs/zfs-auto-snapshot 1.2.4-r2 1.2.4-r3 9999: ZFS Automatic Snapshot Service for Linux
-sys-fs/zfs-kmod 2.1.14 2.1.15 2.2.2 2.2.2-r1 2.2.3 2.2.4 2.2.5 9999: Linux ZFS kernel module for sys-fs/zfs
+sys-fs/zfs-kmod 2.1.14 2.1.15 2.2.2 2.2.2-r1 2.2.3 2.2.4 2.2.5 2.2.6 9999: Linux ZFS kernel module for sys-fs/zfs
 sys-kernel/asahi-sources 6.9.9_p5-r1 6.9.12_p2: Asahi Linux kernel sources
 sys-kernel/bliss-initramfs 9.3.0: Boot your system's rootfs from Encrypted/OpenZFS
 sys-kernel/cryptodev 1.12 1.13-r1 9999: device that allows access to Linux kernel cryptographic drivers
@@ -17552,8 +17552,8 @@ sys-kernel/dkms 3.0.13-r1: Dynamic Kernel Module Support
 sys-kernel/dracut 059-r7 060_pre20231030-r2 060_pre20240104-r4 101 102 103-r2 103-r3 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8 1.0.8-r1: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8-r1: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8-r1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8: Full sources including the Gentoo patchset for the 6.10 kernel tree
 sys-kernel/git-sources 6.11_rc1 6.11_rc2 6.11_rc3 6.11_rc4 6.11_rc5 6.11_rc6: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 48-r1: Gentoo fork of installkernel script from debianutils
@@ -17736,7 +17736,7 @@ sys-process/procs 0.14.4 0.14.5: Modern replacement for ps
 sys-process/psinfo 0.12-r1 0.12-r2: Process information and statistics using the kernel /proc interface
 sys-process/psmisc 23.6 23.7: A set of tools that use the proc filesystem
 sys-process/rtirq 20240120 20240220: Modify realtime scheduling policy and priority of IRQ handlers
-sys-process/runit 2.1.2-r4: A UNIX init scheme with service supervision
+sys-process/runit 2.1.2-r5: A UNIX init scheme with service supervision
 sys-process/schedtool 1.3.0-r2: A tool to query or alter a process' scheduling policy
 sys-process/supervise-scripts 4.0-r1 4.0-r2: Starting and stopping daemontools managed services
 sys-process/systemd-cron 2.2.0-r1 2.3.4-r1 2.4.0: systemd units to create timers for cron directories and crontab
@@ -17759,7 +17759,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.6.47 6.6.48 6.6.49 6.10.6 6.10.7 6.10.8-r1: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18001,7 +18001,7 @@ www-apps/nanoc-core 4.12.20 4.12.21 4.13.0: nanoc is a simple but very flexible 
 www-apps/nanoc-deploying 1.0.2-r1: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
 www-apps/nextcloud 27.1.5 27.1.9 27.1.10 27.1.11 28.0.1 28.0.6 28.0.7 29.0.2 29.0.4 29.0.5: Personal cloud that runs on your own server
-www-apps/nextcloud-notify_push 0.6.12: Push daemon for Nextcloud clients
+www-apps/nextcloud-notify_push 0.7.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.2.4-r1 8.3.0: A static website and blog generator
 www-apps/novnc 1.2.0 1.3.0 1.4.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.12: An open-source PHP-based bulletin board package
