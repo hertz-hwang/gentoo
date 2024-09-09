@@ -14723,7 +14723,7 @@ net-irc/sic 1.2-r1: An extremely simple IRC client
 net-irc/soju 0.8.0 0.8.2: soju is a user-friendly IRC bouncer
 net-irc/telepathy-idle 0.2.2: Full-featured IRC connection manager for Telepathy
 net-irc/unrealircd 5.2.4-r1 6.0.4.2: An advanced Internet Relay Chat daemon
-net-irc/weechat 4.2.1 4.2.3 4.3.2-r1 4.3.3 4.3.4 4.3.6 4.4.1 9999: Portable and multi-interface IRC client
+net-irc/weechat 4.2.1 4.2.3 4.3.2-r1 4.3.4 4.3.6 4.4.1 4.4.2 9999: Portable and multi-interface IRC client
 net-irc/znc 1.8.2-r2 1.9.0 1.9.1 9999: An advanced IRC Bouncer
 net-irc/znc-clientbuffer 1.0.48 1.0.48-r1: A ZNC module which provides client specific buffers
 net-irc/znc-igloo-push 20200520: A ZNC module which provides push notifications for Igloo client
@@ -15380,7 +15380,7 @@ net-p2p/go-ethereum 1.10.18 1.13.14 1.14.7 1.14.8: Official golang implementatio
 net-p2p/gtk-gnutella 1.2.2-r1 1.2.3: GTK+ Gnutella client
 net-p2p/gtorrentviewer 0.2b-r1: A GTK2-based viewer and editor for BitTorrent meta files
 net-p2p/ktorrent 24.05.2 24.08.0: Powerful BitTorrent client based on KDE Frameworks
-net-p2p/kubo 0.26.0 0.28.0 0.29.0: Main implementation of IPFS
+net-p2p/kubo 0.26.0 0.28.0 0.29.0 0.29.0-r1: Main implementation of IPFS
 net-p2p/mktorrent 1.1_p20180912 1.1_p20210130: Simple command line utility to create BitTorrent metainfo files
 net-p2p/mldonkey 3.1.7-r3 3.1.7-r4: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.23.1 1.24-r1 1.24.1: Lightweight direct connect client with a friendly ncurses interface
@@ -15903,7 +15903,7 @@ sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolu
 sci-geosciences/gshhs-data 2.2.0: Global Self-consistent, Hierarchical, High-resolution Shoreline programs data
 sci-geosciences/gtk-g-rays2 2.05: GUI for accessing the Wintec WBT 201 / G-Rays 2 GPS device
 sci-geosciences/harmonics-dwf-free 20131228: Tidal harmonics database for libtcd
-sci-geosciences/josm-bin 19128 19160: Java-based editor for the OpenStreetMap project
+sci-geosciences/josm-bin 19128 19160 19207: Java-based editor for the OpenStreetMap project
 sci-geosciences/laszip 3.4.3: Library for free and lossless compression of the LAS LiDAR format
 sci-geosciences/liblas 1.8.1-r3: C/C++ library for manipulating the LAS LiDAR format common in GIS
 sci-geosciences/librttopo 1.1.0: Exposes an API to create and manage standard (ISO 13249 aka SQL/MM) topologies
@@ -17551,7 +17551,7 @@ sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 9999: G
 sys-kernel/gentoo-kernel 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.1.109 6.6.47 6.6.48 6.6.49 6.6.50 6.10.6 6.10.7 6.10.8-r1 6.10.9: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.1.109 6.6.47 6.6.48 6.6.49 6.6.50 6.10.6 6.10.7 6.10.8-r1 6.10.9: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.224 5.10.225 5.15.165 5.15.166 6.1.106 6.1.107 6.1.108 6.1.109 6.6.47 6.6.48 6.6.49 6.6.50 6.10.6 6.10.7 6.10.8 6.10.9: Full sources including the Gentoo patchset for the 6.10 kernel tree
-sys-kernel/git-sources 6.11_rc1 6.11_rc2 6.11_rc3 6.11_rc4 6.11_rc5 6.11_rc6: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 6.11_rc1 6.11_rc2 6.11_rc3 6.11_rc4 6.11_rc5 6.11_rc6 6.11_rc7: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 48-r1: Gentoo fork of installkernel script from debianutils
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 9999: Dynamic kernel patching for Linux
@@ -17978,7 +17978,7 @@ www-apps/jekyll-coffeescript 2.0.0: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r1: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 10.9.9 10.9.10: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 10.9.9 10.9.10 10.9.11: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.16: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
@@ -18004,8 +18004,8 @@ www-apps/phpBB 3.3.12: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.3-r1: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 14.3.0 14.4.0 14.5.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.13: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 1.23.1.4708: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 5.10.1.9125: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 1.24.0.4721: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 5.10.2.9164: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.1.9-r1 3.2.2: A simple CalDAV calendar server
 www-apps/readarr-bin 0.3.32.2587: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 5.0.6 5.1.0: Flexible project management web application using the Ruby on Rails framework
