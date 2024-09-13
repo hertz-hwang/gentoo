@@ -8029,7 +8029,7 @@ dev-python/PyRSS2Gen 1.1-r2: RSS feed generator written in Python
 dev-python/PySDL2 0.9.16: Python (ctypes) bindings for SDL2 libraries
 dev-python/PySocks 1.7.1-r2: SOCKS client module
 dev-python/Pyro5 5.15-r1: Distributed object middleware for Python (RPC)
-dev-python/QtPy 2.4.1-r1: Abstraction layer on top of PyQt and PySide with additional custom QWidgets
+dev-python/QtPy 2.4.1-r2: Abstraction layer on top of PyQt and PySide with additional custom QWidgets
 dev-python/a2wsgi 1.10.7: Convert WSGI app to ASGI app or ASGI app to WSGI app
 dev-python/absl-py 2.1.0: Abseil Python Common Libraries
 dev-python/accessible-pygments 0.0.5: A collection of accessible pygments styles
@@ -14906,7 +14906,7 @@ net-libs/udns 0.4-r2 0.4-r3: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0 0.11.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0: A cross-platform userland SCTP stack
 net-libs/wandio 4.2.3_p1-r1 4.2.3_p1-r2 4.2.4 4.2.6: C library for simple and efficient file IO
-net-libs/webkit-gtk 2.44.1 2.44.1-r410 2.44.1-r600 2.44.2 2.44.2-r410 2.44.2-r600 2.44.3 2.44.3-r410 2.44.3-r600: Open source web browser engine
+net-libs/webkit-gtk 2.44.1 2.44.1-r410 2.44.1-r600 2.44.4 2.44.4-r410 2.44.4-r600: Open source web browser engine
 net-libs/wslay 1.1.1_p20210115: WebSocket library in C
 net-libs/wvstreams 4.6.1_p14-r2: A network programming library in C++
 net-libs/xdp-tools 1.4.2 1.4.3: The libxdp library and various tools for use with XDP
