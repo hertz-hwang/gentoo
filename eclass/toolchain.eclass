@@ -402,7 +402,16 @@ if tc_has_feature valgrind ; then
 fi
 
 if [[ ${PN} != gnat-gpl ]] && tc_has_feature ada ; then
-	BDEPEND+=" ada? ( || ( sys-devel/gcc:${SLOT}[ada] <sys-devel/gcc-${SLOT}[ada] dev-lang/gnat-gpl[ada] ) )"
+	BDEPEND+="
+		ada? (
+			|| (
+				sys-devel/gcc:${SLOT}[ada]
+				<sys-devel/gcc-${SLOT}[ada]
+				<dev-lang/ada-bootstrap-${SLOT}
+				dev-lang/gnat-gpl[ada]
+			)
+		)
+	"
 fi
 
 # TODO: Add a pkg_setup & pkg_pretend check for whether the active compiler
@@ -831,6 +840,7 @@ toolchain_setup_ada() {
 
 	local ada_bootstrap
 	local ada_candidate
+	local ada_bootstrap_type
 	# GNAT can usually be built using the last major version and
 	# the current version, at least.
 	#
@@ -843,6 +853,7 @@ toolchain_setup_ada() {
 		ebegin "Testing sys-devel/gcc:${ada_candidate} for Ada"
 		if has_version -b "sys-devel/gcc:${ada_candidate}[ada(-)]" ; then
 			ada_bootstrap=${ada_candidate}
+			ada_bootstrap_type=gcc
 
 			eend 0
 			break
@@ -850,12 +861,30 @@ toolchain_setup_ada() {
 		eend 1
 	done
 
-	# As a last resort, use dev-lang/gnat-gpl.
-	# TODO: Make gnat-gpl coinstallable with gcc:10 (bug #940471).
+	# As a penultimate resort, try dev-lang/ada-bootstrap.
 	if ver_test ${ada_bootstrap} -gt ${PV} || [[ -z ${ada_bootstrap} ]] ; then
-		ebegin "Testing dev-lang/gnat-gpl for Ada"
+		ebegin "Testing fallback dev-lang/ada-bootstrap for Ada"
+		if has_version -b "<dev-lang/ada-bootstrap-${SLOT}" ; then
+			# TODO: Figure out ada-bootstrap versioning/slots
+
+			#local latest_ada_bootstrap=$(best_version -b "<dev-lang/ada-bootstrap-${SLOT}")
+			#latest_ada_bootstrap="${latest_ada_bootstrap#dev-lang/ada-bootstrap-}"
+			#latest_ada_bootstrap=$(ver_cut 1 ${latest_ada_bootstrap})
+			ada_bootstrap="10"
+			ada_bootstrap_type=ada-bootstrap
+
+			eend 0
+		else
+			eend 1
+		fi
+	fi
+
+	# As a last resort, try dev-lang/gnat-gpl.
+	if ver_test ${ada_bootstrap} -gt ${PV} || [[ -z ${ada_bootstrap} ]] ; then
+		ebegin "Testing fallback dev-lang/gnat-gpl for Ada"
 		if has_version -b "dev-lang/gnat-gpl" ; then
 			ada_bootstrap=10
+			ada_bootstrap=gcc
 			eend 0
 		else
 			eend 1
@@ -866,12 +895,9 @@ toolchain_setup_ada() {
 	# TODO: Source a newer, or build our own, bootstrap tarball (bug #940472).
 	if [[ -z ${ada_bootstrap} ]] ; then
 		eerror "Couldn't find a suitable GNAT compiler for Ada!"
-		eerror "Please try installing dev-lang/gnat-gpl."
+		eerror "Please try installing dev-lang/ada-bootstrap or failing that, dev-lang/gnat-gpl."
 		eerror "For other platforms, you may need to use crossdev."
-		die "Fallback ada-bootstrap path not yet implemented!"
-
-		#einfo "Using bootstrap GNAT compiler..."
-		#export PATH="${BROOT}/opt/ada-bootstrap-${GCCMAJOR}/bin:${PATH}"
+		die "Couldn't find an Ada bootstrap compiler!"
 	fi
 
 	cat <<-"EOF" > "${T}"/ada.spec || die
@@ -886,7 +912,7 @@ toolchain_setup_ada() {
 		@ada:
 		%{pg:%{fomit-frame-pointer:%e-pg and -fomit-frame-pointer are incompatible}} \
 			%{!S:%{!c:%e-c or -S required for Ada}} \
-			${BROOT}/usr/libexec/gcc/${CBUILD}/${ada_bootstrap}/gnat1 %{I*} %{k8:-gnatk8} %{!Q:-quiet} \
+			${gnat1_path} %{I*} %{k8:-gnatk8} %{!Q:-quiet} \
 			%{nostdinc*} %{nostdlib*} \
 			%{fcompare-debug-second:-gnatd_A} \
 			%{O*} %{W*} %{w} %{p} %{pg:-p} \
@@ -919,11 +945,19 @@ toolchain_setup_ada() {
 			%{gnatc*|gnats*: -o %j} %{-param*}
 		EOF
 
+	# XXX: Hack for now
+	if [[ ${ada_bootstrap_type} == ada-bootstrap ]] ; then
+		sed -i \
+			-e "s:\${gnat1_path}:${BROOT}/usr/lib/ada-bootstrap/libexec/gcc/x86_64-pc-linux-gnu/10/gnat1:" \
+			"${T}"/ada.spec || die
+	fi
+
 	# Easier to substitute these values in rather than escape
 	# lots of bits above in heredoc.
 	sed -i \
 		-e "s:\${BROOT}:${BROOT}:" \
 		-e "s:\${CBUILD}:${CBUILD}:" \
+		-e "s:\${gnat1_path}:${BROOT}/usr/libexec/gcc/${CBUILD}/${ada_bootstrap}/gnat1:" \
 		-e "s:\${ada_bootstrap}:${ada_bootstrap}:" \
 		"${T}"/ada.spec || die
 
@@ -931,7 +965,13 @@ toolchain_setup_ada() {
 	# won't work for us as the stage1 compiler doesn't necessarily
 	# have Ada support. Substitute the Ada compiler we found earlier.
 	local adalib
-	adalib=$(${CBUILD}-gcc-${ada_bootstrap} -print-libgcc-file-name || die "Finding adalib dir failed")
+	if [[ ${ada_bootstrap_type} == ada-bootstrap ]] ; then
+		old_path="${PATH}"
+		export PATH="${BROOT}/usr/lib/ada-bootstrap/bin:${PATH}"
+		adalib=$("${BROOT}"/usr/lib/ada-bootstrap/bin/${CBUILD}-gcc -print-libgcc-file-name || die "Finding adalib dir failed")
+	else
+		adalib=$(${CBUILD}-gcc-${ada_bootstrap} -print-libgcc-file-name || die "Finding adalib dir failed")
+	fi
 	adalib="${adalib%/*}/adalib"
 	sed -i \
 		-e "s:adalib=.*:adalib=${adalib}:" \
@@ -942,16 +982,21 @@ toolchain_setup_ada() {
 	mkdir "${T}"/ada-wrappers || die
 	local tool
 	for tool in gnat{,bind,chop,clean,kr,link,ls,make,name,prep} ; do
+		if [[ ${ada_bootstrap_type} == ada-bootstrap ]] ; then
+			ln -s "${BROOT}"/usr/lib/ada-bootstrap/bin/${tool} \
+				"${T}"/ada-wrappers/${CBUILD}-${tool}-${ada_bootstrap} || die
+		fi
+
 		cat <<-EOF > "${T}"/ada-wrappers/${tool} || die
-			#!/bin/sh
-			exec $(type -P ${CBUILD}-${tool}-${ada_bootstrap}) -specs=${T}/ada.spec "\$@"
-			EOF
-		chmod +x "${T}"/ada-wrappers/${tool} || die
+		#!/bin/sh
+		exec ${CBUILD}-${tool}-${ada_bootstrap} --specs=${T}/ada.spec "\$@"
+		EOF
 
-		export "${tool^^}"=${CBUILD}-${tool}-${ada_bootstrap}
+		export "${tool^^}"="${T}"/ada-wrappers/${tool}
 	done
+	chmod +x "${T}"/ada-wrappers/gnat{,bind,chop,clean,kr,link,ls,make,name,prep} || die
 
-	export PATH="${T}/ada-wrappers:${PATH}"
+	export PATH="${T}/ada-wrappers:${old_path}"
 	export CC="$(tc-getCC) -specs=${T}/ada.spec"
 }
 
