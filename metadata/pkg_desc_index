@@ -9061,7 +9061,7 @@ dev-python/pyquery 2.0.1: A jQuery-like library for python
 dev-python/pyrate-limiter 3.6.2 3.7.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
 dev-python/pyrfc3339 1.1-r1: Generates and parses RFC 3339 timestamps
 dev-python/pyroute2 0.7.12-r1: A pure Python netlink and Linux network configuration library
-dev-python/pyrqlite 2.2.2 2.2.3: Python client for rqlite
+dev-python/pyrqlite 2.2.3: Python client for rqlite
 dev-python/pyrsistent 0.20.0: Persistent/Functional/Immutable data structures
 dev-python/pyscard 2.1.1: Smart card support in python
 dev-python/pyscreenshot 3.1: Python screenshot library
@@ -18040,7 +18040,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 10.1 15: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.10.1: Web-based interactive data analytics notebook launcher
-www-client/chromium 128.0.6613.137 129.0.6668.58 129.0.6668.70 130.0.6723.19: Open-source version of Google Chrome web browser
+www-client/chromium 128.0.6613.137 129.0.6668.58 129.0.6668.70 129.0.6668.89 130.0.6723.19: Open-source version of Google Chrome web browser
 www-client/dillo 3.1.1 9999: Lean FLTK based web browser
 www-client/elinks 0.16.1.1-r2 0.16.1.1-r4 0.16.1.1-r100 9999: Advanced and well-established text-mode web browser
 www-client/epiphany 46.0 46.2 46.4: GNOME webbrowser based on Webkit
@@ -18447,7 +18447,7 @@ x11-misc/lsw 0.3: list window names
 x11-misc/macopix 3.4.0: MaCoPiX (Mascot Constructive Pilot for X) is a desktop mascot application
 x11-misc/makedepend 1.0.9: create dependencies in makefiles
 x11-misc/matchbox-keyboard 0.1-r2: Matchbox-keyboard is an on screen 'virtual' or 'software' keyboard
-x11-misc/mate-notification-daemon 1.28.0: MATE Notification daemon
+x11-misc/mate-notification-daemon 1.28.0 1.28.1: MATE Notification daemon
 x11-misc/menulibre 2.2.3 2.4.0: Advanced freedesktop.org compliant menu editor
 x11-misc/menumaker 0.99.14: Utility that scans through the system and generates a menu of installed programs
 x11-misc/meteo 0.9.9.1-r3 0.9.9.2: Forecast application using OpenWeatherMap API
