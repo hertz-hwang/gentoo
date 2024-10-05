@@ -5,7 +5,7 @@ EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1
 
@@ -14,7 +14,8 @@ DESCRIPTION="Accelerate module for PyOpenGL"
 HOMEPAGE="
 	https://pyopengl.sourceforge.net/
 	https://github.com/mcfletch/pyopengl/
-	https://pypi.org/project/PyOpenGL-accelerate/"
+	https://pypi.org/project/PyOpenGL-accelerate/
+"
 SRC_URI="
 	https://github.com/mcfletch/pyopengl/archive/release-${PV}.tar.gz
 		-> ${MY_P}.gh.tar.gz
