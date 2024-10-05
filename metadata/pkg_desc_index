@@ -1392,7 +1392,7 @@ app-crypt/bcwipe 1.9.13: Secure file removal utility
 app-crypt/bsign 0.4.5-r1: embed secure hashes (SHA1) and digital signatures (GNU Privacy Guard) into files
 app-crypt/ccid 1.5.5: CCID free software driver
 app-crypt/ccrypt 1.11-r4: Encryption and decryption
-app-crypt/certbot 2.10.0 2.11.0 9999: Let’s Encrypt client to automate deployment of X.509 certificates
+app-crypt/certbot 2.10.0 2.11.0 2.11.0-r1 9999: Let’s Encrypt client to automate deployment of X.509 certificates
 app-crypt/certbot-apache 2.10.0 9999: Apache plugin for Certbot (Let’s Encrypt client)
 app-crypt/certbot-dns-dnsimple 2.10.0: DNSimple Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-nsone 1.18.0-r1: NS1 DNS Authenticator plugin for Certbot (Let's Encrypt Client)
@@ -9959,7 +9959,7 @@ dev-ruby/gnuplot 2.6.2-r3: Gnuplot drawing library - Ruby Bindings
 dev-ruby/google-protobuf 3.21.12 3.24.4 3.25.4 4.26.1 4.27.4 4.28.0: Protocol Buffers are Google's data interchange format
 dev-ruby/googleapis-common-protos-types 1.8.0 1.15.0: Common protocol buffer types used by Google APIs
 dev-ruby/gpgme 2.0.22-r1 2.0.23-r1 2.0.24-r1: Ruby language binding for GnuPG Made Easy
-dev-ruby/grpc 1.54.0 1.59.2: Send RPCs from Ruby using GRPC
+dev-ruby/grpc 1.54.0 1.59.2 1.59.2-r1: Send RPCs from Ruby using GRPC
 dev-ruby/gruff 0.22.0 0.23.0 0.24.0 0.25.0: Beautiful graphs for one or multiple datasets
 dev-ruby/haml 5.2.2 6.2.3 6.3.0: A ruby web page templating engine
 dev-ruby/haml-rails 2.1.0: Provides Haml generators for Rails 4
