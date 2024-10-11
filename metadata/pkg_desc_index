@@ -2375,7 +2375,7 @@ app-emulation/virt-manager 4.1.0 4.1.0-r1 9999: A graphical tool for administeri
 app-emulation/virt-viewer 11.0: Graphical console client for connecting to virtual machines
 app-emulation/virt-what 1.21 1.25: Detects if the current machine is running in a virtual machine
 app-emulation/virtio-win 0.1.229.1 0.1.240.1 0.1.248.1: VirtIO drivers for Windows virtual machines running on KVM
-app-emulation/virtiofsd 1.10.0 1.10.1 9999: Shared file system for virtual machines
+app-emulation/virtiofsd 1.10.0 1.10.1 1.11.1 9999: Shared file system for virtual machines
 app-emulation/virtualbox 6.1.50-r3 7.0.20 7.1.2 9999: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-additions 6.1.50 7.0.20 7.1.2: CD image containing guest additions for VirtualBox
 app-emulation/virtualbox-extpack-oracle 6.1.50 7.0.20 7.1.2: PUEL extensions for VirtualBox
@@ -4023,7 +4023,7 @@ dev-debug/cgdb 0.8.0 9999: A curses front-end for GDB, the GNU debugger
 dev-debug/d-feet 0.3.16: D-Feet is a powerful D-Bus debugger
 dev-debug/d-spy 1.8.0 1.10.0: D-Spy is a simple tool to explore D-Bus connections
 dev-debug/ddd 3.3.12-r5 3.4.1: Graphical front-end for command-line debuggers
-dev-debug/drgn 0.0.27-r2: Programmable debugger
+dev-debug/drgn 0.0.27-r2 0.0.29: Programmable debugger
 dev-debug/dtrace 2.0.1.1-r2 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
 dev-debug/edb-debugger 1.3.0-r1 9999: edb is a cross platform x86/x86-64 debugger, inspired by Ollydbg
@@ -10724,7 +10724,7 @@ dev-util/devhelp 43.0: An API documentation browser for GNOME
 dev-util/dialog 1.3.20231002 1.3.20240101 1.3.20240307: Tool to display dialog boxes from a shell
 dev-util/diff-cover 6.5.0-r1: Find diff lines that do not have test coverage
 dev-util/diffball 1.0.1-r2: Delta compression suite for using/generating binary patches
-dev-util/diffoscope 272 277: Will try to get to the bottom of what makes files or directories different
+dev-util/diffoscope 272 277 279: Will try to get to the bottom of what makes files or directories different
 dev-util/diffstat 1.65 1.66: Display a histogram of diff changes
 dev-util/difftastic 0.54.0 0.55.0 0.57.0 0.58.0 0.60.0: A structural diff that understands syntax.
 dev-util/diffuse 0.8.2 0.9.0: A graphical tool to compare and merge text files
@@ -14497,7 +14497,7 @@ net-analyzer/upnpscan 0.4-r3: Scans the network for UPnP capable devices
 net-analyzer/vnstat 2.12 9999: Console-based network traffic monitor that keeps statistics of network usage
 net-analyzer/wapiti 3.1.6 3.1.7: Web-application vulnerability scanner
 net-analyzer/webfuzzer 0.2.0-r2: Poor man's web vulnerability scanner
-net-analyzer/wireshark 4.0.15 4.0.17 4.2.5 4.2.6 4.2.7 4.4.0 9999: Network protocol analyzer (sniffer)
+net-analyzer/wireshark 4.0.15 4.0.17 4.2.5 4.2.6 4.2.7 4.2.8 4.4.0 4.4.1 9999: Network protocol analyzer (sniffer)
 net-analyzer/wtfis 0.9.1 0.10.0 9999: Passive hostname, domain and IP lookup tool for non-robots
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1: Active OS fingerprinting tool - this is Xprobe2
@@ -14537,7 +14537,7 @@ net-dialup/xl2tpd 1.3.18-r1 1.3.18-r2: A modern version of the Layer 2 Tunneling
 net-dns/avahi 0.8-r7 0.9_rc1: System which facilitates service discovery on a local network
 net-dns/bind 9.16.48 9.16.50 9.18.29-r2: Berkeley Internet Name Domain - Name Server
 net-dns/bind-tools 9.16.48 9.16.50 9.18.0: bind tools: dig, nslookup, host, nsupdate, dnssec-keygen
-net-dns/c-ares 1.28.1 1.29.0 1.31.0 1.32.0 1.32.1 1.32.2 1.33.0 1.33.1: C library that resolves names asynchronously
+net-dns/c-ares 1.28.1 1.29.0 1.31.0 1.32.0 1.32.1 1.32.2 1.33.0 1.33.1 1.34.1: C library that resolves names asynchronously
 net-dns/coredns 1.11.2-r1 1.11.3 9999: CoreDNS is a DNS server that chains plugins
 net-dns/ddclient 3.11.2: Perl client used to update dynamic DNS entries
 net-dns/djbdns 1.05-r40: Collection of DNS client/server software
@@ -15277,7 +15277,7 @@ net-misc/sshpass 1.09-r1 1.10: Tool for non-interactively performing password au
 net-misc/sshrc 0.6.2: Bring your .bashrc, .vimrc, etc. from your local machine when you ssh
 net-misc/sslh 1.22c-r1 2.1.1 2.1.2 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
 net-misc/sstp-client 1.0.17 1.0.18 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
-net-misc/streamlink 6.9.0 6.10.0 9999: CLI for extracting streams from websites to a video player of your choice
+net-misc/streamlink 6.9.0 6.10.0 6.11.0 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r6: Stream directory browser for browsing internet radio streams
 net-misc/stunnel 5.64-r2 5.65-r2 5.68 5.71 5.71-r1: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
@@ -17569,7 +17569,7 @@ sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.10.11: Developer documentation generated from the Linux kernel
 sys-kernel/linux-firmware 20240709-r2 20240811-r1 20240909-r1 99999999: Linux firmware files
-sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10: Linux system headers
+sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.319 5.4.281: Kernel.org sources for MIPS-based machines
 sys-kernel/modprobed-db 2.47 2.48: Keeps track of EVERY kernel module ever used - useful for make localmodconfig
@@ -17736,7 +17736,7 @@ sys-process/minit 0.10-r2: a small yet feature-complete init
 sys-process/nmon 16n 16q: Nigel's performance MONitor for CPU, memory, network, disks, etc
 sys-process/numactl 2.0.16-r1 2.0.18 9999: Utilities and libraries for NUMA systems
 sys-process/numad 0.5-r3 0.5-r4 0.5_p20180531-r2 9999: The NUMA daemon that manages application locality
-sys-process/parallel 20240522: A shell tool for executing jobs in parallel locally or on remote machines
+sys-process/parallel 20240522 20240822: A shell tool for executing jobs in parallel locally or on remote machines
 sys-process/pkill-darwin 1.0-r1: pgrep(1) and pkill(1) for Darwin
 sys-process/prll 0.6.4: Utility for parallelizing execution of shell functions
 sys-process/procenv 0.51 0.51-r1: command-line utility to show process environment
