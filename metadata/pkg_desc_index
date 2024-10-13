@@ -15155,7 +15155,7 @@ net-misc/lldpd 1.0.18: Implementation of IEEE 802.1ab (LLDP)
 net-misc/lyricwikia 0.1.11-r1 0.1.11-r2: Python API to get song lyrics from LyricWikia
 net-misc/mcproxy 1.1.1-r2: A multicast proxy for IGMP/MLD
 net-misc/megatools 1.11.0 1.11.1: Command line tools and C library for accessing Mega cloud storage
-net-misc/memcached 1.6.27: High-performance, distributed memory object caching system
+net-misc/memcached 1.6.27 1.6.31: High-performance, distributed memory object caching system
 net-misc/mico 2.3.13-r14: A freely available and fully compliant implementation of the CORBA standard
 net-misc/midentd 2.3.1-r3: ident daemon with masquerading and fake replies support
 net-misc/mikutter 5.0.4 5.0.5 9999: Simple, powerful and moeful twitter client
@@ -17660,7 +17660,7 @@ sys-libs/pam_wrapper 1.1.4-r2 1.1.4-r3 1.1.5: A tool to test PAM applications an
 sys-libs/pkgcraft 0.0.14 0.0.15 0.0.16 9999: C library for pkgcraft
 sys-libs/pwdb 0.62-r2: Password database
 sys-libs/queue-standalone 0.1-r1: Install <sys/queue.h> from glibc
-sys-libs/readline 8.1_p2-r2 8.2_p10 8.2_p13 8.3_alpha 9999: Another cute console display library
+sys-libs/readline 8.1_p2-r2 8.2_p10 8.2_p13 8.3_alpha 8.3_alpha_p20241011 9999: Another cute console display library
 sys-libs/rpmatch-standalone 1.0-r1: Standalone rpmatch library for use with musl
 sys-libs/slang 2.3.3-r1: Multi-platform library designed to allow a developer to create robust software
 sys-libs/snapd-glib 1.65-r2 1.65-r102 1.66: glib library for communicating with snapd
