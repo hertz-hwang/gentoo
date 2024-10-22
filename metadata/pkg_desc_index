@@ -10772,7 +10772,7 @@ dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflo
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
 dev-util/github-cli 2.27.0 2.31.0 2.32.1 2.33.0 2.42.0 2.52.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.2.0: linter for .gitlab-ci.yml files
-dev-util/gitlab-cli 1.44.1 1.46.0: the official gitlab command line interface
+dev-util/gitlab-cli 1.44.1 1.46.0 1.48.0: the official gitlab command line interface
 dev-util/gitlab-runner 17.1.1 17.2.1 17.3.1 17.4.1 17.5.1: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r1: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.76.4 2.78.3 2.78.4 2.78.6 2.80.4: Build utilities for GLib using projects
@@ -18010,7 +18010,7 @@ www-apps/jellyfin-bin 10.9.11-r1: Jellyfin puts you in control of managing and s
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.16: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
-www-apps/lidarr-bin 2.6.4.4402: Looks and smells like Sonarr but made for music
+www-apps/lidarr-bin 2.7.0.4413: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
 www-apps/mediawiki 1.39.10 1.41.4 1.42.3: The MediaWiki wiki web application (as used on wikipedia.org)
@@ -18032,10 +18032,10 @@ www-apps/phpBB 3.3.12: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.3-r1 3.4.4: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 14.3.0 14.4.0 14.5.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.13: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 1.25.2.4794: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 5.12.2.9335: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 1.25.3.4815: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 5.13.0.9361: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.2.2 3.2.3: A simple CalDAV calendar server
-www-apps/readarr-bin 0.4.0.2634: An ebook and audiobook collection manager for Usenet and BitTorrent users
+www-apps/readarr-bin 0.4.1.2648: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 5.0.6 5.1.0: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.2.0 2.3.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6: RT is an enterprise-grade ticketing system
