@@ -1419,7 +1419,7 @@ app-crypt/gcr 3.41.1-r2 4.2.1: Libraries for cryptographic UIs and accessing PKC
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 11: GLEP 63 compliance checker for OpenPGP keys
 app-crypt/gnupg 2.2.42-r4 2.2.43-r1 2.4.5-r1 2.4.5-r2 2.5.1: The GNU Privacy Guard, a GPL OpenPGP implementation
-app-crypt/gnupg-pkcs11-scd 0.10.0: PKCS#11 support for GnuPG
+app-crypt/gnupg-pkcs11-scd 0.10.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.4.0: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
 app-crypt/gpa 0.10.0-r1: The GNU Privacy Assistant (GPA) is a graphical user interface for GnuPG
@@ -3398,7 +3398,7 @@ app-text/u2ps 1.2: A text to PostScript converter like a2ps, but supports UTF-8
 app-text/unac 1.8.0: Library and command-line tool for removing accents from characters
 app-text/unpaper 7.0.0 9999: Post-processor for scanned and photocopied book pages
 app-text/unrtf 0.21.10: Converts RTF files to various formats
-app-text/uudeview 0.5.20-r2 0.5.20-r3 0.5.20-r4: uu, xx, base64, binhex decoder
+app-text/uudeview 0.5.20-r4: uu, xx, base64, binhex decoder
 app-text/vgrep 2.8.0: A pager for grep, git-grep and similar grep implementations
 app-text/vilistextum 2.8.0.20200411: HTML to ASCII converter programmed to handle incorrect html
 app-text/wdiff 1.2.2-r2: Create a diff disregarding formatting
@@ -6215,7 +6215,7 @@ dev-perl/Array-RefElem 1.0.0-r3 1.0.0-r4: Set up array elements as aliases
 dev-perl/Array-Window 1.20.0-r2: Calculate windows/subsets/pages of arrays
 dev-perl/Astro-FITS-Header 3.90.0: Interface to FITS headers
 dev-perl/AtExit 2.50.0: atexit() function to register exit-callbacks
-dev-perl/Audio-CD-disc-cover 0.05-r3 0.05-r4: Perl Module needed for app-cdr/disc-cover
+dev-perl/Audio-CD-disc-cover 0.05-r4: Perl Module needed for app-cdr/disc-cover
 dev-perl/Audio-DSP 0.20.0-r3 0.20.0-r4: Perl interface to *NIX digital audio device
 dev-perl/Audio-FLAC-Header 2.400.0-r4 2.400.0-r5: Access to FLAC audio metadata
 dev-perl/Audio-Mixer 0.700.0-r4 0.700.0-r5: Perl extension for Sound Mixer control
