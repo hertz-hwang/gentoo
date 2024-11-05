@@ -1836,8 +1836,8 @@ app-editors/vile 9.8z: VI Like Emacs -- yet another full-featured vi clone
 app-editors/vim 9.0.2167 9.1.0366 9.1.0470 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.0.2167 9.0.2167-r1 9.1.0366 9.1.0366-r1 9.1.0470 9999: vim and gvim shared files
 app-editors/vis 0.8-r1 0.9 9999: modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.94.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.94.1.24283 1.94.2.24286: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscode 1.94.2 1.95.1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscodium 1.94.1.24283 1.94.2.24286 1.95.1.24307: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r2: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r3: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.35-r4 21.5.9999: highly customizable open source text editor and application development system
@@ -3381,7 +3381,7 @@ app-text/teseq 1.1.1: A tool for analyzing files that contain control characters
 app-text/tessdata_best 4.0.0 4.1.0: Most accurate trained models for app-text/tesseract
 app-text/tessdata_fast 4.0.0 4.1.0: Fast integer versions of trained models for app-text/tesseract
 app-text/tessdata_legacy 4.0.0 4.1.0: Trained models for app-text/tesseract compatible with the legacy engine
-app-text/tesseract 5.3.0 5.3.4 5.4.1 9999: An OCR Engine, originally developed at HP, now open source
+app-text/tesseract 5.4.1 9999: An OCR Engine, originally developed at HP, now open source
 app-text/texi2html 5.0-r1: Perl script that converts Texinfo to HTML
 app-text/texlive 2021-r1 2023 2023-r1: A complete TeX distribution
 app-text/texlive-core 2021-r6 2021-r7 2023-r9 2023-r10: A complete TeX distribution
@@ -9086,8 +9086,8 @@ dev-python/pyside2-tools 5.15.14: PySide development tools (pyside2-lupdate with
 dev-python/pyside6 6.7.2 6.7.3: Python bindings for the Qt framework
 dev-python/pyside6-tools 6.7.2 6.7.3: PySide development tools (pyside6-lupdate with support for Python)
 dev-python/pysimdjson 6.0.2: Python bindings for simdjson
-dev-python/pysmi 1.5.0 1.5.6 1.5.7: Pure-Python implementation of SNMP/SMI MIB parsing and conversion library
-dev-python/pysnmp 7.0.3 7.1.7 7.1.8 7.1.9: Python SNMP library
+dev-python/pysmi 1.5.0 1.5.6 1.5.7 1.5.9: Pure-Python implementation of SNMP/SMI MIB parsing and conversion library
+dev-python/pysnmp 7.0.3 7.1.7 7.1.8 7.1.9 7.1.11: Python SNMP library
 dev-python/pysnmp-mibs 0.1.6: SNMP framework in Python - MIBs
 dev-python/pysnmpcrypto 0.0.4: Strong cryptography support for PySNMP (SNMP library for Python)
 dev-python/pysol-cards 0.18.0: Deal PySol FreeCell cards
@@ -10515,7 +10515,7 @@ dev-tcltk/tclpython 5.0-r3: Python package for Tcl
 dev-tcltk/tclreadline 2.1.0-r5 2.3.8-r2 2.4.0: Readline extension to TCL
 dev-tcltk/tclx 8.6.1 8.6.3: A set of extensions to TCL
 dev-tcltk/tclxml 3.3.1-r2: Pure Tcl implementation of an XML parser
-dev-tcltk/tdom 0.9.3: A XML/DOM/XPath/XSLT Implementation for Tcl
+dev-tcltk/tdom 0.9.3 0.9.5: A XML/DOM/XPath/XSLT Implementation for Tcl
 dev-tcltk/thread 2.8.5 2.8.8 2.8.9: Tcl Thread extension
 dev-tcltk/tix 8.4.3-r4: A widget library for Tcl/Tk
 dev-tcltk/tkcon 2.7.10 2.7.11: Tk GUI console
@@ -12381,73 +12381,73 @@ kde-misc/rsibreak 0.12.15: Small utility which bothers you at certain intervals
 kde-misc/skanlite 24.08.1 24.08.2: Simple image scanning application based on libksane and KDE Frameworks
 kde-misc/tellico 4.0 4.0.1: Collection manager based on KDE Frameworks
 kde-misc/zanshin 24.08.1 24.08.2: Getting things done application by KDE
-kde-plasma/bluedevil 6.1.5 6.2.2: Bluetooth stack for KDE Plasma
-kde-plasma/breeze 6.1.5 6.2.2: Breeze visual style for the Plasma desktop
-kde-plasma/breeze-grub 6.1.5 6.2.2: Breeze theme for GRUB
-kde-plasma/breeze-gtk 6.1.5 6.2.2: Official GTK+ port of Plasma's Breeze widget style
-kde-plasma/breeze-plymouth 6.1.5 6.2.2: Breeze theme for Plymouth
-kde-plasma/discover 6.1.5 6.2.2: KDE Plasma resources management GUI
-kde-plasma/drkonqi 6.1.5-r1 6.2.2: Plasma crash handler, gives the user feedback if a program crashed
-kde-plasma/flatpak-kcm 6.1.5 6.2.2: Flatpak Permissions Management KCM
-kde-plasma/kactivitymanagerd 6.1.5 6.2.2: System service to manage user's activities, track the usage patterns etc.
-kde-plasma/kde-cli-tools 6.1.5 6.2.2: Tools based on KDE Frameworks 6 to better interact with the system
-kde-plasma/kde-cli-tools-common 6.1.5 6.2.2: Common files for kde-cli-tools
-kde-plasma/kde-gtk-config 6.1.5 6.2.2: Syncs KDE Plasma theme settings to GTK applications
-kde-plasma/kdecoration 6.1.5 6.2.2: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 6.1.5 6.2.2: Extra Plasma applets and engines
-kde-plasma/kdesu-gui 5.27.11-r1 6.1.5 6.2.2: Graphical frontend for KDE Frameworks' kdesu
-kde-plasma/kgamma 6.1.5 6.2.2: Screen gamma values kcontrol module
-kde-plasma/kglobalacceld 6.1.4 6.1.5 6.2.2: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
-kde-plasma/kinfocenter 6.1.5 6.2.2: Utility providing information about the computer hardware
-kde-plasma/kmenuedit 6.1.5 6.2.2: KDE Plasma menu editor
-kde-plasma/kpipewire 6.1.5 6.2.2: Components relating to Flatpak pipewire use in Plasma
-kde-plasma/krdp 6.1.5 6.2.2: Library and examples for creating an RDP server
-kde-plasma/kscreen 6.1.5-r1 6.2.2: KDE Plasma screen management
-kde-plasma/kscreenlocker 6.1.5 6.2.2: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 6.1.5 6.2.2: Implementation of ssh-askpass with KDE Wallet integration
-kde-plasma/ksystemstats 6.1.5 6.2.2: Plugin-based system monitoring daemon
-kde-plasma/kwallet-pam 6.1.5 6.2.2: PAM module to not enter KWallet password again after login
-kde-plasma/kwayland 5.116.0 6.1.4 6.1.5 6.2.2: Qt-style API to interact with the wayland-client API
-kde-plasma/kwayland-integration 5.27.11 6.1.4 6.1.5 6.2.2: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.1.5 6.2.2-r1: Flexible, composited Window Manager for windowing systems on Linux
-kde-plasma/kwrited 6.1.5 6.2.2: KDE Plasma daemon listening for wall and write messages
-kde-plasma/layer-shell-qt 6.1.5 6.2.2: Qt component to allow applications make use of Wayland wl-layer-shell protocol
-kde-plasma/libkscreen 5.27.11 6.1.5 6.2.2: Plasma screen management library
-kde-plasma/libksysguard 6.1.5 6.2.2: Task management and system monitoring library
-kde-plasma/libplasma 6.1.4 6.1.5 6.2.2: Plasma library and runtime components based upon KF6 and Qt6
-kde-plasma/milou 6.1.5 6.2.2: Dedicated search application built on top of Baloo
-kde-plasma/ocean-sound-theme 6.1.5 6.2.2: Ocean Sound Theme for Plasma
-kde-plasma/oxygen 6.1.5 6.2.2: Oxygen visual style for the Plasma desktop
-kde-plasma/oxygen-sounds 6.1.5 6.2.2: Oxygen sound theme for the Plasma desktop
-kde-plasma/plasma-activities 5.116.0 6.1.4 6.1.5 6.2.2: Core components for KDE's Activities System
-kde-plasma/plasma-activities-stats 5.116.0 6.1.5 6.2.2: Library for accessing usage data collected by the activities system
-kde-plasma/plasma-browser-integration 6.1.5 6.2.2: Integrate Chrome/Firefox better into Plasma through browser extensions
-kde-plasma/plasma-desktop 6.1.5-r1 6.2.2: KDE Plasma desktop
-kde-plasma/plasma-disks 6.1.5 6.2.2: Monitors S.M.A.R.T. capable devices for imminent failure
-kde-plasma/plasma-firewall 6.1.5 6.2.2: Plasma frontend for Firewalld or UFW
-kde-plasma/plasma-integration 6.1.5 6.2.2: Qt Platform Theme integration plugins for the Plasma workspaces
-kde-plasma/plasma-login-sessions 6.2.2: KDE Plasma login sessions
-kde-plasma/plasma-meta 6.1.5 6.2.2: Merge this to pull in all Plasma 6 packages
+kde-plasma/bluedevil 6.1.5 6.2.3: Bluetooth stack for KDE Plasma
+kde-plasma/breeze 6.1.5 6.2.3: Breeze visual style for the Plasma desktop
+kde-plasma/breeze-grub 6.1.5 6.2.3: Breeze theme for GRUB
+kde-plasma/breeze-gtk 6.1.5 6.2.3: Official GTK+ port of Plasma's Breeze widget style
+kde-plasma/breeze-plymouth 6.1.5 6.2.3: Breeze theme for Plymouth
+kde-plasma/discover 6.1.5 6.2.3: KDE Plasma resources management GUI
+kde-plasma/drkonqi 6.1.5-r1 6.2.3: Plasma crash handler, gives the user feedback if a program crashed
+kde-plasma/flatpak-kcm 6.1.5 6.2.3: Flatpak Permissions Management KCM
+kde-plasma/kactivitymanagerd 6.1.5 6.2.3: System service to manage user's activities, track the usage patterns etc.
+kde-plasma/kde-cli-tools 6.1.5 6.2.3: Tools based on KDE Frameworks 6 to better interact with the system
+kde-plasma/kde-cli-tools-common 6.1.5 6.2.3: Common files for kde-cli-tools
+kde-plasma/kde-gtk-config 6.1.5 6.2.3: Syncs KDE Plasma theme settings to GTK applications
+kde-plasma/kdecoration 6.1.5 6.2.3: Plugin based library to create window decorations
+kde-plasma/kdeplasma-addons 6.1.5 6.2.3: Extra Plasma applets and engines
+kde-plasma/kdesu-gui 5.27.11-r1 6.1.5 6.2.3: Graphical frontend for KDE Frameworks' kdesu
+kde-plasma/kgamma 6.1.5 6.2.3: Screen gamma values kcontrol module
+kde-plasma/kglobalacceld 6.1.5 6.2.3: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+kde-plasma/kinfocenter 6.1.5 6.2.3: Utility providing information about the computer hardware
+kde-plasma/kmenuedit 6.1.5 6.2.3: KDE Plasma menu editor
+kde-plasma/kpipewire 6.1.5 6.2.3: Components relating to Flatpak pipewire use in Plasma
+kde-plasma/krdp 6.1.5 6.2.3: Library and examples for creating an RDP server
+kde-plasma/kscreen 6.1.5-r1 6.2.3: KDE Plasma screen management
+kde-plasma/kscreenlocker 6.1.5 6.2.3: Library and components for secure lock screen architecture
+kde-plasma/ksshaskpass 6.1.5 6.2.3: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/ksystemstats 6.1.5 6.2.3: Plugin-based system monitoring daemon
+kde-plasma/kwallet-pam 6.1.5 6.2.3: PAM module to not enter KWallet password again after login
+kde-plasma/kwayland 5.116.0 6.1.5 6.2.3: Qt-style API to interact with the wayland-client API
+kde-plasma/kwayland-integration 6.1.5 6.2.3: Provides KWindowSystem integration plugin for Wayland
+kde-plasma/kwin 6.1.5 6.2.3: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwrited 6.1.5 6.2.3: KDE Plasma daemon listening for wall and write messages
+kde-plasma/layer-shell-qt 6.1.5 6.2.3: Qt component to allow applications make use of Wayland wl-layer-shell protocol
+kde-plasma/libkscreen 5.27.11 6.1.5 6.2.3: Plasma screen management library
+kde-plasma/libksysguard 6.1.5 6.2.3: Task management and system monitoring library
+kde-plasma/libplasma 6.1.5 6.2.3: Plasma library and runtime components based upon KF6 and Qt6
+kde-plasma/milou 6.1.5 6.2.3: Dedicated search application built on top of Baloo
+kde-plasma/ocean-sound-theme 6.1.5 6.2.3: Ocean Sound Theme for Plasma
+kde-plasma/oxygen 6.1.5 6.2.3: Oxygen visual style for the Plasma desktop
+kde-plasma/oxygen-sounds 6.1.5 6.2.3: Oxygen sound theme for the Plasma desktop
+kde-plasma/plasma-activities 5.116.0 6.1.5 6.2.3: Core components for KDE's Activities System
+kde-plasma/plasma-activities-stats 5.116.0 6.1.5 6.2.3: Library for accessing usage data collected by the activities system
+kde-plasma/plasma-browser-integration 6.1.5 6.2.3: Integrate Chrome/Firefox better into Plasma through browser extensions
+kde-plasma/plasma-desktop 6.1.5-r1 6.2.3: KDE Plasma desktop
+kde-plasma/plasma-disks 6.1.5 6.2.3: Monitors S.M.A.R.T. capable devices for imminent failure
+kde-plasma/plasma-firewall 6.1.5 6.2.3: Plasma frontend for Firewalld or UFW
+kde-plasma/plasma-integration 6.1.5 6.2.3: Qt Platform Theme integration plugins for the Plasma workspaces
+kde-plasma/plasma-login-sessions 6.2.3: KDE Plasma login sessions
+kde-plasma/plasma-meta 6.1.5 6.2.3: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-mimeapps-list 1: Gentoo curated mimeapps list for KDE Plasma
-kde-plasma/plasma-nm 6.1.5 6.2.2: KDE Plasma applet for NetworkManager
-kde-plasma/plasma-pa 6.1.5 6.2.2: Plasma applet for audio volume management using PulseAudio
-kde-plasma/plasma-sdk 6.1.5 6.2.2: Useful applications for Plasma development
-kde-plasma/plasma-systemmonitor 6.1.5 6.2.2: Monitor system sensors, process information and other system resources
-kde-plasma/plasma-thunderbolt 6.1.5 6.2.2: Plasma integration for controlling Thunderbolt devices
-kde-plasma/plasma-vault 6.1.5 6.2.2: Plasma applet and services for creating encrypted vaults
-kde-plasma/plasma-welcome 6.1.5 6.2.2: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.1.5-r3 6.2.2: KDE Plasma workspace
-kde-plasma/plasma-workspace-wallpapers 6.1.5 6.2.2: Wallpapers for the Plasma workspace
-kde-plasma/plasma5support 6.1.5 6.2.2: Support components for porting from KF5/Qt5 to KF6/Qt6
-kde-plasma/plymouth-kcm 6.1.5 6.2.2: KDE Plasma control module for Plymouth
-kde-plasma/polkit-kde-agent 5.27.11 6.1.4 6.1.5 6.2.2: PolKit agent module for KDE Plasma
-kde-plasma/powerdevil 6.1.5 6.2.2: Power management for KDE Plasma Shell
-kde-plasma/print-manager 6.1.5 6.2.2: Manage CUPS print jobs and printers in Plasma
-kde-plasma/qqc2-breeze-style 6.1.5 6.2.2: Breeze inspired QQC2 Style
-kde-plasma/sddm-kcm 6.1.5 6.2.2: KDE Plasma control module for SDDM
-kde-plasma/systemsettings 6.1.5 6.2.2: Control Center to configure KDE Plasma desktop
-kde-plasma/wacomtablet 6.1.5 6.2.2: Wacom system settings module that supports different button/pen layout profiles
-kde-plasma/xdg-desktop-portal-kde 6.1.5 6.2.2: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
+kde-plasma/plasma-nm 6.1.5 6.2.3: KDE Plasma applet for NetworkManager
+kde-plasma/plasma-pa 6.1.5 6.2.3: Plasma applet for audio volume management using PulseAudio
+kde-plasma/plasma-sdk 6.1.5 6.2.3: Useful applications for Plasma development
+kde-plasma/plasma-systemmonitor 6.1.5 6.2.3: Monitor system sensors, process information and other system resources
+kde-plasma/plasma-thunderbolt 6.1.5 6.2.3: Plasma integration for controlling Thunderbolt devices
+kde-plasma/plasma-vault 6.1.5 6.2.3: Plasma applet and services for creating encrypted vaults
+kde-plasma/plasma-welcome 6.1.5 6.2.3: Friendly onboarding wizard for Plasma
+kde-plasma/plasma-workspace 6.1.5-r3 6.2.3: KDE Plasma workspace
+kde-plasma/plasma-workspace-wallpapers 6.1.5 6.2.3: Wallpapers for the Plasma workspace
+kde-plasma/plasma5support 6.1.5 6.2.3: Support components for porting from KF5/Qt5 to KF6/Qt6
+kde-plasma/plymouth-kcm 6.1.5 6.2.3: KDE Plasma control module for Plymouth
+kde-plasma/polkit-kde-agent 5.27.11 6.1.5 6.2.3: PolKit agent module for KDE Plasma
+kde-plasma/powerdevil 6.1.5 6.2.3: Power management for KDE Plasma Shell
+kde-plasma/print-manager 6.1.5 6.2.3: Manage CUPS print jobs and printers in Plasma
+kde-plasma/qqc2-breeze-style 6.1.5 6.2.3: Breeze inspired QQC2 Style
+kde-plasma/sddm-kcm 6.1.5 6.2.3: KDE Plasma control module for SDDM
+kde-plasma/systemsettings 6.1.5 6.2.3: Control Center to configure KDE Plasma desktop
+kde-plasma/wacomtablet 6.1.5 6.2.3: Wacom system settings module that supports different button/pen layout profiles
+kde-plasma/xdg-desktop-portal-kde 6.1.5 6.2.3: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 lxde-base/lxappearance 0.6.3-r3: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r2: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
