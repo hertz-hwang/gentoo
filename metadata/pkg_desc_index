@@ -2851,7 +2851,7 @@ app-misc/qlcplus 4.12.7 4.13.1 5.0.0_beta3: Software to control DMX or analog li
 app-misc/qtxdg-tools 3.11.0 3.12.0 4.0.0: User Tools from libqtxdg
 app-misc/race64 1.0.0: High performance base64 encoder and decoder
 app-misc/radeontop 1.3-r3 1.4 9999: Utility to view Radeon GPU utilization
-app-misc/ranger 1.9.3-r2 9999: Vim-inspired file manager for the console
+app-misc/ranger 1.9.3-r2 1.9.4 9999: Vim-inspired file manager for the console
 app-misc/razertool 0.0.7-r5: Unofficial tool for controlling the Razer Copperhead mouse
 app-misc/rbutil 1.5.1-r1: Rockbox open source firmware manager for music players
 app-misc/rdfind 1.5.0-r1 1.6.0: Find duplicate files based on their content
@@ -13359,7 +13359,7 @@ media-libs/opencollada 1.6.68: Stream based read/write library for COLLADA files
 media-libs/opencolorio 2.1.3 2.2.1 2.3.2: Color management framework for visual effects and animation
 media-libs/opencore-amr 0.1.6: Implementation of Adaptive Multi Rate Narrowband and Wideband speech codec
 media-libs/openctm 1.0.3-r1: OpenCTM - the Open Compressed Triangle Mesh
-media-libs/opencv 4.9.0-r2: A collection of algorithms and sample code for various computer vision problems
+media-libs/opencv 4.9.0-r2 4.10.0: A collection of algorithms and sample code for various computer vision problems
 media-libs/openexr 3.2.4-r2: ILM's OpenEXR high dynamic-range image file format libraries
 media-libs/openfec 1.4.2.9 1.4.2.11-r1: Library of various AL-FEC codecs
 media-libs/openglide 0.09_rc9_p20191120: Glide to OpenGL wrapper
