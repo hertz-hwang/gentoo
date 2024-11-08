@@ -14689,7 +14689,7 @@ net-im/slack 4.40.128 4.41.97: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r2: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.114.0-r2 1.116.0-r3 1.116.0-r4 1.117.0 1.118.0: Reference implementation of Matrix homeserver
-net-im/telegram-desktop 5.5.5 5.6.3 5.7.1: Official desktop client for Telegram
+net-im/telegram-desktop 5.5.5 5.6.3 5.7.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 5.6.3 5.7.1: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -17568,7 +17568,7 @@ sys-kernel/asahi-sources 6.9.9_p5-r1 6.9.12_p2: Asahi Linux kernel sources
 sys-kernel/bliss-initramfs 9.3.0: Boot your system's rootfs from Encrypted/OpenZFS
 sys-kernel/cryptodev 1.12 1.13-r1 9999: device that allows access to Linux kernel cryptographic drivers
 sys-kernel/dkms 3.0.13-r1 3.1.0-r1 3.1.1: Dynamic Kernel Module Support
-sys-kernel/dracut 060_pre20240104-r4 103-r2 103-r4 105 9999: Generic initramfs generation tool
+sys-kernel/dracut 060_pre20240104-r4 103-r2 103-r4 105-r1 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8 1.0.8-r1: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.228 5.15.169 5.15.170 6.1.114 6.1.115 6.6.58-r1 6.6.59 6.11.5-r1 6.11.6: Linux kernel built with Gentoo patches
