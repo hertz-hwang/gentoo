@@ -2718,7 +2718,7 @@ app-misc/enum 1.1-r1: Replacement for GNU seq and BSD jot
 app-misc/esekeyd 1.2.7-r2: Multimedia key daemon that uses the Linux event interface
 app-misc/evtest 1.35: test program for capturing input device events
 app-misc/faq 0.0.7: Format agnostic jQ
-app-misc/fastfetch 0.1.9999 0.2.9999 2.23.0 2.27.1 2.28.0 2.29.0: Fast neofetch-like system information tool
+app-misc/fastfetch 0.1.9999 0.2.9999 2.27.1 2.28.0 2.29.0: Fast neofetch-like system information tool
 app-misc/fdupes 2.2.1 2.3.0 2.3.2 9999: Identify/delete duplicate files residing within specified directories
 app-misc/fdutils 5.6_p2: Utilities for configuring and debugging the Linux floppy driver
 app-misc/fhem 6.3: A GPL'd perl server for house automation
@@ -13514,7 +13514,7 @@ media-plugins/gst-plugins-lame 1.22.11: MP3 encoder plugin for GStreamer
 media-plugins/gst-plugins-ldac 1.22.11: LDAC plugin for GStreamer
 media-plugins/gst-plugins-libav 1.22.11: FFmpeg based gstreamer plugin
 media-plugins/gst-plugins-libde265 1.22.11: H.265 decoder plugin for GStreamer
-media-plugins/gst-plugins-libnice 0.1.19 0.1.21 0.1.22: GStreamer plugin for ICE (RFC 5245) support
+media-plugins/gst-plugins-libnice 0.1.21 0.1.22: GStreamer plugin for ICE (RFC 5245) support
 media-plugins/gst-plugins-libpng 1.22.11: PNG image encoder/decoder plugin for GStreamer
 media-plugins/gst-plugins-libvisual 1.22.11: Visualization elements for GStreamer
 media-plugins/gst-plugins-lv2 1.22.11: Lv2 elements for Gstreamer
@@ -14840,7 +14840,7 @@ net-libs/libnetfilter_log 1.0.2 1.0.2-r1: Interface to packets that have been lo
 net-libs/libnetfilter_queue 1.0.5: API to packets that have been queued by the kernel packet filter
 net-libs/libnfnetlink 1.0.2: The low-level library for netfilter related kernel/userspace communication
 net-libs/libnftnl 1.2.6 1.2.6-r1 1.2.7 1.2.8 9999: Netlink API to the in-kernel nf_tables subsystem
-net-libs/libnice 0.1.19-r1 0.1.21 0.1.22: An implementation of the Interactice Connectivity Establishment standard (ICE)
+net-libs/libnice 0.1.21 0.1.22: An implementation of the Interactice Connectivity Establishment standard (ICE)
 net-libs/libnids 1.26-r1: An implementation of an E-component of Network Intrusion Detection System
 net-libs/libnipper 0.12.6-r2: A router configuration security analysis library
 net-libs/libnma 1.10.6-r1: NetworkManager GUI library
@@ -17265,7 +17265,7 @@ sys-boot/cromwell-bin 2.40-r2: Xbox boot loader precompiled binaries from xbox-l
 sys-boot/dvhtool 1.0.1-r2: Tool to copy kernel(s) into the volume header on SGI MIPS-based workstations
 sys-boot/efibootmgr 17-r1 18-r1: User-space application to modify the EFI boot manager
 sys-boot/elilo 3.16-r6: Linux boot loader for EFI-based systems such as IA-64
-sys-boot/gnu-efi 3.0.15 3.0.17 3.0.18-r2 3.0.18-r3 3.0.18-r5: Library for build EFI Applications
+sys-boot/gnu-efi 3.0.15 3.0.17 3.0.18-r5: Library for build EFI Applications
 sys-boot/grub 2.12-r4 2.12-r5 9999: GNU GRUB boot loader
 sys-boot/lilo 24.2-r1 24.2-r2: LInux LOader, the original Linux bootloader
 sys-boot/makebootfat 1.4: Command line utility able to create bootable USB disks
