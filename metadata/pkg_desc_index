@@ -3107,7 +3107,7 @@ app-shells/loksh 7.5: Linux port of OpenBSD's ksh
 app-shells/mcfly 0.5.13-r1 0.9.0-r1: Context-aware bash history search replacement (ctrl-r)
 app-shells/mksh 59c 9999: MirBSD Korn Shell
 app-shells/mpibash 1.3-r1 9999: Parallel scripting right from the Bourne-Again Shell (Bash)
-app-shells/nushell 0.96.1-r1 0.98.0-r1 0.99.1: A new type of shell, written in Rust
+app-shells/nushell 0.98.0-r1 0.99.1 0.100.0: A new type of shell, written in Rust
 app-shells/pdmenu 1.3.6: A simple console menu program
 app-shells/pdsh 2.34-r2: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
@@ -10927,7 +10927,7 @@ dev-util/ropper 1.13.8 1.13.10 9999: Use to display information about binary fil
 dev-util/rpmdevtools 9.6: Collection of rpm packaging related utilities
 dev-util/rr 5.8.0: Record and Replay Framework
 dev-util/rt-tests 2.7: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.7.2-r1 0.7.3: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.7.3 0.7.4: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.27.0-r1 1.27.1-r1 9999: Rust toolchain installer
 dev-util/sasm 3.10.1: Simple crossplatform IDE for NASM assembly language
@@ -17393,7 +17393,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r1 0.15-r2 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1-r2 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241031 12.4.1_p20241107 12.4.1_p20241114 12.5.9999 13.2.0 13.3.1_p20240614 13.3.1_p20241025 13.3.1_p20241101 13.3.1_p20241108 13.4.9999 14.2.1_p20241026 14.2.1_p20241102 14.2.1_p20241109 14.3.9999 15.0.0_pre20241027 15.0.0_pre20241103 15.0.0_pre20241110 15.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241031 12.4.1_p20241107 12.4.1_p20241114 12.5.9999 13.2.0 13.3.1_p20240614 13.3.1_p20241025 13.3.1_p20241101 13.3.1_p20241108 13.3.1_p20241115 13.4.9999 14.2.1_p20241026 14.2.1_p20241102 14.2.1_p20241109 14.3.9999 15.0.0_pre20241027 15.0.0_pre20241103 15.0.0_pre20241110 15.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.11 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.4 0.22.5: GNU locale utilities
@@ -17640,7 +17640,7 @@ sys-libs/libieee1284 0.2.11-r9: Library to query devices using IEEE1284
 sys-libs/libixp 0.5_p20110208-r3: A stand-alone client/server 9P library including ixpc client
 sys-libs/libmodulemd 2.15.0 9999: C Library for manipulating Fedora Modularity metadata files
 sys-libs/libnbd 1.14.1 1.16.1-r1 1.18.1 1.18.1-r1: NBD client library in userspace
-sys-libs/libnvme 1.9 1.10 1.11: C Library for NVM Express on Linux
+sys-libs/libnvme 1.9 1.10 1.11 1.11.1: C Library for NVM Express on Linux
 sys-libs/libomp 15.0.7-r6 16.0.6 17.0.6 18.1.8 19.1.3 20.0.0_pre20241029 20.0.0_pre20241106 20.0.0_pre20241113 20.0.0.9999: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libosinfo 1.10.0-r1 1.11.0: GObject library for managing information about real and virtual OSes
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
