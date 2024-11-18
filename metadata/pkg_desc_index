@@ -10914,7 +10914,7 @@ dev-util/redo 0.42d-r1: Smaller, easier, more powerful, and more reliable than m
 dev-util/regexxer 0.10-r2: An interactive tool for performing search and replace operations
 dev-util/rej 0.16-r1: A utility for solving diff/patch rejects
 dev-util/repolite 0.6.2-r1: Manage a small set of git repository dependencies with YAML
-dev-util/reuse 2.1.0 3.0.1 3.0.2 4.0.3: Manage license information according to the SPDX standard
+dev-util/reuse 2.1.0 3.0.1 3.0.2 4.0.3 5.0.2: Manage license information according to the SPDX standard
 dev-util/rgbds 0.6.1 0.7.0-r1 0.8.0 9999: Rednex Game Boy Development System
 dev-util/rinstall 0.2.0-r1: Utility for declarative installation of programs
 dev-util/rizin 0.7.3-r1: reverse engineering framework for binary analysis
@@ -11068,7 +11068,7 @@ dev-vcs/reposurgeon 4.27: Tool for editing VCS repositories and translating amon
 dev-vcs/rsvndump 0.6-r1 0.6.1 0.6.1-r1 0.6.2: Dump a remote Subversion repository
 dev-vcs/sourcegit 8.31 8.32 8.37 8.38 9999: Open Source Git GUI client using .NET AvaloniaUI
 dev-vcs/stagit 1.2: Generates static HTML pages for a Git repository
-dev-vcs/stgit 2.4.6-r1 2.4.11-r1 2.4.12-r1: Stack-based patch management for Git
+dev-vcs/stgit 2.4.11-r1 2.4.12-r1: Stack-based patch management for Git
 dev-vcs/subversion 1.14.3: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.18-r1 9999: Tool for one-time conversion from svn to git
