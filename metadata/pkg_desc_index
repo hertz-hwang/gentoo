@@ -2320,7 +2320,7 @@ app-emulation/crossover-bin 22.1.1 23.6.0 24.0.0 24.0.4: Commercial version of a
 app-emulation/dinero 4.7-r1: Cache simulator
 app-emulation/diskimage-builder 3.32.0 3.33.0 9999: Golden Disk Image builder
 app-emulation/dosemu 1.4.1_pre20130107-r6: DOS Emulator
-app-emulation/dxvk 1.10.3-r1 2.3.1-r1 2.4.1 2.5 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
+app-emulation/dxvk 1.10.3-r1 2.3.1-r1 2.4.1 2.5 2.5.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
 app-emulation/faudio 24.10 24.11: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/firecracker-bin 1.9.0 1.9.1: Secure and fast microVMs for serverless computing (static build)
@@ -17751,7 +17751,7 @@ sys-process/incron 0.5.12_p20171113-r1: inotify based cron daemon
 sys-process/iotop 0.6_p20230124: Top-like UI used to show which process is using the I/O
 sys-process/iotop-c 1.26: top utility for IO (C port)
 sys-process/latencytop 0.5-r3: Tool for identifying where in the system latency is happening
-sys-process/lsof 4.98.0-r1 4.99.0 4.99.3: Lists open files for running Unix processes
+sys-process/lsof 4.98.0-r1 4.99.0 4.99.3 4.99.4: Lists open files for running Unix processes
 sys-process/memwatch 0.3.3-r1: Interactive memory viewer
 sys-process/minicoredumper 2.0.7: Core dump file processor
 sys-process/minit 0.10-r2: a small yet feature-complete init
