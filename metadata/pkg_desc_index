@@ -1215,7 +1215,7 @@ app-backup/backuppc 3.3.1-r6 4.4.0-r1 4.4.0-r2: High-performance backups to a se
 app-backup/bacula 13.0.3-r2 13.0.4 15.0.2: Featureful client/server network backup suite
 app-backup/bareos 21.1.10 21.1.11 22.1.5 22.1.6 23.0.4 23.1.0-r2 9999: Featureful client/server network backup suite
 app-backup/borgbackup 1.4.0: Deduplicating backup program with compression and authenticated encryption
-app-backup/borgmatic 1.8.14 1.9.0 1.9.1 1.9.2: Automatically create, prune and verify backups with borgbackup
+app-backup/borgmatic 1.8.14 1.9.0 1.9.1 1.9.2 1.9.3: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
 app-backup/burp 3.1.4: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r2: Pseudo incremental backup with different exclude lists using hardlinks and rsync
@@ -10693,6 +10693,7 @@ dev-util/checkbashisms 2.22.2 2.23.5: Perl script to check for commonly used bas
 dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file formats
 dev-util/chroot-wrapper 0.9.4 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
+dev-util/clang-extract 0_pre20241002 9999: Tool to extract code content from source files
 dev-util/clazy 1.11-r4 1.12: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2022.3.2 2023.1.4 2023.3.4-r1 2024.1-r1: A complete toolset for C and C++ development
@@ -12492,7 +12493,7 @@ lxqt-base/lxqt-session 1.4.0 2.0.0 2.1.0: LXQt Session Manager
 lxqt-base/lxqt-sudo 1.4.0 2.0.0 2.1.0: LXQt GUI frontend for sudo
 mail-client/aerc 0.18.1 0.18.2 9999: Email client for your terminal
 mail-client/alot 0.10 9999: Experimental terminal UI for net-mail/notmuch written in Python
-mail-client/alpine 2.26-r4: An easy to use text-based based mail and news client
+mail-client/alpine 2.26-r4 2.26-r5: An easy to use text-based based mail and news client
 mail-client/balsa 2.6.4-r1: Email client for GNOME
 mail-client/bower 0.12 1.0: Curses terminal client for the Notmuch email system
 mail-client/claws-mail 3.21.0-r1 4.2.0-r3 4.3.0-r2 9999: An email client (and news reader) based on GTK+
