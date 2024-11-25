@@ -3052,7 +3052,7 @@ app-portage/grs 0.7 0.8-r1 9999: Suite to build Gentoo Reference Systems
 app-portage/gverify 2: gentoo.git signature verification tool
 app-portage/hackport 0.7.2.2 0.8.4.0 9999: Hackage and Portage integration tool
 app-portage/iwdevtools 0.12.13 9999: Small tools to aid with Gentoo development, primarily intended for QA
-app-portage/java-ebuilder 0.5.1-r1 9999: Java team tool for semi-automatic creation of ebuilds from pom.xml
+app-portage/java-ebuilder 0.5.1-r2 9999: Java team tool for semi-automatic creation of ebuilds from pom.xml
 app-portage/kuroneko 0.1.3-r1 0.1.4 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.3-r1 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.3-r2 0.7.3-r3 0.7.4 9999: metadata.xml generator for ebuilds
@@ -3934,7 +3934,7 @@ dev-cpp/waylandpp 1.0.0 1.0.0-r1 9999: Wayland C++ bindings
 dev-cpp/websocketpp 0.8.2: C++/Boost Asio based websocket client/server library
 dev-cpp/xsimd 11.1.0-r1 12.1.1 13.0.0-r1: C++ wrappers for SIMD intrinsics
 dev-cpp/yaml-cpp 0.7.0-r2 0.8.0: YAML parser and emitter in C++
-dev-db/apgdiff 2.7.0: A simple PostgreSQL diff tool that is useful for schema upgrades
+dev-db/apgdiff 2.7.0-r1: A simple PostgreSQL diff tool that is useful for schema upgrades
 dev-db/barman 3.9.0 3.10.0 3.10.1 3.11.1: Administration tool for disaster recovery of PostgreSQL servers
 dev-db/bucardo 5.4.1: An asynchronous PostgreSQL replication system
 dev-db/cdb 0.75-r4: Fast, reliable, simple package for creating and reading constant databases
@@ -4791,7 +4791,7 @@ dev-java/animal-sniffer-annotations 1.15-r1: Java annotations for marking method
 dev-java/ant 1.10.15: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/ant-contrib 1.0_beta6_pre20201123-r3: Ant-contrib tasks for Apache Ant
 dev-java/ant-ivy 2.5.0-r4: Ivy is a free java based dependency manager
-dev-java/antlr 2.7.7-r9 3.2-r2 3.5.3 4.9.3: A parser generator for many languages
+dev-java/antlr 2.7.7-r10 3.2-r2 3.5.3 4.9.3: A parser generator for many languages
 dev-java/antlr-runtime 3.5.3 4.9.3: ANTLR 4 Runtime
 dev-java/antlr-tool 3.5.3-r1 4.9.3-r3: The ANTLR 4 grammar compiler
 dev-java/antunit 1.4.1-r1: An Antlib that provides a test framework for Apache Ant tasks and types
@@ -4838,7 +4838,7 @@ dev-java/commons-daemon 1.4.0: Tools to allow Java programs to run as UNIX daemo
 dev-java/commons-digester 2.1-r2 3.2-r3: Reads XML configuration files to provide initialization of various Java objects
 dev-java/commons-httpclient 3.1-r3: The Jakarta Commons HttpClient library
 dev-java/commons-imaging 0.97 1.0_alpha3-r2: Apache Commons Imaging (previously Sanselan) is a pure-Java image library.
-dev-java/commons-io 2.17.0: Utility classes, stream implementations, file filters, and much more
+dev-java/commons-io 2.17.0 2.18.0: Utility classes, stream implementations, file filters, and much more
 dev-java/commons-junit4 1.2.17: Assertions etc. for those who write tests with JUNIT 4
 dev-java/commons-lang 3.17.0: Commons components to manipulate core java classes
 dev-java/commons-logging 1.3.1 1.3.4-r1: Thin adapter allowing configurable bridging to other well known logging systems
@@ -4973,7 +4973,7 @@ dev-java/jline 2.14.6-r1: A Java library for handling console input
 dev-java/jmc 8.3.0: JDK Mission Control
 dev-java/jmh-core 1.37: Harness for building, running, and analysing nano/micro/milli/macro benchmarks
 dev-java/jmh-generator-annprocess 1.37: Harness for building, running, and analysing nano/micro/milli/macro benchmarks
-dev-java/jmock 1.2.0-r2 2.12.0: An expressive Mock Object library for Test Driven Development
+dev-java/jmock 1.2.0-r3 2.12.0: An expressive Mock Object library for Test Driven Development
 dev-java/jna 5.13.0-r1 5.14.0-r1 5.15.0: Java Native Access
 dev-java/jnacl 1.0-r1: Pure Java implementation of NaCl: Networking and Cryptography library
 dev-java/jnr-a64asm 1.0.0-r1: A pure-java A64 assembler
@@ -9071,7 +9071,7 @@ dev-python/pypy3_10-exe-bin 7.3.17: PyPy3.10 executable (pre-built version)
 dev-python/pyqt-builder 1.16.4: The PEP 517 compliant PyQt build system
 dev-python/pyqt5 5.15.11: Python bindings for the Qt framework
 dev-python/pyqt5-sip 12.15.0: sip extension module for PyQt5
-dev-python/pyqt6 6.7.1-r1 6.8.0_pre2410211537: Python bindings for the Qt framework
+dev-python/pyqt6 6.7.1-r1 6.8.0_pre2411221125: Python bindings for the Qt framework
 dev-python/pyqt6-sip 13.8.0: sip module support for PyQt6
 dev-python/pyqt6-webengine 6.7.0 6.8.0_pre2411020930: Python bindings for QtWebEngine
 dev-python/pyqtgraph 0.13.7: A pure-python graphics and GUI library built on PyQt and numpy
@@ -13358,7 +13358,7 @@ media-libs/musicbrainz 5.1.0-r1: Client Library for accessing the latest XML bas
 media-libs/mutagen 1.47.0: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20221222 20231202: NanoSVG is a simple stupid single-header-file SVG parse.
 media-libs/nas 1.9.5-r2: Network Audio System
-media-libs/netpbm 11.2.11 11.8.2 9999: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/netpbm 11.2.11 11.2.11-r1 11.8.2 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 11.1.5.2 12.1.14.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.12 0.0.13: A VA-API implemention using NVIDIA's NVDEC
@@ -16405,7 +16405,7 @@ sci-visualization/epix 1.2.19: 2- and 3-D plotter for creating images (to be use
 sci-visualization/fig2sxd 0.23: Utility to convert files in xfig format to OpenOffice.org Draw format
 sci-visualization/fityk 1.3.2: General-purpose nonlinear curve fitting and data analysis
 sci-visualization/g3data 1.5.4: Tool for extracting data from graphs
-sci-visualization/gcalc 3.1_rc1-r2: Java Mathematical Graphing System
+sci-visualization/gcalc 3.1_rc1-r3: Java Mathematical Graphing System
 sci-visualization/ggobi 2.1.11 2.1.12: Visualization program for exploring high-dimensional data
 sci-visualization/gle 4.3.4-r1: Graphics Layout Engine
 sci-visualization/gnuplot 5.4.10 6.0.1-r1 6.1.9999: Command-line driven interactive plotting program
