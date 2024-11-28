@@ -4012,7 +4012,7 @@ dev-db/recutils 1.9: Tools and libraries to access human-editable, plain text da
 dev-db/redict 7.3.1: A persistent caching system, key-value, and data structures database
 dev-db/redis 6.2.16 7.2.6 7.4.1: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.1.0 5.1.0-r1: PostgreSQL Replication Manager
-dev-db/rqlite 8.34.1 8.34.2: Replicated SQLite using the Raft consensus protocol
+dev-db/rqlite 8.34.2 8.34.3: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
 dev-db/spatialite 5.0.1-r1 5.0.1-r2 5.1.0-r1: A complete Spatial DBMS in a nutshell built upon sqlite
 dev-db/spatialite-tools 5.0.1-r1: A collection of CLI tools supporting SpatiaLite
@@ -5628,7 +5628,7 @@ dev-libs/libugpio 0.0.7-r1: Lib for the use of linux kernel's sysfs gpio interfa
 dev-libs/libunibreak 6.1: Line and word breaking library
 dev-libs/libuninum 2.7-r3: A library for converting unicode strings to numbers and vice versa
 dev-libs/libunique 1.1.6-r3 3.0.2-r2: A library for writing single instance application
-dev-libs/libunistring 0.9.10-r1 1.0 1.1-r1 1.2: Library for manipulating Unicode and C strings according to Unicode standard
+dev-libs/libunistring 0.9.10-r1 1.0 1.1-r1 1.2 1.3: Library for manipulating Unicode and C strings according to Unicode standard
 dev-libs/libusb 1.0.26 1.0.27-r1: Userspace access to USB devices
 dev-libs/libusb-compat 0.1.8: Userspace access to USB devices (libusb-0.1 compat wrapper)
 dev-libs/libusbhp 1.0.2-r1: USB Hotplug Library
@@ -7983,7 +7983,7 @@ dev-php/pecl-stomp 2.0.3 2.0.3-r1: PHP extension to communicate with Stomp messa
 dev-php/pecl-timezonedb 2021.5: Timezone Database to be used with PHP's date and time functions
 dev-php/pecl-translit 0.7.1: Transliterates non-latin character sets to latin
 dev-php/pecl-uploadprogress 2.0.2-r1 2.0.2-r2: An extension to track progress of a file upload
-dev-php/pecl-uuid 1.2.0: A wrapper around libuuid
+dev-php/pecl-uuid 1.2.0 1.2.1: A wrapper around libuuid
 dev-php/pecl-xattr 1.4.0: Extended attributes for PHP
 dev-php/pecl-xdiff 2.1.1: PHP extension for generating diff files
 dev-php/pecl-yaml 2.2.2 2.2.3-r1: YAML 1.1 (YAML Ain't Markup Language) serialization for PHP
