@@ -2590,7 +2590,7 @@ app-laptop/tp_smapi 0.44: IBM ThinkPad SMAPI BIOS driver
 app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPads, not supported by tp_smapi
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
 app-laptop/tuxedo-control-center-bin 2.0.2 2.0.8-r1 2.1.8 2.1.14: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
-app-laptop/tuxedo-drivers 3.2.14 4.5.0 4.6.1: Kernel modules for TUXEDO laptops
+app-laptop/tuxedo-drivers 3.2.14 4.6.1 4.11.4: Kernel modules for TUXEDO laptops
 app-metrics/alertmanager 0.24.0 0.26.0: Alertmanager for alerts sent by client applications such as Prometheus
 app-metrics/bind_exporter 0.6.1-r1: Prometheus exporter for BIND
 app-metrics/blackbox_exporter 0.21.1 0.24.0: Prometheus exporter for blackbox probing via HTTP, HTTPS, DNS, TCP and ICMP
@@ -3045,7 +3045,7 @@ app-portage/genlop 0.30.12 9999: Nice emerge.log parser
 app-portage/gentle 1.0.0 1.0.1: Gentoo Lazy Entry - a metadata.xml generator
 app-portage/gentoolkit 0.6.8 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
-app-portage/getuto 1.13 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
+app-portage/getuto 1.13 1.14 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
 app-portage/golop 0.2.1-r1: A pure Go re-implementation of genlop
 app-portage/gpyutils 0.13.2: Utitilies for maintaining Python packages
 app-portage/grs 0.7 0.8-r1 9999: Suite to build Gentoo Reference Systems
