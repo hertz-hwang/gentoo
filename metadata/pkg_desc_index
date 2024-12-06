@@ -3808,7 +3808,7 @@ dev-build/bazel-buildtools 7.3.1: Tools for working with Google's Bazel BUILD fi
 dev-build/bazelisk 1.22.0 1.22.1 1.23.0 1.24.0 1.24.1: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20240808 20240921 20241124: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019: Another set of autoconf macros for compiling against boost
-dev-build/cmake 3.30.5 3.30.6 3.31.0 3.31.1 9999: Cross platform Make
+dev-build/cmake 3.30.5 3.30.6 3.31.0 3.31.1 3.31.2 9999: Cross platform Make
 dev-build/cmake-fedora 2.9.3: Provides cmake helper macros and targets for linux, especially fedora developers
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 24.08.3: Dolphin plugin for Makefile targets integration
@@ -15358,7 +15358,7 @@ net-misc/xmrig 6.21.1 6.21.3 6.22.0 6.22.1 6.22.2 9999: RandomX, CryptoNight, Ka
 net-misc/yandex-disk 0.1.6.1080_p1: CLI to access Yandex Disk file storage service
 net-misc/you-get 0.4.1650-r1 0.4.1700: Utility to download media contents from the web
 net-misc/youtube-viewer 3.11.2 3.11.3 9999: A command line utility for viewing youtube-videos in Mplayer
-net-misc/yt-dlp 2024.11.18 2024.12.03 9999: youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2024.12.03 2024.12.06 9999: youtube-dl fork with additional features and fixes
 net-misc/ytfzf 2.6.2: Posix script to find and watch youtube videos from the terminal
 net-misc/ytmdl 2024.08.15.1: Simple app to get songs from youtube in mp3 format
 net-misc/zerotier 1.14.1-r1 1.14.2-r1: A software-based managed Ethernet switch for planet Earth
