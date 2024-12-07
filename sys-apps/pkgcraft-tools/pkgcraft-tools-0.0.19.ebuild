@@ -4,9 +4,10 @@
 EAPI=8
 
 CRATES=" "
-LLVM_COMPAT=( 17 )
+LLVM_COMPAT=( {17..19} )
+RUST_MIN_VER="1.80.0"
 
-inherit edo cargo llvm-r1
+inherit cargo edo flag-o-matic llvm-r1
 
 DESCRIPTION="pkgcraft-based tools for Gentoo"
 HOMEPAGE="https://pkgcraft.github.io/"
@@ -51,6 +52,13 @@ src_unpack() {
 	else
 		cargo_src_unpack
 	fi
+}
+
+src_configure() {
+	# scallop uses modified bash-5.2 which relies on unprotoyped functions
+	append-cflags -std=gnu17
+
+	cargo_src_configure
 }
 
 src_test() {
