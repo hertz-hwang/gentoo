@@ -2148,7 +2148,7 @@ app-emacs/no-littering 1.7.3 1.7.4: ELisp library that helps keeping Emacs confi
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.1: Add support for DocBook 5 schemas to NXML
 app-emacs/nxml-gentoo-schemas 20241031 20241116: Extension for nxml-mode with Gentoo-specific schemas
-app-emacs/nxml-libvirt-schemas 9.8.0 9.9.0 10.0.0 10.1.0 10.2.0 10.3.0 10.5.0 10.6.0 10.8.0: Extension for nxml-mode with libvirt schemas
+app-emacs/nxml-libvirt-schemas 9.8.0 9.9.0 10.0.0 10.1.0 10.2.0 10.3.0 10.5.0 10.6.0 10.8.0 10.10.0: Extension for nxml-mode with libvirt schemas
 app-emacs/nxml-svg-schemas 1.1.20081123-r1: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.17: OAuth 2.0 authorization protocol
 app-emacs/ocaml-mode 4.05.0: Emacs mode for OCaml
@@ -2351,7 +2351,7 @@ app-emulation/libdsk 1.5.19: Library for accessing discs and disc image files
 app-emulation/libguestfs 1.48.6-r1: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.46.0: VM appliance disk image used in libguestfs package
 app-emulation/libspectrum 1.5.0: Spectrum emulation library
-app-emulation/libvirt 9.8.0-r5 9.9.0-r5 10.1.0-r4 10.3.0-r4 10.5.0-r2 10.6.0-r1 10.8.0 9999: C toolkit to manipulate virtual machines
+app-emulation/libvirt 9.8.0-r5 9.9.0-r5 10.1.0-r4 10.3.0-r4 10.5.0-r2 10.6.0-r1 10.8.0 10.10.0 9999: C toolkit to manipulate virtual machines
 app-emulation/libvirt-glib 4.0.0 5.0.0: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.1.0 3.3.0: Ncurses interface for QEMU
 app-emulation/open-vm-tools 12.4.5 12.5.0: Tools for VMware guests
@@ -5888,17 +5888,25 @@ dev-lisp/sbcl 2.3.5 2.4.3 2.4.9 2.4.10 2.4.11: Steel Bank Common Lisp (SBCL) is 
 dev-lisp/trivial-gray-streams 20170830-r1: A thin compatibility layer between Gray Stream Common Lisp implementations
 dev-lisp/uiop 3.3.5: UIOP is a portability layer spun off ASDF3
 dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
+dev-lua/basexx 0.4.1: A base2, base16, base32, base64 and base85 library for Lua
+dev-lua/binaryheap 0.4: Binary heap implementation in pure Lua
 dev-lua/busted 2.2.0: Elegant Lua unit testing
 dev-lua/busted-htest 1.0.0-r1: Pretty output handler for Busted
+dev-lua/compat53 0.14.3: Compatibility module providing Lua-5.3-style APIs for Lua 5.2 and 5.1
+dev-lua/cqueues 20200726_p20241204: Stackable Continuation Queues
 dev-lua/dkjson 2.8: David Kolf's JSON module for Lua
+dev-lua/fifo 0.2: Fifo library for Lua
 dev-lua/inifile 1.1: A simple and complete ini parser for Lua
 dev-lua/lanes 3.17.0: Lightweight, native, lazy evaluating multithreading library
 dev-lua/ldoc 1.4.6-r100: A LuaDoc-compatible documentation generation system
 dev-lua/lgi 0.9.2-r100: Lua bindings using gobject-introspection
 dev-lua/lpeg 1.1.0: Parsing Expression Grammars for Lua
+dev-lua/lpeg-patterns 0.5: A collection of LPEG patterns
 dev-lua/lua-argparse 0.7.1-r1: Feature-rich command line parser for Lua
 dev-lua/lua-bit32 5.3.5.1-r1: Backported Lua bit manipulation library
 dev-lua/lua-cjson 2.1.0.10-r1: A fast JSON encoding/parsing module for Lua
+dev-lua/lua-http 0.4_p20240908: HTTP Library for Lua. Supports HTTP(S) 1.0, 1.1 and 2.0; client and server.
+dev-lua/lua-mmdb 0.2: Maxmind database parser for lua
 dev-lua/lua-openssl 0.9.0_p0: OpenSSL binding for Lua
 dev-lua/lua-term 0.8: Terminal operations for Lua
 dev-lua/lua-unbound 1.0.0: A binding to libunbound for Lua
@@ -7536,7 +7544,7 @@ dev-perl/Sys-Mmap 0.200.0: Uses mmap to map in a file as a Perl variable
 dev-perl/Sys-SigAction 0.230.0-r1: Perl extension for Consistent Signal Handling
 dev-perl/Sys-Statistics-Linux 0.660.0-r2: Collect linux system statistics
 dev-perl/Sys-Syscall 0.250.0-r3: Access system calls that Perl doesn't normally provide access to
-dev-perl/Sys-Virt 9.7.0 10.1.0 10.2.0 10.5.0 10.6.0: API for using the libvirt library from Perl
+dev-perl/Sys-Virt 9.7.0 10.1.0 10.2.0 10.5.0 10.6.0 10.9.0: API for using the libvirt library from Perl
 dev-perl/Sysadm-Install 0.480.0-r1: Typical installation tasks for system administrators
 dev-perl/TAP-Parser-SourceHandler-pgTAP 3.360.0: Stream TAP from pgTAP test scripts
 dev-perl/Taint-Runtime 0.30.0-r2: Runtime enable taint checking
@@ -8636,7 +8644,7 @@ dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
 dev-python/libtmux 0.36.0 0.37.0 0.38.1 0.39.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
-dev-python/libvirt-python 9.8.0 9.9.0 10.1.0 10.3.0 10.5.0 10.6.0 10.8.0 9999: libvirt Python bindings
+dev-python/libvirt-python 9.8.0 9.9.0 10.1.0 10.3.0 10.5.0 10.6.0 10.8.0 10.10.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.0: Parse, compare, simplify and normalize license expressions
 dev-python/line-profiler 4.1.3 4.2.0: Line-by-line profiler
 dev-python/linkify-it-py 2.0.3: Links recognition library with full unicode support
@@ -9075,7 +9083,7 @@ dev-python/pyqt5-sip 12.15.0 12.16.0: sip extension module for PyQt5
 dev-python/pyqt6 6.7.1-r1 6.8.0_pre2411221125: Python bindings for the Qt framework
 dev-python/pyqt6-sip 13.8.0 13.9.0: sip module support for PyQt6
 dev-python/pyqt6-webengine 6.7.0 6.8.0_pre2411020930: Python bindings for QtWebEngine
-dev-python/pyqtgraph 0.13.7-r1: A pure-python graphics and GUI library built on PyQt and numpy
+dev-python/pyqtgraph 0.13.7-r2: A pure-python graphics and GUI library built on PyQt and numpy
 dev-python/pyqtwebengine 5.15.7: Python bindings for QtWebEngine
 dev-python/pyquery 2.0.1: A jQuery-like library for python
 dev-python/pyrate-limiter 3.6.2 3.7.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
@@ -10935,7 +10943,7 @@ dev-util/runme 2.0.5: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.27.0-r1 1.27.1-r1 9999: Rust toolchain installer
 dev-util/sasm 3.10.1: Simple crossplatform IDE for NASM assembly language
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
-dev-util/sccache 0.8.2: ccache/distcc like tool with support for rust and cloud storage
+dev-util/sccache 0.8.2 0.9.0: ccache/distcc like tool with support for rust and cloud storage
 dev-util/schroot 1.6.13_p2-r1: Utility to execute commands in a chroot environment
 dev-util/sdl-jstest 0.2.2 9999: Simple SDL joystick test application for the console
 dev-util/seer 1.17 2.3 2.4 9999: A GUI frontend to gdb
@@ -15568,7 +15576,7 @@ net-wireless/bss 0.8-r2: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
 net-wireless/dump1090 4.0 5.0 6.1 9999: simple Mode S decoder for RTLSDR devices
 net-wireless/gnome-bluetooth 42.8 46.0 46.2: Bluetooth graphical utilities integrated with GNOME
-net-wireless/gnuradio 3.10.9.2-r4 3.10.9.2-r5 9999: Toolkit that provides signal processing blocks to implement software radios
+net-wireless/gnuradio 3.10.9.2-r6 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
 net-wireless/gqrx 2.16 2.17.2 9999: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/gqrx-scanner 1.0.4: frequency scanner for Gqrx Software Defined Radio receiver
