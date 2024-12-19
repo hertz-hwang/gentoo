@@ -13833,7 +13833,7 @@ media-sound/aumix 2.9.1: Aumix volume/mixer control program
 media-sound/awesfx 0.5.2-r1: AWE32 Sound Driver Utility Programs
 media-sound/aylet 0.5: Aylet plays music files in the .ay format
 media-sound/baudline 1.08-r2: A time-frequency browser designed for visualization of spectral domains
-media-sound/beets 1.7.0_pre20240501 9999: Media library management system for obsessive music geeks
+media-sound/beets 1.7.0_pre20240501 2.2.0 9999: Media library management system for obsessive music geeks
 media-sound/bempc 0.11_p20160207: Qt5 MPD client with experimental UI
 media-sound/bitmeter 1.2-r2: Diagnosis tool for JACK audio software
 media-sound/bluez-alsa 4.2.0 4.3.1-r1 9999: Bluetooth Audio ALSA Backend
@@ -18005,7 +18005,7 @@ www-apps/dokuwiki 20240206b: DokuWiki is a simple to use Wiki aimed at a small c
 www-apps/drupal 7.97 10.1.8 10.2.2: PHP-based open-source platform and content management system
 www-apps/element 1.11.86 1.11.87: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.22.3 1.22.6: A painless self-hosted Git service
-www-apps/grafana-bin 10.2.3 10.2.9 10.3.1 10.3.7 11.1.0 11.1.3 11.3.0: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
+www-apps/grafana-bin 10.2.3 10.2.9 10.3.1 10.3.7 11.1.0 11.1.3 11.3.0 11.4.0: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site generator
 www-apps/hugo 0.127.0 0.129.0 0.131.0: Fast static HTML and CSS website generator
 www-apps/icingadb-web 1.1.1 1.1.2 1.1.3: UI for Icinga DB
