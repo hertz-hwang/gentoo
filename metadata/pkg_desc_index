@@ -2503,16 +2503,16 @@ app-i18n/ibus-handwrite 3.0.0-r1: Hand write recognition/input for IBus
 app-i18n/ibus-hangul 1.5.4 1.5.4-r1 1.5.5: Korean Hangul engine for IBus
 app-i18n/ibus-input-pad 1.4.99_pre20140916: Input Pad for IBus
 app-i18n/ibus-libpinyin 1.15.2-r1 1.15.8: Intelligent Pinyin and Bopomofo input methods based on LibPinyin for IBus
-app-i18n/ibus-m17n 1.4.32 1.4.33 1.4.34: M17N engine for IBus
+app-i18n/ibus-m17n 1.4.34: M17N engine for IBus
 app-i18n/ibus-pinyin 1.5.1: Chinese Pinyin and Bopomofo engines for IBus
 app-i18n/ibus-rime 1.5.0: Chinese Rime Input Method Engine for IBus
 app-i18n/ibus-skk 1.4.3: Japanese SKK engine for IBus
-app-i18n/ibus-table 1.17.8: Tables engines for IBus
+app-i18n/ibus-table 1.17.8 1.17.9: Tables engines for IBus
 app-i18n/ibus-table-chinese 1.8.3: Chinese tables for IBus-Table
 app-i18n/ibus-table-extraphrase 1.3.9.20110826-r1: Chinese extra phrases for IBus-Table
 app-i18n/ibus-table-latin 1.2.0.20100305-r1: Latin tables for IBus-Table
 app-i18n/ibus-table-others 1.3.18: Various tables for IBus-Table
-app-i18n/ibus-typing-booster 2.25.18 2.26.11: Completion input method for IBus
+app-i18n/ibus-typing-booster 2.26.11 2.27.1: Completion input method for IBus
 app-i18n/ibus-unikey 0.7.0_beta1: Vietnamese UniKey engine for IBus
 app-i18n/im-chooser 1.7.3: Desktop Input Method configuration tool
 app-i18n/imsettings 1.8.2-r1: Delivery framework for general Input Method configuration
@@ -2565,7 +2565,7 @@ app-i18n/translate-shell 0.9.7.1: Online command-line translator
 app-i18n/uchardet 0.0.7 9999: An encoding detector library
 app-i18n/uim 1.8.9-r2: A multilingual input method framework
 app-i18n/uim-tomoe-gtk 0.6.0: Japanese input method Tomoe IMEngine for uim
-app-i18n/unicode-cldr 45.0 46.0: Unicode Common Locale Data Repository
+app-i18n/unicode-cldr 45.0 46.0 46.1: Unicode Common Locale Data Repository
 app-i18n/unicode-data 15.0.0 15.1.0 16.0.0: Unicode data from unicode.org
 app-i18n/unicode-emoji 15.1 16.0: UTS #51 Unicode Emoji
 app-i18n/xvnkb 0.2.11: Vietnamese input keyboard for X
@@ -8097,7 +8097,7 @@ dev-python/asgiref 3.8.1: ASGI utilities (successor to WSGI)
 dev-python/asn1crypto 1.5.1_p20231012: Python ASN.1 library with a focus on performance and a pythonic API
 dev-python/asteval 1.0.4 1.0.5: Evaluator of Python expression using ast module
 dev-python/astor 0.8.1-r1: Read/rewrite/write Python ASTs
-dev-python/astroid 3.3.5 3.3.6: Abstract Syntax Tree for logilab packages
+dev-python/astroid 3.3.5 3.3.6 3.3.7: Abstract Syntax Tree for logilab packages
 dev-python/asttokens 2.4.1 3.0.0: Annotate Python AST trees with source text and token information
 dev-python/async-lru 2.0.4: Simple lru_cache for asyncio
 dev-python/async-timeout 4.0.3 5.0.1: Timeout context manager for asyncio programs
@@ -8196,7 +8196,7 @@ dev-python/clang 15.0.7 16.0.6 17.0.6 18.1.8 19.1.4 19.1.5 19.1.6 20.0.0_pre2024
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.3.1 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.17.2 0.18.0: Python library for better command line interfaces
-dev-python/click 8.1.7: A Python package for creating beautiful command line interfaces
+dev-python/click 8.1.7 8.1.8: A Python package for creating beautiful command line interfaces
 dev-python/click-default-group 1.2.4: Extends click.Group to invoke a command without explicit subcommand name
 dev-python/click-didyoumean 0.3.1: Enable git-like did-you-mean feature in click
 dev-python/click-help-colors 0.9.4: Colorization of help messages in Click
@@ -8300,7 +8300,7 @@ dev-python/django-configurations 2.5.1: A helper for organizing Django settings
 dev-python/django-cors-headers 4.5.0 4.6.0: Django App that adds CORS (Cross-Origin Resource Sharing) headers to responses
 dev-python/django-crispy-forms 2.2 2.3: DRY Django forms
 dev-python/django-debug-toolbar 4.4.6-r1: A configurable set of panels that display various debug information
-dev-python/django-filter 24.2 24.3: Django app allowing declarative dynamic QuerySet filtering from URL parameters
+dev-python/django-filter 24.3: Django app allowing declarative dynamic QuerySet filtering from URL parameters
 dev-python/django-js-asset 2.2.0 3.0.1: Script tag with additional attributes for django.forms.Media
 dev-python/django-otp 1.5.3 1.5.4: Django framework adding two-factor authentication using one-time passwords
 dev-python/django-polymorphic 3.1-r1: Seamless Polymorphic Inheritance for Django Models
@@ -8308,7 +8308,7 @@ dev-python/django-prometheus 2.3.1: Library to export Django metrics for Prometh
 dev-python/django-redis 5.4.0: Full featured redis cache backend for Django
 dev-python/django-registration 3.4-r1 5.1.0-r1: user-registration application for Django
 dev-python/django-sortedm2m 3.1.1-r2 4.0.0: Drop-in replacement for django's many to many field with sorted relations
-dev-python/django-tables2 2.7.0: Table/data-grid framework for Django
+dev-python/django-tables2 2.7.0 2.7.1: Table/data-grid framework for Django
 dev-python/django-taggit 5.0.1 6.1.0: Simple tagging for Django
 dev-python/django-timezone-field 7.0: A Django app providing database and form fields for timezone objects
 dev-python/djangorestframework 3.15.2: Web APIs with django made easy
@@ -8496,7 +8496,7 @@ dev-python/hvac 2.3.0: HashiCorp Vault API client
 dev-python/hypercorn 0.17.3: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.0.1-r1: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.119.4 6.122.1 6.122.3 6.122.4 6.122.5: A library for property based testing
+dev-python/hypothesis 6.119.4 6.122.1 6.122.3 6.122.4 6.122.5 6.122.6: A library for property based testing
 dev-python/icalendar 6.1.0: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/id 1.4.0 1.5.0: A tool for generating OIDC identities
 dev-python/identify 2.6.3: File identification library for Python
@@ -8519,7 +8519,7 @@ dev-python/inflection 0.5.1-r1: A port of Ruby on Rails' inflector to Python
 dev-python/ini2toml 0.15: Automatically conversion of .ini/.cfg files to TOML equivalents
 dev-python/iniconfig 2.0.0: Brain-dead simple config-ini parsing
 dev-python/iniparse 0.5_p20221102: Better INI parser for Python
-dev-python/inline-snapshot 0.17.0 0.17.1: Create and update inline snapshots in your Python tests
+dev-python/inline-snapshot 0.17.1: Create and update inline snapshots in your Python tests
 dev-python/insipid-sphinx-theme 0.4.2: Insipid Sphinx theme
 dev-python/installer 0.7.0: A library for installing Python wheels
 dev-python/intelhex 2.3.0-r1: Python library for Intel HEX files manipulations
@@ -8564,7 +8564,7 @@ dev-python/jdcal 1.4.1-r1: Julian dates from proleptic Gregorian and Julian cale
 dev-python/jedi 0.19.2: Autocompletion library for Python
 dev-python/jeepney 0.8.0: Low-level, pure Python DBus protocol wrapper
 dev-python/jellyfish 1.1.2 1.1.3: Python module for doing approximate and phonetic matching of strings
-dev-python/jinja2 3.1.4: A full-featured template engine for Python
+dev-python/jinja2 3.1.4 3.1.5: A full-featured template engine for Python
 dev-python/jinja2-pluralize 0.3.0-r1: Jinja2 pluralize filters
 dev-python/jinja2-time 0.2.0-r1: Jinja2 Extension for Dates and Times
 dev-python/jmespath 1.0.1: JSON Matching Expressions
@@ -8788,14 +8788,14 @@ dev-python/nodeenv 1.9.1: Node.js virtual environment builder
 dev-python/noiseprotocol 0.3.1: Implementation of Noise Protocol Framework. Compatible with revisions 32 and 33.
 dev-python/nose2 0.15.1: Unittest with plugins
 dev-python/noseofyeti 2.4.9-r1: A custom python codec that provides an RSpec style dsl for python
-dev-python/notebook 7.2.2 7.3.1: Jupyter Interactive Notebook
+dev-python/notebook 7.2.2 7.3.1 7.3.2: Jupyter Interactive Notebook
 dev-python/notebook-shim 0.2.4: A shim layer for notebook traits and config
 dev-python/notify2 0.3.1-r3: Python interface to DBus notifications
 dev-python/nox 2024.04.15 2024.10.09: Flexible test automation for Python
 dev-python/ntplib 0.4.0-r1: Python NTP library
 dev-python/nuitka 2.5.6 2.5.7: Python to native compiler
 dev-python/numexpr 2.10.2: Fast numerical array expression evaluator for Python and NumPy
-dev-python/numpy 1.26.4 2.0.2-r1 2.1.2 2.1.3 2.2.0_rc1 2.2.0: Fast array and numerical python library
+dev-python/numpy 1.26.4 2.0.2-r1 2.1.3 2.2.0 2.2.1: Fast array and numerical python library
 dev-python/numpydoc 1.8.0: Sphinx extension to support docstrings in Numpy format
 dev-python/oauthlib 3.2.2: Spec-compliant and thorough implementation of the OAuth request-signing logic
 dev-python/objgraph 3.6.2: Draws Python object reference graphs with graphviz
@@ -9192,7 +9192,7 @@ dev-python/python-constraint 1.4.0: Constraint Solving Problem resolver for Pyth
 dev-python/python-ctags3 1.6.0: Exuberant Ctags indexing python bindings
 dev-python/python-daemon 3.1.2: Library to implement a well-behaved Unix daemon process
 dev-python/python-dateutil 2.9.0_p0: Extensions to the standard Python datetime module
-dev-python/python-dbusmock 0.32.2 0.33.0: Easily create mock objects on D-Bus for software testing
+dev-python/python-dbusmock 0.33.0 0.34.1: Easily create mock objects on D-Bus for software testing
 dev-python/python-debian 0.1.49: Python modules to work with Debian-related data formats
 dev-python/python-distutils-extra 2.47: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-dotenv 1.0.1: Manage .env files
@@ -9892,7 +9892,7 @@ dev-ruby/crass 1.0.6-r1: Ruby CSS parser that's fully compliant with the CSS Syn
 dev-ruby/creole 0.5.0-r2: Creole-to-HTML converter for Creole, the lightweight markup language
 dev-ruby/cri 2.15.11-r1 2.15.12: Cri is a library for building easy-to-use commandline tools
 dev-ruby/css_parser 1.19.0 1.19.1 1.20.0 1.21.0: A set of classes for parsing CSS in Ruby
-dev-ruby/csv 3.2.8 3.3.0 3.3.1: The CSV library provides a complete interface to CSV files and data
+dev-ruby/csv 3.3.0 3.3.2: The CSV library provides a complete interface to CSV files and data
 dev-ruby/curb 1.0.6: Ruby-language bindings for libcurl
 dev-ruby/curses 1.4.6 1.4.7: Ruby binding for curses, ncurses, and PDCurses
 dev-ruby/daemons 1.4.1: Wrap existing ruby scripts to be run as a daemon
@@ -9933,8 +9933,8 @@ dev-ruby/dust 0.1.7-r3: Descriptive block syntax definition for Test::Unit
 dev-ruby/ecma-re-validator 0.4.0: Validate a regular expression string against what ECMA-262 can actually do
 dev-ruby/ed25519 1.3.0: Library for the Ed25519 public-key signature system
 dev-ruby/elastic-transport 8.3.2 8.3.5: Transport classes and utilities shared among Ruby Elastic client libraries
-dev-ruby/elasticsearch 7.17.11 8.15.0 8.16.0: Ruby integrations for ES, elasticsearch module
-dev-ruby/elasticsearch-api 7.17.11 8.15.0 8.16.0: Ruby integrations for ES, elasticsearch-api module
+dev-ruby/elasticsearch 7.17.11 8.15.0 8.16.0 8.17.0: Ruby integrations for ES, elasticsearch module
+dev-ruby/elasticsearch-api 7.17.11 8.15.0 8.16.0 8.17.0: Ruby integrations for ES, elasticsearch-api module
 dev-ruby/elasticsearch-transport 7.17.11: Ruby integrations for ES, elasticsearch-transport module
 dev-ruby/em-websocket 0.5.3-r1: EventMachine based WebSocket server
 dev-ruby/equalizer 0.0.11-r2: Module to define equality, equivalence and inspection methods
@@ -10131,7 +10131,7 @@ dev-ruby/net-ftp 0.3.4 0.3.5 0.3.6 0.3.7 0.3.8: Support for the File Transfer Pr
 dev-ruby/net-http-digest_auth 1.4.1-r2: An implementation of RFC 2617 - Digest Access Authentication
 dev-ruby/net-http-persistent 4.0.2 4.0.4 4.0.5: Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8
 dev-ruby/net-http-pipeline 1.0.1-r1: An HTTP/1.1 pipelining implementation atop Net::HTTP
-dev-ruby/net-imap 0.4.10 0.4.16 0.4.17 0.4.18: Ruby client api for Internet Message Access Protocol
+dev-ruby/net-imap 0.4.17 0.4.18 0.5.3: Ruby client api for Internet Message Access Protocol
 dev-ruby/net-pop 0.1.2: Ruby client library for POP3
 dev-ruby/net-protocol 0.2.2: The abstruct interface for net-* client
 dev-ruby/net-scp 4.0.0: A pure Ruby implementation of the SCP client protocol
@@ -10145,7 +10145,7 @@ dev-ruby/network_interface 0.0.4: network_interface layer from metasploit pcapru
 dev-ruby/niceogiri 1.1.2-r1: Some wrappers around and helpers for XML manipulation using Nokogiri
 dev-ruby/nio4r 2.7.3 2.7.4: A high performance selector API for monitoring IO objects
 dev-ruby/nkf 0.2.0: Ruby extension for Network Kanji Filter
-dev-ruby/nokogiri 1.16.5 1.16.6 1.16.7 1.16.8: Nokogiri is an HTML, XML, SAX, and Reader parser
+dev-ruby/nokogiri 1.16.5 1.16.6 1.16.7 1.16.8 1.17.2: Nokogiri is an HTML, XML, SAX, and Reader parser
 dev-ruby/nokogiri-diff 0.2.0-r3 0.3.0: Calculate the differences between two XML/HTML documents
 dev-ruby/oauth 0.6.2-r1 0.6.2-r2 1.1.0: A RubyGem for implementing both OAuth clients and servers
 dev-ruby/oauth-tty 1.0.5: OAuth 1.0 TTY Command Line Interface
@@ -10360,7 +10360,7 @@ dev-ruby/spring 4.1.3 4.2.1: Rails application preloader
 dev-ruby/sprockets 3.7.2-r3 4.2.1: Ruby library for compiling and serving web assets
 dev-ruby/sprockets-rails 3.4.2-r2 3.5.1 3.5.2: Sprockets implementation for Rails 4.x (and beyond) Asset Pipeline
 dev-ruby/spy 1.0.5: A simple opinionated mocking framework
-dev-ruby/sqlite3 1.7.3 2.0.4-r2 2.2.0 2.3.0: An extension library to access a SQLite database from Ruby
+dev-ruby/sqlite3 1.7.3 2.0.4-r2 2.2.0 2.3.0 2.4.1: An extension library to access a SQLite database from Ruby
 dev-ruby/sshkey 2.0.0-r1 3.0.0: SSH private and public key generator in pure Ruby
 dev-ruby/sshkit 1.22.2 1.23.0 1.23.1 1.23.2: SSHKit makes it easy to write structured, testable SSH commands in Ruby
 dev-ruby/stamp 0.6.0-r1: Date and time formatting for humans
@@ -13302,7 +13302,7 @@ media-libs/libmpd 11.8.17-r2: A library handling connections to a MPD server
 media-libs/libmpdclient 2.22: Library for interfacing Music Player Daemon (media-sound/mpd)
 media-libs/libmpeg2 0.5.1-r3: Library for decoding mpeg-2 and mpeg-1 video
 media-libs/libmpris2client 0.1.0-r2: Library to control MPRIS2 compatible players
-media-libs/libmtp 1.1.21 1.1.22 9999: Implementation of Microsoft's Media Transfer Protocol (MTP)
+media-libs/libmtp 1.1.22 9999: Implementation of Microsoft's Media Transfer Protocol (MTP)
 media-libs/libmygpo-qt 1.1.0 9999: Qt/C++ library wrapping the gpodder.net webservice
 media-libs/libmypaint 1.6.1-r3: Library for making brushstrokes
 media-libs/libnjb 2.2.7-r2: Library for communicating with the Creative Nomad JukeBox digital audio player
@@ -18025,7 +18025,7 @@ www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
 www-apps/lidarr-bin 2.8.2.4493: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
-www-apps/mediawiki 1.39.10 1.39.11 1.42.3 1.42.4: The MediaWiki wiki web application (as used on wikipedia.org)
+www-apps/mediawiki 1.39.10 1.39.11 1.42.3 1.42.4 1.43.0: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.1.4 2.2.3: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
 www-apps/moodle 4.3.9 4.4.5 4.5.1: The Moodle Course Management System
