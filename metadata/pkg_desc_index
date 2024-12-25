@@ -3761,7 +3761,7 @@ app-xemacs/xemacs-base 2.47: Fundamental XEmacs support, you almost certainly ne
 app-xemacs/xemacs-devel 1.84: Emacs Lisp developer support
 app-xemacs/xemacs-eterm 1.20: Terminal emulation
 app-xemacs/xemacs-ispell 1.37: Spell-checking with GNU ispell
-app-xemacs/xemacs-packages-all 2018.08.11 2024.11.23: Meta package for XEmacs elisp packages, similar to the sumo archives
+app-xemacs/xemacs-packages-all 2024.11.23: Meta package for XEmacs elisp packages, similar to the sumo archives
 app-xemacs/xetla 1.04: Arch (tla) interface for XEmacs
 app-xemacs/xlib 1.16: Emacs interface to X server
 app-xemacs/xslide 1.11: XSL editing support
@@ -10794,7 +10794,7 @@ dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflo
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
 dev-util/github-cli 2.27.0 2.31.0 2.32.1 2.33.0 2.42.0 2.52.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.2.0: linter for .gitlab-ci.yml files
-dev-util/gitlab-cli 1.44.1 1.46.0 1.48.0: the official gitlab command line interface
+dev-util/gitlab-cli 1.44.1 1.46.0 1.48.0 1.51.0: the official gitlab command line interface
 dev-util/gitlab-runner 17.4.2 17.5.4 17.6.0: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r1: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.76.4 2.78.3 2.78.4 2.78.6 2.80.4 2.80.5 2.82.2 2.82.4: Build utilities for GLib using projects
