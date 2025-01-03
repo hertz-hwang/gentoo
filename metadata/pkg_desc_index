@@ -1414,7 +1414,7 @@ app-crypt/coolkey 1.1.0-r9: Linux Driver support for the CoolKey and CAC product
 app-crypt/crackpkcs12 0.2.11: Multithreaded program to crack PKCS#12 files
 app-crypt/cryptor 1.1.0: Simple GUI application for gocryptfs
 app-crypt/debian-archive-keyring 2023.4: GnuPG archive keys of the Debian archive
-app-crypt/dehydrated 0.7.0-r1 0.7.1: A client for signing certificates with an ACME-server
+app-crypt/dehydrated 0.7.0-r1 0.7.1 0.7.1-r1: A client for signing certificates with an ACME-server
 app-crypt/dieharder 3.31.1-r4: An advanced suite for testing the randomness of RNGs
 app-crypt/easy-rsa 3.2.0 3.2.1: Small RSA key management package, based on OpenSSL
 app-crypt/efitools 1.9.2-r1: Tools for manipulating UEFI secure boot platforms
@@ -10723,7 +10723,7 @@ dev-util/cppi 1.18: a cpp directive indenter
 dev-util/cpptest 2.0.0-r1: Simple but powerful unit testing framework for C++
 dev-util/cppunit 1.15.1-r3: C++ port of the famous JUnit framework for unit testing
 dev-util/cpputest 4.0: Unit testing and mocking framework for C/C++
-dev-util/cproto 4.7v 4.7w: Generate C function prototypes from C source code
+dev-util/cproto 4.7v 4.7w 4.7x: Generate C function prototypes from C source code
 dev-util/cpuinfo-collection 20101114: huge collection of /proc/cpuinfo files
 dev-util/cram 0.7-r2: Functional testing framework for command line applications
 dev-util/crash 8.0.5 8.0.6 9999: Red Hat crash utility; used for analyzing kernel core dumps
@@ -13476,7 +13476,7 @@ media-libs/svt-hevc 1.5.1 1.5.1-r1 9999: Scalable Video Technology for HEVC (SVT
 media-libs/t1lib 5.1.2-r5: Type 1 Font Rasterizer Library for UNIX/X11
 media-libs/taglib 1.13.1 2.0.2: Library for reading and editing audio meta data
 media-libs/taglib-extras 1.0.1-r1 1.0.1-r2: Unofficial taglib plugins maintained by the Amarok team
-media-libs/tg_owt 0_pre20230921 0_pre20240804-r2: WebRTC build for Telegram
+media-libs/tg_owt 0_pre20240804-r2 0_pre20241202: WebRTC build for Telegram
 media-libs/theoraplay 0_pre20180524-r1: Simple library to make decoding of Ogg Theora videos easier
 media-libs/tiff 4.5.0-r2 4.5.1 4.6.0 4.6.0-r1 4.7.0 4.7.0-r1: Tag Image File Format (TIFF) library
 media-libs/tiff-compat 4.4.0-r1: Tag Image File Format (TIFF) library (compat package for libtiff.so.5)
@@ -14740,7 +14740,7 @@ net-im/slack 4.41.104 4.41.105: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r2: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.120.2 1.121.1: Reference implementation of Matrix homeserver
-net-im/telegram-desktop 5.5.5 5.8.3-r1 5.9.0: Official desktop client for Telegram
+net-im/telegram-desktop 5.5.5 5.8.3-r1 5.9.0-r1: Official desktop client for Telegram
 net-im/telegram-desktop-bin 5.8.3 5.9.0: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -17390,7 +17390,7 @@ sys-cluster/zetcd 0.0.4-r2: ZooKeeper personality for etcd
 sys-cluster/zookeeper-bin 3.8.4 3.9.2 3.9.3: A high-performance coordination service for distributed applications
 sys-cluster/zookeepercli 1.0.11: Simple, lightweight, dependable CLI for ZooKeeper
 sys-devel/autogen 5.18.16-r101: Program and text file generation
-sys-devel/bc 1.07.1-r6: Handy console-based calculator utility
+sys-devel/bc 1.07.1-r6 1.08.0: Handy console-based calculator utility
 sys-devel/bin86 0.16.21-r2: Assembler and loader used to create kernel bootsector
 sys-devel/binutils 2.32-r2 2.33.1-r1 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r9 2.41-r5 2.42-r2 2.43-r1 2.43-r2 2.43.9999 9999: Tools necessary to build programs
 sys-devel/binutils-apple 3.2.6-r1 8.2.1-r103: Darwin Xtools matching Xcode Tools binutils-apple
