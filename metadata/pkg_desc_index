@@ -8093,7 +8093,7 @@ dev-python/asn1crypto 1.5.1_p20231012: Python ASN.1 library with a focus on perf
 dev-python/asteval 1.0.4 1.0.5: Evaluator of Python expression using ast module
 dev-python/astor 0.8.1-r1: Read/rewrite/write Python ASTs
 dev-python/astroid 3.3.6 3.3.7 3.3.8: Abstract Syntax Tree for logilab packages
-dev-python/asttokens 2.4.1 3.0.0: Annotate Python AST trees with source text and token information
+dev-python/asttokens 3.0.0: Annotate Python AST trees with source text and token information
 dev-python/async-lru 2.0.4: Simple lru_cache for asyncio
 dev-python/async-timeout 4.0.3 5.0.1: Timeout context manager for asyncio programs
 dev-python/asyncssh 2.17.0 2.18.0 2.19.0: Asynchronous SSHv2 client and server library
@@ -10860,9 +10860,9 @@ dev-util/local-log4j-vuln-scanner 0.10: simple local log4j vulnerability scanner
 dev-util/lockrun 20120508-r2 20240415: Run cronjobs with overrun protection
 dev-util/log4shelldetect 0.0.7: Check for java programs vulnerable to log4shell
 dev-util/lsuio 0.2.0-r2: List available userspace I/O (UIO) devices
-dev-util/lttng-modules 2.12.5 2.12.8 2.13.14-r1 2.13.15: LTTng Kernel Tracer Modules
-dev-util/lttng-tools 2.13.9 2.13.14: Linux Trace Toolkit - next generation
-dev-util/lttng-ust 2.12.0 2.12.1 2.12.9 2.13.6 2.13.8: Linux Trace Toolkit - UST library
+dev-util/lttng-modules 2.13.15 2.13.16: LTTng Kernel Tracer Modules
+dev-util/lttng-tools 2.13.14: Linux Trace Toolkit - next generation
+dev-util/lttng-ust 2.12.0 2.12.1 2.12.9 2.12.10 2.13.6 2.13.8: Linux Trace Toolkit - UST library
 dev-util/lv2lint 0.16.2: Check whether a given LV2 plugin is up to the specification
 dev-util/lxqt-build-tools 0.13.0 2.0.0-r1 2.1.0: LXQt Build Tools
 dev-util/makeheaders 0_p20240202 0_p20240823: Tool that automatically generates .h files for a C or C++ programming project
@@ -13236,7 +13236,7 @@ media-libs/libdiscid 0.6.4: Client library to create MusicBrainz enabled tagging
 media-libs/libdisplay-info 0.1.1-r1 0.2.0-r1: EDID and DisplayID library
 media-libs/libdmtx 0.7.7: Barcode data matrix reading and writing library
 media-libs/libdovi 3.3.1-r1: Dolby Vision metadata parsing and writing
-media-libs/libdv 1.0.0-r4: Software codec for dv-format video (camcorders etc)
+media-libs/libdv 1.0.0-r5 1.0.0-r6: Software codec for dv-format video (camcorders etc)
 media-libs/libdvbcsa 1.1.0-r1: Free implementation of the DVB Common Scrambling Algorithm - DVB/CSA
 media-libs/libdvbpsi 1.3.3: Library for MPEG TS/DVB PSI tables decoding and generation
 media-libs/libdvd-audio 1.0.0: library for extracting audio from DVD-Audio discs
@@ -18590,7 +18590,7 @@ x11-misc/xdaliclock 2.47 2.48: Dali Clock is a digital clock. When a digit chang
 x11-misc/xdesktopwaves 1.4: Cellular automata setting the background of your X Windows desktop under water
 x11-misc/xdg-user-dirs 0.18: Tool to help manage 'well known' user directories
 x11-misc/xdg-user-dirs-gtk 0.11: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
-x11-misc/xdg-utils 1.2.1-r6: Portland utils for cross-platform/cross-toolkit/cross-desktop interoperability
+x11-misc/xdg-utils 1.2.1-r7: Portland utils for cross-platform/cross-toolkit/cross-desktop interoperability
 x11-misc/xdialog 2.3.1-r1: Drop-in replacement for cdialog using GTK
 x11-misc/xdiskusage 1.52-r1: User-friendly program to show you what is using up all your disk space
 x11-misc/xdo 0.5.7: Small X utility to perform elementary actions on windows
