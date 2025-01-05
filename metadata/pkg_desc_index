@@ -2654,7 +2654,7 @@ app-misc/battop 0.2.4_p1-r1: Interactive batteries viewer
 app-misc/bb 1.3.0_rc1-r6: Lightweight ASCII art demo using media-libs/aalib
 app-misc/beancounter 0.8.10-r2: Finance performance calculation engine with full data acquisition, SQL support
 app-misc/beanstalkd 1.12 1.13: A simple, fast work queue
-app-misc/beep 1.4.9-r1 1.4.12 1.4.12-r1: Advanced PC speaker beeper
+app-misc/beep 1.4.9-r1 1.4.12 1.4.12-r2: Advanced PC speaker beeper
 app-misc/bfr 1.6-r5: General-purpose command-line pipe buffer
 app-misc/bgrep 0.2_p20210221: Grep-like tool to search for binary strings
 app-misc/bijiben 40.1-r2: Note editor designed to remain simple to use
@@ -2850,7 +2850,7 @@ app-misc/qlcplus 4.13.1 5.0.0_beta3: Software to control DMX or analog lighting 
 app-misc/qtxdg-tools 4.0.0 4.1.0: User Tools from libqtxdg
 app-misc/race64 1.0.0: High performance base64 encoder and decoder
 app-misc/radeontop 1.3-r3 1.4 9999: Utility to view Radeon GPU utilization
-app-misc/ranger 1.9.4 9999: Vim-inspired file manager for the console
+app-misc/ranger 1.9.4 1.9.4-r1 9999: Vim-inspired file manager for the console
 app-misc/razertool 0.0.7-r5: Unofficial tool for controlling the Razer Copperhead mouse
 app-misc/rbutil 1.5.1-r1: Rockbox open source firmware manager for music players
 app-misc/rdfind 1.6.0: Find duplicate files based on their content
@@ -2859,7 +2859,7 @@ app-misc/regex-markup 0.10.0-r3: A tool to color syslog files as well
 app-misc/regionset 0.2: Sets the region on DVD drives
 app-misc/remind 04.02.02 05.00.06 05.00.07: Ridiculously functional reminder program
 app-misc/reptyr 0.9.0 0.10.0: A utility to attach a running program to a new terminal
-app-misc/resolve-march-native 2.2.0 3.0.0-r1 4.1.0 5.0.2 5.1.0 5.1.0-r1: Resolve GCC flag -march=native
+app-misc/resolve-march-native 2.2.0 3.0.0-r1 4.1.0 5.0.2 5.1.0 5.1.0-r1 6.0.1: Resolve GCC flag -march=native
 app-misc/rioutil 1.5.4-r1: A utility for accessing various Rio media players
 app-misc/rl 0.2.7-r2: Randomize lines from text files or stdin
 app-misc/rlwrap 0.45.2-r1 0.46 0.46.1: GNU readline wrapper
