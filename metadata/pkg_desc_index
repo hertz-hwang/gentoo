@@ -14720,7 +14720,7 @@ net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/libcommuni 3.7.0-r1: A cross-platform IRC framework written with Qt
 net-im/mattermost-desktop-bin 5.9.2 5.10.2: Mattermost Desktop application
 net-im/neochat 24.08.3 24.12.0: Client for Matrix, the decentralized communication protocol
-net-im/openmittsu 0.10.0.0-r1: Open source chat client for Threema-style end-to-end encrypted chat networks
+net-im/openmittsu 0.10.0.0-r1 0.10.1.0: Open source chat client for Threema-style end-to-end encrypted chat networks
 net-im/pidgin 2.14.13: GTK Instant Messenger client
 net-im/poezio 0.14 9999: Console XMPP client that looks like most famous IRC clients
 net-im/profanity 0.13.1-r1 0.14.0 0.14.0-r2: A console based XMPP client inspired by Irssi
@@ -15014,7 +15014,7 @@ net-mail/mailbox-count 0.0.6 0.0.8: Count mailboxes in a SQL database
 net-mail/mailfront 2.22-r1: Mail server network protocol front-ends
 net-mail/mailgraph 1.14-r4: A mail statistics RRDtool frontend for Postfix
 net-mail/mailshears 0.1.0: Mangle your mail garden
-net-mail/mailutils 3.17-r100: A useful collection of mail servers, clients, and filters
+net-mail/mailutils 3.17-r100 3.18: A useful collection of mail servers, clients, and filters
 net-mail/mairix 0.24-r1: Indexes and searches Maildir/MH folders
 net-mail/mboxgrep 0.7.9-r3: Grep for mbox files
 net-mail/mess822 0.58-r3: Collection of utilities for parsing Internet mail messages
@@ -18030,7 +18030,7 @@ www-apps/jellyfin-bin 10.10.3: Jellyfin puts you in control of managing and stre
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
-www-apps/lidarr-bin 2.9.0.4508: Looks and smells like Sonarr but made for music
+www-apps/lidarr-bin 2.9.2.4521: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
 www-apps/mediawiki 1.39.10 1.39.11 1.42.3 1.42.4 1.43.0: The MediaWiki wiki web application (as used on wikipedia.org)
@@ -18052,17 +18052,17 @@ www-apps/phpBB 3.3.13: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 15.1.0 15.3.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.13: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 1.29.1.4903: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 5.17.1.9561: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 1.29.2.4915: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 5.17.2.9580: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.2.3 3.3.0 3.3.1: A simple CalDAV calendar server
-www-apps/readarr-bin 0.4.6.2711: An ebook and audiobook collection manager for Usenet and BitTorrent users
+www-apps/readarr-bin 0.4.7.2718: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 5.0.9 5.1.3: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.2.0 2.3.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 4.3.10 5.1.4 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr-bin 4.0.11.2815: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr-bin 4.0.12.2825: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20230901 20241001 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7 9999: ttyd, a simple command-line tool for sharing terminal over the web
