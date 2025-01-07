@@ -7105,6 +7105,8 @@ dev-perl/MaxMind-DB-Common 0.40.1: Code shared by the MaxMind DB reader and writ
 dev-perl/MaxMind-DB-Reader 1.0.14: Read MaxMind DB files and look up IP addresses
 dev-perl/MaxMind-DB-Reader-XS 1.0.9: Fast XS implementation of MaxMind DB reader
 dev-perl/MediaWiki-API 0.520.0: A OO interface to the Mediawiki API
+dev-perl/Memory-Process 0.60.0: Perl class to determine actual memory usage
+dev-perl/Memory-Usage 0.201.0: Tools to determine actual memory usage
 dev-perl/Metrics-Any 0.100.0-r1: Set the Metrics::Any adapter for the program
 dev-perl/Mixin-Linewise 0.111.0: Write your linewise code for handles; this does the rest
 dev-perl/Mo 0.400.0-r1: Perl Micro Object framework
@@ -10850,7 +10852,7 @@ dev-util/kube-linter 0.3.0: kubernetes yaml and helm chart static analysis tool
 dev-util/kubeval 0.16.1: validate kubernetes YAML or JSON configuration files
 dev-util/kup 0.3.6-r2: kernel.org uploader tool
 dev-util/kyua 0.13-r3: Testing framework for infrastructure software
-dev-util/lcov 2.0-r2 9999: A graphical front-end for GCC's coverage testing tool gcov
+dev-util/lcov 2.0-r3 9999: A graphical front-end for GCC's coverage testing tool gcov
 dev-util/libabigail 2.5 9999: Suite of tools for checking ABI differences between ELF objects
 dev-util/librnp 0.17.1-r1 0.17.1-r2: High performance C++ OpenPGP library
 dev-util/libtree 3.1.1: ldd as a tree with an option to bundle dependencies into a single folder
@@ -17577,7 +17579,7 @@ sys-fs/udev-init-scripts 35 9999: udev startup scripts for openrc
 sys-fs/udftools 2.3: Ben Fennema's tools for packet writing and the UDF filesystem
 sys-fs/udiskie 2.5.3 2.5.7: An automatic disk mounting service using udisks
 sys-fs/udisks 2.9.4-r3 2.10.1 2.10.1-r1: Daemon providing interfaces to work with storage devices
-sys-fs/unionfs-fuse 3.4-r1 3.5 9999: Self-syncing tree-merging file system based on FUSE
+sys-fs/unionfs-fuse 3.4-r1 3.5 3.6 9999: Self-syncing tree-merging file system based on FUSE
 sys-fs/vhba 20240202 20240917: Virtual (SCSI) Host Bus Adapter kernel module for the CDEmu suite
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
 sys-fs/xfsdump 3.1.12 3.2.0: XFS dump/restore utilities
