@@ -42,6 +42,7 @@ REQUIRED_USE="?? ( elogind systemd )"
 # meson.build specifically checks for bison and then byacc
 BDEPEND+="
 	|| ( sys-devel/bison dev-util/byacc )
+	app-text/docbook-xsl-ns-stylesheets
 	sys-devel/flex
 	virtual/pkgconfig
 	nls? ( sys-devel/gettext )
@@ -52,8 +53,9 @@ DEPEND="
 	audit? ( >=sys-process/audit-2.2.2[${MULTILIB_USEDEP}] )
 	berkdb? ( >=sys-libs/db-4.8.30-r1:=[${MULTILIB_USEDEP}] )
 	!berkdb? ( sys-libs/gdbm:=[${MULTILIB_USEDEP}] )
+	elogind? ( sys-auth/elogind )
 	selinux? ( >=sys-libs/libselinux-2.2.2-r4[${MULTILIB_USEDEP}] )
-	systemd? ( sys-apps/systemd:=[${MULTILIB_USEDEP}] )
+	systemd? ( sys-apps/systemd:= )
 	nis? (
 		net-libs/libnsl:=[${MULTILIB_USEDEP}]
 		>=net-libs/libtirpc-0.2.4-r2:=[${MULTILIB_USEDEP}]
@@ -98,6 +100,7 @@ multilib_src_configure() {
 
 		-Disadir='.'
 		-Dxml-catalog="${BROOT}"/etc/xml/catalog
+		-Dsbindir="${EPREFIX}"/sbin
 		-Dsecuredir="${EPREFIX}"/$(get_libdir)/security
 		-Ddocdir="${EPREFIX}"/usr/share/doc/${PF}
 		-Dhtmldir="${EPREFIX}"/usr/share/doc/${PF}/html
@@ -116,8 +119,8 @@ multilib_src_configure() {
 		# TODO: lastlog is enabled again for now by us as elogind support
 		# wasn't available at first. Even then, disabling lastlog will
 		# probably need a news item.
-		$(meson_feature systemd logind)
-		$(meson_feature elogind)
+		$(meson_native_use_feature systemd logind)
+		$(meson_native_use_feature elogind)
 		-Dpam_lastlog=enabled
 	)
 
