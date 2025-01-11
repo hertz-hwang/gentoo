@@ -5267,7 +5267,7 @@ dev-libs/apr-util 1.6.3: Apache Portable Runtime Utility Library
 dev-libs/argtable 2.13-r4: An ANSI C library for parsing GNU-style command-line options with minimal fuss
 dev-libs/asmjit 2024.10.25 9999: Machine code generation for C++
 dev-libs/atcore 1.0.0: API to manage the serial connection between the computer and 3D Printers
-dev-libs/atf 0.21-r2: Libraries to write tests in C, C++ and shell
+dev-libs/atf 0.21-r3 0.22: Libraries to write tests in C, C++ and shell
 dev-libs/atk 2.38.0 2.46.0: GTK+ & GNOME Accessibility Toolkit
 dev-libs/avro-c 1.9.1-r2: c library for the apache avro data serialization system
 dev-libs/aws-c-cal 0.4.5: Crypto Abstraction Layer: Cross-Platform C99 wrapper for cryptography primitives
@@ -5307,7 +5307,7 @@ dev-libs/cjose 0.6.2.2 0.6.2.3: C library implementing the Javascript Object Sig
 dev-libs/cl 1.2.4-r2: OpenCL bindings for Erlang
 dev-libs/clog 2023.11.04: C-style (a-la printf) logging library
 dev-libs/collada-dom 2.5.0-r1: COLLADA Document Object Model (DOM) C++ Library
-dev-libs/concurrencykit 0.7.2: A library with concurrency related algorithms and data structures in C
+dev-libs/concurrencykit 0.7.2-r1: A library with concurrency related algorithms and data structures in C
 dev-libs/confuse 3.3-r2: a configuration file parser library
 dev-libs/console_bridge 1.0.2 9999: A ROS-independent package for logging into rosconsole/rosout
 dev-libs/cowsql 1.15.6: Embeddable, replicated and fault tolerant SQL engine (fork of dqlite)
