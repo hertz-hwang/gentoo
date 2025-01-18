@@ -5254,7 +5254,7 @@ dev-lang/zig 0.13.0-r1 0.13.0-r2 9999: A robust, optimal, and maintainable progr
 dev-lang/zig-bin 0.10.1-r3 0.13.0: A robust, optimal, and maintainable programming language
 dev-libs/9libs 1.0-r5: Plan 9 compatibility libraries
 dev-libs/FBGEMM 2023.12.04: Facebook GEneral Matrix Multiplication
-dev-libs/FP16 2021.03.20-r4 2024.06.20: conversion to/from half-precision floating point formats
+dev-libs/FP16 2021.03.20-r4 2024.05.27 2024.06.20: conversion to/from half-precision floating point formats
 dev-libs/FXdiv 2020.12.09-r1: Division via fixed-point multiplication by inverse
 dev-libs/Ice 3.7.8-r2 3.7.10 3.7.10-r1 3.7.10-r2: ICE middleware C++ library and generator tools
 dev-libs/OpenNI 1.5.7.10-r3 9999: OpenNI SDK
@@ -15997,7 +15997,7 @@ sci-geosciences/viking 1.10: GPS data editor and analyzer
 sci-geosciences/xtide 2.15.5: XTide provides tide and current predictions in a wide variety of formats
 sci-geosciences/xyzservices 2024.6.0 2024.9.0: Source of XYZ tiles providers
 sci-libs/HighFive 2.8.0: Header-only C++ interface for libhdf5
-sci-libs/NNPACK 2020.12.22-r2: acceleration package for neural network computations
+sci-libs/NNPACK 2020.12.22-r3: acceleration package for neural network computations
 sci-libs/ViSP 3.5.0-r1: Visual Servoing Platform: visual tracking and visual servoing library
 sci-libs/XNNPACK 2022.02.17-r1 2022.12.22 2024.02.29: library of floating-point neural network inference operators
 sci-libs/adolc 2.7.2 9999: Automatic differentiation system for C/C++
