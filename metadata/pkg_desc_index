@@ -1194,7 +1194,7 @@ app-arch/unace 2.5-r6: ACE unarchiver
 app-arch/unadf 0.7.12-r2: Extract files from Amiga adf disk images
 app-arch/unar 1.10.8: Unpacker for various archiving formats, e.g. rar v3
 app-arch/unp 2.0_pre9 2.0_pre10 2.0: Script for unpacking various file formats
-app-arch/unrar 7.0.9 7.1.2: Uncompress rar files
+app-arch/unrar 7.0.9 7.1.2 7.1.3: Uncompress rar files
 app-arch/unrpa 2.3.0-r1: Ren'Py's RPA data file extractor
 app-arch/unshield 1.5.1: InstallShield CAB file extractor
 app-arch/unzip 6.0_p27-r1: unzipper for pkzip-compressed files
@@ -2361,7 +2361,7 @@ app-emulation/libvirt 9.8.0-r5 9.9.0-r5 10.1.0-r4 10.3.0-r4 10.5.0-r2 10.6.0-r1 
 app-emulation/libvirt-glib 4.0.0 5.0.0: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.1.0 3.3.0: Ncurses interface for QEMU
 app-emulation/open-vm-tools 12.4.5 12.5.0: Tools for VMware guests
-app-emulation/pcem 17-r2 17_p20241210: A PC emulator that specializes in running old operating systems and software
+app-emulation/pcem 17_p20241210: A PC emulator that specializes in running old operating systems and software
 app-emulation/plus42 1.1.13 1.1.14 1.1.16 1.1.17: An Enhanced HP-42S Calculator Simulator
 app-emulation/protontricks 1.10.5-r1 1.12.0: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r1: Nintendo Entertainment System (NES) emulator
@@ -2788,7 +2788,7 @@ app-misc/kanatest 0.4.8: Visual flashcard tool for memorizing the Japanese Hirag
 app-misc/khal 0.11.2: A CalDAV based calendar
 app-misc/khard 0.18.0 0.19.1: Console CardDAV client
 app-misc/klavaro 3.14: Another free touch typing tutor program
-app-misc/kryoflux-dtc 2.6-r3 3.50_p2-r1: KryoFlux Host Software
+app-misc/kryoflux-dtc 2.6-r3 3.50_p2-r2: KryoFlux Host Software
 app-misc/ktoblzcheck 1.49-r2: Library to check account numbers and bank codes of German banks
 app-misc/lcd4linux 0.11.0_pre20170527-r9: A small program that grabs information and displays it on an external LCD
 app-misc/lcdproc 0.5.9_p20211220: Displays real-time system information from your Linux/*BSD box on a LCD
@@ -2917,7 +2917,7 @@ app-misc/ttyload 0.5.3-r1: color-coded graph of load averages over time
 app-misc/ttyrec 1.0.8-r3: ttyrec provides tools to record and replay a terminal session
 app-misc/tzupdate 3.1.0-r1: Set the system timezone based on IP geolocation.
 app-misc/unfoo 1.0.8-r1: Simple bash driven frontend to simplify decompression of files
-app-misc/uptimed 0.4.6-r1: System uptime record daemon that keeps track of your highest uptimes
+app-misc/uptimed 0.4.6-r1 0.4.7: System uptime record daemon that keeps track of your highest uptimes
 app-misc/vcontrold 0.98.11: Daemon for communication with Viessmann Vito heatings
 app-misc/vcp 2.2-r2: Copy files/directories in a curses interface
 app-misc/vifm 0.13-r1 9999: Console file manager with vi(m)-like keybindings
@@ -5432,7 +5432,7 @@ dev-libs/ktextaddons 1.5.4: Various text handling addons
 dev-libs/kweathercore 24.08.3 24.12.1: Library for retrieval of weather information including forecasts and alerts
 dev-libs/lager 0.1.1-r1: Library to assist value-oriented design
 dev-libs/leatherman 1.12.13: A C++ toolkit
-dev-libs/level-zero 1.19.2: oneAPI Level Zero headers, loader and validation layer
+dev-libs/level-zero 1.19.2 1.20.1: oneAPI Level Zero headers, loader and validation layer
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
 dev-libs/libaio 0.3.113 0.3.113-r1 9999: Asynchronous input/output library that uses the kernels native interface
@@ -16888,7 +16888,7 @@ sys-apps/bar 1.11.1-r1: Console Progress Bar
 sys-apps/baselayout 2.14-r2 2.14-r3 2.15 2.17 9999: Filesystem baselayout and init scripts
 sys-apps/baselayout-java 0.1.0-r2: Baselayout for Java
 sys-apps/bat 0.23.0-r2 0.24.0-r2: cat(1) clone with syntax highlighting and Git integration
-sys-apps/bfs 3.3.1 4.0.1 4.0.2 4.0.3 4.0.4: Breadth-first version of the UNIX find command
+sys-apps/bfs 4.0.4 4.0.5: Breadth-first version of the UNIX find command
 sys-apps/biosdevname 0.7.3 0.7.3-r1: Sets BIOS-given device names instead of kernel eth* names
 sys-apps/biosdisk 1.01: FreeDOS based BIOS updating utility for Dell machines
 sys-apps/bleachbit 4.6.0-r1 4.6.2: Clean junk to free disk space and to maintain privacy
@@ -17039,7 +17039,7 @@ sys-apps/minised 1.16: a smaller, cheaper and faster sed implementation
 sys-apps/miscfiles 1.5-r4: Miscellaneous files
 sys-apps/mlocate 0.26-r3: Merging locate is an utility to index and quickly search for files
 sys-apps/mlxup-bin 4.13.0: Mellanox Update and Query Utility
-sys-apps/moar 1.24.6 1.26.0 1.27.1 1.27.2 1.29.0 1.30.0 1.31.2: Pager designed to do the right thing without any configuration
+sys-apps/moar 1.30.0 1.31.2: Pager designed to do the right thing without any configuration
 sys-apps/moreutils 0.68 0.69 0.70: Collection of tools that nobody thought to write when Unix was young
 sys-apps/most 5.1.0 5.2.0: Paging program that displays, one windowful at a time, the contents of a file
 sys-apps/mount-gtk 1.4.5.1: GTK+ based UDisks2 frontend
@@ -17135,7 +17135,7 @@ sys-apps/systemd 254.17 254.21 254.22 254.23 255.11 255.15 255.16 255.17 256.7 2
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
 sys-apps/systemd-utils 254.17 254.21-r1 254.22 254.23 255.15-r1 255.16 255.17 256.9-r1 256.10 256.11: Utilities split out from systemd for OpenRC users
 sys-apps/sysvinit 3.08 3.09 3.10 3.11 3.12-r1: /sbin/init - parent of all processes
-sys-apps/tas 1.8.0.231207: Supermicro Thin-Agent Service for monitoring through the BMC/IPMI
+sys-apps/tas 1.9.0.240925: Supermicro Thin-Agent Service for monitoring through the BMC/IPMI
 sys-apps/tcp-wrappers 7.6.31 7.6.31-r1: TCP Wrappers
 sys-apps/texinfo 7.1.1 7.2 9999: The GNU info program and utilities
 sys-apps/the_silver_searcher 2.2.0_p20201217-r2 2.2.0_p20201217-r3: A code-searching tool similar to ack, but faster
@@ -17158,8 +17158,8 @@ sys-apps/usermode-utilities 20070815-r6: Tools for use with Usermode Linux virtu
 sys-apps/uswid 0.4.7: Pure-Python library and CLI tool for processing SBoM metadata
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
 sys-apps/util-linux 2.40.2 2.40.4 9999: Various useful Linux utilities
-sys-apps/uutils-coreutils 0.0.27-r1 0.0.28 9999: GNU coreutils rewritten in Rust
-sys-apps/uutils-findutils 0.5.0-r1 0.7.0 9999: GNU findutils rewritten in Rust
+sys-apps/uutils-coreutils 0.0.28 0.0.29 9999: GNU coreutils rewritten in Rust
+sys-apps/uutils-findutils 0.7.0 9999: GNU findutils rewritten in Rust
 sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. reinitialize video card)
 sys-apps/watchdog 5.16 5.16-r1: A software watchdog and /dev/watchdog daemon
 sys-apps/which 2.21: Prints out location of specified executables that are in your path
