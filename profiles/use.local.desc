@@ -2413,7 +2413,6 @@ dev-python/pypax:xtpax - Enable XATTR_PAX_FLAGS support.
 dev-python/pypy-exe:low-memory - Build using PyPy with the engine configured towards low memory footprint. This makes it possible to build PyPy using ~3.5G of RAM on amd64 and ~half of that on x86, at the cost of lengthened build time.
 dev-python/pypy3:test-install - Install the test suite packages, that are required to run tests in a few reverse dependencies.
 dev-python/pypy3_10-exe:low-memory - Build using PyPy with the engine configured towards low memory footprint. This makes it possible to build PyPy using ~3.5G of RAM on amd64 and ~half of that on x86, at the cost of lengthened build time.
-dev-python/pyqt5:bluetooth - Build bindings for the QtBluetooth module
 dev-python/pyqt5:dbus - Build bindings for the QtDBus module
 dev-python/pyqt5:declarative - Build bindings for the QtQml and QtQuick modules and enable the qmlscene plugin
 dev-python/pyqt5:designer - Build bindings for the QtDesigner module and enable the designer plugin
@@ -8608,6 +8607,7 @@ www-client/elinks:gemini - Enable support for the gemini protocol
 www-client/elinks:gopher - Enable support for the gopher protocol
 www-client/elinks:libcss - Enable support for cascading style sheets via dev-libs/libcss
 www-client/elinks:mouse - Make elinks to grab all mouse events
+www-client/elinks:sftp - Add support for sftp (requires net-misc/curl).
 www-client/elinks:tre - Enable support for regex searches via dev-libs/tre
 www-client/elinks:xml - Enable support for bookmarks via dev-libs/expat
 www-client/firefox:clang - Use Clang compiler instead of GCC
