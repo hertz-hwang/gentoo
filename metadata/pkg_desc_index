@@ -1432,7 +1432,7 @@ app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 11: GLEP 63 compliance checker for OpenPGP keys
 app-crypt/gnupg 2.2.42-r4 2.2.43-r1 2.2.45 2.4.5-r1 2.4.5-r2 2.4.6-r1 2.4.7 2.5.1: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
-app-crypt/gocryptfs 2.4.0: Encrypted overlay filesystem written in Go
+app-crypt/gocryptfs 2.4.0 2.5.1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
 app-crypt/gpa 0.10.0-r1: The GNU Privacy Assistant (GPA) is a graphical user interface for GnuPG
 app-crypt/gpg-ringmgr 1.12-r1: GPG Keyring Manager to handle large GPG keyrings more easily
@@ -4015,7 +4015,7 @@ dev-db/recutils 1.9: Tools and libraries to access human-editable, plain text da
 dev-db/redict 7.3.2: A persistent caching system, key-value, and data structures database
 dev-db/redis 6.2.16 6.2.17 7.2.6 7.2.7 7.4.1 7.4.2: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.1.0 5.1.0-r1: PostgreSQL Replication Manager
-dev-db/rqlite 8.36.2 8.36.3 8.36.5 8.36.6: Replicated SQLite using the Raft consensus protocol
+dev-db/rqlite 8.36.2 8.36.3 8.36.5 8.36.6 8.36.8: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
 dev-db/spatialite 5.1.0-r1: A complete Spatial DBMS in a nutshell built upon sqlite
 dev-db/spatialite-tools 5.0.1-r1: A collection of CLI tools supporting SpatiaLite
@@ -10847,7 +10847,7 @@ dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
 dev-util/itstool 2.0.7-r2: Translation tool for XML documents that uses gettext files and ITS rules
 dev-util/japi-compliance-checker 2.4 9999: Java API compliance checker
 dev-util/jenkins-bin 2.479.2 2.479.3 2.487: The leading open source automation server
-dev-util/jfrog-cli 1.54.1 2.54.0 2.72.1 2.72.2 2.72.3: Command line utility for operations on container images and image repositories
+dev-util/jfrog-cli 1.54.1 2.54.0 2.72.1 2.72.2 2.72.3 2.73.2: Command line utility for operations on container images and image repositories
 dev-util/kafkactl 5.4.0: CLI for interacting with Kafka
 dev-util/kcov 40 43 9999: Kcov is a code coverage tester for compiled languages, Python and Bash
 dev-util/kdevelop 24.08.3 24.12.1: Integrated Development Environment, supporting KF6/Qt, C/C++ and much more
