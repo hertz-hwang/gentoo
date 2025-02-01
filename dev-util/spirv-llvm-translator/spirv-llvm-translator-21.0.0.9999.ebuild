@@ -5,7 +5,7 @@ EAPI=8
 
 LLVM_COMPAT=( 21 )
 
-inherit cmake-multilib flag-o-matic git-r3 llvm-r1 multiprocessing
+inherit cmake-multilib flag-o-matic git-r3 llvm-r2 multiprocessing
 
 DESCRIPTION="Bi-directional translator between SPIR-V and LLVM IR"
 HOMEPAGE="https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
@@ -21,7 +21,7 @@ RDEPEND="
 	llvm-core/llvm:${SLOT}=[${MULTILIB_USEDEP}]
 "
 DEPEND="${RDEPEND}
-	>=dev-util/spirv-headers-1.3.280
+	>=dev-util/spirv-headers-1.4.305
 "
 BDEPEND="
 	virtual/pkgconfig
