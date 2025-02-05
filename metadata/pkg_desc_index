@@ -4042,7 +4042,7 @@ dev-debug/d-feet 0.3.16: D-Feet is a powerful D-Bus debugger
 dev-debug/d-spy 1.10.0 47.0: D-Spy is a simple tool to explore D-Bus connections
 dev-debug/ddd 3.3.12-r5 3.4.1: Graphical front-end for command-line debuggers
 dev-debug/drgn 0.0.30-r1: Programmable debugger
-dev-debug/dtrace 2.0.1.1-r2 9999: Dynamic BPF-based system-wide tracing tool
+dev-debug/dtrace 2.0.1.1-r2 2.0.2 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
 dev-debug/edb-debugger 1.3.0-r1 9999: edb is a cross platform x86/x86-64 debugger, inspired by Ollydbg
 dev-debug/gdb 15.2-r100 15.2-r101 16.1 9999: GNU debugger
@@ -10882,6 +10882,7 @@ dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.0-r2 3.22.1 3.22.2 3.22.2-r1: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
+dev-util/mesa_clc 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 12.0.0: Free Win64 runtime and import library definitions
 dev-util/mingw64-toolchain 12.0.0: All-in-one mingw64 toolchain intended for building Wine without crossdev
