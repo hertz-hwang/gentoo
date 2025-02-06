@@ -16204,7 +16204,7 @@ sci-libs/octomap 1.9.8: An Efficient Probabilistic 3D Mapping Framework Based on
 sci-libs/ogdi 4.1.0-r1: Open Geographical Datastore Interface, a GIS support library
 sci-libs/ondselsolver 1.0.1_p20241024 1.0.1_p20241127-r1: Assembly Constraints and Multibody Dynamics code
 sci-libs/onnx 1.16.1-r1 1.16.2: Open Neural Network Exchange (ONNX)
-sci-libs/openblas 0.3.25-r1 0.3.26 0.3.26-r1: Optimized BLAS library based on GotoBLAS2
+sci-libs/openblas 0.3.25-r1 0.3.26 0.3.26-r1 0.3.29: Optimized BLAS library based on GotoBLAS2
 sci-libs/opencascade 7.8.1 9999: Development platform for CAD/CAE, 3D surface/solid modeling and data exchange
 sci-libs/openlibm 0.7.5 0.8.0 0.8.3: High quality system independent, open source libm
 sci-libs/orocos-bfl 0.8.0: Bayesian Filtering Library
@@ -16220,7 +16220,7 @@ sci-libs/primegen 0.97-r3: Small, fast library to generate primes in order
 sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.4.1 9999: PROJ coordinate transformation software
-sci-libs/punc 1.5: Portable Understructure for Numerical Computing
+sci-libs/punc 1.5-r1: Portable Understructure for Numerical Computing
 sci-libs/pyshp 2.3.1-r2: Pure Python read/write support for ESRI Shapefile format
 sci-libs/pytorch 2.4.0 2.4.1 2.5.1-r1: Tensors and Dynamic neural networks in Python
 sci-libs/qd 2.3.24: Quad-double and double-double float arithmetics
