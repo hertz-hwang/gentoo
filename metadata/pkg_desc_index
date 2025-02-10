@@ -5230,8 +5230,8 @@ dev-lang/rakudo 2024.10 2024.12: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
 dev-lang/ruby 3.1.4-r3 3.1.5 3.1.6-r1 3.1.6-r2 3.1.6-r3 3.2.4-r2 3.2.4-r3 3.2.5-r2 3.2.6-r2 3.2.6-r3 3.2.6-r4 3.2.7 3.3.4-r2 3.3.5-r1 3.3.6-r1 3.3.7 3.3.7-r1 3.4.1 3.4.1-r1: An object-oriented scripting language
-dev-lang/rust 1.71.1-r100 1.74.1-r100 1.75.0-r100 1.76.0-r100 1.77.1-r100 1.78.0-r100 1.79.0-r100 1.80.1-r100 1.81.0-r100 1.82.0-r100 1.82.0-r101 1.83.0-r1 1.84.0 1.84.1: Systems programming language from Mozilla
-dev-lang/rust-bin 1.71.1-r100 1.71.1-r101 1.74.1-r100 1.74.1-r101 1.75.0-r100 1.75.0-r101 1.76.0-r100 1.77.1-r100 1.77.1-r101 1.78.0-r100 1.79.0-r100 1.79.0-r101 1.80.1-r100 1.80.1-r101 1.81.0-r100 1.81.0-r101 1.82.0-r100 1.82.0-r101 1.83.0 1.84.0 1.84.1: Systems programming language from Mozilla
+dev-lang/rust 1.71.1-r101 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r102 1.83.0-r2 1.84.0-r1 1.84.1-r1: Systems programming language from Mozilla
+dev-lang/rust-bin 1.71.1-r102 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r101 1.79.0-r102 1.80.1-r102 1.81.0-r102 1.82.0-r102 1.83.0-r1 1.84.0-r1 1.84.1-r1: Systems programming language from Mozilla
 dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.0 1.84.1: Common files shared between multiple slots of Rust
 dev-lang/sassc 3.6.2: A libsass command line driver
 dev-lang/scala-bin 2.13.9-r1: The Scala Programming Language
@@ -17424,7 +17424,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r1 0.15-r4 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1-r2 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250116 12.4.1_p20250123 12.4.1_p20250130 12.4.1_p20250206 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250117 13.3.1_p20250124 13.3.1_p20250131 13.3.1_p20250207 13.4.9999 14.2.1_p20241221 14.2.1_p20250118 14.2.1_p20250125 14.2.1_p20250201 14.2.1_p20250208 14.3.9999 15.0.0_pre20250112-r3 15.0.1_pre20250119 15.0.1_pre20250126 15.0.1_pre20250202 15.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250116 12.4.1_p20250123 12.4.1_p20250130 12.4.1_p20250206 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250117 13.3.1_p20250124 13.3.1_p20250131 13.3.1_p20250207 13.4.9999 14.2.1_p20241221 14.2.1_p20250118 14.2.1_p20250125 14.2.1_p20250201 14.2.1_p20250208 14.3.9999 15.0.0_pre20250112-r3 15.0.1_pre20250119 15.0.1_pre20250126 15.0.1_pre20250202 15.0.1_pre20250209 15.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.11 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.4 0.22.4-r1 0.22.5 0.22.5-r1 0.23.1: GNU locale utilities
