@@ -17173,7 +17173,7 @@ sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. re
 sys-apps/watchdog 5.16 5.16-r1: A software watchdog and /dev/watchdog daemon
 sys-apps/which 2.21 2.23: Prints out location of specified executables that are in your path
 sys-apps/x86info 1.31: Dave Jones' handy, informative x86 CPU diagnostic utility
-sys-apps/xdg-dbus-proxy 0.1.5: Filtering proxy for D-Bus connections
+sys-apps/xdg-dbus-proxy 0.1.5 0.1.6: Filtering proxy for D-Bus connections
 sys-apps/xdg-desktop-portal 1.18.4: Desktop integration portal
 sys-apps/xdg-desktop-portal-gnome 46.2 47.1 47.2: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xdg-desktop-portal-gtk 1.14.1: Backend implementation for xdg-desktop-portal using GTK+
@@ -18606,7 +18606,7 @@ x11-misc/xcompmgr 1.1.10: X Compositing manager
 x11-misc/xdaliclock 2.47 2.48: Dali Clock is a digital clock. When a digit changes, it melts into its new shape
 x11-misc/xdesktopwaves 1.4: Cellular automata setting the background of your X Windows desktop under water
 x11-misc/xdg-user-dirs 0.18: Tool to help manage 'well known' user directories
-x11-misc/xdg-user-dirs-gtk 0.11: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
+x11-misc/xdg-user-dirs-gtk 0.11 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-misc/xdg-utils 1.2.1-r8: Portland utils for cross-platform/cross-toolkit/cross-desktop interoperability
 x11-misc/xdialog 2.3.1-r1: Drop-in replacement for cdialog using GTK
 x11-misc/xdiskusage 1.52-r1: User-friendly program to show you what is using up all your disk space
