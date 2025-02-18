@@ -15414,7 +15414,7 @@ net-nds/jxplorer 3.3.1.2-r2: Fully functional LDAP browser written in Java
 net-nds/ldapvi 1.7_p20101214-r7: Manage LDAP entries with a text editor
 net-nds/led 1.111: A general purpose LDAP editor
 net-nds/nsscache 0.49-r1: commandline tool to sync directory services to local cache
-net-nds/openldap 2.4.59-r2 2.4.59-r3 2.5.14 2.5.16 2.5.18 2.6.4-r3 2.6.4-r4 2.6.6-r2 2.6.6-r3 2.6.8 2.6.8-r1: LDAP suite of application and development tools
+net-nds/openldap 2.4.59-r2 2.4.59-r3 2.5.14 2.5.16 2.5.18 2.5.19 2.6.4-r3 2.6.4-r4 2.6.6-r2 2.6.6-r3 2.6.8 2.6.8-r1 2.6.9: LDAP suite of application and development tools
 net-nds/phpldapadmin 1.2.6.6 1.2.6.7: phpLDAPadmin is a web-based tool for managing all aspects of your LDAP server
 net-nds/rpcbind 1.2.6 9999: portmap replacement which supports RPC over various protocols
 net-nds/shelldap 1.5.1: A handy shell-like interface for browsing LDAP servers and editing their content
@@ -16570,6 +16570,7 @@ sec-keys/openpgp-keys-ocserv 20230505: OpenPGP key for ocserv
 sec-keys/openpgp-keys-oisf 20200807: OpenPGP key used by Open InfoSec Foundation (OISF) software releases
 sec-keys/openpgp-keys-oletange 20210423: OpenPGP keys used by Ole Tange
 sec-keys/openpgp-keys-ondrejjirman 20250216: OpenPGP keys used by Ondrej Jirman
+sec-keys/openpgp-keys-openldap 20201216: OpenPGP keys used by OpenLDAP Project
 sec-keys/openpgp-keys-openssh 20220316: OpenPGP keys used by OpenSSH
 sec-keys/openpgp-keys-openssl 20220316-r1 20221101 20230207 20230801 20240424 20240920: OpenPGP keys used by OpenSSL
 sec-keys/openpgp-keys-openwall 20210107: OpenPGP keys used to sign Openwall software releases
@@ -17724,7 +17725,7 @@ sys-power/acpi_call 1.2.2-r1 9999: A linux kernel module that enables calls to A
 sys-power/acpid 2.0.34-r1: Daemon for Advanced Configuration and Power Interface
 sys-power/acpilight 1.2-r4: Replacement for xbacklight that uses the ACPI interface to set brightness
 sys-power/acpitool 0.5.1-r2: A replacement for the APM tool
-sys-power/apcupsd 3.14.14-r3 3.14.14-r4: APC UPS daemon with integrated tcp/ip remote shutdown
+sys-power/apcupsd 3.14.14-r4: APC UPS daemon with integrated tcp/ip remote shutdown
 sys-power/athcool 0.3.12: small utility to toggle Powersaving mode for AMD Athlon/Duron processors
 sys-power/autosuspend 5.0.0: A daemon to automatically suspend and wake up a system
 sys-power/bbswitch 0.8_p20211129-r1: Toggle discrete NVIDIA Optimus graphics card
