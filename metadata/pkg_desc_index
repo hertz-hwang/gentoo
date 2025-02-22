@@ -5219,7 +5219,7 @@ dev-lang/orc 0.4.38 0.4.40 0.4.40-r1: The Oil Runtime Compiler, a just-in-time c
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r1: pcc portable c compiler
 dev-lang/perl 5.40.0 5.40.0-r1 5.40.1_rc1: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.1.30 8.2.24 8.2.27-r1 8.3.16: The PHP language runtime engine
+dev-lang/php 8.1.30 8.2.24 8.2.27-r1 8.3.17: The PHP language runtime engine
 dev-lang/pico8 0.2.6b: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9-r2 5.9.1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.17 2.7.7.3.18 3.10.7.3.17_p4 3.10.7.3.18 3.11.7.3.18_p1 3.11.7.3.18_p20250221: A fast, compliant alternative implementation of the Python (3.11) language
@@ -17209,7 +17209,7 @@ sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the loc
 sys-auth/nss-pam-ldapd 0.9.12-r2 0.9.12-r3 0.9.12-r4 0.9.13: NSS module for name lookups using LDAP
 sys-auth/nss_ldap 265-r11: NSS LDAP Module
 sys-auth/oath-toolkit 2.6.12: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
-sys-auth/otpcalc 0.97.9 0.98 0.98.1: A One Time Password and S/Key calculator for GTK+
+sys-auth/otpcalc 0.98.1: A One Time Password and S/Key calculator for GTK+
 sys-auth/pam-pgsql 0.7.3.2-r2: PAM module to authenticate users via PostgreSQL
 sys-auth/pam-script 1.1.9: PAM module for running scripts during authorization, password change and session
 sys-auth/pam_abl 0.6.0: PAM module for blacklisting hosts and users repeatedly failed authentication
