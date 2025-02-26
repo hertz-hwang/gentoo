@@ -12439,7 +12439,7 @@ kde-plasma/ksystemstats 6.2.5 6.3.2: Plugin-based system monitoring daemon
 kde-plasma/kwallet-pam 6.2.5 6.3.2: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 5.116.0 5.116.0-r1 6.2.5 6.3.2: Qt-style API to interact with the wayland-client API
 kde-plasma/kwayland-integration 6.2.5 6.3.2: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.2.5 6.3.2-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.2.5 6.3.2.1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwrited 6.2.5 6.3.2: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.2.5 6.3.2: Qt component to allow applications make use of Wayland wl-layer-shell protocol
 kde-plasma/libkscreen 6.2.5 6.3.2: Plasma screen management library
@@ -17056,7 +17056,7 @@ sys-apps/minised 1.16: a smaller, cheaper and faster sed implementation
 sys-apps/miscfiles 1.5-r4: Miscellaneous files
 sys-apps/mlocate 0.26-r3: Merging locate is an utility to index and quickly search for files
 sys-apps/mlxup-bin 4.13.0: Mellanox Update and Query Utility
-sys-apps/moar 1.30.0 1.31.2: Pager designed to do the right thing without any configuration
+sys-apps/moar 1.30.0 1.31.2 1.31.4: Pager designed to do the right thing without any configuration
 sys-apps/moreutils 0.68 0.69 0.70: Collection of tools that nobody thought to write when Unix was young
 sys-apps/most 5.1.0 5.2.0: Paging program that displays, one windowful at a time, the contents of a file
 sys-apps/mount-gtk 1.4.5.1: GTK+ based UDisks2 frontend
