@@ -1351,10 +1351,10 @@ app-containers/crun 1.14.3 1.16 1.17 1.19.1: A fast and low-memory footprint OCI
 app-containers/devcontainer 0.72.0 0.73.0 0.74.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.8.0 1.8.1.1 1.8.1.2 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1: System container image builder for LXC and incus
-app-containers/docker 27.4.1-r1 27.5.0 27.5.1: The core functions you need to create Docker images and run Docker containers
+app-containers/docker 27.4.1-r1 27.5.0 27.5.1 28.0.1: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-bench-security 1.6.0: Test for best practices around deploying docker containers
 app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 9999: Docker CLI plugin for extended build capabilities with BuildKit
-app-containers/docker-cli 27.4.1 27.5.0 27.5.1: the command line binary for docker
+app-containers/docker-cli 27.4.1 27.5.0 27.5.1 28.0.1: the command line binary for docker
 app-containers/docker-compose 1.29.2-r6 1.29.2-r7 2.28.1 2.32.1 2.32.3: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.8.2: Suite of programs to use native stores to keep Docker credentials safe
 app-containers/docker-proxy 0.8.0_p20230118: Docker container networking
@@ -5233,8 +5233,8 @@ dev-lang/rakudo 2024.10 2024.12 2025.01: A compiler for the Raku programming lan
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
 dev-lang/ruby 3.1.6-r1 3.1.6-r3 3.2.6-r2 3.2.6-r4 3.2.7 3.3.6-r1 3.3.7 3.3.7-r1 3.4.1 3.4.1-r1 3.4.2: An object-oriented scripting language
-dev-lang/rust 1.71.1-r101 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r102 1.83.0-r2 1.84.1-r1 1.85.0 1.85.0-r1 1.86.0_beta20250218 1.86.0_beta20250218-r1 9999: Systems programming language originally developed by Mozilla
-dev-lang/rust-bin 1.71.1-r102 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.1-r2 1.85.0 1.86.0_beta20250218 9999: Systems programming language from Mozilla
+dev-lang/rust 1.71.1-r101 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r102 1.83.0-r2 1.84.1-r1 1.85.0 1.85.0-r1 1.86.0_beta20250218-r1 1.86.0_beta20250225 9999: Systems programming language originally developed by Mozilla
+dev-lang/rust-bin 1.71.1-r102 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.1-r2 1.85.0 1.86.0_beta20250218 1.86.0_beta20250225 9999: Systems programming language from Mozilla
 dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.1 1.85.0 1.86.0_beta20250218 9999: Common files shared between multiple slots of Rust
 dev-lang/sassc 3.6.2: A libsass command line driver
 dev-lang/scala-bin 2.13.9-r1: The Scala Programming Language
@@ -14960,7 +14960,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.62.1 1.64.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.5.0 1.7.0 1.8.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.7.0-r1 1.10.0-r1 1.10.0-r2 1.11.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 18.20.6 20.15.1 20.17.0 20.18.1 20.18.2 22.4.1-r1 22.7.0 22.12.0-r1 22.13.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 18.20.6 20.18.2 22.4.1-r1 22.7.0 22.12.0-r1 22.13.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 5.0 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.13: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS.
@@ -15134,7 +15134,7 @@ net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dhcp 4.4.3_p1-r6: ISC Dynamic Host Configuration Protocol (DHCP) client/server
-net-misc/dhcpcd 10.1.0 10.1.0-r1 10.2.0 9999: A fully featured, yet light weight RFC2131 compliant DHCP client
+net-misc/dhcpcd 10.1.0 10.1.0-r1 10.2.0 10.2.2 9999: A fully featured, yet light weight RFC2131 compliant DHCP client
 net-misc/dhcpcd-ui 0.7.9: Desktop notification and configuration for dhcpcd
 net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if responding
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
@@ -16117,7 +16117,7 @@ sci-libs/hipSPARSE 5.7.1 6.1.1 6.3.0: ROCm SPARSE marshalling library
 sci-libs/htslib 1.19.1 1.20: C library for high-throughput sequencing data formats
 sci-libs/huggingface_hub 0.20.3 0.21.4 0.24.7: a client library to interact with the Hugging Face Hub
 sci-libs/hypre 2.20.0 2.21.0 2.24.0 2.32.0: Parallel matrix preconditioners library
-sci-libs/ideep 3.3.2 3.5.3_p2: Intel® Optimization for Chainer
+sci-libs/ideep 3.3.2 3.5.3_p2 3.5.3_p3: Intel® Optimization for Chainer
 sci-libs/idlcoyote 20161220-r1 99999999: GDL library from D. Fannings IDL courses
 sci-libs/idlmarkwardt 20160319-r1: Craig Markwardt IDL procedures (MPFIT, CMSVLIB, etc)
 sci-libs/ignition-common 3.17.0: Set of libraries designed to rapidly develop robot applications
@@ -18087,8 +18087,8 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 10.1 15: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 133.0.6943.126 134.0.6998.23 135.0.7023.0: Open-source version of Google Chrome web browser
-www-client/dillo 3.1.1-r2 9999: Lean FLTK based web browser
+www-client/chromium 133.0.6943.126 133.0.6943.141 134.0.6998.23 135.0.7023.0: Open-source version of Google Chrome web browser
+www-client/dillo 3.1.1-r3 9999: Lean FLTK based web browser
 www-client/elinks 0.17.1.1 0.18.0 9999: Advanced and well-established text-mode web browser
 www-client/epiphany 46.4 47.2: GNOME webbrowser based on Webkit
 www-client/falkon 24.08.3-r3 24.12.2: Cross-platform web browser using QtWebEngine
