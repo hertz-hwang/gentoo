@@ -17077,7 +17077,7 @@ sys-apps/paxctl 0.9: Manages various PaX related program header flags for Elf32,
 sys-apps/paxctld 1.2.5-r1: PaX flags maintenance daemon
 sys-apps/pciutils 3.10.0 3.12.0 3.13.0: Various utilities dealing with the PCI bus
 sys-apps/pcmciautils 018_p18: PCMCIA userspace utilities for Linux
-sys-apps/pcsc-lite 2.0.1-r1 2.3.0: PC/SC Architecture smartcard middleware library
+sys-apps/pcsc-lite 2.0.1-r1 2.3.0 2.3.1: PC/SC Architecture smartcard middleware library
 sys-apps/pcsc-slb-rf72-drv 1.1.0-r2: Schlumberger Reflex 72 Serial Smartcard Reader
 sys-apps/pcsc-tools 1.6.2 1.7.0 1.7.1 1.7.2: PC/SC Architecture smartcard tools
 sys-apps/pick 4.0.0-r1: A fuzzy search tool for the command-line
@@ -17215,7 +17215,7 @@ sys-auth/pam_krb5 4.11: Kerberos V PAM Authentication Module
 sys-auth/pam_mktemp 1.1.1: Create per-user private temporary directories during login
 sys-auth/pam_mount 2.18-r1 2.20: A PAM module that can mount volumes for a user session
 sys-auth/pam_mysql 0.8.2-r2: pam_mysql is a module for pam to authenticate users with mysql
-sys-auth/pam_p11 0.3.1: PAM module for authenticating against PKCS#11 tokens
+sys-auth/pam_p11 0.3.1 0.6.0: PAM module for authenticating against PKCS#11 tokens
 sys-auth/pam_require 0.7-r2: Allows you to require a special group or user to access a service
 sys-auth/pam_skey 1.1.5-r7: PAM interface for the S/Key authentication system
 sys-auth/pam_smb 2.0.0_rc6-r3: PAM module for authenticating against an SMB (such as the Win_x families) server
