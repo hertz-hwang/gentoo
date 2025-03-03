@@ -17068,7 +17068,7 @@ sys-apps/nvme-cli 2.9.1 2.10.2 2.11: NVM-Express user space tooling for Linux
 sys-apps/onerng 3.7: Software for the Open Hardware Random Number Generator called OneRNG
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.9.0-r1 3.10.0: Drivers and user-space daemon to control Razer devices on GNU/Linux
-sys-apps/openrc 0.55.1 0.56 0.60-r1 9999: OpenRC manages the services, startup and shutdown of a host
+sys-apps/openrc 0.55.1 0.56 0.60.1 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/openrc-navi 0.60_beta4 9999: OpenRC fork with user services support
 sys-apps/osinfo-db 20240523 20240701: osinfo database files
 sys-apps/osinfo-db-tools 1.10.0-r1 1.10.0-r2 1.11.0: Tools for managing the osinfo database
@@ -18093,7 +18093,7 @@ www-client/epiphany 46.4 47.2: GNOME webbrowser based on Webkit
 www-client/falkon 24.08.3-r3 24.12.2: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 128.7.0 135.0 135.0.1: Firefox Web Browser
-www-client/firefox-bin 128.7.0-r1 135.0.1-r1: Firefox Web Browser
+www-client/firefox-bin 128.7.0-r1 135.0.1-r1 136.0: Firefox Web Browser
 www-client/google-chrome 133.0.6943.126: The web browser from Google
 www-client/google-chrome-beta 134.0.6998.23: The web browser from Google
 www-client/google-chrome-unstable 135.0.7012.4: The web browser from Google
