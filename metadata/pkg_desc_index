@@ -911,7 +911,7 @@ app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.707.0: AWS Session Manager Plugin for aws-cli
 app-admin/awscli 1.37.21 1.37.26 1.38.4: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.11.17 2.12.0 2.13.11 2.17.35 2.23.2: command line interface for Amazon Web Services
-app-admin/bitwarden-desktop-bin 2024.12.0 2025.1.1 2025.1.4: Bitwarden password manager desktop client
+app-admin/bitwarden-desktop-bin 2025.1.4 2025.2.0: Bitwarden password manager desktop client
 app-admin/btrfs-assistant 2.1.1: GUI management tool to make managing a Btrfs filesystem easier
 app-admin/calamares 3.3.6-r2 3.3.13: Distribution-independent installer framework
 app-admin/cancd 0.1.0-r6: CA NetConsole Daemon receives output from the Linux netconsole driver
@@ -978,7 +978,7 @@ app-admin/helm 3.13.2 3.15.2 3.15.4: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57: A free, open source, light-weight and easy-to-use password manager
-app-admin/keepassxc 2.7.9 9999: KeePassXC - KeePass Cross-platform Community Edition
+app-admin/keepassxc 2.7.9 2.7.10 9999: KeePassXC - KeePass Cross-platform Community Edition
 app-admin/kernel-hardening-checker 0.6.10: A tool for checking the security hardening options of the Linux kernel
 app-admin/killproc 2.13-r1: killproc and assorted tools for boot scripts
 app-admin/kio-admin 24.08.3 24.12.2: Manage files as administrator using the admin:// KIO protocol
@@ -5162,7 +5162,7 @@ dev-lang/execline 2.9.6.0 2.9.6.1: A non-interactive scripting language
 dev-lang/f2c 20100827-r1 20240130 20240312: Fortran to C converter
 dev-lang/fennel 1.4.2-r1 1.5.0 1.5.1 1.5.3: Lisp-like language that compiles to Lua
 dev-lang/fpc 3.2.2: Free Pascal Compiler
-dev-lang/fuzion 0.086 0.088 0.089 0.090: A language with a focus on simplicity, safety and correctness
+dev-lang/fuzion 0.090: A language with a focus on simplicity, safety and correctness
 dev-lang/gdl 1.0.4-r1: GNU Data Language
 dev-lang/gforth 0.7.3-r2: GNU Forth is a fast and portable implementation of the ANSI Forth language
 dev-lang/ghc 9.0.2-r4 9.2.8: The Glasgow Haskell Compiler
@@ -5517,7 +5517,7 @@ dev-libs/libglib-testing 0.1.1: Libglib-testing is a test library providing test
 dev-libs/libgnome-games-support 1.8.2 2.0.0: Library for code common to GNOME games
 dev-libs/libgnt 2.14.3: Pidgin's GLib Ncurses Toolkit
 dev-libs/libgpg-error 1.51: Contains error handling functions used by GnuPG software
-dev-libs/libgpiod 1.6.4 2.1.3 2.2: C library and tools for interacting with the linux GPIO character device
+dev-libs/libgpiod 1.6.4 2.2 2.2.1: C library and tools for interacting with the linux GPIO character device
 dev-libs/libgrapheme 2.0.2: Unicode string library
 dev-libs/libgudev 238-r1 238-r2: GObject bindings for libudev
 dev-libs/libgusb 0.4.8 0.4.9: GObject wrapper for libusb
@@ -10517,7 +10517,7 @@ dev-scheme/jscheme 7.2-r2: A Scheme dialect with a simple Java interface called 
 dev-scheme/kawa 3.1.1-r3: Java-based Scheme system & Language Framework
 dev-scheme/mit-scheme 12.1-r1: Scheme interpreter, compiler, debugger and runtime library
 dev-scheme/owl-lisp 0.2.1 0.2.2 9999: Purely functional dialect of Scheme
-dev-scheme/racket 8.15: General purpose, multi-paradigm Lisp-Scheme programming language
+dev-scheme/racket 8.15 8.16: General purpose, multi-paradigm Lisp-Scheme programming language
 dev-scheme/scm 5.5.6-r4: SCM is a Scheme implementation from the author of slib
 dev-scheme/scmxlate 20090410-r2: Scmxlate is a configuration tool for software packages written in Scheme
 dev-scheme/sigscheme 0.9.1-r1: SigScheme is an R5RS Scheme interpreter for embedded use
@@ -11091,7 +11091,7 @@ dev-vcs/reposurgeon 5.3: Tool for editing VCS repositories and translating among
 dev-vcs/rsvndump 0.6-r1 0.6.1 0.6.1-r1 0.6.2: Dump a remote Subversion repository
 dev-vcs/sourcegit 8.45 2025.03 2025.04 2025.06 9999: Open Source Git GUI client using .NET AvaloniaUI
 dev-vcs/stagit 1.2: Generates static HTML pages for a Git repository
-dev-vcs/stgit 2.5.0 2.5.1 2.5.2: Stack-based patch management for Git
+dev-vcs/stgit 2.5.0 2.5.2 2.5.3: Stack-based patch management for Git
 dev-vcs/subversion 1.14.3 1.14.5 1.14.5-r1: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.18-r1 9999: Tool for one-time conversion from svn to git
