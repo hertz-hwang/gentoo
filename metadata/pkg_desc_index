@@ -2978,8 +2978,7 @@ app-office/ktimetracker 6.0.0_pre20250109: Todo management and time tracker
 app-office/ledger 3.3.2-r2: Double-entry accounting system with a command-line reporting interface
 app-office/libalkimia 8.1.2-r2 8.1.92_p20250211: Library with common classes and functionality used by KDE finance applications
 app-office/libreoffice 24.2.7.2-r1 24.2.7.2-r2 25.2.1.2 25.2.1.2-r1 25.2.9999 9999: A full office productivity suite
-app-office/libreoffice-bin 24.2.7.2 24.8.4-r2 25.2.0-r2 25.2.0-r3: A full office productivity suite. Binary package
-app-office/libreoffice-bin-debug 24.2.7.2: LibreOffice, a full office productivity suite. Binary package, debug info
+app-office/libreoffice-bin 24.8.4-r2 25.2.0-r2 25.2.0-r3: A full office productivity suite. Binary package
 app-office/libreoffice-l10n 24.2.7.2 24.8.5.2 25.2.1.2: Translations for the Libreoffice suite
 app-office/libreoffice-voikko 5.0-r1: Free Finnish spell checking and hyphenation for LibreOffice
 app-office/lyx 2.4.2.1 2.4.3: WYSIWYM (What You See Is What You Mean) document processor based on LaTeX
@@ -3206,7 +3205,7 @@ app-text/docbook-xsl-stylesheets 1.79.1-r4: XSL Stylesheets for Docbook
 app-text/docbook2X 0.8.8-r4 0.8.8-r5: Tools to convert docbook to man and info
 app-text/docx2txt 1.4: Convert MS Office docx files to plain text
 app-text/dos2unix 7.5.0 7.5.1 7.5.2: Convert DOS or MAC text files to UNIX format or vice versa
-app-text/doxygen 1.9.8 1.12.0 1.13.0-r1 9999: Documentation system for most programming languages
+app-text/doxygen 1.13.0-r1 9999: Documentation system for most programming languages
 app-text/dvipng 1.17: Translate DVI files into PNG or GIF graphics
 app-text/dvipsk 2021.1_p20210325-r2 2023.03.11_p66203 2024.03.11_p70015: DVI-to-PostScript translator
 app-text/dvisvgm 2.14-r1 3.0.4 3.1 3.1.2 3.2 3.3 3.4: Converts DVI files to SVG
@@ -3240,7 +3239,7 @@ app-text/gtranslator 46.1 47.1: GNOME Translation Editor
 app-text/gv 3.7.3.90-r1 3.7.4: Viewer for PostScript and PDF documents using Ghostscript
 app-text/halibut 1.3: yet another free document preparation system
 app-text/hd2u 1.0.3: Dos2Unix like text file converter
-app-text/highlight 4.9 4.12: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
+app-text/highlight 4.12: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hnb 1.9.18-r1: A program to organize many kinds of data in one place
 app-text/htag 0.0.24-r1: random signature maker
 app-text/html-xml-utils 8.6 8.7: A number of simple utilities for manipulating HTML and XML files
@@ -3271,7 +3270,7 @@ app-text/letterize 1.4: Generate English-plausible alphabetic mnemonics for a ph
 app-text/libabw 0.1.3: Library parsing abiword documents
 app-text/libebook 0.1.3-r3: Library parsing various ebook formats
 app-text/libepubgen 0.1.1-r1: EPUB generator for librevenge
-app-text/libetonyek 0.1.10-r2 0.1.11 0.1.12 9999: Library parsing Apple Keynote presentations
+app-text/libetonyek 0.1.12 9999: Library parsing Apple Keynote presentations
 app-text/libexttextcat 3.4.7: Library implementing N-gram-based text categorization
 app-text/libgepub 0.7.1: GObject based library for handling and rendering epub documents
 app-text/libgxps 0.3.2-r3: Library for handling and rendering XPS documents
@@ -5394,8 +5393,8 @@ dev-libs/hyprland-protocols 0.4.0 9999: Wayland protocol extensions for Hyprland
 dev-libs/hyprlang 0.5.2 0.5.3 0.6.0: Official implementation library for the hypr config language
 dev-libs/icinga-php-library 0.13.0 0.13.2 0.14.1: Icinga PHP libraries for Icinga Web 2
 dev-libs/icinga-php-thirdparty 0.12.0 0.12.1: Icinga PHP libraries for Icinga Web 2
-dev-libs/icu 75.1 76.1-r1: International Components for Unicode
-dev-libs/icu-layoutex 75.1 76.1-r1: External layout part of International Components for Unicode
+dev-libs/icu 76.1-r1: International Components for Unicode
+dev-libs/icu-layoutex 76.1-r1: External layout part of International Components for Unicode
 dev-libs/icu-le-hb 1.2.3 2.0.0: ICU Layout Engine API on top of HarfBuzz shaping library
 dev-libs/igraph 0.10.11 0.10.12: Creating and manipulating undirected and directed graphs
 dev-libs/iksemel 1.4-r2: eXtensible Markup Language parser library designed for Jabber applications
@@ -10888,7 +10887,7 @@ dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 12.0.0: Free Win64 runtime and import library definitions
 dev-util/mingw64-toolchain 12.0.0: All-in-one mingw64 toolchain intended for building Wine without crossdev
 dev-util/mk-configure 0.38.3: Lightweight replacement for GNU autotools
-dev-util/nihtest 1.8.0 1.9.1: A testing tool for command line utilities
+dev-util/nihtest 1.9.1: A testing tool for command line utilities
 dev-util/ninka 2.0_pre1_p20220619: A license identification tool for source code
 dev-util/numdiff 5.9.0: File comparision, ignoring small numeric differences and formats
 dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.1 12.5.1 12.6.1-r1 12.8.0-r2: NVIDIA CUDA Toolkit (compiler and friends)
@@ -11476,7 +11475,7 @@ games-fps/freedm-data 0.12.1-r1: Game resources for FreeDM
 games-fps/freedoom 0.12.1: A complete free-content single-player focused game based on the Doom engine
 games-fps/freedoom-data 0.12.1-r1: Game resources for Freedoom: Phase 1+2
 games-fps/glxquake-bin 0-r3: A binary that works with any 3D-graphics-card that supports the glx X-extension
-games-fps/gzdoom 4.10.0 4.12.2: A modder-friendly OpenGL source port based on the DOOM engine
+games-fps/gzdoom 4.12.2 4.14.1: A modder-friendly OpenGL source port based on the DOOM engine
 games-fps/industri 1.01: Quake/Tenebrae based, single player game
 games-fps/legends 0.4.1.43-r2: Fast-paced first-person-shooter online multiplayer game, similar to Tribes
 games-fps/nexuiz 2.5.2-r1: Deathmatch FPS based on DarkPlaces, an advanced Quake 1 engine
@@ -12439,7 +12438,7 @@ kde-plasma/ksystemstats 6.2.5 6.3.2: Plugin-based system monitoring daemon
 kde-plasma/kwallet-pam 6.2.5 6.3.2: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 5.116.0-r1 6.2.5 6.3.2: Qt-style API to interact with the wayland-client API
 kde-plasma/kwayland-integration 6.2.5 6.3.2: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.2.5 6.3.2.1 6.3.2.1-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.2.5 6.3.2.1 6.3.2.1-r1 6.3.2.1-r2: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwrited 6.2.5 6.3.2: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.2.5 6.3.2: Qt component to allow applications make use of Wayland wl-layer-shell protocol
 kde-plasma/libkscreen 6.2.5 6.3.2: Plasma screen management library
@@ -12946,7 +12945,7 @@ media-gfx/gphotofs 0.5-r1 0.5-r2: FUSE file system for interfacing with digital 
 media-gfx/gpicview 0.2.5-r3: A Simple and Fast Image Viewer for X
 media-gfx/graphicsmagick 1.3.42 1.3.43 1.3.43-r1 1.3.45-r1 9999: Collection of tools and libraries for many image formats
 media-gfx/graphite2 1.3.14_p20210810-r3: Library providing rendering capabilities for complex non-Roman writing systems
-media-gfx/graphviz 12.0.0-r100 12.1.2 12.2.0 12.2.1-r1: Open Source Graph Visualization Software
+media-gfx/graphviz 12.2.1-r1: Open Source Graph Visualization Software
 media-gfx/gscan2pdf 2.13.2-r2 2.13.4-r1: Scan documents, perform OCR, produce PDFs and DjVus
 media-gfx/gthumb 3.12.6: Image viewer and browser for Gnome
 media-gfx/gtkimageview 1.6.4: A simple image viewer widget for GTK
@@ -13235,7 +13234,7 @@ media-libs/libcanberra 0.30-r8: Portable sound event library
 media-libs/libcanberra-gtk3 0.30: GTK3 bindings for libcanberra, the portable sound event library
 media-libs/libcdaudio 0.99.12-r5: Library of cd audio related routines
 media-libs/libcddb 1.3.2-r2: Library for accessing a CDDB server
-media-libs/libcdr 0.1.7 0.1.8 9999: Library parsing the Corel cdr documents
+media-libs/libcdr 0.1.8 9999: Library parsing the Corel cdr documents
 media-libs/libchamplain 0.12.21: Clutter based world map renderer
 media-libs/libclastfm 0.5: C API library to the last.fm web service (unofficial)
 media-libs/libcue 2.3.0: CUE Sheet Parser Library
@@ -13374,7 +13373,7 @@ media-libs/libva 2.22.0 9999: Video Acceleration (VA) API for Linux
 media-libs/libva-compat 1.8.3-r2: Video Acceleration (VA) API for Linux
 media-libs/libva-intel-driver 2.4.1-r6 9999: HW video decode support for Intel integrated graphics
 media-libs/libva-intel-media-driver 24.4.4-r1 25.1.0 25.1.1 25.1.2 9999: Intel Media Driver for VA-API (iHD)
-media-libs/libvisio 0.1.7 0.1.8 9999: Library parsing the file format of MS Visio documents
+media-libs/libvisio 0.1.8 9999: Library parsing the file format of MS Visio documents
 media-libs/libvisual 0.4.1 0.4.2-r1: Abstraction library between applications and audio visualisation plugins
 media-libs/libvmaf 2.3.1 3.0.0 9999: C libary for Netflix's Perceptual video quality assessment
 media-libs/libvorbis 1.3.7-r1 1.3.7-r2: The Ogg Vorbis sound file format library
@@ -13520,7 +13519,7 @@ media-libs/zint 2.14.0 2.15.0: Barcode encoding library supporting over 50 symbo
 media-libs/zita-alsa-pcmi 0.6.1: Provides easy access to ALSA PCM devices
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-libs/zita-resampler 1.10.1 1.11.2: C++ library for real-time resampling of audio signals
-media-libs/zmusic 1.1.4: GZDoom's music system as a standalone library
+media-libs/zmusic 1.1.4 1.1.14: GZDoom's music system as a standalone library
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-libs/zxing-cpp 2.2.1 2.2.1-r1 2.3.0-r1: C++ Multi-format 1D/2D barcode image processing library
 media-plugins/alsa-plugins 1.2.7.1-r1 1.2.12: ALSA extra plugins
@@ -14746,7 +14745,7 @@ net-im/profanity 0.13.1-r1 0.14.0 0.14.0-r2: A console based XMPP client inspire
 net-im/prosody 0.12.5: Prosody is a modern XMPP communication server
 net-im/prosody-modules 0_pre20241231 9999: A collection of community-maintained modules for Prosody
 net-im/purple-events 0.99.1: Allows a fine-grained control over libpurple events
-net-im/qtox 1.17.6-r2 1.18.2 1.18.3 9999: Instant messaging client using the encrypted p2p Tox protocol
+net-im/qtox 1.18.3 9999: Instant messaging client using the encrypted p2p Tox protocol
 net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web Chat Platform
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.1.1-r1 9999: Send XMPP (Jabber) messages via command line
@@ -15651,6 +15650,7 @@ net-wireless/portapack-havoc 0.0_p20180612: Custom firmware for the HackRF SDR +
 net-wireless/qdmr 0.11.3 0.12.0 9999: GUI application for configuring and programming cheap DMR radios
 net-wireless/reaver 1.6.5: Brute force attack against Wifi Protected Setup
 net-wireless/rtl-sdr 2.0.1 2.0.2 9999: Turns your Realtek RTL2832 based DVB dongle into a SDR receiver
+net-wireless/rtl-sdr-blog 1.3.6: Modified Osmocom drivers with enhancements for RTL-SDR Blog V3 and V4 units
 net-wireless/rtl_433 21.12 22.11 9999: Decode OOK modulated signals
 net-wireless/sdrplay 2.13.1-r1 3.07.1: SDRplay API/HW driver for all RSPs
 net-wireless/sigdigger 0.3.0: The free digital signal analyzer
@@ -16910,7 +16910,7 @@ sys-apps/busybox 1.36.1-r3 9999: Utilities for rescue and embedded systems
 sys-apps/byld 1.0.3-r1: Build a Linux distribution on a single floppy
 sys-apps/cciss_vol_status 1.12a 1.12a-r1: Shows status of logical drives attached to HP SmartArray controllers
 sys-apps/ccs-tools 1.8.3_p20130214: TOMOYO Linux tools
-sys-apps/checkpolicy 3.6 3.7-r1 3.8 9999: SELinux policy compiler
+sys-apps/checkpolicy 3.6 3.7-r1 3.8.1 9999: SELinux policy compiler
 sys-apps/chname 1.1-r1: Run a command with a new system hostname
 sys-apps/cinit 0.2.1-r2: a fast, small and simple init with support for profiles
 sys-apps/ckbcomp 1.230: Compile an XKB keymap for loadkeys
@@ -17040,7 +17040,7 @@ sys-apps/man-pages 6.05.01 6.06 6.10 9999: A somewhat comprehensive collection o
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20240905 1.3.4_p20250131: An (often faster than gawk) awk-interpreter
-sys-apps/mcstrans 3.6 3.7-r1 3.8 9999: SELinux context translation to human readable names
+sys-apps/mcstrans 3.6 3.7-r1 3.8.1 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00 7.20: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.2-r1: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.5.1 4.6.0: Userspace utility for testing the memory subsystem for faults
@@ -17086,7 +17086,7 @@ sys-apps/pkgcraft-tools 0.0.23 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.22 1.1.23: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
-sys-apps/policycoreutils 3.7 3.8 9999: SELinux core utilities
+sys-apps/policycoreutils 3.7 3.8.1 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.3 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
 sys-apps/portage 3.0.65-r1 3.0.66.1-r1 3.0.67 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
@@ -17107,7 +17107,7 @@ sys-apps/readahead-list 1.20060421.1016-r4: Preloads files into the page cache t
 sys-apps/rename 1.3-r3: Easily rename files
 sys-apps/renameutils 0.12.0: Use your favorite text editor to rename files
 sys-apps/restartd 0.2.2-r1: A daemon for checking your running and not running processes
-sys-apps/restorecond 3.6 3.7 3.8 9999: Daemon to watch for creation and set default SELinux fcontexts
+sys-apps/restorecond 3.6 3.7 3.8.1 9999: Daemon to watch for creation and set default SELinux fcontexts
 sys-apps/ripgrep 14.1.1-r1: Search tool that combines the usability of ag with the raw speed of grep
 sys-apps/ripgrep-all 0.10.6: Like ripgrep, but also search in PDFs, E-Books, Office documents, archives, etc.
 sys-apps/rkflashtool 6.1: Tool for flashing Rockchip devices
@@ -17122,10 +17122,10 @@ sys-apps/s6-portable-utils 2.3.0.3 2.3.0.4: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.4.3 0.5.5.0: Service manager for the s6 supervision suite
 sys-apps/sandbox 2.39 2.40 2.41 2.42 2.43 2.44 2.45 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12: Utility to output and modify parameters on a SCSI device, like hdparm
-sys-apps/secilc 3.7 3.8 9999: SELinux Common Intermediate Language (CIL) Compiler
+sys-apps/secilc 3.7 3.8.1 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.9-r1: Super-useful stream editor
-sys-apps/selinux-python 3.7-r1 3.8 9999: SELinux core utilities
-sys-apps/semodule-utils 3.6 3.7 3.8 9999: SELinux policy module utilities
+sys-apps/selinux-python 3.7-r1 3.8.1 9999: SELinux core utilities
+sys-apps/semodule-utils 3.6 3.7 3.8.1 9999: SELinux policy module utilities
 sys-apps/sensei-raw-ctl 0.0_pre20180729-r1: SteelSeries Sensei Raw configuration tool
 sys-apps/servicelog 1.1.15 1.1.16: Provides utilities for logging service-related events
 sys-apps/setserial 2.17-r6: Configure your serial ports with it
@@ -17424,7 +17424,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r1 0.15-r4 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250220 12.4.1_p20250227 12.4.1_p20250306 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250221 13.3.1_p20250301 13.3.1_p20250307 13.4.9999 14.2.1_p20241221 14.2.1_p20250222 14.2.1_p20250301 14.2.1_p20250308 14.3.9999 15.0.1_pre20250216 15.0.1_pre20250223 15.0.1_pre20250223-r1 15.0.1_pre20250302 15.0.1_pre20250302-r1 15.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250220 12.4.1_p20250227 12.4.1_p20250306 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250221 13.3.1_p20250301 13.3.1_p20250307 13.4.9999 14.2.1_p20241221 14.2.1_p20250222 14.2.1_p20250301 14.2.1_p20250308 14.3.9999 15.0.1_pre20250216 15.0.1_pre20250223 15.0.1_pre20250223-r1 15.0.1_pre20250302 15.0.1_pre20250302-r1 15.0.1_pre20250309 15.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.11 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.4 0.22.4-r1 0.22.5 0.22.5-r1 0.23.1: GNU locale utilities
@@ -17670,9 +17670,9 @@ sys-libs/libosinfo 1.10.0-r1 1.11.0: GObject library for managing information ab
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
 sys-libs/librtas 2.0.2-r2 2.0.3: A set of libraries for userspace access to RTAS on the PowerPC platform(s)
 sys-libs/libseccomp 2.5.5-r2 2.6.0 9999: High level interface to Linux seccomp filter
-sys-libs/libselinux 3.6-r1 3.7-r1 3.8 9999: SELinux userland library
-sys-libs/libsemanage 3.7 3.8 9999: SELinux kernel and policy management library
-sys-libs/libsepol 3.6 3.7 3.8 9999: SELinux binary policy representation library
+sys-libs/libselinux 3.6-r1 3.7-r1 3.8.1 9999: SELinux userland library
+sys-libs/libsemanage 3.7 3.8.1 9999: SELinux kernel and policy management library
+sys-libs/libsepol 3.6 3.7 3.8.1 9999: SELinux binary policy representation library
 sys-libs/libservicelog 1.1.18 1.1.19: Provides a library for logging service-related events
 sys-libs/libsmbios 2.4.3-r1: Provide access to (SM)BIOS information
 sys-libs/libstatgrab 0.92.1: A tool to provide access to statistics about the system on which it's run
@@ -18360,7 +18360,7 @@ x11-libs/libxklavier 5.4-r1: A library for the X Keyboard Extension (high-level 
 x11-libs/libxshmfence 1.3.3: Shared memory fences using futexes
 x11-libs/motif 2.3.8-r6: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
-x11-libs/pango 1.52.1 1.52.2 1.54.0: Internationalized text layout and rendering library
+x11-libs/pango 1.52.2 1.54.0: Internationalized text layout and rendering library
 x11-libs/pixman 0.44.2 9999: Low-level pixel manipulation routines
 x11-libs/qscintilla 2.14.1-r1: Qt port of Neil Hodgson's Scintilla C++ editor control
 x11-libs/qtermwidget 2.0.1 2.1.0 9999: Qt terminal emulator widget
