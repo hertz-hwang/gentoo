@@ -14007,7 +14007,7 @@ media-sound/mpdas 0.4.5: AudioScrobbler client for MPD written in C++
 media-sound/mpdscribble 0.25: An MPD client that submits information to Audioscrobbler
 media-sound/mpfc 1.3.8.1-r5: Music Player For Console
 media-sound/mpg123 1.32.3 1.32.3-r100: A meta package for realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
-media-sound/mpg123-base 1.32.9-r1 1.32.10-r1: a realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
+media-sound/mpg123-base 1.32.9-r2 1.32.10-r2: a realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
 media-sound/mpg321 0.3.2-r1: Realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
 media-sound/mplay 0.80: Curses front-end for mplayer
 media-sound/mt-daapd 0.2.4.2-r2: A multi-threaded implementation of Apple's DAAP server
@@ -15127,7 +15127,7 @@ net-misc/connman-json-client 1.0_p20150721-r3: An ncurses UI for connman
 net-misc/connman-notify 0_pre20191003-r3: Desktop notification integration for connman
 net-misc/connman-ui 0_p20150622-r1: A full-featured GTK based trayicon UI for ConnMan
 net-misc/croc 10.0.12 10.0.13 10.1.0 10.1.1: Easily and securely send things from one computer to another
-net-misc/curl 8.9.1-r2 8.10.1-r2 8.11.1-r2 8.12.0-r1 8.12.1 8.13.0_rc1 9999: A Client that groks URLs
+net-misc/curl 8.11.1-r2 8.12.1 8.13.0_rc1 9999: A Client that groks URLs
 net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
