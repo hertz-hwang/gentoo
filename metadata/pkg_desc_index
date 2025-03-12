@@ -11855,7 +11855,7 @@ games-util/gamepick 0.35-r2: Launch opengl games with custom graphic settings
 games-util/glbsp 2.24-r1: Node builder specially designed for OpenGL ports of the DOOM game engine
 games-util/grfcodec 6.1.0-r1 9999: Suite of programs to modify openttd/Transport Tycoon Deluxe's GRF files
 games-util/gslist 0.8.11a-r1: A GameSpy server browser
-games-util/heroic-bin 2.15.2 2.16.0: GOG and Epic Games Launcher for Linux
+games-util/heroic-bin 2.15.2 2.16.0 2.16.1: GOG and Epic Games Launcher for Linux
 games-util/joycond 0.1.0_p20220720-r1: Daemon that uses hid-nintendo evdev devices to implement joycon pairing
 games-util/joystick 1.8.1: Joystick testing utilities
 games-util/lgogdownloader 3.16-r1 9999: Unofficial GOG.com downloader for Linux
@@ -18006,7 +18006,7 @@ www-apache/mod_tls 0.14.0: A module that uses rustls to provide a memory safe TL
 www-apache/mod_whatkilledus 2.01-r1: Debug segmentation faults in Apache threads
 www-apache/mod_wsgi 5.0.0: An Apache2 module for running Python WSGI applications
 www-apache/mod_xsendfile 1.0_beta1-r2 1.0_beta1-r3: Apache module that processes X-SENDFILE headers registered by the output handler
-www-apache/modsecurity-crs 3.3.7 4.8.0 4.11.0: OWASP ModSecurity Core Rule Set
+www-apache/modsecurity-crs 3.3.7 4.8.0 4.11.0 4.12.0: OWASP ModSecurity Core Rule Set
 www-apache/mpm_itk 2.4.7_p4-r2: Run virtual hosts under separate users/groups
 www-apache/passenger 6.0.24 6.0.26: Passenger makes deployment of Ruby on Rails applications a breeze
 www-apache/pwauth 2.3.10-r2: A Unix Web Authenticator
