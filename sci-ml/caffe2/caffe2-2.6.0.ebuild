@@ -46,7 +46,7 @@ RDEPEND="
 	dev-libs/pthreadpool
 	dev-libs/sleef
 	virtual/lapack
-	sci-libs/onnx
+	sci-ml/onnx
 	sci-ml/foxi
 	cuda? (
 		dev-libs/cudnn
@@ -56,7 +56,7 @@ RDEPEND="
 	fbgemm? ( >=dev-libs/FBGEMM-2023.12.01 )
 	gloo? ( sci-ml/gloo[cuda?] )
 	mpi? ( virtual/mpi )
-	nnpack? ( sci-libs/NNPACK )
+	nnpack? ( sci-ml/NNPACK )
 	numpy? ( $(python_gen_cond_dep '
 		dev-python/numpy[${PYTHON_USEDEP}]
 		') )
