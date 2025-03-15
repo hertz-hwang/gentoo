@@ -60,7 +60,7 @@ RDEPEND="
 	numpy? ( $(python_gen_cond_dep '
 		dev-python/numpy[${PYTHON_USEDEP}]
 		') )
-	onednn? ( =dev-libs/oneDNN-3.5* )
+	onednn? ( =sci-ml/oneDNN-3.5* )
 	opencl? ( virtual/opencl )
 	qnnpack? (
 		!sci-libs/QNNPACK
@@ -101,7 +101,7 @@ DEPEND="
 	cuda? ( <=dev-libs/cutlass-3.4.1 )
 	onednn? ( sci-ml/ideep )
 	dev-libs/psimd
-	dev-libs/FP16
+	sci-ml/FP16
 	dev-libs/FXdiv
 	dev-libs/pocketfft
 	dev-libs/flatbuffers

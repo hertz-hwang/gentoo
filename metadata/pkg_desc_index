@@ -5257,7 +5257,6 @@ dev-lang/yasm 1.3.0-r2: An assembler for x86 and x86_64 instruction sets
 dev-lang/zig 0.13.0-r2 0.13.0-r3 0.14.0 9999: A robust, optimal, and maintainable programming language
 dev-lang/zig-bin 0.10.1-r3 0.13.0 0.14.0: A robust, optimal, and maintainable programming language
 dev-libs/9libs 1.0-r5: Plan 9 compatibility libraries
-dev-libs/FP16 2024.05.27 2024.06.20: conversion to/from half-precision floating point formats
 dev-libs/FXdiv 2020.12.09-r1: Division via fixed-point multiplication by inverse
 dev-libs/Ice 3.7.8-r2 3.7.10 3.7.10-r1 3.7.10-r2: ICE middleware C++ library and generator tools
 dev-libs/OpenNI 1.5.7.10-r4 9999: OpenNI SDK
@@ -5696,7 +5695,6 @@ dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization pri
 dev-libs/ntl 11.5.1-r4: High-performance and portable C++ number theory library
 dev-libs/nwjs 0.88.0: Framework that lets you call all Node.js modules directly from the DOM
 dev-libs/olm 3.2.15 3.2.16 3.2.16-r1: Implementation of the Double Ratchet cryptographic ratchet in C++
-dev-libs/oneDNN 3.5.3 3.6.2: oneAPI Deep Neural Network Library
 dev-libs/onigmo 6.2.0-r1: Onigmo is a regular expressions library forked from Oniguruma
 dev-libs/oniguruma 6.9.9 6.9.9-r1 6.9.10 9999: Regular expression library for different character encodings
 dev-libs/opencl-clang 15.0.1 16.0.1 17.0.1 18.1.1 19.1.0: OpenCL-oriented thin wrapper library around clang
@@ -10468,6 +10466,7 @@ dev-ruby/yajl-ruby 1.4.3: Ruby C bindings to the Yajl JSON stream-based parser l
 dev-ruby/yard 0.9.36 0.9.37: Documentation generation tool for the Ruby programming language
 dev-ruby/zeitwerk 2.6.18 2.7.0 2.7.1 2.7.2: Efficient and thread-safe code loader for Ruby
 dev-ruby/zentest 4.12.2: Testing tools: zentest, unit_diff, autotest, multiruby, and Test::Rails
+dev-ruby/zstd-ruby 1.5.6.6: Ruby binding for zstd (Zstandard - Fast real-time compression algorithm).
 dev-scheme/akku 1.1.0-r100: Language package manager for Scheme
 dev-scheme/bigloo 4.5b-r1: Practical Scheme Compiler with many extensions
 dev-scheme/bytestructures 2.0.2-r100: Structured access to bytevector contents
@@ -13105,7 +13104,7 @@ media-libs/a52dec 0.7.4-r8: Library for decoding ATSC A/52 streams used in DVD
 media-libs/aalib 1.4_rc5-r10 1.4_rc5-r11: A ASCII-Graphics Library
 media-libs/aften 0.0.8-r2: A/52 (AC-3) audio encoder
 media-libs/allegro 4.4.3.1-r1 5.2.7.0-r2: Cross-platform library aimed at video game and multimedia programming
-media-libs/alsa-lib 1.2.11 1.2.12 1.2.13-r2: Advanced Linux Sound Architecture Library
+media-libs/alsa-lib 1.2.11 1.2.12 1.2.13-r2 1.2.13-r3: Advanced Linux Sound Architecture Library
 media-libs/alsa-oss 1.1.8: Advanced Linux Sound Architecture OSS compatibility layer
 media-libs/alsa-topology-conf 1.2.5.1: ALSA topology configuration files
 media-libs/alsa-ucm-conf 1.2.11 1.2.12 1.2.13: ALSA ucm configuration files
@@ -16378,6 +16377,7 @@ sci-misc/netlogo-bin 6.2.2: Programming language and IDE for agent-based modelli
 sci-misc/oww 0.86.5 0.86.5-r1: A one-wire weather station for Dallas Semiconductor
 sci-misc/vitables 3.0.2_p4-r1: A graphical tool for browsing / editing files in both PyTables and HDF5 formats
 sci-ml/FBGEMM 2023.12.04: Facebook GEneral Matrix Multiplication
+sci-ml/FP16 2024.05.27 2024.06.20: conversion to/from half-precision floating point formats
 sci-ml/NNPACK 2020.12.22-r3: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.02.29 2024.11.08: library of floating-point neural network inference operators
 sci-ml/caffe2 2.4.1-r4 2.5.1-r8 2.6.0: A deep learning framework
@@ -16389,6 +16389,7 @@ sci-ml/huggingface_hub 0.24.7 0.25.2 0.26.5: a client library to interact with t
 sci-ml/ideep 3.3.2 3.5.3_p2 3.5.3_p3: Intel® Optimization for Chainer
 sci-ml/jiwer 3.0.3: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20240807 0.4.0_p20241109: part of the PyTorch Profiler
+sci-ml/oneDNN 3.5.3 3.6.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.16.2-r1 1.17.0: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.4.1 2.5.1-r1 2.6.0: Tensors and Dynamic neural networks in Python
 sci-ml/safetensors 0.4.3-r1 0.4.5-r1: Simple, safe way to store and distribute tensors
