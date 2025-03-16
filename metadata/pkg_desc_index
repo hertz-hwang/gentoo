@@ -9726,7 +9726,7 @@ dev-qt/qdoc 5.15.16: Qt documentation generator
 dev-qt/qt-creator 15.0.1 16.0.0 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qt-docs 5.15.2_p202011130614 6.8.2_p202501260838: Qt6 documentation and examples for Qt Creator and other tools
 dev-qt/qt3d 5.15.16 6.8.2 6.8.9999 6.9.0_rc 6.9.9999 6.9999: 3D rendering module for the Qt6 framework
-dev-qt/qt5compat 6.8.2 6.8.9999 6.9.0_rc 6.9.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
+dev-qt/qt5compat 6.8.2-r1 6.8.9999 6.9.0_rc-r1 6.9.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
 dev-qt/qtbase 6.8.2-r2 6.8.9999 6.9.0_rc 6.9.9999 6.9999: Cross-platform application development framework
 dev-qt/qtcharts 5.15.16 6.8.2 6.8.9999 6.9.0_rc 6.9.9999 6.9999: Chart component library for the Qt6 framework
 dev-qt/qtchooser 66-r2: Tool to quickly switch between multiple Qt installations
@@ -13214,7 +13214,7 @@ media-libs/ladspa-sdk 1.17-r2: The Linux Audio Developer's Simple Plugin API
 media-libs/lasi 1.1.3: C++ library for postscript stream output
 media-libs/lcms 2.15 2.16-r1 2.17: A lightweight, speed optimized color management engine
 media-libs/lensfun 0.3.4_rc1 0.3.4 0.3.4-r1: Library for rectifying and simulating photographic lens distortions
-media-libs/leptonica 1.83.1 1.84.1-r2 1.85.0: C library for image processing and analysis
+media-libs/leptonica 1.84.1-r2 1.85.0: C library for image processing and analysis
 media-libs/lerc 4.0.0: Limited Error Raster Compression
 media-libs/lib3ds 1.3.0-r2 2.0.0_rc1-r1: library for managing 3D-Studio Release 3 and 4 .3DS files
 media-libs/lib3mf 2.2.0-r1 2.3.2: Implementation of the 3D Manufacturing Format file standard
@@ -17367,14 +17367,14 @@ sys-cluster/keepalived 2.2.7 2.2.8: A strong & robust keepalive facility to the 
 sys-cluster/knem 1.1.4_p20250126 9999: High-Performance Intra-Node MPI Communication
 sys-cluster/kops 1.28.2 1.30.0: Kubernetes Operations
 sys-cluster/kronosnet 1.19 1.19-r1 1.23 1.25: Network abstraction layer designed for High Availability use cases
-sys-cluster/kube-apiserver 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: Kubernetes API server
-sys-cluster/kube-controller-manager 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: Kubernetes Controller Manager
-sys-cluster/kube-proxy 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: Kubernetes Proxy service
+sys-cluster/kube-apiserver 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: Kubernetes API server
+sys-cluster/kube-controller-manager 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: Kubernetes Controller Manager
+sys-cluster/kube-proxy 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: Kubernetes Proxy service
 sys-cluster/kube-router 1.1.1 1.2.2 1.5.0 1.6.0: A turnkey solution for Kubernetes networking
-sys-cluster/kube-scheduler 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: Kubernetes Scheduler
-sys-cluster/kubeadm 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: CLI to Easily bootstrap a secure Kubernetes cluster
-sys-cluster/kubectl 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: CLI to run commands against Kubernetes clusters
-sys-cluster/kubelet 1.30.9 1.30.10 1.30.11 1.31.5 1.31.6 1.31.7 1.32.1 1.32.2 1.32.3: Kubernetes Node Agent
+sys-cluster/kube-scheduler 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: Kubernetes Scheduler
+sys-cluster/kubeadm 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: CLI to Easily bootstrap a secure Kubernetes cluster
+sys-cluster/kubectl 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: CLI to run commands against Kubernetes clusters
+sys-cluster/kubelet 1.30.9 1.30.10 1.30.11 1.31.6 1.31.7 1.32.2 1.32.3: Kubernetes Node Agent
 sys-cluster/kubeletctl 1.12 1.13: A client for kubelet
 sys-cluster/kubelogin 1.30.1 1.31.0: kubectl plugin for Kubernetes OpenID Connect authentication
 sys-cluster/kubeseal 0.27.2 0.27.3: Client-side utility for one-way encrypted secrets in kubernetes
@@ -17453,7 +17453,7 @@ sys-firmware/atmel-firmware 1.3-r3: Firmware and config for atmel and atmel_cs w
 sys-firmware/b43-firmware 5.100.138 6.30.163.46: broadcom firmware for b43 LP PHY and >=linux-3.2
 sys-firmware/b43legacy-firmware 3.130.20.0: broadcom firmware for b43legacy/bcm43xx
 sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
-sys-firmware/edk2 202202 202408 202411: TianoCore EDK II UEFI firmware for virtual machines
+sys-firmware/edk2 202202 202408 202411 202502: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/edk2-bin 202202 202408 202411: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.18: NXP i.MX firmware
 sys-firmware/intel-microcode 20240910_p20240915 20241112_p20241103 20250211_p20250211: Intel IA32/IA64 microcode update data
