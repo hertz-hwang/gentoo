@@ -10939,7 +10939,7 @@ dev-util/rpmdevtools 9.6: Collection of rpm packaging related utilities
 dev-util/rt-tests 2.7 2.8: A collection of latency testing tools for the linux(-rt) kernel
 dev-util/ruff 0.9.9 0.9.10 0.11.0: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5: Execute your runbooks, docs and READMEs
-dev-util/rustup 1.27.0-r1 1.27.1-r1 9999: Rust toolchain installer
+dev-util/rustup 1.27.1-r1 1.28.1 9999: Rust toolchain installer
 dev-util/sasm 3.10.1: Simple crossplatform IDE for NASM assembly language
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
 dev-util/sccache 0.10.0-r1: ccache/distcc like tool with support for rust and cloud storage
@@ -16382,7 +16382,7 @@ sci-ml/kineto 0.4.0_p20240807 0.4.0_p20241109: part of the PyTorch Profiler
 sci-ml/oneDNN 3.5.3 3.6.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.16.2-r1 1.17.0: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.4.1 2.5.1-r1 2.6.0: Tensors and Dynamic neural networks in Python
-sci-ml/safetensors 0.4.3-r1 0.4.5-r1: Simple, safe way to store and distribute tensors
+sci-ml/safetensors 0.4.5-r1: Simple, safe way to store and distribute tensors
 sci-ml/seqeval 1.2.2-r3: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2022.05.13-r1: provides a tensor-aware channel
 sci-ml/tokenizers 0.20.1-r1 0.21.0: Implementation of today's most used tokenizers
@@ -18085,7 +18085,7 @@ www-client/epiphany 46.4 47.2: GNOME webbrowser based on Webkit
 www-client/falkon 24.12.2 24.12.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 128.7.0 128.8.0 135.0 135.0.1 136.0 136.0.1: Firefox Web Browser
-www-client/firefox-bin 128.7.0-r1 128.8.0 135.0.1-r1 136.0 136.0.1: Firefox Web Browser
+www-client/firefox-bin 128.7.0-r1 128.8.0 135.0.1-r1 136.0 136.0.1 136.0.2: Firefox Web Browser
 www-client/google-chrome 134.0.6998.88: The web browser from Google
 www-client/google-chrome-beta 135.0.7049.17: The web browser from Google
 www-client/google-chrome-unstable 136.0.7064.0: The web browser from Google
