@@ -5248,7 +5248,7 @@ dev-lang/tk 8.6.13 8.6.14 8.6.15 8.6.16: Tk Widget Set
 dev-lang/tuprolog 3.2.0-r3: tuProlog is a light-weight Prolog for Internet applications and infrastructures
 dev-lang/typescript 5.7.3 5.8.2: Superset of JavaScript with optional static typing, classes and interfaces
 dev-lang/uasm 2.56.2 2.57: UASM is a free MASM-compatible assembler
-dev-lang/vala 0.56.16 0.56.17: Compiler for the GObject type system
+dev-lang/vala 0.56.16 0.56.17 0.56.18: Compiler for the GObject type system
 dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
 dev-lang/xsb 4.0.0-r2: XSB is a logic programming and deductive database system
 dev-lang/yap 7.0.1 7.1.0: YAP is a high-performance Prolog compiler
@@ -5837,7 +5837,7 @@ dev-libs/userspace-rcu 0.14.0 0.14.1 0.15.0 0.15.1: Userspace RCU (read-copy-upd
 dev-libs/utfcpp 3.2.1 4.0.6 9999: UTF-8 C++ library
 dev-libs/uthash 2.3.0-r1: An easy-to-use hash implementation for C programmers
 dev-libs/uulib 0.5.20-r3: Library that supports Base64 (MIME), uuencode, xxencode and binhex coding
-dev-libs/vala-common 0.56.16 0.56.17: Build infrastructure for packages that use Vala
+dev-libs/vala-common 0.56.16 0.56.17 0.56.18: Build infrastructure for packages that use Vala
 dev-libs/vc 1.4.4 1.4.5: SIMD Vector Class Library for C++
 dev-libs/vectorscan 5.4.11: A portable fork of the high-performance regular expression matching library
 dev-libs/voikko-fi 2.5-r1 2.5-r2: Finnish dictionary for libvoikko based spell checkers (vvfst format)
@@ -10692,7 +10692,7 @@ dev-util/cbindgen 0.27.0-r1 0.28.0: A tool for generating C bindings to Rust cod
 dev-util/ccache 4.10.2-r1 4.11: Fast compiler cache
 dev-util/cccc 3.1.6-r1: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20240202 0.20240505 0.20241108 9999: C/C++/ObjC language server
-dev-util/cdecl 14.0 14.2: Composing and deciphering C (or C++) declarations or casts, aka "gibberish."
+dev-util/cdecl 14.2 18.4.1: Composing and deciphering C (or C++) declarations or casts, aka "gibberish."
 dev-util/cflow 1.7: C function call hierarchy analyzer
 dev-util/cgvg 1.6.3: Minimal command-line source browsing tool similar to cscope
 dev-util/checkbashisms 2.22.2 2.23.5: Perl script to check for commonly used bash features not defined by POSIX
@@ -10779,7 +10779,7 @@ dev-util/ftjam 2.5.3_rc2-r3: A 100% compatible, enhanced implementation of the m
 dev-util/ftnchek 3.3.1-r2: Static analyzer a la 'lint' for Fortran 77
 dev-util/fuzz 0.6-r4: Stress-tests programs by giving them random input
 dev-util/gcovr 7.2-r1: A Python script for summarizing gcov data
-dev-util/gdbus-codegen 2.76.4 2.78.3 2.78.4-r1 2.78.6 2.80.4 2.80.5 2.82.2 2.82.4 2.82.5 2.84.0: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.76.4 2.78.3 2.78.4-r1 2.78.6 2.80.4 2.80.5 2.82.2 2.82.4 2.82.5 2.84.0-r1: GDBus code and documentation generator
 dev-util/geany 2.0 2.0-r1: GTK+ based fast and lightweight IDE
 dev-util/geany-plugins 2.0-r1 2.0-r2: A collection of different plugins for Geany
 dev-util/gengetopt 2.23-r1: Tool to write command line option parsing code for C programs
@@ -10823,7 +10823,7 @@ dev-util/hyprwayland-scanner 0.4.2 0.4.4: A Hyprland implementation of wayland-s
 dev-util/icemon 3.3: Monitor program for use with Icecream compile clusters based on KDE Frameworks
 dev-util/idea-community 2024.3.4.1: A complete toolset for web, mobile and enterprise development
 dev-util/imediff 1.1.2.1 3.3.1 3.4.0: 2-way/3-way merge tool (CLI, Ncurses)
-dev-util/include-what-you-use 0.21 0.22 0.23-r1: Find unused include directives in C/C++ programs
+dev-util/include-what-you-use 0.23-r1: Find unused include directives in C/C++ programs
 dev-util/indent 2.2.13: Indent program source files
 dev-util/intel-graphics-compiler 1.0.17791.18 2.9.0: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 0.9.5: Intel graphics system controller firmware update library
@@ -15421,7 +15421,7 @@ net-news/snownews 1.9 1.9-r1: Command-line RSS feed reader
 net-news/yydecode 0.2.10-r3: A decoder for yENC format, popular on Usenet
 net-nntp/leafnode 1.11.11-r2 1.12.0-r1: A USENET software package designed for small sites
 net-nntp/newspost 2.1.1-r3: A usenet binary autoposter for unix
-net-nntp/nzbget 21.1-r1 21.1-r2 24.2 24.6 24.7: A command-line based binary newsgrabber supporting .nzb files
+net-nntp/nzbget 21.1-r1 21.1-r2 24.2 24.7 24.8: A command-line based binary newsgrabber supporting .nzb files
 net-nntp/sabnzbd 4.3.3 4.4.1: Binary newsgrabber with web-interface
 net-nntp/slrn 1.0.3-r1 1.0.3-r2: A s-lang based newsreader
 net-nntp/suck 4.3.4 4.3.5: Grab news from a remote NNTP server and feed them to another
@@ -18249,7 +18249,7 @@ x11-base/xorg-proto 2024.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.14 21.1.15 21.1.16 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.4 24.1.5 24.1.6 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.230.02 550.144.03 570.123.06 570.124.04: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.230.02 550.144.03 570.123.06 570.124.04 570.133.07: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
