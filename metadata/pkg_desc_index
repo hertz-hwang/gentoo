@@ -2860,7 +2860,7 @@ app-misc/rdfind 1.6.0: Find duplicate files based on their content
 app-misc/recoll 1.40.3: Personal full text search package
 app-misc/regex-markup 0.10.0-r3: A tool to color syslog files as well
 app-misc/regionset 0.2: Sets the region on DVD drives
-app-misc/remind 04.02.02 05.00.06 05.00.07: Ridiculously functional reminder program
+app-misc/remind 05.00.06 05.00.07 05.03.02: Ridiculously functional reminder program
 app-misc/reptyr 0.9.0 0.10.0: A utility to attach a running program to a new terminal
 app-misc/resolve-march-native 2.2.0 3.0.0-r1 4.1.0 5.0.2 5.1.0 5.1.0-r1 6.0.1: Resolve GCC flag -march=native
 app-misc/rioutil 1.5.4-r1: A utility for accessing various Rio media players
@@ -3170,7 +3170,7 @@ app-text/catdoc 0.95-r1: Converter for Microsoft Word, Excel, PowerPoint and RTF
 app-text/cb2bib 2.0.0-r1: Tool for extracting unformatted bibliographic references
 app-text/cedilla 0.7-r1: UTF-8 to postscript converter
 app-text/chasen 2.4.5 2.4.5-r1: Japanese Morphological Analysis System, ChaSen
-app-text/cherrytree 1.2.0: A hierarchical note taking application (C++ version)
+app-text/cherrytree 1.2.0 1.3.0: A hierarchical note taking application (C++ version)
 app-text/cmark 0.31.1-r1: CommonMark parsing and rendering library and program in C
 app-text/cmigemo 1.3c-r4 1.3e_p20220623: Migemo library implementation in C
 app-text/code2html 0.9.1-r2: Converts source files to colored HTML output
@@ -3184,7 +3184,7 @@ app-text/crqt-ng 1.0.15: Cross-platform e-book reader
 app-text/crwx-ng 0.3.1-r1 0.3.1-r2: Cross-platform e-book reader
 app-text/cssmin 0.2.0-r1: Python port of the YUI CSS compression algorithm
 app-text/cwtext 0.96-r1: Text to Morse Code converter
-app-text/dblatex 0.3.12-r2 0.3.12-r3 0.3.12-r4: Transform DocBook using TeX macros
+app-text/dblatex 0.3.12-r3 0.3.12-r4: Transform DocBook using TeX macros
 app-text/delta 20060803-r1: Heuristically minimizes interesting files
 app-text/dictd 1.13.0-r7 1.13.0-r8 1.13.1: Dictionary Client/Server for the DICT protocol
 app-text/diction 1.14: Diction and style checkers for english and german texts
@@ -3425,7 +3425,7 @@ app-text/xmldiff 2.6.3: A tool that figures out the differences between two simi
 app-text/xmlformat 1.04: Reformat XML documents to your custom style
 app-text/xmlstarlet 1.6.1-r2: A set of tools to transform, query, validate, and edit XML documents
 app-text/xmlto 0.0.28-r11: Script for converting XML and DocBook documents to a variety of output formats
-app-text/xmltoman 0.6: Simple scripts for converting xml to groff or html
+app-text/xmltoman 0.6 0.6-r1: Simple scripts for converting xml to groff or html
 app-text/xournal 0.4.8.2016-r1 9999: An application for notetaking, sketching, and keeping a journal using a stylus
 app-text/xournalpp 1.2.3 1.2.5 9999: Handwriting notetaking software with PDF annotation support
 app-text/xpdf 4.05: The PDF viewer and tools
@@ -5166,7 +5166,7 @@ dev-lang/go 1.23.6 1.23.7 1.24.1 9999: A concurrent garbage collected and typesa
 dev-lang/go-bootstrap 1.20.14 1.22.12: Bootstrap package for dev-lang/go
 dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over finite domains (FD)
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
-dev-lang/haxe 4.3.6-r3: Multi-target universal programming language
+dev-lang/haxe 4.3.6-r4: Multi-target universal programming language
 dev-lang/icon 9.5.22e 9.5.24b: Very high level language
 dev-lang/idris2 0.6.0 0.7.0: Purely functional programming language with first class types
 dev-lang/inform 6.33.1_p2 6.35_p4 6.42_p4: Design system for interactive fiction
@@ -5624,7 +5624,7 @@ dev-libs/libunibreak 6.1: Line and word breaking library
 dev-libs/libuninum 2.7-r3: A library for converting unicode strings to numbers and vice versa
 dev-libs/libunique 1.1.6-r3 3.0.2-r2: A library for writing single instance application
 dev-libs/libunistring 0.9.10-r1 1.0 1.1-r1 1.2 1.3: Library for manipulating Unicode and C strings according to Unicode standard
-dev-libs/libusb 1.0.26 1.0.27-r1: Userspace access to USB devices
+dev-libs/libusb 1.0.26 1.0.27-r1 1.0.28: Userspace access to USB devices
 dev-libs/libusb-compat 0.1.8: Userspace access to USB devices (libusb-0.1 compat wrapper)
 dev-libs/libusbhp 1.0.2-r1: USB Hotplug Library
 dev-libs/libutf8proc 2.9.0 2.10.0: A clean C Library for processing UTF-8 Unicode data
@@ -5697,7 +5697,7 @@ dev-libs/olm 3.2.16 3.2.16-r1: Implementation of the Double Ratchet cryptographi
 dev-libs/onigmo 6.2.0-r1: Onigmo is a regular expressions library forked from Oniguruma
 dev-libs/oniguruma 6.9.9 6.9.9-r1 6.9.10 9999: Regular expression library for different character encodings
 dev-libs/opencl-clang 15.0.1 16.0.1 17.0.1 18.1.1 19.1.0: OpenCL-oriented thin wrapper library around clang
-dev-libs/opencl-icd-loader 2024.05.08: Official Khronos OpenCL ICD Loader
+dev-libs/opencl-icd-loader 2024.05.08 2024.10.24: Official Khronos OpenCL ICD Loader
 dev-libs/opencryptoki 3.6.1-r1: PKCS#11 provider cryptographic hardware
 dev-libs/openct 0.6.20-r5 0.6.20-r6: library for accessing smart card terminals
 dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transferring data to mobile devices
@@ -10713,7 +10713,7 @@ dev-util/codespell 2.2.6 2.3.0 2.4.1: Check text files for common misspellings
 dev-util/colm 0.13.0.7 0.14.7-r4: COmputer Language Manipulation
 dev-util/colorgcc 1.3.2-r7: Perl script to colorise the gcc output
 dev-util/complexity 1.10-r1: a tool designed for analyzing the complexity of C program functions
-dev-util/conan 2.7.1 2.9.3 2.10.1 2.11.0: Distributed C/C++ package manager
+dev-util/conan 2.7.1 2.9.3 2.10.1 2.11.0 2.14.0: Distributed C/C++ package manager
 dev-util/conf2struct 1.0-r1 1.3-r1 1.5 9999: Create C parsers for libconfig and command-line
 dev-util/cookiecutter 2.3.1 2.5.0 2.6.0: Command-line utility to create projects from cookiecutters (project templates)
 dev-util/cppcheck 2.14.2-r1 2.16.0 2.17.1: Static analyzer of C/C++ code
@@ -10987,7 +10987,7 @@ dev-util/treecc 0.3.10-r2: Compiler-compiler tool for aspect-oriented programmin
 dev-util/txt2regex 0.9: A Regular Expression wizard that converts human sentences to regexs
 dev-util/uftrace 0.16 0.17: Function (graph) tracer for user-space
 dev-util/uglifyjs 3.16.1 3.19.3: JavaScript parser, minifier, compressor and beautifier toolkit
-dev-util/umockdev 0.18.3 9999: Mock hardware devices for creating unit tests
+dev-util/umockdev 0.18.3 0.19.1 9999: Mock hardware devices for creating unit tests
 dev-util/uncrustify 0.76.0 0.78.1 9999: C/C++/C#/D/Java/Pawn code indenter and beautifier
 dev-util/unicorn 2.0.1 2.0.1-r1 2.1.1 2.1.2 2.1.3 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
 dev-util/unifdef 2.12-r1: remove #ifdef'ed lines from a file while otherwise leaving the file alone
@@ -11231,7 +11231,7 @@ games-arcade/kajaani-kombat 0.7-r2: Rampart-like game set in space
 games-arcade/kobodeluxe 0.5.1-r5: An SDL port of xkobo, a addictive space shoot-em-up
 games-arcade/komi 1.04-r2: Komi the Space Frog - a simple SDL game
 games-arcade/late 0.1.0-r2: Game similar to Barrack by Ambrosia Software
-games-arcade/lbreakout 010315-r1: Breakout clone written with the SDL library
+games-arcade/lbreakout 010315-r1 010315-r2: Breakout clone written with the SDL library
 games-arcade/lbreakout2 2.6.5-r2: Breakout clone written with the SDL library
 games-arcade/methane 2.0.1 2.1.0: Port from an old Amiga game
 games-arcade/missile 1.0.1-r2: Port of the Atari Missile Command game for Linux
@@ -11625,7 +11625,7 @@ games-puzzle/lpairs 1.0.5: Classic memory game
 games-puzzle/ltris 1.0.19-r2: Very polished Tetris clone
 games-puzzle/magiccube4d 4.3.343: Four-dimensional analog of Rubik's cube
 games-puzzle/meandmyshadow 0.5a: Puzzle/platform game with a player and its shadow
-games-puzzle/mirrormagic 2.0.2-r2: A game like Deflektor (C 64) or Mindbender (Amiga)
+games-puzzle/mirrormagic 3.3.1: A game like Deflektor (C 64) or Mindbender (Amiga)
 games-puzzle/monsterz 0.7.1_p12: Puzzle game similar to the famous Bejeweled or Zookeeper
 games-puzzle/mures 0.5-r2: Clone of Sega's Chu Chu Rocket
 games-puzzle/neverball 1.6.0-r1: Clone of Super Monkey Ball using SDL/OpenGL
@@ -14686,7 +14686,7 @@ net-fs/mc 2021.03.23.05.46.11 2025.03.12.17.29.24: Minio client provides alterna
 net-fs/netatalk 3.1.18: Open Source AFP server
 net-fs/nfs-utils 2.6.4-r11 2.7.1: NFS client and server daemons
 net-fs/nfs4-acl-tools 0.3.7-r1 0.4.2 0.4.3_rc1: Commandline and GUI tools that deal directly with NFSv4 ACLs
-net-fs/openafs 1.8.7-r1 1.8.8.1-r2 1.8.13-r1 1.8.13.1: The OpenAFS distributed file system
+net-fs/openafs 1.8.13-r1 1.8.13-r2 1.8.13.1 1.8.13.1-r1 1.8.13.2 1.8.13.2-r1: The OpenAFS distributed file system
 net-fs/s3backer 2.1.2 2.1.3: A filesystem that contains a single file backed by Amazon S3
 net-fs/s3fs 1.95: Amazon S3 mounting via fuse
 net-fs/samba 4.19.7 4.19.8 4.19.9 4.20.5 4.20.7 4.21.0 4.21.1 4.21.4: Samba Suite Version 4
@@ -14718,7 +14718,7 @@ net-im/bitlbee-steam 1.4.2 9999: Steam protocol plugin for BitlBee
 net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/LiveJournal client
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
-net-im/dino 0.4.4-r1 0.4.4-r3 9999: Modern Jabber/XMPP Client using GTK+/Vala
+net-im/dino 0.4.4-r1 0.4.4-r3 0.4.5 9999: Modern Jabber/XMPP Client using GTK+/Vala
 net-im/discord 0.0.88: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.02-r1 24.07 24.10: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.11.94: A glossy Matrix collaboration client for desktop (binary package)
@@ -14800,7 +14800,7 @@ net-irc/sic 1.2-r1: An extremely simple IRC client
 net-irc/soju 0.8.2-r1: soju is a user-friendly IRC bouncer
 net-irc/telepathy-idle 0.2.2: Full-featured IRC connection manager for Telepathy
 net-irc/unrealircd 5.2.4-r1 6.0.4.2: An advanced Internet Relay Chat daemon
-net-irc/weechat 4.4.2-r100 4.4.3 9999: Portable and multi-interface IRC client
+net-irc/weechat 4.4.3 4.5.2 9999: Portable and multi-interface IRC client
 net-irc/znc 1.9.1 9999: An advanced IRC Bouncer
 net-irc/znc-clientbuffer 1.0.48 1.0.48-r1: A ZNC module which provides client specific buffers
 net-irc/znc-igloo-push 20200520: A ZNC module which provides push notifications for Igloo client
@@ -15433,7 +15433,7 @@ net-p2p/amule 2.3.3-r3 2.3.3-r4 9999: aMule, the all-platform eMule p2p client
 net-p2p/arti 1.3.1 1.3.2 1.4.0 9999: An implementation of Tor, in Rust.
 net-p2p/automatic 0.9.0: RSS downloader for Tranmission
 net-p2p/biglybt 3.7.0.0: Feature-filled Bittorrent client based on the Azureus open source project
-net-p2p/bitcoin-core 28.0 28.1: Reference implementation of the Bitcoin cryptocurrency
+net-p2p/bitcoin-core 28.0 28.1 29.0_rc2: Reference implementation of the Bitcoin cryptocurrency
 net-p2p/bitflu 1.52-r1: BitTorrent client, written in Perl and is designed to run as a daemon
 net-p2p/classified-ads 0.16: Program for displaying classified advertisement items
 net-p2p/cpuminer-opt 25.3 9999: Optimized multi algo CPU miner
@@ -15618,7 +15618,7 @@ net-wireless/horst 5.1 9999: Small 802.11 wireless LAN analyzer
 net-wireless/hostap-utils 0.4.7-r1: Utilities for Intersil Prism2/2.5/3 based IEEE 802.11b wireless LAN products
 net-wireless/hostapd 2.10-r3 2.11 9999: IEEE 802.11 wireless LAN Host AP daemon
 net-wireless/inspectrum 0.2.3 9999: Tool for analysing captured signals from software-defined radio receivers
-net-wireless/iw 5.9 5.19 5.19-r1 6.7: nl80211 configuration utility for wireless devices using the mac80211 stack
+net-wireless/iw 5.9 5.19 5.19-r1 6.7 6.9: nl80211 configuration utility for wireless devices using the mac80211 stack
 net-wireless/iwd 3.2 3.3 3.4 9999: Wireless daemon for linux
 net-wireless/iwgtk 0.9: Lightweight, graphical wifi management utility for Linux
 net-wireless/kismet 2022.08.1-r2 2023.07.1-r1 9999: IEEE 802.11 wireless LAN sniffer
@@ -15664,7 +15664,7 @@ net-wireless/urh 2.9.6_p20240428 9999: Universal Radio Hacker: investigate wirel
 net-wireless/wavemon 0.9.3-r1 0.9.5 0.9.6: Ncurses based monitor for IEEE 802.11 wireless LAN cards
 net-wireless/wepattack 0.1.3-r6 0.1.3-r7: WLAN tool for breaking 802.11 WEP keys
 net-wireless/wepdecrypt 0.8-r3: Enhanced version of WepAttack a tool for breaking 802.11 WEP keys
-net-wireless/wireless-regdb 20240508: Wireless Regulatory database for Linux
+net-wireless/wireless-regdb 20240508 20250220: Wireless Regulatory database for Linux
 net-wireless/wireless-tools 30_pre9-r1: A collection of tools to configure IEEE 802.11 wireless LAN cards
 net-wireless/wpa_supplicant 2.10-r6 2.11 2.11-r3 9999: IEEE 802.1X/WPA supplicant for secure wireless transfers
 perl-core/CPAN 2.290.0-r3: Query, download and build perl modules from CPAN sites
@@ -15683,7 +15683,7 @@ perl-core/Test-Simple 1.302.196 1.302.208-r1: Basic utilities for writing tests
 perl-core/Test2-Suite 0.0.162-r1: Rich set of tools built upon the Test2 framework
 perl-core/Text-Tabs+Wrap 2023.51.100: Expand/unexpand tabs per unix expand and line wrapping
 perl-core/Unicode-Collate 1.310.0: Unicode Collate Algorithm
-sci-astronomy/calcmysky 0.3.3-r1: Simulator of light scattering by planetary atmospheres
+sci-astronomy/calcmysky 0.3.3-r1 0.3.4: Simulator of light scattering by planetary atmospheres
 sci-astronomy/cdsclient 3.8.4-r1: Collection of scripts to access the CDS databases
 sci-astronomy/celestia 1.7.0_pre20241231: OpenGL 3D space simulator
 sci-astronomy/cpl 7.3.2: ESO common pipeline library for astronomical data reduction
@@ -15919,7 +15919,7 @@ sci-electronics/gtkwave 3.3.106 3.3.111 3.3.121: A wave viewer for LXT, LXT2, VZ
 sci-electronics/gwave 20190116-r100: Analog waveform viewer for SPICE-like simulations
 sci-electronics/irsim 9.7.93 9.7.93-r1: IRSIM is a "switch-level" simulator
 sci-electronics/iverilog 10.3 11.0 12.0 9999: A Verilog simulation and synthesis tool
-sci-electronics/kicad 8.0.6 8.0.9 9.0.0 9999: Electronic Schematic and PCB design tools
+sci-electronics/kicad 8.0.6 8.0.9 9.0.0-r1 9999: Electronic Schematic and PCB design tools
 sci-electronics/kicad-footprints 8.0.6 8.0.9 9.0.0 9999: Electronic Schematic and PCB design tools footprint libraries
 sci-electronics/kicad-meta 8.0.6 8.0.9 9.0.0: Electronic Schematic and PCB design tools (meta package)
 sci-electronics/kicad-packages3d 8.0.6 8.0.9 9.0.0 9999: Electronic Schematic and PCB design tools 3D package libraries
@@ -16437,7 +16437,7 @@ sci-visualization/quickplot 0.10.6-r1 1.0.1_rc: A fast interactive 2D plotter
 sci-visualization/scidavis 2.9.0-r1: Application for Scientific Data Analysis and Visualization
 sci-visualization/spyview 2018.12.24-r1 9999: 2D and 3D data visualization and analysis program
 sci-visualization/veusz 3.6.2-r1: Qt scientific plotting package with good Postscript output
-sci-visualization/xd3d 8.3.1-r2: Scientific visualization tool
+sci-visualization/xd3d 8.3.1-r2 8.3.1-r3: Scientific visualization tool
 sci-visualization/xgraph 12.1-r5: X11 Plotting Utility
 sci-visualization/xyscan 4.6.6: Tool for extracting data points from graphs
 sci-visualization/zhu3d 4.2.6-r1: Interactive 3D mathematical function viewer
@@ -18659,7 +18659,7 @@ x11-misc/xwrits 2.26-r2: Reminds you to take wrist breaks to help you prevent re
 x11-misc/xxkb 1.11.1-r1: eXtended XKB - assign different keymaps to different windows
 x11-misc/xystray 1.0-r1: A simple implementation of freedesktop.org notification area for X
 x11-misc/yabar 0.4.0_p20190316-r1: A modern and lightweight status bar for X window managers
-x11-misc/ydotool 1.0.4-r2: Generic command-line automation tool (no X!)
+x11-misc/ydotool 1.0.4-r3: Generic command-line automation tool (no X!)
 x11-misc/zim 0.75.2-r1 0.76.0 0.76.1: A desktop wiki
 x11-plugins/allin1 0.5.0-r3: All in one monitoring dockapp: RAM, CPU, Net, Power, df, seti
 x11-plugins/asapm 3.1-r1: APM monitor for AfterStep
@@ -18778,7 +18778,7 @@ x11-plugins/wmlife 1.0.1-r1: dockapp running Conway's Game of Life (and program 
 x11-plugins/wmload 0.9.7-r1: yet another dock application showing a system load gauge
 x11-plugins/wmlongrun 0.3.1: Dockapp to monitor LongRun on a Transmeta Crusoe processor
 x11-plugins/wmmaiload 2.3.0-r2 2.3.0-r3: dockapp that monitors one or more mailboxes
-x11-plugins/wmmand 1.3.2-r1: a dockable mandelbrot browser
+x11-plugins/wmmand 1.3.2-r1 1.3.2-r2: a dockable mandelbrot browser
 x11-plugins/wmmemload 0.1.8-r1: dockapp that displays memory and swap space usage
 x11-plugins/wmmenu 1.3-r2: a popup menu of icons like in AfterStep, as a dockapp
 x11-plugins/wmmisc 1.2: a monitoring dockapp for system load, user amount, fork amount and processes
