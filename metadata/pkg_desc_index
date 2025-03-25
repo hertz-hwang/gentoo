@@ -9771,21 +9771,21 @@ dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
 dev-ruby/abbrev 0.1.2: Calculates a set of unique abbreviations for a given set of strings
 dev-ruby/abstract 1.0.0-r5: Library which enable you to define abstract method in Ruby
 dev-ruby/acme-client 2.0.19 2.0.20 2.0.21: A Ruby client for the letsencrypt's ACME protocol
-dev-ruby/actioncable 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Integrated WebSockets for Rails
-dev-ruby/actionmailbox 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
-dev-ruby/actionmailer 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
-dev-ruby/actionpack 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Eases web-request routing, handling, and response
+dev-ruby/actioncable 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Integrated WebSockets for Rails
+dev-ruby/actionmailbox 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
+dev-ruby/actionmailer 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
+dev-ruby/actionpack 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Eases web-request routing, handling, and response
 dev-ruby/actionpack-action_caching 1.2.2-r1: Action caching for Action Pack (removed from core in Rails 4.0)
 dev-ruby/actionpack-xml_parser 2.0.1-r4: XML parameters parser for Action Pack (removed from core in Rails 4.0)
-dev-ruby/actiontext 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Edit and display rich text in Rails applications
-dev-ruby/actionview 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Simple, battle-tested conventions and helpers for building web pages
-dev-ruby/activejob 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Job framework with pluggable queues
+dev-ruby/actiontext 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Edit and display rich text in Rails applications
+dev-ruby/actionview 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Simple, battle-tested conventions and helpers for building web pages
+dev-ruby/activejob 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Job framework with pluggable queues
 dev-ruby/activeldap 6.1.0-r1 7.0.0 7.2.1: ActiveLDAP provides an activerecord inspired object oriented interface to LDAP
-dev-ruby/activemodel 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Toolkit for building modeling frameworks like Active Record and Active Resource
+dev-ruby/activemodel 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Toolkit for building modeling frameworks like Active Record and Active Resource
 dev-ruby/activemodel-serializers-xml 1.0.3: XML serialization for your Active Model objects and Active Record models
-dev-ruby/activerecord 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
-dev-ruby/activestorage 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Attach cloud and local files in Rails applications
-dev-ruby/activesupport 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7-r1 7.1.4.2 7.1.5-r1 7.1.5.1 7.2.2-r1 7.2.2.1 8.0.1 8.0.2: Utility Classes and Extension to the Standard Library
+dev-ruby/activerecord 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
+dev-ruby/activestorage 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Attach cloud and local files in Rails applications
+dev-ruby/activesupport 6.1.7.10 7.0.8.6 7.0.8.7-r1 7.1.4.2 7.1.5-r1 7.1.5.1 7.2.2-r1 7.2.2.1 8.0.1 8.0.2: Utility Classes and Extension to the Standard Library
 dev-ruby/acts_as_list 1.2.2 1.2.3 1.2.4: Capabilities for sorting and reordering a number of objects in a list
 dev-ruby/addressable 2.8.6 2.8.7: A replacement for the URI implementation that is part of Ruby's standard library
 dev-ruby/ae 1.8.2-r1: Assertive Expressive is an assertions library designed for reuse
@@ -9899,7 +9899,7 @@ dev-ruby/delayer-deferred 2.2.0-r1: Ruby implementation of JSDeferred
 dev-ruby/dependor 1.0.1-r1: Reduces duplication when doing manual dependency injection
 dev-ruby/descendants_tracker 0.0.4-r1: Module that adds descendant tracking to a class
 dev-ruby/did_you_mean 1.6.3 2.0.0: 'did you mean?'experience in Ruby
-dev-ruby/diff-lcs 1.5.1 1.6.0: Use the McIlroy-Hunt LCS algorithm to compute differences
+dev-ruby/diff-lcs 1.5.1 1.6.0 1.6.1: Use the McIlroy-Hunt LCS algorithm to compute differences
 dev-ruby/digest 3.1.1 3.2.0: Provides a framework for message digest libraries
 dev-ruby/diva 2.0.1: Implementation of expression for handling things
 dev-ruby/dnsruby 1.72.2 1.72.3 1.72.4: A pure Ruby DNS client library
@@ -10075,7 +10075,7 @@ dev-ruby/metasm 1.0.5-r1 1.0.5-r2: Cross-architecture assembler, disassembler, l
 dev-ruby/method_source 1.1.0: Retrieve the source code for a method
 dev-ruby/metrics 0.12.2: Application metrics and instrumentation.
 dev-ruby/middleware 0.1.0-r1: Generalized implementation of the middleware abstraction for Ruby
-dev-ruby/mime-types 3.5.2 3.6.0 3.6.1: Provides a mailcap-like MIME Content-Type lookup for Ruby
+dev-ruby/mime-types 3.6.0 3.6.1 3.6.2: Provides a mailcap-like MIME Content-Type lookup for Ruby
 dev-ruby/mime-types-data 3.2025.0204 3.2025.0220 3.2025.0304 3.2025.0318: Registry for information about MIME media type definitions
 dev-ruby/mimemagic 0.4.3-r2: Fast mime detection by extension or content
 dev-ruby/mini_magick 4.13.2 5.1.0 5.1.1 5.1.2 5.2.0: Manipulate images with minimal use of memory
@@ -10130,7 +10130,7 @@ dev-ruby/network_interface 0.0.4: network_interface layer from metasploit pcapru
 dev-ruby/niceogiri 1.1.2-r1: Some wrappers around and helpers for XML manipulation using Nokogiri
 dev-ruby/nio4r 2.7.3 2.7.4: A high performance selector API for monitoring IO objects
 dev-ruby/nkf 0.2.0: Ruby extension for Network Kanji Filter
-dev-ruby/nokogiri 1.16.6 1.16.8 1.17.2 1.18.1 1.18.3 1.18.4 1.18.5: Nokogiri is an HTML, XML, SAX, and Reader parser
+dev-ruby/nokogiri 1.16.8 1.17.2 1.18.1 1.18.3 1.18.4 1.18.5 1.18.6: Nokogiri is an HTML, XML, SAX, and Reader parser
 dev-ruby/nokogiri-diff 0.2.0-r3 0.3.0: Calculate the differences between two XML/HTML documents
 dev-ruby/oauth 0.6.2-r2 1.1.0: A RubyGem for implementing both OAuth clients and servers
 dev-ruby/oauth-tty 1.0.5: OAuth 1.0 TTY Command Line Interface
@@ -10196,10 +10196,10 @@ dev-ruby/rack-session 1.0.1 2.0.0 2.1.0: A session implementation for Rack
 dev-ruby/rack-test 2.1.0 2.2.0: Rack::Test is a small, simple testing API for Rack apps
 dev-ruby/rackup 2.1.0-r1 2.2.0 2.2.1: A general server command for Rack applications
 dev-ruby/radius 0.7.5-r1 0.8.0: Powerful tag-based template system
-dev-ruby/rails 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: ruby on rails is a web-application and persistence framework
+dev-ruby/rails 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: ruby on rails is a web-application and persistence framework
 dev-ruby/rails-dom-testing 2.2.0: Compare doms and assert certain elements exists in doms using Nokogiri
 dev-ruby/rails-html-sanitizer 1.6.0 1.6.1 1.6.2: Sanitize HTML fragments in Rails applications
-dev-ruby/railties 6.1.7.8 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Tools for creating, working with, and running Rails applications
+dev-ruby/railties 6.1.7.10 7.0.8.6 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Tools for creating, working with, and running Rails applications
 dev-ruby/rainbow 3.1.1: Colorize printed text on ANSI terminals
 dev-ruby/rake 13.0.6-r2 13.2.1: Make-like scripting in Ruby
 dev-ruby/rake-compiler 1.2.8 1.2.9: Provide a standard and simplified way to build and package Ruby extensions
