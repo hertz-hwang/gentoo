@@ -8972,7 +8972,7 @@ dev-python/pycuda 2024.1: Python wrapper for NVIDIA CUDA
 dev-python/pycups 2.0.4: Python bindings for the CUPS API
 dev-python/pycurl 7.45.6: Python bindings for curl/libcurl
 dev-python/pycurl-requests 0.5.0-r1: Requests-compatible interface for PycURL
-dev-python/pycxx 7.1.8-r1: Set of facilities to extend Python with C++
+dev-python/pycxx 7.1.8-r1 7.1.8-r2: Set of facilities to extend Python with C++
 dev-python/pydantic 2.10.6 2.11.0_beta2: Data parsing and validation using Python type hints
 dev-python/pydantic-core 2.27.2 2.32.0: Core validation logic for pydantic written in Rust
 dev-python/pydata-sphinx-theme 0.16.0: Bootstrap-based Sphinx theme from the PyData community
@@ -18023,7 +18023,7 @@ www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20240206b: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
 www-apps/drupal 7.97 10.1.8 10.2.2: PHP-based open-source platform and content management system
-www-apps/element 1.11.94 1.11.95: A glossy Matrix collaboration client for the web
+www-apps/element 1.11.94 1.11.95 1.11.96: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.22.6-r1 1.23.3 1.23.6: A painless self-hosted Git service
 www-apps/grafana-bin 11.3.4 11.4.2 11.5.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site generator
