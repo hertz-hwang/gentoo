@@ -4273,7 +4273,7 @@ dev-go/go-tools 0.1.10 0.20.0 0.24.0 0.28.0: Tools that support the Go programmi
 dev-go/go-tour 0_pre20200201: A Tour of Go
 dev-go/gocov 1.1.0: Coverage testing tool for The Go Programming Language
 dev-go/gogo-protobuf 1.3.2: Protocol Buffers for Go with Gadgets
-dev-go/golangci-lint 1.50.1-r1 1.55.2 1.56.2 1.59.1 1.61.0 1.64.6 1.64.7: Fast linters runner for Go
+dev-go/golangci-lint 1.50.1-r1 1.55.2 1.56.2 1.59.1 1.61.0 1.64.6 1.64.7 2.0.2: Fast linters runner for Go
 dev-go/gopls 0.17.1 0.18.1: "Go please" is the official Go language server
 dev-go/goversion 1.2.0-r1: Print version used to build Go executables
 dev-go/gox 1.0.1: A dead simple, no frills Go cross compile tool
@@ -5555,7 +5555,7 @@ dev-libs/libmpack 1.0.5-r5: Simple implementation of msgpack in C
 dev-libs/libmspack 1.11 9999: A library for Microsoft compression formats
 dev-libs/libnatspec 0.3.0: library to smooth charset/localization issues
 dev-libs/libnfc 1.8.0-r1: Near Field Communications (NFC) library
-dev-libs/libnl 3.8.0 3.9.0 3.10.0 9999: Libraries providing APIs to netlink protocol based Linux kernel interfaces
+dev-libs/libnl 3.10.0 9999: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/libnop 2021.11.03: C++ Native Object Protocols
 dev-libs/libnsfb 0.2.2-r1: C library for framebuffer abstraction
 dev-libs/libnsutils 0.1.1 9999: C library for base64 and time
