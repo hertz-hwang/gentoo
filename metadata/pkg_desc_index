@@ -4126,7 +4126,7 @@ dev-embedded/rpi-eeprom 15.0_p1 21.0_p1 26.0_p1: Updater for Raspberry Pi 4/5 bo
 dev-embedded/sdcc 4.3.0-r1 9999: Small device C compiler (for various microprocessors)
 dev-embedded/smdk-dltool 0.20-r4: Tool to communicate with Samsung SMDK boards
 dev-embedded/srecord 1.64-r1: A collection of powerful tools for manipulating EPROM load files
-dev-embedded/stlink 1.7.0 9999: stm32 discovery line linux programmer
+dev-embedded/stlink 1.8.0 9999: stm32 discovery line linux programmer
 dev-embedded/stm32flash 0.7: Open source flash program for STM32 using the ST serial bootloader
 dev-embedded/sunxi-tools 1.4.2 9999: A collection of command line tools for ARM devices with Allwinner SoCs
 dev-embedded/u-boot-tools 2024.01-r1 2025.01: utilities for working with Das U-Boot
@@ -15738,7 +15738,7 @@ sci-biology/bioperl 1.6.9-r1: Perl tools for bioinformatics - Core modules
 sci-biology/bioperl-db 1.6.9-r2: Perl tools for bioinformatics - Perl API that accesses the BioSQL schema
 sci-biology/bioperl-network 1.6.9-r1: Perl tools for bioinformatics - Analysis of protein-protein interaction networks
 sci-biology/bioperl-run 1.6.9-r1: Perl wrapper modules for key bioinformatics applications
-sci-biology/biopython 1.81-r1: Python modules for computational molecular biology
+sci-biology/biopython 1.85: Python modules for computational molecular biology
 sci-biology/biosql 1.0.1-r2: A generic bioinformatics relational database model
 sci-biology/blat 34-r3: The BLAST-Like Alignment Tool, a fast genomic sequence aligner
 sci-biology/bowtie 2.4.4 2.5.1: Popular short read aligner for Next-generation sequencing data
@@ -15856,7 +15856,7 @@ sci-calculators/units 2.24: Unit conversion program
 sci-calculators/wcalc 2.5: A flexible command-line scientific calculator
 sci-calculators/xsv 0.13.0-r1: A fast CSV command line toolkit written in Rust
 sci-chemistry/GromacsWrapper 0.9.1: Python framework for Gromacs
-sci-chemistry/MDAnalysis 2.6.1: A python library to analyze and manipulate molecular dynamics trajectories
+sci-chemistry/MDAnalysis 2.9.0: A python library to analyze and manipulate molecular dynamics trajectories
 sci-chemistry/ParmEd 4.3.0: Parameter and topology file editor and molecular mechanical simulator engine
 sci-chemistry/autodock 4.2.6 4.2.6-r1: A suite of automated docking tools
 sci-chemistry/autodock_vina 1.1.2-r1 1.2.5: Program for drug discovery, molecular docking and virtual screening
