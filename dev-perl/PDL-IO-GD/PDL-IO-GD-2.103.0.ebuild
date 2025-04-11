@@ -4,20 +4,18 @@
 EAPI=8
 
 DIST_AUTHOR=ETJ
-DIST_VERSION=2.003
+DIST_VERSION=2.103
 
 inherit perl-module
 
-DESCRIPTION="A PDL interface to the HDF4 library"
+DESCRIPTION="A PDL interface to the GD image library"
 
 SLOT="0"
 KEYWORDS="~amd64 ~ppc ~x86"
 
 RDEPEND="
 	>=dev-perl/PDL-2.94.0
+	media-libs/gd
 "
 BDEPEND="${RDEPEND}
-	dev-perl/Alien-HDF4
-	dev-perl/ExtUtils-Depends
-	virtual/perl-ExtUtils-MakeMaker
 "
