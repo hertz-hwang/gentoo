@@ -3169,7 +3169,7 @@ app-text/c2ps 4.0: Generates a beautified ps document from a source file (c/c++)
 app-text/calibre 7.20.0 7.21.0 7.22.0: Ebook management application
 app-text/capyt 1.1.1-r1: A python3 CLI utility to interface with cpy.pt paste service
 app-text/catdoc 0.95-r1: Converter for Microsoft Word, Excel, PowerPoint and RTF files to text
-app-text/cb2bib 2.0.0-r1 2.0.2: Tool for extracting unformatted bibliographic references
+app-text/cb2bib 2.0.2: Tool for extracting unformatted bibliographic references
 app-text/cedilla 0.7-r1: UTF-8 to postscript converter
 app-text/chasen 2.4.5 2.4.5-r1: Japanese Morphological Analysis System, ChaSen
 app-text/cherrytree 1.2.0 1.3.0 1.4.0: A hierarchical note taking application (C++ version)
@@ -3429,7 +3429,7 @@ app-text/xmlstarlet 1.6.1-r2: A set of tools to transform, query, validate, and 
 app-text/xmlto 0.0.28-r11: Script for converting XML and DocBook documents to a variety of output formats
 app-text/xmltoman 0.6 0.6-r1: Simple scripts for converting xml to groff or html
 app-text/xournalpp 1.2.3 1.2.5 9999: Handwriting notetaking software with PDF annotation support
-app-text/xpdf 4.05: The PDF viewer and tools
+app-text/xpdf 4.05-r1: PDF viewer and toolkit
 app-text/yamlfmt 0.13.0 0.14.0 0.15.0: An extensible command line tool or library to format yaml files
 app-text/yelp-tools 42.1: Collection of tools for building and converting documentation
 app-text/yodl 4.03.00: Your Own Document Language: a pre-document language and tools to process it
@@ -4047,7 +4047,7 @@ dev-debug/drgn 0.0.30-r1 0.0.31: Programmable debugger
 dev-debug/dtrace 2.0.1.1-r3 2.0.2-r1 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
 dev-debug/edb-debugger 1.3.0-r1 9999: edb is a cross platform x86/x86-64 debugger, inspired by Ollydbg
-dev-debug/gdb 15.2-r100 15.2-r101 15.2-r103 16.2-r2 16.3 9999: GNU debugger
+dev-debug/gdb 15.2-r101 15.2-r103 16.2-r2 16.3 9999: GNU debugger
 dev-debug/gef 2023.08 2024.06 2025.01 9999: GDB Enhanced Features for exploit devs & reversers
 dev-debug/gfxreconstruct 1.4.309.0 9999: Graphics API Capture and Replay Tools
 dev-debug/gprofng-gui 1.1 2.0 9999: Full-fledged graphical interface to operate gprofng
@@ -5249,7 +5249,7 @@ dev-lang/spark 2024.01.11-r2: Software development for high-reliability applicat
 dev-lang/spidermonkey 102.15.0-r1 115.16.0-r1 128.8.0 128.9.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 9.3.9-r1: Versatile implementation of the Prolog programming language
-dev-lang/swig 4.1.1-r1 4.2.0 4.2.1 4.3.0: Simplified Wrapper and Interface Generator
+dev-lang/swig 4.1.1-r1 4.2.0 4.2.1 4.3.0 4.3.1: Simplified Wrapper and Interface Generator
 dev-lang/tcc 0.9.27_p20211022 0.9.27_p20230223 9999: A very small C compiler for ix86/amd64
 dev-lang/tcl 8.6.13-r1 8.6.14 8.6.15 8.6.16: Tool Command Language
 dev-lang/teyjus 2.1-r2: Higher-order logic programming language Lambda Prolog
@@ -5979,6 +5979,7 @@ dev-ml/cmdliner 1.1.1 1.2.0 1.3.0: Declarative definition of command line interf
 dev-ml/coq-menhirlib 20240715: A support library for verified Coq parsers produced by Menhir
 dev-ml/core 0.15.0 0.15.1-r3 0.16.1 0.17.1: Jane Street's alternative to the standard library
 dev-ml/core_bench 0.15.0 0.16.0: Micro-benchmarking library for OCaml
+dev-ml/core_extended 0.17.0: Extra components that are not as closely vetted or as stable as Core
 dev-ml/core_kernel 0.15.0 0.16.0 0.17.0: System-independent part of Core
 dev-ml/core_unix 0.15.2-r1 0.16.0-r1 0.17.0 0.17.1: Unix-specific portions of Core
 dev-ml/cppo 1.6.7-r1 1.6.8-r1 1.6.9-r1 1.7.0 1.8.0: An equivalent of the C preprocessor for OCaml programs
@@ -5987,6 +5988,7 @@ dev-ml/csexp 1.5.2-r1: Parsing and printing of S-expressions in Canonical form
 dev-ml/cstruct 6.2.0-r1: Access C-like structures directly from OCaml
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/curses 1.0.10 1.0.11: Bindings to ncurses
+dev-ml/delimited_parsing 0.17.0: Parsing of character (e.g., comma) separated and fixed-width values
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 2.9.3-r3 3.16.1 3.17.2 3.18.1: A composable build system for OCaml
 dev-ml/dune-build-info 2.9.3 3.16.0 3.16.1 3.18.1: Embed locations informations inside executable and libraries
@@ -6138,6 +6140,7 @@ dev-ml/re 1.11.0 1.12.0 1.13.0-r2 1.13.3-r2: Regular expression library for OCam
 dev-ml/react 1.2.1-r1 1.2.2-r1: OCaml module for functional reactive programming
 dev-ml/reactiveData 0.2.1: Functional reactive programming with incremental changes in data structures
 dev-ml/reason 3.14.0 3.15.0: Simple, fast & type safe language that leverages JavaScript and OCaml
+dev-ml/record_builder 0.17.0: A library which provides traversal of records with an applicative
 dev-ml/result 1.5: Compat result type
 dev-ml/rresult 0.6.0 0.7.0: Result value combinators for OCaml
 dev-ml/sedlex 3.3: An OCaml lexer generator for Unicode
@@ -10381,7 +10384,7 @@ dev-ruby/stamp 0.6.0-r1: Date and time formatting for humans
 dev-ruby/stomp 1.4.10-r1: Ruby bindings for the stomp messaging protocol
 dev-ruby/stream 0.5.5: Module Stream defines an interface for external iterators
 dev-ruby/stringex 2.8.6: Extensions for Ruby's String class
-dev-ruby/stringio 3.1.1 3.1.5 3.1.6: Pseudo IO class from/to String.
+dev-ruby/stringio 3.1.1 3.1.5 3.1.6 3.1.7: Pseudo IO class from/to String.
 dev-ruby/strptime 0.2.5-r2: A fast strptime/strftime engine which uses VM
 dev-ruby/strscan 3.1.0 3.1.1 3.1.2 3.1.3: Provides lexical scanning operations on a String
 dev-ruby/sus 0.23.0 0.31.0 0.32.0: A fast and scalable test runner
@@ -10668,7 +10671,7 @@ dev-util/astyle 3.1-r2 3.4.9 3.4.9-r1 3.6.1 3.6.7: Artistic Style is a re-indent
 dev-util/autodia 2.140.0-r2: Parses source code, XML or data and produces an XML document in Dia format
 dev-util/autoproject 0.20_p15: Start a programming project using autotools and a command line parser generator
 dev-util/azuredatastudio 1.50.0-r1 1.51.1: Data management and development tool from Microsoft
-dev-util/babeltrace 1.5.11 2.0.5: A command-line tool and library to read and convert trace files
+dev-util/babeltrace 1.5.11 2.0.5-r1 2.0.6-r1 2.1.1-r1: Command-line tool and library to read and convert trace files
 dev-util/bats 1.11.1: Bats-core: Bash Automated Testing System
 dev-util/bbe 0.2.2-r1: Sed-like editor for binary files
 dev-util/bcc 0.29.1-r1 0.29.1-r2 0.30.0-r1 0.31.0-r2 0.32.0: Tools for BPF-based Linux IO analysis, networking, monitoring, and more
@@ -14700,7 +14703,7 @@ net-firewall/pglinux 2.3.1_p20171006-r2: Privacy oriented firewall application
 net-firewall/psad 2.4.6-r1: Port Scanning Attack Detection daemon
 net-firewall/rtsp-conntrack 5.3-r2: RTSP conntrack module for Netfilter
 net-firewall/shorewall 5.2.8-r1: A high-level tool for configuring Netfilter
-net-firewall/ufw 0.36.1-r3: A program used to manage a netfilter firewall
+net-firewall/ufw 0.36.1-r3 0.36.2: A program used to manage a netfilter firewall
 net-firewall/xtables-addons 3.24-r1 3.27: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.9-r1: Kernel based automounter
 net-fs/btfs 2.24: a bittorrent filesystem based on FUSE
@@ -17456,7 +17459,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r4 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250227 12.4.1_p20250320 12.4.1_p20250327 12.4.1_p20250403 12.4.1_p20250410 12.4.1_p20250417 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250301 13.3.1_p20250321 13.3.1_p20250328 13.3.1_p20250404 13.3.1_p20250411 13.3.1_p20250418 13.4.9999 14.2.1_p20241221 14.2.1_p20250301 14.2.1_p20250322 14.2.1_p20250329 14.2.1_p20250405 14.2.1_p20250412 14.2.1_p20250419 14.3.9999 15.0.1_pre20250406 15.0.1_pre20250406-r2 15.0.1_pre20250413 15.0.1_pre20250418 15.0.1_pre20250418-r1 15.0.9999 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.0 12.4.1_p20241219 12.4.1_p20250227 12.4.1_p20250417 12.5.9999 13.2.0 13.3.1_p20241220 13.3.1_p20250301 13.3.1_p20250418 13.4.9999 14.2.1_p20241221 14.2.1_p20250301 14.2.1_p20250419 14.3.9999 15.0.1_pre20250418-r1 15.0.9999 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.11 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5 0.22.5-r1 0.23.1: GNU locale utilities
@@ -17466,7 +17469,7 @@ sys-devel/kgcc64 10.5.0 11.5.0 12.4.1_p20241219 13.3.1_p20241220 14.2.1_p2024122
 sys-devel/m4 1.4.19-r2 1.4.19_p20250413 1.4.19_p20250419: GNU macro processor
 sys-devel/mold 2.1.0 2.35.1 2.36.0 2.37.1 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
-sys-devel/native-cctools 5-r1: Host OS native assembler as and static linker ld
+sys-devel/native-cctools 5-r1 5-r2: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20240809 9999: Collection of tools for use with nvptx-none GCC toolchains
 sys-devel/patch 2.7.6-r6 2.7.6-r7 2.8 9999: Utility to apply diffs to files
 sys-devel/qbe 1.1-r1 1.2 9999: Pure-C embeddable compiler backend
@@ -17697,7 +17700,7 @@ sys-libs/libixp 0.5_p20110208-r3: A stand-alone client/server 9P library includi
 sys-libs/libmodulemd 2.15.0-r1 9999: C Library for manipulating Fedora Modularity metadata files
 sys-libs/libnbd 1.18.1-r2: NBD client library in userspace
 sys-libs/libnvidia-container 1.17.2 1.17.3 1.17.4 1.17.5 9999: NVIDIA container runtime library
-sys-libs/libnvme 1.11.1 1.12 1.13: C Library for NVM Express on Linux
+sys-libs/libnvme 1.11.1-r1 1.12-r1 1.13-r1: C Library for NVM Express on Linux
 sys-libs/libosinfo 1.11.0 1.12.0: GObject library for managing information about real and virtual OSes
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
 sys-libs/librtas 2.0.2-r2 2.0.3: A set of libraries for userspace access to RTAS on the PowerPC platform(s)
@@ -18063,10 +18066,10 @@ www-apps/miniflux 2.2.4 2.2.7: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
 www-apps/moodle 4.4.8 4.5.4 5.0: The Moodle Course Management System
 www-apps/mythweb 0.28.1-r2 34.0: PHP scripts intended to manage MythTV from a web browser
-www-apps/nanoc 4.12.21 4.13.0 4.13.1 4.13.3: nanoc is a simple but very flexible static site generator written in Ruby
-www-apps/nanoc-checking 1.0.3 1.0.5: Provides checking functionality for Nanoc
-www-apps/nanoc-cli 4.12.21 4.13.0 4.13.1 4.13.3: nanoc is a simple but very flexible static site generator written in Ruby
-www-apps/nanoc-core 4.12.21 4.13.0 4.13.1 4.13.3: nanoc is a simple but very flexible static site generator written in Ruby
+www-apps/nanoc 4.12.21 4.13.0 4.13.1 4.13.3 4.13.4: nanoc is a simple but very flexible static site generator written in Ruby
+www-apps/nanoc-checking 1.0.5 1.0.6: Provides checking functionality for Nanoc
+www-apps/nanoc-cli 4.12.21 4.13.0 4.13.1 4.13.3 4.13.4: nanoc is a simple but very flexible static site generator written in Ruby
+www-apps/nanoc-core 4.12.21 4.13.0 4.13.1 4.13.3 4.13.4: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-deploying 1.0.2-r1: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
 www-apps/nextcloud 29.0.12-r1 29.0.14-r1 29.0.15 30.0.6-r1 30.0.8-r1 30.0.9 31.0.2-r1 31.0.3: Personal cloud that runs on your own server
