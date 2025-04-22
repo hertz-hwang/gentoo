@@ -3865,16 +3865,16 @@ dev-cpp/cpptoml 0.1.1-r1: Header-only library for parsing TOML
 dev-cpp/ctemplate 2.4: A simple but powerful template language for C++
 dev-cpp/curlpp 0.8.1-r1: C++ wrapper for libcURL
 dev-cpp/doctest 2.4.11: The fastest feature-rich C++11/14/17/20 single-header testing framework
-dev-cpp/edencommon 2023.06.19.00 2024.11.04.00: Shared library for Watchman and Eden projects
+dev-cpp/edencommon 2023.06.19.00 2024.11.04.00 2025.04.14.00: Shared library for Watchman and Eden projects
 dev-cpp/eigen 3.4.0-r3 9999: C++ template library for linear algebra
 dev-cpp/elfio 3.12: ELF reader/producer header-only C++ library
 dev-cpp/expected 1.1.0: Single header implementation of std::expected with functional-style extensions
 dev-cpp/expected-lite 0.6.3: Expected objects in C++11 and later in a single-file header-only library
 dev-cpp/fast_float 7.0.0: Fast and exact implementation of the C++ from_chars functions for number types
-dev-cpp/fb303 2024.11.04.00: Core set of Thrift functions querying stats and other information from a service
-dev-cpp/fbthrift 2024.11.04.00-r1: Facebook's branch of Apache Thrift (C++ bindings)
-dev-cpp/fizz 2024.11.04.00: C++14 implementation of the TLS-1.3 standard
-dev-cpp/folly 2023.06.19.00-r1 2024.11.04.00-r2: An open-source C++ library developed and used at Facebook
+dev-cpp/fb303 2024.11.04.00 2025.04.14.00: Core set of Thrift functions querying stats and other information from a service
+dev-cpp/fbthrift 2024.11.04.00-r1 2025.04.14.00: Facebook's branch of Apache Thrift (C++ bindings)
+dev-cpp/fizz 2024.11.04.00 2025.04.14.00: C++14 implementation of the TLS-1.3 standard
+dev-cpp/folly 2023.06.19.00-r1 2024.11.04.00-r2 2025.04.14.00: An open-source C++ library developed and used at Facebook
 dev-cpp/frugally-deep 0.15.30: Header-only library for using Keras models in C++
 dev-cpp/functional-plus 0.2.22: Functional Programming Library for C++
 dev-cpp/gflags 2.2.2-r1 9999: Google's C++ argument parsing library
@@ -3903,7 +3903,7 @@ dev-cpp/ms-gsl 4.0.0 4.1.0 9999: Guideline Support Library implementation by Mic
 dev-cpp/msgpack-cxx 5.0.0 6.0.0 6.1.0 6.1.1: MessagePack for C++
 dev-cpp/muParser 2.3.3-r2 2.3.4-r1: Library for parsing mathematical expressions
 dev-cpp/muParserX 4.0.11 4.0.12: Parsing Expressions with Strings, Complex Numbers, Vectors, Matrices and more
-dev-cpp/mvfst 2024.11.04.00-r1: An implementation of the QUIC transport protocol
+dev-cpp/mvfst 2024.11.04.00-r1 2025.04.14.00: An implementation of the QUIC transport protocol
 dev-cpp/nlohmann_json 3.10.2 3.11.3 3.12.0: JSON for Modern C++
 dev-cpp/notcurses 3.0.5-r1 3.0.8 3.0.8-r1: Blingful TUIs and character graphics
 dev-cpp/opentelemetry-cpp 1.3.0-r2 1.4.0 1.6.0-r1 1.16.1: The OpenTelemetry C++ Client
@@ -3933,7 +3933,7 @@ dev-cpp/tomlplusplus 3.4.0: TOML config file parser and serializer
 dev-cpp/tree 3.18: An STL-like tree class
 dev-cpp/ut2-glaze 0.0.4: A stripped down fork of boost-ext ut2
 dev-cpp/valijson 1.0.4 1.0.5: Header-only C++ library for JSON Schema validation
-dev-cpp/wangle 2024.11.04.00: A framework providing common abstractions for building services
+dev-cpp/wangle 2024.11.04.00 2025.04.14.00: A framework providing common abstractions for building services
 dev-cpp/waylandpp 1.0.0-r1 9999: Wayland C++ bindings
 dev-cpp/websocketpp 0.8.2: C++/Boost Asio based websocket client/server library
 dev-cpp/xsimd 13.0.0-r1 13.1.0 13.2.0: C++ wrappers for SIMD intrinsics
@@ -10910,7 +10910,7 @@ dev-util/nsight-compute 2025.1.1.2: performance analysis tool designed to visual
 dev-util/nsight-graphics 2025.2.0: standalone developer tool with ray-tracing support
 dev-util/nsight-systems 2025.2.1: performance analysis tool designed to visualize an application’s algorithms
 dev-util/numdiff 5.9.0: File comparision, ignoring small numeric differences and formats
-dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.1 12.5.1 12.6.1-r1 12.6.3 12.8.0-r3 12.8.1: NVIDIA CUDA Toolkit (compiler and friends)
+dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.1 12.5.1 12.6.3 12.8.1: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/objconv 2.51: object code file converted (COFF, ELF, OMF, MACHO)
 dev-util/omake 0.10.3-r1 0.10.7: Make replacement
 dev-util/open-vcdiff 0.8.4-r2: An encoder/decoder for the VCDIFF (RFC3284) format
@@ -11033,7 +11033,7 @@ dev-util/vulkan-tools 1.4.309.0 9999: Official Vulkan Tools and Utilities for Wi
 dev-util/vulkan-utility-libraries 1.4.309.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
-dev-util/watchman 2023.06.19.00-r2 2024.11.04.00: A file watching service
+dev-util/watchman 2023.06.19.00-r2 2024.11.04.00 2025.04.14.00: A file watching service
 dev-util/wayland-scanner 1.23.1 9999: wayland-scanner tool
 dev-util/web_page_replay_go 20221028: A performance testing tool for recording and replaying web pages
 dev-util/webhook 2.8.1: lightweight incoming webhook server to run shell commands
@@ -12902,8 +12902,8 @@ media-gfx/arss 0.2.3-r1: Analysis & Resynthesis Sound Spectrograph
 media-gfx/asymptote 2.95 3.01: A vector graphics language that provides a framework for technical drawing
 media-gfx/autopano-sift-C 2.5.1-r1: SIFT algorithm for automatic panorama creation in C
 media-gfx/aview 1.3.0_rc1-r3: ASCII Image Viewer
-media-gfx/blender 3.6.18-r1 4.1.1-r5 4.2.4-r2 4.3.2-r2 9999: 3D Creation/Animation/Publishing System
-media-gfx/blender-bin 3.6.21 4.2.7 9999: 3D Creation/Animation/Publishing System
+media-gfx/blender 4.2.4-r2 4.2.9 4.3.2-r3 4.4.1 9999: 3D Creation/Animation/Publishing System
+media-gfx/blender-bin 3.6.21 3.6.22 4.2.7 4.2.9 4.4.1 9999: 3D Creation/Animation/Publishing System
 media-gfx/brscan4 0.4.11.1-r1: Brother scanner driver
 media-gfx/cairosvg 2.7.1: CLI and library to export SVG to PDF, PostScript, and PNG
 media-gfx/cellwriter 1.3.6 1.3.6-r1: Grid-entry natural handwriting input panel
@@ -13444,7 +13444,7 @@ media-libs/opensubdiv 3.4.4-r3 3.5.0 3.5.1 3.6.0-r1 3.6.0-r2: An Open-Source sub
 media-libs/opentimelineio 0.17.0: Open Source API and interchange format for editorial timeline information
 media-libs/opus 1.5.2: Open codec for interactive speech and music transmission over the Internet
 media-libs/opusfile 0.12-r1: A high-level decoding and seeking API for .opus files
-media-libs/osl 1.12.14.0-r3 1.13.10.0-r1 1.13.12.0-r1 9999: Advanced shading language for production GI renderers
+media-libs/osl 1.13.10.0-r1 1.13.12.0-r1 9999: Advanced shading language for production GI renderers
 media-libs/partio 1.17.1 1.17.3: Library for particle IO and manipulation
 media-libs/pcaudiolib 1.2-r2: Portable C Audio Library
 media-libs/phat 0.4.1-r2: PHAT is a collection of GTK+ widgets geared toward pro-audio apps
@@ -13460,7 +13460,7 @@ media-libs/portmidi 2.0.4: Library for real time MIDI input and output
 media-libs/portsmf 239 239-r1: The Tenacity fork of PortSMF, a Standard MIDI File library
 media-libs/ptex 2.4.2: Per-Face Texture Mapping for Production Rendering
 media-libs/pulseaudio-qt 1.7.0: Qt bindings for libpulse
-media-libs/qhull 2020.2-r3: Geometry library
+media-libs/qhull 2020.2-r3 2020.2.8.1_alpha4: Geometry library
 media-libs/quarter 1.2.2: GUI binding for using Coin/Open Inventor with Qt
 media-libs/quesoglc 0.7.2-r1: Free implementation of the OpenGL Character Renderer (GLC)
 media-libs/quirc 1.2-r2 9999: QR decoder library
