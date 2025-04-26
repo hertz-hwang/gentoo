@@ -1531,7 +1531,7 @@ app-crypt/xca 2.8.0 2.9.0: A GUI to OpenSSL, RSA public keys, certificates, sign
 app-crypt/xor-analyze 0.5-r1: Program for cryptanalyzing xor 'encryption' with variable key length
 app-crypt/yubihsm-connector 3.0.4: Server to expose YubiHSM 2 to network
 app-crypt/yubihsm-shell 2.4.0: Components used to interact with the YubiHSM 2
-app-crypt/yubikey-manager 5.5.1 5.6.1: Python library and command line tool for configuring a YubiKey
+app-crypt/yubikey-manager 5.5.1 5.5.1-r1 5.6.1 5.6.1-r1: Python library and command line tool for configuring a YubiKey
 app-crypt/yubikey-manager-qt 1.2.5: Cross-platform application for configuring any YubiKey over all USB transports
 app-crypt/yubioath-flutter-bin 6.1.0-r3 6.4.0-r1 7.0.0 7.1.0 7.1.1: Yubico Authenticator for TOTP
 app-crypt/zulucrypt 7.0.0: Front end to cryptsetup
@@ -2595,7 +2595,7 @@ app-laptop/pommed 1.39-r2: Manage screen and keyboard backlight on Apple MacBook
 app-laptop/rogauracore 1.6 9999: RGB keyboard control for Asus ROG laptops
 app-laptop/spicctrl 1.9-r1: tool for the sonypi-Device (found in Sony Vaio Notebooks)
 app-laptop/thinkfan 1.3.1: Simple fan control program for thinkpads
-app-laptop/tiny-dfr 0.3.0-r1 0.3.1-r1 0.3.3: The most basic dynamic function row daemon possible
+app-laptop/tiny-dfr 0.3.0-r1 0.3.1-r1 0.3.3 0.3.5: The most basic dynamic function row daemon possible
 app-laptop/tp_smapi 0.44: IBM ThinkPad SMAPI BIOS driver
 app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPads, not supported by tp_smapi
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
@@ -2885,7 +2885,7 @@ app-misc/siegfried 1.11.1 1.11.2: Signature-based file format identification
 app-misc/skim 0.10.4-r1 0.16.1: Command-line fuzzy finder
 app-misc/sl 5.02-r1: Sophisticated graphical program which corrects your miss typing
 app-misc/smtm 1.6.10-r2: Stock ticker, profit/loss calculator and chart tool
-app-misc/socnetv 3.1: Qt Social Network Visualizer
+app-misc/socnetv 3.1 3.2: Qt Social Network Visualizer
 app-misc/solaar 1.1.9 1.1.13 1.1.14-r1 9999: Linux Device Manager for Logitech Unifying Receivers and Paired Devices
 app-misc/sonypid 1.9.1: Tool to use the Sony Vaios jog-dial as a mouse-wheel
 app-misc/spacenavd 1.2 1.3 1.3-r1 1.3.1: The spacenavd daemon provides free alternative to the 3dxserv daemon
@@ -2997,7 +2997,7 @@ app-office/sc-im 0.8.3-r1: Ncurses based, vim-like spreadsheet calculator
 app-office/scribus 1.6.3 1.6.4 1.6.9999 1.7.0 9999: Desktop publishing (DTP) and layout program
 app-office/skrooge 25.1.0-r1 25.4.0: Personal finances manager, aiming at being simple and intuitive
 app-office/texmacs 2.1-r100: Wysiwyg text processor with high-quality maths
-app-office/texmaker 5.1.4-r1: Powerful LaTeX-IDE
+app-office/texmaker 5.1.4-r1 6.0.0: Powerful LaTeX-IDE
 app-office/texstudio 4.8.4-r2: Free cross-platform LaTeX editor (fork from texmakerX)
 app-office/unoconv 0.9.0-r1: Convert between document formats supported by LibreOffice
 app-office/worklog-assistant-bin 2.3.3900: Hassle-free time tracking for JIRA self-hosted and OnDemand
@@ -3332,7 +3332,7 @@ app-text/pdfminer 20240706: Python tool for extracting information from PDF docu
 app-text/pdfpc 4.7.0: Presenter console with multi-monitor support for PDF files
 app-text/pdfsandwich 0.1.7-r1: generator of sandwich OCR pdf files
 app-text/pdftk 3.3.3_p20231025 9999: A port of pdftk into java
-app-text/pelican 4.8.0 4.9.1: A tool to generate a static blog, with restructured text or markdown input files
+app-text/pelican 4.8.0 4.9.1 4.11.0: A tool to generate a static blog, with restructured text or markdown input files
 app-text/pep 2.8-r2: General purpose filter and file cleaning program
 app-text/pinfo 0.6.13: Hypertext info and man viewer based on (n)curses
 app-text/po4a 0.73-r1: Tools to ease the translation of documentation
@@ -3946,7 +3946,7 @@ dev-db/datadraw 3.1.1: feature rich database generator for high performance C ap
 dev-db/dbeaver-bin 24.3.4 25.0.0: Free universal database tool (community edition)
 dev-db/duckdb 1.2.1 1.2.2: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.12 3.5.15 3.5.17 3.5.18: Highly-available key value store for shared configuration and service discovery
-dev-db/freetds 1.4.24 1.4.26: Tabular Datastream Library
+dev-db/freetds 1.4.24 1.4.26 1.4.27 1.5: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
 dev-db/gqlplus 1.16-r2: a front-end for Oracle program sqlplus with command-line editing
 dev-db/hsqldb 2.7.4: HSQLDB - Lightweight 100% Java SQL Database Engine
@@ -3969,7 +3969,7 @@ dev-db/mariadb-connector-c 3.3.8 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.30: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.45.4 1.46.0: GUI for MongoDB
-dev-db/mycli 1.29.2: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.29.2 1.31.1: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.15.2.8-r1 0.16.11.2 0.18.1.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 5.7.41 8.0.37 8.0.40 8.0.41: A fast, multi-threaded, multi-user SQL database server
@@ -7981,7 +7981,7 @@ dev-php/pecl-dio 0.2.1: Direct I/O functions for PHP
 dev-php/pecl-eio 3.1.0_rc1: PHP wrapper for libeio library
 dev-php/pecl-event 3.1.4: PHP wrapper for libevent2
 dev-php/pecl-http 4.2.6: Extended HTTP Support for PHP
-dev-php/pecl-imagick 3.7.0-r3 3.7.0-r4: PHP wrapper for the ImageMagick library
+dev-php/pecl-imagick 3.7.0-r3 3.7.0-r4 3.8.0: PHP wrapper for the ImageMagick library
 dev-php/pecl-mailparse 3.1.6: PHP extension for parsing and working with RFC822 and MIME compliant messages
 dev-php/pecl-memcached 3.3.0: Interface PHP with memcached via libmemcached library
 dev-php/pecl-mongodb 1.16.2: MongoDB database driver for PHP
@@ -11411,7 +11411,7 @@ games-emulation/mekanix 070-r1: SG-1000, SC-3000, SF-7000, SSC, SMS, GG, COLECO,
 games-emulation/melonds 1.0_rc 9999: Nintendo DS emulator, sorta
 games-emulation/melonds-jg 0.9.5 9999: Jolly Good Port of melonDS
 games-emulation/mgba 0.10.4 9999: Game Boy Advance Emulator
-games-emulation/mgba-jg 0.10.4 9999: Jolly Good Port of mGBA
+games-emulation/mgba-jg 0.10.4 0.10.5 9999: Jolly Good Port of mGBA
 games-emulation/mupen64plus 2.5.9 2.6.0: A fork of Mupen64 Nintendo 64 emulator, meta-package
 games-emulation/mupen64plus-audio-sdl 2.5.9 2.6.0: A fork of Mupen64 Nintendo 64 emulator, SDL audio plugin
 games-emulation/mupen64plus-core 2.5.9-r4 2.6.0: A fork of Mupen64 Nintendo 64 emulator, core library
@@ -11421,14 +11421,14 @@ games-emulation/mupen64plus-ui-console 2.5.9 2.6.0: A fork of Mupen64 Nintendo 6
 games-emulation/mupen64plus-video-glide64mk2 2.5.9-r2 2.6.0: A fork of Mupen64 Nintendo 64 emulator, glide64mk2 video plugin
 games-emulation/mupen64plus-video-rice 2.5.9-r2 2.6.0: A fork of Mupen64 Nintendo 64 emulator, rice video plugin
 games-emulation/nestopia 1.52.1-r1 1.53.0-r1 1.53.1: Portable Nintendo Entertainment System emulator written in C++
-games-emulation/nestopia-jg 1.52.1-r1 1.53.0 9999: Jolly Good Fork of Nestopia
+games-emulation/nestopia-jg 1.53.0 1.53.1 9999: Jolly Good Fork of Nestopia
 games-emulation/openmsx 19.1 20.0: MSX emulator that aims for perfection
 games-emulation/pcsx2 2.2.0-r1 9999: PlayStation 2 emulator
 games-emulation/pcsx2_patches 0_p20241020 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
 games-emulation/ppsspp 1.18.1 1.18.1-r2: A PSP emulator written in C++
 games-emulation/prosystem-jg 1.5.2 1.5.3 9999: Jolly Good Fork of ProSystem
 games-emulation/rmg 0.7.3 0.7.8 9999: Rosalie's Mupen GUI
-games-emulation/sameboy-jg 1.0.0 9999: Jolly Good Port of SameBoy
+games-emulation/sameboy-jg 1.0.0 1.0.1 9999: Jolly Good Port of SameBoy
 games-emulation/snes9x 1.62.3: Super Nintendo Entertainment System (SNES) emulator
 games-emulation/stella 7.0: Multi-platform Atari 2600 VCS Emulator
 games-emulation/vbam 2.1.7 2.1.9 2.1.9-r1 2.1.11 9999: Game Boy, GBC, and GBA emulator forked from VisualBoyAdvance
@@ -12047,8 +12047,8 @@ gui-apps/swappy 1.5.1 9999: A Wayland native snapshot and editor tool, inspired 
 gui-apps/swaybg 1.2.0 1.2.1 9999: A wallpaper utility for Wayland
 gui-apps/swayidle 1.8.0 9999: Idle management daemon for Wayland
 gui-apps/swaylock 1.8.0 9999: Screen locker for Wayland
-gui-apps/tuigreet 0.8.0-r2 0.9.1-r1 9999: TUI greeter for greetd login manager
-gui-apps/waybar 0.10.4-r1 0.11.0 0.11.0-r1 9999: Highly customizable Wayland bar for Sway and Wlroots based compositors
+gui-apps/tuigreet 0.8.0-r2 0.9.1-r2 9999: TUI greeter for greetd login manager
+gui-apps/waybar 0.10.4-r1 0.11.0 0.11.0-r1 0.12.0 9999: Highly customizable Wayland bar for Sway and Wlroots based compositors
 gui-apps/wayland-logout 1.4 9999: general logout scripts for wayland compositors
 gui-apps/waypipe 0.9.0 0.9.1 0.9.2 9999: Transparent network proxy for Wayland compositors
 gui-apps/wayvnc 0.9.1 9999: VNC server for wlroots based Wayland compositors
@@ -13026,7 +13026,7 @@ media-gfx/pdf2svg 0.2.3-r2: Convert PDF to SVG files using poppler and cairo
 media-gfx/pencil 0.7.0: 2D animation and drawing program based on Qt
 media-gfx/photopc 3.07: Utility to control digital cameras based on Sierra Imaging firmware
 media-gfx/photoqt 4.7-r1 4.8.1: Simple but powerful Qt-based image viewer
-media-gfx/phototonic 2.1 9999: Image viewer and organizer
+media-gfx/phototonic 3.0.0: Image viewer and organizer
 media-gfx/pinta 2.1.2: Pinta is a free, open source program for drawing and image editing
 media-gfx/pixels2pgf 0.1-r1 9999: Convert pixel images (e.g. QRCode) to PGF/Tikz rectangles
 media-gfx/plantuml 1.2025.0 1.2025.2: Draw UML diagrams using a simple and human readable text description
@@ -13934,7 +13934,7 @@ media-sound/gnomad 2.9.6-r3: GTK+ music manager for the Portable Digital Enterta
 media-sound/gnome-music 46.1 47.1: Music management for Gnome
 media-sound/gnome-sound-recorder 42.0: A simple, modern sound recorder for GNOME
 media-sound/gnump3d 3.0-r6: Streaming server for MP3, OGG vorbis and other streamable files
-media-sound/gogglesmm 1.2.5: Fast and light music player
+media-sound/gogglesmm 1.2.5 1.2.5-r1: Fast and light music player
 media-sound/gom 0.29.103-r1: Console Mixer Program for OSS
 media-sound/gpodder 3.11.4-r1 3.11.5: A free cross-platform podcast aggregator
 media-sound/gqradio 1.9.2: An FM radio tuner app from the people who brought you GQmpeg
@@ -14648,7 +14648,7 @@ net-dns/hash-slinger 3.4: Various tools to generate DNS records like SSHFP, TLSA
 net-dns/https_dns_proxy 0_pre20200925 9999: A lightweight DNS-over-HTTPS proxy
 net-dns/idnkit 2.3-r2: Toolkit for Internationalized Domain Names (IDN)
 net-dns/inadyn 2.12.0-r2: Dynamic DNS client with multiple SSL/TLS library support
-net-dns/knot 3.4.4 3.4.5: High-performance authoritative-only DNS server
+net-dns/knot 3.4.4 3.4.5 3.4.6: High-performance authoritative-only DNS server
 net-dns/knot-resolver 5.7.4-r1 6.0.10 6.0.11: A scaleable caching DNS resolver
 net-dns/libidn 1.42 1.43: Internationalized Domain Names (IDN) implementation
 net-dns/libidn2 2.3.7 2.3.8: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893)
@@ -16560,6 +16560,7 @@ sec-keys/openpgp-keys-kamildudka 20220525: OpenPGP keys used by Kamil Dudka
 sec-keys/openpgp-keys-karelzak 20220331 20230110 20230517: OpenPGP keys used by Karel Zak
 sec-keys/openpgp-keys-kentoverstreet 20241012: OpenPGP keys used by Kent Overstreet
 sec-keys/openpgp-keys-kernel 20201103: OpenPGP keys used to sign Linux kernel releases
+sec-keys/openpgp-keys-knot 20170710: OpenPGP keys used by the Knot DNS developers
 sec-keys/openpgp-keys-knot-resolver 20240304: OpenPGP keys used by the Knot Resolver developers
 sec-keys/openpgp-keys-kovidgoyal 20220106: OpenPGP keys used by Kovid Goyal
 sec-keys/openpgp-keys-lassecollin 20230213 20240529 20250313-r1: OpenPGP keys used by Lasse Collin
