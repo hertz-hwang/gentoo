@@ -2715,7 +2715,7 @@ app-misc/detachtty 11.0.0-r1: Attach/detach from interactive processes across th
 app-misc/detox 1.4.2-r1 1.4.5-r1: Safely remove spaces and strange characters from filenames
 app-misc/devtodo 0.1.20-r3 0.1.20-r4: Hierarchical command-line task manager
 app-misc/dfshow 0.10.3_beta: Unix-like rewrite of some of the applications from DF-EDIT
-app-misc/digitemp 3.7.2: Temperature logging and reporting using Maxim's iButtons and 1-Wire protocol
+app-misc/digitemp 3.7.2 3.7.2-r1: Temperature logging and reporting using Maxim's iButtons and 1-Wire protocol
 app-misc/dtach 0.9-r1: Emulates the detach feature of screen
 app-misc/dvorak7min 1.6.1-r2: Simple ncurses-based typing tutor for learning the Dvorak keyboard layout
 app-misc/dvtm 0.15-r6 9999: Dynamic virtual terminal manager
@@ -5865,7 +5865,7 @@ dev-libs/yaz 5.34.0 5.34.2 5.34.4: C/C++ toolkit for Z39.50v3 clients and server
 dev-libs/yyjson 0.10.0: Fast JSON library in C
 dev-libs/zix 0.4.2 0.6.2: Lightweight C library of portability wrappers and data structures
 dev-libs/zug 0.1.1-r1: Transducers for C++
-dev-libs/zziplib 0.13.78-r2 0.13.79: Lightweight library for extracting data from files archived in a single zip file
+dev-libs/zziplib 0.13.78-r2 0.13.79-r1: Lightweight library for extracting data from files archived in a single zip file
 dev-lisp/abcl 1.9.3: Armed Bear Common Lisp is a Common Lisp implementation for the JVM
 dev-lisp/alexandria 1.4: A collection of portable utilities for Common Lisp
 dev-lisp/asdf 3.3.5-r1: ASDF is Another System Definition Facility for Common Lisp
@@ -13281,7 +13281,7 @@ media-libs/libgphoto2 2.5.31-r2: Library that implements support for numerous di
 media-libs/libgpod 0.8.3-r8: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
-media-libs/libheif 1.18.2-r1 1.19.7 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.18.2-r1 1.19.7 1.19.8 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libicns 0.8.1-r1: A library for manipulating MacOS X .icns icon format
 media-libs/libid3tag 0.16.3: The MAD id3tag library, Tenacity fork
 media-libs/libiec61883 1.2.0-r2: Library for capturing video (dv or mpeg2) over the IEEE 1394 bus
