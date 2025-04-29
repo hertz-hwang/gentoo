@@ -4832,15 +4832,15 @@ dev-java/cglib 3.3.0-r3: cglib is a powerful, high performance and quality Code 
 dev-java/checker-framework-qual 3.48.4: Annotations for type-checking by the Checker Framework
 dev-java/commons-beanutils 1.9.4-r2 1.10.1: Provides easy-to-use wrappers around Reflection and Introspection APIs
 dev-java/commons-cli 1.9.0: A Java library for working with the command line arguments and options
-dev-java/commons-codec 1.17.1-r1: Implementations of common encoders and decoders in Java
-dev-java/commons-collections 3.2.2-r2 4.4-r2: Extends the JCF classes with new interfaces, implementations and utilities
+dev-java/commons-codec 1.17.1-r1 1.18.0: Implementations of common encoders and decoders in Java
+dev-java/commons-collections 3.2.2-r2 4.4-r2 4.5.0: Extends the JCF classes with new interfaces, implementations and utilities
 dev-java/commons-compress 1.27.1-r1: Java API for working with archive files
-dev-java/commons-csv 1.12.0-r1: Simple interface for reading and writing CSV files of various types
-dev-java/commons-daemon 1.4.0: Tools to allow Java programs to run as UNIX daemons
+dev-java/commons-csv 1.12.0-r1 1.14.0: Simple interface for reading and writing CSV files of various types
+dev-java/commons-daemon 1.4.0 1.4.1: Tools to allow Java programs to run as UNIX daemons
 dev-java/commons-digester 2.1-r2 2.1-r3 3.2-r4: Reads XML configuration files to provide initialization of various Java objects
 dev-java/commons-httpclient 3.1-r3: The Jakarta Commons HttpClient library
 dev-java/commons-imaging 0.97 1.0_alpha3-r2: Apache Commons Imaging (previously Sanselan) is a pure-Java image library.
-dev-java/commons-io 2.18.0: Utility classes, stream implementations, file filters, and much more
+dev-java/commons-io 2.18.0 2.19.0: Utility classes, stream implementations, file filters, and much more
 dev-java/commons-junit4 1.2.17: Assertions etc. for those who write tests with JUNIT 4
 dev-java/commons-lang 3.17.0: Commons components to manipulate core java classes
 dev-java/commons-logging 1.3.4-r1 1.3.5: Thin adapter allowing configurable bridging to other well known logging systems
@@ -8445,7 +8445,7 @@ dev-python/google-auth-oauthlib 1.2.1 1.2.2: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
 dev-python/google-pasta 0.2.0-r2: AST-based Python refactoring library
 dev-python/googleapis-common-protos 1.69.2 1.70.0: Python classes generated from the common protos in the googleapis repository
-dev-python/gpep517 17: A backend script to aid installing Python packages in Gentoo
+dev-python/gpep517 17 18: A backend script to aid installing Python packages in Gentoo
 dev-python/gpt-image 0.9.0: Tool to create GPT disk image files
 dev-python/graph-tool 2.75 9999: An efficient python module for manipulation and statistical analysis of graphs
 dev-python/graphviz 0.20.3: Simple Python interface for Graphviz
@@ -9447,7 +9447,7 @@ dev-python/sphinx-press-theme 0.9.1: A Sphinx-doc theme based on Vuepress
 dev-python/sphinx-prompt 1.9.0: Sphinx directive to add unselectable prompt
 dev-python/sphinx-pytest 0.2.0: Helpful pytest fixtures for Sphinx extensions
 dev-python/sphinx-rtd-theme 3.0.2: ReadTheDocs.org theme for Sphinx
-dev-python/sphinx-selective-exclude 1.0.3-r1 1.0.3-r2: Sphinx selective rendition extensions
+dev-python/sphinx-selective-exclude 1.0.3-r2: Sphinx selective rendition extensions
 dev-python/sphinx-tabs 3.4.7: Tabbed views for Sphinx
 dev-python/sphinxcontrib-apidoc 0.5.0: Sphinx extension for running sphinx-apidoc on each build
 dev-python/sphinxcontrib-applehelp 2.0.0 2.0.0-r1: Sphinx extension which outputs Apple help book
@@ -9508,7 +9508,7 @@ dev-python/svgwrite 1.4.3: Python Package to write SVG files
 dev-python/swagger-spec-validator 3.0.3 3.0.4: Validate Swagger specs against Swagger 1.1 or 2.0 specification
 dev-python/sybil 9.1.0: Automated testing for the examples in your documentation
 dev-python/symengine 0.11.0 0.13.0 0.14.0 0.14.1: Python wrappers to the symengine C++ library
-dev-python/sympy 1.13.3 1.14.0_rc1 1.14.0_rc2 1.14.0: Computer Algebra System in pure Python
+dev-python/sympy 1.13.3 1.14.0: Computer Algebra System in pure Python
 dev-python/tables 3.10.2: Hierarchical datasets for Python
 dev-python/tabulate 0.9.0-r1: Pretty-print tabular data
 dev-python/tagpy 2025.1-r1: Python Bindings for TagLib
@@ -9637,7 +9637,7 @@ dev-python/virtualenvwrapper 6.1.1: Set of extensions to Ian Bicking's virtualen
 dev-python/visitor 0.1.3-r2: A tiny pythonic visitor implementation
 dev-python/vobject 0.9.8: Python package for parsing and generating vCard and vCalendar files
 dev-python/voluptuous 0.15.2: A Python data validation library
-dev-python/vpython 7.6.4-r1 7.6.5 7.6.5-r1: VPython for Jupyter notebook
+dev-python/vpython 7.6.5-r1: VPython for Jupyter notebook
 dev-python/waitress 3.0.2: A pure-Python WSGI server
 dev-python/wand 0.6.13: Ctypes-based simple ImageMagick binding for Python
 dev-python/warlock 1.3.3-r3 2.0.1: Python object model built on JSON schema and JSON patch
@@ -10740,7 +10740,7 @@ dev-util/cpputest 4.0-r1: Unit testing and mocking framework for C/C++
 dev-util/cproto 4.7v 4.7w 4.7x: Generate C function prototypes from C source code
 dev-util/cpuinfo-collection 20101114: huge collection of /proc/cpuinfo files
 dev-util/cram 0.7-r2: Functional testing framework for command line applications
-dev-util/crash 8.0.5 8.0.6 9999: Red Hat crash utility; used for analyzing kernel core dumps
+dev-util/crash 8.0.6 9.0.0 9999: Red Hat crash utility; used for analyzing kernel core dumps
 dev-util/cscope 15.9 15.9-r1: Interactively examine a C program
 dev-util/csup 20060318-r1: A rewrite of CVSup
 dev-util/ctags 20230423.0-r1 20240609.0 99999999: Exuberant Ctags creates tags files for code browsing in editors
@@ -10816,7 +10816,7 @@ dev-util/glslang 1.4.309.0 9999: Khronos reference front-end for GLSL and ESSL, 
 dev-util/gnome-builder 46.3 47.2: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
-dev-util/goland 2022.3.3-r1: Golang IDE by JetBrains
+dev-util/goland 2022.3.3-r1 2024.3.5 2025.1: Golang IDE by JetBrains
 dev-util/google-perftools 2.15 2.16: Fast, multi-threaded malloc() and nifty performance analysis tools
 dev-util/gource 0.55: A software version control visualization tool
 dev-util/gperf 3.1-r2 3.2.1 3.3: A perfect hash function generator
@@ -11087,7 +11087,7 @@ dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.1 9999: Scalable distributed
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pre-commit 4.0.1 4.1.0 4.2.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/pwclient 2.6.2: The command-line client for the patchwork patch tracking tool
-dev-vcs/python-gitlab 3.13.0 4.6.0: Python command line interface to gitlab API
+dev-vcs/python-gitlab 3.13.0 4.6.0 5.6.0: Python command line interface to gitlab API
 dev-vcs/qgit 2.10: Qt GUI for git repositories
 dev-vcs/rcs 5.10.1-r1: Revision Control System
 dev-vcs/rcsi 0.5: A program to give information about RCS files
@@ -13392,7 +13392,7 @@ media-libs/libxmi 1.3-r1 1.3-r2: C/C++ function library for rasterizing 2-D vect
 media-libs/libxmp 4.6.0 4.6.1: Library that renders module files to PCM data
 media-libs/libxspf 1.2.1: Playlist handling library
 media-libs/libxtract 0.6.6: A simple, portable, lightweight library of audio feature extraction functions
-media-libs/libyuv 1904 9999: Open source project that includes YUV scaling and conversion functionality.
+media-libs/libyuv 1904-r1 9999: Open source project that includes YUV scaling and conversion functionality.
 media-libs/libzen 0.4.39 0.4.41: Shared library for libmediainfo and mediainfo
 media-libs/libzmf 0.0.2-r1 9999: Library for parsing Zoner Callisto/Draw documents
 media-libs/lilv 0.24.24 0.24.26: Library to make the use of LV2 plugins as simple as possible for applications
@@ -14763,7 +14763,7 @@ net-im/sendxmpp-scala 1.1.1-r1 9999: Send XMPP (Jabber) messages via command lin
 net-im/signal-cli-bin 0.13.2-r1 0.13.9: Send and receive messages of Signal Messenger over a command line interface
 net-im/signal-desktop-bin 7.52.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/skypeforlinux 8.108.0.205 8.110.76.107: Instant messaging client, with support for audio and video
-net-im/slack 4.43.44 4.43.49: Team collaboration tool
+net-im/slack 4.43.44 4.43.49 4.43.52: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r2: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.127.1 1.128.0: Reference implementation of Matrix homeserver
@@ -14975,7 +14975,7 @@ net-libs/ntirpc 5.0 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.13 1.3.14: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS.
 net-libs/phodav 3.0: WebDav server implementation using libsoup
-net-libs/pjproject 2.13.1-r1 2.15.1: Open source SIP, Media, and NAT Traversal Library
+net-libs/pjproject 2.13.1-r1 2.15.1 2.15.1-r1: Open source SIP, Media, and NAT Traversal Library
 net-libs/ppp-defs 0: Shim header for net/ppp_defs.h on musl
 net-libs/quiche 0.22.0-r2 0.23.2 0.23.4 0.23.5 0.23.6 0.23.7 0.24.1 9999: Implementation of the QUIC transport protocol and HTTP/3
 net-libs/qxmpp 1.10.3: Cross-platform C++ XMPP client and server library
@@ -17093,7 +17093,7 @@ sys-apps/nvme-cli 2.11 2.12 2.13: NVM-Express user space tooling for Linux
 sys-apps/onerng 3.7: Software for the Open Hardware Random Number Generator called OneRNG
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.10.0 3.10.1 3.10.2: Drivers and user-space daemon to control Razer devices on GNU/Linux
-sys-apps/openrc 0.56 0.61 0.62 9999: OpenRC manages the services, startup and shutdown of a host
+sys-apps/openrc 0.56 0.62.2 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/osinfo-db 20240701 20250124: osinfo database files
 sys-apps/osinfo-db-tools 1.11.0 1.12.0: Tools for managing the osinfo database
 sys-apps/pandora_box 0.14.0-r2: Syd's log inspector & profile writer
@@ -17453,7 +17453,7 @@ sys-devel/gnuconfig 20240728 99999999: Updated config.sub and config.guess file 
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.4.1_p20241219 13.3.1_p20241220 14.2.1_p20241221: 64bit kernel compiler
 sys-devel/m4 1.4.19-r2 1.4.19_p20250413 1.4.19_p20250419: GNU macro processor
-sys-devel/mold 2.1.0 2.35.1 2.36.0 2.37.1 9999: A Modern Linker
+sys-devel/mold 2.1.0 2.35.1 2.36.0 2.37.1 2.38.1 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
 sys-devel/native-cctools 5-r1 5-r2: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20240809 9999: Collection of tools for use with nvptx-none GCC toolchains
@@ -18474,8 +18474,8 @@ x11-misc/kronometer 2.3.70_pre20240906: Stopwatch application
 x11-misc/ktsuss 2.1-r1: Graphical version of su written in C and GTK+ 2
 x11-misc/libinput-gestures 2.76: Actions gestures on your touchpad using libinput
 x11-misc/light-locker 1.9.0-r2: A simple locker using lightdm
-x11-misc/lightdm 1.32.0-r2: A lightweight display manager
-x11-misc/lightdm-gtk-greeter 2.0.9: LightDM GTK+ Greeter
+x11-misc/lightdm 1.32.0-r2 1.32.0-r3: A lightweight display manager
+x11-misc/lightdm-gtk-greeter 2.0.9-r1: LightDM GTK+ Greeter
 x11-misc/lightdm-mini-greeter 0.5.1: A Minimal, Configurable, Single-User GTK3 LightDM Greeter
 x11-misc/lineak-defaultplugin 0.9.0-r3: Mute/unmute and other macros for LINEAK
 x11-misc/lineak-xosdplugin 0.9.0-r3: Xosd plugin for LINEAK
