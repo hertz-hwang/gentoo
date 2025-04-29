@@ -1,3 +1,4 @@
+acct-group/3proxy 0: System group: 3proxy
 acct-group/_cron-failure 0-r1: A group for sys-process/systemd-cron failure emails
 acct-group/adm 0-r3: System group: adm
 acct-group/aerospike-amc 0-r2: A group for app-admin/aerospike-amc-community
@@ -449,6 +450,7 @@ acct-group/zeppelin 0-r3: Group for system-wide www-apps/zeppelin-bin
 acct-group/ziproxy 0-r2: System group: ziproxy
 acct-group/znc 0-r3: Group for net-irc/znc
 acct-group/zookeeper 0-r2: A group for sys-cluster/zookeeper-bin
+acct-user/3proxy 0: user for 3proxy
 acct-user/_cron-failure 0-r1: A user for sys-process/systemd-cron failure emails
 acct-user/aerospike-amc 0-r2: A user for app-admin/aerospike-amc-community
 acct-user/airdcppd 0-r3: User for net-p2p/airdcpp-webclient
@@ -1176,7 +1178,7 @@ app-arch/pure-sfv 0.3-r2: utility to test and create .sfv files and create .par 
 app-arch/pxz 5.0_pre20220509-r1: Parallel implementation of the XZ compression utility
 app-arch/qpress 20220819: A portable file archiver using QuickLZ algorithm
 app-arch/rar 7.01 7.11: RAR compressor/uncompressor
-app-arch/rpm 4.20.0 4.20.1: The RPM Package Manager
+app-arch/rpm 4.20.0 4.20.1-r1: The RPM Package Manager
 app-arch/rpm2targz 2021.03.16: Convert a .rpm file to a .tar.gz archive
 app-arch/rzip 2.1-r5: Compression program for large files
 app-arch/sharutils 4.15.2-r3: Tools to deal with shar archives
@@ -2648,7 +2650,7 @@ app-misc/abook 0.6.1-r4: Abook is a text-based addressbook program designed to u
 app-misc/acdctl 1.1-r2: Apple Cinema Display Control
 app-misc/actkbd 0.2.8-r2: A keyboard shortcut daemon
 app-misc/aldo 0.7.7: A morse tutor
-app-misc/anki 25.02: A spaced-repetition memory training program (flash cards)
+app-misc/anki 25.02 25.02.4: A spaced-repetition memory training program (flash cards)
 app-misc/ansiweather 1.19.0: Weather in terminal, with ANSI colors and Unicode symbols
 app-misc/asciicast-tools 0.0_pre20220524-r1: Tools for creating recordings of console sessions
 app-misc/asciinema 2.4.0: Command line recorder for asciinema.org service
@@ -3903,7 +3905,7 @@ dev-cpp/muParserX 4.0.11 4.0.12: Parsing Expressions with Strings, Complex Numbe
 dev-cpp/mvfst 2024.11.04.00-r1 2025.04.14.00: An implementation of the QUIC transport protocol
 dev-cpp/nlohmann_json 3.10.2 3.11.3 3.12.0: JSON for Modern C++
 dev-cpp/notcurses 3.0.5-r1 3.0.8 3.0.8-r1: Blingful TUIs and character graphics
-dev-cpp/opentelemetry-cpp 1.3.0-r2 1.4.0 1.6.0-r1 1.16.1: The OpenTelemetry C++ Client
+dev-cpp/opentelemetry-cpp 1.3.0-r2 1.4.0 1.6.0-r1 1.16.1 1.20.0: The OpenTelemetry C++ Client
 dev-cpp/pangomm 2.46.3 2.50.1: C++ interface for pango
 dev-cpp/picojson 1.3.0: Header-file-only, JSON parser serializer in C++
 dev-cpp/popl 1.2.0-r1: Header-only C++ program options parser library
@@ -13025,7 +13027,7 @@ media-gfx/panini 0.74.0: OpenGL-based panoramic image viewer
 media-gfx/pdf2svg 0.2.3-r2: Convert PDF to SVG files using poppler and cairo
 media-gfx/pencil 0.7.0: 2D animation and drawing program based on Qt
 media-gfx/photopc 3.07: Utility to control digital cameras based on Sierra Imaging firmware
-media-gfx/photoqt 4.7-r1 4.8.1: Simple but powerful Qt-based image viewer
+media-gfx/photoqt 4.8.1: Simple but powerful Qt-based image viewer
 media-gfx/phototonic 3.0.0: Image viewer and organizer
 media-gfx/pinta 2.1.2 3.0: Pinta is a free, open source program for drawing and image editing
 media-gfx/pixels2pgf 0.1-r1 9999: Convert pixel images (e.g. QRCode) to PGF/Tikz rectangles
@@ -15462,7 +15464,7 @@ net-p2p/ed2k_hash 0.4.0-r3: Tool for generating eDonkey2000 links
 net-p2p/energi3 3.0.8 3.1.0 9999: Official golang implementation of the Energi Core
 net-p2p/fms 0.3.84: Spam-resistant message board application for Freenet
 net-p2p/freenet 0.7.5_p1501: An encrypted network without censorship
-net-p2p/go-ethereum 1.14.13 1.15.1: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.14.13 1.15.1 1.15.6: Official golang implementation of the Ethereum protocol
 net-p2p/gtk-gnutella 1.2.2-r1 1.2.3: GTK+ Gnutella client
 net-p2p/gtorrentviewer 0.2b-r1: A GTK2-based viewer and editor for BitTorrent meta files
 net-p2p/ktorrent 24.12.3 25.04.0: Powerful BitTorrent client based on KDE Frameworks
@@ -15518,7 +15520,7 @@ net-print/pnm2ppa 1.13-r2: Print driver for Hp Deskjet 710, 712, 720, 722, 820, 
 net-print/poster 20060221-r4: Small utility for making a poster from an EPS file or a one-page PS document
 net-print/splix 2.0.0_p20130826-r1 2.0.1: A set of CUPS printer drivers for SPL (Samsung Printer Language) printers
 net-print/sshlpr 1-r1: ssh-lpr backend for cups -- print to remote systems over ssh
-net-proxy/3proxy 0.9.4: A really tiny cross-platform proxy servers set
+net-proxy/3proxy 0.9.4 0.9.5: Really tiny cross-platform proxy servers set
 net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, page counters and web bugs
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3: A free socks4,5 and msproxy implementation
@@ -15746,7 +15748,7 @@ sci-biology/amap 2.2-r6: Protein multiple-alignment-based sequence annealing
 sci-biology/augustus 2.5.5 3.4.0-r3 3.5.0: Eukaryotic gene predictor
 sci-biology/bamtools 2.5.2 2.5.2-r1 9999: A programmer's API and an end-user's toolkit for handling BAM files
 sci-biology/bcftools 1.19 1.20 1.21: Utilities for variant calling and manipulating VCF and BCF files
-sci-biology/bedtools 2.30.0 2.31.1: Tools for manipulation and analysis of BED, GFF/GTF, VCF, SAM/BAM file formats
+sci-biology/bedtools 2.31.1: Tools for manipulation and analysis of BED, GFF/GTF, VCF, SAM/BAM file formats
 sci-biology/bfast 0.7.0a-r1: Blat-like Fast Accurate Search Tool
 sci-biology/biogrep 1.0-r3: Multithreaded tool for matching large sets of patterns against biosequence DBs
 sci-biology/bioperl 1.6.9-r1: Perl tools for bioinformatics - Core modules
@@ -15904,7 +15906,7 @@ sci-chemistry/pdbcat 1.3-r1: Manipulate and process PDB files using tools such a
 sci-chemistry/pdbcns 2.0.010504: Convert atom names for amino acids/nucleic acid bases between PDB and CNS format
 sci-chemistry/pdbmat 3.89-r1: Calculate Tirion's model from pdb structures
 sci-chemistry/probe 2.13.110909: Evaluates atomic packing within or between molecules
-sci-chemistry/propka 3.4.0 3.5.1: pKa-value prediction of ionizable groups in protein and protein-ligand complexes
+sci-chemistry/propka 3.5.1: pKa-value prediction of ionizable groups in protein and protein-ligand complexes
 sci-chemistry/psi 3.4.0-r3: Suite for ab initio quantum chemistry computing various molecular properties
 sci-chemistry/pymol 3.0.0-r1: A Python-extensible molecular graphics system
 sci-chemistry/raster3d 3.0.6-r1: Generation high quality raster images of proteins or other molecules
