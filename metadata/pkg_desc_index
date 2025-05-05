@@ -2324,7 +2324,7 @@ app-emacs/yatex 1.83: Yet Another TeX mode for Emacs
 app-emacs/zenburn 20110907-r1: Zenburn color theme for Emacs
 app-emacs/zenburn-theme 2.8.0: Zenburn color theme for Emacs
 app-emacs/zenirc 2.112-r1: A full-featured scriptable IRC client for the Emacs text editor
-app-emulation/86Box 4.2.1-r1: Emulator of x86-based machines based on PCem
+app-emulation/86Box 4.2 4.2.1-r1: Emulator of x86-based machines based on PCem
 app-emulation/aranym 1.1.0-r1: Atari Running on Any Machine, VM running Atari ST/TT/Falcon OS and TOS/GEM apps
 app-emulation/bochs 2.6.10 2.7 9999: LGPL-ed pc emulator
 app-emulation/cloud-init 24.4-r4 25.1 9999: Cloud instance initialisation magic
@@ -4014,7 +4014,7 @@ dev-db/qdbm 1.8.78-r5: Quick Database Manager
 dev-db/qt5-sqlcipher 1.0.11-r2: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
 dev-db/redict 7.3.2: A persistent caching system, key-value, and data structures database
-dev-db/redis 6.2.16 6.2.17 6.2.18 7.2.6 7.2.7 7.2.8 7.4.1 7.4.2 7.4.3: A persistent caching system, key-value, and data structures database
+dev-db/redis 6.2.16 6.2.17 6.2.18 7.2.6 7.2.7 7.2.8 7.4.1 7.4.2 7.4.3 8.0.0: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.1.0 5.1.0-r1 5.5.0: PostgreSQL Replication Manager
 dev-db/rqlite 8.36.2 8.36.3 8.36.5 8.36.6 8.36.8 8.36.10: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
@@ -4989,10 +4989,10 @@ dev-java/jopt-simple 5.0.4: A Java library for parsing command line options
 dev-java/jrobin 1.6.0-r2: JRobin is a 100% pure Java alternative to RRDTool
 dev-java/jsch 0.1.55: JSch is a pure Java implementation of SSH2
 dev-java/jsch-agent-proxy 0.0.9-r1: a proxy to ssh-agent and Pageant in Java
-dev-java/json 20241224 20250107: A reference implementation of a JSON package in Java
+dev-java/json 20250107: A reference implementation of a JSON package in Java
 dev-java/json-path 2.9.0: Java JsonPath implementation
 dev-java/json-simple 2.3.1 4.0.1: Java 7+ toolkit to quickly develop RFC 4627 JSON compatible applications
-dev-java/json-smart 1.3.3 2.5.1 2.5.2: JSON Small and Fast Parser
+dev-java/json-smart 1.3.3 2.5.2: JSON Small and Fast Parser
 dev-java/jsonb-api 2.0.0: Jakarta JSON Binding
 dev-java/jsonp-api 2.0.2: Jakarta JSON Processing API
 dev-java/jsonrpc2-base 1.38.2: Represent, parse and serialise JSON-RPC 2.0 messages
@@ -5053,7 +5053,7 @@ dev-java/pebble 3.1.6: Templating engine for Java
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-java/plexus-classworlds 2.7.0-r1: The class loader framework of the Plexus project
 dev-java/poi 5.2.5: Maven build of Apache POI for Sonar checks
-dev-java/protobuf-java 4.28.3 4.29.2 4.29.3 4.29.4 4.30.2: Core Protocol Buffers library
+dev-java/protobuf-java 4.29.2 4.29.3 4.29.4 4.30.2: Core Protocol Buffers library
 dev-java/qdox 1.12.1-r6 2.0.1: Parser for extracting class/interface/method definitions
 dev-java/randomized-runner 2.8.2 2.8.3: JUnit test runner and plugins for running JUnit tests with pseudo-randomness
 dev-java/reflections 0.9.12-r6: Reflections - a Java runtime metadata analysis
