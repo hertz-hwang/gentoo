@@ -13346,7 +13346,7 @@ media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherape
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
-media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.54: Simple Direct Media Layer
+media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.54: Simple Direct Media Layer
 media-libs/libsdl3 3.2.10: Simple Direct Media Layer
 media-libs/libsfml 2.6.1 2.6.2: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6: library for connecting and sending data to icecast servers
@@ -17444,7 +17444,7 @@ sys-devel/gnuconfig 20240728 99999999: Updated config.sub and config.guess file 
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.4.1_p20241219 13.3.1_p20241220 14.2.1_p20241221: 64bit kernel compiler
 sys-devel/m4 1.4.19-r2 1.4.19_p20250413 1.4.19_p20250419: GNU macro processor
-sys-devel/mold 2.1.0 2.35.1 2.36.0 2.37.1 2.38.1 2.38.1-r1 9999: A Modern Linker
+sys-devel/mold 2.1.0 2.35.1 2.36.0 2.37.1 2.38.1 2.38.1-r1 2.39.0 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
 sys-devel/native-cctools 5-r1 5-r2: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20240809 9999: Collection of tools for use with nvptx-none GCC toolchains
