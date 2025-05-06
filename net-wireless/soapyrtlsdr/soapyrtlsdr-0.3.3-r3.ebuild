@@ -24,3 +24,5 @@ RDEPEND="net-wireless/soapysdr:=
 		net-wireless/rtl-sdr:="
 DEPEND="${RDEPEND}"
 BDEPEND=""
+
+PATCHES=( "${FILESDIR}"/${PN}-0.3.3-cmake4.patch )

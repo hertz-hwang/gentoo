@@ -3,9 +3,9 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..12} )
 
-inherit autotools eapi9-ver python-single-r1 udev systemd
+inherit autotools flag-o-matic python-single-r1 udev systemd
 
 if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="https://www.kismetwireless.net/git/${PN}.git"
@@ -25,7 +25,7 @@ else
 	#SRC_URI="https://github.com/kismetwireless/kismet/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
 	#S="${WORKDIR}/${PN}-${COMMIT}"
 
-	KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~x86"
+	KEYWORDS="amd64 arm ~arm64 ~ppc x86"
 fi
 
 DESCRIPTION="IEEE 802.11 wireless LAN sniffer"
@@ -33,18 +33,16 @@ HOMEPAGE="https://www.kismetwireless.net"
 
 LICENSE="GPL-2"
 SLOT="0/${PV}"
-IUSE="libusb lm-sensors mqtt networkmanager +pcre protobuf rtlsdr selinux +suid ubertooth udev +wext"
+IUSE="libusb lm-sensors networkmanager +pcre rtlsdr selinux +suid ubertooth udev"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-# upstream said protobuf-26.1 breaks everything
-# details are unclear at this time but adding restriction for safety
 CDEPEND="
 	${PYTHON_DEPS}
-	mqtt? ( app-misc/mosquitto )
+	acct-user/kismet
+	acct-group/kismet
 	networkmanager? ( net-misc/networkmanager )
 	dev-libs/glib:2
 	dev-libs/elfutils
-	dev-libs/openssl:=
 	sys-libs/zlib:=
 	dev-db/sqlite:3
 	net-libs/libwebsockets:=[client,lejp]
@@ -53,20 +51,18 @@ CDEPEND="
 			net-libs/libpcap
 			)
 	libusb? ( virtual/libusb:1 )
-	protobuf? ( dev-libs/protobuf-c:=
-		<dev-libs/protobuf-26:= )
+	dev-libs/protobuf-c:=
+	dev-libs/protobuf:=
 	$(python_gen_cond_dep '
-	protobuf? ( dev-python/protobuf[${PYTHON_USEDEP}] )
+		dev-python/protobuf[${PYTHON_USEDEP}]
 		dev-python/websockets[${PYTHON_USEDEP}]
 	')
 	lm-sensors? ( sys-apps/lm-sensors:= )
-	pcre? ( dev-libs/libpcre2:= )
+	pcre? ( dev-libs/libpcre )
 	suid? ( sys-libs/libcap )
 	ubertooth? ( net-wireless/ubertooth )
 	"
 RDEPEND="${CDEPEND}
-	acct-user/kismet
-	acct-group/kismet
 	$(python_gen_cond_dep '
 		dev-python/pyserial[${PYTHON_USEDEP}]
 	')
@@ -78,24 +74,32 @@ RDEPEND="${CDEPEND}
 	)
 	selinux? ( sec-policy/selinux-kismet )
 "
+#switched back to bundled libfmt-8
+#https://bugs.gentoo.org/895252
+#<dev-libs/libfmt-9
 DEPEND="${CDEPEND}
 	dev-libs/boost
-	dev-libs/libfmt
 	sys-libs/libcap
 "
 BDEPEND="virtual/pkgconfig"
+
+# https://bugs.gentoo.org/872608
+# drop after 2022.08*
+PATCHES=( "${FILESDIR}/${P}-sandbox-fix.patch" )
 
 src_prepare() {
 	#sed -i -e "s:^\(logtemplate\)=\(.*\):\1=/tmp/\2:" \
 	#	conf/kismet_logging.conf || die
 
+	#this was added to quiet macosx builds but it makes gcc builds noisier
+	sed -i -e 's#-Wno-unknown-warning-option ##g' Makefile.inc.in || die
+
 	#sed -i -e 's#root#kismet#g' packaging/systemd/kismet.service.in
 
 	rm -r boost || die
-	rm -r fmt || die
-
-	# bundles mpack but I failed to successfully unbundle
-	# rm -r mpack || die
+	#switched back to bundled libfmt-8
+	#https://bugs.gentoo.org/895252
+	#rm -r fmt || die
 
 	#dev-libs/jsoncpp
 	#rm -r json || die
@@ -109,29 +113,30 @@ src_prepare() {
 	default
 
 	if [ "${PV}" = "9999" ]; then
-		sed -i -e 's#-Wno-dangling-reference##g' configure.ac || die
 		eautoreconf
-	# Untested by should fix same in non-live
-	#else
-	#	sed -i -e 's#-Wno-unknown-warning-option ##g' configure || die
 	fi
-
-	#this was added to quiet macosx builds but it makes gcc builds noisier
-	sed -i -e 's#-Wno-unknown-warning-option ##g' Makefile.inc.in || die
+	# drop after 2022.08*
+	# VERSION was incorrectly removed in 4e490cf0b49a287e964df9c5e5c4067f6918909e upstream
+	# https://github.com/kismetwireless/kismet/issues/427
+	# https://bugs.gentoo.org/864298
+	echo "${PV}" > VERSION
 }
 
 src_configure() {
+	# -Werror=strict-aliasing
+	# https://bugs.gentoo.org/877761
+	# https://github.com/kismetwireless/kismet/issues/518
+	#
+	# Do not trust with LTO either.
+	append-flags -fno-strict-aliasing
+	filter-lto
+
 	econf \
 		$(use_enable libusb libusb) \
-		$(use_enable libusb wifi-coconut) \
-		$(use_enable mqtt mosquitto) \
 		$(use_enable pcre) \
-		$(use_enable pcre require-pcre2) \
 		$(use_enable lm-sensors lmsensors) \
 		$(use_enable networkmanager libnm) \
-		$(use_enable protobuf) \
 		$(use_enable ubertooth) \
-		$(use_enable wext linuxwext) \
 		--sysconfdir=/etc/kismet \
 		--disable-optimization
 }
@@ -192,12 +197,20 @@ migrate_config() {
 }
 
 pkg_postinst() {
-	if ver_replacing -lt 2019.07.2 || ver_replacing -eq 9999; then
-		migrate_config
+	if [ -n "${REPLACING_VERSIONS}" ]; then
+		for v in ${REPLACING_VERSIONS}; do
+			if ver_test ${v} -lt 2019.07.2 ; then
+				migrate_config
+				break
+			fi
+			if ver_test ${v} -eq 9999 ; then
+				migrate_config
+				break
+			fi
+		done
 	fi
 	udev_reload
 }
-
 pkg_postrm() {
 	udev_reload
 }
