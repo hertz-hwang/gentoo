@@ -3080,7 +3080,7 @@ app-portage/ufed 0.96 9999: Gentoo Linux USE flags editor
 app-portage/unsymlink-lib 20: Convert your system to SYMLINK_LIB=no
 app-shells/atuin 18.4.0 18.5.0: Shell history manager supporting encrypted synchronisation
 app-shells/autojump 22.5.3-r4: change directory command that learns
-app-shells/bash 2.05b_p13 3.0_p22 3.1_p23 3.2_p57 4.0_p44 4.1_p17 4.2_p53 4.3_p48-r2 4.4_p23-r2 5.0_p18-r3 5.1_p16-r14 5.2_p37 5.2_p37-r3 5.3_rc1 5.3_rc1_p20250409 5.3_rc1_p20250419 5.3_rc1_p20250422 5.3_rc1_p20250430-r1 5.3_rc1_p20250504-r1 9999: The standard GNU Bourne again shell
+app-shells/bash 2.05b_p13 3.0_p22 3.1_p23 3.2_p57 4.0_p44 4.1_p17 4.2_p53 4.3_p48-r2 4.4_p23-r2 5.0_p18-r3 5.1_p16-r14 5.2_p37 5.2_p37-r3 5.3_rc1 5.3_rc1_p20250430-r1 5.3_rc1_p20250504-r1 9999: The standard GNU Bourne again shell
 app-shells/bash-completion 2.14.0-r1 2.15.0 2.16.0 9999: Programmable Completion for bash
 app-shells/bashdb 5.0.1.1.2-r1 5.1_pre20240617: bash source code debugging
 app-shells/bashish 2.2.4: Text console theme engine
@@ -3091,7 +3091,7 @@ app-shells/dsh 0.25.10-r2: Distributed Shell
 app-shells/esh 0.8.5-r3: A UNIX Shell with a simplified Scheme syntax
 app-shells/fish 3.7.1 4.0.0-r1 4.0.1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r1: F# Shell with integrated F# scripting
-app-shells/fzf 0.56.3 0.57.0 0.59.0 0.60.3 0.61.0: General-purpose command-line fuzzy finder, written in Golang
+app-shells/fzf 0.60.3 0.61.0 0.62.0: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
 app-shells/gentoo-bashcomp 20240625: Gentoo-specific bash command-line completions (emerge, ebuild, equery, etc)
 app-shells/gentoo-zsh-completions 20220112 20230117 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
