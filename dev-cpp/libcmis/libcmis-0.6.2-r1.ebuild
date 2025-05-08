@@ -8,7 +8,7 @@ if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 else
 	SRC_URI="https://github.com/tdf/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86 ~amd64-linux ~x86-linux"
+	KEYWORDS="amd64 ~arm arm64 ~loong ppc64 ~riscv x86 ~amd64-linux ~x86-linux"
 fi
 inherit autotools
 
@@ -40,6 +40,13 @@ BDEPEND="
 		dev-util/cppunit
 	)
 "
+
+PATCHES=(
+	# https://github.com/tdf/libcmis/pull/52
+	"${FILESDIR}"/${P}-libxml2-2.12.patch # bug 917523
+	# https://github.com/tdf/libcmis/pull/68
+	"${FILESDIR}"/${P}-boost-1.86.patch
+)
 
 src_prepare() {
 	default
