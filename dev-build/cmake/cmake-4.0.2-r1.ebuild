@@ -102,6 +102,7 @@ PATCHES=(
 	"${FILESDIR}/${PN}-3.30.3-cudahostld.patch"
 
 	# Upstream fixes (can usually be removed with a version bump)
+	"${FILESDIR}"/${PN}-3.31.7-hdf5.patch
 )
 
 cmake_src_bootstrap() {
