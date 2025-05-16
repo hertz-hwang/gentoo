@@ -13,7 +13,7 @@ SRC_URI="https://github.com/vlabella/GLE/archive/refs/tags/v${PV}.tar.gz -> ${P}
 	doc? ( https://github.com/vlabella/gle-manual/archive/refs/tags/v${PV}.tar.gz -> ${PN}-manual-${PV}.tar.gz )
 	emacs? ( https://dev.gentoo.org/~grozin/gle-mode.el.gz )"
 S="${WORKDIR}"/GLE-${PV}/src
-LICENSE="BSD GPL-2+"
+LICENSE="BSD gui? ( GPL-2+ )"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="doc emacs gui manip"
@@ -21,10 +21,10 @@ IUSE="doc emacs gui manip"
 DEPEND="app-text/ghostscript-gpl
 	app-text/poppler
 	dev-libs/boost
+	media-libs/libjpeg-turbo
 	media-libs/libpng
 	media-libs/tiff
 	sys-libs/zlib
-	media-libs/libjpeg-turbo
 	x11-libs/cairo
 	x11-libs/pixman
 	gui? (
@@ -44,8 +44,22 @@ RDEPEND="${DEPEND}
 BDEPEND="kde-frameworks/extra-cmake-modules
 	doc? ( virtual/latex-base )"
 
-PATCHES=( "${FILESDIR}"/install-dirs.patch "${FILESDIR}"/zstd-shared.patch "${FILESDIR}"/cmake-cmp0177.patch )
+PATCHES=(
+	"${FILESDIR}"/cmake-cmp0177.patch
+	"${FILESDIR}"/install-dirs.patch
+	"${FILESDIR}"/top_dir.patch
+	"${FILESDIR}"/zstd-shared.patch
+)
 SITEFILE="64${PN}-gentoo.el"
+
+src_prepare() {
+	cmake_src_prepare
+	if use doc; then
+		pushd "$WORKDIR"/gle-manual-${PV} > /dev/null || die "pushd gle_manual failed"
+		eapply "${FILESDIR}"/latexmk.patch
+		popd > /dev/null
+	fi
+}
 
 src_configure() {
 	# -Werror=odr
@@ -71,20 +85,13 @@ src_compile() {
 }
 
 src_install() {
+	export GLE_TOP="${D}"/usr/share/gle
 	cmake_src_install
-	mv "${D}"/usr/bin/gle "${D}"/usr/bin/gle.bin
-	newbin "${FILESDIR}"/gle.sh gle
-	if use gui; then
-		mv "${D}"/usr/bin/qgle "${D}"/usr/bin/qgle.bin
-		newbin "${FILESDIR}"/qgle.sh qgle
-	fi
-	GLE_TOP="${D}"/usr/share/${PN} "${D}"/usr/bin/gle.bin -mkinittex
+	#GLE_TOP="${D}"/usr/share/${PN} "${D}"/usr/bin/gle.bin -mkinittex
 	if use doc; then
 		pushd "$WORKDIR"/gle-manual-${PV} > /dev/null || die "pushd gle_manual failed"
-		patch -p1 < "FILESDIR"/latexmk.patch
-		export GLE_TOP="${D}"/usr/share/gle
 		export PATH="${D}"/usr/bin:${PATH}
-		make -f Makefile.gcc GLE="${D}"/usr/bin/gle.bin
+		make -f Makefile.gcc GLE="${D}"/usr/bin/gle
 		dodoc gle-manual.pdf
 		popd > /dev/null
 	fi
