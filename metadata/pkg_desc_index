@@ -3110,7 +3110,7 @@ app-shells/loksh 7.6: Linux port of OpenBSD's ksh
 app-shells/mcfly 0.5.13-r1 0.9.0-r1: Context-aware bash history search replacement (ctrl-r)
 app-shells/mksh 59c 9999: MirBSD Korn Shell
 app-shells/mpibash 1.3-r1 9999: Parallel scripting right from the Bourne-Again Shell (Bash)
-app-shells/nushell 0.102.0 0.103.0 0.104.0: A new type of shell, written in Rust
+app-shells/nushell 0.103.0 0.104.0 0.104.1: A new type of shell, written in Rust
 app-shells/pdmenu 1.3.6: A simple console menu program
 app-shells/pdsh 2.34-r2: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
@@ -14453,7 +14453,7 @@ net-analyzer/multimon-ng 1.3.0 9999: a fork of multimon, decodes multiple digita
 net-analyzer/multipath-tcp-tools 2018_p12_p21-r1 999999: Analysis tools for Multipath Transmission Control Protocol (MPTCP)
 net-analyzer/munin 2.0.75 2.0.76 2.0.76-r1 2.0.76-r2: Munin Server Monitoring Tool
 net-analyzer/munin-plugins-zfs 0.20170127-r1: A Munin plugin for monitoring ZFS on Linux
-net-analyzer/nagios 4.5.8: The Nagios metapackage
+net-analyzer/nagios 4.5.8 4.5.9: The Nagios metapackage
 net-analyzer/nagios-check_dnssec 0.1_p28: check_dnssec is a set of Nagios plugins to monitor DNSSEC services
 net-analyzer/nagios-check_glsa2 20120930-r1: Nagios check script for GLSAs (Gentoo Linux Security Advisories)
 net-analyzer/nagios-check_ipmi_sensor 3.13: IPMI Sensor Monitoring Plugin for Nagios/Icinga
@@ -14462,7 +14462,7 @@ net-analyzer/nagios-check_logfiles 4.0.1.3: A nagios plugin for checking logfile
 net-analyzer/nagios-check_multiple 0.0.1-r4: A Nagios plugin to execute multiple checks in parallel
 net-analyzer/nagios-check_mysql_health 2.2.2-r2: Nagios plugin for checking MySQL server health
 net-analyzer/nagios-check_rbl 1.7.0: Monitor whether or not a host is blacklisted
-net-analyzer/nagios-core 4.5.8: Nagios core - monitoring daemon, web GUI, and documentation
+net-analyzer/nagios-core 4.5.8 4.5.9: Nagios core - monitoring daemon, web GUI, and documentation
 net-analyzer/nagios-icinga-openvpn 0.0.1-r5: A Nagios plugin to check whether an OpenVPN server is alive
 net-analyzer/nagios-plugin-check_lm_sensors 4.1.1_p20191028: Nagios plugin to monitor the values of onboard sensors and disk temperatures
 net-analyzer/nagios-plugin-check_raid 4.0.10-r3: Nagios/Icinga plugin to check current server's RAID status
@@ -16181,7 +16181,7 @@ sci-libs/libticalcs2 1.1.9-r1: Library for communication with TI calculators
 sci-libs/libticonv 1.1.5-r1: Charset conversion library for TI calculators
 sci-libs/libtifiles2 1.1.7-r1: Library for TI calculator files
 sci-libs/libxc 5.1.7: A library of exchange-correlation functionals for use in DFT
-sci-libs/linbox 1.7.0-r1: C++ template library for integer and finite-field linear algebra
+sci-libs/linbox 1.7.0-r1 1.7.0-r2: C++ template library for integer and finite-field linear algebra
 sci-libs/linux-gpib 4.3.6-r100 4.3.6-r200 9999: Driver library for GPIB (IEEE 488.2) hardware
 sci-libs/linux-gpib-modules 4.3.6 9999: Kernel modules for GPIB (IEEE 488.2) hardware
 sci-libs/lis 1.6.5-r1 2.1.3: Library of Iterative Solvers for Linear Systems
