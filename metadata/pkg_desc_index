@@ -1222,7 +1222,7 @@ app-backup/backintime 1.5.1 1.5.4 9999: Backup system inspired by TimeVault and 
 app-backup/backup-manager 0.7.14-r1: Backup Manager is a command line backup tool for GNU/Linux
 app-backup/backupninja 1.2.2: lightweight, extensible meta-backup system
 app-backup/backuppc 3.3.1-r6 4.4.0-r1 4.4.0-r2: High-performance backups to a server's disk
-app-backup/bacula 15.0.3: Featureful client/server network backup suite
+app-backup/bacula 15.0.3 15.0.3-r1: Featureful client/server network backup suite
 app-backup/bareos 21.1.11 22.1.7 23.1.3-r1 24.0.2-r1 24.0.3 9999: Featureful client/server network backup suite
 app-backup/borgbackup 1.4.0 1.4.1: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 1.9.14 2.0.3 2.0.4 2.0.5 2.0.6: Automatically create, prune and verify backups with borgbackup
@@ -4014,7 +4014,7 @@ dev-db/psqlodbc 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
 dev-db/qt5-sqlcipher 1.0.11-r2: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
-dev-db/redict 7.3.2: A persistent caching system, key-value, and data structures database
+dev-db/redict 7.3.3: A persistent caching system, key-value, and data structures database
 dev-db/redis 6.2.16 6.2.17 6.2.18 7.2.6 7.2.7 7.2.8 7.2.9 7.4.1 7.4.2 7.4.3 7.4.4 8.0.0 8.0.1 8.0.2: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.1.0 5.1.0-r1 5.5.0: PostgreSQL Replication Manager
 dev-db/rqlite 8.36.2 8.36.3 8.36.5 8.36.6 8.36.8 8.36.10: Replicated SQLite using the Raft consensus protocol
@@ -10134,7 +10134,7 @@ dev-ruby/neovim-ruby-client 0.10.0: Ruby bindings for Neovim
 dev-ruby/net-ftp 0.3.4 0.3.7 0.3.8: Support for the File Transfer Protocol
 dev-ruby/net-http 0.6.0: HTTP client api for Ruby
 dev-ruby/net-http-digest_auth 1.4.1-r2: An implementation of RFC 2617 - Digest Access Authentication
-dev-ruby/net-http-persistent 4.0.4 4.0.5: Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8
+dev-ruby/net-http-persistent 4.0.4 4.0.5 4.0.6: Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8
 dev-ruby/net-http-pipeline 1.0.1-r1: An HTTP/1.1 pipelining implementation atop Net::HTTP
 dev-ruby/net-imap 0.4.19 0.4.20 0.4.21 0.5.6 0.5.7 0.5.8: Ruby client api for Internet Message Access Protocol
 dev-ruby/net-pop 0.1.2: Ruby client library for POP3
