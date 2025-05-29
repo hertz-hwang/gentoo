@@ -8733,7 +8733,7 @@ dev-python/mkdocs-bootswatch 1.1-r3: Bootswatch themes for MkDocs
 dev-python/mkdocs-gen-files 0.5.0: MkDocs plugin to programmatically generate documentation pages during the build
 dev-python/mkdocs-get-deps 0.2.0: extension that lists all dependencies according to a mkdocs.yml file
 dev-python/mkdocs-git-authors-plugin 0.9.5: Mkdocs plugin to display git authors of a page
-dev-python/mkdocs-git-revision-date-localized-plugin 1.4.5: Display the localized date of the last git modification of a markdown file
+dev-python/mkdocs-git-revision-date-localized-plugin 1.4.5 1.4.7: Display the localized date of the last git modification of a markdown file
 dev-python/mkdocs-htmlproofer-plugin 1.3.0: A MkDocs plugin that validates URLs in rendered HTML files
 dev-python/mkdocs-i18n 0.4.6: MkDocs i18n plugin
 dev-python/mkdocs-material 9.6.12 9.6.13 9.6.14: A Material Design theme for MkDocs
@@ -14248,7 +14248,7 @@ media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
 media-video/ffdiaporama 2.2_pre20240203-r1: Movie creator from photos and video clips
 media-video/ffmpeg 4.4.5-r3 4.4.6 6.1.2-r2 7.1.1-r1 9999: Complete solution to record/convert/stream audio and video
-media-video/ffmpeg-chromium 132 133 134 135 136 137 138: FFmpeg built specifically for codec support in Chromium-based browsers
+media-video/ffmpeg-chromium 134 135 136 137 138: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpeg-compat 4.4.5-r1 4.4.6 6.1.2-r1: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.2-r1: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
