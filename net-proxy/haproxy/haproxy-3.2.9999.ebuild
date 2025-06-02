@@ -61,7 +61,7 @@ RDEPEND="${DEPEND}
 
 S="${WORKDIR}/${MY_P}"
 
-DOCS=( CHANGELOG CONTRIBUTING MAINTAINERS README )
+DOCS=( CHANGELOG CONTRIBUTING MAINTAINERS )
 EXTRAS=( admin/halog admin/iprange dev/tcploop dev/hpack )
 
 haproxy_use() {
@@ -113,7 +113,6 @@ src_compile() {
 	args+=( $(haproxy_use lua LUA) )
 	args+=( $(haproxy_use 51degrees 51DEGREES) )
 	args+=( $(haproxy_use wurfl WURFL) )
-	args+=( $(haproxy_use systemd SYSTEMD) )
 	args+=( $(haproxy_use prometheus-exporter PROMEX) )
 
 	# Bug #668002
