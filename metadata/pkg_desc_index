@@ -10725,7 +10725,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.4 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 9999: Tool to extract code content from source files
-dev-util/claude-code 1.0.6: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 1.0.6 1.0.10: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.13 1.14: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2022.3.2 2023.3.4-r1 2024.3.5 2025.1 2025.1-r1 2025.1.1: A complete toolset for C and C++ development
@@ -12496,7 +12496,7 @@ kde-plasma/sddm-kcm 6.3.5: KDE Plasma control module for SDDM
 kde-plasma/spectacle 6.3.5: Screenshot capture utility
 kde-plasma/systemsettings 6.3.5: Control Center to configure KDE Plasma desktop
 kde-plasma/wacomtablet 6.3.5: Wacom system settings module that supports different button/pen layout profiles
-kde-plasma/xdg-desktop-portal-kde 6.3.5: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
+kde-plasma/xdg-desktop-portal-kde 6.3.5 6.3.5-r1: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 llvm-core/clang 15.0.7-r3 16.0.6 17.0.6 18.1.8-r6 19.1.7 20.1.5 20.1.6 21.0.0_pre20250523 21.0.0_pre20250528 21.0.0.9999: C language family frontend for LLVM
 llvm-core/clang-common 15.0.7-r10 16.0.6-r6 17.0.6-r9 17.0.6-r10 18.1.8-r3 19.1.7 20.1.5 20.1.6 21.0.0_pre20250523 21.0.0_pre20250528 21.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-runtime 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.5 20.1.6 21.0.0_pre20250523 21.0.0_pre20250528 21.0.0.9999: Meta-ebuild for clang runtime libraries
@@ -13367,7 +13367,7 @@ media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherape
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
-media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.54 2.32.56: Simple Direct Media Layer
+media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.54 2.32.56: Simple Direct Media Layer
 media-libs/libsdl3 3.2.10 3.2.12 3.2.14 3.2.16: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6: library for connecting and sending data to icecast servers
@@ -13452,7 +13452,7 @@ media-libs/phat 0.4.1-r2: PHAT is a collection of GTK+ widgets geared toward pro
 media-libs/phonon 4.12.0-r5: KDE multimedia abstraction library
 media-libs/phonon-vlc 0.12.0-r2: VLC backend for the Phonon multimedia library
 media-libs/plib 1.8.5-r4: Multimedia library used by many games
-media-libs/plotutils 2.6-r2 2.6-r3: Powerful C/C++ function library for exporting 2-D vector graphics
+media-libs/plotutils 2.6-r3: Powerful C/C++ function library for exporting 2-D vector graphics
 media-libs/plutosvg 0.0.6: Tiny SVG rendering library in C
 media-libs/plutovg 1.0.0: Tiny 2D vector graphics library in C
 media-libs/pnglite 0.1.17-r1: Small and simple library for loading and writing PNG images
@@ -14358,7 +14358,7 @@ net-analyzer/arping 2.25 9999: Utility to see if a specific IP is taken and what
 net-analyzer/arpoison 0.7 0.7-r1: Utility to poison ARP caches
 net-analyzer/arpon 3.0 3.0-r1: ArpON (Arp handler inspectiON) is a portable Arp handler
 net-analyzer/arptools 1.0.2-r1: Collection of libnet and libpcap based ARP utilities
-net-analyzer/arpwatch 3.5 3.6 3.7: An ethernet monitor program that keeps track of ethernet/IP address pairings
+net-analyzer/arpwatch 3.5 3.6 3.7 3.8: An ethernet monitor program that keeps track of ethernet/IP address pairings
 net-analyzer/authforce 0.9.9-r4: An HTTP authentication brute forcer
 net-analyzer/bandwhich 0.23.1: Terminal bandwidth utilization tool
 net-analyzer/barnyard 0.2.0-r7: Fast output system for Snort
