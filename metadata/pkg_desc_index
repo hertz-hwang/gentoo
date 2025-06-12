@@ -3808,7 +3808,7 @@ dev-build/bazel-buildtools 8.0.3 8.2.0: Tools for working with Google's Bazel BU
 dev-build/bazelisk 1.25.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20241124 20250125 20250414 20250528: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019: Another set of autoconf macros for compiling against boost
-dev-build/cmake 3.28.5 3.31.5 3.31.7-r1 4.0.2-r1 9999: Cross platform Make
+dev-build/cmake 3.28.5 3.31.5 3.31.7-r1 3.31.8 4.0.2-r1 4.0.3 9999: Cross platform Make
 dev-build/cmake-fedora 2.9.3: Provides cmake helper macros and targets for linux, especially fedora developers
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 24.12.3 25.04.2: Dolphin plugin for Makefile targets integration
@@ -10920,7 +10920,7 @@ dev-util/patdiff 0.15.0 0.17.0: Colored patience diffs with word-level refinemen
 dev-util/peg 0.1.19: Recursive-descent parser generators for C
 dev-util/perf 6.7 6.14 6.15: Userland tools for Linux Performance Counters
 dev-util/pixi 0.47.0 0.48.0 0.48.1: A package management and workflow tool
-dev-util/pkgcheck 0.10.33-r1 0.10.34 9999: pkgcore-based QA utility for ebuild repos
+dev-util/pkgcheck 0.10.33-r1 0.10.34 0.10.35 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 1.8.1 2.1.1 2.2.0 2.3.0 2.4.3 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.13 9999: QA library and tools based on pkgcraft
 dev-util/pkgdev 0.2.11 9999: Collection of tools for Gentoo development
