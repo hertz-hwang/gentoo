@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit desktop toolchain-funcs xdg-utils
+inherit meson xdg-utils
 
 DESCRIPTION="PC/SC Architecture smartcard tools"
 HOMEPAGE="https://pcsc-tools.apdu.fr/ https://github.com/LudovicRousseau/pcsc-tools"
@@ -21,42 +21,24 @@ RDEPEND="
 	dev-perl/pcsc-perl
 	gui? ( dev-perl/Gtk3 )
 "
-BDEPEND="
-	virtual/pkgconfig
-	sys-devel/gettext
-"
-
-src_configure() {
-	econf --enable-gettext
-}
-
-src_compile() {
-	# explicitly only build the pcsc_scan application, or the man
-	# pages will be gzipped first, and then unpacked.
-	emake pcsc_scan CC="$(tc-getCC)"
-}
 
 src_install() {
-	einstalldocs
+	meson_src_install
 
-	# install manually, makes it much easier since the Makefile
-	# requires fiddling with
-	dobin ATR_analysis scriptor pcsc_scan
-	doman pcsc_scan.1 scriptor.1p ATR_analysis.1p
+	fperms +x /usr/bin/ATR_analysis
 
-	if use gui; then
-		domenu gscriptor.desktop
-		dobin gscriptor
-		doman gscriptor.1p
+	# USE=gui controls gscriptor for bug #323229
+	if ! use gui ; then
+		rm "${ED}"/usr/bin/gscriptor || die
+		rm "${ED}"/usr/share/pcsc/gscriptor.png || die
+		rm "${ED}"/usr/share/applications/gscriptor.desktop || die
+		rm "${ED}"/usr/share/man/man1/gscriptor.1 || die
 	fi
 
 	if use network-cron ; then
 		exeinto /etc/cron.monthly
 		newexe "${FILESDIR}"/smartcard.cron update-smartcard_list
 	fi
-
-	insinto /usr/share/pcsc
-	doins smartcard_list.txt
 }
 
 pkg_postinst() {
@@ -64,5 +46,6 @@ pkg_postinst() {
 }
 
 pkg_postrm() {
+	# No USE=gui conditional here, as we may have just disabled it
 	xdg_desktop_database_update
 }
