@@ -14203,7 +14203,7 @@ media-tv/kodi 21.2-r5 21.9999 9999: A free and open source media-player and ente
 media-tv/linuxtv-dvb-apps 1.1.1.20140321-r2: Small utils for DVB to scan, zap, view signal strength
 media-tv/mythtv 33.1-r4: Open Source DVR and media center hub
 media-tv/mythtv-status 1.1.0: Displays the current status of MythTV at the command prompt
-media-tv/plex-media-server 1.41.7.9823: Free media library that is intended for use with a plex client
+media-tv/plex-media-server 1.41.8.9834: Free media library that is intended for use with a plex client
 media-tv/shoutcast2vdr 0.0.8-r1: VDR script: generate shoutcast playlists
 media-tv/tvbrowser-bin 4.2.7: Themeable and easy to use TV Guide - written in Java
 media-tv/tvheadend 4.3_p20240618 4.3_p20240618-r1 9999: Tvheadend is a TV streaming server and digital video recorder
@@ -14783,7 +14783,7 @@ net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.128.0 1.129.0 1.130.0 1.131.0: Reference implementation of Matrix homeserver
 net-im/telegram-desktop 5.12.3-r6 5.13.1-r3 5.14.3-r1: Official desktop client for Telegram
-net-im/telegram-desktop-bin 5.14.2 5.14.3: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 5.14.3 5.15.3: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r2 0.8.2_p4-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
 net-im/tkabber 1.1.2: A jabber client written in Tcl/Tk
