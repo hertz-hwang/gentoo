@@ -8107,7 +8107,7 @@ dev-python/atpublic 6.0.1: A decorator to populate __all__ and the module global
 dev-python/attrs 25.3.0: Attributes without boilerplate
 dev-python/audioop-lts 0.2.1: An LTS port of Python's audioop module
 dev-python/audioread 3.0.1 3.0.1-r1: Wrapper for audio file decoding using FFmpeg or GStreamer
-dev-python/authlib 1.5.2: A Python library in building OAuth and OpenID Connect servers and clients
+dev-python/authlib 1.5.2 1.6.0: A Python library in building OAuth and OpenID Connect servers and clients
 dev-python/authres 1.2.0-r1: Parse and generate Authentication-Results headers
 dev-python/autobahn 24.4.2: WebSocket and WAMP for Twisted and Asyncio
 dev-python/automat 25.4.16: Self-service finite-state machines for the programmer on the go
@@ -8369,7 +8369,7 @@ dev-python/expects 0.9.0-r1: Expressive and extensible TDD/BDD assertion library
 dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.8: Module for manipulating ID3 (v1 + v2) tags in Python
-dev-python/fake-py 0.11.6: Minimalistic, standalone alternative fake data generator with no dependencies
+dev-python/fake-py 0.11.6 0.11.8: Minimalistic, standalone alternative fake data generator with no dependencies
 dev-python/faker 37.3.0 37.4.0: A Python package that generates fake data for you
 dev-python/fakeredis 2.29.0: Fake implementation of redis API for testing purposes
 dev-python/fastbencode 0.3.1 0.3.2: Implementation of bencode with optional fast C extensions
@@ -9124,7 +9124,7 @@ dev-python/pysnmpcrypto 0.0.4: Strong cryptography support for PySNMP (SNMP libr
 dev-python/pysocks 1.7.1-r2: SOCKS client module
 dev-python/pysol-cards 0.22.0 0.24.0: Deal PySol FreeCell cards
 dev-python/pyspectrum2 0.2.0-r2: Implements a protobuf-based interface for Spectrum2 python-based backends
-dev-python/pyspellchecker 0.8.2: Pure python spell checker based on work by Peter Norvig
+dev-python/pyspellchecker 0.8.2 0.8.3: Pure python spell checker based on work by Peter Norvig
 dev-python/pyspelling 2.10: Spell checker automation tool
 dev-python/pyspf 2.0.14-r3: Python implementation of the Sender Policy Framework (SPF)
 dev-python/pyspnego 0.11.2: Library to handle SPNEGO and CredSSP authentication
@@ -9364,7 +9364,7 @@ dev-python/rpds-py 0.23.1 0.24.0 0.25.0 0.25.1: Python bindings to Rust's persis
 dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rpy2 3.5.14: Python interface to the R language
 dev-python/rpyc 6.0.0: Remote Python Call (RPyC), a transparent and symmetric RPC library
-dev-python/rq 2.3.3-r1: Simple, lightweight library for creating and processing background jobs
+dev-python/rq 2.3.3-r1 2.4.0: Simple, lightweight library for creating and processing background jobs
 dev-python/rsa 4.9: Pure-Python RSA implementation
 dev-python/rst-linker 2.6.0: Sphinx plugin to add links and timestamps to the changelog
 dev-python/rtimulib 7.2.1-r3: Python Binding for RTIMULib, a versatile IMU library
@@ -17668,7 +17668,7 @@ sys-kernel/raspberrypi-image 4.14.98_p20190215 4.19.75_p20190925 5.4.79_p2020120
 sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.290_p96 5.10.237_p131 5.15.179_p84 6.0.5_p14 6.1.134_p51 6.5.2_p8 6.6.87_p54 6.12.16_p9: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/scx 1.0.10 1.0.11 1.0.12: sched_ext schedulers and tools
-sys-kernel/ugrd 1.20.0 1.22.0 1.24.2 1.27.2 1.28.2 1.29.0-r1 1.31.2 9999: Python based POSIX initramfs generator with TOML definitions
+sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.237 5.10.238 5.10.9999 5.15.183 5.15.185 5.15.9999 6.1.140 6.1.141 6.1.9999 6.6.92 6.6.93 6.6.9999 6.12.31 6.12.32 6.12.33 6.12.9999 6.14.9 6.14.10 6.14.11 6.15.2: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.4.294 5.10.238 5.15.185 6.1.141 6.6.92 6.12.33 6.14.11 6.15.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.33 1.36: Quickly build and run kernels inside a virtualized snapshot of your live system
