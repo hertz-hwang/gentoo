@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit edo toolchain-funcs flag-o-matic
+inherit edo toolchain-funcs ffmpeg-compat flag-o-matic
 
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://git.ffmpeg.org/ffmpeg.git"
@@ -75,7 +75,7 @@ X_RDEPS="
 #   https://sourceforge.net/p/giflib/bugs/132/
 RDEPEND="
 	app-arch/bzip2
-	>=media-video/ffmpeg-5.1:=[vdpau?]
+	media-video/ffmpeg-compat:6=[vdpau?]
 	sys-libs/ncurses:=
 	sys-libs/zlib
 	a52? ( media-libs/a52dec )
@@ -169,7 +169,7 @@ RDEPEND+="selinux? ( sec-policy/selinux-mplayer )"
 LICENSE="GPL-2"
 SLOT="0"
 if [[ ${PV} != *9999* ]]; then
-	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86"
+	KEYWORDS="~alpha amd64 arm ~arm64 ~hppa ppc ppc64 ~riscv ~sparc x86"
 fi
 
 # faac codecs are nonfree
@@ -197,6 +197,10 @@ RESTRICT="faac? ( bindist )"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-1.5_p20241125-c99.patch
+)
+
+QA_CONFIG_IMPL_DECL_SKIP=(
+	_aligned_malloc
 )
 
 pkg_setup() {
@@ -271,6 +275,9 @@ src_prepare() {
 }
 
 src_configure() {
+	# TODO: fix with >=ffmpeg-7 then drop compat (bug #948254)
+	ffmpeg_compat_setup 6
+
 	# undefined reference to `sse_int32_map_factor' etc
 	# https://bugs.gentoo.org/650458
 	# https://trac.mplayerhq.hu/ticket/2408

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit edo flag-o-matic multiprocessing python-any-r1 toolchain-funcs xdg
 
@@ -17,7 +17,7 @@ else
 	MY_P="HandBrake-${PV}"
 	SRC_URI="https://github.com/HandBrake/HandBrake/releases/download/${PV}/${MY_P}-source.tar.bz2 -> ${P}.tar.bz2"
 	S="${WORKDIR}/${MY_P}"
-	KEYWORDS="~amd64 ~arm64 ~x86"
+	KEYWORDS="amd64 ~arm64 ~x86"
 fi
 
 # contrib/<project>/module.defs
@@ -25,12 +25,12 @@ declare -A BUNDLED=(
 	# Heavily patched in an incompatible way.
 	# Issues related to using system ffmpeg historically.
 	# See bug #829595 and #922828
-	[ffmpeg]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/ffmpeg-7.1.1.tar.bz2;"
+	[ffmpeg]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/ffmpeg-7.1.tar.bz2;"
 	# Patched in an incompatible way
-	[x265]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265-snapshot-20250507-13244.tar.gz;x265"
-	[x265_8bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265-snapshot-20250507-13244.tar.gz;x265"
-	[x265_10bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265-snapshot-20250507-13244.tar.gz;x265"
-	[x265_12bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265-snapshot-20250507-13244.tar.gz;x265"
+	[x265]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265_4.1.tar.gz;x265"
+	[x265_8bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265_4.1.tar.gz;x265"
+	[x265_10bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265_4.1.tar.gz;x265"
+	[x265_12bit]="https://github.com/HandBrake/HandBrake-contribs/releases/download/contribs2/x265_4.1.tar.gz;x265"
 )
 
 bundle_src_uri() {
@@ -53,6 +53,7 @@ IUSE="amf +fdk gui libdovi numa nvenc qsv x265"
 
 REQUIRED_USE="numa? ( x265 )"
 
+# <media-libs/svt-av1-3.0.0: breaking change
 COMMON_DEPEND="
 	app-arch/bzip2
 	>=app-arch/xz-utils-5.2.6
@@ -68,7 +69,8 @@ COMMON_DEPEND="
 	>=media-libs/libvpx-1.12.0:=
 	media-libs/opus
 	>=media-libs/speex-1.2.1
-	>=media-libs/svt-av1-3.0.0:=
+	<media-libs/svt-av1-3.0.0
+	>=media-libs/svt-av1-1.4.1:=
 	>=media-libs/x264-0.0.20220222:=
 	>=media-libs/zimg-3.0.4
 	media-sound/lame
@@ -111,8 +113,7 @@ BDEPEND="
 PATCHES=(
 	"${FILESDIR}"/handbrake-1.9.0-link-libdovi-properly.patch
 	"${FILESDIR}"/handbrake-1.9.0-include-vpl-properly.patch
-	"${FILESDIR}"/handbrake-1.9.2-set-ffmpeg-toolchain-explicitly.patch
-	"${FILESDIR}"/handbrake-1.9.2-allow-overriding-tools-via-env.patch
+	"${FILESDIR}"/handbrake-1.9.0-arm64-c99.patch
 )
 
 src_unpack() {
@@ -124,8 +125,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	default
-
 	mkdir download || die
 	for name in "${!BUNDLED[@]}"; do
 		IFS=$';' read -r uri use <<< ${BUNDLED[${name}]}
@@ -144,15 +143,26 @@ src_prepare() {
 	# noop fetching
 	sed -i -e '/DF..*.exe/ { s/= .*/= true/ }' make/include/tool.defs || die
 
+	# noop strip
+	sed -i \
+			-e "s/\(strip\s*= ToolProbe( 'STRIP.exe',\s*'strip',\s*\)'strip'/\1'true'/" \
+			make/configure.py || die
+
 	# Use whichever python is set by portage
 	sed -i -e "s/for p in .*/for p in ${EPYTHON}/" configure || die
+
+	for tool in ar ranlib libtool; do
+		# Detect system tools - bug 738110
+		sed -i \
+			-e "s/\(${tool}\s*= ToolProbe( '${tool^^}.exe',\s*'${tool}',\s*\)'${tool}'/\1os.environ.get('${tool^^}', '${tool}')/" \
+			make/configure.py || die
+	done
+
+	default
 }
 
 src_configure() {
-	tc-export CC CXX AR RANLIB NM
-
-	# noop strip
-	local -x STRIP="true"
+	tc-export AR RANLIB
 
 	# ODR violations, lto-type-mismatches
 	# bug #878899
