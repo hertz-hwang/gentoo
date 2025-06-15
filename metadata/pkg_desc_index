@@ -3143,7 +3143,7 @@ app-shells/tmux-bash-completion 9999: bash-completion scripts for tmux
 app-shells/ugit 0.4.4 0.4.5: PowerShell wrapper for git, automate repos and output git as objects
 app-shells/yash 2.58.1 2.59: Yash is a POSIX-compliant command line shell
 app-shells/zoxide 0.9.4-r1 0.9.6-r1 0.9.7 0.9.8: A smarter cd command for your terminal
-app-shells/zsh 5.9-r6 9999: UNIX Shell similar to the Korn shell
+app-shells/zsh 5.9-r6 5.9-r7 9999: UNIX Shell similar to the Korn shell
 app-shells/zsh-completions 0.34.0 0.35.0 9999: Additional completion definitions for Zsh
 app-shells/zsh-syntax-highlighting 0.8.0 9999: Fish shell like syntax highlighting for zsh
 app-text/App-XML-DocBook-Builder 0.100.300-r1: A Perl-based tool to Render DocBook/XML
@@ -5368,7 +5368,7 @@ dev-libs/gf-complete 2.0.0-r1: A Comprehensive Open Source Library for Galois Fi
 dev-libs/gf2x 1.3.0-r1: C/C++ routines for fast arithmetic in GF(2)[x]
 dev-libs/girara 0.4.2 0.4.4 0.4.5 9999: UI library that focuses on simplicity and minimalism
 dev-libs/gjs 1.80.2 1.82.1 1.82.3: Javascript bindings for GNOME
-dev-libs/glib 2.78.6 2.80.5-r1 2.82.5 2.84.0 2.84.1 2.84.2: The GLib library of C routines
+dev-libs/glib 2.78.6 2.80.5-r1 2.82.5 2.84.0 2.84.1 2.84.2 2.84.3: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.14 3.2.15 3.2.15-r1: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r1: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2022.05.26.07.24.56 2024.01.01.10.31.48 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
@@ -7565,7 +7565,7 @@ dev-perl/Template-DBI 2.650.0-r3: DBI plugin for the Template Toolkit
 dev-perl/Template-GD 2.660.0-r3: GD plugin(s) for the Template Toolkit
 dev-perl/Template-Plugin-Cycle 1.60.0-r1: Cyclically insert into a Template from a sequence of values
 dev-perl/Template-Plugin-Latex 3.120.0-r1: LaTeX support for the Template Toolkit
-dev-perl/Template-Tiny 1.140.0: Template Toolkit reimplemented in as little code as possible
+dev-perl/Template-Tiny 1.140.0 1.150.0: Template Toolkit reimplemented in as little code as possible
 dev-perl/Template-Toolkit 3.101.0 3.102.0: The Template Toolkit
 dev-perl/Template-XML 2.170.0-r2: XML plugins for the Template Toolkit
 dev-perl/Term-ANSIScreen 1.500.0-r2: Terminal control using ANSI escape sequences
@@ -10803,7 +10803,7 @@ dev-util/ftjam 2.5.3_rc2-r3: A 100% compatible, enhanced implementation of the m
 dev-util/ftnchek 3.3.1-r2: Static analyzer a la 'lint' for Fortran 77
 dev-util/fuzz 0.6-r4: Stress-tests programs by giving them random input
 dev-util/gcovr 7.2-r1 8.3 8.3-r1: Python script for summarizing gcov data
-dev-util/gdbus-codegen 2.78.6 2.80.5 2.82.5 2.84.0-r1 2.84.0-r2 2.84.1 2.84.2: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.78.6 2.80.5 2.82.5 2.84.0-r1 2.84.0-r2 2.84.1 2.84.2 2.84.3: GDBus code and documentation generator
 dev-util/geany 2.0-r1 2.0-r2: GTK+ based fast and lightweight IDE
 dev-util/geany-plugins 2.0-r1 2.0-r3: A collection of different plugins for Geany
 dev-util/gengetopt 2.23-r1: Tool to write command line option parsing code for C programs
@@ -10817,7 +10817,7 @@ dev-util/gitlab-ci-linter 2.2.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.55.0 1.57.0: the official gitlab command line interface
 dev-util/gitlab-runner 17.10.1 17.11.1 17.11.2 18.0.1 18.0.2: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r2: A user interface designer for GTK+ and GNOME
-dev-util/glib-utils 2.78.6 2.80.5 2.82.5 2.84.0 2.84.1 2.84.2: Build utilities for GLib using projects
+dev-util/glib-utils 2.78.6 2.80.5 2.82.5 2.84.0 2.84.1 2.84.2 2.84.3: Build utilities for GLib using projects
 dev-util/global 6.6.4 6.6.10 6.6.13 6.6.14: Tag system to find an object location in various sources
 dev-util/glslang 1.4.309.0 1.4.313.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 46.3-r1 47.2-r1: An IDE for writing GNOME-based software
@@ -10882,9 +10882,9 @@ dev-util/local-log4j-vuln-scanner 0.10: simple local log4j vulnerability scanner
 dev-util/lockrun 20120508-r2 20240415: Run cronjobs with overrun protection
 dev-util/log4shelldetect 0.0.7: Check for java programs vulnerable to log4shell
 dev-util/lsuio 0.2.0-r2: List available userspace I/O (UIO) devices
-dev-util/lttng-modules 2.13.15 2.13.16: LTTng Kernel Tracer Modules
-dev-util/lttng-tools 2.12.17-r1 2.13.14-r1: Linux Trace Toolkit - next generation
-dev-util/lttng-ust 2.12.9 2.12.10 2.13.6 2.13.8: Linux Trace Toolkit - UST library
+dev-util/lttng-modules 2.13.15 2.13.16 2.13.19: LTTng Kernel Tracer Modules
+dev-util/lttng-tools 2.12.17-r1 2.13.14-r1 2.13.15: Linux Trace Toolkit - next generation
+dev-util/lttng-ust 2.12.9 2.12.10 2.13.6 2.13.8 2.13.9: Linux Trace Toolkit - UST library
 dev-util/lv2lint 0.16.2: Check whether a given LV2 plugin is up to the specification
 dev-util/lxqt-build-tools 2.0.0-r1 2.1.0 2.2.0: LXQt Build Tools
 dev-util/makeheaders 0_p20240823: Tool that automatically generates .h files for a C or C++ programming project
@@ -10992,7 +10992,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.0 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.309.0 1.4.313.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 15.0.10-r2 15.0.11 16.0.10-r2 16.0.11 17.0.10-r2 17.0.11 18.1.10-r2 18.1.11 19.1.5-r2 19.1.6 20.1.1 21.0.0_pre20250311 21.0.0.9999: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 15.0.10-r2 15.0.11 15.0.13 16.0.10-r2 16.0.11 16.0.13 17.0.10-r2 17.0.11 17.0.13 18.1.10-r2 18.1.11 18.1.13 19.1.5-r2 19.1.6 19.1.8 20.1.1 20.1.3 21.0.0_pre20250311 21.0.0_pre20250613 21.0.0.9999: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.309.0 1.4.313.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r2: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -13382,7 +13382,7 @@ media-libs/libspng 0.7.4: Simple, modern libpng alternative
 media-libs/libsvgtiny 0.1.8 9999: Small and portable C library to parse SVG
 media-libs/libsvgtiny-pixbuf 0.0.2: Add SVG support to GTK without librsvg
 media-libs/libtgvoip 2.4.4_p20240706: VoIP library for Telegram clients
-media-libs/libtheora 1.1.1-r2: The Theora Video Compression Codec
+media-libs/libtheora 1.1.1-r2 1.2.0: The Theora Video Compression Codec
 media-libs/libtiger 0.3.4-r1: A rendering library for Kate streams using Pango and Cairo
 media-libs/libtimidity 0.2.7: MIDI to WAVE converter library
 media-libs/libuninameslist 20221022 20230916: Library of unicode annotation data
@@ -16149,7 +16149,7 @@ sci-libs/lapack 3.11 3.12.0 3.12.0-r1: BLAS, CBLAS, LAPACK, LAPACKE reference im
 sci-libs/ldl 2.2.6 3.0.3: Simple but educational LDL^T matrix factorization algorithm
 sci-libs/lemon 1.3.1-r2: C++ template static library of common data structures and algorithms
 sci-libs/levmar 2.6-r1: Levenberg-Marquardt nonlinear least squares C library
-sci-libs/libaec 1.0.6 1.1.3: Adaptive Entropy Coding library
+sci-libs/libaec 1.0.6 1.1.3 1.1.4: Adaptive Entropy Coding library
 sci-libs/libbraiding 1.3.1: Expose the functionality of cbraid as a shared library
 sci-libs/libccd 2.1 9999: Library for collision detection between two convex shapes
 sci-libs/libcerf 1.17 2.5: Efficient and accurate implementation of complex error functions
@@ -17788,7 +17788,7 @@ sys-power/wluma 4.3.0-r3 4.4.0-r2 4.9.0: Automatic brightness adjustment based o
 sys-process/acct 6.6.4-r4: GNU system accounting utilities
 sys-process/anacron 2.3-r5: A periodic command scheduler
 sys-process/at 3.2.5 3.2.5-r1 3.2.5-r2: Queues jobs for later execution
-sys-process/atop 2.11.0-r1 2.11.1: Resource-specific view of processes
+sys-process/atop 2.11.0-r1 2.11.1 2.12.0: Resource-specific view of processes
 sys-process/audit 4.0.1-r1 4.0.2-r1: Userspace utilities for storing and processing auditing records
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 sys-process/bcron 0.11: A new cron system designed with secure operations in mind by Bruce Guenter
