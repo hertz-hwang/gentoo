@@ -12614,7 +12614,7 @@ mail-filter/popfile 1.1.3-r1: Anti-spam bayesian filter
 mail-filter/postforward 1.1.1-r1: Postfix Sender Rewriting Scheme forwarding agent
 mail-filter/postfwd 2.02-r1 2.03: Versatile Postfix policy server with a flexible ruleset based configuration
 mail-filter/postgrey 1.37 1.37_p20190625-r1 1.37_p20220122 1.37_p20230714: Postgrey is a Postfix policy server implementing greylisting
-mail-filter/postsrsd 1.12 2.0.11: Postfix Sender Rewriting Scheme daemon
+mail-filter/postsrsd 1.12 2.0.11 2.0.11-r1: Postfix Sender Rewriting Scheme daemon
 mail-filter/procmail 3.24 3.24-r1: Mail delivery agent/filter
 mail-filter/pyzor 1.1.2: A distributed, collaborative spam detection and filtering network
 mail-filter/razor 2.85-r5: Distributed, collaborative spam detection and filtering network
@@ -18085,7 +18085,7 @@ www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for
 www-apps/nextcloud 29.0.12-r1 29.0.16 30.0.6-r1 30.0.11 30.0.12 31.0.5 31.0.6: Personal cloud that runs on your own server
 www-apps/nextcloud-notify_push 1.0.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3: A static website and blog generator
-www-apps/novnc 1.4.0 9999: noVNC is a VNC client implemented using HTML5 technologies
+www-apps/novnc 1.4.0 1.6.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.14: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 15.4.0 15.5.0: a photo gallery software for the web
