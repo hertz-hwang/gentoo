@@ -104,6 +104,7 @@ src_configure() {
 		-DLLVM_ROOT="${ESYSROOT}/usr/lib/llvm/${LLVM_MAJOR}"
 
 		-DOFFLOAD_LIBDIR_SUFFIX="${libdir#lib}"
+		-DOFFLOAD_INCLUDE_TESTS=$(usex test)
 		-DLIBOMPTARGET_PLUGINS_TO_BUILD="${plugins}"
 		-DLIBOMPTARGET_OMPT_SUPPORT="$(usex ompt)"
 		-DLIBOMPTARGET_BUILD_DEVICERTL_BCLIB="${build_devicertl}"
@@ -113,6 +114,8 @@ src_configure() {
 
 		-DFFI_INCLUDE_DIR="${ffi_cflags#-I}"
 		-DFFI_LIBRARY_DIR="${ffi_ldflags#-L}"
+		# force using shared libffi
+		-DFFI_STATIC_LIBRARIES=NO
 	)
 
 	[[ ! ${LLVM_ALLOW_GPU_TESTING} ]] && mycmakeargs+=(

@@ -247,6 +247,7 @@ get_distribution_components() {
 
 			# utilities
 			llvm-tblgen
+			llvm-test-mustache-spec
 			FileCheck
 			llvm-PerfectShuffle
 			count
@@ -416,9 +417,6 @@ multilib_src_configure() {
 		-DLLVM_ENABLE_HTTPLIB=$(usex debuginfod)
 
 		-DLLVM_HOST_TRIPLE="${CHOST}"
-
-		-DFFI_INCLUDE_DIR="${ffi_cflags#-I}"
-		-DFFI_LIBRARY_DIR="${ffi_ldflags#-L}"
 
 		-DPython3_EXECUTABLE="${PYTHON}"
 
