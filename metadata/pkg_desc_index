@@ -1370,7 +1370,7 @@ app-containers/earthly 0.8.15: Build automation tool that executes in containers
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.3-r1 6.0.4-r1 6.14: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.3-r1 6.0.4-r1 6.14-r1: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.6.0 5.7.3 5.7.5 5.8.3: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.3 6.0.4-r1: A userspace interface for the Linux kernel containment features
@@ -11822,7 +11822,7 @@ games-strategy/darwinia 1.43: A digital dreamscape simulation game
 games-strategy/dominions2 2.16-r1: Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
 games-strategy/dopewars 1.6.1 1.6.2 1.6.2-r1: Re-Write of the game Drug Wars
 games-strategy/dunelegacy 0.96.4-r1 0.97.02: Updated clone of Westood Studios' Dune II
-games-strategy/endless-sky 0.10.12-r1: Space exploration, trading & combat in the tradition of Terminal Velocity
+games-strategy/endless-sky 0.10.14: Space exploration, trading & combat in the tradition of Terminal Velocity
 games-strategy/freeciv 3.1.3 3.1.4 3.2.0_beta2 9999: Multiplayer strategy game (Civilization Clone)
 games-strategy/freecol 1.0.0-r1 1.2.0: Open source clone of the game Colonization
 games-strategy/freeorion 0.5.1: Free turn-based space empire and galactic conquest game
@@ -13183,7 +13183,7 @@ media-libs/flac 1.4.3 1.5.0: Free lossless audio encoder and decoder
 media-libs/flac-compat 1.3.4 1.4.3: Free lossless audio encoder and decoder
 media-libs/flickcurl 1.26-r2: C library for the Flickr API
 media-libs/fluidsynth-dssi 1.0.0-r2: DSSI Soft Synth Interface
-media-libs/fontconfig 2.14.2-r3 2.15.0-r1 2.16.2-r1 2.17.0-r1: A library for configuring and customizing font access
+media-libs/fontconfig 2.14.2-r3 2.15.0-r1 2.16.2-r1 2.17.0-r1 2.17.1: A library for configuring and customizing font access
 media-libs/freealut 1.1.0-r5: The OpenAL Utility Toolkit
 media-libs/freeglut 3.6.0-r1: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-libs/freeimage 3.18.0-r10 3.18.0-r11: Image library supporting many formats
@@ -14906,7 +14906,7 @@ net-libs/libgadu 1.11.4 1.12.2-r1: Client-side library for the Gadu-Gadu protoco
 net-libs/libgrss 0.7.0-r2: Library for easy management of RSS/Atom/Pie feeds
 net-libs/libgsasl 1.10.0: The GNU SASL library
 net-libs/libgssglue 0.9: Exports a gssapi interface which calls other random gssapi libraries
-net-libs/libhackrf 2023.01.1 2024.02.1 9999: library for communicating with HackRF SDR platform
+net-libs/libhackrf 2023.01.1 2024.02.1 2024.02.1-r1 9999: library for communicating with HackRF SDR platform
 net-libs/libhtp 0.5.49: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libhubbub 0.3.8: HTML5 compliant parsing library, written in C
 net-libs/libident 0.32-r1: A small library to interface to the Ident protocol server
@@ -15657,7 +15657,7 @@ net-wireless/gr-osmosdr 0.2.6 9999: GNU Radio source block for OsmoSDR and rtlsd
 net-wireless/gr-paint 0.0_p20230427-r2: Paints monochrome images into the waterfall of a receiver
 net-wireless/gr-rds 0.0_p20220804-r3 0.0_p20250404 9999: GNU Radio FM RDS Receiver
 net-wireless/gr-scopy 0.0_p20220602-r1 9999: Scopy IIO blocks for GNU Radio
-net-wireless/hackrf-tools 2023.01.1 2024.02.1 9999: tools for communicating with HackRF SDR platform
+net-wireless/hackrf-tools 2023.01.1 2024.02.1-r1 9999: tools for communicating with HackRF SDR platform
 net-wireless/hidclient 20120728: Use your machine as a bluetooh keyboard/mouse
 net-wireless/horst 5.1 9999: Small 802.11 wireless LAN analyzer
 net-wireless/hostap-utils 0.4.7-r1: Utilities for Intersil Prism2/2.5/3 based IEEE 802.11b wireless LAN products
@@ -15692,7 +15692,7 @@ net-wireless/sdrplay 2.13.1-r1 3.07.1: SDRplay API/HW driver for all RSPs
 net-wireless/sigdigger 0.3.0: The free digital signal analyzer
 net-wireless/sigutils 0.3.0-r1: signal processing library for blind signal analysis and automatic demodulation
 net-wireless/soapybladerf 0.4.1 0.4.2 9999: Soapy SDR plugin for the Blade RF
-net-wireless/soapyhackrf 0.3.4 9999: SoapySDR HackRF module
+net-wireless/soapyhackrf 0.3.4 0.3.4-r1 9999: SoapySDR HackRF module
 net-wireless/soapyplutosdr 0.2.2 0.2.2-r1 9999: Soapy SDR plugin for the Pluto SDR
 net-wireless/soapyremote 0.5.2 9999: Soapy SDR remote module
 net-wireless/soapyrtlsdr 0.3.3-r2 0.3.3-r3 9999: SoapySDR RTL-SDR Support Module
@@ -16413,7 +16413,7 @@ sci-ml/FP16 2024.05.27-r1 2024.06.20: conversion to/from half-precision floating
 sci-ml/NNPACK 2020.12.22-r4: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.02.29-r1 2024.11.08-r1: library of floating-point neural network inference operators
 sci-ml/accelerate 1.6.0-r5 1.7.0: Run your *raw* PyTorch training script on any kind of device
-sci-ml/caffe2 2.4.1-r7 2.5.1-r11 2.6.0-r4 2.7.0-r2 2.7.1: A deep learning framework
+sci-ml/caffe2 2.5.1-r11 2.6.0-r4 2.7.0-r2 2.7.1: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.6.1 1.8.0 1.10.0 1.11.0: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 3.5.0: Access and share datasets for Audio, Computer Vision, and NLP tasks
@@ -16431,7 +16431,7 @@ sci-ml/jiwer 3.0.3-r1: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20240807 0.4.0_p20241109 0.4.0_p20250214: part of the PyTorch Profiler
 sci-ml/oneDNN 3.5.3 3.6.2 3.7.1: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.16.2-r1 1.17.0-r1: Open Neural Network Exchange (ONNX)
-sci-ml/pytorch 2.4.1-r3 2.5.1-r4 2.6.0-r3 2.7.0 2.7.1: Tensors and Dynamic neural networks in Python
+sci-ml/pytorch 2.5.1-r4 2.6.0-r3 2.7.0 2.7.1: Tensors and Dynamic neural networks in Python
 sci-ml/safetensors 0.4.5-r2 0.5.3: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.0-r3: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
@@ -18381,7 +18381,7 @@ x11-libs/libxshmfence 1.3.3: Shared memory fences using futexes
 x11-libs/motif 2.3.8-r6: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
 x11-libs/pango 1.52.2 1.54.0 1.56.3 1.56.4: Internationalized text layout and rendering library
-x11-libs/pixman 0.44.2 0.46.0 0.46.2 9999: Low-level pixel manipulation routines
+x11-libs/pixman 0.44.2 0.46.0 0.46.2-r1 9999: Low-level pixel manipulation routines
 x11-libs/qscintilla 2.14.1-r2: Qt port of Neil Hodgson's Scintilla C++ editor control
 x11-libs/qtermwidget 2.0.1 2.1.0 2.2.0 9999: Qt terminal emulator widget
 x11-libs/qwt 6.2.0-r3 6.2.0-r4: 2D plotting library for Qt
