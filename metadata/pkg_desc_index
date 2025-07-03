@@ -5213,7 +5213,7 @@ dev-lang/oorexx 5.1.0_beta12932: Open source implementation of Object Rexx
 dev-lang/orc 0.4.38 0.4.40 0.4.40-r1 0.4.41: The Oil Runtime Compiler, a just-in-time compiler for array operations
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r1 1.1.0-r2: pcc portable c compiler
-dev-lang/perl 5.40.0-r1 5.40.1 5.40.2 5.42.0_rc1 5.42.0_rc2 5.42.0_rc3: Larry Wall's Practical Extraction and Report Language
+dev-lang/perl 5.40.0-r1 5.40.1 5.40.2 5.42.0_rc1 5.42.0_rc2 5.42.0_rc3 5.42.0: Larry Wall's Practical Extraction and Report Language
 dev-lang/php 8.2.24-r1 8.2.28-r1 8.3.21 8.3.22 8.4.8: The PHP language runtime engine
 dev-lang/pico8 0.2.6b: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9-r2 5.9.1: Poly/ML is a full implementation of Standard ML
@@ -6732,7 +6732,7 @@ dev-perl/FCGI 0.790.0 0.820.0: Fast CGI module
 dev-perl/FCGI-Client 0.90.0: Client library for fastcgi protocol
 dev-perl/FCGI-ProcManager 0.280.0-r1: A FastCGI process manager
 dev-perl/FFI-CheckLib 0.310.0-r1: Check that a library is available for FFI
-dev-perl/FLV-AudioExtractor 0.10.0-r1: Extract audio from Flash Videos
+dev-perl/FLV-AudioExtractor 0.10.0-r2: Extract audio from Flash Videos
 dev-perl/Fatal-Exception 0.50.0-r3: Succeed or throw exception
 dev-perl/Feature-Compat-Class 0.60.0: Make class syntax available
 dev-perl/Feed-Find 0.130.0: Syndication feed auto-discovery
@@ -6777,24 +6777,24 @@ dev-perl/File-Slurper 0.14.0: A simple, sane and efficient module to slurp a fil
 dev-perl/File-Sort 1.10.0-r2: Sort a file or merge sort multiple files
 dev-perl/File-Spec-Native 1.4.0-r1: Use native OS implementation of File::Spec from a subclass
 dev-perl/File-Stat-Bits 1.10.0-r2: File stat bit mask constants
-dev-perl/File-Sync 0.110.0-r1: Perl access to fsync() and sync() function calls
+dev-perl/File-Sync 0.110.0-r2: Perl access to fsync() and sync() function calls
 dev-perl/File-Tail 1.300.0-r1: Perl extension for reading from continously updated files
-dev-perl/File-Tempdir 0.20.0-r2: Provides an object interface to tempdir() from File::Temp
+dev-perl/File-Tempdir 0.20.0-r3: Provides an object interface to tempdir() from File::Temp
 dev-perl/File-TreeCreate 0.0.1: Recursively create a directory tree
-dev-perl/File-Type 0.220.0-r2: Determine file type using magic
-dev-perl/File-Which 1.270.0: Perl implementation of the which utility as an API
+dev-perl/File-Type 0.220.0-r3: Determine file type using magic
+dev-perl/File-Which 1.270.0-r1: Perl implementation of the which utility as an API
 dev-perl/File-chdir 0.101.100-r1: An alternative to File::Spec and CWD
 dev-perl/File-chmod 0.420.0-r1: Implements symbolic and ls chmod modes
 dev-perl/File-pushd 1.16.0: Change directory temporarily for a limited scope
 dev-perl/FileHandle-Unget 0.163.400: A FileHandle which supports ungetting of multiple bytes
-dev-perl/Filesys-Df 0.920.0-r3: Disk free based on Filesys::Statvfs
+dev-perl/Filesys-Df 0.920.0-r4: Disk free based on Filesys::Statvfs
 dev-perl/Filesys-DiskSpace 0.50.0-r3: Disk space information
-dev-perl/Filesys-Notify-Simple 0.140.0: Simple and dumb file system watcher
-dev-perl/Filesys-SmbClient 3.200.0-r4: Provide Perl API for libsmbclient.so
-dev-perl/Filesys-Statvfs 0.820.0-r1: Perl extension for statvfs() and fstatvfs()
+dev-perl/Filesys-Notify-Simple 0.140.0-r1: Simple and dumb file system watcher
+dev-perl/Filesys-SmbClient 3.200.0-r5: Provide Perl API for libsmbclient.so
+dev-perl/Filesys-Statvfs 0.820.0-r2: Perl extension for statvfs() and fstatvfs()
 dev-perl/Filter 1.640.0: Interface for creation of Perl Filters
 dev-perl/Finance-Quote 1.630.0-r1 1.650.0: Get stock and mutual fund quotes from various exchanges
-dev-perl/Finance-YahooQuote 0.260.0: Get stock quotes from Yahoo! Finance
+dev-perl/Finance-YahooQuote 0.260.0-r1: Get stock quotes from Yahoo! Finance
 dev-perl/Font-AFM 1.200.0-r4: Parse Adobe Font Metric files
 dev-perl/Font-TTF 1.60.0-r2: Module for compiling and altering fonts
 dev-perl/Format-Human-Bytes 0.60.0-r3: Format a bytecount and make it human readable
@@ -11466,7 +11466,7 @@ games-engines/gargoyle 2019.1.1: An Interactive Fiction (IF) player supporting a
 games-engines/love 0.7.2-r100 0.8.0-r100 11.4 11.5-r1 9999: A framework for 2D games in Lua
 games-engines/minetest 5.9.1 5.11.0: A free open-source voxel game engine with easy modding and game creation
 games-engines/odamex 11.0.0: Online multiplayer free software engine for DOOM
-games-engines/openmw 0.49.0_rc7-r1 9999: Open source reimplementation of TES III: Morrowind
+games-engines/openmw 0.49.0 9999: Open source reimplementation of TES III: Morrowind
 games-engines/openxcom 1.0.0_p20180317-r1 9999: Open-source reimplementation of the popular UFO: Enemy Unknown
 games-engines/qtads 3.4.0: Multimedia interpreter for TADS text adventures
 games-engines/scrap-engine 1.2.0: Terminal-based Python game engine involving objects on a map
@@ -17947,7 +17947,7 @@ virtual/perl-Math-BigInt 2.3.2 2.5.2: Virtual for Math-BigInt
 virtual/perl-Math-BigInt-FastCalc 0.501.800 0.502.0: Virtual for Math-BigInt-FastCalc
 virtual/perl-Math-BigRat 2.3.2 2.5.2: Virtual for Math-BigRat
 virtual/perl-Math-Complex 1.620.0-r1 1.630.0: Virtual for Math-Complex
-virtual/perl-Module-CoreList 5.202.406.90 5.202.501.184_rc-r1 5.202.504.134_rc 5.202.506.240 5.202.506.270 5.202.507.20-r1: Virtual for Module-CoreList
+virtual/perl-Module-CoreList 5.202.406.90 5.202.501.184_rc-r1 5.202.504.134_rc 5.202.506.240 5.202.506.270 5.202.507.20-r2: Virtual for Module-CoreList
 virtual/perl-Module-Load 0.360.0-r5: Virtual for Module-Load
 virtual/perl-Module-Load-Conditional 0.740.0-r4: Virtual for Module-Load-Conditional
 virtual/perl-Module-Metadata 1.0.38-r1: Virtual for Module-Metadata
