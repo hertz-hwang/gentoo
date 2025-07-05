@@ -4029,7 +4029,7 @@ dev-db/spatialite-tools 5.0.1-r2: A collection of CLI tools supporting SpatiaLit
 dev-db/sqlcipher 4.6.1: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 24.1.0.087.0929: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
-dev-db/sqlite 3.46.1 3.47.2-r1 3.49.1 3.49.2 3.50.0 3.50.1 9999: SQL database engine
+dev-db/sqlite 3.46.1 3.47.2-r1 3.49.1 3.49.2 3.50.0 3.50.1 3.50.2 9999: SQL database engine
 dev-db/sqlitebrowser 3.13.1_p20250502-r1 9999: Light GUI editor for SQLite databases
 dev-db/sqlitestudio 3.4.17: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.9.3 1.9.4 1.9.5 9999: An automatic SQL injection and database takeover tool
@@ -7437,7 +7437,7 @@ dev-perl/Regexp-Shellish 0.930.0-r2: Regexp::Shellish - Shell-like regular expre
 dev-perl/Regexp-Trie 0.20.0: builds trie-ized regexp
 dev-perl/Regexp-Util 0.5.0: General purpose utilities for working with Regular Expressions
 dev-perl/Return-Value 1.666.5-r1: Polymorphic Return Values
-dev-perl/Role-Basic 0.130.0-r1: Just roles. Nothing else
+dev-perl/Role-Basic 0.130.0-r1 0.160.0: Just roles. Nothing else
 dev-perl/Role-HasMessage 0.7.0: Thing with a message method
 dev-perl/Role-Hooks 0.8.0: Role callbacks
 dev-perl/Role-Identifiable 0.9.0: Thing with a list of tags
@@ -15260,7 +15260,7 @@ net-misc/libteam 1.32-r1 9999: Library and tools set for controlling team networ
 net-misc/linux-eoip 0.5: Linux support for proprietary MIkrotik EoIP protocol
 net-misc/linuxptp 4.2 4.4-r1: The Linux Precision Time Protocol (PTP) implementation
 net-misc/liveice 2000530-r3: Live Source Client For IceCast
-net-misc/lksctp-tools 1.0.19-r1: Tools for Linux Kernel Stream Control Transmission Protocol implementation
+net-misc/lksctp-tools 1.0.19-r1 1.0.21: Tools for Linux Kernel Stream Control Transmission Protocol implementation
 net-misc/lldpd 1.0.18 1.0.19: Implementation of IEEE 802.1ab (LLDP)
 net-misc/mcproxy 1.1.1-r2: A multicast proxy for IGMP/MLD
 net-misc/megatools 1.11.2 1.11.3 1.11.4: Command line tools and C library for accessing Mega cloud storage
