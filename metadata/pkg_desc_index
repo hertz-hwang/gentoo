@@ -9066,7 +9066,7 @@ dev-python/pymdown-lexers 0_pre20210902: Additional lexers for use in Pygments
 dev-python/pymdstat 0.4.3: Python library to parse Linux /proc/mdstat
 dev-python/pymediainfo 7.0.1: A Python wrapper for the MediaInfo library
 dev-python/pymetar 1.4-r2: Downloads and decodes to the weather report for a given station ID
-dev-python/pymongo 4.11.3 4.12.0 4.12.1 4.13.0 4.13.1 4.13.2: Python driver for MongoDB
+dev-python/pymongo 4.11.3 4.13.0 4.13.1 4.13.2: Python driver for MongoDB
 dev-python/pymountboot 0.2.3-r2: Python extension module to (re)mount /boot
 dev-python/pymysql 1.1.1: Pure-Python MySQL Driver
 dev-python/pynacl 1.5.0-r3 1.5.0-r4: Python binding to the Networking and Cryptography (NaCl) library
@@ -14561,7 +14561,7 @@ net-analyzer/sguil-client 1.0.0: GUI Console for sguil Network Security Monitori
 net-analyzer/shodan 1.31.0 9999: The official Python library for Shodan
 net-analyzer/sinfo 0.0.48-r1: A monitoring tool for networked computers
 net-analyzer/siphon 666-r2: A portable passive network mapping suite
-net-analyzer/slurm 0.4.3: Realtime network interface monitor based on FreeBSD's pppstatus
+net-analyzer/slurm 0.4.3 0.4.4: Realtime network interface monitor based on FreeBSD's pppstatus
 net-analyzer/snallygaster 0.0.12-r2 0.0.13: Finds file leaks and other security problems on HTTP servers
 net-analyzer/sngrep 1.6.0-r1 1.7.0 1.8.2: Ncurses SIP Messages flow viewer
 net-analyzer/sniffit 0.5-r1 0.6_p20240924: Interactive Packet Sniffer
