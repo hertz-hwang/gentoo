@@ -6127,7 +6127,7 @@ dev-ml/ppx_tydi 0.16.0 0.17.0-r1: Let expressions, inferring pattern type from e
 dev-ml/ppx_typerep_conv 0.15.0 0.16.0 0.17.0-r1: Generation of runtime types from type declarations
 dev-ml/ppx_variants_conv 0.15.0 0.16.0 0.17.0-r1: Generation of accessor and iteration functions for ocaml variant types
 dev-ml/ppxlib 0.22.2-r4 0.24.0-r2 0.30.0-r2 0.33.0-r1 0.36.0-r1: Base library and tools for ppx rewriters
-dev-ml/ppxlib_jane 0.17.0-r1 0.17.2: Utilities for working with Jane Street AST constructs
+dev-ml/ppxlib_jane 0.17.0-r1 0.17.2-r1: Utilities for working with Jane Street AST constructs
 dev-ml/protocol_version_header 0.15.0 0.16.0 0.17.0: Protocol aware version negotiation for OCaml
 dev-ml/ptime 1.0.0 1.1.0 1.2.0: POSIX time for OCaml
 dev-ml/ptmap 2.0.5-r2: Maps of integers implemented as Patricia trees
@@ -15029,8 +15029,6 @@ net-libs/srt 1.5.1 1.5.3 1.5.4 1.5.4-r1: Secure Reliable Transport (SRT) library
 net-libs/tdlib 1.8.49_p20250510: Cross-platform library for building Telegram clients
 net-libs/telepathy-glib 0.24.2-r1: GLib bindings for the Telepathy D-Bus protocol
 net-libs/tox 0.2.19 0.2.20 9999: Encrypted P2P, messaging, and audio/video calling platform
-net-libs/tox_extension_messages 0.0.3: Tox Extension Messages
-net-libs/toxext 0.0.3: Extension Library for Tox
 net-libs/udns 0.4-r3 0.6: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0 0.11.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0 0.9.5.0_p20250331: A cross-platform userland SCTP stack
