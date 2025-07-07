@@ -6126,7 +6126,7 @@ dev-ml/ppx_tools 6.2 6.3 6.4 6.5-r1 6.6-r1: Tools for authors of ppx rewriters
 dev-ml/ppx_tydi 0.16.0 0.17.0-r1: Let expressions, inferring pattern type from expression
 dev-ml/ppx_typerep_conv 0.15.0 0.16.0 0.17.0-r1: Generation of runtime types from type declarations
 dev-ml/ppx_variants_conv 0.15.0 0.16.0 0.17.0-r1: Generation of accessor and iteration functions for ocaml variant types
-dev-ml/ppxlib 0.22.2-r4 0.24.0-r2 0.30.0-r2 0.33.0-r1 0.36.0: Base library and tools for ppx rewriters
+dev-ml/ppxlib 0.22.2-r4 0.24.0-r2 0.30.0-r2 0.33.0-r1 0.36.0-r1: Base library and tools for ppx rewriters
 dev-ml/ppxlib_jane 0.17.0-r1 0.17.2: Utilities for working with Jane Street AST constructs
 dev-ml/protocol_version_header 0.15.0 0.16.0 0.17.0: Protocol aware version negotiation for OCaml
 dev-ml/ptime 1.0.0 1.1.0 1.2.0: POSIX time for OCaml
@@ -15419,7 +15419,7 @@ net-misc/udpxy 1.0.23.7-r2: Small daemon to relay multicast UDP traffic to clien
 net-misc/uftp 5.0.3: Encrypted UDP based FTP with multicast
 net-misc/unison 2.53.5-r2 2.53.7-r1: Two-way cross-platform file synchronizer
 net-misc/unix2tcp 0.8.2-r2: Connection forwarder that converts Unix sockets into TCP sockets
-net-misc/usbip 5.15: Userspace utilities for a general USB device sharing system over IP networks
+net-misc/usbip 5.15-r1: Userspace utilities for a general USB device sharing system over IP networks
 net-misc/utelnetd 0.1.11-r4: Small telnet daemon derived from the Axis tools
 net-misc/vconfig 1.9: 802.1Q vlan control utility
 net-misc/vde 2.3.3 9999: Virtual distributed ethernet emulator for emulators like qemu, bochs, and uml
