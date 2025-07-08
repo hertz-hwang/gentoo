@@ -3796,7 +3796,7 @@ dev-ada/prettier-ada 25.0.0-r2: Port of the Prettier formatter to the Ada progra
 dev-ada/spawn 25.0.0-r3: Simple API to spawn processes
 dev-ada/templates-parser 24.0.0-r1 25.0.0-r4: A template engine
 dev-ada/xmlada 25.0.0-r5: Set of modules that provide a simple manipulation of XML streams
-dev-build/autoconf 2.13-r8 2.69-r9 2.71-r6 2.71-r7 2.72-r1 9999: Used to create autoconfiguration files
+dev-build/autoconf 2.13-r8 2.69-r9 2.71-r6 2.71-r7 2.72-r1 2.72-r2 9999: Used to create autoconfiguration files
 dev-build/autoconf-archive 2023.02.20 2024.10.16-r1 2024.10.16-r2: GNU Autoconf Macro Archive
 dev-build/autoconf-dickey 2.52_p20230114 2.52_p20231210 2.52_p20240618 2.52_p20250126: Fork of dev-build/autoconf for Thomas Dickey's packages
 dev-build/autoconf-vanilla 2.13 2.69 2.71 2.72 9999: Used to create autoconfiguration files
@@ -15393,7 +15393,7 @@ net-misc/sshpass 1.10: Tool for non-interactively performing password authentica
 net-misc/sshrc 0.6.2: Bring your .bashrc, .vimrc, etc. from your local machine when you ssh
 net-misc/sslh 2.1.4 2.2.4 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
-net-misc/streamlink 7.3.0 7.4.0 9999: CLI for extracting streams from websites to a video player of your choice
+net-misc/streamlink 7.3.0 7.4.0 7.5.0 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet radio streams
 net-misc/stunnel 5.71-r1 5.74 5.75: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
