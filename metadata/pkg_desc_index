@@ -4073,10 +4073,10 @@ dev-dotnet/csharp-gentoodotnetinfo 1.1.1-r1 2.0.0 2.9999: .NET information tool 
 dev-dotnet/csharp-language-server 0.16.0 0.17.0: Roslyn-based LSP language server for C#
 dev-dotnet/csharprepl 0.6.6 0.6.7: A command line C# REPL with syntax highlighting
 dev-dotnet/dotnet-outdated 4.6.4: Display and update outdated NuGet packages in a project
-dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.32 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.7 8.0.8 8.0.11 8.0.12 8.0.15 8.0.16 9.0.0 9.0.1 9.0.4 9.0.5: .NET runtime nugets
+dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.32 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.7 8.0.8 8.0.11 8.0.12 8.0.15 8.0.16 8.0.18 9.0.0 9.0.4 9.0.5 9.0.7: .NET runtime nugets
 dev-dotnet/dotnet-script 1.5.0 1.6.0: Run C# scripts from the CLI
 dev-dotnet/dotnet-sdk 8.0.107-r2 9.0.101: .NET is a free, cross-platform, open-source developer platform
-dev-dotnet/dotnet-sdk-bin 6.0.417-r4 7.0.404-r4 8.0.108 9.0.101 9.0.105 9.0.106 9.0.300: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/dotnet-sdk-bin 6.0.417-r4 7.0.404-r4 8.0.108 9.0.105 9.0.106 9.0.108 9.0.302: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/fable 4.24.0 4.25.0: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
 dev-dotnet/fantomas 7.0.1 7.0.2 7.0.3: FSharp source code formatter
 dev-dotnet/fsautocomplete 0.77.7 0.78.1: F# language server using the Language Server Protocol
@@ -5171,7 +5171,7 @@ dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over f
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
 dev-lang/haxe 4.3.6-r4: Multi-target universal programming language
 dev-lang/icon 9.5.22e 9.5.24b 9.5.24b-r1: Very high level language
-dev-lang/idris2 0.7.0: Purely functional programming language with first class types
+dev-lang/idris2 0.7.0-r1: Purely functional programming language with first class types
 dev-lang/inform 6.33.1_p2 6.35_p4 6.42_p4: Design system for interactive fiction
 dev-lang/interprolog 2.1.2-r3: InterProlog is a Java front-end and enhancement for Prolog
 dev-lang/ispc 1.27.0: Intel SPMD Program Compiler
@@ -5570,7 +5570,7 @@ dev-libs/libpcre-debian 8-r3: libpcre(posix).so.3 symlinks for compatibility wit
 dev-libs/libpcre2 10.44-r1 10.45: Perl-compatible regular expression library
 dev-libs/libpeas 1.36.0 2.0.3 2.0.7-r1: A GObject plugins library
 dev-libs/libpfm 4.13.0: Hardware-based performance monitoring interface for Linux
-dev-libs/libphonenumber 8.13.47: Library for parsing, formatting, and validating international phone numbers
+dev-libs/libphonenumber 8.13.47-r1: Library for parsing, formatting, and validating international phone numbers
 dev-libs/libpipeline 1.5.8: A pipeline manipulation library
 dev-libs/libplatform 2.1.0.1-r2 9999: Platform support library used by libCEC and binary add-ons for Kodi
 dev-libs/libportal 0.9.1: Flatpak portal library
@@ -9920,7 +9920,7 @@ dev-ruby/database_cleaner-active_record 2.2.0 2.2.1: Strategies for cleaning dat
 dev-ruby/database_cleaner-core 2.0.1-r1: Strategies for cleaning databases
 dev-ruby/date 3.3.4 3.4.1: A subclass of Object includes Comparable module for handling dates
 dev-ruby/date_validator 0.12.0: Simple, ORM agnostic, Ruby 1.9 compatible date validator for Rails
-dev-ruby/dbf 5.0.1: Small fast library for reading dBase, xBase, Clipper, FoxPro databases
+dev-ruby/dbf 5.0.1 5.1.1: Small fast library for reading dBase, xBase, Clipper, FoxPro databases
 dev-ruby/ddmetrics 1.1.0: Non-timeseries measurements for Ruby programs
 dev-ruby/ddplugin 1.0.3-r1: Provides plugin management for Ruby projects
 dev-ruby/debug 1.9.2 1.10.0 1.11.0: Debugging functionality for Ruby
@@ -10268,7 +10268,7 @@ dev-ruby/regexp_property_values 1.5.2: See which property values are supported b
 dev-ruby/reline 0.5.10 0.6.1: Alternative readline implementation in pure Ruby
 dev-ruby/repl_type_completor 0.1.9 0.1.10 0.1.11: Type based completion for REPL
 dev-ruby/request_store 1.7.0: Per-request global storage for Rack
-dev-ruby/resolv 0.6.0-r1 0.6.1: Thread-aware DNS resolver library in Ruby
+dev-ruby/resolv 0.6.0-r1 0.6.1 0.6.2: Thread-aware DNS resolver library in Ruby
 dev-ruby/resolv-replace 0.1.1: Replace Socket DNS with Resolv
 dev-ruby/rest-client 2.1.0-r1: Simple Simple HTTP and REST client for Ruby
 dev-ruby/rexical 1.0.8: Rexical is a lexical scanner generator
@@ -11437,7 +11437,7 @@ games-emulation/mednafen 1.32.1: Argument-driven multi-system emulator utilizing
 games-emulation/mednafen-jg 1.32.1.1 9999: Jolly Good Port of Mednafen
 games-emulation/mednaffe 0.9.3: Front-end (GUI) for mednafen emulator
 games-emulation/mekanix 070-r1: SG-1000, SC-3000, SF-7000, SSC, SMS, GG, COLECO, and OMV emulator
-games-emulation/melonds 1.0_rc 9999: Nintendo DS emulator, sorta
+games-emulation/melonds 1.0_rc 1.0 9999: Nintendo DS emulator, sorta
 games-emulation/melonds-jg 0.9.5 9999: Jolly Good Port of melonDS
 games-emulation/mgba 0.10.4 9999: Game Boy Advance Emulator
 games-emulation/mgba-jg 0.10.5 9999: Jolly Good Port of mGBA
@@ -12278,7 +12278,7 @@ kde-apps/konqueror 25.04.2 25.04.3: Web browser and file manager based on KDE Fr
 kde-apps/konquest 25.04.2 25.04.3: Galactic Strategy KDE Game
 kde-apps/konsole 25.04.2 25.04.3: KDE's terminal emulator
 kde-apps/konsolekalendar 24.12.3 25.04.2 25.04.3: Command line interface to KDE calendars
-kde-apps/kontact 24.12.3 25.04.2 25.04.3: Container application to unify several major PIM applications within one
+kde-apps/kontact 24.12.3 25.04.2 25.04.3-r1: Container application to unify several major PIM applications within one
 kde-apps/kontactinterface 24.12.3 25.04.2 25.04.3: Library for embedding KParts in a Kontact component
 kde-apps/korganizer 24.12.3 25.04.2 25.04.3: Organizational assistant, providing calendars and other similar functionality
 kde-apps/kpat 25.04.2 25.04.3: KDE patience game
@@ -12515,7 +12515,7 @@ kde-plasma/powerdevil 6.3.5-r2 6.3.6 6.4.2: Power management for KDE Plasma Shel
 kde-plasma/print-manager 6.3.5 6.3.6 6.4.2: Manage CUPS print jobs and printers in Plasma
 kde-plasma/qqc2-breeze-style 6.3.5-r1 6.3.6 6.4.2: Breeze inspired QQC2 Style
 kde-plasma/sddm-kcm 6.3.5 6.3.6 6.4.2: KDE Plasma control module for SDDM
-kde-plasma/spectacle 6.3.5-r1 6.3.6 6.4.2: Screenshot capture utility
+kde-plasma/spectacle 6.3.5-r1 6.3.6-r1 6.4.2-r1: Screenshot capture utility
 kde-plasma/systemsettings 6.3.5 6.3.6 6.4.2: Control Center to configure KDE Plasma desktop
 kde-plasma/wacomtablet 6.3.5 6.3.6 6.4.2: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.3.5-r1 6.3.6 6.4.2: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
@@ -16401,7 +16401,7 @@ sci-mathematics/unuran 1.8.1 1.9.0: Universal Non-Uniform Random number generato
 sci-mathematics/vampire 4.8 4.9: The Vampire Prover, theorem prover for first-order logic
 sci-mathematics/verifpal 0.27.0: Cryptographic protocol analysis for real-world protocols
 sci-mathematics/verit 2021.06.2: An open, trustable and efficient SMT-prover
-sci-mathematics/why3 1.6.0 1.7.2 1.8.0: Platform for deductive program verification
+sci-mathematics/why3 1.6.0 1.7.2 1.8.0 1.8.1: Platform for deductive program verification
 sci-mathematics/why3-for-spark 2021-r1 2023.12.13-r2: SPARK 2014 repository for the Why3 verification platform
 sci-mathematics/wxmaxima 25.04.0-r2: Graphical frontend to Maxima, using the wxWidgets toolkit
 sci-mathematics/yacas 1.9.1-r2: General purpose computer algebra system
@@ -18585,7 +18585,7 @@ x11-misc/rss-glx 0.9.1-r4: Really Slick OpenGL Screensavers for XScreenSaver
 x11-misc/safeeyes 2.2.2 2.2.3 2.2.3-r1: Linux alternative to EyeLeo
 x11-misc/screen-message 0.28 0.29: Display a multi-line message large, fullscreen, black on white
 x11-misc/screengrab 2.9.0 2.10.0 3.0.0: Qt GUI Screenshot Utility
-x11-misc/screenkey 1.5_p20230109-r2 9999: A screencast tool to display your keys inspired by Screenflick
+x11-misc/screenkey 1.5_p20230109-r3 9999: A screencast tool to display your keys inspired by Screenflick
 x11-misc/sct 0.5-r1: Set color temperature of the screen
 x11-misc/sddm 0.21.0_p20240723-r10 0.21.0_p20250502-r1: Simple Desktop Display Manager
 x11-misc/seetxt 0.72-r1: Clever, lightweight GUI text file and manual page viewer for X windows
