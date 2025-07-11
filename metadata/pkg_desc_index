@@ -9749,7 +9749,7 @@ dev-qt/qt-creator 16.0.1 16.0.2 17.0.0 9999: Lightweight IDE for C++/QML develop
 dev-qt/qt-docs 5.15.2_p202011130614 6.9.1_p202505291653: Qt6 documentation and examples for Qt Creator and other tools
 dev-qt/qt3d 6.9.1 6.9.9999 6.10.9999 6.9999: 3D rendering module for the Qt6 framework
 dev-qt/qt5compat 6.9.1 6.9.9999 6.10.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
-dev-qt/qtbase 6.9.1-r1 6.9.9999 6.10.9999 6.9999: Cross-platform application development framework
+dev-qt/qtbase 6.9.1-r2 6.9.9999 6.10.9999 6.9999: Cross-platform application development framework
 dev-qt/qtcharts 5.15.17 6.9.1 6.9.9999 6.10.9999 6.9999: Chart component library for the Qt6 framework
 dev-qt/qtchooser 66-r2: Tool to quickly switch between multiple Qt installations
 dev-qt/qtconcurrent 5.15.17: Multi-threading concurrence support library for the Qt5 framework
@@ -10895,7 +10895,7 @@ dev-util/kubeval 0.16.1: validate kubernetes YAML or JSON configuration files
 dev-util/kup 0.3.6-r2: kernel.org uploader tool
 dev-util/kyua 0.13-r3 0.14: Testing framework for infrastructure software
 dev-util/lcov 2.0-r3 2.0-r4 2.3 2.3.1 9999: A graphical front-end for GCC's coverage testing tool gcov
-dev-util/libabigail 2.5-r1 2.6-r1 2.7-r2 9999: Suite of tools for checking ABI differences between ELF objects
+dev-util/libabigail 2.5-r1 2.6-r1 2.7-r2 2.8 9999: Suite of tools for checking ABI differences between ELF objects
 dev-util/librnp 0.17.1-r2 0.18.0: High performance C++ OpenPGP library
 dev-util/libtree 3.1.1: ldd as a tree with an option to bundle dependencies into a single folder
 dev-util/linklint 2.3.5: A Perl program that checks links on web sites
