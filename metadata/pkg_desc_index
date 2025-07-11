@@ -5690,7 +5690,7 @@ dev-libs/nng 1.10.1: Light-weight brokerless messaging
 dev-libs/npth 1.7-r1 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36: Netscape Portable Runtime
-dev-libs/nss 3.101.2 3.101.3 3.101.4 3.112 3.113 3.113.1: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.101.2 3.101.3-r1 3.101.4 3.112 3.113 3.113.1: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.0: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4: High-performance and portable C++ number theory library
@@ -6285,7 +6285,7 @@ dev-perl/Browser-Open 0.40.0-r2: Open a browser at a given URL
 dev-perl/Business-FedEx-DirectConnect 1.10.0-r2: Interface to FedEx Ship Manager Direct
 dev-perl/Business-Hours 0.130.0-r1: Calculate business hours in a time period
 dev-perl/Business-ISBN 3.11.0 3.12.0: Work with ISBN as objects
-dev-perl/Business-ISBN-Data 20250205.1.0 20250309.1.0 20250605.1.0 20250708.1.0: Data pack for Business::ISBN
+dev-perl/Business-ISBN-Data 20250205.1.0 20250309.1.0 20250605.1.0 20250708.1.0 20250710.1.0: Data pack for Business::ISBN
 dev-perl/Business-ISMN 1.204.0: International Standard Music Numbers
 dev-perl/Business-ISSN 1.8.0-r1: Object and functions to work with International Standard Serial Numbers
 dev-perl/Business-Tax-VAT-Validation 1.230.0: A class for european VAT numbers validation
@@ -6344,7 +6344,7 @@ dev-perl/Carp-Always 0.160.0: Warns and dies noisily with stack backtraces
 dev-perl/Carp-Assert 0.220.0: Executable comments in carp
 dev-perl/Carp-Assert-More 2.9.0: Convenience assertions for common situations
 dev-perl/Carp-Clan 6.80.0: Report errors from perspective of caller of a clan of modules
-dev-perl/Chart 2.4.10-r2: The Perl Chart Module
+dev-perl/Chart 2.4.10-r2 2.403.9: The Perl Chart Module
 dev-perl/Chart-Math-Axis 1.60.0-r3: Implements an algorithm to find good values for chart axis
 dev-perl/Chatbot-Eliza 1.80.0-r1: Clone of the classic Eliza program
 dev-perl/Cisco-IPPhone 0.50.0-r3: Cisco IP Phone interface using XML Objects
@@ -6843,6 +6843,7 @@ dev-perl/Graphics-ColorNames 3.5.0-r2: Defines RGB values for common color names
 dev-perl/Graphics-ColorNames-HTML 3.3.1: HTML color names and equivalent RGB values
 dev-perl/Graphics-ColorNames-WWW 1.140.0-r1: WWW color names and equivalent RGB values
 dev-perl/Graphics-ColorObject 0.5.0-r3: Convert between color spaces
+dev-perl/Graphics-Toolkit-Color 1.710.0: Color palette constructor
 dev-perl/Growl-GNTP 0.210.0-r2: Perl implementation of GNTP Protocol (Client Part)
 dev-perl/Gtk2 1.249.930-r1: Perl bindings for GTK2
 dev-perl/Gtk3 0.38.0-r1: Perl interface to the 3.x series of the gtk+ toolkit
@@ -6946,7 +6947,7 @@ dev-perl/IO-SessionData 1.30.0-r2: Session data support module for SOAP::Lite
 dev-perl/IO-Socket-INET6 2.730.0: Work with IO sockets in IPv6
 dev-perl/IO-Socket-Multicast 1.120.0-r1: Send and receive multicast messages
 dev-perl/IO-Socket-PortState 0.30.0-r1: Perl extension for checking the open or closed status of a port
-dev-perl/IO-Socket-SSL 2.89.0 2.94.0: Nearly transparent SSL encapsulation for IO::Socket::INET
+dev-perl/IO-Socket-SSL 2.89.0 2.94.0 2.95.0: Nearly transparent SSL encapsulation for IO::Socket::INET
 dev-perl/IO-Socket-Timeout 0.320.0-r1: IO::Socket with read/write timeout
 dev-perl/IO-String 1.80.0-r3: IO::File interface for in-core strings
 dev-perl/IO-Stty 0.40.0: Change and print terminal line settings
@@ -6972,7 +6973,7 @@ dev-perl/Image-Scale 0.140.0: Fast, high-quality fixed-point image resizing
 dev-perl/Image-Size 3.300.0-r2: Library to extract height/width from images
 dev-perl/Import-Into 1.2.5-r1: Import packages into other packages
 dev-perl/Importer 0.26.0: Alternative interface to modules that export symbols
-dev-perl/Inline 0.860.0: Write Perl subroutines in other languages
+dev-perl/Inline 0.860.0 0.870.0: Write Perl subroutines in other languages
 dev-perl/Inline-C 0.820.0: C Language Support for Inline
 dev-perl/Inline-Files 0.710.0: Multiple virtual files in a single file
 dev-perl/JSON 4.100.0: JSON (JavaScript Object Notation) encoder/decoder
@@ -7065,7 +7066,7 @@ dev-perl/MP3-Tag 1.160.0: Module for reading tags of MP3 Audio files
 dev-perl/MP4-Info 1.130.0-r1: Fetch info from MPEG-4 files (.mp4, .m4a, .m4p, .3gp)
 dev-perl/MRO-Compat 0.150.0: Lets you build groups of accessors
 dev-perl/Mail-Audit 2.228.0-r2: Mail sorting/delivery module for Perl
-dev-perl/Mail-AuthenticationResults 2.202.310.310: Object Oriented Authentication-Results Headers
+dev-perl/Mail-AuthenticationResults 2.202.310.310 2.202.507.90: Object Oriented Authentication-Results Headers
 dev-perl/Mail-Box 3.10.0 3.11.0: Mail folder manager and MUA backend
 dev-perl/Mail-Box-IMAP4 3.8.0 3.9.0: Mail::Box connector via IMAP4
 dev-perl/Mail-Box-POP3 3.6.0 3.7.0: Mail::Box connector via POP3
