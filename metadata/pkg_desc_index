@@ -5654,7 +5654,7 @@ dev-libs/light 1.2.2-r2: A program to control backlights (and other hardware lig
 dev-libs/link-grammar 5.12.5: A Syntactic English parser
 dev-libs/linux-syscall-support 2022.10.12: Linux Syscall Support
 dev-libs/lockdev 1.0.3.1.2-r4: Library for locking devices
-dev-libs/log4cplus 2.0.7: C++ port of the Log for Java (log4j) logging library
+dev-libs/log4cplus 2.0.7 2.1.2: C++ port of the Log for Java (log4j) logging library
 dev-libs/log4cpp 1.1.3-r3 1.1.4: C++ classes for flexible logging to files, syslog and other destinations
 dev-libs/log4cxx 1.2.0: Library of C++ classes for logging to files, syslog and other destinations
 dev-libs/log4sh 1.4.2: A flexible logging framework for shell scripts
@@ -8383,7 +8383,7 @@ dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.8: Module for manipulating ID3 (v1 + v2) tags in Python
 dev-python/fake-py 0.11.6 0.11.8: Minimalistic, standalone alternative fake data generator with no dependencies
-dev-python/faker 37.4.0: A Python package that generates fake data for you
+dev-python/faker 37.4.0 37.4.2: A Python package that generates fake data for you
 dev-python/fakeredis 2.30.1: Fake implementation of redis API for testing purposes
 dev-python/fastbencode 0.3.1 0.3.2: Implementation of bencode with optional fast C extensions
 dev-python/fasteners 0.19: Python package that provides useful locks
@@ -8438,7 +8438,7 @@ dev-python/fritzconnection 1.14.0 1.15.0: Lib/tool to communicate with AVM FRITZ
 dev-python/frozen-flask 1.0.2: Freezes a Flask application into a set of static files
 dev-python/frozenlist 1.7.0: A list-like structure which implements collections.abc.MutableSequence
 dev-python/fs 2.4.16-r1: Filesystem abstraction layer
-dev-python/fsspec 2025.5.1: A specification that python filesystems should adhere to
+dev-python/fsspec 2025.5.1 2025.7.0: A specification that python filesystems should adhere to
 dev-python/ftfy 6.3.1: Fixes mojibake and other problems with Unicode, after the fact
 dev-python/fullmoon 1.0.2: Determine full moon occurences
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
@@ -8815,7 +8815,7 @@ dev-python/netifaces 0.11.0-r2: Portable network interface information
 dev-python/netlink 0.1: Pure-Python client for the Linux NetLink interface
 dev-python/networkx 3.5-r1: Python tools to manipulate graphs and complex networks
 dev-python/nextinspace 3.0.1 9999: A command-line tool for seeing the latest in space
-dev-python/nh3 0.2.21: Ammonia HTML sanitizer Python binding
+dev-python/nh3 0.2.21 0.2.22: Ammonia HTML sanitizer Python binding
 dev-python/nnpy 1.4.2-r1: cffi-based Python bindings for nanomsg
 dev-python/node-semver 0.9.0: Python version of node-semver, the semantic versioner for npm
 dev-python/nodeenv 1.9.1: Node.js virtual environment builder
@@ -8854,7 +8854,7 @@ dev-python/opt-einsum 3.4.0: Optimized Einsum: A tensor contraction order optimi
 dev-python/ordered-set 4.1.0-r1: A mutable set that remembers the order of its entries
 dev-python/orderedmultidict 1.0.1: Ordered Multivalue Dictionary. Powers furl
 dev-python/orderly-set 5.4.1 5.5.0: A package containing multiple implementations of Ordered Set
-dev-python/orjson 3.10.15 3.10.16 3.10.18: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+dev-python/orjson 3.10.15 3.10.16 3.10.18 3.11.0: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/os-client-config 2.1.0-r2 2.3.0: OpenStack Client Configuation Library
 dev-python/os-service-types 1.7.0-r2 1.8.0: A library to handle official service types for OpenStack and it's aliases
 dev-python/osc-lib 4.0.2 4.1.0: A package of common support modules for writing OSC plugins
@@ -9176,7 +9176,7 @@ dev-python/pytest-httpserver 1.1.3: HTTP server for pytest to test HTTP clients
 dev-python/pytest-httpx 0.35.0: Send responses to HTTPX using pytest
 dev-python/pytest-import-check 0.0.4: pytest plugin to check whether Python modules can be imported
 dev-python/pytest-jupyter 0.10.1: Pytest plugin for testing Jupyter libraries and extensions
-dev-python/pytest-lazy-fixtures 1.1.4 1.2.0: Allows you to use fixtures in @pytest.mark.parametrize
+dev-python/pytest-lazy-fixtures 1.1.4 1.2.0 1.3.0: Allows you to use fixtures in @pytest.mark.parametrize
 dev-python/pytest-localftpserver 1.3.2: A PyTest plugin which provides an FTP fixture for your tests
 dev-python/pytest-localserver 0.9.0_p0: Pytest plugin to test server connections locally
 dev-python/pytest-markdown 1.0.2-r1: Run tests in your markdown
@@ -9224,7 +9224,7 @@ dev-python/python-constraint 1.4.0: Constraint Solving Problem resolver for Pyth
 dev-python/python-ctags3 1.6.0-r1: Exuberant Ctags indexing python bindings
 dev-python/python-daemon 3.1.2: Library to implement a well-behaved Unix daemon process
 dev-python/python-dateutil 2.9.0_p0: Extensions to the standard Python datetime module
-dev-python/python-dbusmock 0.35.0: Easily create mock objects on D-Bus for software testing
+dev-python/python-dbusmock 0.35.0 0.36.0: Easily create mock objects on D-Bus for software testing
 dev-python/python-debian 1.0.1: Python modules to work with Debian-related data formats
 dev-python/python-distutils-extra 2.47: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-dotenv 1.1.1: Manage .env files
@@ -9283,7 +9283,7 @@ dev-python/pythran 0.17.0-r2 0.18.0: Ahead of Time compiler for numeric kernels
 dev-python/pytidylib 0.3.2-r2: Python wrapper for HTML Tidy (tidylib)
 dev-python/pytimeparse 1.1.8-r1: A small Python module to parse various kinds of time expressions
 dev-python/pytoolconfig 1.3.1: Python tool configuration
-dev-python/pytools 2025.1.7 2025.2.1: Collection of tools missing from the Python standard library
+dev-python/pytools 2025.1.7 2025.2.1 2025.2.2: Collection of tools missing from the Python standard library
 dev-python/pytrie 0.4.0-r1: A pure Python implementation of the trie data structure
 dev-python/pytz 2025.2: World timezone definitions for Python
 dev-python/pyu2f 0.1.5-r1: Python based U2F host library
@@ -13388,7 +13388,7 @@ media-libs/libqaccessibilityclient 0.6.0: Library for writing accessibility clie
 media-libs/libquicktime 1.2.4-r6 1.2.4-r7: An enhanced version of the quicktime4linux library
 media-libs/libquvi 0.9.4-r100 0.9.4-r101: Library for parsing video download links
 media-libs/libquvi-scripts 0.9.20131130-r100 0.9.20131130-r101: Embedded lua scripts for libquvi
-media-libs/libraw 0.21.2: LibRaw is a library for reading RAW files obtained from digital photo cameras
+media-libs/libraw 0.21.2 0.21.4: LibRaw is a library for reading RAW files obtained from digital photo cameras
 media-libs/libreplaygain 483: Replay Gain library from Musepack
 media-libs/librosprite 0.1.3-r2: Framebuffer abstraction library, written in C
 media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherapee
@@ -15363,7 +15363,7 @@ net-misc/redir 3.3-r1: Redir is a port redirector
 net-misc/remmina 1.4.40-r2: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73: redirects TCP connections from one IP address and port to another
 net-misc/rsync 3.3.0-r2 3.4.1 9999: File transfer program to keep remote files into sync
-net-misc/rsync-bpc 3.1.3.0 3.1.3.0-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
+net-misc/rsync-bpc 3.1.3.0 3.1.3.0-r1 3.1.3.0_p20250706: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
 net-misc/rygel 0.42.6-r1 0.44.1-r1 0.44.2: Rygel is an open source UPnP/DLNA MediaServer
