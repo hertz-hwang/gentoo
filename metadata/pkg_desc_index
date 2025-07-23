@@ -15640,7 +15640,7 @@ net-vpn/pptpd 1.4.0-r4 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/protonvpn-cli 2.2.11-r2: A VPN command-line tool from protonvpn - python rewrite
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 5.9.13 5.9.14 5.9.14-r2 6.0.1 6.0.1-r1 6.0.1-r2 6.0.2: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.82.5: Tailscale vpn client
+net-vpn/tailscale 1.82.5 1.84.3: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.8.16 0.4.8.17 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.12 0.10.13: Launch applications via VPN tunnels using temporary network namespaces
@@ -18179,7 +18179,7 @@ www-misc/profile-sync-daemon 5.75 6.35 6.50 9999: Symlinks and syncs browser pro
 www-misc/urlwatch 2.28-r1 2.29: A tool for monitoring webpages for updates
 www-misc/vdradmin-am 3.6.10-r1 3.6.10-r2: WWW Admin for the Video Disk Recorder
 www-misc/visitors 0.7-r2: Fast web log analyzer
-www-nginx/ngx-brotli 20231109: NGINX module for Brotli compression
+www-nginx/ngx-brotli 1.0.0_rc_p20231109: NGINX module for Brotli compression
 www-nginx/ngx-dav-ext 3.0.0: NGINX module providing support for WebDAV PROPFIND,OPTIONS,LOCK,UNLOCK
 www-nginx/ngx-echo 0.63: An NGINX module bringing the power of "echo", "sleep", "time" and more to NGINX
 www-nginx/ngx-encrypted-session 0.09: An NGINX module that encrypts and decrypts NGINX variable values
