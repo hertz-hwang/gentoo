@@ -2369,7 +2369,7 @@ app-emulation/libdsk 1.5.21: Library for accessing discs and disc image files
 app-emulation/libguestfs 1.48.6-r2 1.54.1-r1 1.55.13: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.46.0 1.54.0: VM appliance disk image used in libguestfs package
 app-emulation/libspectrum 1.5.0: Spectrum emulation library
-app-emulation/libvirt 10.10.0-r2 11.0.0-r1 11.1.0-r1 11.2.0-r1 11.4.0 9999: C toolkit to manipulate virtual machines
+app-emulation/libvirt 11.1.0-r1 11.1.0-r2 11.2.0-r2 11.4.0-r1 9999: C toolkit to manipulate virtual machines
 app-emulation/libvirt-glib 4.0.0-r1 5.0.0-r1: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.1.0-r1 3.3.0-r1: Ncurses interface for QEMU
 app-emulation/open-vm-tools 12.4.5-r1 12.5.0 12.5.0-r1 12.5.0-r3: Tools for VMware guests
@@ -8675,7 +8675,7 @@ dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
 dev-python/libtmux 0.36.0 0.39.0 0.40.1 0.42.0 0.44.2 0.45.0 0.46.0 0.46.1 0.46.2: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.3.1: Python ctype-based wrapper around libusb1
-dev-python/libvirt-python 10.10.0 11.0.0 11.1.0 11.2.0 11.4.0 9999: libvirt Python bindings
+dev-python/libvirt-python 11.1.0 11.2.0 11.4.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.3 30.4.4: Parse, compare, simplify and normalize license expressions
 dev-python/line-profiler 4.2.0 5.0.0: Line-by-line profiler
 dev-python/linkify-it-py 2.0.3: Links recognition library with full unicode support
@@ -17491,7 +17491,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r4 0.15-r5 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.4.1_p20250704 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250703 13.4.1_p20250710 13.4.1_p20250717 13.4.1_p20250724 13.5.9999 14.3.0 14.3.1_p20250704 14.3.1_p20250711 14.3.1_p20250718 14.4.9999 15.1.0 15.1.1_p20250705-r1 15.1.1_p20250712 15.1.1_p20250719 15.1.9999 16.0.0_p20250706-r1 16.0.0_p20250713 16.0.0_p20250720 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.4.1_p20250704 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250703 13.4.1_p20250710 13.4.1_p20250717 13.4.1_p20250724 13.5.9999 14.3.0 14.3.1_p20250704 14.3.1_p20250711 14.3.1_p20250718 14.3.1_p20250725 14.4.9999 15.1.0 15.1.1_p20250705-r1 15.1.1_p20250712 15.1.1_p20250719 15.1.9999 16.0.0_p20250706-r1 16.0.0_p20250713 16.0.0_p20250720 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1: GNU locale utilities
