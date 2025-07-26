@@ -26,7 +26,7 @@ S=${WORKDIR}/${MY_P}
 LICENSE="AGPL-3"
 SLOT="0/$(ver_cut 1-2)"
 WEBAPP_MANUAL_SLOT="yes"
-KEYWORDS="amd64 arm64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~x86"
 IUSE="agent +agent2 curl frontend gnutls ipv6 java ldap libxml2 mysql odbc openipmi +openssl +postgres proxy selinux server snmp sqlite ssh static"
 REQUIRED_USE="|| ( agent agent2 frontend proxy server )
 	?? ( gnutls openssl )
@@ -80,7 +80,7 @@ RDEPEND="${COMMON_DEPEND}
 	)
 	frontend? (
 		app-admin/webapp-config
-		dev-lang/php:*[bcmath,ctype,sockets,gd,truetype,xml,session,xmlreader,xmlwriter,nls,sysvipc,unicode]
+		dev-lang/php:*[bcmath,ctype,gd,jpeg(+),nls,png(+),session,sockets,sysvipc,truetype,unicode,xml,xmlreader,xmlwriter]
 		media-libs/gd[png]
 		virtual/httpd-php:*
 		mysql? ( dev-lang/php[mysqli] )
@@ -108,7 +108,7 @@ DEPEND="${COMMON_DEPEND}
 BDEPEND="
 	virtual/pkgconfig
 	agent2? (
-		>=dev-lang/go-1.12
+		>=dev-lang/go-1.23
 		app-arch/unzip
 	)
 "
