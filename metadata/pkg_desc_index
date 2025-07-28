@@ -1858,7 +1858,7 @@ app-editors/vscode 1.102.1 1.102.2: Multiplatform Visual Studio Code from Micros
 app-editors/vscodium 1.102.04606 1.102.24914: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
-app-editors/xemacs 21.5.35-r8 21.5.35-r9 21.5.36 21.5.9999: highly customizable open source text editor and application development system
+app-editors/xemacs 21.5.35-r8 21.5.35-r9 21.5.35-r10 21.5.36-r1 21.5.9999: highly customizable open source text editor and application development system
 app-editors/xmlcopyeditor 1.3.1.0-r3 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
@@ -14787,7 +14787,7 @@ net-im/openmittsu 0.10.2.0: Open source chat client for Threema-style end-to-end
 net-im/pidgin 2.14.13-r2 2.14.14-r2: GTK Instant Messenger client
 net-im/poezio 0.14 0.15.1 9999: Console XMPP client that looks like most famous IRC clients
 net-im/profanity 0.14.0-r2 0.15.0: A console based XMPP client inspired by Irssi
-net-im/prosody 13.0.1-r1: Prosody is a modern XMPP communication server
+net-im/prosody 13.0.1-r1 13.0.2: Prosody is a modern XMPP communication server
 net-im/prosody-modules 0_pre20241231 9999: A collection of community-maintained modules for Prosody
 net-im/purple-events 0.99.1 0.99.2: Allows a fine-grained control over libpurple events
 net-im/qtox 1.18.3-r1 9999: Instant messaging client using the encrypted p2p Tox protocol
