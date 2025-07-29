@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,16 +9,16 @@ HOMEPAGE="https://apps.gnome.org/Calendar/"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="amd64 arm64 ~loong ~ppc64 ~riscv x86"
+KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
 
 DEPEND="
 	>=dev-libs/libical-1.0.1:0=
 	>=gnome-base/gsettings-desktop-schemas-3.21.2
 	>=gnome-extra/evolution-data-server-3.45.1:=[gtk]
 	net-libs/libsoup:3.0
-	>=gui-libs/libadwaita-1.5_alpha:1
+	>=gui-libs/libadwaita-1.7_alpha:1
 	>=dev-libs/glib-2.67.5:2
-	>=gui-libs/gtk-4.11.2:4
+	>=gui-libs/gtk-4.15.2:4
 	>=dev-libs/libgweather-4.2.0:4=
 	>=app-misc/geoclue-2.4:2.0
 "
