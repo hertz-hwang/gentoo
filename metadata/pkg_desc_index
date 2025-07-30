@@ -14598,7 +14598,7 @@ net-analyzer/tcptraceroute 1.5_beta7-r3: tcptraceroute is a traceroute implement
 net-analyzer/tcptrack 1.4.2: Passive per-connection tcp bandwidth monitor
 net-analyzer/telegraf 1.18.3 1.26.3-r1: The plugin-driven server agent for collecting & reporting metrics
 net-analyzer/termshark 2.4.0: A terminal UI for tshark, inspired by Wireshark
-net-analyzer/testssl 3.0.9-r1: Tool to check TLS/SSL cipher support
+net-analyzer/testssl 3.0.9-r1 3.0.10: Tool to check TLS/SSL cipher support
 net-analyzer/thc-ipv6 3.8 9999: Complete tool set to attack the inherent protocol weaknesses of IPV6 and ICMP6
 net-analyzer/thrulay 0.9-r1: Measure the capacity of a network by sending a bulk TCP stream over it
 net-analyzer/tleds 1.05_beta11-r2: Blinks keyboard LEDs indicating outgoing and incoming network packets
@@ -16408,7 +16408,7 @@ sci-ml/FP16 2024.05.27-r1 2024.06.20: conversion to/from half-precision floating
 sci-ml/NNPACK 2020.12.22-r4: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.02.29-r1 2024.11.08-r1 2024.12.03: library of floating-point neural network inference operators
 sci-ml/accelerate 1.6.0-r5 1.7.0: Run your *raw* PyTorch training script on any kind of device
-sci-ml/caffe2 2.5.1-r11 2.6.0-r4 2.7.0-r2 2.7.1-r3: A deep learning framework
+sci-ml/caffe2 2.5.1-r12 2.6.0-r5 2.7.0-r3 2.7.1-r4: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 3.5.0: Access and share datasets for Audio, Computer Vision, and NLP tasks
