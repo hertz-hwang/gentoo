@@ -14798,7 +14798,7 @@ net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.131.0-r1 1.132.0 1.133.0 1.134.0: Reference implementation of Matrix homeserver
 net-im/telegram-desktop 5.12.3-r6 5.14.3-r1 5.16.2-r1: Official desktop client for Telegram
-net-im/telegram-desktop-bin 5.16.4 5.16.5 5.16.6: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 5.16.5 5.16.6 6.0.2: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r2 0.8.2_p4-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
 net-im/tkabber 1.1.2: A jabber client written in Tcl/Tk
@@ -17688,7 +17688,7 @@ sys-libs/fortify-headers 1.1 9999: Standalone implementation of fortify source
 sys-libs/freeipmi 1.6.10-r1 1.6.11 1.6.14 1.6.15: Provides Remote-Console and System Management Software as per IPMI v1.5/2.0
 sys-libs/fts-standalone 1.2.7 1.2.7-r1: Standalone fts library for use with musl
 sys-libs/gdbm 1.24 1.25 1.26: Standard GNU database libraries
-sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r4 2.42 9999: GNU libc C library
+sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r4 2.41-r5 2.42 9999: GNU libc C library
 sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.12.0-r1 5.12.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 25.04.3: Library for managing partitions
