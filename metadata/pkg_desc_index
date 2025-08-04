@@ -2983,7 +2983,7 @@ app-office/grisbi 2.0.5-r1 3.0.3-r1 3.0.4-r1: Grisbi is a personal accounting ap
 app-office/homebank 5.9.1 5.9.2 5.9.4: Free, easy, personal accounting for everyone
 app-office/impressive 0.13.1 0.13.2: Stylish way of giving presentations with Python
 app-office/joplin-desktop 3.3.12 3.3.13: Secure note taking and to-do app with synchronization capabilities
-app-office/kmymoney 5.2.0_p20250709-r1 5.2.1_pre20250804: Personal finance manager based on KDE Frameworks
+app-office/kmymoney 5.2.0_p20250709-r1 5.2.1: Personal finance manager based on KDE Frameworks
 app-office/kraft 2.0_pre20250419: Quotes and invoices manager for small enterprises
 app-office/ktimetracker 6.0.0: Todo management and time tracker
 app-office/ledger 3.3.2-r2: Double-entry accounting system with a command-line reporting interface
@@ -11044,7 +11044,7 @@ dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagn
 dev-util/volk 1.4.313.0 9999: Meta loader for Vulkan API
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
 dev-util/vulkan-headers 1.4.313.0 1.4.321.0-r1 9999: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.313.0 1.4.313.0-r1 1.4.321.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-tools 1.4.313.0 1.4.313.0-r1 1.4.321.0 1.4.321.0-r1 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.313.0 1.4.321.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
@@ -12964,7 +12964,7 @@ media-gfx/flameshot 12.1.0-r2: Powerful yet simple to use screenshot software
 media-gfx/fondu 20060102-r1: Utilities for converting between and manipulating mac fonts and unix fonts
 media-gfx/fontforge 20230101 20230101-r2: postscript font editor and converter
 media-gfx/fotema 1.20.1 2.0.0 2.0.1 2.0.2: Photo gallery for Linux
-media-gfx/fotocx 25.0 25.1 25.2: Program for improving image files made with a digital camera
+media-gfx/fotocx 25.0 25.1 25.2 25.3: Program for improving image files made with a digital camera
 media-gfx/fotowall 1.0_p20241107: Qt tool for creating wallpapers
 media-gfx/freecad 1.0.0-r6 1.0.1 9999: Qt based Computer Aided Design application
 media-gfx/freepv 0.3.0-r6: Panorama viewer (Quicktime, PangeaVR, GLPanoView formats)
@@ -14682,7 +14682,7 @@ net-dns/idnkit 2.3-r2: Toolkit for Internationalized Domain Names (IDN)
 net-dns/inadyn 2.12.0-r2: Dynamic DNS client with multiple SSL/TLS library support
 net-dns/knot 3.4.7: High-performance authoritative-only DNS server
 net-dns/knot-resolver 5.7.5 5.7.6 6.0.15: A scaleable caching DNS resolver
-net-dns/ldns-tools 0.1: ldns tools: host, nslookup
+net-dns/ldns-tools 0.1 0.2: ldns tools: host, nslookup
 net-dns/libidn 1.42 1.43: Internationalized Domain Names (IDN) implementation
 net-dns/libidn2 2.3.7 2.3.8: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893)
 net-dns/maradns 3.5.0036: A security-aware DNS server
@@ -14709,7 +14709,7 @@ net-firewall/conntrack-tools 1.4.7-r1 1.4.8 1.4.8-r1: Connection tracking usersp
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
 net-firewall/firehol 3.1.7-r2 3.1.8: iptables firewall generator
-net-firewall/firewalld 2.3.0-r2 2.3.1: Firewall daemon with D-Bus interface providing a dynamic firewall
+net-firewall/firewalld 2.3.0-r2 2.3.1 2.3.1-r1: Firewall daemon with D-Bus interface providing a dynamic firewall
 net-firewall/fwbuilder 6.0.0_rc1-r1: A firewall management GUI for iptables, PF, Cisco routers and more
 net-firewall/fwknop 2.6.11-r1: Single Packet Authorization and Port Knocking application
 net-firewall/ipkungfu 0.6.1-r2: A nice iptables firewall script
@@ -17651,14 +17651,14 @@ sys-kernel/asahi-sources 6.14.8_p1 6.15.7_p1: Asahi Linux kernel sources
 sys-kernel/bliss-initramfs 9.3.0: Boot your system's rootfs from Encrypted/OpenZFS
 sys-kernel/cryptodev 1.12 1.13-r1 9999: device that allows access to Linux kernel cryptographic drivers
 sys-kernel/dkms 3.1.6 3.1.7 3.1.8 3.2.0 3.2.1 9999: Dynamic Kernel Module Support
-sys-kernel/dracut 060_pre20240104-r4 103-r4 106-r2 107 9999: Generic initramfs generation tool
+sys-kernel/dracut 060_pre20240104-r4 103-r4 106-r2 107 108 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r1: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r2 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.239 5.10.240 5.15.188 5.15.189 6.1.145 6.1.146 6.1.147 6.6.98 6.6.99 6.6.100 6.6.101 6.12.38 6.12.39 6.12.40 6.12.41 6.15.7 6.15.8 6.15.9 6.15.9-r1: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.239 5.10.240 5.15.188 5.15.189 6.1.145 6.1.146 6.1.147 6.6.98 6.6.99 6.6.100 6.6.101 6.12.38 6.12.39 6.12.40 6.12.41 6.15.7 6.15.8 6.15.9 6.15.9-r1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.233 5.10.237 5.10.238 5.10.239 5.10.240 5.15.177 5.15.184 5.15.185 5.15.186 5.15.187 5.15.188 5.15.189 6.1.132 6.1.140 6.1.141 6.1.142 6.1.143 6.1.144 6.1.145 6.1.146 6.1.147 6.6.85 6.6.92 6.6.93 6.6.94 6.6.95 6.6.96 6.6.97 6.6.98 6.6.99 6.6.100 6.6.101 6.12.21 6.12.31 6.12.33 6.12.34 6.12.35 6.12.36 6.12.37 6.12.38 6.12.39 6.12.40 6.12.41 6.15.1 6.15.2 6.15.3 6.15.4 6.15.5 6.15.6 6.15.7 6.15.8 6.15.9 6.15.9-r1 6.16.0: Full sources including the Gentoo patchset for the 6.16 kernel tree
 sys-kernel/git-sources 6.16_rc1 6.16_rc2 6.16_rc3 6.16_rc4 6.16_rc5 6.16_rc6 6.16_rc7: The very latest -git version of the Linux kernel
-sys-kernel/installkernel 50 60: Gentoo fork of installkernel script from debianutils
+sys-kernel/installkernel 50 60 61: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 0.9.10 9999: Dynamic kernel patching for Linux
@@ -17816,7 +17816,7 @@ sys-process/fcron 3.3.3 3.4.0: A command scheduler with extended capabilities ov
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1: CLI curses based monitoring tool
 sys-process/gnome-usage 46.1: A nice way to view information about use of system resources
-sys-process/htop 3.3.0 3.4.0 3.4.1-r1 9999: Interactive process viewer
+sys-process/htop 3.3.0 3.4.0 3.4.1-r2 9999: Interactive process viewer
 sys-process/incron 0.5.12_p20171113-r1: inotify based cron daemon
 sys-process/iotop 0.6_p20230124: Top-like UI used to show which process is using the I/O
 sys-process/iotop-c 1.27 1.29 1.30: top utility for IO (C port)
