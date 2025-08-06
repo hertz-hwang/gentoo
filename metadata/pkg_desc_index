@@ -17736,7 +17736,7 @@ sys-libs/mtdev 1.1.7: Multitouch Protocol Translation Library
 sys-libs/musl 1.2.3-r10 1.2.4-r4 1.2.5-r3 9999: Light, fast and, simple C library focused on standards-conformance and safety
 sys-libs/musl-nscd 1.1.1-r1 9999: musl-nscd is an implementation of the NSCD protocol for the musl libc
 sys-libs/native-uuid 1.0-r1: .pc file for uuid
-sys-libs/ncurses 6.4_p20240414 6.5_p20241109 6.5_p20250125 6.5_p20250308 6.5_p20250329 6.5_p20250531 6.5_p20250531-r1 6.5_p20250802: Console display library
+sys-libs/ncurses 6.5_p20250329 6.5_p20250531-r1 6.5_p20250802: Console display library
 sys-libs/ncurses-compat 6.4_p20230401 6.4_p20240330 6.4_p20240414: Console display library (ABI version 5)
 sys-libs/newlib 4.3.0.20230120-r2 4.4.0.20231231 4.5.0.20241231 4.5.0.20241231-r1 9999: Newlib is a C library intended for use on embedded systems
 sys-libs/nss-usrfiles 2.18.1: NSS module to read passwd/group files from CoreOS /usr location
@@ -18115,7 +18115,7 @@ www-client/elinks 0.17.1.1 0.18.0 9999: Advanced and well-established text-mode 
 www-client/epiphany 47.7-r1 48.3: GNOME webbrowser based on Webkit
 www-client/falkon 25.04.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 128.13.0 140.0.4 140.1.0 141.0: Firefox Web Browser
+www-client/firefox 128.13.0 140.0.4 140.1.0 141.0 141.0.2: Firefox Web Browser
 www-client/firefox-bin 128.13.0 140.0.4 140.1.0 141.0 141.0.2: Firefox Web Browser
 www-client/google-chrome 138.0.7204.183: The web browser from Google
 www-client/google-chrome-beta 139.0.7258.52: The web browser from Google
