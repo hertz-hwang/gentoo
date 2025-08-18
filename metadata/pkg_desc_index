@@ -3866,7 +3866,7 @@ dev-cpp/clucene 2.3.3.4-r9 2.3.3.4-r10 2.3.3.4-r11: High-performance, full-featu
 dev-cpp/cpp-hocon 0.3.0-r1: Provides C++ support for the HOCON configuration file format
 dev-cpp/cpp-httplib 0.18.1 0.20.1 0.23.1: C++ HTTP/HTTPS server and client library
 dev-cpp/cppdap 0_pre20230605-r1 0_pre20240802: C++ library for the Debug Adapter Protocol
-dev-cpp/cppgir 2.0_p20240928 2.0_p20250508: GObject-Introspection C++ binding wrapper generator
+dev-cpp/cppgir 2.0_p20250508 2.0_p20250629: GObject-Introspection C++ binding wrapper generator
 dev-cpp/cpptoml 0.1.1-r1: Header-only library for parsing TOML
 dev-cpp/ctemplate 2.4: A simple but powerful template language for C++
 dev-cpp/curlpp 0.8.1-r1: C++ wrapper for libcURL
@@ -6284,7 +6284,7 @@ dev-perl/Browser-Open 0.40.0-r2: Open a browser at a given URL
 dev-perl/Business-FedEx-DirectConnect 1.10.0-r2: Interface to FedEx Ship Manager Direct
 dev-perl/Business-Hours 0.130.0-r1: Calculate business hours in a time period
 dev-perl/Business-ISBN 3.11.0 3.12.0: Work with ISBN as objects
-dev-perl/Business-ISBN-Data 20250205.1.0 20250309.1.0 20250605.1.0 20250708.1.0 20250710.1.0 20250722.1.0 20250723.1.0 20250801.1.0: Data pack for Business::ISBN
+dev-perl/Business-ISBN-Data 20250205.1.0 20250309.1.0 20250605.1.0 20250708.1.0 20250710.1.0 20250722.1.0 20250723.1.0 20250801.1.0 20250815.1.0: Data pack for Business::ISBN
 dev-perl/Business-ISMN 1.204.0 1.205.0: International Standard Music Numbers
 dev-perl/Business-ISSN 1.8.0-r1: Object and functions to work with International Standard Serial Numbers
 dev-perl/Business-Tax-VAT-Validation 1.230.0 1.240.0: Class for European VAT numbers validation
@@ -6388,7 +6388,7 @@ dev-perl/Class-Std 0.13.0-r1: Support for creating standard "inside-out" classes
 dev-perl/Class-Std-Fast 0.0.8-r2: Faster but less secure than Class::Std
 dev-perl/Class-Tiny 1.8.0: Minimalist class construction
 dev-perl/Class-Trigger 0.150.0: Mixin to add / call inheritable triggers
-dev-perl/Class-Unload 0.110.0-r1: Unload a class
+dev-perl/Class-Unload 0.110.0-r1 0.120.0: Unload a class
 dev-perl/Class-Virtual 0.80.0-r1: Base class for virtual base classes
 dev-perl/Class-WhiteHole 0.40.0-r2: base class to treat unhandled method calls as errors
 dev-perl/Class-XPath 1.400.0-r2: adds xpath matching to object trees
@@ -6603,7 +6603,7 @@ dev-perl/Devel-Hide 0.1.500: Forces the unavailability of specified Perl modules
 dev-perl/Devel-Leak 0.30.0-r2: Utility for looking for perl objects that are not reclaimed
 dev-perl/Devel-LexAlias 0.50.0-r2: Alias lexical variables
 dev-perl/Devel-NYTProf 6.140.0: Powerful feature-rich perl source code profiler
-dev-perl/Devel-OverloadInfo 0.7.0-r1: Introspect overloaded operators
+dev-perl/Devel-OverloadInfo 0.7.0-r1 0.8.0: Introspect overloaded operators
 dev-perl/Devel-OverrideGlobalRequire 0.1.0-r1: Override CORE::GLOBAL::require safely
 dev-perl/Devel-PatchPerl 2.80.0-r1: Patch perl source a la Devel::PPPort's buildperl.pl
 dev-perl/Devel-REPL 1.3.29: A modern perl interactive shell
@@ -6830,7 +6830,7 @@ dev-perl/Getopt-Mixed 1.120.0-r2: Getopt::Mixed is used for parsing mixed option
 dev-perl/Getopt-Tabular 0.300.0-r2: Table-driven argument parsing with help text
 dev-perl/Git-Wrapper 0.48.0-r2: Wrap git(7) command-line interface
 dev-perl/Glib-Object-Introspection 0.51.0-r1: Dynamically create Perl language bindings
-dev-perl/GnuPG-Interface 1.40.0: Perl interface to GnuPG
+dev-perl/GnuPG-Interface 1.40.0 1.50.0: Perl interface to GnuPG
 dev-perl/GooCanvas2 0.60.0-r2: Perl binding for GooCanvas2 widget using Glib::Object::Introspection
 dev-perl/GooCanvas2-CairoTypes 0.1.0-r1: Bridge between GooCanvas2 and Cairo types
 dev-perl/Google-Ads-AdWords-Client 5.8.2-r1: Google AdWords API Perl Client Library
@@ -6946,7 +6946,7 @@ dev-perl/IO-SessionData 1.30.0-r2: Session data support module for SOAP::Lite
 dev-perl/IO-Socket-INET6 2.730.0: Work with IO sockets in IPv6
 dev-perl/IO-Socket-Multicast 1.120.0-r1: Send and receive multicast messages
 dev-perl/IO-Socket-PortState 0.30.0-r1: Perl extension for checking the open or closed status of a port
-dev-perl/IO-Socket-SSL 2.89.0 2.94.0 2.95.0: Nearly transparent SSL encapsulation for IO::Socket::INET
+dev-perl/IO-Socket-SSL 2.89.0 2.95.0: Nearly transparent SSL encapsulation for IO::Socket::INET
 dev-perl/IO-Socket-Timeout 0.320.0-r1: IO::Socket with read/write timeout
 dev-perl/IO-String 1.80.0-r3: IO::File interface for in-core strings
 dev-perl/IO-Stty 0.40.0: Change and print terminal line settings
@@ -7209,7 +7209,7 @@ dev-perl/Net-ARP 1.0.12: Perl extension for creating ARP packets
 dev-perl/Net-Amazon 0.620.0-r1: Framework for accessing amazon.com via SOAP and XML/HTTP
 dev-perl/Net-Amazon-S3 0.991.0-r1: Framework for accessing the Amazon S3 Simple Storage Service
 dev-perl/Net-Bonjour 0.960.0-r1: Module for DNS service discovery (Apple's Bonjour)
-dev-perl/Net-CIDR 0.220.0 0.250.0 0.260.0: Manipulate netblock lists in CIDR notation
+dev-perl/Net-CIDR 0.220.0 0.250.0 0.270.0: Manipulate netblock lists in CIDR notation
 dev-perl/Net-CIDR-Lite 0.220.0-r1: Perl extension for merging IPv4 or IPv6 CIDR addresses
 dev-perl/Net-CUPS 0.640.0-r2: CUPS C API Interface
 dev-perl/Net-DBus 1.2.0: Perl extension for the DBus message system
@@ -7532,7 +7532,7 @@ dev-perl/String-Truncate 1.100.603: Module for when strings are too long to be d
 dev-perl/String-Util 1.350.0: String processing utility functions
 dev-perl/Struct-Compare 1.0.1-r1: Recursive diff for perl structures
 dev-perl/Struct-Dumb 0.140.0-r1: Make simple lightweight record-like structures
-dev-perl/Sub-Delete 1.0.20-r1: Perl module enabling one to delete subroutines
+dev-perl/Sub-Delete 1.0.20-r1 1.0.30: Perl module enabling one to delete subroutines
 dev-perl/Sub-Exporter 0.991.0: Sophisticated exporter for custom-built routines
 dev-perl/Sub-Exporter-ForMethods 0.100.55: Helper routines for using Sub::Exporter to build methods
 dev-perl/Sub-Exporter-GlobExporter 0.6.0: Export shared globs with Sub::Exporter collectors
@@ -7661,7 +7661,7 @@ dev-perl/Test-Refcount 0.100.0: Assert reference counts on objects
 dev-perl/Test-Regexp 2017040101.0.0-r1: Provide commonly requested regular expressions
 dev-perl/Test-Requires 0.110.0: Checks to see if the module can be loaded
 dev-perl/Test-RequiresInternet 0.50.0-r1: Easily test network connectivity
-dev-perl/Test-Script 1.290.0-r1 1.300.0: Cross-platform basic tests for scripts
+dev-perl/Test-Script 1.290.0-r1 1.310.0: Cross-platform basic tests for scripts
 dev-perl/Test-SharedFork 0.350.0-r1: Ensure that tests work correctly when fork() is used
 dev-perl/Test-Snapshot 0.60.0: Test against data stored in automatically-named file
 dev-perl/Test-Spec 0.540.0-r1: Write tests in a declarative specification style
@@ -8128,7 +8128,7 @@ dev-python/awkward 2.8.7: Manipulate JSON-like data with NumPy-like idioms
 dev-python/awkward-cpp 48: CPU kernels and compiled extensions for Awkward Array
 dev-python/aws-sam-translator 1.99.0: A library that transform SAM templates into AWS CloudFormation templates
 dev-python/aws-xray-sdk 2.14.0: AWS X-Ray SDK for Python
-dev-python/b2sdk 2.9.4-r1: Library to access Backblaze B2 cloud storage
+dev-python/b2sdk 2.9.4-r1 2.10.0: Library to access Backblaze B2 cloud storage
 dev-python/babel 2.17.0: Collection of tools for internationalizing Python applications
 dev-python/babelfish 0.6.1: Python library to work with countries and languages
 dev-python/backports-ssl-match-hostname 3.7.0.1: The ssl.match_hostname() function from Python 3.7
@@ -11132,7 +11132,7 @@ dev-vcs/reposurgeon 5.3: Tool for editing VCS repositories and translating among
 dev-vcs/rsvndump 0.6.1-r1 0.6.2: Dump a remote Subversion repository
 dev-vcs/sourcegit 2025.21 2025.23 2025.24 2025.29 9999: Open Source Git GUI client using .NET AvaloniaUI
 dev-vcs/stagit 1.2: Generates static HTML pages for a Git repository
-dev-vcs/stgit 2.5.3: Stack-based patch management for Git
+dev-vcs/stgit 2.5.3 2.5.4: Stack-based patch management for Git
 dev-vcs/subversion 1.14.5-r2: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.20 9999: Tool for one-time conversion from svn to git
@@ -14807,7 +14807,7 @@ net-im/slack 4.44.65 4.45.60 4.45.64: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.132.0 1.133.0 1.134.0 1.135.0 1.135.2 1.136.0: Reference implementation of Matrix homeserver
-net-im/telegram-desktop 5.12.3-r6 5.14.3-r1 5.16.2-r1: Official desktop client for Telegram
+net-im/telegram-desktop 5.12.3-r6 5.14.3-r1 5.16.2-r1 6.0.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 5.16.5 5.16.6 6.0.2: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r2 0.8.2_p4-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -17045,7 +17045,7 @@ sys-apps/hotplug2stdout 1.2.1: A tool for reading kernel uevent(s) to stdout
 sys-apps/hponcfg 5.6.0.0-r1: HP Lights-Out Online Configuration Utility (HPONCFG)
 sys-apps/hprofile 6.1.3-r1 6.2.1: Utility to manage hardware, network, power or other profiles (fork)
 sys-apps/hw-probe 1.6.6-r2: A tool to probe for hardware, check it's operability and find drivers
-sys-apps/hwdata 0.383 0.390 0.391: Hardware identification and configuration data
+sys-apps/hwdata 0.383 0.390 0.391 0.398: Hardware identification and configuration data
 sys-apps/hwinfo 23.2-r1: Hardware detection tool used in SuSE Linux
 sys-apps/hwloc 1.11.13-r2 2.6.0-r2 2.8.0-r2 2.9.0-r1 2.9.1-r1 2.9.2-r1 2.9.3-r2 2.11.2-r1: Displays the hardware topology in convenient formats
 sys-apps/i2c-tools 4.3-r2: I2C tools for bus probing, chip dumping, EEPROM decoding, and more
@@ -18884,7 +18884,7 @@ x11-terms/terminology 1.14.0: Feature rich terminal emulator using the Enlighten
 x11-terms/tilda 1.5.4 2.0.0: A drop down terminal, similar to the consoles found in first person shooters
 x11-terms/wezterm 20240203.110809-r2: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-terms/xfce4-terminal 1.1.4 1.1.5: A terminal emulator for the Xfce desktop environment
-x11-terms/xterm 397 398 399 400 401: Terminal Emulator for X Windows
+x11-terms/xterm 398 399 400 401: Terminal Emulator for X Windows
 x11-terms/yeahconsole 0.3.4-r2: yeahconsole turns an xterm or rxvt-unicode into a game-like console
 x11-terms/zutty 0.15 0.16: X terminal emulator rendering through OpenGL ES Compute Shaders
 x11-themes/QAdwaitaDecorations 0.1.6: Qt decoration plugin implementing Adwaita-like client-side decorations
