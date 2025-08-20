@@ -13378,7 +13378,7 @@ media-libs/libplacebo 7.351.0 9999: Reusable library for GPU-accelerated image p
 media-libs/libpng 1.6.47 1.6.50-r1: Portable Network Graphics library
 media-libs/libpng-compat 1.2.59-r1 1.5.30-r1: Portable Network Graphics library
 media-libs/libpqstego 0.0.1-r2: Library for Perturbed Quantization Steganography
-media-libs/libprojectm 3.1.12-r2 4.1.2 4.1.4 9999: A graphical music visualization plugin similar to milkdrop
+media-libs/libprojectm 3.1.12-r3 4.1.2 4.1.4 9999: A graphical music visualization plugin similar to milkdrop
 media-libs/libpulse 17.0: Libraries for PulseAudio clients
 media-libs/libqaccessibilityclient 0.6.0: Library for writing accessibility clients such as screen readers
 media-libs/libquicktime 1.2.4-r6 1.2.4-r7: An enhanced version of the quicktime4linux library
@@ -17473,7 +17473,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r5 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250807 13.4.1_p20250814 13.5.9999 14.3.0 14.3.1_p20250801 14.3.1_p20250808 14.3.1_p20250815 14.4.9999 15.2.0 15.2.1_p20250809 15.2.1_p20250816 15.3.9999 16.0.0_p20250803 16.0.0_p20250810 16.0.0_p20250817 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250807 13.4.1_p20250814 13.5.9999 14.3.0 14.3.1_p20250801 14.3.1_p20250808 14.3.1_p20250815 14.4.9999 15.2.0 15.2.1_p20250809 15.2.1_p20250816 15.3.9999 16.0.0_p20250803 16.0.0_p20250810 16.0.0_p20250817 16.0.0_p20250817-r1 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1: GNU locale utilities
