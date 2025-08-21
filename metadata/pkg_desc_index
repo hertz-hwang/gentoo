@@ -1772,7 +1772,7 @@ app-doc/phrack 01 02 03 04 05 06 07 08 09 10-r1 11-r1 12-r1 13-r1 14-r1 15-r1 16
 app-doc/phrack-all 71: Hacker magazine by the community, for the community (all issues)
 app-doc/pms 7_p20180430-r2 8_p20210613-r1 9999: Gentoo Package Manager Specification (draft)
 app-doc/pms-bin 7_p20180430 8_p20210613-r1: Gentoo Package Manager Specification
-app-doc/python-docs 2.7.18 3.8.20 3.9.23 3.10.18 3.11.13 3.12.11 3.13.5 3.13.6 3.13.7: HTML documentation for Python
+app-doc/python-docs 2.7.18 3.8.20 3.9.23 3.10.18 3.11.13 3.12.11 3.13.5 3.13.7: HTML documentation for Python
 app-doc/s6-linux-init-man-pages 1.1.2.0.1 1.1.2.1.1: mdoc port of the HTML documentation for the s6-linux-init suite
 app-doc/s6-man-pages 2.13.0.0.1 2.13.1.0.1: mdoc port of the HTML documentation for the s6 suite
 app-doc/s6-networking-man-pages 2.7.0.3.1 2.7.0.4.1: mdoc port of the HTML documentation for the s6 suite
@@ -2858,7 +2858,6 @@ app-misc/perltrash 0.3-r2: Command-line trash can emulation
 app-misc/pet 0.4.0: Simple command-line snippet manager
 app-misc/pfm 2.12.3-r1: Terminal-based file manager written in Perl
 app-misc/physlock 13-r3: Lightweight Linux console locking tool
-app-misc/pip 1.2-r3: Wrapper around programs that don't support stdin/stdout
 app-misc/piper 0.7-r1 0.8 9999: GTK application to configure gaming devices
 app-misc/pipeworks 0.4-r2: Small utility that measures throughput between stdin and stdout
 app-misc/plod 1.9-r3: Tool to help administrators keep track of daily activities
@@ -5224,7 +5223,7 @@ dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.20 3.11.7.3.20_p2: A fast, compliant alternative implementation of the Python (3.11) language
 dev-lang/pypy3-exe 3.11.7.3.20: PyPy3.11 executable (build from source)
 dev-lang/pypy3-exe-bin 3.11.7.3.20: PyPy3.11 executable (pre-built version)
-dev-lang/python 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.6_p1 0.3.13.7 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.0_rc2 0.3.14.9999 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.23-r1 3.9.23_p2 3.9.9999 3.10.18-r1 3.10.18_p2 3.10.9999 3.11.13-r1 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.6_p1 3.13.7 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.0_rc2 3.14.9999 3.15.9999: An interpreted, interactive, object-oriented programming language
+dev-lang/python 0.3.13.5 0.3.13.5_p1 0.3.13.7 0.3.13.9999 0.3.14.0_rc2 0.3.14.9999 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.23-r1 3.9.23_p2 3.9.9999 3.10.18-r1 3.10.18_p2 3.10.9999 3.11.13-r1 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.7 3.13.9999 3.14.0_rc2 3.14.9999 3.15.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
 dev-lang/qore 1.19.2: Qore, the embeddable multithreaded scripting language
@@ -8205,7 +8204,7 @@ dev-python/clang 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.7 20.1.8 21.1.0_rc2 21.
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.6.0 2.7.0 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0: Python library for better command line interfaces
-dev-python/click 8.2.1 8.2.2: A Python package for creating beautiful command line interfaces
+dev-python/click 8.2.1: A Python package for creating beautiful command line interfaces
 dev-python/click-default-group 1.2.4: Extends click.Group to invoke a command without explicit subcommand name
 dev-python/click-didyoumean 0.3.1: Enable git-like did-you-mean feature in click
 dev-python/click-help-colors 0.9.4: Colorization of help messages in Click
@@ -8359,7 +8358,6 @@ dev-python/enrich 1.2.7-r1: Extend rich functionality
 dev-python/ensurepip-pip 25.1.1-r1 25.2: Shared pip wheel for ensurepip Python module
 dev-python/ensurepip-setuptools 79.0.1 80.9.0-r1: Shared setuptools wheel for ensurepip Python module
 dev-python/ensurepip-wheel 0.45.1-r1: Shared wheel wheel for use in pip tests
-dev-python/ensurepip-wheels 100: Shared wheels for ensurepip Python module
 dev-python/entrypoint2 1.1: Easy to use command-line interface for python modules
 dev-python/entrypoints 0.4: Discover and load entry points from installed packages
 dev-python/environs 14.2.0 14.3.0: Python library for simplified environment variable parsing
@@ -8746,7 +8744,6 @@ dev-python/minimock 1.3.0-r1: The simplest possible mock library
 dev-python/miniupnpc 2.3.3: Python bindings for UPnP client library
 dev-python/mistletoe 1.4.0: A fast, extensible Markdown parser in pure Python
 dev-python/mistune 3.1.3: The fastest markdown parser in pure Python
-dev-python/mitmproxy-wireguard 0.1.20-r1: WireGuard frontend for mitmproxy
 dev-python/mkautodoc 0.2.0: Auto documentation for MkDocs
 dev-python/mkdocs 1.6.0 1.6.1: Project documentation with Markdown
 dev-python/mkdocs-autorefs 1.4.1 1.4.2: Automatically link across pages in MkDoc
@@ -9107,8 +9104,6 @@ dev-python/pyproject-metadata 0.9.1: PEP 621 metadata parsing
 dev-python/pypugjs 5.12.0: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
 dev-python/pypy-exe 7.3.20: PyPy executable (build from source)
 dev-python/pypy-exe-bin 7.3.20: PyPy executable (pre-built version)
-dev-python/pypy3_10-exe 7.3.19: PyPy3.10 executable (build from source)
-dev-python/pypy3_10-exe-bin 7.3.19: PyPy3.10 executable (pre-built version)
 dev-python/pyqt-builder 1.18.2: The PEP 517 compliant PyQt build system
 dev-python/pyqt5 5.15.11: Python bindings for the Qt framework
 dev-python/pyqt5-sip 12.17.0: sip extension module for PyQt5
@@ -9263,7 +9258,7 @@ dev-python/python-stdnum 2.1: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.4: A streaming protocol for test results
 dev-python/python-swiftclient 4.8.0: Python bindings to the OpenStack Object Storage API
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
-dev-python/python-tests 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.6_p1 0.3.13.7 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.0_rc2 0.3.14.9999 3.11.13 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.6_p1 3.13.7 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.0_rc2 3.14.9999: Test modules from dev-lang/python
+dev-python/python-tests 0.3.13.5 0.3.13.5_p1 0.3.13.7 0.3.13.9999 0.3.14.0_rc2 0.3.14.9999 3.11.13 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.7 3.13.9999 3.14.0_rc2 3.14.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.8.2-r1: Fuzzy matching library - C++ extension for Python
 dev-python/python-utils 3.9.1: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
@@ -9418,7 +9413,7 @@ dev-python/setuptools 79.0.1 80.9.0-r1: Collection of extensions to Distutils
 dev-python/setuptools-gettext 0.1.14: Setuptools plugin for building mo files
 dev-python/setuptools-git 1.2-r3: Setuptools revision control system plugin for Git
 dev-python/setuptools-rust 1.11.1: A plugin for setuptools to build Rust Python extensions
-dev-python/setuptools-scm 8.3.1 9.0.0 9.0.3 9.1.1 9.2.0: Manage versions by scm tags via setuptools
+dev-python/setuptools-scm 8.3.1 9.2.0: Manage versions by scm tags via setuptools
 dev-python/sexpdata 1.0.2: a simple S-expression parser/serializer
 dev-python/sgmllib3k 1.0.0-r1: Py3k port of sgmllib
 dev-python/sh 2.2.2: Python subprocess interface
@@ -9615,7 +9610,7 @@ dev-python/txredisapi 1.4.11: Non-blocking redis client for python
 dev-python/txrequests 0.9.6-r1: Asynchronous Python HTTP for Humans
 dev-python/txtorcon 23.11.0 24.8.0-r1: Twisted-based Tor controller client, with state-tracking abstractions
 dev-python/typeguard 4.4.4: Run-time type checker for Python
-dev-python/typer 0.16.0: Build great CLIs. Easy to code. Based on Python type hints
+dev-python/typer 0.16.0 0.16.1: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.21.0.20250722 0.21.0.20250728 0.21.0.20250809 0.22.0.20250814: Typing stubs for docutils
 dev-python/types-gdb 15.0.0.20250713 15.0.0.20250801 15.0.0.20250809 16.3.0.20250812: Typing stubs for gdb
 dev-python/types-psutil 7.0.0.20250601 7.0.0.20250801: Typing stubs for psutil
@@ -11049,7 +11044,6 @@ dev-util/vint 0.3.21-r1: Lint tool for Vim script language
 dev-util/visual-regexp 3.0-r1 3.1: Type the regexp and visualize it on a sample of your choice
 dev-util/visualvm 2.2: Integrates commandline JDK tools and profiling capabilities
 dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagnostics and control
-dev-util/volk 1.4.313.0 9999: Meta loader for Vulkan API
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
 dev-util/vulkan-headers 1.4.313.0 1.4.321.0-r1 9999: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.313.0 1.4.313.0-r1 1.4.321.0 1.4.321.0-r1 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
@@ -17664,7 +17658,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r1: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r2 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.240 5.15.189 6.1.147 6.1.148 6.6.101 6.6.102 6.12.41 6.12.42 6.12.43 6.15.9-r1 6.15.10 6.15.11 6.16.1 6.16.2: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.240 5.15.189 6.1.147 6.1.148 6.6.101 6.6.102 6.12.41 6.12.42 6.12.43 6.15.9-r1 6.15.10 6.15.11 6.16.1 6.16.2: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.233 5.10.237 5.10.238 5.10.239 5.10.240 5.15.177 5.15.184 5.15.185 5.15.186 5.15.187 5.15.188 5.15.189 6.1.132 6.1.140 6.1.141 6.1.142 6.1.143 6.1.144 6.1.145 6.1.146 6.1.147 6.1.148 6.6.85 6.6.92 6.6.93 6.6.94 6.6.95 6.6.96 6.6.97 6.6.98 6.6.99 6.6.100 6.6.101 6.6.102 6.12.21 6.12.31 6.12.33 6.12.34 6.12.35 6.12.36 6.12.37 6.12.38 6.12.39 6.12.40 6.12.41 6.12.42 6.15.1 6.15.2 6.15.3 6.15.4 6.15.5 6.15.6 6.15.7 6.15.8 6.15.9 6.15.9-r1 6.15.10 6.16.0 6.16.1: Full sources including the Gentoo patchset for the 6.16 kernel tree
+sys-kernel/gentoo-sources 5.10.233 5.10.237 5.10.238 5.10.239 5.10.240 5.15.177 5.15.184 5.15.185 5.15.186 5.15.187 5.15.188 5.15.189 6.1.132 6.1.140 6.1.141 6.1.142 6.1.143 6.1.144 6.1.145 6.1.146 6.1.147 6.1.148 6.6.85 6.6.92 6.6.93 6.6.94 6.6.95 6.6.96 6.6.97 6.6.98 6.6.99 6.6.100 6.6.101 6.6.102 6.12.21 6.12.31 6.12.33 6.12.34 6.12.35 6.12.36 6.12.37 6.12.38 6.12.39 6.12.40 6.12.41 6.12.42 6.12.43 6.15.1 6.15.2 6.15.3 6.15.4 6.15.5 6.15.6 6.15.7 6.15.8 6.15.9 6.15.9-r1 6.15.10 6.15.11 6.16.0 6.16.1 6.16.2: Full sources including the Gentoo patchset for the 6.16 kernel tree
 sys-kernel/git-sources 6.17_rc1 6.17_rc2: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 50 60 62 63: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
@@ -18048,7 +18042,7 @@ www-apps/bugzilla 5.0.6-r1 5.0.6-r2: Bugzilla is the Bug-Tracking System from th
 www-apps/cgisysinfo 0.4.1: A small cgi utility to show basic system information
 www-apps/cgit 1.2.3_p20240802 1.2.3_p20240802-r1 9999 9999-r1: A fast web-interface for Git repositories
 www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD collected by collectd
-www-apps/chromedriver-bin 139.0.7258.127: WebDriver for Chrome
+www-apps/chromedriver-bin 139.0.7258.138: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20240206b 20250514a: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
@@ -18117,7 +18111,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 10.1 17.1: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 138.0.7204.157 138.0.7204.168 138.0.7204.183 139.0.7258.66 139.0.7258.127 140.0.7312.0: Open-source version of Google Chrome web browser
+www-client/chromium 138.0.7204.157 138.0.7204.168 138.0.7204.183 139.0.7258.66 139.0.7258.127 139.0.7258.138 140.0.7312.0: Open-source version of Google Chrome web browser
 www-client/dillo 3.1.1-r3 9999: Lean FLTK based web browser
 www-client/elinks 0.17.1.1 0.18.0 9999: Advanced and well-established text-mode web browser
 www-client/epiphany 47.7-r1 48.3 48.5: GNOME webbrowser based on Webkit
@@ -18125,22 +18119,22 @@ www-client/falkon 25.04.3 25.08.0: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 128.13.0 128.14.0 140.0.4 140.1.0 140.2.0 141.0 141.0.2 141.0.3 142.0: Firefox Web Browser
 www-client/firefox-bin 128.13.0 128.14.0 140.0.4 140.1.0 140.2.0 141.0 141.0.2 141.0.3 142.0: Firefox Web Browser
-www-client/google-chrome 139.0.7258.127: The web browser from Google
-www-client/google-chrome-beta 140.0.7339.16: The web browser from Google
-www-client/google-chrome-unstable 141.0.7340.0: The web browser from Google
+www-client/google-chrome 139.0.7258.138: The web browser from Google
+www-client/google-chrome-beta 140.0.7339.24: The web browser from Google
+www-client/google-chrome-unstable 141.0.7354.0: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
 www-client/links 2.29-r1 2.30: A fast and lightweight web browser running in both graphics and text mode
 www-client/luakit 2.3.6: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
-www-client/microsoft-edge 139.0.3405.86: The web browser from Microsoft
-www-client/microsoft-edge-beta 139.0.3405.73 139.0.3405.83 139.0.3405.86: The web browser from Microsoft
-www-client/microsoft-edge-dev 140.0.3456.0 140.0.3471.0 140.0.3485.6: The web browser from Microsoft
+www-client/microsoft-edge 139.0.3405.102: The web browser from Microsoft
+www-client/microsoft-edge-beta 139.0.3405.86 140.0.3485.11 140.0.3485.14: The web browser from Microsoft
+www-client/microsoft-edge-dev 140.0.3471.0 140.0.3485.6 141.0.3500.1: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11-r1 9999: A free, open source web browser
 www-client/opera 120.0.5543.161: A fast and secure web browser
-www-client/opera-beta 120.0.5543.53 121.0.5600.3 121.0.5600.12: A fast and secure web browser
-www-client/opera-developer 122.0.5608.0 122.0.5615.0 122.0.5621.0: A fast and secure web browser
+www-client/opera-beta 121.0.5600.3 121.0.5600.12 121.0.5600.20: A fast and secure web browser
+www-client/opera-developer 122.0.5615.0 122.0.5621.0 122.0.5629.0: A fast and secure web browser
 www-client/pybugz 0.14 9999: Command line interface to (Gentoo) Bugzilla
 www-client/qutebrowser 3.5.1 9999: Keyboard-driven, vim-like browser based on Python and Qt
 www-client/seamonkey 2.53.20 2.53.21: Seamonkey Web Browser
@@ -18186,7 +18180,7 @@ www-nginx/ngx-vod 1.33: NGINX-based MP4 Repackager
 www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
 www-plugins/browserpass 3.1.0: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 139.0.7258.127 140.0.7339.16_beta 141.0.7340.0_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 139.0.7258.138 140.0.7339.24_beta 141.0.7354.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.8.7-r1 0.9.0: High performance flash player
 www-plugins/passff-host 1.2.4: Host app for the PassFF WebExtension
 www-plugins/pdfjs 4.5.136 4.9.155 4.10.38 5.0.375: A PDF reader in JavaScript
