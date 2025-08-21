@@ -14733,7 +14733,7 @@ net-firewall/psad 2.4.6-r1: Port Scanning Attack Detection daemon
 net-firewall/rtsp-conntrack 5.3-r2: RTSP conntrack module for Netfilter
 net-firewall/shorewall 5.2.8-r2: A high-level tool for configuring Netfilter
 net-firewall/ufw 0.36.1-r3 0.36.2: A program used to manage a netfilter firewall
-net-firewall/xtables-addons 3.27 3.28: iptables extensions not yet accepted in the main kernel
+net-firewall/xtables-addons 3.27 3.28 3.29: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.9-r2: Kernel based automounter
 net-fs/btfs 2.24: Bittorrent filesystem based on FUSE
 net-fs/cifs-utils 7.0-r1 7.3 7.4: Tools for Managing Linux CIFS Client Filesystems
@@ -14802,7 +14802,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.1.1-r1 1.2.0 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.2-r1 0.13.9: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 7.66.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 7.67.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.44.65 4.45.60 4.45.64: Team collaboration tool
 net-im/spectrum2 2.2.1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -15249,7 +15249,7 @@ net-misc/jlj 2.12-r1: Simple console LiveJournal entry system
 net-misc/jwhois 4.0-r2: Advanced Internet Whois client capable of recursive queries
 net-misc/kafka-bin 3.9.1 4.0.0: A high-throughput distributed messaging system
 net-misc/kafkacat 1.7.1: Generic command line non-JVM Apache Kafka producer and consumer
-net-misc/kea 2.6.3 2.6.4: High-performance production grade DHCPv4 & DHCPv6 server
+net-misc/kea 2.6.3 2.6.4 3.0.0 9999: High-performance production grade DHCPv4 & DHCPv6 server
 net-misc/keychain 2.8.5-r1 2.8.5-r2: Agent manager for OpenSSH, ssh.com, Sun SSH, and GnuPG
 net-misc/kio-zeroconf 25.04.3 25.08.0: KIO worker to discover file systems by DNS-SD (DNS Service Discovery)
 net-misc/knock 0.8: Simple port-knocking daemon
@@ -17683,7 +17683,7 @@ sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15
 sys-kernel/scx 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14 1.0.15: sched_ext schedulers and tools
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.240 5.10.9999 5.15.189 5.15.9999 6.1.147 6.1.148 6.1.9999 6.6.101 6.6.102 6.6.9999 6.12.41 6.12.42 6.12.9999 6.15.9 6.15.10 6.16.1: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 5.4.296 5.10.240 5.15.189 6.1.148 6.6.102 6.12.42 6.15.10 6.16.1: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 5.4.296 5.10.240 5.15.189 6.1.148 6.6.102 6.12.43 6.15.11 6.16.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.33 1.36: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.13.8: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
