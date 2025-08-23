@@ -15441,7 +15441,7 @@ net-misc/xmrig 6.21.1 6.21.3 6.22.0 6.22.1 6.22.2 6.22.3 6.23.0 6.24.0 9999: Ran
 net-misc/yandex-disk 0.1.6.1080_p1: CLI to access Yandex Disk file storage service
 net-misc/you-get 0.4.1650-r1 0.4.1700: Utility to download media contents from the web
 net-misc/youtube-viewer 3.11.2-r1 3.11.3-r1 9999: A command line utility for viewing youtube-videos in Mplayer
-net-misc/yt-dlp 2025.08.11 2025.08.20 9999: youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2025.08.11 2025.08.20 2025.08.22 9999: youtube-dl fork with additional features and fixes
 net-misc/ytfzf 2.6.2: Posix script to find and watch youtube videos from the terminal
 net-misc/ytmdl 2024.08.15.1-r1: Simple app to get songs from youtube in mp3 format
 net-misc/zerotier 1.14.2-r1 1.14.2-r2: A software-based managed Ethernet switch for planet Earth
@@ -17078,7 +17078,7 @@ sys-apps/likwid 4.3.4 5.2.1 5.2.2: A performance-oriented tool suite for x86 mul
 sys-apps/linux-misc-apps 5.8-r1: Misc tools bundled with kernel sources
 sys-apps/lm-sensors 3.6.2: Hardware Monitoring user-space utilities
 sys-apps/lnxhc 1.2-r2: Linux Health Checker
-sys-apps/locale-gen 2.23-r1 3.2-r1 3.3-r1 9999: Generate locales based upon the config file /etc/locale.gen
+sys-apps/locale-gen 2.23-r1 3.2-r1 3.3-r1 3.4 9999: Generate locales based upon the config file /etc/locale.gen
 sys-apps/logwatch 7.12 7.13 9999: Analyzes and Reports on system logs
 sys-apps/lsadb 0.1.3-r1: Prints out information on all devices attached to the ADB bus
 sys-apps/lsb-release 1.4-r4 3.2 3.3: LSB version query program
@@ -17473,7 +17473,7 @@ sys-devel/distcc 3.4-r4 3.4-r6: Distribute compilation of C code across several 
 sys-devel/dwz 0.15-r5 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250807 13.4.1_p20250814 13.4.1_p20250821 13.5.9999 14.3.0 14.3.1_p20250801 14.3.1_p20250808 14.3.1_p20250815 14.4.9999 15.2.0 15.2.1_p20250809 15.2.1_p20250816 15.3.9999 16.0.0_p20250803 16.0.0_p20250810 16.0.0_p20250817 16.0.0_p20250817-r1 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250807 13.4.1_p20250814 13.4.1_p20250821 13.5.9999 14.3.0 14.3.1_p20250801 14.3.1_p20250808 14.3.1_p20250815 14.3.1_p20250822 14.4.9999 15.2.0 15.2.1_p20250809 15.2.1_p20250816 15.3.9999 16.0.0_p20250803 16.0.0_p20250810 16.0.0_p20250817 16.0.0_p20250817-r1 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.12.1 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1: GNU locale utilities
