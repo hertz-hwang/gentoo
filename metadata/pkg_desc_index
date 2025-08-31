@@ -1232,7 +1232,7 @@ app-backup/bareos 21.1.11 22.1.7 23.1.3-r1 23.1.4 24.0.3 24.0.4 9999: Featureful
 app-backup/borgbackup 1.4.1-r1: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 2.0.7: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
-app-backup/burp 3.1.4: Network backup and restore client and server for Unix and Windows
+app-backup/burp 3.1.4 3.1.4-r1: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r2 2.10: Pseudo incremental backup with different exclude lists using hardlinks and rsync
 app-backup/cdbackup 0.7.1-r2: Allows streaming backup utilities to dump/restore from CD-R(W)s or DVD(+/-RW)s
 app-backup/cdbkup 1.0-r5: Performs full/incremental backups of local/remote filesystems onto CD-R(W)s
@@ -14991,7 +14991,7 @@ net-libs/net6 1.3.14-r2: Network access framework for IPv4/IPv6 written in C++
 net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP protocols
 net-libs/nghttp2 1.65.0-r2 1.66.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 9999: HTTP/3 library written in C
-net-libs/ngtcp2 1.11.0 1.11.0-r1 1.12.0 1.13.0 1.14.0 1.15.0 9999: Implementation of the IETF QUIC Protocol
+net-libs/ngtcp2 1.11.0 1.11.0-r1 1.12.0 1.13.0 1.14.0 1.15.0 1.15.1 9999: Implementation of the IETF QUIC Protocol
 net-libs/nodejs 20.18.2 20.19.2 22.13.1 22.16.0 24.1.0 24.2.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5: Library to parse proxy auto-config files
@@ -18063,7 +18063,7 @@ www-apps/jellyfin-bin 10.10.7 10.11.0_rc5: Jellyfin puts you in control of manag
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
-www-apps/lidarr-bin 2.14.0.4694: Looks and smells like Sonarr but made for music
+www-apps/lidarr-bin 2.14.1.4714: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
 www-apps/mediawiki 1.39.12 1.39.13 1.43.1 1.43.3 1.44.0: The MediaWiki wiki web application (as used on wikipedia.org)
