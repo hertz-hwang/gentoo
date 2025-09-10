@@ -979,7 +979,7 @@ app-admin/hardinfo 0.6_alpha_pre20240320: System information and benchmark tool 
 app-admin/haskell-updater 1.3.2-r1 1.3.3 1.4.0.0 1.4.1.0 9999: Rebuild Haskell dependencies in Gentoo
 app-admin/hcloud 1.51.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
-app-admin/helm 3.13.2 3.15.2 3.15.4 3.17.1 3.17.2 3.18.6: Kubernetes Package Manager
+app-admin/helm 3.17.2 3.18.6: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
 app-admin/ig 0.44.1: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
@@ -15220,7 +15220,7 @@ net-misc/htpdate 2.0.0 9999: Synchronize local workstation with time offered by 
 net-misc/httpie 3.2.4: Modern command line HTTP client
 net-misc/httpstat 1.3.1-r1: httpstat visualizes cURL statistics in a way of beauty and clarity
 net-misc/httptype 1.3.9-r1: Returns the http host software of a website
-net-misc/hurl 4.1.0-r2 5.0.1-r2 6.1.1-r1 7.0.0: Hurl, run and test HTTP requests
+net-misc/hurl 7.0.0: Hurl, run and test HTTP requests
 net-misc/hylafaxplus 7.0.6-r4: Enterprise client-server fax package for class 1 and 2 fax modems
 net-misc/iaxmodem 1.3.3: Software modem that uses an IAX channel instead of a traditional phone line
 net-misc/icaclient 24.2.0.65-r1 24.11.0.85-r1: ICA Client for Citrix Presentation servers
@@ -15384,7 +15384,7 @@ net-misc/spiped 1.6.4: secure pipe daemon
 net-misc/ssh-askpass-fullscreen 1.2: A small SSH Askpass replacement written with GTK2
 net-misc/sshpass 1.10: Tool for non-interactively performing password authentication with ssh
 net-misc/sshrc 0.6.2: Bring your .bashrc, .vimrc, etc. from your local machine when you ssh
-net-misc/sslh 2.1.4 2.2.4 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
+net-misc/sslh 2.1.4 2.3.0 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-misc/streamlink 7.5.0 7.6.0 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet radio streams
@@ -17094,7 +17094,7 @@ sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20240905 1.3.4_p20250131: An (often faster than gawk) awk-interpreter
 sys-apps/mcstrans 3.6 3.7-r1 3.8.1 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00 7.20: Memory tester based on PCMemTest
-sys-apps/memtest86-bin 11.3: Stand alone memory testing software for x86 EFI hardware
+sys-apps/memtest86-bin 11.4: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.6.0 4.7.1: Userspace utility for testing the memory subsystem for faults
 sys-apps/merge-usr 6: Script to migrate from split-usr to merged-usr
 sys-apps/miller 5.10.2: A tool like sed, awk, cut, join, and sort for name-indexed data (CSV, JSON, ..)
