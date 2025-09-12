@@ -14952,7 +14952,7 @@ net-libs/libnxml 0.18.3-r1: A C-library for parsing and writing XML 1.0/1.1 file
 net-libs/liboauth 1.0.3-r4: C library implementing the OAuth secure authentication protocol
 net-libs/libomemo-c 0.5.1: XMPP fork of Signal Protocol C Library supporting XEP-0384 OMEMO
 net-libs/liboping 1.10.0-r3: Protocol independent ANSI-C ping library and command line utility
-net-libs/libosmo-dsp 0.4.0 9999: Library with SDR DSP primitives
+net-libs/libosmo-dsp 0.5.0 9999: Library with SDR DSP primitives
 net-libs/libotr 4.1.1-r2: (OTR) Messaging allows you to have private conversations over instant messaging
 net-libs/libpcap 1.10.5 9999: A system-independent library for user-level network packet capture
 net-libs/libpcapnav 0.8-r2: Libpcap wrapper library to navigate to arbitrary packets in a tcpdump trace file
@@ -14986,7 +14986,7 @@ net-libs/libupnpp 1.0.2 1.0.3: The libupnpp C++ library wraps libupnp for easier
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
 net-libs/libwebsockets 4.4.1: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
-net-libs/liquid-dsp 1.3.2 1.6.0 9999: digital signal processing library for software-defined radios
+net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.2.1: Port of http_parser to llparse
 net-libs/loudmouth 1.5.4: Lightweight C Jabber library
 net-libs/mbedtls 2.28.9-r1 2.28.10 3.6.4: Cryptographic library for embedded systems
