@@ -10739,7 +10739,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.4 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 9999: Tool to extract code content from source files
-dev-util/claude-code 1.0.117: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 1.0.119: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2-r1: A complete toolset for C and C++ development
@@ -11549,7 +11549,7 @@ games-fps/ut2004-bonuspack-ece 1-r4: UT2004 Editor's Choice Edition - Editor's C
 games-fps/ut2004-bonuspack-mega 1-r3: UT2004 Megapack - Megapack bonus pack
 games-fps/ut2004-data 3186-r5: Unreal Tournament 2004 - This is the data portion of UT2004
 games-fps/ut2004-demo 3334-r3: Demo for the critically-acclaimed first-person shooter
-games-fps/worldofpadman 1.6-r4: Cartoon style multiplayer first-person shooter
+games-fps/worldofpadman 1.6-r4 1.7.0: Cartoon style multiplayer first-person shooter
 games-fps/xonotic 0.8.6: Fork of Nexuiz, Deathmatch FPS based on DarkPlaces, an advanced Quake 1 engine
 games-fps/yamagi-quake2 8.41 8.51: Quake 2 engine focused on single player
 games-kids/gcompris 25.1.1: Full featured educational application for children from 2 to 10
