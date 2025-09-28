@@ -12066,7 +12066,7 @@ gui-apps/lavalauncher 2.1.1 9999: Simple launcher for wayland
 gui-apps/liquidshell 1.10.0: Basic desktop shell using QtWidgets
 gui-apps/mako 1.8.0 1.9.0 1.10.0 9999: A lightweight notification daemon for Wayland. Works on Sway
 gui-apps/nm-tray 0.5.1: A simple Qt-based NetworkManager front-end
-gui-apps/qt6ct 0.10: Qt6 Configuration Tool (for DE/WM without Qt integration)
+gui-apps/qt6ct 0.10 0.11: Qt6 Configuration Tool (for DE/WM without Qt integration)
 gui-apps/railway 2.8.2: Travel with all your train information in one place
 gui-apps/slurp 1.5.0: Select a region in a Wayland compositor and print it to the standard output
 gui-apps/swappy 1.5.1 9999: A Wayland native snapshot and editor tool, inspired by Snappy on macOS
@@ -15585,7 +15585,7 @@ net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.0.4 6.1.1: A reliable, low-latency, and anti-censorship virtual private network
 net-vpn/cloudflared 2025.8.1 2025.9.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
-net-vpn/derper 1.82.5 1.84.3: DERP server for tailscale network
+net-vpn/derper 1.84.3 1.86.5: DERP server for tailscale network
 net-vpn/eduvpn-client 4.4.0-r1 4.5.0-r1 4.5.1 9999: Linux client and Python client API for eduVPN
 net-vpn/eduvpn-common 2.1.0 3.0.0: Linux client and Python client API for eduVPN
 net-vpn/fp-multiuser 0.0.2: A frp server plugin to support multiple users for frp
@@ -18585,7 +18585,7 @@ x11-misc/sunflower 0.5-r3: Small and highly customizable twin-panel file manager
 x11-misc/sux 1.0.1: "su" wrapper which transfers X credentials
 x11-misc/svkbd 0.2.1-r1 0.4.2: Simple Virtual Keyboard
 x11-misc/sxcs 0.7.3 1.0.0 1.1.0: Color picker and magnifier for X11
-x11-misc/sxhkd 0.6.2-r1: Simple X hotkey daemon
+x11-misc/sxhkd 0.6.2-r1 0.6.3: Simple X hotkey daemon
 x11-misc/tabbed 0.8-r1 0.9: Simple generic tabbed fronted to xembed aware applications
 x11-misc/tdrop 0.5.0 9999: WM-Independent Dropdown Creator
 x11-misc/tint2 17.0.2 17.1.3: Lightweight panel/taskbar for Linux
