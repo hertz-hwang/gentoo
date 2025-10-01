@@ -16303,7 +16303,7 @@ sci-mathematics/giac 1.9.0.995-r2: A free C++ Computer Algebra System library an
 sci-mathematics/gimps 30.8.15 30.8.17 30.19.14 30.19.20: The Great Internet Mersenne Prime Search
 sci-mathematics/ginac 1.8.9: C++ library and tools for symbolic calculations
 sci-mathematics/glpk 5.0-r3: GNU Linear Programming Kit
-sci-mathematics/gmm 5.4.2 5.4.2-r1: Generic C++ template library for sparse, dense and skyline matrices
+sci-mathematics/gmm 5.4.2: Generic C++ template library for sparse, dense and skyline matrices
 sci-mathematics/gmp-ecm 7.0.6-r1: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.12 0.0.14: A GP to C translator
 sci-mathematics/gretl 2021d: Regression, econometrics and time-series library
@@ -18166,7 +18166,7 @@ www-nginx/ngx-upload-progress 0.9.3: An upload progress system for NGINX monitor
 www-nginx/ngx-vod 1.33: NGINX-based MP4 Repackager
 www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
-www-plugins/browserpass 3.1.0: WebExtension host binary for app-admin/pass, a UNIX password manager
+www-plugins/browserpass 3.1.0 3.1.2: WebExtension host binary for app-admin/pass, a UNIX password manager
 www-plugins/chrome-binary-plugins 140.0.7339.207 141.0.7390.37_beta 142.0.7432.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.8.7-r1 0.9.0: High performance flash player
 www-plugins/passff-host 1.2.4: Host app for the PassFF WebExtension
