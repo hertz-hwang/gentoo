@@ -5228,9 +5228,9 @@ dev-lang/rakudo 2025.01 2025.05 2025.06.1: A compiler for the Raku programming l
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
 dev-lang/ruby 3.2.7 3.2.8 3.2.9 3.3.8 3.3.9 3.4.4 3.4.5 3.4.6: An object-oriented scripting language
-dev-lang/rust 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r103 1.83.0-r3 1.84.0-r2 1.84.1-r2 1.85.0-r2 1.85.1-r1 1.86.0-r2 1.87.0-r1 1.88.0 1.89.0 9999: Systems programming language originally developed by Mozilla
-dev-lang/rust-bin 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.0-r2 1.84.1-r2 1.85.0-r1 1.85.1 1.86.0-r1 1.87.0 1.88.0 1.89.0 9999: Systems programming language from Mozilla
-dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.1 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 9999: Common files shared between multiple slots of Rust
+dev-lang/rust 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r103 1.83.0-r3 1.84.0-r2 1.84.1-r2 1.85.0-r2 1.85.1-r1 1.86.0-r2 1.87.0-r1 1.88.0 1.89.0 1.90.0 1.91.0_beta20250928 9999: Systems programming language originally developed by Mozilla
+dev-lang/rust-bin 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.0-r2 1.84.1-r2 1.85.0-r1 1.85.1 1.86.0-r1 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0_beta20250928 9999: Systems programming language from Mozilla
+dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.1 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0_beta20250928 9999: Common files shared between multiple slots of Rust
 dev-lang/sassc 3.6.2: A libsass command line driver
 dev-lang/scala-bin 2.13.9-r1: The Scala Programming Language
 dev-lang/scrapscript 0.1.1 9999: Functional, content-addressable programming language
@@ -10142,7 +10142,7 @@ dev-ruby/net-http 0.6.0: HTTP client api for Ruby
 dev-ruby/net-http-digest_auth 1.4.1-r2: An implementation of RFC 2617 - Digest Access Authentication
 dev-ruby/net-http-persistent 4.0.5 4.0.6: Manages persistent connections using Net::HTTP plus a speed fix for Ruby 1.8
 dev-ruby/net-http-pipeline 1.0.1-r1: An HTTP/1.1 pipelining implementation atop Net::HTTP
-dev-ruby/net-imap 0.4.20 0.4.21 0.4.22 0.5.7 0.5.8 0.5.9 0.5.10: Ruby client api for Internet Message Access Protocol
+dev-ruby/net-imap 0.4.20 0.4.22 0.5.10 0.5.11: Ruby client api for Internet Message Access Protocol
 dev-ruby/net-pop 0.1.2: Ruby client library for POP3
 dev-ruby/net-protocol 0.2.2: The abstruct interface for net-* client
 dev-ruby/net-scp 4.1.0: A pure Ruby implementation of the SCP client protocol
@@ -10163,7 +10163,7 @@ dev-ruby/oauth-tty 1.0.5: OAuth 1.0 TTY Command Line Interface
 dev-ruby/oauth2 1.4.11 2.0.11 2.0.12: Wrapper for the OAuth 2.0 protocol with a similar style to the OAuth gem
 dev-ruby/observer 0.1.2: Implementation of the Observer object-oriented design pattern
 dev-ruby/octokit 10.0.0: Ruby toolkit for the Github API
-dev-ruby/omniauth 2.1.3: A generalized Rack framework for multiple-provider authentication
+dev-ruby/omniauth 2.1.3 2.1.4: A generalized Rack framework for multiple-provider authentication
 dev-ruby/open4 1.3.4-r1: Open3::popen3 with exit status
 dev-ruby/openssl-ccm 1.2.3: OpenSSL CBC-MAC (CCM) ruby gem
 dev-ruby/openssl-cmac 2.0.2: Gem for RFC 4493, 4494, 4615 - The AES-CMAC Algorithm
@@ -10406,7 +10406,7 @@ dev-ruby/term-ansicolor 1.11.2 1.11.3: Small Ruby library that colors strings us
 dev-ruby/terminal-table 3.0.2 4.0.0: Simple, feature rich ascii table generation library
 dev-ruby/test-unit 3.6.7 3.6.8 3.6.9 3.7.0: An xUnit family unit testing framework for Ruby
 dev-ruby/test-unit-rr 1.0.5-r2: RR adapter for Test::Unit
-dev-ruby/test-unit-ruby-core 1.0.6 1.0.7: Additional test assertions for Ruby standard libraries
+dev-ruby/test-unit-ruby-core 1.0.6 1.0.7 1.0.8: Additional test assertions for Ruby standard libraries
 dev-ruby/test_construct 2.0.2-r1: Creates temporary files and directories for testing
 dev-ruby/test_declarative 0.0.6-r1: Simply adds a declarative test method syntax to test/unit
 dev-ruby/text 1.3.1-r1: A collection of text algorithms
@@ -17459,7 +17459,7 @@ sys-devel/nvptx-tools 0_pre20240809 9999: Collection of tools for use with nvptx
 sys-devel/patch 2.7.6-r6 2.7.6-r8 2.8-r1 9999: Utility to apply diffs to files
 sys-devel/qbe 1.1-r1 1.2 9999: Pure-C embeddable compiler backend
 sys-devel/reflex 20241231: This is a variant of the flex fast lexical scanner
-sys-devel/rust-std 1.74.1 1.75.0 1.77.1 1.79.0 1.80.1 1.81.0 1.82.0 1.83.0 1.84.1 1.85.0 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0: Rust standard library, standalone (for crossdev)
+sys-devel/rust-std 1.74.1 1.75.0 1.77.1 1.79.0 1.80.1 1.81.0 1.82.0 1.83.0 1.84.1 1.85.0 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0_beta20250928: Rust standard library, standalone (for crossdev)
 sys-devel/smatch 1.72-r2 1.73-r1 9999: Static analysis tool for C
 sys-devel/sparse 0.6.4-r3 9999: C semantic parser
 sys-fabric/mstflint 4.23.0_p1 4.29.0_p1 4.30.0_p1: Mstflint - an open source version of MFT (Mellanox Firmware Tools)
@@ -17503,7 +17503,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1-r1 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.20.0 1.25.0 1.25.1 1.25.2 1.25.3 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.20.0 1.25.0 1.25.1 1.25.2 1.25.3 1.31.5 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.0 1.18.1: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.12 6.13 6.14 6.15 6.16 6.16.1 6.17 9999: Btrfs filesystem utilities
