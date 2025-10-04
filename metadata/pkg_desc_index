@@ -2415,7 +2415,7 @@ app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet 
 app-emulation/wine-mono 7.4.0 8.1.0 9.1.0 9.3.1 9.4.0 10.0.0 10.1.0 10.2.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.2c 10.0.2d 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 10.0 10.10 10.13 10.14 10.15 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 10.13 10.14 10.15 9999: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 10.13 10.14 10.15 10.16 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102 20250102-r1 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
@@ -2970,7 +2970,7 @@ app-office/auto-multiple-choice 1.6.0: Create and manage multiple choice questio
 app-office/calcurse 4.8.1-r1 4.8.2: A text-based calendar and scheduling application
 app-office/calligra 25.04.2: KDE Office Suite
 app-office/denaro 2024.2.0: A personal finance manager
-app-office/dia 0.97.3-r4: Diagram/flowchart creation program
+app-office/dia 0.97.3-r4 0.98_pre20250913: Diagram/flowchart creation program
 app-office/dia2code 1.0.0-r2: Convert UML diagrams produced with Dia to various source code flavours
 app-office/drawio-desktop-bin 24.7.17 25.0.2 26.2.2: draw.io diagramming and whiteboarding desktop app
 app-office/endeavour 43.0-r1 9999: Personal task manager
@@ -11239,7 +11239,7 @@ games-arcade/barbarian-bin 1.01-r3: Save Princess Mariana through one-on-one bat
 games-arcade/batrachians 0.2.0: Fly-eating frog video game
 games-arcade/berusky 1.7.1-r2: Free logic game based on an ancient puzzle named Sokoban
 games-arcade/betna 0.9.7-r1: Defend your volcano from the attacking ants by firing rocks/bullets at them
-games-arcade/blobby 1.0-r1: Beach ball game with blobs of goo
+games-arcade/blobby 1.1.1: Beach ball game with blobs of goo
 games-arcade/blobwars 2.00-r2: Platform game about a blob and his quest to rescue MIAs from an alien invader
 games-arcade/blockrage 0.2.3-r1: Falling-blocks arcade game with a 2-player hotseat mode
 games-arcade/bomns 0.99.2-r2: Fast-paced multiplayer deathmatch arcade game
@@ -11460,7 +11460,7 @@ games-emulation/pcsx2 2.4.0-r1 9999: PlayStation 2 emulator
 games-emulation/pcsx2_patches 0_p20241020 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
 games-emulation/ppsspp 1.19.3: A PSP emulator written in C++
 games-emulation/prosystem-jg 1.5.3 9999: Jolly Good Fork of ProSystem
-games-emulation/rmg 0.7.8 0.7.9 9999: Rosalie's Mupen GUI
+games-emulation/rmg 0.7.9 0.8.3 9999: Rosalie's Mupen GUI
 games-emulation/sameboy-jg 1.0.1 1.0.2 9999: Jolly Good Port of SameBoy
 games-emulation/snes9x 1.63: Super Nintendo Entertainment System (SNES) emulator
 games-emulation/stella 7.0: Multi-platform Atari 2600 VCS Emulator
@@ -18302,7 +18302,7 @@ x11-base/xorg-proto 2024.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.18 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.8 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.261.03 535.274.02 570.123.19 570.190 570.195.03 575.64.05 580.82.09 580.95.05: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.261.03 535.274.02 570.190 570.195.03 575.64.05 580.82.09 580.94.02 580.95.05: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
