@@ -929,7 +929,7 @@ app-admin/cli53 0.8.18: A command-line tool for Amazon Route 53
 app-admin/clog 1.3.0-r1: clog is a colorized log tail utility
 app-admin/clsync 0.4.5 9999: Live sync tool based on inotify, written in GNU C
 app-admin/clustershell 1.9.3: Python framework for efficient cluster administration
-app-admin/conky 1.22.1-r1 1.22.2: An advanced, highly configurable system monitor for X
+app-admin/conky 1.22.2: An advanced, highly configurable system monitor for X
 app-admin/conserver 8.2.6-r3 8.2.7_p20250129: Serial Console Manager
 app-admin/consul 1.18.1 1.18.2 1.19.1 1.20.1 1.20.2 1.20.4: A tool for service discovery, monitoring and configuration
 app-admin/consul-replicate 0.4.0_p20211027: Consul cross-DC KV replication daemon
@@ -1290,7 +1290,7 @@ app-benchmarks/pmbw 0.6.3: Parallel Memory Bandwidth Measurement / Benchmark Too
 app-benchmarks/ramspeed 3.5.0-r2: Benchmarking for memory and cache
 app-benchmarks/siege 4.1.7: HTTP regression testing and benchmarking utility
 app-benchmarks/stress 1.0.7: A deliberately simple workload generator for POSIX systems
-app-benchmarks/stress-ng 0.19.04: Stress test for a computer system with various selectable ways
+app-benchmarks/stress-ng 0.19.05: Stress test for a computer system with various selectable ways
 app-benchmarks/sysbench 1.0.20-r101: A scriptable multi-threaded benchmark tool based on LuaJIT
 app-benchmarks/tiobench 0.5.0: Portable, robust, fully-threaded I/O benchmark program
 app-benchmarks/wrk 4.2.0: A HTTP benchmarking tool
@@ -1854,8 +1854,8 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r1 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.103.2 1.104.0 1.104.1 1.104.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.103.25610 1.104.16282: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscode 1.103.2 1.104.2 1.104.3: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscodium 1.103.25610 1.104.16282 1.104.26450: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.35-r9 21.5.35-r10 21.5.36-r3 21.5.9999: highly customizable open source text editor and application development system
@@ -2332,7 +2332,7 @@ app-emacs/yatex 1.84: Yet Another TeX mode for Emacs
 app-emacs/zenburn 20110907-r1: Zenburn color theme for Emacs
 app-emacs/zenburn-theme 2.8.0: Zenburn color theme for Emacs
 app-emacs/zenirc 2.112-r1: A full-featured scriptable IRC client for the Emacs text editor
-app-emulation/86Box 4.2.1-r2 5.0: Emulator of x86-based machines based on PCem
+app-emulation/86Box 4.2.1-r2 5.0 5.1: Emulator of x86-based machines based on PCem
 app-emulation/aranym 1.1.0-r1: Atari Running on Any Machine, VM running Atari ST/TT/Falcon OS and TOS/GEM apps
 app-emulation/bochs 3.0 9999: LGPL-ed pc emulator
 app-emulation/cloud-init 24.4-r4 25.1 9999: Cloud instance initialisation magic
@@ -2343,7 +2343,7 @@ app-emulation/diskimage-builder 3.32.0 3.33.0 9999: Golden Disk Image builder
 app-emulation/dosemu 1.4.1_pre20130107-r7: DOS Emulator
 app-emulation/dxvk 2.3.1-r1 2.4.1 2.5.3 2.6.2 2.7 2.7.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
-app-emulation/faudio 25.04 25.08 25.09: Accuracy-focused XAudio reimplementation for open platforms
+app-emulation/faudio 25.09 25.10: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/fex-xtajit 2506 2507.1 2509: A wine emulation dll for running x86 application on an arm64 host
 app-emulation/firecracker-bin 1.10.1 1.12.0 1.13.1: Secure and fast microVMs for serverless computing (static build)
 app-emulation/free42 3.1.9 3.3.3 3.3.6 3.3.8: An HP-42S Calculator Simulator
@@ -2498,13 +2498,13 @@ app-i18n/fbterm 1.7_p20190503: Fast terminal emulator for the Linux framebuffer
 app-i18n/fcitx 5.1.12 5.1.14: Fcitx 5 is a generic input method framework
 app-i18n/fcitx-anthy 5.1.6: Japanese Anthy input methods for Fcitx5
 app-i18n/fcitx-chewing 5.1.7 5.1.8: Chewing Wrapper for Fcitx.
-app-i18n/fcitx-chinese-addons 5.1.8-r2 5.1.9: Addons related to Chinese, including IME previous bundled inside fcitx4
-app-i18n/fcitx-configtool 5.1.9 5.1.10: Configuration module for Fcitx
+app-i18n/fcitx-chinese-addons 5.1.9: Addons related to Chinese, including IME previous bundled inside fcitx4
+app-i18n/fcitx-configtool 5.1.10: Configuration module for Fcitx
 app-i18n/fcitx-gtk 5.1.3 5.1.4: Gtk im module for fcitx5 and glib based dbus client library
 app-i18n/fcitx-hangul 5.1.6 5.1.7-r1: Korean Hangul input method for Fcitx
 app-i18n/fcitx-lua 5.0.14 5.0.15-r1: Lua support for fcitx
 app-i18n/fcitx-m17n 5.1.3 5.1.4: m17n-provided input methods for Fcitx5
-app-i18n/fcitx-qt 5.1.9 5.1.10-r1: Qt library and IM module for fcitx5
+app-i18n/fcitx-qt 5.1.10-r1: Qt library and IM module for fcitx5
 app-i18n/fcitx-rime 5.1.10 5.1.11: Chinese RIME input methods for Fcitx
 app-i18n/fcitx-sayura 5.1.3: Fcitx-Sayura is a Sinhala input method for Fcitx input method framework
 app-i18n/fcitx-table-extra 5.1.7 5.1.8: Provides extra table for Fcitx, including Boshiamy, Zhengma, Cangjie, and Quick
@@ -2540,7 +2540,7 @@ app-i18n/kcc 1.0: Kanji code converter
 app-i18n/libcangjie 1.4.0: Library implementing the Cangjie input method
 app-i18n/libchewing 0.5.1-r1 0.10.3: The intelligent phonetic input method library
 app-i18n/libhangul 0.1.0-r1 0.2.0: Library for hangul input method logic, hanja dictionary
-app-i18n/libime 1.1.10 1.1.11-r1: Fcitx5 Next generation of fcitx
+app-i18n/libime 1.1.11-r1: Fcitx5 Next generation of fcitx
 app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin Fuhao
 app-i18n/librime 1.13.1 1.14.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 99999999999999: Lua module for RIME
@@ -3949,7 +3949,7 @@ dev-db/cdb 0.75-r4 0.75-r5: Fast, reliable, simple package for creating and read
 dev-db/citus 12.1.8 12.1.9 13.0.4 13.1.0 13.2.0 9999: Open-source postgresql extension for clustering/multi-node setups
 dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud services
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
-dev-db/dbeaver-bin 25.1.4-r1 25.2.0-r1: Free universal database tool (community edition)
+dev-db/dbeaver-bin 25.2.0-r1 25.2.1: Free universal database tool (community edition)
 dev-db/duckdb 1.3.0 1.3.1 1.3.2 1.4.0: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.12 3.5.15 3.5.17 3.5.18: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
@@ -3974,7 +3974,7 @@ dev-db/mariadb 10.6.22 10.6.23-r1 10.11.13 10.11.14-r1 11.4.7-r1 11.4.8-r1 11.8.
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.30 5.0.31 6.0.22 6.0.25 7.0.18 7.0.23 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
-dev-db/mongodb-compass-bin 1.46.7 1.46.8: GUI for MongoDB
+dev-db/mongodb-compass-bin 1.46.8 1.46.11: GUI for MongoDB
 dev-db/mycli 1.34.2 1.36.0 1.37.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.18.2.7-r1 0.19.3.3 0.20.1.2: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
@@ -5217,7 +5217,7 @@ dev-lang/mono 6.12.0.199-r2 6.14.1: Mono open source ECMA CLI, C# and .NET imple
 dev-lang/mono-basic 4.8-r1: Visual Basic Compiler and Runtime
 dev-lang/mrustc 0.11.2-r1 9999: Mutabah's Rust Compiler
 dev-lang/mujs 1.3.6 1.3.7: An embeddable JavaScript interpreter written in C
-dev-lang/nasm 2.16.03: groovy little assembler
+dev-lang/nasm 2.16.03 3.00: groovy little assembler
 dev-lang/neko 2.4.0-r2: Neko is a high-level dynamically typed programming language
 dev-lang/nelua 20240113 99999999: Statically-typed systems programming language inspired by Lua
 dev-lang/nim 2.2.0 2.2.2 2.2.4: Compiled, garbage-collected systems programming language
@@ -5408,10 +5408,10 @@ dev-libs/immer 0.8.1-r1: Library of persistent and immutable data structures wri
 dev-libs/inih 57-r1 58 59 60 62: inih (INI not invented here) simple .INI file parser
 dev-libs/iniparser 4.2.6: Free stand-alone ini file parsing library
 dev-libs/input-pad 1.0.99_pre20140916-r1: On-screen input pad to send characters with mouse
-dev-libs/intel-compute-runtime 24.35.30872.32-r2 25.31.34666.3 25.35.35096.9: Intel Graphics Compute Runtime for oneAPI Level Zero and OpenCL Driver
-dev-libs/intel-metrics-discovery 1.14.181 1.14.182: A user mode library that provides access to GPU performance data
-dev-libs/intel-metrics-library 1.0.198 1.0.200: User mode driver helper library that provides access to GPU performance counters
-dev-libs/intel-vc-intrinsics 0.23.1 0.23.4: A set of new intrinsics on top of core LLVM IR instructions
+dev-libs/intel-compute-runtime 24.35.30872.32-r2 24.35.30872.36 25.31.34666.3 25.35.35096.9: Intel Graphics Compute Runtime for oneAPI Level Zero and OpenCL Driver
+dev-libs/intel-metrics-discovery 1.14.182: A user mode library that provides access to GPU performance data
+dev-libs/intel-metrics-library 1.0.200: User mode driver helper library that provides access to GPU performance counters
+dev-libs/intel-vc-intrinsics 0.23.4: A set of new intrinsics on top of core LLVM IR instructions
 dev-libs/isa-l 2.31.1-r2: Intelligent Storage Acceleration Library
 dev-libs/isa-l_crypto 2.25.0: Intelligent Storage Acceleration Library - cryptographic components
 dev-libs/isl 0.26 0.27: A library for manipulating integer points bounded by linear constraints
@@ -5439,7 +5439,7 @@ dev-libs/kpublictransport 25.04.3 25.08.1: Library for accessing public transpor
 dev-libs/ktextaddons 1.5.4-r1 1.6.0: Various text handling addons
 dev-libs/kweathercore 25.04.3 25.08.1: Library for retrieval of weather information including forecasts and alerts
 dev-libs/lager 0.1.1-r1: Library to assist value-oriented design
-dev-libs/level-zero 1.24.1 1.24.2: oneAPI Level Zero headers, loader and validation layer
+dev-libs/level-zero 1.24.2 1.24.3: oneAPI Level Zero headers, loader and validation layer
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
 dev-libs/libaio 0.3.113-r1 0.3.113-r2 0.3.113_p8 9999: Asynchronous input/output library that uses the kernels native interface
@@ -5595,7 +5595,7 @@ dev-libs/librelp 1.11.0: An easy to use library for the RELP protocol
 dev-libs/libretls 3.8.1: Port of libtls from LibreSSL to OpenSSL
 dev-libs/librevenge 0.0.5 9999: Helper library for REVerse ENGineered formats filters
 dev-libs/libsass 3.6.5-r1 3.6.6 9999: A C/C++ implementation of a Sass CSS compiler
-dev-libs/libscfg 0.1.1: C library for a simple configuration file format
+dev-libs/libscfg 0.1.1 0.2.0: C library for a simple configuration file format
 dev-libs/libsecp256k1 0.5.1 0.6.0 0.7.0: Optimized C library for EC operations on curve secp256k1
 dev-libs/libserdes 5.4.0-r1 5.4.0-r2: Avro SerializationDeserialization w/ Confluent schema-registry support
 dev-libs/libserialport 0.1.1-r1 0.1.2 0.1.2-r1 9999: Cross platform serial port access library
@@ -5673,7 +5673,7 @@ dev-libs/marisa 0.2.6 9999: Matching Algorithm with Recursively Implemented Stor
 dev-libs/mathjax 2.7.7-r1 3.2.2-r2: JavaScript display engine for LaTeX, MathML and AsciiMath
 dev-libs/md4c 0.5.2: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant.
 dev-libs/mdns 1.4.3: Public domain mDNS/DNS-SD library in C
-dev-libs/metee 6.0.0 6.0.2: Cross-platform access library for Intel CSME HECI interface
+dev-libs/metee 6.0.2: Cross-platform access library for Intel CSME HECI interface
 dev-libs/mimalloc 2.1.9 3.1.5: A compact general purpose allocator with excellent performance
 dev-libs/mimetic 0.9.8: C++ MIME library designed to be easy to use and integrate, fast and efficient
 dev-libs/miniaudio 0.11.15 0.11.21: Single file library for audio playback and capture
@@ -8587,7 +8587,7 @@ dev-python/jaraco-test 5.5.1: Testing support by jaraco
 dev-python/jaraco-text 4.0.0: Text utilities used by other projects by developer jaraco
 dev-python/jaraco-vcs 2.4.1: Facilities for working with VCS repositories
 dev-python/jaraco-versioning 1.1.0: More sophisticated version manipulation (than packaging)
-dev-python/jc 1.25.4 1.25.5: Converts the output of popular command-line tools and file-types to JSON
+dev-python/jc 1.25.5: Converts the output of popular command-line tools and file-types to JSON
 dev-python/jdcal 1.4.1-r1: Julian dates from proleptic Gregorian and Julian calendars
 dev-python/jedi 0.19.2: Autocompletion library for Python
 dev-python/jeepney 0.9.0: Low-level, pure Python DBus protocol wrapper
@@ -8902,7 +8902,7 @@ dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 6.1.1 7.0.0 7.0.1: Inject some useful and sensible default behaviors into setuptools
 dev-python/pbs-installer 2025.08.27 2025.08.28 2025.09.02 2025.09.18: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
-dev-python/pdm 2.25.4-r1 2.25.6 2.25.9: Python package and dependency manager supporting the latest PEP standards
+dev-python/pdm 2.25.9: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.4.5: A PEP 517 backend for PDM that supports PEP 621 metadata
 dev-python/pdoc3 0.11.6: Auto-generate API documentation for Python projects
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
@@ -9021,7 +9021,7 @@ dev-python/pydata-sphinx-theme 0.16.0 0.16.1: Bootstrap-based Sphinx theme from 
 dev-python/pydbus 0.6.0-r1: Pythonic DBus library
 dev-python/pydecomp 0.3-r3 9999: A python library of common (de)compression and contents handling
 dev-python/pydes 2.0.1-r2: Python implementation of DES and TRIPLE DES
-dev-python/pydevd 3.3.0 3.4.1: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
+dev-python/pydevd 3.4.1: PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)
 dev-python/pydiffx 1.1: Python module for reading and writing DiffX files
 dev-python/pydot 4.0.1: Python interface to Graphviz's Dot language
 dev-python/pydyf 0.11.0: A low-level PDF generator
@@ -9627,7 +9627,7 @@ dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinj
 dev-python/tzdata 10001: tzdata shim to satisfy requirements (while using system tzdata)
 dev-python/tzlocal 5.3.1: tzinfo object for the local timezone
 dev-python/u-msgpack-python 2.8.0: A portable, lightweight MessagePack serializer and deserializer
-dev-python/ubelt 1.3.7 1.3.8 1.4.0: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
+dev-python/ubelt 1.4.0: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
 dev-python/uc-micro-py 1.0.3: Micro subset of unicode data files for linkify-it-py projects
 dev-python/ujson 5.10.0 5.11.0: Ultra fast JSON encoder and decoder for Python
 dev-python/ukkonen 1.0.1-r1: Implementation of bounded Levenshtein distance (Ukkonen)
@@ -10876,8 +10876,8 @@ dev-util/idea-community 2025.2: A complete toolset for web, mobile and enterpris
 dev-util/imediff 1.1.2.1 3.4.0: 2-way/3-way merge tool (CLI, Ncurses)
 dev-util/include-what-you-use 0.23-r1 0.24 0.25: Find unused include directives in C/C++ programs
 dev-util/indent 2.2.13: Indent program source files
-dev-util/intel-graphics-compiler 1.0.17791.18-r1 2.16.0 2.19.1: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
-dev-util/intel-graphics-system-controller 0.9.6: Intel graphics system controller firmware update library
+dev-util/intel-graphics-compiler 1.0.17791.18-r1 2.16.0 2.19.1 2.20.1: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
+dev-util/intel-graphics-system-controller 0.9.6 1.0.0: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
 dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
 dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
@@ -10948,7 +10948,7 @@ dev-util/patchutils 0.4.2 0.4.4-r1: Collection of tools that operate on patch fi
 dev-util/patdiff 0.15.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.14 6.16 6.16-r1: Userland tools for Linux Performance Counters
-dev-util/pixi 0.54.2 0.55.0: A package management and workflow tool
+dev-util/pixi 0.55.0: A package management and workflow tool
 dev-util/pkgcheck 0.10.34 0.10.36-r1 0.10.37 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.3.0 2.4.3 2.5.1 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.13 0.0.14 0.0.15 0.0.16 9999: QA library and tools based on pkgcraft
@@ -11017,7 +11017,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.0 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.321.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 15.0.15 16.0.15 17.0.15 18.1.15 19.1.10 20.1.5: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 15.0.15 15.0.17 16.0.15 16.0.17 17.0.15 17.0.17 18.1.15 18.1.17 19.1.10 19.1.12 20.1.5 20.1.7 21.1.1: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.321.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -11787,11 +11787,11 @@ games-rpg/wasteland2 1.9.0.13-r2: Sequel to 1988 Wasteland, post-apocalyptic com
 games-rpg/xu4 1.4.3: A remake of the computer game Ultima IV
 games-rpg/zsdx 1.12.3: Free 2D Zelda fangame
 games-rpg/zsxd 1.12.2: Free 2D Zelda fangame parody
-games-server/bedrock-server 1.21.102.1: The official bedrock (non-java) based server for the sandbox video game
+games-server/bedrock-server 1.21.112.1: The official bedrock (non-java) based server for the sandbox video game
 games-server/crossfire-server 1.71.0-r2 1.75.0-r1: Server for the crossfire clients
 games-server/etqw-ded 1.5-r1: Enemy Territory: Quake Wars dedicated server
 games-server/mednafen-server 0.5.2-r3: Server for Mednafen emulator
-games-server/minecraft-server 1.21.8: The official server for the sandbox video game
+games-server/minecraft-server 1.21.9: The official server for the sandbox video game
 games-server/monopd 0.10.4: Server for the GtkAtlantic board game
 games-server/mtavc 0.5-r2: dedicated server for GTA3 multiplayer
 games-server/pvpgn 1.99.7.2.1-r1: A gaming server for Battle.Net compatible clients
@@ -11807,7 +11807,7 @@ games-simulation/gl117 1.3.2-r1: Action flight simulator
 games-simulation/lincity 1.13.1-r4: City simulation game for X
 games-simulation/lincity-ng 2.9_beta-r1 2.13.1 9999: City simulation game
 games-simulation/micropolis 1.0_p20250628: Free version of the well-known city building simulation
-games-simulation/openrct2 0.4.20 0.4.21 0.4.26 9999: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
+games-simulation/openrct2 0.4.26 0.4.27: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
 games-simulation/openttd 14.1 9999: A clone of Transport Tycoon Deluxe
 games-simulation/pmars-sdl 0.9.2e-r1 0.9.2e-r2: Portable redcode simulator's sdl port for core war
 games-simulation/searchandrescue 1.7.0-r1: Helicopter based air rescue flight simulator
@@ -12070,7 +12070,7 @@ gui-apps/gnome-console 47.2.1 48.0.1 48.1: A simple user-friendly terminal emula
 gui-apps/grim 1.4.1 1.5.0 9999: Grab images from a Wayland compositor
 gui-apps/gtkgreet 0.7 0.8 9999: gtk based greeter for greetd
 gui-apps/input-leap 3.0.2-r1 3.0.3 9999: Share a mouse and keyboard between computers (fork of Barrier)
-gui-apps/kanshi 1.7.0 1.8.0: dynamic display configuration (autorandr for wayland)
+gui-apps/kanshi 1.8.0-r1: dynamic display configuration (autorandr for wayland)
 gui-apps/lavalauncher 2.1.1 9999: Simple launcher for wayland
 gui-apps/liquidshell 1.10.0: Basic desktop shell using QtWidgets
 gui-apps/mako 1.8.0 1.9.0 1.10.0 9999: A lightweight notification daemon for Wayland. Works on Sway
@@ -12129,7 +12129,7 @@ gui-libs/vte 0.78.5 0.80.3 0.80.4: Library providing a virtual terminal emulator
 gui-libs/vte-common 0.76.3 0.78.5 0.80.3 0.80.4: Library providing a virtual terminal emulator widget
 gui-libs/wayfire-plugins-extra 0.10.0 9999: extra plugins for wayfire
 gui-libs/wf-config 0.10.0 9999: library for managing wayfire configuration files
-gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
+gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 0.19.1 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
 gui-libs/wpebackend-fdo 1.14.2-r1 1.14.3 1.14.4 1.16.0: WPE backend designed for Linux desktop systems
 gui-libs/xdg-desktop-portal-lxqt 1.0.2 1.1.0 1.2.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 9999: xdg-desktop-portal backend for wlroots
@@ -13444,7 +13444,7 @@ media-libs/mesa 24.1.7-r1 25.0.7 25.1.7 25.1.8 25.1.9 25.2.0 25.2.1 25.2.2 25.2.
 media-libs/mesa-amber 21.3.9-r1 21.3.9-r2: OpenGL-like graphic library for Linux
 media-libs/mlt 7.32.0: Open source multimedia framework for television broadcasting
 media-libs/mpvqt 1.0.1: libmpv wrapper for QtQuick2 and QML
-media-libs/munt-mt32emu 2.7.0: Library for emulating the Roland MT-32, CM-32L, CM-64 and LAPC-I
+media-libs/munt-mt32emu 2.7.0 2.7.2: Library for emulating the Roland MT-32, CM-32L, CM-64 and LAPC-I
 media-libs/musicbrainz 5.1.0-r2: Client Library for accessing the latest XML based MusicBrainz web service
 media-libs/mutagen 1.47.0: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20231202: NanoSVG is a simple stupid single-header-file SVG parse.
@@ -14025,7 +14025,7 @@ media-sound/lltag 0.14.6: Automatic command-line mp3/ogg/flac file tagger and re
 media-sound/lmms 1.2.2-r3 9999: Cross-platform music production software
 media-sound/lollypop 1.4.42 1.4.44: Modern music player for GNOME
 media-sound/lxmusic 0.4.7-r2: Simple GUI XMMS2 client with minimal functionality
-media-sound/mac 4.11.4.5.7-r1 11.08 11.18 11.32 11.38: Monkey's Audio Codecs
+media-sound/mac 4.11.4.5.7-r1 11.18 11.38 11.54: Monkey's Audio Codecs
 media-sound/madplay 0.15.2b-r2: The MAD audio player
 media-sound/mangler 1.2.5-r5: Open source VOIP client capable of connecting to Ventrilo 3.x servers
 media-sound/mcdp 0.4b: Very small console cd player
@@ -15535,7 +15535,7 @@ net-print/foomatic-db-engine 4.0.12-r2: Generates ppds out of xml foomatic print
 net-print/foomatic-db-ppds 4.0.20190226-r1: linuxprinting.org PPD files for postscript printers
 net-print/gtklp 1.3.1: A GUI for cupsd
 net-print/gutenprint 5.3.4-r2: Ghostscript and cups printer drivers
-net-print/hplip 3.25.2 3.25.6 3.25.6-r1: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
+net-print/hplip 3.25.2 3.25.6-r1: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
 net-print/hplip-plugin 3.25.2 3.25.6: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r2: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
@@ -18117,7 +18117,7 @@ www-client/epiphany 47.7-r1 48.3 48.5: GNOME webbrowser based on Webkit
 www-client/falkon 25.04.3 25.08.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 140.3.1 143.0 143.0.3: Firefox Web Browser
-www-client/firefox-bin 140.3.1 143.0.3: Firefox Web Browser
+www-client/firefox-bin 140.3.1 143.0.3 143.0.4: Firefox Web Browser
 www-client/google-chrome 141.0.7390.54: The web browser from Google
 www-client/google-chrome-beta 141.0.7390.37-r1: The web browser from Google
 www-client/google-chrome-unstable 142.0.7432.0-r1: The web browser from Google
