@@ -1212,7 +1212,7 @@ app-arch/upx-bin 4.1.0 4.2.4: Ultimate Packer for eXecutables, binary version wi
 app-arch/vimball 0.5.1-r1 9999: A command-line vimball archive extractor
 app-arch/wimlib 1.14.4-r1: The open source Windows Imaging (WIM) library
 app-arch/xar 1.8.0.0.487.100.1-r1 1.8.0.0.498-r1: An easily extensible archive format
-app-arch/xarchiver 0.5.4.25 0.5.4.26: A GTK+ archive manager that can be used with Thunar
+app-arch/xarchiver 0.5.4.26: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
 app-arch/xz-utils 5.6.4-r2 5.8.1-r1 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 1.5.1 9999: File format designed for highly efficient deltas with good compression
@@ -5336,7 +5336,7 @@ dev-libs/cudnn 8.6.0.163 8.8.0.121 8.9.7.29 9.8.0.87: NVIDIA Accelerated Deep Le
 dev-libs/cusparselt 0.7.1.0: A High-Performance CUDA Library for Sparse Matrix-Matrix Multiplication
 dev-libs/cutlass 3.4.1 3.8.0 3.9.2: CUDA Templates for Linear Algebra Subroutines
 dev-libs/cvector 1.0.3.1: An ANSI C implementation of dynamic arrays (approximation of C++ vectors)
-dev-libs/cxxopts 3.0.0-r1 3.2.0-r1 3.2.1 3.2.1-r1: Lightweight C++ command line option parser
+dev-libs/cxxopts 3.0.0-r1 3.2.0-r1 3.2.1 3.2.1-r1 3.3.1: Lightweight C++ command line option parser
 dev-libs/cxxtools 3.0-r2 3.0-r3: Collection of general purpose C++-classes
 dev-libs/cyberjack 3.99.5_p17: REINER SCT cyberJack USB chipcard reader user space driver
 dev-libs/cyrus-sasl 2.1.28-r4 2.1.28-r5: The Cyrus SASL (Simple Authentication and Security Layer)
@@ -5458,7 +5458,7 @@ dev-libs/libbson 1.24.4 1.24.4-r1: Library routines related to building,parsing 
 dev-libs/libbulletml 0.0.6-r1: A Library of Bullet Markup Language
 dev-libs/libburn 1.5.6-r2: Open-source library for reading, mastering and writing optical discs
 dev-libs/libbytesize 2.9 2.10 2.11: Tiny library providing a C "class" for working with arbitrary big byte sizes
-dev-libs/libcbor 0.11.0 0.12.0: CBOR protocol implementation for C and others
+dev-libs/libcbor 0.11.0 0.12.0 0.13.0: CBOR protocol implementation for C and others
 dev-libs/libcdada 0.6.1: Basic data structures in C
 dev-libs/libcdio 2.1.0-r2 2.2.0: A library to encapsulate CD-ROM reading and control
 dev-libs/libcdio-paranoia 2.0.1 2.0.2: Advanced CDDA reader with error correction
@@ -5922,7 +5922,7 @@ dev-lua/luadbi 0.7.4: A database interface library for Lua
 dev-lua/luaevent 0.4.6-r1: Binding of libevent for Lua
 dev-lua/luaexpat 1.5.2: A SAX XML parser based on the Expat library
 dev-lua/luafilesystem 1.8.0-r101: File System Library for the Lua programming language
-dev-lua/luajson 1.3.4: JSON Parser/Constructor for Lua
+dev-lua/luajson 1.3.4 1.3.4-r1: JSON Parser/Constructor for Lua
 dev-lua/lualdap 1.4.0: A lua binding for the OpenLDAP client libraries
 dev-lua/luaossl 20250929: Most comprehensive OpenSSL module in the Lua universe
 dev-lua/luaposix 36.3: Bindings for POSIX APIs
@@ -6338,7 +6338,7 @@ dev-perl/Cache 2.110.0-r1: the Cache interface
 dev-perl/Cache-Cache 1.80.0-r1: Generic cache interface and implementations
 dev-perl/Cache-FastMmap 1.600.0: Uses an mmaped file to act as a shared memory interprocess cache
 dev-perl/Cache-Memcached 1.300.0-r2: Perl API for memcached
-dev-perl/Cache-Memcached-Fast 0.280.0-r1: Perl client for memcached, in C language
+dev-perl/Cache-Memcached-Fast 0.280.0-r2: Perl client for memcached, in C language
 dev-perl/Cache-Simple-TimedExpiry 0.270.0-r2: Lightweight cache with timed expiration
 dev-perl/Cairo 1.109.0-r1: Perl interface to the cairo library
 dev-perl/Cairo-GObject 1.5.0-r1: Integrate Cairo into the Glib type system
@@ -8144,7 +8144,7 @@ dev-python/bareos 24.0.3: python bindings for bareos network backup suite
 dev-python/bashate 2.1.1: A pep8 equivalent for bash scripts
 dev-python/basho-erlastic 2.1.1-r1: Erlang binary term codec and port interface
 dev-python/bcrypt 4.3.0 5.0.0: Modern password hashing for software and servers
-dev-python/beartype 0.21.0: Unbearably fast runtime type checking in pure Python
+dev-python/beartype 0.21.0 0.22.2: Unbearably fast runtime type checking in pure Python
 dev-python/beautifulsoup4 4.13.5 4.14.0 4.14.2: Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree
 dev-python/beniget 0.4.2_p1: Extract semantic information about static Python code
 dev-python/betamax 0.9.0: python-requests HTTP exchanges recorder
@@ -8280,7 +8280,7 @@ dev-python/cython-test-exception-raiser 1.0.2-r1: A trivial extension that just 
 dev-python/daemonize 2.5.0-r1: Library for writing system daemons in Python
 dev-python/datastructclass 0.1.1: A dataclass with struct-like semantics
 dev-python/dbfread 2.0.7-r1: Read DBF Files with Python
-dev-python/dbus-fast 2.44.1 2.44.3: A faster version of dbus-next
+dev-python/dbus-fast 2.44.3 2.44.5: A faster version of dbus-next
 dev-python/dbus-next 0.2.3-r1: The next great DBus library for Python with asyncio support
 dev-python/dbus-python 1.4.0: Python bindings for the D-Bus messagebus
 dev-python/dbutils 3.1.1 3.1.2: Database connections for multi-threaded environments
@@ -8523,7 +8523,7 @@ dev-python/hvac 2.3.0: HashiCorp Vault API client
 dev-python/hypercorn 0.17.3: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.136.9 6.137.3 6.138.17 6.139.2 6.140.0 6.140.2: A library for property based testing
+dev-python/hypothesis 6.136.9 6.137.3 6.138.17 6.139.2 6.140.0 6.140.2 6.140.3: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
 dev-python/icalendar 6.3.1: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/id 1.5.0: A tool for generating OIDC identities
@@ -8547,7 +8547,7 @@ dev-python/inflection 0.5.1-r1: A port of Ruby on Rails' inflector to Python
 dev-python/ini2toml 0.15: Automatically conversion of .ini/.cfg files to TOML equivalents
 dev-python/iniconfig 2.1.0: Brain-dead simple config-ini parsing
 dev-python/iniparse 0.5.1_p20250425: Better INI parser for Python
-dev-python/inline-snapshot 0.28.0 0.29.1 0.29.2: Create and update inline snapshots in your Python tests
+dev-python/inline-snapshot 0.28.0 0.29.1 0.29.2 0.29.3: Create and update inline snapshots in your Python tests
 dev-python/insipid-sphinx-theme 0.4.2: Insipid Sphinx theme
 dev-python/installer 0.7.0: A library for installing Python wheels
 dev-python/intelhex 2.3.0-r1: Python library for Intel HEX files manipulations
@@ -8966,7 +8966,7 @@ dev-python/progress 1.6.1: Easy to use progress bars
 dev-python/progressbar2 4.5.0: Text progressbar library for python
 dev-python/prometheus-client 0.22.1 0.23.0 0.23.1: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.51 3.0.52: Building powerful interactive command lines in Python
-dev-python/propcache 0.3.2: Yet another URL library
+dev-python/propcache 0.3.2 0.4.0: Yet another URL library
 dev-python/proto-plus 1.26.1: Beautiful, Pythonic protocol buffers
 dev-python/protobuf 5.29.4-r2 5.29.5-r1 6.30.2-r1 6.30.2-r2 6.31.1 6.32.0 6.32.1 6.32.1-r1: Google's Protocol Buffers - Python bindings
 dev-python/psutil 7.0.0 7.1.0: Retrieve information on running processes and system utilization
@@ -9016,7 +9016,7 @@ dev-python/pycups 2.0.4: Python bindings for the CUPS API
 dev-python/pycurl 7.45.6 7.45.7: Python bindings for curl/libcurl
 dev-python/pycurl-requests 0.5.0-r1 0.5.1: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.8-r3 7.1.10: Set of facilities to extend Python with C++
-dev-python/pydantic 2.11.7 2.11.8 2.11.9 2.12.0_alpha1 2.12.0_beta1: Data parsing and validation using Python type hints
+dev-python/pydantic 2.11.7 2.11.8 2.11.9 2.11.10 2.12.0_alpha1 2.12.0_beta1: Data parsing and validation using Python type hints
 dev-python/pydantic-core 2.33.2 2.37.2 2.40.1: Core validation logic for pydantic written in Rust
 dev-python/pydata-sphinx-theme 0.16.0 0.16.1: Bootstrap-based Sphinx theme from the PyData community
 dev-python/pydbus 0.6.0-r1: Pythonic DBus library
@@ -9369,7 +9369,7 @@ dev-python/rfc3987 1.3.8-r3: Parsing and validation of URIs (RFC 3986) and IRIs 
 dev-python/rfc8785 0.1.4: Pure-Python impl. of RFC 8785 (JSON Canonicalization Scheme)
 dev-python/rich 14.1.0: Python library for rendering rich text, tables, etc. to the terminal
 dev-python/rich-argparse 1.7.1: Rich help formatters for argparse and optparse
-dev-python/rich-click 1.8.9 1.9.1: Format click help output nicely with rich
+dev-python/rich-click 1.8.9 1.9.1 1.9.2: Format click help output nicely with rich
 dev-python/roman 5.1: An Integer to Roman numerals converter
 dev-python/roman-numerals-py 3.1.0: Manipulate roman numerals
 dev-python/rope 1.14.0: Python refactoring library
@@ -9652,8 +9652,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 0.10: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.8.6 0.8.15 0.8.16 0.8.17 0.8.18 0.8.19 0.8.20 0.8.22 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.8.6 0.8.15 0.8.16 0.8.17 0.8.18 0.8.19 0.8.20 0.8.22: PEP517 uv build backend
+dev-python/uv 0.8.6 0.8.15 0.8.16 0.8.17 0.8.18 0.8.19 0.8.20 0.8.22 0.8.23 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.8.6 0.8.15 0.8.16 0.8.17 0.8.18 0.8.19 0.8.20 0.8.22 0.8.23: PEP517 uv build backend
 dev-python/uvicorn 0.35.0 0.36.0 0.37.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.21.0: Ultra-fast implementation of asyncio event loop on top of libuv
 dev-python/validators 0.35.0: Python Data Validation for Humans
@@ -9731,7 +9731,7 @@ dev-python/zc-lockfile 3.0_p1-r1 4.0: Basic inter-process locks
 dev-python/zconfig 4.2: Configuration library supporting a hierarchical schema-driven model
 dev-python/zeep 4.3.1-r1 4.3.2: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zenlib 3.1.5 9999: Useful python decorators and utilities
-dev-python/zeroconf 0.147.0 0.147.2: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.147.0 0.147.2 0.148.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zipp 3.23.0: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zipstream-ng 1.8.0 1.9.0: A modern and easy to use streamable zip file generator
 dev-python/zlib-ng 0.5.1 1.0.0: Drop-in replacement for zlib and gzip modules using zlib-ng
@@ -14661,7 +14661,7 @@ net-dialup/xl2tpd 1.3.18-r2 1.3.18-r3: A modern version of the Layer 2 Tunneling
 net-dns/avahi 0.9_rc2-r3: System which facilitates service discovery on a local network
 net-dns/bind 9.18.29-r4 9.18.31-r3 9.18.37-r1 9.18.38 9.18.39 9.20.7-r2 9.20.9 9.20.10 9.20.11 9.20.13: Berkeley Internet Name Domain - Name Server
 net-dns/bind-tools 9.18.0-r1: bind tools: dig, nslookup, host, nsupdate, dnssec-keygen
-net-dns/c-ares 1.34.4 1.34.5: C library that resolves names asynchronously
+net-dns/c-ares 1.34.5: C library that resolves names asynchronously
 net-dns/coredns 1.12.1 1.12.2 9999: CoreDNS is a DNS server that chains plugins
 net-dns/ddclient 4.0.0: Perl client used to update dynamic DNS entries
 net-dns/djbdns 1.05-r40: Collection of DNS client/server software
@@ -15562,8 +15562,8 @@ net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
 net-proxy/lyrebird 0.6.0: An obfuscating proxy supporting Tor's pluggable transport protocol obfs4
 net-proxy/microsocks 1.0.2 1.0.3: Multithreaded, small, efficient SOCKS5 server
 net-proxy/mitmproxy 12.1.2: An interactive, SSL-capable, man-in-the-middle HTTP proxy
-net-proxy/mitmproxy-linux 0.12.6 0.12.7: mitmproxy's Rust bits
-net-proxy/mitmproxy-rs 0.12.6 0.12.7: mitmproxy's Rust bits
+net-proxy/mitmproxy-linux 0.12.7: mitmproxy's Rust bits
+net-proxy/mitmproxy-rs 0.12.7: mitmproxy's Rust bits
 net-proxy/nutcracker 0.4.1-r1 0.5.0: A fast, light-weight proxy for Memcached and Redis. (Twitter's Twemproxy)
 net-proxy/pingtunnel 0.72: Tunnel TCP over ICMP
 net-proxy/piper 1.14-r1: Tool for manipulating SOCKS5 servers
@@ -16998,7 +16998,7 @@ sys-apps/eless 0.7: Use Emacs as a paginator
 sys-apps/elfix 0.9.5-r1 9999: Suite of tools to work with ELF objects on Hardened Gentoo
 sys-apps/epoch 1.3.0 1.3.0-r1 9999: Init system, /sbin/init replacement; designed for simplicity
 sys-apps/etckeeper 1.18.22 1.18.23: A collection of tools to let /etc be stored in a repository
-sys-apps/ethq 0.6.3 0.7.0 9999: Ethernet NIC Queue stats viewer
+sys-apps/ethq 0.7.0 9999: Ethernet NIC Queue stats viewer
 sys-apps/ethtool 6.10 6.11 6.14 6.15: Utility for examining and tuning ethernet-based network interfaces
 sys-apps/eza 0.20.24 0.22.1 0.23.0 0.23.3: A modern, maintained replacement for ls
 sys-apps/fakechroot 2.20.1_p2: Provide a faked chroot environment without requiring root privileges
@@ -17078,7 +17078,7 @@ sys-apps/locale-gen 2.23-r1 3.8 9999: Generate locales based upon the config fil
 sys-apps/logwatch 7.12 7.13 9999: Analyzes and Reports on system logs
 sys-apps/lsadb 0.1.3-r1: Prints out information on all devices attached to the ADB bus
 sys-apps/lsb-release 1.4-r4 3.2 3.3: LSB version query program
-sys-apps/lsd 1.1.3-r1 1.1.3-r2: An ls command with a lot of pretty colors and some other stuff.
+sys-apps/lsd 1.1.3-r2: An ls command with a lot of pretty colors and some other stuff.
 sys-apps/lshw 02.19.2b_p20220831-r1 02.20.2b-r1: Hardware Lister
 sys-apps/lssbus 0.1-r1: Small utility for Linux/SPARC that list devices on SBUS
 sys-apps/lsvpd 1.7.14: Utility to List Device Vital Product Data (VPD)
@@ -17350,7 +17350,7 @@ sys-block/vblade 25: vblade exports a block device using AoE
 sys-block/viaideinfo 0.5-r1: Query VIA IDE controllers for various information
 sys-block/wait-for-dri-devices-rules 1: Udev and systemd rules to wait for dri devices
 sys-block/whdd 3.1: Diagnostic and recovery tool for block devices
-sys-block/zram-init 11.1-r1 12.2.1 12.2.2 13.0 9999: Scripts to support compressed swap devices or ramdisks with zRAM
+sys-block/zram-init 12.2.1 12.2.2 13.0 13.0.1 9999: Scripts to support compressed swap devices or ramdisks with zRAM
 sys-boot/aboot 1.0_pre20040408-r3 2.0_pre20210801 9999: Alpha Linux boot loader for SRM
 sys-boot/arcload 0.50-r3: ARCLoad - Bootloader for SGI IP22/IP32/IP27/IP28/IP30 Systems
 sys-boot/bootcreator 1.2-r1: Simple generator for Forth based BootMenu scripts for Pegasos machines
@@ -19059,7 +19059,7 @@ xfce-base/garcon 4.20.0 4.21.0: Xfce's freedesktop.org specification compatible 
 xfce-base/libxfce4ui 4.20.2 4.21.2: Unified widget and session management libs for Xfce
 xfce-base/libxfce4util 4.20.1: A basic utility library for the Xfce desktop environment
 xfce-base/libxfce4windowing 4.20.3 4.20.4: Unified widget and session management libs for Xfce
-xfce-base/thunar 4.20.3 4.20.4 4.20.5 4.21.1 4.21.2: File manager for the Xfce desktop environment
+xfce-base/thunar 4.20.5 4.21.2: File manager for the Xfce desktop environment
 xfce-base/thunar-volman 4.20.0: Daemon that enforces volume-related policies
 xfce-base/tumbler 4.20.0 4.21.0: A thumbnail service for Thunar
 xfce-base/xfce4-appfinder 4.20.0 4.21.0: A tool to find and launch installed applications for the Xfce desktop

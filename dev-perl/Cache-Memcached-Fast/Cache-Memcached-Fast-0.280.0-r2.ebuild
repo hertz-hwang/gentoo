@@ -18,23 +18,14 @@ LICENSE="|| ( Artistic GPL-1+ ) LGPL-2.1+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 ~loong ~ppc ~ppc64 ~riscv x86"
 
-RDEPEND="
-	>=virtual/perl-Carp-1.250.0
-	>=virtual/perl-XSLoader-0.140.0
-"
 BDEPEND="
-	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
-	test?	(
-		>=virtual/perl-Test2-Suite-0.0.72
+	test? (
 		net-misc/memcached
 	)
 "
 
 PATCHES=(
 	"${FILESDIR}/0.230.0-parallel-make.patch"
-	# https://github.com/JRaspass/Cache-Memcached-Fast/pull/11
-	"${FILESDIR}/${PN}-0.270.0-no-flto.patch"
 )
 
 PERL_RM_FILES=(
