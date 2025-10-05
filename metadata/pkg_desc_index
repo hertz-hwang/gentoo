@@ -3191,7 +3191,7 @@ app-text/crm114 20100106-r2: A powerful text processing tool, mainly used for sp
 app-text/crqt-ng 1.0.15: Cross-platform e-book reader
 app-text/crwx-ng 0.3.1-r3: Cross-platform e-book reader
 app-text/cssmin 0.2.0-r1: Python port of the YUI CSS compression algorithm
-app-text/cwtext 0.96-r1: Text to Morse Code converter
+app-text/cwtext 0.96-r1 0.96-r2: Text to Morse Code converter
 app-text/dblatex 0.3.12-r3 0.3.12-r4: Transform DocBook using TeX macros
 app-text/delta 20060803-r1: Heuristically minimizes interesting files
 app-text/dictd 1.13.3: Dictionary Client/Server for the DICT protocol
@@ -3794,7 +3794,7 @@ dev-ada/prettier-ada 25.0.0-r2: Port of the Prettier formatter to the Ada progra
 dev-ada/spawn 25.0.0-r3: Simple API to spawn processes
 dev-ada/templates-parser 24.0.0-r1 25.0.0-r4: A template engine
 dev-ada/xmlada 25.0.0-r5: Set of modules that provide a simple manipulation of XML streams
-dev-build/autoconf 2.13-r8 2.69-r10 2.71-r6 2.71-r8 2.72-r1 2.72-r3 9999: Used to create autoconfiguration files
+dev-build/autoconf 2.13-r8 2.69-r10 2.71-r6 2.71-r8 2.72-r1 2.72-r4 9999: Used to create autoconfiguration files
 dev-build/autoconf-archive 2023.02.20 2024.10.16-r1 2024.10.16-r2: GNU Autoconf Macro Archive
 dev-build/autoconf-dickey 2.52_p20230114 2.52_p20231210 2.52_p20240618 2.52_p20250126: Fork of dev-build/autoconf for Thomas Dickey's packages
 dev-build/autoconf-vanilla 2.13 2.69-r1 2.71-r1 2.72-r1 9999: Used to create autoconfiguration files
@@ -5376,7 +5376,7 @@ dev-libs/geoip 1.6.12 1.6.12-r1: GeoIP Legacy C API
 dev-libs/gf-complete 2.0.0-r1 2.0.0_p20170410: Comprehensive Open Source Library for Galois Field Arithmetic
 dev-libs/gf2x 1.3.0-r1: C/C++ routines for fast arithmetic in GF(2)[x]
 dev-libs/girara 0.4.2 0.4.4 0.4.5 9999: UI library that focuses on simplicity and minimalism
-dev-libs/gjs 1.80.2 1.82.3 1.84.2: Javascript bindings for GNOME
+dev-libs/gjs 1.80.2-r1 1.82.3-r1 1.84.2-r1: Javascript bindings for GNOME
 dev-libs/glib 2.82.5 2.84.3 2.84.4 2.86.0: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.14 3.2.15 3.2.15-r1: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r1: Library for arbitrary-precision arithmetic on different type of numbers
@@ -5523,7 +5523,7 @@ dev-libs/libical 3.0.19 3.0.20-r1: Implementation of basic iCAL protocols
 dev-libs/libiconv 1.17 1.18: GNU charset conversion library for libc which doesn't implement it
 dev-libs/libinjection 3.10.0_p20250228: A SQL/SQLI tokenizer parser analyzer
 dev-libs/libinput 1.28.1 1.29.1: Library to handle input devices in Wayland
-dev-libs/libintl 0.21.1 0.22.5 0.23.1 0.23.2 0.25.1: the GNU international library (split out of gettext)
+dev-libs/libintl 0.21.1 0.22.5 0.23.1 0.23.2 0.25.1 0.26: the GNU international library (split out of gettext)
 dev-libs/libisoburn 1.5.6-r2: Creation/expansion of ISO-9660 filesystems on CD/DVD media supported by libburn
 dev-libs/libisofs 1.5.6_p1-r2: Open-source library for reading, mastering and writing optical discs
 dev-libs/libite 2.6.1: A collection of useful BSD APIs
@@ -5838,7 +5838,7 @@ dev-libs/udis86 1.7.2-r1: Disassembler library for the x86/-64 architecture sets
 dev-libs/unibilium 2.1.1-r1 2.1.2: A very basic terminfo library
 dev-libs/unittest++ 2.0.0-r3 2.0.0-r4: A lightweight unit testing framework for C++
 dev-libs/univalue 1.0.5 9999: C++ universal value object and JSON library
-dev-libs/uriparser 0.9.8-r1 0.9.9: Strictly RFC 3986 compliant URI parsing library in C
+dev-libs/uriparser 0.9.8-r1 0.9.9 0.9.9-r1: Strictly RFC 3986 compliant URI parsing library in C
 dev-libs/userspace-rcu 0.14.0 0.14.1 0.15.0 0.15.1 0.15.2 0.15.3: Userspace RCU (read-copy-update) library
 dev-libs/utfcpp 3.2.1 4.0.6 9999: UTF-8 C++ library
 dev-libs/uthash 2.3.0-r1: An easy-to-use hash implementation for C programmers
@@ -11936,7 +11936,7 @@ gnome-base/gnome-keyring 46.2 48.0: Password and keyring managing daemon
 gnome-base/gnome-light 45.2 48.0: Meta package for GNOME-Light, merge this package to install
 gnome-base/gnome-menus 3.36.0-r1: Library and layout configuration for the Desktop Menu fd.o specification
 gnome-base/gnome-panel 3.54.0 3.56.0: The GNOME Flashback Panel
-gnome-base/gnome-session 47.0.1-r2 48.0: Gnome session manager
+gnome-base/gnome-session 47.0.1-r2 48.0 48.0-r1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2 48.1: Gnome Settings Daemon
 gnome-base/gnome-shell 47.7-r1 47.8-r1 48.4 48.5: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1 48.0: Collection of GSettings schemas for GNOME desktop
@@ -12277,7 +12277,7 @@ kde-apps/kolf 25.04.3 25.08.1: Minigolf game by KDE
 kde-apps/kollision 25.04.3 25.08.1: Simple ball dodging game
 kde-apps/kolourpaint 25.04.3 25.08.1: Paint Program by KDE
 kde-apps/kompare 25.04.3 25.08.1: Graphical File Differences Tool
-kde-apps/konqueror 25.04.3-r1 25.04.3-r2 25.08.1 25.08.1-r1: Web browser and file manager based on KDE Frameworks
+kde-apps/konqueror 25.04.3-r1 25.04.3-r2 25.08.1-r1: Web browser and file manager based on KDE Frameworks
 kde-apps/konquest 25.04.3 25.08.1: Galactic Strategy KDE Game
 kde-apps/konsole 25.04.3 25.08.1: KDE's terminal emulator
 kde-apps/konsolekalendar 25.04.3 25.08.1: Command line interface to KDE calendars
@@ -15982,7 +15982,7 @@ sci-electronics/ngspice 40 43: The Next Generation Spice (Electronic Circuit Sim
 sci-electronics/nvc 1.16.2 1.17.1: NVC is a VHDL compiler and simulator
 sci-electronics/pcb 4.3.0: GPL Electronic Design Automation: Printed Circuit Board editor
 sci-electronics/petrify 4.2-r1: Synthesize Petri nets into asynchronous circuits
-sci-electronics/puff 20100127-r1 20181104: microwave CAD software
+sci-electronics/puff 20181104-r1: microwave CAD software
 sci-electronics/pulseview 0.4.2_p20250515 9999: Qt based logic analyzer GUI for sigrok
 sci-electronics/qelectrotech 0.90_pre20250820: Qt application to design electric diagrams
 sci-electronics/sigrok-cli 0.7.2-r1 9999: Command-line client for the sigrok logic analyzer software
@@ -17470,7 +17470,7 @@ sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
 sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.2.0 13.3.1_p20241220 13.4.0 13.4.1_p20250807 13.4.1_p20250925 13.4.1_p20251002 13.5.9999 14.3.0 14.3.1_p20250801 14.3.1_p20250926 14.3.1_p20251003 14.4.9999 15.2.0 15.2.1_p20250927 15.2.1_p20251004 15.3.9999 16.0.0_p20250928 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-apple 4.2.1_p5666-r3: Apple branch of the GNU Compiler Collection, Developer Tools 4.0
 sys-devel/gcc-config 2.12.1 9999: Utility to manage compilers
-sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1: GNU locale utilities
+sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.4.1_p20250528 12.5.0 13.3.1_p20241220 13.3.1_p20250418 13.4.0 14.3.0 15.1.0: 64bit kernel compiler
