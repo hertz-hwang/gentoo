@@ -1223,7 +1223,7 @@ app-arch/zpaq 7.15-r1: Journaling incremental deduplicating archiving compressor
 app-arch/zpaq-extras 3: A set of additional compression profiles for app-arch/zpaq
 app-arch/zstd 1.5.7 1.5.7-r1: zstd fast compression library
 app-backup/amanda 3.5.4-r2: The Advanced Maryland Automatic Network Disk Archiver
-app-backup/backintime 1.5.4 1.5.5 9999: Backup system inspired by TimeVault and FlyBack
+app-backup/backintime 1.5.4 1.5.5 1.5.6 9999: Backup system inspired by TimeVault and FlyBack
 app-backup/backup-manager 0.7.14-r1: Backup Manager is a command line backup tool for GNU/Linux
 app-backup/backupninja 1.2.2: lightweight, extensible meta-backup system
 app-backup/backuppc 3.3.1-r6 4.4.0-r1 4.4.0-r2 4.4.0-r3: High-performance backups to a server's disk
@@ -2905,7 +2905,7 @@ app-misc/splitvt 1.6.6_p7: Splitting terminals into two shells
 app-misc/srm 1.2.15: A command-line compatible rm which destroys file contents before unlinking
 app-misc/supercat 0.5.8: A text file colorizer using powerful regular expressions
 app-misc/symlinks 1.4-r4 1.4.3: Scans for and fixes broken or messy symlinks
-app-misc/task 2.6.2-r1: Taskwarrior is a command-line todo list manager
+app-misc/task 2.6.2-r1 3.4.1: Command-line todo list manager
 app-misc/tdfsb 0.0.10-r2: SDL based graphical file browser
 app-misc/tdl 1.5.2-r5: Command line To Do List manager
 app-misc/terminal-colors 3.0.2 9999: A tool to display color charts for 8, 16, 88, and 256 color terminals
@@ -5688,7 +5688,7 @@ dev-libs/mpdecimal 4.0.0 4.0.1: Correctly-rounded arbitrary precision decimal fl
 dev-libs/mpfr 4.2.1 4.2.2: Library for multiple-precision floating-point computations with exact rounding
 dev-libs/msgpack 5.0.0 6.0.0-r1: MessagePack is a binary-based efficient data interchange format
 dev-libs/mxml 3.3.1-r1 4.0.4: A small XML parsing library that you can use to read XML data files or strings
-dev-libs/nanomsg 1.2.1-r1: High-performance messaging interface for distributed applications
+dev-libs/nanomsg 1.2.1-r1 1.2.2: High-performance messaging interface for distributed applications
 dev-libs/nativefiledialog-extended 1.2.1: Cross platform native file dialog library with C and C++ bindings
 dev-libs/ncnn 20250503: High-performance neural network inference framework
 dev-libs/nettle 3.10.1 3.10.2: Low-level cryptographic library
@@ -11505,7 +11505,7 @@ games-fps/doom-data 1.9: The IWAD used by the shareware version of Doom
 games-fps/doom-data-gog 1.9: Data files for The Ultimate DOOM from gog.com
 games-fps/doom2-data-gog 1.9: Data files for DOOM II and the Master Levels from gog.com
 games-fps/doomsday 2.3.1: A modern gaming engine for Doom, Heretic, and Hexen
-games-fps/dsda-doom 0.29.3: Successor to the PrBoom+ Doom source port
+games-fps/dsda-doom 0.29.4: Successor to the PrBoom+ Doom source port
 games-fps/duke3d-data 1.0-r6: Duke Nukem 3D (Atomic Edition) data files
 games-fps/eduke32 20250329.10618 20250704.10623: An open source engine port of the classic PC first person shooter Duke Nukem 3D
 games-fps/etqw-bin 1.5-r4: Enemy Territory: Quake Wars
@@ -13214,7 +13214,7 @@ media-libs/game-music-emu 0.6.4: Video game music file emulators
 media-libs/ganv 1.8.2: A GTK+ widget for interactive graph-like environments
 media-libs/gavl 1.4.0-r3: Library for handling uncompressed audio and video data
 media-libs/gd 2.3.2-r3 2.3.3-r3 2.3.3-r4: Graphics library for fast image creation
-media-libs/gegl 0.4.48 0.4.56 0.4.58 0.4.62 9999: A graph based image processing framework
+media-libs/gegl 0.4.48 0.4.56 0.4.58 0.4.62 0.4.64 9999: A graph based image processing framework
 media-libs/gexiv2 0.14.5 0.14.6: GObject-based wrapper around the Exiv2 library
 media-libs/giblib 1.2.4-r2: A graphics library built on top of imlib2
 media-libs/giflib 5.2.2: Library to handle, display and manipulate GIF images
