@@ -16,7 +16,7 @@ HOMEPAGE="
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 ~loong ~mips ppc ppc64 ~riscv ~s390 ~sparc x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
 
 RDEPEND="
 	>=dev-python/sphinx-8.2.0[${PYTHON_USEDEP}]
@@ -31,14 +31,10 @@ BDEPEND="
 	)
 "
 
+EPYTEST_PLUGINS=()
 distutils_enable_tests pytest
 
-python_test() {
-	local EPYTEST_DESELECT=(
-		# this package is addicted to Internet
-		tests/test_sphinx_autodoc_typehints.py::test_format_annotation
-	)
-
-	local -x PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
-	epytest
-}
+EPYTEST_DESELECT=(
+	# Internet
+	tests/test_sphinx_autodoc_typehints.py::test_format_annotation
+)
