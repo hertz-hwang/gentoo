@@ -13210,7 +13210,7 @@ media-libs/fontconfig 2.16.2-r1 2.17.1: A library for configuring and customizin
 media-libs/freealut 1.1.0-r5: The OpenAL Utility Toolkit
 media-libs/freeglut 3.6.0-r1: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-libs/freeimage 3.18.0-r10 3.18.0-r11: Image library supporting many formats
-media-libs/freetype 2.13.3 2.14.1 9999: High-quality and portable font engine
+media-libs/freetype 2.13.3 2.14.1 2.14.1-r1 9999: High-quality and portable font engine
 media-libs/freeverb3 3.2.1-r3 3.2.1-r4: Reverb and Impulse Response Convolution plug-ins (Audacious/JACK)
 media-libs/ftgl 2.1.3_rc5-r1 2.1.3_rc5-r3: library to use arbitrary fonts in OpenGL applications
 media-libs/game-music-emu 0.6.4: Video game music file emulators
@@ -17667,7 +17667,7 @@ sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.16.4-r1: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20250211 20250311 20250410 20250613-r1 20250613_p20250624 20250627 20250708 20250808 20250917 99999999: Linux firmware files
+sys-kernel/linux-firmware 20250211 20250311 20250410 20250613-r1 20250613_p20250624 20250627 20250708 20250808 20250917 20251011 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
