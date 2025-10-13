@@ -30,12 +30,7 @@ DEPEND="app-text/ghostscript-gpl
 	gui? (
 		media-libs/freeglut
 		media-libs/glu
-		dev-qt/qtcore:5
-		dev-qt/qtdbus:5
-		dev-qt/qtgui:5
-		dev-qt/qtnetwork:5
-		dev-qt/qtopengl:5
-		dev-qt/qtwidgets:5
+		dev-qt/qtbase[dbus,gui,network,opengl,widgets]
 	)
 	manip? ( sys-libs/ncurses:0 )
 	emacs? ( app-editors/emacs:* )"
@@ -45,10 +40,8 @@ BDEPEND="kde-frameworks/extra-cmake-modules
 	doc? ( virtual/latex-base )"
 
 PATCHES=(
-	"${FILESDIR}"/cmake-cmp0177.patch
-	"${FILESDIR}"/install-dirs.patch
+	"${FILESDIR}"/gle-4.3.8.patch
 	"${FILESDIR}"/top_dir.patch
-	"${FILESDIR}"/zstd-shared.patch
 )
 SITEFILE="64${PN}-gentoo.el"
 
@@ -78,7 +71,6 @@ src_compile() {
 src_install() {
 	export GLE_TOP="${D}"/usr/share/gle
 	cmake_src_install
-	#GLE_TOP="${D}"/usr/share/${PN} "${D}"/usr/bin/gle.bin -mkinittex
 	if use doc; then
 		pushd "$WORKDIR"/gle-manual-${PV} > /dev/null || die "pushd gle_manual failed"
 		export PATH="${D}"/usr/bin:${PATH}
