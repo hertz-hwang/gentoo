@@ -7,9 +7,9 @@ EGIT_REPO_URI="https://github.com/MaskRay/${PN}"
 
 if [[ ${PV} = 9999* ]]; then
 	GIT_ECLASS="git-r3"
-	LLVM_COMPAT=( {18..19} )
+	LLVM_COMPAT=( {18..21} )
 else
-	LLVM_COMPAT=( {18..19} )
+	LLVM_COMPAT=( {18..21} )
 fi
 
 inherit cmake llvm-r1 ${GIT_ECLASS}
@@ -19,7 +19,7 @@ HOMEPAGE="https://github.com/MaskRay/ccls"
 
 if [[ ${PV} != *9999 ]] ; then
 	SRC_URI="https://github.com/MaskRay/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="amd64 ~arm64 ~riscv"
+	KEYWORDS="~amd64 ~arm64 ~riscv"
 fi
 
 LICENSE="Apache-2.0"
