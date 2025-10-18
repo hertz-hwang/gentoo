@@ -5047,7 +5047,7 @@ dev-java/metainf-services 1.11: Generates META-INF/services files automatically
 dev-java/miglayout 5.3: MiGLayout - Java Layout Manager for Swing, SWT and JavaFX
 dev-java/mill-bin 0.11.12 0.12.10: A Java/Scala build tool
 dev-java/minidns-core 1.0.4: DNS library for Java and Android systems
-dev-java/mockito 1.9.5-r5 2.28.2-r1 4.11.0 5.20.0: Mockito mock objects library core API and implementation
+dev-java/mockito 1.9.5-r5 2.28.2-r1 4.11.0 5.20.0-r1: Mockito mock objects library core API and implementation
 dev-java/msv 2022.7-r1: Multi-Schema Validator Core package
 dev-java/mvel 2.5.2: MVFLEX Expression Language
 dev-java/objenesis 3.4: A library for instantiating Java objects
@@ -9282,7 +9282,7 @@ dev-python/python3-xapp 2.4.2: Python bindings for x11-libs/xapp
 dev-python/pythondialog 3.5.3: A Python module for making simple text/console-mode user interfaces
 dev-python/pythonfinder 2.1.0 3.0.0: PythonFinder: Cross Platform Search Tool for Finding Pythons
 dev-python/pythonnet 3.0.5: Nearly seamless integration with the .NET Common Language Runtime
-dev-python/pythran 0.17.0-r2 0.18.0: Ahead of Time compiler for numeric kernels
+dev-python/pythran 0.17.0-r2 0.18.0 0.18.0-r1: Ahead of Time compiler for numeric kernels
 dev-python/pytidylib 0.3.2-r2: Python wrapper for HTML Tidy (tidylib)
 dev-python/pytimeparse 1.1.8-r1: A small Python module to parse various kinds of time expressions
 dev-python/pytokens 0.2.0: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons
@@ -9406,7 +9406,7 @@ dev-python/scikit-build 0.18.1: Improved build system generator for Python C/C++
 dev-python/scikit-build-core 0.11.5 0.11.6: Build backend for CMake based projects
 dev-python/scikit-image 0.25.2: Image processing routines for SciPy
 dev-python/scikit-learn 1.7.1 1.7.2: Machine learning library for Python
-dev-python/scipy 1.16.2-r1: Scientific algorithms library for Python
+dev-python/scipy 1.16.2-r1 1.16.2-r2: Scientific algorithms library for Python
 dev-python/scripttest 2.0_p1: Helper to test command-line scripts
 dev-python/scrypt 0.8.27 0.8.29 0.9.4: Bindings for the scrypt key derivation function library
 dev-python/seaborn 0.13.2: Statistical data visualization
@@ -17808,7 +17808,7 @@ sys-process/atop 2.11.0-r1 2.11.1 2.12.0 2.12.0-r1: Resource-specific view of pr
 sys-process/audit 4.0.1-r1 4.0.2-r1: Userspace utilities for storing and processing auditing records
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 sys-process/bcron 0.11: A new cron system designed with secure operations in mind by Bruce Guenter
-sys-process/below 0.8.1-r1: An interactive tool to view and record historical system data
+sys-process/below 0.8.1-r1 0.11.0: An interactive tool to view and record historical system data
 sys-process/bottom 0.10.2-r1 0.11.1: A graphical process/system monitor with a customizable interface
 sys-process/bpytop 1.0.68-r1: Linux/OSX/FreeBSD resource monitor
 sys-process/btop 1.4.4 1.4.5: A monitor of resources
