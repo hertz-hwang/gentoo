@@ -8488,8 +8488,8 @@ dev-python/greenlet 3.2.3 3.2.4: Lightweight in-process concurrent programming
 dev-python/greenstalk 2.1.0 2.1.1: Python 3 client for the beanstalkd work queue
 dev-python/griddataformats 1.0.2: Reading and writing of data on regular grids in Python
 dev-python/griffe 1.13.0 1.14.0: Signature generator for Python programs
-dev-python/grpcio 1.73.1 1.74.0 1.75.0 1.75.1: HTTP/2-based RPC framework
-dev-python/grpcio-status 1.73.1 1.74.0 1.75.0 1.75.1: Reference package for GRPC Python status proto mapping
+dev-python/grpcio 1.73.1 1.74.0 1.75.0 1.75.1 1.76.0: HTTP/2-based RPC framework
+dev-python/grpcio-status 1.73.1 1.74.0 1.75.0 1.75.1 1.76.0: Reference package for GRPC Python status proto mapping
 dev-python/grpclib 0.4.8: Pure-Python gRPC implementation for asyncio
 dev-python/gsd 4.1.0 4.2.0: GSD - file format specification and a library to read and write it
 dev-python/gssapi 1.9.0 1.10.0 1.10.1: Low and high level wrappers around the GSSAPI C libraries
@@ -9348,7 +9348,7 @@ dev-python/redis 6.4.0 7.0.0_beta2 7.0.0_beta3: Python client for Redis key-valu
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.36.2-r1 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
-dev-python/regex 2025.7.34 2025.9.18: Alternative regular expression module to replace re
+dev-python/regex 2025.7.34 2025.9.18 2025.10.23: Alternative regular expression module to replace re
 dev-python/regress 2025.5.1 2025.10.1: Python bindings to the Rust regress crate
 dev-python/rencode 1.0.8-r1: Serialization similar to bencode from the BitTorrent project
 dev-python/reno 4.1.0: Release notes manager, storing release notes in a git repo and building docs
@@ -10752,7 +10752,7 @@ dev-util/cargo-tarpaulin 0.32.8 0.33.0: Cargo-Tarpaulin is a tool to determine c
 dev-util/cargo-vendor-filterer 0.5.17 0.5.18: Tool to 'cargo vendor' with filtering
 dev-util/catalyst 4.0.0 9999: Release metatool used for creating releases based on Gentoo Linux
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
-dev-util/cbindgen 0.29.0: A tool for generating C bindings to Rust code
+dev-util/cbindgen 0.29.0 0.29.2: A tool for generating C bindings to Rust code
 dev-util/ccache 4.10.2-r1 4.11.2 4.11.3 4.12 4.12.1: Fast compiler cache
 dev-util/cccc 3.1.6-r1: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20241108-r1 0.20250815 9999: C/C++/ObjC language server
