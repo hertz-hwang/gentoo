@@ -6,9 +6,9 @@ EAPI=8
 LLVM_COMPAT=( 21 )
 PYTHON_COMPAT=( python3_{11..14} )
 
-RUST_PATCH_VER=${PVR}
-
+RUST_PATCH_VER=${PV#*_p}
 RUST_MAX_VER=${PV%%_*}
+
 if [[ ${PV} == *9999* ]]; then
 	RUST_MIN_VER="1.91.0" # Update this as new `beta` releases come out.
 elif [[ ${PV} == *beta* ]]; then
@@ -416,6 +416,9 @@ src_configure() {
 			build_channel="stable"
 			;;
 	esac
+
+	# TODO: Add optimized-compiler-builtins for system-llvm to avoid
+	# building bundled compiler-rt.
 	cat <<- _EOF_ > "${S}"/bootstrap.toml
 		# Suppresses a warning about tracking changes which we don't care about.
 		change-id = "ignore"
