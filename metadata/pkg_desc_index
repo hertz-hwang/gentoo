@@ -1246,7 +1246,7 @@ app-backup/dar 2.8.1-r1: A full featured backup tool, aimed for disks
 app-backup/deja-dup 44.2: Simple backup tool using duplicity back-end
 app-backup/dirvish 1.2.1-r1: Dirvish is a fast, disk based, rotating network backup system
 app-backup/duplicati 2.1.0.103_p20241221-r1 2.2.0.0.2025.10.23: Backup client that securely stores encrypted, incremental, compressed backups
-app-backup/duplicity 3.0.5-r1: Secure backup system using gnupg to encrypt data
+app-backup/duplicity 3.0.5-r1 3.0.6: Secure backup system using gnupg to encrypt data
 app-backup/duply 2.5.2 2.5.5 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.8 0.8.8-r1: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
@@ -3060,7 +3060,7 @@ app-portage/g-octave 0.4.1-r8: A tool that generates and installs ebuilds for Oc
 app-portage/gemato 20.6 20.10-r1 9999: Stand-alone Manifest generation & verification tool
 app-portage/genlop 0.30.12 9999: Nice emerge.log parser
 app-portage/gentle 1.0.2: Gentoo Lazy Entry - a metadata.xml generator
-app-portage/gentoolkit 0.6.8 0.6.9 0.6.10 9999: Collection of administration scripts for Gentoo
+app-portage/gentoolkit 0.6.8 0.6.9 0.6.10 0.6.11 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.15-r1 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
 app-portage/golop 0.2.1-r1: A pure Go re-implementation of genlop
@@ -4053,7 +4053,7 @@ dev-debug/cgdb 0.8.0 9999: A curses front-end for GDB, the GNU debugger
 dev-debug/d-feet 0.3.16 0.3.16-r1: D-Feet is a powerful D-Bus debugger
 dev-debug/d-spy 47.0 48.0: D-Spy is a simple tool to explore D-Bus connections
 dev-debug/ddd 3.3.12-r5 3.4.1: Graphical front-end for command-line debuggers
-dev-debug/drgn 0.0.31 0.0.32: Programmable debugger
+dev-debug/drgn 0.0.31 0.0.32 0.0.33: Programmable debugger
 dev-debug/dtrace 2.0.3-r2 2.0.4 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
 dev-debug/gdb 16.3 9999: GNU debugger
@@ -16429,7 +16429,7 @@ sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2022.05.13-r1: provides a tensor-aware channel
 sci-ml/tokenizers 0.21.4 0.22.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries.
-sci-ml/torchvision 0.21.0-r2: Datasets, transforms and models to specific to computer vision
+sci-ml/torchvision 0.23.0 0.24.0: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 4.56.2 4.57.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
