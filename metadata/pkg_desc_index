@@ -15119,8 +15119,8 @@ net-mail/sendEmail 1.56-r4: Command line based, SMTP email agent
 net-mail/serialmail 0.75-r5: A serialmail is a collection of tools for passing mail across serial links
 net-mail/signify 1.14-r2: A (semi-)random e-mail signature rotator
 net-mail/smtptools 0.2.3-r1: A collection of tools to send or receive mails with SMTP
-net-mail/stalwart-cli 0.10.7 0.11.8 0.12.4 0.13.2 0.13.3 0.13.4: Stalwart Mail Server command line utility
-net-mail/stalwart-mail 0.11.8-r1 0.12.4 0.13.2 0.13.3 0.13.4: Stalwart Mail Server
+net-mail/stalwart-cli 0.10.7 0.11.8 0.12.4 0.13.4 0.14.1: Stalwart Mail Server command line utility
+net-mail/stalwart-mail 0.11.8-r1 0.12.4 0.13.4 0.14.1: Stalwart Mail Server
 net-mail/swaks 20240103.0: Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH
 net-mail/t-prot 3.4: TOFU protection - display filter for RFC822 messages
 net-mail/tlsrpt-reporter 0.5.0: tools and daemons to implement TLSRPT services
@@ -17269,7 +17269,7 @@ sys-auth/pam_smb 2.0.0_rc6-r3: PAM module for authenticating against an SMB (suc
 sys-auth/pam_ssh_agent_auth 0.10.4-r1 9999: Simple module to authenticate users against their ssh-agent keys
 sys-auth/pam_u2f 1.3.2 1.4.0: PAM module for FIDO2 and U2F keys
 sys-auth/pam_yubico 2.27: Library for authenticating against PAM with a Yubikey
-sys-auth/pambase 20250826 20250906 20251013 999999999: PAM base configuration files
+sys-auth/pambase 20250826 20250906 20251013 20251104 999999999: PAM base configuration files
 sys-auth/passwdqc 2.0.3-r1: Password strength checking library (and PAM module)
 sys-auth/polkit 123-r1 126-r1 126-r2 9999: Policy framework for controlling privileges for system-wide services
 sys-auth/polkit-pkla-compat 0.1-r2: Rules for polkit to add compatibility with pklocalauthority

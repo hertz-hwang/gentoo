@@ -23,11 +23,11 @@ RDEPEND="
 	>=sys-libs/glibc-2.4
 	!amd64? (
 		gnome-base/libglade
-		virtual/zlib
+		virtual/zlib:=
 	)
 	amd64? (
 		>=gnome-base/libglade-2.6.4-r1[abi_x86_32(-)]
-		virtual/zlib[abi_x86_32(-)]
+		virtual/zlib:=[abi_x86_32(-)]
 	)
 "
 BDEPEND="app-arch/unzip"
