@@ -15,7 +15,7 @@ S="${WORKDIR}/lib${P}"
 
 LICENSE="LGPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~arm arm64 ~loong ~ppc64 ~riscv x86"
+KEYWORDS="amd64 arm arm64 ~loong ~ppc64 ~riscv x86"
 IUSE="archive +curl doc dracut gnutls +gpg grub +http2 introspection libmount selinux sodium ssl +soup systemd zeroconf"
 RESTRICT="test"
 REQUIRED_USE="
@@ -113,6 +113,7 @@ src_configure() {
 
 src_install() {
 	default
+	dotmpfiles src/boot/ostree-tmpfiles.conf #901797
 	find "${D}" -name '*.la' -type f -delete || die
 }
 

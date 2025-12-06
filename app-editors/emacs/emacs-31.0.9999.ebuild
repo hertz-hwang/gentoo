@@ -408,6 +408,8 @@ src_configure() {
 }
 
 src_compile() {
+	unset SHELL #965834
+
 	if tc-is-cross-compiler; then
 		# Build native tools for compiling lisp etc.
 		emake -C "${S}-build" src
@@ -449,6 +451,8 @@ src_test() {
 		%lisp/vc/vc-tests.el
 		%lisp/vc/vc-bzr-tests.el
 
+		%lisp/progmodes/eglot-tests.el  #966957
+
 		# Reason: flaky (https://bugs.gnu.org/73441, fails even with the fix)
 		# proced-refine-test
 		%lisp/proced-tests.el
@@ -462,7 +466,6 @@ src_test() {
 		%src/process-tests.el
 	)
 	use threads || exclude_tests+=(
-			%lisp/progmodes/eglot-tests.el
 			%src/emacs-module-tests.el
 			%src/keyboard-tests.el
 		)

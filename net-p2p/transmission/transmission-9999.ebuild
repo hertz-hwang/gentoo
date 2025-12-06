@@ -68,10 +68,6 @@ RDEPEND="${COMMON_DEPEND}
 	${ACCT_DEPEND}
 "
 
-PATCHES=(
-	"${FILESDIR}/transmission-4.1.0-mbedtls-3.patch"
-)
-
 src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_INSTALL_DOCDIR=share/doc/${PF}
@@ -125,8 +121,6 @@ src_install() {
 	newconfd "${FILESDIR}"/transmission-daemon.confd.4 transmission-daemon
 
 	if use systemd; then
-		# Service sets Type=notify
-		systemd_dounit daemon/transmission-daemon.service
 		systemd_install_serviced "${FILESDIR}"/transmission-daemon.service.conf
 	fi
 
