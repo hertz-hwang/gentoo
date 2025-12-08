@@ -14810,7 +14810,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 0.0.116-r1 0.0.117 0.0.117-r1: All-in-one voice and text chat for gamers
+net-im/discord 0.0.116-r1 0.0.117-r1 0.0.118 0.0.118-r1: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.02-r1 24.07 24.10 25.04 25.10: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.4: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -18154,7 +18154,7 @@ www-client/elinks 0.18.0 9999: Advanced and well-established text-mode web brows
 www-client/epiphany 47.7-r1 48.3 48.5: GNOME webbrowser based on Webkit
 www-client/falkon 25.08.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.3.1 140.4.0 140.5.0 143.0 143.0.3 144.0-r1 144.0.2 145.0 145.0.1: Firefox Web Browser
+www-client/firefox 140.3.1 140.4.0 140.5.0 143.0 143.0.3 144.0-r1 144.0.2 145.0 145.0.1 146.0: Firefox Web Browser
 www-client/firefox-bin 140.5.0-r1 145.0-r1 145.0.1 145.0.2 146.0-r1: Firefox Web Browser
 www-client/google-chrome 141.0.7390.107 142.0.7444.175 143.0.7499.40: The web browser from Google
 www-client/google-chrome-beta 142.0.7444.34 143.0.7499.40 144.0.7559.3: The web browser from Google
