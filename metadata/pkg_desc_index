@@ -1144,7 +1144,7 @@ app-arch/dtrx 8.5.3-r2 8.7.0 8.7.1 9999: Do The Right eXtraction - extracts arch
 app-arch/duff 0.5.2: Command-line utility for quickly finding duplicates in a given set of files
 app-arch/dump 0.4.47-r2 0.4.47-r3: Dump/restore ext2fs backup utilities
 app-arch/engrampa 1.28.1 1.28.2: Engrampa archive manager for MATE
-app-arch/file-roller 44.4 44.5: Archive manager for GNOME
+app-arch/file-roller 44.5 44.6: Archive manager for GNOME
 app-arch/funzix 1.0-r1: Unpacker for the bogus ZIX format
 app-arch/gcab 1.6: Library and tool for working with Microsoft Cabinet (CAB) files
 app-arch/gnome-autoar 0.4.5: Automatic archives creating and extracting library
@@ -1808,10 +1808,10 @@ app-editors/featherpad 1.6.2 9999: Lightweight Qt5 Plain-Text Editor for Linux
 app-editors/focuswriter 1.8.10: Fullscreen and distraction-free word processor
 app-editors/gedit 46.2 48.1: A text editor for the GNOME desktop
 app-editors/gedit-plugins 46.0-r1 48.1: Collection of extra plugins for the gedit Text Editor
-app-editors/ghex 46.2 46.3 48.1 9999: GNOME hexadecimal editor
+app-editors/ghex 48.1 48.3 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 25.08.3 25.12.0: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-latex 3.46.0-r1: Integrated LaTeX environment for GNOME
-app-editors/gnome-text-editor 46.3 47.4 48.3: A simple text editor for the GNOME desktop
+app-editors/gnome-text-editor 48.3 49.0: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
 app-editors/gvim 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9999: GUI version of the Vim text editor
 app-editors/helix 25.01.1 25.07.1: A post-modern text editor
@@ -2769,10 +2769,10 @@ app-misc/geekcode 1.7.3-r1: Geek code generator
 app-misc/geneweb 7.1_beta: Genealogy software program with a Web interface
 app-misc/gentoo 0.20.7-r1: Graphical file manager for Unix-like systems, using GTK+
 app-misc/gentoo-elections 0_p20240831: Gentoo election control data and scripts
-app-misc/geoclue 2.7.1 2.7.2: Location information D-Bus service
+app-misc/geoclue 2.7.2 2.8.0: Location information D-Bus service
 app-misc/getopt 1.1.6-r1: getopt(1) replacement supporting GNU-style long options
 app-misc/glcdprocdriver 0.1.2-r1: A glue between the graphlcd-base library from the GraphLCD project
-app-misc/gnote 47.2-r1 48.1 48.2: Desktop note-taking application
+app-misc/gnote 48.2 49.1: Desktop note-taking application
 app-misc/gnuit 4.9.5-r2: GNU Interactive Tools - increase speed and efficiency of most daily tasks
 app-misc/go-jira 1.0.28-r1: A simple JIRA commandline client in Go
 app-misc/gojq 0.12.16 0.12.17: Pure Go implementation of jq with yaml support
@@ -15539,7 +15539,7 @@ net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable fi
 net-p2p/retroshare 0.6.7-r4: Friend to Friend secure communication and sharing application
 net-p2p/rtorrent 0.15.7 0.16.5 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.13.0a_p0 0.14.0a_p0: TUI and CLI for the BitTorrent client Transmission
-net-p2p/syncthing 1.27.12 1.29.5 2.0.8-r1 2.0.10 2.0.11 2.0.12: Open Source Continuous File Synchronization
+net-p2p/syncthing 1.29.5 2.0.10 2.0.11 2.0.12 2.0.12-r1: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
 net-p2p/transmission 4.0.5-r2 4.0.6-r6 4.1.0_beta2-r1 4.1.0_beta3 4.1.0_beta4 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
