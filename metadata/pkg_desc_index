@@ -937,7 +937,7 @@ app-admin/clsync 0.4.5 9999: Live sync tool based on inotify, written in GNU C
 app-admin/clustershell 1.9.3: Python framework for efficient cluster administration
 app-admin/conky 1.22.2: An advanced, highly configurable system monitor for X
 app-admin/conserver 8.2.6-r3 8.2.7_p20250129: Serial Console Manager
-app-admin/consul 1.18.1 1.18.2 1.19.1 1.20.1 1.20.2 1.20.4: A tool for service discovery, monitoring and configuration
+app-admin/consul 1.20.4 1.22.1: A tool for service discovery, monitoring and configuration
 app-admin/consul-replicate 0.4.0_p20211027: Consul cross-DC KV replication daemon
 app-admin/consul-template 0.37.4: Generic template rendering and notifications with Consul
 app-admin/coreboot-utils 4.18-r2 25.06: A selection from coreboot/utils useful in general
@@ -1011,7 +1011,7 @@ app-admin/makepasswd 1.10-r1: Random password generator
 app-admin/mcelog 206 207: A tool to log and decode Machine Check Exceptions
 app-admin/mei-amt-check 0_p20170515: AMT status checker
 app-admin/metalog 20230719: A highly configurable replacement for syslogd/klogd
-app-admin/mkosi 24.3: Build Bespoke OS Images
+app-admin/mkosi 24.3 25.3: Build Bespoke OS Images
 app-admin/mktwpol 1.0.1-r1: Bash scripts to install tripwire and generate tripwire policy files
 app-admin/mongo-tools 100.9.4: A high-performance, open source, schema-free document-oriented database
 app-admin/mongosh-bin 2.0.2 2.3.4: The MongoDB Shell
@@ -17684,9 +17684,9 @@ sys-fs/xfsprogs 6.12.0 6.13.0-r1 6.14.0 6.15.0 6.16.0 6.17.0 6.17.0-r1: XFS file
 sys-fs/xwmfs 0.92: FUSE-based X11 Window-Manager file system
 sys-fs/yaffs2utils 0.2.9-r1: tools for generating YAFFS images
 sys-fs/zerofree 1.1.1-r1: Zeroes out all free space on a filesystem
-sys-fs/zfs 2.1.16 2.2.7 2.2.8 2.2.9 2.3.2 2.3.3 2.3.4 2.3.5 2.4.0_rc3 2.4.0_rc4 2.4.0_rc5 9999: Linux kernel module and userland utilities for ZFS
+sys-fs/zfs 2.1.16 2.2.8 2.2.9 2.3.3 2.3.4 2.3.5 2.4.0_rc4 2.4.0_rc5 9999: Linux kernel module and userland utilities for ZFS
 sys-fs/zfs-auto-snapshot 1.2.4-r2 1.2.4-r3 9999: ZFS Automatic Snapshot Service for Linux
-sys-fs/zfs-kmod 2.1.16 2.2.7 2.2.8 2.2.9 2.3.2 2.3.3 2.3.4 2.3.5 2.4.0_rc1 2.4.0_rc2 2.4.0_rc2-r1: Linux ZFS kernel module for sys-fs/zfs
+sys-fs/zfs-kmod 2.1.16 2.2.8 2.2.9 2.3.3 2.3.4 2.3.5 2.4.0_rc2-r1: Linux ZFS kernel module for sys-fs/zfs
 sys-kernel/asahi-sources 6.15.7_p1 6.16.4_p2: Asahi Linux kernel sources
 sys-kernel/bliss-initramfs 9.3.0: Boot your system's rootfs from Encrypted/OpenZFS
 sys-kernel/cryptodev 1.12 1.13-r1 1.14 9999: device that allows access to Linux kernel cryptographic drivers
