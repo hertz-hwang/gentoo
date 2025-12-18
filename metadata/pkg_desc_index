@@ -1226,7 +1226,7 @@ app-arch/wimlib 1.14.4-r1: The open source Windows Imaging (WIM) library
 app-arch/xar 1.8.0.0.498-r1: An easily extensible archive format
 app-arch/xarchiver 0.5.4.26: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
-app-arch/xz-utils 5.6.4-r2 5.8.1-r1 9999: Utils for managing LZMA compressed files
+app-arch/xz-utils 5.6.4-r2 5.8.1-r1 5.8.2 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 1.5.1 9999: File format designed for highly efficient deltas with good compression
 app-arch/zip 3.0-r7: Info ZIP (encryption support)
 app-arch/zoo 2.10-r6: Manipulate archives of files in compressed form
@@ -8766,7 +8766,7 @@ dev-python/markdown2 2.5.3 2.5.4: Python Markdown language reimplementation
 dev-python/markups 4.1.1: A wrapper around various text markups
 dev-python/markupsafe 3.0.2 3.0.3: Implements a XML/HTML/XHTML Markup safe string for Python
 dev-python/marshmallow 3.26.1-r1 4.1.0 4.1.1: A library for converting to and from native Python datatypes
-dev-python/matplotlib 3.10.1 3.10.3 3.10.5 3.10.6 3.10.7 3.10.8: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.10.1 3.10.3 3.10.5 3.10.6 3.10.7-r1 3.10.8-r1: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.1.7 0.2.1: Inline Matplotlib backend for Jupyter
 dev-python/matplotlib-venn 1.1.2: Plot area-proportional two- and three-way Venn diagrams in matplotlib
 dev-python/matrix-common 1.3.0-r1: Common code for Synapse, Sydent and Sygnal
@@ -14852,7 +14852,7 @@ net-im/spectrum2 2.2.1 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.141.0 1.142.1 1.143.0 1.144.0: Reference implementation of Matrix homeserver
 net-im/telegram-desktop 6.2.4 6.3.8: Official desktop client for Telegram
-net-im/telegram-desktop-bin 6.3.0 6.3.1 6.3.4: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 6.3.4 6.3.9: Official desktop client for Telegram (binary package)
 net-im/telepathy-logger 0.8.2-r2 0.8.2_p4-r1: Daemon that centralizes the communication logging within the Telepathy framework
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
 net-im/tkabber 1.1.2: A jabber client written in Tcl/Tk
@@ -15329,7 +15329,7 @@ net-misc/ndppd 0.2.6: Proxies NDP messages between interfaces
 net-misc/nemesis 1.8: A commandline-based, portable human IP stack for UNIX/Linux
 net-misc/netdate 1.2-r2: Utility to set date and time by ARPA Internet RFC 868
 net-misc/netevent 2.2.2: Tool to share Linux event devices with other machines
-net-misc/netifrc 0.7.7 0.7.8-r1 0.7.9 0.7.11 0.7.12 9999: Gentoo Network Interface Management Scripts
+net-misc/netifrc 0.7.7 0.7.8-r1 0.7.9 0.7.11 0.7.12 0.7.13 9999: Gentoo Network Interface Management Scripts
 net-misc/netkit-bootparamd 0.17-r5: Netkit - bootparamd: Net-boot support daemon
 net-misc/netkit-bootpd 2.4-r2: Netkit - bootp
 net-misc/netkit-fingerd 0.17-r3: Netkit - fingerd and finger client
