@@ -12710,7 +12710,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.11_pre20251208: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.11_pre20251217: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.17.1.9 8.18.1 8.18.1-r3 8.18.1.10-r3 8.18.1.15-r1 8.18.1.16: Widely-used Mail Transport Agent (MTA)
@@ -13902,7 +13902,7 @@ media-radio/cwdaemon 0.13.0: A morse daemon for the parallel or serial port
 media-radio/direwolf 1.7-r1 1.8 1.8.1: Decoded Information from Radio Emissions for Windows Or Linux Fans
 media-radio/dxcc 20191204-r1: A ham radio callsign DXCC lookup utility
 media-radio/flamp 2.2.07 2.2.14: Fldigi helper for transferring files
-media-radio/fldigi 4.2.09 4.2.10: Sound card based multimode software modem for Amateur Radio use
+media-radio/fldigi 4.2.09 4.2.10 4.2.11: Sound card based multimode software modem for Amateur Radio use
 media-radio/flmsg 4.0.23 4.0.24: Fldigi helper for creating radiograms
 media-radio/flrig 2.0.09: Transceiver control program for Amateur Radio use
 media-radio/fsync-mdc1200-decode 1.0-r1 9999: Linux Fleetsync / MDC1200 decoder
