@@ -10104,7 +10104,7 @@ dev-ruby/http_parser_rb 0.8.0: Simple callback-based HTTP request/response parse
 dev-ruby/httparty 0.23.1 0.23.2: Makes http fun! Also, makes consuming restful web services dead easy
 dev-ruby/httpauth 0.2.1-r1: Library implementing the full HTTP Authentication protocol (RFC 2617)
 dev-ruby/httpclient 2.8.3-r3 2.9.0: 'httpclient' gives something like the functionality of libwww-perl (LWP) in Ruby
-dev-ruby/i18n 1.14.7: Add Internationalization support to your Ruby application
+dev-ruby/i18n 1.14.7 1.14.8: Add Internationalization support to your Ruby application
 dev-ruby/ice_nine 0.11.2-r2: Deep Freeze Ruby Objects
 dev-ruby/idn-ruby 0.1.5: LibIDN Ruby Bindings
 dev-ruby/image_processing 1.13.0 1.14.0: High-level image processing helper methods with libvips and ImageMagick
@@ -11049,7 +11049,7 @@ dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0: Callback/Activity Library for Perfor
 dev-util/ropper 1.13.10 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rpmdevtools 9.6: Collection of rpm packaging related utilities
 dev-util/rt-tests 2.8 2.9: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.13.1 0.14.4 0.14.5 0.14.6 0.14.7 0.14.8 0.14.9 0.14.10: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.13.1 0.14.6 0.14.7 0.14.8 0.14.9 0.14.10: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
