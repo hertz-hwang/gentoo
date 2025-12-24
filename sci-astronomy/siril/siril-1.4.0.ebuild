@@ -68,6 +68,9 @@ BDEPEND="
 
 PATCHES=(
 	"${FILESDIR}/${PN}-1.4-docfiles.patch"
+	"${FILESDIR}/${PN}-1.4.0-libgit2.patch"
+	"${FILESDIR}/${PN}-1.4.0-libjpeg.patch"
+	"${FILESDIR}/${PN}-1.4.0-libcurl.patch"
 )
 
 DOCS=( README.md ChangeLog AUTHORS )
