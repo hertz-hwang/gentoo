@@ -12725,7 +12725,7 @@ mate-base/mate-applets-meta 1.28.0: Meta package for MATE panel applets
 mate-base/mate-common 1.28.0: Common files for development of MATE packages
 mate-base/mate-control-center 1.28.0-r2: The MATE Desktop configuration tool
 mate-base/mate-desktop 1.28.2: Libraries for the MATE desktop that are not part of the UI
-mate-base/mate-menus 1.28.0: MATE menu system, implementing the F.D.O cross-desktop spec
+mate-base/mate-menus 1.28.0 1.28.0-r1: MATE menu system, implementing the F.D.O cross-desktop spec
 mate-base/mate-panel 1.28.1-r1 1.28.4-r1: The MATE panel
 mate-base/mate-session-manager 1.28.0-r1: MATE session manager
 mate-base/mate-settings-daemon 1.28.0-r2: MATE Settings Daemon
@@ -16446,7 +16446,7 @@ sci-ml/FP16 2024.05.27-r1 2024.06.20: conversion to/from half-precision floating
 sci-ml/NNPACK 2020.12.22-r4: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.11.08-r1 2024.12.03: library of floating-point neural network inference operators
 sci-ml/accelerate 1.7.0-r1: Run your *raw* PyTorch training script on any kind of device
-sci-ml/caffe2 2.8.0-r2 2.9.0-r3 2.9.1-r1: A deep learning framework
+sci-ml/caffe2 2.8.0-r2 2.9.1-r1: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 3.5.0: Access and share datasets for Audio, Computer Vision, and NLP tasks
