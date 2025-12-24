@@ -3803,7 +3803,7 @@ dev-ada/lal-refactor 25.0.0-r2: Refactoring tools for the Ada programming langua
 dev-ada/langkit 24.0.0-r2 25.0.0-r7: A Python framework to generate language parsers
 dev-ada/langkit-contrib 25.0.0-r2: A Python framework to generate language parsers - Contrib
 dev-ada/libadalang 25.0.0-r1: high performance semantic engine for the Ada programming language
-dev-ada/libadalang-tools 25.0.0-r2: Libadalang-based tools: gnatpp, gnatmetric and gnatstub
+dev-ada/libadalang-tools 25.0.0-r3: Libadalang-based tools: gnatpp, gnatmetric and gnatstub
 dev-ada/libgpr 25.0.0-r3 26.0.0: Ada library to handle GPRbuild project files
 dev-ada/markdown 25.0.0-r2: Provides a markdown parser written in Ada
 dev-ada/prettier-ada 25.0.0-r3: Port of the Prettier formatter to the Ada programming language
@@ -17840,7 +17840,7 @@ sys-power/suspend 1.0_p20200924: Userspace Software Suspend and S2Ram
 sys-power/switcheroo-control 2.6-r2 3.0: D-Bus service to check the availability of dual-GPU
 sys-power/thermald 2.5.9 2.5.10: Thermal daemon for Intel architectures
 sys-power/throttled 0.10.0 0.11: Daemon to work around throttling issues on some Intel laptops
-sys-power/tlp 1.8.0-r1 1.9.0-r1: Optimize laptop battery life
+sys-power/tlp 1.8.0-r1 1.9.0-r2: Optimize laptop battery life
 sys-power/uhubctl 2.5.0: USB hub per-port power control
 sys-power/upower 1.90.7 1.90.9: D-Bus abstraction for enumerating power devices, querying history and statistics
 sys-power/wluma 4.3.0-r3 4.4.0-r2 4.9.0: Automatic brightness adjustment based on screen contents and ALS
