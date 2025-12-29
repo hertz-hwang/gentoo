@@ -1951,7 +1951,7 @@ app-emacs/compat 30.1.0.1: Compatibility libraries for Emacs
 app-emacs/cond-let 0.1.1 0.2.0: Additional and improved binding conditionals for GNU Emacs
 app-emacs/consult 3.0 3.1 9999: Consulting complete-read for GNU Emacs
 app-emacs/consult-flycheck 1.0: Consult integration for Flycheck
-app-emacs/corfu 2.5 2.6 9999: Completion Overlay Region FUnction
+app-emacs/corfu 2.5 2.6 2.7 9999: Completion Overlay Region FUnction
 app-emacs/counsel 0.15.1: Versions of common Emacs commands customized to make the best use of ivy
 app-emacs/crontab-mode 1.20: Mode for editing crontab files
 app-emacs/crux 0.4.0 0.5.0: Collection of Ridiculously Useful eXtensions for GNU Emacs
@@ -2187,12 +2187,12 @@ app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
 app-emacs/orderless 1.4 1.5: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.7: Contributed packages to Org
-app-emacs/org-mode 9.7.37 9.7.38 9.7.39 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.7.38 9.7.39 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 1.10 1.11 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 2.3.0 2.3.1 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
 app-emacs/org-superstar-mode 1.5.0: Prettify headings and plain lists in Org mode (use UTF8 bullets)
-app-emacs/osm 1.9 1.10 1.12 9999: OpenStreetMap tile-based viewer for GNU Emacs
+app-emacs/osm 1.9 1.12 2.0 9999: OpenStreetMap tile-based viewer for GNU Emacs
 app-emacs/outline-magic 0.9: Outline mode extensions for Emacs
 app-emacs/package-build 4.0.0: Tools for assembling a package archive
 app-emacs/package-lint 0.26: Linting library for Emacs Lisp package metadata
@@ -3141,7 +3141,7 @@ app-shells/posh-z 1.1.12_p20230811: Quickly navigate the file system based on yo
 app-shells/powerline 2.8.4 9999: The ultimate statusline/prompt utility
 app-shells/psh 1.8.1-r4: Combines the interactive nature of a Unix shell with the power of Perl
 app-shells/push 3.4: A POSIX shell function to treat a variable like an array, quoting args
-app-shells/pwsh 7.5.4 7.5.4-r1: Cross-platform automation and configuration tool
+app-shells/pwsh 7.5.4 7.5.4-r2: Cross-platform automation and configuration tool
 app-shells/pwsh-bin 7.5.2-r1 7.5.3 7.5.4: Cross-platform automation and configuration tool (binary package)
 app-shells/quoter 4.2: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/rc 1.7.4-r3: A reimplementation of the Plan 9 shell
@@ -3953,7 +3953,7 @@ dev-cpp/taskflow 3.6.0 3.7.0 3.10.0 9999: Modern C++ Parallel Task Programming
 dev-cpp/tbb 2020.3 2021.7.0-r1 2021.9.0 2021.12.0 2021.13.0 2022.0.0-r1 2022.1.0 2022.3.0: High level abstract threading library
 dev-cpp/tclap 1.2.5: Simple templatized C++ library for parsing command line arguments
 dev-cpp/termcolor 2.1.0: A header-only C++ library for printing colored messages to the terminal
-dev-cpp/tlfloat 1.5.0_p20250711: C++ template library for floating point operations
+dev-cpp/tlfloat 1.15.0_p20250711: C++ template library for floating point operations
 dev-cpp/toml11 4.3.0 4.4.0: TOML for Modern C++
 dev-cpp/tomlplusplus 3.4.0: TOML config file parser and serializer
 dev-cpp/tree 3.18: An STL-like tree class
@@ -5189,7 +5189,7 @@ dev-lang/dafny-bin 4.10.0-r1 4.11.0-r1: Verification-aware programming language
 dev-lang/deno-bin 2.5.6 2.6.0 2.6.1 2.6.2 2.6.3: Modern runtime for JavaScript and TypeScript
 dev-lang/duktape 2.7.0-r3: Embeddable Javascript engine
 dev-lang/dzaima-bqn 0.2.1 9999: A BQN language implementation written in Java, also know as dbqn
-dev-lang/eisl 5.56 5.58 5.61: Interpreter and compiler compatible with the ISLisp standard
+dev-lang/eisl 5.58 5.61: Interpreter and compiler compatible with the ISLisp standard
 dev-lang/elixir 1.15.7 1.15.8 1.16.2 1.16.3 1.17.2 1.17.3 1.18.4 1.19.0: Elixir programming language
 dev-lang/elpi 1.19.6-r1 2.0.7: Embeddable Lambda Prolog Interpreter in OCaml
 dev-lang/erlang 26.2.1-r1 26.2.5.16 27.3.4.6 28.1 28.2 28.3: Erlang programming language, runtime environment and libraries (OTP)
@@ -6187,7 +6187,7 @@ dev-ml/reason 3.17.0 3.17.2: Simple, fast & type safe language that leverages Ja
 dev-ml/record_builder 0.17.0-r1: A library which provides traversal of records with an applicative
 dev-ml/result 1.5: Compat result type
 dev-ml/rresult 0.7.0: Result value combinators for OCaml
-dev-ml/sedlex 3.3-r1 3.6: An OCaml lexer generator for Unicode
+dev-ml/sedlex 3.3-r1 3.6 3.7: An OCaml lexer generator for Unicode
 dev-ml/seq 0.3.1-r1: Compatibility package for the standard OCaml iterator type
 dev-ml/sexp_pretty 0.16.0 0.17.0-r1: S-expression pretty-printer
 dev-ml/sexplib 0.16.0-r1 0.17.0: Library for automated conversion of OCaml-values to and from S-expressions
@@ -11077,7 +11077,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.0 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.321.0 1.4.328.0 1.4.335.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 15.0.15 15.0.17 15.0.18 15.0.19 16.0.15 16.0.17 16.0.18 16.0.19 17.0.15 17.0.17 17.0.18 17.0.19 18.1.15 18.1.17 18.1.18 18.1.19 19.1.10 19.1.12 19.1.13 19.1.14 20.1.5 20.1.7 20.1.8 20.1.9 21.1.1 21.1.2 21.1.3 22.0.0_pre20251107 22.0.0_pre20251123: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 15.0.15 15.0.18 15.0.19 16.0.15 16.0.18 16.0.19 17.0.15 17.0.18 17.0.19 18.1.15 18.1.18 18.1.19 19.1.10 19.1.13 19.1.14 20.1.5 20.1.8 20.1.9 21.1.3 22.0.0_pre20251107 22.0.0_pre20251123: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.321.0 1.4.328.0 1.4.335.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -12145,7 +12145,7 @@ gui-apps/wf-shell 0.10.0-r1 9999: Compiz like 3D wayland compositor
 gui-apps/wl-clipboard 2.2.1-r1 9999: Wayland clipboard utilities
 gui-apps/wmenu 0.2.0 9999: dynamic menu for wlroots compositors, maintains the look and feel of dmenu
 gui-apps/wofi 1.4.1 9999: Wofi is a launcher/menu program for wlroots based wayland compositors like sway
-gui-apps/xwaylandvideobridge 0.4.0-r1 0.4.0_p20250215: Screenshare Wayland windows to XWayland apps
+gui-apps/xwaylandvideobridge 0.4.0_p20250215-r1: Screenshare Wayland windows to XWayland apps
 gui-libs/amtk 5.6.1: Actions, Menus and Toolbars Kit for GTK+ applications
 gui-libs/aquamarine 0.8.0-r1 0.9.2 0.9.3 9999: Aquamarine is a very light linux rendering backend library
 gui-libs/display-manager-init 1.1.2-r3: RC init files for starting display and login managers
@@ -12504,77 +12504,77 @@ kde-misc/skanlite 25.08.3 25.12.0: Simple image scanning application based on li
 kde-misc/tellico 4.1.4: Collection manager based on KDE Frameworks
 kde-misc/zanshin 25.08.3 25.12.0: Getting things done application by KDE
 kde-plasma/aurorae 6.4.5 6.5.4: Themeable window decoration for KWin
-kde-plasma/bluedevil 6.4.5 6.5.4: Bluetooth stack for KDE Plasma
+kde-plasma/bluedevil 6.5.4: Bluetooth stack for KDE Plasma
 kde-plasma/breeze 6.4.5 6.5.0 6.5.4: Breeze visual style for the Plasma desktop
-kde-plasma/breeze-grub 6.4.5 6.5.4: Breeze theme for GRUB
-kde-plasma/breeze-gtk 6.4.5 6.5.4: Official GTK+ port of Plasma's Breeze widget style
-kde-plasma/breeze-plymouth 6.4.5 6.5.4: Breeze theme for Plymouth
-kde-plasma/discover 6.4.5 6.5.4: KDE Plasma resources management GUI
-kde-plasma/drkonqi 6.4.5 6.5.4: Plasma crash handler, gives the user feedback if a program crashed
+kde-plasma/breeze-grub 6.5.4: Breeze theme for GRUB
+kde-plasma/breeze-gtk 6.5.4: Official GTK+ port of Plasma's Breeze widget style
+kde-plasma/breeze-plymouth 6.5.4: Breeze theme for Plymouth
+kde-plasma/discover 6.5.4: KDE Plasma resources management GUI
+kde-plasma/drkonqi 6.5.4: Plasma crash handler, gives the user feedback if a program crashed
 kde-plasma/drkonqi-legacy 6.3.80_p20250417: Plasma crash handler, gives the user feedback if a program crashed
-kde-plasma/flatpak-kcm 6.4.5 6.5.4: Flatpak Permissions Management KCM
+kde-plasma/flatpak-kcm 6.5.4: Flatpak Permissions Management KCM
 kde-plasma/kactivitymanagerd 6.4.5 6.5.4: System service to manage user's activities, track the usage patterns etc.
-kde-plasma/kde-cli-tools 6.4.5 6.5.4: Tools based on KDE Frameworks 6 to better interact with the system
+kde-plasma/kde-cli-tools 6.5.4: Tools based on KDE Frameworks 6 to better interact with the system
 kde-plasma/kde-cli-tools-common 6.4.5 6.5.4: Common files for kde-cli-tools
-kde-plasma/kde-gtk-config 6.4.5 6.5.4: Syncs KDE Plasma theme settings to GTK applications
+kde-plasma/kde-gtk-config 6.5.4: Syncs KDE Plasma theme settings to GTK applications
 kde-plasma/kdecoration 6.4.5 6.5.4: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 6.4.5 6.5.4: Extra Plasma applets and engines
+kde-plasma/kdeplasma-addons 6.5.4: Extra Plasma applets and engines
 kde-plasma/kdesu-gui 6.4.5 6.5.4: Graphical frontend for KDE Frameworks' kdesu
 kde-plasma/keditfiletype 6.4.5 6.5.4: File Type Editor
-kde-plasma/kgamma 6.4.5 6.5.4: Screen gamma values kcontrol module
+kde-plasma/kgamma 6.5.4: Screen gamma values kcontrol module
 kde-plasma/kglobalacceld 6.4.5 6.5.4: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
-kde-plasma/kinfocenter 6.4.5 6.5.4: Utility providing information about the computer hardware
-kde-plasma/kmenuedit 6.4.5 6.5.4: KDE Plasma menu editor
+kde-plasma/kinfocenter 6.5.4: Utility providing information about the computer hardware
+kde-plasma/kmenuedit 6.5.4: KDE Plasma menu editor
 kde-plasma/knighttime 6.5.4: Helpers for scheduling the dark-light cycle
 kde-plasma/kpipewire 6.4.5 6.5.4: Components relating to Flatpak pipewire use in Plasma
-kde-plasma/krdp 6.4.5 6.5.4: Library and examples for creating an RDP server
-kde-plasma/kscreen 6.4.5 6.5.4: KDE Plasma screen management
+kde-plasma/krdp 6.5.4: Library and examples for creating an RDP server
+kde-plasma/kscreen 6.5.4: KDE Plasma screen management
 kde-plasma/kscreenlocker 6.4.5 6.5.4: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 6.4.5 6.5.4: Implementation of ssh-askpass with KDE Wallet integration
-kde-plasma/ksystemstats 6.4.5 6.5.4: Plugin-based system monitoring daemon
-kde-plasma/kwallet-pam 6.4.5-r1 6.5.4: PAM module to not enter KWallet password again after login
+kde-plasma/ksshaskpass 6.5.4: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/ksystemstats 6.5.4: Plugin-based system monitoring daemon
+kde-plasma/kwallet-pam 6.5.4: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 5.116.0-r1 6.4.5 6.5.4: Qt-style API to interact with the wayland-client API
 kde-plasma/kwayland-integration 6.4.5 6.5.4: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.4.5-r1 6.5.4 6.5.4-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.4.5-r1 6.5.4-r1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.4.5 6.5.4: Flexible, composited X window manager
-kde-plasma/kwrited 6.4.5 6.5.4: KDE Plasma daemon listening for wall and write messages
+kde-plasma/kwrited 6.5.4: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.4.5 6.5.4: Qt component to allow applications make use of Wayland wl-layer-shell protocol
 kde-plasma/libkscreen 6.4.5 6.5.4: Plasma screen management library
 kde-plasma/libksysguard 6.4.5 6.5.4: Task management and system monitoring library
 kde-plasma/libplasma 6.4.5 6.5.4: Plasma library and runtime components based upon KF6 and Qt6
 kde-plasma/milou 6.4.5 6.5.4: Dedicated search application built on top of Baloo
-kde-plasma/ocean-sound-theme 6.4.5 6.5.4: Ocean Sound Theme for Plasma
-kde-plasma/oxygen 6.4.5 6.5.0 6.5.4: Oxygen visual style for the Plasma desktop
-kde-plasma/oxygen-sounds 6.4.5 6.5.4: Oxygen sound theme for the Plasma desktop
+kde-plasma/ocean-sound-theme 6.5.4: Ocean Sound Theme for Plasma
+kde-plasma/oxygen 6.5.0 6.5.4: Oxygen visual style for the Plasma desktop
+kde-plasma/oxygen-sounds 6.5.4: Oxygen sound theme for the Plasma desktop
 kde-plasma/plasma-activities 6.4.5 6.5.4: Core components for KDE's Activities System
 kde-plasma/plasma-activities-stats 6.4.5 6.5.4: Library for accessing usage data collected by the activities system
-kde-plasma/plasma-browser-integration 6.4.5 6.5.4: Integrate Chrome/Firefox better into Plasma through browser extensions
-kde-plasma/plasma-desktop 6.4.5-r1 6.5.4: KDE Plasma desktop
-kde-plasma/plasma-disks 6.4.5 6.5.4: Monitors S.M.A.R.T. capable devices for imminent failure
-kde-plasma/plasma-firewall 6.4.5 6.5.4: Plasma frontend for Firewalld or UFW
+kde-plasma/plasma-browser-integration 6.5.4: Integrate Chrome/Firefox better into Plasma through browser extensions
+kde-plasma/plasma-desktop 6.5.4: KDE Plasma desktop
+kde-plasma/plasma-disks 6.5.4: Monitors S.M.A.R.T. capable devices for imminent failure
+kde-plasma/plasma-firewall 6.5.4: Plasma frontend for Firewalld or UFW
 kde-plasma/plasma-integration 6.4.5 6.5.0 6.5.4: Qt Platform Theme integration plugins for the Plasma workspaces
 kde-plasma/plasma-login-sessions 6.4.5 6.5.4: KDE Plasma login sessions
-kde-plasma/plasma-meta 6.4.5-r2 6.5.4: Merge this to pull in all Plasma 6 packages
+kde-plasma/plasma-meta 6.5.4: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-mimeapps-list 3: Gentoo curated mimeapps list for KDE Plasma
-kde-plasma/plasma-nm 6.4.5 6.5.4: KDE Plasma applet for NetworkManager
-kde-plasma/plasma-pa 6.4.5 6.5.4: Plasma applet for audio volume management using PulseAudio
-kde-plasma/plasma-sdk 6.4.5 6.5.4: Useful applications for Plasma development
-kde-plasma/plasma-systemmonitor 6.4.5 6.5.4: Monitor system sensors, process information and other system resources
-kde-plasma/plasma-thunderbolt 6.4.5 6.5.4: Plasma integration for controlling Thunderbolt devices
-kde-plasma/plasma-vault 6.4.5 6.5.4: Plasma applet and services for creating encrypted vaults
-kde-plasma/plasma-welcome 6.4.5 6.5.4: Friendly onboarding wizard for Plasma
+kde-plasma/plasma-nm 6.5.4: KDE Plasma applet for NetworkManager
+kde-plasma/plasma-pa 6.5.4: Plasma applet for audio volume management using PulseAudio
+kde-plasma/plasma-sdk 6.5.4: Useful applications for Plasma development
+kde-plasma/plasma-systemmonitor 6.5.4: Monitor system sensors, process information and other system resources
+kde-plasma/plasma-thunderbolt 6.5.4: Plasma integration for controlling Thunderbolt devices
+kde-plasma/plasma-vault 6.5.4: Plasma applet and services for creating encrypted vaults
+kde-plasma/plasma-welcome 6.5.4: Friendly onboarding wizard for Plasma
 kde-plasma/plasma-workspace 6.4.5-r3 6.5.4: KDE Plasma workspace
-kde-plasma/plasma-workspace-wallpapers 6.4.5 6.5.4: Wallpapers for the Plasma workspace
+kde-plasma/plasma-workspace-wallpapers 6.5.4: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.4.5 6.5.4: Support components for porting from KF5/Qt5 to KF6/Qt6
-kde-plasma/plymouth-kcm 6.4.5 6.5.4: KDE Plasma control module for Plymouth
+kde-plasma/plymouth-kcm 6.5.4: KDE Plasma control module for Plymouth
 kde-plasma/polkit-kde-agent 6.4.5 6.5.4: PolKit agent module for KDE Plasma
-kde-plasma/powerdevil 6.4.5-r1 6.5.4: Power management for KDE Plasma Shell
-kde-plasma/print-manager 6.4.5 6.5.4: Manage CUPS print jobs and printers in Plasma
-kde-plasma/qqc2-breeze-style 6.4.5 6.5.4: Breeze inspired QQC2 Style
-kde-plasma/sddm-kcm 6.4.5-r1 6.5.4: KDE Plasma control module for SDDM
-kde-plasma/spectacle 6.4.5 6.5.4: Screenshot capture utility
-kde-plasma/systemsettings 6.4.5 6.5.4: Control Center to configure KDE Plasma desktop
-kde-plasma/wacomtablet 6.4.5 6.5.4: Wacom system settings module that supports different button/pen layout profiles
+kde-plasma/powerdevil 6.5.4: Power management for KDE Plasma Shell
+kde-plasma/print-manager 6.5.4: Manage CUPS print jobs and printers in Plasma
+kde-plasma/qqc2-breeze-style 6.5.4: Breeze inspired QQC2 Style
+kde-plasma/sddm-kcm 6.5.4: KDE Plasma control module for SDDM
+kde-plasma/spectacle 6.5.4: Screenshot capture utility
+kde-plasma/systemsettings 6.5.4: Control Center to configure KDE Plasma desktop
+kde-plasma/wacomtablet 6.5.4: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.4.5 6.5.4: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 llvm-core/clang 15.0.7-r3 16.0.6-r1 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.0.0_pre20251127 22.0.0_pre20251223 22.0.0.9999: C language family frontend for LLVM
 llvm-core/clang-common 15.0.7-r10 16.0.6-r6 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.0.0_pre20251127 22.0.0_pre20251223 22.0.0.9999: Common files shared between multiple slots of clang
@@ -14165,7 +14165,7 @@ media-sound/pulsemixer 1.5.1-r2 9999: CLI and curses mixer for PulseAudio
 media-sound/pwavecat 0.4.5-r1: Concatenates any number of audio files to stdout
 media-sound/qastools 1.4.0: Qt GUI ALSA tools: mixer, configuration browser
 media-sound/qjackctl 1.0.4 9999: Qt GUI to control the JACK Audio Connection Kit and ALSA sequencer connections
-media-sound/qmidiarp 0.7.1_p20251217-r1: Arpeggiator, sequencer and MIDI LFO for ALSA
+media-sound/qmidiarp 0.7.2: Arpeggiator, sequencer and MIDI LFO for ALSA
 media-sound/qmidiroute 0.4.0-r1: QMidiRoute is a filter/router for MIDI events
 media-sound/qmmp 2.2.6 2.2.8 2.3.0 9999: Qt-based audio player with winamp/xmms skins support
 media-sound/qpaeq 17.0: Equalizer interface for equalizer sinks of PulseAudio (networked sound server)
@@ -17707,7 +17707,7 @@ sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-
 sys-kernel/gentoo-kernel 5.10.246 5.10.247 5.15.196 5.15.197 6.1.158 6.1.159 6.6.116 6.6.117 6.6.118 6.6.119 6.12.58 6.12.59 6.12.60 6.12.61 6.12.62 6.12.63 6.17.9 6.17.10 6.17.11 6.17.12 6.17.13 6.18.1 6.18.2: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.246 5.10.247 5.15.196 5.15.197 6.1.158 6.1.159 6.6.116 6.6.117 6.6.118 6.6.119 6.12.58 6.12.59 6.12.60 6.12.61 6.12.62 6.12.63 6.17.9 6.17.10 6.17.11 6.17.12 6.17.13 6.18.1 6.18.2: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.242 5.10.243 5.10.244 5.10.245 5.10.246 5.10.247 5.15.191 5.15.192 5.15.193 5.15.194 5.15.195 5.15.196 5.15.197 6.1.153 6.1.154 6.1.155 6.1.156 6.1.157 6.1.158 6.1.159 6.6.111 6.6.112 6.6.113 6.6.114 6.6.115 6.6.116 6.6.117 6.6.118 6.6.119 6.12.54 6.12.55 6.12.56 6.12.57 6.12.58 6.12.59 6.12.60 6.12.61 6.12.62 6.12.63 6.17.5-r1 6.17.6 6.17.7 6.17.8 6.17.9 6.17.10 6.17.11 6.17.12 6.17.13 6.18.0 6.18.1 6.18.2: Full sources including the Gentoo patchset for the 6.18 kernel tree
-sys-kernel/git-sources 6.19_rc1 6.19_rc2: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 6.19_rc1 6.19_rc2 6.19_rc3: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 50 60 62 63 65 9999: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
