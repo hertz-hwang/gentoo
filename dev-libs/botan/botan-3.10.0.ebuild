@@ -3,9 +3,9 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( python3_{11..14} )
 VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/botan.asc
-inherit edo flag-o-matic multiprocessing python-r1 toolchain-funcs verify-sig
+inherit edo dot-a flag-o-matic multiprocessing ninja-utils python-r1 toolchain-funcs verify-sig
 
 MY_P="Botan-${PV}"
 DESCRIPTION="C++ crypto library"
@@ -17,14 +17,8 @@ S="${WORKDIR}/${MY_P}"
 LICENSE="BSD-2"
 # New major versions are parallel-installable
 SLOT="$(ver_cut 1)/$(ver_cut 1-2)" # soname version
-KEYWORDS="amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv ~sparc x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
 IUSE="doc boost bzip2 lzma python static-libs sqlite test tools zlib"
-CPU_USE=(
-	cpu_flags_arm_{aes,neon}
-	cpu_flags_ppc_altivec
-	cpu_flags_x86_{aes,avx2,popcnt,rdrand,sha,sse2,ssse3,sse4_1,sse4_2}
-)
-IUSE+=" ${CPU_USE[@]}"
 RESTRICT="!test? ( test )"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
@@ -39,13 +33,18 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
-	!<dev-libs/botan-3.0.0-r1:3[tools]
+	!<dev-libs/botan-2.19.3-r1:2[tools]
 "
 BDEPEND="
 	${PYTHON_DEPS}
+	${NINJA_DEPEND}
 	$(python_gen_any_dep '
-		doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
+		doc? (
+			dev-python/sphinx[${PYTHON_USEDEP}]
+			dev-python/furo[${PYTHON_USEDEP}]
+		)
 	')
+	|| ( >=sys-devel/gcc-11:* >=llvm-core/clang-14:* )
 	verify-sig? ( sec-keys/openpgp-keys-botan )
 "
 
@@ -53,19 +52,23 @@ BDEPEND="
 # Please see upstream's guidance:
 # https://botan.randombit.net/handbook/packaging.html#minimize-distribution-patches
 
-PATCHES=(
-	"${FILESDIR}"/${P}-no-distutils.patch
-	"${FILESDIR}"/${P}-boost-1.87.patch
-	"${FILESDIR}"/${P}-cloudflare.patch
-	"${FILESDIR}"/${P}-include.patch
-)
-
 python_check_deps() {
 	use doc || return 0
-	python_has_version "dev-python/sphinx[${PYTHON_USEDEP}]"
+	python_has_version "dev-python/sphinx[${PYTHON_USEDEP}]" &&
+	python_has_version "dev-python/furo[${PYTHON_USEDEP}]"
+}
+
+pkg_pretend() {
+	[[ ${MERGE_TYPE} == binary ]] && return
+
+	# bug #908958
+	tc-check-min_ver gcc 11
+	tc-check-min_ver clang 14
 }
 
 src_configure() {
+	tc-export AR CC CXX
+	use static-libs && lto-guarantee-fat
 	python_setup
 
 	local disable_modules=(
@@ -107,24 +110,8 @@ src_configure() {
 	fi
 
 	local myargs=(
-		# Intrinsics
-		# TODO: x86 RDSEED (new CPU_FLAGS_X86?)
-		# TODO: POWER Crypto (new CPU_FLAGS_PPC?)
-		$(usev !cpu_flags_arm_aes '--disable-armv8crypto')
-		$(usev !cpu_flags_arm_neon '--disable-neon')
-		$(usev !cpu_flags_ppc_altivec '--disable-altivec')
-		$(usev !cpu_flags_x86_aes '--disable-aes-ni')
-		$(usev !cpu_flags_x86_avx2 '--disable-avx2')
-		$(usev !cpu_flags_x86_popcnt '--disable-bmi2')
-		$(usev !cpu_flags_x86_rdrand '--disable-rdrand')
-		$(usev !cpu_flags_x86_sha '--disable-sha-ni')
-		$(usev !cpu_flags_x86_sse2 '--disable-sse2')
-		$(usev !cpu_flags_x86_ssse3 '--disable-ssse3')
-		$(usev !cpu_flags_x86_sse4_1 '--disable-sse4.1')
-		$(usev !cpu_flags_x86_sse4_2 '--disable-sse4.2')
-
-		# HPPA's GCC doesn't support SSP
-		$(usev hppa '--without-stack-protector')
+		# We already set this by default in the toolchain
+		--without-stack-protector
 
 		$(use_with boost)
 		$(use_with bzip2)
@@ -135,6 +122,7 @@ src_configure() {
 		$(use_with sqlite sqlite3)
 		$(use_with zlib)
 
+		--build-tool=ninja
 		--cpu=${chostarch}
 		--docdir=share/doc
 		--disable-modules=$(IFS=","; echo "${disable_modules[*]}")
@@ -150,7 +138,7 @@ src_configure() {
 
 		--os=${myos}
 		--prefix="${EPREFIX}"/usr
-		--with-endian="$(tc-endian)"
+		--lto-cxxflags-to-ldflags
 		--with-python-version=$(IFS=","; echo "${pythonvers[*]}")
 	)
 
@@ -165,13 +153,11 @@ src_configure() {
 		--build-targets=$(IFS=","; echo "${build_targets[*]}")
 	)
 
-	if use elibc_glibc && use kernel_linux ; then
+	if ( use elibc_glibc || use elibc_musl ) && use kernel_linux ; then
 		myargs+=(
 			--with-os-features=getrandom,getentropy
 		)
 	fi
-
-	tc-export AR CC CXX
 
 	local sanitizers=()
 	if is-flagq -fsanitize=address ; then
@@ -188,12 +174,18 @@ src_configure() {
 	edo ${EPYTHON} configure.py --verbose "${myargs[@]}"
 }
 
+src_compile() {
+	eninja
+}
+
 src_test() {
 	LD_LIBRARY_PATH="${S}" edo ./botan-test$(ver_cut 1) --test-threads="$(makeopts_jobs)"
 }
 
 src_install() {
-	default
+	DESTDIR="${D}" eninja install
+
+	strip-lto-bytecode
 
 	if [[ -d "${ED}"/usr/share/doc/${P} && ${P} != ${PF} ]] ; then
 		# --docdir in configure controls the parent directory unfortunately
