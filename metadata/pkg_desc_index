@@ -15322,7 +15322,7 @@ net-misc/minissdpd 1.5.20211105 1.6.0: MiniSSDP Daemon
 net-misc/miniupnpd 2.3.7 2.3.8 2.3.9: MiniUPnP IGD Daemon
 net-misc/mobile-broadband-provider-info 20240407 20251101: Database of mobile broadband service providers
 net-misc/modemmanager 1.20.6 1.24.0 1.24.2: Modem and mobile broadband management libraries
-net-misc/moonlight 6.1.0-r2 9999: NVIDIA GameStream (and Sunshine) client
+net-misc/moonlight 6.1.0-r3 9999: NVIDIA GameStream (and Sunshine) client
 net-misc/mosh 1.4.0-r1: Mobile shell that supports roaming and intelligent local echo
 net-misc/mptcpd 0.12 0.13 0.14 9999: Daemon that performs multipath TCP path management related operations.
 net-misc/mrouted 4.5 4.6: IP multicast routing daemon
@@ -18159,7 +18159,7 @@ www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mas
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.16.2946: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
-www-apps/tt-rss 20241001 20250417 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
+www-apps/tt-rss 20250417 20251216 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7 9999: ttyd, a simple command-line tool for sharing terminal over the web
 www-apps/vaultwarden-web 2025.7.0 2025.7.1: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
