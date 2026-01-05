@@ -1542,7 +1542,7 @@ app-crypt/tc-play 3.3: A free, pretty much fully featured and stable TrueCrypt i
 app-crypt/tpm-tools 1.3.9.2-r1: TrouSerS' support tools for the Trusted Platform Modules
 app-crypt/tpm2-abrmd 3.0.0-r2: TPM2 Access Broker & Resource Manager
 app-crypt/tpm2-openssl 1.3.0: OpenSSL Provider for TPM2 integration
-app-crypt/tpm2-pkcs11 1.9.1: A PKCS#11 interface for TPM2 hardware
+app-crypt/tpm2-pkcs11 1.9.1 1.9.2: A PKCS#11 interface for TPM2 hardware
 app-crypt/tpm2-tools 5.7: Tools for the TPM 2.0 TSS
 app-crypt/tpm2-totp 0.3.0-r1: Attest the trustworthiness of a device against a human using time-based OTP
 app-crypt/tpm2-tss 4.0.2-r2 4.1.3-r1 4.1.3-r2: TCG Trusted Platform Module 2.0 Software Stack
@@ -4019,7 +4019,7 @@ dev-db/pg_activity 3.6.1-r1: Realtime PostgreSQL database server monitoring tool
 dev-db/pg_background 1.5: Postgres Background Worker
 dev-db/pg_top 4.1.3: 'top' for PostgreSQL
 dev-db/pgagent 4.2.1 4.2.3-r1: pgAgent is a job scheduler for PostgreSQL
-dev-db/pgbadger 12.4 13.1: pgBadger is a PostgreSQL log analyzer
+dev-db/pgbadger 12.4 13.1 13.2: pgBadger is a PostgreSQL log analyzer
 dev-db/pgbouncer 1.23.1 1.24.1 1.25.0: Lightweight connection pooler for PostgreSQL
 dev-db/pgcli 4.0.1-r1 4.1.0: CLI for Postgres with auto-completion and syntax highlighting
 dev-db/pglogical 2.4.4: Logical replication for PostgreSQL
@@ -5413,7 +5413,7 @@ dev-libs/gf2x 1.3.0-r1: C/C++ routines for fast arithmetic in GF(2)[x]
 dev-libs/girara 0.4.5 0.4.5-r1 9999: UI library that focuses on simplicity and minimalism
 dev-libs/gjs 1.80.2-r1 1.82.3-r1 1.84.2-r1: Javascript bindings for GNOME
 dev-libs/glib 2.84.4 2.84.4-r1 2.86.1: The GLib library of C routines
-dev-libs/gmime 2.6.23-r2 3.2.14 3.2.15 3.2.15-r1: Library for creating and parsing MIME messages
+dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r1: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2024.01.01.10.31.48 2025.08.27.16.03.17 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
 dev-libs/gobject-introspection 1.82.0-r2 1.84.0-r1 1.86.0: Introspection system for GObject-based libraries
@@ -9306,6 +9306,7 @@ dev-python/python-neutronclient 11.6.0: A client for the OpenStack Quantum API
 dev-python/python-novaclient 18.10.0 18.11.0: A client for the OpenStack Nova API
 dev-python/python-openstackclient 8.1.0 8.2.0: A client for the OpenStack APIs
 dev-python/python-pam 2.0.2-r2: Python PAM module
+dev-python/python-pkcs11 0.9.3: PKCS#11/Cryptoki support for Python
 dev-python/python-ptrace 0.9.9 9999: A Python binding of ptrace library
 dev-python/python-redmine 2.5.0: Python interface to the Redmine REST API
 dev-python/python-rtmidi 1.5.8: Python bindings for media-libs/rtmidi implemented using Cython
@@ -11521,8 +11522,8 @@ games-emulation/mupen64plus-video-rice 2.6.0: A fork of Mupen64 Nintendo 64 emul
 games-emulation/nestopia 1.53.2: Portable Nintendo Entertainment System emulator written in C++
 games-emulation/nestopia-jg 1.53.2 9999: Jolly Good Fork of Nestopia
 games-emulation/openmsx 19.1 20.0-r2: MSX emulator that aims for perfection
-games-emulation/pcsx2 2.4.0-r1 9999: PlayStation 2 emulator
-games-emulation/pcsx2_patches 0_p20241020 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
+games-emulation/pcsx2 2.4.0-r1 2.6.0 9999: PlayStation 2 emulator
+games-emulation/pcsx2_patches 0_p20241020 0_p20251228 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
 games-emulation/ppsspp 1.19.3 1.19.3-r1: A PSP emulator written in C++
 games-emulation/prosystem-jg 1.5.3 9999: Jolly Good Fork of ProSystem
 games-emulation/rmg 0.8.5 0.8.7 0.8.8 9999: Rosalie's Mupen GUI
@@ -14746,7 +14747,7 @@ net-dns/libidn2 2.3.7 2.3.8: An implementation of the IDNA2008 specifications (R
 net-dns/maradns 3.5.0036: A security-aware DNS server
 net-dns/mdns-repeater 1.11: Multicast DNS repeater
 net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
-net-dns/nsd 4.11.1 4.12.0 9999: An authoritative only, high performance, open source name server
+net-dns/nsd 4.12.0 4.14.0 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
 net-dns/pdns 5.0.1 5.0.2: The PowerDNS Daemon
@@ -14758,7 +14759,7 @@ net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/s6-dns 2.4.1.0: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 47 47.1: A local DNS server returns the fastest access results
-net-dns/unbound 1.20.0 1.22.0 1.22.0-r1 1.23.0-r1 1.24.1-r1: A validating, recursive and caching DNS resolver
+net-dns/unbound 1.23.0-r1 1.24.1-r1: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a 2.1.2a: Arno's iptables firewall script
