@@ -12657,7 +12657,7 @@ mail-client/mailx 8.1.2.20220412: The $ mail program, which is used to send mail
 mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.2.14-r1 2.2.16: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
-mail-client/neomutt 20240201 20250510 20250905 20251211-r1 20260105 99999999: A small but very powerful text-based mail client
+mail-client/neomutt 20240201 20250510 20251211-r1 20260105 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.7 1.6.7-r1 1.6.10 1.6.11 1.6.12 1.7_beta2 1.7_rc 1.7_rc2 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 140.6.0 146.0 146.0.1: Thunderbird Mail Client
@@ -15647,7 +15647,7 @@ net-vpn/eduvpn-common 2.1.0 3.0.0 4.0.0: Linux client and Python client API for 
 net-vpn/fp-multiuser 0.0.2: A frp server plugin to support multiple users for frp
 net-vpn/frp 0.56.0 0.58.1 0.60.0 0.61.1 0.65.0: A reverse proxy that exposes a server behind a NAT or firewall to the internet
 net-vpn/gsocket 1.4.43 1.4.43-r1 9999: Allow firewalled/NATed host to establish a secure connection
-net-vpn/headscale 0.26.1: An open source, self-hosted implementation of the Tailscale control server
+net-vpn/headscale 0.26.1 0.27.1: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/httptunnel 3.3_p20230508: httptunnel can create IP tunnels through firewalls/proxies using HTTP
 net-vpn/i2p 2.10.0: A privacy-centric, anonymous network
 net-vpn/i2pd 2.56.0-r1 2.57.0 2.58.0: A C++ daemon for accessing the I2P anonymous network
