@@ -5737,7 +5737,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.7-r1 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.37 4.38 4.38.2: Netscape Portable Runtime
-dev-libs/nss 3.112.1 3.112.2 3.116 3.117 3.118.1 3.119: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.112.2 3.119 3.120: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.0 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -9242,7 +9242,7 @@ dev-python/pytest-param-files 0.6.0: Pytest parametrize decorators from external
 dev-python/pytest-plus 0.8.1: PyTest Plus Plugin - extends pytest functionality
 dev-python/pytest-qt 4.5.0 4.5.0-r1: Pytest plugin for PyQt6 and PySide6 applications
 dev-python/pytest-recording 0.13.3 0.13.4: A pytest plugin to record network interactions via VCR.py
-dev-python/pytest-regressions 2.8.3: Easy to use fixtures to write regression tests
+dev-python/pytest-regressions 2.8.3 2.9.0: Easy to use fixtures to write regression tests
 dev-python/pytest-repeat 0.9.4: pytest plugin for repeating tests
 dev-python/pytest-reraise 2.1.2: Make multi-threaded pytest test cases fail when they should
 dev-python/pytest-rerunfailures 15.1 16.0.1 16.1: pytest plugin to re-run tests to eliminate flaky failures
@@ -9361,7 +9361,7 @@ dev-python/pyzmq 26.4.0 27.0.0 27.0.1 27.0.2 27.1.0: Lightweight and super-fast 
 dev-python/pyzotero 1.7.5 1.7.6: A Python client for the Zotero API
 dev-python/pyzstd 0.18.0 0.19.0 0.19.1: Support for Zstandard (zstd) compression
 dev-python/qdarkstyle 3.2.3: A dark style sheet for QtWidgets application
-dev-python/qiskit 2.2.3 2.3.0_rc1: An open-source SDK for working with quantum computers
+dev-python/qiskit 2.2.3 2.3.0_rc1 2.3.0: An open-source SDK for working with quantum computers
 dev-python/qiskit-aer 0.17.2: High performance simulator for quantum circuits that includes noise models
 dev-python/qpageview 1.0.0: Page-based viewer widget for Qt5/PyQt5
 dev-python/qrcode 8.2: QR Code generator on top of PIL
@@ -12702,7 +12702,7 @@ mail-filter/procmail 3.24 3.24-r1: Mail delivery agent/filter
 mail-filter/pyzor 1.1.2: A distributed, collaborative spam detection and filtering network
 mail-filter/razor 2.85-r5: Distributed, collaborative spam detection and filtering network
 mail-filter/rblcheck 1.5-r3: Perform lookups in RBL-styles services
-mail-filter/rspamd 3.13.2 3.14.0 3.14.1 3.14.2 9999: Rapid spam filtering system
+mail-filter/rspamd 3.13.2 3.14.0 3.14.1 3.14.2 3.14.3 9999: Rapid spam filtering system
 mail-filter/scmail 1.3: a mail filter written in Scheme
 mail-filter/sieve-connect 0.90: Sieve Command Line Interface
 mail-filter/spamassassin 4.0.0-r4 4.0.0-r5 4.0.1 4.0.1-r1 4.0.2: An extensible mail filter which can identify and tag spam
