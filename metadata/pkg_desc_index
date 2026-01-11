@@ -1872,7 +1872,7 @@ app-editors/vscode 1.106.3 1.107.1 1.108.0: Multiplatform Visual Studio Code fro
 app-editors/vscodium 1.105.17075 1.106.27818 1.106.37943: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
-app-editors/xemacs 21.5.36-r3 21.5.36-r5 21.5.9999: highly customizable open source text editor and application development system
+app-editors/xemacs 21.5.36-r3 21.5.36-r6 21.5.9999: highly customizable open source text editor and application development system
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
@@ -2984,7 +2984,7 @@ app-office/abiword-docs 3.0.2-r1: Fully featured yet light and fast cross platfo
 app-office/auto-multiple-choice 1.6.0: Create and manage multiple choice questionnaries, including automated marking
 app-office/calcurse 4.8.1-r1 4.8.2: A text-based calendar and scheduling application
 app-office/calligra 25.12.1: KDE Office Suite
-app-office/calligraplan 4.0.0: Project management application
+app-office/calligraplan 4.0.1: Project management application
 app-office/denaro 2024.2.0: A personal finance manager
 app-office/dia 0.97.3-r4 0.98_pre20250913: Diagram/flowchart creation program
 app-office/dia2code 1.0.0-r2: Convert UML diagrams produced with Dia to various source code flavours
@@ -4532,7 +4532,8 @@ dev-haskell/hunit 1.6.2.0 1.6.2.0-r1: A unit testing framework for Haskell
 dev-haskell/ieee754 0.7.8 0.8.0: Utilities for dealing with IEEE floating point numbers
 dev-haskell/ifelse 0.85-r1: Anaphoric and miscellaneous useful control-flow
 dev-haskell/indexed-traversable 0.1.4: FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
-dev-haskell/indexed-traversable-instances 0.1 0.1.1.2: More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+dev-haskell/indexed-traversable-instances 0.1.1.2 0.1.2: More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
+dev-haskell/inspection-testing 0.6: GHC plugin to do inspection testing
 dev-haskell/integer-logarithms 1.0.3.1-r2: Integer logarithms
 dev-haskell/invariant 0.5.5 0.6.2: Haskell98 invariant functors
 dev-haskell/iproute 1.7.8 1.7.12: IP Routing Table
@@ -4639,13 +4640,13 @@ dev-haskell/primitive-addr 0.1.0.2: Addresses to unmanaged memory
 dev-haskell/profunctors 5.6.2-r1: The Profunctors package, authored by Edward Kmett
 dev-haskell/psqueues 0.2.7.3: Pure priority search queues
 dev-haskell/puremd5 2.1.4: A Haskell-only implementation of the MD5 digest (hash) algorithm
-dev-haskell/quickcheck 2.14.2 2.14.3: Automatic testing of Haskell programs
+dev-haskell/quickcheck 2.14.3 2.14.3-r1: Automatic testing of Haskell programs
 dev-haskell/quickcheck-classes 0.6.4.0 0.6.5.0: QuickCheck common typeclasses
 dev-haskell/quickcheck-classes-base 0.6.2.0-r1: QuickCheck common typeclasses from 'base'
-dev-haskell/quickcheck-instances 0.3.27 0.3.29.1-r1: Common quickcheck instances
+dev-haskell/quickcheck-instances 0.3.29.1-r1: Common quickcheck instances
 dev-haskell/quickcheck-io 0.2.0: Use HUnit assertions as QuickCheck properties
 dev-haskell/quickcheck-unicode 1.0.1.0: Generator and shrink functions for testing Unicode-related software
-dev-haskell/random 1.2.1 1.2.1.1: Pseudo-random number generation
+dev-haskell/random 1.2.1.1 1.2.1.3: Pseudo-random number generation
 dev-haskell/random-bytestring 0.1.4: Efficient generation of random bytestrings
 dev-haskell/raw-strings-qq 1.1: Raw string literals for Haskell
 dev-haskell/recv 0.1.0: Efficient network recv
@@ -4717,6 +4718,7 @@ dev-haskell/tasty-golden 2.3.1.1 2.3.5: Golden tests support for tasty
 dev-haskell/tasty-hedgehog 1.1.0.0 1.4.0.2: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.0.2 1.1.0: Tasty helpers to test HsLua
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
+dev-haskell/tasty-inspection-testing 0.2.1-r1: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.0.2 1.1.0: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.1.1 0.10.2: QuickCheck support for the Tasty test framework
@@ -4777,9 +4779,10 @@ dev-haskell/utf8-string 1.0.1.1 1.0.2: Support for reading and writing UTF8 Stri
 dev-haskell/uuid 1.3.15-r1: For creating, comparing, parsing and printing Universally Unique Identifiers
 dev-haskell/uuid-types 1.0.5-r1: Type definitions for Universally Unique Identifiers
 dev-haskell/vault 0.3.1.5-r2: a persistent store for values of arbitrary types
-dev-haskell/vector 0.12.3.1 0.12.3.1-r1: Efficient Arrays
+dev-haskell/vector 0.12.3.1-r1 0.13.2.0: Efficient Arrays
 dev-haskell/vector-algorithms 0.8.0.4 0.9.0.1-r1: Efficient algorithms for vector arrays
 dev-haskell/vector-binary-instances 0.2.5.1 0.2.5.2: Instances of Data.Binary for vector
+dev-haskell/vector-stream 0.1.0.1: Efficient Streams
 dev-haskell/vector-th-unbox 0.2.1.7 0.2.2: Deriver for Data.Vector.Unboxed using Template Haskell
 dev-haskell/void 0.7.3: A Haskell 98 logically uninhabited data type
 dev-haskell/wai 3.2.3: Web Application Interface
@@ -4889,7 +4892,7 @@ dev-java/cpptasks 1.0_beta5-r3: Ant-tasks to compile various source languages an
 dev-java/diffutils 1.3.0: library for computing diffs, applying patches, generating side-by-side views
 dev-java/dom4j 2.2.0: flexible XML framework for Java
 dev-java/easymock 2.5.2 3.3.1-r2 5.6.0: Mock Objects for interfaces in JUnit tests by generating them on the fly
-dev-java/eclipse-ecj 4.20 4.26-r2 4.37-r1 4.38: Eclipse Compiler for Java
+dev-java/eclipse-ecj 4.20 4.26-r2 4.38: Eclipse Compiler for Java
 dev-java/eclipse-jdt-annotation 4.37: JDT Annotations for Enhanced Null Analysis
 dev-java/emma 2.0.5312-r6: Free Java code coverage tool
 dev-java/error-prone-annotations 2.42.0 2.45.0: Java annotations for the Error Prone static analysis tool
@@ -9459,7 +9462,7 @@ dev-python/scikit-build 0.18.1: Improved build system generator for Python C/C++
 dev-python/scikit-build-core 0.11.5 0.11.6: Build backend for CMake based projects
 dev-python/scikit-image 0.25.2 0.26.0_rc1 0.26.0_rc2 0.26.0: Image processing routines for SciPy
 dev-python/scikit-learn 1.7.2 1.8.0: Machine learning library for Python
-dev-python/scipy 1.16.2-r1 1.16.2-r2 1.16.3 1.17.0_rc1 1.17.0_rc2 1.17.0: Scientific algorithms library for Python
+dev-python/scipy 1.16.2-r1 1.16.2-r2 1.16.3 1.17.0: Scientific algorithms library for Python
 dev-python/scripttest 2.0_p1: Helper to test command-line scripts
 dev-python/scrypt 0.8.27 0.8.29 0.9.4: Bindings for the scrypt key derivation function library
 dev-python/seaborn 0.13.2: Statistical data visualization
@@ -9643,7 +9646,7 @@ dev-python/tinyhtml5 2.0.0: HTML parser based on the WHATWG HTML specification
 dev-python/tldextract 5.3.0 5.3.1: Accurately separate the TLD from the registered domain and subdomains of a URL
 dev-python/tokenize-rt 6.2.0: A wrapper around the stdlib 'tokenize' which roundtrips
 dev-python/toml-fmt-common 1.0.1 1.1.0: Common logic to the TOML formatter
-dev-python/tomli 2.2.1 2.3.0: A lil' TOML parser
+dev-python/tomli 2.3.0 2.4.0: A lil' TOML parser
 dev-python/tomli-w 1.2.0: A lil' TOML writer
 dev-python/tomlkit 0.13.3: Style preserving TOML library
 dev-python/toolz 1.0.0 1.0.0-r1 1.1.0: List processing tools and functional utilities
@@ -10955,7 +10958,7 @@ dev-util/jenkins-bin 2.516.3 2.528 2.528.1 2.528.2 2.528.3 2.541: The leading op
 dev-util/jfrog-cli 1.54.1 2.54.0 2.72.1 2.72.2 2.72.3 2.73.2: Command line utility for operations on container images and image repositories
 dev-util/kafkactl 5.5.0 5.7.0 5.9.0: CLI for interacting with Kafka
 dev-util/kcov 43 9999: Kcov is a code coverage tester for compiled languages, Python and Bash
-dev-util/kdevelop 25.08.3 25.12.1: Integrated Development Environment, supporting KF6/Qt, C/C++ and much more
+dev-util/kdevelop 25.08.3 25.12.1 25.12.1-r1: Integrated Development Environment, supporting KF6/Qt, C/C++ and much more
 dev-util/kdevelop-pg-qt 2.4.0: LL(1) parser generator used mainly by KDevelop language plugins
 dev-util/kdevelop-php 25.08.3 25.12.1: PHP plugin for KDevelop
 dev-util/kdevelop-python 25.08.3 25.12.1: Python plugin for KDevelop
@@ -12722,7 +12725,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.11.0_rc3-r1 3.12_pre20251231-r1: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.11.0_rc3-r1 3.12_pre20260110: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.17.1.9 8.18.1 8.18.1-r3 8.18.1.10-r3 8.18.1.15-r1 8.18.1.16 8.18.2: Widely-used Mail Transport Agent (MTA)
@@ -13134,7 +13137,7 @@ media-gfx/photoqt 4.9.2 5.0: Simple but powerful Qt-based image viewer
 media-gfx/phototonic 3.0.0 3.1.0: Image viewer and organizer
 media-gfx/pinta 3.0: Pinta is a free, open source program for drawing and image editing
 media-gfx/pixels2pgf 0.1-r1 9999: Convert pixel images (e.g. QRCode) to PGF/Tikz rectangles
-media-gfx/plantuml 1.2025.9 1.2025.10 1.2026.0: Draw UML diagrams using a simple and human readable text description
+media-gfx/plantuml 1.2025.10 1.2026.0: Draw UML diagrams using a simple and human readable text description
 media-gfx/png2ico 2002.12.08: PNG to icon converter
 media-gfx/pngcheck 3.0.3: Verifies the integrity of PNG, JNG, and MNG files with internal checksums
 media-gfx/pngcrush 1.8.13: Portable Network Graphics (PNG) optimizing utility
@@ -13943,7 +13946,7 @@ media-sound/aeolus 0.10.4: A synthesised pipe organ emulator
 media-sound/alac_decoder 0.2.0-r2: Basic decoder for Apple Lossless Audio Codec files (ALAC)
 media-sound/alacenc 0.4.1: Encodes audio into the Apple Lossless Audio Codec (ALAC) format
 media-sound/alsa-scarlett-gui 0.5.1: A UI for Focusrite Scarlett and Clarett audio interfaces
-media-sound/alsa-tools 1.2.11-r1 1.2.14 1.2.15: Advanced Linux Sound Architecture tools
+media-sound/alsa-tools 1.2.11-r1 1.2.14 1.2.15-r1: Advanced Linux Sound Architecture tools
 media-sound/alsa-utils 1.2.13-r2 1.2.14 1.2.15 1.2.15.1 1.2.15.2: Advanced Linux Sound Architecture Utils (alsactl, alsamixer, etc.)
 media-sound/alsamixer-app 0.1-r1: simple alsa mixer dockapp
 media-sound/alsamixergui 0.9.0.1.2-r5: FLTK based amixer Frontend
@@ -17027,7 +17030,7 @@ sys-apps/cpu-x 5.3.1 5.4.0: A Free software that gathers information on CPU, mot
 sys-apps/cpuid 20250513: Linux tool to dump x86 CPUID information about the CPUs
 sys-apps/cracklib-words 2.10.2 2.10.3: Large set of crack/cracklib dictionaries
 sys-apps/crazydiskinfo 1.1.0-r1: Interactive TUI S.M.A.R.T viewer
-sys-apps/cyme 2.2.8 2.2.9: List system USB buses and devices; a modern cross-platform `lsusb`
+sys-apps/cyme 2.2.9 2.2.10: List system USB buses and devices; a modern cross-platform `lsusb`
 sys-apps/daemonize 1.7.8-r2: Runs a command as a Unix daemon
 sys-apps/daisydog 2014.05.30-r1 2024.07.12: A very simple /dev/watchdog daemon
 sys-apps/dbus 1.16.2: A message bus system, a simple way for applications to talk to each other
@@ -17542,7 +17545,7 @@ sys-fabric/mstflint 4.23.0_p1 4.29.0_p1 4.30.0_p1: Mstflint - an open source ver
 sys-fabric/opensm 3.3.23-r2 3.3.24-r1: OpenSM - InfiniBand Subnet Manager and Administration for OpenIB
 sys-fabric/perftest 4.4.0.37-r1 4.5.0.17: OpenIB uverbs micro-benchmarks
 sys-fabric/qperf 0.4.11: Measure RDMA and IP performance
-sys-firmware/alsa-firmware 1.2.4-r1: Advanced Linux Sound Architecture firmware
+sys-firmware/alsa-firmware 1.2.4-r1 1.2.4-r2: Advanced Linux Sound Architecture firmware
 sys-firmware/atmel-firmware 1.3-r3: Firmware and config for atmel and atmel_cs wlan drivers included in linux 2.6
 sys-firmware/b43-firmware 5.100.138 6.30.163.46: broadcom firmware for b43 LP PHY and >=linux-3.2
 sys-firmware/b43legacy-firmware 3.130.20.0: broadcom firmware for b43legacy/bcm43xx
@@ -17719,7 +17722,7 @@ sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20250211 20250311 20250410 20250613-r1 20250613_p20250624 20250627 20250708 20250808 20250917 20251011 20251021 20251111 20251125 20251125_p20251202 20251125_p20251203 99999999: Linux firmware files
+sys-kernel/linux-firmware 20250211 20250311 20250410 20250613-r1 20250613_p20250624 20250627 20250708 20250808 20250917 20251011 20251021 20251111 20251125 20251125_p20251202 20251125_p20251203 20251125_p20251229 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
@@ -18270,7 +18273,7 @@ www-servers/servefile 0.5.4-r2 0.5.4-r3: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.111 9.0.113 10.1.48 10.1.50 11.0.13 11.0.15: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
+www-servers/tomcat 9.0.113 10.1.50 11.0.15: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1: uWSGI server for Python web applications
 www-servers/varnish 7.5.0 7.7.1 7.7.3 8.0.0: Varnish is a state-of-the-art, high-performance HTTP accelerator
 www-servers/webfs 1.21: Lightweight HTTP server for static content
