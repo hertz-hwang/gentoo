@@ -4653,9 +4653,9 @@ dev-haskell/recv 0.1.0: Efficient network recv
 dev-haskell/reducers 3.12.3-r1 3.12.4: Semigroups, specialized containers and a general map/reduce framework
 dev-haskell/reflection 2.1.6: Reifies arbitrary terms into types that can be reflected back into terms
 dev-haskell/regex-applicative 0.3.3.1: Regex-based parsing with applicative interface
-dev-haskell/regex-base 0.94.0.1 0.94.0.2: Common "Text.Regex.*" API for Regex matching
+dev-haskell/regex-base 0.94.0.3: Common "Text.Regex.*" API for Regex matching
 dev-haskell/regex-compat 0.95.2.1-r1: Replaces/enhances "Text.Regex"
-dev-haskell/regex-posix 0.96.0.0 0.96.0.1: POSIX Backend for "Text.Regex" (regex-base)
+dev-haskell/regex-posix 0.96.0.2: POSIX Backend for "Text.Regex" (regex-base)
 dev-haskell/regex-tdfa 1.3.2 1.3.2.2: Pure Haskell Tagged DFA Backend for "Text.Regex" (regex-base)
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
 dev-haskell/resource-pool 0.2.3.2 0.4.0.0: A high-performance striped resource pooling implementation
@@ -8399,7 +8399,7 @@ dev-python/dominate 2.9.1: Library for creating and manipulating HTML documents 
 dev-python/doublex 1.9.6.1: Python test doubles
 dev-python/doublex-expects 0.7.1-r1: Expects matchers for Doublex test doubles assertions
 dev-python/dparse 0.6.4: A parser for Python dependency files
-dev-python/dulwich 0.24.7 0.24.8 0.24.10 0.25.0: Pure-Python implementation of the Git file formats and protocols
+dev-python/dulwich 0.24.7 0.24.8 0.24.10 0.25.0 0.25.2: Pure-Python implementation of the Git file formats and protocols
 dev-python/easy-thumbnails 2.10.1: Easy thumbnails for Django
 dev-python/easyprocess 1.1-r1: Easy to use Python subprocess interface
 dev-python/ecdsa 0.19.1: ECDSA cryptographic signature library in pure Python
@@ -8555,7 +8555,7 @@ dev-python/hcloud 2.11.1 2.12.0 2.13.0 2.14.0: Official Hetzner Cloud python lib
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.14.0_p4 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.2.1 3.3.0: Python extension that wraps hiredis
-dev-python/hishel 0.1.5 1.1.6 1.1.7: An elegant HTTP Cache implementation for HTTPX and HTTP Core
+dev-python/hishel 1.1.7 1.1.8: An elegant HTTP Cache implementation for HTTPX and HTTP Core
 dev-python/housekeeping 1.1: Reusable deprecation helpers for Python projects
 dev-python/hpack 4.1.0: Pure-Python HPACK header compression
 dev-python/html2text 2025.4.15-r1: Turn HTML into equivalent Markdown-structured text
@@ -9708,7 +9708,7 @@ dev-python/uri-template 1.3.0: URI Template expansion in strict adherence to RFC
 dev-python/uritemplate 4.2.0: Python implementation of RFC6570, URI Template
 dev-python/uritools 5.0.0 6.0.1: RFC 3986-compliant URI parsing, classification and composition
 dev-python/url-normalize 2.2.1: URL normalization for Python
-dev-python/urllib3 2.5.0 2.6.2 2.6.3: HTTP library with thread-safe connection pooling, file post, and more
+dev-python/urllib3 2.6.3: HTTP library with thread-safe connection pooling, file post, and more
 dev-python/urwid 3.0.3 3.0.4: Curses-based user interface library for Python
 dev-python/urwid-readline 0.15.1: Text input widget for urwid that supports readline shortcuts
 dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
@@ -9757,7 +9757,7 @@ dev-python/werkzeug 3.1.4 3.1.5: Collection of various utilities for WSGI applic
 dev-python/whatever 0.7: Easy anonymous functions by partial application of operators
 dev-python/whatthepatch 1.0.7: A patch parsing and application library.
 dev-python/wheel 0.45.1: A built-package format for Python
-dev-python/whenever 0.9.3 0.9.4: Modern datetime library for Python
+dev-python/whenever 0.9.3 0.9.4 0.9.5: Modern datetime library for Python
 dev-python/whisper 1.1.10: Fixed size round-robin style database
 dev-python/whoosh 2.7.4-r2: Fast, pure-Python full text indexing, search and spell checking library
 dev-python/widgetsnbextension 4.0.14 4.0.14-r1 4.0.15: IPython HTML widgets for Jupyter
