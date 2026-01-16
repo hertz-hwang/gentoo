@@ -5,8 +5,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 QA_PKGCONFIG_VERSION=$(ver_cut 1)
 
-# Avoid QA warning about skipping tmpfiles.eclass
+# Avoid QA warnings about these eclasses
 TMPFILES_OPTIONAL=1
+UDEV_OPTIONAL=1
 
 inherit linux-info meson-multilib
 inherit python-single-r1 secureboot shell-completion udev
@@ -335,6 +336,9 @@ multilib_src_install_all() {
 	if use kernel-install; then
 		dobashcomp shell-completion/bash/kernel-install
 		dozshcomp shell-completion/zsh/_kernel-install
+
+		# Dummy config, remove to make room for sys-kernel/installkernel
+		rm "${ED}/usr/lib/kernel/install.conf" || die
 	fi
 
 	if use tmpfiles; then
