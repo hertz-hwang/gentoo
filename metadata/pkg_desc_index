@@ -3842,7 +3842,7 @@ dev-build/libtool 2.5.4 2.6.0 9999: A shared library tool for developers
 dev-build/mage 1.13.0 1.15.0: make/rake like tool using go
 dev-build/make 4.4.1-r100 4.4.1-r101 4.4.1-r102 9999: Standard tool to compile source trees
 dev-build/melange 0.18.3: Build APK packages from source code using declarative pipelines
-dev-build/meson 1.1.1 1.2.3 1.3.2 1.4.2 1.5.2 1.6.1 1.7.2 1.8.5 1.9.1 1.9.2 1.10.0 9999: Open source build system
+dev-build/meson 1.1.1 1.2.3 1.3.2 1.4.2 1.5.2 1.6.1 1.7.2 1.8.5 1.9.1 1.9.2 1.10.0 1.10.1 9999: Open source build system
 dev-build/meson-format-array 0: Format shell expressions into a meson array
 dev-build/muon 0.2.0-r2 0.3.0 0.4.0 0.5.0: A meson-compatible build system
 dev-build/netsurf-buildsystem 1.10: Build system used for netsurf and its libraries
@@ -15668,7 +15668,7 @@ net-vpn/networkmanager-openconnect 1.2.10-r3: NetworkManager OpenConnect plugin
 net-vpn/networkmanager-openvpn 1.12.3: NetworkManager OpenVPN plugin
 net-vpn/networkmanager-pptp 1.2.12-r1: NetworkManager PPTP VPN plugin
 net-vpn/networkmanager-sstp 1.3.0 1.3.1-r2 1.3.2: Client for the proprietary Microsoft Secure Socket Tunneling Protocol(SSTP)
-net-vpn/networkmanager-strongswan 1.6.2 1.6.3: NetworkManager StrongSwan plugin
+net-vpn/networkmanager-strongswan 1.6.2 1.6.3 1.6.4: NetworkManager StrongSwan plugin
 net-vpn/networkmanager-vpnc 1.2.8-r1 1.4.0-r1: NetworkManager VPNC plugin
 net-vpn/nstx 1.1_beta6-r3: IP over DNS tunnel
 net-vpn/ocserv 1.3.0-r2 1.3.0-r11 9999: Openconnect SSL VPN server
@@ -15678,7 +15678,7 @@ net-vpn/openvpn 2.6.12-r1 2.6.14 2.6.17-r1 9999: Robust and highly flexible tunn
 net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenVPN Data Channel Offload in the linux kernel
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
-net-vpn/strongswan 6.0.3: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
+net-vpn/strongswan 6.0.3 6.0.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.8.21 9999: Anonymizing overlay network for TCP
@@ -16665,6 +16665,7 @@ sec-keys/openpgp-keys-musl 20220407: OpenPGP keys used to sign musl
 sec-keys/openpgp-keys-mysql 20231023: OpenPGP keys used to sign MySQL releases
 sec-keys/openpgp-keys-netfilter 20220326 20240415: OpenPGP keys used by the netfilter project
 sec-keys/openpgp-keys-nettle 20220603 20250628: OpenPGP keys used by Niels Möller (to sign nettle releases)
+sec-keys/openpgp-keys-networkmanager-strongswan 20260119: OpenPGP keys used for networkmanager-strongswan releases
 sec-keys/openpgp-keys-nicholaswilson 20250209 20250910: OpenPGP keys used by Nicholas Wilson
 sec-keys/openpgp-keys-nmap 20210416: OpenPGP keys used to sign Nmap releases
 sec-keys/openpgp-keys-notqmail 20210223: OpenPGP keys used to sign notqmail releases
@@ -16676,6 +16677,7 @@ sec-keys/openpgp-keys-ondrejjirman 20250216: OpenPGP keys used by Ondrej Jirman
 sec-keys/openpgp-keys-openldap 20201216: OpenPGP keys used by OpenLDAP Project
 sec-keys/openpgp-keys-openssh 20220316: OpenPGP keys used by OpenSSH
 sec-keys/openpgp-keys-openssl 20220316-r1 20221101 20230207 20230801 20240424 20240920: OpenPGP keys used by OpenSSL
+sec-keys/openpgp-keys-openvpn 20260119: OpenPGP keys used for OpenVPN releases
 sec-keys/openpgp-keys-openwall 20210107: OpenPGP keys used to sign Openwall software releases
 sec-keys/openpgp-keys-openzfs 20210419: OpenPGP keys used to sign OpenZFS releases
 sec-keys/openpgp-keys-pam 20230330: OpenPGP keys used by the linux-pam project
@@ -16699,6 +16701,7 @@ sec-keys/openpgp-keys-squid 20240206: OpenPGP key used to sign squid releases
 sec-keys/openpgp-keys-stellarium 20221229: OpenPGP keys used to sign Stellarium releases
 sec-keys/openpgp-keys-strace 20151021 20251218: OpenPGP keys used by the strace project
 sec-keys/openpgp-keys-streamlink 20260118: OpenPGP keys used for streamlink releases
+sec-keys/openpgp-keys-strongswan 20260119: OpenPGP keys used for strongswan releases
 sec-keys/openpgp-keys-sudo 20220321: OpenPGP keys used by the sudo project
 sec-keys/openpgp-keys-syncthing 20250904: OpenPGP key used to sign Syncthing releases
 sec-keys/openpgp-keys-sysvinit 20220413: OpenPGP keys used by the sysvinit project
@@ -17424,7 +17427,7 @@ sys-boot/dvhtool 1.0.1-r2: Tool to copy kernel(s) into the volume header on SGI 
 sys-boot/efibootmgr 17-r1 18-r2: User-space application to modify the EFI boot manager
 sys-boot/elilo 3.16-r6: Linux boot loader for EFI-based systems such as IA-64
 sys-boot/gnu-efi 3.0.18-r5 3.0.19 4.0.2 4.0.4: Library for build EFI Applications
-sys-boot/grub 2.12-r11 2.14_rc1-r4 9999: GNU GRUB boot loader
+sys-boot/grub 2.12-r11 2.14_rc1-r4 2.14 9999: GNU GRUB boot loader
 sys-boot/grub-themes-gentoo 1.0-r2: Grub2 Themes for Gentoo
 sys-boot/lilo 24.2-r2 24.2-r3: LInux LOader, the original Linux bootloader
 sys-boot/limine 10.6.0: Limine is a modern, advanced, and portable BIOS/UEFI multiprotocol bootloader
