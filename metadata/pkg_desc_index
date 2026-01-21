@@ -2610,7 +2610,7 @@ app-i18n/zinnia 0.06-r3: Zinnia - Online hand recognition system with machine le
 app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomoe data
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240506: Kernel module to expose more Framework Laptop stuff
-app-laptop/framework_tool 0.4.3 0.4.5: Tool to control Framework Computer systems
+app-laptop/framework_tool 0.4.3 0.4.5 0.5.0: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
 app-laptop/i8kutils 1.43: Dell Inspiron and Latitude utilities
@@ -2949,7 +2949,7 @@ app-misc/ttyload 0.5.3-r1: color-coded graph of load averages over time
 app-misc/ttyrec 1.0.8-r3 1.1.7.1: ttyrec provides tools to record and replay a terminal session
 app-misc/tzupdate 3.1.0-r1: Set the system timezone based on IP geolocation.
 app-misc/unfoo 1.0.8-r2: Simple bash driven frontend to simplify decompression of files
-app-misc/upterm 0.20.0 0.21.0 0.21.1: Instant Terminal Sharing
+app-misc/upterm 0.20.0 0.21.0 0.21.1 0.22.0: Instant Terminal Sharing
 app-misc/uptimed 0.4.7: System uptime record daemon that keeps track of your highest uptimes
 app-misc/vcontrold 0.98.11-r1: Daemon for communication with Viessmann Vito heatings
 app-misc/vcp 2.2-r2: Copy files/directories in a curses interface
@@ -3975,7 +3975,7 @@ dev-db/cdb 0.75-r4 0.75-r5: Fast, reliable, simple package for creating and read
 dev-db/citus 12.1.9 12.1.10 13.0.4 13.0.5 13.1.0 13.1.1 13.2.0 9999: Open-source postgresql extension for clustering/multi-node setups
 dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud services
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
-dev-db/dbeaver-bin 25.3.1-r1 25.3.2-r1: Free universal database tool (community edition)
+dev-db/dbeaver-bin 25.3.2-r1 25.3.3: Free universal database tool (community edition)
 dev-db/duckdb 1.4.2 1.4.3: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.18 3.5.26 3.6.7: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
@@ -4000,7 +4000,7 @@ dev-db/mariadb 10.6.22 10.6.22-r1 10.6.23-r1 10.6.23-r2 10.6.24 10.6.24-r1 10.11
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.30 5.0.31 5.0.32 6.0.22 6.0.25 6.0.27 7.0.18 7.0.23 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
-dev-db/mongodb-compass-bin 1.48.1 1.48.2: GUI for MongoDB
+dev-db/mongodb-compass-bin 1.48.2 1.49.0: GUI for MongoDB
 dev-db/mycli 1.42.0 1.44.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
@@ -8770,7 +8770,7 @@ dev-python/mando 0.8.2: Create Python CLI apps with little to no effort at all!
 dev-python/manuel 1.13.0: Lets you mix and match traditional doctests with custom test syntax
 dev-python/mapbox-earcut 1.0.3 2.0.0: Python bindings to the mapbox earcut C++ library
 dev-python/mapbox-vector-tile 2.2.0: Mapbox Vector Tile encoding and decoding.
-dev-python/markdown 3.9 3.10: Python implementation of the markdown markup language
+dev-python/markdown 3.9 3.10 3.10.1: Python implementation of the markdown markup language
 dev-python/markdown-exec 1.11.0 1.12.0: Utilities to execute code blocks in Markdown files
 dev-python/markdown-include 0.8.1: Python-Markdown extension providing LaTeX-style 'include' function
 dev-python/markdown-it-py 3.0.0 4.0.0: Python port of markdown-it, Markdown parser
@@ -8935,7 +8935,7 @@ dev-python/packaging 25.0 26.0_rc1 26.0_rc2 26.0_rc3: Core utilities for Python 
 dev-python/paginate 0.5.7: Divides large result sets into pages for easier browsing
 dev-python/paho-mqtt 2.1.0: MQTT version 5.0/3.1.1 client class
 dev-python/pallets-sphinx-themes 2.3.0: Sphinx themes for Pallets and related projects
-dev-python/pandas 2.2.3 2.3.0 2.3.1 2.3.2 2.3.3 3.0.0_rc1 3.0.0_rc2: Powerful data structures for data analysis and statistics
+dev-python/pandas 2.2.3 2.3.0 2.3.1 2.3.2 2.3.3 3.0.0_rc1 3.0.0_rc2 3.0.0: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
@@ -9005,7 +9005,7 @@ dev-python/pmw 2.1.1: Toolkit for building high-level compound Python widgets us
 dev-python/pocketlint 0.25-r1 0.26: Shared code for running pylint against rhinstaller projects
 dev-python/pockets 0.9.1-r3: Collection of helpful Python tools
 dev-python/podcastparser 0.6.10 0.6.11: Podcast parser for the gpodder client
-dev-python/podman 5.4.0.1 5.5.0 5.6.0: A library to interact with a Podman server
+dev-python/podman 5.4.0.1 5.5.0 5.6.0 5.7.0: A library to interact with a Podman server
 dev-python/poetry 2.2.1-r1 2.3.0 2.3.1: A frontend for poetry - a python dependency management and packaging tool
 dev-python/poetry-core 2.2.1 2.3.0: Poetry PEP 517 Build Backend
 dev-python/poetry-plugin-export 1.9.0-r1 1.10.0: A plugin that allows the export of locked packages to various formats
@@ -9748,7 +9748,7 @@ dev-python/watchdog 6.0.0: Python API and shell utilities to monitor file system
 dev-python/watchfiles 1.1.0 1.1.1: Simple, modern file watching and code reload in Python
 dev-python/wcag-contrast-ratio 0.9-r1: A library for computing contrast ratios, as required by WCAG 2.0
 dev-python/wcmatch 10.1: Wildcard/glob file name matcher
-dev-python/wcwidth 0.2.13 0.2.14: Measures number of Terminal column cells of wide-character codes
+dev-python/wcwidth 0.2.13 0.2.14 0.3.0: Measures number of Terminal column cells of wide-character codes
 dev-python/weasyprint 67.0 68.0: Visual rendering engine for HTML and CSS that can export to PDF
 dev-python/webcolors 24.11.1 25.10.0: Color names and value formats defined by the HTML and CSS specifications
 dev-python/webencodings 0.5.1-r2: Character encoding aliases for legacy web content
@@ -10776,7 +10776,7 @@ dev-util/bcc 0.31.0-r3 0.32.0-r1 0.34.0-r1 0.35.0-r1 0.35.0-r2: Tools for BPF-ba
 dev-util/bcpp 20240917: Indents C/C++ source code
 dev-util/bdelta 0.3.1-r1: Binary Delta - Efficient difference algorithm and format
 dev-util/bear 3.1.6 4.0.0: Build EAR generates a compilation database for clang tooling
-dev-util/bindgen 0.68.1-r1 0.69.4-r1 0.70.1-r1 0.71.1 0.72.0 0.72.1: Automatically generates Rust FFI bindings to C and C++ libraries.
+dev-util/bindgen 0.72.0 0.72.1: Automatically generates Rust FFI bindings to C and C++ libraries.
 dev-util/bingrep 0.11.0-r1: Binary file analysis tool
 dev-util/bloaty 1.1-r1 1.1-r2 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.18.0: Compiler for Blueprint, a markup language for GTK user interfaces
@@ -10806,9 +10806,9 @@ dev-util/byacc 20241231: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.21.1 0.21.2 0.22.0: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
-dev-util/cargo-nextest 0.9.114 0.9.117 0.9.120 0.9.121: Next-generation test runner for Rust
+dev-util/cargo-nextest 0.9.114 0.9.117 0.9.120 0.9.121 0.9.122: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1: pgrx: A Rust framework for creating Postgres extensions
-dev-util/cargo-tarpaulin 0.32.8 0.33.0 0.34.1 0.35.0: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
+dev-util/cargo-tarpaulin 0.35.0 0.35.1: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
 dev-util/catalyst 4.0.0 4.0.1 4.1.0 9999: Release metatool used for creating releases based on Gentoo Linux
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
@@ -13934,7 +13934,7 @@ media-radio/tlf 1.4.1-r6: Console-mode amateur radio contest logger
 media-radio/tqsl 2.7.3: ARRL Logbook of the World
 media-radio/tucnak 4.69 4.70: Amateur Radio VHF Contest Logbook
 media-radio/unixcw 3.6.1-r2: Collection of programs that fit together to form a morse code tutor program
-media-radio/wsjtx_improved 3.0.0-r1: Weak signal ham radio communication with improvements
+media-radio/wsjtx_improved 3.0.0-r1 3.0.0_p20251212: Weak signal ham radio communication with improvements
 media-radio/xastir 2.2.2: X Amateur Station Tracking and Information Reporting
 media-radio/xdx 2.91: a GTK+ TCP/IP DX-cluster and ON4KST chat client
 media-radio/xlog 2.0.25: An amateur radio logging program
@@ -15287,7 +15287,7 @@ net-misc/ices 2.0.2-r3 2.0.3: Icecast OGG streaming client, supports on the fly 
 net-misc/icingadb 1.2.0 1.4.0: Icinga configuration and state database supporting multiple environments
 net-misc/ifenslave 1.1.0-r6 1.1.0-r7: Attach and detach slave interfaces to a bonding device
 net-misc/igmpproxy 0.4: A multicast routing daemon which uses IGMP forwarding
-net-misc/inetutils 2.6-r1 2.7: Collection of common network programs
+net-misc/inetutils 2.7: Collection of common network programs
 net-misc/ip-sentinel 0.12-r2: Prevent unauthorized usage of IP addresses
 net-misc/ipcalc 0.42_p2 0.51: IP Calculator prints broadcast/network/etc for an IP address and netmask
 net-misc/iperf 2.2.1 2.9999 3.19.1 3.19.1-r1 3.20: TCP, UDP, and SCTP network bandwidth measurement tool
