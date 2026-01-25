@@ -1384,7 +1384,7 @@ app-containers/earthly 0.8.16: Build automation tool that executes in containers
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5 6.0.5-r1 6.19.1 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.5 6.0.5-r1 6.21 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.3 6.0.4-r1 6.0.5: A userspace interface for the Linux kernel containment features
@@ -10816,7 +10816,7 @@ dev-util/catalyst 4.0.0 4.0.1 4.1.0 9999: Release metatool used for creating rel
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
 dev-util/cbindgen 0.29.0 0.29.2: A tool for generating C bindings to Rust code
 dev-util/ccache 4.11.3 4.12.1 4.12.2: Fast compiler cache
-dev-util/cccc 3.1.6-r1: Source metrics (line counts, complexity, etc) for Java and C++
+dev-util/cccc 3.1.6-r1 3.2.0: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20241108-r1 0.20250815 0.20250815.1 9999: C/C++/ObjC language server
 dev-util/cdecl 14.2 18.4.1: Composing and deciphering C (or C++) declarations or casts, aka "gibberish."
 dev-util/cflow 1.7: C function call hierarchy analyzer
@@ -12250,7 +12250,7 @@ kde-apps/kaccounts-integration 25.08.3 25.12.1: Administer web accounts for the 
 kde-apps/kaccounts-providers 25.08.3 25.12.1: KDE accounts providers
 kde-apps/kaddressbook 25.08.3 25.12.1-r1: Address book application based on KDE Frameworks
 kde-apps/kajongg 25.08.3 25.12.1: Classical Mah Jongg for four players
-kde-apps/kalarm 25.08.3-r1 25.12.1-r1: Application to manage alarms and other timer based alerts for the desktop
+kde-apps/kalarm 25.08.3-r1 25.12.1-r2: Application to manage alarms and other timer based alerts for the desktop
 kde-apps/kalgebra 25.08.3 25.12.1: MathML-based 2D and 3D graph calculator by KDE
 kde-apps/kalzium 25.08.3 25.12.1: Periodic table of the elements
 kde-apps/kamera 25.08.3 25.12.1: Plasma integration for gphoto2 cameras
@@ -12454,7 +12454,7 @@ kde-frameworks/kholidays 6.20.0 6.22.0: Library to determine holidays and other 
 kde-frameworks/ki18n 5.116.0 6.20.0 6.22.0: Framework based on Gettext for internationalizing user interface text
 kde-frameworks/kiconthemes 5.116.0 6.20.0 6.22.0: Framework for icon theming and configuration
 kde-frameworks/kidletime 6.20.0 6.22.0: Framework for detection and notification of device idle time
-kde-frameworks/kimageformats 5.116.0-r1 6.20.0 6.22.0: Framework providing additional format plugins for Qt's image I/O system
+kde-frameworks/kimageformats 5.116.0-r1 6.20.0 6.22.0-r1: Framework providing additional format plugins for Qt's image I/O system
 kde-frameworks/kio 5.116.0-r5 6.20.0 6.22.0 6.22.1: Framework providing transparent file and data management
 kde-frameworks/kio-trash-desktop-file 5.116.0: KIO Trash KCM service desktop file
 kde-frameworks/kirigami 5.116.0-r2 6.20.0 6.22.0: Lightweight user interface framework for mobile and convergent applications
@@ -12533,7 +12533,7 @@ kde-plasma/kde-cli-tools 6.5.4 6.5.5: Tools based on KDE Frameworks 6 to better 
 kde-plasma/kde-cli-tools-common 6.5.4 6.5.5: Common files for kde-cli-tools
 kde-plasma/kde-gtk-config 6.5.4 6.5.5: Syncs KDE Plasma theme settings to GTK applications
 kde-plasma/kdecoration 6.5.4 6.5.5: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 6.5.4 6.5.5: Extra Plasma applets and engines
+kde-plasma/kdeplasma-addons 6.5.4 6.5.5 6.5.5-r1: Extra Plasma applets and engines
 kde-plasma/kdesu-gui 6.5.4 6.5.5: Graphical frontend for KDE Frameworks' kdesu
 kde-plasma/keditfiletype 6.5.4 6.5.5: File Type Editor
 kde-plasma/kgamma 6.5.4 6.5.5: Screen gamma values kcontrol module
@@ -12550,11 +12550,11 @@ kde-plasma/ksystemstats 6.5.4 6.5.5: Plugin-based system monitoring daemon
 kde-plasma/kwallet-pam 6.5.4 6.5.5: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 5.116.0-r1 6.5.4 6.5.4-r1 6.5.5: Qt-style API to interact with the wayland-client API
 kde-plasma/kwayland-integration 6.5.4 6.5.5: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.5.4-r2 6.5.5: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.5.4-r2 6.5.5 6.5.5-r1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.5.4-r1 6.5.5: Flexible, composited X window manager
 kde-plasma/kwrited 6.5.4 6.5.5: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.5.4-r1 6.5.5: Qt component to allow applications make use of Wayland wl-layer-shell protocol
-kde-plasma/libkscreen 6.5.4-r1 6.5.5: Plasma screen management library
+kde-plasma/libkscreen 6.5.4-r1 6.5.5 6.5.5-r1: Plasma screen management library
 kde-plasma/libksysguard 6.5.4 6.5.5: Task management and system monitoring library
 kde-plasma/libplasma 6.5.4 6.5.4-r1 6.5.5: Plasma library and runtime components based upon KF6 and Qt6
 kde-plasma/milou 6.5.4 6.5.5: Dedicated search application built on top of Baloo
@@ -12578,7 +12578,7 @@ kde-plasma/plasma-systemmonitor 6.5.4 6.5.5-r1: Monitor system sensors, process 
 kde-plasma/plasma-thunderbolt 6.5.4 6.5.5: Plasma integration for controlling Thunderbolt devices
 kde-plasma/plasma-vault 6.5.4 6.5.5-r1: Plasma applet and services for creating encrypted vaults
 kde-plasma/plasma-welcome 6.5.4 6.5.5-r1: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.5.4-r1 6.5.5: KDE Plasma workspace
+kde-plasma/plasma-workspace 6.5.4-r1 6.5.5 6.5.5-r1: KDE Plasma workspace
 kde-plasma/plasma-workspace-wallpapers 6.5.4 6.5.5: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.5.4 6.5.5: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.5.4 6.5.5: KDE Plasma control module for Plymouth
@@ -17104,7 +17104,7 @@ sys-apps/findutils 4.10.0: GNU utilities for finding files
 sys-apps/firejail 0.9.72 0.9.74 0.9.76: Security sandbox for any type of processes
 sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag from an ELF object's GNU_STACK
 sys-apps/flashrom 1.3.0-r3 1.5.0 1.5.1 1.6.0: Utility for reading, writing, erasing and verifying flash ROM chips
-sys-apps/flatpak 1.14.10 1.16.0 1.16.1: Linux application sandboxing and distribution framework
+sys-apps/flatpak 1.14.10 1.16.1 1.16.3: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 1.9.24 2.0.1 2.0.3-r1 2.0.14 2.0.16 2.0.18: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.6-r1 1.7 1.8: EFI executable for fwupd
@@ -17563,7 +17563,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.15-r5 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20251204 13.4.1_p20251211 13.4.1_p20251218 13.4.1_p20251225 13.4.1_p20260101 13.4.1_p20260115 13.4.1_p20260122 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20251205 14.3.1_p20251212 14.3.1_p20251219 14.3.1_p20251226 14.3.1_p20260102 14.3.1_p20260109 14.3.1_p20260116 14.3.1_p20260123 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20251129 15.2.1_p20251206 15.2.1_p20251213 15.2.1_p20251220 15.2.1_p20251227 15.2.1_p20260103 15.2.1_p20260110 15.2.1_p20260117 15.2.1_p20260124 15.3.9999 16.0.0_p20251123 16.0.0_p20251130 16.0.0_p20251207 16.0.0_p20251214 16.0.0_p20251221 16.0.0_p20251228 16.0.0_p20260104 16.0.0_p20260111 16.0.0_p20260111-r1 16.0.1_p20260118 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20251204 13.4.1_p20251211 13.4.1_p20251218 13.4.1_p20251225 13.4.1_p20260101 13.4.1_p20260115 13.4.1_p20260122 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20251205 14.3.1_p20251212 14.3.1_p20251219 14.3.1_p20251226 14.3.1_p20260102 14.3.1_p20260109 14.3.1_p20260116 14.3.1_p20260123 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20251129 15.2.1_p20251206 15.2.1_p20251213 15.2.1_p20251220 15.2.1_p20251227 15.2.1_p20260103 15.2.1_p20260110 15.2.1_p20260117 15.2.1_p20260124 15.3.9999 16.0.0_p20251123 16.0.0_p20251130 16.0.0_p20251207 16.0.0_p20251214 16.0.0_p20251221 16.0.0_p20251228 16.0.0_p20260104 16.0.0_p20260111 16.0.0_p20260111-r1 16.0.1_p20260118 16.0.1_p20260125 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
@@ -17756,7 +17756,7 @@ sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-
 sys-kernel/gentoo-kernel 5.10.247 5.10.248 5.15.197 5.15.198 6.1.159 6.1.161 6.6.119 6.6.120 6.6.121 6.12.63 6.12.64 6.12.65 6.12.66 6.12.67 6.18.4 6.18.5 6.18.6 6.18.7: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.247 5.10.248 5.15.197 5.15.198 6.1.159 6.1.161 6.6.119 6.6.120 6.6.121 6.12.63 6.12.64 6.12.65 6.12.66 6.12.67 6.18.4 6.18.5 6.18.6 6.18.7: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.242 5.10.243 5.10.244 5.10.245 5.10.246 5.10.247 5.15.191 5.15.192 5.15.193 5.15.194 5.15.195 5.15.196 5.15.197 5.15.198 6.1.153 6.1.154 6.1.155 6.1.156 6.1.157 6.1.158 6.1.159 6.1.160 6.1.161 6.6.111 6.6.112 6.6.113 6.6.114 6.6.115 6.6.116 6.6.117 6.6.118 6.6.119 6.6.120 6.6.121 6.12.54 6.12.55 6.12.56 6.12.57 6.12.58 6.12.59 6.12.60 6.12.61 6.12.62 6.12.63 6.12.64 6.12.65 6.12.66 6.12.67 6.17.5-r1 6.17.6 6.17.7 6.17.8 6.17.9 6.17.10 6.17.11 6.17.12 6.17.13 6.18.0 6.18.1 6.18.2 6.18.2-r1 6.18.3 6.18.4 6.18.5 6.18.6 6.18.7: Full sources including the Gentoo patchset for the 6.18 kernel tree
-sys-kernel/git-sources 6.19_rc1 6.19_rc2 6.19_rc3 6.19_rc4 6.19_rc5 6.19_rc6: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 6.19_rc1 6.19_rc2 6.19_rc3 6.19_rc4 6.19_rc5 6.19_rc6 6.19_rc7: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 60 63 65 9999: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
