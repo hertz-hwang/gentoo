@@ -2436,7 +2436,7 @@ app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.0 10.4.1: Rep
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 10.20 11.0 11.1 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 10.20 11.0 11.1 9999: Free implementation of Windows(tm) on Unix, without external patchsets
-app-emulation/winetricks 20250102 20250102-r1 99999999: Easy way to install DLLs needed to work around problems in Wine
+app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
 app-emulation/xe-guest-utilities 6.2.0_p1120-r1: XenServer Virtual Machine Tools
@@ -6080,7 +6080,7 @@ dev-ml/lablgtk-sourceview 3.1.5: OCaml bindings to GTK-3
 dev-ml/labltk 8.06.12-r2 8.06.15-r1: OCaml interface to the Tcl/Tk GUI framework
 dev-ml/lambda-term 3.1.0 3.3.1-r1 3.3.2: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
-dev-ml/llvm 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: OCaml bindings for LLVM
+dev-ml/llvm 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0: Logging infrastructure for OCaml
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
 dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2: Cooperative light-weight thread library for OCaml
@@ -8266,7 +8266,7 @@ dev-python/cheroot 11.0.0 11.1.1 11.1.2: High-performance, pure-Python HTTP serv
 dev-python/cherrypy 18.10.0: CherryPy is a pythonic, object-oriented HTTP framework
 dev-python/chump 1.6.0-r2: API wrapper for Pushover
 dev-python/cjkwrap 2.2-r2: A library for wrapping and filling UTF-8 CJK text
-dev-python/clang 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Python bindings for llvm-core/clang
+dev-python/clang 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Python bindings for llvm-core/clang
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.7.0 2.8.1 2.9.0 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0: Python library for better command line interfaces
@@ -8745,7 +8745,7 @@ dev-python/line-profiler 4.2.0 5.0.0: Line-by-line profiler
 dev-python/linkify-it-py 2.0.3: Links recognition library with full unicode support
 dev-python/linode-metadata 0.3.3: Python bindings for the Linode Metadata Service
 dev-python/linuxdoc 20240924 99999999: Sphinx-doc extensions for sophisticated C developer
-dev-python/lit 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: A stand-alone install of the LLVM suite testing tool
+dev-python/lit 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: A stand-alone install of the LLVM suite testing tool
 dev-python/littleutils 0.2.4: Small personal collection of Python utility functions
 dev-python/livereload 2.7.1: livereload server in Python
 dev-python/llfuse 1.5.1 1.5.2: Python bindings for the low-level FUSE API
@@ -12593,35 +12593,35 @@ kde-plasma/spectacle 6.5.4-r1 6.5.5: Screenshot capture utility
 kde-plasma/systemsettings 6.5.4 6.5.5: Control Center to configure KDE Plasma desktop
 kde-plasma/wacomtablet 6.5.4 6.5.5-r1: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.5.4-r1 6.5.5: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
-llvm-core/clang 15.0.7-r3 16.0.6-r1 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: C language family frontend for LLVM
-llvm-core/clang-common 15.0.7-r10 16.0.6-r6 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Common files shared between multiple slots of clang
+llvm-core/clang 15.0.7-r3 16.0.6-r1 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: C language family frontend for LLVM
+llvm-core/clang-common 15.0.7-r10 16.0.6-r6 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-linker-config 16 17 18 19 20 21 22 23: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 15-r2 16-r2 17 18 19 20 21 22 23: Symlinks to use Clang on GCC-free system
-llvm-core/flang 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: LLVM's Fortran frontend
-llvm-core/libclc 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: OpenCL C library
-llvm-core/lld 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: The LLVM linker (link editor)
+llvm-core/flang 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: LLVM's Fortran frontend
+llvm-core/libclc 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: OpenCL C library
+llvm-core/lld 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 15-r2 16-r2 17 18 19 20 21 22 23: Symlinks to use LLD on binutils-free system
-llvm-core/lldb 15.0.7 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: The LLVM debugger
-llvm-core/llvm 15.0.7-r7 16.0.6-r5 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Low Level Virtual Machine
-llvm-core/llvm-common 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Common files shared between multiple slots of LLVM
+llvm-core/lldb 15.0.7 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: The LLVM debugger
+llvm-core/llvm 15.0.7-r7 16.0.6-r5 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Low Level Virtual Machine
+llvm-core/llvm-common 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Common files shared between multiple slots of LLVM
 llvm-core/llvm-toolchain-symlinks 15-r1 16-r1 17-r1 18-r1 19 20-r1 21 22 23: Symlinks to use LLVM on binutils-free system
 llvm-core/llvmgold 15 16 17 18 19 20 21 22 23: LLVMgold plugin symlink for autoloading
-llvm-core/mlir 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Multi-Level Intermediate Representation (library only)
-llvm-core/polly 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Polyhedral optimizations for LLVM
+llvm-core/mlir 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Multi-Level Intermediate Representation (library only)
+llvm-core/polly 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Polyhedral optimizations for LLVM
 llvm-runtimes/clang-rtlib-config 16 17 18 19 20 21 22 23: Default rtlib configuration for clang
 llvm-runtimes/clang-runtime 15.0.7 16.0.6 16.0.6-r1 17.0.6 17.0.6-r1 18.1.8 18.1.8-r1 19.1.7 19.1.7-r1 20.1.8 20.1.8-r1 21.1.8 22 23: Meta-ebuild for clang runtime libraries
 llvm-runtimes/clang-stdlib-config 16 17 18 19 20 21 22 23: Default C++ library configuration for clang
 llvm-runtimes/clang-unwindlib-config 16 17 18 19 20 21 22 23: Default unwindlib configuration for clang
-llvm-runtimes/compiler-rt 15.0.7-r2 16.0.6-r6 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Compiler runtime library for clang (built-in part)
-llvm-runtimes/compiler-rt-sanitizers 15.0.7-r1 16.0.6-r1 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
-llvm-runtimes/flang-rt 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: LLVM's Fortran runtime
+llvm-runtimes/compiler-rt 15.0.7-r2 16.0.6-r6 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Compiler runtime library for clang (built-in part)
+llvm-runtimes/compiler-rt-sanitizers 15.0.7-r1 16.0.6-r1 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
+llvm-runtimes/flang-rt 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
-llvm-runtimes/libcxx 15.0.7-r1 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: New implementation of the C++ standard library, targeting C++11
-llvm-runtimes/libcxxabi 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Low level support for a standard C++ library
-llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
-llvm-runtimes/libunwind 15.0.7 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: C++ runtime stack unwinder from LLVM
-llvm-runtimes/offload 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: OpenMP offloading support
-llvm-runtimes/openmp 15.0.7-r6 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 23.0.0_pre20260125 23.0.0.9999: OpenMP runtime library for LLVM/clang compiler
+llvm-runtimes/libcxx 15.0.7-r1 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: New implementation of the C++ standard library, targeting C++11
+llvm-runtimes/libcxxabi 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Low level support for a standard C++ library
+llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
+llvm-runtimes/libunwind 15.0.7 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: C++ runtime stack unwinder from LLVM
+llvm-runtimes/offload 19.1.7 20.1.8-r1 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: OpenMP offloading support
+llvm-runtimes/openmp 15.0.7-r6 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.1.0_rc2 23.0.0_pre20260125 23.0.0.9999: OpenMP runtime library for LLVM/clang compiler
 lxde-base/lxappearance 0.6.4-r2: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
@@ -14978,7 +14978,7 @@ net-libs/libflowmanager 3.0.0-r1: A library that measures and reports on packet 
 net-libs/libgadu 1.11.4 1.12.2-r1: Client-side library for the Gadu-Gadu protocol
 net-libs/libgrss 0.7.0-r2: Library for easy management of RSS/Atom/Pie feeds
 net-libs/libgsasl 1.10.0: The GNU SASL library
-net-libs/libgssglue 0.9: Exports a gssapi interface which calls other random gssapi libraries
+net-libs/libgssglue 0.9 0.9-r1: Exports a gssapi interface which calls other random gssapi libraries
 net-libs/libhackrf 2023.01.1 2024.02.1 2024.02.1-r1 2026.01.1 2026.01.2 9999: library for communicating with HackRF SDR platform
 net-libs/libhtp 0.5.49: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libhubbub 0.3.8: HTML5 compliant parsing library, written in C
@@ -16630,6 +16630,7 @@ sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 202
 sec-keys/openpgp-keys-gocryptfs 20250728 20250916: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
+sec-keys/openpgp-keys-gsasl 20260127: OpenPGP keys used by the GNU SASL Library
 sec-keys/openpgp-keys-guillemjover 20220331: OpenPGP keys used by Guillem Jover
 sec-keys/openpgp-keys-gzip 20220406: OpenPGP keys used by GNU Gzip
 sec-keys/openpgp-keys-hughsie 20260124: OpenPGP key used by Richard Hughes (hughsie)
@@ -16657,9 +16658,11 @@ sec-keys/openpgp-keys-less 20260115: OpenPGP keys used by less
 sec-keys/openpgp-keys-libarchive 20221209 20251118: OpenPGP keys used by the libarchive project
 sec-keys/openpgp-keys-libass 20220515 20250608: OpenPGP keys used to sign libass releases
 sec-keys/openpgp-keys-libevent 0: OpenPGP keys used by the libevent project
+sec-keys/openpgp-keys-libgssglue 20260127: OpenPGP keys used by net-libs/libgssglue
 sec-keys/openpgp-keys-libidn 20250414: OpenPGP keys used to sign libidn releases
 sec-keys/openpgp-keys-libjpeg-turbo 20260124: OpenPGP key used by media-libs/libjpeg-turbo
 sec-keys/openpgp-keys-libmicrohttpd 201906 999999: OpenPGP keys used to sign GNU libmicrohttpd releases
+sec-keys/openpgp-keys-libntlm 20260127: OpenPGP keys used by net-libs/libntlm
 sec-keys/openpgp-keys-libseccomp 20260122: OpenPGP key used for sys-libs/libseccomp
 sec-keys/openpgp-keys-libssh 20260121: OpenPGP key used by net-libs/libssh
 sec-keys/openpgp-keys-libtasn1 20220824 20250209 20260112: OpenPGP keys used by GNU Libtasn1
@@ -17113,7 +17116,7 @@ sys-apps/fwupd 1.9.24 2.0.1 2.0.3-r1 2.0.14 2.0.16 2.0.18: Aims to make updating
 sys-apps/fwupd-efi 1.6-r1 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.3.2: GNU awk pattern-matching language
-sys-apps/gentoo-functions 0.19 1.7.4 9999: Base functions required by all Gentoo systems
+sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9 9-r1 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
 sys-apps/gnome-disk-utility 45.1-r1 46.1-r1: Disk Utility for GNOME using udisks
@@ -17351,7 +17354,7 @@ sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-auth/nss-pam-ldapd 0.9.13: NSS module for name lookups using LDAP
 sys-auth/nss_ldap 265-r11: NSS LDAP Module
-sys-auth/oath-toolkit 2.6.12-r2 2.6.13: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
+sys-auth/oath-toolkit 2.6.12-r2 2.6.13 2.6.14: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
 sys-auth/otpcalc 0.98.1: A One Time Password and S/Key calculator for GTK+
 sys-auth/pam-pgsql 0.7.3.2-r2: PAM module to authenticate users via PostgreSQL
 sys-auth/pam-script 1.1.9: PAM module for running scripts during authorization, password change and session
