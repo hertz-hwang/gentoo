@@ -10780,7 +10780,7 @@ dev-util/azuredatastudio 1.52.0-r1: Data management and development tool from Mi
 dev-util/babeltrace 1.5.11 2.1.1-r1 2.1.2: Command-line tool and library to read and convert trace files
 dev-util/bats 1.12.0 1.13.0: Bats-core: Bash Automated Testing System
 dev-util/bbe 0.2.2-r1: Sed-like editor for binary files
-dev-util/bcc 0.31.0-r3 0.32.0-r1 0.34.0-r1 0.35.0-r1 0.35.0-r2: Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+dev-util/bcc 0.31.0-r3 0.32.0-r1 0.34.0-r1 0.35.0-r1 0.35.0-r2 0.36.0: Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 dev-util/bcpp 20240917: Indents C/C++ source code
 dev-util/bdelta 0.3.1-r1: Binary Delta - Efficient difference algorithm and format
 dev-util/bear 3.1.6 4.0.0: Build EAR generates a compilation database for clang tooling
@@ -10832,7 +10832,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.4 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.14 2.1.22: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.14 2.1.23: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.4 2025.2.5: A complete toolset for C and C++ development
