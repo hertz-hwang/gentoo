@@ -1808,7 +1808,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r15 26.3-r25 27.2-r23 28.2-r20 29.4-r6 30.1-r4 30.2-r1 30.2.9999 31.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r16 26.3-r25 27.2-r23 28.2-r20 29.4-r6 30.1-r4 30.2-r1 30.2.9999 31.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
 app-editors/fe 2.0-r1: A small and easy to use folding editor
@@ -5219,7 +5219,7 @@ dev-lang/ghc 9.0.2-r4 9.2.8: The Glasgow Haskell Compiler
 dev-lang/gleam 1.13.0 1.14.0: A friendly language for building type-safe, scalable systems!
 dev-lang/gnucobol 3.2-r2: A free/libre COBOL compiler
 dev-lang/gnuprologjava 0.2.6-r2: GNU Prolog for Java is an implementation of ISO Prolog as a Java library
-dev-lang/go 1.24.11 1.25.5 9999: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.24.11 1.24.12 1.25.5 1.25.6 9999: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.20.14 1.22.12: Binary bootstrap package for dev-lang/go
 dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over finite domains (FD)
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
