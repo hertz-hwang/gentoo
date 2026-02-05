@@ -1105,7 +1105,7 @@ app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
 app-admin/webapp-config 1.55-r4 1.56 9999: Gentoo's installer for web-based applications
 app-admin/whowatch 1.8.6-r2: Displays information about users currently logged on in real time
-app-admin/winbox 4.0_beta47: Management Software for MikroTik RouterOS
+app-admin/winbox 4.0_rc1: Management Software for MikroTik RouterOS
 app-admin/xkcdpass 1.20.0 1.30.0: Password generator inspired by XKCD 936
 app-admin/xstow 1.1.1: Replacement for GNU stow with extensions
 app-admin/xtail 2.1_p8: Tail multiple logfiles at once, even if rotated
@@ -1845,7 +1845,7 @@ app-editors/moe 1.15: Powerful and user-friendly console text editor
 app-editors/mousepad 0.6.5-r2: GTK+-based editor for the Xfce Desktop Environment
 app-editors/nano 8.6 8.7 8.7-r1 8.7.1 9999: GNU GPL'd Pico clone with more functionality
 app-editors/ne 3.3.3: The nice editor, easy to use for the beginner and powerful for the wizard
-app-editors/nedit 5.7: Multi-purpose text editor for the X Window System
+app-editors/nedit 5.7 5.7-r1: Multi-purpose text editor for the X Window System
 app-editors/neovim 0.11.2 0.11.3-r1 0.11.4-r1 0.11.5 9999: Vim-fork focused on extensibility and agility
 app-editors/ng 1.5_beta1-r3: Emacs like micro editor Ng -- based on mg2a
 app-editors/okteta 0.26.24 0.26.60_pre20251211: Hex editor by KDE
@@ -11475,7 +11475,7 @@ games-board/pychess 1.0.5 1.0.6 1.1.0: GTK chess client
 games-board/pysolfc 3.4.1: Exciting collection of more than 1000 solitaire card games
 games-board/scid 5.0.2: Shane's Chess Information Database
 games-board/simsu 1.4.5 1.4.6: Basic sudoku game
-games-board/sjeng 11.2_p8_p1: Console based chess interface
+games-board/sjeng 11.2_p8_p1-r1: Console based chess interface
 games-board/stockfish 17-r1 17.1 18: Free UCI chess engine, claimed to be the strongest in the world
 games-board/tablebase-syzygy 0_pre20131213-r101: Syzygy chess endgame tablebases for up to 6 pieces
 games-board/tali 40.9: Beat the odds in a poker-style dice game
@@ -18239,7 +18239,7 @@ www-client/elinks 0.18.0 9999: Advanced and well-established text-mode web brows
 www-client/epiphany 48.5 49.2: GNOME webbrowser based on Webkit
 www-client/falkon 25.08.3 25.12.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.6.0 140.7.0 146.0 146.0.1 147.0 147.0.1 147.0.2: Firefox Web Browser
+www-client/firefox 140.6.0 140.7.0 146.0 146.0.1 147.0 147.0.1 147.0.2 147.0.3: Firefox Web Browser
 www-client/firefox-bin 140.7.0 147.0.2 147.0.3: Firefox Web Browser
 www-client/google-chrome 141.0.7390.107 142.0.7444.175 143.0.7499.169 144.0.7559.109: The web browser from Google
 www-client/google-chrome-beta 142.0.7444.34 143.0.7499.40 144.0.7559.31 145.0.7632.26: The web browser from Google
