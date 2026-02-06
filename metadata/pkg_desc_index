@@ -8947,7 +8947,7 @@ dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
 dev-python/paramiko 3.5.1 4.0.0 4.0.0-r1: SSH2 protocol library
-dev-python/parse 1.20.2: Parse strings using a specification based on the Python format() syntax
+dev-python/parse 1.20.2 1.21.0: Parse strings using a specification based on the Python format() syntax
 dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
 dev-python/parso 0.8.4-r1 0.8.5: A python parser that supports error recovery and round-trip parsing
@@ -14572,8 +14572,8 @@ net-analyzer/nbtscan 1.7.2: NBTscan is a program for scanning IP networks for Ne
 net-analyzer/nbwmon 0.5.2: ncurses bandwidth monitor
 net-analyzer/ndoutils 2.1.4: Nagios addon to store Nagios data in a database
 net-analyzer/ndsad 1.33-r2: Cisco netflow probe from libpcap, ULOG, tee/divert sources
-net-analyzer/nessus-agent-bin 11.0.2: A remote security scanner for Linux - agent component
-net-analyzer/nessus-bin 10.10.1: A remote security scanner for Linux
+net-analyzer/nessus-agent-bin 11.1.1: A remote security scanner for Linux - agent component
+net-analyzer/nessus-bin 10.11.2: A remote security scanner for Linux
 net-analyzer/net-snmp 5.9.4-r2 5.9.4-r3 5.9.5.2 9999: Software for generating and retrieving SNMP data
 net-analyzer/netcat 110.20180111-r2: The network swiss army knife
 net-analyzer/netdata 1.47.5 2.5.3 9999: Linux real time system monitoring, done right!
@@ -17131,7 +17131,7 @@ sys-apps/fwupd 1.9.24 2.0.1 2.0.3-r1 2.0.14 2.0.16 2.0.18: Aims to make updating
 sys-apps/fwupd-efi 1.6-r1 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.3.2: GNU awk pattern-matching language
-sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 9999: Base functions required by all Gentoo systems
+sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 1.7.6 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9 9-r1 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
 sys-apps/gnome-disk-utility 45.1-r1 46.1-r1: Disk Utility for GNOME using udisks
