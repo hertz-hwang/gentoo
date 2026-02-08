@@ -1456,7 +1456,7 @@ app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 11-r1: GLEP 63 compliance checker for OpenPGP keys
 app-crypt/gnupg 2.4.9 2.5.17 2.5.17-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
-app-crypt/gocryptfs 2.6.1 2.6.1-r1: Encrypted overlay filesystem written in Go
+app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
 app-crypt/gpa 0.11.0-r2: GNU Privacy Assistant (GPA): a graphical user interface for GnuPG
 app-crypt/gpg-ringmgr 1.12-r1: GPG Keyring Manager to handle large GPG keyrings more easily
@@ -1761,7 +1761,7 @@ app-doc/casting-spels-emacs 19-r4: Casting SPELs in Lisp - A Comic Book (Emacs L
 app-doc/cppman 0.5.9 0.6.0: C++ man pages for Linux, with source from cplusplus.com and cppreference.com
 app-doc/csound-manual 6.15-r1 6.16: The Csound reference manual
 app-doc/devmanual 0_pre20241109 9999: The Gentoo Development Guide
-app-doc/dita-ot-bin 4.3.5: Darwin Information Typing Architecture - Open Toolkit publishing engine
+app-doc/dita-ot-bin 4.3.5 4.4: Darwin Information Typing Architecture - Open Toolkit publishing engine
 app-doc/diveintopython 3-r2: 'Dive Into Python' by Mark Pilgrim - Python 3
 app-doc/e16-docs 0.16.8.0.2-r2: The E16 online help
 app-doc/eclass-manpages 20250711 20250730 20250815 20251126 20260124 99999999: Collection of Gentoo eclass manpages
@@ -1819,7 +1819,7 @@ app-editors/gedit-plugins 46.0-r1 48.1 48.2: Collection of extra plugins for the
 app-editors/ghex 48.1 48.3 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 25.08.3 25.12.2: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-latex 3.46.0-r1: Integrated LaTeX environment for GNOME
-app-editors/gnome-text-editor 48.3 49.0: A simple text editor for the GNOME desktop
+app-editors/gnome-text-editor 48.3 49.0 49.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
 app-editors/gvim 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r2 9999: GUI version of the Vim text editor
 app-editors/helix 25.01.1 25.07.1: A post-modern text editor
@@ -2378,7 +2378,7 @@ app-emulation/genymotion-bin 3.7.1: Complete set of tools that provide a virtual
 app-emulation/glean 1.24.0: Simple program to write static config from config-drive
 app-emulation/grub-xen-host 1.0-r2: Grub2 built as a PV grub per the Xen PV Boot Protocol
 app-emulation/guestfs-tools 1.52.3-r1 1.54.0 1.55.1: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
-app-emulation/gxemul 0.6.3.1: A Machine Emulator, Mainly emulates MIPS, but supports other CPU types
+app-emulation/gxemul 0.6.3.1 0.7.0: A Machine Emulator, Mainly emulates MIPS, but supports other CPU types
 app-emulation/hercules 3.13-r1: Hercules System/370, ESA/390 and zArchitecture Mainframe Emulator
 app-emulation/hercules-sdl 4.7.0-r1 4.8.0 4.9.0 4.9.1: The SoftDevLabs (SDL) version of the Hercules 4.x Hyperion Emulator
 app-emulation/hercules-sdl-crypto 4.7.0 4.8.0 4.9.0 4.9.1 9999: Simple AES/DES encryption and SHA1/SHA2 hashing library
@@ -2429,14 +2429,14 @@ app-emulation/virtualbox-additions 7.0.26 7.1.14 7.1.16 7.2.4 7.2.6: CD image co
 app-emulation/virtualbox-extpack-oracle 7.0.26 7.1.14 7.1.16 7.2.4 7.2.6: PUEL extensions for VirtualBox
 app-emulation/virtualbox-guest-additions 7.0.26 7.1.14 7.1.16 7.2.4 7.2.6: VirtualBox kernel modules and user-space tools for Gentoo guests
 app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.1.14 7.1.16 7.2.4 7.2.6: Kernel Modules for Virtualbox Guest Additions
-app-emulation/virtualbox-kvm 7.1.14_pre20251103 7.1.16_pre20251103 7.2.4_pre20251103: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-kvm 7.1.14_pre20251103 7.1.16_pre20251103 7.2.4_pre20251103 7.2.6_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.1.14 7.1.16 7.2.4 7.2.6: Kernel Modules for Virtualbox
 app-emulation/vkd3d-proton 2.6-r1 2.12 2.13 2.14.1 3.0b 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.0 10.4.1: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 10.20 11.0 11.1 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 10.20 11.0 11.1 11.2 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 10.20 11.0 11.1 11.2 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
@@ -3346,7 +3346,7 @@ app-text/pandoc 2.18-r2 3: Metapackage for pandoc version 3
 app-text/pandoc-bin 3.8.3 3.9: Conversion between markup formats (binary package)
 app-text/pandoc-cli 0.1.1-r1: Conversion between documentation formats
 app-text/paper-clip 5.5.2 9999: Edit the title, author, keywords and more details of PDF documents
-app-text/papers 48.5 49.2: A document viewer for the GNOME desktop
+app-text/papers 48.5-r1 49.2 49.3: A document viewer for the GNOME desktop
 app-text/paperwork 2.2.5: a personal document manager for scanned documents (and PDFs)
 app-text/paperwork-backend 2.2.5: Backend part of Paperwork (Python API, no UI)
 app-text/paps 0.8.0: Unicode-aware text to PostScript converter
@@ -8272,7 +8272,7 @@ dev-python/clang 15.0.7 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.0_rc1 22.
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.7.0 2.8.1 2.9.0 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0: Python library for better command line interfaces
-dev-python/click 8.2.1 8.3.0 8.3.1 8.3.1-r1: A Python package for creating beautiful command line interfaces
+dev-python/click 8.3.1-r1: A Python package for creating beautiful command line interfaces
 dev-python/click-default-group 1.2.4: Extends click.Group to invoke a command without explicit subcommand name
 dev-python/click-didyoumean 0.3.1: Enable git-like did-you-mean feature in click
 dev-python/click-help-colors 0.9.4: Colorization of help messages in Click
@@ -11999,7 +11999,7 @@ gnome-base/gdm 47.0 48.0: GNOME Display Manager for managing graphical display s
 gnome-base/gnome 45.2 48.0: Meta package for GNOME, merge this package to install
 gnome-base/gnome-applets 3.54.0-r1 3.56.0 3.58.0: Applets for the GNOME Flashback Panel
 gnome-base/gnome-common 3.18.0-r2: Common files for development of Gnome packages
-gnome-base/gnome-control-center 47.6-r1 47.7-r1 48.3-r1 48.4-r1: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-control-center 47.6-r1 47.7-r1 48.4-r1 48.6: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 45.2 48.0: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-core-libs 45.2 48.0: Sub-meta package for the core libraries of GNOME
 gnome-base/gnome-desktop 44.1-r300 44.1-r400 44.3-r300 44.3-r400 44.4-r300 44.4-r400: Library with common API for various GNOME modules
@@ -12011,7 +12011,7 @@ gnome-base/gnome-menus 3.36.0-r1 3.38.1: Library and layout configuration for th
 gnome-base/gnome-panel 3.54.0 3.56.0 3.58.1: The GNOME Flashback Panel
 gnome-base/gnome-session 47.0.1-r2 48.0 48.0-r1 48.0-r2: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2 48.1: Gnome Settings Daemon
-gnome-base/gnome-shell 47.7-r1 47.8-r1 47.9 48.4 48.5 48.6: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.5 48.6 48.7: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.1-r3 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/libglade 2.6.4-r5: Library to construct graphical interfaces at runtime
@@ -12019,7 +12019,7 @@ gnome-base/libgnomecanvas 2.30.3-r1: The Gnome 2 Canvas library
 gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
 gnome-base/libgtop 2.40.0-r2 2.41.3: A library that provides top functionality to applications
 gnome-base/librsvg 2.40.21-r1 2.58.5-r1 2.60.0: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 48.4.1-r1 49.2: Default file manager for the GNOME desktop
+gnome-base/nautilus 48.4.1-r1 49.2-r1 49.4: Default file manager for the GNOME desktop
 gnome-extra/cinnamon 6.4.10-r1 6.4.10-r2 6.4.13 6.4.13-r1: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/cinnamon-control-center 6.4.1 6.4.2: Cinnamons's main interface to configure various aspects of the desktop
 gnome-extra/cinnamon-desktop 6.4.1-r2 6.4.2: A collection of libraries and utilites used by Cinnamon
@@ -12059,8 +12059,8 @@ gnome-extra/gnome-shell-extension-desktop-icons-ng 47.0.13 49.0.4 49.0.5: Deskto
 gnome-extra/gnome-shell-extension-gsconnect 71: KDE Connect implementation for GNOME
 gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20250301 1.2.0_p20250710: Keyboard-driven layer for GNOME Shell with tiling support
 gnome-extra/gnome-shell-extension-weather-in-the-clock 20221024-r4: Display the current weather in the clock
-gnome-extra/gnome-shell-extension-weather-oclock 47.0 49.0: Display the current weather inside the pill next to the clock
-gnome-extra/gnome-shell-extensions 47.5 47.6 48.3: JavaScript extensions for GNOME Shell
+gnome-extra/gnome-shell-extension-weather-oclock 49.0: Display the current weather inside the pill next to the clock
+gnome-extra/gnome-shell-extensions 48.3: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 47.0 48.0: Unofficial extension pack providing GNOME 2-like features
 gnome-extra/gnome-software 48.4 49.2: Gnome install & update software
 gnome-extra/gnome-system-monitor 48.1 49.1: The Gnome System Monitor
@@ -12925,7 +12925,7 @@ media-fonts/mplus-fonts 2.2.4-r1: M+ Japanese bitmap fonts
 media-fonts/mplus-outline-fonts 0_pre063_p1: M+ Japanese outline fonts
 media-fonts/nanum 3.0: Korean fonts distributed by Naver
 media-fonts/nanumfont 2.5: Korean monospace font distributed by Naver
-media-fonts/noto 20251101 20251201 20260101: Google's font family that aims to support all the world's languages
+media-fonts/noto 20251101 20260101 20260201: Google's font family that aims to support all the world's languages
 media-fonts/noto-cjk 20190416: Google's CJK font family
 media-fonts/noto-emoji 20241003 20250618 20250912: Google Noto Emoji fonts
 media-fonts/nunito 1.0-r1: Sans Serif font with rounded terminals
@@ -14423,7 +14423,7 @@ media-video/tivodecode 0.2_pre4: TiVo File Decoder
 media-video/totem 43.1 43.2: Media player for GNOME
 media-video/tsmuxer 2.7.0: Utility to create and demux TS and M2TS files
 media-video/ttcut 0.19.6_p2-r1: Tool for cutting MPEG files especially for removing commercials
-media-video/untrunc 0_pre20240814 0_pre20260112: Restore truncated mp4/mov files
+media-video/untrunc 0_pre20260112 0_pre20260204: Restore truncated mp4/mov files
 media-video/ushare 2.1 2.1_p20250817: uShare is a UPnP (TM) A/V & DLNA Media Server
 media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 9999: v4l2 loopback device whose output is its own input
 media-video/vamps 0.99.2-r2: Very fast requantisizing tool for backup DVDs
@@ -14856,7 +14856,7 @@ net-im/gajim 2.2.0 2.4.1 2.4.2: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.13.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
-net-im/mattermost-desktop-bin 5.13.4 6.0.4: Mattermost Desktop application
+net-im/mattermost-desktop-bin 5.13.4 6.0.4 6.1.0_rc2: Mattermost Desktop application
 net-im/neochat 25.08.3 25.12.2: Client for Matrix, the decentralized communication protocol
 net-im/openmittsu 0.10.3.0: Open source chat client for Threema-style end-to-end encrypted chat networks
 net-im/pidgin 2.14.14-r2 2.14.14-r3: GTK Instant Messenger client
@@ -15478,7 +15478,7 @@ net-misc/tinyssh 20250411 20250501 99999999: A small SSH server with state-of-th
 net-misc/tipcutils 3.0.6: Utilities for TIPC (Transparent Inter-Process Communication)
 net-misc/trurl 0.16.1 9999: Command line tool for URL parsing and manipulation
 net-misc/tuba 0.10.2 0.10.3: Browse the Fediverse (GTK client)
-net-misc/turbovnc 3.2.1-r1 3.2.91_p1: A fast replacement for TigerVNC
+net-misc/turbovnc 3.2.1-r1 3.3: A fast replacement for TigerVNC
 net-misc/ubridge 0.9.19-r1: Bridge for UDP tunnels, Ethernet, TAP and VMnet interfaces
 net-misc/ucarp 1.5.2-r7: Portable userland implementation of Common Address Redundancy Protocol (CARP)
 net-misc/udpcast 20211207 20211207-r1: Multicast file transfer tool
@@ -15954,7 +15954,7 @@ sci-biology/yass 1.14-r4: Genomic similarity search with multiple transition con
 sci-calculators/bc-gh 6.5.0 6.7.5 7.0.3: Implementation of POSIX bc with GNU extensions
 sci-calculators/calcoo 1.3.18-r2: Scientific calculator designed to provide maximum usability
 sci-calculators/datamash 1.8 1.9: Command-line program for basic numeric, textual and statistical operations
-sci-calculators/galculator 2.1.4-r2: GTK+ based algebraic and RPN calculator
+sci-calculators/galculator 2.1.4-r2 2.1.5_pre20150928: GTK+ based algebraic and RPN calculator
 sci-calculators/hcalc 1.2-r1: DJ's Hex Calculator
 sci-calculators/hexcalc 1.11-r4: Simple hex calculator for X
 sci-calculators/keurocalc 1.3.0_p20241225: Universal currency converter and calculator
@@ -15977,12 +15977,12 @@ sci-chemistry/autodock_vina 1.2.7: Program for drug discovery, molecular docking
 sci-chemistry/avogadro2 1.101.0 1.102.1: Advanced molecule editor and visualizer 2
 sci-chemistry/bodr 10: The Blue Obelisk Data Repository listing element and isotope properties
 sci-chemistry/cara-bin 1.8.4-r2: Analysis of NMR spectra and Computer Aided Resonance Assignment
-sci-chemistry/chemex 2025.4.0 2025.10.0: Program to fit chemical exchange induced shift and relaxation data
+sci-chemistry/chemex 2025.10.0 2026.1.0: Program to fit chemical exchange induced shift and relaxation data
 sci-chemistry/chemical-mime-data 0.1.95_pre20171122: A collection of data files to add support for chemical MIME types
 sci-chemistry/chemtool 1.6.14-r1: A GTK program for drawing organic molecules
 sci-chemistry/clashlist 3.17-r1: Build lists of van der Waals clashes from an input PDB file
 sci-chemistry/cluster 1.3.081231-r1 1.3.081231-r2: Build lists of collections of interacting items
-sci-chemistry/dssp 2.2.1-r3 4.5.3 4.5.5 4.5.6: The protein secondary structure standard
+sci-chemistry/dssp 2.2.1-r3 4.5.6 4.5.8: The protein secondary structure standard
 sci-chemistry/easychem 0.6-r2: Chemical structure drawing program - focused on presentation
 sci-chemistry/elem 1.0.3-r3: periodic table of the elements
 sci-chemistry/gelemental 2.0.0-r1 2.0.2: Periodic table viewer with detailed information on the chemical elements
@@ -16222,7 +16222,7 @@ sci-libs/levmar 2.6-r1: Levenberg-Marquardt nonlinear least squares C library
 sci-libs/libaec 1.1.4: Adaptive Entropy Coding library
 sci-libs/libbraiding 1.3.1: Expose the functionality of cbraid as a shared library
 sci-libs/libcerf 1.17 2.5: Efficient and accurate implementation of complex error functions
-sci-libs/libcifpp 8.0.1 9.0.3 9.0.5: Code to work with mmCIF and PDB files
+sci-libs/libcifpp 9.0.5 9.0.6: Code to work with mmCIF and PDB files
 sci-libs/libdap 3.20.9-r1 3.21.1: Implementation of a C++ SDK for DAP 2.0 and 3.2
 sci-libs/libecpint 1.0.6-r1: Efficient evaluation of integrals over ab initio effective core potentials
 sci-libs/libexcelformat 101016-r1: reading, writing, and editing of XLS (BIFF8 format) files using C++
@@ -16534,9 +16534,9 @@ sci-visualization/ggobi 2.1.11-r1 2.1.12-r1: Visualization program for exploring
 sci-visualization/gle 4.3.8-r1 4.3.9: Graphics Layout Engine
 sci-visualization/gnuplot 5.4.10-r2 6.0.3 6.0.4 6.1.9999: Command-line driven interactive plotting program
 sci-visualization/gr 0.73.6-r1: Universal framework for cross-platform visualization applications
-sci-visualization/grace 5.1.25_p17 5.1.25_p18: Motif based XY-plotting tool
+sci-visualization/grace 5.1.25_p18: Motif based XY-plotting tool
 sci-visualization/gwyddion 2.67-r1 2.69: Framework for Scanning Mode Microscopy data analysis
-sci-visualization/kst 2.1.0_p20260208: Fast real-time large-dataset viewing and plotting tool
+sci-visualization/kst 2.1.0_p20260208-r1: Fast real-time large-dataset viewing and plotting tool
 sci-visualization/labplot 2.11.1-r1 9999: Scientific data analysis and visualisation based on KDE Frameworks
 sci-visualization/paraview 5.13.2-r2 5.13.3-r3 6.0.1: Powerful scientific data visualization application
 sci-visualization/pythonprop 0.30.1_p20240217-r1: Scripts to prepare and plot VOACAP propagation predictions
@@ -16641,7 +16641,7 @@ sec-keys/openpgp-keys-gmp 20250628: OpenPGP keys used by Niels Möller (to sign 
 sec-keys/openpgp-keys-gnupg 20220210: OpenPGP keys used to sign GnuPG releases
 sec-keys/openpgp-keys-gnustep 20251025: OpenPGP keys used by the GNUstep project
 sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 20250704: OpenPGP keys used by GnuTLS
-sec-keys/openpgp-keys-gocryptfs 20250728 20250916: OpenPGP keys used to sign gocryptfs
+sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
 sec-keys/openpgp-keys-gsasl 20260127: OpenPGP keys used by the GNU SASL Library
@@ -17639,7 +17639,7 @@ sys-firmware/seabios 1.14.0-r2 1.16.0 1.16.3: Open Source implementation of a 16
 sys-firmware/seabios-bin 1.16.0 1.16.3: Open Source implementation of a 16-bit x86 BIOS
 sys-firmware/sgabios 0.1_pre10: serial graphics adapter bios option rom for x86
 sys-firmware/sigrok-firmware-fx2lafw 0.1.7-r2 9999: Firmware for Cypress FX2 chips for use as simple logic analyzer hardware
-sys-firmware/sof-firmware 2025.05.1 2025.12 2025.12.1: Sound Open Firmware (SOF) binary files
+sys-firmware/sof-firmware 2025.12 2025.12.1 2025.12.2: Sound Open Firmware (SOF) binary files
 sys-firmware/tt-s2-6400-firmware 0.5.1: Firmware for the Technotrend S2-6400 DVB Card
 sys-firmware/vgabios 0.7a 0.7a-r1 0.8a 0.8a-r1: VGA BIOS implementation
 sys-firmware/zd1201-firmware 0.14-r1: Firmware for ZyDAS 1201 based USB 802.11b Network WiFi devices
@@ -18119,7 +18119,6 @@ virtual/qmail 1.03-r1: Virtual for qmail
 virtual/resolvconf 2: Virtual to select between different resolvconf providers
 virtual/ruby-ssl 13 14 15 16: Virtual ebuild for the Ruby OpenSSL bindings
 virtual/rubygems 19 20 21-r1 22: Virtual ebuild for rubygems
-virtual/rust 1.71.1-r2 1.74.1-r1 1.75.0-r1 1.77.1 1.79.0 1.80.1 1.81.0-r1 1.82.0: Virtual for Rust language compiler
 virtual/secret-service 0 0-r1: Virtual for a freedesktop.org Secret Service API provider
 virtual/service-manager 2: Virtual for various service managers
 virtual/skkserv 0-r1: Virtual for SKK server
@@ -18843,7 +18842,7 @@ x11-plugins/bfm 0.6.4-r4: Dockapp and gkrellm plug-in combining timecop's bubble
 x11-plugins/bubblemon 1.46-r3: A fun monitoring applet for your desktop, complete with swimming duck
 x11-plugins/cputnik 0.2.0-r1: cputnik is a simple cpu monitor dockapp
 x11-plugins/docker 1.5-r2: Openbox app which acts as a system tray for KDE and GNOME2
-x11-plugins/e16-epplets 0.17: Enlightenment DR16 epplets
+x11-plugins/e16-epplets 0.17 0.18: Enlightenment DR16 epplets
 x11-plugins/gkrellaclock 0.3.4-r2: Nice analog clock for GKrellM2
 x11-plugins/gkrellfire 0.4.2-r2: CPU load flames for GKrellM 2
 x11-plugins/gkrellkam 2.0.0-r1: an Image-Watcher-Plugin for GKrellM2
@@ -19160,7 +19159,7 @@ x11-wm/matwm2 0.1.2_pre3-r2 0.1.2_pre3-r3: Simple EWMH compatible window manager
 x11-wm/metacity 3.54.0-r1 3.56.0 3.58.1: GNOME Flashback window manager
 x11-wm/muffin 6.4.1: Compositing window manager forked from Mutter for use with Cinnamon
 x11-wm/musca 0.9.24_p20100226-r4: A simple dynamic window manager, with features nicked from ratpoison and dwm
-x11-wm/mutter 47.8.1 47.9 48.4 48.5 48.6 48.6-r1 9999: GNOME compositing window manager based on Clutter
+x11-wm/mutter 48.5 48.6-r1 48.7 9999: GNOME compositing window manager based on Clutter
 x11-wm/notion 4.0.4 9999: Notion is a tiling, tabbed window manager for the X window system
 x11-wm/openbox 3.6.1-r11 9999: Standards compliant, fast, light-weight, extensible window manager
 x11-wm/oroborus 2.0.20-r2: Small and fast window manager
