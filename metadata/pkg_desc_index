@@ -12714,7 +12714,7 @@ mail-filter/rblcheck 1.5-r3: Perform lookups in RBL-styles services
 mail-filter/rspamd 3.13.2 3.14.0 3.14.1 3.14.2 3.14.3 9999: Rapid spam filtering system
 mail-filter/scmail 1.3: a mail filter written in Scheme
 mail-filter/sieve-connect 0.90: Sieve Command Line Interface
-mail-filter/spamassassin 4.0.0-r4 4.0.0-r5 4.0.1 4.0.1-r1 4.0.2: An extensible mail filter which can identify and tag spam
+mail-filter/spamassassin 4.0.1-r1 4.0.2: An extensible mail filter which can identify and tag spam
 mail-filter/spamassassin-botnet 0.8-r1: SpamAssassin plugin that attempts to detect messages sent by a botnet
 mail-filter/spampd 2.61: A program to scan messages for Unsolicited Commercial E-mail content
 mail-filter/spamprobe 1.4d-r3: Fast, intelligent, automatic spam detector using Bayesian analysis
@@ -16617,7 +16617,7 @@ sec-keys/openpgp-keys-fwknop 20240208: OpenPGP key used to sign fwknop releases
 sec-keys/openpgp-keys-gawk 20220407: OpenPGP keys used by GNU Awk
 sec-keys/openpgp-keys-gdbm 20220407 20250323: OpenPGP keys used by GNU dbm
 sec-keys/openpgp-keys-gentoo-auth 20240703 20260125 20260206: Gentoo Authority Keys (GLEP 79)
-sec-keys/openpgp-keys-gentoo-developers 20250915 20251027 20251103 20251229 20260105 20260112 20260112-r1 20260202 99999999: Gentoo Authority Keys (GLEP 79)
+sec-keys/openpgp-keys-gentoo-developers 20260202 20260209 99999999: Gentoo Authority Keys (GLEP 79)
 sec-keys/openpgp-keys-gentoo-infrastructure 20260202 99999999: Gentoo Authority Keys (GLEP 79)
 sec-keys/openpgp-keys-gentoo-release 20250806 20260125: OpenPGP keys used for Gentoo releases (snapshots, stages)
 sec-keys/openpgp-keys-gettext 20220407 20250608: OpenPGP keys used by GNU gettext
@@ -16750,7 +16750,7 @@ sec-keys/openpgp-keys-tcpdump 20210416 20240308 20240901 20260104: OpenPGP keys 
 sec-keys/openpgp-keys-teemutoivola 20210426: OpenPGP keys used by Teemu Toivola
 sec-keys/openpgp-keys-tenable 20220718: OpenPGP keys used to sign Tenable Inc. software packages
 sec-keys/openpgp-keys-terminator 20210306: OpenPGP keys used to sign x11-terms/terminator package
-sec-keys/openpgp-keys-texinfo 20260206: OpenPGP keys used by GNU texinfo
+sec-keys/openpgp-keys-texinfo 20260206 20260210: OpenPGP keys used by GNU texinfo
 sec-keys/openpgp-keys-thomasdickey 20240114 20260204: OpenPGP keys used by Thomas Dickey
 sec-keys/openpgp-keys-thomashaller 20260124: OpenPGP key used by Thomas Haller
 sec-keys/openpgp-keys-tinc 20260205: OpenPGP key used by net-vpn/tinc
