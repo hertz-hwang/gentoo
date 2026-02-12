@@ -46,6 +46,7 @@ if [[ ${PV} != 9999 ]]; then
 		SRC_URI="
 			mirror://gnu/${PN}/${P}.tar.xz
 			verify-sig? ( mirror://gnu/${PN}/${P}.tar.xz.sig )
+			https://dev.gentoo.org/~floppym/dist/${P}-lld-support.tar.xz
 		"
 		S=${WORKDIR}/${P%_*}
 	fi
@@ -145,10 +146,6 @@ QA_PRESTRIPPED="usr/lib/grub/.*"
 QA_MULTILIB_PATHS="usr/lib/grub/.*"
 QA_WX_LOAD="usr/lib/grub/*"
 
-PATCHES=(
-	"${FILESDIR}/grub-2.14-revert-image-base.patch"
-)
-
 pkg_setup() {
 	# skip python-any-r1_pkg_setup: python_setup is called in src_prepare
 	secureboot_pkg_setup
@@ -178,6 +175,10 @@ src_unpack() {
 }
 
 src_prepare() {
+	local PATCHES=(
+		"${WORKDIR}/${P}-lld-support"
+	)
+
 	default
 
 	python_setup
