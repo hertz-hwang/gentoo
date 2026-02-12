@@ -5488,7 +5488,7 @@ dev-libs/kpathsea 6.3.5_p20230311 6.4.0_p20240311 6.4.0_p20240311-r1: Path searc
 dev-libs/kpublictransport 25.12.1-r1 25.12.2: Library for accessing public transport timetables and other information
 dev-libs/ktextaddons 1.8.0: Various text handling addons
 dev-libs/kweathercore 25.08.3 25.12.2: Library for retrieval of weather information including forecasts and alerts
-dev-libs/lager 0.1.1-r1: Library to assist value-oriented design
+dev-libs/lager 0.1.1-r1 0.1.2: Library to assist value-oriented design
 dev-libs/level-zero 1.24.2 1.24.3 1.26.3 1.28.0: oneAPI Level Zero headers, loader and validation layer
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
@@ -12454,7 +12454,7 @@ kde-frameworks/kdbusaddons 5.116.0 6.22.0: Framework for registering services an
 kde-frameworks/kdeclarative 5.116.0 6.22.0: Framework providing integration of QML and KDE work spaces
 kde-frameworks/kded 5.116.0 6.22.0: Central daemon of KDE workspaces
 kde-frameworks/kdesu 6.22.0: Framework to handle super user actions
-kde-frameworks/kdnssd 6.22.0: Framework for network service discovery using Zeroconf
+kde-frameworks/kdnssd 6.22.0 6.22.0-r1: Framework for network service discovery using Zeroconf
 kde-frameworks/kdoctools 5.116.0-r1 6.22.0: Tools to generate documentation in various formats from DocBook files
 kde-frameworks/kf-env 6: Environment setting required for all KDE Frameworks apps to run
 kde-frameworks/kfilemetadata 6.22.0: Library for extracting file metadata
@@ -13046,7 +13046,7 @@ media-gfx/ephoto 1.6.0: Enlightenment image viewer written with EFL
 media-gfx/evoluspencil 3.1.1: A simple GUI prototyping tool to create mockups
 media-gfx/exact-image 1.2.1-r2: A fast, modern and generic image processing library
 media-gfx/exif 0.6.22-r1 0.6.22-r2: Small CLI util to show EXIF infos hidden in JPEG files
-media-gfx/exiv2 0.28.5 0.28.7: EXIF, IPTC and XMP metadata C++ library and command line utility
+media-gfx/exiv2 0.28.7: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/farbfeld 4: Farbfeld simple image format tools
 media-gfx/fbgrab 1.5: Framebuffer screenshot utility
 media-gfx/fbida 2.14_p20241216-r1: Image viewers for the framebuffer console (fbi) and X11 (ida)
@@ -13083,7 +13083,7 @@ media-gfx/gscan2pdf 2.13.5: Scan documents, perform OCR, produce PDFs and DjVus
 media-gfx/gthumb 3.12.7 3.12.8.2: Image viewer and browser for Gnome
 media-gfx/gtkimageview 1.6.4: A simple image viewer widget for GTK
 media-gfx/hp2xx 3.4.4-r4: Convert Hewlett-Packard's HP-GL plotter language to other graphics formats
-media-gfx/hugin 2024.0.1 2024.0.1-r2 2025.0.0 2025.0.1 9999: GUI for the creation & processing of panoramic images
+media-gfx/hugin 2025.0.1 9999: GUI for the creation & processing of panoramic images
 media-gfx/hydrus 637 9999: A booru-like media organizer for the desktop
 media-gfx/icon-slicer 0.3-r1: Utility for generating icon themes and libXcursor cursor themes
 media-gfx/icoutils 0.32.3 0.32.3-r1: Tools to extract and convert images in icon and cursor files (.ico, .cur)
@@ -14027,7 +14027,7 @@ media-sound/dvda-author 10.06-r2: Author a DVD-Audio DVD
 media-sound/easyeffects 7.2.3 7.2.5 8.0.5 9999: Limiter, auto volume and many other plugins for PipeWire applications
 media-sound/easytag 2.4.3-r6 2.4.3-r7 2.4.3-r8 2.4.3-r9: GTK+ utility for editing MP2, MP3, MP4, FLAC, Ogg and other media tags
 media-sound/ecasound 2.9.3-r1: Package for multitrack audio processing
-media-sound/elisa 25.08.3 25.12.2: Simple music player by KDE
+media-sound/elisa 25.08.3 25.12.2-r1: Simple music player by KDE
 media-sound/erec 2.2.0.1-r1: Shared audio recording server
 media-sound/exaile 4.2.0: GTK+ based media player aiming to be similar to Amarok
 media-sound/ezstream 0.6.0-r4 1.0.2-r1: A command line source client for Icecast media streaming servers
@@ -14085,7 +14085,7 @@ media-sound/jack2 1.9.22 9999: Jackdmp jack implemention for multi-processor mac
 media-sound/jack_capture 0.9.73-r1 9999: JACK Recording utility
 media-sound/jalv 1.6.8-r1 1.6.9_pre20250802: Simple but fully featured LV2 host for Jack
 media-sound/justeport 0.2: Stream audio to your AirPort Express
-media-sound/kasts 25.08.3 25.12.2: Convergent podcast application for desktop and mobile
+media-sound/kasts 25.08.3 25.12.2-r1: Convergent podcast application for desktop and mobile
 media-sound/kid3 3.9.7: Simple tag editor based on Qt
 media-sound/klick 0.12.2-r5: An advanced command-line based metronome for JACK
 media-sound/kmetronome 1.4.0 1.4.1: MIDI based metronome using ALSA sequencer
@@ -14169,7 +14169,7 @@ media-sound/pavucontrol-qt 2.2.0 2.3.0: Qt GUI Pulseaudio Mixer
 media-sound/pavumeter 0.9.3-r2: PulseAudio Volume Meter, simple GTK volume meter for PulseAudio
 media-sound/peercast 0.1218-r2: A client and server for Peercast P2P-radio network
 media-sound/pianobar 2022.04.01 2022.04.01-r1 9999: A console-based replacement for Pandora's flash player
-media-sound/picard 2.13.3-r1 3.0.0_alpha1 9999: Cross-platform music tagger
+media-sound/picard 2.13.3-r1 3.0.0_alpha2 9999: Cross-platform music tagger
 media-sound/picoxine 0.0.7: Very small xine frontend for playing audio events
 media-sound/pithos 1.6.2: Pandora.com client for the GNOME desktop
 media-sound/playerctl 2.3.1 2.4.1-r1: A CLI utility to control media players over MPRIS
