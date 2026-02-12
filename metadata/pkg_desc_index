@@ -2416,7 +2416,7 @@ app-emulation/uade 2.13-r2: Unix Amiga Delitracker Emulator - plays old Amiga tu
 app-emulation/uxn 0_p20250122 9999: An assembler and emulator for the Uxn stack-machine, written in ANSI C
 app-emulation/vagrant 2.4.0-r1 2.4.1: A tool for building and distributing development environments
 app-emulation/vendor-reset 0.1.1_pre20221205-r1 0.1.1_pre20221205-r2 9999: Linux kernel vendor specific hardware reset module
-app-emulation/vice 3.9: Versatile Commodore Emulator
+app-emulation/vice 3.9 3.10: Versatile Commodore Emulator
 app-emulation/virt-firmware 24.11 25.4.1 25.10 25.12: Tools for ovmf/armvirt firmware volumes
 app-emulation/virt-manager 5.0.0-r2 5.1.0 5.1.0-r1 9999: Desktop tool for managing libvirt virtual machines
 app-emulation/virt-v2v 2.6.0 2.7.7: Tool to convert guests from foreign hypervisors to run on KVM
@@ -15622,7 +15622,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 2.8.11 2.8.17 2.8.18 2.8.9999 3.0.5 3.0.13 3.0.14 3.0.15 3.0.9999 3.2.9 3.2.10 3.2.11 3.2.9999 3.3.0 3.3.1 3.3.2 3.3.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 2.8.11 2.8.18 2.8.9999 3.0.5 3.0.14 3.0.15 3.0.16 3.0.9999 3.2.9 3.2.11 3.2.12 3.2.9999 3.3.2 3.3.3 3.3.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
