@@ -5090,7 +5090,7 @@ dev-java/objenesis 3.4: A library for instantiating Java objects
 dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
-dev-java/openjdk 8.472_p08 8.482_p08 11.0.29_p7 11.0.30_p7 17.0.17_p10 17.0.18_p8 21.0.10_p7 25.0.2_p10 26_beta34 27_alpha8: Open source implementation of the Java programming language
+dev-java/openjdk 8.482_p08 11.0.30_p7 17.0.18_p8 21.0.10_p7 25.0.2_p10 26_beta34 27_alpha8: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.472_p08 8.482_p08 11.0.29_p7 11.0.30_p7 17.0.17_p10 17.0.18_p8 21.0.9_p10 21.0.10_p7 25.0.1_p8 25.0.2_p10 26_beta34 27_alpha7: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.462_p08 11.0.28_p6 17.0.16_p8 21.0.8_p9: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 8.1000-r2 11.0.11_p1-r5: Java OpenJFX client application platform
@@ -8855,7 +8855,7 @@ dev-python/mss 10.0.0 10.1.0: An ultra fast cross-platform multiple screenshots 
 dev-python/multidict 6.7.0 6.7.1: multidict implementation
 dev-python/multipart 1.3.0: Parser for multipart/form-data
 dev-python/multipledispatch 1.0.0: Multiple dispatch
-dev-python/multiprocess 0.70.17-r1 0.70.19: Better multiprocessing and multithreading in Python
+dev-python/multiprocess 0.70.19: Better multiprocessing and multithreading in Python
 dev-python/munch 4.0.0: A dot-accessible dictionary (a la JavaScript objects)
 dev-python/munkres 1.1.4-r1: Module implementing munkres algorithm for the Assignment Problem
 dev-python/musicbrainzngs 0.7.1-r1: Python bindings for the MusicBrainz NGS and the Cover Art Archive webservices
@@ -13715,7 +13715,7 @@ media-plugins/gst-plugins-openh264 1.24.11 1.24.13: H.264 encoder/decoder plugin
 media-plugins/gst-plugins-opus 1.24.11 1.24.13: Opus audio parser plugin for GStreamer
 media-plugins/gst-plugins-oss 1.24.11 1.24.13: OSS (Open Sound System) support plugin for GStreamer
 media-plugins/gst-plugins-pulse 1.24.11 1.24.13: PulseAudio sound server plugin for GStreamer
-media-plugins/gst-plugins-qt6 1.24.11-r1: Qt6 QML video sink plugin for GStreamer
+media-plugins/gst-plugins-qt6 1.24.11-r1 1.24.13: Qt6 QML video sink plugin for GStreamer
 media-plugins/gst-plugins-raw1394 1.24.11 1.24.13: Fiwewire DV/HDV capture plugin for GStreamer
 media-plugins/gst-plugins-resindvd 1.24.11 1.24.13: DVD playback support plugin for GStreamer
 media-plugins/gst-plugins-rtmp 1.24.11 1.24.13: RTMP source/sink plugin for GStreamer
