@@ -6201,34 +6201,34 @@ dev-ml/re 1.11.0-r1 1.12.0 1.13.0-r2 1.13.3-r2 1.14.0: Regular expression librar
 dev-ml/react 1.2.2-r1: OCaml module for functional reactive programming
 dev-ml/reactiveData 0.2.1: Functional reactive programming with incremental changes in data structures
 dev-ml/reason 3.17.2 3.17.3: Simple, fast & type safe language that leverages JavaScript and OCaml
-dev-ml/record_builder 0.17.0-r1: A library which provides traversal of records with an applicative
+dev-ml/record_builder 0.17.0-r2: A library which provides traversal of records with an applicative
 dev-ml/result 1.5: Compat result type
 dev-ml/rresult 0.7.0: Result value combinators for OCaml
 dev-ml/sedlex 3.3-r1 3.6 3.7: An OCaml lexer generator for Unicode
 dev-ml/seq 0.3.1-r1: Compatibility package for the standard OCaml iterator type
-dev-ml/sexp_pretty 0.16.0 0.17.0-r1: S-expression pretty-printer
-dev-ml/sexplib 0.16.0-r1 0.17.0: Library for automated conversion of OCaml-values to and from S-expressions
-dev-ml/sexplib0 0.15.0-r2 0.15.1-r1 0.16.0 0.17.0-r1: Library for automated conversion of OCaml-values to and from S-expressions
+dev-ml/sexp_pretty 0.16.0 0.17.0-r2: S-expression pretty-printer
+dev-ml/sexplib 0.16.0-r1 0.17.0-r1: Library for automated conversion of OCaml-values to and from S-expressions
+dev-ml/sexplib0 0.15.0-r2 0.15.1-r1 0.16.0 0.17.0-r2: Library for automated conversion of OCaml-values to and from S-expressions
 dev-ml/spawn 0.13.0 0.15.0-r1 0.15.1 0.17.0: Spawning sub-processes
 dev-ml/spdx_licenses 1.2.0 1.4.0: A library providing a strict SPDX License Expression parser
-dev-ml/splittable_random 0.16.0 0.17.0-r1: PRNG that can be split into independent streams
+dev-ml/splittable_random 0.16.0 0.17.0-r2: PRNG that can be split into independent streams
 dev-ml/stdcompat 19-r2 21.1-r1: Compatibility module for OCaml standard library
-dev-ml/stdio 0.16.0 0.17.0-r1: Standard IO Library for OCaml
+dev-ml/stdio 0.16.0 0.17.0-r2: Standard IO Library for OCaml
 dev-ml/stdlib-shims 0.2.0 0.3.0: Pure OCaml library that allows replacing Pervasives with Stdlib before 4.08
 dev-ml/stringext 1.6.0: Extra string functions for OCaml
 dev-ml/swhid_core 0.1: OCaml library to work with swhids
-dev-ml/textutils 0.16.0 0.17.0: Text output utilities
-dev-ml/textutils_kernel 0.16.0 0.17.0: Text output utilities
-dev-ml/time_now 0.16.0 0.17.0-r1: Reports the current time
-dev-ml/timezone 0.16.0-r1 0.17.0: Time-zone handling for OCaml
+dev-ml/textutils 0.16.0 0.17.0-r1: Text output utilities
+dev-ml/textutils_kernel 0.16.0 0.17.0-r1: Text output utilities
+dev-ml/time_now 0.16.0 0.17.0-r2: Reports the current time
+dev-ml/timezone 0.16.0-r1 0.17.0-r1: Time-zone handling for OCaml
 dev-ml/tiny_httpd 0.16-r1 0.17.0 0.19: Minimal HTTP server with a small request router
 dev-ml/topkg 1.0.7 1.0.8 1.1.0 1.1.1: The transitory OCaml software packager
 dev-ml/trie 1.0.0: Strict impure trie tree
-dev-ml/typerep 0.16.0-r1 0.17.1-r1: Library for creating runtime representation of OCaml types
+dev-ml/typerep 0.16.0-r1 0.17.1-r2: Library for creating runtime representation of OCaml types
 dev-ml/tyxml 4.5.0 4.6.0 4.6.0_p20260130: A library for building correct HTML and SVG documents
 dev-ml/uchar 0.0.2-r1: Uchar compatibility library
 dev-ml/unidecode 0.4.0: Convert unicode strings into its ASCII representation
-dev-ml/uopt 0.17.0-r1: An [option]-like type that incurs no allocation
+dev-ml/uopt 0.17.0-r2: An [option]-like type that incurs no allocation
 dev-ml/uri 4.4.0-r1: An RFC3986 URI/URL parsing library
 dev-ml/utop 2.16.0: Universal toplevel for OCaml
 dev-ml/uucp 16.0.0 17.0.0: Unicode character properties for OCaml
@@ -17147,7 +17147,7 @@ sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 1.9.24 2.0.1 2.0.3-r1 2.0.14 2.0.16 2.0.18: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.6-r1 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
-sys-apps/gawk 5.3.2 5.3.66: GNU awk pattern-matching language
+sys-apps/gawk 5.3.2 5.3.66 5.3.67: GNU awk pattern-matching language
 sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 1.7.6 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9 9-r1 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
@@ -17788,8 +17788,8 @@ sys-kernel/dkms 3.2.2 3.3.0 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 108-r5 109-r1 110 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r3 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.18.8 6.18.9 6.18.10 6.18.11: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.18.8 6.18.9 6.18.10 6.18.11: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.6.126 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.12.73 6.18.8 6.18.9 6.18.10 6.18.11 6.18.12: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.6.126 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.12.73 6.18.8 6.18.9 6.18.10 6.18.11 6.18.12: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.242 5.10.243 5.10.244 5.10.245 5.10.246 5.10.247 5.10.248 5.10.249 5.15.191 5.15.192 5.15.193 5.15.194 5.15.195 5.15.196 5.15.197 5.15.198 5.15.199 5.15.200 6.1.153 6.1.154 6.1.155 6.1.156 6.1.157 6.1.158 6.1.159 6.1.160 6.1.161 6.1.162 6.1.163 6.6.111 6.6.112 6.6.113 6.6.114 6.6.115 6.6.116 6.6.117 6.6.118 6.6.119 6.6.120 6.6.121 6.6.122 6.6.123 6.6.124 6.6.126 6.12.54 6.12.55 6.12.56 6.12.57 6.12.58 6.12.59 6.12.60 6.12.61 6.12.62 6.12.63 6.12.64 6.12.65 6.12.66 6.12.67 6.12.68 6.12.69 6.12.70 6.12.71 6.12.73 6.17.5-r1 6.17.6 6.17.7 6.17.8 6.17.9 6.17.10 6.17.11 6.17.12 6.17.13 6.18.0 6.18.1 6.18.2 6.18.2-r1 6.18.3 6.18.4 6.18.5 6.18.6 6.18.7 6.18.8 6.18.9 6.18.10 6.18.12 6.19.0 6.19.2: Full sources including the Gentoo patchset for the 6.19 kernel tree
 sys-kernel/git-sources 6.19_rc1 6.19_rc2 6.19_rc3 6.19_rc4 6.19_rc5 6.19_rc6 6.19_rc7 6.19_rc8: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 63 65 66 9999: Gentoo fork of installkernel script from debianutils
@@ -17810,7 +17810,7 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.248 5.10.249 5.10.250 5.10.9999 5.15.198 5.15.199 5.15.200 5.15.9999 6.1.161 6.1.162 6.1.163 6.1.9999 6.6.122 6.6.123 6.6.124 6.6.125 6.6.9999 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.12.9999 6.18.8 6.18.9 6.18.10 6.18.11: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.248 5.10.249 5.10.250 5.10.9999 5.15.198 5.15.199 5.15.200 5.15.9999 6.1.161 6.1.162 6.1.163 6.1.9999 6.6.122 6.6.123 6.6.124 6.6.125 6.6.126 6.6.9999 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.12.73 6.12.9999 6.18.8 6.18.9 6.18.10 6.18.11 6.18.12: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.4.302 5.10.250 5.15.200 6.1.163 6.6.124 6.6.126 6.12.71 6.12.73 6.16.12 6.17.13 6.18.10 6.18.12 6.19.0 6.19.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.36 1.38: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.18.8 6.18.9: The Zen Kernel Live Sources
@@ -17996,7 +17996,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.18.8 6.18.9 6.18.10 6.18.11: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.248 5.10.249 5.10.250 5.15.198 5.15.199 5.15.200 6.1.161 6.1.162 6.1.163 6.6.122 6.6.123 6.6.124 6.6.125 6.6.126 6.12.68 6.12.69 6.12.70 6.12.71 6.12.72 6.12.73 6.18.8 6.18.9 6.18.10 6.18.11 6.18.12: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
