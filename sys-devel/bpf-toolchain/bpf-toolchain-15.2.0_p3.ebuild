@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit edo flag-o-matic toolchain-funcs
+inherit edo flag-o-matic libtool toolchain-funcs
 
 # Versioning is just the GCC version in full (so may include a snapshot
 # date). Unlike dev-util/mingw64-toolchain, which this ebuild was heavily
@@ -13,7 +13,7 @@ inherit edo flag-o-matic toolchain-funcs
 # Do _p1++ rather than revbump on Binutils changes
 # Not using Gentoo patchsets for simplicity, their changes are mostly unneeded here.
 GCC_PV=${PV%_p*}
-BINUTILS_PV=2.45.1
+BINUTILS_PV=2.46.0
 
 DESCRIPTION="All-in-one bpf toolchain for building DTrace and systemd without crossdev"
 HOMEPAGE="
@@ -40,7 +40,7 @@ LICENSE="
 	LGPL-3+ || ( GPL-3+ libgcc libstdc++ gcc-runtime-library-exception-3.1 )
 "
 SLOT="0"
-KEYWORDS="~amd64 arm arm64 ~hppa ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
 IUSE="+bin-symlinks custom-cflags +strip"
 
 RDEPEND="
@@ -71,6 +71,7 @@ src_prepare() {
 	mv gcc{-${GCC_PV},} || die
 
 	default
+	elibtoolize
 }
 
 src_compile() {
@@ -107,6 +108,7 @@ src_compile() {
 		--disable-default-execstack
 		--disable-nls
 		--disable-shared
+		--disable-werror
 		--with-system-zlib
 		--without-debuginfod
 		--without-msgpack
