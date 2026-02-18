@@ -3117,7 +3117,7 @@ app-shells/ccsh 0.0.4-r5: UNIX Shell for people already familiar with the C lang
 app-shells/ctypes-sh 1.2_p20240626: Foreign function interface for bash
 app-shells/dash 0.5.12-r1 0.5.13.1 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
-app-shells/fish 4.3.3 4.4.0 4.5.0 9999: Friendly Interactive SHell
+app-shells/fish 4.3.3 4.4.0 4.5.0-r1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
 app-shells/fzf 0.67.0: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
@@ -4005,7 +4005,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client lib
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.30 5.0.31 5.0.32 6.0.22 6.0.25 6.0.27 7.0.18 7.0.23 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.0 1.49.1: GUI for MongoDB
-dev-db/mycli 1.44.0 1.51.1: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.44.0 1.51.1 1.54.1: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.43 8.0.44 8.0.45 8.4.7 8.4.8: Fast, multi-threaded, multi-user SQL database server
@@ -5346,7 +5346,7 @@ dev-libs/ayatana-ido 0.10.4: Ayatana Application Indicators (Shared Library)
 dev-libs/bcm2835 1.71 1.75: Provides access to GPIO and other IO functions on the Broadcom BCM2835
 dev-libs/bemenu 0.6.10-r1 0.6.14 0.6.15 0.6.16 0.6.21 0.6.23 9999: dmenu clone for wayland
 dev-libs/bglibs 2.04-r4 2.04-r5: Bruce Guenter's Libraries Collection
-dev-libs/bitset 2.8.4-r3: A compressed bitset with supporting data structures and algorithms
+dev-libs/bitset 2.8.4-r3 2.8.4-r4: A compressed bitset with supporting data structures and algorithms
 dev-libs/bitshuffle 0.3.5-r1: Bitshuffle C library
 dev-libs/blake3 1.8.2-r1 1.8.3: a fast cryptographic hash function
 dev-libs/blazesym_c 0.1.5 0.1.7: C bindings for blazesym, a library for address symbolization and related tasks
@@ -10821,7 +10821,7 @@ dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.21.1 0.21.2 0.22.0: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
-dev-util/cargo-nextest 0.9.114 0.9.117 0.9.120 0.9.121 0.9.122 0.9.126: Next-generation test runner for Rust
+dev-util/cargo-nextest 0.9.122 0.9.126: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1: pgrx: A Rust framework for creating Postgres extensions
 dev-util/cargo-tarpaulin 0.35.0 0.35.1: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
@@ -10844,7 +10844,7 @@ dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semanti
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
-dev-util/cmocka 1.1.5-r1 1.1.7 1.1.8 2.0.1 2.0.2: Unit testing framework for C
+dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
 dev-util/coccigrep 1.21: A semantic grep for the C language
 dev-util/coccinelle 1.1.1-r6 1.3.0: Program matching and transformation engine
 dev-util/codeblocks 25.03-r2 9999: The open source, cross platform, free C, C++ and Fortran IDE
@@ -11738,7 +11738,7 @@ games-puzzle/fish-fillets 1.0.1-r100: Underwater puzzle game - find a safe way o
 games-puzzle/five-or-more 3.32.3 48.1: Remove colored balls from the board by forming lines
 games-puzzle/flobopuyo 0.20-r3: Clone of the famous PuyoPuyo game
 games-puzzle/freesweep 1.0.2-r2: Console Minesweeper
-games-puzzle/galaxis 1.10-r1: Curses-based clone of the nifty little Macintosh freeware game Galaxis
+games-puzzle/galaxis 1.10-r1 1.12: Curses-based clone of the nifty little Macintosh freeware game Galaxis
 games-puzzle/gemdropx 0.9-r3: Puzzle game where it's your job to clear the screen of gems
 games-puzzle/gfifteen 1.0.3-r2: Graphical implementation of the sliding puzzle game fifteen
 games-puzzle/glightoff 1.0.0-r1: Simple (but not so easy to solve!) puzzle game
@@ -13475,7 +13475,7 @@ media-libs/librosprite 0.1.3-r2: Framebuffer abstraction library, written in C
 media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherapee
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
-media-libs/libsdl 1.2.68: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
+media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
 media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.62 2.32.64: Simple Direct Media Layer
 media-libs/libsdl3 3.2.28 3.2.30 3.4.0: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
@@ -14640,7 +14640,7 @@ net-analyzer/sbd 1.37-r1: Netcat-clone, designed to be portable and offer strong
 net-analyzer/scanlogd 2.2.8-r1: A port scan detection tool
 net-analyzer/scanssh 2.1.3.1 2.1.3.1_p20260130: network scanner that gathers info on SSH protocols and versions
 net-analyzer/scapy 2.6.1: A Python interactive packet manipulation program for mastering the network
-net-analyzer/sec 2.9.1 2.9.2 2.9.3: Simple Event Correlator
+net-analyzer/sec 2.9.3 2.9.4: Simple Event Correlator
 net-analyzer/sflowtool 6.06: Utility for collecting and processing sFlow data
 net-analyzer/sguil-client 1.0.0: GUI Console for sguil Network Security Monitoring
 net-analyzer/shodan 1.31.0 9999: The official Python library for Shodan
@@ -14856,7 +14856,7 @@ net-im/ejabberd 24.10 25.04 25.10: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.10: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
 net-im/fractal 12.1-r1 13: Matrix messaging app for GNOME written in Rust
-net-im/gajim 2.2.0 2.4.1 2.4.2: GTK XMPP Client
+net-im/gajim 2.2.0 2.4.2 2.4.3: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.13.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
@@ -15463,7 +15463,7 @@ net-misc/sslh 2.1.4 2.3.0 9999: Port multiplexer - accept both HTTPS and SSH con
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-misc/streamlink 7.6.0 8.1.0 8.1.2 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet radio streams
-net-misc/stunnel 5.75 5.76 5.76-r1: TLS/SSL - Port Wrapper
+net-misc/stunnel 5.75 5.76 5.76-r1 5.77: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
 net-misc/suite3270 4.3_p6 4.4_p6 4.5_p5: Complete 3270 (S390) access package
 net-misc/sunshine 2025.628.4510-r1 2025.924.154138 9999: Self-hosted game stream host for Moonlight
@@ -16557,6 +16557,7 @@ sec-keys/openpgp-keys-alejandro-colomar 20231031 20260122: OpenPGP keys used by 
 sec-keys/openpgp-keys-alexanderneumann 20241028: OpenPGP keys used by Alexander Neumann
 sec-keys/openpgp-keys-alexbarton 20241211: OpenPGP keys used by Alex Barton
 sec-keys/openpgp-keys-alsa 20260116: OpenPGP keys used by the Alsa Project
+sec-keys/openpgp-keys-andreasschneider 20260218: OpenPGP key used by Andreas Schneider
 sec-keys/openpgp-keys-andresimon 20240906 20250911: OpenPGP keys used by Andre Simon
 sec-keys/openpgp-keys-andrewtridgell 20250329: OpenPGP keys used by Andrew Tridgell
 sec-keys/openpgp-keys-annejan 20260129: OpenPGP key used by Anne Jan Brouwer (annejan)
@@ -17893,7 +17894,7 @@ sys-libs/tdb 1.4.12 1.4.13 1.4.14: Simple database API
 sys-libs/tevent 0.16.1 0.16.2 0.17.1: Samba tevent library
 sys-libs/timezone-data 2025a-r1 2025b 2025c: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 sys-libs/uid_wrapper 1.3.0 1.3.2: Wrapper to fake privilege separation
-sys-libs/zlib 1.3.1-r1 1.3.2: Standard (de)compression library
+sys-libs/zlib 1.3.1-r1 1.3.2 1.3.2-r1: Standard (de)compression library
 sys-libs/zlib-ng 2.2.5 2.2.5-r1 2.3.2 2.3.3: Fork of the zlib data compression library
 sys-power/RyzenAdj 0.16.0: The power management tool for mobile and desktop Ryzen APUs
 sys-power/acpi 1.8: Displays information about ACPI devices
