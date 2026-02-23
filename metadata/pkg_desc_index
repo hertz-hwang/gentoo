@@ -2632,7 +2632,7 @@ app-laptop/tiny-dfr 0.3.0-r1 0.3.1-r1 0.3.3 0.3.5: The most basic dynamic functi
 app-laptop/tp_smapi 0.44 0.45: IBM ThinkPad SMAPI BIOS driver
 app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPads, not supported by tp_smapi
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
-app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
+app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22 2.1.23: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
 app-laptop/tuxedo-drivers 4.15.4 4.18.2: Kernel modules for TUXEDO laptops
 app-metrics/alertmanager 0.24.0 0.26.0 0.28.0: Alertmanager for alerts sent by client applications such as Prometheus
 app-metrics/bind_exporter 0.8.0: Prometheus exporter for BIND
@@ -4155,7 +4155,7 @@ dev-embedded/picp 0.6.8: A commandline interface to Microchip's PICSTART+ progra
 dev-embedded/picprog 1.9.1: A PIC16, PIC18 and dsPIC microcontroller programmer software for the serial port
 dev-embedded/pista 0.70: Commandline-driven interface to PICSTART+ PIC programmer
 dev-embedded/pk2cmd 1.20-r1: An application for working with the Microchip PicKit2 PIC programmer
-dev-embedded/platformio 6.1.11: An open source ecosystem for IoT development
+dev-embedded/platformio 6.1.19: An open source ecosystem for IoT development
 dev-embedded/ponyprog 3.1.4_p20250501: EEPROM and microcontroller programmer/flasher
 dev-embedded/powersoftplus-libftdi 0.1.8-r1: Library which includes a table of VIDs and PIDs of Ever UPS devices
 dev-embedded/raspberrypi-utils 0_p20240903: Raspberry Pi userspace utilities
@@ -11739,7 +11739,7 @@ games-puzzle/fish-fillets 1.0.1-r100: Underwater puzzle game - find a safe way o
 games-puzzle/five-or-more 3.32.3 48.1: Remove colored balls from the board by forming lines
 games-puzzle/flobopuyo 0.20-r3: Clone of the famous PuyoPuyo game
 games-puzzle/freesweep 1.0.2-r2: Console Minesweeper
-games-puzzle/galaxis 1.10-r1 1.12: Curses-based clone of the nifty little Macintosh freeware game Galaxis
+games-puzzle/galaxis 1.10-r1 1.12 1.13: Curses-based clone of the nifty little Macintosh freeware game Galaxis
 games-puzzle/gemdropx 0.9-r3: Puzzle game where it's your job to clear the screen of gems
 games-puzzle/gfifteen 1.0.3-r2: Graphical implementation of the sliding puzzle game fifteen
 games-puzzle/glightoff 1.0.0-r1: Simple (but not so easy to solve!) puzzle game
@@ -15592,12 +15592,12 @@ net-print/cndrvcups-common-lb 3.70-r1: Common files for Canon drivers
 net-print/cndrvcups-lb 3.70-r1: Canon UFR II / LIPSLX Printer Driver for Linux
 net-print/cnijfilter2 6.70-r1 6.81: IJ Printer Driver
 net-print/cnrdrvcups-lb 5.40-r1 5.40-r2 5.80-r1 5.80-r2: Canon UFR II / LIPSLX Printer Driver for Linux
-net-print/cups 2.4.14-r1 9999: The Common Unix Printing System
+net-print/cups 2.4.14-r1 2.4.16 9999: The Common Unix Printing System
 net-print/cups-bjnp 2.0.3-r1: CUPS backend for canon printers using proprietary USB over IP BJNP protocol
 net-print/cups-browsed 2.1.1-r1: helper daemon to browse for remote CUPS queues and IPP network printers
-net-print/cups-filters 1.28.17-r2 2.0.1: Cups filters
+net-print/cups-filters 1.28.17-r2 2.0.1 2.0.1-r1: Cups filters
 net-print/cups-meta 1: Metapackage for a fully configured cups printer setup
-net-print/cups-pdf 3.0.1-r3: Provides a virtual printer for CUPS to produce PDF files
+net-print/cups-pdf 3.0.1-r3 3.0.2: Provides a virtual printer for CUPS to produce PDF files
 net-print/cups-pk-helper 0.2.7-r1: PolicyKit helper to configure cups with fine-grained privileges
 net-print/cups-windows 6.0-r1: CUPS PostScript Driver for Windows
 net-print/dymo-cups-drivers 1.4.0-r2: Dymo SDK for LabelWriter/LabelManager printers
@@ -15614,7 +15614,7 @@ net-print/hplip-plugin 3.25.8: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r2: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/lexmark-upd-ppd 1.0.0.20240321: Lexmark universal printer driver PPDs
-net-print/libcupsfilters 2.1.1: library for developing printing features, split out of cups-filters
+net-print/libcupsfilters 2.1.1 2.1.1-r1: library for developing printing features, split out of cups-filters
 net-print/libinklevel 0.9.3 0.9.7: A library to get the ink level of your printer
 net-print/libppd 2.1.1: Legacy library for PPD files, split out of cups-filters
 net-print/mtink 1.0.16-r2: mtink is a status monitor and inkjet cartridge changer for some Epson printers
@@ -17739,7 +17739,7 @@ sys-fs/lufs 0.9.7-r4: User-mode filesystem implementation
 sys-fs/lvm2 2.03.22-r7 2.03.37 2.03.38 9999: User-land utilities for LVM2 (device-mapper) software
 sys-fs/lxcfs 5.0.4-r2 6.0.4 6.0.5: FUSE filesystem for LXC
 sys-fs/mac-fdisk 0.1_p18 0.1_p18-r1: Mac/PowerMac disk partitioning utility
-sys-fs/mdadm 4.4: Tool for running RAID systems - replacement for the raidtools
+sys-fs/mdadm 4.4 4.5: Tool for running RAID systems - replacement for the raidtools
 sys-fs/mergerfs 2.40.2 2.41.1: A featureful union filesystem
 sys-fs/mergerfs-tools 0_p20230912: Optional tools to help manage data in a mergerfs pool
 sys-fs/mhddfs 0.1.39-r2: Fuse multi harddrive filesystem
@@ -17879,7 +17879,7 @@ sys-libs/musl-nscd 1.1.1-r1 9999: musl-nscd is an implementation of the NSCD pro
 sys-libs/native-uuid 1.0-r1: .pc file for uuid
 sys-libs/ncurses 6.5_p20250329 6.5_p20250531-r1 6.5_p20250802 6.5_p20251220: Console display library
 sys-libs/ncurses-compat 6.4_p20230401 6.4_p20240330 6.4_p20240414: Console display library (ABI version 5)
-sys-libs/newlib 4.3.0.20230120-r2 4.4.0.20231231 4.5.0.20241231 4.5.0.20241231-r1 4.6.0.20260123 9999: Newlib is a C library intended for use on embedded systems
+sys-libs/newlib 4.5.0.20241231-r1 4.6.0.20260123 9999: Newlib is a C library intended for use on embedded systems
 sys-libs/nss-usrfiles 2.18.1: NSS module to read passwd/group files from CoreOS /usr location
 sys-libs/nss_wrapper 1.1.15 1.1.16: Wrapper for the user, group and hosts NSS API
 sys-libs/obstack-standalone 1.2.3: A standalone library to implement GNU libc's obstack
