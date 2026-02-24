@@ -1888,6 +1888,7 @@ app-emacs/a68-mode 1.2_p20250524: Algol68 major mode for GNU Emacs
 app-emacs/ace-window 0.10.0: Quickly switch windows in Emacs
 app-emacs/actionscript-mode 7.2.2_p20180527-r1: A major mode for GNU Emacs for editing Actionscript 3 files
 app-emacs/adaptive-wrap 0.8: Smart line-wrapping with wrap-prefix
+app-emacs/agitjo 1.0.0: Manage Forgejo PRs with AGit-Flow in Emacs
 app-emacs/all-the-icons 5.0.0_p20230316: Various icon fonts propertized for Emacs
 app-emacs/all-the-icons-dired 2.0: Display all-the-icons icon for each file in Emacs' dired buffer
 app-emacs/all-the-icons-ibuffer 1.3.0: Display all-the-icons icons for all buffers in Emacs' ibuffer
@@ -17741,7 +17742,7 @@ sys-fs/lsscsi 0.32-r1: SCSI sysfs query tool
 sys-fs/lufis 0.3-r1: Wrapper to use lufs modules with fuse kernel support
 sys-fs/lufs 0.9.7-r4: User-mode filesystem implementation
 sys-fs/lvm2 2.03.22-r7 2.03.37 2.03.38 9999: User-land utilities for LVM2 (device-mapper) software
-sys-fs/lxcfs 5.0.4-r2 6.0.4 6.0.5: FUSE filesystem for LXC
+sys-fs/lxcfs 5.0.4-r2 6.0.4 6.0.5 6.0.6: FUSE filesystem for LXC
 sys-fs/mac-fdisk 0.1_p18 0.1_p18-r1: Mac/PowerMac disk partitioning utility
 sys-fs/mdadm 4.4 4.5: Tool for running RAID systems - replacement for the raidtools
 sys-fs/mergerfs 2.40.2 2.41.1: A featureful union filesystem
