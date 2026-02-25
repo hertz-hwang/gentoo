@@ -6734,7 +6734,7 @@ dev-perl/Dist-Zilla-Plugin-Test-Compile 2.58.0-r1: Common tests to check syntax 
 dev-perl/Dist-Zilla-Plugin-Test-MinimumVersion 2.0.10-r1: Release tests for minimum required versions
 dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic 3.1.0-r1: Tests to check your code against best practices
 dev-perl/Dist-Zilla-Plugin-Test-ReportPrereqs 0.28.0: Report on prerequisite versions during automated testing
-dev-perl/Dist-Zilla-Plugin-VersionFromMainModule 0.40.0-r1: Set the distribution version from your main module's
+dev-perl/Dist-Zilla-Plugin-VersionFromMainModule 0.40.0-r1: Set the distribution version from your main module's $VERSION
 dev-perl/Dist-Zilla-Role-FileWatcher 0.6.0-r1: Receive notification when something changes a file's contents
 dev-perl/Dist-Zilla-Role-ModuleMetadata 0.6.0-r1: A role for plugins that use Module::Metadata
 dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover 0.105.0-r1: Add '-remove' functionality to a bundle
@@ -12689,8 +12689,8 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20251211-r1 20260105 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.13 1.7_rc4 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.7.2 140.8.0 147.0.2: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.7.2 140.8.0 147.0.2: Thunderbird Mail Client
+mail-client/thunderbird 140.7.2 140.8.0 147.0.2 148.0: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.7.2 140.8.0 147.0.2 148.0: Thunderbird Mail Client
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1 2.14.0: High-performance interface between the MTA and content checkers
@@ -18235,7 +18235,7 @@ www-apps/nikola 8.3.1-r1 8.3.3: A static website and blog generator
 www-apps/novnc 1.4.0 1.6.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.15: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4: A customizable PHP script that displays information about your system nicely
-www-apps/piwigo 15.7.0 16.1.0 16.2.0: a photo gallery software for the web
+www-apps/piwigo 16.3.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prowlarr-bin 2.3.2.5245: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.1.1.10317: A fork of Sonarr to work with movies a la Couchpotato
