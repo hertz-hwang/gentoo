@@ -4044,7 +4044,7 @@ dev-db/phpmyadmin 5.2.3: Web-based administration for MySQL and MariaDB database
 dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.8-r1 3.3.9 3.4.4-r1 3.4.5 3.5.2-r1 3.5.3-r2 3.5.5 3.6.0 3.6.2: Geographic Objects for PostgreSQL
-dev-db/postgresql 14.20 14.21 14.22 15.15 15.16 15.17 16.11 16.12 16.13 17.7 17.8 17.9 18.1 18.2 18.3 9999: PostgreSQL RDBMS
+dev-db/postgresql 14.21 14.22 15.16 15.17 16.12 16.13 17.8 17.9 18.2 18.3 9999: PostgreSQL RDBMS
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
 dev-db/psqlodbc 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
@@ -14884,7 +14884,7 @@ net-im/signal-desktop-bin 7.90.0: Allows you to send and receive messages of Sig
 net-im/slack 4.47.59 4.47.72 4.48.95: Team collaboration tool
 net-im/spectrum2 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
-net-im/synapse 1.141.0-r1 1.142.1-r1 1.143.0-r1 1.144.0-r1 1.145.0 1.146.0: Reference implementation of Matrix homeserver
+net-im/synapse 1.141.0-r1 1.142.1-r1 1.143.0-r1 1.144.0-r1 1.145.0 1.146.0 1.148.0: Reference implementation of Matrix homeserver
 net-im/talk-desktop-bin 2.0.5 2.0.6 2.1.1: Nextcloud Talk Desktop client
 net-im/telegram-desktop 6.2.4 6.3.8 6.4.2 6.5.1: Official desktop client for Telegram
 net-im/telegram-desktop-bin 6.4.0 6.4.1 6.4.2 6.4.2-r1 6.5.1: Official desktop client for Telegram (binary package)
@@ -17148,7 +17148,7 @@ sys-apps/fakechroot 2.20.1_p2: Provide a faked chroot environment without requir
 sys-apps/fakeroot 1.32.2 1.33: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/fbset 2.1: A utility to set the framebuffer videomode
 sys-apps/fd 10.3.0: Alternative to find that provides sensible defaults for 80% of the use cases
-sys-apps/file 5.46-r3 9999: Identify a file's format by scanning binary data for patterns
+sys-apps/file 5.46-r3 5.47 9999: Identify a file's format by scanning binary data for patterns
 sys-apps/findutils 4.10.0: GNU utilities for finding files
 sys-apps/firejail 0.9.72 0.9.74 0.9.76: Security sandbox for any type of processes
 sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag from an ELF object's GNU_STACK
