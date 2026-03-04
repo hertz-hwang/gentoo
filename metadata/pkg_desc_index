@@ -12499,7 +12499,7 @@ kde-frameworks/modemmanager-qt 6.22.0 6.23.0: ModemManager bindings for Qt
 kde-frameworks/networkmanager-qt 6.22.0 6.23.0: NetworkManager bindings for Qt
 kde-frameworks/oxygen-icons 6.1.0: Oxygen SVG icon theme
 kde-frameworks/prison 6.22.0 6.23.0: QRCode and data matrix barcode library
-kde-frameworks/purpose 6.22.0 6.23.0: Library for providing abstractions to get the developer's purposes fulfilled
+kde-frameworks/purpose 6.22.0 6.23.0 6.23.0-r1: Library for providing abstractions to get the developer's purposes fulfilled
 kde-frameworks/purpose-kaccounts-services 6.22.0 6.23.0: KAccounts generated service files for nextcloud and google services
 kde-frameworks/qqc2-desktop-style 6.22.0 6.23.0-r1: Style for QtQuickControls 2 that uses QWidget's QStyle for painting
 kde-frameworks/solid 6.22.0 6.23.0: Provider for platform independent hardware discovery, abstraction and management
@@ -13618,7 +13618,7 @@ media-libs/svgalib 1.9.25-r8: A library for running svga graphics on the console
 media-libs/svt-av1 2.1.2 3.0.2 3.1.0 3.1.2 9999: Scalable Video Technology for AV1 (SVT-AV1 Encoder)
 media-libs/svt-hevc 1.5.1 1.5.1-r1 9999: Scalable Video Technology for HEVC (SVT-HEVC Encoder)
 media-libs/t1lib 5.1.2-r5: Type 1 Font Rasterizer Library for UNIX/X11
-media-libs/taglib 1.13.1 2.1.1: Library for reading and editing audio meta data
+media-libs/taglib 1.13.1 2.1.1 2.2: Library for reading and editing audio meta data
 media-libs/tg_owt 0_pre20250515-r2 0_pre20251117: WebRTC build for Telegram
 media-libs/theoraplay 0_pre20180524-r2: Simple library to make decoding of Ogg Theora videos easier
 media-libs/tiff 4.5.1 4.6.0 4.6.0-r1 4.7.0 4.7.0-r1 4.7.1: Tag Image File Format (TIFF) library
@@ -17794,8 +17794,8 @@ sys-kernel/dkms 3.2.2 3.3.0 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 108-r5 109-r1 110-r2 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r3 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.250 5.10.251 5.15.200 5.15.201 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.250 5.10.251 5.15.200 5.15.201 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.250 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.250 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.249 5.10.249-r1 5.10.250 5.10.250-r1 5.10.251 5.15.197 5.15.198 5.15.199 5.15.200 5.15.201 6.1.161 6.1.162 6.1.163 6.1.164 6.6.126 6.6.127 6.12.70 6.12.71 6.12.73 6.12.74 6.18.12 6.18.13 6.18.14 6.18.15 6.19.2 6.19.3 6.19.4 6.19.5: Full sources including the Gentoo patchset for the 6.19 kernel tree
 sys-kernel/git-sources 7.0_rc1 7.0_rc2: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 63 65 66 9999: Gentoo fork of installkernel script from debianutils
@@ -17816,7 +17816,7 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.250 5.10.251 5.10.9999 5.15.200 5.15.201 5.15.9999 6.1.163 6.1.164 6.1.9999 6.6.126 6.6.127 6.6.9999 6.12.74 6.12.9999 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.250 5.10.251 5.10.252 5.10.9999 5.15.200 5.15.201 5.15.202 5.15.9999 6.1.163 6.1.164 6.1.9999 6.6.126 6.6.127 6.6.9999 6.12.74 6.12.9999 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.252 5.15.202 6.1.165 6.6.128 6.12.75 6.18.16 6.19.6: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.36 1.38 1.40: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.18.8 6.18.9: The Zen Kernel Live Sources
@@ -18002,7 +18002,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.250 5.10.251 5.15.200 5.15.201 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.250 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.164 6.6.126 6.6.127 6.12.74 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
