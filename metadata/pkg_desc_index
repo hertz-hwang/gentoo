@@ -1413,7 +1413,7 @@ app-crypt/acme 3.2.0-r100: An implementation of the ACME protocol
 app-crypt/acme-sh 3.1.2 9999: A pure Unix shell script implementing ACME client protocol
 app-crypt/acme-tiny 5.0.1-r2 5.0.2: A tiny, auditable script for Let's Encrypt's ACME Protocol
 app-crypt/acr38u 1.7.11-r4: Non CCID driver for ACR38 AC1038-based Smart Card Reader
-app-crypt/adcli 0.9.2: Tool for performing actions on an Active Directory domain
+app-crypt/adcli 0.9.2 0.9.3.1: Tool for performing actions on an Active Directory domain
 app-crypt/aescrypt 3.16: Advanced file encryption using AES
 app-crypt/aespipe 2.4f-r1 2.4j: Encrypts data from stdin to stdout
 app-crypt/age 1.2.1 1.3.1: A simple, modern and secure encryption tool (and Go library)
@@ -3082,7 +3082,7 @@ app-portage/kuroneko 0.1.3-r1 0.1.4 0.1.5: Vulnerability checker using data scra
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 63 64 65 66: Handy scripts for ebuild development and more
-app-portage/mirrorselect 2.5.1 2.5.4 9999: Tool to help select distfiles mirrors for Gentoo
+app-portage/mirrorselect 2.5.1 2.5.4 2.6.0 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6: Simple tool for static analysis of overlays
@@ -12589,7 +12589,7 @@ kde-plasma/plasma-systemmonitor 6.5.5-r1 6.6.2: Monitor system sensors, process 
 kde-plasma/plasma-thunderbolt 6.5.5 6.6.2: Plasma integration for controlling Thunderbolt devices
 kde-plasma/plasma-vault 6.5.5-r1 6.5.5-r2 6.6.2: Plasma applet and services for creating encrypted vaults
 kde-plasma/plasma-welcome 6.5.5-r1 6.6.2: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.5.5-r1 6.6.2: KDE Plasma workspace
+kde-plasma/plasma-workspace 6.5.5-r1 6.6.2 6.6.2-r1: KDE Plasma workspace
 kde-plasma/plasma-workspace-wallpapers 6.5.5 6.6.2: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.5.5 6.6.2: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.5.5 6.6.2: KDE Plasma control module for Plymouth
@@ -17153,7 +17153,7 @@ sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 1.9.24 2.0.1 2.0.3-r1 2.0.14 2.0.16 2.0.18: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.6-r1 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
-sys-apps/gawk 5.3.2 5.4.0-r1: GNU awk pattern-matching language
+sys-apps/gawk 5.3.2 5.4.0-r1 5.4.0-r2: GNU awk pattern-matching language
 sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 1.7.6 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9-r2 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
