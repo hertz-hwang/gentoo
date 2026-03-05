@@ -5293,9 +5293,9 @@ dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 9.3.28 10.0.0-r1 10.0.1: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1: Simplified Wrapper and Interface Generator
 dev-lang/tcc 0.9.27_p20211022 0.9.27_p20230223 0.9.27_p20250608 9999: A very small C compiler for ix86/amd64
-dev-lang/tcl 8.6.16 8.6.17: Tool Command Language
+dev-lang/tcl 8.6.16 8.6.17 9.0.3: Tool Command Language
 dev-lang/teyjus 2.1-r2: Higher-order logic programming language Lambda Prolog
-dev-lang/tk 8.6.16 8.6.17: Tk Widget Set
+dev-lang/tk 8.6.16 8.6.17 9.0.3: Tk Widget Set
 dev-lang/tuprolog 3.2.0-r3: tuProlog is a light-weight Prolog for Internet applications and infrastructures
 dev-lang/typescript 5.9.2 5.9.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-lang/uasm 2.57: UASM is a free MASM-compatible assembler
@@ -15577,7 +15577,7 @@ net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable fi
 net-p2p/retroshare 0.6.7-r4: Friend to Friend secure communication and sharing application
 net-p2p/rtorrent 0.15.7 0.16.6 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
-net-p2p/syncthing 1.29.5 2.0.10 2.0.13 2.0.14: Open Source Continuous File Synchronization
+net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
 net-p2p/transmission 4.0.6-r6 4.1.1 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
@@ -17143,7 +17143,7 @@ sys-apps/fakechroot 2.20.1_p2: Provide a faked chroot environment without requir
 sys-apps/fakeroot 1.32.2 1.33: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/fbset 2.1: A utility to set the framebuffer videomode
 sys-apps/fd 10.3.0: Alternative to find that provides sensible defaults for 80% of the use cases
-sys-apps/file 5.46-r3 5.47 9999: Identify a file's format by scanning binary data for patterns
+sys-apps/file 5.46-r3 5.47-r1 9999: Identify a file's format by scanning binary data for patterns
 sys-apps/findutils 4.10.0: GNU utilities for finding files
 sys-apps/firejail 0.9.72 0.9.74 0.9.76: Security sandbox for any type of processes
 sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag from an ELF object's GNU_STACK
