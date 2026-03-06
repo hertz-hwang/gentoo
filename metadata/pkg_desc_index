@@ -10663,7 +10663,7 @@ dev-tcltk/tcllib 1.20 1.21 2.0: Tcl Standard Library
 dev-tcltk/tclpython 5.0-r4 5.1: Python package for Tcl
 dev-tcltk/tclreadline 2.1.0-r5 2.3.8-r2 2.4.0 2.4.1: Readline extension to TCL
 dev-tcltk/tclx 8.6.1 8.6.3: A set of extensions to TCL
-dev-tcltk/tclxml 3.3.1-r3: Pure Tcl implementation of an XML parser
+dev-tcltk/tclxml 3.3.1-r4: Pure Tcl implementation of an XML parser
 dev-tcltk/tdom 0.9.3 0.9.5 0.9.6: A XML/DOM/XPath/XSLT Implementation for Tcl
 dev-tcltk/thread 2.8.10 2.8.12 3.0.5: Tcl Thread extension
 dev-tcltk/tix 8.4.3-r4: A widget library for Tcl/Tk
@@ -17797,7 +17797,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r3 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.250 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.164 6.1.166 6.6.126 6.6.127 6.6.129 6.12.74 6.12.76 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.250 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.164 6.1.166 6.6.126 6.6.127 6.6.129 6.12.74 6.12.76 6.18.12 6.18.13 6.18.15 6.18.16 6.19.3 6.19.5 6.19.6: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.249 5.10.249-r1 5.10.250 5.10.250-r1 5.10.251 5.10.252 5.15.197 5.15.198 5.15.199 5.15.200 5.15.201 5.15.202 6.1.161 6.1.162 6.1.163 6.1.164 6.1.165 6.6.126 6.6.127 6.6.128 6.12.70 6.12.71 6.12.73 6.12.74 6.12.75 6.18.12 6.18.13 6.18.14 6.18.15 6.18.16 6.19.2 6.19.3 6.19.4 6.19.5 6.19.6: Full sources including the Gentoo patchset for the 6.19 kernel tree
+sys-kernel/gentoo-sources 5.10.249 5.10.249-r1 5.10.250 5.10.250-r1 5.10.251 5.10.252 5.15.197 5.15.198 5.15.199 5.15.200 5.15.201 5.15.202 6.1.161 6.1.162 6.1.163 6.1.164 6.1.165 6.1.166 6.6.126 6.6.127 6.6.128 6.6.129 6.12.70 6.12.71 6.12.73 6.12.74 6.12.75 6.12.76 6.18.12 6.18.13 6.18.14 6.18.15 6.18.16 6.19.2 6.19.3 6.19.4 6.19.5 6.19.6: Full sources including the Gentoo patchset for the 6.19 kernel tree
 sys-kernel/git-sources 7.0_rc1 7.0_rc2: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 63 65 66 9999: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
