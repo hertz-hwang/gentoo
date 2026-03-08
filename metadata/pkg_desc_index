@@ -2385,7 +2385,7 @@ app-emulation/libdsk 1.5.21: Library for accessing discs and disc image files
 app-emulation/libguestfs 1.54.1-r1 1.56.2 1.57.2: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.54.0 1.56.0: VM appliance disk image used in libguestfs package
 app-emulation/libspectrum 1.5.0: Spectrum emulation library
-app-emulation/libvirt 11.10.0 12.0.0 12.1.0 9999: C toolkit to manipulate virtual machines
+app-emulation/libvirt 11.10.0 12.0.0 12.1.0-r1 9999: C toolkit to manipulate virtual machines
 app-emulation/libvirt-glib 4.0.0-r1 5.0.0-r1: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.1.0-r1 3.3.0-r1: Ncurses interface for QEMU
 app-emulation/open-vm-tools 12.5.0-r3 12.5.0-r5 13.0.5-r1 13.0.10: Tools for VMware guests
@@ -8383,7 +8383,7 @@ dev-python/django-debug-toolbar 6.1.0 6.2.0: A configurable set of panels that d
 dev-python/django-filter 25.2: Django app allowing declarative dynamic QuerySet filtering from URL parameters
 dev-python/django-js-asset 3.1.2: Script tag with additional attributes for django.forms.Media
 dev-python/django-otp 1.6.3 1.7.0: Django framework adding two-factor authentication using one-time passwords
-dev-python/django-polymorphic 4.11.0 4.11.1: Seamless Polymorphic Inheritance for Django Models
+dev-python/django-polymorphic 4.11.1 4.11.2: Seamless Polymorphic Inheritance for Django Models
 dev-python/django-prometheus 2.4.1: Library to export Django metrics for Prometheus
 dev-python/django-redis 6.0.0: Full featured redis cache backend for Django
 dev-python/django-registration 5.2.1: user-registration application for Django
@@ -8642,7 +8642,7 @@ dev-python/jack-client 0.5.5: JACK Audio Connection Kit client for Python
 dev-python/jaconv 0.4.1 0.5.0: Pure-Python Japanese character interconverter
 dev-python/jaraco-classes 3.4.0: Classes used by other projects by developer jaraco
 dev-python/jaraco-collections 5.2.1: Models and classes to supplement the stdlib collections module
-dev-python/jaraco-context 6.0.2 6.1.0: Context managers by jaraco
+dev-python/jaraco-context 6.1.0 6.1.1: Context managers by jaraco
 dev-python/jaraco-envs 2.6.0: Classes for orchestrating Python (virtual) environments
 dev-python/jaraco-functools 4.3.0 4.4.0: Additional functions used by other projects by developer jaraco
 dev-python/jaraco-itertools 6.4.3: Tools for working with iterables. Complements itertools and more_itertools
@@ -8739,7 +8739,7 @@ dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/librt 0.8.0 0.8.1: Mypyc runtime library
 dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
-dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
+dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.3.1: Python ctype-based wrapper around libusb1
 dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.4: Parse, compare, simplify and normalize license expressions
@@ -9067,7 +9067,7 @@ dev-python/pycairo 1.28.0 1.29.0-r1: Python bindings for the cairo library
 dev-python/pycares 4.11.0 5.0.0 5.0.1: Python interface for c-ares
 dev-python/pycdio 2.1.1-r1: Python OO interface to libcdio (CD Input and Control library)
 dev-python/pychm 0.8.6-r1: Python bindings for the chmlib library
-dev-python/pychromecast 14.0.5 14.0.7 14.0.9: Python module to talk to Google Chromecast
+dev-python/pychromecast 14.0.7 14.0.9: Python module to talk to Google Chromecast
 dev-python/pyclamd 0.4.0-r5 0.4.0-r6: Python interface to Clamd (ClamAV daemon)
 dev-python/pyclipper 1.3.0_p6 1.4.0: Cython wrapper for the C++ translation of the Angus Johnson's Clipper library
 dev-python/pycodestyle 2.14.0: Python style guide checker (fka pep8)
@@ -9206,7 +9206,7 @@ dev-python/pysnmpcrypto 0.0.4: Strong cryptography support for PySNMP (SNMP libr
 dev-python/pysocks 1.7.1-r2: SOCKS client module
 dev-python/pysol-cards 0.24.0: Deal PySol FreeCell cards
 dev-python/pyspectrum2 0.2.0-r2: Implements a protobuf-based interface for Spectrum2 python-based backends
-dev-python/pyspellchecker 0.8.3 0.8.4: Pure python spell checker based on work by Peter Norvig
+dev-python/pyspellchecker 0.8.4 0.9.0: Pure python spell checker based on work by Peter Norvig
 dev-python/pyspelling 2.11 2.12 2.12.1: Spell checker automation tool
 dev-python/pyspf 2.0.14-r3: Python implementation of the Sender Policy Framework (SPF)
 dev-python/pyspnego 0.12.0 0.12.1: Library to handle SPNEGO and CredSSP authentication
@@ -17607,7 +17607,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260122 13.4.1_p20260129 13.4.1_p20260205 13.4.1_p20260212 13.4.1_p20260219 13.4.1_p20260226 13.4.1_p20260305 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260123 14.3.1_p20260130 14.3.1_p20260206 14.3.1_p20260213 14.3.1_p20260220 14.3.1_p20260227 14.3.1_p20260306 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20260124 15.2.1_p20260131 15.2.1_p20260207 15.2.1_p20260214 15.2.1_p20260221 15.2.1_p20260228 15.3.9999 16.0.1_p20260125 16.0.1_p20260201 16.0.1_p20260208-r1 16.0.1_p20260215 16.0.1_p20260222 16.0.1_p20260301 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260122 13.4.1_p20260129 13.4.1_p20260205 13.4.1_p20260212 13.4.1_p20260219 13.4.1_p20260226 13.4.1_p20260305 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260123 14.3.1_p20260130 14.3.1_p20260206 14.3.1_p20260213 14.3.1_p20260220 14.3.1_p20260227 14.3.1_p20260306 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20260124 15.2.1_p20260131 15.2.1_p20260207 15.2.1_p20260214 15.2.1_p20260221 15.2.1_p20260228 15.2.1_p20260307 15.3.9999 16.0.1_p20260125 16.0.1_p20260201 16.0.1_p20260208-r1 16.0.1_p20260215 16.0.1_p20260222 16.0.1_p20260301 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
@@ -17691,7 +17691,7 @@ sys-fs/dmraid 1.0.0_rc16-r7: Device-mapper RAID tool and library
 sys-fs/dosfstools 4.2: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/duf 0.8.1 0.9.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-fs/duperemove 0.15.2: Btrfs and xfs deduplication utility
-sys-fs/e2fsprogs 1.47.3-r1: Standard EXT2/EXT3/EXT4 filesystem utilities
+sys-fs/e2fsprogs 1.47.3-r1 1.47.4: Standard EXT2/EXT3/EXT4 filesystem utilities
 sys-fs/e2tools 0.1.2: utilities to read, write, and manipulate files in an ext2/ext3 filesystem
 sys-fs/ecryptfs-utils 111_p20170609-r1: eCryptfs userspace utilities
 sys-fs/erofs-utils 1.8.4 1.8.10-r1: Userspace tools for EROFS
