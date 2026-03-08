@@ -3228,7 +3228,7 @@ app-text/docbook-xsl-stylesheets 1.79.1-r4: XSL Stylesheets for Docbook
 app-text/docbook2X 0.8.8-r5: Tools to convert docbook to man and info
 app-text/docx2txt 1.4: Convert MS Office docx files to plain text
 app-text/dos2unix 7.5.2 7.5.3: Convert DOS or MAC text files to UNIX format or vice versa
-app-text/doxygen 1.13.2 1.14.0 1.15.0 1.15.0-r2 9999: Documentation system for most programming languages
+app-text/doxygen 1.13.2 1.14.0 1.15.0 1.15.0-r2 1.16.1 9999: Documentation system for most programming languages
 app-text/dvipng 1.18: Translate DVI files into PNG or GIF graphics
 app-text/dvipsk 2023.03.11_p66203 2024.03.11_p70015: DVI-to-PostScript translator
 app-text/dvisvgm 2.14-r1 3.0.4 3.1 3.1.2 3.2 3.3 3.4: Converts DVI files to SVG
@@ -3917,7 +3917,7 @@ dev-cpp/htmlcxx 0.87: A simple non-validating CSS 1 and HTML parser for C++
 dev-cpp/json11 1.0.0-r1: A tiny JSON library for C++11
 dev-cpp/jsoncons 1.4.3 1.5.0: C++ header-only library for JSON and JSON-like data formats
 dev-cpp/jwt-cpp 0.6.0 0.7.1 0.7.2: header only library for creating and validating JSON Web Tokens in C++11
-dev-cpp/kokkos 4.0.1-r1 4.3.1-r1 4.6.2-r1 4.6.2-r2 9999: C++ Performance Portability Programming EcoSystem
+dev-cpp/kokkos 4.0.1-r1 4.3.1-r1 4.6.2-r1 4.6.2-r2 5.0.2 9999: C++ Performance Portability Programming EcoSystem
 dev-cpp/libcmis 0.6.2-r2 9999: C++ client library for the CMIS interface
 dev-cpp/libjson-rpc-cpp 1.4.0 1.4.0-r1: JSON-RPC (1.0 & 2.0) framework for C++
 dev-cpp/libmcpp 2.7.2_p5-r2: A portable C++ preprocessor
@@ -16327,7 +16327,7 @@ sci-libs/ta-lib 0.4.0-r1: Technical Analysis Library for analyzing financial mar
 sci-libs/tamu_anova 0.2-r1: ANOVA Extensions to the GNU Scientific Library
 sci-libs/taucs 2.2.1: C library of sparse linear solvers
 sci-libs/tnt 3.0.12: Template Numerical Toolkit: C++ headers for array and matrices
-sci-libs/trilinos 14.4.0-r1 15.1.1-r1 16.1.0-r3: Scientific library collection for large scale problems
+sci-libs/trilinos 14.4.0-r1 15.1.1-r1 16.1.0-r3 17.0.0: Scientific library collection for large scale problems
 sci-libs/udunits 2.2.28: Library for manipulating units of physical quantities
 sci-libs/ufconfig 3.7.1: Common configuration scripts for the SuiteSparse libraries
 sci-libs/umfpack 5.7.9 5.7.9-r1 6.1.0: Unsymmetric multifrontal sparse LU factorization library
