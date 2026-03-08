@@ -3081,7 +3081,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.3-r1 0.1.4 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 63 64 65 66: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 66 67: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.5.1 2.5.4 2.6.0 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -12580,7 +12580,7 @@ kde-plasma/plasma-integration 6.5.5 6.6.2: Qt Platform Theme integration plugins
 kde-plasma/plasma-keyboard 6.6.2: Virtual keyboard based on Qt Virtual Keyboard
 kde-plasma/plasma-login-manager 6.6.2: Plasma Login Manager
 kde-plasma/plasma-login-sessions 6.5.5 6.6.2: KDE Plasma login sessions
-kde-plasma/plasma-meta 6.5.5-r1 6.6.0 6.6.2: Merge this to pull in all Plasma 6 packages
+kde-plasma/plasma-meta 6.5.5-r1 6.6.0-r1 6.6.2-r1: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-mimeapps-list 3: Gentoo curated mimeapps list for KDE Plasma
 kde-plasma/plasma-nm 6.5.5 6.6.2: KDE Plasma applet for NetworkManager
 kde-plasma/plasma-pa 6.5.5 6.6.2: Plasma applet for audio volume management using PulseAudio
