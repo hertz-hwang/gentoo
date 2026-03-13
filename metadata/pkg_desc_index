@@ -1176,7 +1176,7 @@ app-arch/lz4 1.9.4 1.10.0 1.10.0-r1: Extremely Fast Compression algorithm
 app-arch/lz5 2.0-r1: An efficient compressor with very fast decompression
 app-arch/lzip 1.25: Lossless data compressor based on the LZMA algorithm
 app-arch/lziprecover 1.25: Lziprecover is a data recovery tool and decompressor for lzip compressed files
-app-arch/lzlib 1.15-r1: Library for lzip compression
+app-arch/lzlib 1.15-r1 1.16: Library for lzip compression
 app-arch/lzma 19.00-r1: LZMA Stream Compressor from the SDK
 app-arch/lzop 1.04-r1: Utility for fast (even real-time) compression/decompression
 app-arch/makeself 2.5.0 2.7.1: Shell script that generates a self-extractible tar.gz
@@ -5405,7 +5405,7 @@ dev-libs/editline 1.17.1-r1 1.17.1_p20240527: line editing library for UNIX call
 dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
 dev-libs/elfutils 0.193-r1 0.194 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 9999: Embedded Linux Library provides core, low-level functionality for system daemons
+dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
 dev-libs/expat 2.7.4: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
 dev-libs/fcgi 2.4.1_pre0910052249-r2: FastCGI Developer's Kit
@@ -15746,7 +15746,7 @@ net-wireless/hostap-utils 0.4.7-r1: Utilities for Intersil Prism2/2.5/3 based IE
 net-wireless/hostapd 2.10-r3 2.11 9999: IEEE 802.11 wireless LAN Host AP daemon
 net-wireless/inspectrum 0.4.0 9999: Tool for analysing captured signals from software-defined radio receivers
 net-wireless/iw 6.9 6.17: nl80211 configuration utility for wireless devices using the mac80211 stack
-net-wireless/iwd 3.8 3.9 3.10 3.11 9999: Wireless daemon for linux
+net-wireless/iwd 3.8 3.9 3.10 3.11 3.12 9999: Wireless daemon for linux
 net-wireless/iwgtk 0.9: Lightweight, graphical wifi management utility for Linux
 net-wireless/kismet 2023.07.2 2025.09.1 9999: IEEE 802.11 wireless LAN sniffer
 net-wireless/kismetmobiledashboard 1.5_beta1-r2 9999: Mobile UI for kismet
