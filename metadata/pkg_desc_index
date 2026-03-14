@@ -15064,7 +15064,7 @@ net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace pro
 net-libs/libupnp 1.14.24 1.14.25 1.14.30: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.3: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
-net-libs/libwebsockets 4.4.1-r1 4.5.2 4.5.2-r1 4.5.4: A flexible pure-C library for implementing network protocols
+net-libs/libwebsockets 4.4.1-r1 4.5.4 4.5.5: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
 net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.2.1: Port of http_parser to llparse
@@ -15110,7 +15110,7 @@ net-libs/udns 0.6: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0 0.11.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0_p20250331: A cross-platform userland SCTP stack
 net-libs/wandio 4.2.3_p1-r1 4.2.3_p1-r2 4.2.4 4.2.6: C library for simple and efficient file IO
-net-libs/webkit-gtk 2.44.4-r411 2.44.4-r601 2.48.5-r410 2.48.5-r411 2.48.5-r600 2.48.5-r601 2.50.5-r410 2.50.5-r600: Open source web browser engine
+net-libs/webkit-gtk 2.44.4-r411 2.44.4-r601 2.48.5-r410 2.48.5-r411 2.48.5-r600 2.48.5-r601 2.50.5-r410 2.50.5-r600 2.50.6-r410 2.50.6-r600: Open source web browser engine
 net-libs/wslay 1.1.1_p20210115: WebSocket library in C
 net-libs/wvstreams 4.6.1_p14-r2: A network programming library in C++
 net-libs/xdp-tools 1.5.8 1.6.1 1.6.2: The libxdp library and various tools for use with XDP
@@ -17612,7 +17612,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260122 13.4.1_p20260129 13.4.1_p20260205 13.4.1_p20260212 13.4.1_p20260219 13.4.1_p20260226 13.4.1_p20260305 13.4.1_p20260312 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260123 14.3.1_p20260130 14.3.1_p20260206 14.3.1_p20260213 14.3.1_p20260220 14.3.1_p20260227 14.3.1_p20260306 14.3.1_p20260313 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20260124 15.2.1_p20260131 15.2.1_p20260207 15.2.1_p20260214 15.2.1_p20260221 15.2.1_p20260228 15.2.1_p20260307 15.3.9999 16.0.1_p20260125 16.0.1_p20260201 16.0.1_p20260208-r1 16.0.1_p20260215 16.0.1_p20260222 16.0.1_p20260301 16.0.1_p20260308 16.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260122 13.4.1_p20260129 13.4.1_p20260205 13.4.1_p20260212 13.4.1_p20260219 13.4.1_p20260226 13.4.1_p20260305 13.4.1_p20260312 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260123 14.3.1_p20260130 14.3.1_p20260206 14.3.1_p20260213 14.3.1_p20260220 14.3.1_p20260227 14.3.1_p20260306 14.3.1_p20260313 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251115 15.2.1_p20251122 15.2.1_p20260124 15.2.1_p20260131 15.2.1_p20260207 15.2.1_p20260214 15.2.1_p20260221 15.2.1_p20260228 15.2.1_p20260307 15.2.1_p20260314 15.3.9999 16.0.1_p20260125 16.0.1_p20260201 16.0.1_p20260208-r1 16.0.1_p20260215 16.0.1_p20260222 16.0.1_p20260301 16.0.1_p20260308 16.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
