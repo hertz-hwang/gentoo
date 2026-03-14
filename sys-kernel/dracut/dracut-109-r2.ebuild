@@ -105,7 +105,9 @@ QA_MULTILIB_PATHS="usr/lib/dracut/.*"
 PATCHES=(
 	"${FILESDIR}"/gentoo-ldconfig-paths-r1.patch
 	# Gentoo specific acct-user and acct-group conf adjustments
-	"${FILESDIR}"/${PN}-110-acct-user-group-gentoo.patch
+	"${FILESDIR}"/${PN}-108-acct-user-group-gentoo.patch
+	# https://github.com/dracut-ng/dracut-ng/pull/1122#issuecomment-3192110686
+	"${FILESDIR}"/${PN}-108-disable-ukify-magic.patch
 )
 
 pkg_setup() {
@@ -114,12 +116,11 @@ pkg_setup() {
 
 src_configure() {
 	local myconf=(
-		--bashcompletiondir="$(get_bashcompdir)"
-		--disable-dracut-cpio
-		--enable-network-legacy
 		--prefix="${EPREFIX}/usr"
 		--sysconfdir="${EPREFIX}/etc"
+		--bashcompletiondir="$(get_bashcompdir)"
 		--systemdsystemunitdir="$(systemd_get_systemunitdir)"
+		--disable-dracut-cpio
 	)
 
 	if ! has_version -b dev-ruby/asciidoctor; then

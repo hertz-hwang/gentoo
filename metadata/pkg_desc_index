@@ -1881,7 +1881,7 @@ app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text ed
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
-app-editors/zed 0.218.5 0.221.5 0.226.4: The fast, collaborative code editor
+app-editors/zed 0.221.5 0.226.4 0.227.1: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.2_p20250524: Algol68 major mode for GNU Emacs
@@ -6312,8 +6312,8 @@ dev-perl/Authen-Libwrap 0.230.0-r4: Perl access to the TCP Wrappers interface
 dev-perl/Authen-NTLM 1.90.0-r2: An NTLM authentication module
 dev-perl/Authen-OATH 2.0.1: OATH One Time Passwords
 dev-perl/Authen-PAM 0.160.0-r4: Interface to PAM library
-dev-perl/Authen-Radius 0.320.0-r1: Communicate with a Radius server from Perl
-dev-perl/Authen-SASL 2.170.0 2.180.0 2.180.0-r1 2.190.0: Perl SASL interface
+dev-perl/Authen-Radius 0.320.0-r1 0.330.0: Communicate with a Radius server from Perl
+dev-perl/Authen-SASL 2.180.0 2.190.0 2.200.0: Perl SASL interface
 dev-perl/Authen-SASL-SASLprep 1.100.0-r1: A Stringprep Profile for User Names and Passwords (RFC 4013)
 dev-perl/Authen-SCRAM 0.11.0-r1: Salted Challenge Response Authentication Mechanism (RFC 5802)
 dev-perl/Authen-Simple 0.500.0-r1: Simple Authentication
@@ -6334,7 +6334,7 @@ dev-perl/BSON 1.12.2-r1: BSON serialization and deserialization (EOL)
 dev-perl/BZ-Client 4.400.400-r1: A client for the Bugzilla web services API
 dev-perl/BackupPC-XS 0.620.0 0.620.0-r1: Perl extension for BackupPC libraries
 dev-perl/Benchmark-Timer 0.711.200-r1: Perl code benchmarking tool
-dev-perl/BerkeleyDB 0.650.0: This module provides Berkeley DB interface for Perl
+dev-perl/BerkeleyDB 0.650.0 0.670.0: This module provides Berkeley DB interface for Perl
 dev-perl/Bio-ASN1-EntrezGene 1.730.0: Regular expression-based Perl Parser for NCBI Entrez Gene
 dev-perl/Bio-DB-HTS 3.10.0-r2: Perl bindings for sci-libs/htslib
 dev-perl/Bio-Das 1.170.0-r4: Interface to Distributed Annotation System
@@ -6345,7 +6345,7 @@ dev-perl/Boulder 1.300.0-r3: An API for hierarchical tag/value structures
 dev-perl/Browser-Open 0.40.0-r2: Open a browser at a given URL
 dev-perl/Business-FedEx-DirectConnect 1.10.0-r2: Interface to FedEx Ship Manager Direct
 dev-perl/Business-Hours 0.130.0-r1: Calculate business hours in a time period
-dev-perl/Business-ISBN 3.11.0 3.12.0: Work with ISBN as objects
+dev-perl/Business-ISBN 3.12.0 3.13.0: Work with ISBN as objects
 dev-perl/Business-ISBN-Data 20250801.1.0 20250815.1.0 20250904.1.0 20250915.1.0 20251024.1.0: Data pack for Business::ISBN
 dev-perl/Business-ISMN 1.204.0 1.205.0: International Standard Music Numbers
 dev-perl/Business-ISSN 1.8.0-r1: Object and functions to work with International Standard Serial Numbers
@@ -13201,7 +13201,7 @@ media-gfx/simple-scan 46.0 49.1: Simple document scanning utility
 media-gfx/skanpage 25.12.2 25.12.3: Multi-page scanning application supporting image and pdf files
 media-gfx/solvespace 3.1-r1: Parametric 2d/3d CAD
 media-gfx/springgraph 88: Generate spring graphs from graphviz input files
-media-gfx/superslicer 2.5.59.10-r2: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
+media-gfx/superslicer 2.5.59.10-r2 2.7.61.10: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-gfx/svg2rlg 0.4.0-r1: Converts SVG files to PDFs or reportlab graphics
 media-gfx/sxiv 26: Simple (or small or suckless) X Image Viewer
 media-gfx/symboleditor 3.0.0_pre20250127: Application to create libraries of QPainterPath objects with rendering hints
@@ -14879,7 +14879,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 8.1.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 8.2.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.47.59 4.47.72 4.48.95: Team collaboration tool
 net-im/spectrum2 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -16101,7 +16101,7 @@ sci-geosciences/osmctools 0.9-r2: A few really fast tools to convert, filter and
 sci-geosciences/owntracks-recorder 1.0.1: Stores and accesses location data published by the OwnTracks apps
 sci-geosciences/pymap3d 3.1.0: Python 3-D coordinate conversions
 sci-geosciences/qgis 3.44.6 9999: User friendly Geographic Information System
-sci-geosciences/qmapshack 1.18.2 1.19.0: GPS mapping utility
+sci-geosciences/qmapshack 1.19.0 1.20.1: GPS mapping utility
 sci-geosciences/readosm 1.1.0a: Library to extract valid data from an Open Street Map input file
 sci-geosciences/routino 3.4.3: Routing application based on openstreetmap data
 sci-geosciences/s2geometry 0.13.1-r2: Computational geometry and spatial indexing on the sphere
@@ -17259,7 +17259,7 @@ sys-apps/nvme-cli 2.11 2.12 2.13 2.14 2.15 2.16: NVM-Express user space tooling 
 sys-apps/onerng 3.7-r1: Software for the Open Hardware Random Number Generator called OneRNG
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.11.0 3.12.0: Drivers and user-space daemon to control Razer devices on GNU/Linux
-sys-apps/openrc 0.56 0.62.2 0.62.3 0.62.4 0.62.5 0.62.6 0.62.10 0.63 9999: OpenRC manages the services, startup and shutdown of a host
+sys-apps/openrc 0.56-r1 0.62.2-r1 0.62.3-r1 0.62.4-r1 0.62.5-r1 0.62.6-r1 0.62.10-r1 0.63-r1 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/osinfo-db 20250606 20251212: Osinfo database for virtualization provisioning tools
 sys-apps/osinfo-db-tools 1.11.0-r1 1.12.0-r1: Tools for managing the osinfo database
 sys-apps/pandora_box 0.17.0 0.18.0 0.19.0: Syd's log inspector & profile writer
@@ -17307,7 +17307,7 @@ sys-apps/rootlesskit 2.0.2: Linux-native "fake root" for implementing rootless c
 sys-apps/s390-tools 2.12.0-r1 2.27.0-r1 2.40.0-r1: User space utilities for the zSeries (s390) Linux kernel and device drivers
 sys-apps/s6 2.13.2.0 2.14.0.0 2.14.0.1: skarnet.org's small and secure supervision software suite
 sys-apps/s6-frontend 0.0.1.1-r1: Frontend to the s6 init system
-sys-apps/s6-linux-init 1.1.3.0 1.2.0.0: Generates an init binary for s6-based init systems
+sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1: Generates an init binary for s6-based init systems
 sys-apps/s6-linux-utils 2.6.3.0 2.6.4.0: Set of tiny linux utilities
 sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.6.0 0.6.0.0: Service manager for the s6 supervision suite
@@ -17798,7 +17798,7 @@ sys-kernel/asahi-sources 6.16.4_p2 6.17.11_p1: Asahi Linux kernel sources
 sys-kernel/bliss-initramfs 9.3.0: Boot your system's rootfs from Encrypted/OpenZFS
 sys-kernel/cryptodev 1.14 9999: device that allows access to Linux kernel cryptographic drivers
 sys-kernel/dkms 3.2.2 3.3.0 9999: Dynamic Kernel Module Support
-sys-kernel/dracut 108-r5 109-r1 110-r2 9999: Generic initramfs generation tool
+sys-kernel/dracut 108-r6 109-r2 110-r3 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r3 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.6.126 6.6.129 6.12.74 6.12.77 6.18.12 6.18.18 6.19.8: Linux kernel built with Gentoo patches

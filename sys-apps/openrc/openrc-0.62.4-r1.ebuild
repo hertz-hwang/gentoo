@@ -52,15 +52,16 @@ PDEPEND="netifrc? ( net-misc/netifrc )"
 
 src_configure() {
 	local emesonargs=(
-		--bindir="${EPREFIX}/bin"
-		--sbindir="${EPREFIX}/sbin"
+	--bindir=/bin
+	--sbindir=/sbin
 		$(meson_feature audit)
 		"-Dbranding=\"Gentoo Linux\""
 		$(meson_use newnet)
+		-Dos=Linux
 		$(meson_use pam)
-		-Dpam_libdir="${EPREFIX}$(getpam_mod_dir)"
+		-Dpam_libdir="$(getpam_mod_dir)"
 		$(meson_feature selinux)
-		-Dshell=$(usex bash "${EPREFIX}/bin/bash" "${EPREFIX}/bin/sh")
+		-Dshell=$(usex bash /bin/bash /bin/sh)
 		$(meson_use sysv-utils sysvinit)
 	)
 	# export DEBUG=$(usev debug)
