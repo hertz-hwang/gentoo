@@ -11053,6 +11053,7 @@ dev-util/plan9port 0_pre20240617: Port of many Plan 9 programs and libraries
 dev-util/ply 2.3.0: Dynamic instrumentation of the Linux kernel with BPF and kprobes
 dev-util/poke 3.3 4.0 4.1 4.1-r1 4.2 4.3 9999: Extensible editor for structured binary data
 dev-util/poke-elf 1.0 9999: A GNU poke pickle for manipulating ELF files
+dev-util/prek 0.3.6: Better `pre-commit`, re-engineered in Rust
 dev-util/premake 4.3-r2 5.0.0_beta2 5.0.0_beta7: A makefile generation tool
 dev-util/pretrace 0.4-r2: start dynamically linked applications under debugging environment
 dev-util/promu 0.15.0 0.17.0 9999: Prometheus Utility Tool
@@ -12527,7 +12528,7 @@ kde-misc/krusader 2.9.0: Advanced twin-panel (commander-style) file-manager with
 kde-misc/kshutdown 6.0 6.2: Shutdown manager for desktop environments like KDE Plasma
 kde-misc/kweather 25.12.2 25.12.3: Weather forecast application for Plasma with flat and dynamic/animated views
 kde-misc/markdownpart 25.12.2 25.12.3: Markdown viewer KParts plugin based on QTextDocument
-kde-misc/plasma-pass 1.3.0: Plasma applet to access password from pass
+kde-misc/plasma-pass 1.3.0 1.3.0-r1: Plasma applet to access password from pass
 kde-misc/rsibreak 0.13.0: Small utility which bothers you at certain intervals
 kde-misc/skanlite 25.12.2 25.12.3: Simple image scanning application based on libksane and KDE Frameworks
 kde-misc/tellico 4.1.5 4.2: Collection manager based on KDE Frameworks
@@ -12747,7 +12748,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p0: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.10.8 3.11.1-r1 3.12_pre20260312: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.10.4 3.10.6 3.10.7 3.10.8 3.11.1-r1 3.12_pre20260316: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.1 8.18.1-r3 8.18.1.10-r4 8.18.1.15-r2 8.18.1.16-r1 8.18.2 8.18.2-r1 8.19.0.0: Widely-used Mail Transport Agent (MTA)
@@ -14878,7 +14879,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 8.2.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 8.2.1: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.47.59 4.47.72 4.48.95: Team collaboration tool
 net-im/spectrum2 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -17827,7 +17828,7 @@ sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based PO
 sys-kernel/vanilla-kernel 5.10.250 5.10.252 5.10.9999 5.15.200 5.15.202 5.15.9999 6.1.163 6.1.166 6.1.9999 6.6.126 6.6.129 6.6.9999 6.12.74 6.12.77 6.12.9999 6.18.12 6.18.18 6.19.8: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.252 5.15.202 6.1.166 6.6.129 6.12.77 6.18.18 6.19.8: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.36 1.38 1.40: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 6.19.6: The Zen Kernel Live Sources
+sys-kernel/zen-sources 6.19.8: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
