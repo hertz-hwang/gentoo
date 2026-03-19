@@ -904,8 +904,8 @@ app-accessibility/mbrola-voices 0_pre20200331: mbrola speech synthesizer voices 
 app-accessibility/nfbtrans 7.74-r3: Braille translator from the National Federation of the Blind
 app-accessibility/orca 47.5 49.5: Extensible screen reader that provides access to the desktop
 app-accessibility/sound-icons 0.1: Collection of Sound Icons for speech-dispatcher
-app-accessibility/speech-dispatcher 0.11.5 0.12.0-r1 0.12.1: Speech synthesis interface
-app-accessibility/speech-tools 2.5.0-r1 2.5.0-r2: Speech tools for Festival Text to Speech engine
+app-accessibility/speech-dispatcher 0.12.1: Speech synthesis interface
+app-accessibility/speech-tools 2.5.0-r2: Speech tools for Festival Text to Speech engine
 app-accessibility/speechd-el 2.11 2.12: Emacs speech support
 app-accessibility/sphinx2 0.6-r1 0.6-r2: CMU Speech Recognition-engine
 app-accessibility/yasr 0.6.9-r1: General-purpose console screen reader
@@ -17961,7 +17961,7 @@ sys-process/cronbase 0.3.7-r10: Base for all cron ebuilds
 sys-process/cronie 1.7.2: Cronie is a standard UNIX daemon cron based on the original vixie-cron
 sys-process/cronutils 1.10: Utilities to assist running batch processing jobs
 sys-process/ctop 0.7.7: Top-like interface for container-metrics
-sys-process/daemontools 0.76-r10 0.76-r11 0.76-r12: Collection of tools for managing UNIX services
+sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
 sys-process/daemontools-encore 1.11-r2: Collection of tools for managing UNIX services
 sys-process/dcron 4.6: Dillon's lightweight and minimalist cron daemon
 sys-process/dumb-init 1.2.5-r1: A minimal init system for Linux containers
