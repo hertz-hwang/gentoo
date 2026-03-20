@@ -121,20 +121,21 @@ src_compile() {
 		TARGET_LDFLAGS=-latomic
 	fi
 
-	emake CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" EXTRA_OBJS="${EXTRA_OBJS}" \
+	# HAProxy really needs some of those "SPEC_CFLAGS", like -fno-strict-aliasing
+	emake CFLAGS="${CFLAGS} \$(SPEC_CFLAGS)" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" EXTRA_OBJS="${EXTRA_OBJS}" \
 		TARGET_LDFLAGS="${TARGET_LDFLAGS}" PCRE_LIB="${ESYSROOT}"/usr/$(get_libdir) ${args[@]}
-	emake -C admin/systemd CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
+	emake -C admin/systemd CFLAGS="${CFLAGS} \$(SPEC_CFLAGS)" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
 		EXTRA_OBJS="${EXTRA_OBJS}" TARGET_LDFLAGS="${TARGET_LDFLAGS}" PCRE_LIB="${ESYSROOT}"/usr/$(get_libdir) \
 		SBINDIR=/usr/sbin
 
 	if use tools ; then
 		for extra in ${EXTRAS[@]} ; do
 			if [ "${extra}" = "admin/halog" ]; then
-				emake CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
+				emake CFLAGS="${CFLAGS} \$(SPEC_CFLAGS)" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
 					EXTRA_OBJS="${EXTRA_OBJS}" TARGET_LDFLAGS="${TARGET_LDFLAGS}" \
 					PCRE_LIB="${ESYSROOT}"/usr/$(get_libdir) ${args[@]} admin/halog/halog
 			elif [ "${extra}" = "dev/hpack" ]; then
-				emake CFLAGS="${CFLAGS}" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
+				emake CFLAGS="${CFLAGS} \$(SPEC_CFLAGS)" LDFLAGS="${LDFLAGS}" CC="$(tc-getCC)" \
 					EXTRA_OBJS="${EXTRA_OBJS}" TARGET_LDFLAGS="${TARGET_LDFLAGS}" \
 					PCRE_LIB="${ESYSROOT}"/usr/$(get_libdir) ${args[@]} dev/hpack/{decode,gen-enc,gen-rht}
 			else
