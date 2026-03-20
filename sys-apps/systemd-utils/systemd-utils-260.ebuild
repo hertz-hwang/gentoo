@@ -34,23 +34,21 @@ RESTRICT="!test? ( test )"
 COMMON_DEPEND="
 	selinux? ( sys-libs/libselinux:0= )
 	tmpfiles? (
-		acl? ( sys-apps/acl:0= )
+		acl? ( sys-apps/acl )
 	)
 	udev? (
-		>=sys-apps/util-linux-2.30:0=
-		acl? ( sys-apps/acl:0= )
-		kmod? ( >=sys-apps/kmod-15:0= )
+		>=sys-apps/util-linux-2.37
+		acl? ( sys-apps/acl )
+		kmod? ( >=sys-apps/kmod-15 )
 	)
 "
 DEPEND="${COMMON_DEPEND}
-	virtual/libcrypt:=[${MULTILIB_USEDEP}]
 	>=sys-kernel/linux-headers-3.11
 "
 
 PEFILE_DEPEND='dev-python/pefile[${PYTHON_USEDEP}]'
 
 RDEPEND="${COMMON_DEPEND}
-	virtual/libcrypt:=
 	boot? ( !<sys-boot/systemd-boot-250 )
 	ukify? (
 		${PYTHON_DEPS}
@@ -132,7 +130,6 @@ multilib_src_configure() {
 		# default is developer, bug 918671
 		-Dmode=release
 		-Dlibc=$(usex elibc_musl musl glibc)
-		-Dsysvinit-path=
 
 		$(meson_native_use_feature boot bootloader)
 		$(meson_native_use_bool kernel-install)

@@ -256,6 +256,7 @@ src_unpack() {
 
 src_prepare() {
 	local PATCHES=(
+		"${FILESDIR}/systemd-260-mips.patch"
 	)
 
 	if ! use vanilla; then
@@ -540,6 +541,9 @@ pkg_postinst() {
 	# Bug 465468, make sure locales are respected, and ensure consistency
 	# between OpenRC & systemd
 	migrate_locale
+
+	# Bug 971385
+	systemd_reenable getty@.service
 
 	if [[ -z ${REPLACING_VERSIONS} ]]; then
 		if type systemctl &>/dev/null; then
