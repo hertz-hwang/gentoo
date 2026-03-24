@@ -16138,7 +16138,7 @@ sci-libs/cdf 3.9.0 3.9.1: Common Data Format I/O library for multi-dimensional d
 sci-libs/ceres-solver 2.2.0-r1: Nonlinear least-squares minimizer
 sci-libs/cfitsio 4.6.3: C and Fortran library for manipulating FITS files
 sci-libs/cgcode 1.0-r2: Conjugate gradient Codes for large sparse linear systems
-sci-libs/cgnslib 4.3.0-r2 4.4.0-r1 4.4.0-r2 4.5.0: CFD General Notation System standard library
+sci-libs/cgnslib 4.3.0-r2 4.4.0-r1 4.4.0-r2 4.5.0 4.5.1: CFD General Notation System standard library
 sci-libs/cholmod 3.0.13 3.0.14-r1 4.0.3: Sparse Cholesky factorization and update/downdate library
 sci-libs/clashscore-db 3.17-r1: Clashscore-db for clashlist
 sci-libs/clblas 2.12-r2: Library containing BLAS routines for OpenCL
@@ -18273,8 +18273,8 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3: GNOME webbrowser based on Webkit
 www-client/falkon 25.12.2 25.12.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.8.0 148.0.2 149.0: Firefox Web Browser
-www-client/firefox-bin 140.8.0 148.0.2 149.0: Firefox Web Browser
+www-client/firefox 140.8.0 140.9.0 148.0.2 149.0: Firefox Web Browser
+www-client/firefox-bin 140.8.0 140.9.0 148.0.2 149.0: Firefox Web Browser
 www-client/firefox-l10n 149.0: Firefox Web Browser's translation files
 www-client/google-chrome 146.0.7680.164: The web browser from Google
 www-client/google-chrome-beta 147.0.7727.15: The web browser from Google
