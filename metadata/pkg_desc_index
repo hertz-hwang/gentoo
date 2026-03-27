@@ -2813,7 +2813,7 @@ app-misc/interceptty 0.6-r3: a program that can sit between a serial port and an
 app-misc/irtrans-irclient 6.01.05-r1: ASCII Client for the IRTrans Server
 app-misc/irtrans-irserver 6.09.04-r1: Server software for IRTrans
 app-misc/jail 2.0-r4: Builds a chroot and configures all the required files, directories and libraries
-app-misc/jaq 2.2.0 2.3.0 3.0.0_beta: Just another JSON query tool
+app-misc/jaq 2.2.0 2.3.0 3.0.0: Just another JSON query tool
 app-misc/jdupes 1.28.0-r1 1.30.0-r2 1.31.1 9999: Identify duplicate files on the filesystem
 app-misc/jf 0.6.2-r2: A small utility to safely format and print JSON objects in the commandline
 app-misc/jo 1.9: JSON output from a shell
@@ -11209,7 +11209,7 @@ dev-vcs/gitg 44-r2 44-r3: git repository viewer for GNOME
 dev-vcs/gitolite 3.6.13 3.6.14: Highly flexible server for git directory version tracker
 dev-vcs/gitolite-gentoo 3.6.6.1-r3 3.6.13.1: Highly flexible server for git directory version tracker, Gentoo fork
 dev-vcs/gitstats 0_pre20201124: Statistics generator for git
-dev-vcs/gitui 0.28.0: blazing fast terminal-ui for git
+dev-vcs/gitui 0.28.0 0.28.1: blazing fast terminal-ui for git
 dev-vcs/guilt 0.36-r1: A series of bash scripts which add a quilt-like interface to git
 dev-vcs/hg-evolve 11.1.9 11.1.10: enables the changeset evolution feature of Mercurial
 dev-vcs/hg-git 1.2.0-r1: push to and pull from a Git repository using Mercurial
@@ -15127,7 +15127,7 @@ net-mail/courier-imap 5.2.11-r2 5.3.1 5.3.2: An IMAP daemon designed specificall
 net-mail/cyrus-imapd 3.4.9: The Cyrus IMAP Server
 net-mail/dbmail 3.2.3-r5 3.2.5-r2 3.3.1 3.4.1 3.5.4 3.5.5: Fast and scalable sql based email services
 net-mail/dot-forward 0.71-r5 0.71-r6: Reads sendmail's .forward files under qmail
-net-mail/dovecot 2.3.21.1-r1 2.4.2 2.4.2-r2 2.4.2-r3: An IMAP and POP3 server written with security primarily in mind
+net-mail/dovecot 2.3.21.1-r1 2.4.2 2.4.2-r2 2.4.2-r3 2.4.3: An IMAP and POP3 server written with security primarily in mind
 net-mail/email 3.1.3-r2: Advanced CLI tool for sending email
 net-mail/eps 1.7-r1: Inter7 Email Processing and mht System library
 net-mail/ezmlm-idx 7.2.2-r1: Simple yet powerful mailing list manager for qmail
@@ -15374,7 +15374,7 @@ net-misc/netpipes 4.2-r2: Tools to manipulate BSD TCP/IP stream sockets
 net-misc/netsed 1.4: Small tool for altering forwarded network data in real time
 net-misc/netstat-nat 1.4.10-r1: Display NAT connections
 net-misc/networkmanager 1.52.1 1.54.1 1.54.3 1.56.0: A set of co-operative tools that make networking simple and straightforward
-net-misc/nextcloud-client 3.16.6 3.17.2 4.0.1 4.0.4: Desktop Syncing Client for Nextcloud
+net-misc/nextcloud-client 4.0.4 33.0.0-r1: Desktop Syncing Client for Nextcloud
 net-misc/nicstat 1.95: Network traffic statics utility for Solaris and Linux
 net-misc/ntp 4.2.8_p17-r1 4.2.8_p17-r2 4.2.8_p18-r1 4.2.8_p18-r2: Network Time Protocol suite/programs
 net-misc/ntpsec 1.2.4 9999: The NTP reference implementation, refactored
@@ -18235,7 +18235,7 @@ www-apps/nanoc-cli 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexi
 www-apps/nanoc-core 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-deploying 1.0.2-r1 1.0.3: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
-www-apps/nextcloud 32.0.5 32.0.6: Personal cloud that runs on your own server
+www-apps/nextcloud 32.0.5 32.0.6 32.0.7 33.0.1: Personal cloud that runs on your own server
 www-apps/nextcloud-notify_push 1.2.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3: A static website and blog generator
 www-apps/novnc 1.4.0 1.6.0 9999: noVNC is a VNC client implemented using HTML5 technologies
@@ -18359,7 +18359,7 @@ www-servers/kore 4.3.0_rc4: Web application platform for writing scalable, concu
 www-servers/lighttpd 1.4.82 9999: Lightweight high-performance web server
 www-servers/mongrel2 1.11.0-r3: A language agnostic web server focused on web applications
 www-servers/moonbridge 1.1.3-r1: Network Server for Lua Applications
-www-servers/nginx 1.26.3-r2 1.27.5-r1 1.28.2 1.28.3 1.29.5 1.29.7 9999: Robust, small and high performance HTTP and reverse proxy server
+www-servers/nginx 1.26.3-r2 1.27.5-r1 1.28.2 1.28.3 1.29.5 1.29.7-r1 9999: Robust, small and high performance HTTP and reverse proxy server
 www-servers/nginx-unit 1.34.2 1.35.0-r1: Dynamic web and application server
 www-servers/pound 4.16 4.17: A http/https reverse-proxy and load-balancer
 www-servers/pshs 0.4.3: Pretty small HTTP server -- a command-line tool to share files
