@@ -1869,7 +1869,7 @@ app-editors/tea 62.4.0-r1: Small, lightweight Qt text editor
 app-editors/teco 36_p19940820-r1: Classic TECO editor, Predecessor to EMACS
 app-editors/ted 2.23-r3: X-based rich text editor
 app-editors/texworks 0.6.10: Simple interface for working with TeX documents
-app-editors/uemacs-pk 4.0.15_p20180719-r1 4.0.15_p20210330 4.0.15_p20260224: uEmacs/PK is an enhanced version of MicroEMACS
+app-editors/uemacs-pk 4.0.15_p20180719-r1 4.0.15_p20210330: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/vim 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9.1.1652-r2 9.1.1652-r3 9999: vim and gvim shared files
@@ -5935,7 +5935,7 @@ dev-lisp/clisp 2.49.92-r1 2.49.92-r3: Portable, bytecode-compiled implementation
 dev-lisp/clozurecl 1.12.2 1.13: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/clx 0.7.5-r1: CLX is the Common Lisp interface to the X11 protocol primarily for SBCL
 dev-lisp/cmucl 21e: CMU Common Lisp is an implementation of ANSI Common Lisp
-dev-lisp/ecl 24.5.10 24.5.10-r1: ECL is an embeddable Common Lisp implementation
+dev-lisp/ecl 24.5.10 24.5.10-r1 26.3.27: ECL is an embeddable Common Lisp implementation
 dev-lisp/flexi-streams 1.0.19: Flexible bivalent streams for Common Lisp
 dev-lisp/gcl 2.6.14 2.6.15_pre3: GNU Common Lisp
 dev-lisp/hyperspec 7.0-r3: Common Lisp ANSI-standard Hyperspec
