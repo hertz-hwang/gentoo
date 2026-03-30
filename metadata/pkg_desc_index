@@ -1107,7 +1107,7 @@ app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
 app-admin/webapp-config 1.56 9999: Gentoo's installer for web-based applications
 app-admin/whowatch 1.8.6-r2: Displays information about users currently logged on in real time
-app-admin/winbox 4.0.1: Management Software for MikroTik RouterOS
+app-admin/winbox 4.0.1 4.1_rc1: Management Software for MikroTik RouterOS
 app-admin/xkcdpass 1.20.0 1.30.0: Password generator inspired by XKCD 936
 app-admin/xstow 1.1.1: Replacement for GNU stow with extensions
 app-admin/xtail 2.1_p8: Tail multiple logfiles at once, even if rotated
@@ -15035,7 +15035,7 @@ net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace pro
 net-libs/libupnp 1.14.24 1.14.25 1.14.30 1.18.4: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.3: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
-net-libs/libwebsockets 4.4.1-r1 4.5.7 4.5.8: A flexible pure-C library for implementing network protocols
+net-libs/libwebsockets 4.4.1-r1 4.5.8: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
 net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.2.1: Port of http_parser to llparse
@@ -17611,7 +17611,7 @@ sys-firmware/b43legacy-firmware 3.130.20.0: broadcom firmware for b43legacy/bcm4
 sys-firmware/blisp 0.0.5: Bouffalo Labs in-system-programming tool and library
 sys-firmware/bluez-firmware 1.2_p9_p20250503: Firmware for Broadcom BCM, STLC2300, and Synaptics SYN Bluetooth chips
 sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
-sys-firmware/edk2 202411 202502-r1 202511: TianoCore EDK II UEFI firmware for virtual machines
+sys-firmware/edk2 202411 202502-r1 202511-r1: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/edk2-bin 202202 202408 202411 202511: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.18: NXP i.MX firmware
 sys-firmware/intel-microcode 20260210_p20260211 20260227_p20260227: Intel IA32/IA64 microcode update data
