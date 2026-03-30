@@ -1222,7 +1222,7 @@ app-arch/unp 2.0: Script for unpacking various file formats
 app-arch/unrar 7.2.4 7.2.5: Uncompress rar files
 app-arch/unrpa 2.3.0-r1: Ren'Py's RPA data file extractor
 app-arch/unshield 1.6.2-r1: InstallShield CAB file extractor
-app-arch/unzip 6.0_p27-r1 6.0_p29 6.0_p29-r1: unzipper for pkzip-compressed files
+app-arch/unzip 6.0_p27-r1 6.0_p29 6.0_p29-r2: unzipper for pkzip-compressed files
 app-arch/upx 4.2.4 5.1.0: Ultimate Packer for eXecutables (free version using UCL compression and not NRV)
 app-arch/upx-bin 4.2.4 5.1.0: Ultimate Packer for eXecutables, binary version with proprietary NRV compression
 app-arch/vimball 0.5.1-r1 9999: A command-line vimball archive extractor
@@ -5725,7 +5725,7 @@ dev-libs/mathjax 2.7.7-r1 3.2.2-r2: JavaScript display engine for LaTeX, MathML 
 dev-libs/md4c 0.5.2: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant.
 dev-libs/mdns 1.4.3: Public domain mDNS/DNS-SD library in C
 dev-libs/metee 6.2.1: Cross-platform access library for Intel CSME HECI interface
-dev-libs/mimalloc 2.1.9 2.2.7 3.1.5 3.2.8: A compact general purpose allocator with excellent performance
+dev-libs/mimalloc 2.1.9 2.2.7-r1 3.1.5 3.2.8-r1: A compact general purpose allocator with excellent performance
 dev-libs/mimetic 0.9.8: C++ MIME library designed to be easy to use and integrate, fast and efficient
 dev-libs/miniaudio 0.11.15 0.11.21: Single file library for audio playback and capture
 dev-libs/miniz 3.0.2: Lossless, high performance data compression library
