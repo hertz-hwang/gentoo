@@ -1497,7 +1497,7 @@ app-crypt/md5deep 4.4: Expanded md5sum program with recursive and comparison opt
 app-crypt/md6sum 1.0-r3: A C implementation of MD6
 app-crypt/mhash 0.9.9.9-r4: Library providing a uniform interface to a large number of hash algorithms
 app-crypt/minisign 0.12: Dead simple tool to sign files and verify signatures
-app-crypt/mit-krb5 1.21.3 1.21.3-r1 1.22.1 1.22.2: MIT Kerberos V
+app-crypt/mit-krb5 1.21.3 1.21.3-r1 1.22.2 1.22.2-r1: MIT Kerberos V
 app-crypt/mit-krb5-appl 1.0.3-r4 1.0.3-r5: Kerberized applications split from the main MIT Kerberos V distribution
 app-crypt/mkp224o 1.7.0: Vanity address generator for v3 Tor hidden service addresses
 app-crypt/monkeysphere 0.44-r2: Leverage the OpenPGP web of trust for OpenSSH and Web authentication
@@ -5213,7 +5213,7 @@ dev-lang/f2c 20240312: Fortran to C converter
 dev-lang/fennel 1.4.2-r1 1.5.3 1.6.0 1.6.1: Lisp-like language that compiles to Lua
 dev-lang/fpc 3.2.2: Free Pascal Compiler
 dev-lang/fuzion 0.092: A language with a focus on simplicity, safety and correctness
-dev-lang/gdl 1.0.4-r2: GNU Data Language
+dev-lang/gdl 1.0.4-r3: GNU Data Language
 dev-lang/gforth 0.7.3-r2: GNU Forth is a fast and portable implementation of the ANSI Forth language
 dev-lang/ghc 9.0.2-r4 9.2.8: The Glasgow Haskell Compiler
 dev-lang/gleam 1.13.0 1.14.0: A friendly language for building type-safe, scalable systems!
@@ -12741,7 +12741,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.8 3.11.1-r1 3.12_pre20260316: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.10.8 3.11.1-r1 3.12_pre20260403: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.1 8.18.1.10-r4 8.18.1.15-r2 8.18.1.16-r1 8.18.2 8.18.2-r1 8.19.0.0-r1: Widely-used Mail Transport Agent (MTA)
