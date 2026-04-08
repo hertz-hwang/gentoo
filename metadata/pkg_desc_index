@@ -995,7 +995,7 @@ app-admin/hcloud 1.61.0 1.62.2: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
-app-admin/ig 0.50.1: Tools and framework for data collection and system inspection using eBPF
+app-admin/ig 0.51.0: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57: A free, open source, light-weight and easy-to-use password manager
 app-admin/keepassxc 2.7.11-r2 2.8.0_pre260316-r1 9999: KeePassXC - KeePass Cross-platform Community Edition
@@ -14860,7 +14860,7 @@ net-im/signal-desktop-bin 8.5.0: Allows you to send and receive messages of Sign
 net-im/slack 4.47.59 4.47.72 4.48.95 4.48.102: Team collaboration tool
 net-im/spectrum2 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
-net-im/synapse 1.146.0 1.148.0 1.149.1 1.150.0: Reference implementation of Matrix homeserver
+net-im/synapse 1.146.0 1.148.0 1.149.1 1.150.0 1.151.0: Reference implementation of Matrix homeserver
 net-im/talk-desktop-bin 2.0.5 2.0.6 2.1.1: Nextcloud Talk Desktop client
 net-im/telegram-desktop 6.4.2 6.5.1 6.6.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 6.7.1 6.7.2: Official desktop client for Telegram (binary package)
@@ -15953,7 +15953,7 @@ sci-chemistry/autodock_vina 1.2.7: Program for drug discovery, molecular docking
 sci-chemistry/avogadro2 1.103.0 2.0.0: Advanced molecule editor and visualizer 2
 sci-chemistry/bodr 10: The Blue Obelisk Data Repository listing element and isotope properties
 sci-chemistry/cara-bin 1.8.4-r2: Analysis of NMR spectra and Computer Aided Resonance Assignment
-sci-chemistry/chemex 2026.1.0 2026.3.0: Program to fit chemical exchange induced shift and relaxation data
+sci-chemistry/chemex 2026.3.0 2026.4.0: Program to fit chemical exchange induced shift and relaxation data
 sci-chemistry/chemical-mime-data 0.1.95_pre20171122: A collection of data files to add support for chemical MIME types
 sci-chemistry/chemtool 1.6.14-r1: A GTK program for drawing organic molecules
 sci-chemistry/clashlist 3.17-r1: Build lists of van der Waals clashes from an input PDB file
@@ -18771,8 +18771,8 @@ x11-misc/xclip 0.13 9999: Copy data from standard input to X clipboard
 x11-misc/xcompmgr 1.1.10: X Compositing manager
 x11-misc/xdaliclock 2.47 2.48: Dali Clock is a digital clock. When a digit changes, it melts into its new shape
 x11-misc/xdesktopwaves 1.4: Cellular automata setting the background of your X Windows desktop under water
-x11-misc/xdg-user-dirs 0.18: Tool to help manage 'well known' user directories
-x11-misc/xdg-user-dirs-gtk 0.11 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
+x11-misc/xdg-user-dirs 0.18 0.19: Tool to help manage 'well known' user directories
+x11-misc/xdg-user-dirs-gtk 0.14 0.16: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-misc/xdg-utils 1.2.1-r9 1.2.1-r10: Portland utils for cross-platform/cross-toolkit/cross-desktop interoperability
 x11-misc/xdialog 2.3.1-r1: Drop-in replacement for cdialog using GTK
 x11-misc/xdiskusage 1.52-r1: User-friendly program to show you what is using up all your disk space
