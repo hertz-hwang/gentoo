@@ -1364,7 +1364,7 @@ app-containers/cadvisor 0.49.2 0.53.0: Analyzes resource usage and performance c
 app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it's effectively brain-dead
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2: Standard networking plugins for container networking
 app-containers/conmon 2.1.11 2.1.13 9999: An OCI container runtime monitor
-app-containers/containerd 2.0.2 2.0.3 2.0.4 2.0.5 2.0.7 2.1.0 2.1.1 2.1.4 2.1.5 2.2.0 2.2.1: A daemon to control runC
+app-containers/containerd 2.0.2 2.0.3 2.0.4 2.0.5 2.0.7 2.1.0 2.1.1 2.1.4 2.1.5 2.2.0 2.2.1 2.2.2: A daemon to control runC
 app-containers/containers-common 0.63.0 0.64.2 9999: Common config files and docs for Containers stack
 app-containers/containers-image 5.34.2 5.35.0 5.36.2 9999: Default config and docs related to Containers' images
 app-containers/containers-shortnames 2023.02.20 2025.03.19 9999: Configures default shortnames (aliases) for Containers
@@ -1406,7 +1406,7 @@ app-containers/reg 0.16.1-r1: Docker registry v2 command line client
 app-containers/runc 1.2.4 1.2.5 1.2.6 1.2.8 1.3.0 1.3.1 1.3.3 1.4.0-r1: runc container cli tools
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0: Terminal User Interface for docker engine
-app-containers/skopeo 1.18.0-r1 1.19.0 1.21.0 9999: Work with remote container images registries
+app-containers/skopeo 1.18.0-r1 1.19.0 1.21.0 1.22.0 9999: Work with remote container images registries
 app-containers/slirp4netns 1.3.3: User-mode networking for unprivileged network namespaces
 app-containers/snapd 2.63: Service and tools for management of snap packages
 app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Software Bill of Materials from container images and filesystems
@@ -1429,7 +1429,7 @@ app-crypt/bcwipe 1.9.13: Secure file removal utility
 app-crypt/bsign 0.4.5-r1: embed secure hashes (SHA1) and digital signatures (GNU Privacy Guard) into files
 app-crypt/ccid 1.6.1 1.7.0 1.7.1: CCID free software driver
 app-crypt/ccrypt 1.11-r4: Encryption and decryption
-app-crypt/certbot 4.0.0-r2 5.3.1 5.4.0 9999: Let's Encrypt client to automate deployment of X.509 certificates
+app-crypt/certbot 4.0.0-r2 5.3.1 5.4.0 5.5.0 9999: Let's Encrypt client to automate deployment of X.509 certificates
 app-crypt/certbot-apache 3.2.0-r100: Apache plugin for Certbot (Let's Encrypt client)
 app-crypt/certbot-dns-dnsimple 3.2.0-r100: DNSimple Authenticator plugin for Certbot (Let's Encrypt Client)
 app-crypt/certbot-dns-nsone 3.2.0-r100: NS1 DNS Authenticator plugin for Certbot (Let's Encrypt Client)
@@ -1554,6 +1554,7 @@ app-crypt/tpm2-tools 5.7: Tools for the TPM 2.0 TSS
 app-crypt/tpm2-totp 0.3.0-r1: Attest the trustworthiness of a device against a human using time-based OTP
 app-crypt/tpm2-tss 4.0.2-r2 4.1.3-r1 4.1.3-r2: TCG Trusted Platform Module 2.0 Software Stack
 app-crypt/trousers 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
+app-crypt/uacme 1.8.1: uacme is a client for the RFC8555 ACMEv2 protocol.
 app-crypt/ubuntu-keyring 2023.11.28.1: GnuPG archive keys of the Ubuntu archive
 app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20: Disk encryption with strong security based on TrueCrypt
 app-crypt/xca 2.8.0 2.9.0 2.9.0-r1: A GUI to OpenSSL, RSA public keys, certificates, signing requests etc
@@ -4307,7 +4308,7 @@ dev-go/go-tools 0.28.0: Tools that support the Go programming language (godoc, e
 dev-go/go-tour 0_pre20200201: A Tour of Go
 dev-go/gocov 1.1.0: Coverage testing tool for The Go Programming Language
 dev-go/gogo-protobuf 1.3.2: Protocol Buffers for Go with Gadgets
-dev-go/golangci-lint 1.64.7 2.5.0 2.6.1 2.6.2 2.7.2: Fast linters runner for Go
+dev-go/golangci-lint 1.64.7 2.5.0 2.6.1 2.6.2 2.7.2 2.11.4: Fast linters runner for Go
 dev-go/gopls 0.18.1 0.19.0 0.19.1 0.20.0 0.21.0 0.21.1: "Go please" is the official Go language server
 dev-go/gotestsum 1.13.0: 'go test' runner with output optimized for humans
 dev-go/goversion 1.2.0-r1: Print version used to build Go executables
@@ -14699,7 +14700,7 @@ net-dialup/linux-atm 2.5.2-r1 2.5.2-r2: Tools for ATM
 net-dialup/lrzsz 0.12.20-r10: Communication package providing the X, Y, and ZMODEM file transfer protocols
 net-dialup/mgetty 1.2.1-r4: A programm for sending and receiving fax and voice
 net-dialup/mingetty 1.08-r3: A compact getty program for virtual consoles only
-net-dialup/minicom 2.10 2.10-r1 2.11.1: Serial Communication Program
+net-dialup/minicom 2.11.1: Serial Communication Program
 net-dialup/moserial 3.0.21: A clean and friendly gtk-based serial terminal
 net-dialup/mwavem 2.0-r3: User level application for IBM Mwave modem
 net-dialup/neocon 20110228-r1: Simple serial console utility that tries to open ttys repeatedly
