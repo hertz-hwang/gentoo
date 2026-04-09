@@ -3235,7 +3235,7 @@ app-text/docbook-xsl-ns-stylesheets 1.79.1: XSL Stylesheets for Docbook
 app-text/docbook-xsl-stylesheets 1.79.1-r4: XSL Stylesheets for Docbook
 app-text/docbook2X 0.8.8-r5: Tools to convert docbook to man and info
 app-text/docx2txt 1.4: Convert MS Office docx files to plain text
-app-text/dos2unix 7.5.2 7.5.3 7.5.4: Convert DOS or MAC text files to UNIX format or vice versa
+app-text/dos2unix 7.5.2 7.5.3 7.5.4 7.5.5: Convert DOS or MAC text files to UNIX format or vice versa
 app-text/doxygen 1.13.2 1.14.0 1.15.0 1.15.0-r2 1.16.1 9999: Documentation system for most programming languages
 app-text/dvipng 1.18: Translate DVI files into PNG or GIF graphics
 app-text/dvipsk 2023.03.11_p66203 2024.03.11_p70015: DVI-to-PostScript translator
@@ -15130,7 +15130,7 @@ net-mail/mboxgrep 0.7.13: Grep for mbox files
 net-mail/mess822 0.58-r3: Collection of utilities for parsing Internet mail messages
 net-mail/mhonarc 2.6.19: Perl Mail-to-HTML Converter
 net-mail/mhonarc-gentoo 2.6.18-r3: Perl Mail-to-HTML Converter, Gentoo fork
-net-mail/mlmmj 1.5.2 1.6.0: Mailing list managing made joyful
+net-mail/mlmmj 1.5.2 1.6.0 1.8.0: Mailing list managing made joyful
 net-mail/mpop 1.4.21: Small, fast, and portable POP3 client
 net-mail/mswatch 1.2.0-r1: A utility to watch mailstores for changes and initiate mailbox syncs
 net-mail/mu 1.12.15 1.14.0: Set of tools to deal with Maildirs, in particular, searching and indexing
@@ -15532,7 +15532,7 @@ net-p2p/amule 2.3.3-r7 9999: aMule, the all-platform eMule p2p client
 net-p2p/arti 1.5.0 1.8.0 9999: Implementation of Tor in Rust
 net-p2p/automatic 0.9.0-r1: RSS downloader for Tranmission
 net-p2p/biglybt 4.0.0.0: Feature-filled Bittorrent client based on Azureus
-net-p2p/bitcoin-core 29.2 29.3 30.2 31.0_rc2: Reference implementation of the Bitcoin cryptocurrency
+net-p2p/bitcoin-core 29.2 29.3 30.2 31.0_rc4: Reference implementation of the Bitcoin cryptocurrency
 net-p2p/bitflu 1.52-r1: BitTorrent client, written in Perl and is designed to run as a daemon
 net-p2p/cpuminer-opt 26.1 9999: Optimized multi algo CPU miner
 net-p2p/ctorrent 3.3.2-r4: Enhanced CTorrent is a BitTorrent console client written in C and C++
@@ -15675,7 +15675,7 @@ net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client 
 net-vpn/strongswan 6.0.3 6.0.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
-net-vpn/tor 0.4.8.22 0.4.9.5 0.4.9.5-r1 0.4.9.6 9999: Anonymizing overlay network for TCP
+net-vpn/tor 0.4.9.5-r1 0.4.9.6 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.15: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
