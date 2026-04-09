@@ -10,13 +10,11 @@ RUST_MIN_VER="1.75.0"
 # for virtme-ng-init
 CRATES="
 	base64@0.22.1
-	bitflags@2.8.0
-	cfg-if@1.0.0
+	bitflags@2.11.0
+	cfg-if@1.0.4
 	cfg_aliases@0.2.1
-	libc@0.2.169
-	log@0.4.21
+	libc@0.2.183
 	nix@0.29.0
-	uzers@0.12.1
 "
 
 inherit cargo distutils-r1 shell-completion
@@ -35,7 +33,7 @@ LICENSE="GPL-2"
 LICENSE+=" MIT"
 SLOT="0"
 
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 DEPEND="
 	dev-python/argcomplete[${PYTHON_USEDEP}]

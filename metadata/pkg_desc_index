@@ -1875,7 +1875,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.0794 9.1.1436 9.1.1436-r1 9.1.1500 9.1.1652 9.1.1652-r1 9.1.1652-r2 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.112.0 1.113.0 1.114.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.114.0 1.115.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.110.11631 1.112.01907: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -11084,7 +11084,7 @@ dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Callback/Activity Library for 
 dev-util/ropper 1.13.10 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rpmdevtools 9.6: Collection of rpm packaging related utilities
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.14.9 0.14.14 0.15.8 0.15.9: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.14.9 0.14.14 0.15.8 0.15.9 0.15.10: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -12681,8 +12681,8 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20251211-r1 20260105 20260406 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.14 1.7_rc5 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.8.1 140.9.0 140.9.1 148.0.1 149.0 149.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.8.1 140.9.0 140.9.1 148.0.1 149.0 149.0.1: Thunderbird Mail Client
+mail-client/thunderbird 140.8.1 140.9.0 140.9.1 148.0.1 149.0 149.0.1 149.0.2: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.8.1 140.9.0 140.9.1 148.0.1 149.0 149.0.1 149.0.2: Thunderbird Mail Client
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1 2.14.0: High-performance interface between the MTA and content checkers
@@ -14833,7 +14833,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 0.0.129 0.0.130 0.0.130-r1: All-in-one voice and text chat for gamers
+net-im/discord 0.0.129 0.0.130 0.0.130-r1 0.0.132: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.10 25.04 25.10: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.15: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -16050,7 +16050,7 @@ sci-geosciences/gpscorrelate 2.0-r1 2.3: Tool for adjusting EXIF tags of your ph
 sci-geosciences/gpsd 3.26.1-r1 9999: GPS daemon and library for USB/serial GPS devices and GPS/mapping clients
 sci-geosciences/gpsprune-bin 23.2: An application for viewing, editing and converting GPS data
 sci-geosciences/gpx-viewer 0.4.0-r2: Simple program to visualize a gpx file
-sci-geosciences/gpxsee 15.5 15.10 16.1: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
+sci-geosciences/gpxsee 15.5 15.10 16.1-r1: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
 sci-geosciences/grass 8.4.1-r2 8.4.2 9999: Free GIS with raster and vector functionality, as well as 3D vizualization
 sci-geosciences/gshhg-gmt 2.3.7: Global Self-consistent, Hierarchical, High-resolution Geography Database
 sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolution Shoreline programs
@@ -17777,8 +17777,8 @@ sys-kernel/dkms 3.2.2 3.3.0 3.4.0 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 108-r6 109-r2 110-r4 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r3 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.126 6.6.129 6.6.130 6.6.132 6.6.133 6.12.74 6.12.77 6.12.78 6.12.79 6.12.80 6.18.12 6.18.18 6.18.19 6.18.20 6.18.21 6.19.8 6.19.9 6.19.10 6.19.11: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.126 6.6.129 6.6.130 6.6.132 6.6.133 6.12.74 6.12.77 6.12.78 6.12.79 6.12.80 6.18.12 6.18.18 6.18.19 6.18.20 6.18.21 6.19.8 6.19.9 6.19.10 6.19.11: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.130 6.6.133 6.12.77 6.12.79 6.12.80 6.18.18 6.18.19 6.18.20 6.18.21 6.19.11: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.130 6.6.133 6.12.77 6.12.79 6.12.80 6.18.18 6.18.19 6.18.20 6.18.21 6.19.11: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.250-r1 5.10.251 5.10.252 5.15.200 5.15.201 5.15.202 6.1.163 6.1.165 6.1.166 6.1.167 6.6.126 6.6.128 6.6.129 6.6.130 6.6.132 6.6.133 6.12.77 6.12.78 6.12.79 6.12.80 6.18.18 6.18.19 6.18.20 6.18.21 6.19.8 6.19.9 6.19.10 6.19.11: Full sources including the Gentoo patchset for the 6.19 kernel tree
 sys-kernel/git-sources 7.0_rc1 7.0_rc2 7.0_rc3 7.0_rc4 7.0_rc5 7.0_rc6 7.0_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
@@ -17802,9 +17802,9 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.250 5.10.252 5.10.9999 5.15.200 5.15.202 5.15.9999 6.1.163 6.1.166 6.1.167 6.1.9999 6.6.126 6.6.129 6.6.130 6.6.132 6.6.133 6.6.9999 6.12.74 6.12.77 6.12.78 6.12.79 6.12.80 6.12.9999 6.18.12 6.18.18 6.18.19 6.18.20 6.18.21 6.19.8 6.19.9 6.19.10 6.19.11: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.250 5.10.252 5.10.9999 5.15.200 5.15.202 5.15.9999 6.1.163 6.1.166 6.1.167 6.1.9999 6.6.130 6.6.133 6.6.9999 6.12.77 6.12.79 6.12.80 6.12.9999 6.18.18 6.18.19 6.18.20 6.18.21 6.19.11: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.252 5.15.202 6.1.167 6.6.133 6.12.80 6.18.21 6.19.11: Full sources for the Linux kernel
-sys-kernel/virtme-ng 1.36 1.38 1.40: Quickly build and run kernels inside a virtualized snapshot of your live system
+sys-kernel/virtme-ng 1.38 1.40 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.19.11: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
@@ -17989,7 +17989,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.126 6.6.129 6.6.130 6.6.132 6.6.133 6.12.74 6.12.77 6.12.78 6.12.79 6.12.80 6.18.12 6.18.18 6.18.19 6.18.20 6.18.21 6.19.8 6.19.9 6.19.10 6.19.11: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.250 5.10.252 5.15.200 5.15.202 6.1.163 6.1.166 6.1.167 6.6.130 6.6.133 6.12.77 6.12.79 6.12.80 6.18.18 6.18.19 6.18.20 6.18.21 6.19.11: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
