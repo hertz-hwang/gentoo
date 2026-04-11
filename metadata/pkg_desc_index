@@ -17131,7 +17131,7 @@ sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag f
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
 sys-apps/flatpak 1.14.10 1.16.1 1.16.3 1.16.6: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
-sys-apps/fwupd 2.0.16 2.0.18 2.0.20: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.16 2.0.18 2.0.20 2.1.1: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.3.2 5.4.0-r1 5.4.0-r2: GNU awk pattern-matching language
@@ -17336,7 +17336,7 @@ sys-apps/usbmon 6.1-r1: Userland for USB monitoring framework
 sys-apps/usbredir 0.13.0-r1 0.14.0 0.15.0: TCP daemon and set of libraries for usbredir protocol (redirecting USB traffic)
 sys-apps/usbutils 019: USB enumeration utilities
 sys-apps/usermode-utilities 20070815-r6: Tools for use with Usermode Linux virtual machines
-sys-apps/uswid 0.4.7: Pure-Python library and CLI tool for processing SBoM metadata
+sys-apps/uswid 0.4.7 0.6.0: Pure-Python library and CLI tool for processing SBoM metadata
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
 sys-apps/util-linux 2.41.2 2.41.3-r1 2.41.4 9999: Various useful Linux utilities
 sys-apps/uutils-coreutils 0.7.0 9999: GNU coreutils rewritten in Rust
