@@ -1103,7 +1103,7 @@ app-admin/ttyplot 1.7.2 1.7.4: Realtime plotting utility with data input from st
 app-admin/ulogd 2.0.9: Userspace logging daemon for netfilter/iptables related logging
 app-admin/usbview 3.0 3.1: Display the topology of devices on the USB bus
 app-admin/vault 1.15.6 1.18.3 1.18.4: A tool for managing secrets
-app-admin/vaultwarden 1.35.4 1.35.4-r2 9999: Unofficial Bitwarden compatible password manager
+app-admin/vaultwarden 1.35.4-r3 9999: Unofficial Bitwarden compatible password manager
 app-admin/verynice 1.1-r3: A tool for dynamically adjusting the nice-level of processes
 app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
@@ -3968,7 +3968,7 @@ dev-cpp/tree 3.18 3.18-r1: An STL-like tree class
 dev-cpp/ut2-glaze 0.0.4: Stripped down fork of boost-ext ut2
 dev-cpp/valijson 1.0.6-r1 1.1.0: Header-only C++ library for JSON Schema validation
 dev-cpp/wangle 2024.11.04.00 2025.04.14.00: A framework providing common abstractions for building services
-dev-cpp/waylandpp 1.0.0-r1 1.0.0-r2 1.0.1 9999: Wayland C++ bindings
+dev-cpp/waylandpp 1.0.0-r1 1.0.0-r2 1.0.1 1.0.1-r1 9999: Wayland C++ bindings
 dev-cpp/websocketpp 0.8.2-r1: C++/Boost Asio based websocket client/server library
 dev-cpp/xsimd 13.2.0 14.0.0: C++ wrappers for SIMD intrinsics
 dev-cpp/yaml-cpp 0.8.0-r2 0.9.0-r1: YAML parser and emitter in C++
@@ -14860,7 +14860,7 @@ net-im/signal-desktop-bin 8.6.0: Allows you to send and receive messages of Sign
 net-im/slack 4.48.95 4.48.102 4.49.81: Team collaboration tool
 net-im/spectrum2 2.2.1-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
-net-im/synapse 1.146.0 1.148.0 1.149.1 1.150.0 1.151.0: Reference implementation of Matrix homeserver
+net-im/synapse 1.148.0 1.149.1 1.150.0 1.151.0: Reference implementation of Matrix homeserver
 net-im/talk-desktop-bin 2.0.5 2.0.6 2.1.1: Nextcloud Talk Desktop client
 net-im/telegram-desktop 6.4.2 6.5.1 6.6.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 6.7.2 6.7.5: Official desktop client for Telegram (binary package)
@@ -15335,7 +15335,7 @@ net-misc/ndisc6 1.0.7 1.0.8: IPv6 diagnostic tools
 net-misc/ndppd 0.2.6: Proxies NDP messages between interfaces
 net-misc/nemesis 1.8: A commandline-based, portable human IP stack for UNIX/Linux
 net-misc/netdate 1.2-r2 1.2-r3: Utility to set date and time by ARPA Internet RFC 868
-net-misc/netevent 2.2.2: Tool to share Linux event devices with other machines
+net-misc/netevent 2.2.3: Tool to share Linux event devices with other machines
 net-misc/netifrc 0.7.13 9999: Gentoo Network Interface Management Scripts
 net-misc/netkit-bootparamd 0.17-r5: Netkit - bootparamd: Net-boot support daemon
 net-misc/netkit-bootpd 2.4-r2: Netkit - bootp
