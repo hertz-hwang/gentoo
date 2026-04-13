@@ -1979,7 +1979,7 @@ app-emacs/deft 08_p20210707: Quickly browse, filter and edit directories of plai
 app-emacs/demap 1.4.0: Detachable minimap for Emacs
 app-emacs/denote 4.1.2 4.1.3: Simple notes for Emacs with an efficient file-naming scheme
 app-emacs/desktop+ 0.2-r2: desktop+ extends standard desktop module
-app-emacs/desktop-entry-mode 0.27-r1: GNU Emacs mode for handling freedesktop.org desktop entry files
+app-emacs/desktop-entry-mode 0.27-r1 0.28: GNU Emacs mode for handling freedesktop.org desktop entry files
 app-emacs/develock 0.47: An Emacs minor mode for highlighting broken formatting rules
 app-emacs/devil 0.5.0 0.6.0: Provides a modifier-free editing experience
 app-emacs/df-mode 20050509-r1: Minor mode to show space left on devices in the mode line
@@ -2636,7 +2636,7 @@ app-laptop/tp_smapi 0.44 0.45: IBM ThinkPad SMAPI BIOS driver
 app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPads, not supported by tp_smapi
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
 app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22 2.1.23: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
-app-laptop/tuxedo-drivers 4.15.4 4.18.2 4.21.0: Kernel modules for TUXEDO laptops
+app-laptop/tuxedo-drivers 4.15.4 4.18.2 4.21.0 4.22.1: Kernel modules for TUXEDO laptops
 app-metrics/alertmanager 0.24.0 0.26.0 0.28.0: Alertmanager for alerts sent by client applications such as Prometheus
 app-metrics/bind_exporter 0.8.0: Prometheus exporter for BIND
 app-metrics/blackbox_exporter 0.24.0 0.25.0: Prometheus exporter for blackbox probing via HTTP, HTTPS, DNS, TCP and ICMP
@@ -5692,7 +5692,7 @@ dev-libs/libverto 0.3.2 0.3.2-r1: Main event loop abstraction library
 dev-libs/libvformat 1.13-r3: Library to read and write vcard files
 dev-libs/libvoikko 4.3.3: Spell checking, hyphenation and morphological analysis tool for Finnish language
 dev-libs/libvterm 0.1.4 0.1.4-r1 0.3 0.3.1 0.3.2 0.3.2-r1 0.3.3: An abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
-dev-libs/libwacom 2.15.0 2.16.1 2.17.0: Library for identifying Wacom tablets and their model-specific features
+dev-libs/libwacom 2.16.1 2.17.0 2.18.0: Library for identifying Wacom tablets and their model-specific features
 dev-libs/libwapcaplet 0.4.3-r1: string internment library, written in C
 dev-libs/libwbxml 0.11.8 0.11.10: Library and tools to parse, encode and handle WBXML documents
 dev-libs/libx86 1.1-r6: A hardware-independent library for executing real-mode x86 code
@@ -8456,7 +8456,7 @@ dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
 dev-python/faker 40.7.0 40.11.1 40.12.0 40.13.0: A Python package that generates fake data for you
-dev-python/fakeredis 2.34.1 2.35.0: Fake implementation of redis API for testing purposes
+dev-python/fakeredis 2.34.1 2.35.0 2.35.1: Fake implementation of redis API for testing purposes
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
 dev-python/fastimport 0.9.16: Library for parsing the fastimport VCS serialization format
@@ -8609,7 +8609,7 @@ dev-python/iminuit 2.32.0: Minuit numerical function minimization in Python
 dev-python/immutabledict 4.3.1: An immutable wrapper around dictionaries
 dev-python/immutables 0.21: A high-performance immutable mapping type for Python
 dev-python/importlib-metadata 8.7.1 8.8.0 8.9.0 9.0.0: Read metadata from Python packages
-dev-python/importlib-resources 6.5.2 7.0.0: Read resources from Python packages
+dev-python/importlib-resources 6.5.2 7.0.0 7.1.0: Read resources from Python packages
 dev-python/incremental 24.11.0: Incremental is a small library that versions your Python projects
 dev-python/indexed-gzip 1.10.3: Fast random access of gzip files in Python
 dev-python/inflect 7.5.0: Correctly inflect words and numbers
@@ -8768,7 +8768,7 @@ dev-python/loky 3.5.6: Robust and reusable Executor for joblib
 dev-python/looseversion 1.3.0: A backwards/forwards-compatible fork of distutils.version.LooseVersion
 dev-python/lrcalc 2.1-r2: Python bindings for sci-mathematics/lrcalc
 dev-python/lsprotocol 2025.0.0: Language Server Protocol types code generator packages
-dev-python/lxml 6.0.2: A Pythonic binding for the libxml2 and libxslt libraries
+dev-python/lxml 6.0.2 6.0.4: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/lxml-html-clean 0.4.4: Separate project for HTML cleaning functionalities copied from lxml.html.clean
 dev-python/lz4 4.4.5: LZ4 Bindings for Python
 dev-python/m2crypto 0.47.0: A Python crypto and SSL toolkit
@@ -8852,7 +8852,7 @@ dev-python/mpi4py 3.1.5 4.0.1: Message Passing Interface for Python
 dev-python/mpmath 1.4.0_alpha7 1.4.0_beta4 1.4.0 1.4.1: Python library for arbitrary-precision floating-point arithmetic
 dev-python/mrcfile 1.5.4: MRC2014 file format I/O library
 dev-python/msgpack 1.1.1 1.1.2: MessagePack (de)serializer for Python
-dev-python/msgspec 0.20.0 0.21.0: Fast serialization and validation library, with builtin support for many formats
+dev-python/msgspec 0.20.0 0.21.0 0.21.1: Fast serialization and validation library, with builtin support for many formats
 dev-python/mss 10.1.0: An ultra fast cross-platform multiple screenshots module in python using ctypes
 dev-python/multidict 6.7.1: multidict implementation
 dev-python/multipart 1.3.1: Parser for multipart/form-data
@@ -8862,7 +8862,7 @@ dev-python/munch 4.0.0: A dot-accessible dictionary (a la JavaScript objects)
 dev-python/munkres 1.1.4-r1: Module implementing munkres algorithm for the Assignment Problem
 dev-python/musicbrainzngs 0.7.1-r1: Python bindings for the MusicBrainz NGS and the Cover Art Archive webservices
 dev-python/mygpoclient 1.10: A gpodder.net client library
-dev-python/mypy 1.18.1-r1 1.18.2-r1 1.19.1-r2 1.20.0: Optional static typing for Python
+dev-python/mypy 1.18.1-r1 1.18.2-r1 1.19.1-r2 1.20.0 1.20.1: Optional static typing for Python
 dev-python/mypy-extensions 1.1.0: Type system extensions for programs checked with mypy
 dev-python/mysqlclient 2.2.8: Python interface to MySQL
 dev-python/myst-parser 5.0.0: Extended commonmark compliant parser, with bridges to Sphinx
@@ -9019,7 +9019,7 @@ dev-python/pocketlint 0.26: Shared code for running pylint against rhinstaller p
 dev-python/pockets 0.9.1-r3: Collection of helpful Python tools
 dev-python/podcastparser 0.6.11: Podcast parser for the gpodder client
 dev-python/podman 5.8.0: A library to interact with a Podman server
-dev-python/poetry 2.3.2-r1 2.3.3: A frontend for poetry - a python dependency management and packaging tool
+dev-python/poetry 2.3.2-r1 2.3.3 2.3.4: A frontend for poetry - a python dependency management and packaging tool
 dev-python/poetry-core 2.3.1 2.3.2: Poetry PEP 517 Build Backend
 dev-python/poetry-plugin-export 1.10.0: A plugin that allows the export of locked packages to various formats
 dev-python/polib 1.2.0: A library to manipulate gettext files (.po and .mo files)
@@ -9708,7 +9708,7 @@ dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinj
 dev-python/tzdata 10001: tzdata shim to satisfy requirements (while using system tzdata)
 dev-python/tzlocal 5.3.1: tzinfo object for the local timezone
 dev-python/u-msgpack-python 2.8.0: A portable, lightweight MessagePack serializer and deserializer
-dev-python/ubelt 1.4.1: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
+dev-python/ubelt 1.4.1 1.4.2: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
 dev-python/uc-micro-py 2.0.0: Micro subset of unicode data files for linkify-it-py projects
 dev-python/ujson 5.11.0 5.12.0: Ultra fast JSON encoder and decoder for Python
 dev-python/ukkonen 1.1.0: Implementation of bounded Levenshtein distance (Ukkonen)
@@ -14983,7 +14983,7 @@ net-libs/libiscsi 1.20.0 9999: iscsi client library and utilities
 net-libs/libisds 0.11.2-r1 9999: Client library for accessing ISDS Soap services
 net-libs/libktorrent 25.12.3: BitTorrent library based on KDE Frameworks
 net-libs/liblockfile 1.17: Implements functions designed to lock the standard mailboxes
-net-libs/libmbim 1.28.4-r1 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
+net-libs/libmbim 1.32.0 1.34.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libmicrodns 0.2.0-r1 9999: Minimal mDNS resolver (and announcer) library
 net-libs/libmicrohttpd 0.9.77 0.9.77-r1 1.0.1 1.0.1-r1 1.0.3: Small C library to run an HTTP server as part of another application
 net-libs/libmnl 1.0.5: Minimalistic netlink library
@@ -15017,7 +15017,7 @@ net-libs/libprotoident 2.0.14_p1 2.0.15_p1 9999: A library that performs applica
 net-libs/libproxy 0.5.9 0.5.11 0.5.12-r1: Library for automatic proxy configuration management
 net-libs/libpsl 0.21.5: C library for the Public Suffix List
 net-libs/libqmi 1.32.4-r1 1.36.0 9999: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
-net-libs/libqrtr-glib 1.2.2: Qualcomm IPC Router protocol helper library
+net-libs/libqrtr-glib 1.2.2 1.4.0: Qualcomm IPC Router protocol helper library
 net-libs/libquotient 0.9.6.1: Qt-based SDK to develop applications for Matrix
 net-libs/libre-graph-api-cpp-qt-client 1.0.4: API for cloud collaboration inspired by the MS Graph API
 net-libs/librist 0.2.8-r1 0.2.11: Library for Reliable Internet Stream Transport (RIST) protocol
@@ -15608,7 +15608,7 @@ net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
 net-proxy/lyrebird 0.6.0: An obfuscating proxy supporting Tor's pluggable transport protocol obfs4
 net-proxy/microsocks 1.0.2 1.0.3: Multithreaded, small, efficient SOCKS5 server
-net-proxy/mitmproxy 12.2.1: An interactive, SSL-capable, man-in-the-middle HTTP proxy
+net-proxy/mitmproxy 12.2.1 12.2.2: An interactive, SSL-capable, man-in-the-middle HTTP proxy
 net-proxy/mitmproxy-linux 0.12.9: mitmproxy's Rust bits
 net-proxy/mitmproxy-rs 0.12.9: mitmproxy's Rust bits
 net-proxy/nutcracker 0.4.1-r1 0.5.0: A fast, light-weight proxy for Memcached and Redis. (Twitter's Twemproxy)
