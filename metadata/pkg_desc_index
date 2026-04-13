@@ -13506,6 +13506,7 @@ media-libs/libvorbis 1.3.7-r1 1.3.7-r2: The Ogg Vorbis sound file format library
 media-libs/libvpl 2.14.0 2.15.0 2.16.0: Intel Video Processing Library dispatcher
 media-libs/libvpl-tools 1.3.0 1.4.0 1.5.0: Intel Video Processing Library tools
 media-libs/libvpx 1.15.2 1.15.2-r1 1.16.0: WebM VP8 and VP9 Codec SDK
+media-libs/libwebm 1.0.0.32 9999: WebM is an open, royalty-free, media file format designed for the web.
 media-libs/libwebp 1.4.0 1.5.0 1.6.0: A lossy image compression format
 media-libs/libwmf 0.2.13-r2: A library for reading vector images in Microsoft's Windows Metafile Format (WMF)
 media-libs/libxmi 1.3-r1 1.3-r2: C/C++ function library for rasterizing 2-D vector graphics
@@ -15234,7 +15235,7 @@ net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and re
 net-misc/downloader-cli 0.3.4-r1: Simple downloader with an customizable progressbar
 net-misc/dropbear 2025.89: Small SSH 2 client/server designed for small memory environments
 net-misc/dropbox 243.4.6956 244.4.6580 246.4.3513: Dropbox daemon (pretends to be GUI-less)
-net-misc/dropbox-cli 2024.04.17-r1: Cli interface for dropbox (python), part of nautilus-dropbox
+net-misc/dropbox-cli 2024.04.17-r1 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.7.1 4.7.2: User friendly Bitcoin client
 net-misc/email-validator 1.1.0: Basic syntax and deliverability checks on email addresses
@@ -16608,6 +16609,7 @@ sec-keys/openpgp-keys-ffmpeg 20220405: OpenPGP keys used to sign FFmpeg
 sec-keys/openpgp-keys-file 20220611: OpenPGP keys used by Christos Zoulas (to sign file releases)
 sec-keys/openpgp-keys-findutils 20220407: OpenPGP keys used by GNU findutils
 sec-keys/openpgp-keys-foxboron 20220802: OpenPGP keys used by Morten Linderund
+sec-keys/openpgp-keys-franz 20260413: OpenPGP keys used by Michal Babej (franz)
 sec-keys/openpgp-keys-freenet 20250830: OpenPGP keys used by freenetproject.org
 sec-keys/openpgp-keys-fwknop 20240208: OpenPGP key used to sign fwknop releases
 sec-keys/openpgp-keys-gawk 20220407: OpenPGP keys used by GNU Awk
@@ -18220,7 +18222,7 @@ www-apps/phpBB 3.3.15: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4 3.4.5: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 2.3.5.5327: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/prowlarr-bin 2.3.6.5351: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.1.2.10359: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.6.1-r1 3.7.1: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
