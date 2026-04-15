@@ -1035,7 +1035,7 @@ app-admin/openrc-settingsd 1.4.0-r1 1.5.0: System settings D-Bus service for Ope
 app-admin/opentofu 1.8.8 1.9.0 1.9.1 1.10.6: The open source infrastructure as code tool
 app-admin/pass 1.7.4-r2 1.7.4-r4 1.7.4-r5 9999: Stores, retrieves, generates, and synchronizes passwords securely
 app-admin/pass-import 3.5-r1: pass extension for importing data from most existing password managers
-app-admin/pass-otp 1.2.0-r1 1.2.0-r3: A pass extension for managing one-time-password (OTP) tokens
+app-admin/pass-otp 1.2.0-r3: A pass extension for managing one-time-password (OTP) tokens
 app-admin/pass-update 2.2.1-r1: pass extension that provides an easy flow for updating passwords
 app-admin/passook 20121001: Password generator capable of generating pronounceable and/or secure passwords
 app-admin/passwordsafe 1.22.0-r1 1.23.0: Password manager with wxGTK based frontend
@@ -2512,7 +2512,7 @@ app-forensics/sleuthkit 4.12.1-r2: A collection of file system and media managem
 app-forensics/unhide 20220611: Forensic tool to find hidden processes and TCP/UDP ports by rootkits/LKMs
 app-forensics/volatility3 2.26.2 2.27.0: Framework for analyzing volatile memory
 app-forensics/yara 4.5.4 4.5.5 9999: A malware identification and classification tool
-app-forensics/yara-x 1.8.1 1.10.0-r1 1.11.0 1.14.0: A malware identification and classification tool
+app-forensics/yara-x 1.10.0-r1 1.11.0 1.14.0 1.15.0: A malware identification and classification tool
 app-forensics/zzuf 0.15_p20190208 0.15_p20220529: Transparent application input fuzzer
 app-i18n/anthy 9100h-r3: Anthy -- free and secure Japanese input system
 app-i18n/anthy-unicode 1.0.0.20260213: Another Anthy - Japanese character set input library for Unicode
@@ -3110,7 +3110,7 @@ app-portage/tatt 0.11-r1 9999: Arch testing tool
 app-portage/time64-prep 1: A tool to prepare for (comparatively) safe time64 transition
 app-portage/ufed 0.96 9999: Gentoo Linux USE flags editor
 app-portage/unsymlink-lib 20: Convert your system to SYMLINK_LIB=no
-app-shells/atuin 18.11.0 18.12.1 18.13.5: Shell history manager supporting encrypted synchronisation
+app-shells/atuin 18.11.0 18.12.1 18.13.5 18.14.1: Shell history manager supporting encrypted synchronisation
 app-shells/autojump 22.5.3-r4: change directory command that learns
 app-shells/bash 2.05b_p13 3.0_p22 3.1_p23 3.2_p57 4.0_p44 4.1_p17 4.2_p53 4.3_p48-r2 4.4_p23-r2 5.0_p18-r3 5.1_p16-r14 5.2_p37-r5 5.3_p9 5.3_p9-r1 5.4_alpha_pre20251202-r1 9999: The standard GNU Bourne again shell
 app-shells/bash-completion 2.16.0-r3 2.17.0 9999: Programmable Completion for bash
@@ -5308,7 +5308,7 @@ dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
 dev-lang/xsb 4.0.0-r4: XSB is a logic programming and deductive database system
 dev-lang/yasm 1.3.0-r2: An assembler for x86 and x86_64 instruction sets
 dev-lang/zig 0.13.0-r3 0.14.1 0.15.1 0.15.2 9999: A robust, optimal, and maintainable programming language
-dev-lang/zig-bin 0.10.1-r3 0.13.0 0.14.1 0.15.1 0.15.2: A robust, optimal, and maintainable programming language
+dev-lang/zig-bin 0.10.1-r3 0.13.0 0.14.1 0.15.1 0.15.2 0.16.0: A robust, optimal, and maintainable programming language
 dev-libs/9libs 1.0-r5: Plan 9 compatibility libraries
 dev-libs/FXdiv 2020.12.09-r1: Division via fixed-point multiplication by inverse
 dev-libs/Ice 3.7.10-r1 3.7.10-r2: ICE middleware C++ library and generator tools
@@ -9257,7 +9257,7 @@ dev-python/pytest-localserver 0.10.0: Pytest plugin to test server connections l
 dev-python/pytest-markdown 1.0.2-r1: Run tests in your markdown
 dev-python/pytest-metadata 3.1.1: A plugin for pytest that provides access to test session metadata
 dev-python/pytest-mock 3.15.1: Thin-wrapper around the mock package for easier use with pytest
-dev-python/pytest-mpl 0.17.0: Facilitate image comparison for Matplotlib figures
+dev-python/pytest-mpl 0.17.0 0.19.0: Facilitate image comparison for Matplotlib figures
 dev-python/pytest-order 1.3.0: pytest plugin to run your tests in a specific order
 dev-python/pytest-ordering 0.6-r1: pytest plugin to run your tests in a specific order
 dev-python/pytest-param-files 0.6.0: Pytest parametrize decorators from external files.
@@ -10818,7 +10818,7 @@ dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.21.1 0.21.2 0.22.0: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20 0.10.21: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
-dev-util/cargo-nextest 0.9.126 0.9.130 0.9.132: Next-generation test runner for Rust
+dev-util/cargo-nextest 0.9.126 0.9.130 0.9.132 0.9.133: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1: pgrx: A Rust framework for creating Postgres extensions
 dev-util/cargo-tarpaulin 0.35.0 0.35.1: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
@@ -11004,7 +11004,7 @@ dev-util/lttng-ust 2.12.10 2.13.9 2.13.10 2.14.0 2.14.1: Linux Trace Toolkit - U
 dev-util/lttng-ust-compat 2.12.10: Linux Trace Toolkit - UST library
 dev-util/lv2lint 0.16.2: Check whether a given LV2 plugin is up to the specification
 dev-util/lxqt-build-tools 2.3.0: LXQt Build Tools
-dev-util/makeheaders 0_p20240823: Tool that automatically generates .h files for a C or C++ programming project
+dev-util/makeheaders 0_p20240823 0_p20251008: Tool that automatically generates .h files for a C or C++ programming project
 dev-util/makepp 2.0.99.2: GNU make replacement
 dev-util/marksman 2025.11.25 2026.02.08: LSP language server for editing Markdown files
 dev-util/massif-visualizer 25.12.3: Tool visualising massif data
@@ -11090,7 +11090,7 @@ dev-util/scanmem 0.17: Locate and modify variables in executing processes
 dev-util/sccache 0.14.0 0.14.0-r1: ccache/distcc like tool with support for rust and cloud storage
 dev-util/schroot 1.6.13_p7-r2: Utility to execute commands in a chroot environment
 dev-util/sdl-jstest 0.2.2 9999: Simple SDL joystick test application for the console
-dev-util/seer 2.6 9999: GUI frontend to gdb
+dev-util/seer 2.6 2.7 9999: GUI frontend to gdb
 dev-util/sel 0.08.4-r2: A filemanager for shell scripts
 dev-util/selenium-manager 4.34.0 4.35.0 4.41.0 4.42.0 4.43.0: CLI tool that manages the browser/driver infrastructure required by Selenium
 dev-util/serialtalk 1.3 9999: simple command-line tool to talk to serial devices
@@ -11132,7 +11132,7 @@ dev-util/txt2regex 0.9: A Regular Expression wizard that converts human sentence
 dev-util/ty 0.0.7: An extremely fast Python type checker and language server, written in Rust
 dev-util/uftrace 0.17 0.18 0.18.1: Function (graph) tracer for user-space
 dev-util/uglifyjs 3.16.1 3.19.3: JavaScript parser, minifier, compressor and beautifier toolkit
-dev-util/umockdev 0.19.3 0.19.4 9999: Mock hardware devices for creating unit tests
+dev-util/umockdev 0.19.3 0.19.4 0.19.7 9999: Mock hardware devices for creating unit tests
 dev-util/uncrustify 0.81.0 9999: C/C++/C#/D/Java/Pawn code indenter and beautifier
 dev-util/unicorn 2.1.3-r1 2.1.4 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
 dev-util/unifdef 2.12-r2: remove #ifdef'ed lines from a file while otherwise leaving the file alone
@@ -12028,7 +12028,7 @@ gnome-extra/cinnamon-desktop 6.4.2 6.6.2: A collection of libraries and utilites
 gnome-extra/cinnamon-menus 6.4.0 6.6.0: Cinnamon's library for the Desktop Menu fd.o specification
 gnome-extra/cinnamon-screensaver 6.4.1-r1 6.6.1: Screensaver for Cinnamon
 gnome-extra/cinnamon-session 6.4.2 6.6.3: Cinnamon session manager
-gnome-extra/cinnamon-settings-daemon 6.4.3-r2 6.6.3: Cinnamon's settings daemon
+gnome-extra/cinnamon-settings-daemon 6.4.3-r2 6.6.3 6.6.3-r1: Cinnamon's settings daemon
 gnome-extra/cinnamon-translations 6.4.2 6.6.2: Translation data for Cinnamon
 gnome-extra/cjs 128.0 128.1: Linux Mint's fork of gjs for Cinnamon
 gnome-extra/eiciel 0.10.0 0.10.1: ACL editor for GNOME, with Nautilus extension
@@ -13351,7 +13351,7 @@ media-libs/libart_lgpl 2.3.21-r3: A LGPL version of libart
 media-libs/libass 0.17.1 0.17.1-r2 0.17.4: Library for SSA/ASS subtitles rendering
 media-libs/libavif 1.3.0 1.4.1 9999: Library for encoding and decoding .avif files
 media-libs/libbdplus 0.2.0 9999: Blu-ray library for BD+ decryption
-media-libs/libbluray 1.3.4-r3 9999: Blu-ray playback libraries
+media-libs/libbluray 1.3.4-r3 1.4.1 9999: Blu-ray playback libraries
 media-libs/libbs2b 3.1.0-r2: Bauer stereophonic-to-binaural DSP library
 media-libs/libbsb 0.0.7-r2: Portable C library for reading and writing BSB format image files
 media-libs/libcaca 0.99_beta20-r1: A library that creates colored ASCII-art graphics
@@ -13545,7 +13545,7 @@ media-libs/openfec 1.4.2.11-r1 1.4.2.12: Library of various AL-FEC codecs
 media-libs/openglide 0.09_rc9_p20191120: Glide to OpenGL wrapper
 media-libs/openh264 2.3.1-r3 2.6.0: Cisco OpenH264 library and Gecko Media Plugin for Mozilla packages
 media-libs/openimageio 2.5.18.0 2.5.19.0 2.5.19.1 3.0.6.1 3.0.8.1 3.0.8.1-r1 3.0.8.1-r2 3.0.11.0 3.1.7.0-r1 9999: A library for reading and writing images
-media-libs/openjpeg 2.5.3-r1 2.5.4: Open-source JPEG 2000 library
+media-libs/openjpeg 2.5.3-r1 2.5.4 2.5.4-r1: Open-source JPEG 2000 library
 media-libs/openpgl 0.5.0-r1 0.6.0 0.7.0: Intel Open Path Guiding Library
 media-libs/opensubdiv 3.6.0-r4 3.6.1: An Open-Source subdivision surface library
 media-libs/opentimelineio 0.17.0 0.18.1: Open Source API and interchange format for editorial timeline information
@@ -14681,7 +14681,7 @@ net-analyzer/upnpscan 0.4-r3: Scans the network for UPnP capable devices
 net-analyzer/vnstat 2.13 2.13-r2 9999: Console-based network traffic monitor that keeps statistics of network usage
 net-analyzer/webfuzzer 0.2.0-r2: Poor man's web vulnerability scanner
 net-analyzer/wireshark 4.6.2-r2 4.6.3 4.6.4 9999: Network protocol analyzer (sniffer)
-net-analyzer/wtfis 0.13.0 0.14.0 9999: Passive hostname, domain and IP lookup tool for non-robots
+net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup tool for non-robots
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
 net-analyzer/yersinia 0.8.2_p20221119: A framework for layer 2 attacks
@@ -15804,7 +15804,7 @@ sci-astronomy/pal 0.9.8 0.9.8-r1: Positional Astronomy Library
 sci-astronomy/psfex 3.17.1: Extracts models of the Point Spread Function from FITS images
 sci-astronomy/pyephem 4.1.5: Astronomical routines for the Python programming language
 sci-astronomy/pysiril 0.0.15: Python library to interface Python to a SiriL script
-sci-astronomy/scamp 2.13.1 2.14.0: Astrometric and photometric solutions for astronomical images
+sci-astronomy/scamp 2.14.0 2.15.0: Astrometric and photometric solutions for astronomical images
 sci-astronomy/sextractor 2.19.5-r1: Extract catalogs of sources from astronomical FITS images
 sci-astronomy/siril 1.2.6-r1 1.4.0-r1 9999: A free astronomical image processing software
 sci-astronomy/sirilic 1.15.12: Preparing acquisition files for processing with the SiriL software
@@ -17369,7 +17369,7 @@ sys-auth/libnss-mysql 1.7.1 1.7.1-r1: NSS MySQL Library
 sys-auth/libnss-nis 3.1 3.2: NSS module to provide NIS support
 sys-auth/libnss-pgsql 1.5.0_beta-r1: Name Service Switch module for use with PostgreSQL
 sys-auth/libyubikey 1.13-r1: Yubico C low-level library
-sys-auth/microsoft-identity-broker 2.5.2: Microsoft Authentication Broker to access a corporate environment
+sys-auth/microsoft-identity-broker 2.5.2 3.0.1: Microsoft Authentication Broker to access a corporate environment
 sys-auth/munge 0.5.18: An authentication service for creating and validating credentials
 sys-auth/nss-docker-ng 1.0.7 1.1.3: NSS plugin for finding Docker containers by their ID or name
 sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
@@ -18246,7 +18246,7 @@ www-client/chromium 145.0.7632.159 146.0.7680.177 147.0.7727.15 147.0.7727.24 14
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
-www-client/epiphany 48.5 49.3: GNOME webbrowser based on Webkit
+www-client/epiphany 48.5 49.3 49.7: GNOME webbrowser based on Webkit
 www-client/falkon 25.12.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 140.8.0 140.9.0 140.9.1 148.0.2 149.0 149.0.2: Firefox Web Browser
