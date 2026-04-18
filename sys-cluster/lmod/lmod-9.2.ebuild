@@ -17,7 +17,7 @@ else
 	S="${WORKDIR}"/Lmod-${PV}
 	KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
 fi
-SRC_URI+=" https://dev.gentoo.org/~tupone/distfiles/${PN}-8.7.55-load-err.txt"
+SRC_URI+=" https://dev.gentoo.org/~tupone/distfiles/${PN}-9.1.2-load-err.txt"
 
 LICENSE="MIT"
 SLOT="0"
@@ -49,7 +49,6 @@ BDEPEND="${RDEPEND}
 PATCHES=(
 	"${FILESDIR}"/${PN}-8.4.19-no-libsandbox.patch
 	"${FILESDIR}"/${PN}-8.7.55-make.patch
-	"${FILESDIR}"/${P}-fix-bashism-in-configure-script.patch
 )
 
 pkg_pretend() {
@@ -71,10 +70,7 @@ src_prepare() {
 	sed -i \
 		-e "1s|#!/usr/bin/env lua|#!${LUA}|" \
 		proj_mgmt/joinBase64Results \
-		|| die
-	sed -i \
-		-e "s|@path_to_lua@|${LUA}|" \
-		src/lmod.in.lua \
+		proj_mgmt/clean_gold_files/regularize \
 		|| die
 	sed -i \
 		-e "s|    lua|    ${LUA}|" \
@@ -90,7 +86,7 @@ src_prepare() {
 		-e 's|/usr/sbin:1\\;/sbin:1\\;||' \
 		rt/changeMPATH/out.txt \
 		|| die
-	cp "${DISTDIR}"/${PN}-8.7.55-load-err.txt \
+	cp "${DISTDIR}"/${PN}-9.1.2-load-err.txt \
 		rt/load/err.txt || die
 }
 
