@@ -1161,7 +1161,7 @@ app-arch/gcab 1.6: Library and tool for working with Microsoft Cabinet (CAB) fil
 app-arch/gnome-autoar 0.4.5: Automatic archives creating and extracting library
 app-arch/gtk-splitter 2.2.1-r2: Split files into smaller pieces and combine them back together
 app-arch/gxz 0.5.12: Pure golang package for reading and writing xz-compressed files
-app-arch/gzip 1.13-r1 1.14: Standard GNU compressor
+app-arch/gzip 1.14 1.14_p20260418: Standard GNU compressor
 app-arch/hardlink 0.3.2: A tool which replaces copies of a file with hardlinks
 app-arch/innoextract 1.10_pre20250206-r1: A tool to unpack installers created by Inno Setup
 app-arch/lbzip2 2.5_p20181227-r3: Parallel bzip2 utility
@@ -2999,7 +2999,7 @@ app-office/calligraplan 4.0.1: Project management application
 app-office/denaro 2024.2.0: A personal finance manager
 app-office/dia 0.97.3-r4 0.98_pre20250913: Diagram/flowchart creation program
 app-office/dia2code 1.0.0-r2: Convert UML diagrams produced with Dia to various source code flavours
-app-office/drawio-desktop-bin 24.7.17 25.0.2 26.2.2: draw.io diagramming and whiteboarding desktop app
+app-office/drawio-desktop-bin 26.2.2 29.6.6: draw.io diagramming and whiteboarding desktop app
 app-office/endeavour 43.0-r1 9999: Personal task manager
 app-office/glabels 3.4.1-r2: Program for creating labels and business cards
 app-office/gnucash 5.14: Personal finance manager
@@ -4094,7 +4094,7 @@ dev-debug/scap-driver 0.20.0: Kernel module for dev-debug/sysdig
 dev-debug/strace 6.16 6.17 6.18 6.19 9999: Useful diagnostic, instructional, and debugging tool
 dev-debug/sysdig 0.40.1-r1: A system exploration and troubleshooting tool
 dev-debug/systemtap 5.3-r1 5.4 9999: Linux trace/probe tool
-dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0_rc1 9999: An open-source memory debugger for GNU/Linux
+dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0_rc2 9999: An open-source memory debugger for GNU/Linux
 dev-dotnet/avalonia-ilspy 7.2_rc-r2: Avalonia-based .NET Decompiler, port of ILSpy
 dev-dotnet/cake 5.1.0 6.0.0 6.1.0: Cake (C# Make) is a cross platform build automation system with a C# DSL
 dev-dotnet/coco 2014.12.25 2014.12.25-r1: The compiler generator Coco/R for C#
@@ -5721,7 +5721,7 @@ dev-libs/luise 0.1.1-r2: Programming interface for the Wallbraun LCD-USB-Interfa
 dev-libs/lzo 2.10: An extremely fast compression and decompression library
 dev-libs/m17n-lib 1.8.6 1.8.6-r1: Multilingual Library for Unix/Linux
 dev-libs/maloc 1.5-r1: Minimal Abstraction Layer for Object-oriented C/C++ programs
-dev-libs/marisa 0.2.7 0.3.1 9999: Matching Algorithm with Recursively Implemented StorAge
+dev-libs/marisa 0.2.7 0.3.1-r1 9999: Matching Algorithm with Recursively Implemented StorAge
 dev-libs/mathjax 2.7.7-r1 3.2.2-r2: JavaScript display engine for LaTeX, MathML and AsciiMath
 dev-libs/md4c 0.5.2: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant.
 dev-libs/mdns 1.4.3: Public domain mDNS/DNS-SD library in C
@@ -10912,6 +10912,7 @@ dev-util/elf_diff 0.7.1: Tool to compare ELF binaries
 dev-util/elfkickers 3.2-r1: Collection of programs to manipulate ELF files: sstrip, rebind, elfls, elftoc
 dev-util/elfshaker 0.9.0_p20250803: Stores binary objects efficiently
 dev-util/esbuild 0.25.1 0.25.2 0.25.5 0.27.3: A modern, extremely fast, JavaScript and CSS bundler and minifier
+dev-util/fj-cli 0.5.0: CLI tool for Forgejo
 dev-util/flatpak-builder 1.4.4 1.4.6-r3 1.4.7: Tool to build flatpaks from source
 dev-util/flawfinder 2.0.19-r2: Examines C/C++ source code for security flaws
 dev-util/fq 0.15.1 0.16.0 0.17.0: Tool for working with binary data (app-misc/jq for binary formats)
@@ -11207,7 +11208,7 @@ dev-vcs/gitstats 0_pre20201124: Statistics generator for git
 dev-vcs/gitui 0.28.0 0.28.1: blazing fast terminal-ui for git
 dev-vcs/guilt 0.36-r1: A series of bash scripts which add a quilt-like interface to git
 dev-vcs/hg-evolve 11.1.9 11.1.10: enables the changeset evolution feature of Mercurial
-dev-vcs/hg-git 1.2.0-r1: push to and pull from a Git repository using Mercurial
+dev-vcs/hg-git 1.2.0-r1 1.2.0_p20260328: push to and pull from a Git repository using Mercurial
 dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at GitHub
 dev-vcs/jj 0.36.0 0.37.0 0.38.0 0.39.0 0.40.0: Jujutsu - an experimental version control system
 dev-vcs/kdesvn 2.1.0_p20250525: Frontend to the subversion vcs
@@ -13337,7 +13338,7 @@ media-libs/ksanecore 25.12.3 26.04.0: Qt-based interface for SANE library to con
 media-libs/kvazaar 2.2.0 2.3.0-r1 2.3.2 9999: Open-source HEVC encoder
 media-libs/ladspa-sdk 1.17-r2: The Linux Audio Developer's Simple Plugin API
 media-libs/lasi 1.1.3-r1: C++ library for postscript stream output
-media-libs/lcms 2.15 2.16-r1 2.17: A lightweight, speed optimized color management engine
+media-libs/lcms 2.17 2.18: A lightweight, speed optimized color management engine
 media-libs/lensfun 0.3.4-r1: Library for rectifying and simulating photographic lens distortions
 media-libs/leptonica 1.85.0 1.87.0: C library for image processing and analysis
 media-libs/lerc 4.0.0: Limited Error Raster Compression
@@ -14098,7 +14099,7 @@ media-sound/litestream 1.3_rc3: Litstream is a lightweight and robust shoutcast-
 media-sound/lltag 0.14.6: Automatic command-line mp3/ogg/flac file tagger and renamer
 media-sound/lollypop 1.4.44 1.4.45: Modern music player for GNOME
 media-sound/lxmusic 0.4.7-r2: Simple GUI XMMS2 client with minimal functionality
-media-sound/mac 4.11.4.5.7-r1 12.12 12.60 12.62: Monkey's Audio Codecs
+media-sound/mac 4.11.4.5.7-r1 12.12 12.60 12.67: Monkey's Audio Codecs
 media-sound/madplay 0.15.2b-r2: The MAD audio player
 media-sound/mangler 1.2.5-r5: Open source VOIP client capable of connecting to Ventrilo 3.x servers
 media-sound/mcdp 0.4b: Very small console cd player
@@ -14233,7 +14234,7 @@ media-sound/spek 0.8.5-r2 0.8.5-r3: Analyse your audio files by showing their sp
 media-sound/splay 0.9.5.2-r2: An audio player, primarily for the console
 media-sound/split2flac 122-r1: sh script to split an APE/FLAC/WV/WAV audio image with CUE sheet into tracks
 media-sound/spotify 1.2.86: Spotify is a social music platform
-media-sound/strawberry 1.2.18 9999: Modern music player and library organizer based on Clementine and Qt
+media-sound/strawberry 1.2.18 1.2.19 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/streamripper 1.64.6-r1: Extracts and records individual MP3 file tracks from shoutcast streams
 media-sound/streamtranscoder 3.1.11-r2: Commandline program to transcode shoutcast/icecast streams to different bitrates
 media-sound/subsonic-bin 6.1.6: Subsonic is a complete, personal media streaming solution
@@ -17517,7 +17518,7 @@ sys-boot/yaboot 1.3.17-r4: PPC Bootloader
 sys-boot/yaboot-static 1.3.17-r2: Static yaboot ppc boot loader for machines with open firmware
 sys-cluster/ampi 0_pre20140616: MPI library for algorithmic differentiation
 sys-cluster/c3 4.0.1: The Cluster Command and Control (C3) tool suite
-sys-cluster/ceph 20.1.1-r1: Ceph distributed filesystem
+sys-cluster/ceph 20.1.1-r1 20.2.1: Ceph distributed filesystem
 sys-cluster/charliecloud 0.41 0.42 0.42-r1 0.43 9999: Lightweight user-defined software stacks for high-performance computing
 sys-cluster/charm 6.8.2: Message-passing parallel language and runtime system
 sys-cluster/charmdebug 6.2.0-r2: A debugger for Charm++ applications
