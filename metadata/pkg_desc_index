@@ -9304,7 +9304,7 @@ dev-python/python-openstackclient 9.0.0: A client for the OpenStack APIs
 dev-python/python-pam 2.0.2-r2: Python PAM module
 dev-python/python-pkcs11 0.9.3 0.9.4: PKCS#11/Cryptoki support for Python
 dev-python/python-pskc 1.4 9999: Python module for handling Portable Symmetric Key Container files
-dev-python/python-ptrace 0.9.9 9999: A Python binding of ptrace library
+dev-python/python-ptrace 0.9.9 9999: Python binding of ptrace library
 dev-python/python-redmine 2.5.0: Python interface to the Redmine REST API
 dev-python/python-rtmidi 1.5.8: Python bindings for media-libs/rtmidi implemented using Cython
 dev-python/python-slugify 8.0.4: A Python Slugify application that handles Unicode
@@ -13955,7 +13955,7 @@ media-sound/aylet 0.5: Aylet plays music files in the .ay format
 media-sound/baudline 1.08-r2: A time-frequency browser designed for visualization of spectral domains
 media-sound/beets 1.7.0_pre20240501-r1 2.2.0-r1 2.3.1 9999: Media library management system for obsessive music geeks
 media-sound/bitmeter 1.2-r2: Diagnosis tool for JACK audio software
-media-sound/bluez-alsa 4.2.0 4.3.1-r1 9999: Bluetooth Audio ALSA Backend
+media-sound/bluez-alsa 4.3.1-r2 9999: Bluetooth Audio ALSA Backend
 media-sound/bplay 0.991: No-frills command-line buffered player and recorder
 media-sound/bpmdetect 0.7.1: Automatic BPM detection utility
 media-sound/bristol 0.60.11-r4: Synthesizer keyboard emulation package: Moog, Hammond and others
