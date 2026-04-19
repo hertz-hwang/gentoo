@@ -8764,7 +8764,7 @@ dev-python/loky 3.5.6: Robust and reusable Executor for joblib
 dev-python/looseversion 1.3.0: A backwards/forwards-compatible fork of distutils.version.LooseVersion
 dev-python/lrcalc 2.1-r2: Python bindings for sci-mathematics/lrcalc
 dev-python/lsprotocol 2025.0.0: Language Server Protocol types code generator packages
-dev-python/lxml 6.0.2 6.0.4 6.1.0: A Pythonic binding for the libxml2 and libxslt libraries
+dev-python/lxml 6.1.0: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/lxml-html-clean 0.4.4: Separate project for HTML cleaning functionalities copied from lxml.html.clean
 dev-python/lz4 4.4.5: LZ4 Bindings for Python
 dev-python/m2crypto 0.47.0: A Python crypto and SSL toolkit
@@ -13269,6 +13269,7 @@ media-libs/glfw 3.3.8 3.3.9 3.4: Portable OpenGL FrameWork
 media-libs/glm 1.0.1 1.0.2 1.0.3: OpenGL Mathematics
 media-libs/glpng 1.47: OpenGL PNG image library
 media-libs/glu 9.0.3 9999: The OpenGL Utility Library
+media-libs/glycin 2.1.1: Sandboxed and extendable image loading library
 media-libs/glycin-loaders 1.2.4 2.0.7 2.0.8 2.1.1: Loaders for glycin clients (glycin crate or libglycin)
 media-libs/glyr 1.0.10-r1: Music related metadata searchengine, both with commandline interface and C API
 media-libs/gmmlib 22.8.2 22.9.0 22.10.0 9999: Intel Graphics Memory Management Library
@@ -14371,7 +14372,7 @@ media-video/rovclock 0.6e-r2: Overclocking utility for ATI Radeon cards
 media-video/rtmpdump 2.4_p20210219 9999: RTMP client, librtmp library intended to stream audio or video flash content
 media-video/setpwc 1.3: Control various aspects of Philips (and compatible) webcams
 media-video/shotcut 24.09.13 25.08.16 9999: A free, open source, cross-platform video editor
-media-video/simplescreenrecorder 0.4.4_p20250125 9999: Simple Screen Recorder
+media-video/simplescreenrecorder 0.4.4_p20250125 0.4.4_p20251228 9999: Simple Screen Recorder
 media-video/smplayer 25.6.0_p20250903-r1: Great Qt GUI front-end for mplayer/mpv
 media-video/snappy 1.0_p20200428: A simple media player written using GStreamer and Clutter
 media-video/sonic-snap 1.7-r2: Webcam app for sn9c10x based camera controllers (with optional MPEG4 support)
