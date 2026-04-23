@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -21,7 +21,7 @@ KEYWORDS="amd64 ~ppc ~x86"
 RDEPEND="
 	media-libs/libsndfile:=
 	>=sys-libs/readline-0.6.2:0=
-	x11-libs/gtk+:3"
+	x11-libs/gtk+:3[X]"
 DEPEND="${RDEPEND}"
 BDEPEND="
 	virtual/imagemagick-tools[png]
@@ -46,7 +46,6 @@ src_install() {
 	default
 
 	make_desktop_entry 'quickplot --no-pipe' Quickplot quickplot Graphics
-	mv "${ED}"/usr/share/applications/quickplot{*,}.desktop || die
 
 	# no static archives
 	find "${ED}" -name '*.la' -delete || die
