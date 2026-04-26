@@ -15372,6 +15372,7 @@ net-misc/r8152 2.20.1-r1: r8152 driver for Realtek USB FE / GBE / 2.5G Gaming Et
 net-misc/r8168 8.055.00 8.056.02: r8168 driver for Realtek 8111/8168 PCI-E NICs
 net-misc/rabbitmq-server 3.13.1 4.1.6 4.1.8 4.2.1 4.2.3 4.2.4: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/radvd 2.20: Linux IPv6 Router Advertisement Daemon
+net-misc/raggre46 0.6.0: Aggregate IPv4 & IPv6 network addresses
 net-misc/rclone 1.73.2 1.73.3 1.73.5: A program to sync files to and from various cloud storage providers
 net-misc/rdate 1.11: Use TCP or UDP to retrieve the current time of another machine
 net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
@@ -16027,7 +16028,7 @@ sci-geosciences/gpscorrelate 2.0-r1 2.3: Tool for adjusting EXIF tags of your ph
 sci-geosciences/gpsd 3.26.1-r1 9999: GPS daemon and library for USB/serial GPS devices and GPS/mapping clients
 sci-geosciences/gpsprune-bin 23.2: An application for viewing, editing and converting GPS data
 sci-geosciences/gpx-viewer 0.4.0-r2: Simple program to visualize a gpx file
-sci-geosciences/gpxsee 15.10 16.1-r1 16.5: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
+sci-geosciences/gpxsee 15.10 16.5 16.6: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
 sci-geosciences/grass 8.4.1-r2 8.4.2 9999: Free GIS with raster and vector functionality, as well as 3D vizualization
 sci-geosciences/gshhg-gmt 2.3.7: Global Self-consistent, Hierarchical, High-resolution Geography Database
 sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolution Shoreline programs
