@@ -14848,7 +14848,7 @@ net-im/tokodon 25.12.3 26.04.0: Mastodon client for Plasma and Plasma Mobile
 net-im/toxic 0.16.0 0.16.2: A curses-based client for Tox
 net-im/whatsapp-desktop-bin 0.5.3 0.5.4: Unofficial electron-based wrapper around WhatsApp Web
 net-im/ysm 2.9.9.1-r2: A console ICQ client supporting versions 7/8
-net-im/zoom 6.7.5.6891-r1: Video conferencing and web conferencing service
+net-im/zoom 6.7.5.6891-r1 7.0.0.1666-r1: Video conferencing and web conferencing service
 net-irc/anope 2.0.14 2.0.18: Anope IRC Services
 net-irc/atheme-services 7.2.12-r5: A portable and secure set of open-source and modular IRC services
 net-irc/bnc 2.9.4-r3: BNC (BouNCe) is used as a gateway to an IRC Server
@@ -15145,8 +15145,8 @@ net-mail/sendEmail 1.56-r4: Command line based, SMTP email agent
 net-mail/serialmail 0.75-r5: A serialmail is a collection of tools for passing mail across serial links
 net-mail/signify 1.14-r2: A (semi-)random e-mail signature rotator
 net-mail/smtptools 0.2.3-r1: A collection of tools to send or receive mails with SMTP
-net-mail/stalwart-cli 0.13.4 0.14.1 0.15.5: Stalwart Mail Server command line utility
-net-mail/stalwart-mail 0.14.1 0.15.5: Stalwart Mail Server
+net-mail/stalwart-cli 0.13.4 0.14.1 0.15.5 1.0.3: Stalwart Mail Server command line utility
+net-mail/stalwart-mail 0.14.1 0.15.5 0.16.1: Stalwart Mail Server
 net-mail/swaks 20240103.0: Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH
 net-mail/t-prot 3.4: TOFU protection - display filter for RFC822 messages
 net-mail/tlsrpt-reporter 0.5.0: tools and daemons to implement TLSRPT services
