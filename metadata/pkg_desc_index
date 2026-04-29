@@ -2843,7 +2843,7 @@ app-misc/linuxspa 0.7.1-r2: Linux Serial Protocol Analyser
 app-misc/liquidctl 1.14.0 1.15.0: Cross-platform tool and drivers for liquid coolers and other devices
 app-misc/lirc 0.10.2-r2: decode and send infra-red signals of many commonly used remote controls
 app-misc/livecd-tools 2.11 2.12 9999: Gentoo LiveCD tools for autoconfiguration of hardware
-app-misc/localsearch 3.8.2 3.9.0-r1 3.10.2: Indexer and search engine that powers desktop search for core GNOME components
+app-misc/localsearch 3.8.2 3.10.2 3.10.2-r1: Indexer and search engine that powers desktop search for core GNOME components
 app-misc/lockfile-progs 0.1.19 0.2.0: Programs to safely lock/unlock files and mailboxes
 app-misc/logiops 0.3.5: An unofficial userspace driver for HID++ Logitech devices
 app-misc/lsx 0.1-r1: list executables
@@ -18463,7 +18463,7 @@ x11-libs/gdk-pixbuf-xlib 2.40.2: Deprecated Xlib integration for GdkPixbuf
 x11-libs/gl2ps 1.4.2-r1: OpenGL to PostScript printing library
 x11-libs/goffice 0.10.59-r1 0.10.60: A library of document-centric objects and utilities
 x11-libs/goocanvas 2.0.4-r2 3.0.0: Canvas widget for GTK+ using the cairo 2D library for drawing
-x11-libs/gtk+ 2.24.33-r3 3.24.51: Gimp ToolKit +
+x11-libs/gtk+ 2.24.33-r3 3.24.51 3.24.52: Gimp ToolKit +
 x11-libs/gtk-mac-integration 2.0.5-r1: Menubar, doc and app bundle integration for GTK+
 x11-libs/gtkdatabox 1.0.0-r1: Gtk+ Widgets for live display of large amounts of fluctuating numerical data
 x11-libs/gtkmathview 0.8.0-r6: Rendering engine for MathML documents
@@ -18512,7 +18512,7 @@ x11-libs/libfm-extra 1.3.2: Library for file management
 x11-libs/libfm-qt 2.3.1 2.4.0: Qt Library for Building File Managers
 x11-libs/libfontenc 1.1.8 1.1.9: X.Org fontenc library
 x11-libs/libgxim 0.5.0-r1: GObject-based XIM protocol library
-x11-libs/libnotify 0.8.6 0.8.7: A library for sending desktop notifications
+x11-libs/libnotify 0.8.7 0.8.8: A library for sending desktop notifications
 x11-libs/liboglappth 1.0.0-r1: Libary for OpenGL applications with easy-to-code scene setup and selection
 x11-libs/libpciaccess 0.18.1 0.19: Library providing generic access to the PCI bus and devices
 x11-libs/libtinynotify 0.2.1: A lightweight implementation of Desktop Notification Spec
