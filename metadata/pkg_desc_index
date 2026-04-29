@@ -13919,7 +13919,7 @@ media-radio/tlf 1.4.1-r6: Console-mode amateur radio contest logger
 media-radio/tqsl 2.7.3: ARRL Logbook of the World
 media-radio/tucnak 4.70 4.71: Amateur Radio VHF Contest Logbook
 media-radio/unixcw 3.6.1-r2: Collection of programs that fit together to form a morse code tutor program
-media-radio/wsjtx_improved 3.0.0-r1 3.0.0_p20251212 3.1.0: Weak signal ham radio communication with improvements
+media-radio/wsjtx_improved 3.1.0: Weak signal ham radio communication with improvements
 media-radio/xastir 2.2.2 2.2.4: X Amateur Station Tracking and Information Reporting
 media-radio/xdx 2.91: a GTK+ TCP/IP DX-cluster and ON4KST chat client
 media-radio/xlog 2.0.25: An amateur radio logging program
@@ -16411,7 +16411,7 @@ sci-misc/boinc 7.24.1-r2 8.0.2 8.2.4 9999: The Berkeley Open Infrastructure for 
 sci-misc/cdfplayer 12.2.0-r2: Wolfram Player for the interactive Computable Document Format (CDF)
 sci-misc/fitscut 1.4.4-r1: Extract cutouts from FITS image files
 sci-misc/fitsverify 4.20: FITS file format checker
-sci-misc/h5utils 1.13.1: Utilities for visualization and conversion of HDF5 files
+sci-misc/h5utils 1.13.1-r1: Utilities for visualization and conversion of HDF5 files
 sci-misc/jupyterlab-desktop-bin 4.2.5.1: JupyterLab desktop application, based on Electron
 sci-misc/lttoolbox 3.7.1-r2 3.7.6 3.8.2: Toolbox for lexical processing, morphological analysis and generation of words
 sci-misc/nco 5.1.3-r1 5.3.9: Command line utilities for operating on netCDF files
@@ -17298,10 +17298,10 @@ sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
 sys-apps/system-monitoring-center 3.1.0 3.2.0 3.3.0 9999: Multi-featured system monitor GUI written in Python
 sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services and their logs
-sys-apps/systemd 258.3 259.3-r2 259.4-r1 260-r2 260.1 9999: System and service manager for Linux
+sys-apps/systemd 259.4-r1 260.1 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
-sys-apps/systemd-utils 255.18 259.3 259.4 260-r1 260.1 260.1-r1: Utilities split out from systemd for OpenRC users
+sys-apps/systemd-utils 255.18 259.3 259.4 260.1-r1: Utilities split out from systemd for OpenRC users
 sys-apps/sysvinit 3.15 3.18: /sbin/init - parent of all processes
 sys-apps/tas 1.9.0.240925: Supermicro Thin-Agent Service for monitoring through the BMC/IPMI
 sys-apps/tcp-wrappers 7.6.31-r2: TCP Wrappers
