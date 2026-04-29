@@ -2632,7 +2632,7 @@ app-laptop/rogauracore 1.6 9999: RGB keyboard control for Asus ROG laptops
 app-laptop/spicctrl 1.9-r1: tool for the sonypi-Device (found in Sony Vaio Notebooks)
 app-laptop/thinkfan 1.3.1: Simple fan control program for thinkpads
 app-laptop/tiny-dfr 0.3.0-r1 0.3.1-r1 0.3.3 0.3.5: The most basic dynamic function row daemon possible
-app-laptop/tp_smapi 0.44 0.45: IBM ThinkPad SMAPI BIOS driver
+app-laptop/tp_smapi 0.45: IBM ThinkPad SMAPI BIOS driver
 app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPads, not supported by tp_smapi
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
 app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22 2.1.23: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
@@ -5272,9 +5272,9 @@ dev-lang/perl 5.40.0-r1 5.40.1 5.40.2 5.42.0 5.42.0-r1: Larry Wall's Practical E
 dev-lang/php 8.2.29 8.2.30 8.3.26 8.3.29 8.3.30-r1 8.4.20 8.5.5: The PHP language runtime engine
 dev-lang/pico8 0.2.6b 0.2.7: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
-dev-lang/pypy 2.7.7.3.20 2.7.7.3.21 3.11.7.3.20_p2 3.11.7.3.21: A fast, compliant alternative implementation of the Python (3.11) language
-dev-lang/pypy3-exe 3.11.7.3.20 3.11.7.3.21: PyPy3.11 executable (build from source)
-dev-lang/pypy3-exe-bin 3.11.7.3.20 3.11.7.3.21: PyPy3.11 executable (pre-built version)
+dev-lang/pypy 2.7.7.3.20 2.7.7.3.21 2.7.7.3.22 3.11.7.3.20_p2 3.11.7.3.21 3.11.7.3.22: A fast, compliant alternative implementation of the Python (3.11) language
+dev-lang/pypy3-exe 3.11.7.3.20 3.11.7.3.21 3.11.7.3.22: PyPy3.11 executable (build from source)
+dev-lang/pypy3-exe-bin 3.11.7.3.20 3.11.7.3.21 3.11.7.3.22: PyPy3.11 executable (pre-built version)
 dev-lang/python 0.3.13.11 0.3.13.12 0.3.13.13 0.3.13.13_p1 0.3.13.9999 0.3.14.2 0.3.14.3 0.3.14.4 0.3.14.4_p1 0.3.14.9999 0.3.15.0_alpha7 0.3.15.0_alpha8-r1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.19 3.10.20 3.10.9999 3.11.14 3.11.15 3.11.9999 3.12.12 3.12.13_p1 3.12.9999 3.13.11 3.13.12 3.13.13 3.13.13_p1 3.13.9999 3.14.2 3.14.3 3.14.4 3.14.4_p1 3.14.9999 3.15.0_alpha7 3.15.0_alpha8-r1 3.15.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
@@ -5356,7 +5356,7 @@ dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.10.0 3.11.1: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
-dev-libs/c-blosc2 2.23.1: Blocking, shuffling and lossless compression library
+dev-libs/c-blosc2 2.23.1 3.0.0: Blocking, shuffling and lossless compression library
 dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serialization/RPC protocol
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
@@ -9155,8 +9155,8 @@ dev-python/pyproject-fmt 2.18.1 2.19.0 2.20.0 2.21.0 2.21.1: Format your pyproje
 dev-python/pyproject-hooks 1.2.0: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0: PEP 621 metadata parsing
 dev-python/pypugjs 6.0.1 6.0.2: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
-dev-python/pypy-exe 7.3.20 7.3.21: PyPy executable (build from source)
-dev-python/pypy-exe-bin 7.3.20 7.3.21: PyPy executable (pre-built version)
+dev-python/pypy-exe 7.3.20 7.3.21 7.3.22: PyPy executable (build from source)
+dev-python/pypy-exe-bin 7.3.20 7.3.21 7.3.22: PyPy executable (pre-built version)
 dev-python/pyqt-builder 1.19.1: The PEP 517 compliant PyQt build system
 dev-python/pyqt5 5.15.11: Python bindings for the Qt framework
 dev-python/pyqt5-sip 12.18.0: sip extension module for PyQt5
@@ -9388,7 +9388,7 @@ dev-python/regex 2026.2.28 2026.3.32 2026.4.4: Alternative regular expression mo
 dev-python/regress 2025.10.1: Python bindings to the Rust regress crate
 dev-python/rencode 1.0.8-r1: Serialization similar to bencode from the BitTorrent project
 dev-python/reno 4.1.0: Release notes manager, storing release notes in a git repo and building docs
-dev-python/reportlab 4.4.10: Tools for generating printable PDF documents from any data source
+dev-python/reportlab 4.4.10 4.5.0: Tools for generating printable PDF documents from any data source
 dev-python/repoze-lru 0.7-r3: A tiny LRU cache implementation and decorator
 dev-python/requests 2.32.5-r1 2.33.1: HTTP library for human beings
 dev-python/requests-cache 1.3.1: Persistent cache for requests library
@@ -9648,7 +9648,7 @@ dev-python/tqdm 4.67.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.14.3: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
-dev-python/translate-toolkit 3.19.3 3.19.4 3.19.5 3.19.6: Toolkit to convert between many translation formats
+dev-python/translate-toolkit 3.19.3 3.19.4 3.19.5 3.19.6 3.19.7: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.24.0 0.25.1-r1 0.25.2: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 4.11.4 4.11.5 4.12.0 4.12.1: Python library for loading and using triangular meshes
@@ -11088,7 +11088,7 @@ dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
 dev-util/src-cli 4.4.0 4.5.0 5.0.2-r1 5.1.2 5.2.0: command line interface for the Sourcegraph code search tool
 dev-util/statifier 1.7.4-r3: Statifier is a tool for creating portable, self-containing Linux executables
 dev-util/stressapptest 1.0.11: Stressful Application Test
-dev-util/stripe-mock 0.197.0: Mock HTTP server that responds like the real Stripe API
+dev-util/stripe-mock 0.197.0 0.198.0: Mock HTTP server that responds like the real Stripe API
 dev-util/sysprof 47.2-r1 48.0-r1 48.1 49.0: System-wide Linux Profiler
 dev-util/sysprof-capture 3.36.0-r2 47.2 48.0 48.1 49.0: Static library for sysprof capture data generation
 dev-util/sysprof-common 47.2 48.0 48.1 49.0: Static library for sysprof capture data generation
@@ -11417,7 +11417,7 @@ games-board/crafty 24.1-r2: Bob Hyatt's strong chess engine
 games-board/cutechess 1.3.1-r2 1.4.0: Cross-platform tools for working with chess engines
 games-board/domination 1.1.1.6-r3: The well-known board game, written in java
 games-board/eboard 1.1.1-r2: chess interface for POSIX systems
-games-board/four-in-a-row 3.38.1: Make lines of the same color to win
+games-board/four-in-a-row 3.38.1 3.38.1-r1: Make lines of the same color to win
 games-board/freedoko 0.8.0 0.8.1: FreeDoko is a Doppelkopf-game
 games-board/fruit 2.1-r1: UCI-only chess engine
 games-board/gambit 1.0.6: Qt-based chess application + engine "gupta"
@@ -11712,7 +11712,7 @@ games-puzzle/galaxis 1.10-r1 1.12 1.13: Curses-based clone of the nifty little M
 games-puzzle/gemdropx 0.9-r3: Puzzle game where it's your job to clear the screen of gems
 games-puzzle/gfifteen 1.0.3-r2: Graphical implementation of the sliding puzzle game fifteen
 games-puzzle/glightoff 1.0.0-r1: Simple (but not so easy to solve!) puzzle game
-games-puzzle/gnome-klotski 3.38.2: Slide blocks to solve the puzzle
+games-puzzle/gnome-klotski 3.38.2 3.38.2-r1: Slide blocks to solve the puzzle
 games-puzzle/gnome-sudoku 48.1 49.2: Test your logic skills in this number grid puzzle
 games-puzzle/gnome-taquin 3.38.1-r1: Move tiles so that they reach their places
 games-puzzle/gnome-tetravex 3.38.2 3.38.3: Complete the puzzle by matching numbered tiles
