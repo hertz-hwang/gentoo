@@ -8204,7 +8204,7 @@ dev-python/babel 2.18.0: Collection of tools for internationalizing Python appli
 dev-python/babelfish 0.6.1: Python library to work with countries and languages
 dev-python/backports-tarfile 1.2.0: Backport of CPython tarfile module (from Python 3.12)
 dev-python/backports-zstd 1.3.0: Backport of PEP-784: adding Zstandard to the standard library
-dev-python/backrefs 6.2: Wrapper around re or regex that adds additional back references
+dev-python/backrefs 6.2 7.0: Wrapper around re or regex that adds additional back references
 dev-python/bandit 1.9.4: A security linter from OpenStack Security
 dev-python/bareos 25.0.1: python bindings for bareos network backup suite
 dev-python/base58 2.1.1: Base58 and Base58Check implementation
@@ -8257,7 +8257,7 @@ dev-python/canonicaljson 2.0.0: Canonical JSON
 dev-python/capturer 3.0-r1: Easily capture stdout/stderr of the current process and subprocesses
 dev-python/casttube 0.2.1-r1: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/cattrs 26.1.0: Composable complex class support for attrs and dataclasses
-dev-python/cbor2 5.8.0 5.9.0: Pure Python CBOR (de)serializer with extensive tag support
+dev-python/cbor2 5.9.0 6.0.1: CBOR (de)serializer with extensive tag support
 dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library for Python
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0: Foreign Function Interface for Python calling C code
@@ -8531,7 +8531,7 @@ dev-python/gherkin-official 39.0.0: Gherkin parser/compiler for Python
 dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
-dev-python/gitpython 3.1.46 3.1.47: Library used to interact with Git repositories
+dev-python/gitpython 3.1.46 3.1.47 3.1.49: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.0 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.28.1 2.30.0 2.30.1 2.30.2 2.30.3: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.192.0 2.193.0 2.194.0: Google API Client for Python
@@ -8540,7 +8540,7 @@ dev-python/google-auth-httplib2 0.3.0 0.3.1: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.3.1: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
 dev-python/google-pasta 0.2.0-r2: AST-based Python refactoring library
-dev-python/googleapis-common-protos 1.72.0 1.73.0 1.73.1 1.74.0: Python classes generated from the common protos in the googleapis repository
+dev-python/googleapis-common-protos 1.72.0 1.73.0 1.73.1-r1 1.74.0-r1: Python classes generated from the common protos in the googleapis repository
 dev-python/gpep517 19: A backend script to aid installing Python packages in Gentoo
 dev-python/gpgmepy 2.0.0-r1: GnuPG Made Easy is a library for making GnuPG easier to use (Python bindings)
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
@@ -8565,7 +8565,7 @@ dev-python/hatch-jupyter-builder 0.9.1-r1: A hatch plugin to help build Jupyter 
 dev-python/hatch-nodejs-version 0.4.0: Hatch plugin for versioning from a package.json file
 dev-python/hatch-vcs 0.5.0: Hatch plugin for versioning with your preferred VCS
 dev-python/hatchling 1.29.0: Modern, extensible Python build backend
-dev-python/hcloud 2.16.0 2.17.0 2.17.1 2.18.0: Official Hetzner Cloud python library
+dev-python/hcloud 2.17.1 2.18.0 2.19.0: Official Hetzner Cloud python library
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.3.0 3.3.1: Python extension that wraps hiredis
@@ -8774,7 +8774,7 @@ dev-python/magic-wormhole 0.23.0: Get Things From One Computer To Another, Safel
 dev-python/magic-wormhole-mailbox-server 0.6.0: Mailbox server for magic-wormhole
 dev-python/magic-wormhole-transit-relay 0.5.0: Transit relay server for magic-wormhole
 dev-python/makefun 1.16.0: Small library to dynamically create Python functions
-dev-python/mako 1.3.10 1.3.11: A Python templating language
+dev-python/mako 1.3.10 1.3.11 1.3.12: A Python templating language
 dev-python/mamba 0.11.3: Python test runner born under the banner of Behavior Driven Development
 dev-python/mando 0.8.2: Create Python CLI apps with little to no effort at all!
 dev-python/manuel 1.13.0: Lets you mix and match traditional doctests with custom test syntax
@@ -9014,7 +9014,7 @@ dev-python/progressbar2 4.5.0: Text progressbar library for python
 dev-python/prometheus-client 0.24.1 0.25.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.52: Building powerful interactive command lines in Python
 dev-python/propcache 0.4.1: Accelerated property cache
-dev-python/proto-plus 1.27.1 1.27.2: Beautiful, Pythonic protocol buffers
+dev-python/proto-plus 1.27.1 1.27.2-r1: Beautiful, Pythonic protocol buffers
 dev-python/protobuf 5.29.5-r1 5.29.6 6.30.2-r1 6.30.2-r2 6.31.1 6.32.0 6.32.1-r1 6.33.2 6.33.3 6.33.4 6.33.5 6.33.6 7.34.0 7.34.1: Google's Protocol Buffers - Python bindings
 dev-python/psutil 7.2.2: Retrieve information on running processes and system utilization
 dev-python/psycopg 2.9.11 2.9.12 3.3.3: PostgreSQL database adapter for Python
@@ -9654,7 +9654,7 @@ dev-python/treq 25.5.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 4.11.4 4.11.5 4.12.0 4.12.1: Python library for loading and using triangular meshes
 dev-python/trio 0.33.0: Python library for async concurrency and I/O
 dev-python/trio-websocket 0.12.2: WebSocket client and server implementation for Python Trio
-dev-python/trove-classifiers 2026.1.14.14: Canonical source for classifiers on PyPI (pypi.org)
+dev-python/trove-classifiers 2026.1.14.14 2026.4.28.13: Canonical source for classifiers on PyPI (pypi.org)
 dev-python/trustme 1.2.1: #1 quality TLS certs while you wait, for the discerning tester
 dev-python/truststore 0.10.4: Verify certificates using native system trust stores
 dev-python/tubes 0.2.1: Flow control and backpressure for event-driven applications
@@ -9794,7 +9794,7 @@ dev-python/zmq-anyio 0.3.10 0.3.14: Asynchronous API for ZMQ using AnyIO
 dev-python/zope-component 7.1: Zope Component Architecture
 dev-python/zope-configuration 7.0 7.1: Zope Configuration Architecture
 dev-python/zope-deprecation 6.0: Zope Deprecation Infrastructure
-dev-python/zope-event 6.1: Event publishing / dispatch, used by Zope Component Architecture
+dev-python/zope-event 6.1 6.2: Event publishing / dispatch, used by Zope Component Architecture
 dev-python/zope-exceptions 6.0: General purpose exceptions for Zope packages
 dev-python/zope-hookable 8.2: Efficient creation of 'hookable' objects
 dev-python/zope-i18nmessageid 8.2: Zope support for i18nmessageid (tagging source of i18n strings)
@@ -15312,7 +15312,7 @@ net-misc/ndppd 0.2.6: Proxies NDP messages between interfaces
 net-misc/nemesis 1.8: A commandline-based, portable human IP stack for UNIX/Linux
 net-misc/netdate 1.2-r2 1.2-r3: Utility to set date and time by ARPA Internet RFC 868
 net-misc/netevent 2.2.3: Tool to share Linux event devices with other machines
-net-misc/netifrc 0.7.13 9999: Gentoo Network Interface Management Scripts
+net-misc/netifrc 0.7.13 0.7.14 9999: Gentoo Network Interface Management Scripts
 net-misc/netkit-bootparamd 0.17-r5: Netkit - bootparamd: Net-boot support daemon
 net-misc/netkit-bootpd 2.4-r2: Netkit - bootp
 net-misc/netkit-fingerd 0.17-r3: Netkit - fingerd and finger client
@@ -15379,7 +15379,7 @@ net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
 net-misc/remmina 1.4.40-r2 1.4.40-r3 1.4.41 1.4.41-r1 1.4.42 1.4.43: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73-r1: redirects TCP connections from one IP address and port to another
-net-misc/rsync 3.4.1-r2 3.4.1-r3 9999: File transfer program to keep remote files into sync
+net-misc/rsync 3.4.1-r2 3.4.1-r3 3.4.2 9999: File transfer program to keep remote files into sync
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
@@ -16083,7 +16083,7 @@ sci-libs/cdd+ 077a: Another implementation of the double description method
 sci-libs/cddlib 094m-r2 094n: C library implementing the Double Description Method
 sci-libs/cdf 3.9.0 3.9.1: Common Data Format I/O library for multi-dimensional data sets
 sci-libs/ceres-solver 2.2.0-r1: Nonlinear least-squares minimizer
-sci-libs/cfitsio 4.6.3: C and Fortran library for manipulating FITS files
+sci-libs/cfitsio 4.6.3 4.6.4: C and Fortran library for manipulating FITS files
 sci-libs/cgcode 1.0-r2: Conjugate gradient Codes for large sparse linear systems
 sci-libs/cgnslib 4.3.0-r2 4.4.0-r1 4.4.0-r2 4.5.0 4.5.1: CFD General Notation System standard library
 sci-libs/cholmod 3.0.13 3.0.14-r1 4.0.3: Sparse Cholesky factorization and update/downdate library
@@ -17105,7 +17105,7 @@ sys-apps/elfix 0.9.5-r1 0.9.5-r2 9999: Suite of tools to work with ELF objects o
 sys-apps/epoch 1.3.0 1.3.0-r1 9999: Init system, /sbin/init replacement; designed for simplicity
 sys-apps/etckeeper 1.18.22 1.18.23: A collection of tools to let /etc be stored in a repository
 sys-apps/ethq 0.7.0 9999: Ethernet NIC Queue stats viewer
-sys-apps/ethtool 6.15 6.19: Utility for examining and tuning ethernet-based network interfaces
+sys-apps/ethtool 6.15 6.19 7.0: Utility for examining and tuning ethernet-based network interfaces
 sys-apps/eza 0.23.4: A modern, maintained replacement for ls
 sys-apps/fakechroot 2.20.1_p2: Provide a faked chroot environment without requiring root privileges
 sys-apps/fakeroot 1.32.2 1.33: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
@@ -17240,7 +17240,7 @@ sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
 sys-apps/policycoreutils 3.8.1 3.9 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.6 0.9.7 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
-sys-apps/portage 3.0.72-r1 3.0.77 3.0.77-r1 3.0.77-r3 3.0.77-r4 9999: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.77-r4 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
 sys-apps/ppc64-diag 2.7.9: Diagnostic tools for PowerLinux
 sys-apps/prctl 1.6-r1: Tool to query and modify process behavior
@@ -17933,7 +17933,7 @@ sys-process/fcron 3.4.0 3.4.0-r1: A command scheduler with extended capabilities
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1: CLI curses based monitoring tool
 sys-process/gnome-usage 46.1 48.0: A nice way to view information about use of system resources
-sys-process/htop 3.4.1-r2 9999: Interactive process viewer
+sys-process/htop 3.4.1-r2 3.5.1 9999: Interactive process viewer
 sys-process/incron 0.5.12_p20171113-r1: inotify based cron daemon
 sys-process/iotop 0.6_p20230124: Top-like UI used to show which process is using the I/O
 sys-process/iotop-c 1.27 1.29 1.30 1.31: top utility for IO (C port)
@@ -18234,9 +18234,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 25.12.3 26.04.0: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.8.0 140.9.0 140.9.1 140.10.0 148.0.2 149.0 149.0.2 150.0: Firefox Web Browser
+www-client/firefox 140.8.0 140.9.0 140.9.1 140.10.0 148.0.2 149.0 149.0.2 150.0 150.0.1: Firefox Web Browser
 www-client/firefox-bin 140.8.0 140.9.0 140.9.1 140.10.0 148.0.2 149.0 149.0.2 150.0 150.0.1: Firefox Web Browser
-www-client/firefox-l10n 149.0-r1 149.0.2 150.0: Firefox Web Browser's translation files
+www-client/firefox-l10n 149.0-r1 149.0.2 150.0 150.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 146.0.7680.177 147.0.7727.116: The web browser from Google
 www-client/google-chrome-beta 147.0.7727.49 148.0.7778.56: The web browser from Google
 www-client/google-chrome-unstable 149.0.7808.0: The web browser from Google
