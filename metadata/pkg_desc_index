@@ -8623,7 +8623,7 @@ dev-python/ioflo 2.0.3: Automated Reasoning Engine and Flow Based Programming Fr
 dev-python/ipdb 0.13.13: IPython-enabled pdb
 dev-python/ipy 1.01-r1: Class and tools for handling of IPv4 and IPv6 addresses and networks
 dev-python/ipykernel 6.31.0 7.1.0 7.2.0: IPython Kernel for Jupyter
-dev-python/ipyparallel 9.0.2 9.1.0: Interactive Parallel Computing with IPython
+dev-python/ipyparallel 9.1.0-r1: Interactive Parallel Computing with IPython
 dev-python/ipython 9.11.0 9.12.0 9.13.0: Advanced interactive shell for Python
 dev-python/ipython-genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/ipython-pygments-lexers 1.1.1: Pygments lexers for syntax-highlighting IPython code and sessions
@@ -17577,7 +17577,7 @@ sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.gu
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.5.0 13.4.0 14.3.0 15.2.0: 64bit kernel compiler
 sys-devel/m4 1.4.19-r2 1.4.20 1.4.21: GNU macro processor
-sys-devel/mold 2.40.4 2.40.4-r2 9999: A Modern Linker
+sys-devel/mold 2.40.4 2.40.4-r2 2.41.0 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
 sys-devel/native-cctools 5-r1 5-r2: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20240809 0_pre20260402 9999: Collection of tools for use with nvptx-none GCC toolchains
