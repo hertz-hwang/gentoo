@@ -11009,7 +11009,7 @@ dev-util/pixi 0.67.0 0.67.1 0.67.2: A package management and workflow tool
 dev-util/pkgcheck 0.10.37-r1 0.10.39 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.3.0 2.4.3 2.5.1 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
-dev-util/pkgdev 0.2.12 9999: Collection of tools for Gentoo development
+dev-util/pkgdev 0.2.12 0.2.13 9999: Collection of tools for Gentoo development
 dev-util/pkgdiff 1.8 9999: Package Changes Analyzer (pkgdiff)
 dev-util/plan9port 0_pre20240617 0_pre20260226: Port of many Plan 9 programs and libraries
 dev-util/ply 2.3.0: Dynamic instrumentation of the Linux kernel with BPF and kprobes
@@ -16336,7 +16336,7 @@ sci-mathematics/gmp-ecm 7.0.6-r1: Elliptic Curve Method for Integer Factorizatio
 sci-mathematics/gp2c 0.0.12 0.0.14: A GP to C translator
 sci-mathematics/gretl 2021d: Regression, econometrics and time-series library
 sci-mathematics/gsl-shell 2.3.5: Lua interactive shell for sci-libs/gsl
-sci-mathematics/highs 1.14.0: Modern solver for linear, quadratic, and mixed-integer programs
+sci-mathematics/highs 1.14.0-r1: Modern solver for linear, quadratic, and mixed-integer programs
 sci-mathematics/jags 4.3.1-r1: Just Another Gibbs Sampler for Bayesian MCMC simulation
 sci-mathematics/kind2 1.9.0: Multi-engine SMT-based automatic model checker
 sci-mathematics/kissat 3.1.1-r1 4.0.4: Keep-it-simple and clean bare metal SAT solver written in C
