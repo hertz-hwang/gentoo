@@ -4044,7 +4044,7 @@ dev-db/phpmyadmin 5.2.3: Web-based administration for MySQL and MariaDB database
 dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.8-r1 3.3.9 3.4.4-r1 3.4.5 3.5.2-r1 3.5.3-r2 3.5.5 3.6.0 3.6.2: Geographic Objects for PostgreSQL
-dev-db/postgresql 14.21 14.22 15.16 15.17 16.12 16.13 17.8 17.9 18.2 18.3 9999: PostgreSQL RDBMS
+dev-db/postgresql 14.22 15.17 16.13 17.9 18.3 9999: PostgreSQL RDBMS
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
 dev-db/psqlodbc 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
@@ -15431,7 +15431,7 @@ net-misc/tinyssh 20260301 20260401 99999999: A small SSH server with state-of-th
 net-misc/tipcutils 3.0.6: Utilities for TIPC (Transparent Inter-Process Communication)
 net-misc/trurl 0.16.1 9999: Command line tool for URL parsing and manipulation
 net-misc/tuba 0.10.3: Browse the Fediverse (GTK client)
-net-misc/turbovnc 3.2.1-r1 3.3: A fast replacement for TigerVNC
+net-misc/turbovnc 3.3-r1: A fast replacement for TigerVNC
 net-misc/ubridge 0.9.19-r1: Bridge for UDP tunnels, Ethernet, TAP and VMnet interfaces
 net-misc/ucarp 1.5.2-r7: Portable userland implementation of Common Address Redundancy Protocol (CARP)
 net-misc/udpcast 20211207 20211207-r1: Multicast file transfer tool
