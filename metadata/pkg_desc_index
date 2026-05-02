@@ -3002,7 +3002,7 @@ app-office/denaro 2024.2.0: A personal finance manager
 app-office/dia 0.97.3-r4 0.98_pre20250913: Diagram/flowchart creation program
 app-office/dia2code 1.0.0-r2: Convert UML diagrams produced with Dia to various source code flavours
 app-office/drawio-desktop-bin 26.2.2 29.6.6: draw.io diagramming and whiteboarding desktop app
-app-office/endeavour 43.0-r1 9999: Personal task manager
+app-office/endeavour 43.0-r1 43.0-r2: Personal task manager
 app-office/glabels 3.4.1-r2: Program for creating labels and business cards
 app-office/gnucash 5.14: Personal finance manager
 app-office/gnumeric 1.12.59-r1 1.12.60: The GNOME Spreadsheet
@@ -4093,7 +4093,7 @@ dev-debug/peda 1.2 9999: Python Exploit Development Assistance for GDB
 dev-debug/pwndbg 20250418-r1 20250530-r3 20251010-r3 20251020-r3 99999999: A GDB plug-in that makes debugging with GDB suck less
 dev-debug/rr 5.9.0-r1 9999: Record and Replay Framework
 dev-debug/scap-driver 0.20.0: Kernel module for dev-debug/sysdig
-dev-debug/strace 6.19 7.0 9999: Useful diagnostic, instructional, and debugging tool
+dev-debug/strace 6.19 7.0-r1 9999: Useful diagnostic, instructional, and debugging tool
 dev-debug/sysdig 0.40.1-r1: A system exploration and troubleshooting tool
 dev-debug/systemtap 5.3-r1 5.4 9999: Linux trace/probe tool
 dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0_rc2 3.27.0 9999: An open-source memory debugger for GNU/Linux
@@ -8926,7 +8926,7 @@ dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
 dev-python/paramiko 3.5.1 4.0.0-r1: SSH2 protocol library
-dev-python/parse 1.21.1: Parse strings using a specification based on the Python format() syntax
+dev-python/parse 1.21.1 1.22.0: Parse strings using a specification based on the Python format() syntax
 dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
 dev-python/parso 0.8.6: A python parser that supports error recovery and round-trip parsing
@@ -10955,7 +10955,7 @@ dev-util/kubeval 0.16.1: validate kubernetes YAML or JSON configuration files
 dev-util/kup 0.3.6-r6 0.3.6-r8: kernel.org uploader tool
 dev-util/kyua 0.13-r3 0.14 0.14.1: Testing framework for infrastructure software
 dev-util/lcov 2.0-r3 2.0-r4 2.3-r1 2.3.1-r1 2.3.2 2.4 9999: A graphical front-end for GCC's coverage testing tool gcov
-dev-util/libabigail 2.9 9999: Suite of tools for checking ABI differences between ELF objects
+dev-util/libabigail 2.9 2.10 9999: Suite of tools for checking ABI differences between ELF objects
 dev-util/librnp 0.18.1: High performance C++ OpenPGP library
 dev-util/libtree 3.1.1: ldd as a tree with an option to bundle dependencies into a single folder
 dev-util/linklint 2.3.5: A Perl program that checks links on web sites
@@ -11166,7 +11166,7 @@ dev-vcs/git-repair 1.20220404 1.20230814: A tool to repair damaged git repositor
 dev-vcs/git-sh 1.3-r2: A customized bash environment suitable for git work
 dev-vcs/git-sizer 1.5.0: Compute various size metrics for a Git repository
 dev-vcs/git-tools 2022.12 2025.08: Assorted git-related scripts
-dev-vcs/gitg 44-r4: git repository viewer for GNOME
+dev-vcs/gitg 44-r4 44-r5: git repository viewer for GNOME
 dev-vcs/gitolite 3.6.13 3.6.14: Highly flexible server for git directory version tracker
 dev-vcs/gitolite-gentoo 3.6.6.1-r3 3.6.13.1: Highly flexible server for git directory version tracker, Gentoo fork
 dev-vcs/gitstats 0_pre20201124: Statistics generator for git
@@ -12638,7 +12638,7 @@ mail-client/bower 1.0: Curses terminal client for the Notmuch email system
 mail-client/claws-mail 3.21.0-r2 4.3.0-r3 4.3.1-r2 4.4.0 9999: An email client (and news reader) based on GTK+
 mail-client/clawsker 1.4.0 1.4.1: Applet to edit Claws Mail's hidden preferences
 mail-client/evolution 3.56.2-r1 3.58.2-r1 3.58.3 3.60.1: Integrated mail, addressbook and calendaring functionality
-mail-client/geary 46.0-r1: A lightweight, easy-to-use, feature-rich email client
+mail-client/geary 46.0-r1 46.0-r2: A lightweight, easy-to-use, feature-rich email client
 mail-client/hap 3.7-r1: A terminal mail notification program (replacement for biff)
 mail-client/mailx 8.1.2.20220412: The $ mail program, which is used to send mail via shell scripts
 mail-client/mailx-support 20060102-r3: Provides lockspool utility
@@ -13444,7 +13444,7 @@ media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
 media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.64 2.32.66 2.32.68: Simple Direct Media Layer
-media-libs/libsdl3 3.2.30 3.4.2 3.4.4 3.4.6: Simple Direct Media Layer
+media-libs/libsdl3 3.2.30 3.4.2 3.4.4 3.4.6 3.4.8: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
 media-libs/libshumate 1.4.0 1.5.1: Shumate is a GTK toolkit providing widgets for embedded maps
@@ -15198,7 +15198,7 @@ net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dhcp 4.4.3_p1-r6: ISC Dynamic Host Configuration Protocol (DHCP) client/server
-net-misc/dhcpcd 10.2.2 10.2.2-r1 10.2.3 10.2.4 10.3.0 10.3.1 10.3.2 9999: A fully featured, yet light weight RFC2131 compliant DHCP client
+net-misc/dhcpcd 10.2.4 10.3.0 10.3.1 10.3.2 9999: A fully featured, yet light weight RFC2131 compliant DHCP client
 net-misc/dhcpcd-ui 0.7.9-r1: Desktop notification and configuration for dhcpcd
 net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if responding
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
@@ -17268,7 +17268,7 @@ sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1: Generates an init binary for s6-ba
 sys-apps/s6-linux-utils 2.6.3.0 2.6.4.0: Set of tiny linux utilities
 sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1: Service manager for the s6 supervision suite
-sys-apps/sandbox 2.46 2.47 9999: sandbox'd LD_PRELOAD hack
+sys-apps/sandbox 2.46 2.47 2.48 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
 sys-apps/secilc 3.8.1 3.9 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.9-r1 4.10: Super-useful stream editor
@@ -18420,7 +18420,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.22 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.10 24.1.11 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.288.01 535.309.01 570.211.01 580.126.18 580.142 580.159.03-r1 590.48.01-r1 595.44.05 595.58.03 595.71.05: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.288.01 535.309.01 570.211.01 580.126.18 580.142 580.159.03-r1 590.48.01-r1 595.44.06 595.58.03 595.71.05: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
@@ -18974,7 +18974,7 @@ x11-terms/ghostty 1.1.3 1.2.3 1.3.0-r1 1.3.1: Fast, feature-rich, and cross-plat
 x11-terms/ghostty-terminfo 1.1.3 1.2.3 1.3.0 1.3.1: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
 x11-terms/gnome-terminal 3.56.3 3.58.0: A terminal emulator for GNOME
 x11-terms/guake 3.10: Drop-down terminal for GNOME
-x11-terms/kitty 0.45.0-r1 0.46.1 0.46.2 9999: Fast, feature-rich, GPU-based terminal
+x11-terms/kitty 0.45.0-r1 0.46.1 0.46.2-r1 9999: Fast, feature-rich, GPU-based terminal
 x11-terms/kitty-shell-integration 0.45.0 0.46.1 0.46.2 9999: Shell integration scripts for kitty, a GPU-based terminal emulator
 x11-terms/kitty-terminfo 0.45.0-r1 0.46.1 0.46.2 9999: Terminfo for kitty, a GPU-based terminal emulator
 x11-terms/kterm 6.2.0-r7: Japanese Kanji X Terminal
