@@ -1821,8 +1821,8 @@ app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU
 app-editors/fe 2.0-r1: A small and easy to use folding editor
 app-editors/featherpad 1.6.2 1.6.3 9999: Lightweight Qt5 Plain-Text Editor for Linux
 app-editors/focuswriter 1.8.10: Fullscreen and distraction-free word processor
-app-editors/gedit 46.2 48.1 48.2: A text editor for the GNOME desktop
-app-editors/gedit-plugins 46.0-r1 48.1 48.2: Collection of extra plugins for the gedit Text Editor
+app-editors/gedit 46.2 48.1 48.2 49.0: A text editor for the GNOME desktop
+app-editors/gedit-plugins 48.1 48.2 49.0: Collection of extra plugins for the gedit Text Editor
 app-editors/ghex 48.1 48.3 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 25.12.3 26.04.0: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-latex 3.46.0-r1: Integrated LaTeX environment for GNOME
@@ -1857,8 +1857,8 @@ app-editors/neovim 0.11.6-r2 0.11.7 0.12.0 0.12.1 0.12.2 9999: Vim-fork focused 
 app-editors/ng 1.5_beta1-r3: Emacs like micro editor Ng -- based on mg2a
 app-editors/okteta 0.26.60_pre20260202: Hex editor by KDE
 app-editors/padre 1.0.0-r4: Perl Application Development and Refactoring Environment
-app-editors/pluma 1.28.0-r1: Pluma text editor for the MATE desktop
-app-editors/pluma-plugins 1.28.0: A set of plugins for Pluma, the MATE text editor.
+app-editors/pluma 1.28.0-r1 1.28.1: Pluma text editor for the MATE desktop
+app-editors/pluma-plugins 1.28.0 1.28.0-r1: A set of plugins for Pluma, the MATE text editor.
 app-editors/pyvim 3.0.3: An implementation of Vim in Python
 app-editors/qemacs 0.4.1_pre20170225-r1: QEmacs is a very small but powerful UNIX editor
 app-editors/qhexedit2 0.8.10-r1 0.8.10-r2 0.9.0-r1: Hex editor library, Qt application written in C++ with Python bindings
@@ -2441,7 +2441,7 @@ app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet 
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 11.0.1_beta1 11.0.1_beta2 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 11.0 11.4 11.5 11.6 11.7 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.4 11.5 11.6 11.7 9999: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.6 11.7 11.8 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
@@ -4093,7 +4093,7 @@ dev-debug/peda 1.2 9999: Python Exploit Development Assistance for GDB
 dev-debug/pwndbg 20250418-r1 20250530-r3 20251010-r3 20251020-r3 99999999: A GDB plug-in that makes debugging with GDB suck less
 dev-debug/rr 5.9.0-r1 9999: Record and Replay Framework
 dev-debug/scap-driver 0.20.0: Kernel module for dev-debug/sysdig
-dev-debug/strace 6.16 6.17 6.18 6.19 9999: Useful diagnostic, instructional, and debugging tool
+dev-debug/strace 6.19 7.0 9999: Useful diagnostic, instructional, and debugging tool
 dev-debug/sysdig 0.40.1-r1: A system exploration and troubleshooting tool
 dev-debug/systemtap 5.3-r1 5.4 9999: Linux trace/probe tool
 dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0_rc2 3.27.0 9999: An open-source memory debugger for GNU/Linux
@@ -5563,7 +5563,7 @@ dev-libs/libgit2-glib 1.2.1-r1: Git library for GLib
 dev-libs/libglib-testing 0.1.1: Libglib-testing is a test library providing test harnesses and mock classes
 dev-libs/libgnome-games-support 1.8.2 2.0.1 2.0.2: Library for code common to GNOME games
 dev-libs/libgnt 2.14.3-r1: Pidgin's GLib Ncurses Toolkit
-dev-libs/libgpg-error 1.56 1.57 1.58 1.59: Contains error handling functions used by GnuPG software
+dev-libs/libgpg-error 1.59 1.60: Contains error handling functions used by GnuPG software
 dev-libs/libgpiod 1.6.4 1.6.5 2.2.3 2.2.4: C library and tools for interacting with the linux GPIO character device
 dev-libs/libgrapheme 2.0.2 3.0.0: Unicode string library
 dev-libs/libgudev 238-r2: GObject bindings for libudev
@@ -5628,7 +5628,7 @@ dev-libs/libparserutils 0.2.5: C library for building efficient parsers
 dev-libs/libpcre 8.45-r4: Perl-compatible regular expression library
 dev-libs/libpcre-debian 8-r3: libpcre(posix).so.3 symlinks for compatibility with Debian
 dev-libs/libpcre2 10.47: Perl-compatible regular expression library
-dev-libs/libpeas 1.36.0 2.0.7-r1: A GObject plugins library
+dev-libs/libpeas 1.36.0 1.38.1 2.0.7-r1: A GObject plugins library
 dev-libs/libpfm 4.13.0: Hardware-based performance monitoring interface for Linux
 dev-libs/libphonenumber 8.13.47-r1: Library for parsing, formatting, and validating international phone numbers
 dev-libs/libpipeline 1.5.8: Pipeline manipulation library
@@ -11474,13 +11474,13 @@ games-emulation/fceux 2.6.6-r2: Portable Famicom/NES emulator, an evolution of t
 games-emulation/gambatte-jg 0.6.0 9999: Jolly Good Fork of Gambatte
 games-emulation/generator 0.35_p4-r1: Sega Genesis / Mega Drive emulator
 games-emulation/gens 2.15.5-r2: Sega Genesis/CD/32X emulator
-games-emulation/geolith-jg 0.2.2 0.3.0 9999: Jolly Good Neo Geo AES/MVS Emulator
+games-emulation/geolith-jg 0.2.2 0.3.0 0.4.1 9999: Jolly Good Neo Geo AES/MVS/CD/CDZ Emulator
 games-emulation/gngb 20060309-r2: Gameboy / Gameboy Color emulator
 games-emulation/gnuboy 1.0.3-r4: Gameboy emulator with multiple renderers
 games-emulation/hatari 2.6.0 2.6.1: Atari ST emulator
 games-emulation/higan 116_pre20210818-r2: Multi-system emulator focused on accuracy, preservation, and configurability
 games-emulation/jgemu 1.0.0: Meta ebuild for the Jolly Good API
-games-emulation/jgrf 1.2.2 1.3.0 9999: The Jolly Good Reference Frontend
+games-emulation/jgrf 1.2.2 1.3.0 1.4.0 9999: The Jolly Good Reference Frontend
 games-emulation/jollycv-jg 2.0.0 9999: Jolly Good ColecoVision, CreatiVision and My Vision Emulator
 games-emulation/jrommanager 1.8_p27-r1: A Mame and Retrogaming Rom Manager, Java alternative to ClrMamePro
 games-emulation/libretro-bnes 0.0.1_pre20180723 9999: bNES libretro port
@@ -12155,10 +12155,10 @@ gui-libs/gtksourceview 5.16.0 5.18.0: A text widget implementing syntax highligh
 gui-libs/kddockwidgets 2.4.0: KDAB's Dock Widget Framework for Qt
 gui-libs/libadwaita 1.7.7-r1 1.7.9 1.8.2 1.8.5.1: Building blocks for modern GNOME applications
 gui-libs/libdecor 0.2.3 0.2.4 0.2.5 9999: A client-side decorations library for Wayland clients
-gui-libs/libgedit-amtk 5.9.0 5.9.2: Actions, Menus and Toolbars Kit for GTK applications
-gui-libs/libgedit-gfls 0.2.1 0.3.1: A module dedicated to file loading and saving
-gui-libs/libgedit-gtksourceview 299.4.0-r1 299.5.0: Gedit Technology - Source code editing widget
-gui-libs/libgedit-tepl 6.12.0-r1 6.13.0: GtkSourceView-based text editors and IDE helper library
+gui-libs/libgedit-amtk 5.9.0 5.9.2 5.10.0: Actions, Menus and Toolbars Kit for GTK applications
+gui-libs/libgedit-gfls 0.2.1 0.3.1 0.4.1: A module dedicated to file loading and saving
+gui-libs/libgedit-gtksourceview 299.4.0-r1 299.5.0 299.7.0: Gedit Technology - Source code editing widget
+gui-libs/libgedit-tepl 6.12.0-r1 6.13.0 6.14.0: GtkSourceView-based text editors and IDE helper library
 gui-libs/libhandy 1.8.3: Building blocks for modern adaptive GNOME apps
 gui-libs/libpanel 1.10.2 1.10.3 1.10.4: A dock/panel library for GTK 4
 gui-libs/libsfdo 0.1.4: Collection of libraries which implement some freedesktop.org specifications
@@ -13443,8 +13443,8 @@ media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherape
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
-media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.64 2.32.66: Simple Direct Media Layer
-media-libs/libsdl3 3.2.30 3.4.2 3.4.4: Simple Direct Media Layer
+media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.64 2.32.66 2.32.68: Simple Direct Media Layer
+media-libs/libsdl3 3.2.30 3.4.2 3.4.4 3.4.6: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
 media-libs/libshumate 1.4.0 1.5.1: Shumate is a GTK toolkit providing widgets for embedded maps
@@ -15204,7 +15204,7 @@ net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
 net-misc/downloader-cli 0.3.4-r1: Simple downloader with an customizable progressbar
 net-misc/dropbear 2025.89: Small SSH 2 client/server designed for small memory environments
-net-misc/dropbox 243.4.6956 244.4.6580 246.4.3513 248.4.3576-r1: Dropbox daemon (pretends to be GUI-less)
+net-misc/dropbox 243.4.6956 244.4.6580 246.4.3513 248.4.3576-r1 250.4.3245: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2024.04.17-r1 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.7.1 4.7.2: User friendly Bitcoin client
@@ -16323,7 +16323,7 @@ sci-mathematics/functions-matlab-colormaps 1.0_p20250328: Additional colormaps f
 sci-mathematics/gap 4.14.0-r1 4.15.1: System for computational discrete algebra. Core functionality.
 sci-mathematics/gappa 1.4.1 1.4.2: Tool for verifying floating-point or fixed-point arithmetic
 sci-mathematics/gappalib-coq 1.5.2-r1 1.5.3: Allows the certificates Gappa generates to be imported by the Coq
-sci-mathematics/genius 1.0.27: Genius Mathematics Tool and the GEL Language
+sci-mathematics/genius 1.0.27-r1: Genius Mathematics Tool and the GEL Language
 sci-mathematics/geogebra-bin 5.0.752.0 6.0.804.0-r1: Mathematics software for geometry
 sci-mathematics/geomview 1.9.5-r1: Interactive Geometry Viewer
 sci-mathematics/gfan 0.6.2-r7 0.6.2-r8: Compute Groebner fans and tropical varieties
@@ -17565,14 +17565,14 @@ sys-devel/bison 3.8.2-r2 3.8.2-r3: A general-purpose (yacc-compatible) parser ge
 sys-devel/bpf-toolchain 15.2.0_p3: All-in-one bpf toolchain for building DTrace and systemd without crossdev
 sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23: Symlinks to a Clang crosscompiler
 sys-devel/cproc 0_pre20240413 0_pre20260113 9999: C11 compiler using QBE as backend
-sys-devel/crossdev 20260326 99999999: Gentoo Cross-toolchain generator
+sys-devel/crossdev 20260326 20260501 99999999: Gentoo Cross-toolchain generator
 sys-devel/crosstool-ng 1.27.0 1.28.0 9999: Versatile (cross-)toolchain generator
 sys-devel/dev86 1.0.1: Bruce's C compiler - Simple C compiler to generate 8086 code
 sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across several machines on a network
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.3.9999 16.1.0 16.2.9999 17.0.0_p20260426 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.3.9999 16.1.0 16.2.9999 17.0.0_p20260426 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
