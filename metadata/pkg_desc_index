@@ -1136,7 +1136,7 @@ app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
 app-arch/alien 8.95-r2 8.95.6 8.95.7 8.95.8 8.95.9: Converts between the rpm, dpkg, stampede slp, and slackware tgz file formats
 app-arch/arc 5.21q: Create & extract files from DOS .ARC files
-app-arch/arj 3.10.22-r8 3.10.22_p28: Utility for opening arj archives
+app-arch/arj 3.10.22_p28-r1: Utility for opening arj archives
 app-arch/atool 0.39.0-r1: Script for managing file archives of various types
 app-arch/brotli 1.0.9-r6 1.1.0 1.2.0 1.2.0-r1 9999: Generic-purpose lossless compression algorithm
 app-arch/bsdsfv 1.18-r3: all-in-one SFV checksum utility
@@ -2404,7 +2404,7 @@ app-emulation/plus42 1.3.10 1.3.12 1.3.13: An Enhanced HP-42S Calculator Simulat
 app-emulation/protontricks 1.13.1 1.14.1: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r2: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.4.2: Qt GUI configuration tool for Wine
-app-emulation/qemu 9.1.3-r2 9.2.3-r3 9.2.4 10.0.5 10.0.7 10.1.3-r1 10.2.0-r1 10.2.2 9999: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 9.2.3-r3 9.2.4 10.0.5 10.0.7 10.1.3-r1 10.2.0-r1 10.2.2 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 8.2.0 9.2.0: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.8-r1: RISC-V CPU simulator for education
@@ -3349,7 +3349,7 @@ app-text/pandoc 2.18-r2 3: Metapackage for pandoc version 3
 app-text/pandoc-bin 3.8.3 3.9 3.9.0.1 3.9.0.2: Conversion between markup formats (binary package)
 app-text/pandoc-cli 0.1.1-r1: Conversion between documentation formats
 app-text/paper-clip 5.5.2 9999: Edit the title, author, keywords and more details of PDF documents
-app-text/papers 48.5-r1 49.5 49.6: A document viewer for the GNOME desktop
+app-text/papers 48.5-r1 49.5 49.6-r1: A document viewer for the GNOME desktop
 app-text/paperwork 2.2.5: a personal document manager for scanned documents (and PDFs)
 app-text/paperwork-backend 2.2.5 2.2.5-r1: Backend part of Paperwork (Python API, no UI)
 app-text/paps 0.8.0: Unicode-aware text to PostScript converter
@@ -5362,7 +5362,7 @@ dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serializatio
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
 dev-libs/cJSON 1.7.18 1.7.19: Ultralightweight JSON parser in ANSI C
-dev-libs/capnproto 0.9.1 0.10.2 0.10.4-r1 1.0.2 1.1.0: RPC/Serialization system with capabilities support
+dev-libs/capnproto 1.0.2 1.1.0 1.4.0: RPC/Serialization system with capabilities support
 dev-libs/capstone 5.0.6-r1 5.0.7 6.0.0_alpha4-r1 6.0.0_alpha5-r1 6.0.0_alpha6 6.0.0_alpha7 9999: disassembly/disassembler framework + bindings
 dev-libs/castxml 0.7.0: C-family abstract syntax tree XML output tool
 dev-libs/cdk 5.0.20230201 5.0.20230201-r2 5.0.20240331-r1 5.0.20240619-r2 5.0.20250116-r1 5.0.20251014 5.0.20260119: A library of curses widgets
@@ -11978,7 +11978,7 @@ gnome-base/gnome-light 45.2 48.0: Meta package for GNOME-Light, merge this packa
 gnome-base/gnome-menus 3.36.0-r1 3.38.1: Library and layout configuration for the Desktop Menu fd.o specification
 gnome-base/gnome-panel 3.54.0 3.56.0 3.58.1: The GNOME Flashback Panel
 gnome-base/gnome-session 48.0-r2 49.2: Gnome session manager
-gnome-base/gnome-session-openrc 49.0 49.0-r1 49.1: Gnome session leader for OpenRC
+gnome-base/gnome-session-openrc 49.1-r1: Gnome session leader for OpenRC
 gnome-base/gnome-settings-daemon 48.1 49.1: Gnome Settings Daemon
 gnome-base/gnome-shell 48.5 48.7 48.8 49.6: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0 49.1: Collection of GSettings schemas for GNOME desktop
@@ -14733,7 +14733,7 @@ net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/s6-dns 2.4.1.0 2.4.1.1: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 47 47.1: A local DNS server returns the fastest access results
-net-dns/unbound 1.23.0-r1 1.24.1-r1 1.24.2 1.24.2-r1: A validating, recursive and caching DNS resolver
+net-dns/unbound 1.24.2 1.24.2-r1 1.25.0: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a 2.1.2a: Arno's iptables firewall script
@@ -15182,7 +15182,7 @@ net-misc/casync 2_p20250922: Content-Addressable Data Synchronization Tool
 net-misc/cbqinit 0.7.3-r3: Sets up class-based queue traffic control (QoS) with iproute2
 net-misc/cgminer 4.10.0-r1: Bitcoin CPU/GPU/FPGA/ASIC miner in C
 net-misc/chrome-remote-desktop 118.0.5993.9: access remote computers via Chrome!
-net-misc/chrony 4.8 9999: NTP client and server programs
+net-misc/chrony 4.8-r1 9999: NTP client and server programs
 net-misc/clockspeed 0.62-r9: Simple Network Time Protocol (NTP) client
 net-misc/clusterssh 4.16 4.18 9999: Concurrent Multi-Server Terminal Access
 net-misc/cmst 2023.03.14-r2: Qt GUI for Connman with system tray icon
@@ -18329,7 +18329,7 @@ www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
 www-servers/tomcat 9.0.115 10.1.52 11.0.18: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
-www-servers/vinyl-cache 8.0.0 8.0.1 9.0.0: A high-performance caching HTTP reverse proxy
+www-servers/vinyl-cache 8.0.1 9.0.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
 x11-apps/appres 1.0.7: list X application resource database
 x11-apps/bdftopcf 1.1.2: X.Org bdftopcf application

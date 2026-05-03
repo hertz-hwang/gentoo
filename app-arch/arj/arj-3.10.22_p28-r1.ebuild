@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -47,6 +47,7 @@ PATCHES=(
 	"${WORKDIR}"/debian/patches/fix-implicit-func.patch
 	"${FILESDIR}"/arj-3.10.22-implicit-declarations.patch
 	"${FILESDIR}"/arj-3.10.22-darwin.patch
+	"${FILESDIR}"/arj-3.10.22-aligned-pointers.patch
 )
 
 DOCS=( doc/compile.txt doc/debug.txt doc/glossary.txt doc/rev_hist.txt doc/xlation.txt )
