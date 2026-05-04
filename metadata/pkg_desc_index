@@ -892,7 +892,7 @@ app-accessibility/accerciser 3.46.2 3.48.0: Interactive Python accessibility exp
 app-accessibility/at-spi2-atk 2.46.0: Gtk module for bridging AT-SPI to Atk
 app-accessibility/at-spi2-core 2.56.5 2.58.2: D-Bus accessibility specifications and registration daemon
 app-accessibility/brltty 6.7 6.8 6.9 6.9.1: Daemon that provides access to the Linux/Unix console for a blind person
-app-accessibility/caribou 0.4.21-r8 0.4.21-r9: Input assistive technology intended for switch and pointer users
+app-accessibility/caribou 0.4.21-r9: Input assistive technology intended for switch and pointer users
 app-accessibility/edbrowse 3.8.13 3.8.15: Combination editor, browser, and mail client that is 100% text based
 app-accessibility/emacspeak 56.0-r1 60.0-r1 9999: The emacspeak audio desktop
 app-accessibility/emacspeak-ss 1.9.1-r1 1.9.1-r2: Adds support for several speech synthesizers to emacspeak
@@ -5970,7 +5970,7 @@ dev-lua/lua-resty-mysql 0.27: Nonblocking Lua MySQL driver library for the ngx-l
 dev-lua/lua-resty-string 0.16: String utilities and common hash functions for the ngx-lua-module NGINX module
 dev-lua/lua-term 0.8: Terminal operations for Lua
 dev-lua/lua-unbound 1.0.0: A binding to libunbound for Lua
-dev-lua/lua-utf8 0.1.5: A UTF-8 support module for Lua and LuaJIT
+dev-lua/lua-utf8 0.1.5 0.2.0: A UTF-8 support module for Lua and LuaJIT
 dev-lua/lua-zlib 1.4: Simple streaming interface to zlib for Lua
 dev-lua/lua_cliargs 3.0.2: A command-line argument parsing module for Lua
 dev-lua/luacheck 1.2.0: A tool for linting and static analysis of Lua code
@@ -12644,7 +12644,7 @@ mail-client/mailx 8.1.2.20220412: The $ mail program, which is used to send mail
 mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.2.16 2.3.0 2.3.2: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
-mail-client/neomutt 20240201 20250510 20251211-r1 20260105 20260406 99999999: A small but very powerful text-based mail client
+mail-client/neomutt 20240201 20250510 20251211-r1 20260105 20260406 20260504 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.14 1.7_rc5 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 140.8.1 140.9.0 140.9.1 140.10.0 140.10.1 148.0.1 149.0 149.0.1 149.0.2 150.0 150.0.1: Thunderbird Mail Client
@@ -14388,7 +14388,7 @@ media-video/subtitler-yuv 0.6.5: for mjpegtools for adding subtitles, pictures &
 media-video/super_demux 0.3: DVB transport stream TS to ES demultiplexer
 media-video/tcmplex-panteltje 0.4.7-r2: Audio video multiplexer for 8 audio channels
 media-video/tivodecode 0.2_pre4: TiVo File Decoder
-media-video/totem 43.1 43.2: Media player for GNOME
+media-video/totem 43.1 43.2 43.2-r1: Media player for GNOME
 media-video/tsmuxer 2.7.0: Utility to create and demux TS and M2TS files
 media-video/ttcut 0.19.6_p2-r1: Tool for cutting MPEG files especially for removing commercials
 media-video/untrunc 0_pre20260204: Restore truncated mp4/mov files
