@@ -9,7 +9,7 @@ MY_PV="${PV//_/-}"
 MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="SELinux policy compiler"
-HOMEPAGE="http://userspace.selinuxproject.org"
+HOMEPAGE="https://github.com/SELinuxProject/selinux/wiki"
 
 if [[ ${PV} == 9999 ]] ; then
 	inherit git-r3

@@ -576,7 +576,7 @@ acct-user/ftpproxy 0-r2: A user for net-ftp/frox
 acct-user/gatling 0-r3: System user: gatling
 acct-user/gauth 0-r2: A user for sys-auth/google-authenticator-wrappers
 acct-user/gdm 0-r2: User for running GDM
-acct-user/gdm-greeter 1: User for GDM greeter specialized for elogind
+acct-user/gdm-greeter 1-r1: User for GDM greeter specialized for elogind
 acct-user/geneweb 0-r3: user id for geneweb daemon
 acct-user/geoclue 0-r2: User for running the GeoClue D-Bus geolocation service
 acct-user/gerbera 0-r3: Gerbera UPnP Media Server user
@@ -1087,7 +1087,7 @@ app-admin/superadduser 1.15: Interactive adduser script from Slackware
 app-admin/supervisor 4.2.5-r1 4.2.5_p20250125 4.3.0: A system for controlling process state under UNIX
 app-admin/sxid 4.2-r3 4.20130802: suid, sgid file and directory checking
 app-admin/sysklogd 2.5.2-r1 2.6.2-r1 2.7.2 9999: Standard log daemons
-app-admin/syslog-ng 4.6.0 4.7.1 4.8.1 4.8.1-r1 4.9.0 4.10.2: syslog replacement with advanced filtering features
+app-admin/syslog-ng 4.10.2 4.11.0: syslog replacement with advanced filtering features
 app-admin/syslog-summary 1.14-r5 1.14-r6: Summarizes the contents of a syslog log file
 app-admin/sysrqd 17-r2: Daemon providing access to the kernel sysrq functions via network
 app-admin/sysstat 12.6.2-r2: System performance tools for Linux
@@ -1233,7 +1233,7 @@ app-arch/wimlib 1.14.4-r1: The open source Windows Imaging (WIM) library
 app-arch/xar 1.8.0.0.498-r1: An easily extensible archive format
 app-arch/xarchiver 0.5.4.26: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
-app-arch/xz-utils 5.8.2 5.8.3 9999: Utils for managing LZMA compressed files
+app-arch/xz-utils 5.8.3 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 1.5.1 1.5.3 9999: File format designed for highly efficient deltas with good compression
 app-arch/zip 3.0-r7: Info ZIP (encryption support)
 app-arch/zoo 2.10-r6: Manipulate archives of files in compressed form
@@ -1404,7 +1404,7 @@ app-containers/podman 5.7.0 5.7.1 9999: A tool for managing OCI containers and p
 app-containers/podman-compose 1.5.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 1.5.0 1.6.1 1.9.0 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
-app-containers/runc 1.2.4 1.2.5 1.2.6 1.2.8 1.3.0 1.3.1 1.3.3 1.4.0-r1: runc container cli tools
+app-containers/runc 1.2.8 1.3.3 1.4.0-r1: runc container cli tools
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0: Terminal User Interface for docker engine
 app-containers/skopeo 1.18.0-r1 1.19.0 1.21.0 1.22.0 1.22.2 9999: Work with remote container images registries
@@ -4061,7 +4061,7 @@ dev-db/spatialite-tools 5.0.1-r2: A collection of CLI tools supporting SpatiaLit
 dev-db/sqlcipher 4.6.1: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 25.2.2.199.0918: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
-dev-db/sqlite 3.51.2 3.51.3 9999: SQL database engine
+dev-db/sqlite 3.51.2 3.51.3 3.53.1 9999: SQL database engine
 dev-db/sqlitebrowser 3.13.1_p20250502-r2 9999: Light GUI editor for SQLite databases
 dev-db/sqlitestudio 4.0.0_pre20251207: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.9.10 1.9.12 1.10 9999: An automatic SQL injection and database takeover tool
@@ -5094,7 +5094,7 @@ dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic tes
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/openjdk 8.482_p08 8.492_p09 11.0.30_p7 11.0.31_p11 17.0.18_p8 17.0.19_p10 17.0.19_p10-r1 21.0.10_p7 21.0.11_p10 21.0.11_p10-r1 25.0.2_p10 25.0.3_p9 25.0.3_p9-r1 26.0.1_p8 27_alpha18 27_alpha18-r1: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.482_p08 11.0.30_p7 17.0.18_p8 21.0.10_p7 25.0.2_p10 26_beta35 27_alpha18: Prebuilt Java JDK binaries provided by Eclipse Temurin
-dev-java/openjdk-jre-bin 8.462_p08 11.0.28_p6 17.0.16_p8 21.0.8_p9: Prebuilt Java JRE binaries provided by Eclipse Temurin
+dev-java/openjdk-jre-bin 8.462_p08 8.492_p09 11.0.28_p6 11.0.31_p11 17.0.16_p8 17.0.19_p10 21.0.8_p9 21.0.11_p10 25.0.3_p9: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 8.1000-r2 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
 dev-java/opentest4j 1.3.0-r1: Open Test Alliance for the JVM
@@ -5431,7 +5431,7 @@ dev-libs/girara 0.4.5 0.4.5-r1 9999: UI library that focuses on simplicity and m
 dev-libs/gjs 1.80.2-r1 1.84.2-r1 1.88.0: Javascript bindings for GNOME
 dev-libs/glib 2.84.4 2.84.4-r5 2.86.4-r1 2.86.5-r1 2.88.0-r1: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
-dev-libs/gmp 6.3.0-r1: Library for arbitrary-precision arithmetic on different type of numbers
+dev-libs/gmp 6.3.0-r1 6.3.0-r2: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2025.08.27.16.03.17 2026.01.14.22.26.00 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
 dev-libs/gobject-introspection 1.82.0-r3 1.84.0-r2 1.86.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0 1.84.0 1.86.0: Build infrastructure for GObject Introspection
@@ -5630,7 +5630,7 @@ dev-libs/libpcre 8.45-r4: Perl-compatible regular expression library
 dev-libs/libpcre-debian 8-r3: libpcre(posix).so.3 symlinks for compatibility with Debian
 dev-libs/libpcre2 10.47: Perl-compatible regular expression library
 dev-libs/libpeas 1.36.0 1.38.1 2.0.7-r1: A GObject plugins library
-dev-libs/libpfm 4.13.0: Hardware-based performance monitoring interface for Linux
+dev-libs/libpfm 4.13.0 4.13.0_p20260328 9999: Hardware-based performance monitoring interface for Linux
 dev-libs/libphonenumber 8.13.47-r1: Library for parsing, formatting, and validating international phone numbers
 dev-libs/libpipeline 1.5.8: Pipeline manipulation library
 dev-libs/libplatform 2.1.0.1-r2 2.1.0.1-r3 9999: Platform support library used by libCEC and binary add-ons for Kodi
@@ -5727,7 +5727,7 @@ dev-libs/m17n-lib 1.8.6 1.8.6-r1: Multilingual Library for Unix/Linux
 dev-libs/maloc 1.5-r1: Minimal Abstraction Layer for Object-oriented C/C++ programs
 dev-libs/marisa 0.2.7 0.3.1-r2 9999: Matching Algorithm with Recursively Implemented StorAge
 dev-libs/mathjax 2.7.7-r1 3.2.2-r2: JavaScript display engine for LaTeX, MathML and AsciiMath
-dev-libs/md4c 0.5.2: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant
+dev-libs/md4c 0.5.2 0.5.3: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant
 dev-libs/mdns 1.4.3: Public domain mDNS/DNS-SD library in C
 dev-libs/metee 6.2.1: Cross-platform access library for Intel CSME HECI interface
 dev-libs/mimalloc 2.1.9 2.2.7-r1 3.1.5 3.2.8-r1: A compact general purpose allocator with excellent performance
@@ -5870,7 +5870,7 @@ dev-libs/tree-sitter-json 0.23.0 0.24.8: JSON grammar for Tree-sitter
 dev-libs/tree-sitter-julia 0.22.0 0.23.1 0.25.0: Julia grammar for Tree-sitter
 dev-libs/tree-sitter-lua 0.3.0 0.4.0 0.4.1 0.5.0: Lua grammar for Tree-sitter
 dev-libs/tree-sitter-markdown 0.4.1 0.5.0 0.5.1 0.5.2 0.5.3: Markdown grammar for Tree-sitter
-dev-libs/tree-sitter-markdown-inline 0.2.3 0.3.2: Markdown-inline grammar for Tree-sitter
+dev-libs/tree-sitter-markdown-inline 0.2.3 0.2.3-r1 0.3.2 0.3.2-r1: Markdown-inline grammar for Tree-sitter
 dev-libs/tree-sitter-meta 1-r5: Metapackage for Tree Sitter packages
 dev-libs/tree-sitter-ocaml 0.20.4 0.23.2 0.24.0: OCaml grammar for Tree-sitter
 dev-libs/tree-sitter-php 0.23.2 0.23.12 0.24.2: PHP grammar for Tree-sitter
@@ -8163,7 +8163,7 @@ dev-python/apispec 6.10.0: A pluggable API specification generator
 dev-python/appdirs 1.4.4-r3: Module for determining appropriate platform-specific dirs
 dev-python/apprise 1.9.9 1.10.0: Push Notifications that work with just about every platform
 dev-python/apscheduler 3.11.2: In-process task scheduler with Cron-like capabilities
-dev-python/apsw 3.51.3.0: APSW - Another Python SQLite Wrapper
+dev-python/apsw 3.51.3.0 3.53.0.0: APSW - Another Python SQLite Wrapper
 dev-python/argcomplete 3.6.3: Bash tab completion for argparse
 dev-python/argh 0.31.3: A simple argparse wrapper
 dev-python/argon2-cffi 25.1.0: CFFI bindings to the Argon2 password hashing library
@@ -10804,7 +10804,7 @@ dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code co
 dev-util/claude-code 2.1.121: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
-dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2: A complete toolset for C and C++ development
+dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
 dev-util/clojure-tools 1.12.4.1629: Development tools for the Clojure programming language
 dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
@@ -10826,7 +10826,7 @@ dev-util/cpputest 4.0-r1: Unit testing and mocking framework for C/C++
 dev-util/cproto 4.7y: Generate C function prototypes from C source code
 dev-util/cpuinfo-collection 20101114: huge collection of /proc/cpuinfo files
 dev-util/cram 0.7-r2: Functional testing framework for command line applications
-dev-util/crash 9.0.0 9.0.1 9999: Red Hat crash utility; used for analyzing kernel core dumps
+dev-util/crash 9.0.1 9.0.2 9999: Red Hat crash utility; used for analyzing kernel core dumps
 dev-util/cscope 15.9 15.9-r1: Interactively examine a C program
 dev-util/csup 20060318-r1: A rewrite of CVSup
 dev-util/ctags 6.0_p20230423_p0-r2 6.1_p20240609_p0-r1 6.2.0-r1 6.2.1 9999: Exuberant Ctags creates tags files for code browsing in editors
@@ -10940,7 +10940,7 @@ dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
 dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
 dev-util/itstool 2.0.7-r2 2.0.7_p20250326: Translation tool for XML documents that uses gettext files and ITS rules
 dev-util/japi-compliance-checker 2.4 9999: Java API compliance checker
-dev-util/jenkins-bin 2.528.3 2.541.3 2.558: The leading open source automation server
+dev-util/jenkins-bin 2.541.3 2.555.1 2.561: The leading open source automation server
 dev-util/jfrog-cli 1.54.1 2.54.0 2.72.1 2.72.2 2.72.3 2.73.2: Command line utility for operations on container images and image repositories
 dev-util/kafkactl 5.5.0 5.7.0 5.9.0: CLI for interacting with Kafka
 dev-util/kcov 43 9999: Kcov is a code coverage tester for compiled languages, Python and Bash
@@ -11025,7 +11025,7 @@ dev-util/pscan 20000721-r1: A limited problem scanner for C source files
 dev-util/pwntools 4.14.1 4.15.0_beta1-r1 4.15.0 9999: CTF framework and exploit development library
 dev-util/py-spy 0.4.0 0.4.1: Sampling profiler for Python programs
 dev-util/pycharm-community 2024.3.5 2025.1.3 2025.2.5: Intelligent Python IDE with unique code assistance and analysis
-dev-util/pycharm-professional 2024.3.5 2025.1.4 2025.2.5 2025.3.1.1: Intelligent Python IDE with unique code assistance and analysis
+dev-util/pycharm-professional 2024.3.5 2025.1.4 2025.2.5 2025.3.1.1 2025.3.4 2026.1: Intelligent Python IDE with unique code assistance and analysis
 dev-util/qbs 3.1.2: Modern build tool for software projects
 dev-util/qdevicemonitor 1.0.1-r4: Crossplatform log viewer for Android, iOS and text files
 dev-util/quilt 0.69 9999: quilt patch manager
@@ -13253,7 +13253,7 @@ media-libs/fontconfig 2.16.2-r1 2.17.1: A library for configuring and customizin
 media-libs/freealut 1.1.0-r5: The OpenAL Utility Toolkit
 media-libs/freeglut 3.8.0: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-libs/freeimage 3.18.0-r10 3.18.0-r11: Image library supporting many formats
-media-libs/freetype 2.14.2 2.14.3 9999: High-quality and portable font engine
+media-libs/freetype 2.14.3 9999: High-quality and portable font engine
 media-libs/freeverb3 3.2.1-r3 3.2.1-r4: Reverb and Impulse Response Convolution plug-ins (Audacious/JACK)
 media-libs/ftgl 2.1.3_rc5-r1 2.1.3_rc5-r3: library to use arbitrary fonts in OpenGL applications
 media-libs/game-music-emu 0.6.4: Video game music file emulators
@@ -14110,7 +14110,7 @@ media-sound/multimux 0.2.5.2: Combines up to 8 audio mono wave ch. into one big 
 media-sound/munt-mt32emu-alsadrv 2.6.1: ALSA MIDI driver for emulating the Roland MT-32, CM-32L, CM-64 and LAPC-I
 media-sound/mup 6.9-r1: Program for printing music scores
 media-sound/muse 0.9.2_p20161002-r1: Multiple Streaming Engine, an icecast source streamer
-media-sound/musepack-tools 495: Musepack SV8 libraries and utilities
+media-sound/musepack-tools 495 495-r1: Musepack SV8 libraries and utilities
 media-sound/musescore 4.6.5 9999: WYSIWYG Music Score Typesetter
 media-sound/music-file-organizer 1.0.3-r1: Organizes audio files into directories based on metadata tags
 media-sound/musique 1.12.1_p20240628: Qt music player
@@ -14652,7 +14652,7 @@ net-analyzer/ttl 0.13.3 0.15.3 0.16.1 0.17.0 0.18.0 0.19.0: Modern traceroute/mt
 net-analyzer/upnpscan 0.4-r3: Scans the network for UPnP capable devices
 net-analyzer/vnstat 2.13 2.13-r2 9999: Console-based network traffic monitor that keeps statistics of network usage
 net-analyzer/webfuzzer 0.2.0-r2: Poor man's web vulnerability scanner
-net-analyzer/wireshark 4.6.4 4.6.5 9999: Network protocol analyzer (sniffer)
+net-analyzer/wireshark 4.6.4 4.6.5-r1 9999: Network protocol analyzer (sniffer)
 net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup tool for non-robots
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
@@ -15506,7 +15506,7 @@ net-p2p/amule 2.3.3-r8 9999: aMule, the all-platform eMule p2p client
 net-p2p/arti 1.5.0 1.8.0 9999: Implementation of Tor in Rust
 net-p2p/automatic 0.9.0-r1: RSS downloader for Tranmission
 net-p2p/biglybt 4.0.0.0: Feature-filled Bittorrent client based on Azureus
-net-p2p/bitcoin-core 29.2 29.3 30.2 31.0_rc4: Reference implementation of the Bitcoin cryptocurrency
+net-p2p/bitcoin-core 29.3 30.2 31.0: Reference implementation of the Bitcoin cryptocurrency
 net-p2p/bitflu 1.52-r1: BitTorrent client, written in Perl and is designed to run as a daemon
 net-p2p/cpuminer-opt 26.1 9999: Optimized multi algo CPU miner
 net-p2p/ctorrent 3.3.2-r4: Enhanced CTorrent is a BitTorrent console client written in C and C++
@@ -15609,7 +15609,7 @@ net-voip/sipvicious 0.3.4-r1: SIPVicious is a SIP security package
 net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
 net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
-net-vpn/candy 6.1.4 6.1.6: A reliable, low-latency, and anti-censorship virtual private network
+net-vpn/candy 6.1.6-r1 6.1.7: A reliable, low-latency, and anti-censorship virtual private network
 net-vpn/cloudflare-warp 2026.1.150.0-r1 2026.3.846.0: Cloudflare Warp Client
 net-vpn/cloudflared 2025.10.1 2026.1.2 2026.3.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
@@ -15779,7 +15779,7 @@ sci-astronomy/pyephem 4.1.5 4.2.1: Astronomical routines for the Python programm
 sci-astronomy/pysiril 0.0.15: Python library to interface Python to a SiriL script
 sci-astronomy/scamp 2.14.0 2.15.0: Astrometric and photometric solutions for astronomical images
 sci-astronomy/sextractor 2.19.5-r1: Extract catalogs of sources from astronomical FITS images
-sci-astronomy/siril 1.2.6-r1 1.4.0-r1 9999: A free astronomical image processing software
+sci-astronomy/siril 1.2.6-r1 1.4.0-r1 1.4.2 9999: A free astronomical image processing software
 sci-astronomy/sirilic 1.15.12: Preparing acquisition files for processing with the SiriL software
 sci-astronomy/skymaker 3.10.5: Program that simulates astronomical images
 sci-astronomy/sofa_c 20231011: Library for algorithms for models in fundamental astronomy
@@ -17063,7 +17063,7 @@ sys-apps/busybox 1.36.1-r4 1.37.0 9999: Utilities for rescue and embedded system
 sys-apps/byld 1.0.3-r1: Build a Linux distribution on a single floppy
 sys-apps/cciss_vol_status 1.12a-r1: Shows status of logical drives attached to HP SmartArray controllers
 sys-apps/ccs-tools 1.8.3_p20130214: TOMOYO Linux tools
-sys-apps/checkpolicy 3.8.1 3.9 9999: SELinux policy compiler
+sys-apps/checkpolicy 3.8.1 3.9 3.10 9999: SELinux policy compiler
 sys-apps/chname 1.1-r1: Run a command with a new system hostname
 sys-apps/cinit 0.2.1-r2: a fast, small and simple init with support for profiles
 sys-apps/ckbcomp 1.230: Compile an XKB keymap for loadkeys
@@ -17191,7 +17191,7 @@ sys-apps/man-pages 6.10 6.16-r2 6.17-r1 9999: A somewhat comprehensive collectio
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20250131 1.3.4_p20260129 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
-sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 9999: SELinux context translation to human readable names
+sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 3.10 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.6: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.7.1: Userspace utility for testing the memory subsystem for faults
@@ -17236,7 +17236,7 @@ sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.23 1.1.24: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
-sys-apps/policycoreutils 3.8.1 3.9 9999: SELinux core utilities
+sys-apps/policycoreutils 3.8.1 3.9 3.10 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.6 0.9.7 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
 sys-apps/portage 3.0.77-r4 3.0.78 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
@@ -17257,7 +17257,7 @@ sys-apps/readahead-list 1.20060421.1016-r4: Preloads files into the page cache t
 sys-apps/rename 1.3-r3: Easily rename files
 sys-apps/renameutils 0.12.0: Use your favorite text editor to rename files
 sys-apps/restartd 0.2.2-r1: A daemon for checking your running and not running processes
-sys-apps/restorecond 3.6 3.7 3.8.1 3.9 9999: Daemon to watch for creation and set default SELinux fcontexts
+sys-apps/restorecond 3.6 3.7 3.8.1 3.9 3.10 9999: Daemon to watch for creation and set default SELinux fcontexts
 sys-apps/ripgrep 15.1.0: Search tool that combines the usability of ag with the raw speed of grep
 sys-apps/ripgrep-all 0.10.9-r1 0.10.10: Like ripgrep, but also search in PDFs, E-Books, Office documents, archives, etc.
 sys-apps/rkflashtool 6.1: Tool for flashing Rockchip devices
@@ -17273,11 +17273,11 @@ sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1: Service manager for the s6 supervision suite
 sys-apps/sandbox 2.46 2.47 2.48 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
-sys-apps/secilc 3.8.1 3.9 9999: SELinux Common Intermediate Language (CIL) Compiler
+sys-apps/secilc 3.8.1 3.9 3.10 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.9-r1 4.10: Super-useful stream editor
 sys-apps/seedfiles 1.1-r1 1.2 1.4 1.4.1 9999: Portable drop-in reimplementation of systemd-tmpfiles
-sys-apps/selinux-python 3.7-r1 3.8.1 3.8.1-r2 3.9 9999: SELinux core utilities
-sys-apps/semodule-utils 3.6 3.7 3.8.1 3.9 9999: SELinux policy module utilities
+sys-apps/selinux-python 3.7-r1 3.8.1 3.8.1-r2 3.9 3.10 9999: SELinux core utilities
+sys-apps/semodule-utils 3.6 3.7 3.8.1 3.9 3.10 9999: SELinux policy module utilities
 sys-apps/sensei-raw-ctl 0.0_pre20180729-r1 0.0_pre20230801: SteelSeries Sensei Raw configuration tool
 sys-apps/servicelog 1.1.15 1.1.16: Provides utilities for logging service-related events
 sys-apps/setserial 2.17-r6: Configure your serial ports with it
@@ -17305,7 +17305,7 @@ sys-apps/tas 1.9.0.240925: Supermicro Thin-Agent Service for monitoring through 
 sys-apps/tcp-wrappers 7.6.31-r2: TCP Wrappers
 sys-apps/texinfo 7.2-r3 7.2-r4 7.3 9999: The GNU info program and utilities
 sys-apps/the_silver_searcher 2.2.0_p20201217-r4: A code-searching tool similar to ack, but faster
-sys-apps/tomoyo-tools 2.5.0_p20130214-r1: TOMOYO Linux tools
+sys-apps/tomoyo-tools 2.5.0_p20130214-r1 2.6.1_p20250707: TOMOYO Linux userspace tools
 sys-apps/toybox 0.8.12 0.8.13 9999: Common linux commands in a multicall binary
 sys-apps/tuned 2.25.1-r1 2.26.0-r1 2.27.0 2.27.0-r1: Daemon for monitoring and adaptive tuning of system devices
 sys-apps/uam 0.3.2-r2: Simple udev-based automounter for removable USB media
@@ -17675,7 +17675,7 @@ sys-fs/fatsort 1.7.1.683 1.7.679: Sorts files on FAT16/32 partitions, ideal for 
 sys-fs/fragview 0.1.1-r1 0.1.2 9999: Disk fragmentation visualizer based on FIEMAP and FIBMAP ioctls
 sys-fs/fscrypt 0.3.4 0.3.6: Tool for managing Linux filesystem encryption
 sys-fs/fswatch 1.18.0 1.18.3: cross-platform file change monitor with multiple backends
-sys-fs/fuse 2.9.9-r2 3.16.2 3.17.4 3.18.1 3.18.2: An interface for filesystems implemented in userspace
+sys-fs/fuse 2.9.9-r2 3.18.2: An interface for filesystems implemented in userspace
 sys-fs/fuse-common 3.10.4-r3: Common files for multiple slots of sys-fs/fuse
 sys-fs/fuse-convmvfs 0.2.6-r1: FUSE file system to convert filename charset
 sys-fs/fuse-exfat 1.4.0-r1: exFAT filesystem FUSE module
@@ -17789,7 +17789,7 @@ sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0: DBUS on-demand loader of sched-ext sc
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.253 5.10.254 5.10.9999 5.15.203 5.15.204 5.15.9999 6.1.169 6.1.170 6.1.9999 6.6.136 6.6.137 6.6.9999 6.12.84 6.12.85 6.12.9999 6.18.25 6.18.26 7.0.2 7.0.3: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 5.10.254 5.15.204 6.1.170 6.6.137 6.12.85 6.18.26 6.19.14 7.0.3: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 5.10.254 5.15.204 6.1.170 6.6.137 6.12.85 6.18.26 7.0.3: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.38 1.40 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.0.3: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -17827,9 +17827,9 @@ sys-libs/libosinfo 1.11.0-r1 1.12.0-r1: GObject library for managing information
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
 sys-libs/librtas 2.0.3 2.0.6: A set of libraries for userspace access to RTAS on the PowerPC platform(s)
 sys-libs/libseccomp 2.6.0-r3 9999: High level interface to Linux seccomp filter
-sys-libs/libselinux 3.8.1-r2 3.8.1-r3 3.9 9999: SELinux userland library
-sys-libs/libsemanage 3.8.1 3.9 9999: SELinux kernel and policy management library
-sys-libs/libsepol 3.8.1 3.9 9999: SELinux binary policy representation library
+sys-libs/libselinux 3.8.1-r2 3.8.1-r3 3.9 3.10 9999: SELinux userland library
+sys-libs/libsemanage 3.8.1 3.9 3.10 9999: SELinux kernel and policy management library
+sys-libs/libsepol 3.8.1 3.9 3.10 9999: SELinux binary policy representation library
 sys-libs/libservicelog 1.1.19: Provides a library for logging service-related events
 sys-libs/libsmbios 2.4.3-r3: Provide access to (SM)BIOS information
 sys-libs/libstatgrab 0.92.1: A tool to provide access to statistics about the system on which it's run
