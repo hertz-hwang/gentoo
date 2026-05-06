@@ -3883,7 +3883,7 @@ dev-cpp/azure-identity 1.13.2 1.13.3: Azure SDK for C++
 dev-cpp/azure-security-keyvault-certificates 4.2.1: Azure SDK for C++
 dev-cpp/azure-security-keyvault-keys 4.4.1: Azure SDK for C++
 dev-cpp/benchmark 1.8.4 1.9.1-r1 1.9.2 1.9.3 1.9.4 1.9.5: A microbenchmark support library
-dev-cpp/cairomm 1.14.4 1.14.5 1.18.0: C++ bindings for the Cairo vector graphics library
+dev-cpp/cairomm 1.14.5 1.18.0: C++ bindings for the Cairo vector graphics library
 dev-cpp/catch 1.12.2-r2 1.12.2-r3 1.9999 2.13.10 2.13.10-r1 3.12.0 3.13.0 9999: Modern C++ header-only framework for unit-tests
 dev-cpp/cctz 2.5: C++ library for dealing with time zones and time conversion
 dev-cpp/cld3 3.0.13_p20220331: Neural network model for language identification
@@ -12120,7 +12120,7 @@ gui-apps/liquidshell 1.10.0 1.10.1: Basic desktop shell using QtWidgets
 gui-apps/mako 1.8.0 1.9.0 1.10.0 1.11.0 9999: A lightweight notification daemon for Wayland. Works on Sway
 gui-apps/nm-tray 0.5.1: A simple Qt-based NetworkManager front-end
 gui-apps/qt6ct 0.11: Qt6 Configuration Tool (for DE/WM without Qt integration)
-gui-apps/railway 2.9.4: Travel with all your train information in one place
+gui-apps/railway 2.9.4 2.10.0: Travel with all your train information in one place
 gui-apps/sddm-gentoo-config 0: Gentoo defaults for SDDM (Simple Desktop Display Manager)
 gui-apps/slurp 1.5.0: Select a region in a Wayland compositor and print it to the standard output
 gui-apps/swappy 1.5.1 9999: A Wayland native snapshot and editor tool, inspired by Snappy on macOS
@@ -14903,7 +14903,7 @@ net-libs/cvm 0.97-r2: Credential Validation Modules by Bruce Guenter
 net-libs/czmq 4.2.1: High-level C Binding for ZeroMQ
 net-libs/daq 2.0.7 2.0.7-r1: Data Acquisition library, for packet I/O
 net-libs/davix 0.8.7 0.8.10-r2 9999: High-performance file management over WebDAV/HTTP
-net-libs/dleyna 0.8.3 0.8.3-r2: A set of services and D-Bus APIs to simplify access to UPnP/DLNA media devices
+net-libs/dleyna 0.8.3-r2: A set of services and D-Bus APIs to simplify access to UPnP/DLNA media devices
 net-libs/enet 1.3.17 1.3.17-r1 1.3.18: Relatively thin, simple and robust network communication layer on top of UDP
 net-libs/farstream 0.2.9-r2: Audio/video conferencing framework specifically designed for instant messengers
 net-libs/freaklabs-chibiarduino 1.0.8_p20190329 9999: freaklabs fork of the lightweight wireless sensor library for Arduino
@@ -15676,7 +15676,7 @@ net-wireless/broadcom-sta 6.30.223.271-r10: Broadcom's IEEE 802.11a/b/g/n hybrid
 net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
 net-wireless/dump1090 10.2 9999: Simple Mode S decoder for RTLSDR devices
-net-wireless/gnome-bluetooth 46.2 47.1: Bluetooth graphical utilities integrated with GNOME
+net-wireless/gnome-bluetooth 47.1 47.2: Bluetooth graphical utilities integrated with GNOME
 net-wireless/gnuradio 3.10.12.0-r2 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
 net-wireless/gqrx 2.17.2-r1 2.17.6 2.17.7 9999: Software defined radio receiver powered by GNU Radio and Qt
