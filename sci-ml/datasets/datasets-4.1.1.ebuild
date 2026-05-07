@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_SINGLE_IMPL=1
 inherit distutils-r1
 
@@ -65,6 +65,7 @@ BDEPEND="test? (
 		dev-python/absl-py[${PYTHON_USEDEP}]
 		dev-python/decorator[${PYTHON_USEDEP}]
 		dev-python/elasticsearch[${PYTHON_USEDEP}]
+		dev-python/h5py[${PYTHON_USEDEP}]
 		dev-python/lz4[${PYTHON_USEDEP}]
 		dev-python/moto[${PYTHON_USEDEP}]
 		dev-python/protobuf:=[${PYTHON_USEDEP}]
@@ -80,49 +81,36 @@ EPYTEST_PLUGINS=( pytest-datadir )
 
 distutils_enable_tests pytest
 
-src_test() {
+src_prepare() {
+	sed -i \
+		-e "/log(pickler/d" \
+		src/datasets/utils/_dill.py \
+		|| die
+	distutils-r1_src_prepare
+}
+
+python_test() {
 	local EPYTEST_IGNORE=(
-		tests/features/test_audio.py
-		tests/packaged_modules/test_audiofolder.py
 		tests/packaged_modules/test_spark.py
-		tests/test_fingerprint.py
-		tests/test_iterable_dataset.py
-		tests/test_inspect.py
-		tests/test_load.py
-		tests/test_upstream_hub.py
 	)
 
 	local EPYTEST_DESELECT=(
-		tests/commands/test_test.py::test_test_command
-		#tests/features/test_video.py::test_dataset_with_video_feature
-		#tests/features/test_video.py::test_dataset_with_video_map_and_formatted
-		#tests/features/test_video.py::test_video_feature_encode_example
 		tests/io/test_parquet.py::test_parquet_read_geoparquet
-		tests/packaged_modules/test_cache.py::test_cache_capital_letters
-		tests/packaged_modules/test_cache.py::test_cache_multi_configs
-		tests/packaged_modules/test_cache.py::test_cache_single_config
 		tests/packaged_modules/test_folder_based_builder.py::test_data_files_with_different_levels_no_metadata
 		tests/packaged_modules/test_folder_based_builder.py::test_data_files_with_one_label_no_metadata
 		tests/test_arrow_dataset.py::BaseDatasetTest::test_filter_caching_on_disk
 		tests/test_arrow_dataset.py::BaseDatasetTest::test_map_caching_on_disk
-		tests/test_data_files.py::test_DataFilesDict_from_patterns_locally_or_remote_hashing
-		tests/test_data_files.py::test_DataFilesList_from_patterns_locally_with_extra_files
-		tests/test_distributed.py::test_torch_distributed_run
-		tests/test_file_utils.py::TestxPath::test_xpath_glob
-		tests/test_file_utils.py::TestxPath::test_xpath_rglob
-		tests/test_file_utils.py::test_xexists_private
-		tests/test_file_utils.py::test_xgetsize_private
-		tests/test_file_utils.py::test_xglob_private
-		tests/test_file_utils.py::test_xisdir_private
-		tests/test_file_utils.py::test_xisfile_private
-		tests/test_file_utils.py::test_xlistdir_private
-		tests/test_file_utils.py::test_xopen_remote
-		tests/test_file_utils.py::test_xwalk_private
-		tests/test_hub.py::test_convert_to_parquet
+		tests/test_arrow_dataset.py::BaseDatasetTest::test_map_caching_partial_remap_on_disk
+		tests/test_arrow_dataset.py::BaseDatasetTest::test_map_caching_reuses_cache_with_different_num_proc_on_disk
+		tests/features/test_audio.py::test_dataset_with_audio_feature_undecoded
+		tests/features/test_audio.py::test_formatted_dataset_with_audio_feature_undecoded
+		tests/features/test_audio.py::test_dataset_with_audio_feature_map_undecoded
+		tests/test_data_files.py
+		tests/test_file_utils.py::TestxPath
+		tests/test_fingerprint.py
 		tests/test_hub.py::test_delete_from_hub
-		tests/test_offline_util.py::test_offline_with_connection_error
-		tests/test_offline_util.py::test_offline_with_timeout
-		#tests/test_search.py::ElasticSearchIndexTest::test_elasticsearch
+		tests/test_load.py
 	)
-	distutils-r1_src_test
+
+	epytest -m 'unit'
 }

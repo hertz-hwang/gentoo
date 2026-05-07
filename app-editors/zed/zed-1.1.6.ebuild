@@ -93,7 +93,7 @@ RUST_MIN_VER="1.94.0"
 RUST_NEEDS_LLVM=1
 WEBRTC_COMMIT="0001d84-2"
 
-inherit cargo check-reqs desktop flag-o-matic llvm-r1 toolchain-funcs xdg
+inherit cargo check-reqs desktop flag-o-matic toolchain-funcs xdg
 
 DESCRIPTION="The fast, collaborative code editor"
 HOMEPAGE="https://zed.dev https://github.com/zed-industries/zed"
@@ -121,7 +121,7 @@ LICENSE+="
 "
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-CHECKREQS_DISK_BUILD="18G"
+CHECKREQS_DISK_BUILD="19G"
 CHECKREQS_MEMORY="8G"
 
 DEPEND="
