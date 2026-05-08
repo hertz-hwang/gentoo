@@ -11711,7 +11711,7 @@ games-puzzle/glightoff 1.0.0-r1: Simple (but not so easy to solve!) puzzle game
 games-puzzle/gnome-klotski 3.38.2 3.38.2-r1: Slide blocks to solve the puzzle
 games-puzzle/gnome-sudoku 48.1 49.2 49.5: Test your logic skills in this number grid puzzle
 games-puzzle/gnome-taquin 3.38.1-r1: Move tiles so that they reach their places
-games-puzzle/gnome-tetravex 3.38.2 3.38.3: Complete the puzzle by matching numbered tiles
+games-puzzle/gnome-tetravex 3.38.3: Complete the puzzle by matching numbered tiles
 games-puzzle/gnome2048 3.38.2: Move the tiles until you obtain the 2048 tile
 games-puzzle/gnurobbo 0.68: Robbo, a popular Atari XE/XL game ported to Linux
 games-puzzle/gottet 1.2.6: Tetris clone based on Qt
@@ -15485,7 +15485,7 @@ net-news/alligator 25.12.3 26.04.0: Convergent RSS/Atom feed reader for Plasma
 net-news/amphetadesk 0.93.1-r2: Free syndicated news aggregator
 net-news/canto-curses 0.9.9-r1: The ncurses client for canto-daemon
 net-news/canto-daemon 0.9.8: Daemon part of Canto-NG RSS reader
-net-news/liferea 1.15.5-r2 1.15.8-r2 1.16.5 1.16.7: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
+net-news/liferea 1.15.5-r2 1.15.8-r2 1.16.5 1.16.7 1.16.9: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
 net-news/newsboat 2.41 2.42 2.43: An RSS/Atom feed reader for text terminals
 net-news/rssguard 5.0.4 5.1.0 5.1.1: Simple (yet powerful) news feed reader
 net-news/rsstail 2.2: A tail-like RSS-reader
@@ -16421,7 +16421,7 @@ sci-ml/accelerate 1.13.0-r1: Run your *raw* PyTorch training script on any kind 
 sci-ml/caffe2 2.10.0-r6 2.11.0-r3: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
-sci-ml/datasets 4.0.0 4.1.1 4.2.0 4.3.0 4.4.2 4.5.0 4.6.1: Access and share datasets for Audio, Computer Vision, and NLP tasks
+sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
 sci-ml/evaluate 0.4.6: makes evaluating, comparing models and reporting their performance easier
 sci-ml/fastai 2.7.19: The fastai deep learning library
 sci-ml/fastcore 1.7.29-r1: Python supercharged for the fastai library
@@ -17763,7 +17763,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.253_p1 5.10.254 5.15.203_p1 5.15.204 6.1.169_p1 6.1.170 6.6.136_p1 6.6.137 6.6.137_p1 6.12.84_p1 6.12.85 6.12.86 6.12.86_p1 6.18.25 6.18.26 6.18.27 6.18.27_p1 7.0.2 7.0.3 7.0.4 7.0.4_p1: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.253_p1 5.10.254 5.15.203_p1 5.15.204 6.1.169_p1 6.1.170 6.6.136_p1 6.6.137 6.6.137_p1 6.12.84_p1 6.12.85 6.12.86 6.12.86_p1 6.18.25 6.18.26 6.18.27 6.18.27_p1 7.0.2 7.0.3 7.0.4 7.0.4_p1: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.254 5.10.254-r1 5.15.204-r1 6.1.170-r1 6.6.137-r1 6.12.86 6.18.27 7.0.4: Full sources including the Gentoo patchset for the 7.0 kernel tree
+sys-kernel/gentoo-sources 5.10.254-r1 5.15.204-r1 6.1.170-r1 6.6.137-r1 6.12.87 6.18.28 7.0.5: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18230,9 +18230,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 25.12.3 26.04.0: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.10.1-r1 140.10.2 150.0.1: Firefox Web Browser
+www-client/firefox 140.10.1-r1 140.10.2 150.0.1 150.0.2: Firefox Web Browser
 www-client/firefox-bin 140.10.1-r1 140.10.2 150.0.1 150.0.2: Firefox Web Browser
-www-client/firefox-l10n 150.0.1: Firefox Web Browser's translation files
+www-client/firefox-l10n 150.0.1 150.0.2: Firefox Web Browser's translation files
 www-client/google-chrome 146.0.7680.177 147.0.7727.137: The web browser from Google
 www-client/google-chrome-beta 147.0.7727.49 148.0.7778.96: The web browser from Google
 www-client/google-chrome-unstable 149.0.7815.2: The web browser from Google
