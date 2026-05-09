@@ -11116,7 +11116,7 @@ dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 9999: Official Vulkan Tools 
 dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
-dev-util/watchman 2023.06.19.00-r2 2024.11.04.00 2025.04.14.00: A file watching service
+dev-util/watchman 2024.11.04.00 2025.04.14.00: A file watching service
 dev-util/wayland-scanner 1.24.0 1.25.0 9999: wayland-scanner tool
 dev-util/web_page_replay_go 20221028: A performance testing tool for recording and replaying web pages
 dev-util/webhook 2.8.1: lightweight incoming webhook server to run shell commands
@@ -17453,7 +17453,7 @@ sys-block/storcli 7.2405 7.3703: MegaRAID StorCLI (successor of the MegaCLI)
 sys-block/tapecat 1.0.0-r1: tapecat is a tape utility used to describe the physical content of a tape
 sys-block/targetcli-fb 2.1.58-r1 3.0.1: Command shell for managing Linux LIO kernel target
 sys-block/tgt 1.0.91 1.0.92: Linux SCSI target framework (tgt)
-sys-block/thin-provisioning-tools 1.1.0-r3 1.3.0 1.3.1: A suite of tools for thin provisioning on Linux
+sys-block/thin-provisioning-tools 1.3.0 1.3.1: A suite of tools for thin provisioning on Linux
 sys-block/tw_cli 10.2.2.1-r2: 3ware SATA/PATA/SAS RAID controller Command Line Interface tool
 sys-block/vblade 25: vblade exports a block device using AoE
 sys-block/vdo 8.3.2.1: Userspace tools for managing VDO volumes
