@@ -5433,7 +5433,7 @@ dev-libs/glib 2.84.4 2.84.4-r5 2.86.4-r1 2.86.5-r1 2.88.0-r1: The GLib library o
 dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r1 6.3.0-r2: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2025.08.27.16.03.17 2026.01.14.22.26.00 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
-dev-libs/gobject-introspection 1.82.0-r3 1.84.0-r2 1.86.0: Introspection system for GObject-based libraries
+dev-libs/gobject-introspection 1.84.0-r2 1.86.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0 1.84.0 1.86.0: Build infrastructure for GObject Introspection
 dev-libs/gom 0.5.4 0.5.5: GObject to SQLite object mapper library
 dev-libs/gost-engine 3.0.1 3.0.1-r1 3.0.2 3.0.3 9999: A reference implementation of the Russian GOST crypto algorithms for OpenSSL
@@ -5499,7 +5499,7 @@ dev-libs/libassuan 2.5.7 3.0.0-r1 3.0.1-r1: IPC library used by GnuPG and GPGME
 dev-libs/libatasmart 0.19_p5: A small and lightweight parser library for ATA S.M.A.R.T. hard disks
 dev-libs/libatomic_ops 7.8.4 7.10.0: Implementation for atomic memory update operations
 dev-libs/libax25 0.0.12_rc5-r1: AX.25 library for hamradio applications
-dev-libs/libayatana-appindicator 0.5.93 0.5.94: Ayatana Application Indicators (Shared Library)
+dev-libs/libayatana-appindicator 0.5.94: Ayatana Application Indicators (Shared Library)
 dev-libs/libayatana-indicator 0.9.4: Ayatana Application Indicators (Shared Library)
 dev-libs/libb64 2.0.0.1-r1: Fast Base64 encoding/decoding routines
 dev-libs/libbase58 0.1.4-r2: C implementation of Bitcoin's base58 encoding
@@ -12022,16 +12022,16 @@ gnome-extra/gnome-network-displays 0.97.0-r1 0.98.0 0.99.0: Stream the desktop t
 gnome-extra/gnome-power-manager 43.0: GNOME power statistics
 gnome-extra/gnome-shell-extension-alphabetical-grid 43.0 44.0: Restore the alphabetical ordering of the app grid
 gnome-extra/gnome-shell-extension-appindicator 61 63 64: Support legacy, AppIndicators and KStatusNotifierItems in Gnome
-gnome-extra/gnome-shell-extension-applications-overview-tooltip 23 24: Show tooltip with full name and description
+gnome-extra/gnome-shell-extension-applications-overview-tooltip 24: Show tooltip with full name and description
 gnome-extra/gnome-shell-extension-bing-wallpaper 52 53: Change your wallpaper daily to the bing.com background image
 gnome-extra/gnome-shell-extension-bluetooth-quick-connect 45: Allow to connect bluetooth paired devices from gnome control panel
 gnome-extra/gnome-shell-extension-control-blur-effect-on-lock-screen 20241110: Control the blur effect on gnome-shell lock screen
 gnome-extra/gnome-shell-extension-dash-to-panel 72 73: An icon taskbar for the Gnome Shell
-gnome-extra/gnome-shell-extension-desktop-icons-ng 49.0.5 50.0.0: Desktop icon support for GNOME Shell
-gnome-extra/gnome-shell-extension-gsconnect 71: KDE Connect implementation for GNOME
+gnome-extra/gnome-shell-extension-desktop-icons-ng 49.0.5 50.0.0 50.2.0: Desktop icon support for GNOME Shell
+gnome-extra/gnome-shell-extension-gsconnect 71 72: KDE Connect implementation for GNOME
 gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20250710 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
 gnome-extra/gnome-shell-extension-weather-in-the-clock 20221024-r4: Display the current weather in the clock
-gnome-extra/gnome-shell-extension-weather-oclock 49.0 50.0 50.1 50.2: Display the current weather inside the pill next to the clock
+gnome-extra/gnome-shell-extension-weather-oclock 50.2: Display the current weather inside the pill next to the clock
 gnome-extra/gnome-shell-extensions 48.3 49.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 47.0 48.0: Unofficial extension pack providing GNOME 2-like features
 gnome-extra/gnome-software 48.4 49.2 49.3: Gnome install & update software
@@ -12706,7 +12706,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.8 3.11.1-r1 3.11.2 3.12_pre20260429: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.10.8 3.11.1-r1 3.11.2 3.12_pre20260508: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1: Widely-used Mail Transport Agent (MTA)
@@ -12893,7 +12893,7 @@ media-fonts/mplus-fonts 2.2.4-r1: M+ Japanese bitmap fonts
 media-fonts/mplus-outline-fonts 0_pre063_p1: M+ Japanese outline fonts
 media-fonts/nanum 3.0: Korean fonts distributed by Naver
 media-fonts/nanumfont 2.5: Korean monospace font distributed by Naver
-media-fonts/noto 20260201 20260301 20260401: Google's font family that aims to support all the world's languages
+media-fonts/noto 20260301 20260401 20260501: Google's font family that aims to support all the world's languages
 media-fonts/noto-cjk 20190416: Google's CJK font family
 media-fonts/noto-emoji 20250912 20250912-r1: Google Noto Emoji fonts
 media-fonts/nunito 1.0-r1: Sans Serif font with rounded terminals
@@ -14809,7 +14809,7 @@ net-im/ejabberd 24.10 25.04 25.10: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.15: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
 net-im/fractal 12.1-r1 13: Matrix messaging app for GNOME written in Rust
-net-im/gajim 2.2.0 2.2.0-r1 2.4.5 2.4.6: GTK XMPP Client
+net-im/gajim 2.2.0 2.2.0-r1 2.4.6: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.13.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
@@ -14873,7 +14873,7 @@ net-irc/onis 0.8.2-r2: onis not irc stats
 net-irc/pisg 0.73-r1: Perl IRC Statistics Generator
 net-irc/polari 46.0: An IRC client for GNOME
 net-irc/psybnc 2.4.3-r1: A multi-user and multi-server gateway to IRC networks
-net-irc/quassel 0.14.0-r8 9999: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity
+net-irc/quassel 0.14.0-r8 0.14.50_pre20260429 9999: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity
 net-irc/rbot 0.9.15_p20210609: A ruby IRC bot
 net-irc/rhapsody 0.28b-r1: IRC client intended to be displayed on a text console
 net-irc/scrollz 2.3.1: Advanced IRC client based on ircII
@@ -15806,7 +15806,7 @@ sci-biology/bioperl 1.6.9-r1: Perl tools for bioinformatics - Core modules
 sci-biology/bioperl-db 1.6.9-r2: Perl tools for bioinformatics - Perl API that accesses the BioSQL schema
 sci-biology/bioperl-network 1.6.9-r1: Perl tools for bioinformatics - Analysis of protein-protein interaction networks
 sci-biology/bioperl-run 1.6.9-r1: Perl wrapper modules for key bioinformatics applications
-sci-biology/biopython 1.85: Python modules for computational molecular biology
+sci-biology/biopython 1.85 1.87: Python modules for computational molecular biology
 sci-biology/biosql 1.0.1-r2: A generic bioinformatics relational database model
 sci-biology/blat 34-r3: The BLAST-Like Alignment Tool, a fast genomic sequence aligner
 sci-biology/bowtie 2.5.1: Popular short read aligner for Next-generation sequencing data
