@@ -927,7 +927,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.792.0 1.2.804.0 1.2.814.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.44.68 1.44.73 1.44.78 1.44.81 1.44.86 1.45.2 1.45.3 1.45.4 1.45.5 1.45.6: Universal Command Line Environment for AWS
+app-admin/awscli 1.44.78 1.44.81 1.44.86 1.45.2 1.45.6: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.1.0 2026.2.1: Bitwarden password manager desktop client
@@ -2842,7 +2842,7 @@ app-misc/libdatovka 0.7.0-r1 0.7.1: Client library for accessing ISDS SOAP servi
 app-misc/linux-logo 6.01: A utility that displays an ANSI/ASCII logo and some system information
 app-misc/linuxspa 0.7.1-r2: Linux Serial Protocol Analyser
 app-misc/liquidctl 1.14.0 1.15.0: Cross-platform tool and drivers for liquid coolers and other devices
-app-misc/lirc 0.10.2-r2: decode and send infra-red signals of many commonly used remote controls
+app-misc/lirc 0.10.2-r2 0.10.2-r3: decode and send infra-red signals of many commonly used remote controls
 app-misc/livecd-tools 2.11 2.12 9999: Gentoo LiveCD tools for autoconfiguration of hardware
 app-misc/localsearch 3.8.2 3.10.2 3.10.2-r1: Indexer and search engine that powers desktop search for core GNOME components
 app-misc/lockfile-progs 0.1.19 0.2.0: Programs to safely lock/unlock files and mailboxes
@@ -4006,7 +4006,7 @@ dev-db/mariadb 10.6.22 10.6.22-r1 10.6.23-r1 10.6.23-r2 10.6.24 10.6.24-r1 10.11
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
-dev-db/mongodb-compass-bin 1.49.2 1.49.4: GUI for MongoDB
+dev-db/mongodb-compass-bin 1.49.4 1.49.6: GUI for MongoDB
 dev-db/mycli 1.65.0 1.70.0 1.71.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
@@ -8237,8 +8237,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 25.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.42.78 1.42.83 1.42.88 1.42.91 1.42.96 1.43.2 1.43.3 1.43.4 1.43.5 1.43.6: The AWS SDK for Python
-dev-python/botocore 1.42.78 1.42.83 1.42.88 1.42.91 1.42.96 1.43.2 1.43.3 1.43.4 1.43.5 1.43.6: Low-level, data-driven core of boto 3
+dev-python/boto3 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6: The AWS SDK for Python
+dev-python/botocore 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8456,7 +8456,7 @@ dev-python/expects 0.9.0-r1: Expressive and extensible TDD/BDD assertion library
 dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
-dev-python/faker 40.12.0 40.13.0 40.14.1: A Python package that generates fake data for you
+dev-python/faker 40.13.0 40.14.1: A Python package that generates fake data for you
 dev-python/fakeredis 2.34.1 2.35.0 2.35.1: Fake implementation of redis API for testing purposes
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
@@ -8615,7 +8615,7 @@ dev-python/inflection 0.5.1-r1: A port of Ruby on Rails' inflector to Python
 dev-python/ini2toml 0.15: Automatically conversion of .ini/.cfg files to TOML equivalents
 dev-python/iniconfig 2.3.0: Brain-dead simple config-ini parsing
 dev-python/iniparse 0.5.1_p20250425: Better INI parser for Python
-dev-python/inline-snapshot 0.28.0 0.29.4 0.32.5 0.32.6 0.32.7: Create and update inline snapshots in your Python tests
+dev-python/inline-snapshot 0.32.6 0.32.7: Create and update inline snapshots in your Python tests
 dev-python/insipid-sphinx-theme 0.4.4: Insipid Sphinx theme
 dev-python/installer 0.7.0: A library for installing Python wheels
 dev-python/intelhex 2.3.0-r1: Python library for Intel HEX files manipulations
@@ -9296,7 +9296,7 @@ dev-python/python-memcached 1.62: Pure python memcached client
 dev-python/python-mimeparse 2.0.0: Basic functions for handling mime-types in python
 dev-python/python-mpd2 3.1.1: Python MPD client library
 dev-python/python-mpv 1.0.8: Python interface to the mpv media player
-dev-python/python-multipart 0.0.22 0.0.24 0.0.25 0.0.27: A streaming multipart parser for Python
+dev-python/python-multipart 0.0.25 0.0.27: A streaming multipart parser for Python
 dev-python/python-neutronclient 11.8.0: A client for the OpenStack Quantum API
 dev-python/python-novaclient 18.12.0: A client for the OpenStack Nova API
 dev-python/python-openstackclient 9.0.0: A client for the OpenStack APIs
@@ -9402,7 +9402,7 @@ dev-python/requests-wsgi-adapter 0.4.1: WSGI Transport Adapter for Requests
 dev-python/requestsexceptions 1.4.0-r1: Finds the correct path to exceptions in the requests library
 dev-python/resolvelib 1.2.1: Resolve abstract dependencies into concrete ones
 dev-python/responses 0.26.0: Utility for mocking out the Python Requests library
-dev-python/respx 0.22.0-r1 0.23.0 0.23.1: Mock HTTPX with awesome request patterns and response side effects
+dev-python/respx 0.23.1: Mock HTTPX with awesome request patterns and response side effects
 dev-python/restructuredtext-lint 2.0.2: Checks PyPI validity of reStructuredText
 dev-python/retry-decorator 1.1.1-r1: Decorator for retrying when exceptions occur
 dev-python/retrying 1.4.2: General-purpose retrying library
@@ -9412,7 +9412,7 @@ dev-python/rfc3986 2.0.0-r1: Validating URI References per RFC 3986
 dev-python/rfc3986-validator 0.1.1-r2: Pure python RFC3986 validator
 dev-python/rfc3987 1.3.8-r3: Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)
 dev-python/rfc8785 0.1.4: Pure-Python impl. of RFC 8785 (JSON Canonicalization Scheme)
-dev-python/rich 14.3.3 14.3.4 15.0.0: Python library for rendering rich text, tables, etc. to the terminal
+dev-python/rich 14.3.4 15.0.0: Python library for rendering rich text, tables, etc. to the terminal
 dev-python/rich-argparse 1.7.2 1.8.0: Rich help formatters for argparse and optparse
 dev-python/rich-click 1.9.7: Format click help output nicely with rich
 dev-python/roman 5.2: An Integer to Roman numerals converter
@@ -9666,7 +9666,7 @@ dev-python/txtorcon 23.11.0 24.8.0-r1: Twisted-based Tor controller client, with
 dev-python/typeguard 4.5.1: Run-time type checker for Python
 dev-python/typer 0.24.1 0.24.2 0.25.0 0.25.1: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.22.3.20260223 0.22.3.20260316 0.22.3.20260322 0.22.3.20260408 0.22.3.20260508: Typing stubs for docutils
-dev-python/types-gdb 16.3.0.20260203 16.3.0.20260408 16.3.0.20260508: Typing stubs for gdb
+dev-python/types-gdb 16.3.0.20260408 16.3.0.20260508: Typing stubs for gdb
 dev-python/types-psutil 7.2.2.20260408 7.2.2.20260508: Typing stubs for psutil
 dev-python/types-python-dateutil 2.9.0.20260408 2.9.0.20260508: Typing stubs for python-dateutil
 dev-python/types-setuptools 82.0.0.20260408 82.0.0.20260508: Typing stubs for setuptools
@@ -9703,7 +9703,7 @@ dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
 dev-python/uv 0.11.1 0.11.2 0.11.3 0.11.5 0.11.6 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 9999: A Python package installer and resolver, written in Rust
 dev-python/uv-build 0.11.1 0.11.2 0.11.3 0.11.5 0.11.6 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12: PEP517 uv build backend
-dev-python/uvicorn 0.42.0 0.43.0 0.44.0 0.45.0 0.46.0: Lightning-fast ASGI server implementation
+dev-python/uvicorn 0.44.0 0.45.0 0.46.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
 dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
@@ -9740,7 +9740,7 @@ dev-python/websocket-client 1.9.0: WebSocket client for python with hybi13 suppo
 dev-python/websockets 16.0: Library for building WebSocket servers and clients in Python
 dev-python/websockify 0.13.0: WebSockets support for any application/server
 dev-python/webtest 3.0.7: Helper to test WSGI applications
-dev-python/werkzeug 3.1.7 3.1.8: Collection of various utilities for WSGI applications
+dev-python/werkzeug 3.1.8: Collection of various utilities for WSGI applications
 dev-python/whatever 0.7: Easy anonymous functions by partial application of operators
 dev-python/whatthepatch 1.0.7: A patch parsing and application library
 dev-python/wheel 0.46.3 0.47.0: A built-package format for Python
@@ -9788,7 +9788,7 @@ dev-python/zipstream-ng 1.9.0: A modern and easy to use streamable zip file gene
 dev-python/zlib-ng 1.0.0: Drop-in replacement for zlib and gzip modules using zlib-ng
 dev-python/zmq-anyio 0.3.10 0.3.14: Asynchronous API for ZMQ using AnyIO
 dev-python/zope-component 7.1: Zope Component Architecture
-dev-python/zope-configuration 7.0 7.1: Zope Configuration Architecture
+dev-python/zope-configuration 7.1: Zope Configuration Architecture
 dev-python/zope-deprecation 6.0: Zope Deprecation Infrastructure
 dev-python/zope-event 6.1 6.2: Event publishing / dispatch, used by Zope Component Architecture
 dev-python/zope-exceptions 6.0: General purpose exceptions for Zope packages
@@ -11180,7 +11180,7 @@ dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at Git
 dev-vcs/jj 0.36.0 0.37.0 0.38.0 0.39.0 0.40.0: Jujutsu - an experimental version control system
 dev-vcs/kdesvn 2.1.0_p20250525: Frontend to the subversion vcs
 dev-vcs/lab 0.25.1: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
-dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.1 9999: Scalable distributed SCM
+dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.2 9999: Scalable distributed SCM
 dev-vcs/mergiraf 0.16.1 0.16.3 0.17.0: Syntax-aware git merge driver
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pkgcruft-git 0.0.5-r2 9999: QA support for verifying git commits via pkgcruft
@@ -12645,9 +12645,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20251211-r1 20260105 20260406 20260504 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.14 1.7_rc5 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.10.1 150.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.10.1 150.0.1: Thunderbird Mail Client
-mail-client/thunderbird-l10n 150.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird 140.10.1 140.10.2 150.0.1 150.0.2: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.10.1 140.10.2 150.0.1 150.0.2: Thunderbird Mail Client
+mail-client/thunderbird-l10n 150.0.1 150.0.2: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1 2.14.0: High-performance interface between the MTA and content checkers
@@ -15646,7 +15646,7 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0: Tailscale vpn client
+net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.6 0.4.9.8 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.15 0.10.16: Launch applications via VPN tunnels using temporary network namespaces
@@ -17154,7 +17154,7 @@ sys-apps/input-utils 1.3: Small collection of linux input layer utils
 sys-apps/install-xattr 0.10-r1 0.11 0.12 0.13 9999: Wrapper to coreutils install to preserve Filesystem Extended Attributes
 sys-apps/intel-sa-00075-tools 1.0-r1: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
 sys-apps/intune-portal 1.2603.31 1.2604.13: Microsoft Intune Company Portal to access a corporate environment
-sys-apps/inxi 3.3.33.1 3.3.35.1 3.3.38.1 3.3.39.1 3.3.40.1: The CLI inxi collects and prints hardware and system information
+sys-apps/inxi 3.3.35.1 3.3.38.1 3.3.39.1 3.3.40.1: The CLI inxi collects and prints hardware and system information
 sys-apps/iotools 1.5: Simple commands to access hardware device registers
 sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
 sys-apps/ipmicfg 1.36.0.250225: An in-band utility for configuring Supermicro IPMI devices
@@ -17575,7 +17575,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.3.9999 16.1.0 16.1.1_p20260502 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.3.9999 16.1.0 16.1.1_p20260502 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
