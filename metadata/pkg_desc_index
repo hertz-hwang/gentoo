@@ -2852,7 +2852,7 @@ app-misc/ltunify 0.3: Tool for working with Logitech Unifying receivers and devi
 app-misc/lxsplit 0.2.4-r1: Command-line file splitter/joiner for Linux
 app-misc/mat2 0.14.0: Metadata Anonymisation Toolkit
 app-misc/mc 4.8.30-r2 4.8.33: GNU Midnight Commander is a text based file manager
-app-misc/media-player-info 24-r1: Repository of data files describing media player capabilities
+app-misc/media-player-info 24-r1 26: Repository of data files describing media player capabilities
 app-misc/mencal 3.0-r1: Calendar to track menstruation cycles
 app-misc/mepl 0.45-r2: Self-employed-mode software for 3COM/USR message modems
 app-misc/mime-types 2.1.54: Provides /etc/mime.types file
@@ -5307,7 +5307,7 @@ dev-lang/tk 8.6.16 8.6.17 9.0.3-r2: Tk Widget Set
 dev-lang/tuprolog 3.2.0-r3: tuProlog is a light-weight Prolog for Internet applications and infrastructures
 dev-lang/typescript 5.9.3 6.0.2 6.0.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-lang/uasm 2.57: UASM is a free MASM-compatible assembler
-dev-lang/vala 0.56.16 0.56.17 0.56.18: Compiler for the GObject type system
+dev-lang/vala 0.56.18 0.56.19: Compiler for the GObject type system
 dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
 dev-lang/xsb 4.0.0-r4: XSB is a logic programming and deductive database system
 dev-lang/yasm 1.3.0-r2: An assembler for x86 and x86_64 instruction sets
@@ -5899,7 +5899,7 @@ dev-libs/userspace-rcu 0.15.5 0.15.6: Userspace RCU (read-copy-update) library
 dev-libs/utfcpp 3.2.1 4.0.6 9999: UTF-8 C++ library
 dev-libs/uthash 2.3.0-r1: An easy-to-use hash implementation for C programmers
 dev-libs/uulib 0.5.20-r3: Library that supports Base64 (MIME), uuencode, xxencode and binhex coding
-dev-libs/vala-common 0.56.16 0.56.17 0.56.18: Build infrastructure for packages that use Vala
+dev-libs/vala-common 0.56.18 0.56.19: Build infrastructure for packages that use Vala
 dev-libs/vali 0.1.1: C library and code generator for Varlink
 dev-libs/vc 1.4.5: SIMD Vector Class Library for C++
 dev-libs/vectorscan 5.4.11 5.4.12: A portable fork of the high-performance regular expression matching library
@@ -8281,7 +8281,7 @@ dev-python/clang 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.4 22.1.4-r1 22.1
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.12.0 2.14.0 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
-dev-python/click 8.3.1-r1 8.3.2 8.3.3: A Python package for creating beautiful command line interfaces
+dev-python/click 8.3.2 8.3.3: A Python package for creating beautiful command line interfaces
 dev-python/click-default-group 1.2.4: Extends click.Group to invoke a command without explicit subcommand name
 dev-python/click-help-colors 0.9.4: Colorization of help messages in Click
 dev-python/click-log 0.4.0: Logging integration for Click
@@ -8289,7 +8289,7 @@ dev-python/click-option-group 0.5.9: Click-extension package that adds option gr
 dev-python/click-plugins 1.1.1.2: Module for click to enable registering CLI commands via entry points
 dev-python/click-threading 0.5.0-r1: Multithreaded Click apps made easy
 dev-python/clickdc 0.1.1: Define click command line options from a python dataclass
-dev-python/cliff 4.13.1 4.13.3: Command Line Interface Formulation Framework
+dev-python/cliff 4.13.3: Command Line Interface Formulation Framework
 dev-python/clikit 0.6.2-r1: Group of utilities to build beautiful and testable command line interfaces
 dev-python/clint 0.5.1-r4: Python Command-line Application Tools
 dev-python/cloudpickle 3.1.2: Extended pickling support for Python objects
@@ -8330,7 +8330,7 @@ dev-python/crcmod 1.7-r5: Python CRC Generator module
 dev-python/crispy-bootstrap3 2024.1: Bootstrap3 template pack for django-crispy-forms
 dev-python/crispy-bootstrap4 2026.2: Bootstrap4 template pack for django-crispy-forms
 dev-python/crispy-bootstrap5 2026.3: Bootstrap5 template pack for django-crispy-forms
-dev-python/croniter 6.0.0 6.2.0 6.2.2: Python module to provide iteration for datetime object
+dev-python/croniter 6.2.2: Python module to provide iteration for datetime object
 dev-python/cryptography 46.0.7 47.0.0 48.0.0: Library providing cryptographic recipes and primitives
 dev-python/cson 0.8-r4: A python parser for the Coffeescript Object Notation (CSON)
 dev-python/css-parser 1.0.10: A CSS Cascading Style Sheets library (fork of cssutils)
@@ -8353,7 +8353,7 @@ dev-python/daemonize 2.5.0-r1: Library for writing system daemons in Python
 dev-python/dasbus 1.7: DBus library in Python 3
 dev-python/datastructclass 0.1.1: A dataclass with struct-like semantics
 dev-python/dbfread 2.0.7-r1: Read DBF Files with Python
-dev-python/dbus-fast 4.0.3 4.0.4: A faster version of dbus-next
+dev-python/dbus-fast 4.0.4: A faster version of dbus-next
 dev-python/dbus-next 0.2.3-r1: The next great DBus library for Python with asyncio support
 dev-python/dbus-python 1.4.0: Python bindings for the D-Bus messagebus
 dev-python/dbutils 3.1.2: Database connections for multi-threaded environments
@@ -8533,9 +8533,9 @@ dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gitpython 3.1.46 3.1.47 3.1.49 3.1.50: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.0 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
-dev-python/google-api-core 2.28.1 2.30.0 2.30.1 2.30.2 2.30.3: Core Library for Google Client Libraries
+dev-python/google-api-core 2.30.3: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.193.0 2.194.0 2.195.0 2.196.0: Google API Client for Python
-dev-python/google-auth 2.48.0 2.49.2 2.50.0 2.52.0: Google Authentication Library
+dev-python/google-auth 2.49.2 2.50.0 2.52.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.3.1 0.4.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.3.1 1.4.0: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
@@ -8913,7 +8913,7 @@ dev-python/oslo-context 6.3.0: Helpers to maintain useful information about a re
 dev-python/oslo-i18n 6.7.2: Oslo i18n library
 dev-python/oslo-log 8.1.0: OpenStack logging config library, configuration for all openstack projects
 dev-python/oslo-serialization 5.9.1: Oslo Serialization library
-dev-python/oslo-utils 10.0.0 10.0.1: Oslo Utility library
+dev-python/oslo-utils 10.0.1: Oslo Utility library
 dev-python/oslotest 6.0.0 6.1.0 6.1.1: Oslo test framework
 dev-python/outcome 1.3.0_p0: Capture the outcome of Python function calls
 dev-python/outputcheck 0.4.2-r2: A tool for checking the output of console programs inspired by LLVM's FileCheck
@@ -8948,7 +8948,7 @@ dev-python/patiencediff 0.2.18: Python implementation of the patiencediff algori
 dev-python/patsy 1.0.2: Python module to describe statistical models and design matrices
 dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.0.3-r1 7.0.3-r2: Inject some useful and sensible default behaviors into setuptools
-dev-python/pbs-installer 2026.3.25 2026.4.7 2026.5.4 2026.5.8: Installer for Python Build Standalone
+dev-python/pbs-installer 2026.5.8: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
 dev-python/pdm 2.26.7 2.26.8: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.4.8: A PEP 517 backend for PDM that supports PEP 621 metadata
@@ -9008,7 +9008,7 @@ dev-python/priority 2.0.0-r1: A pure-Python implementation of the HTTP/2 priorit
 dev-python/process-tests 3.0.0: Tools for testing processes
 dev-python/progress 1.6.1: Easy to use progress bars
 dev-python/progressbar2 4.5.0: Text progressbar library for python
-dev-python/prometheus-client 0.24.1 0.25.0: Python client for the Prometheus monitoring system
+dev-python/prometheus-client 0.25.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.52: Building powerful interactive command lines in Python
 dev-python/propcache 0.4.1 0.5.2: Accelerated property cache
 dev-python/proto-plus 1.27.1 1.27.2-r1 1.28.0: Beautiful, Pythonic protocol buffers
@@ -9021,7 +9021,7 @@ dev-python/pudb 2025.1.5: A full-screen, console-based Python debugger
 dev-python/pulsectl 24.12.0: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
 dev-python/pulsectl-asyncio 1.2.2: Asyncio frontend for pulsectl, Python bindings of libpulse
 dev-python/pure-eval 0.2.3: Safely evaluate AST nodes without side effects
-dev-python/puremagic 2.1.1 2.2.0: Pure python implementation of magic file detection
+dev-python/puremagic 2.2.0: Pure python implementation of magic file detection
 dev-python/py 1.11.0-r1: library with cross-python path, ini-parsing, io, code, log facilities
 dev-python/py-cpuinfo 9.0.0: Get CPU info with pure Python 2 & 3
 dev-python/py-ubjson 0.16.1-r1: Universal Binary JSON encoder/decoder
@@ -9218,7 +9218,7 @@ dev-python/pytest-helpers-namespace 2021.12.29-r1: Provides a helpers pytest nam
 dev-python/pytest-home 0.6.0: Home directory fixtures
 dev-python/pytest-httpbin 2.1.0: Easily test your HTTP library against a local copy of httpbin
 dev-python/pytest-httpserver 1.1.5: HTTP server for pytest to test HTTP clients
-dev-python/pytest-httpx 0.36.0 0.36.2: Send responses to HTTPX using pytest
+dev-python/pytest-httpx 0.36.2: Send responses to HTTPX using pytest
 dev-python/pytest-import-check 0.0.4: pytest plugin to check whether Python modules can be imported
 dev-python/pytest-jobserver 1.1.0: Limit parallel tests with POSIX jobserver
 dev-python/pytest-jupyter 0.11.0: Pytest plugin for testing Jupyter libraries and extensions
@@ -9357,7 +9357,7 @@ dev-python/qpageview 1.0.2 1.0.4: Page-based viewer widget for Qt5/PyQt5
 dev-python/qrcode 8.2: QR Code generator on top of PIL
 dev-python/qscintilla 2.14.1-r3: Python bindings for QScintilla
 dev-python/qstylizer 0.2.4: Stylesheet Generator for PyQt5/PySide2
-dev-python/qtawesome 1.4.1 1.4.2: Enables iconic fonts such as Font Awesome in PyQt
+dev-python/qtawesome 1.4.2: Enables iconic fonts such as Font Awesome in PyQt
 dev-python/qtconsole 5.7.2: Qt-based console for Jupyter with support for rich media output
 dev-python/qtpy 2.4.3-r2: Abstraction layer on top of PyQt and PySide with additional custom QWidgets
 dev-python/qtsass 0.4.0: Compile SASS files to Qt stylesheets
@@ -9559,7 +9559,7 @@ dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler fr
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
 dev-python/spyder-terminal 1.3.0: Run system terminals inside Spyder
 dev-python/spyder-unittest 0.7.1: Plugin for Spyder to run tests and view the results
-dev-python/sqlalchemy 1.4.54 2.0.48 2.0.49 2.1.0_beta1 2.1.0_beta2: Python SQL toolkit and Object Relational Mapper
+dev-python/sqlalchemy 1.4.54 2.0.49 2.1.0_beta2: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlalchemy-rqlite 2.0: A SQLAlchemy dialect for rqlite
 dev-python/sqlglot 30.6.0 30.7.0: An easily customizable SQL parser and transpiler
 dev-python/sqlitedict 2.1.0: Persistent dict in Python, backed by SQLite and pickle
@@ -9638,13 +9638,13 @@ dev-python/toolz 1.1.0: List processing tools and functional utilities
 dev-python/toposort 1.10: Implements a topological sort algorithm
 dev-python/tornado 6.5.5: Python web framework and asynchronous networking library
 dev-python/towncrier 25.8.0: Building newsfiles for your project
-dev-python/tox 4.49.1 4.50.3 4.53.0 4.53.1: virtualenv-based automation of test activities
+dev-python/tox 4.50.3 4.53.1: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r2: Python bindings for TSS
 dev-python/tqdm 4.67.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.14.3 5.15.0: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
-dev-python/translate-toolkit 3.19.3 3.19.4 3.19.5 3.19.6 3.19.7 3.19.8: Toolkit to convert between many translation formats
+dev-python/translate-toolkit 3.19.4 3.19.5 3.19.6 3.19.7 3.19.8: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.24.0 0.25.1-r1 0.25.2 0.25.2-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 4.11.5 4.12.1 4.12.2: Python library for loading and using triangular meshes
@@ -14359,7 +14359,7 @@ media-video/parole 4.18.2 4.20.0: A simple Xfce4 media player using GStreamer
 media-video/peek 1.5.1-r2: Simple animated Gif screen recorder
 media-video/pgmfindclip 1.13: automatically find a clipping border for a sequence of pgm images
 media-video/pipewire 1.4.10 1.4.9999 1.6.4 1.6.9999 9999: Multimedia processing graphs
-media-video/pitivi 2023.03-r2: A non-linear video editor using the GStreamer multimedia framework
+media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
 media-video/qmplay2 25.09.11 9999: A Qt-based video player, which can play most formats and codecs
@@ -15610,7 +15610,7 @@ net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.1.6-r1 6.1.7: A reliable, low-latency, and anti-censorship virtual private network
 net-vpn/cloudflare-warp 2026.1.150.0-r1 2026.3.846.0: Cloudflare Warp Client
-net-vpn/cloudflared 2025.10.1 2026.1.2 2026.3.0: A command-line client and tunneling daemon for Cloudflare Tunnel
+net-vpn/cloudflared 2026.3.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
 net-vpn/derper 1.92.4 1.96.5: DERP server for tailscale network
 net-vpn/eduvpn-client 4.6.0 4.7.1 9999: Linux client and Python client API for eduVPN
@@ -17770,7 +17770,7 @@ sys-kernel/git-sources 7.1_rc1 7.1_rc2: The very latest -git version of the Linu
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 63 65 66 67 68 9999: Gentoo fork of installkernel script from debianutils
-sys-kernel/kci-dev 0.1.6: Stand alone tool to interact with KernelCI
+sys-kernel/kci-dev 0.1.6 0.1.10: Stand alone tool to interact with KernelCI
 sys-kernel/kergen 0.1.5-r1: Kernel config generator
 sys-kernel/kpatch 0.9.7 0.9.8 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18: Developer documentation generated from the Linux kernel
