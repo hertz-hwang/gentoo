@@ -10977,7 +10977,7 @@ dev-util/makeheaders 0_p20240823 0_p20251008: Tool that automatically generates 
 dev-util/makepp 2.0.99.2: GNU make replacement
 dev-util/marksman 2025.11.25 2026.02.08: LSP language server for editing Markdown files
 dev-util/massif-visualizer 25.12.3 26.04.1: Tool visualising massif data
-dev-util/maturin 1.11.5 1.12.5 1.12.6 1.13.1: Build and publish crates with pyo3, rust-cpython and cffi bindings
+dev-util/maturin 1.12.6 1.13.1 1.13.2: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.2-r1 3.22.3: A graphical diff and merge tool
@@ -16427,9 +16427,9 @@ sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the 
 sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
 sci-ml/evaluate 0.4.6: makes evaluating, comparing models and reporting their performance easier
 sci-ml/fastai 2.7.19: The fastai deep learning library
-sci-ml/fastcore 1.7.29-r1: Python supercharged for the fastai library
+sci-ml/fastcore 1.8.18 1.12.46: Python supercharged for the fastai library
 sci-ml/fastdownload 0.0.6: Easily download, verify, and extract archives
-sci-ml/fastprogress 1.0.3: Simple and flexible progress bar for Jupyter Notebook and console
+sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02: library of floating-point neural network inference operators
