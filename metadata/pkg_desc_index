@@ -1414,7 +1414,7 @@ app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Softwar
 app-containers/umoci 0.4.7: Manipulation tool for OCI images
 app-crypt/acme 3.2.0-r100: An implementation of the ACME protocol
 app-crypt/acme-sh 3.1.3 9999: A pure Unix shell script implementing ACME client protocol
-app-crypt/acme-tiny 5.0.1-r2 5.0.2: A tiny, auditable script for Let's Encrypt's ACME Protocol
+app-crypt/acme-tiny 5.0.2: A tiny, auditable script for Let's Encrypt's ACME Protocol
 app-crypt/acr38u 1.7.11-r4: Non CCID driver for ACR38 AC1038-based Smart Card Reader
 app-crypt/adcli 0.9.2 0.9.3.1: Tool for performing actions on an Active Directory domain
 app-crypt/aescrypt 3.16: Advanced file encryption using AES
@@ -1498,7 +1498,7 @@ app-crypt/md5deep 4.4: Expanded md5sum program with recursive and comparison opt
 app-crypt/md6sum 1.0-r3: A C implementation of MD6
 app-crypt/mhash 0.9.9.9-r4: Library providing a uniform interface to a large number of hash algorithms
 app-crypt/minisign 0.12: Dead simple tool to sign files and verify signatures
-app-crypt/mit-krb5 1.21.3 1.21.3-r1 1.22.2 1.22.2-r1: MIT Kerberos V
+app-crypt/mit-krb5 1.21.3 1.21.3-r1 1.22.2 1.22.2-r1 1.22.2-r2: MIT Kerberos V
 app-crypt/mit-krb5-appl 1.0.3-r4 1.0.3-r5: Kerberized applications split from the main MIT Kerberos V distribution
 app-crypt/mkp224o 1.7.0: Vanity address generator for v3 Tor hidden service addresses
 app-crypt/monkeysphere 0.44-r2: Leverage the OpenPGP web of trust for OpenSSH and Web authentication
@@ -2369,7 +2369,7 @@ app-emulation/dosemu 1.4.1_pre20130107-r7: DOS Emulator
 app-emulation/dxvk 2.3.1-r1 2.4.1 2.5.3 2.6.2 2.7.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
 app-emulation/faudio 26.03 26.04: Accuracy-focused XAudio reimplementation for open platforms
-app-emulation/fex-xtajit 2601 2603 2604: A wine emulation dll for running x86 application on an arm64 host
+app-emulation/fex-xtajit 2601 2603 2604 2605: A wine emulation dll for running x86 application on an arm64 host
 app-emulation/firecracker-bin 1.14.4 1.15.1: Secure and fast microVMs for serverless computing (static build)
 app-emulation/free42 3.1.9 3.3.8 3.3.10 3.3.11: An HP-42S Calculator Simulator
 app-emulation/fs-uae 3.1.66 3.2.35 9999: Integrates the most accurate Amiga emulation code available from WinUAE
@@ -2511,9 +2511,9 @@ app-forensics/rkhunter 1.4.6-r2: Rootkit Hunter scans for known and unknown root
 app-forensics/scalpel 2.1_pre20210326: A high performance file carver
 app-forensics/sleuthkit 4.12.1-r2: A collection of file system and media management forensic analysis tools
 app-forensics/unhide 20220611: Forensic tool to find hidden processes and TCP/UDP ports by rootkits/LKMs
-app-forensics/volatility3 2.26.2 2.27.0: Framework for analyzing volatile memory
+app-forensics/volatility3 2.27.0 2.28.0: Framework for analyzing volatile memory
 app-forensics/yara 4.5.4 4.5.5 9999: A malware identification and classification tool
-app-forensics/yara-x 1.10.0-r1 1.11.0 1.14.0 1.15.0: A malware identification and classification tool
+app-forensics/yara-x 1.14.0 1.15.0 1.16.0: A malware identification and classification tool
 app-forensics/zzuf 0.15_p20190208 0.15_p20220529: Transparent application input fuzzer
 app-i18n/anthy 9100h-r3: Anthy -- free and secure Japanese input system
 app-i18n/anthy-unicode 1.0.0.20260213: Another Anthy - Japanese character set input library for Unicode
@@ -3031,7 +3031,7 @@ app-office/orage 4.20.2 4.20.3 4.21.0: A calendar application for Xfce
 app-office/planner 0.14.91-r1 0.14.92-r1 9999: Project manager for Gnome
 app-office/projectlibre-bin 1.9.3: Open source desktop alternative to Microsoft Project
 app-office/sc-im 0.8.3-r2 0.8.5: Ncurses based, vim-like spreadsheet calculator
-app-office/scribus 1.7.2 9999: Desktop publishing (DTP) and layout program
+app-office/scribus 1.7.2 1.7.3 9999: Desktop publishing (DTP) and layout program
 app-office/skrooge 25.10.0 26.1.20: Personal finances manager, aiming at being simple and intuitive
 app-office/texmaker 6.0.1: Powerful LaTeX-IDE
 app-office/texstudio 4.9.0 4.9.2 4.9.3: Free cross-platform LaTeX editor (fork from texmakerX)
@@ -3120,7 +3120,7 @@ app-shells/bashdb 5.0.1.1.2-r1 5.1_pre20240617: bash source code debugging
 app-shells/bashish 2.2.4: Text console theme engine
 app-shells/ccsh 0.0.4-r5: UNIX Shell for people already familiar with the C language
 app-shells/ctypes-sh 1.2_p20240626: Foreign function interface for bash
-app-shells/dash 0.5.12-r1 0.5.13.2 0.5.13.3 9999: Debian Almquist Shell
+app-shells/dash 0.5.12-r1 0.5.13.2 0.5.13.3 0.5.13.4 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
 app-shells/fish 4.4.0 4.5.0-r2 4.6.0 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
@@ -3368,7 +3368,7 @@ app-text/pep 2.8-r2 2.8-r3: General purpose filter and file cleaning program
 app-text/pinfo 0.6.13: Hypertext info and man viewer based on (n)curses
 app-text/po4a 0.74-r1: Tools to ease the translation of documentation
 app-text/podofo 0.9.8-r1 0.10.1-r2 0.10.3-r1: PoDoFo is a C++ library to work with the PDF file format
-app-text/poppler 26.03.0 9999: PDF rendering library based on the xpdf-3.0 code base
+app-text/poppler 26.03.0 26.05.0 9999: PDF rendering library based on the xpdf-3.0 code base
 app-text/poppler-data 0.4.12: Data files for poppler to support uncommon encodings without xpdfrc
 app-text/ps2eps 1.68: Generate Encapsulated Postscript Format files from one-page Postscript documents
 app-text/ps2pkm 1.8_p20230311 1.8_p20240311: Tool that converts a PostScript type1 font into a corresponding TeX PK font
@@ -5486,7 +5486,7 @@ dev-libs/kopeninghours 25.12.3 26.04.1: Library for parsing and evaluating OSM o
 dev-libs/kosmindoormap 25.12.3 26.04.1: Data Model and Extraction System for Travel Reservation information
 dev-libs/kpathsea 6.3.5_p20230311 6.4.0_p20240311 6.4.0_p20240311-r1: Path searching library for TeX-related files
 dev-libs/kpublictransport 25.12.3 26.04.1: Library for accessing public transport timetables and other information
-dev-libs/ktextaddons 1.8.0 2.0.1-r1: Various text handling addons
+dev-libs/ktextaddons 1.8.0 2.0.1-r1 2.0.2: Various text handling addons
 dev-libs/kweathercore 25.12.3 26.04.1: Library for retrieval of weather information including forecasts and alerts
 dev-libs/lager 0.1.1-r1 0.1.2: Library to assist value-oriented design
 dev-libs/leancrypto 1.7.2-r3 9999: Lean cryptographic library usable for bare-metal environments
@@ -8250,7 +8250,7 @@ dev-python/btrfs 15: Python module to inspect btrfs filesystems
 dev-python/btrfsutil 6.19.1: Library for managing Btrfs filesystems
 dev-python/build 1.3.0 1.4.4 1.5.0: A simple, correct PEP517 package builder
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
-dev-python/cachelib 0.13.0 0.13.0-r1: Collection of cache libraries in the same API interface. Extracted from werkzeug
+dev-python/cachelib 0.13.0 0.13.0-r1 0.14.0: Collection of cache libraries in the same API interface. Extracted from werkzeug
 dev-python/cachetools 7.0.5 7.0.6 7.1.0 7.1.1: Extensible memoizing collections and decorators
 dev-python/cairocffi 1.7.1-r1: CFFI-based drop-in replacement for Pycairo
 dev-python/calver 2025.10.20: Setuptools extension for CalVer package versions
@@ -8411,7 +8411,7 @@ dev-python/docker 7.1.0: Python client for Docker
 dev-python/dockerpty 0.4.1-r3: Python library to use the pseudo-tty of a docker container
 dev-python/docopt 0.6.2-r5: Pythonic argument parser, that will make you smile
 dev-python/docstring-to-markdown 0.17: On the fly conversion of Python docstrings to markdown
-dev-python/docutils 0.22.4: Python Documentation Utilities (reference reStructuredText impl.)
+dev-python/docutils 0.22.4 0.23_rc1: Python Documentation Utilities (reference reStructuredText impl.)
 dev-python/docutils-glep 1.5: Gentoo GLEP support for docutils
 dev-python/dogpile-cache 1.5.0: A locking API for expiring values while a single thread generates a new value
 dev-python/doit 0.36.0-r2 0.37.0: Automation tool
@@ -8928,7 +8928,7 @@ dev-python/pandas 2.3.3 3.0.2: Powerful data structures for data analysis and st
 dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
-dev-python/paramiko 3.5.1 4.0.0-r1: SSH2 protocol library
+dev-python/paramiko 3.5.1 4.0.0-r1 5.0.0: SSH2 protocol library
 dev-python/parse 1.21.1 1.22.0: Parse strings using a specification based on the Python format() syntax
 dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
@@ -8992,7 +8992,7 @@ dev-python/pocketlint 0.26: Shared code for running pylint against rhinstaller p
 dev-python/pockets 0.9.1-r3: Collection of helpful Python tools
 dev-python/podcastparser 0.6.11: Podcast parser for the gpodder client
 dev-python/podman 5.8.0: A library to interact with a Podman server
-dev-python/poetry 2.3.2-r1 2.3.3 2.3.4: A frontend for poetry - a python dependency management and packaging tool
+dev-python/poetry 2.3.2-r1 2.3.3 2.3.4 2.4.1: A frontend for poetry - a python dependency management and packaging tool
 dev-python/poetry-core 2.3.2 2.4.0: Poetry PEP 517 Build Backend
 dev-python/poetry-plugin-export 1.10.0: A plugin that allows the export of locked packages to various formats
 dev-python/polib 1.2.0: A library to manipulate gettext files (.po and .mo files)
@@ -9004,7 +9004,7 @@ dev-python/pplpy 0.8.10-r1 0.9.0: Python bindings for the Parma Polyhedra Librar
 dev-python/precis-i18n 1.1.2: Internationalized Usernames and Passwords
 dev-python/pretend 1.0.9-r2: A library for stubbing in Python
 dev-python/prettytable 3.17.0: Easily displaying tabular data in a visually appealing ASCII table format
-dev-python/primecountpy 0.1.1-r1 0.2.1: Cython interface to sci-mathematics/primecount
+dev-python/primecountpy 0.2.1: Cython interface to sci-mathematics/primecount
 dev-python/priority 2.0.0-r1: A pure-Python implementation of the HTTP/2 priority tree
 dev-python/process-tests 3.0.0: Tools for testing processes
 dev-python/progress 1.6.1: Easy to use progress bars
@@ -9138,7 +9138,7 @@ dev-python/pyotp 2.9.0: PyOTP is a Python library for generating and verifying o
 dev-python/pyparsing 3.3.2: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.9.2 6.10.2: Python library to work with PDF files
+dev-python/pypdf 6.9.2 6.10.2 6.11.0: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9381,7 +9381,7 @@ dev-python/redis 7.1.0 7.4.0: Python client for Redis key-value store
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
-dev-python/regex 2026.4.4: Alternative regular expression module to replace re
+dev-python/regex 2026.4.4 2026.5.9: Alternative regular expression module to replace re
 dev-python/regress 2025.10.1: Python bindings to the Rust regress crate
 dev-python/rencode 1.0.8-r1: Serialization similar to bencode from the BitTorrent project
 dev-python/reno 4.1.0: Release notes manager, storing release notes in a git repo and building docs
@@ -10760,7 +10760,7 @@ dev-util/bingrep 0.11.0-r1: Binary file analysis tool
 dev-util/bloaty 1.1-r1 1.1-r2 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.19.0 0.20.0 0.20.4: Compiler for Blueprint, a markup language for GTK user interfaces
 dev-util/bootconfig 6.6 6.9: Bootconfig tools for kernel command line to support key-value
-dev-util/bpf-linker 0.9.15 0.9.15-r1: Simple BPF static linker
+dev-util/bpf-linker 0.9.15 0.9.15-r1 0.10.3: Simple BPF static linker
 dev-util/bpftool 7.6.0-r1 7.7.0-r1 9999: Tool for inspection and simple manipulation of eBPF programs and maps
 dev-util/bpftop 0.7.1 0.8.0: Dynamic real-time view of running eBPF programs
 dev-util/breakpad 2024.02.16: A set of client and server components which implement a crash-reporting system
@@ -14864,7 +14864,7 @@ net-irc/irssi-xmpp 0.54-r1: Irssi plugin providing Jabber/XMPP support
 net-irc/irssistats 0.75-r3: Generates HTML IRC stats based on irssi logs
 net-irc/konversation 25.12.3 26.04.1: User friendly IRC Client
 net-irc/kvirc 5.2.10 9999: Advanced IRC Client
-net-irc/limnoria 20241222-r1 99999999: Python based extensible IRC infobot and channel bot
+net-irc/limnoria 20241222-r1 20260508 99999999: Python based extensible IRC infobot and channel bot
 net-irc/limnoria-plugins-chantracker 1.6_p20221109: supybot ban management and channel flood/spam/repeat protections plugin
 net-irc/limnoria-plugins-jlu5 20220201_p20221108: A collection of plugins for the Limnoria IRC bot
 net-irc/limnoria-plugins-progval 20221113: Collection of plugins for Supybot/Limnoria I wrote or forked
@@ -16026,7 +16026,7 @@ sci-geosciences/gpsd 3.26.1-r1 3.27.5 9999: GPS daemon and library for USB/seria
 sci-geosciences/gpsprune-bin 23.2: An application for viewing, editing and converting GPS data
 sci-geosciences/gpx-viewer 0.4.0-r2: Simple program to visualize a gpx file
 sci-geosciences/gpxsee 15.10 16.5 16.6: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
-sci-geosciences/grass 8.4.1-r2 8.4.2 8.5.0_rc1 9999: Free GIS with raster and vector functionality, as well as 3D vizualization
+sci-geosciences/grass 8.4.1-r2 8.4.2 8.5.0_rc1 8.5.0 9999: Free GIS with raster and vector functionality, as well as 3D vizualization
 sci-geosciences/gshhg-gmt 2.3.7: Global Self-consistent, Hierarchical, High-resolution Geography Database
 sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolution Shoreline programs
 sci-geosciences/gshhs-data 2.2.0: Global Self-consistent, Hierarchical, High-resolution Shoreline programs data
@@ -16372,7 +16372,7 @@ sci-mathematics/picosat 965: SAT solver with proof and core support
 sci-mathematics/planarity 3.0.2.0 4.0.0.0: The edge addition planarity suite of graph algorithms
 sci-mathematics/plfit 1.0.1: Fit power-law distributions to empirical data
 sci-mathematics/polymake 4.13 4.14 4.15: Tool for polyhedral geometry and combinatorics
-sci-mathematics/primecount 7.13-r1 8.0: Highly optimized CLI and library to count primes
+sci-mathematics/primecount 8.0: Highly optimized CLI and library to count primes
 sci-mathematics/primesieve 12.3: CLI and library for quickly generating prime numbers
 sci-mathematics/prng 3.0.2-r4: Pseudo-Random Number Generator library
 sci-mathematics/prover9 2009.11a-r2: Automated theorem prover for first-order and equational logic
@@ -16442,7 +16442,7 @@ sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.10.0 2.11.0: Tensors and Dynamic neural networks in Python
 sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
-sci-ml/sentencepiece 0.2.0-r3: Text tokenizer for Neural Network-based text generation
+sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
@@ -17273,7 +17273,7 @@ sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1: Generates an init binary for s6-ba
 sys-apps/s6-linux-utils 2.6.3.0 2.6.4.0: Set of tiny linux utilities
 sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1: Service manager for the s6 supervision suite
-sys-apps/sandbox 2.46 2.47 2.48 9999: sandbox'd LD_PRELOAD hack
+sys-apps/sandbox 2.46 2.47 2.48 2.49 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
 sys-apps/secilc 3.8.1 3.9 3.10 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.9-r1 4.10: Super-useful stream editor
@@ -17298,7 +17298,7 @@ sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
 sys-apps/system-monitoring-center 3.2.0 3.3.0 3.4.0 9999: Multi-featured system monitor GUI written in Python
 sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services and their logs
-sys-apps/systemd 259.4-r1 260.1 9999: System and service manager for Linux
+sys-apps/systemd 259.4-r1 260.1-r1 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
 sys-apps/systemd-utils 255.18 259.3 259.4 260.1-r1: Utilities split out from systemd for OpenRC users
@@ -17474,7 +17474,7 @@ sys-boot/gnu-efi 3.0.19 4.0.4: Library for build EFI Applications
 sys-boot/grub 2.12-r12 2.14-r5 9999: GNU GRUB boot loader
 sys-boot/grub-themes-gentoo 1.0-r2: Grub2 Themes for Gentoo
 sys-boot/lilo 24.2-r2 24.2-r3: LInux LOader, the original Linux bootloader
-sys-boot/limine 11.4.1 12.0.2: Limine is a modern, advanced, and portable BIOS/UEFI multiprotocol bootloader
+sys-boot/limine 11.4.1 12.2.0: Limine is a modern, advanced, and portable BIOS/UEFI multiprotocol bootloader
 sys-boot/makebootfat 1.4: Command line utility able to create bootable USB disks
 sys-boot/mbr 1.1.11-r2: A replacement master boot record for IBM-PC compatible computers
 sys-boot/milo 2.4.18: The Alpha MIniLOader, for Alpha Machines without SRM
@@ -17571,7 +17571,7 @@ sys-devel/bpf-toolchain 15.2.0_p3 16.1.0_p1: All-in-one bpf toolchain for buildi
 sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23: Symlinks to a Clang crosscompiler
 sys-devel/cproc 0_pre20240413 0_pre20260113 9999: C11 compiler using QBE as backend
 sys-devel/crossdev 20260326 20260501 99999999: Gentoo Cross-toolchain generator
-sys-devel/crosstool-ng 1.27.0 1.28.0 9999: Versatile (cross-)toolchain generator
+sys-devel/crosstool-ng 1.28.0 9999: Versatile (cross-)toolchain generator
 sys-devel/dev86 1.0.1: Bruce's C compiler - Simple C compiler to generate 8086 code
 sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across several machines on a network
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
@@ -18525,7 +18525,7 @@ x11-libs/libxkbcommon 1.13.1: Keymap handling library for toolkits and window sy
 x11-libs/libxkbfile 1.2.0: X.Org xkbfile library
 x11-libs/libxklavier 5.4-r1: A library for the X Keyboard Extension (high-level API)
 x11-libs/libxshmfence 1.3.3: Shared memory fences using futexes
-x11-libs/motif 2.3.8-r6 2.5.1-r1 2.5.2: The Motif user interface component toolkit
+x11-libs/motif 2.3.8-r6 2.5.2: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
 x11-libs/pango 1.52.2 1.54.0 1.56.3 1.56.4 1.56.4-r1 1.56.4-r2 1.57.0 1.57.1: Internationalized text layout and rendering library
 x11-libs/pixman 0.46.4 9999: Low-level pixel manipulation routines
