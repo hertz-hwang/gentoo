@@ -5935,7 +5935,7 @@ dev-lisp/clisp 2.49.92-r1 2.49.92-r3: Portable, bytecode-compiled implementation
 dev-lisp/clozurecl 1.12.2 1.13: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/clx 0.7.5-r1: CLX is the Common Lisp interface to the X11 protocol primarily for SBCL
 dev-lisp/cmucl 21e: CMU Common Lisp is an implementation of ANSI Common Lisp
-dev-lisp/ecl 24.5.10 24.5.10-r1 26.3.27: ECL is an embeddable Common Lisp implementation
+dev-lisp/ecl 24.5.10 24.5.10-r1 26.3.27 26.5.5: ECL is an embeddable Common Lisp implementation
 dev-lisp/flexi-streams 1.0.19: Flexible bivalent streams for Common Lisp
 dev-lisp/gcl 2.6.14 2.6.15_pre3: GNU Common Lisp
 dev-lisp/hyperspec 7.0-r3: Common Lisp ANSI-standard Hyperspec
@@ -12706,7 +12706,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.10.8 3.11.1-r1 3.11.2 3.12_pre20260508: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.1-r1 3.11.2 3.12_pre20260510: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1: Widely-used Mail Transport Agent (MTA)
@@ -16426,7 +16426,7 @@ sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
 sci-ml/evaluate 0.4.6: makes evaluating, comparing models and reporting their performance easier
-sci-ml/fastai 2.7.19: The fastai deep learning library
+sci-ml/fastai 2.8.7: The fastai deep learning library
 sci-ml/fastcore 1.8.18 1.12.46: Python supercharged for the fastai library
 sci-ml/fastdownload 0.0.6: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
@@ -17792,7 +17792,7 @@ sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev 
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.255 5.10.9999 5.15.205 5.15.9999 6.1.171 6.1.9999 6.6.138 6.6.9999 6.12.87 6.12.9999 6.18.28 7.0.5: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.255 5.15.206 6.1.172 6.6.138 6.12.87 6.18.28 7.0.5: Full sources for the Linux kernel
-sys-kernel/virtme-ng 1.38 1.40 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
+sys-kernel/virtme-ng 1.40 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.0.3: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
