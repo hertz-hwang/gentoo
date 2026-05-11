@@ -992,7 +992,7 @@ app-admin/graylog 4.2.7: Free and open source log management
 app-admin/gtkdiskfree 2.0.4_p20200224-r2: Graphical tool to show free disk space like df
 app-admin/hardinfo 0.6_alpha_pre20240320: System information and benchmark tool for Linux systems
 app-admin/haskell-updater 1.3.2-r1 1.3.3 1.4.0.0 1.4.1.0 9999: Rebuild Haskell dependencies in Gentoo
-app-admin/hcloud 1.61.0 1.62.2: A command-line interface for Hetzner Cloud
+app-admin/hcloud 1.61.0 1.64.1: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
@@ -2794,7 +2794,7 @@ app-misc/go-jira 1.0.28-r1: A simple JIRA commandline client in Go
 app-misc/gojq 0.12.17: Pure Go implementation of jq with yaml support
 app-misc/golly 4.3-r2 5.0: Simulator for Conway's Game of Life and other cellular automata
 app-misc/grabcartoons 2.8.5 9999: Comic-summarizing utility
-app-misc/gramps 5.2.3 6.0.1 6.0.4: Community genealogy program aiming to be both intuitive and feature-complete
+app-misc/gramps 5.2.3 6.0.1 6.0.4 6.0.8: Community genealogy program aiming to be both intuitive and feature-complete
 app-misc/graphlcd-base 2.0.3-r3: Contains the lowlevel lcd drivers for GraphLCD
 app-misc/grc 1.13-r1: Generic Colouriser beautifies your logfiles or output of commands
 app-misc/gtk-sunlight 0.4.2-r2: Real-time Sunlight Wallpaper
@@ -3356,7 +3356,7 @@ app-text/paps 0.8.0: Unicode-aware text to PostScript converter
 app-text/par 1.53.0: a paragraph reformatter, vaguely similar to fmt, but better
 app-text/pastebinit 1.7.0: Software that lets you send anything you want directly to a pastebin
 app-text/pdf2html 1.4: Converts pdf files to html files
-app-text/pdfarranger 1.11.1-r1 1.12.1: Merge or split pdfs; rearrange, rotate, crop pages
+app-text/pdfarranger 1.11.1-r1 1.12.1 1.13.0: Merge or split pdfs; rearrange, rotate, crop pages
 app-text/pdfgrep 2.1.2 2.2.0: A tool similar to grep which searches text in PDFs
 app-text/pdfjam 3.12 4.1: Tool for manipulatiing PDF files
 app-text/pdfminer 20240706 20260107: Python tool for extracting information from PDF documents
@@ -17195,7 +17195,7 @@ sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20250131 1.3.4_p20260129 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
 sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 3.10 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00: Memory tester based on PCMemTest
-sys-apps/memtest86-bin 11.6: Stand alone memory testing software for x86 EFI hardware
+sys-apps/memtest86-bin 11.7: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.7.1: Userspace utility for testing the memory subsystem for faults
 sys-apps/merge-usr 6 7: Script to migrate from split-usr to merged-usr
 sys-apps/miller 5.10.2: A tool like sed, awk, cut, join, and sort for name-indexed data (CSV, JSON, ..)
