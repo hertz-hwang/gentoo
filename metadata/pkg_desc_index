@@ -3327,6 +3327,7 @@ app-text/lv 4.51-r5: Powerful Multilingual File Viewer
 app-text/mandoc 1.14.6 1.14.6-r1: Suite of tools compiling mdoc and man
 app-text/manpager 1: Enable colorization of man pages
 app-text/marknote 1.5.1 1.5.2: Markdown editor with a wide range of formating options for everyday notes
+app-text/master-pdf-editor 5.9.98: A complete solution for viewing and editing PDF files
 app-text/mathtex 1.05: Lets you easily embed LaTeX math in your own html pages, blogs, wikis, etc
 app-text/mdbook 0.5.2: Create a book from markdown files
 app-text/mecab 0.996-r1 0.996-r2: Yet Another Part-of-Speech and Morphological Analyzer
@@ -14523,7 +14524,7 @@ net-analyzer/nagios-check_multiple 0.0.1-r4: A Nagios plugin to execute multiple
 net-analyzer/nagios-check_mysql_health 2.2.2-r2: Nagios plugin for checking MySQL server health
 net-analyzer/nagios-check_rbl 1.7.0: Monitor whether or not a host is blacklisted
 net-analyzer/nagios-core 4.5.8 4.5.12: Nagios core - monitoring daemon, web GUI, and documentation
-net-analyzer/nagios-icinga-openvpn 0.0.1-r5: A Nagios plugin to check whether an OpenVPN server is alive
+net-analyzer/nagios-icinga-openvpn 0.0.1-r6: A Nagios plugin to check whether an OpenVPN server is alive
 net-analyzer/nagios-plugin-check_lm_sensors 4.1.1_p20191028: Nagios plugin to monitor the values of onboard sensors and disk temperatures
 net-analyzer/nagios-plugin-check_raid 4.0.10-r3: Nagios/Icinga plugin to check current server's RAID status
 net-analyzer/nagios-plugins 2.4.12 2.4.12-r4: Official plugins for Nagios
