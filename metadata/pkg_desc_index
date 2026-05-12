@@ -1284,7 +1284,7 @@ app-backup/spideroak-bin 7.5.0-r3: Secure free online backup, storage, and shari
 app-backup/synology-cloud-station-backup 4469: Back up your files from multiple client computers to a centralized Synology NAS
 app-backup/tarsnap 1.0.41: Online backups for the truly paranoid
 app-backup/tsm 8.1.22.0-r1 8.1.27.0-r2 8.1.27.1-r1 8.2.1.0: IBM Storage Protect (former Tivoli Storage Manager) Backup/Archive Client, API
-app-backup/untangle-https-backup 0.1.0-r3: Back up Untangle configurations via the web admin UI
+app-backup/untangle-https-backup 0.1.0-r4: Back up Untangle configurations via the web admin UI
 app-benchmarks/bashmark 0.6.2: Geno's cross platform benchmarking suite
 app-benchmarks/bonnie 2.0.6-r3: Performance Test of Filesystem I/O using standard C library calls
 app-benchmarks/bonnie++ 2.00a: Hard drive bottleneck testing benchmark suite
@@ -8342,7 +8342,7 @@ dev-python/csvkit 2.2.0: A suite of utilities for converting to and working with
 dev-python/cucumber-expressions 19.0.0: Human friendly alternative to Regular Expressions
 dev-python/cucumber-tag-expressions 9.1.0: Cucumber tag expression parser
 dev-python/curtsies 0.4.3: Curses-like terminal wrapper, with colored strings
-dev-python/cvxopt 1.3.2: Python package for convex optimization
+dev-python/cvxopt 1.3.2 1.3.3: Python package for convex optimization
 dev-python/cwcwidth 0.1.12: Python bindings for wc(s)width
 dev-python/cycler 0.12.1: Composable style cycles
 dev-python/cypari2 2.2.2 2.2.4: Cython interface to PARI
@@ -15529,7 +15529,7 @@ net-p2p/qbittorrent 5.1.2-r1 5.1.4 5.2.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.8 0.16.9 0.16.11 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
-net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16: Open Source Continuous File Synchronization
+net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16 2.1.0: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
 net-p2p/transmission 4.0.6-r6 4.1.1 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
@@ -16309,7 +16309,7 @@ sci-mathematics/cudd 3.0.0-r2: Colorado University binary Decision Diagram libra
 sci-mathematics/cvc4 1.8-r7: Automatic theorem prover for satisfiability modulo theories (SMT) problems
 sci-mathematics/dataplot 20131220: Program for scientific visualization and statistical analyis
 sci-mathematics/dsfmt 2.2.4: Double precision SIMD-oriented Fast Mersenne Twister library
-sci-mathematics/dunshire 0.1.3-r2: Python library to solve linear games over symmetric cones
+sci-mathematics/dunshire 0.1.3-r3: Python library to solve linear games over symmetric cones
 sci-mathematics/easycrypt 2026.03 2026.05: Computer-Aided Cryptographic Proofs
 sci-mathematics/eclib 20250627: Programs for elliptic curves defined over the rational numbers
 sci-mathematics/ent 101202: Random number sequence test and entropy calculation
