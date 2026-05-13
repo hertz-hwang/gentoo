@@ -1877,7 +1877,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.118.1 1.119.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.119.0 1.120.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.110.11631 1.112.01907: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -2098,7 +2098,7 @@ app-emacs/god-mode 2.18.0 2.19.0: Minor mode for God-like command entering in GN
 app-emacs/google-c-style 20140929: Provides the google C/C++ coding style
 app-emacs/gptel 0.9.9.4 0.9.9.5 9999: Simple Large Language Model chat client for GNU Emacs
 app-emacs/graphql 0.1.2: GraphQL utilities
-app-emacs/graphviz-dot-mode 0.4 0.4.20181118: Emacs mode for editing and previewing Graphviz dot graphs
+app-emacs/graphviz-dot-mode 0.4_p20181118 0.4.2_p20250925: Emacs mode for editing and previewing Graphviz dot graphs
 app-emacs/groovy-emacs-modes 2.1: Groovy major mode, grails minor mode, and a groovy inferior mode
 app-emacs/gruvbox-theme 1.30.2 9999: Gruvbox is a retro groove color scheme, now in Emacs
 app-emacs/h4x0r 0.13-r1: Aid in writing like a script kiddie does
@@ -3092,7 +3092,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 67 68 69: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 67 68 69 70: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.5.1 2.5.4-r1 2.6.1 2.6.2 2.6.3 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -4854,11 +4854,11 @@ dev-java/bcpg 1.83: Java cryptography APIs
 dev-java/bcpkix 1.83: Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation
 dev-java/bcprov 1.83: Java cryptography APIs
 dev-java/bcutil 1.83: Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls
-dev-java/bnd 7.2.1: bndlib: A Swiss Army Knife for OSGi
-dev-java/bnd-annotation 7.2.1: bnd Annotations Library
-dev-java/bnd-ant 7.2.1: Bnd Ant Tasks
-dev-java/bnd-util 7.2.1: AQute Bnd Utilities
-dev-java/bndlib 7.2.1: bndlib: A Swiss Army Knife for OSGi
+dev-java/bnd 7.2.1 7.2.3: bndlib: A Swiss Army Knife for OSGi
+dev-java/bnd-annotation 7.2.1 7.2.3: bnd Annotations Library
+dev-java/bnd-ant 7.2.1 7.2.3: Bnd Ant Tasks
+dev-java/bnd-util 7.2.1 7.2.3: AQute Bnd Utilities
+dev-java/bndlib 7.2.1 7.2.3: bndlib: A Swiss Army Knife for OSGi
 dev-java/brotli-dec 0.1.2-r1: Brotli decompressor
 dev-java/browserlauncher2 1.3-r3: A library that facilitates opening a browser from a Java application
 dev-java/bsf 2.4.0-r7: Bean Script Framework
@@ -5013,7 +5013,7 @@ dev-java/jclasslib 4.3.1: Java bytecode viewer
 dev-java/jcommander 1.83: Command line parsing framework for Java
 dev-java/jctools-core 4.0.5-r1: Java Concurrency Tools Core Library
 dev-java/jdbc-mysql 9.6.0: JDBC Type 4 driver for MySQL
-dev-java/jdbc-postgresql 42.7.8: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database
+dev-java/jdbc-postgresql 42.7.8 42.7.11: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database
 dev-java/jdepend 2.10-r1: Traverses Java class file directories and generates design quality metrics
 dev-java/jdisasm 1.0.6: A disassembler for Java .class files
 dev-java/jdom 1.1.3-r2 2.0.6.1: Java-based solution for accessing, manipulating, and outputting XML data
@@ -5069,7 +5069,7 @@ dev-java/junitparams 1.1.1-r2: Better parameterised tests for JUnit
 dev-java/jzlib 1.1.3-r3: JZlib is a re-implementation of zlib in pure Java
 dev-java/kafka-clients 1.1.1-r2: Apache Kafka distributed event streaming platform
 dev-java/leiningen-bin 2.11.2 2.12.0: Automate Clojure projects without setting your hair on fire
-dev-java/libg 7.2.1: A library to be statically linked. Contains many small utilities
+dev-java/libg 7.2.1 7.2.3: A library to be statically linked. Contains many small utilities
 dev-java/lmax-disruptor 3.4.4: A High Performance Inter-Thread Messaging Library
 dev-java/log4j-12-api 2.19.0 2.25.2: The Apache Log4j 1.x Compatibility API
 dev-java/log4j-api 2.19.0 2.25.2: The Apache Log4j API
@@ -5159,7 +5159,7 @@ dev-java/univocity-parsers 2.9.1: A collection of extremely fast and reliable pa
 dev-java/velocity 2.4.1: Apache Velocity is a general purpose template engine
 dev-java/waffle-jna 3.5.1: Enable drop-in Windows Single Sign On for popular Java web servers
 dev-java/woodstox-core 7.1.0: An XML processor that implements Stax (JSR-173), SAX2 and Stax2 APIs
-dev-java/wsdl4j 1.6.3: Web Services Description Language for Java Toolkit (WSDL4J)
+dev-java/wsdl4j 1.6.3 1.6.3-r1: Web Services Description Language for Java Toolkit (WSDL4J)
 dev-java/xalan 2.7.3-r3: Transforming XML documents into HTML, text, or other XML document types
 dev-java/xalan-serializer 2.7.3-r1: Transforming XML documents into HTML, text, or other XML document types
 dev-java/xerces 2.12.2-r2: Xerces Java XML parser
@@ -5176,7 +5176,7 @@ dev-java/xom 1.3.9: XML Object Model
 dev-java/xpp2 2.1.10-r4: A streaming pull XML parser used to quickly process input elements
 dev-java/xpp3 1.1.4c-r6: An implementation of XMLPULL V1 API
 dev-java/xsdlib 2022.7-r1: XML Schema datatypes library
-dev-java/xz-java 1.11: Implementation of xz data compression in pure java
+dev-java/xz-java 1.11 1.12: Implementation of xz data compression in pure java
 dev-java/zstd-jni 1.5.7.6: JNI bindings for Zstd native library
 dev-java/zxing-core 3.5.1: Core barcode encoding/decoding library
 dev-java/zxing-javase 3.5.1: Core barcode encoding/decoding library
@@ -13151,7 +13151,7 @@ media-gfx/ristretto 0.13.4 0.14.0: A fast and lightweight picture viewer for Xfc
 media-gfx/rotoscope 0.2-r2: Graphics program that can be used to give photos a cartoon-like appearance
 media-gfx/sam2p 0.49.4_p20190718-r1: Utility to convert raster images to EPS, PDF and many others
 media-gfx/sane-airscan 0.99.27-r2 0.99.29-r1 0.99.36: SANE backend for AirScan (eSCL) and WSD document scanners
-media-gfx/sane-backends 1.2.1-r1 1.3.1-r2: Scanner Access Now Easy - Backends
+media-gfx/sane-backends 1.3.1-r2: Scanner Access Now Easy - Backends
 media-gfx/sane-frontends 1.0.14-r7: Scanner Access Now Easy
 media-gfx/scantailor-advanced 1.0.19: Interactive post-processing tool for scanned pages
 media-gfx/scour 0.38.2-r1: Take an SVG file and produce a cleaner and more concise file
@@ -15329,7 +15329,7 @@ net-misc/netstat-nat 1.4.10-r1: Display NAT connections
 net-misc/networkmanager 1.52.1 1.54.1 1.54.3 1.56.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/nextcloud-client 4.0.4 33.0.1 33.0.2: Desktop Syncing Client for Nextcloud
 net-misc/nicstat 1.95: Network traffic statics utility for Solaris and Linux
-net-misc/ntp 4.2.8_p17-r1 4.2.8_p17-r2 4.2.8_p18-r1 4.2.8_p18-r2 4.2.8_p18-r3: Network Time Protocol suite/programs
+net-misc/ntp 4.2.8_p18-r2 4.2.8_p18-r3: Network Time Protocol suite/programs
 net-misc/ntpsec 1.2.4 9999: The NTP reference implementation, refactored
 net-misc/nx 3.5.99.27-r2 3.5.99.27-r3: NX compression technology core libraries
 net-misc/nxplayer 7.6.2.4-r1: Client for NoMachine remote servers
@@ -15614,7 +15614,7 @@ net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
 net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.1.6-r1 6.1.7: A reliable, low-latency, and anti-censorship virtual private network
-net-vpn/cloudflare-warp 2026.1.150.0-r1 2026.3.846.0: Cloudflare Warp Client
+net-vpn/cloudflare-warp 2026.1.150.0-r1 2026.3.846.0 2026.4.1350.0: Cloudflare Warp Client
 net-vpn/cloudflared 2026.3.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
 net-vpn/derper 1.92.4 1.96.5: DERP server for tailscale network
@@ -17613,7 +17613,7 @@ sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
 sys-firmware/edk2 202411 202502-r1 202511-r1: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/edk2-bin 202202 202408 202411 202511: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.18: NXP i.MX firmware
-sys-firmware/intel-microcode 20260210_p20260211 20260227_p20260227: Intel IA32/IA64 microcode update data
+sys-firmware/intel-microcode 20260210_p20260211 20260227_p20260227 20260512_p20260513: Intel IA32/IA64 microcode update data
 sys-firmware/ipw2100-firmware 1.3-r1: Firmware for the Intel PRO/Wireless 2100 3B miniPCI adapter
 sys-firmware/ipw2200-firmware 3.1-r1: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI and 2225BG PCI
 sys-firmware/ipxe 1.21.1 1.21.1_p20230601 1.21.1_p20230601-r1: Open source network boot (PXE) firmware
@@ -17769,8 +17769,8 @@ sys-kernel/dkms 3.2.2 3.3.0 3.4.0 3.4.1 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 108-r6 110-r5 111 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.255 5.15.205 6.1.171 6.6.138 6.12.87 6.18.28 6.18.29 7.0.5 7.0.6: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.255 5.15.205 6.1.171 6.6.138 6.12.87 6.18.28 6.18.29 7.0.5 7.0.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.255 5.10.255_p1 5.10.255_p2 5.15.205 5.15.206_p1 5.15.206_p2 6.1.171 6.1.172_p1 6.1.172_p2 6.6.138 6.6.138_p1 6.6.138_p2 6.12.87 6.12.87_p1 6.12.87_p2 6.18.28 6.18.29 6.18.29_p1 6.18.29_p2 7.0.5 7.0.6 7.0.6_p1 7.0.6_p2: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.255 5.10.255_p2 5.15.205 5.15.206_p2 6.1.171 6.1.172_p2 6.6.138 6.6.138_p2 6.12.87 6.12.87_p2 6.18.28 6.18.29 6.18.29_p2 7.0.5 7.0.6 7.0.6_p2: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.255 5.10.255-r1 5.15.206-r1 5.15.206-r2 6.1.172-r1 6.1.172-r2 6.6.138 6.6.138-r1 6.12.87 6.12.87-r1 6.18.28 6.18.29 6.18.29-r1 7.0.5 7.0.6 7.0.6-r1: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
@@ -17794,7 +17794,7 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.255 5.10.9999 5.15.205 5.15.9999 6.1.171 6.1.9999 6.6.138 6.6.9999 6.12.87 6.12.9999 6.18.28 6.18.29 7.0.5 7.0.6: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.255 5.10.9999 5.15.205 5.15.206 5.15.9999 6.1.171 6.1.172 6.1.9999 6.6.138 6.6.9999 6.12.87 6.12.9999 6.18.28 6.18.29 7.0.5 7.0.6: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.255 5.15.206 6.1.172 6.6.138 6.12.87 6.18.29 7.0.6: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.0.6: The Zen Kernel Live Sources
@@ -17981,7 +17981,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.255 5.15.205 6.1.171 6.6.138 6.12.87 6.18.28 6.18.29 7.0.5 7.0.6: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.255 5.10.255_p1 5.10.255_p2 5.15.205 5.15.206_p1 5.15.206_p2 6.1.171 6.1.172_p1 6.1.172_p2 6.6.138 6.6.138_p1 6.6.138_p2 6.12.87 6.12.87_p1 6.12.87_p2 6.18.28 6.18.29 6.18.29_p1 6.18.29_p2 7.0.5 7.0.6 7.0.6_p1 7.0.6_p2: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18336,7 +18336,7 @@ www-servers/servefile 0.5.4-r2 0.5.4-r3: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.115 10.1.52 11.0.18: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
+www-servers/tomcat 9.0.115 9.0.118 10.1.52 10.1.55 11.0.18 11.0.22: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
 www-servers/vinyl-cache 8.0.1 9.0.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
