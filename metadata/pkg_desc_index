@@ -927,7 +927,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.792.0 1.2.804.0 1.2.814.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.44.78 1.44.81 1.44.86 1.45.2 1.45.6 1.45.7: Universal Command Line Environment for AWS
+app-admin/awscli 1.44.78 1.44.81 1.44.86 1.45.2 1.45.6 1.45.7 1.45.8: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.1.0 2026.2.1: Bitwarden password manager desktop client
@@ -3092,7 +3092,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 67 68 69 70 71: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 67 68 69 70 71 72: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.5.1 2.5.4-r1 2.6.1 2.6.2 2.6.3 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -8239,8 +8239,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 25.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6 1.43.7: The AWS SDK for Python
-dev-python/botocore 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6 1.43.7: Low-level, data-driven core of boto 3
+dev-python/boto3 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6 1.43.7 1.43.8: The AWS SDK for Python
+dev-python/botocore 1.42.88 1.42.91 1.42.96 1.43.2 1.43.6 1.43.7 1.43.8: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8261,7 +8261,7 @@ dev-python/canonicaljson 2.0.0: Canonical JSON
 dev-python/capturer 3.0-r1: Easily capture stdout/stderr of the current process and subprocesses
 dev-python/casttube 0.2.1-r1: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/cattrs 26.1.0: Composable complex class support for attrs and dataclasses
-dev-python/cbor2 5.9.0 6.0.1 6.1.0: CBOR (de)serializer with extensive tag support
+dev-python/cbor2 5.9.0 6.0.1 6.1.0 6.1.1: CBOR (de)serializer with extensive tag support
 dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library for Python
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0: Foreign Function Interface for Python calling C code
@@ -8355,7 +8355,7 @@ dev-python/daemonize 2.5.0-r1: Library for writing system daemons in Python
 dev-python/dasbus 1.7: DBus library in Python 3
 dev-python/datastructclass 0.1.1: A dataclass with struct-like semantics
 dev-python/dbfread 2.0.7-r1: Read DBF Files with Python
-dev-python/dbus-fast 4.0.4: A faster version of dbus-next
+dev-python/dbus-fast 4.0.4 4.1.0: A faster version of dbus-next
 dev-python/dbus-next 0.2.3-r1: The next great DBus library for Python with asyncio support
 dev-python/dbus-python 1.4.0: Python bindings for the D-Bus messagebus
 dev-python/dbutils 3.1.2: Database connections for multi-threaded environments
@@ -8458,7 +8458,7 @@ dev-python/expects 0.9.0-r1: Expressive and extensible TDD/BDD assertion library
 dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
-dev-python/faker 40.13.0 40.14.1: A Python package that generates fake data for you
+dev-python/faker 40.13.0 40.14.1 40.18.0: A Python package that generates fake data for you
 dev-python/fakeredis 2.34.1 2.35.0 2.35.1: Fake implementation of redis API for testing purposes
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
@@ -8503,7 +8503,7 @@ dev-python/flit 3.12.0: Simplified packaging of Python modules
 dev-python/flit-core 3.12.0: Simplified packaging of Python modules (core module)
 dev-python/flit-scm 1.7.0: A PEP 518 build backend combining flit with setuptools_scm
 dev-python/flufl-lock 9.0.0 9.1.0: NFS-safe file locking with timeouts for POSIX systems
-dev-python/fonttools 4.62.1: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.62.1 4.63.0: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/forbiddenfruit 0.1.4: Patch built-in Python objects
 dev-python/fpylll 0.6.4-r1: Python bindings for sci-libs/fplll
 dev-python/fqdn 1.5.1-r2: RFC-compliant FQDN validation and manipulation for Python
@@ -8774,7 +8774,7 @@ dev-python/lz4 4.4.5: LZ4 Bindings for Python
 dev-python/lzallright 0.2.6: Python bindings for lzokay library
 dev-python/m2crypto 0.47.0: A Python crypto and SSL toolkit
 dev-python/magic-wormhole 0.23.0 0.24.0: Get Things From One Computer To Another, Safely
-dev-python/magic-wormhole-mailbox-server 0.6.0: Mailbox server for magic-wormhole
+dev-python/magic-wormhole-mailbox-server 0.6.0 0.7.0: Mailbox server for magic-wormhole
 dev-python/magic-wormhole-transit-relay 0.5.0: Transit relay server for magic-wormhole
 dev-python/makefun 1.16.0: Small library to dynamically create Python functions
 dev-python/mako 1.3.10 1.3.11 1.3.12: A Python templating language
@@ -8972,7 +8972,7 @@ dev-python/picobox 4.0.0: Dependency injection framework designed with Python in
 dev-python/pid 3.0.4-r1: Pidfile featuring stale detection and file-locking
 dev-python/piexif 1.1.3-r4: Exif manipulation with pure Python
 dev-python/pika 1.3.2: Pure-Python implementation of the AMQP
-dev-python/pikepdf 10.5.1: Python library to work with pdf files based on qpdf
+dev-python/pikepdf 10.5.1 10.6.0: Python library to work with pdf files based on qpdf
 dev-python/pillow 12.2.0 12.2.0-r1: Python Imaging Library (fork)
 dev-python/pip 26.0.1 26.1 26.1.1: The PyPA recommended tool for installing Python packages
 dev-python/pivy 0.6.10: Coin3D bindings for Python
@@ -9285,7 +9285,7 @@ dev-python/python-ironicclient 6.0.0: Python bindings for the Ironic API
 dev-python/python-jose 3.5.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-json-logger 4.1.0: Standard python logging to output log data as json objects
 dev-python/python-keystoneclient 5.8.0: Client Library for OpenStack Identity
-dev-python/python-ldap 3.4.5: Various LDAP-related Python modules
+dev-python/python-ldap 3.4.5 3.4.6: Various LDAP-related Python modules
 dev-python/python-linux-procfs 0.7.3 0.7.4: Python classes to extract information from the Linux kernel /proc files
 dev-python/python-lsp-black 2.0.0-r2: Black plugin for the Python LSP Server
 dev-python/python-lsp-jsonrpc 1.1.2: JSON RPC 2.0 server library
@@ -9389,7 +9389,7 @@ dev-python/rencode 1.0.8-r1: Serialization similar to bencode from the BitTorren
 dev-python/reno 4.1.0: Release notes manager, storing release notes in a git repo and building docs
 dev-python/reportlab 4.4.10 4.5.0 4.5.1: Tools for generating printable PDF documents from any data source
 dev-python/repoze-lru 0.7-r3: A tiny LRU cache implementation and decorator
-dev-python/requests 2.33.1 2.34.0 2.34.1: HTTP library for human beings
+dev-python/requests 2.33.1 2.34.0 2.34.1 2.34.2: HTTP library for human beings
 dev-python/requests-cache 1.3.1 1.3.2: Persistent cache for requests library
 dev-python/requests-credssp 2.0.0: HTTPS CredSSP authentication with the requests library
 dev-python/requests-download 0.1.2-r2: A convenient function to download to a file using requests
@@ -9623,7 +9623,7 @@ dev-python/texttable 1.7.0: Module to create simple ASCII tables
 dev-python/textx 4.3.0: Meta-language for DSL implementation inspired by Xtext
 dev-python/threadpoolctl 3.6.0: Limit the number of threads used in native libs that have their own threadpool
 dev-python/three-merge 0.1.1-r1: Simple Python library to perform a 3-way merge between strings
-dev-python/thrift 0.22.0: Python implementation of Thrift
+dev-python/thrift 0.22.0 0.23.0: Python implementation of Thrift
 dev-python/thriftpy2 0.6.0_beta1 0.6.0: Pure python approach of Apache Thrift
 dev-python/tibs 0.5.7 0.6.0 0.7.0: A sleek Python library for your binary data
 dev-python/tifffile 2026.4.11 2026.5.2: Read and write TIFF files
@@ -9647,7 +9647,7 @@ dev-python/tqdm 4.67.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.14.3 5.15.0: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
-dev-python/translate-toolkit 3.19.4 3.19.5 3.19.6 3.19.7 3.19.8 3.19.9: Toolkit to convert between many translation formats
+dev-python/translate-toolkit 3.19.4 3.19.5 3.19.6 3.19.7 3.19.8 3.19.9 3.19.10: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.24.0 0.25.1-r1 0.25.2 0.25.2-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 4.11.5 4.12.1 4.12.2: Python library for loading and using triangular meshes
@@ -9666,7 +9666,7 @@ dev-python/txamqp 0.8.2-r1: Python library for communicating with AMQP peers usi
 dev-python/txredisapi 1.4.11-r1 1.4.12: Non-blocking redis client for python
 dev-python/txrequests 0.9.6-r1: Asynchronous Python HTTP for Humans
 dev-python/txtorcon 23.11.0 24.8.0-r1: Twisted-based Tor controller client, with state-tracking abstractions
-dev-python/typeguard 4.5.1: Run-time type checker for Python
+dev-python/typeguard 4.5.1 4.5.2: Run-time type checker for Python
 dev-python/typer 0.24.1 0.24.2 0.25.0 0.25.1: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.22.3.20260223 0.22.3.20260316 0.22.3.20260322 0.22.3.20260408 0.22.3.20260508: Typing stubs for docutils
 dev-python/types-gdb 16.3.0.20260408 16.3.0.20260508: Typing stubs for gdb
@@ -9706,7 +9706,7 @@ dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
 dev-python/uv 0.11.6 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14 9999: A Python package installer and resolver, written in Rust
 dev-python/uv-build 0.11.6 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14: PEP517 uv build backend
-dev-python/uvicorn 0.44.0 0.45.0 0.46.0: Lightning-fast ASGI server implementation
+dev-python/uvicorn 0.44.0 0.45.0 0.46.0 0.47.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
 dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
@@ -16779,263 +16779,263 @@ sec-keys/signify-keys-opensmtpd 20181026: Signify keys used to sign OpenSMTPD po
 sec-keys/signify-keys-signify 30: Signify keys used to sign signify portable releases
 sec-keys/sigstore-trusted-root 0_p20241016: trusted-root.json for dev-python/sigstore
 sec-policy/apparmor-profiles 3.1.4 4.1.1 9999: A collection of profiles for the AppArmor application security system
-sec-policy/selinux-accountsd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for accountsd
-sec-policy/selinux-acct 2.20250213_p1 2.20250618_p1 9999: SELinux policy for acct
-sec-policy/selinux-afs 2.20250213_p1 2.20250618_p1 9999: SELinux policy for afs
-sec-policy/selinux-aide 2.20250213_p1 2.20250618_p1 9999: SELinux policy for aide
-sec-policy/selinux-alsa 2.20250213_p1 2.20250618_p1 9999: SELinux policy for alsa
-sec-policy/selinux-amanda 2.20250213_p1 2.20250618_p1 9999: SELinux policy for amanda
-sec-policy/selinux-amavis 2.20250213_p1 2.20250618_p1 9999: SELinux policy for amavis
-sec-policy/selinux-android 2.20250213_p1 2.20250618_p1 9999: SELinux policy for android
-sec-policy/selinux-apache 2.20250213_p1 2.20250618_p1 9999: SELinux policy for apache
-sec-policy/selinux-apcupsd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for apcupsd
-sec-policy/selinux-apm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for acpi
-sec-policy/selinux-arpwatch 2.20250213_p1 2.20250618_p1 9999: SELinux policy for arpwatch
-sec-policy/selinux-asterisk 2.20250213_p1 2.20250618_p1 9999: SELinux policy for asterisk
-sec-policy/selinux-at 2.20250213_p1 2.20250618_p1 9999: SELinux policy for at
-sec-policy/selinux-automount 2.20250213_p1 2.20250618_p1 9999: SELinux policy for automount
-sec-policy/selinux-avahi 2.20250213_p1 2.20250618_p1 9999: SELinux policy for avahi
-sec-policy/selinux-awstats 2.20250213_p1 2.20250618_p1 9999: SELinux policy for awstats
-sec-policy/selinux-backup 2.20250213_p1 2.20250618_p1 9999: SELinux policy for generic backup apps
-sec-policy/selinux-bacula 2.20250213_p1 2.20250618_p1 9999: SELinux policy for bacula
-sec-policy/selinux-base 2.20250213_p1 2.20250618_p1 9999: Gentoo base policy for SELinux
-sec-policy/selinux-base-policy 2.20250213_p1-r1 2.20250618_p1-r1 9999: SELinux policy for core modules
-sec-policy/selinux-bind 2.20250213_p1 2.20250618_p1 9999: SELinux policy for bind
-sec-policy/selinux-bitcoin 2.20250213_p1 2.20250618_p1 9999: SELinux policy for bitcoin
-sec-policy/selinux-bitlbee 2.20250213_p1 2.20250618_p1 9999: SELinux policy for bitlbee
-sec-policy/selinux-bluetooth 2.20250213_p1 2.20250618_p1 9999: SELinux policy for bluetooth
-sec-policy/selinux-brctl 2.20250213_p1 2.20250618_p1 9999: SELinux policy for brctl
-sec-policy/selinux-cachefilesd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cachefilesd
-sec-policy/selinux-calamaris 2.20250213_p1 2.20250618_p1 9999: SELinux policy for calamaris
-sec-policy/selinux-canna 2.20250213_p1 2.20250618_p1 9999: SELinux policy for canna
-sec-policy/selinux-cdrecord 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cdrecord
-sec-policy/selinux-ceph 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ceph
-sec-policy/selinux-certbot 2.20250213_p1 2.20250618_p1 9999: SELinux policy for certbot
-sec-policy/selinux-cgmanager 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cgmanager
-sec-policy/selinux-cgroup 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cgroup
-sec-policy/selinux-chromium 2.20250213_p1 2.20250618_p1 9999: SELinux policy for chromium
-sec-policy/selinux-chronyd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for chronyd
-sec-policy/selinux-clamav 2.20250213_p1 2.20250618_p1 9999: SELinux policy for clamav
-sec-policy/selinux-cloudinit 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cloudinit
-sec-policy/selinux-collectd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for collectd
-sec-policy/selinux-colord 2.20250213_p1 2.20250618_p1 9999: SELinux policy for colord
-sec-policy/selinux-container 2.20250213_p1 2.20250618_p1 9999: SELinux policy for container
-sec-policy/selinux-corosync 2.20250213_p1 2.20250618_p1 9999: SELinux policy for corosync
-sec-policy/selinux-couchdb 2.20250213_p1 2.20250618_p1 9999: SELinux policy for couchdb
-sec-policy/selinux-courier 2.20250213_p1 2.20250618_p1 9999: SELinux policy for courier
-sec-policy/selinux-cpucontrol 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cpucontrol
-sec-policy/selinux-cpufreqselector 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cpufreqselector
-sec-policy/selinux-crio 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cri-o
-sec-policy/selinux-cups 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cups
-sec-policy/selinux-cvs 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cvs
-sec-policy/selinux-cyphesis 2.20250213_p1 2.20250618_p1 9999: SELinux policy for cyphesis
-sec-policy/selinux-daemontools 2.20250213_p1 2.20250618_p1 9999: SELinux policy for daemontools
-sec-policy/selinux-dante 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dante
-sec-policy/selinux-dbadm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dbadm
-sec-policy/selinux-dbskk 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dbskk
-sec-policy/selinux-dbus 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dbus
-sec-policy/selinux-ddclient 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ddclient
-sec-policy/selinux-devicekit 2.20250213_p1 2.20250618_p1 9999: SELinux policy for devicekit
-sec-policy/selinux-dhcp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dhcp
-sec-policy/selinux-dictd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dictd
-sec-policy/selinux-dirmngr 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dirmngr
-sec-policy/selinux-dirsrv 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dirsrv
-sec-policy/selinux-distcc 2.20250213_p1 2.20250618_p1 9999: SELinux policy for distcc
-sec-policy/selinux-djbdns 2.20250213_p1 2.20250618_p1 9999: SELinux policy for djbdns
-sec-policy/selinux-dkim 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dkim
-sec-policy/selinux-dmidecode 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dmidecode
-sec-policy/selinux-dnsmasq 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dnsmasq
-sec-policy/selinux-docker 2.20250213_p1 2.20250618_p1 9999: SELinux policy for docker
-sec-policy/selinux-dovecot 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dovecot
-sec-policy/selinux-dpkg 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dpkg
-sec-policy/selinux-dracut 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dracut
-sec-policy/selinux-dropbox 2.20250213_p1 2.20250618_p1 9999: SELinux policy for dropbox
-sec-policy/selinux-entropyd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for entropyd
-sec-policy/selinux-evolution 2.20250213_p1 2.20250618_p1 9999: SELinux policy for evolution
-sec-policy/selinux-exim 2.20250213_p1 2.20250618_p1 9999: SELinux policy for exim
-sec-policy/selinux-fail2ban 2.20250213_p1 2.20250618_p1 9999: SELinux policy for fail2ban
-sec-policy/selinux-fetchmail 2.20250213_p1 2.20250618_p1 9999: SELinux policy for fetchmail
-sec-policy/selinux-finger 2.20250213_p1 2.20250618_p1 9999: SELinux policy for finger
-sec-policy/selinux-firewalld 2.20250213_p1 2.20250618_p1 9999: SELinux policy for firewalld
-sec-policy/selinux-fprintd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for fprintd
-sec-policy/selinux-ftp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ftp
-sec-policy/selinux-games 2.20250213_p1 2.20250618_p1 9999: SELinux policy for games
-sec-policy/selinux-gatekeeper 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gatekeeper
-sec-policy/selinux-git 2.20250213_p1 2.20250618_p1 9999: SELinux policy for git
-sec-policy/selinux-gitosis 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gitosis
-sec-policy/selinux-glusterfs 2.20250213_p1 2.20250618_p1 9999: SELinux policy for glusterfs
-sec-policy/selinux-gnome 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gnome
-sec-policy/selinux-gpg 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gpg
-sec-policy/selinux-gpm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gpm
-sec-policy/selinux-gpsd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gpsd
-sec-policy/selinux-gssproxy 2.20250213_p1 2.20250618_p1 9999: SELinux policy for gssproxy
-sec-policy/selinux-hddtemp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for hddtemp
-sec-policy/selinux-hostapd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for hostapd
-sec-policy/selinux-icecast 2.20250213_p1 2.20250618_p1 9999: SELinux policy for icecast
-sec-policy/selinux-ifplugd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ifplugd
-sec-policy/selinux-inetd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for inetd
-sec-policy/selinux-inn 2.20250213_p1 2.20250618_p1 9999: SELinux policy for inn
-sec-policy/selinux-ipsec 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ipsec
-sec-policy/selinux-irc 2.20250213_p1 2.20250618_p1 9999: SELinux policy for irc
-sec-policy/selinux-ircd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ircd
-sec-policy/selinux-irqbalance 2.20250213_p1 2.20250618_p1 9999: SELinux policy for irqbalance
-sec-policy/selinux-jabber 2.20250213_p1 2.20250618_p1 9999: SELinux policy for jabber
-sec-policy/selinux-java 2.20250213_p1 2.20250618_p1 9999: SELinux policy for java
-sec-policy/selinux-kdeconnect 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kdeconnect
-sec-policy/selinux-kdump 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kdump
-sec-policy/selinux-kerberos 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kerberos
-sec-policy/selinux-kerneloops 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kerneloops
-sec-policy/selinux-kismet 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kismet
-sec-policy/selinux-knot 2.20250213_p1 2.20250618_p1 9999: SELinux policy for knot
-sec-policy/selinux-ksmtuned 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ksmtuned
-sec-policy/selinux-kubernetes 2.20250213_p1 2.20250618_p1 9999: SELinux policy for kubernetes
-sec-policy/selinux-ldap 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ldap
-sec-policy/selinux-links 2.20250213_p1 2.20250618_p1 9999: SELinux policy for links
-sec-policy/selinux-lircd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for lircd
-sec-policy/selinux-loadkeys 2.20250213_p1 2.20250618_p1 9999: SELinux policy for loadkeys
-sec-policy/selinux-logrotate 2.20250213_p1 2.20250618_p1 9999: SELinux policy for logrotate
-sec-policy/selinux-logsentry 2.20250213_p1 2.20250618_p1 9999: SELinux policy for logsentry
-sec-policy/selinux-logwatch 2.20250213_p1 2.20250618_p1 9999: SELinux policy for logwatch
-sec-policy/selinux-lpd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for lpd
-sec-policy/selinux-makewhatis 2.20250213_p1 2.20250618_p1 9999: SELinux policy for makewhatis
-sec-policy/selinux-mandb 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mandb
-sec-policy/selinux-matrixd 2.20250213_p1-r1 2.20250618_p1-r1 9999: SELinux policy for matrixd
-sec-policy/selinux-mcelog 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mcelog
-sec-policy/selinux-memcached 2.20250213_p1 2.20250618_p1 9999: SELinux policy for memcached
-sec-policy/selinux-milter 2.20250213_p1 2.20250618_p1 9999: SELinux policy for milter
-sec-policy/selinux-modemmanager 2.20250213_p1 2.20250618_p1 9999: SELinux policy for modemmanager
-sec-policy/selinux-mono 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mono
-sec-policy/selinux-mozilla 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mozilla
-sec-policy/selinux-mpd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mpd
-sec-policy/selinux-mplayer 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mplayer
-sec-policy/selinux-mrtg 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mrtg
-sec-policy/selinux-munin 2.20250213_p1 2.20250618_p1 9999: SELinux policy for munin
-sec-policy/selinux-mutt 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mutt
-sec-policy/selinux-mysql 2.20250213_p1 2.20250618_p1 9999: SELinux policy for mysql
-sec-policy/selinux-nagios 2.20250213_p1 2.20250618_p1 9999: SELinux policy for nagios
-sec-policy/selinux-ncftool 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ncftool
-sec-policy/selinux-networkmanager 2.20250213_p1 2.20250618_p1 9999: SELinux policy for networkmanager
-sec-policy/selinux-nginx 2.20250213_p1 2.20250618_p1 9999: SELinux policy for nginx
-sec-policy/selinux-node_exporter 2.20250213_p1 2.20250618_p1 9999: SELinux policy for node_exporter
-sec-policy/selinux-nslcd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for nslcd
-sec-policy/selinux-ntop 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ntop
-sec-policy/selinux-ntp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ntp
-sec-policy/selinux-nut 2.20250213_p1 2.20250618_p1 9999: SELinux policy for nut
-sec-policy/selinux-nx 2.20250213_p1 2.20250618_p1 9999: SELinux policy for nx
-sec-policy/selinux-obfs4proxy 2.20250213_p1 2.20250618_p1 9999: SELinux policy for obfs4proxy
-sec-policy/selinux-oddjob 2.20250213_p1 2.20250618_p1 9999: SELinux policy for oddjob
-sec-policy/selinux-oident 2.20250213_p1 2.20250618_p1 9999: SELinux policy for oident
-sec-policy/selinux-openct 2.20250213_p1 2.20250618_p1 9999: SELinux policy for openct
-sec-policy/selinux-openrc 2.20250213_p1 2.20250618_p1 9999: SELinux policy for openrc
-sec-policy/selinux-opensm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for opensm
-sec-policy/selinux-openvpn 2.20250213_p1 2.20250618_p1 9999: SELinux policy for openvpn
-sec-policy/selinux-openvswitch 2.20250618_p1 9999: SELinux policy for openvswitch
-sec-policy/selinux-pan 2.20250213_p1 2.20250618_p1 9999: SELinux policy for pan
-sec-policy/selinux-pcscd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for pcscd
-sec-policy/selinux-phpfpm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for phpfpm
-sec-policy/selinux-plymouthd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for plymouthd
-sec-policy/selinux-podman 2.20250213_p1 2.20250618_p1 9999: SELinux policy for podman
-sec-policy/selinux-policykit 2.20250213_p1 2.20250618_p1 9999: SELinux policy for policykit
-sec-policy/selinux-portmap 2.20250213_p1 2.20250618_p1 9999: SELinux policy for portmap
-sec-policy/selinux-postfix 2.20250213_p1 2.20250618_p1 9999: SELinux policy for postfix
-sec-policy/selinux-postgresql 2.20250213_p1 2.20250618_p1 9999: SELinux policy for postgresql
-sec-policy/selinux-postgrey 2.20250213_p1 2.20250618_p1 9999: SELinux policy for postgrey
-sec-policy/selinux-powerprofiles 2.20250213_p1 2.20250618_p1 9999: SELinux policy for powerprofiles
-sec-policy/selinux-ppp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ppp
-sec-policy/selinux-privoxy 2.20250213_p1 2.20250618_p1 9999: SELinux policy for privoxy
-sec-policy/selinux-procmail 2.20250213_p1 2.20250618_p1 9999: SELinux policy for procmail
-sec-policy/selinux-psad 2.20250213_p1 2.20250618_p1 9999: SELinux policy for psad
-sec-policy/selinux-publicfile 2.20250213_p1 2.20250618_p1 9999: SELinux policy for publicfile
-sec-policy/selinux-pulseaudio 2.20250213_p1 2.20250618_p1 9999: SELinux policy for pulseaudio
-sec-policy/selinux-puppet 2.20250213_p1 2.20250618_p1 9999: SELinux policy for puppet
-sec-policy/selinux-pyzor 2.20250213_p1 2.20250618_p1 9999: SELinux policy for pyzor
-sec-policy/selinux-qemu 2.20250213_p1 2.20250618_p1 9999: SELinux policy for qemu
-sec-policy/selinux-qmail 2.20250213_p1 2.20250618_p1 9999: SELinux policy for qmail
-sec-policy/selinux-quota 2.20250213_p1 2.20250618_p1 9999: SELinux policy for quota
-sec-policy/selinux-radius 2.20250213_p1 2.20250618_p1 9999: SELinux policy for radius
-sec-policy/selinux-radvd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for radvd
-sec-policy/selinux-rasdaemon 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rasdaemon
-sec-policy/selinux-razor 2.20250213_p1 2.20250618_p1 9999: SELinux policy for razor
-sec-policy/selinux-redis 2.20250213_p1 2.20250618_p1 9999: SELinux policy for redis
-sec-policy/selinux-remotelogin 2.20250213_p1 2.20250618_p1 9999: SELinux policy for remotelogin
-sec-policy/selinux-resolvconf 2.20250213_p1 2.20250618_p1 9999: SELinux policy for resolvconf
-sec-policy/selinux-rngd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rngd
-sec-policy/selinux-rootlesskit 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rootlesskit
-sec-policy/selinux-rpc 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rpc
-sec-policy/selinux-rpcbind 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rpcbind
-sec-policy/selinux-rpm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rpm
-sec-policy/selinux-rssh 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rssh
-sec-policy/selinux-rtkit 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rtkit
-sec-policy/selinux-rtorrent 2.20250213_p1 2.20250618_p1 9999: SELinux policy for rtorrent
-sec-policy/selinux-salt 2.20250213_p1 2.20250618_p1 9999: SELinux policy for salt
-sec-policy/selinux-samba 2.20250213_p1 2.20250618_p1 9999: SELinux policy for samba
-sec-policy/selinux-sasl 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sasl
-sec-policy/selinux-screen 2.20250213_p1 2.20250618_p1 9999: SELinux policy for screen
-sec-policy/selinux-secadm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for secadm
-sec-policy/selinux-sendmail 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sendmail
-sec-policy/selinux-sensord 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sensord
-sec-policy/selinux-shorewall 2.20250213_p1 2.20250618_p1 9999: SELinux policy for shorewall
-sec-policy/selinux-shutdown 2.20250213_p1 2.20250618_p1 9999: SELinux policy for shutdown
-sec-policy/selinux-slocate 2.20250213_p1 2.20250618_p1 9999: SELinux policy for slocate
-sec-policy/selinux-slrnpull 2.20250213_p1 2.20250618_p1 9999: SELinux policy for slrnpull
-sec-policy/selinux-smartmon 2.20250213_p1 2.20250618_p1 9999: SELinux policy for smartmon
-sec-policy/selinux-smokeping 2.20250213_p1 2.20250618_p1 9999: SELinux policy for smokeping
-sec-policy/selinux-snmp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for snmp
-sec-policy/selinux-snort 2.20250213_p1 2.20250618_p1 9999: SELinux policy for snort
-sec-policy/selinux-soundserver 2.20250213_p1 2.20250618_p1 9999: SELinux policy for soundserver
-sec-policy/selinux-spamassassin 2.20250213_p1 2.20250618_p1 9999: SELinux policy for spamassassin
-sec-policy/selinux-squid 2.20250213_p1 2.20250618_p1 9999: SELinux policy for squid
-sec-policy/selinux-sssd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sssd
-sec-policy/selinux-stunnel 2.20250213_p1 2.20250618_p1 9999: SELinux policy for stunnel
-sec-policy/selinux-subsonic 2.20250213_p1 2.20250618_p1 9999: SELinux policy for subsonic
-sec-policy/selinux-sudo 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sudo
-sec-policy/selinux-switcheroo 2.20250213_p1 2.20250618_p1 9999: SELinux policy for switcheroo
-sec-policy/selinux-sxid 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sxid
-sec-policy/selinux-syncthing 2.20250213_p1 2.20250618_p1 9999: SELinux policy for syncthing
-sec-policy/selinux-sysstat 2.20250213_p1 2.20250618_p1 9999: SELinux policy for sysstat
-sec-policy/selinux-tboot 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tboot
-sec-policy/selinux-tcpd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tcpd
-sec-policy/selinux-tcsd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tcsd
-sec-policy/selinux-telnet 2.20250213_p1-r1 2.20250618_p1-r1 9999: SELinux policy for telnet
-sec-policy/selinux-tftp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tftp
-sec-policy/selinux-tgtd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tgtd
-sec-policy/selinux-thunderbird 2.20250213_p1 2.20250618_p1 9999: SELinux policy for thunderbird
-sec-policy/selinux-thunderbolt 2.20250213_p1 2.20250618_p1 9999: SELinux policy for thunderbolt
-sec-policy/selinux-timidity 2.20250213_p1 2.20250618_p1 9999: SELinux policy for timidity
-sec-policy/selinux-tmpreaper 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tmpreaper
-sec-policy/selinux-tor 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tor
-sec-policy/selinux-tripwire 2.20250213_p1 2.20250618_p1 9999: SELinux policy for tripwire
-sec-policy/selinux-ucspitcp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ucspitcp
-sec-policy/selinux-ulogd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for ulogd
-sec-policy/selinux-uml 2.20250213_p1 2.20250618_p1 9999: SELinux policy for uml
-sec-policy/selinux-unconfined 2.20250213_p1 2.20250618_p1 9999: SELinux policy for unconfined
-sec-policy/selinux-uptime 2.20250213_p1 2.20250618_p1 9999: SELinux policy for uptime
-sec-policy/selinux-usbguard 2.20250213_p1 2.20250618_p1 9999: SELinux policy for usbguard
-sec-policy/selinux-usbmuxd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for usbmuxd
-sec-policy/selinux-uucp 2.20250213_p1 2.20250618_p1 9999: SELinux policy for uucp
-sec-policy/selinux-uwimap 2.20250213_p1 2.20250618_p1 9999: SELinux policy for uwimap
-sec-policy/selinux-uwsgi 2.20250213_p1 2.20250618_p1 9999: SELinux policy for uWSGI
-sec-policy/selinux-varnishd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for varnishd
-sec-policy/selinux-vbetool 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vbetool
-sec-policy/selinux-vdagent 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vdagent
-sec-policy/selinux-vde 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vde
-sec-policy/selinux-virt 2.20250213_p1 2.20250618_p1 9999: SELinux policy for virt
-sec-policy/selinux-vlock 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vlock
-sec-policy/selinux-vmware 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vmware
-sec-policy/selinux-vnstatd 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vnstatd
-sec-policy/selinux-vpn 2.20250213_p1 2.20250618_p1 9999: SELinux policy for vpn
-sec-policy/selinux-watchdog 2.20250213_p1 2.20250618_p1 9999: SELinux policy for watchdog
-sec-policy/selinux-webalizer 2.20250213_p1 2.20250618_p1 9999: SELinux policy for webalizer
-sec-policy/selinux-wine 2.20250213_p1 2.20250618_p1 9999: SELinux policy for wine
-sec-policy/selinux-wireguard 2.20250213_p1 2.20250618_p1 9999: SELinux policy for wireguard
-sec-policy/selinux-wireshark 2.20250213_p1 2.20250618_p1 9999: SELinux policy for wireshark
-sec-policy/selinux-wm 2.20250213_p1 2.20250618_p1 9999: SELinux policy for wm
-sec-policy/selinux-xen 2.20250213_p1 2.20250618_p1 9999: SELinux policy for xen
-sec-policy/selinux-xfs 2.20250213_p1 2.20250618_p1 9999: SELinux policy for xfs
-sec-policy/selinux-xscreensaver 2.20250213_p1 2.20250618_p1 9999: SELinux policy for xscreensaver
-sec-policy/selinux-xserver 2.20250213_p1 2.20250618_p1 9999: SELinux policy for xserver
-sec-policy/selinux-zabbix 2.20250213_p1 2.20250618_p1 9999: SELinux policy for zabbix
-sec-policy/selinux-zfs 2.20250213_p1 2.20250618_p1 9999: SELinux policy for zfs
+sec-policy/selinux-accountsd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for accountsd
+sec-policy/selinux-acct 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for acct
+sec-policy/selinux-afs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for afs
+sec-policy/selinux-aide 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for aide
+sec-policy/selinux-alsa 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for alsa
+sec-policy/selinux-amanda 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for amanda
+sec-policy/selinux-amavis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for amavis
+sec-policy/selinux-android 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for android
+sec-policy/selinux-apache 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for apache
+sec-policy/selinux-apcupsd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for apcupsd
+sec-policy/selinux-apm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for acpi
+sec-policy/selinux-arpwatch 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for arpwatch
+sec-policy/selinux-asterisk 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for asterisk
+sec-policy/selinux-at 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for at
+sec-policy/selinux-automount 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for automount
+sec-policy/selinux-avahi 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for avahi
+sec-policy/selinux-awstats 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for awstats
+sec-policy/selinux-backup 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for generic backup apps
+sec-policy/selinux-bacula 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bacula
+sec-policy/selinux-base 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: Gentoo base policy for SELinux
+sec-policy/selinux-base-policy 2.20250213_p1-r1 2.20250618_p1-r1 2.20260312_p1 9999: SELinux policy for core modules
+sec-policy/selinux-bind 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bind
+sec-policy/selinux-bitcoin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitcoin
+sec-policy/selinux-bitlbee 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitlbee
+sec-policy/selinux-bluetooth 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bluetooth
+sec-policy/selinux-brctl 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for brctl
+sec-policy/selinux-cachefilesd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cachefilesd
+sec-policy/selinux-calamaris 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for calamaris
+sec-policy/selinux-canna 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for canna
+sec-policy/selinux-cdrecord 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cdrecord
+sec-policy/selinux-ceph 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ceph
+sec-policy/selinux-certbot 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for certbot
+sec-policy/selinux-cgmanager 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cgmanager
+sec-policy/selinux-cgroup 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cgroup
+sec-policy/selinux-chromium 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for chromium
+sec-policy/selinux-chronyd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for chronyd
+sec-policy/selinux-clamav 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for clamav
+sec-policy/selinux-cloudinit 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cloudinit
+sec-policy/selinux-collectd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for collectd
+sec-policy/selinux-colord 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for colord
+sec-policy/selinux-container 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for container
+sec-policy/selinux-corosync 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for corosync
+sec-policy/selinux-couchdb 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for couchdb
+sec-policy/selinux-courier 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for courier
+sec-policy/selinux-cpucontrol 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cpucontrol
+sec-policy/selinux-cpufreqselector 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cpufreqselector
+sec-policy/selinux-crio 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cri-o
+sec-policy/selinux-cups 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cups
+sec-policy/selinux-cvs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cvs
+sec-policy/selinux-cyphesis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cyphesis
+sec-policy/selinux-daemontools 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for daemontools
+sec-policy/selinux-dante 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dante
+sec-policy/selinux-dbadm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dbadm
+sec-policy/selinux-dbskk 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dbskk
+sec-policy/selinux-dbus 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dbus
+sec-policy/selinux-ddclient 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ddclient
+sec-policy/selinux-devicekit 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for devicekit
+sec-policy/selinux-dhcp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dhcp
+sec-policy/selinux-dictd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dictd
+sec-policy/selinux-dirmngr 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dirmngr
+sec-policy/selinux-dirsrv 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dirsrv
+sec-policy/selinux-distcc 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for distcc
+sec-policy/selinux-djbdns 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for djbdns
+sec-policy/selinux-dkim 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dkim
+sec-policy/selinux-dmidecode 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dmidecode
+sec-policy/selinux-dnsmasq 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dnsmasq
+sec-policy/selinux-docker 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for docker
+sec-policy/selinux-dovecot 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dovecot
+sec-policy/selinux-dpkg 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dpkg
+sec-policy/selinux-dracut 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dracut
+sec-policy/selinux-dropbox 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dropbox
+sec-policy/selinux-entropyd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for entropyd
+sec-policy/selinux-evolution 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for evolution
+sec-policy/selinux-exim 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for exim
+sec-policy/selinux-fail2ban 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for fail2ban
+sec-policy/selinux-fetchmail 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for fetchmail
+sec-policy/selinux-finger 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for finger
+sec-policy/selinux-firewalld 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for firewalld
+sec-policy/selinux-fprintd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for fprintd
+sec-policy/selinux-ftp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ftp
+sec-policy/selinux-games 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for games
+sec-policy/selinux-gatekeeper 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gatekeeper
+sec-policy/selinux-git 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for git
+sec-policy/selinux-gitosis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gitosis
+sec-policy/selinux-glusterfs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for glusterfs
+sec-policy/selinux-gnome 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gnome
+sec-policy/selinux-gpg 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gpg
+sec-policy/selinux-gpm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gpm
+sec-policy/selinux-gpsd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gpsd
+sec-policy/selinux-gssproxy 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for gssproxy
+sec-policy/selinux-hddtemp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for hddtemp
+sec-policy/selinux-hostapd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for hostapd
+sec-policy/selinux-icecast 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for icecast
+sec-policy/selinux-ifplugd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ifplugd
+sec-policy/selinux-inetd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inetd
+sec-policy/selinux-inn 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inn
+sec-policy/selinux-ipsec 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ipsec
+sec-policy/selinux-irc 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for irc
+sec-policy/selinux-ircd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ircd
+sec-policy/selinux-irqbalance 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for irqbalance
+sec-policy/selinux-jabber 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for jabber
+sec-policy/selinux-java 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for java
+sec-policy/selinux-kdeconnect 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kdeconnect
+sec-policy/selinux-kdump 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kdump
+sec-policy/selinux-kerberos 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kerberos
+sec-policy/selinux-kerneloops 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kerneloops
+sec-policy/selinux-kismet 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kismet
+sec-policy/selinux-knot 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for knot
+sec-policy/selinux-ksmtuned 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ksmtuned
+sec-policy/selinux-kubernetes 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kubernetes
+sec-policy/selinux-ldap 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ldap
+sec-policy/selinux-links 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for links
+sec-policy/selinux-lircd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for lircd
+sec-policy/selinux-loadkeys 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for loadkeys
+sec-policy/selinux-logrotate 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for logrotate
+sec-policy/selinux-logsentry 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for logsentry
+sec-policy/selinux-logwatch 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for logwatch
+sec-policy/selinux-lpd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for lpd
+sec-policy/selinux-makewhatis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for makewhatis
+sec-policy/selinux-mandb 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mandb
+sec-policy/selinux-matrixd 2.20250213_p1-r1 2.20250618_p1-r1 2.20260312_p1 9999: SELinux policy for matrixd
+sec-policy/selinux-mcelog 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mcelog
+sec-policy/selinux-memcached 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for memcached
+sec-policy/selinux-milter 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for milter
+sec-policy/selinux-modemmanager 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for modemmanager
+sec-policy/selinux-mono 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mono
+sec-policy/selinux-mozilla 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mozilla
+sec-policy/selinux-mpd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mpd
+sec-policy/selinux-mplayer 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mplayer
+sec-policy/selinux-mrtg 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mrtg
+sec-policy/selinux-munin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for munin
+sec-policy/selinux-mutt 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mutt
+sec-policy/selinux-mysql 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mysql
+sec-policy/selinux-nagios 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nagios
+sec-policy/selinux-ncftool 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ncftool
+sec-policy/selinux-networkmanager 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for networkmanager
+sec-policy/selinux-nginx 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nginx
+sec-policy/selinux-node_exporter 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for node_exporter
+sec-policy/selinux-nslcd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nslcd
+sec-policy/selinux-ntop 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ntop
+sec-policy/selinux-ntp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ntp
+sec-policy/selinux-nut 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nut
+sec-policy/selinux-nx 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nx
+sec-policy/selinux-obfs4proxy 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for obfs4proxy
+sec-policy/selinux-oddjob 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for oddjob
+sec-policy/selinux-oident 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for oident
+sec-policy/selinux-openct 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for openct
+sec-policy/selinux-openrc 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for openrc
+sec-policy/selinux-opensm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for opensm
+sec-policy/selinux-openvpn 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for openvpn
+sec-policy/selinux-openvswitch 2.20250618_p1 2.20260312_p1 9999: SELinux policy for openvswitch
+sec-policy/selinux-pan 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for pan
+sec-policy/selinux-pcscd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for pcscd
+sec-policy/selinux-phpfpm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for phpfpm
+sec-policy/selinux-plymouthd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for plymouthd
+sec-policy/selinux-podman 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for podman
+sec-policy/selinux-policykit 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for policykit
+sec-policy/selinux-portmap 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for portmap
+sec-policy/selinux-postfix 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for postfix
+sec-policy/selinux-postgresql 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for postgresql
+sec-policy/selinux-postgrey 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for postgrey
+sec-policy/selinux-powerprofiles 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for powerprofiles
+sec-policy/selinux-ppp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ppp
+sec-policy/selinux-privoxy 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for privoxy
+sec-policy/selinux-procmail 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for procmail
+sec-policy/selinux-psad 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for psad
+sec-policy/selinux-publicfile 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for publicfile
+sec-policy/selinux-pulseaudio 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for pulseaudio
+sec-policy/selinux-puppet 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for puppet
+sec-policy/selinux-pyzor 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for pyzor
+sec-policy/selinux-qemu 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for qemu
+sec-policy/selinux-qmail 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for qmail
+sec-policy/selinux-quota 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for quota
+sec-policy/selinux-radius 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for radius
+sec-policy/selinux-radvd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for radvd
+sec-policy/selinux-rasdaemon 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rasdaemon
+sec-policy/selinux-razor 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for razor
+sec-policy/selinux-redis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for redis
+sec-policy/selinux-remotelogin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for remotelogin
+sec-policy/selinux-resolvconf 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for resolvconf
+sec-policy/selinux-rngd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rngd
+sec-policy/selinux-rootlesskit 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rootlesskit
+sec-policy/selinux-rpc 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rpc
+sec-policy/selinux-rpcbind 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rpcbind
+sec-policy/selinux-rpm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rpm
+sec-policy/selinux-rssh 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rssh
+sec-policy/selinux-rtkit 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rtkit
+sec-policy/selinux-rtorrent 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for rtorrent
+sec-policy/selinux-salt 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for salt
+sec-policy/selinux-samba 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for samba
+sec-policy/selinux-sasl 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sasl
+sec-policy/selinux-screen 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for screen
+sec-policy/selinux-secadm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for secadm
+sec-policy/selinux-sendmail 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sendmail
+sec-policy/selinux-sensord 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sensord
+sec-policy/selinux-shorewall 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for shorewall
+sec-policy/selinux-shutdown 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for shutdown
+sec-policy/selinux-slocate 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for slocate
+sec-policy/selinux-slrnpull 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for slrnpull
+sec-policy/selinux-smartmon 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for smartmon
+sec-policy/selinux-smokeping 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for smokeping
+sec-policy/selinux-snmp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for snmp
+sec-policy/selinux-snort 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for snort
+sec-policy/selinux-soundserver 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for soundserver
+sec-policy/selinux-spamassassin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for spamassassin
+sec-policy/selinux-squid 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for squid
+sec-policy/selinux-sssd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sssd
+sec-policy/selinux-stunnel 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for stunnel
+sec-policy/selinux-subsonic 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for subsonic
+sec-policy/selinux-sudo 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sudo
+sec-policy/selinux-switcheroo 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for switcheroo
+sec-policy/selinux-sxid 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sxid
+sec-policy/selinux-syncthing 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for syncthing
+sec-policy/selinux-sysstat 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sysstat
+sec-policy/selinux-tboot 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tboot
+sec-policy/selinux-tcpd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tcpd
+sec-policy/selinux-tcsd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tcsd
+sec-policy/selinux-telnet 2.20250213_p1-r1 2.20250618_p1-r1 2.20260312_p1 9999: SELinux policy for telnet
+sec-policy/selinux-tftp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tftp
+sec-policy/selinux-tgtd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tgtd
+sec-policy/selinux-thunderbird 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for thunderbird
+sec-policy/selinux-thunderbolt 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for thunderbolt
+sec-policy/selinux-timidity 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for timidity
+sec-policy/selinux-tmpreaper 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tmpreaper
+sec-policy/selinux-tor 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tor
+sec-policy/selinux-tripwire 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for tripwire
+sec-policy/selinux-ucspitcp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ucspitcp
+sec-policy/selinux-ulogd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ulogd
+sec-policy/selinux-uml 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for uml
+sec-policy/selinux-unconfined 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for unconfined
+sec-policy/selinux-uptime 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for uptime
+sec-policy/selinux-usbguard 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for usbguard
+sec-policy/selinux-usbmuxd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for usbmuxd
+sec-policy/selinux-uucp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for uucp
+sec-policy/selinux-uwimap 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for uwimap
+sec-policy/selinux-uwsgi 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for uWSGI
+sec-policy/selinux-varnishd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for varnishd
+sec-policy/selinux-vbetool 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vbetool
+sec-policy/selinux-vdagent 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vdagent
+sec-policy/selinux-vde 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vde
+sec-policy/selinux-virt 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for virt
+sec-policy/selinux-vlock 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vlock
+sec-policy/selinux-vmware 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vmware
+sec-policy/selinux-vnstatd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vnstatd
+sec-policy/selinux-vpn 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for vpn
+sec-policy/selinux-watchdog 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for watchdog
+sec-policy/selinux-webalizer 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for webalizer
+sec-policy/selinux-wine 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for wine
+sec-policy/selinux-wireguard 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for wireguard
+sec-policy/selinux-wireshark 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for wireshark
+sec-policy/selinux-wm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for wm
+sec-policy/selinux-xen 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for xen
+sec-policy/selinux-xfs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for xfs
+sec-policy/selinux-xscreensaver 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for xscreensaver
+sec-policy/selinux-xserver 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for xserver
+sec-policy/selinux-zabbix 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for zabbix
+sec-policy/selinux-zfs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for zfs
 sys-apps/accountsservice 23.13.9: D-Bus interfaces for querying and manipulating user account information
 sys-apps/ack 3.7.0: ack is a tool like grep, optimized for programmers
 sys-apps/acl 2.3.2-r3: Access control list utilities, libraries, and headers
@@ -18430,7 +18430,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.22 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.10 24.1.11 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.288.01 535.309.01 570.211.01 580.126.18 580.142 580.159.03-r1 590.48.01-r1 595.44.07 595.58.03 595.71.05: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.288.01 535.309.01 570.211.01 580.126.18 580.159.03-r1 590.48.01-r1 595.44.08 595.58.03 595.71.05: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
