@@ -11988,7 +11988,7 @@ gnome-base/gnome-session-openrc 49.1-r1: Gnome session leader for OpenRC
 gnome-base/gnome-settings-daemon 48.1 49.1: Gnome Settings Daemon
 gnome-base/gnome-shell 48.5 48.7 48.8 49.6: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0 49.1: Collection of GSettings schemas for GNOME desktop
-gnome-base/gvfs 1.56.1-r3 1.58.0 1.58.4: Virtual filesystem implementation for GIO
+gnome-base/gvfs 1.56.1-r3 1.58.4: Virtual filesystem implementation for GIO
 gnome-base/libglade 2.6.4-r5: Library to construct graphical interfaces at runtime
 gnome-base/libgnomecanvas 2.30.3-r1: The Gnome 2 Canvas library
 gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
@@ -12999,7 +12999,7 @@ media-gfx/curtail 1.13.0 1.14.0 1.15.0 1.15.1: Image compressor, supporting PNG,
 media-gfx/darktable 5.4.1: A virtual lighttable and darkroom for photographers
 media-gfx/dcraw 9.28.0-r4 9.28.0-r5: Command-line decoder for raw digital photos
 media-gfx/digikam 8.8.0: Digital photo management application
-media-gfx/displaycal-py3 3.9.16 3.9.17: Modernize the DisplayCAL code including Python 3 support
+media-gfx/displaycal-py3 3.9.17 3.9.17-r1: Modernize the DisplayCAL code including Python 3 support
 media-gfx/ditaa 0.11.0-r1: A utility that converts ascii-art diagrams to bitmap diagrams
 media-gfx/dmtx-utils 0.7.6: Tools for reading and writing Data Matrix barcodes
 media-gfx/dpic 20200901: Converts PIC plots into pstricks, PGF/TikZ, PostScript, MetaPost and TeX
@@ -13640,7 +13640,7 @@ media-plugins/g2reverb 0.7.1: Stereo reverb LADSPA plugin
 media-plugins/gimp-lqr 0.7.2-r1: Content-aware resizing for the GIMP
 media-plugins/gkrellmpc 0.1_beta10-r1: A gkrellm plugin to control the MPD (Music Player Daemon)
 media-plugins/gmsynth-lv2 0.6.3: General MIDI Sample Player Plugin
-media-plugins/grilo-plugins 0.3.18 0.3.18-r1: A collection of plugins for the Grilo framework
+media-plugins/grilo-plugins 0.3.18-r1 0.3.18-r2: A collection of plugins for the Grilo framework
 media-plugins/gst-plugin-gtk4 0.13.4: GStreamer GTK 4 sink element
 media-plugins/gst-plugins-a52dec 1.24.13 1.26.11: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.13 1.26.11: Adaptive demuxer plugins for Gstreamer
@@ -15679,7 +15679,7 @@ net-wireless/bluez-tools 0_p20201025-r1: Set of tools to manage bluetooth device
 net-wireless/broadcom-sta 6.30.223.271-r10: Broadcom's IEEE 802.11a/b/g/n hybrid Linux device driver
 net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
-net-wireless/dump1090 10.2 11.0 9999: Simple Mode S decoder for RTLSDR devices
+net-wireless/dump1090 10.2 11.0-r1 9999: Simple Mode S decoder for RTLSDR devices
 net-wireless/gnome-bluetooth 47.1 47.2: Bluetooth graphical utilities integrated with GNOME
 net-wireless/gnuradio 3.10.12.0-r2 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
@@ -15729,7 +15729,7 @@ net-wireless/soapyhackrf 0.3.4-r1 9999: SoapySDR HackRF module
 net-wireless/soapyplutosdr 0.2.2-r1 9999: Soapy SDR plugin for the Pluto SDR
 net-wireless/soapyremote 0.5.2 9999: Soapy SDR remote module
 net-wireless/soapyrtlsdr 0.3.3-r3 9999: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.8.1-r2 9999: vendor and platform neutral SDR support library
+net-wireless/soapysdr 0.8.1-r2 0.8.1-r3 9999: vendor and platform neutral SDR support library
 net-wireless/soapysdrplay 0_p20220120 0.5.2 9999: Soapy SDR plugin for SDRPlay
 net-wireless/soapyuhd 0.4.1_p20251220 9999: Soapy SDR plugins for UHD supported SDR devices
 net-wireless/suscan 0.3.0_p20251029: a realtime DSP processing library
