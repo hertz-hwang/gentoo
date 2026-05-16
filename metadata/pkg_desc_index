@@ -2979,7 +2979,7 @@ app-misc/xmind 3.7.6_p201801311814: Brainstorming and mind mapping software tool
 app-misc/yq 3.4.3: Command-line YAML processor - jq wrapper for YAML documents
 app-misc/yq-go 4.48.2 4.49.2 4.50.1: yq is a lightweight and portable command-line YAML, JSON and XML processor
 app-misc/ytree 2.09 2.10: Curses-based file manager
-app-misc/zellij 0.44.1 0.44.2: A terminal workspace with batteries included
+app-misc/zellij 0.44.1 0.44.2 0.44.3: A terminal workspace with batteries included
 app-misc/zisofs-tools 1.0.8-r1: User utilities for zisofs
 app-mobilephone/adebar 2.4.2: Android DEvice Backup And Report, using Bash and ADB
 app-mobilephone/anyremote 6.7.3: Bluetooth, infrared or cable remote control service
@@ -14785,7 +14785,7 @@ net-fs/sshfs 3.7.3-r2 3.7.5: Fuse-filesystem utilizing the sftp service
 net-fs/wdfs 1.4.2-r4: WebDAV filesystem with special features for accessing subversion repositories
 net-ftp/atftp 0.8.0: Advanced TFTP implementation client/server
 net-ftp/cmdftp 0.9.8: Light weight, yet robust command line FTP client with shell-likefunctions
-net-ftp/filezilla 3.69.5 3.69.6 3.70.4: FTP client with lots of useful features and an intuitive interface
+net-ftp/filezilla 3.69.5 3.69.6 3.70.4 3.70.5: FTP client with lots of useful features and an intuitive interface
 net-ftp/frox 0.7.18-r9: Transparent ftp proxy
 net-ftp/ftp 0.17.34.0.2.5.1: Standard Linux FTP client
 net-ftp/ftpbase 0.01-r6: File Transfer Protocol (FTP) base layout
@@ -14833,7 +14833,7 @@ net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19 0.14.1: Send and receive messages of Signal Messenger over a command line interface
 net-im/signal-desktop-bin 8.9.1: Allows you to send and receive messages of Signal Messenger on your computer
-net-im/slack 4.49.81 4.49.89: Team collaboration tool
+net-im/slack 4.49.89 4.50.121: Team collaboration tool
 net-im/spectrum2 2.2.1-r2: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.150.0 1.151.0 1.152.0 1.152.1: Reference implementation of Matrix homeserver
@@ -17933,7 +17933,7 @@ sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
 sys-process/daemontools-encore 1.11-r2: Collection of tools for managing UNIX services
 sys-process/dcron 4.6: Dillon's lightweight and minimalist cron daemon
 sys-process/dumb-init 1.2.5-r1: A minimal init system for Linux containers
-sys-process/evisum 0.6.4 1.0.1 1.2.0 1.2.2 2.0.4: System and process monitor written with EFL
+sys-process/evisum 0.6.4 1.0.1 1.2.0 1.2.2 2.0.4 2.0.9: System and process monitor written with EFL
 sys-process/fcron 3.4.0 3.4.0-r1: A command scheduler with extended capabilities over cron and anacron
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1: CLI curses based monitoring tool
