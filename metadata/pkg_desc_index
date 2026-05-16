@@ -5753,7 +5753,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.38.2 4.39: Netscape Portable Runtime
-dev-libs/nss 3.112.3 3.112.4 3.112.5 3.122 3.122.1 3.123 3.123.1: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.112.5 3.123.1 3.124: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -10906,7 +10906,7 @@ dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.82.5 2.84.4 2.86.4 2.86.5 2.88.0 2.88.1: Build utilities for GLib using projects
 dev-util/global 6.6.14: Tag system to find an object location in various sources
-dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 48.2-r2 49.1: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
@@ -11079,9 +11079,9 @@ dev-util/shunit2 2.1.8: Unit-test framework for Bourne-based shell scripts
 dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on Linux systems
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
-dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 9999: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 16.0.18 16.0.19 16.0.21 16.0.22 16.0.23 16.0.24 17.0.18 17.0.19 17.0.20 17.0.21 17.0.22 17.0.23 18.1.18 18.1.19 18.1.20 18.1.21 18.1.22 18.1.23 19.1.13 19.1.14 19.1.15 19.1.16 19.1.17 19.1.18 20.1.8 20.1.9 20.1.10 20.1.11 20.1.12 20.1.13 21.1.3 21.1.4 21.1.5 21.1.6 21.1.7 22.1.0 22.1.1 22.1.2 23.0.0_pre20260223: Bi-directional translator between SPIR-V and LLVM IR
-dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 9999: Provides an API and commands for processing SPIR-V modules
+dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
 dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
@@ -11114,9 +11114,9 @@ dev-util/visual-regexp 3.1: Type the regexp and visualize it on a sample of your
 dev-util/visualvm 2.2-r2: Integrates commandline JDK tools and profiling capabilities
 dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagnostics and control
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
-dev-util/vulkan-headers 1.4.328.0 1.4.335.0 1.4.341.0 9999: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 9999: Share code across various Vulkan repositories
+dev-util/vulkan-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
 dev-util/watchman 2024.11.04.00 2025.04.14.00: A file watching service
@@ -13569,7 +13569,7 @@ media-libs/sdl3-ttf 3.2.2: Library that allows you to use TrueType fonts in SDL 
 media-libs/sdl_audiolib 0_p20220622-r1 9999: Audio decoding, resampling and mixing library for SDL
 media-libs/sg 1.5: Socket Graphics tool for displaying polygons
 media-libs/sge 030809-r1: Graphics extensions library for SDL
-media-libs/shaderc 2025.4 2025.5 2026.1: Collection of tools, libraries and tests for shader compilation
+media-libs/shaderc 2025.4 2025.5 2026.1 2026.2: Collection of tools, libraries and tests for shader compilation
 media-libs/simage 1.8.3-r1 1.8.4 9999: Image and video texturing library
 media-libs/smpeg 0.4.4-r11 0.4.4-r12: SDL MPEG Player Library
 media-libs/smpeg2 2.0.0-r4: SDL MPEG Player Library
@@ -13607,8 +13607,8 @@ media-libs/vo-aacenc 0.1.3 9999: VisualOn AAC encoder library
 media-libs/vo-amrwbenc 0.1.3 9999: VisualOn AMR-WB encoder library
 media-libs/volpack 1.0_p7-r2: Volume rendering library
 media-libs/vpl-gpu-rt 25.2.2 25.4.3 26.1.1: Intel Video Processing Library GPU Runtime
-media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 9999: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 9999: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 9999: Vulkan Installable Client Driver (ICD) Loader
 media-libs/waffle 1.8.1 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
@@ -14316,7 +14316,7 @@ media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring app
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
 media-video/ffmpeg 4.4.5-r4 4.4.6-r1 4.4.7 6.1.4 6.1.5 7.1.3 7.1.4 8.0.1 8.1 8.1.1 9999: Complete solution to record/convert/stream audio and video
-media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149: FFmpeg built specifically for codec support in Chromium-based browsers
+media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpeg-compat 4.4.5-r2 4.4.6-r1 4.4.7 6.1.4 6.1.5 7.1.3 7.1.4: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
@@ -15711,7 +15711,7 @@ net-wireless/limesuite 23.11.0-r1 23.11.0_p20250714: Driver and GUI for LMS7002M
 net-wireless/lorcon 2020.06.06_p20220216-r3 9999: A generic library for injecting 802.11 frames
 net-wireless/madwimax 0.1.1-r2: Reverse-engineered driver for WiMAX devices based on Samsung CMC-730 chip
 net-wireless/mfoc 0.10.7-r1: Mifare Classic Offline Cracker
-net-wireless/nanovna-saver 0.6.8-r1 0.7.3 9999: tool for reading, displaying and saving data from the NanoVNA
+net-wireless/nanovna-saver 0.6.8-r1 0.6.8-r2 0.7.3-r1 9999: tool for reading, displaying and saving data from the NanoVNA
 net-wireless/neard 0.19: Near Field Communication (NFC) management daemon
 net-wireless/osmo-fl2k 0.2.0 9999: turns FL2000-based USB 3.0 to VGA adapters into low cost DACs
 net-wireless/portapack-firmware 20190405: Firmware and scripts for controlling the Portapack from Sharebrained
@@ -17770,8 +17770,8 @@ sys-kernel/dkms 3.2.2 3.3.0 3.4.0 3.4.1 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 108-r6 110-r5 111 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.18.30_p1 7.0.7_p1: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.18.30_p1 7.0.7_p1: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.12.89 6.18.30_p1 6.18.31 7.0.7_p1 7.0.8: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.12.89 6.18.30_p1 6.18.31 7.0.7_p1 7.0.8: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.256 5.15.207 6.1.173 6.6.139 6.12.89 6.18.31 7.0.8: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
@@ -17795,10 +17795,10 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.255 5.10.256 5.10.9999 5.15.206 5.15.207 5.15.9999 6.1.172 6.1.173 6.1.9999 6.6.138 6.6.139 6.6.9999 6.12.88 6.12.9999 6.18.30 7.0.7: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.255 5.10.256 5.10.9999 5.15.206 5.15.207 5.15.9999 6.1.172 6.1.173 6.1.9999 6.6.138 6.6.139 6.6.9999 6.12.88 6.12.89 6.12.9999 6.18.30 6.18.31 7.0.7 7.0.8: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.256 5.15.207 6.1.173 6.6.139 6.12.89 6.18.31 7.0.8: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 7.0.7: The Zen Kernel Live Sources
+sys-kernel/zen-sources 7.0.8: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
@@ -17982,7 +17982,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.18.30_p1 7.0.7_p1: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.255_p4 5.10.256 5.15.206_p4 5.15.207 6.1.172_p4 6.1.173 6.6.138_p4 6.6.139 6.12.88_p1 6.12.89 6.18.30_p1 6.18.31 7.0.7_p1 7.0.8: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18232,7 +18232,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.3 6.9.4: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 10.1 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 146.0.7680.177 148.0.7778.167 149.0.7815.2 149.0.7827.14: Open-source version of Google Chrome web browser
+www-client/chromium 146.0.7680.177 148.0.7778.167 149.0.7815.2 149.0.7827.14 150.0.7838.0: Open-source version of Google Chrome web browser
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
@@ -18250,7 +18250,7 @@ www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
 www-client/links 2.30-r2 2.30-r3: A fast and lightweight web browser running in both graphics and text mode
 www-client/luakit 2.3.6 2.4.0: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
-www-client/microsoft-edge 148.0.3967.54: The web browser from Microsoft
+www-client/microsoft-edge 148.0.3967.70: The web browser from Microsoft
 www-client/microsoft-edge-beta 148.0.3967.52 148.0.3967.54 149.0.4022.8: The web browser from Microsoft
 www-client/microsoft-edge-dev 149.0.4009.0 149.0.4022.4 149.0.4022.8: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
@@ -18266,8 +18266,8 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.5-r1: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 2.2.3-r1 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 7.9.3970.60 7.9.3970.64: A browser for our friends
-www-client/vivaldi-snapshot 7.10.4031.3 8.0.4033.7: A browser for our friends
+www-client/vivaldi 7.9.3970.64 7.9.3970.67: A browser for our friends
+www-client/vivaldi-snapshot 8.0.4033.7 8.0.4033.9: A browser for our friends
 www-client/w3m 0.5.3_p20240916 0.5.6: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r13: A variant of w3m with support for multiple character encodings
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
