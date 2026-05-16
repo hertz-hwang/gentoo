@@ -1885,7 +1885,7 @@ app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text ed
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
-app-editors/zed 0.230.1 0.232.2 0.233.7 1.1.7: The fast, collaborative code editor
+app-editors/zed 0.230.1 0.232.2 1.1.8 1.2.6: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.2_p20250524: Algol68 major mode for GNU Emacs
@@ -4049,7 +4049,7 @@ dev-db/postgresql 14.22 14.23 15.17 15.18 16.13 16.14 17.9 17.10 18.3 18.4 9999:
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
 dev-db/psqlodbc 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
-dev-db/qt5-sqlcipher 1.1.0: Qt SQL driver plugin for SQLCipher
+dev-db/qt5-sqlcipher 1.1.0-r1: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
 dev-db/redict 7.3.6: A persistent caching system, key-value, and data structures database
 dev-db/redis 8.2.2 8.2.3 8.2.5 8.4.2 8.6.1: A persistent caching system, key-value, and data structures database
@@ -14071,7 +14071,7 @@ media-sound/litestream 1.3_rc3: Litstream is a lightweight and robust shoutcast-
 media-sound/lltag 0.14.6: Automatic command-line mp3/ogg/flac file tagger and renamer
 media-sound/lollypop 1.4.45: Modern music player for GNOME
 media-sound/lxmusic 0.4.7-r2: Simple GUI XMMS2 client with minimal functionality
-media-sound/mac 4.11.4.5.7-r1 12.60 12.67 12.76: Monkey's Audio Codecs
+media-sound/mac 4.11.4.5.7-r1 12.60 12.76 12.93: Monkey's Audio Codecs
 media-sound/madplay 0.15.2b-r2: The MAD audio player
 media-sound/mangler 1.2.5-r5: Open source VOIP client capable of connecting to Ventrilo 3.x servers
 media-sound/mcdp 0.4b: Very small console cd player
@@ -14954,7 +14954,7 @@ net-libs/libhackrf 2024.02.1-r1 2026.01.3 9999: library for communicating with H
 net-libs/libhtp 0.5.53: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libhubbub 0.3.8: HTML5 compliant parsing library, written in C
 net-libs/libident 0.32-r1 0.32-r2: Small library to interface to the Ident protocol server
-net-libs/libiio 0.26-r2 0.26-r3 0.26-r4 9999: Library for interfacing with IIO devices
+net-libs/libiio 0.26-r3 0.26-r5 9999: Library for interfacing with IIO devices
 net-libs/libircclient 1.10-r1: Small but powerful library implementing the client-server IRC protocol
 net-libs/libiscsi 1.20.0 9999: iscsi client library and utilities
 net-libs/libisds 0.11.2-r1 9999: Client library for accessing ISDS Soap services
@@ -17678,7 +17678,7 @@ sys-fs/extundelete 0.2.4-r2: A utility to undelete files from an ext3 or ext4 pa
 sys-fs/f2fs-tools 1.16.0-r1 1.16.0-r2 9999: Tools for Flash-Friendly File System (F2FS)
 sys-fs/fatcat 1.1.1-r2: FAT filesystems explore, extract, repair, and forensic tool
 sys-fs/fatresize 1.1.0: Resize FAT partitions using libparted
-sys-fs/fatsort 1.7.1.683 1.7.679: Sorts files on FAT16/32 partitions, ideal for basic audio players
+sys-fs/fatsort 1.7.1 1.7.679: Sorts files on FAT16/32 partitions, ideal for basic audio players
 sys-fs/fragview 0.1.1-r1 0.1.2 9999: Disk fragmentation visualizer based on FIEMAP and FIBMAP ioctls
 sys-fs/fscrypt 0.3.4 0.3.6: Tool for managing Linux filesystem encryption
 sys-fs/fswatch 1.18.0 1.18.3: cross-platform file change monitor with multiple backends
