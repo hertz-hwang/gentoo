@@ -2367,7 +2367,7 @@ app-emulation/dinero 4.7-r1: Cache simulator
 app-emulation/diskimage-builder 3.32.0 3.33.0 3.41.0 9999: Golden Disk Image builder
 app-emulation/dosemu 1.4.1_pre20130107-r7: DOS Emulator
 app-emulation/dxvk 2.3.1-r1 2.4.1 2.5.3 2.6.2 2.7.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
-app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
+app-emulation/dynamips 0.2.23 0.2.24: Cisco 7200/3600 Simulator
 app-emulation/faudio 26.04 26.05: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/fex-xtajit 2601 2603 2604 2605: A wine emulation dll for running x86 application on an arm64 host
 app-emulation/firecracker-bin 1.14.4 1.15.1: Secure and fast microVMs for serverless computing (static build)
@@ -14275,7 +14275,7 @@ media-tv/mythtv-status 1.1.0: Displays the current status of MythTV at the comma
 media-tv/plex-media-server 1.43.1.10611: Free media library that is intended for use with a plex client
 media-tv/shoutcast2vdr 0.0.8-r1: VDR script: generate shoutcast playlists
 media-tv/tvbrowser-bin 4.2.7: Themeable and easy to use TV Guide - written in Java
-media-tv/tvheadend 4.3_p20240618 4.3_p20240618-r1 9999: Tvheadend is a TV streaming server and digital video recorder
+media-tv/tvheadend 4.3_p20240618-r1 4.3_p20260516 9999: Tvheadend is a TV streaming server and digital video recorder
 media-tv/v4l-dvb-saa716x 0.0.1_p20170225-r6: driver for saa716x based dvb cards like TT S2-6400 or Skystar 2 eXpress HD
 media-tv/w_scan 20170107: Scan DVB-C/DVB-T/DVB-S channels
 media-tv/xmltv 1.0.0-r1: Set of utilities to manage TV listings stored in the XMLTV format
@@ -17895,6 +17895,7 @@ sys-power/hibernate-script 2.0-r6: Hibernate script supporting multiple suspend 
 sys-power/iasl 20200717 20241212: Intel ACPI Source Language (ASL) compiler
 sys-power/intel-undervolt 1.7-r1: Intel CPU undervolting and throttling configuration tool
 sys-power/libacpica 0_pre20220331_p6 9999: ACPICA as a library
+sys-power/nct6687d 0_pre20260313 9999: Kernel module for the Nuvoton NCT6687-R
 sys-power/nut 2.8.4 9999: Network-UPS Tools
 sys-power/nvclock 0.8_p20110102-r2 0.8_p20110102-r3: NVIDIA Overclocking Utility
 sys-power/nvram-reboot 2004.10.03-r1: PowerOff Boot-Images for nvram-wakeup (not needed for GRUB)
