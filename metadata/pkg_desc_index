@@ -1191,7 +1191,7 @@ app-arch/p7zip 17.05-r2: Port of 7-Zip archiver for Unix
 app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early 1980s
 app-arch/par2cmdline 0.8.1-r2 1.1.1: A PAR-2.0 file verification and repair tool
 app-arch/par2cmdline-turbo 1.3.0 1.4.0 9999: par2cmdline x ParPar: speed focused par2cmdline fork
-app-arch/patool 4.0.1 4.0.2 4.0.3 4.0.4: Portable archive file manager
+app-arch/patool 4.0.2 4.0.4 4.0.5: Portable archive file manager
 app-arch/pax 20201030: pax (Portable Archive eXchange) is the POSIX standard archive tool
 app-arch/pbzip2 1.1.13: Parallel bzip2 (de)compressor using libbz2
 app-arch/pdlzip 1.14 1.15: Public-domain version of lzip compressor
@@ -1375,7 +1375,7 @@ app-containers/cosign 2.5.0 2.6.1 3.0.3: container signing utility
 app-containers/cri-o 1.31.2 1.31.4 1.34.3: OCI-based implementation of Kubernetes Container Runtime Interface
 app-containers/cri-tools 1.33.0 1.35.0: CLI and validation tools for Kubelet Container Runtime (CRI)
 app-containers/crun 1.19.1 1.20 1.21 1.25.1: Fast and low-memory footprint OCI Container Runtime fully written in C
-app-containers/devcontainer 0.85.0 0.86.0 0.86.1: Reference implementation of the Development Containers specification
+app-containers/devcontainer 0.85.0 0.86.1 0.87.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.8.2.4 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1: System container image builder for LXC and incus
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
@@ -1563,7 +1563,7 @@ app-crypt/xca 2.8.0 2.9.0 2.9.0-r1: A GUI to OpenSSL, RSA public keys, certifica
 app-crypt/xor-analyze 0.5-r1: Program for cryptanalyzing xor 'encryption' with variable key length
 app-crypt/yubihsm-connector 3.0.7: Server to expose YubiHSM 2 to network
 app-crypt/yubihsm-shell 2.7.2: Components used to interact with the YubiHSM 2
-app-crypt/yubikey-manager 5.8.0 5.9.0 5.9.1: Python library and command line tool for configuring a YubiKey
+app-crypt/yubikey-manager 5.8.0 5.9.0 5.9.1-r1: Python library and command line tool for configuring a YubiKey
 app-crypt/yubioath-flutter-bin 7.3.0 7.3.2: Yubico Authenticator for TOTP
 app-crypt/zulucrypt 7.0.0 7.1.0: Front end to cryptsetup
 app-dicts/aspell-af 0.50.0-r1: Aspell (Afrikaans) language dictionary
@@ -3010,7 +3010,7 @@ app-office/gnumeric 1.12.59-r1 1.12.60 1.12.61: The GNOME Spreadsheet
 app-office/grisbi 3.0.4-r1: Grisbi is a personal accounting application for Linux
 app-office/homebank 5.9.5 5.9.7: Free, easy, personal accounting for everyone
 app-office/impressive 0.13.2: Stylish way of giving presentations with Python
-app-office/joplin-desktop 3.6.6 3.6.8 3.6.10 3.6.11: Secure note taking and to-do app with synchronization capabilities
+app-office/joplin-desktop 3.6.6 3.6.8 3.6.11 3.7.1: Secure note taking and to-do app with synchronization capabilities
 app-office/kmymoney 5.2.2: Personal finance manager based on KDE Frameworks
 app-office/kraft 2.0.0: Quotes and invoices manager for small enterprises
 app-office/ktimetracker 6.0.0: Todo management and time tracker
@@ -3123,7 +3123,7 @@ app-shells/ccsh 0.0.4-r5: UNIX Shell for people already familiar with the C lang
 app-shells/ctypes-sh 1.2_p20240626: Foreign function interface for bash
 app-shells/dash 0.5.12-r1 0.5.13.2 0.5.13.3 0.5.13.4 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
-app-shells/fish 4.4.0 4.5.0-r2 4.6.0 9999: Friendly Interactive SHell
+app-shells/fish 4.5.0-r2 4.6.0 4.7.1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
 app-shells/fzf 0.67.0 0.68.0 0.70.0 0.71.0 0.72.0: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
@@ -4111,7 +4111,7 @@ dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.8 
 dev-dotnet/dotnet-script 1.6.0 2.0.0: Run C# scripts from the CLI
 dev-dotnet/dotnet-sdk 9.0.111-r1: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/dotnet-sdk-bin 6.0.417-r5 7.0.404-r5 8.0.108-r1 9.0.112 9.0.308 10.0.103 10.0.107 10.0.203: .NET is a free, cross-platform, open-source developer platform
-dev-dotnet/fable 4.29.0 5.0.0: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
+dev-dotnet/fable 4.29.0-r2 5.0.0-r2: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
 dev-dotnet/fantomas 7.0.3: FSharp source code formatter
 dev-dotnet/fsautocomplete 0.82.0 0.83.0: F# language server using the Language Server Protocol
 dev-dotnet/gentoo-dotnet-maintainer-tools 3.0.0 3.9999: Gentoo tools for .NET packages maintenance
@@ -5196,11 +5196,11 @@ dev-lang/cfortran 20210827 20210827-r1: Header file allowing to call Fortran rou
 dev-lang/clips 6.40-r1: Tool for building Expert Systems (native version)
 dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
-dev-lang/clojure 1.12.4: General-purpose programming language with an emphasis on functional programming
+dev-lang/clojure 1.12.4 1.12.5: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260304 20260406 20260412 20260429: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260406 20260412 20260429 20260513: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
-dev-lang/crystal 1.19.1 1.20.0-r1 1.20.1: The Crystal Programming Language
+dev-lang/crystal 1.19.1 1.20.0-r1 1.20.1 1.20.2: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
 dev-lang/cxprolog 0.98.2-r3: A WAM based Prolog system
 dev-lang/dafny 4.11.0: Dafny is a verification-aware programming language
@@ -5392,7 +5392,7 @@ dev-libs/cusparselt 0.7.1.0: A High-Performance CUDA Library for Sparse Matrix-M
 dev-libs/cutlass 3.8.0 3.9.2 4.1.0 4.2.1: CUDA Templates for Linear Algebra Subroutines
 dev-libs/cvector 1.0.3.1 1.0.4.1: An ANSI C implementation of dynamic arrays (approximation of C++ vectors)
 dev-libs/cxxopts 3.0.0-r1 3.2.0-r1 3.2.1 3.2.1-r1 3.3.1: Lightweight C++ command line option parser
-dev-libs/cxxtools 3.0-r3: Collection of general purpose C++-classes
+dev-libs/cxxtools 3.0-r3 3.0-r4: Collection of general purpose C++-classes
 dev-libs/cyberjack 3.99.5_p17: REINER SCT cyberJack USB chipcard reader user space driver
 dev-libs/cyrus-sasl 2.1.28-r4 2.1.28-r5: The Cyrus SASL (Simple Authentication and Security Layer)
 dev-libs/d0_blind_id 1.0_p20201124: Blind-ID library for user identification using RSA blind signatures
@@ -9400,6 +9400,7 @@ dev-python/requests-kerberos 0.15.0: A Kerberos authentication handler for pytho
 dev-python/requests-mock 1.12.1: Mock out responses from the requests package
 dev-python/requests-ntlm 1.3.0: HTTP NTLM authentication using the requests library
 dev-python/requests-oauthlib 2.0.0: This project provides first-class OAuth library support for Requests
+dev-python/requests-ratelimiter 0.10.0: Rate-limiting for the requests library
 dev-python/requests-toolbelt 1.0.0: A utility belt for advanced users of python-requests
 dev-python/requests-unixsocket 0.4.1: Use requests to talk HTTP via a UNIX domain socket
 dev-python/requests-wsgi-adapter 0.4.1: WSGI Transport Adapter for Requests
@@ -10814,7 +10815,7 @@ dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semanti
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
-dev-util/clojure-tools 1.12.4.1629: Development tools for the Clojure programming language
+dev-util/clojure-tools 1.12.4.1629 1.12.5.1645: Development tools for the Clojure programming language
 dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
 dev-util/coccigrep 1.21: A semantic grep for the C language
 dev-util/coccinelle 1.1.1-r6 1.3.0 1.3.1: Program matching and transformation engine
@@ -11525,7 +11526,7 @@ games-emulation/nestopia-jg 1.53.2 9999: Jolly Good Fork of Nestopia
 games-emulation/openmsx 20.0-r2: MSX emulator that aims for perfection
 games-emulation/pcsx2 2.4.0-r1 2.6.3-r1 9999: PlayStation 2 emulator
 games-emulation/pcsx2_patches 0_p20251228 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
-games-emulation/ppsspp 1.20.3: A PSP emulator written in C++
+games-emulation/ppsspp 1.20.3 1.20.4: A PSP emulator written in C++
 games-emulation/prosystem-jg 1.5.3 9999: Jolly Good Fork of ProSystem
 games-emulation/rmg 0.8.5 0.8.7 0.8.8 0.8.9 9999: Rosalie's Mupen GUI
 games-emulation/sameboy-jg 1.0.2 1.0.3 9999: Jolly Good Port of SameBoy
@@ -11791,7 +11792,7 @@ games-roguelike/dwarf-fortress 51.13: Single-player fantasy game
 games-roguelike/hengband 2.2.1: An Angband variant, with a Japanese/fantasy theme
 games-roguelike/moria 5.7.15: The Dungeons of Moria, a single player roguelike game, also known as Umoria
 games-roguelike/neon-chrome 1.1.12: A ruthless top-down cyberpunk shooter with rogue-like elements
-games-roguelike/nethack 3.6.7 3.6.7-r1 5.0.0: The ultimate old-school single player dungeon exploration game
+games-roguelike/nethack 3.6.7 3.6.7-r1 5.0.0 5.0.0-r1: The ultimate old-school single player dungeon exploration game
 games-roguelike/powder 118: A game in the genre of Rogue, Nethack, and Diablo with emphasis on tactical play
 games-roguelike/scourge 0.21.1-r2: A graphical rogue-like adventure game
 games-roguelike/stone-soup 0.25.1-r104 0.26.1-r3 0.27.1-r2 0.28.0-r2 0.29.1-r1 0.30.1-r1 0.31.0-r1 0.32.1-r1 0.33.1-r1 0.34.0-r1 0.34.1: Role-playing roguelike game of exploration and treasure-hunting in dungeons
@@ -13178,7 +13179,7 @@ media-gfx/tif22pnm 0.14-r1: tif22pnm and png22pnm command-line converters
 media-gfx/tintii 2.10.0-r3: Photo editor for selective color, saturation, and hue shift adjustments
 media-gfx/ttfautohint 1.8.4-r4: Application and libary for hinting TrueType fonts
 media-gfx/ttygif 1.6.0: Convert terminal recordings to animated gifs
-media-gfx/tuxpaint 0.9.31-r1 0.9.31-r2 0.9.35: Drawing program designed for young children
+media-gfx/tuxpaint 0.9.31-r2 0.9.35 0.9.35-r1: Drawing program designed for young children
 media-gfx/tuxpaint-stamps 20230402 20241025: Set of 'Rubber Stamp' images which can be used within Tux Paint
 media-gfx/ueberzug 18.3.1: Command line util to draw images on terminals by using child windows
 media-gfx/ueberzugpp 2.9.8: Drop in replacement for ueberzug written in C++
@@ -13960,7 +13961,7 @@ media-sound/aumix 2.9.1-r1: Aumix volume/mixer control program
 media-sound/awesfx 0.5.2-r1: AWE32 Sound Driver Utility Programs
 media-sound/aylet 0.5: Aylet plays music files in the .ay format
 media-sound/baudline 1.08-r2: A time-frequency browser designed for visualization of spectral domains
-media-sound/beets 1.7.0_pre20240501-r1 2.2.0-r1 2.3.1 9999: Media library management system for obsessive music geeks
+media-sound/beets 1.7.0_pre20240501-r1 2.3.1 2.10.0 9999: Media library management system for obsessive music geeks
 media-sound/bitmeter 1.2-r2: Diagnosis tool for JACK audio software
 media-sound/bluez-alsa 4.3.1-r2 9999: Bluetooth Audio ALSA Backend
 media-sound/bplay 0.991: No-frills command-line buffered player and recorder
@@ -14716,7 +14717,7 @@ net-dns/dnssec-tools 2.2.3-r3: Tools to ease the deployment of DNSSEC related te
 net-dns/dnssec-validator 2.2.3-r4: Tools to ease the validation of DNSSEC related technologies
 net-dns/dnstop 20140915-r3 20250530: Displays various tables of DNS traffic on your network
 net-dns/dnsviz 0.11.1: Tool suite for analysis and visualization of DNS and DNSSEC
-net-dns/doggo 1.1.3 1.1.5: Command-line DNS Client for Humans
+net-dns/doggo 1.1.5: Command-line DNS Client for Humans
 net-dns/ez-ipupdate 3.0.11.13.3_beta8-r5: Dynamic DNS client for lots of dynamic dns services
 net-dns/fpdns 20190131: Fingerprinting DNS servers
 net-dns/getdns 1.7.3: Modern asynchronous DNS API
@@ -16777,7 +16778,7 @@ sec-keys/openpgp-keys-wget 20220407 20230313 20230511 20240415 20241111: OpenPGP
 sec-keys/openpgp-keys-wireshark 20230903: OpenPGP keys used to sign Wireshark releases
 sec-keys/openpgp-keys-xpdf 20220515: OpenPGP key used to sign Xpdf releases
 sec-keys/openpgp-keys-yorhel 20221110: OpenPGP keys used by Yoran Heling
-sec-keys/openpgp-keys-yubico 20260508: OpenPGP keys used by Yubico's developers
+sec-keys/openpgp-keys-yubico 20260509: OpenPGP keys used by Yubico's developers
 sec-keys/openpgp-keys-zackweinberg 20231223: OpenPGP keys used by Zack Weinberg
 sec-keys/openpgp-keys-zstd 20260121: OpenPGP key used by app-arch/zstd
 sec-keys/signify-keys-opensmtpd 20181026: Signify keys used to sign OpenSMTPD portable releases
@@ -18345,7 +18346,7 @@ www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
 www-servers/tomcat 9.0.115 9.0.118 10.1.52 10.1.55 11.0.18 11.0.22: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
-www-servers/vinyl-cache 8.0.1 9.0.0: A high-performance caching HTTP reverse proxy
+www-servers/vinyl-cache 8.0.1 8.0.2 9.0.0 9.0.1: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
 x11-apps/appres 1.0.7: list X application resource database
 x11-apps/bdftopcf 1.1.2: X.Org bdftopcf application
