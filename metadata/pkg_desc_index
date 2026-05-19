@@ -5638,7 +5638,7 @@ dev-libs/libphonenumber 8.13.47-r1: Library for parsing, formatting, and validat
 dev-libs/libpipeline 1.5.8: Pipeline manipulation library
 dev-libs/libplatform 2.1.0.1-r2 2.1.0.1-r3 9999: Platform support library used by libCEC and binary add-ons for Kodi
 dev-libs/libportal 0.9.1: Flatpak portal library
-dev-libs/libpqxx 7.7.5 7.10.6: Standard front-end for writing C++ programs that use PostgreSQL
+dev-libs/libpqxx 7.7.5 7.10.6 7.10.7 8.0.1: Standard front-end for writing C++ programs that use PostgreSQL
 dev-libs/libpsl-native 7.4.0: Functionality missing from .NET Core via system calls
 dev-libs/libpthread-stubs 0.5: Pthread functions stubs for platforms missing them
 dev-libs/libptytty 2.0-r1: A library for mostly OS-independent handling of pty/tty/utmp/wtmp/lastlog
@@ -10917,7 +10917,7 @@ dev-util/gnome-builder 48.2-r2 49.1: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
 dev-util/godcc 1.0: Full-fledged command-line interface to Compiler Explorer instances
-dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.1.1 2025.3.2: Golang IDE by JetBrains
+dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1 2026.1.1: Golang IDE by JetBrains
 dev-util/google-perftools 2.15 2.16 2.17.2: Fast, multi-threaded malloc() and nifty performance analysis tools
 dev-util/gource 0.55: A software version control visualization tool
 dev-util/gperf 3.1-r2 3.2.1 3.3: A perfect hash function generator
@@ -11110,7 +11110,7 @@ dev-util/txt2regex 0.9: A Regular Expression wizard that converts human sentence
 dev-util/ty 0.0.7: An extremely fast Python type checker and language server, written in Rust
 dev-util/uftrace 0.17 0.18 0.18.1: Function (graph) tracer for user-space
 dev-util/uglifyjs 3.19.3: JavaScript parser, minifier, compressor and beautifier toolkit
-dev-util/umockdev 0.19.3 0.19.4 0.19.7 9999: Mock hardware devices for creating unit tests
+dev-util/umockdev 0.19.3 0.19.4 0.19.7 0.19.7-r1 9999: Mock hardware devices for creating unit tests
 dev-util/uncrustify 0.81.0 9999: C/C++/C#/D/Java/Pawn code indenter and beautifier
 dev-util/unicorn 2.1.3-r1 2.1.4 9999: A lightweight multi-platform, multi-architecture CPU emulator framework
 dev-util/unifdef 2.12-r2: remove #ifdef'ed lines from a file while otherwise leaving the file alone
@@ -12720,7 +12720,7 @@ mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1: Widely-used Mail Transport Agent (MTA)
 mail-mta/ssmtp 2.64_p11-r1 2.64_p12: Extremely simple MTA to get mail off the system to a Mailhub
-mate-base/caja 1.28.0-r2: Caja file manager for the MATE desktop
+mate-base/caja 1.28.0-r3: Caja file manager for the MATE desktop
 mate-base/libmatekbd 1.28.0: MATE keyboard configuration library
 mate-base/mate 1.28.0: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.28.0-r1 1.28.1: Applets for the MATE Desktop and Panel
@@ -15658,7 +15658,7 @@ net-vpn/openvpn 2.6.17-r1 2.6.17-r2 9999: Robust and highly flexible tunneling a
 net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenVPN Data Channel Offload in the linux kernel
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
-net-vpn/strongswan 6.0.3 6.0.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
+net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.6 0.4.9.8 9999: Anonymizing overlay network for TCP
@@ -17096,7 +17096,7 @@ sys-apps/crazydiskinfo 1.1.0-r1: Interactive TUI S.M.A.R.T viewer
 sys-apps/cyme 2.3.0: List system USB buses and devices; a modern cross-platform `lsusb`
 sys-apps/daemonize 1.7.8-r2: Runs a command as a Unix daemon
 sys-apps/daisydog 2014.05.30-r1 2024.07.12: A very simple /dev/watchdog daemon
-sys-apps/dbus 1.16.2: A message bus system, a simple way for applications to talk to each other
+sys-apps/dbus 1.16.2 1.16.2-r1: A message bus system, a simple way for applications to talk to each other
 sys-apps/dbus-broker 33-r1 33-r2 35 36 37 9999: Linux D-Bus Message Broker
 sys-apps/dcfldd 1.9.1-r2 1.9.2 1.9.2-r1 1.9.3: enhanced dd with features for forensics and security
 sys-apps/dchroot 0.12.1: Utility for managing chroots for non-root users
@@ -17390,7 +17390,7 @@ sys-auth/pam_ssh_agent_auth 0.10.4-r1 9999: Simple module to authenticate users 
 sys-auth/pam_u2f 1.4.0: PAM module for FIDO2 and U2F keys
 sys-auth/pam_yubico 2.27: Library for authenticating against PAM with a Yubikey
 sys-auth/pambase 20251104 20251104-r1 999999999: PAM base configuration files
-sys-auth/passwdqc 2.0.3-r1 2.1.0: Password strength checking library (and PAM module)
+sys-auth/passwdqc 2.0.3-r1 2.1.0 2.1.0-r1: Password strength checking library (and PAM module)
 sys-auth/polkit 126-r3 9999: Policy framework for controlling privileges for system-wide services
 sys-auth/polkit-pkla-compat 0.1-r2: Rules for polkit to add compatibility with pklocalauthority
 sys-auth/polkit-qt 0.200.0-r1 0.201.1: Qt wrapper around polkit-1 client libraries
@@ -17728,7 +17728,7 @@ sys-fs/mergerfs-tools 0_p20230912: Optional tools to help manage data in a merge
 sys-fs/mhddfs 0.1.39-r2: Fuse multi harddrive filesystem
 sys-fs/mount-zip 1.0.15: FUSE file system for ZIP archives
 sys-fs/mp3fs 1.1.1-r5: Read-only FUSE filesystem which transcodes FLAC audio files to MP3 when read
-sys-fs/mtd-utils 2.1.6-r2 2.2.1-r1: MTD userspace tools (NFTL, JFFS2, NAND, FTL, UBI)
+sys-fs/mtd-utils 2.1.6-r2 2.2.1-r1 2.3.1: MTD userspace tools (NFTL, JFFS2, NAND, FTL, UBI)
 sys-fs/mtools 4.0.49: Utilities to access MS-DOS disks from Unix without mounting them
 sys-fs/mtpfs 1.1-r6: A FUSE filesystem providing access to MTP devices
 sys-fs/multipath-tools 0.14.3: Device mapper target autoconfig
@@ -17798,8 +17798,8 @@ sys-kernel/raspberrypi-image 6.1.21_p20230405 6.6.28_p20240424 6.6.31_p20240529 
 sys-kernel/raspberrypi-sources 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250916 6.12.75_p20260408 6.18.29_p20260513: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15.185_p86 6.0.5_p14 6.1.134_p51 6.1.141_p52 6.5.2_p8 6.6.94_p56 6.12.28_p10: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/rumpkernel 0_pre20250111_p6 9999: NetBSD's rumpkernel for the Hurd
-sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0: sched_ext schedulers and tools
-sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0: DBUS on-demand loader of sched-ext schedulers
+sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0 1.1.1: sched_ext schedulers and tools
+sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0 1.1.1: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.256 5.10.9999 5.15.207 5.15.9999 6.1.173 6.1.9999 6.6.139 6.6.140 6.6.9999 6.12.89 6.12.90 6.12.9999 6.18.31 6.18.32 6.18.9999 7.0.8 7.0.9: Linux kernel built from vanilla upstream sources
@@ -17925,7 +17925,7 @@ sys-process/acct 6.6.4-r4: GNU system accounting utilities
 sys-process/anacron 2.3-r5 2.3-r6: A periodic command scheduler
 sys-process/at 3.2.5 3.2.5-r1 3.2.5-r2: Queues jobs for later execution
 sys-process/atop 2.12.1: Resource-specific view of processes
-sys-process/audit 4.0.1-r1 4.0.2-r1 4.1.4-r1: Userspace utilities for storing and processing auditing records
+sys-process/audit 4.1.4-r1 4.1.4-r2: Userspace utilities for storing and processing auditing records
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 sys-process/bcron 0.11: A new cron system designed with secure operations in mind by Bruce Guenter
 sys-process/below 0.11.0-r1: An interactive tool to view and record historical system data
@@ -17934,7 +17934,7 @@ sys-process/bpytop 1.0.68-r1: Linux/OSX/FreeBSD resource monitor
 sys-process/btop 1.4.6 1.4.7: A monitor of resources
 sys-process/criu 3.19 4.1: Utility to checkpoint/restore a process tree
 sys-process/cronbase 0.3.7-r10: Base for all cron ebuilds
-sys-process/cronie 1.7.2: Cronie is a standard UNIX daemon cron based on the original vixie-cron
+sys-process/cronie 1.7.2 1.7.2-r1: Cronie is a standard UNIX daemon cron based on the original vixie-cron
 sys-process/cronutils 1.10: Utilities to assist running batch processing jobs
 sys-process/ctop 0.7.7: Top-like interface for container-metrics
 sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
@@ -17962,7 +17962,7 @@ sys-process/nvtop 3.1.0 3.2.0 3.3.2 9999: (h)top like task monitor for AMD, NVID
 sys-process/parallel 20250722 20250722-r1: Shell tool for executing jobs in parallel locally or on remote machines
 sys-process/pkill-darwin 1.0-r1: pgrep(1) and pkill(1) for Darwin
 sys-process/prll 0.6.4: Utility for parallelizing execution of shell functions
-sys-process/procenv 0.51 0.51-r1: command-line utility to show process environment
+sys-process/procenv 0.51-r1 0.60: command-line utility to show process environment
 sys-process/procps 4.0.5-r3 4.0.5-r4 4.0.6: Standard informational utilities and process-handling tools
 sys-process/procs 0.14.6-r1 0.14.9: Modern replacement for ps
 sys-process/psinfo 0.12-r1 0.12-r2: Process information and statistics using the kernel /proc interface
