@@ -943,7 +943,7 @@ app-admin/cli53 0.8.18: A command-line tool for Amazon Route 53
 app-admin/clog 1.3.0-r2: Colorized log tail utility
 app-admin/clsync 0.4.5 9999: Live sync tool based on inotify, written in GNU C
 app-admin/clustershell 1.9.3: Python framework for efficient cluster administration
-app-admin/conky 1.22.2 1.22.3: An advanced, highly configurable system monitor for X
+app-admin/conky 1.22.3: An advanced, highly configurable system monitor for X
 app-admin/conserver 8.2.6-r3 8.2.7_p20250129 8.3.0: Serial Console Manager
 app-admin/consul 1.20.4 1.22.1: A tool for service discovery, monitoring and configuration
 app-admin/consul-replicate 0.4.0_p20211027: Consul cross-DC KV replication daemon
@@ -14066,7 +14066,7 @@ media-sound/litestream 1.3_rc3: Litstream is a lightweight and robust shoutcast-
 media-sound/lltag 0.14.6: Automatic command-line mp3/ogg/flac file tagger and renamer
 media-sound/lollypop 1.4.45: Modern music player for GNOME
 media-sound/lxmusic 0.4.7-r2: Simple GUI XMMS2 client with minimal functionality
-media-sound/mac 4.11.4.5.7-r1 12.60 12.76 12.93: Monkey's Audio Codecs
+media-sound/mac 4.11.4.5.7-r1 12.76 12.93: Monkey's Audio Codecs
 media-sound/madplay 0.15.2b-r2: The MAD audio player
 media-sound/mangler 1.2.5-r5: Open source VOIP client capable of connecting to Ventrilo 3.x servers
 media-sound/mcdp 0.4b: Very small console cd player
@@ -15682,7 +15682,7 @@ net-wireless/gqrx 2.17.2-r1 2.17.6 2.17.7 9999: Software defined radio receiver 
 net-wireless/gqrx-scanner 1.0.4: frequency scanner for Gqrx Software Defined Radio receiver
 net-wireless/gr-ieee802154 0.0_p20210719-r5 0.0_p20230828-r1 9999: IEEE 802.15.4 ZigBee Transceiver
 net-wireless/gr-iqbal 0.38.3 0.38.3-r1 9999: gnuradio I/Q balancing
-net-wireless/gr-osmosdr 0.2.6-r1 9999: GNU Radio source block for OsmoSDR and rtlsdr and hackrf
+net-wireless/gr-osmosdr 0.2.6-r1 0.2.6-r2 9999: GNU Radio source block for OsmoSDR and rtlsdr and hackrf
 net-wireless/gr-paint 0.0_p20230427-r2 0.0_p20250824: Paints monochrome images into the waterfall of a receiver
 net-wireless/gr-rds 0.0_p20220804-r3 0.0_p20250404 9999: GNU Radio FM RDS Receiver
 net-wireless/gr-scopy 0.0_p20220602-r1 9999: Scopy IIO blocks for GNU Radio
@@ -17673,7 +17673,7 @@ sys-fs/extundelete 0.2.4-r2: A utility to undelete files from an ext3 or ext4 pa
 sys-fs/f2fs-tools 1.16.0-r1 1.16.0-r2 9999: Tools for Flash-Friendly File System (F2FS)
 sys-fs/fatcat 1.1.1-r2: FAT filesystems explore, extract, repair, and forensic tool
 sys-fs/fatresize 1.1.0: Resize FAT partitions using libparted
-sys-fs/fatsort 1.7.1 1.7.679: Sorts files on FAT16/32 partitions, ideal for basic audio players
+sys-fs/fatsort 1.7.1: Sorts files on FAT16/32 partitions, ideal for basic audio players
 sys-fs/fragview 0.1.1-r1 0.1.2 9999: Disk fragmentation visualizer based on FIEMAP and FIBMAP ioctls
 sys-fs/fscrypt 0.3.4 0.3.6: Tool for managing Linux filesystem encryption
 sys-fs/fswatch 1.18.0 1.18.3: cross-platform file change monitor with multiple backends
@@ -17767,7 +17767,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.256_p1 5.15.207_p1 6.1.173_p1 6.6.140 6.12.90 6.18.32 7.0.9: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.256_p1 5.15.207_p1 6.1.173_p1 6.6.140 6.12.90 6.18.32 7.0.9: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.256-r1 5.10.256-r2 5.15.207-r1 5.15.207-r2 6.1.173-r1 6.1.173-r2 6.6.140-r1 6.6.140-r2 6.12.90-r1 6.12.90-r2 6.18.32-r1 6.18.32-r2 7.0.9-r1 7.0.9-r2: Full sources including the Gentoo patchset for the 7.0 kernel tree
+sys-kernel/gentoo-sources 5.10.256-r1 5.10.256-r2 5.15.207-r1 5.15.207-r2 6.1.173-r1 6.1.173-r2 6.6.140-r1 6.6.140-r2 6.12.90-r1 6.12.90-r2 6.18.32-r1 6.18.32-r2 7.0.9-r1 7.0.9-r2 7.0.9-r3: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18426,7 +18426,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.22 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.10 24.1.11 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 595.44.08 595.71.05: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 580.159.04 595.44.08 595.71.05: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
