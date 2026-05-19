@@ -1424,7 +1424,7 @@ app-crypt/asedriveiiie-serial 3.5: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.5: ASEDriveIIIe USB Card Reader
 app-crypt/asekey 3.7-r1: ASEKey USB SIM Card Reader
 app-crypt/autofirma-bin 1.9.0: Spanish government certificate and digital signature manager
-app-crypt/badkeys 0.0.16 0.0.17: Check cryptographic keys for known weaknesses
+app-crypt/badkeys 0.0.16 0.0.17 0.0.18: Check cryptographic keys for known weaknesses
 app-crypt/bcwipe 1.9.13: Secure file removal utility
 app-crypt/bsign 0.4.5-r1: embed secure hashes (SHA1) and digital signatures (GNU Privacy Guard) into files
 app-crypt/ccid 1.6.1 1.7.0 1.7.1: CCID free software driver
@@ -15286,7 +15286,7 @@ net-misc/lksctp-tools 1.0.19-r1 1.0.21: Tools for Linux Kernel Stream Control Tr
 net-misc/lldpd 1.0.18 1.0.19 1.0.20 1.0.21 1.0.22: Implementation of IEEE 802.1ab (LLDP)
 net-misc/mcproxy 1.1.1-r2: Multicast proxy for IGMP/MLD
 net-misc/megatools 1.11.4 1.11.5: Command line tools and C library for accessing Mega cloud storage
-net-misc/memcached 1.6.31 1.6.38 1.6.39: High-performance, distributed memory object caching system
+net-misc/memcached 1.6.31 1.6.38 1.6.39 1.6.42: High-performance, distributed memory object caching system
 net-misc/midentd 2.3.1-r3: ident daemon with masquerading and fake replies support
 net-misc/mikutter 5.0.5 5.0.5-r1 9999: Simple, powerful and moeful twitter client
 net-misc/minidlna 1.3.3: DLNA/UPnP-AV compliant media server
@@ -17950,7 +17950,7 @@ sys-process/nvtop 3.1.0 3.2.0 3.3.2 9999: (h)top like task monitor for AMD, NVID
 sys-process/parallel 20250722 20250722-r1: Shell tool for executing jobs in parallel locally or on remote machines
 sys-process/pkill-darwin 1.0-r1: pgrep(1) and pkill(1) for Darwin
 sys-process/prll 0.6.4: Utility for parallelizing execution of shell functions
-sys-process/procenv 0.51-r1 0.60: command-line utility to show process environment
+sys-process/procenv 0.51-r1 0.60 0.60-r1: command-line utility to show process environment
 sys-process/procps 4.0.5-r3 4.0.5-r4 4.0.6: Standard informational utilities and process-handling tools
 sys-process/procs 0.14.6-r1 0.14.9: Modern replacement for ps
 sys-process/psinfo 0.12-r1 0.12-r2: Process information and statistics using the kernel /proc interface
