@@ -1103,7 +1103,7 @@ app-admin/ttyplot 1.7.2 1.7.4: Realtime plotting utility with data input from st
 app-admin/ulogd 2.0.9: Userspace logging daemon for netfilter/iptables related logging
 app-admin/usbview 3.0 3.1: Display the topology of devices on the USB bus
 app-admin/vault 1.15.6 1.18.3 1.18.4: A tool for managing secrets
-app-admin/vaultwarden 1.35.4-r3 1.35.7 9999: Unofficial Bitwarden compatible password manager
+app-admin/vaultwarden 1.35.4-r3 1.35.7 1.36.0 9999: Unofficial Bitwarden compatible password manager
 app-admin/verynice 1.1-r3: A tool for dynamically adjusting the nice-level of processes
 app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
@@ -1930,7 +1930,7 @@ app-emacs/bui 1.2.1_p20210108 1.3: Buffer interface library for Emacs
 app-emacs/burly 0.2 0.3: Save and restore frames and windows with their buffers in Emacs
 app-emacs/buttercup 1.38 1.40 9999: Behaviour-driven Elisp testing
 app-emacs/calfw 1.6-r1 2.0: A calendar framework for Emacs
-app-emacs/cape 2.6 9999: Completion At Point Extensions
+app-emacs/cape 2.6 2.7 9999: Completion At Point Extensions
 app-emacs/cask 0.9.0 0.9.1: Project management for Emacs package development
 app-emacs/cask-mode 0.1: Major mode for editing Cask files for Emacs
 app-emacs/cdlatex 4.18.5: Fast input methods for LaTeX environments and math
@@ -1958,9 +1958,9 @@ app-emacs/company-mode 1.0.2: In-buffer completion front-end
 app-emacs/company-quickhelp 2.3.0: Company documentation popups for completion candidates
 app-emacs/compat 30.1.0.1 31.0.0.0 31.0.0.1: Compatibility libraries for Emacs
 app-emacs/cond-let 0.2.2 1.0.0: Additional and improved binding conditionals for GNU Emacs
-app-emacs/consult 3.4 9999: Consulting complete-read for GNU Emacs
+app-emacs/consult 3.4 3.5 9999: Consulting complete-read for GNU Emacs
 app-emacs/consult-flycheck 1.1: Consult integration for Flycheck
-app-emacs/corfu 2.9 9999: Completion Overlay Region FUnction
+app-emacs/corfu 2.9 2.10 9999: Completion Overlay Region FUnction
 app-emacs/counsel 0.15.1: Versions of common Emacs commands customized to make the best use of ivy
 app-emacs/crontab-mode 1.20: Mode for editing crontab files
 app-emacs/crux 0.4.0 0.5.0: Collection of Ridiculously Useful eXtensions for GNU Emacs
@@ -2131,7 +2131,7 @@ app-emacs/js-comint 1.2.0: Run a JavaScript interpreter in an Emacs inferior pro
 app-emacs/js2-mode 20230408 20231224: Improved JavaScript editing mode for GNU Emacs
 app-emacs/julia-mode 0.4_p20211023: Emacs major mode for the Julia programming language
 app-emacs/julia-repl 1.3.0_p20220225 1.5.2: Run an inferior Julia REPL in a terminal inside Emacs
-app-emacs/kaolin-themes 1.7.3 1.7.4 1.7.5: Set of eye pleasing themes for GNU Emacs
+app-emacs/kaolin-themes 1.7.5 1.7.6: Set of eye pleasing themes for GNU Emacs
 app-emacs/key-chord 0.8.2: Map pairs of simultaneously pressed keys to commands
 app-emacs/keywiz 1.4: Emacs key sequence quiz
 app-emacs/kind-icon 0.2.2: Completion kind icons
@@ -2156,7 +2156,7 @@ app-emacs/macrostep-geiser 0.2.0_p20210717: Emacs macrostep back-end powered by 
 app-emacs/magit 4.5.0 4.5.0-r1 9999: A Git porcelain inside Emacs
 app-emacs/magit-popup 2.13.3-r1: Define prefix-infix-suffix command combos
 app-emacs/mailcrypt 3.5.9-r3: Provides a simple interface to public key cryptography with OpenPGP
-app-emacs/marginalia 2.10: Marginalia in the minibuffer
+app-emacs/marginalia 2.10 2.11: Marginalia in the minibuffer
 app-emacs/markdown-mode 2.8: Major mode for editing Markdown-formatted text files
 app-emacs/mastodon 2.0.7 9999: Emacs client for Mastodon, federated microblogging social network
 app-emacs/math-symbol-lists 1.3: Lists of Unicode mathematical symbols and latex commands
@@ -2191,20 +2191,20 @@ app-emacs/nxml-libvirt-schemas 11.10.0 12.0.0 12.1.0 12.2.0: Extension for nxml-
 app-emacs/nxml-svg-schemas 1.1.20081123-r2: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.18.3: OAuth 2.0 authorization protocol
 app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
-app-emacs/orderless 1.4 1.5 1.6: Completion style that matches multiple regexps in any order
+app-emacs/orderless 1.6 1.7: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.7: Contributed packages to Org
 app-emacs/org-mode 9.8.2 9.8.3 9.8.4 9999: An Emacs mode for notes and project planning
-app-emacs/org-modern 1.13 9999: Modern style for your GNU Emacs Org buffers
+app-emacs/org-modern 1.13 1.14 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 2.3.0 2.3.1 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
 app-emacs/org-superstar-mode 1.6.0: Prettify headings and plain lists in Org mode (use UTF8 bullets)
-app-emacs/osm 2.2 9999: OpenStreetMap tile-based viewer for GNU Emacs
+app-emacs/osm 2.2 2.3 9999: OpenStreetMap tile-based viewer for GNU Emacs
 app-emacs/outline-magic 0.9: Outline mode extensions for Emacs
 app-emacs/package-build 4.0.0: Tools for assembling a package archive
 app-emacs/package-lint 0.26: Linting library for Emacs Lisp package metadata
 app-emacs/pandoc-mode 2.35 2.90.2: GNU Emacs minor mode for interacting with Pandoc
-app-emacs/paredit 26-r1: Minor mode for performing structured editing of S-expressions
+app-emacs/paredit 26-r1 26-r2: Minor mode for performing structured editing of S-expressions
 app-emacs/pariemacs 3.14-r1: sci-mathematics/pari emacs mode
 app-emacs/parsebib 6.7: Emacs Lisp library for reading .bib files
 app-emacs/parseclj 1.1.1: Clojure Parser for Emacs Lisp
@@ -2301,7 +2301,7 @@ app-emacs/system-packages 1.1.2: Manage your installed packages with Emacs
 app-emacs/systemd-mode 1.6: Major mode for editing systemd units in GNU Emacs
 app-emacs/tablist 1.1: Extended tabulated-list mode fro Emacs
 app-emacs/teco 7-r2: TECO interpreter for GNU Emacs
-app-emacs/tempel 1.12 9999: Templates with in-buffer field editing for GNU Emacs
+app-emacs/tempel 1.12 1.13 9999: Templates with in-buffer field editing for GNU Emacs
 app-emacs/template 3.3b: Use templates, decorate comments, auto-update buffers
 app-emacs/tempo-snippets 0.1.5-r1: Visual insertion of tempo templates
 app-emacs/thinks 1.12 1.13: Insert text in a think bubble
@@ -2321,7 +2321,7 @@ app-emacs/undercover 0.8.1: Test coverage library for Emacs
 app-emacs/undo-tree 0.8.2-r1: Undo trees and visualization
 app-emacs/uptimes 3.8: Track and display emacs session uptimes
 app-emacs/uxntal-mode 0.3: GNU Emacs major mode for the uxntal assembly language
-app-emacs/vertico 2.8 9999: Vertical interactive completion
+app-emacs/vertico 2.8 2.9 9999: Vertical interactive completion
 app-emacs/vhdl-mode 3.39.3: VHDL-mode for Emacs
 app-emacs/visual-basic-mode 1.5-r1: A mode for editing Visual Basic programs
 app-emacs/vm 8.2.0_beta-r1: The VM mail reader for Emacs
@@ -14690,7 +14690,7 @@ net-dialup/speedtouch-usb 3.0.1.2-r4: Firmware and configuration instructions fo
 net-dialup/wvdial 1.61-r1: Excellent program to automatically configure PPP sessions
 net-dialup/xl2tpd 1.3.18-r2 1.3.18-r3 1.3.20: A modern version of the Layer 2 Tunneling Protocol (L2TP) daemon
 net-dns/avahi 0.9_rc2-r3 0.9_rc3: System which facilitates service discovery on a local network
-net-dns/bind 9.18.38 9.18.39 9.18.42 9.18.47 9.18.48 9.20.21 9.20.22: Berkeley Internet Name Domain - Name Server
+net-dns/bind 9.18.38 9.18.39 9.18.42 9.18.47 9.18.48 9.18.49 9.20.21 9.20.22 9.20.23: Berkeley Internet Name Domain - Name Server
 net-dns/bind-tools 9.18.0-r1: bind tools: dig, nslookup, host, nsupdate, dnssec-keygen
 net-dns/c-ares 1.34.6: C library that resolves names asynchronously
 net-dns/cares-tools 0.3: c-ares tools: host, nslookup
@@ -16420,7 +16420,7 @@ sci-ml/FP16 2024.05.27-r1 2024.06.20: conversion to/from half-precision floating
 sci-ml/NNPACK 2020.12.22-r4: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.12.03: library of floating-point neural network inference operators
 sci-ml/accelerate 1.13.0-r1: Run your *raw* PyTorch training script on any kind of device
-sci-ml/caffe2 2.10.0-r6 2.11.0-r3: A deep learning framework
+sci-ml/caffe2 2.11.0-r3 2.12.0: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
@@ -16436,17 +16436,17 @@ sci-ml/hf_xet 1.2.0: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hugging Face Hub
 sci-ml/ideep 3.10.2: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1: Evaluate an automatic speech recognition system
-sci-ml/kineto 0.4.0_p20250617-r2 0.4.0_p20260323: part of the PyTorch Profiler
+sci-ml/kineto 0.4.0_p20250617-r2 0.4.0_p20260323 0.4.0_p20260410: part of the PyTorch Profiler
 sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
-sci-ml/pytorch 2.10.0 2.11.0: Tensors and Dynamic neural networks in Python
+sci-ml/pytorch 2.11.0: Tensors and Dynamic neural networks in Python
 sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
-sci-ml/torchvision 0.25.0 0.26.0: Datasets, transforms and models to specific to computer vision
+sci-ml/torchvision 0.26.0: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 4.57.6 5.3.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
@@ -17767,7 +17767,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.256_p1 5.10.256_p2 5.15.207_p1 5.15.207_p2 6.1.173_p1 6.1.173_p2 6.6.140 6.6.140_p1 6.12.90 6.12.90_p1 6.18.32 6.18.32_p1 7.0.9 7.0.9_p1: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.256_p1 5.10.256_p2 5.15.207_p1 5.15.207_p2 6.1.173_p1 6.1.173_p2 6.6.140 6.6.140_p1 6.12.90 6.12.90_p1 6.18.32 6.18.32_p1 7.0.9 7.0.9_p1: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.256-r1 5.10.256-r2 5.15.207-r1 5.15.207-r2 6.1.173-r1 6.1.173-r2 6.6.140-r1 6.6.140-r2 6.12.90-r1 6.12.90-r2 6.18.32-r1 6.18.32-r2 7.0.9-r1 7.0.9-r2 7.0.9-r3: Full sources including the Gentoo patchset for the 7.0 kernel tree
+sys-kernel/gentoo-sources 5.10.256-r2 5.15.207-r2 6.1.173-r2 6.6.140-r2 6.12.90-r2 6.18.32-r2 7.0.9-r2 7.0.9-r3: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18222,7 +18222,7 @@ www-apps/sonarr-bin 4.0.17.2967: Sonarr is a Smart PVR for newsgroup and bittorr
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7 1.7.7-r1 9999: ttyd, a simple command-line tool for sharing terminal over the web
-www-apps/vaultwarden-web 2025.7.0 2025.7.1 2026.1.1: Prebuilt web vault frontend for Vaultwarden
+www-apps/vaultwarden-web 2025.7.0 2025.7.1 2026.1.1 2026.4.1: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
 www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.3 6.9.4: Wordpress PHP and MySQL based content management system (CMS)
