@@ -4032,7 +4032,7 @@ dev-db/pg_background 1.5: Postgres Background Worker
 dev-db/pg_top 4.1.3: 'top' for PostgreSQL
 dev-db/pgagent 4.2.3-r1 4.2.3-r2: pgAgent is a job scheduler for PostgreSQL
 dev-db/pgbadger 12.4 13.1 13.2: pgBadger is a PostgreSQL log analyzer
-dev-db/pgbouncer 1.23.1 1.24.1 1.25.0: Lightweight connection pooler for PostgreSQL
+dev-db/pgbouncer 1.23.1 1.25.2: Lightweight connection pooler for PostgreSQL
 dev-db/pgcli 4.1.0: CLI for Postgres with auto-completion and syntax highlighting
 dev-db/pglogical 2.4.4: Logical replication for PostgreSQL
 dev-db/pgmemcache 2.3.0 2.3.0-r1: A PostgreSQL API based on libmemcached to interface with memcached
@@ -14734,7 +14734,7 @@ net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/s6-dns 2.4.1.0 2.4.1.1: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 47 47.1: A local DNS server returns the fastest access results
-net-dns/unbound 1.24.2 1.24.2-r1 1.25.0: A validating, recursive and caching DNS resolver
+net-dns/unbound 1.24.2 1.24.2-r1 1.25.0 1.25.1: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a 2.1.2a: Arno's iptables firewall script
@@ -16337,7 +16337,7 @@ sci-mathematics/gmp-ecm 7.0.6-r1: Elliptic Curve Method for Integer Factorizatio
 sci-mathematics/gp2c 0.0.12 0.0.14: A GP to C translator
 sci-mathematics/gretl 2021d: Regression, econometrics and time-series library
 sci-mathematics/gsl-shell 2.3.5: Lua interactive shell for sci-libs/gsl
-sci-mathematics/highs 1.14.0-r1: Modern solver for linear, quadratic, and mixed-integer programs
+sci-mathematics/highs 1.14.0-r2: Modern solver for linear, quadratic, and mixed-integer programs
 sci-mathematics/jags 4.3.1-r1: Just Another Gibbs Sampler for Bayesian MCMC simulation
 sci-mathematics/kind2 1.9.0: Multi-engine SMT-based automatic model checker
 sci-mathematics/kissat 3.1.1-r1 4.0.4: Keep-it-simple and clean bare metal SAT solver written in C
