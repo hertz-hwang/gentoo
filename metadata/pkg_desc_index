@@ -12082,7 +12082,7 @@ gnustep-apps/preview 0.9-r1: Simple image viewer
 gnustep-apps/price 1.3.0-r1: Precision Raster Image Convolution Engine
 gnustep-apps/projectcenter 0.7.0: An IDE for GNUstep
 gnustep-apps/simpleagenda 0.47 0.48: a simple calendar and agenda application
-gnustep-apps/sogo 5.12.4 5.12.7: Groupware server built around OpenGroupware.org and the SOPE application server
+gnustep-apps/sogo 5.12.7 5.12.8: Groupware server built around OpenGroupware.org and the SOPE application server
 gnustep-apps/systempreferences 1.2.1: System Preferences is a clone of Apple OS X' System Preferences
 gnustep-apps/talksoup 1.1: IRC client for GNUstep
 gnustep-apps/terminal 0.9.9-r1: A terminal emulator for GNUstep
@@ -12105,7 +12105,7 @@ gnustep-libs/netclasses 1.1.0-r1: Asynchronous networking library for GNUstep
 gnustep-libs/pantomime 1.4.0: Set of Objective-C classes that model a mail system
 gnustep-libs/performance 0.6.0: Help improve the performance of GNUstep applications
 gnustep-libs/renaissance 0.9.0-r2: GNUstep Renaissance allows to describe user interfaces XML files
-gnustep-libs/sope 5.12.4 5.12.7: A set of frameworks forming a complete Web application server environment
+gnustep-libs/sope 5.12.7 5.12.8: A set of frameworks forming a complete Web application server environment
 gnustep-libs/sqlclient 1.9.0: GNUstep lightweight database abstraction layer
 gui-apps/deskflow 1.24.0 1.25.0 1.26.0 9999: Share a mouse and keyboard between computers (FOSS version of Synergy)
 gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1: Fast, lightweight and minimalistic Wayland terminal emulator
@@ -17342,7 +17342,7 @@ sys-apps/xmbmon 2.0.5-r2: Mother Board Monitor Program for X Window System
 sys-apps/yarn 1.22.22: Fast, reliable, and secure node dependency management
 sys-apps/zorroutils 0.05: Zorro bus utility for Amigas running 2.1 and later kernels
 sys-apps/zram-generator 1.1.2-r1 1.2.1: Systemd unit generator for zram swap devices
-sys-auth/AusweisApp 2.4.1 2.5.1: Official authentication app for German ID cards and residence permits
+sys-auth/AusweisApp 2.4.1 2.5.1-r1: Official authentication app for German ID cards and residence permits
 sys-auth/docker_auth 1.9.0: Docker Registry 2 authentication server
 sys-auth/elogind 252.9-r3 255.17-r1 255.22 255.22-r1 255.23 255.24 255.25 257.14: The systemd project's logind, extracted to a standalone package
 sys-auth/fprintd 1.94.2-r1 1.94.3-r1 1.94.5: D-Bus service to access fingerprint readers
