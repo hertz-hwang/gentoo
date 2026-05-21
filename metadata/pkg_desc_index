@@ -1884,7 +1884,7 @@ app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text ed
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
-app-editors/zed 0.230.1 0.232.2 1.1.8 1.2.6: The fast, collaborative code editor
+app-editors/zed 0.230.1 0.232.2 1.1.8 1.3.5: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.2_p20250524: Algol68 major mode for GNU Emacs
@@ -2988,7 +2988,7 @@ app-mobilephone/gammu 1.42.0-r1: A tool to handle your cellular phone
 app-mobilephone/gnokii 0.6.31-r5: User space driver and tools for use with mobile phones
 app-mobilephone/heimdall 2.2.2: Tool suite used to flash firmware onto Samsung devices
 app-mobilephone/scmxx 0.9.0-r1: Exchange data with Siemens phones
-app-mobilephone/scrcpy 3.3.3 3.3.4: Display and control your Android device
+app-mobilephone/scrcpy 3.3.4 4.0: Display and control your Android device
 app-mobilephone/smstools 3.1.21-r2: Send and receive short messages through GSM modems
 app-mobilephone/sobexsrv 1.0.1-r3: Scripting/Secure OBEX Server (for BlueZ Linux)
 app-mobilephone/vmoconv 1.0-r1: A tool that converts Siemens phones VMO and VMI audio files to gsm and wav
@@ -4052,7 +4052,7 @@ dev-db/qdbm 1.8.78-r5: Quick Database Manager
 dev-db/qt5-sqlcipher 1.1.0-r1: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
 dev-db/redict 7.3.6: A persistent caching system, key-value, and data structures database
-dev-db/redis 8.2.2 8.2.3 8.2.5 8.4.2 8.6.1: A persistent caching system, key-value, and data structures database
+dev-db/redis 8.2.2 8.2.5 8.2.6 8.4.3 8.6.3: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.5.0: PostgreSQL Replication Manager
 dev-db/rqlite 9.4.1: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
@@ -5737,7 +5737,7 @@ dev-libs/miniaudio 0.11.15 0.11.21: Single file library for audio playback and c
 dev-libs/miniz 3.0.2: Lossless, high performance data compression library
 dev-libs/mm 1.4.2-r2: Shared Memory Abstraction Library
 dev-libs/mmtf-cpp 1.0.0-r1 1.1.0-r1: The pure C++ implementation of the MMTF API, decoder and encoder
-dev-libs/modsecurity 3.0.13 3.0.13-r2 3.0.14 3.0.14-r2: Application firewall and intrusion detection
+dev-libs/modsecurity 3.0.14-r2 3.0.15: Application firewall and intrusion detection
 dev-libs/mongo-c-driver 1.24.4-r1: Client library written in C for MongoDB
 dev-libs/mpc 1.3.1 1.4.0 1.4.1: A library for multiprecision complex arithmetic with exact rounding
 dev-libs/mpdecimal 4.0.1: Correctly-rounded arbitrary precision decimal floating point arithmetic
@@ -8886,9 +8886,9 @@ dev-python/odfpy 1.4.2: Python API and tools to manipulate OpenDocument files
 dev-python/olefile 0.47: Python package to parse, read and write Microsoft OLE2 files
 dev-python/omemo-dr 1.2.0: OMEMO Crypto Library
 dev-python/opcodes 0.3.14-r3: Opcodes Project
-dev-python/openapi-core 0.22.0 0.23.0 0.23.1 0.23.1-r1: Client-side and server-side support for the OpenAPI Specification v3
-dev-python/openapi-schema-validator 0.6.3 0.7.2 0.8.1 0.9.0: OpenAPI schema validation for Python
-dev-python/openapi-spec-validator 0.7.2 0.8.0 0.8.4 0.8.5 0.9.0: OpenAPI 2.0 (aka Swagger) and OpenAPI 3.0 spec validator
+dev-python/openapi-core 0.23.0 0.23.1-r1: Client-side and server-side support for the OpenAPI Specification v3
+dev-python/openapi-schema-validator 0.7.2 0.8.1 0.9.0: OpenAPI schema validation for Python
+dev-python/openapi-spec-validator 0.8.0 0.8.5 0.9.0: OpenAPI 2.0 (aka Swagger) and OpenAPI 3.0 spec validator
 dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
 dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
@@ -9152,8 +9152,6 @@ dev-python/pypugjs 6.0.2 6.0.3: Pug (Jade) syntax adapter for Django, Jinja2 and
 dev-python/pypy-exe 7.3.20 7.3.21 7.3.22: PyPy executable (build from source)
 dev-python/pypy-exe-bin 7.3.20 7.3.21 7.3.22: PyPy executable (pre-built version)
 dev-python/pyqt-builder 1.19.1: The PEP 517 compliant PyQt build system
-dev-python/pyqt5 5.15.11: Python bindings for the Qt framework
-dev-python/pyqt5-sip 12.18.0: sip extension module for PyQt5
 dev-python/pyqt6 6.10.1 6.10.2 6.11.0: Python bindings for the Qt framework
 dev-python/pyqt6-sip 13.11.0 13.11.1: sip module support for PyQt6
 dev-python/pyqt6-webengine 6.10.0 6.11.0: Python bindings for QtWebEngine
@@ -11050,7 +11048,7 @@ dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Callback/Activity Library for 
 dev-util/ropper 1.13.10 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rpmdevtools 9.6: Collection of rpm packaging related utilities
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.14.9 0.14.14 0.15.8 0.15.9 0.15.10 0.15.11 0.15.12 0.15.13: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.14.9 0.14.14 0.15.13 0.15.14: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 1.29.0 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -16420,7 +16418,7 @@ sci-ml/FP16 2024.05.27-r1 2024.06.20: conversion to/from half-precision floating
 sci-ml/NNPACK 2020.12.22-r4: acceleration package for neural network computations
 sci-ml/XNNPACK 2024.12.03: library of floating-point neural network inference operators
 sci-ml/accelerate 1.13.0-r1: Run your *raw* PyTorch training script on any kind of device
-sci-ml/caffe2 2.11.0-r3 2.12.0: A deep learning framework
+sci-ml/caffe2 2.11.0-r3 2.12.0-r1: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
@@ -18163,7 +18161,7 @@ www-apps/chromedriver-bin 147.0.7727.137 148.0.7778.167: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20250514b: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
-www-apps/drupal 10.5.9 10.6.8 11.0.13 11.1.9 11.2.11 11.3.9: PHP-based open-source platform and content management system
+www-apps/drupal 10.5.10 10.6.9 11.1.10 11.2.12 11.3.10: PHP-based open-source platform and content management system
 www-apps/element 1.12.15 1.12.18: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.25.3 1.25.5 1.26.1: A painless self-hosted Git service
 www-apps/grafana-bin 12.1.8 12.2.6 12.3.4 12.4.0: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
