@@ -14,11 +14,12 @@ S="${WORKDIR}"/${P}
 
 LICENSE="Apache-2.0 MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64"
 IUSE="srt"
 
 DEPEND="
 	dev-libs/openssl:0=
+	media-video/ffmpeg:=
 	srt? ( net-libs/srt:= )
 "
 RDEPEND="${DEPEND}"
@@ -28,6 +29,7 @@ PATCHES=(
 	"${FILESDIR}"/${P}-configure.patch
 	"${FILESDIR}"/${P}-execStack.patch
 	"${FILESDIR}"/${P}-fixAliasing.patch
+	"${FILESDIR}"/${P}-LDFLAGS.patch
 )
 
 src_prepare() {
