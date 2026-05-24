@@ -5430,7 +5430,7 @@ dev-libs/geoip 1.6.12 1.6.12-r1: GeoIP Legacy C API
 dev-libs/gf-complete 2.0.0_p20170410: Comprehensive Open Source Library for Galois Field Arithmetic
 dev-libs/gf2x 1.3.0-r1: C/C++ routines for fast arithmetic in GF(2)[x]
 dev-libs/girara 0.4.5 0.4.5-r1 9999: UI library that focuses on simplicity and minimalism
-dev-libs/gjs 1.80.2-r1 1.84.2-r1 1.88.0: Javascript bindings for GNOME
+dev-libs/gjs 1.84.2-r1 1.88.0 1.88.0-r1: Javascript bindings for GNOME
 dev-libs/glib 2.84.4 2.84.4-r5 2.86.5-r1 2.88.0-r1 2.88.1: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r1 6.3.0-r2: Library for arbitrary-precision arithmetic on different type of numbers
@@ -14169,7 +14169,7 @@ media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.8.0 0.9.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
-media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1: Music management and playback software for GNOME
+media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1 3.4.9-r2: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
 media-sound/ripperx 3.0.2: GTK program to rip CD audio tracks to Ogg, MP3 or FLAC
 media-sound/rosegarden 25.12: MIDI and audio sequencer and notation editor
@@ -15000,7 +15000,7 @@ net-libs/libsearpc 3.3.0-r2 3.3.0-r3 3.3.0-r4: Simple C language RPC framework
 net-libs/libsignal-protocol-c 2.3.3-r1: Signal Protocol C Library
 net-libs/libslirp 4.9.1: A TCP-IP emulator used to provide virtual networking services
 net-libs/libsmi 0.5.0-r5: A Library to Access SMI MIB Information
-net-libs/libsoup 2.74.3-r1 3.6.5-r1 3.6.6: HTTP client/server library for GNOME
+net-libs/libsoup 2.74.3-r1 3.6.6: HTTP client/server library for GNOME
 net-libs/libsrsirc 0.0.14-r2 0.0.14.1: Lightweight, cross-platform IRC library
 net-libs/libsrtp 1.6.0-r1 2.4.2 2.6.0: Open-source implementation of the Secure Real-time Transport Protocol (SRTP)
 net-libs/libssh 0.11.4 9999: Access a working SSH implementation by means of a library
@@ -15229,7 +15229,7 @@ net-misc/geomyidae 0.96: A daemon to serve the gopher protocol
 net-misc/gerbera 2.6.1 9999: UPnP Media Server
 net-misc/getdate 1.2-r3: Network Date/Time Query and Set Local Date/Time Utility
 net-misc/gnome-connections 48.0 49.0: A remote desktop client for the GNOME desktop environment
-net-misc/gnome-remote-desktop 48.2 49.2 49.3: Remote desktop server which allows you to connect to your machine remotely
+net-misc/gnome-remote-desktop 48.2 49.3 49.3-r1: Remote desktop server which allows you to connect to your machine remotely
 net-misc/gns3-gui 2.2.56 2.2.59: Graphical Network Simulator
 net-misc/gns3-server 2.2.56 2.2.59: GNS3 server to asynchronously manage emulators
 net-misc/gofish 1.2-r2: Gofish gopher server
@@ -18237,7 +18237,7 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 25.12.3 26.04.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.10.1-r1 140.10.2 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser
+www-client/firefox 140.10.1-r1 140.10.2 140.11.0 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser
 www-client/firefox-bin 140.10.1-r1 140.10.2 140.11.0 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser
 www-client/firefox-l10n 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 147.0.7727.137 148.0.7778.167 148.0.7778.178: The web browser from Google
@@ -18464,7 +18464,7 @@ x11-libs/fox-wrapper 3-r1: Wrapper for fox-config to manage multiple versions
 x11-libs/gdk-pixbuf 2.42.12: Image loading library for GTK+
 x11-libs/gdk-pixbuf-xlib 2.40.2: Deprecated Xlib integration for GdkPixbuf
 x11-libs/gl2ps 1.4.2-r1: OpenGL to PostScript printing library
-x11-libs/goffice 0.10.59-r1 0.10.60 0.10.61: A library of document-centric objects and utilities
+x11-libs/goffice 0.10.59-r1 0.10.60 0.10.61 0.10.61-r1: A library of document-centric objects and utilities
 x11-libs/goocanvas 2.0.4-r2 3.0.0: Canvas widget for GTK+ using the cairo 2D library for drawing
 x11-libs/gtk+ 2.24.33-r3 3.24.51 3.24.52: Gimp ToolKit +
 x11-libs/gtk-mac-integration 2.0.5-r1: Menubar, doc and app bundle integration for GTK+
