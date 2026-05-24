@@ -16796,6 +16796,7 @@ sec-policy/selinux-bacula 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinu
 sec-policy/selinux-base 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: Gentoo base policy for SELinux
 sec-policy/selinux-base-policy 2.20250213_p1-r1 2.20250618_p1-r1 2.20260312_p1 9999: SELinux policy for core modules
 sec-policy/selinux-bind 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bind
+sec-policy/selinux-bird 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bird
 sec-policy/selinux-bitcoin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitcoin
 sec-policy/selinux-bitlbee 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitlbee
 sec-policy/selinux-bluetooth 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bluetooth
@@ -16868,6 +16869,7 @@ sec-policy/selinux-hddtemp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELin
 sec-policy/selinux-hostapd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for hostapd
 sec-policy/selinux-icecast 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for icecast
 sec-policy/selinux-ifplugd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ifplugd
+sec-policy/selinux-incus 2.20250618_p1 2.20260312_p1 9999: SELinux policy for incus
 sec-policy/selinux-inetd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inetd
 sec-policy/selinux-inn 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inn
 sec-policy/selinux-ipsec 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ipsec
@@ -16913,6 +16915,7 @@ sec-policy/selinux-needrestart 2.20250618_p1 2.20260312_p1 9999: SELinux policy 
 sec-policy/selinux-networkmanager 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for networkmanager
 sec-policy/selinux-nginx 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nginx
 sec-policy/selinux-node_exporter 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for node_exporter
+sec-policy/selinux-nsd 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nsd
 sec-policy/selinux-nslcd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for nslcd
 sec-policy/selinux-ntop 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ntop
 sec-policy/selinux-ntp 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ntp
