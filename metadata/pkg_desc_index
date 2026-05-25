@@ -16800,6 +16800,7 @@ sec-policy/selinux-bird 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bir
 sec-policy/selinux-bitcoin 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitcoin
 sec-policy/selinux-bitlbee 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bitlbee
 sec-policy/selinux-bluetooth 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bluetooth
+sec-policy/selinux-boinc 2.20250618_p1 2.20260312_p1 9999: SELinux policy for boinc
 sec-policy/selinux-brctl 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for brctl
 sec-policy/selinux-bubblewrap 2.20250618_p1 2.20260312_p1 9999: SELinux policy for bubblewrap
 sec-policy/selinux-cachefilesd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cachefilesd
@@ -16824,9 +16825,11 @@ sec-policy/selinux-courier 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELin
 sec-policy/selinux-cpucontrol 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cpucontrol
 sec-policy/selinux-cpufreqselector 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cpufreqselector
 sec-policy/selinux-crio 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cri-o
+sec-policy/selinux-cryfs 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cryfs
 sec-policy/selinux-cups 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cups
 sec-policy/selinux-cvs 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cvs
 sec-policy/selinux-cyphesis 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cyphesis
+sec-policy/selinux-cyrus 2.20250618_p1 2.20260312_p1 9999: SELinux policy for cyrus
 sec-policy/selinux-daemontools 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for daemontools
 sec-policy/selinux-dante 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dante
 sec-policy/selinux-dbadm 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for dbadm
@@ -16878,10 +16881,13 @@ sec-policy/selinux-ifplugd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELin
 sec-policy/selinux-incus 2.20250618_p1 2.20260312_p1 9999: SELinux policy for incus
 sec-policy/selinux-inetd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inetd
 sec-policy/selinux-inn 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for inn
+sec-policy/selinux-ipmitool 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ipmitool
 sec-policy/selinux-ipsec 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ipsec
 sec-policy/selinux-irc 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for irc
 sec-policy/selinux-ircd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ircd
 sec-policy/selinux-irqbalance 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for irqbalance
+sec-policy/selinux-iscsi 2.20250618_p1 2.20260312_p1 9999: SELinux policy for iscsi
+sec-policy/selinux-isns 2.20250618_p1 2.20260312_p1 9999: SELinux policy for isns
 sec-policy/selinux-jabber 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for jabber
 sec-policy/selinux-java 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for java
 sec-policy/selinux-kdeconnect 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kdeconnect
@@ -16893,6 +16899,7 @@ sec-policy/selinux-knot 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux 
 sec-policy/selinux-ksmtuned 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ksmtuned
 sec-policy/selinux-kubernetes 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for kubernetes
 sec-policy/selinux-ldap 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for ldap
+sec-policy/selinux-libmtp 2.20250618_p1 2.20260312_p1 9999: SELinux policy for libmtp
 sec-policy/selinux-links 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for links
 sec-policy/selinux-lircd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for lircd
 sec-policy/selinux-loadkeys 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for loadkeys
@@ -16907,6 +16914,7 @@ sec-policy/selinux-matrixd 2.20250213_p1-r1 2.20250618_p1-r1 2.20260312_p1 9999:
 sec-policy/selinux-mcelog 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for mcelog
 sec-policy/selinux-memcached 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for memcached
 sec-policy/selinux-milter 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for milter
+sec-policy/selinux-minidlna 2.20250618_p1 2.20260312_p1 9999: SELinux policy for minidlna
 sec-policy/selinux-minissdpd 2.20250618_p1 2.20260312_p1 9999: SELinux policy for minissdpd
 sec-policy/selinux-modemmanager 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for modemmanager
 sec-policy/selinux-monit 2.20250618_p1 2.20260312_p1 9999: SELinux policy for monit
@@ -17001,6 +17009,7 @@ sec-policy/selinux-sssd 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux 
 sec-policy/selinux-stunnel 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for stunnel
 sec-policy/selinux-subsonic 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for subsonic
 sec-policy/selinux-sudo 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sudo
+sec-policy/selinux-svnserve 2.20250618_p1 2.20260312_p1 9999: SELinux policy for svnserve
 sec-policy/selinux-switcheroo 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for switcheroo
 sec-policy/selinux-sxid 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for sxid
 sec-policy/selinux-syncthing 2.20250213_p1 2.20250618_p1 2.20260312_p1 9999: SELinux policy for syncthing
@@ -17080,7 +17089,7 @@ sys-apps/biosdevname 0.7.3-r1: Sets BIOS-given device names instead of kernel et
 sys-apps/biosdisk 1.01: FreeDOS based BIOS updating utility for Dell machines
 sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2: Clean junk to free disk space and to maintain privacy
 sys-apps/bolt 0.9.8-r1 0.9.9 0.9.10 0.9.11: Userspace system daemon to enable security levels for Thunderbolt 3
-sys-apps/bubblewrap 0.11.0 0.11.2: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
+sys-apps/bubblewrap 0.11.0-r1 0.11.2-r1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/busybox 1.36.1-r4 1.37.0 1.38.0 9999: Utilities for rescue and embedded systems
 sys-apps/byld 1.0.3-r1: Build a Linux distribution on a single floppy
 sys-apps/cciss_vol_status 1.12a-r1: Shows status of logical drives attached to HP SmartArray controllers
@@ -17138,7 +17147,7 @@ sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag f
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
 sys-apps/flatpak 1.16.6: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
-sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.3: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.3.2 5.4.0-r2: GNU awk pattern-matching language
@@ -17186,7 +17195,7 @@ sys-apps/iproute2 6.16.0 6.17.0 6.18.0 6.19.0 7.0.0 9999: kernel routing and tra
 sys-apps/irqbalance 1.9.4-r3 1.9.5: Distribute hardware interrupts across processors on a multiprocessor system
 sys-apps/isapnptools 1.27-r1: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1 2.3.1-r2: Tool to manipulate Intel X86 and X86-64 processor microcode update collections
-sys-apps/kbd 2.7.1 2.8.0 2.9.0 2.9.0-r1 9999: Keyboard and console utilities
+sys-apps/kbd 2.7.1 2.8.0 2.9.0 2.9.0-r2 9999: Keyboard and console utilities
 sys-apps/kcheck 0.0.2-r3: Record and check required kernel symbols are set
 sys-apps/kexec-tools 2.0.32 2.0.32-r1 9999: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.6.3-r1: Linux Key Management Utilities
