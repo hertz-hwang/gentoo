@@ -1109,7 +1109,7 @@ app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
 app-admin/webapp-config 1.56 9999: Gentoo's installer for web-based applications
 app-admin/whowatch 1.8.6-r2: Displays information about users currently logged on in real time
-app-admin/winbox 4.0.1 4.1: Management Software for MikroTik RouterOS
+app-admin/winbox 4.1: Management Software for MikroTik RouterOS
 app-admin/xkcdpass 1.20.0 1.30.0: Password generator inspired by XKCD 936
 app-admin/xstow 1.1.1: Replacement for GNU stow with extensions
 app-admin/xtail 2.1_p8: Tail multiple logfiles at once, even if rotated
@@ -1292,7 +1292,7 @@ app-benchmarks/cpuburn 1.4a-r5: CPU testing utilities in optimized assembler for
 app-benchmarks/dbench 4.0: Popular filesystem benchmark
 app-benchmarks/filebench 1.5.0_alpha3_p20200220: Filebench - A Model Based File System Workload Generator
 app-benchmarks/forkbomb 1.4-r2: Controlled fork() bomber for testing heavy system load
-app-benchmarks/geekbench 2.4.2-r1 2.4.3-r2 3.4.4-r1 4.4.4-r1 5.5.1 6.6.0 6.7.1: A Cross-Platform Benchmark for Android, iOS, Linux, MacOS and Windows
+app-benchmarks/geekbench 2.4.2-r1 2.4.3-r2 3.4.4-r1 4.4.4-r1 5.5.1 6.7.1: A Cross-Platform Benchmark for Android, iOS, Linux, MacOS and Windows
 app-benchmarks/geekbench-ml 0.6.0-r1: A Cross-Platform ML workloads Benchmark
 app-benchmarks/hey 0.1.2: HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom
 app-benchmarks/httperf 0.9.1_p20201206-r1: Tool from HP for measuring web server performance
@@ -15367,7 +15367,7 @@ net-misc/r8125 9.013.02-r1 9.014.01 9.014.01-r1 9.015.00 9.016.00 9.016.01: r812
 net-misc/r8152 2.20.1-r1 2.21.4: r8152 driver for Realtek USB FE / GBE / 2.5G Gaming Ethernet Family Controller
 net-misc/r8168 8.055.00 8.056.02: r8168 driver for Realtek 8111/8168 PCI-E NICs
 net-misc/rabbitmq-server 3.13.1 4.1.6 4.1.8 4.2.1 4.2.3 4.2.4: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
-net-misc/radvd 2.20: Linux IPv6 Router Advertisement Daemon
+net-misc/radvd 2.20 2.21: Linux IPv6 Router Advertisement Daemon
 net-misc/raggre46 0.6.0: Aggregate IPv4 & IPv6 network addresses
 net-misc/rclone 1.73.2-r1 1.73.3-r1 1.73.5-r1 1.74.0-r1 1.74.1 1.74.2: A program to sync files to and from various cloud storage providers
 net-misc/rdate 1.11: Use TCP or UDP to retrieve the current time of another machine
@@ -16052,7 +16052,7 @@ sci-geosciences/s2geometry 0.13.1-r2: Computational geometry and spatial indexin
 sci-geosciences/tcd-utils 20240222: Utilities for working with Tidal Constituent Databases
 sci-geosciences/viking 1.10 1.10-r1 1.11: GPS data editor and analyzer
 sci-geosciences/xtide 2.15.5: XTide provides tide and current predictions in a wide variety of formats
-sci-geosciences/xyzservices 2025.4.0 2025.11.0 2026.3.0: Source of XYZ tiles providers
+sci-geosciences/xyzservices 2025.11.0 2026.3.0: Source of XYZ tiles providers
 sci-libs/adolc 2.7.2-r1 9999: Automatic differentiation system for C/C++
 sci-libs/alglib 3.20.0 4.07.0: Numerical analysis and data processing library
 sci-libs/amd 2.4.6-r1 3.0.3 3.3.4: Library to order a sparse matrix prior to Cholesky factorization
@@ -16424,7 +16424,7 @@ sci-ml/caffe2 2.11.0-r3 2.12.0-r1: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
 sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 4.8.5: Access and share datasets for Audio, Computer Vision, and NLP tasks
-sci-ml/evaluate 0.4.6: makes evaluating, comparing models and reporting their performance easier
+sci-ml/evaluate 0.4.6-r1: makes evaluating, comparing models and reporting their performance easier
 sci-ml/fastai 2.8.7: The fastai deep learning library
 sci-ml/fastcore 1.8.18 1.12.46: Python supercharged for the fastai library
 sci-ml/fastdownload 0.0.6: Easily download, verify, and extract archives
@@ -17806,7 +17806,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.256_p2 5.10.257 5.15.207_p2 5.15.208 6.1.173_p3 6.1.174 6.6.140_p2 6.6.141 6.12.90_p2 6.12.91 6.18.32_p2 6.18.33 7.0.9_p2 7.0.10: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.256_p2 5.10.257 5.15.207_p2 5.15.208 6.1.173_p3 6.1.174 6.6.140_p2 6.6.141 6.12.90_p2 6.12.91 6.18.32_p2 6.18.33 7.0.9_p2 7.0.10: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-sources 5.10.256-r2 5.10.257 5.10.257-r1 5.15.207-r2 5.15.208 5.15.208-r1 6.1.173-r3 6.1.174 6.1.174-r1 6.6.140-r3 6.6.141 6.6.141-r1 6.12.90-r3 6.12.91 6.12.91-r1 6.18.32-r3 6.18.33 6.18.33-r1 7.0.9-r5 7.0.10 7.0.10-r1: Full sources including the Gentoo patchset for the 7.0 kernel tree
+sys-kernel/gentoo-sources 5.10.257-r1 5.15.208-r1 6.1.174-r1 6.6.141-r1 6.12.91-r1 6.18.33-r1 7.0.10 7.0.10-r1: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
