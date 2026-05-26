@@ -8928,7 +8928,7 @@ dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
 dev-python/paramiko 3.5.1 4.0.0-r1 5.0.0: SSH2 protocol library
-dev-python/parse 1.21.1 1.22.0: Parse strings using a specification based on the Python format() syntax
+dev-python/parse 1.22.0 1.22.1: Parse strings using a specification based on the Python format() syntax
 dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
 dev-python/parso 0.8.6 0.8.7: A python parser that supports error recovery and round-trip parsing
@@ -14359,7 +14359,7 @@ media-video/oxine 0.7.1-r6: OSD frontend for Xine
 media-video/parole 4.20.0: A simple Xfce4 media player using GStreamer
 media-video/peek 1.5.1-r2: Simple animated Gif screen recorder
 media-video/pgmfindclip 1.13: automatically find a clipping border for a sequence of pgm images
-media-video/pipewire 1.4.10 1.4.9999 1.6.4 1.6.4-r1 1.6.9999 9999: Multimedia processing graphs
+media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.9999 9999: Multimedia processing graphs
 media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
@@ -16465,7 +16465,7 @@ sci-physics/looptools 2.15-r1 2.16: Tools for evaluation of scalar and tensor on
 sci-physics/pythia 8.3.16-r1 8.3.17 9999: Lund Monte Carlo high-energy physics event generator
 sci-physics/reduze 2.4-r1: Program for reducing Feynman integrals
 sci-physics/rivet 3.1.11-r1 4.1.2 9999: Robust Independent Validation of Experiment and Theory toolkit
-sci-physics/root 6.36.06 6.36.9999 6.38.00 6.38.04 9999: C++ data analysis framework and interpreter from CERN
+sci-physics/root 6.38.04 6.40.00 6.40.9999 9999: C++ data analysis framework and interpreter from CERN
 sci-physics/siscone 3.0.6 3.1.0 3.1.2 3.1.2-r1 9999: Hadron Seedless Infrared-Safe Cone jet algorithm
 sci-physics/thepeg 2.2.3-r3 2.3.0-r4: Toolkit for High Energy Physics Event Generation
 sci-physics/vgm 5.2-r1 5.4 9999: Virtual Geometry Model for High Energy Physics Experiments
