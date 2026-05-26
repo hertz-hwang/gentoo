@@ -13079,7 +13079,7 @@ media-gfx/kio-mobi-thumbnailer 25.12.3 26.04.1: KIO thumbnail generator for Mobi
 media-gfx/kio-ps-thumbnailer 25.12.3 26.04.1: KIO thumbnail generator for DVI, EPS, PDF and PS files
 media-gfx/kio-raw-thumbnailer 25.12.3 26.04.1: KIO thumbnail generator for RAW files
 media-gfx/kphotoalbum 6.2.0: Tool for indexing, searching, and viewing images
-media-gfx/krita 6.0.1 6.0.2_pre20260521: Free digital painting application. Digital Painting, Creative Freedom!
+media-gfx/krita 6.0.1 6.0.2: Free digital painting application. Digital Painting, Creative Freedom!
 media-gfx/kuickshow 0.11.0: Image viewer based on KDE Frameworks
 media-gfx/kxstitch 3.0.0_pre20250110: Program to create cross stitch patterns
 media-gfx/libbgcode 0.0.20241024 0.0.20251210: Prusa Block & Binary G-code reader / writer / converter
@@ -18473,7 +18473,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.22 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.10 24.1.11 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 580.159.04 595.44.09 595.71.05 610.43.02: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 580.159.04 595.44.09 595.71.05 610.43.02-r1: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
