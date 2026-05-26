@@ -1371,7 +1371,7 @@ app-containers/containers-shortnames 2023.02.20 2025.03.19 9999: Configures defa
 app-containers/containers-storage 1.55.1 1.57.2 1.59.1 9999: Default config and docs related to Containers' storage
 app-containers/cosign 2.5.0 2.6.1 3.0.3: container signing utility
 app-containers/cri-o 1.31.2 1.31.4 1.34.3: OCI-based implementation of Kubernetes Container Runtime Interface
-app-containers/cri-tools 1.33.0 1.35.0: CLI and validation tools for Kubelet Container Runtime (CRI)
+app-containers/cri-tools 1.33.0 1.35.0 1.36.0: CLI and validation tools for Kubelet Container Runtime (CRI)
 app-containers/crun 1.19.1 1.20 1.21 1.25.1: Fast and low-memory footprint OCI Container Runtime fully written in C
 app-containers/devcontainer 0.85.0 0.86.1 0.87.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.8.2.4 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
@@ -3985,7 +3985,7 @@ dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud ser
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
 dev-db/dbeaver-bin 26.0.2 26.0.4: Free universal database tool (community edition)
 dev-db/duckdb 1.4.4 1.5.1 1.5.2: high-performance analytical database system
-dev-db/etcd 3.4.31 3.5.18 3.5.26 3.6.7: Highly-available key value store for shared configuration and service discovery
+dev-db/etcd 3.4.31 3.5.18 3.5.26 3.6.7 3.6.11: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
 dev-db/gqlplus 1.16-r2: a front-end for Oracle program sqlplus with command-line editing
@@ -12642,7 +12642,7 @@ mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.2.16 2.3.0 2.3.2: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
 mail-client/neomutt 20240201 20250510 20251211-r1 20260105 20260406 20260504 99999999: A small but very powerful text-based mail client
-mail-client/roundcube 1.6.11 1.6.14 1.7.0 9999: Browser-based multilingual IMAP client with an application-like user interface
+mail-client/roundcube 1.6.11 1.7.1 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 140.10.1 140.10.2 140.11.0 150.0.1 150.0.2: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.10.1 140.10.2 140.11.0 150.0.1 150.0.2 151.0: Thunderbird Mail Client
@@ -14359,7 +14359,7 @@ media-video/oxine 0.7.1-r6: OSD frontend for Xine
 media-video/parole 4.20.0: A simple Xfce4 media player using GStreamer
 media-video/peek 1.5.1-r2: Simple animated Gif screen recorder
 media-video/pgmfindclip 1.13: automatically find a clipping border for a sequence of pgm images
-media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.9999 9999: Multimedia processing graphs
+media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.6 1.6.9999 9999: Multimedia processing graphs
 media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
@@ -14677,7 +14677,7 @@ net-dialup/moserial 3.0.21: A clean and friendly gtk-based serial terminal
 net-dialup/mwavem 2.0-r3: User level application for IBM Mwave modem
 net-dialup/neocon 20110228-r1: Simple serial console utility that tries to open ttys repeatedly
 net-dialup/picocom 3.1 2024.07-r1: minimal dumb-terminal emulation program
-net-dialup/ppp 2.5.0-r7 2.5.1-r1 2.5.2: Point-to-Point Protocol (PPP)
+net-dialup/ppp 2.5.0-r7 2.5.1-r1 2.5.2 2.5.3: Point-to-Point Protocol (PPP)
 net-dialup/ppp-scripts 0: Common set of scripts for various PPP implementations
 net-dialup/pppconfig 2.3.25: A text menu based utility for configuring ppp
 net-dialup/pptpclient 1.10.0: Linux client for PPTP
@@ -14940,7 +14940,7 @@ net-libs/libdmapsharing 3.9.13: A library that implements the DMAP family of pro
 net-libs/libdom 0.4.3_pre20250301-r1 9999: implementation of the W3C DOM, written in C
 net-libs/libecap 1.0.1: API for implementing ICAP content analysis and adaptation
 net-libs/libesmtp 1.1.0-r2: Lib that implements the client side of the SMTP protocol
-net-libs/libetpan 1.9.4-r2 1.9.4-r3: A portable, efficient middleware for different kinds of mail access
+net-libs/libetpan 1.9.4-r2 1.9.4-r3 1.10: A portable, efficient middleware for different kinds of mail access
 net-libs/libflowmanager 3.0.0-r1: A library that measures and reports on packet flows
 net-libs/libgadu 1.11.4 1.12.2-r1: Client-side library for the Gadu-Gadu protocol
 net-libs/libgrss 0.7.0-r2: Library for easy management of RSS/Atom/Pie feeds
@@ -16444,7 +16444,7 @@ sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
-sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
+sci-ml/tokenizers 0.22.1 0.22.2: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.26.0 0.27.0: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 4.57.6 5.3.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
@@ -17796,7 +17796,7 @@ sys-fs/udisks 2.10.2-r1 2.11.0-r1 2.11.1: Daemon providing interfaces to work wi
 sys-fs/unionfs-fuse 3.7 9999: Self-syncing tree-merging file system based on FUSE
 sys-fs/vhba 20240202 20250329 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEmu suite
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
-sys-fs/xcp 0.24.2-r1 0.24.8: A 'cp' alternative with user-friendly feedback and performance optimisations
+sys-fs/xcp 0.24.2-r1 0.24.8-r1: A 'cp' alternative with user-friendly feedback and performance optimisations
 sys-fs/xfsdump 3.1.12 3.2.0 3.3.0: XFS dump/restore utilities
 sys-fs/xfsprogs 6.17.0-r1 6.18.0 6.19.0 7.0.1: XFS filesystem utilities
 sys-fs/xwmfs 0.92: FUSE-based X11 Window-Manager file system
@@ -18178,7 +18178,7 @@ www-apache/mod_dnssd 0.6-r2: mod_dnssd is an Apache module which adds Zeroconf s
 www-apache/mod_fastcgi_handler 0.6-r3: A simple FastCGI handler module
 www-apache/mod_fcgid 2.3.9-r2: Binary-compatible alternative to mod_fastcgi with better process management
 www-apache/mod_gnutls 0.12.0-r1: mod_gnutls uses GnuTLS for SSL/TLS encryption in Apache2 (compare to mod_ssl)
-www-apache/mod_h2 2.0.39 9999: HTTP/2 module for Apache
+www-apache/mod_h2 2.0.40 9999: HTTP/2 module for Apache
 www-apache/mod_jk 1.2.50: Provides an AJP Apache2-JK-connector for the Tomcat servlet engine
 www-apache/mod_limitipconn 0.24-r4: Limit the number of simultaneous apache connections
 www-apache/mod_log_rotate 1.02: Log rotation support for mod_log_config based on strftime(3)
@@ -18229,7 +18229,7 @@ www-apps/jekyll-coffeescript 2.0.0-r1: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r2: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 10.10.7 10.11.4 10.11.5 10.11.6 10.11.8 10.11.9: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 10.11.10: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
