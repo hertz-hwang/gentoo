@@ -3961,7 +3961,7 @@ dev-cpp/simpleini 4.25: C++ library providing a simple API to read and write INI
 dev-cpp/sol2 3.5.0-r1: Header-only C++ <-> Lua API wrapper
 dev-cpp/sparsehash 2.0.4-r2: An extremely memory-efficient hash_map implementation
 dev-cpp/string-theory 3.9: A flexible modern C++ library for string manipulation and storage
-dev-cpp/taskflow 3.6.0 3.7.0 3.10.0 3.11.0 9999: Modern C++ Parallel Task Programming
+dev-cpp/taskflow 3.6.0 3.7.0 3.10.0 3.11.0 4.0.0 9999: Modern C++ Parallel Task Programming
 dev-cpp/tbb 2020.3 2021.7.0-r1 2021.9.0 2021.12.0 2021.13.0 2022.0.0-r1 2022.1.0 2022.3.0: High level abstract threading library
 dev-cpp/tclap 1.2.5: Simple templatized C++ library for parsing command line arguments
 dev-cpp/termcolor 2.1.0: A header-only C++ library for printing colored messages to the terminal
@@ -10800,7 +10800,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.144: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.152: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
@@ -12177,7 +12177,7 @@ gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop sy
 gui-libs/xdg-desktop-portal-lxqt 1.3.0 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
 gui-wm/dwl 0.5-r1 0.6 0.7 9999: dwm for Wayland
-gui-wm/gamescope 3.16.23: Efficient micro-compositor for running games
+gui-wm/gamescope 3.16.24: Efficient micro-compositor for running games
 gui-wm/labwc 0.9.7 9999: Openbox alternative for wayland
 gui-wm/sway 1.9-r1 1.10 1.10.1 1.11 1.12 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
@@ -16445,7 +16445,7 @@ sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
-sci-ml/tokenizers 0.22.1 0.22.2: Implementation of today's most used tokenizers
+sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.26.0 0.27.0: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 4.57.6 5.3.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
