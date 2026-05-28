@@ -11152,7 +11152,7 @@ dev-vcs/git-cliff 2.10.1 2.11.0: A highly customizable changelog generator
 dev-vcs/git-cola 4.17.1 4.18.2: The highly caffeinated git GUI
 dev-vcs/git-credential-manager 2.7.3 2.8.0: Secure Git credential storage supporing GitHub, Azure Repos, and other services
 dev-vcs/git-crypt 0.7.0 0.8.0: Transparent file encryption in git
-dev-vcs/git-delete-merged-branches 7.4.2 7.5.0 7.5.0-r1 7.5.1: Command-line tool to delete merged Git branches
+dev-vcs/git-delete-merged-branches 7.5.1 7.6.0: Command-line tool to delete merged Git branches
 dev-vcs/git-extras 7.3.0 7.4.0: Git utilities -- repo summary, repl, changelog population, and many more
 dev-vcs/git-filter-repo 2.47.0-r1: Quickly rewrite git repository history (filter-branch replacement)
 dev-vcs/git-flow 1.12.3-r2: Git extensions to provide high-level repository operations
@@ -12394,7 +12394,7 @@ kde-apps/yakuake 25.12.3 26.04.1: Quake-style terminal emulator based on konsole
 kde-frameworks/attica 6.25.0 6.26.0: Framework providing access to Open Collaboration Services
 kde-frameworks/baloo 6.25.0 6.26.0: Framework for searching and managing metadata
 kde-frameworks/bluez-qt 6.25.0 6.26.0: Qt wrapper for Bluez 5 DBus API
-kde-frameworks/breeze-icons 6.25.0 6.26.0: Breeze SVG icon theme
+kde-frameworks/breeze-icons 6.25.0-r1 6.26.0-r1: Breeze SVG icon theme
 kde-frameworks/extra-cmake-modules 6.25.0 6.26.0: Extra modules and scripts for CMake
 kde-frameworks/frameworkintegration 6.25.0 6.26.0: Framework for integrating Qt applications with KDE Plasma workspaces
 kde-frameworks/kapidox 6.25.0 6.26.0: Framework for building KDE API documentation in a standard format and style
@@ -12467,7 +12467,7 @@ kde-frameworks/solid 6.25.0 6.26.0: Provider for platform independent hardware d
 kde-frameworks/sonnet 6.25.0 6.26.0: Framework for providing spell-checking through abstraction of popular backends
 kde-frameworks/syndication 6.25.0 6.26.0: Library for parsing RSS and Atom feeds
 kde-frameworks/syntax-highlighting 6.25.0 6.26.0: Framework for syntax highlighting
-kde-frameworks/threadweaver 6.25.0 6.26.0: Framework for managing threads using job and queue-based interfaces
+kde-frameworks/threadweaver 6.25.0-r1 6.26.0-r1: Framework for managing threads using job and queue-based interfaces
 kde-misc/basket 2.49b_p20251207: Multiple information organizer - a DropDrawers clone
 kde-misc/colord-kde 25.12.3 26.04.1: Provides interfaces and session daemon to colord
 kde-misc/kclock 25.12.3 26.04.1: Convergent clock application for Plasma
@@ -16465,14 +16465,14 @@ sci-physics/lhapdf 6.3.0-r2 6.5.4-r1 6.5.4-r2 6.5.5 6.5.5-r2 6.5.6 9999: Les Hou
 sci-physics/looptools 2.15-r1 2.16: Tools for evaluation of scalar and tensor one-loop integrals
 sci-physics/pythia 8.3.16-r1 8.3.17 9999: Lund Monte Carlo high-energy physics event generator
 sci-physics/reduze 2.4-r1: Program for reducing Feynman integrals
-sci-physics/rivet 3.1.11-r1 4.1.2 9999: Robust Independent Validation of Experiment and Theory toolkit
+sci-physics/rivet 3.1.11-r1 4.1.2 4.1.3 9999: Robust Independent Validation of Experiment and Theory toolkit
 sci-physics/root 6.38.04 6.40.00 6.40.9999 9999: C++ data analysis framework and interpreter from CERN
 sci-physics/siscone 3.0.6 3.1.0 3.1.2 3.1.2-r1 9999: Hadron Seedless Infrared-Safe Cone jet algorithm
 sci-physics/thepeg 2.2.3-r3 2.3.0-r4: Toolkit for High Energy Physics Event Generation
 sci-physics/vgm 5.2-r1 5.4 9999: Virtual Geometry Model for High Energy Physics Experiments
 sci-physics/vmc 1.1_p1-r1 2.0-r1 2.1 9999: The Virtual Monte Carlo core library
 sci-physics/xfoil 6.99-r1: Design and analysis of subsonic isolated airfoils
-sci-physics/yoda 1.9.10 2.1.2 9999: Yet more Objects for (High Energy Physics) Data Analysis
+sci-physics/yoda 1.9.10 2.1.2 2.1.3 9999: Yet more Objects for (High Energy Physics) Data Analysis
 sci-visualization/circos 0.69.9: Circular layout visualization of genomic and other data
 sci-visualization/dash 4.1.0: Python framework for building ML & data science web apps
 sci-visualization/epix 1.2.19 1.2.19-r1 1.2.22: 2- and 3-D plotter for creating images (to be used in LaTeX)
@@ -18209,7 +18209,7 @@ www-apps/bugzilla 5.0.6-r2: Bugzilla is the Bug-Tracking System from the Mozilla
 www-apps/cgisysinfo 0.4.1: A small cgi utility to show basic system information
 www-apps/cgit 1.2.3_p20240802-r2 1.3 9999 9999-r1: A fast web-interface for Git repositories
 www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD collected by collectd
-www-apps/chromedriver-bin 147.0.7727.137 148.0.7778.167 148.0.7778.178: WebDriver for Chrome
+www-apps/chromedriver-bin 148.0.7778.167 148.0.7778.178 148.0.7778.215: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20250514b: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
@@ -18278,7 +18278,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.3 6.9.4 7.0: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 10.1 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 146.0.7680.177 148.0.7778.167 148.0.7778.178 149.0.7827.14 149.0.7827.22 150.0.7846.4: Open-source version of Google Chrome web browser
+www-client/chromium 146.0.7680.177 148.0.7778.167 148.0.7778.178 148.0.7778.215 149.0.7827.14 149.0.7827.22 150.0.7846.4: Open-source version of Google Chrome web browser
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
@@ -18288,7 +18288,7 @@ www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 140.10.1-r1 140.10.2 140.11.0 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser
 www-client/firefox-bin 140.10.1-r1 140.10.2 140.11.0 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser
 www-client/firefox-l10n 150.0.1 150.0.2 150.0.3 151.0 151.0.1: Firefox Web Browser's translation files
-www-client/google-chrome 147.0.7727.137 148.0.7778.167 148.0.7778.178: The web browser from Google
+www-client/google-chrome 148.0.7778.167 148.0.7778.178 148.0.7778.215: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.3 149.0.7827.14 149.0.7827.22: The web browser from Google
 www-client/google-chrome-unstable 150.0.7828.2 150.0.7838.0 150.0.7846.4: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
@@ -18297,13 +18297,13 @@ www-client/links 2.30-r2 2.30-r3: A fast and lightweight web browser running in 
 www-client/luakit 2.3.6 2.4.0: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
 www-client/microsoft-edge 148.0.3967.83: The web browser from Microsoft
-www-client/microsoft-edge-beta 149.0.4022.8 149.0.4022.16 149.0.4022.24: The web browser from Microsoft
-www-client/microsoft-edge-dev 149.0.4022.4 149.0.4022.8 150.0.4041.0: The web browser from Microsoft
+www-client/microsoft-edge-beta 149.0.4022.16 149.0.4022.24 149.0.4022.33: The web browser from Microsoft
+www-client/microsoft-edge-dev 149.0.4022.8 150.0.4041.0 150.0.4055.0: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11-r1 9999: A free, open source web browser
 www-client/opera 131.0.5877.97: A fast and secure web browser
 www-client/opera-beta 124.0.5705.51 126.0.5750.11 126.0.5750.30: A fast and secure web browser
-www-client/opera-developer 132.0.5889.0 132.0.5898.0 132.0.5903.0: A fast and secure web browser
+www-client/opera-developer 132.0.5898.0 132.0.5903.0 133.0.5910.0: A fast and secure web browser
 www-client/opera-gx 129.0.5823.49 129.0.5823.64: Opera, but for 'gamers'
 www-client/pybugz 0.14 9999: Command line interface to (Gentoo) Bugzilla
 www-client/qutebrowser 3.6.3 3.7.0 9999: Keyboard-driven, vim-like browser based on Python and Qt
@@ -18312,8 +18312,8 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.5-r1: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 2.2.3-r1 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 8.0.4033.26 8.0.4033.28: A browser for our friends
-www-client/vivaldi-snapshot 8.0.4033.7 8.0.4033.9: A browser for our friends
+www-client/vivaldi 8.0.4033.28 8.0.4033.34: A browser for our friends
+www-client/vivaldi-snapshot 8.0.4033.19 8.0.4033.24: A browser for our friends
 www-client/w3m 0.5.3_p20240916 0.5.6: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r13: A variant of w3m with support for multiple character encodings
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
@@ -18359,7 +18359,7 @@ www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
 www-nginx/njs 0.9.4 0.9.9: A subset of JavaScript language to use in NGINX
 www-plugins/browserpass 3.1.2 3.1.2-r1: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 147.0.7727.137 148.0.7778.167 148.0.7778.178 149.0.7827.3_beta 149.0.7827.14_beta 149.0.7827.22_beta 150.0.7828.2_alpha 150.0.7838.0_alpha 150.0.7846.4_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 148.0.7778.167 148.0.7778.178 148.0.7778.215 149.0.7827.3_beta 149.0.7827.14_beta 149.0.7827.22_beta 150.0.7828.2_alpha 150.0.7838.0_alpha 150.0.7846.4_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.9.0: High performance flash player
 www-plugins/passff-host 1.2.4 1.2.5: Host app for the PassFF WebExtension
 www-plugins/pdfjs 4.5.136 4.9.155 4.10.38 5.0.375: A PDF reader in JavaScript
