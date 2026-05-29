@@ -925,7 +925,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.792.0 1.2.804.0 1.2.814.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.44.86 1.45.2 1.45.6 1.45.9 1.45.14 1.45.15 1.45.16: Universal Command Line Environment for AWS
+app-admin/awscli 1.44.86 1.45.2 1.45.6 1.45.9 1.45.14 1.45.15 1.45.16 1.45.17: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.1.0 2026.2.1: Bitwarden password manager desktop client
@@ -1093,7 +1093,7 @@ app-admin/sysstat 12.6.2-r2: System performance tools for Linux
 app-admin/system-config-printer 1.5.18-r3: Graphical user interface for CUPS administration
 app-admin/systemdgenie 0.100.0_pre20241202: Systemd managment utility
 app-admin/tenshi 0.18: Log parsing and notification program
-app-admin/terraform 1.11.2 1.12.1 1.13.4 1.13.5 1.14.8 1.15.0 1.15.1: A tool for building, changing, and combining infrastructure safely
+app-admin/terraform 1.11.2 1.12.1 1.13.4 1.13.5 1.14.8 1.15.0 1.15.1 1.15.5: A tool for building, changing, and combining infrastructure safely
 app-admin/testdisk 7.2-r1: Checks and undeletes partitions + PhotoRec, signature based recovery tool
 app-admin/tmpreaper 1.6.17-r1: A utility for removing files based on when they were last accessed
 app-admin/tmpwatch 2.11-r3: Files which haven't been accessed are removed from specified directories
@@ -1364,7 +1364,7 @@ app-containers/cadvisor 0.49.2 0.53.0 0.56.2: Analyzes resource usage and perfor
 app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it's effectively brain-dead
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2: Standard networking plugins for container networking
 app-containers/conmon 2.1.11 2.1.13 9999: An OCI container runtime monitor
-app-containers/containerd 2.0.2-r1 2.0.3-r1 2.0.4-r1 2.0.5-r1 2.0.7-r1 2.1.0-r1 2.1.1-r1 2.1.4-r1 2.1.5-r1 2.2.0-r1 2.2.1-r1 2.2.2-r1: A daemon to control runC
+app-containers/containerd 2.0.2-r1 2.0.3-r1 2.0.4-r1 2.0.5-r1 2.0.7-r1 2.1.0-r1 2.1.1-r1 2.1.4-r1 2.1.5-r1 2.2.0-r1 2.2.1-r1 2.2.2-r1 2.3.1: A daemon to control runC
 app-containers/containers-common 0.63.0 0.64.2 9999: Common config files and docs for Containers stack
 app-containers/containers-image 5.34.2 5.35.0 5.36.2 9999: Default config and docs related to Containers' images
 app-containers/containers-shortnames 2023.02.20 2025.03.19 9999: Configures default shortnames (aliases) for Containers
@@ -1377,10 +1377,10 @@ app-containers/devcontainer 0.85.0 0.86.1 0.87.0: Reference implementation of th
 app-containers/distrobox 1.8.2.4 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1: System container image builder for LXC and incus
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
-app-containers/docker 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3-r1: The core functions you need to create Docker images and run Docker containers
+app-containers/docker 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3-r1 29.5.2: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-bench-security 1.6.0 1.6.1: Test for best practices around deploying docker containers
 app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 0.21.2 9999: Docker CLI plugin for extended build capabilities with BuildKit
-app-containers/docker-cli 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3: the command line binary for docker
+app-containers/docker-cli 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3 29.5.2: the command line binary for docker
 app-containers/docker-compose 1.29.2-r8 2.34.0-r1 2.39.3 2.40.3 5.0.1-r1: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.8.2 0.9.2 0.9.3: Suite of programs to use native stores to keep Docker credentials safe
 app-containers/docker-pushrm 1.9.0: Docker CLI plugin to update container repository documentation
@@ -1876,7 +1876,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.120.0 1.121.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.121.0 1.122.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.110.11631 1.112.01907 1.116.02821: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -3125,7 +3125,7 @@ app-shells/dash 0.5.12-r1 0.5.13.2 0.5.13.3 0.5.13.4 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
 app-shells/fish 4.5.0-r2 4.6.0 4.7.1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
-app-shells/fzf 0.67.0 0.68.0 0.70.0 0.71.0 0.72.0: General-purpose command-line fuzzy finder, written in Golang
+app-shells/fzf 0.67.0 0.68.0 0.70.0 0.71.0 0.72.0 0.73.1: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
 app-shells/gentoo-bashcomp 20240625 20250620: Gentoo-specific bash command-line completions (emerge, ebuild, equery, etc)
 app-shells/gentoo-zsh-completions 20220112 20230117 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
@@ -3901,7 +3901,7 @@ dev-cpp/ctemplate 2.4: A simple but powerful template language for C++
 dev-cpp/curlpp 0.8.1-r1: C++ wrapper for libcURL
 dev-cpp/doctest 2.4.12 2.5.2: The fastest feature-rich C++11/14/17/20 single-header testing framework
 dev-cpp/edencommon 2023.06.19.00 2024.11.04.00 2025.04.14.00: Shared library for Watchman and Eden projects
-dev-cpp/eigen 3.4.0-r3 3.4.9999 9999: C++ template library for linear algebra
+dev-cpp/eigen 3.4.0-r3 3.4.1 3.4.9999 5.0.1 5.0.9999 9999: C++ template library for linear algebra
 dev-cpp/elfio 3.12: ELF reader/producer header-only C++ library
 dev-cpp/expected 1.1.0 1.3.1: Single header implementation of std::expected with functional-style extensions
 dev-cpp/expected-lite 0.8.0 0.9.0 0.10.0: Expected objects in C++11 and later in a single-file header-only library
@@ -5360,7 +5360,7 @@ dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.10.0 3.11.1: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
-dev-libs/c-blosc2 2.23.1 3.0.1 3.0.2 3.0.3 3.1.0: Blocking, shuffling and lossless compression library
+dev-libs/c-blosc2 2.23.1 3.0.3 3.1.0 3.1.2: Blocking, shuffling and lossless compression library
 dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serialization/RPC protocol
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
@@ -5783,7 +5783,7 @@ dev-libs/pfs 0.10.0: Production grade, very easy to use, procfs parsing library 
 dev-libs/pkcs11-helper 1.29.0-r1 1.30.0 1.31.0: PKCS#11 helper library
 dev-libs/plasma-wayland-protocols 1.20.0 1.21.0: Plasma Specific Protocols for Wayland
 dev-libs/pmdk 2.1.1: Persistent Memory Development Kit
-dev-libs/pocketfft 2024.11.30: PocketFFT for C++
+dev-libs/pocketfft 2024.11.30 2026.04.10 9999: PocketFFT for C++
 dev-libs/pocl 6.0 7.0-r2 7.0-r3 7.1: Portable Computing Language (an implementation of OpenCL)
 dev-libs/poco 1.14.2 1.15.0 1.15.1: C++ libraries for building network-based applications
 dev-libs/popt 1.19-r1: Parse Options - Command line parser
@@ -8239,13 +8239,13 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 25.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.42.96 1.43.2 1.43.6 1.43.9 1.43.14 1.43.15 1.43.16: The AWS SDK for Python
-dev-python/botocore 1.42.96 1.43.2 1.43.6 1.43.9 1.43.14 1.43.15 1.43.16: Low-level, data-driven core of boto 3
+dev-python/boto3 1.42.96 1.43.2 1.43.6 1.43.9 1.43.14 1.43.15 1.43.16 1.43.17: The AWS SDK for Python
+dev-python/botocore 1.42.96 1.43.2 1.43.6 1.43.9 1.43.14 1.43.15 1.43.16 1.43.17: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
 dev-python/bracex 2.6: Bash style brace expansion for Python
-dev-python/braintree 4.42.0 4.43.0: Braintree Python Library
+dev-python/braintree 4.43.0 4.44.0: Braintree Python Library
 dev-python/breathe 4.36.0: Sphinx Doxygen renderer
 dev-python/brotlicffi 1.2.0.1: Python binding to the Brotli library
 dev-python/btrfs 15: Python module to inspect btrfs filesystems
@@ -8306,7 +8306,7 @@ dev-python/colorlog 6.10.1: Log formatting with colors
 dev-python/colour 0.1.5-r1: Python color representations manipulation library
 dev-python/comm 0.2.3: Jupyter Python Comm implementation, for usage in ipykernel, xeus-python
 dev-python/commentjson 0.9.0-r2: Add Python and JavaScript style comments in your JSON files
-dev-python/commonmark 0.9.1-r1: Python parser for the CommonMark Markdown spec
+dev-python/commonmark 0.9.1-r1 0.9.2: Python parser for the CommonMark Markdown spec
 dev-python/configargparse 1.7.5: Drop-in replacement for argparse supporting config files and env variables
 dev-python/configclass 0.2.0-r1: A Python to class to hold configuration values
 dev-python/configobj 5.0.9: Simple config file reader and writer
@@ -8420,7 +8420,7 @@ dev-python/doit-py 0.5.0-r1: doit tasks for python stuff
 dev-python/dominate 2.9.1: Library for creating and manipulating HTML documents using an elegant DOM API
 dev-python/doublex 1.9.6.1: Python test doubles
 dev-python/doublex-expects 0.7.1-r1: Expects matchers for Doublex test doubles assertions
-dev-python/dulwich 1.1.0 1.2.1 1.2.3 1.2.4: Pure-Python implementation of the Git file formats and protocols
+dev-python/dulwich 1.1.0 1.2.4 1.2.5: Pure-Python implementation of the Git file formats and protocols
 dev-python/easy-thumbnails 2.10.1: Easy thumbnails for Django
 dev-python/easyprocess 1.1-r1: Easy to use Python subprocess interface
 dev-python/ecdsa 0.19.2: ECDSA cryptographic signature library in pure Python
@@ -8533,7 +8533,7 @@ dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gitpython 3.1.47 3.1.49 3.1.50: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.0 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.30.3: Core Library for Google Client Libraries
-dev-python/google-api-python-client 2.193.0 2.194.0 2.195.0 2.196.0: Google API Client for Python
+dev-python/google-api-python-client 2.194.0 2.195.0 2.196.0 2.197.0: Google API Client for Python
 dev-python/google-auth 2.49.2 2.50.0 2.52.0 2.53.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.3.1 0.4.0: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.3.1 1.4.0: Google Authentication Library
@@ -8589,12 +8589,12 @@ dev-python/hvac 2.4.0: HashiCorp Vault API client
 dev-python/hypercorn 0.18.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.151.14 6.152.4 6.152.5 6.152.6 6.152.7 6.152.8 6.152.9 6.152.11 6.153.2 6.153.6: A library for property based testing
+dev-python/hypothesis 6.151.14 6.152.4 6.152.5 6.152.6 6.152.7 6.152.8 6.152.9 6.152.11 6.153.2 6.153.6 6.155.0: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
 dev-python/icalendar 7.0.3 7.1.0 7.1.1 7.1.2: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
 dev-python/identify 2.6.18 2.6.19: File identification library for Python
-dev-python/idna 3.14 3.15 3.16: Internationalized Domain Names in Applications (IDNA)
+dev-python/idna 3.14 3.15 3.16 3.17: Internationalized Domain Names in Applications (IDNA)
 dev-python/ifaddr 0.2.0: Enumerate IP addresses on the local network adapters
 dev-python/ijson 3.5.0: Iterative JSON parser with a Pythonic interface
 dev-python/imageio 2.37.3-r1: Python library for reading and writing image data
@@ -8875,7 +8875,7 @@ dev-python/notebook-shim 0.2.4: A shim layer for notebook traits and config
 dev-python/notify2 0.3.1-r3: Python interface to DBus notifications
 dev-python/nox 2026.02.09 2026.04.10: Flexible test automation for Python
 dev-python/ntplib 0.4.0-r1: Python NTP library
-dev-python/nuitka 4.1 4.1.1: Python to native compiler
+dev-python/nuitka 4.1 4.1.1 4.1.2: Python to native compiler
 dev-python/numexpr 2.14.1: Fast numerical array expression evaluator for Python and NumPy
 dev-python/numpy 2.2.6 2.4.4 2.4.5 2.4.6: Fast array and numerical python library
 dev-python/numpydoc 1.10.0: Sphinx extension to support docstrings in Numpy format
@@ -8895,7 +8895,7 @@ dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
 dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
 dev-python/openstackdocstheme 3.6.0: Theme and extension support for Sphinx documentation
-dev-python/openstacksdk 4.11.0 4.12.0 4.13.0: A collection of libraries for building applications to work with OpenStack
+dev-python/openstacksdk 4.11.0 4.12.0 4.13.0 4.14.0: A collection of libraries for building applications to work with OpenStack
 dev-python/opentelemetry-api 1.41.1 1.42.1: OpenTelemetry Python API
 dev-python/opentelemetry-sdk 1.41.1 1.42.1: OpenTelemetry Python SDK
 dev-python/opentelemetry-semantic-conventions 1.41.1 1.42.1: OpenTelemetry Semantic Conventions
@@ -8913,7 +8913,7 @@ dev-python/oslo-context 6.3.0 6.4.0: Helpers to maintain useful information abou
 dev-python/oslo-i18n 6.7.2 6.8.0: Oslo i18n library
 dev-python/oslo-log 8.1.0 8.2.0: OpenStack logging config library, configuration for all openstack projects
 dev-python/oslo-serialization 5.9.1 5.10.0: Oslo Serialization library
-dev-python/oslo-utils 10.0.1: Oslo Utility library
+dev-python/oslo-utils 10.0.1 10.1.0: Oslo Utility library
 dev-python/oslotest 6.0.0 6.1.0 6.1.1: Oslo test framework
 dev-python/outcome 1.3.0_p0: Capture the outcome of Python function calls
 dev-python/outputcheck 0.4.2-r2: A tool for checking the output of console programs inspired by LLVM's FileCheck
@@ -8978,7 +8978,7 @@ dev-python/pkg-resources 0 81.0.0: pkg_resources package split from old setuptoo
 dev-python/pkgconfig 1.5.5-r1: Interface Python with pkg-config
 dev-python/pkgcraft 0.0.11 9999: Python bindings for pkgcraft
 dev-python/pkginfo 1.12.1.2: Provides an API for querying the distutils metadata written in a PKG-INFO file
-dev-python/platformdirs 4.9.4 4.9.6: A small Python module for determining appropriate platform-specific dirs
+dev-python/platformdirs 4.9.6 4.10.0: A small Python module for determining appropriate platform-specific dirs
 dev-python/plotly 6.7.0-r1: Browser-based graphing library for Python
 dev-python/plotly-geo 1.0.0-r2: Browser-based graphing library for Python
 dev-python/pluggy 1.6.0: Plugin and hook calling mechanisms for Python
@@ -9146,7 +9146,7 @@ dev-python/pypng 0.20220715.0: Pure Python PNG image encoder/decoder
 dev-python/pypresence 4.6.1: Complete Discord IPC and Rich Presence wrapper library in Python
 dev-python/pyprof2calltree 1.4.5-r1: Convert python profile data to kcachegrind calltree form
 dev-python/pyproj 3.7.2: Python interface to the PROJ library
-dev-python/pyproject-api 1.10.0: API to interact with the python pyproject.toml based projects
+dev-python/pyproject-api 1.10.0 1.10.1: API to interact with the python pyproject.toml based projects
 dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2: Format your pyproject.toml file
 dev-python/pyproject-hooks 1.2.0: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0: PEP 621 metadata parsing
@@ -9266,7 +9266,7 @@ dev-python/python-daemon 3.1.2: Library to implement a well-behaved Unix daemon 
 dev-python/python-dateutil 2.9.0_p0: Extensions to the standard Python datetime module
 dev-python/python-dbusmock 0.38.1: Easily create mock objects on D-Bus for software testing
 dev-python/python-debian 1.1.0: Python modules to work with Debian-related data formats
-dev-python/python-discovery 1.3.1 1.3.2: Python interpreter discovery
+dev-python/python-discovery 1.3.1 1.3.2 1.4.0: Python interpreter discovery
 dev-python/python-distutils-extra 2.47 3.3: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-dotenv 1.2.2: Manage .env files
 dev-python/python-editor 1.0.4-r2: Programmatically open an editor, capture the result
@@ -9373,7 +9373,7 @@ dev-python/readme-renderer 44.0: A library for rendering 'readme' descriptions f
 dev-python/rebulk 3.2.0: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
 dev-python/recurring-ical-events 3.8.1-r1 3.8.2: Repeat ICalendar events by RRULE, RDATE and EXDATE
-dev-python/redis 7.1.0 7.4.0: Python client for Redis key-value store
+dev-python/redis 7.4.0 8.0.0: Python client for Redis key-value store
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
@@ -9412,14 +9412,14 @@ dev-python/rfc3987 1.3.8-r3: Parsing and validation of URIs (RFC 3986) and IRIs 
 dev-python/rfc8785 0.1.4: Pure-Python impl. of RFC 8785 (JSON Canonicalization Scheme)
 dev-python/rich 14.3.4 15.0.0: Python library for rendering rich text, tables, etc. to the terminal
 dev-python/rich-argparse 1.7.2 1.8.0: Rich help formatters for argparse and optparse
-dev-python/rich-click 1.9.7: Format click help output nicely with rich
+dev-python/rich-click 1.9.7 1.9.8: Format click help output nicely with rich
 dev-python/roman 5.2: An Integer to Roman numerals converter
 dev-python/roman-numerals 4.0.0 4.1.0: Manipulate roman numerals
 dev-python/roman-numerals-py 4.1.0: Backwards compatibility for dev-python/roman-numerals
 dev-python/rope 1.14.0: Python refactoring library
 dev-python/ropemode 0.6.1: A helper for using rope refactoring library in IDEs
 dev-python/routes 2.5.1-r2: A re-implementation of Rails routes system, mapping URLs to Controllers/Actions
-dev-python/rpds-py 0.30.0: Python bindings to Rust's persistent data structures (rpds)
+dev-python/rpds-py 0.30.0 2026.5.1: Python bindings to Rust's persistent data structures (rpds)
 dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rpy2 3.6.4: Python interface to the R language
 dev-python/rpy2-rinterface 3.6.3: Low-level interface from Python to the R
@@ -9434,7 +9434,7 @@ dev-python/rtslib-fb 2.1.76 2.2.4-r1: A Python object API for managing the Linux
 dev-python/ruamel-yaml 0.19.1: YAML parser/emitter that supports roundtrip comment preservation
 dev-python/ruamel-yaml-clib 0.2.15: C-based reader/scanner and emitter for dev-python/ruamel-yaml
 dev-python/ruamel-yaml-clibz 0.3.7: C-based reader/scanner and emitter for dev-python/ruamel-yaml
-dev-python/s3transfer 0.16.1 0.17.0 0.17.1: An Amazon S3 Transfer Manager
+dev-python/s3transfer 0.16.1 0.17.0 0.17.1 0.18.0: An Amazon S3 Transfer Manager
 dev-python/sabctools 8.2.6 9.4.0: Module providing raw yEnc encoding/decoding for SABnzbd
 dev-python/sarge 0.1.8: Wrapper for subprocess which provides command pipeline functionality
 dev-python/sarif-om 1.0.4-r1: Classes implementing the SARIF 2.1.0 object model
@@ -9506,7 +9506,7 @@ dev-python/speg 0.3_p20180819-r2: A PEG-based parser interpreter with memoizatio
 dev-python/sphinx 9.1.0: Python documentation generator
 dev-python/sphinx-argparse 0.5.2: Sphinx extension that automatically documents argparse commands and options
 dev-python/sphinx-autoapi 3.8.0: A new approach to API documentation in Sphinx
-dev-python/sphinx-autodoc-typehints 3.9.11 3.10.2: Type hints support for the Sphinx autodoc extension
+dev-python/sphinx-autodoc-typehints 3.10.2 3.10.3: Type hints support for the Sphinx autodoc extension
 dev-python/sphinx-basic-ng 1.0.0_beta2: A modern skeleton for Sphinx themes
 dev-python/sphinx-bootstrap-theme 0.8.1: Sphinx theme integrates the Bootstrap CSS / JavaScript framework
 dev-python/sphinx-celery 2.1.3: Celery Sphinx Theme and Utilities
@@ -9565,7 +9565,7 @@ dev-python/sshpubkeys 3.3.1-r2: OpenSSH public key parser for Python
 dev-python/sshtunnel 0.4.0-r2: Pure Python SSH tunnels
 dev-python/stack-data 0.6.3-r1: Extract data from Python tracebacks for informative displays
 dev-python/stapler 1.0.0_p20220330-r4: Suite of tools for PDF files manipulation written in Python
-dev-python/starlette 1.0.0 1.0.1 1.1.0: The little ASGI framework that shines
+dev-python/starlette 1.0.0 1.0.1 1.1.0 1.2.0: The little ASGI framework that shines
 dev-python/statsd 4.0.1: A simple statsd client
 dev-python/statsmodels 0.14.6: Statistical computations and models for use with SciPy
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
@@ -9626,7 +9626,7 @@ dev-python/tinycss2 1.5.1: A complete yet simple CSS parser for Python
 dev-python/tinyhtml5 2.1.0: HTML parser based on the WHATWG HTML specification
 dev-python/tldextract 5.3.1: Accurately separate the TLD from the registered domain and subdomains of a URL
 dev-python/tokenize-rt 6.2.0: A wrapper around the stdlib 'tokenize' which roundtrips
-dev-python/toml-fmt-common 1.1.0 1.2.0 1.3.1 1.3.2: Common logic to the TOML formatter
+dev-python/toml-fmt-common 1.2.0 1.3.2 1.3.3: Common logic to the TOML formatter
 dev-python/tomli 2.4.1: A lil' TOML parser
 dev-python/tomli-w 1.2.0: A lil' TOML writer
 dev-python/tomlkit 0.14.0 0.15.0: Style preserving TOML library
@@ -9634,7 +9634,7 @@ dev-python/toolz 1.1.0: List processing tools and functional utilities
 dev-python/toposort 1.10: Implements a topological sort algorithm
 dev-python/tornado 6.5.5 6.5.6: Python web framework and asynchronous networking library
 dev-python/towncrier 25.8.0: Building newsfiles for your project
-dev-python/tox 4.50.3 4.53.1 4.54.0: virtualenv-based automation of test activities
+dev-python/tox 4.50.3 4.53.1 4.54.0 4.55.0: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r2: Python bindings for TSS
 dev-python/tqdm 4.67.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.14.3 5.15.0: A configuration system for Python applications
@@ -9660,7 +9660,7 @@ dev-python/txredisapi 1.4.11-r1 1.4.12: Non-blocking redis client for python
 dev-python/txrequests 0.9.6-r1: Asynchronous Python HTTP for Humans
 dev-python/txtorcon 23.11.0 24.8.0-r1: Twisted-based Tor controller client, with state-tracking abstractions
 dev-python/typeguard 4.5.1 4.5.2: Run-time type checker for Python
-dev-python/typer 0.24.2 0.25.1 0.26.2: Build great CLIs. Easy to code. Based on Python type hints
+dev-python/typer 0.24.2 0.25.1 0.26.2 0.26.3: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.22.3.20260408 0.22.3.20260508 0.22.3.20260518: Typing stubs for docutils
 dev-python/types-gdb 16.3.0.20260408 16.3.0.20260508 16.3.0.20260518: Typing stubs for gdb
 dev-python/types-psutil 7.2.2.20260408 7.2.2.20260508 7.2.2.20260518: Typing stubs for psutil
@@ -9696,8 +9696,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14 0.11.15 0.11.16 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14 0.11.15 0.11.16: PEP517 uv build backend
+dev-python/uv 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14 0.11.15 0.11.16 0.11.17 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.11.7 0.11.8 0.11.10 0.11.11 0.11.12 0.11.13 0.11.14 0.11.15 0.11.16 0.11.17: PEP517 uv build backend
 dev-python/uvicorn 0.46.0 0.47.0 0.48.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
 dev-python/validators 0.35.0: Python Data Validation for Humans
@@ -9712,7 +9712,7 @@ dev-python/verboselogs 1.7-r1: Verbose logging for Python's logging module
 dev-python/versioneer 0.29-r1: Easy VCS-based management of project version strings
 dev-python/versioningit 3.3.0: A setuptools plugin for versioning based on git tags
 dev-python/vine 5.1.0: Python Promises
-dev-python/virtualenv 20.39.1 21.3.3: Virtual Python Environment builder
+dev-python/virtualenv 20.39.1 21.3.3 21.4.1: Virtual Python Environment builder
 dev-python/virtualenv-clone 0.5.7: A script for cloning a non-relocatable virtualenv
 dev-python/virtualenvwrapper 6.1.1: Set of extensions to Ian Bicking's virtualenv tool
 dev-python/visitor 0.1.3-r2: A tiny pythonic visitor implementation
@@ -10894,7 +10894,7 @@ dev-util/gi-docgen 2025.4 2025.5 2026.1: A documentation generator for GObject-b
 dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
-dev-util/github-cli 2.81.0 2.92.0 9999: GitHub CLI
+dev-util/github-cli 2.81.0 2.92.0 2.93.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.4.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.65.0 1.72.0: the official gitlab command line interface
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
@@ -10951,7 +10951,7 @@ dev-util/kdevelop-python 25.12.3-r1 26.04.1-r1: Python plugin for KDevelop
 dev-util/kdstatemachineeditor 2.2.0 2.3.1: Framework for creating Qt State Machine metacode using graphical user interfaces
 dev-util/kernelshark 2.3.1-r1 2.3.2-r1 2.4.0-r1: Graphical reader for trace-cmd output
 dev-util/kio-perldoc 25.12.3 26.04.1: KIO worker interface to browse Perl documentation
-dev-util/kube-linter 0.3.0 0.7.5: kubernetes yaml and helm chart static analysis tool
+dev-util/kube-linter 0.3.0 0.7.5 0.8.3: kubernetes yaml and helm chart static analysis tool
 dev-util/kubeval 0.16.1: validate kubernetes YAML or JSON configuration files
 dev-util/kup 0.3.6-r6 0.3.6-r8: kernel.org uploader tool
 dev-util/kyua 0.13-r3 0.14 0.14.1: Testing framework for infrastructure software
@@ -11083,7 +11083,7 @@ dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
 dev-util/src-cli 4.4.0 4.5.0 5.0.2-r1 5.1.2 5.2.0: command line interface for the Sourcegraph code search tool
 dev-util/statifier 1.7.4-r3: Statifier is a tool for creating portable, self-containing Linux executables
 dev-util/stressapptest 1.0.11: Stressful Application Test
-dev-util/stripe-mock 0.197.0 0.198.0 0.199.0 0.200.0: Mock HTTP server that responds like the real Stripe API
+dev-util/stripe-mock 0.197.0 0.198.0 0.199.0 0.200.0 0.201.0: Mock HTTP server that responds like the real Stripe API
 dev-util/sysprof 47.2-r1 48.0-r1 48.1 49.0: System-wide Linux Profiler
 dev-util/sysprof-capture 3.36.0-r2 47.2 48.0 48.1 49.0: Static library for sysprof capture data generation
 dev-util/sysprof-common 47.2 48.0 48.1 49.0: Static library for sysprof capture data generation
@@ -12172,7 +12172,7 @@ gui-libs/vte 0.80.4-r1 0.82.2 0.82.3: Library providing a virtual terminal emula
 gui-libs/vte-common 0.80.4 0.82.2 0.82.3: Library providing a virtual terminal emulator widget
 gui-libs/wayfire-plugins-extra 0.10.0 9999: extra plugins for wayfire
 gui-libs/wf-config 0.10.0 9999: library for managing wayfire configuration files
-gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 0.19.1 0.19.2 0.20.0 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
+gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 0.19.1 0.19.2 0.20.0 0.20.1 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
 gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop systems
 gui-libs/xdg-desktop-portal-lxqt 1.3.0 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
@@ -14077,7 +14077,7 @@ media-sound/mikmod 3.2.8-r1 3.2.9: Console MOD-Player based on libmikmod
 media-sound/milkytracker 1.05.01: FastTracker 2 inspired music tracker
 media-sound/mixxx 2.5.4 2.5.6 9999: Advanced Digital DJ tool based on Qt
 media-sound/mmix 0.3-r1: Soundcard mixer for the OSS driver
-media-sound/moc 2.6_alpha3-r7 2.6_alpha3-r8: Music On Console - ncurses interface for playing audio files
+media-sound/moc 2.6_alpha3-r8: Music On Console - ncurses interface for playing audio files
 media-sound/modplugtools 0.5.3: libmodplug based module players modplug123 and modplugplay
 media-sound/mp32ogg 0.11-r7: A perl script to convert MP3 files to Ogg Vorbis files
 media-sound/mp3asm 0.1.3-r2: Command line tool to clean and edit mp3 files
@@ -15648,7 +15648,7 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1: Tailscale vpn client
+net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1 1.98.4: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.6 0.4.9.8 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.15 0.10.16: Launch applications via VPN tunnels using temporary network namespaces
@@ -16054,7 +16054,7 @@ sci-geosciences/tcd-utils 20240222: Utilities for working with Tidal Constituent
 sci-geosciences/viking 1.10 1.10-r1 1.11: GPS data editor and analyzer
 sci-geosciences/xtide 2.15.5: XTide provides tide and current predictions in a wide variety of formats
 sci-geosciences/xyzservices 2025.11.0 2026.3.0: Source of XYZ tiles providers
-sci-libs/adolc 2.7.2-r1 9999: Automatic differentiation system for C/C++
+sci-libs/adolc 2.7.2-r1 2.7.2-r2 9999: Automatic differentiation system for C/C++
 sci-libs/alglib 3.20.0 4.07.0: Numerical analysis and data processing library
 sci-libs/amd 2.4.6-r1 3.0.3 3.3.4: Library to order a sparse matrix prior to Cholesky factorization
 sci-libs/aotriton-bin 0.9.2b 0.11b-r1 0.11.1b-r1 0.11.2b: Ahead of Time (AOT) Triton Math Library (binary package)
@@ -16112,7 +16112,7 @@ sci-libs/coinor-symphony 5.6.17: COIN-OR solver for mixed-integer linear program
 sci-libs/coinor-utils 2.11.4 2.11.9 2.11.12: COIN-OR Matrix, Vector and other utility classes
 sci-libs/coinor-vol 1.5.4: COIN-OR volume algorithm linear program solver
 sci-libs/colamd 2.9.6 3.0.3 3.3.5: Column approximate minimum degree ordering algorithm
-sci-libs/colpack 1.0.10: C++ algorithms for specialized vertex coloring problems
+sci-libs/colpack 1.0.10 1.0.10_p20190621 9999: C++ algorithms for specialized vertex coloring problems
 sci-libs/composable-kernel 6.3.0 6.4.3 7.0.2 7.1.0 7.2.0: High Performance Composable Kernel for AMD GPUs
 sci-libs/cqrlib 1.1.4: Utility library for quaternion arithmetic / rotation math (ANSI C implemented)
 sci-libs/cxsparse 3.2.0 4.0.3 4.4.2: Extended sparse matrix package
@@ -17555,6 +17555,7 @@ sys-cluster/charmdebug 6.2.0-r2: A debugger for Charm++ applications
 sys-cluster/cilium-cli 0.12.1 0.13.0 0.16.16 0.18.2: Next generation command line interface for cilium
 sys-cluster/classads 1.0.10: Condor's classified advertisement language
 sys-cluster/cluster-glue 1.0.12-r3: Library pack for Heartbeat / Pacemaker
+sys-cluster/codipack 3.1.0 9999: Fast gradient evaluation in C++ based on Expression Templates
 sys-cluster/corosync 3.1.0: OSI Certified implementation of a complete cluster engine
 sys-cluster/drbd-utils 9.25.0 9.25.0-r1 9.27.0: mirror/replicate block-devices across a network-connection
 sys-cluster/fake 1.1.10: Switch in backup servers on a LAN
@@ -17572,14 +17573,14 @@ sys-cluster/keepalived 2.3.3 2.3.4: A strong & robust keepalive facility to the 
 sys-cluster/knem 1.1.4_p20250126 9999: High-Performance Intra-Node MPI Communication
 sys-cluster/kops 1.28.2 1.30.0: Kubernetes Operations
 sys-cluster/kronosnet 1.19 1.19-r1 1.23 1.25: Network abstraction layer designed for High Availability use cases
-sys-cluster/kube-apiserver 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0: Kubernetes API server
-sys-cluster/kube-controller-manager 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0: Kubernetes Controller Manager
-sys-cluster/kube-proxy 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.35.3: Kubernetes Proxy service
+sys-cluster/kube-apiserver 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes API server
+sys-cluster/kube-controller-manager 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Controller Manager
+sys-cluster/kube-proxy 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.35.3 1.36.1: Kubernetes Proxy service
 sys-cluster/kube-router 1.5.0 1.6.0: A turnkey solution for Kubernetes networking
 sys-cluster/kube-scheduler 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0: Kubernetes Scheduler
-sys-cluster/kubeadm 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0: CLI to Easily bootstrap a secure Kubernetes cluster
-sys-cluster/kubectl 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.0: CLI to run commands against Kubernetes clusters
-sys-cluster/kubelet 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0: Kubernetes Node Agent
+sys-cluster/kubeadm 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: CLI to Easily bootstrap a secure Kubernetes cluster
+sys-cluster/kubectl 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.0 1.36.1: CLI to run commands against Kubernetes clusters
+sys-cluster/kubelet 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Node Agent
 sys-cluster/kubeletctl 1.12 1.13: A client for kubelet
 sys-cluster/kubelogin 1.35.2-r1 1.36.0-r1: kubectl plugin for Kubernetes OpenID Connect authentication
 sys-cluster/kubeseal 0.36.1-r1: Client-side utility for one-way encrypted secrets in kubernetes
@@ -17588,6 +17589,7 @@ sys-cluster/libcircle 0.3.0: API for distributing embarrassingly parallel worklo
 sys-cluster/libqb 2.0.8-r1 2.0.9: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/libquo 1.3.1-r3 1.4 9999: Run-time tuning of process binding policies made easy
 sys-cluster/lmod 8.6.14-r1 8.7.67 9.0.8 9.1.2 9.2 9.2.1 9.2.2 9999: Environment Module System based on Lua
+sys-cluster/medipack 1.4.0 9999: Message Differentiation Package
 sys-cluster/minikube 1.34.0 1.35.0 1.37.0: Local kubernetes clusters for learning and development
 sys-cluster/mpich 3.4.3-r1: A high performance and portable MPI implementation
 sys-cluster/native-mpi 0-r1: Use native OS MPI in prefix environment
