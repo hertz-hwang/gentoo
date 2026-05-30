@@ -1779,7 +1779,7 @@ app-doc/gnu-c-intro-ref 0.1 9999: GNU C Language Intro and Reference Manual
 app-doc/gnucash-docs 5.14: Documentation package for GnuCash
 app-doc/info-manual 30.2: Manual for the Info reader in GNU Emacs
 app-doc/jargon 4.4.7-r2: A compendium of hacker slang illuminating many aspects of hackish tradition
-app-doc/kicad-doc 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2: Electronic Schematic and PCB design tools manuals
+app-doc/kicad-doc 9.0.5 9.0.9-r1 10.0.0-r1 10.0.2-r1 10.0.3: Electronic Schematic and PCB design tools manuals
 app-doc/lapack-docs 3.1.1: Documentation reference and man pages for lapack implementations
 app-doc/linkers-and-loaders 1-r1: The Linkers and Loaders book
 app-doc/linux-device-drivers 2-r1 3-r1: Howto write linux device drivers (updated for Linux 2.6)
@@ -2441,7 +2441,7 @@ app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet 
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 11.0.1_beta1 11.0.1_beta2 11.0.1_beta5 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 11.0 11.6 11.7 11.8 11.9 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.6 11.7 11.8 11.9 9999: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.8 11.9 11.10 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
@@ -15984,12 +15984,12 @@ sci-electronics/gtkwave 3.3.125: Wave viewer for LXT, LXT2, VZT, GHW and standar
 sci-electronics/gwave 20190116-r100: Analog waveform viewer for SPICE-like simulations
 sci-electronics/irsim 9.7.93 9.7.93-r1: IRSIM is a "switch-level" simulator
 sci-electronics/iverilog 12.0-r1 13.0 9999: A Verilog simulation and synthesis tool
-sci-electronics/kicad 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0-r1 10.0.2 9999: Electronic Schematic and PCB design tools
-sci-electronics/kicad-footprints 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2 9999: Electronic Schematic and PCB design tools footprint libraries
-sci-electronics/kicad-meta 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2: Electronic Schematic and PCB design tools (meta package)
-sci-electronics/kicad-packages3d 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2 9999: Electronic Schematic and PCB design tools 3D package libraries
-sci-electronics/kicad-symbols 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2 9999: Electronic Schematic and PCB design tools symbol libraries
-sci-electronics/kicad-templates 9.0.5 9.0.6 9.0.8 9.0.9 10.0.0 10.0.2 9999: Electronic Schematic and PCB design tools project templates
+sci-electronics/kicad 9.0.5 9.0.9-r1 10.0.0-r1 10.0.2 10.0.3 9999: Electronic Schematic and PCB design tools
+sci-electronics/kicad-footprints 9.0.5 9.0.9 10.0.0 10.0.2 10.0.3 9999: Electronic Schematic and PCB design tools footprint libraries
+sci-electronics/kicad-meta 9.0.5 9.0.9 10.0.0 10.0.2 10.0.3: Electronic Schematic and PCB design tools (meta package)
+sci-electronics/kicad-packages3d 9.0.5 9.0.9 10.0.0 10.0.2 10.0.3 9999: Electronic Schematic and PCB design tools 3D package libraries
+sci-electronics/kicad-symbols 9.0.5 9.0.9 10.0.0 10.0.2 10.0.3 9999: Electronic Schematic and PCB design tools symbol libraries
+sci-electronics/kicad-templates 9.0.5 9.0.9 10.0.0 10.0.2 10.0.3 9999: Electronic Schematic and PCB design tools project templates
 sci-electronics/klayout 0.30.7-r1 0.30.8 9999: Viewer and editor for GDS and OASIS integrated circuit layouts
 sci-electronics/ktechlab 0.51.0_p20251122: IDE for microcontrollers and electronics
 sci-electronics/labone 21.08.20515-r2 23.02.42414: Platform independent instrument control for Zurich Instruments devices
