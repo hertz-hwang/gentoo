@@ -3871,7 +3871,7 @@ dev-build/scons 4.10.1: Extensible Python-based build utility
 dev-build/slibtool 0.6.1 0.7.0 0.7.1 0.7.2 0.7.3 0.7.4 9999: A strong libtool implementation, written in C
 dev-build/steve 1.5.0 9999: A load-balancing jobserver for Gentoo
 dev-build/tinycmmc 0.1.0 9999: Tiny CMake Module Collections
-dev-build/xfce4-dev-tools 4.20.0 4.21.0: A set of scripts and m4/autoconf macros that ease build system maintenance
+dev-build/xfce4-dev-tools 4.20.0 4.21.0 4.21.1: A set of scripts and m4/autoconf macros that ease build system maintenance
 dev-cpp/ETL 1.4.1: Multi-platform class and template library
 dev-cpp/abseil-cpp 20250127.1 20250512.1 20250814.1 20260107.1: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/ada 3.3.0 3.4.2 3.4.4: WHATWG-compliant and fast URL parser written in modern C++
@@ -9581,7 +9581,7 @@ dev-python/structlog 25.5.0: Structured Logging for Python
 dev-python/subprocess-tee 0.4.2: subprocess.run replacement with tee(1)-like output
 dev-python/suds-community 1.2.0: Lightweight SOAP client
 dev-python/superqt 0.8.1 0.8.2: Missing widgets and components for PyQt/PySide
-dev-python/sure 2.0.1: idiomatic assertion toolkit with human-friendly failure messages
+dev-python/sure 2.0.1-r1: idiomatic assertion toolkit with human-friendly failure messages
 dev-python/svg-path 7.0: SVG path objects and parser
 dev-python/svglib 1.6.0: Pure-Python library for reading and converting SVG
 dev-python/svgwrite 1.4.3: Python Package to write SVG files
@@ -19198,7 +19198,7 @@ x11-wm/evilwm 1.4.2 1.4.3 1.5: A minimalist, no frills window manager for X
 x11-wm/fluxbox 1.3.7-r5: X11 window manager featuring tabs and an iconbar
 x11-wm/fvwm3 1.1.1-r1 1.1.2 1.1.3 1.1.4 9999: A multiple large virtual desktop window manager derived from fvwm
 x11-wm/goomwwm 1.0.0-r2 1.0.0_p20250710: Get out of my way, Window Manager!
-x11-wm/herbstluftwm 0.9.5-r2 9999: A manual tiling window manager for X
+x11-wm/herbstluftwm 0.9.5-r2 0.9.6 9999: A manual tiling window manager for X
 x11-wm/i3 4.24 4.25.1 9999: An improved dynamic tiling window manager
 x11-wm/icewm 3.3.1 3.4.1: Ice Window Manager with Themes
 x11-wm/jwm 2.4.3: Very fast and lightweight still powerful window manager for X
