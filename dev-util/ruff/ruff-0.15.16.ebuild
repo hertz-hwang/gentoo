@@ -12,7 +12,7 @@ declare -A GIT_CRATES=(
 	[lsp-types]='https://github.com/astral-sh/lsp-types;e15db0593f0ecbbd80599c3f5880e4bf5da1ca0c;lsp-types-%commit%'
 )
 
-RUST_MIN_VER="1.93"
+RUST_MIN_VER="1.94"
 
 inherit shell-completion cargo
 
