@@ -2624,7 +2624,7 @@ app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomo
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240915: Kernel module to expose more Framework Laptop stuff
 app-laptop/framework-tool-tui 0.8.0 0.8.3: TUI for controlling and monitoring Framework Computers hardware built in Rust
-app-laptop/framework_tool 0.5.0 0.6.1 0.6.2 0.6.3: Tool to control Framework Computer systems
+app-laptop/framework_tool 0.6.2 0.6.3 0.6.4: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
 app-laptop/i8kutils 1.43: Dell Inspiron and Latitude utilities
@@ -5405,6 +5405,7 @@ dev-libs/cudnn 8.6.0.163 8.8.0.121 8.9.7.29-r1 9.8.0.87-r1 9.14.0.64 9.17.0.29: 
 dev-libs/cusparselt 0.7.1.0: A High-Performance CUDA Library for Sparse Matrix-Matrix Multiplication
 dev-libs/cutlass 3.8.0 3.9.2 4.1.0 4.2.1: CUDA Templates for Linear Algebra Subroutines
 dev-libs/cvector 1.0.3.1 1.0.4.1: An ANSI C implementation of dynamic arrays (approximation of C++ vectors)
+dev-libs/cxx-rust-cssparser 1.0.0: C++ library for parsing CSS that uses the Rust cssparser crate internally
 dev-libs/cxxopts 3.0.0-r1 3.2.0-r1 3.2.1 3.2.1-r1 3.3.1: Lightweight C++ command line option parser
 dev-libs/cxxtools 3.0-r3 3.0-r4: Collection of general purpose C++-classes
 dev-libs/cyberjack 3.99.5_p17: REINER SCT cyberJack USB chipcard reader user space driver
@@ -8395,7 +8396,7 @@ dev-python/distro 1.9.0: Reliable machine-readable Linux distribution informatio
 dev-python/dj-database-url 3.0.1 3.1.2: Use Database URLs in your Django Application
 dev-python/dj-email-url 1.0.6: Use an URL to configure email backend settings in your Django Application
 dev-python/dj-search-url 0.1-r1: Use Search URLs in your Django Haystack Application
-dev-python/django 4.2.30 5.2.14 5.2.15 6.0.5 6.0.6: High-level Python web framework
+dev-python/django 5.2.15 6.0.6: High-level Python web framework
 dev-python/django-auth-ldap 5.3.0: Django LDAP authentication backend
 dev-python/django-cache-url 3.4.6: Use Cache URLs in your Django application
 dev-python/django-cacheops 7.2: ORM cache with automatic granular event-driven invalidation for Django
@@ -14835,7 +14836,7 @@ net-im/neochat 25.12.3 26.04.1 26.04.2: Client for Matrix, the decentralized com
 net-im/openmittsu 0.10.3.0: Open source chat client for Threema-style end-to-end encrypted chat networks
 net-im/pidgin 2.14.14-r2 2.14.14-r3: GTK Instant Messenger client
 net-im/poezio 0.15.1-r1 0.17 9999: Console XMPP client that looks like most famous IRC clients
-net-im/profanity 0.15.0 0.15.1: A console based XMPP client inspired by Irssi
+net-im/profanity 0.15.0 0.15.1 0.18.1: A console based XMPP client inspired by Irssi
 net-im/prosody 13.0.5: Prosody is a modern XMPP communication server
 net-im/prosody-modules 0_pre20241231 9999: A collection of community-maintained modules for Prosody
 net-im/purple-events 0.99.2: Allows a fine-grained control over libpurple events
@@ -17367,7 +17368,7 @@ sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
 sys-apps/system-monitoring-center 3.3.0 3.4.0 3.4.1 9999: Multi-featured system monitor GUI written in Python
 sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services and their logs
-sys-apps/systemd 259.4-r1 260.1-r1 9999: System and service manager for Linux
+sys-apps/systemd 259.4-r2 260.1-r2 260.2 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
 sys-apps/systemd-utils 255.18 259.3 259.4 260.1-r1: Utilities split out from systemd for OpenRC users
