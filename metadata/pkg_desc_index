@@ -2335,6 +2335,7 @@ app-emacs/vhdl-mode 3.39.3: VHDL-mode for Emacs
 app-emacs/visual-basic-mode 1.5-r1: A mode for editing Visual Basic programs
 app-emacs/vm 8.2.0_beta-r1: The VM mail reader for Emacs
 app-emacs/volume 1.0-r1: Tweak your sound card volume from Emacs
+app-emacs/vscode-dark-plus-emacs-theme 2.1.0_p20260606: Accurate port of the default Visual Studio Code Dark+ theme for GNU Emacs
 app-emacs/vterm 0.0.2_p20240705 9999: Fully-featured terminal emulator based on libvterm
 app-emacs/vue-html-mode 0.2 9999: Major Emacs mode for editing Vue.js templates
 app-emacs/vue-mode 0.4 9999: Major Emacs mode for vue component based on mmm-mode
@@ -3154,7 +3155,7 @@ app-shells/nushell 0.110.0 0.111.0 0.112.1 0.113.0: A new type of shell, written
 app-shells/pdmenu 1.3.6 1.3.6-r1 1.3.6-r2: A simple console menu program
 app-shells/pdsh 2.34-r2 2.35: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
-app-shells/platyps 0.14.2: Generate PowerShell external help files from Markdown
+app-shells/platyps 0.14.2-r1: Generate PowerShell external help files from Markdown
 app-shells/posh 0.14.5: Reimplementation of Bourne shell based on pdksh
 app-shells/posh-dotnet 1.2.3: PowerShell tab completion and tooltip support for the dotnet CLI
 app-shells/posh-git 1.1.0: A PowerShell environment for Git
@@ -4079,7 +4080,7 @@ dev-db/spatialite-tools 5.0.1-r2: A collection of CLI tools supporting SpatiaLit
 dev-db/sqlcipher 4.6.1: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 25.2.2.199.0918: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
-dev-db/sqlite 3.53.1 3.53.2 9999: SQL database engine
+dev-db/sqlite 3.53.1 3.53.2-r1 9999: SQL database engine
 dev-db/sqlitebrowser 3.13.1_p20250502-r2 9999: Light GUI editor for SQLite databases
 dev-db/sqlitestudio 4.0.0_pre20251207: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.9.10 1.9.12 1.10 9999: An automatic SQL injection and database takeover tool
@@ -9782,7 +9783,7 @@ dev-python/yattag 1.16.1: Python library to generate HTML or XML in a readable, 
 dev-python/yaxmldiff 0.2.0: Yet Another XML Differ
 dev-python/youtube-search-python 1.6.6-r3: Get YouTube video information using link WITHOUT YouTube Data API v3
 dev-python/yt-dlp-ejs 0.8.0: External JavaScript for yt-dlp supporting many runtimes
-dev-python/ytmusicapi 1.11.5 1.12.0: Unofficial API for YouTube Music
+dev-python/ytmusicapi 1.12.0 1.12.1: Unofficial API for YouTube Music
 dev-python/zc-lockfile 4.0: Basic inter-process locks
 dev-python/zconfig 4.3: Configuration library supporting a hierarchical schema-driven model
 dev-python/zeep 4.3.2: A modern/fast Python SOAP client based on lxml / requests
@@ -15232,7 +15233,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.26.0 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.3 10.1.4-r2 10.1.5-r1 10.2.3 10.2.5-r2 10.3.1 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.5.3-r2 10.5.4-r1 10.6.1-r1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.31.9 1.31.10 1.32.0 1.32.1 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.1 1.32.2 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -15388,7 +15389,7 @@ net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
 net-misc/remmina 1.4.40-r2 1.4.40-r3 1.4.41 1.4.41-r1 1.4.42 1.4.43: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73-r1: redirects TCP connections from one IP address and port to another
-net-misc/rsync 3.4.1-r2 3.4.1-r3 3.4.2 3.4.3 9999: File transfer program to keep remote files into sync
+net-misc/rsync 3.4.1-r2 3.4.1-r3 3.4.2 3.4.3 3.4.4 9999: File transfer program to keep remote files into sync
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
@@ -17642,7 +17643,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
@@ -18245,7 +18246,7 @@ www-apps/jekyll-coffeescript 2.0.0-r1: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r2: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 10.11.10: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 10.11.11: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
