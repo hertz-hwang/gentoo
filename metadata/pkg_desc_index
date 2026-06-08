@@ -2430,7 +2430,7 @@ app-emulation/uxn 0_p20250122 9999: An assembler and emulator for the Uxn stack-
 app-emulation/vagrant 2.4.0-r2 2.4.1-r1 2.4.9-r1: A tool for building and distributing development environments
 app-emulation/vendor-reset 0.1.1_pre20221205-r1 0.1.1_pre20221205-r2 9999: Linux kernel vendor specific hardware reset module
 app-emulation/vice 3.10: Versatile Commodore Emulator
-app-emulation/virt-firmware 25.10 25.12 26.2 26.5.4: Tools for ovmf/armvirt firmware volumes
+app-emulation/virt-firmware 26.2-r1 26.5.4: Tools for ovmf/armvirt firmware volumes
 app-emulation/virt-manager 5.1.0-r1 9999: Desktop tool for managing libvirt virtual machines
 app-emulation/virt-v2v 2.6.0 2.10.0: Tool to convert guests from foreign hypervisors to run on KVM
 app-emulation/virt-viewer 11.0-r1: Graphical console client for connecting to virtual machines
@@ -5291,7 +5291,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.29 8.2.30 8.2.31 8.3.26 8.3.29 8.3.31 8.4.21 8.5.6: The PHP language runtime engine
+dev-lang/php 8.2.29 8.2.30 8.2.31 8.3.26 8.3.29 8.3.31 8.4.21 8.5.7: The PHP language runtime engine
 dev-lang/pico8 0.2.6b 0.2.7: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.22 2.7.7.3.23 3.11.7.3.22-r1 3.11.7.3.23-r1: A fast, compliant alternative implementation of the Python (3.11) language
@@ -14334,7 +14334,7 @@ media-video/gpac 2.4.0-r1: Implementation of the MPEG-4 Systems standard develop
 media-video/guvcview 2.2.1 2.2.2: Simple Qt6 or GTK+3 interface for capturing and viewing video from v4l2 devices
 media-video/h264enc 10.4.7-r1: Script to encode H.264/AVC/MPEG-4 Part 10 formats
 media-video/handbrake 1.10.2 1.11.1-r1 9999: Open-source, GPL-licensed, multiplatform, multithreaded video transcoder
-media-video/haruna 1.7.1-r1 1.8.1: Video player built with Qt/QML and libmpv
+media-video/haruna 1.7.1-r2 1.8.1-r1: Video player built with Qt/QML and libmpv
 media-video/harvid 0.9.1: HTTP Ardour Video Daemon
 media-video/hevc-hm 17.0: HEVC HM reference software
 media-video/imagination 3.6: Simple DVD slideshow maker
@@ -15588,7 +15588,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 2.8.11 2.8.18 2.8.23 2.8.24 2.8.9999 3.0.5 3.0.14 3.0.22 3.0.23 3.0.9999 3.2.9 3.2.18 3.2.19 3.2.9999 3.3.5 3.3.9 3.3.10 3.3.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 2.8.11 2.8.18 2.8.24 2.8.9999 3.0.5 3.0.14 3.0.23 3.0.9999 3.2.9 3.2.19 3.2.9999 3.3.5 3.3.10 3.3.9999 3.4.0 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -17827,7 +17827,7 @@ sys-fs/zfs-kmod 2.1.16 2.2.8 2.2.9 2.3.3 2.3.4 2.3.5 2.3.6 2.3.7 2.4.0_rc2-r1: L
 sys-kernel/asahi-sources 6.19.14_p2 7.0.9_p2: Asahi Linux kernel sources
 sys-kernel/cryptodev 1.14 9999: device that allows access to Linux kernel cryptographic drivers
 sys-kernel/dkms 3.2.2 3.3.0 3.4.0 3.4.1 9999: Dynamic Kernel Module Support
-sys-kernel/dracut 108-r6 110-r5 111 9999: Generic initramfs generation tool
+sys-kernel/dracut 110-r5 111 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.6.141_p1 6.6.142 6.12.91_p1 6.12.92 6.18.33_p1 6.18.34 7.0.10_p1 7.0.11: Linux kernel built with Gentoo patches
@@ -17837,7 +17837,7 @@ sys-kernel/gentoo-sources 5.10.257-r1 5.10.258 5.15.208-r1 5.15.209 6.1.174-r1 6
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5 7.1_rc6 7.1_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
-sys-kernel/installkernel 63 65 66 67 68 9999: Gentoo fork of installkernel script from debianutils
+sys-kernel/installkernel 67 68 9999: Gentoo fork of installkernel script from debianutils
 sys-kernel/kci-dev 0.1.6 0.1.10: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
