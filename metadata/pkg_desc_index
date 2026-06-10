@@ -8366,7 +8366,7 @@ dev-python/cwcwidth 0.1.12: Python bindings for wc(s)width
 dev-python/cycler 0.12.1: Composable style cycles
 dev-python/cypari2 2.2.4: Cython interface to PARI
 dev-python/cysignals 1.12.6: Interrupt and signal handling for Cython
-dev-python/cython 3.2.4 3.2.5: A Python to C compiler
+dev-python/cython 3.2.4 3.2.5-r1: A Python to C compiler
 dev-python/cython-test-exception-raiser 26.4.1: A trivial extension that just raises an exception (for testing)
 dev-python/daemonize 2.5.0-r1: Library for writing system daemons in Python
 dev-python/dasbus 1.7: DBus library in Python 3
@@ -10813,7 +10813,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.162: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.172: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
@@ -12580,7 +12580,7 @@ llvm-core/clang-linker-config 16 17 18 19 20 21 22 23: Default linker configurat
 llvm-core/clang-toolchain-symlinks 16-r2 17 18 19 20 21 22 23: Symlinks to use Clang on GCC-free system
 llvm-core/flang 21.1.8 22.1.6 22.1.7 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: LLVM's Fortran frontend
 llvm-core/libclc 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.6 22.1.7 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: OpenCL C library
-llvm-core/lld 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.6 22.1.7 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: The LLVM linker (link editor)
+llvm-core/lld 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.6 22.1.7-r1 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 16-r2 17 18 19 20 21 22 23: Symlinks to use LLD on binutils-free system
 llvm-core/lldb 16.0.6-r1 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.6 22.1.7 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: The LLVM debugger
 llvm-core/llvm 16.0.6-r5 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.6 22.1.7 23.0.0_pre20260512 23.0.0_pre20260605 23.0.0.9999: Low Level Virtual Machine
@@ -13407,7 +13407,7 @@ media-libs/libmad 0.15.1b-r10: "M"peg "A"udio "D"ecoder library
 media-libs/libmatemixer 1.26.1 1.28.0: Mixer library for MATE Desktop
 media-libs/libmatroska 1.7.1 1.7.1-r1: Extensible multimedia container format based on EBML
 media-libs/libmediaart 1.9.7: Manages, extracts and handles media art caches
-media-libs/libmediainfo 23.10 24.11: MediaInfo libraries
+media-libs/libmediainfo 24.11: MediaInfo libraries
 media-libs/libmetalink 0.1.3-r3: Library for handling Metalink files
 media-libs/libmikmod 3.3.12 3.3.13: Library to play a wide range of module formats
 media-libs/libmms 0.6.4-r1: Library for accessing Microsoft Media Server (MMS) media streaming protocol
@@ -14351,7 +14351,7 @@ media-video/lxdvdrip 1.77-r1 1.77-r2: Command line tool to automate the process 
 media-video/m2vrequantizer 0.0.2_pre20060306-r1: Tool to requantize mpeg2 videos
 media-video/makemkv 1.18.3: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
 media-video/matroxset 0.4-r2: Matrox utility to switch output modes (activate tvout)
-media-video/mediainfo 23.10-r1 24.11-r1: MediaInfo supplies technical and tag information about media files
+media-video/mediainfo 24.11-r1: MediaInfo supplies technical and tag information about media files
 media-video/mjpegtools 2.2.1-r2: Tools for MJPEG video
 media-video/mjpg-streamer 0_pre20200524-r2: MJPG-streamer takes JPGs from Linux-UVC compatible webcams
 media-video/mkclean 0.8.10-r1: mkclean is a command line tool to clean and optimize Matroska files
@@ -14475,7 +14475,7 @@ net-analyzer/fprobe 1.1-r6 1.1-r7: libpcap-based tool to collect network traffic
 net-analyzer/fragroute 1.2.6-r5: Testing of network intrusion detection systems, firewalls and TCP/IP stacks
 net-analyzer/ftester 1.0: Firewall and Intrusion Detection System testing tool
 net-analyzer/fwlogwatch 1.5-r1: A packet filter and firewall log analyzer
-net-analyzer/gnome-nettool 42.0 42.0-r1: Graphical front-ends to various networking command-line
+net-analyzer/gnome-nettool 42.0-r1: Graphical front-ends to various networking command-line
 net-analyzer/goaccess 1.8.1 1.9.3 9999: A real-time web log analyzer and interactive viewer in a terminal
 net-analyzer/gr-fosphor 0.0_p20260330-r1 9999: gnuradio fosphor block (GPU spectrum display)
 net-analyzer/greenbone-feed-sync 25.1.0 25.2.0: New script for syncing the Greenbone Community Feed
@@ -14890,7 +14890,7 @@ net-irc/quassel 0.14.50_pre20260525 9999: Qt/KDE IRC client supporting a remote 
 net-irc/rbot 0.9.15_p20210609-r1: A ruby IRC bot
 net-irc/rhapsody 0.28b-r1: IRC client intended to be displayed on a text console
 net-irc/scrollz 2.3.1: Advanced IRC client based on ircII
-net-irc/senpai 0.4.1: Modern terminal IRC client. NOTICE me :senpai!
+net-irc/senpai 0.4.1 0.5.0: Modern terminal IRC client. NOTICE me :senpai!
 net-irc/sic 1.3: An extremely simple IRC client
 net-irc/soju 0.9.0 0.10.1: soju is a user-friendly IRC bouncer
 net-irc/telepathy-idle 0.2.2: Full-featured IRC connection manager for Telepathy
@@ -17630,7 +17630,7 @@ sys-cluster/zookeepercli 1.0.11: Simple, lightweight, dependable CLI for ZooKeep
 sys-devel/autogen 5.18.16-r102: Program and text file generation
 sys-devel/bc 1.07.1-r6 1.08.0 1.08.1 1.08.2: Handy console-based calculator utility
 sys-devel/bin86 0.16.21-r2: Assembler and loader used to create kernel bootsector
-sys-devel/binutils 2.32-r2 2.33.1-r1 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r9 2.41-r5 2.42-r2 2.43-r2 2.44-r4 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.9999 9999: Tools necessary to build programs
+sys-devel/binutils 2.32-r2 2.33.1-r1 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r9 2.41-r5 2.42-r2 2.43-r2 2.44-r4 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 2.46.9999 9999: Tools necessary to build programs
 sys-devel/binutils-config 5.5.2 5.5.3 5.6 9999: Utility to change the binutils version being used
 sys-devel/binutils-hppa64 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r2 2.44-r3 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 9999: Tools necessary to build programs
 sys-devel/bison 3.8.2-r2 3.8.2-r3: A general-purpose (yacc-compatible) parser generator
@@ -17862,7 +17862,7 @@ sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized sn
 sys-kernel/zen-sources 7.0.9: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
-sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
+sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
 sys-libs/blocksruntime 0_pre20171027-r2: BlocksRuntime library needed for clang's -fblocks support
 sys-libs/cracklib 2.10.2 2.10.3: Password Checking Library
 sys-libs/db 4.8.30-r8 4.8.30-r9 5.3.28-r9 5.3.28-r10 5.3.28-r11 6.0.35-r4 6.0.35-r5: Oracle Berkeley DB
