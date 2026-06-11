@@ -11481,7 +11481,7 @@ games-emulation/desmume 0.9.13-r1: Nintendo DS emulator
 games-emulation/dgen-sdl 1.33-r1: Linux/SDL-Port of the famous DGen MegaDrive/Genesis-Emulator
 games-emulation/dolphin 2603 9999: Gamecube and Wii game emulator
 games-emulation/dosbox 0.75_pre4302-r1: DOS emulator
-games-emulation/dosbox-staging 0.82.2 0.82.2-r1: Modernized DOSBox soft-fork
+games-emulation/dosbox-staging 0.82.2-r1 0.82.2-r2: Modernized DOSBox soft-fork
 games-emulation/emutos 1.4: Single-user single-tasking operating system for 32-bit Atari computer emulators
 games-emulation/fbzx 4.8.0-r1: Full Screen Sinclair Spectrum emulator
 games-emulation/fceux 2.6.6-r2: Portable Famicom/NES emulator, an evolution of the original FCE Ultra
@@ -12667,7 +12667,7 @@ mail-filter/bmf 0.9.4-r4: Fast and small Bayesian spam filter
 mail-filter/bogofilter 1.2.5-r1: Bayesian spam filter designed with fast algorithms, and tuned for speed
 mail-filter/courier-pythonfilter 3.0.4 3.0.6 3.0.6-r1: Python filtering architecture for the Courier MTA
 mail-filter/couriersrs 0.1.2-r1: SRS (Sender Rewriting Scheme) wrapper for the courier MTA
-mail-filter/dcc 2.3.168-r1: Distributed Checksum Clearinghouse
+mail-filter/dcc 2.3.168-r2 2.3.169: Distributed Checksum Clearinghouse
 mail-filter/dkimproxy 1.4.1: An SMTP proxy server for adding DKIM headers
 mail-filter/exim-geoip 0.1-r1: This is an IPv4 and IPv6 capable GeoIP dlfunc library for Exim
 mail-filter/exim-p0f 0.1-r1: This is p0f version 3 dlfunc library for Exim
