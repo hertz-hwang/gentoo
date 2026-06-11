@@ -1464,7 +1464,7 @@ app-crypt/freepg 2.5.18 2.5.19 2.5.20: Cross-distro GnuPG fork focused on OpenPG
 app-crypt/gcr 3.41.2-r2 4.4.0.1-r1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
-app-crypt/gnupg 2.4.9 2.5.17-r2 2.5.18 2.5.19 2.5.20: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-crypt/gnupg 2.4.9 2.5.17-r2 2.5.18 2.5.19 2.5.20 2.5.20-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -4020,7 +4020,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client lib
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.4 1.49.6: GUI for MongoDB
-dev-db/mycli 1.65.0 1.71.0 1.72.1: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.65.0 1.72.1 1.74.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.44 8.0.45 8.0.46 8.4.8 8.4.9: Fast, multi-threaded, multi-user SQL database server
@@ -12121,8 +12121,8 @@ gnustep-libs/renaissance 0.9.0-r2: GNUstep Renaissance allows to describe user i
 gnustep-libs/sope 5.12.7 5.12.8: A set of frameworks forming a complete Web application server environment
 gnustep-libs/sqlclient 1.9.0: GNUstep lightweight database abstraction layer
 gui-apps/deskflow 1.24.0 1.25.0 1.26.0 9999: Share a mouse and keyboard between computers (FOSS version of Synergy)
-gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1: Fast, lightweight and minimalistic Wayland terminal emulator
-gui-apps/foot-terminfo 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1 1.20.2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1: Terminfo for foot, a fast, lightweight and minimal Wayland terminal emulator
+gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Fast, lightweight and minimalistic Wayland terminal emulator
+gui-apps/foot-terminfo 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1 1.20.2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Terminfo for foot, a fast, lightweight and minimal Wayland terminal emulator
 gui-apps/gnome-console 48.1 49.1 49.2: A simple user-friendly terminal emulator for the GNOME desktop
 gui-apps/grim 1.5.0 9999: Grab images from a Wayland compositor
 gui-apps/gtkgreet 0.8 9999: gtk based greeter for greetd
@@ -13378,7 +13378,7 @@ media-libs/libggiwmh 0.3.2-r1 0.3.2-r2: Window manager hints extensions for libg
 media-libs/libgig 4.3.0 4.4.1 9999: C++ library for loading Gigasampler and DLS level 1/2 files
 media-libs/libgii 1.0.2-r4: Easy to use, but yet powerful, API for all possible input sources
 media-libs/libglvnd 1.7.0 9999: The GL Vendor-Neutral Dispatch library
-media-libs/libgphoto2 2.5.32 2.5.33: Library that implements support for numerous digital cameras
+media-libs/libgphoto2 2.5.32 2.5.33 2.5.34: Library that implements support for numerous digital cameras
 media-libs/libgpod 0.8.3-r9: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1 2.4.5 2.4.5-r1 2.4.6: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
@@ -14201,7 +14201,7 @@ media-sound/sidplay 2.0.9-r2: C64 SID player
 media-sound/sidplayfp 2.12.0 2.14.1 3.0.0: Sidplay2 fork with resid-fp
 media-sound/smixer 1.0.4: command-line tool for setting and viewing mixer settings
 media-sound/snapcast 0.34.0 0.35.0: Synchronous multi-room audio player
-media-sound/snd 25.6: Sound editor
+media-sound/snd 25.6 26.4: Sound editor
 media-sound/sndfile-tools 1.5 9999: Small collection of programs that use libsndfile
 media-sound/sndio 1.10.0 9999: Small audio and MIDI framework part of the OpenBSD project
 media-sound/sndpeek 1.41-r1: real-time audio visualization
@@ -15663,7 +15663,7 @@ net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6: IPsec-based VPN solution, support
 net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1 1.98.4 1.100.0: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.8 0.4.9.9 9999: Anonymizing overlay network for TCP
-net-vpn/vopono 0.10.15 0.10.16: Launch applications via VPN tunnels using temporary network namespaces
+net-vpn/vopono 0.10.15 0.10.16 0.10.17: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
 net-vpn/vpncloud 2.3.0-r2: High performance peer-to-peer mesh VPN
@@ -17705,7 +17705,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.25.2 1.37.4 1.38.2 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.19.1 7.0 9999: Btrfs filesystem utilities
@@ -17996,7 +17996,7 @@ sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
 sys-process/daemontools-encore 1.11-r2: Collection of tools for managing UNIX services
 sys-process/dcron 4.6: Dillon's lightweight and minimalist cron daemon
 sys-process/dumb-init 1.2.5-r1: A minimal init system for Linux containers
-sys-process/evisum 0.6.4 1.0.1 1.2.0 1.2.2 2.0.4 2.0.9: System and process monitor written with EFL
+sys-process/evisum 0.6.4 1.2.5 2.0.11: System and process monitor written with EFL
 sys-process/fcron 3.4.0 3.4.0-r1: A command scheduler with extended capabilities over cron and anacron
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1 4.5.4: CLI curses based monitoring tool
