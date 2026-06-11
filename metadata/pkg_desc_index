@@ -13104,7 +13104,7 @@ media-gfx/loupe 48.1-r2 49.2: View images
 media-gfx/lximage-qt 2.3.0 2.4.0: Qt Image Viewer
 media-gfx/maim 5.8.1 5.8.1-r1: Commandline tool to take screenshots of the desktop
 media-gfx/mandelbulber 2.33: Tool to render 3D fractals
-media-gfx/mcomix 3.1.0 3.1.1 9999: GTK image viewer for comic book archives
+media-gfx/mcomix 3.1.1-r1 9999: GTK image viewer for comic book archives
 media-gfx/metapixel 1.0.2-r2 1.0.2-r3: a program for generating photomosaics
 media-gfx/mkbold-mkitalic 0.11: Make BDF fonts bold and/or italic
 media-gfx/mkgallery 1.1-r1: Creates thumbnails and a HTML index file for a directory of jpg files
@@ -18258,7 +18258,7 @@ www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition deve
 www-apps/mediawiki 1.43.6 1.43.8 1.44.3 1.44.5 1.45.1 1.45.3: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.2.14-r1 2.2.17-r1: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
-www-apps/moodle 4.5.11 5.0.7: The Moodle Course Management System
+www-apps/moodle 4.5.12 5.0.8: The Moodle Course Management System
 www-apps/mythweb 0.28.1-r2 34.0: PHP scripts intended to manage MythTV from a web browser
 www-apps/nanoc 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-checking 1.0.6: Provides checking functionality for Nanoc
