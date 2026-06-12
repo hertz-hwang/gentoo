@@ -1778,7 +1778,7 @@ app-doc/diveintopython 3-r2: 'Dive Into Python' by Mark Pilgrim - Python 3
 app-doc/e16-docs 0.16.8.0.2-r2: The E16 online help
 app-doc/eclass-manpages 20260426 99999999: Collection of Gentoo eclass manpages
 app-doc/elisp-manual 18.1.03-r1 19.2.4.2-r1 20.2.5-r1 21.2.8-r3 22.2.9-r1 23.4-r1 24.5-r1 25.3-r1 26.3-r1 27.2-r1 28.2-r1 29.4-r1: The GNU Emacs Lisp Reference Manual
-app-doc/execline-man-pages 2.9.6.1.1: mdoc port of the HTML documentation for the execline suite
+app-doc/execline-man-pages 2.9.6.1.1 2.9.9.1.1: mdoc port of the HTML documentation for the execline suite
 app-doc/geant-docs 4.11.4: User documentation for Geant4 physics simulation toolkit
 app-doc/gimp-help 2.10.34-r2 3.0.2: GNU Image Manipulation Program help files
 app-doc/gnu-c-intro-ref 0.1 9999: GNU C Language Intro and Reference Manual
@@ -1799,11 +1799,11 @@ app-doc/phrack-all 72: Hacker magazine by the community, for the community (all 
 app-doc/pms 8_p20210613-r1 9_p20251214 9999: Gentoo Package Manager Specification (draft)
 app-doc/pms-bin 8_p20210613-r1 9_p20251214: Gentoo Package Manager Specification
 app-doc/python-docs 2.7.18 3.8.20 3.9.25 3.10.20 3.11.15 3.12.13 3.13.14 3.14.6: HTML documentation for Python
-app-doc/s6-linux-init-man-pages 1.1.2.1.1: mdoc port of the HTML documentation for the s6-linux-init suite
-app-doc/s6-man-pages 2.13.1.0.1: mdoc port of the HTML documentation for the s6 suite
-app-doc/s6-networking-man-pages 2.7.0.4.1: mdoc port of the HTML documentation for the s6 suite
-app-doc/s6-portable-utils-man-pages 2.3.0.4.1: mdoc port of the HTML documentation for the s6-portable-utils suite
-app-doc/s6-rc-man-pages 0.5.5.0.1: mdoc port of the HTML documentation for the s6-rc suite
+app-doc/s6-linux-init-man-pages 1.1.2.1.1 1.2.0.0.2: mdoc port of the HTML documentation for the s6-linux-init suite
+app-doc/s6-man-pages 2.13.1.0.1 2.14.0.1.4: mdoc port of the HTML documentation for the s6 suite
+app-doc/s6-networking-man-pages 2.7.0.4.1 2.7.2.1.4: mdoc port of the HTML documentation for the s6 suite
+app-doc/s6-portable-utils-man-pages 2.3.0.4.1 2.3.1.1.2: mdoc port of the HTML documentation for the s6-portable-utils suite
+app-doc/s6-rc-man-pages 0.5.5.0.1 0.6.0.0.1: mdoc port of the HTML documentation for the s6-rc suite
 app-doc/selflinux 0.13.0-r1: A german-language hypertext tutorial about Linux
 app-doc/single-unix-specification 4_p2 4_p2018 5-r2: The Single UNIX Specification, Version 5, 2024 Edition
 app-doc/tldp-howto 20120707: The Linux Documentation Project HOWTOs
@@ -2020,10 +2020,10 @@ app-emacs/editorconfig-emacs 0.11.0: EditorConfig plugin for emacs
 app-emacs/ef-themes 2.0.0 2.0.1 2.1.0 9999: Colourful and legible themes for GNU Emacs
 app-emacs/eimp 1.4.0-r1: Emacs Image Manipulation Package
 app-emacs/el-mock 1.25.1: Mocking library for Emacs
-app-emacs/eldev 1.11.1 9999: Emacs Lisp Development Tool
+app-emacs/eldev 1.11.1 1.11.2 9999: Emacs Lisp Development Tool
 app-emacs/eldoc-box 1.11.1 1.12.1 1.13.2 1.14.1 9999: Child frame doc for Eglot and anything that uses ElDoc
-app-emacs/elfeed 3.4.2-r1 4.0.0: Emacs web feeds client
-app-emacs/elfeed-protocol 0.9.0 0.9.1: Provide extra news client subscription protocols for elfeed
+app-emacs/elfeed 3.4.2-r1 4.0.0 4.0.1: Emacs web feeds client
+app-emacs/elfeed-protocol 0.9.1 1.0.0: Provide extra news client subscription protocols for elfeed
 app-emacs/elixir-mode 2.5.0: Emacs major mode for editing Elixir files
 app-emacs/elm-mode 0.22.0_p20250401: Major mode for the Elm programming language
 app-emacs/elpa-mirror 2.2.2 2.3.0: Create local package repository from installed Emacs Lisp packages
@@ -2284,7 +2284,7 @@ app-emacs/session 2.4b-r1: When you start Emacs, Session restores various variab
 app-emacs/setnu 1.06: Display line numbers in Emacs buffers
 app-emacs/setup 1.4.0 1.5.0: Macro to simplify repetitive configuration patterns
 app-emacs/sharper 1.0_p20230129-r1: .NET SDK CLI wrapper for GNU Emacs using Transient
-app-emacs/shell-maker 0.91.2-r1 0.92.2 9999: Interaction mode for making comint shells for GNU Emacs
+app-emacs/shell-maker 0.91.2-r1 0.92.2 0.93.1 9999: Interaction mode for making comint shells for GNU Emacs
 app-emacs/shell-split-string 0.1: Split Strings Using Shell-Like Syntax
 app-emacs/shrink-path 0.3.1: Fish-style path truncation for GNU Emacs
 app-emacs/shut-up 0.3.3: Reduce Emacs output of messages
@@ -2358,7 +2358,7 @@ app-emacs/xclip 1.11-r1 1.11.1: Emacs Interface to XClip
 app-emacs/xelb 0.21 0.22: X protocol Emacs Lisp Binding
 app-emacs/xrdb-mode 3.0-r1: An Emacs major mode for editing X resource database files
 app-emacs/xslide 0.2.2-r1: An Emacs major mode for editing XSL stylesheets and running XSL processes
-app-emacs/yaml 1.2.3: YAML parser in Emacs Lisp
+app-emacs/yaml 1.2.3 1.2.4: YAML parser in Emacs Lisp
 app-emacs/yaml-mode 0.0.16-r1: A major mode for GNU Emacs for editing YAML files
 app-emacs/yasnippet 0.14.3_p20250604: Yet another snippet extension for Emacs
 app-emacs/yasnippet-snippets 1.1: A collection of yasnippet snippets for many languages
@@ -3155,7 +3155,7 @@ app-shells/nushell 0.110.0 0.111.0 0.112.1 0.113.0: A new type of shell, written
 app-shells/pdmenu 1.3.6 1.3.6-r1 1.3.6-r2: A simple console menu program
 app-shells/pdsh 2.34-r2 2.35: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
-app-shells/platyps 0.14.2-r1: Generate PowerShell external help files from Markdown
+app-shells/platyps 0.14.2-r1 1.0.1: Generate PowerShell external help files from Markdown
 app-shells/posh 0.14.5: Reimplementation of Bourne shell based on pdksh
 app-shells/posh-dotnet 1.2.3: PowerShell tab completion and tooltip support for the dotnet CLI
 app-shells/posh-git 1.1.0: A PowerShell environment for Git
@@ -5231,7 +5231,7 @@ dev-lang/elixir 1.16.2 1.16.3 1.17.2 1.17.3 1.18.4 1.19.4 1.19.5 1.20.0: Elixir 
 dev-lang/elpi 1.19.6-r1 2.0.7: Embeddable Lambda Prolog Interpreter in OCaml
 dev-lang/erlang 26.2.1-r1 26.2.5.16 26.2.5.20 27.3.4.6 27.3.4.11 28.1 28.2 28.3 28.3.1 28.5 29.0: Erlang programming language, runtime environment and libraries (OTP)
 dev-lang/esco 0.513: Combine interpreter of esoteric languages
-dev-lang/execline 2.9.7.0 2.9.8.0 2.9.8.1: A non-interactive scripting language
+dev-lang/execline 2.9.7.0 2.9.8.0 2.9.8.1 2.9.9.1: A non-interactive scripting language
 dev-lang/f2c 20240312: Fortran to C converter
 dev-lang/fennel 1.4.2-r1 1.5.3 1.6.0 1.6.1: Lisp-like language that compiles to Lua
 dev-lang/fpc 3.2.2: Free Pascal Compiler
@@ -5849,7 +5849,7 @@ dev-libs/sexpp 0.9.2: S-expressions parser and generator library in C++
 dev-libs/shhopt 1.1.7-r3: library for parsing command line options
 dev-libs/simde 0.8.2: Header-only library providing implementations of SIMD instruction sets
 dev-libs/simdjson 3.13.0-r1 4.2.4 4.3.0 4.4.2 4.5.0 4.6.1 4.6.2: SIMD accelerated C++ JSON library
-dev-libs/skalibs 2.14.4.0 2.14.5.0 2.14.5.1: General-purpose libraries from skarnet.org
+dev-libs/skalibs 2.14.4.0 2.14.5.0 2.14.5.1 2.15.0.0: General-purpose libraries from skarnet.org
 dev-libs/sleef 3.8 3.9.0: Implements vectorized versions of C standard math functions
 dev-libs/sltdl 0.5.1 0.5.2 9999: A surrogate ltdl implementation
 dev-libs/snowball-stemmer 2.2.0 3.0.1 3.1.0 3.1.1: Snowball compiler and stemming algorithms
@@ -8392,7 +8392,7 @@ dev-python/dirty-equals 0.10.0 0.11.0: Doing dirty (but extremely useful) things
 dev-python/discid 1.4.0: Python bindings for libdiscid
 dev-python/diskcache 5.6.3: Disk and file backed cache
 dev-python/dissononce 0.34.3-r3: A python implementation for Noise Protocol Framework
-dev-python/distlib 0.4.0 0.4.0-r1 0.4.1: Low-level components of distutils2/packaging
+dev-python/distlib 0.4.0 0.4.0-r1 0.4.1 0.4.3: Low-level components of distutils2/packaging
 dev-python/distro 1.9.0: Reliable machine-readable Linux distribution information for Python
 dev-python/dj-database-url 3.0.1 3.1.2: Use Database URLs in your Django Application
 dev-python/dj-email-url 1.0.6: Use an URL to configure email backend settings in your Django Application
@@ -8574,7 +8574,7 @@ dev-python/hatch-jupyter-builder 0.9.1-r1: A hatch plugin to help build Jupyter 
 dev-python/hatch-nodejs-version 0.4.0: Hatch plugin for versioning from a package.json file
 dev-python/hatch-vcs 0.5.0: Hatch plugin for versioning with your preferred VCS
 dev-python/hatchling 1.29.0 1.30.0 1.30.1: Modern, extensible Python build backend
-dev-python/hcloud 2.20.0: Official Hetzner Cloud python library
+dev-python/hcloud 2.20.0 2.21.0: Official Hetzner Cloud python library
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.3.1 3.4.0: Python extension that wraps hiredis
@@ -8794,7 +8794,7 @@ dev-python/markdown2 2.5.5-r1: Python Markdown language reimplementation
 dev-python/markups 4.1.1: A wrapper around various text markups
 dev-python/markupsafe 3.0.3: Implements a XML/HTML/XHTML Markup safe string for Python
 dev-python/marshmallow 4.3.0: A library for converting to and from native Python datatypes
-dev-python/matplotlib 3.10.9 3.11.0_rc2: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.10.9 3.11.0_rc2 3.11.0: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.2.1 0.2.2: Inline Matplotlib backend for Jupyter
 dev-python/matplotlib-venn 1.1.2: Plot area-proportional two- and three-way Venn diagrams in matplotlib
 dev-python/matrix-common 1.3.0-r1: Common code for Synapse, Sydent and Sygnal
@@ -9568,7 +9568,7 @@ dev-python/sshpubkeys 3.3.1-r2: OpenSSH public key parser for Python
 dev-python/sshtunnel 0.4.0-r2: Pure Python SSH tunnels
 dev-python/stack-data 0.6.3-r1: Extract data from Python tracebacks for informative displays
 dev-python/stapler 1.0.0_p20220330-r4: Suite of tools for PDF files manipulation written in Python
-dev-python/starlette 1.0.0 1.0.1 1.1.0 1.2.0 1.2.1 1.3.0: The little ASGI framework that shines
+dev-python/starlette 1.0.0 1.0.1 1.1.0 1.2.0 1.2.1 1.3.0 1.3.1: The little ASGI framework that shines
 dev-python/statsd 4.0.1: A simple statsd client
 dev-python/statsmodels 0.14.6: Statistical computations and models for use with SciPy
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
@@ -10784,7 +10784,7 @@ dev-util/buildbot-wsgi-dashboards 3.11.0 3.11.1 3.11.9 4.1.0: Buildbot plugin to
 dev-util/buildbot-www 3.11.0 3.11.1 3.11.9 4.1.0: BuildBot base web interface, use with buildbot-{console-view,waterfall-view}...
 dev-util/buildbot-www-react 3.11.0 3.11.1 3.11.9: BuildBot base web interface, use with buildbot-react-{console-view,grid-view}...
 dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
-dev-util/cargo-audit 0.21.1 0.21.2 0.22.0 0.22.1: Audit Cargo.lock for crates with security vulnerabilities
+dev-util/cargo-audit 0.22.0 0.22.1 0.22.2: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20 0.10.21 0.10.22-r1: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
 dev-util/cargo-nextest 0.9.132 0.9.133 0.9.135 0.9.137: Next-generation test runner for Rust
@@ -14733,7 +14733,7 @@ net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zone
 net-dns/redis-knot 3.5.3 3.5.4: Redis module for Knot DNS
 net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
-net-dns/s6-dns 2.4.1.0 2.4.1.1: Suite of DNS client programs and libraries for Unix systems
+net-dns/s6-dns 2.4.1.0 2.4.1.1 2.4.1.2: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 47 47.1: A local DNS server returns the fastest access results
 net-dns/unbound 1.25.1: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
@@ -15384,7 +15384,7 @@ net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
 net-misc/rygel 45.0 45.1 45.2: Rygel is an open source UPnP/DLNA MediaServer
 net-misc/s3cmd 2.4.0: Command line client for Amazon S3
 net-misc/s4cmd 2.1.0-r3: Super S3 command line tool
-net-misc/s6-networking 2.7.1.0 2.7.2.0 2.7.2.1: Suite of small networking utilities for Unix systems
+net-misc/s6-networking 2.7.1.0 2.7.2.0 2.7.2.1 2.8.0.0: Suite of small networking utilities for Unix systems
 net-misc/samplicator 1.3.6-r1 1.3.8_rc1-r1: UDP packets forwarder and duplicator
 net-misc/scponly 4.8-r9: A tiny pseudoshell which only permits scp and sftp
 net-misc/seafile 9.0.13 9.0.15 9.0.16 9.0.18: File syncing and sharing software with file encryption and group sharing
@@ -15799,7 +15799,7 @@ sci-biology/abyss 2.3.4: Assembly By Short Sequences - a de novo, parallel, pair
 sci-biology/amap 2.2-r6: Protein multiple-alignment-based sequence annealing
 sci-biology/augustus 3.4.0-r3 3.5.0: Eukaryotic gene predictor
 sci-biology/bamtools 2.5.3 9999: A programmer's API and an end-user's toolkit for handling BAM files
-sci-biology/bcftools 1.20 1.21 1.22 1.23: Utilities for variant calling and manipulating VCF and BCF files
+sci-biology/bcftools 1.20 1.21 1.22 1.23 1.23.1: Utilities for variant calling and manipulating VCF and BCF files
 sci-biology/bedtools 2.31.1: Tools for manipulation and analysis of BED, GFF/GTF, VCF, SAM/BAM file formats
 sci-biology/bfast 0.7.0a-r1: Blat-like Fast Accurate Search Tool
 sci-biology/biogrep 1.0-r3: Multithreaded tool for matching large sets of patterns against biosequence DBs
@@ -15883,7 +15883,7 @@ sci-biology/pysam 0.23.3 0.24.0 9999: Python interface for the SAM/BAM sequence 
 sci-biology/raxml 8.2.13: Sequential, Parallel & Distributed Inference of Large Phylogenetic Trees
 sci-biology/rebase 1901-r2: A restriction enzyme database
 sci-biology/recon 1.08-r1: Automated de novo identification of repeat families from genomic sequences
-sci-biology/samtools 1.20 1.21 1.22 1.22.1 1.23: Utilities for analysing and manipulating the SAM/BAM alignment formats
+sci-biology/samtools 1.20 1.21 1.22 1.22.1 1.23 1.23.1: Utilities for analysing and manipulating the SAM/BAM alignment formats
 sci-biology/seaview 4.6-r2: A graphical multiple sequence alignment editor
 sci-biology/seqan 3.1.0: C++ Sequence Analysis Library
 sci-biology/sibsim4 0.20: A rewrite and improvement upon sim4, a DNA-mRNA aligner
@@ -16152,7 +16152,7 @@ sci-libs/hipRAND 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: CU / ROCM agnostic hip RAND impl
 sci-libs/hipSOLVER 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: CU / ROCM agnostic marshalling library for LAPACK routines on the GPU
 sci-libs/hipSPARSE 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: ROCm SPARSE marshalling library
 sci-libs/hipsparselt 7.2.0: Sparse GEMM operations library for AMD Instinct accelerators
-sci-libs/htslib 1.20 1.21 1.22 1.22.1 1.23: C library for high-throughput sequencing data formats
+sci-libs/htslib 1.20 1.21 1.22 1.22.1 1.23 1.23.1: C library for high-throughput sequencing data formats
 sci-libs/hypre 2.32.0 2.33.0 3.1.0: Parallel matrix preconditioners library
 sci-libs/idlcoyote 20161220-r1 99999999: GDL library from D. Fannings IDL courses
 sci-libs/idlmarkwardt 20160319-r1: Craig Markwardt IDL procedures (MPFIT, CMSVLIB, etc)
@@ -17321,12 +17321,12 @@ sys-apps/rng-tools 6.16-r2 6.17-r1: Daemon to use hardware random number generat
 sys-apps/roccat-tools 5.9.0-r102: Utility for advanced configuration of Roccat devices
 sys-apps/rootlesskit 2.0.2: Linux-native "fake root" for implementing rootless containers
 sys-apps/s390-tools 2.12.0-r1 2.27.0-r1 2.40.0-r1: User space utilities for the zSeries (s390) Linux kernel and device drivers
-sys-apps/s6 2.13.2.0 2.14.0.0 2.14.0.1: skarnet.org's small and secure supervision software suite
-sys-apps/s6-frontend 0.0.1.1-r1: Frontend to the s6 init system
-sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1: Generates an init binary for s6-based init systems
+sys-apps/s6 2.13.2.0 2.14.0.0 2.14.0.1 2.15.0.0: skarnet.org's small and secure supervision software suite
+sys-apps/s6-frontend 0.0.1.1-r1 0.0.1.2: Frontend to the s6 init system
+sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1 1.2.0.1: Generates an init binary for s6-based init systems
 sys-apps/s6-linux-utils 2.6.3.0 2.6.4.0: Set of tiny linux utilities
-sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1: Set of tiny portable unix utilities
-sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1: Service manager for the s6 supervision suite
+sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1 2.3.1.2: Set of tiny portable unix utilities
+sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1 0.6.1.1: Service manager for the s6 supervision suite
 sys-apps/sandbox 2.46 2.47 2.48 2.49 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
 sys-apps/secilc 3.8.1 3.9 3.10 9999: SELinux Common Intermediate Language (CIL) Compiler
@@ -17821,7 +17821,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.6.141_p1 6.6.142 6.12.91_p1 6.12.92 6.12.93 6.18.33_p1 6.18.34 6.18.35 7.0.10_p1 7.0.11 7.0.12: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.6.141_p1 6.6.142 6.12.91_p1 6.12.92 6.12.93 6.18.33_p1 6.18.34 6.18.35 7.0.10_p1 7.0.11 7.0.12: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 7.0.10_p1 7.0.11: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel-modprep 7.0.10_p1 7.0.11 7.0.12: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.141-r1 6.6.142 6.12.93-r1 6.18.35-r1 7.0.12-r1: Full sources including the Gentoo patchset for the 7.0 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5 7.1_rc6 7.1_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
