@@ -13,7 +13,7 @@ if [[ ${PV} == 9999* ]]; then
 	EGIT_REPO_URI="https://github.com/podman-container-tools/skopeo.git"
 else
 	SRC_URI="https://github.com/podman-container-tools/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="amd64 arm64"
+	KEYWORDS="~amd64 ~arm64"
 fi
 
 # main
@@ -31,7 +31,10 @@ DEPEND="
 RDEPEND="${DEPEND}
 	app-containers/containers-common
 "
-BDEPEND="dev-go/go-md2man"
+BDEPEND="
+	dev-go/go-md2man
+	>=dev-lang/go-1.25.6
+"
 
 pkg_setup() {
 	use btrfs && CONFIG_CHECK+=" ~BTRFS_FS"
