@@ -2449,7 +2449,7 @@ app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and ic
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 11.0.1_beta5 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 11.0 11.8 11.9 11.10 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 11.0 11.8 11.9 11.10 11.11 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.8 11.9 11.10 11.11 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
@@ -2582,7 +2582,7 @@ app-i18n/librime 1.13.1 1.14.0 1.15.0 1.16.1: RIME (Rime Input Method Engine) co
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
 app-i18n/libskk 1.1.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
 app-i18n/man-pages-ja 20180315-r2 20260115-r2 20260515: Collection of manual pages translated into Japanese
-app-i18n/man-pages-l10n 4.29.1 4.30.0-r1: A somewhat comprehensive collection of man page translations
+app-i18n/man-pages-l10n 4.29.1 4.30.0-r1 4.30.2: A somewhat comprehensive collection of man page translations
 app-i18n/man-pages-ru 5.03.2390.2390.20191017-r1: A collection of Russian translations of Linux manual pages
 app-i18n/man-pages-zh_CN 1.6.4.2-r1: A somewhat comprehensive collection of Chinese Linux man pages
 app-i18n/mecab-skkserv 0.03-r1: mecab-skkserv is a Kana-Kanji conversion server using MeCab
@@ -8445,7 +8445,7 @@ dev-python/elastic-transport 9.2.1 9.4.1: Transport classes and utilities shared
 dev-python/elasticsearch 9.3.0 9.4.1: Official Elasticsearch client library for Python
 dev-python/electrum-aionostr 0.1.0: asyncio nostr client
 dev-python/electrum-ecc 0.0.7: Pure python ctypes wrapper for libsecp256k1
-dev-python/elementpath 5.1.1: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
+dev-python/elementpath 5.1.1 5.1.2: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
 dev-python/email-validator 2.3.0: A robust email syntax and deliverability validation library
 dev-python/emcee 3.1.6: Python ensemble sampling toolkit for affine-invariant MCMC
 dev-python/emoji 2.15.0: Emoji for Python
@@ -8485,7 +8485,7 @@ dev-python/ffmpeg-python 0.2.0_p20220711-r1: Python bindings for FFmpeg with com
 dev-python/fido2 0.9.3-r1 2.1.1 2.2.0: Python based FIDO 2.0 library
 dev-python/fields 5.0.0-r3: Container class boilerplate killer
 dev-python/filebytes 0.10.2 9999: Classes/Types to read and edit executable files
-dev-python/filelock 3.28.0 3.29.0 3.29.1 3.29.3: A platform independent file lock for Python
+dev-python/filelock 3.28.0 3.29.0 3.29.1 3.29.3 3.29.4: A platform independent file lock for Python
 dev-python/filetype 1.2.0: Small, dependency-free, fast Python package to infer binary file types checking
 dev-python/findimports 3.0.0: Python module import analysis tool
 dev-python/findpython 0.7.1 0.8.0: A utility to find python versions on your system
@@ -8963,7 +8963,7 @@ dev-python/pdoc3 0.11.6: Auto-generate API documentation for Python projects
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
 dev-python/pebble 5.2.0: Threading and multiprocessing eye-candy
 dev-python/pecan 1.8.0: A WSGI object-dispatching web framework, lean, fast, with few dependencies
-dev-python/peewee 4.0.5 4.0.6 4.0.7: Small Python ORM
+dev-python/peewee 4.0.5 4.0.6 4.0.7 4.0.8: Small Python ORM
 dev-python/pefile 2024.8.26 9999: Module to read and work with Portable Executable (PE) files
 dev-python/pelican-minify 2.0.2: An HTML minification plugin for Pelican, the static site generator
 dev-python/pexpect 4.9.0: Python module for spawning child apps and responding to expected patterns
@@ -9090,7 +9090,7 @@ dev-python/pygame 2.6.1: Python bindings for SDL multimedia library
 dev-python/pygccxml 3.0.2: A specialized XML reader to navigate C++ declarations
 dev-python/pygdbmi 0.11.0.0: Library to parse gdb mi output and interact with gdb subprocesses
 dev-python/pyghmi 1.6.17: A pure python implementation of IPMI protocol
-dev-python/pygit2 1.19.2: Python bindings for libgit2
+dev-python/pygit2 1.19.2 1.19.3: Python bindings for libgit2
 dev-python/pygithub 2.9.0 2.9.1: Python library to access the Github API v3
 dev-python/pyglet 2.1.14: Cross-platform windowing and multimedia library for Python
 dev-python/pygments 2.19.2: Pygments is a syntax highlighting package written in Python
@@ -9152,7 +9152,7 @@ dev-python/pypresence 4.6.1: Complete Discord IPC and Rich Presence wrapper libr
 dev-python/pyprof2calltree 1.4.5-r1: Convert python profile data to kcachegrind calltree form
 dev-python/pyproj 3.7.2: Python interface to the PROJ library
 dev-python/pyproject-api 1.10.0 1.10.1: API to interact with the python pyproject.toml based projects
-dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2 2.24.0: Format your pyproject.toml file
+dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2 2.24.0 2.24.1: Format your pyproject.toml file
 dev-python/pyproject-hooks 1.2.0: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0: PEP 621 metadata parsing
 dev-python/pypugjs 6.0.2 6.0.3: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
@@ -9164,7 +9164,7 @@ dev-python/pyqt6-sip 13.11.1: sip module support for PyQt6
 dev-python/pyqt6-webengine 6.10.0 6.11.0: Python bindings for QtWebEngine
 dev-python/pyqtgraph 0.14.0: A pure-python graphics and GUI library built on PyQt and numpy
 dev-python/pyquery 2.0.1: A jQuery-like library for python
-dev-python/pyrate-limiter 4.2.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
+dev-python/pyrate-limiter 4.2.0 4.3.1: Python Rate-Limiter using Leaky-Bucket Algorimth Family
 dev-python/pyrfc3339 2.1.0: Generates and parses RFC 3339 timestamps
 dev-python/pyro5 5.16: Distributed object middleware for Python (RPC)
 dev-python/pyroute2 0.9.6: A pure Python netlink and Linux network configuration library
@@ -9194,7 +9194,7 @@ dev-python/pysubs2 1.8.1: Python library for editing subtitle files
 dev-python/pysvn 1.9.22-r1 1.9.25: Object-oriented python bindings for subversion
 dev-python/pyte 0.8.2: Simple VTXXX-compatible terminal emulator
 dev-python/pytesseract 0.3.13: Optical character recognition (OCR) tool
-dev-python/pytest 9.0.3: Simple powerful testing with Python
+dev-python/pytest 9.0.3 9.1.0: Simple powerful testing with Python
 dev-python/pytest-aiohttp 1.1.0 1.1.1: pytest plugin for aiohttp support
 dev-python/pytest-asyncio 1.3.0 1.4.0: Library for testing asyncio code with pytest
 dev-python/pytest-bdd 8.1.0-r1: BDD library for the pytest runner
@@ -9230,7 +9230,7 @@ dev-python/pytest-localserver 0.10.0: Pytest plugin to test server connections l
 dev-python/pytest-metadata 3.1.1: A plugin for pytest that provides access to test session metadata
 dev-python/pytest-mock 3.15.1: Thin-wrapper around the mock package for easier use with pytest
 dev-python/pytest-mpl 0.19.0: Facilitate image comparison for Matplotlib figures
-dev-python/pytest-order 1.4.0: pytest plugin to run your tests in a specific order
+dev-python/pytest-order 1.4.0 1.5.0: pytest plugin to run your tests in a specific order
 dev-python/pytest-ordering 0.6-r1: pytest plugin to run your tests in a specific order
 dev-python/pytest-param-files 0.6.0: Pytest parametrize decorators from external files
 dev-python/pytest-plus 0.8.1: PyTest Plus Plugin - extends pytest functionality
@@ -9477,7 +9477,7 @@ dev-python/shellingham 1.5.4: Tool to Detect Surrounding Shell
 dev-python/shtab 1.8.0: Automagic shell tab completion for Python CLI applications
 dev-python/signature-dispatch 1.0.1-r1: Execute the first function that matches the given arguments
 dev-python/signedjson 1.1.4: Signs JSON objects with ED25519 signatures
-dev-python/signxml 4.4.0 9999: Python XML Signature and XAdES library
+dev-python/signxml 4.4.0 4.5.1 9999: Python XML Signature and XAdES library
 dev-python/sigstore 4.2.0 4.3.0: A tool for signing Python package distributions
 dev-python/sigstore-models 0.0.6: Pydantic based models for Sigstore's protobuf specifications
 dev-python/sigstore-rekor-types 0.0.18: Python models for Rekor's API types
@@ -9585,7 +9585,7 @@ dev-python/svg-path 7.0: SVG path objects and parser
 dev-python/svglib 1.6.0: Pure-Python library for reading and converting SVG
 dev-python/svgwrite 1.4.3: Python Package to write SVG files
 dev-python/swagger-spec-validator 3.0.4: Validate Swagger specs against Swagger 1.1 or 2.0 specification
-dev-python/sybil 10.0.1: Automated testing for the examples in your documentation
+dev-python/sybil 10.0.1 10.1.0: Automated testing for the examples in your documentation
 dev-python/symengine 0.14.1-r3: Python wrappers to the symengine C++ library
 dev-python/sympy 1.14.0-r2: Computer Algebra System in pure Python
 dev-python/syrupy 5.3.1: The sweeter pytest snapshot plugin
@@ -9717,7 +9717,7 @@ dev-python/verboselogs 1.7-r1: Verbose logging for Python's logging module
 dev-python/versioneer 0.29-r1: Easy VCS-based management of project version strings
 dev-python/versioningit 3.3.0: A setuptools plugin for versioning based on git tags
 dev-python/vine 5.1.0: Python Promises
-dev-python/virtualenv 20.39.1 21.3.3 21.4.1 21.4.2 21.4.3: Virtual Python Environment builder
+dev-python/virtualenv 20.39.1 21.3.3 21.4.3 21.5.0: Virtual Python Environment builder
 dev-python/virtualenv-clone 0.5.7: A script for cloning a non-relocatable virtualenv
 dev-python/virtualenvwrapper 6.1.1: Set of extensions to Ian Bicking's virtualenv tool
 dev-python/visitor 0.1.3-r2: A tiny pythonic visitor implementation
@@ -10828,7 +10828,7 @@ dev-util/cppi 1.18: a cpp directive indenter
 dev-util/cpptest 2.0.0-r1: Simple but powerful unit testing framework for C++
 dev-util/cppunit 1.15.1-r3 1.15.1_p20240106 9999-r1: C++ port of the famous JUnit framework for unit testing
 dev-util/cpputest 4.0-r1: Unit testing and mocking framework for C/C++
-dev-util/cproto 4.7y: Generate C function prototypes from C source code
+dev-util/cproto 4.7y 4.8: Generate C function prototypes from C source code
 dev-util/cpuinfo-collection 20101114: huge collection of /proc/cpuinfo files
 dev-util/cram 0.7-r2: Functional testing framework for command line applications
 dev-util/crash 9.0.1 9.0.2 9999: Red Hat crash utility; used for analyzing kernel core dumps
@@ -11086,7 +11086,7 @@ dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
 dev-util/src-cli 4.4.0 4.5.0 5.0.2-r1 5.1.2 5.2.0: command line interface for the Sourcegraph code search tool
 dev-util/statifier 1.7.4-r3: Statifier is a tool for creating portable, self-containing Linux executables
 dev-util/stressapptest 1.0.11: Stressful Application Test
-dev-util/stripe-mock 0.197.0 0.198.0 0.199.0 0.200.0 0.201.0: Mock HTTP server that responds like the real Stripe API
+dev-util/stripe-mock 0.197.0 0.199.0 0.200.0 0.201.0: Mock HTTP server that responds like the real Stripe API
 dev-util/sysprof 48.1 49.0 50.0: System-wide Linux Profiler
 dev-util/sysprof-capture 3.36.0-r2 48.1 49.0 50.0: Static library for sysprof capture data generation
 dev-util/sysprof-common 48.1 49.0 50.0: Static library for sysprof capture data generation
@@ -13964,7 +13964,7 @@ media-sound/bpmdetect 0.7.1: Automatic BPM detection utility
 media-sound/bristol 0.60.11-r4: Synthesizer keyboard emulation package: Moog, Hammond and others
 media-sound/brutefir 1.0o: Software convolution engine for applying long FIR filters
 media-sound/cantata 3.4.0: Featureful and configurable Qt client for the music player daemon (MPD)
-media-sound/cava 0.10.7: Console-based Audio Visualizer for Alsa
+media-sound/cava 0.10.7 1.0.0: Console-based Audio Visualizer for Alsa
 media-sound/cd-discid 1.4-r1: returns the disc id for the cd in the cd-rom drive
 media-sound/cdparanoia 3.10.2-r8: An advanced CDDA reader with error correction
 media-sound/cdplay 1.0: A commandline CD Player
