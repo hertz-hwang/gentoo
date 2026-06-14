@@ -1796,8 +1796,8 @@ app-doc/motif-reference-manual 2.3.0-r4: Motif Reference Manual
 app-doc/php-docs 20190203: HTML documentation for PHP
 app-doc/phrack 01-r2 02-r2 03-r2 04-r2 05-r2 06-r2 07-r2 08-r2 09-r2 10-r2 11-r2 12-r2 13-r2 14-r2 15-r2 16-r2 17-r2 18-r2 19-r2 20-r2 21-r2 22-r2 23-r2 24-r2 25-r2 26-r2 27-r2 28-r2 29-r2 30-r2 31-r2 32-r2 33-r2 34-r2 35-r2 36-r2 37-r2 38-r2 39-r2 40-r2 41-r2 42-r2 43-r2 44-r2 45-r2 46-r2 47-r2 48-r2 49-r2 50-r2 51-r2 52-r2 53-r2 54-r2 55-r2 56-r2 57-r2 58-r2 59-r2 60-r2 61-r2 62-r2 63-r2 64-r2 65-r2 66-r2 67-r2 68-r2 69-r2 70-r2 71-r2 72: A Hacker magazine by the community, for the community
 app-doc/phrack-all 72: Hacker magazine by the community, for the community (all issues)
-app-doc/pms 8_p20210613-r1 9_p20251214 9999: Gentoo Package Manager Specification (draft)
-app-doc/pms-bin 8_p20210613-r1 9_p20251214: Gentoo Package Manager Specification
+app-doc/pms 8_p20210613-r1 9_p20251214 9_p20260614 9999: Gentoo Package Manager Specification (draft)
+app-doc/pms-bin 8_p20210613-r1 9_p20251214 9_p20260614: Gentoo Package Manager Specification
 app-doc/python-docs 2.7.18 3.8.20 3.9.25 3.10.20 3.11.15 3.12.13 3.13.14 3.14.6: HTML documentation for Python
 app-doc/s6-linux-init-man-pages 1.1.2.1.1 1.2.0.0.2: mdoc port of the HTML documentation for the s6-linux-init suite
 app-doc/s6-man-pages 2.13.1.0.1 2.14.0.1.4: mdoc port of the HTML documentation for the s6 suite
@@ -10805,7 +10805,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.172: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.177: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
@@ -17961,7 +17961,7 @@ sys-power/suspend 1.0_p20200924: Userspace Software Suspend and S2Ram
 sys-power/switcheroo-control 3.0: D-Bus service to check the availability of dual-GPU
 sys-power/thermald 2.5.9 2.5.10 2.5.11: Thermal daemon for Intel architectures
 sys-power/throttled 0.10.0 0.11: Daemon to work around throttling issues on some Intel laptops
-sys-power/tlp 1.9.1 1.9.1-r1: Optimize laptop battery life
+sys-power/tlp 1.9.1 1.9.1-r1 1.10.1: Optimize laptop battery life
 sys-power/uhubctl 2.5.0: USB hub per-port power control
 sys-power/upower 1.90.9: D-Bus abstraction for enumerating power devices, querying history and statistics
 sys-power/wluma 4.3.0-r3 4.4.0-r2 4.9.0: Automatic brightness adjustment based on screen contents and ALS
