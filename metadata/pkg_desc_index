@@ -3114,7 +3114,7 @@ app-portage/porticron 0.7.2: cron script to sync portage and send update mails t
 app-portage/portpeek 3.2.9: A helper program for maintaining the package.keyword and package.unmask files
 app-portage/pram 16: Tool to ease merging Pull Requests and git patches
 app-portage/prefix-toolkit 11-r1 12: Utilities for users of Gentoo Prefix
-app-portage/pycargoebuild 0.15.1 0.15.2: A generator for Rust/Cargo ebuilds written in Python
+app-portage/pycargoebuild 0.15.1 0.15.2 0.15.3: A generator for Rust/Cargo ebuilds written in Python
 app-portage/recover-broken-vdb 1.0.0-r2 9999: Check Portage's VDB for internal inconsistency on ELF metadata
 app-portage/repo-commit 0.4.1-r1 9999: A repository commit helper
 app-portage/smart-live-rebuild 1.4.1-r2 9999: Check live packages for updates and emerge them as necessary
@@ -3846,7 +3846,7 @@ dev-build/bazel-buildtools 8.2.1 8.5.1: Tools for working with Google's Bazel BU
 dev-build/bazelisk 1.28.1 1.29.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20251111 20260406 20260508: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019-r1 0.4_p20250404: Another set of autoconf macros for compiling against boost
-dev-build/cmake 4.1.4 4.1.5 4.2.4 4.3.1 4.3.2 4.3.3 9999: Cross platform Make
+dev-build/cmake 4.1.4 4.1.5 4.2.4 4.3.1-r1 4.3.2-r1 4.3.3-r1 9999: Cross platform Make
 dev-build/corrosion 0.5.2 0.6.1-r1: Marrying Rust and CMake - Easy Rust and C/C++ Integration!
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 26.04.1 26.04.2: Dolphin plugin for Makefile targets integration
@@ -4306,7 +4306,7 @@ dev-gap/qpa 1.36: Quivers and Path Algebras in GAP
 dev-gap/quagroup 1.8.4: GAP package for quantum group computations
 dev-gap/radiroot 2.9: Roots of a polynomial as radicals in GAP
 dev-gap/resclasses 4.7.3 4.7.4: Set-theoretic computations with residue classes in GAP
-dev-gap/semigroups 5.6.2: GAP package for semigroups and monoids
+dev-gap/semigroups 5.6.3: GAP package for semigroups and monoids
 dev-gap/singular 2026.04.09: GAP interface to sci-mathematics/singular
 dev-gap/sla 1.6.2: GAP package for simple Lie algebra computations
 dev-gap/smallgrp 1.5.4: The GAP Small Groups Library
@@ -8604,7 +8604,7 @@ dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hypothesis 6.152.7 6.152.9 6.152.11 6.155.2: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
-dev-python/icalendar 7.0.3 7.1.0 7.1.1 7.1.2: RFC 5545 compatible parser and generator of iCalendar files
+dev-python/icalendar 7.0.3 7.1.0 7.1.1 7.1.2 7.1.3: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
 dev-python/identify 2.6.18 2.6.19: File identification library for Python
 dev-python/idna 3.14 3.15 3.16 3.17 3.18: Internationalized Domain Names in Applications (IDNA)
@@ -8951,7 +8951,7 @@ dev-python/path-and-address 2.0.1-r2: Functions for server CLI applications used
 dev-python/pathable 0.4.4 0.5.0 0.6.0: Object-oriented paths
 dev-python/pathspec 1.0.4 1.1.0 1.1.1: Utility library for gitignore style pattern matching of file paths
 dev-python/pathvalidate 3.3.1: A Python library to sanitize/validate a string such as filenames/file-paths/etc
-dev-python/patiencediff 0.2.18: Python implementation of the patiencediff algorithm
+dev-python/patiencediff 0.2.18 0.2.19: Python implementation of the patiencediff algorithm
 dev-python/patsy 1.0.2: Python module to describe statistical models and design matrices
 dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.0.3-r1 7.0.3-r2: Inject some useful and sensible default behaviors into setuptools
@@ -9068,7 +9068,7 @@ dev-python/pycurl-requests 0.5.2: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.8-r3 7.2.1: Set of facilities to extend Python with C++
 dev-python/pydantic 2.13.4: Data parsing and validation using Python type hints
 dev-python/pydantic-settings 2.14.0 2.14.1: Settings management using Pydantic
-dev-python/pydata-sphinx-theme 0.17.1 0.18.0: Bootstrap-based Sphinx theme from the PyData community
+dev-python/pydata-sphinx-theme 0.17.1 0.18.0 0.19.0: Bootstrap-based Sphinx theme from the PyData community
 dev-python/pydbus 0.6.0-r1: Pythonic DBus library
 dev-python/pydecomp 0.3-r3 9999: A python library of common (de)compression and contents handling
 dev-python/pydes 2.0.1-r3: Python implementation of DES and TRIPLE DES
@@ -9089,7 +9089,7 @@ dev-python/pygal 3.1.0: A python SVG charts generator
 dev-python/pygame 2.6.1: Python bindings for SDL multimedia library
 dev-python/pygccxml 3.0.2: A specialized XML reader to navigate C++ declarations
 dev-python/pygdbmi 0.11.0.0: Library to parse gdb mi output and interact with gdb subprocesses
-dev-python/pyghmi 1.6.17: A pure python implementation of IPMI protocol
+dev-python/pyghmi 1.6.17 1.6.18: A pure python implementation of IPMI protocol
 dev-python/pygit2 1.19.2 1.19.3: Python bindings for libgit2
 dev-python/pygithub 2.9.0 2.9.1: Python library to access the Github API v3
 dev-python/pyglet 2.1.14: Cross-platform windowing and multimedia library for Python
@@ -9439,7 +9439,7 @@ dev-python/ruamel-yaml 0.19.1: YAML parser/emitter that supports roundtrip comme
 dev-python/ruamel-yaml-clib 0.2.15: C-based reader/scanner and emitter for dev-python/ruamel-yaml
 dev-python/ruamel-yaml-clibz 0.3.7: C-based reader/scanner and emitter for dev-python/ruamel-yaml
 dev-python/s3transfer 0.16.1 0.17.0 0.17.1 0.18.0: An Amazon S3 Transfer Manager
-dev-python/sabctools 8.2.6 9.4.0: Module providing raw yEnc encoding/decoding for SABnzbd
+dev-python/sabctools 8.2.6 9.4.0 9.4.1: Module providing raw yEnc encoding/decoding for SABnzbd
 dev-python/sarge 0.1.8: Wrapper for subprocess which provides command pipeline functionality
 dev-python/sarif-om 1.0.4-r1: Classes implementing the SARIF 2.1.0 object model
 dev-python/schema 0.7.8: Simple data validation library
@@ -9559,7 +9559,7 @@ dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler fr
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
 dev-python/spyder-terminal 1.3.1: Run system terminals inside Spyder
 dev-python/spyder-unittest 0.7.1: Plugin for Spyder to run tests and view the results
-dev-python/sqlalchemy 2.0.49 2.0.50 2.1.0_beta2: Python SQL toolkit and Object Relational Mapper
+dev-python/sqlalchemy 2.0.49 2.0.50 2.0.51 2.1.0_beta2: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlalchemy-rqlite 2.0: A SQLAlchemy dialect for rqlite
 dev-python/sqlglot 30.11.0: An easily customizable SQL parser and transpiler
 dev-python/sqlitedict 2.1.0: Persistent dict in Python, backed by SQLite and pickle
@@ -9606,7 +9606,7 @@ dev-python/terminado 0.18.1: Terminals served to term.js using Tornado websocket
 dev-python/terminaltables3 4.0.0: Generate simple tables in terminals from a nested list of strings
 dev-python/test 0: Virtual to install 'test' package from stdlib
 dev-python/test2ref 1.2.3: Testing Against Learned Reference Data
-dev-python/testfixtures 11.0.0 12.0.0 12.0.1: A collection of helpers and mock objects for unit tests and doc tests
+dev-python/testfixtures 11.0.0 12.0.0 12.0.1 12.1.0: A collection of helpers and mock objects for unit tests and doc tests
 dev-python/testpath 0.6.0: Test utilities for code working with files and commands
 dev-python/testresources 2.1.2: A pyunit extension for managing expensive test resources
 dev-python/testscenarios 0.5.0-r3 0.6 0.6.1: A pyunit extension for dependency injection
@@ -9672,7 +9672,7 @@ dev-python/typing-extensions 4.15.0: Backported and Experimental Type Hints for 
 dev-python/typing-inspection 0.4.2: Runtime typing introspection tools
 dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinja templates
 dev-python/tzdata 10001: tzdata shim to satisfy requirements (while using system tzdata)
-dev-python/tzlocal 5.3.1: tzinfo object for the local timezone
+dev-python/tzlocal 5.3.1 5.4: tzinfo object for the local timezone
 dev-python/u-msgpack-python 2.8.0: A portable, lightweight MessagePack serializer and deserializer
 dev-python/ubelt 1.4.2: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
 dev-python/uc-micro-py 2.0.0: Micro subset of unicode data files for linkify-it-py projects
@@ -10922,7 +10922,7 @@ dev-util/gtk-doc 1.34.0-r2: GTK+ Documentation Generator
 dev-util/gtk-update-icon-cache 3.24.42: GTK update icon cache
 dev-util/heaptrack 1.5.80_pre20251017 9999: Fast heap memory profiler
 dev-util/herdtools7 7.51: The Herd toolsuite to deal with .cat memory models
-dev-util/hermes 2.9 9999: Lua based testing manager
+dev-util/hermes 2.9 3.1 9999: Lua based testing manager
 dev-util/hfstospell 0.5.4-r1: HFST spell checker library and command line tool
 dev-util/hip 6.3.3-r2 6.4.3-r2 7.0.2-r1 7.1.0-r1 7.2.0-r1: C++ Heterogeneous-Compute Interface for Portability
 dev-util/hipcc 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Radeon Open Compute hipcc
@@ -11201,7 +11201,7 @@ dev-vcs/subversion 1.14.5-r2 1.14.5-r3: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.20 9999: Tool for one-time conversion from svn to git
 dev-vcs/svneverever 1.7.2-r1 1.7.2-r2: Tool collecting path entries across SVN history
-dev-vcs/tig 2.5.8 2.5.10 2.5.12 2.6.0 2.6.0-r1 9999: text mode interface for git
+dev-vcs/tig 2.5.8 2.5.10 2.5.12 2.6.0 2.6.0-r1 2.6.1 9999: text mode interface for git
 dev-vcs/tkcvs 9.3.2 9.3.3 9.4.9: Tcl/Tk-based graphical interface to CVS with Subversion support
 dev-vcs/topgit 0.19.13 0.19.14: A different patch queue manager
 dev-vcs/tortoisehg 6.9-r1 7.0.1 7.0.1-r1 9999: Set of graphical tools for Mercurial
@@ -16334,7 +16334,7 @@ sci-mathematics/gfan 0.6.2-r7 0.6.2-r8: Compute Groebner fans and tropical varie
 sci-mathematics/giac 1.9.0.995-r2: A free C++ Computer Algebra System library and its interfaces
 sci-mathematics/gimps 30.8.15 30.8.17 30.19.14 30.19.20: The Great Internet Mersenne Prime Search
 sci-mathematics/ginac 1.8.10: C++ library and tools for symbolic calculations
-sci-mathematics/glpk 5.0-r3 5.0-r4: GNU Linear Programming Kit
+sci-mathematics/glpk 5.0-r4: GNU Linear Programming Kit
 sci-mathematics/gmm 5.4.2: Generic C++ template library for sparse, dense and skyline matrices
 sci-mathematics/gmp-ecm 7.0.6-r1: Elliptic Curve Method for Integer Factorization
 sci-mathematics/gp2c 0.0.12 0.0.14: A GP to C translator
@@ -17593,7 +17593,7 @@ sys-cluster/legion 23.03.0-r1 9999: Data-centric parallel programming system
 sys-cluster/libcircle 0.3.0: API for distributing embarrassingly parallel workloads using self-stabilization
 sys-cluster/libqb 2.0.8-r1 2.0.9: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/libquo 1.3.1-r3 1.4 9999: Run-time tuning of process binding policies made easy
-sys-cluster/lmod 8.6.14-r1 8.7.67 9.0.8 9.1.2 9.2 9.2.1 9.2.2 9999: Environment Module System based on Lua
+sys-cluster/lmod 8.6.14-r1 8.7.67 9.0.8 9.1.2 9.2 9.2.1 9.2.2 9.2.3 9999: Environment Module System based on Lua
 sys-cluster/medipack 1.4.0 9999: Message Differentiation Package
 sys-cluster/minikube 1.34.0 1.35.0 1.37.0: Local kubernetes clusters for learning and development
 sys-cluster/mpich 3.4.3-r1: A high performance and portable MPI implementation

@@ -4,7 +4,7 @@
 EAPI=8
 
 LUA_COMPAT=( lua5-{1..3} )
-inherit lua-single
+inherit lua-single prefix
 
 DESCRIPTION="Lua based testing manager"
 HOMEPAGE="https://github.com/TACC/Hermes"
@@ -12,10 +12,9 @@ if [[ "${PV}" == *9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/TACC/Hermes"
 else
-	COMMIT="b99622087233178368cff6cf38ec72fa01dfd8a6"
-	SRC_URI="https://github.com/TACC/Hermes/archive/${COMMIT}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}"/Hermes-${PV}
-	KEYWORDS="~amd64 ~riscv ~x86"
+	SRC_URI="https://github.com/TACC/Hermes/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+	S="${WORKDIR}/${P^}"
+	KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
 fi
 
 LICENSE="MIT"
@@ -34,6 +33,11 @@ RDEPEND="${LUA_DEPS}
 DEPEND="test? ( ${RDEPEND} )"
 
 PATCHES=( "${FILESDIR}"/${PN}-2.8-lua-shebang.patch )
+
+src_prepare() {
+	default
+	hprefixify -w '/#\!\/bin\/bash/' tm/Tst.lua || die
+}
 
 src_compile() {
 	sed -e "s|@LUA@|${LUA}|g" \
@@ -54,5 +58,4 @@ src_install() {
 	newenvd - 99hermes <<- _EOF_
 		PATH="${EPREFIX}/opt/hermes/bin"
 	_EOF_
-
 }

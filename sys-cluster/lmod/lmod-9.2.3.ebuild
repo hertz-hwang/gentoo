@@ -17,8 +17,6 @@ else
 	S="${WORKDIR}"/Lmod-${PV}
 	KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
 fi
-SRC_URI+=" https://dev.gentoo.org/~tupone/distfiles/${PN}-9.1.2-load-err.txt"
-SRC_URI+=" https://dev.gentoo.org/~tupone/distfiles/${PN}-9.2-help-err.txt"
 
 LICENSE="MIT"
 SLOT="0"
@@ -79,10 +77,6 @@ src_prepare() {
 		rt/changeMPATH/mf/Core/admin/admin-1.0.lua \
 		rt/changeMPATH/mf/Core2/admin/admin-1.0.lua \
 		|| die
-	cp "${DISTDIR}"/${PN}-9.1.2-load-err.txt \
-		rt/load/err.txt || die
-	cp "${DISTDIR}"/${PN}-9.2-help-err.txt \
-		rt/help/err.txt || die
 }
 
 src_configure() {
@@ -125,6 +119,8 @@ src_compile() {
 }
 
 src_test() {
+	# With current version test pass only when we eselect
+	# the 5.1 version of lua
 	local -x PATH="${EPREFIX}/opt/hermes/bin:${PATH}"
 	tm -vvv || die
 	testcleanup || die
