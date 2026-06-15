@@ -52,6 +52,8 @@ src_prepare() {
 }
 
 src_configure() {
+	append-flags -fno-strict-aliasing #977470
+
 	# disable unnecessary warnings not to confuse users (see src/types.h)
 	append-cppflags -DMDFN_DISABLE_{NO_OPT,PICPIE}_ERRWARN
 
