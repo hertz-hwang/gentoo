@@ -6,7 +6,7 @@ EAPI=8
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 PYPI_PN=SQLAlchemy
-PYTHON_COMPAT=( python3_{12..14} )
+PYTHON_COMPAT=( python3_{12..15} )
 PYTHON_REQ_USE="sqlite?"
 
 inherit distutils-r1 optfeature pypi
@@ -57,12 +57,6 @@ python_test() {
 		test/base/test_concurrency_py3k.py::TestAsyncioCompat::test_await_fallback_no_greenlet
 	)
 	local sqlite_version=$(sqlite3 --version | cut -d' ' -f1)
-	case ${EPYTHON} in
-		pypy3.11)
-			# pypy is broken beyond repair now
-			return
-			;;
-	esac
 	if ! has_version "dev-python/greenlet[${PYTHON_USEDEP}]"; then
 		EPYTEST_DESELECT+=(
 			test/ext/asyncio/test_engine_py3k.py::TextSyncDBAPI::test_sync_driver_execution
