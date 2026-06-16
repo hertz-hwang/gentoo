@@ -11,19 +11,19 @@ RUST_MIN_VER="1.93"
 
 inherit cargo desktop shell-completion xdg-utils
 
-COMMIT="891bed31b75f7a71b78e8f42ad07ae89bf99a7de"
+COMMIT="40daec89346f44ca733dbcfa74e144a609d9acba"
 
 DESCRIPTION="A GPU-accelerated cross-platform terminal emulator and multiplexer"
 HOMEPAGE="https://wezfurlong.org/wezterm/"
 
 # ebuild name PV from upstream is based on the UTC-2 timestamp of the commit
 # TZ=UTC-2 git log -1 --format="%cd" --date=format-local:"%Y%m%d-%H%M%S"
-MY_PV="$(ver_rs 1 -)-891bed3"
+MY_PV="$(ver_rs 1 -)-40daec8"
 MY_P="${PN}-${MY_PV}"
 
 SRC_URI="
 	https://github.com/wez/${PN}/archive/${COMMIT}.tar.gz -> ${MY_P}-src.tar.gz
-	https://dev.gentoo.org/~gienah/snapshots/${MY_P}-crates.tar.xz
+	https://dev.gentoo.org/~gienah/snapshots/${PN}-20260610-150805-891bed3-crates.tar.xz
 	${CARGO_CRATE_URIS}
 "
 
