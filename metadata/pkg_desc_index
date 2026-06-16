@@ -2578,7 +2578,7 @@ app-i18n/libchewing 0.5.1-r1 0.10.3: The intelligent phonetic input method libra
 app-i18n/libhangul 0.1.0-r1 0.2.0: Library for hangul input method logic, hanja dictionary
 app-i18n/libime 1.1.13 1.1.14: Fcitx5 Next generation of fcitx
 app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin Fuhao
-app-i18n/librime 1.13.1 1.14.0 1.15.0 1.16.1: RIME (Rime Input Method Engine) core library
+app-i18n/librime 1.16.1 1.17.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
 app-i18n/libskk 1.1.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
 app-i18n/man-pages-ja 20180315-r2 20260115-r2 20260515: Collection of manual pages translated into Japanese
@@ -15072,7 +15072,6 @@ net-libs/wvstreams 4.6.1_p14-r2 4.6.1_p14-r3: A network programming library in C
 net-libs/xdp-tools 1.6.2 1.6.3-r1: The libxdp library and various tools for use with XDP
 net-libs/xrootd 5.8.2 5.9.5 9999: Extended ROOT remote file server
 net-libs/zeromq 4.3.5-r1: High-performance asynchronous messaging library
-net-libs/zmqpp 4.2.0-r1: ZeroMQ 'highlevel' C++ bindings
 net-mail/altermime 0.3.12: alterMIME is a small program which is used to alter your mime-encoded mailpacks
 net-mail/amavis-logwatch 1.51.04: A log analyzer for amavisd-new
 net-mail/asmail 2.1-r4: A small mail monitor similar to xbiff
@@ -15753,7 +15752,6 @@ perl-core/Getopt-Long 2.580.0: Advanced handling of command line options
 perl-core/Math-BigInt 1.999.842-r4: Arbitrary size floating point math package
 perl-core/Module-Load 0.360.0: Runtime require of both modules and files
 perl-core/Module-Loaded 0.80.0-r2: Mark modules as loaded or unloaded
-perl-core/Params-Check 0.380.0-r3: A generic input parsing/checking mechanism
 perl-core/Scalar-List-Utils 1.630.0 1.680.0: Common Scalar and List utility subroutines
 perl-core/Term-Table 0.22.0 0.23.0 0.24.0: Format a header and rows into a table
 perl-core/Test-Harness 3.500.0: Runs Perl standard test scripts with statistics
@@ -16403,7 +16401,7 @@ sci-mathematics/verit 2021.06.2: An open, trustable and efficient SMT-prover
 sci-mathematics/why3 1.6.0 1.7.2 1.8.0 1.8.1 1.8.2: Platform for deductive program verification
 sci-mathematics/why3-for-spark 2023.12.13-r2: SPARK 2014 repository for the Why3 verification platform
 sci-mathematics/wxmaxima 25.04.0-r2 26.01.0 26.05.0-r1: Graphical frontend to Maxima, using the wxWidgets toolkit
-sci-mathematics/yacas 1.9.1-r2 1.9.1-r3: General purpose computer algebra system
+sci-mathematics/yacas 1.9.1-r3: General purpose computer algebra system
 sci-mathematics/yafu 1.34.3-r2: Yet another factoring utility
 sci-mathematics/yices2 2.6.5: SMT Solver supporting SMT-LIB and Yices specification language
 sci-mathematics/z3 4.16.0: An efficient theorem prover
@@ -18110,31 +18108,21 @@ virtual/perl-File-Path 2.180.0-r4: Virtual for File-Path
 virtual/perl-File-Spec 3.910.0-r1 3.940.0: Virtual for File-Spec
 virtual/perl-File-Temp 0.231.100-r1: Virtual for File-Temp
 virtual/perl-Getopt-Long 2.570.0-r1 2.580.0-r1: Virtual for Getopt-Long
-virtual/perl-HTTP-Tiny 0.88.0 0.90.0: Virtual for HTTP-Tiny
 virtual/perl-IO 1.550.0-r1: Virtual for IO
 virtual/perl-IO-Compress 2.212.0 2.213.0: Virtual for IO-Compress
 virtual/perl-IO-Socket-IP 0.420.0 0.430.0: Virtual for IO-Socket-IP
-virtual/perl-IO-Zlib 1.150.0-r1: Virtual for IO-Zlib
 virtual/perl-JSON-PP 4.160.0-r3: Virtual for JSON-PP
-virtual/perl-Locale-Maketext 1.330.0-r2: Virtual for Locale-Maketext
 virtual/perl-MIME-Base64 3.160.100_rc-r2: Virtual for MIME-Base64
 virtual/perl-Math-BigInt 2.3.2 2.5.2: Virtual for Math-BigInt
-virtual/perl-Math-BigInt-FastCalc 0.501.800 0.502.0: Virtual for Math-BigInt-FastCalc
-virtual/perl-Math-BigRat 2.3.2 2.5.2: Virtual for Math-BigRat
-virtual/perl-Math-Complex 1.620.0-r1 1.630.0: Virtual for Math-Complex
 virtual/perl-Module-CoreList 5.202.504.134_rc 5.202.507.20-r2 5.202.603.30: Virtual for Module-CoreList
 virtual/perl-Module-Load 0.360.0-r5: Virtual for Module-Load
-virtual/perl-Module-Load-Conditional 0.740.0-r4: Virtual for Module-Load-Conditional
 virtual/perl-Module-Metadata 1.0.38-r1: Virtual for Module-Metadata
-virtual/perl-Params-Check 0.380.0-r15: Virtual for Params-Check
-virtual/perl-Parse-CPAN-Meta 2.150.10-r9: Virtual for Parse-CPAN-Meta
 virtual/perl-Pod-Simple 3.450.0-r1: Virtual for Pod-Simple
 virtual/perl-Scalar-List-Utils 1.630.0-r1 1.680.0 1.680.100_rc: Virtual for Scalar::Util and List::Util, also distributed as Scalar::List::Utils
 virtual/perl-Socket 2.38.0-r1: Virtual for Socket
 virtual/perl-Storable 3.320.0-r1 3.370.0: Virtual for Storable
 virtual/perl-Sys-Syslog 0.360.0-r5: Virtual for Sys-Syslog
 virtual/perl-Term-ANSIColor 5.10.0-r5: Virtual for Term-ANSIColor
-virtual/perl-Term-ReadLine 1.170.0-r9: Virtual for Term-ReadLine
 virtual/perl-Term-Table 0.22.0 0.23.0 0.24.0-r1: Virtual for Term-Table
 virtual/perl-Test 1.310.0-r8: Virtual for Test
 virtual/perl-Test-Harness 3.500.0-r1: Virtual for Test-Harness
@@ -18145,11 +18133,8 @@ virtual/perl-Text-ParseWords 3.310.0-r4: Virtual for Text-ParseWords
 virtual/perl-Text-Tabs+Wrap 2024.1.0-r1: Virtual for Text::Tabs and Text::Wrap, also distributed as Text::Tabs+Wrap
 virtual/perl-Time-HiRes 1.977.700 1.977.800: Virtual for Time-HiRes
 virtual/perl-Time-Local 1.350.0-r1: Virtual for Time-Local
-virtual/perl-Unicode-Collate 1.310.0-r3: Virtual for Unicode-Collate
-virtual/perl-Unicode-Normalize 1.320.0-r2: Virtual for Unicode-Normalize
 virtual/perl-XSLoader 0.320.0-r2: Virtual for XSLoader
 virtual/perl-autodie 2.370.0-r1: Virtual for autodie
-virtual/perl-bignum 0.670.0-r1: Virtual for bignum
 virtual/perl-if 0.61.0-r3: Virtual for if
 virtual/perl-libnet 3.150.0-r2: Virtual for libnet
 virtual/perl-parent 0.241.0-r1 0.244.0: Virtual for parent
@@ -18740,7 +18725,6 @@ x11-misc/py3status 3.61-r1 3.63: py3status is an extensible i3status wrapper wri
 x11-misc/qarma 1.1.0: Zenity Clone for Qt
 x11-misc/qlipper 6.0.0: Lightweight and cross-platform clipboard history applet
 x11-misc/qps 2.12.0 2.13.0: Qt GUI Process Manager
-x11-misc/qt5ct 1.9: Qt5 configuration tool, similar to qtconfig for Qt4
 x11-misc/qterm 0.8.2: BBS client based on Qt
 x11-misc/quitcount 3.1.4: A simple applet that shows what you saved since you quit smoking
 x11-misc/read-edid 3.0.2-r2: Program that can get information from a PnP monitor
