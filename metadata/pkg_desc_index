@@ -1430,7 +1430,7 @@ app-crypt/asedriveiiie-serial 3.5: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.5: ASEDriveIIIe USB Card Reader
 app-crypt/asekey 3.7-r1: ASEKey USB SIM Card Reader
 app-crypt/autofirma-bin 1.9.0: Spanish government certificate and digital signature manager
-app-crypt/badkeys 0.0.18: Check cryptographic keys for known weaknesses
+app-crypt/badkeys 0.0.18 0.0.19: Check cryptographic keys for known weaknesses
 app-crypt/bcwipe 1.9.13: Secure file removal utility
 app-crypt/bsign 0.4.5-r1: embed secure hashes (SHA1) and digital signatures (GNU Privacy Guard) into files
 app-crypt/ccid 1.6.1 1.7.0 1.7.1: CCID free software driver
@@ -1796,8 +1796,8 @@ app-doc/motif-reference-manual 2.3.0-r4: Motif Reference Manual
 app-doc/php-docs 20190203: HTML documentation for PHP
 app-doc/phrack 01-r2 02-r2 03-r2 04-r2 05-r2 06-r2 07-r2 08-r2 09-r2 10-r2 11-r2 12-r2 13-r2 14-r2 15-r2 16-r2 17-r2 18-r2 19-r2 20-r2 21-r2 22-r2 23-r2 24-r2 25-r2 26-r2 27-r2 28-r2 29-r2 30-r2 31-r2 32-r2 33-r2 34-r2 35-r2 36-r2 37-r2 38-r2 39-r2 40-r2 41-r2 42-r2 43-r2 44-r2 45-r2 46-r2 47-r2 48-r2 49-r2 50-r2 51-r2 52-r2 53-r2 54-r2 55-r2 56-r2 57-r2 58-r2 59-r2 60-r2 61-r2 62-r2 63-r2 64-r2 65-r2 66-r2 67-r2 68-r2 69-r2 70-r2 71-r2 72: A Hacker magazine by the community, for the community
 app-doc/phrack-all 72: Hacker magazine by the community, for the community (all issues)
-app-doc/pms 8_p20210613-r1 9_p20251214 9_p20260614 9999: Gentoo Package Manager Specification (draft)
-app-doc/pms-bin 8_p20210613-r1 9_p20251214 9_p20260614: Gentoo Package Manager Specification
+app-doc/pms 9_p20260614 9999: Gentoo Package Manager Specification (draft)
+app-doc/pms-bin 9_p20260614: Gentoo Package Manager Specification
 app-doc/python-docs 2.7.18 3.8.20 3.9.25 3.10.20 3.11.15 3.12.13 3.13.14 3.14.6: HTML documentation for Python
 app-doc/s6-linux-init-man-pages 1.1.2.1.1 1.2.0.0.2: mdoc port of the HTML documentation for the s6-linux-init suite
 app-doc/s6-man-pages 2.13.1.0.1 2.14.0.1.4: mdoc port of the HTML documentation for the s6 suite
@@ -4114,7 +4114,7 @@ dev-debug/peda 1.2-r1 9999: Python Exploit Development Assistance for GDB
 dev-debug/pwndbg 20250418-r1 20250530-r3 20251010-r3 20251020-r3 99999999: A GDB plug-in that makes debugging with GDB suck less
 dev-debug/rr 5.9.0-r1 9999: Record and Replay Framework
 dev-debug/scap-driver 0.20.0: Kernel module for dev-debug/sysdig
-dev-debug/strace 6.19 7.0-r1 9999: Useful diagnostic, instructional, and debugging tool
+dev-debug/strace 6.19 7.0-r1 7.1 9999: Useful diagnostic, instructional, and debugging tool
 dev-debug/sysdig 0.40.1-r1: A system exploration and troubleshooting tool
 dev-debug/systemtap 5.3-r1 5.4 5.5 9999: Linux trace/probe tool
 dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0 3.27.0_p1 3.27.1 9999: An open-source memory debugger for GNU/Linux
@@ -15237,7 +15237,7 @@ net-misc/gns3-gui 2.2.56 2.2.59: Graphical Network Simulator
 net-misc/gns3-server 2.2.56 2.2.59: GNS3 server to asynchronously manage emulators
 net-misc/gofish 1.2-r2: Gofish gopher server
 net-misc/gokrazy-rsync 0.3.3: rsync in Go!
-net-misc/gsasl 2.2.1 2.2.2 2.2.2-r1: The GNU SASL client, server, and library
+net-misc/gsasl 2.2.1 2.2.2 2.2.2-r1 2.2.4: The GNU SASL client, server, and library
 net-misc/gupnp-tools 0.12.1-r1 0.12.2: Collection of developer-oriented UPnP tools
 net-misc/gvrpcd 1.3-r1: A program for announcing VLANs using GVRP
 net-misc/gwhois 20120626-r1: Generic whois
@@ -16609,7 +16609,7 @@ sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 202
 sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
-sec-keys/openpgp-keys-gsasl 20260127: OpenPGP keys used by the GNU SASL Library
+sec-keys/openpgp-keys-gsasl 20260127 20260616: OpenPGP keys used by the GNU SASL Library
 sec-keys/openpgp-keys-guillemjover 20220331: OpenPGP keys used by Guillem Jover
 sec-keys/openpgp-keys-gzip 20220406: OpenPGP keys used by GNU Gzip
 sec-keys/openpgp-keys-handbrake 20260208 20260311: OpenPGP keys used to sign HandBrake
@@ -18290,8 +18290,8 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.1 26.04.2: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.11.0 151.0.4 152.0: Firefox Web Browser
-www-client/firefox-bin 140.11.0 152.0: Firefox Web Browser
+www-client/firefox 140.11.0 140.12.0 151.0.4 152.0: Firefox Web Browser
+www-client/firefox-bin 140.12.0 152.0: Firefox Web Browser
 www-client/firefox-l10n 151.0.4 152.0: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.178 148.0.7778.215 149.0.7827.114: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.22 149.0.7827.53 150.0.7871.13: The web browser from Google
