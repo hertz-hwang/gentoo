@@ -3,7 +3,7 @@
 
 EAPI=8
 
-FIREFOX_PATCHSET="firefox-140esr-patches-10.tar.xz"
+FIREFOX_PATCHSET="firefox-140esr-patches-12.tar.xz"
 FIREFOX_LOONG_PATCHSET="firefox-139-loong-patches-02.tar.xz"
 
 LLVM_COMPAT=( 20 21 )
@@ -112,7 +112,7 @@ BDEPEND="${PYTHON_DEPS}
 	app-alternatives/awk
 	app-arch/unzip
 	app-arch/zip
-	<dev-util/cbindgen-0.29.4
+	>=dev-util/cbindgen-0.29.4
 	net-libs/nodejs
 	virtual/pkgconfig
 	amd64? ( >=dev-lang/nasm-2.14 )
