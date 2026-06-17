@@ -732,9 +732,13 @@ src_test() {
 	#
 	# One -n applies to the top-level "php", while the other applies
 	# to any sub-php that get invoked by the test runner.
+	#
+	# When running slower tests, we increase the timeout to allow
+	# for e.g. bug 977243.
 	SKIP_SLOW_TESTS=$(usex test-full 0 1) SKIP_IO_CAPTURE_TESTS=1 SKIP_PERF_SENSITIVE=1 REPORT_EXIT_STATUS=1 \
 		"${TEST_PHP_EXECUTABLE}" -n \
 		"${WORKDIR}/sapis-build/cli/run-tests.php" --offline -n -q \
+		$(usex test-full "--set-timeout 300" "") \
 		-d "session.save_path=${T}" \
 		|| die "tests failed"
 }
