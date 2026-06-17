@@ -9672,7 +9672,7 @@ dev-python/typing-extensions 4.15.0: Backported and Experimental Type Hints for 
 dev-python/typing-inspection 0.4.2: Runtime typing introspection tools
 dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinja templates
 dev-python/tzdata 10001: tzdata shim to satisfy requirements (while using system tzdata)
-dev-python/tzlocal 5.3.1 5.4: tzinfo object for the local timezone
+dev-python/tzlocal 5.3.1 5.4 5.4.3: tzinfo object for the local timezone
 dev-python/u-msgpack-python 2.8.0: A portable, lightweight MessagePack serializer and deserializer
 dev-python/ubelt 1.4.2: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
 dev-python/uc-micro-py 2.0.0: Micro subset of unicode data files for linkify-it-py projects
@@ -12649,9 +12649,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.7.1 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.11.1 151.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.10.1 140.10.2 140.11.0 140.11.1 150.0.1 150.0.2 151.0 151.0.1: Thunderbird Mail Client
-mail-client/thunderbird-l10n 151.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird 140.11.1 140.12.0 151.0.1 152.0: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.12.0 152.0: Thunderbird Mail Client
+mail-client/thunderbird-l10n 151.0.1 152.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -17298,7 +17298,7 @@ sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
 sys-apps/policycoreutils 3.8.1 3.9 3.10 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.6 0.9.7 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
-sys-apps/portage 3.0.77-r4 3.0.78 3.0.79-r1 9999: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.77-r4 3.0.78 3.0.79-r1 3.0.80 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
 sys-apps/ppc64-diag 2.7.9: Diagnostic tools for PowerLinux
 sys-apps/prctl 1.6-r1: Tool to query and modify process behavior
