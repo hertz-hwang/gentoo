@@ -14,16 +14,17 @@ LICENSE="BUSL-1.1"
 # Dependent licenses
 LICENSE+=" Apache-2.0 BSD BSD-2 ISC MIT MPL-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~arm64 ~riscv"
+KEYWORDS="~amd64 ~arm64 ~riscv"
 RESTRICT="test"
 
-BDEPEND=">=dev-lang/go-1.25.8"
+BDEPEND=">=dev-lang/go-1.25.10"
 
 DOCS=( {README,CHANGELOG}.md )
 
 src_compile() {
 	local -x CGO_ENABLED=0
 	local go_ldflags=(
+		-w
 		-X github.com/hashicorp/terraform/version.dev=no
 	)
 	ego build -ldflags "${go_ldflags[*]}" -o bin/${PN} .
