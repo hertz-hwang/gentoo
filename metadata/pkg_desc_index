@@ -1892,7 +1892,7 @@ app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
 app-editors/zed 1.1.8 1.4.2 1.6.3 1.7.2: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
-app-emacs/a68-mode 1.2_p20250524: Algol68 major mode for GNU Emacs
+app-emacs/a68-mode 1.2_p20250524 1.3_p20260615: Algol68 major mode for GNU Emacs
 app-emacs/ace-window 0.10.0: Quickly switch windows in Emacs
 app-emacs/actionscript-mode 7.2.2_p20180527-r1: A major mode for GNU Emacs for editing Actionscript 3 files
 app-emacs/adaptive-wrap 0.8: Smart line-wrapping with wrap-prefix
@@ -2099,7 +2099,7 @@ app-emacs/geiser-mit 0.15: MIT/GNU Scheme's implementation of the Geiser protoco
 app-emacs/ghub 5.1.0 5.2.0 5.2.1: Minuscule client library for the Git forge APIs
 app-emacs/git-modes 1.4.8 1.5.0 9999: Emacs major modes for editing Git configuration files
 app-emacs/git-timemachine 4.13 9999: Step through historic versions of git controlled files in GNU Emacs
-app-emacs/gnuplot-mode 0.11: Gnuplot mode for Emacs
+app-emacs/gnuplot-mode 0.11 0.12: Gnuplot mode for Emacs
 app-emacs/gnuserv 3.12.8-r8: Attach to an already running Emacs
 app-emacs/go-mode 1.6.0: An improved Go mode for emacs
 app-emacs/god-mode 2.18.0 2.19.0: Minor mode for God-like command entering in GNU Emacs
@@ -2204,7 +2204,7 @@ app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
 app-emacs/orderless 1.6 1.7: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.7: Contributed packages to Org
-app-emacs/org-mode 9.8.2 9.8.3 9.8.4 9.8.5 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.8.4 9.8.5 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 1.13 1.14 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 2.3.0 2.3.1 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
@@ -11199,7 +11199,7 @@ dev-vcs/reposurgeon 5.3: Tool for editing VCS repositories and translating among
 dev-vcs/rsvndump 0.6.1-r1 0.6.2: Dump a remote Subversion repository
 dev-vcs/sourcegit 2026.05 2026.11: Open Source Git GUI client using .NET AvaloniaUI
 dev-vcs/stagit 1.2: Generates static HTML pages for a Git repository
-dev-vcs/stgit 2.5.5: Stack-based patch management for Git
+dev-vcs/stgit 2.5.5 2.6.0: Stack-based patch management for Git
 dev-vcs/subversion 1.14.5-r2 1.14.5-r3: Advanced version control system
 dev-vcs/svn2cl 0.12 0.14: Create a GNU-style ChangeLog from subversion's svn log --xml output
 dev-vcs/svn2git 1.0.20 9999: Tool for one-time conversion from svn to git
@@ -11521,7 +11521,7 @@ games-emulation/nestopia-jg 1.53.2 9999: Jolly Good Fork of Nestopia
 games-emulation/openmsx 20.0-r2: MSX emulator that aims for perfection
 games-emulation/pcsx2 2.4.0-r1 2.6.3-r1 9999: PlayStation 2 emulator
 games-emulation/pcsx2_patches 0_p20251228 9999: Collection of game patches for use with PCSX2 (e.g. widescreen hacks)
-games-emulation/ppsspp 1.20.3 1.20.4: A PSP emulator written in C++
+games-emulation/ppsspp 1.20.4-r1: A PSP emulator written in C++
 games-emulation/prosystem-jg 1.5.3 9999: Jolly Good Fork of ProSystem
 games-emulation/rmg 0.8.9 0.9.0 9999: Rosalie's Mupen GUI
 games-emulation/sameboy-jg 1.0.2 1.0.3 9999: Jolly Good Port of SameBoy
@@ -15683,7 +15683,7 @@ net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
 net-wireless/dump1090 10.2 11.0-r1 9999: Simple Mode S decoder for RTLSDR devices
 net-wireless/gnome-bluetooth 47.1 47.2: Bluetooth graphical utilities integrated with GNOME
-net-wireless/gnuradio 3.10.12.0-r2 3.10.12.0-r3 3.11_pre20260606 9999: Toolkit that provides signal processing blocks to implement software radios
+net-wireless/gnuradio 3.10.12.0-r2 3.10.12.0-r3 3.11_pre20260606 3.11_pre20260615 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
 net-wireless/gqrx 2.17.2-r1 2.17.6 2.17.7 9999: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/gqrx-scanner 1.0.4: frequency scanner for Gqrx Software Defined Radio receiver
@@ -16334,7 +16334,7 @@ sci-mathematics/gappalib-coq 1.5.2-r1 1.5.3: Allows the certificates Gappa gener
 sci-mathematics/genius 1.0.27-r1 1.0.29: Genius Mathematics Tool and the GEL Language
 sci-mathematics/geogebra-bin 5.0.752.0 6.0.804.0-r1: Mathematics software for geometry
 sci-mathematics/geomview 1.9.5-r1: Interactive Geometry Viewer
-sci-mathematics/gfan 0.6.2-r7 0.6.2-r8: Compute Groebner fans and tropical varieties
+sci-mathematics/gfan 0.6.2-r7 0.6.2-r8 0.8_beta1: Compute Groebner fans and tropical varieties
 sci-mathematics/giac 1.9.0.995-r2: A free C++ Computer Algebra System library and its interfaces
 sci-mathematics/gimps 30.8.15 30.8.17 30.19.14 30.19.20: The Great Internet Mersenne Prime Search
 sci-mathematics/ginac 1.8.10: C++ library and tools for symbolic calculations

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{13..14} )
+PYTHON_COMPAT=( python3_{13..15} )
 
 inherit flag-o-matic python-any-r1 xdg cmake
 
@@ -28,6 +28,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	>=media-libs/sdl2-ttf-2.24.0
+	>=media-video/ffmpeg-5:=
 	app-arch/snappy:=
 	app-arch/zstd:=
 	dev-libs/libzip:=
@@ -35,7 +36,6 @@ RDEPEND="
 	media-libs/libpng:=
 	media-libs/libsdl2[X,opengl,sound,video,wayland?]
 	media-libs/libsdl2[joystick]
-	media-video/ffmpeg:=
 	virtual/opengl
 	virtual/zlib:=
 "
