@@ -5,7 +5,8 @@ EAPI=8
 
 inherit cmake systemd
 
-PAR2_TURBO_VER="1.3.0-20250808"
+PAR2_TURBO_VER="1.4.0-20260323"
+RAPIDYENC_VER="1.1.1-20260217"
 DESCRIPTION="A command-line based binary newsgrabber supporting .nzb files"
 HOMEPAGE="https://nzbget.com/"
 SRC_URI="
@@ -13,6 +14,8 @@ SRC_URI="
 		https://github.com/nzbgetcom/par2cmdline-turbo/archive/v${PAR2_TURBO_VER}.tar.gz
 			-> nzbgetcom-par2turbo-${PAR2_TURBO_VER}.tar.gz
 	)
+	https://github.com/nzbgetcom/rapidyenc/archive/v${RAPIDYENC_VER}.tar.gz
+		-> nzbgetcom-rapidyenc-${RAPIDYENC_VER}.tar.gz
 	https://github.com/nzbgetcom/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
 "
 
@@ -47,15 +50,16 @@ DOCS=( ChangeLog.md README.md nzbget.conf )
 
 PATCHES=(
 	# Required to use par2-turbo downloaded into the source directory
-	"${FILESDIR}/${PN}-25.3-build-with-par2-turbo-offline.patch"
-	# Backported from https://github.com/nzbgetcom/nzbget/commit/063e1cd82ee719b18a1dae40f65c0971de44edef
-	"${FILESDIR}/${P}-fix-include-order.patch"
+	"${FILESDIR}/${PN}-26.1-build-with-par2-turbo-offline.patch"
+	# Required to use rapidyenc downloaded into the source directory
+	"${FILESDIR}/${PN}-26.1-build-with-rapidyenc-offline.patch"
 )
 
 src_prepare() {
 	if use parcheck; then
 		mv "${WORKDIR}/par2cmdline-turbo-${PAR2_TURBO_VER}" par2-turbo || die
 	fi
+	mv "${WORKDIR}/rapidyenc-${RAPIDYENC_VER}" rapidyenc || die
 	cmake_src_prepare
 
 	# Update the main configuration file with the correct paths
