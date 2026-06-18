@@ -2449,7 +2449,7 @@ app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8: Kernel Modules f
 app-emulation/vkd3d-proton 2.6-r1 2.12 2.13 2.14.1 3.0b 3.0.1 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
-app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0: Replacement for the .NET runtime and class libraries in Wine
+app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 11.0.1_beta5 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 11.0 11.8 11.9 11.10 11.11 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.8 11.9 11.10 11.11 9999: Free implementation of Windows(tm) on Unix, without external patchsets
@@ -14345,7 +14345,7 @@ media-video/lossless-cut-bin 3.68.0: The swiss army knife of lossless video/audi
 media-video/lsdvd 0.17: Utility for getting info out of DVDs
 media-video/lxdvdrip 1.77-r1 1.77-r2: Command line tool to automate the process of ripping and burning DVDs
 media-video/m2vrequantizer 0.0.2_pre20060306-r1: Tool to requantize mpeg2 videos
-media-video/makemkv 1.18.3: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
+media-video/makemkv 1.18.4: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
 media-video/matroxset 0.4-r2: Matrox utility to switch output modes (activate tvout)
 media-video/mediainfo 24.11-r1: MediaInfo supplies technical and tag information about media files
 media-video/mjpegtools 2.2.1-r2: Tools for MJPEG video
@@ -18247,7 +18247,7 @@ www-apps/nanoc-cli 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexi
 www-apps/nanoc-core 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-deploying 1.0.2-r1 1.0.3: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
-www-apps/nextcloud 32.0.5 32.0.9 32.0.10 33.0.3 33.0.4 33.0.5: Personal cloud that runs on your own server
+www-apps/nextcloud 32.0.5 32.0.11 33.0.5: Personal cloud that runs on your own server
 www-apps/nextcloud-notify_push 1.3.3: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3-r1: A static website and blog generator
 www-apps/novnc 1.4.0 1.6.0 9999: noVNC is a VNC client implemented using HTML5 technologies
@@ -18473,7 +18473,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.22 21.1.23 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.10 24.1.11 24.1.12 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 580.159.04 595.44.09 595.71.05 595.80 610.43.02-r1: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.03-r1 580.159.04 595.44.09 595.71.05 595.80 595.84 610.43.02-r1: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
