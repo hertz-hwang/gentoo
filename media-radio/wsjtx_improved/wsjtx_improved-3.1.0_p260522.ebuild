@@ -7,13 +7,13 @@ inherit cmake edos2unix flag-o-matic
 
 DESCRIPTION="Weak signal ham radio communication with improvements"
 HOMEPAGE="https://wsjt-x-improved.sourceforge.io/"
-SRC_URI="https://downloads.sourceforge.net/wsjt-x-improved/wsjtx-3.1.0_improved_PLUS_260306_qt6.tgz"
+SRC_URI="https://downloads.sourceforge.net/wsjt-x-improved/wsjtx-3.1.0_improved_PLUS_260522_qt6.tgz"
 
 S=${WORKDIR}/wsjtx
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 RDEPEND="
@@ -34,7 +34,6 @@ BDEPEND="dev-qt/qttools[linguist]"
 PATCHES=(
 	"${FILESDIR}/wsjtx-2.3.0-drop-docs.patch"
 	"${FILESDIR}/wsjtx-clang.patch"
-	"${FILESDIR}/wsjtx-3.0.0-gcc16.patch"
 	"${FILESDIR}/wsjtx-3.0.0_p251212-fix-sound-dir.patch"
 )
 
