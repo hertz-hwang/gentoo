@@ -967,7 +967,7 @@ app-admin/doctl 1.79.0 1.124.0 9999: A command line tool for DigitalOcean servic
 app-admin/drush 6.7.0-r8: Command line shell and scripting interface for Drupal
 app-admin/eclean-kernel 2.99.10 9999: Remove outdated built kernels
 app-admin/emacs-updater 1.19: Rebuild Emacs packages
-app-admin/entr 5.7 5.8: Run arbitrary commands when files change
+app-admin/entr 5.8: Run arbitrary commands when files change
 app-admin/eselect 1.4.30 1.4.31 1.4.32 9999: Gentoo's multi-purpose configuration and management tool
 app-admin/evtxtools 1.1.1-r2: Read, decode and dump Windows Vista/2008/7 event log file
 app-admin/exo 1.94.0: Command-line tool for everything at Exoscale: compute, storage, dns
@@ -3019,7 +3019,7 @@ app-office/glabels 3.4.1-r2: Program for creating labels and business cards
 app-office/gnucash 5.14: Personal finance manager
 app-office/gnumeric 1.12.59-r1 1.12.60 1.12.61: The GNOME Spreadsheet
 app-office/grisbi 3.0.4-r1: Grisbi is a personal accounting application for Linux
-app-office/homebank 5.9.5 5.9.7: Free, easy, personal accounting for everyone
+app-office/homebank 5.9.7 5.10.2: Free, easy, personal accounting for everyone
 app-office/impressive 0.13.2: Stylish way of giving presentations with Python
 app-office/joplin-desktop 3.6.6 3.6.8 3.6.11 3.7.1: Secure note taking and to-do app with synchronization capabilities
 app-office/kmymoney 5.2.2: Personal finance manager based on KDE Frameworks
@@ -8542,7 +8542,7 @@ dev-python/gentoo-common 1: Common files shared by Python implementations in Gen
 dev-python/genty 1.3.2-r3: Allows you to run a test with multiple data sets
 dev-python/geographiclib 2.1: Python implementation of the geodesic routines
 dev-python/gfloat 0.5.2-r1: Generic floating-point types in Python
-dev-python/gherkin-official 39.1.0 40.0.0: Gherkin parser/compiler for Python
+dev-python/gherkin-official 39.1.0 40.0.0 41.0.0: Gherkin parser/compiler for Python
 dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
@@ -12696,7 +12696,7 @@ mail-filter/procmail 3.24-r1: Mail delivery agent/filter
 mail-filter/pyzor 1.1.2: A distributed, collaborative spam detection and filtering network
 mail-filter/razor 2.85-r5: Distributed, collaborative spam detection and filtering network
 mail-filter/rblcheck 1.5-r3: Perform lookups in RBL-styles services
-mail-filter/rspamd 3.13.2 3.14.0 3.14.1 3.14.2 3.14.3 4.0.1 9999: Rapid spam filtering system
+mail-filter/rspamd 3.13.2 3.14.3 4.0.1 9999: Rapid spam filtering system
 mail-filter/scmail 1.3: a mail filter written in Scheme
 mail-filter/sieve-connect 0.90: Sieve Command Line Interface
 mail-filter/spamassassin 4.0.1-r1 4.0.2 4.0.2-r1: An extensible mail filter which can identify and tag spam
