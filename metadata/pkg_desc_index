@@ -2445,7 +2445,7 @@ app-emulation/virtualbox-extpack-oracle 7.0.26 7.1.18 7.2.8 7.2.10: PUEL extensi
 app-emulation/virtualbox-guest-additions 7.0.26 7.1.18 7.2.8 7.2.10: VirtualBox kernel modules and user-space tools for Gentoo guests
 app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8 7.2.10: Kernel Modules for Virtualbox Guest Additions
 app-emulation/virtualbox-kvm 7.2.8_pre20260201 7.2.10_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8 7.2.10: Kernel Modules for Virtualbox
+app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8 7.2.10-r1: Kernel Modules for Virtualbox
 app-emulation/vkd3d-proton 2.6-r1 2.12 2.13 2.14.1 3.0b 3.0.1 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
@@ -9656,7 +9656,7 @@ dev-python/trove-classifiers 2026.1.14.14 2026.4.28.13 2026.5.7.17 2026.5.20.19 
 dev-python/trustme 1.2.1: #1 quality TLS certs while you wait, for the discerning tester
 dev-python/truststore 0.10.4: Verify certificates using native system trust stores
 dev-python/tubes 0.2.1: Flow control and backpressure for event-driven applications
-dev-python/tuf 6.0.0 7.0.0: A secure updater framework for Python
+dev-python/tuf 7.0.0: A secure updater framework for Python
 dev-python/twine 6.2.0: Collection of utilities for publishing packages on PyPI
 dev-python/twisted 25.5.0-r1 26.4.0_rc2 26.4.0: An asynchronous networking framework written in Python
 dev-python/twython 3.9.1-r1: An easy way to access Twitter data with Python
@@ -13308,7 +13308,7 @@ media-libs/jbigkit 2.1: data compression algorithm for bi-level high-resolution 
 media-libs/jg 1.0.0 9999: Reference Implementation of The Jolly Good API
 media-libs/kcolorpicker 0.3.1-r1: Qt based color picker with popup menu
 media-libs/kimageannotator 0.7.1 0.7.2: Tool for annotating images
-media-libs/kquickimageeditor 0.6.0 0.6.1: QtQuick components providing basic image editing capabilities
+media-libs/kquickimageeditor 0.6.1 0.6.2: QtQuick components providing basic image editing capabilities
 media-libs/ksanecore 26.04.1 26.04.2: Qt-based interface for SANE library to control scanner hardware
 media-libs/kvazaar 2.2.0 2.3.0-r1 2.3.2 9999: Open-source HEVC encoder
 media-libs/ladspa-sdk 1.17-r2: The Linux Audio Developer's Simple Plugin API
@@ -17831,7 +17831,7 @@ sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via s
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.94 6.18.35 6.18.36 7.0.12 7.0.13: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 7.0.12-r1 7.0.13: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 7.0.12 7.0.12-r1 7.0.13: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel-modprep 6.1.176 6.6.143 6.12.94 6.18.36 7.0.12 7.0.12-r1 7.0.13: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.141-r1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 7.0.12-r1 7.0.13 7.1.0 7.1.1: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5 7.1_rc6 7.1_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd

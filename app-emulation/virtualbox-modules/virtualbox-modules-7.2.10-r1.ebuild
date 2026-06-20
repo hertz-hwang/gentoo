@@ -35,6 +35,7 @@ src_install() {
 }
 
 pkg_postinst() {
+	linux-mod-r1_pkg_postinst
 	if ver_replacing -lt "7.2.10"; then
 		ewarn 'Starting with 7.2.10, using the `kvm.enable_virt_at_load=0` kernel parameter'
 		ewarn ' prevents the virtual machines from starting.'
