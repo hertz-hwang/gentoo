@@ -930,7 +930,7 @@ app-admin/apachetop 0.23.2: A realtime Apache log analyzer
 app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
-app-admin/aws-session-manager-plugin 1.2.792.0 1.2.804.0 1.2.814.0: AWS Session Manager Plugin for aws-cli
+app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
 app-admin/awscli 1.45.9 1.45.14 1.45.18 1.45.24 1.45.29 1.45.30 1.45.31 1.45.32 1.45.33 1.45.34: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
@@ -1538,7 +1538,7 @@ app-crypt/scdrand 0.3.5: Feed kernel entropy pool from smartcard's TRNG
 app-crypt/scrypt 1.3.3: A simple password-based encryption utility using scrypt key derivation function
 app-crypt/scute 1.7.0-r2: A PKCS #11 module for OpenPGP smartcards
 app-crypt/seahorse 47.0.1-r1 47.0.1-r2: Manage your passwords and encryption keys
-app-crypt/sequoia-chameleon-gnupg 0.13.1-r3 0.13.1-r4: Sequoia's reimplementation of the GnuPG interface
+app-crypt/sequoia-chameleon-gnupg 0.13.1-r4: Sequoia's reimplementation of the GnuPG interface
 app-crypt/sequoia-sop 0.37.3: Implementation of the Stateless OpenPGP Command Line Interface using Sequoia
 app-crypt/sequoia-sq 1.3.1-r1: CLI of the Sequoia OpenPGP implementation
 app-crypt/sequoia-sqv 1.3.0-r1: A simple OpenPGP signature verification program
@@ -1942,7 +1942,7 @@ app-emacs/cdlatex 4.18.5: Fast input methods for LaTeX environments and math
 app-emacs/centaur-tabs 3.2: Customizable tabs plugin for GNU Emacs
 app-emacs/cfrs 1.7.0: Child Frame Read String, alternative to read-string
 app-emacs/chess 2.0.5: A chess client and library for Emacs
-app-emacs/cider 1.20.0 1.21.0: Clojure Interactive Development Environment for GNU Emacs
+app-emacs/cider 1.20.0 1.21.0 1.22.2: Clojure Interactive Development Environment for GNU Emacs
 app-emacs/circe 2.14: A great IRC client for Emacs
 app-emacs/citar 1.4.0: Emacs package to quickly find and act on bibliographic references
 app-emacs/citeproc-el 0.9.4-r1: CSL 1.0.2 Citation Processor for Emacs
@@ -2090,11 +2090,11 @@ app-emacs/forge 0.6.4 0.6.5 0.6.6 9999: Work with Git forges from the comfort of
 app-emacs/fsharp-mode 2.0_p20230622 9999: Support for the F# programming language
 app-emacs/fsm 0.2.1: State machine library
 app-emacs/gap-mode 2.2.2: Major mode for editing and running GAP programs
-app-emacs/geiser 0.32: Generic interaction mode between Emacs and different Scheme implementations
+app-emacs/geiser 0.32 0.33.1: Generic interaction mode between Emacs and different Scheme implementations
 app-emacs/geiser-chez 0.18: Chez Scheme's implementation of the Geiser protocols
 app-emacs/geiser-chicken 0.17: Chicken Scheme's implementation of the Geiser protocols
 app-emacs/geiser-gambit 0.18.1: Gambit Scheme's implementation of the Geiser protocols
-app-emacs/geiser-guile 0.28.3-r101: Guile's implementation of the Geiser protocols
+app-emacs/geiser-guile 0.28.3-r101 0.28.5: Guile's implementation of the Geiser protocols
 app-emacs/geiser-mit 0.15: MIT/GNU Scheme's implementation of the Geiser protocols
 app-emacs/ghub 5.1.0 5.2.0 5.2.1: Minuscule client library for the Git forge APIs
 app-emacs/git-modes 1.4.8 1.5.0 9999: Emacs major modes for editing Git configuration files
@@ -2133,7 +2133,7 @@ app-emacs/ivy 0.15.1: Generic completion mechanism for Emacs
 app-emacs/ivy-rich 0.1.7: More friendly interface for ivy
 app-emacs/jam-mode 0.3-r1: An Emacs major mode for editing Jam files
 app-emacs/jasmin 1.2-r2: An Emacs major mode for editing Jasmin Java bytecode assembler files
-app-emacs/jinx 2.6 2.7: Enchanted Spell Checker for GNU Emacs
+app-emacs/jinx 2.6 2.7 2.8: Enchanted Spell Checker for GNU Emacs
 app-emacs/joplin-mode 202401009.2024: GNU Emacs client for accessing Joplin notes
 app-emacs/jq-mode 0.5.0_p20220610: Emacs major mode for editing jq queries
 app-emacs/js-comint 1.2.0: Run a JavaScript interpreter in an Emacs inferior process window
@@ -3165,8 +3165,8 @@ app-shells/posh-z 1.1.12_p20230811 1.1.15: Quickly navigate the file system base
 app-shells/powerline 2.8.4 9999: The ultimate statusline/prompt utility
 app-shells/psh 1.8.1-r4: Combines the interactive nature of a Unix shell with the power of Perl
 app-shells/push 3.4: A POSIX shell function to treat a variable like an array, quoting args
-app-shells/pwsh 7.6.0 7.6.1 7.6.2: Cross-platform automation and configuration tool
-app-shells/pwsh-bin 7.6.0 7.6.1 7.6.2: Cross-platform automation and configuration tool (binary package)
+app-shells/pwsh 7.6.0 7.6.1 7.6.2 7.6.3: Cross-platform automation and configuration tool
+app-shells/pwsh-bin 7.6.0 7.6.1 7.6.2 7.6.3: Cross-platform automation and configuration tool (binary package)
 app-shells/quoter 4.2: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/rc 1.7.4-r3: A reimplementation of the Plan 9 shell
 app-shells/rrs 1.70-r2: Reverse Remote Shell
@@ -4123,10 +4123,10 @@ dev-debug/sysdig 0.40.1-r1: A system exploration and troubleshooting tool
 dev-debug/systemtap 5.3-r1 5.4 5.5 9999: Linux trace/probe tool
 dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0 3.27.0_p1 3.27.1 9999: An open-source memory debugger for GNU/Linux
 dev-dotnet/avalonia-ilspy 7.2_rc-r2: Avalonia-based .NET Decompiler, port of ILSpy
-dev-dotnet/cake 5.1.0 6.0.0 6.1.0: Cake (C# Make) is a cross platform build automation system with a C# DSL
+dev-dotnet/cake 6.1.0 6.2.0: Cake (C# Make) is a cross platform build automation system with a C# DSL
 dev-dotnet/coco 2014.12.25 2014.12.25-r1: The compiler generator Coco/R for C#
 dev-dotnet/csharp-gentoodotnetinfo 2.0.0 2.0.0-r1 2.9999: .NET information tool for Gentoo
-dev-dotnet/csharp-language-server 0.24.0: Roslyn-based LSP language server for C#
+dev-dotnet/csharp-language-server 0.24.0 0.25.0: Roslyn-based LSP language server for C#
 dev-dotnet/csharprepl 0.6.7: A command line C# REPL with syntax highlighting
 dev-dotnet/dotnet-outdated 4.6.4-r2 4.6.9 4.7.0 4.7.1: Display and update outdated NuGet packages in a project
 dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.8 8.0.21 8.0.22 8.0.24 8.0.26 9.0.10 9.0.11 9.0.13 9.0.15 10.0.3 10.0.7: .NET runtime nugets
@@ -8147,7 +8147,7 @@ dev-python/agate-excel 0.4.2: Adds read support for Excel files (xls and xlsx) t
 dev-python/agate-sql 0.7.3: Adds SQL read/write support to agate
 dev-python/aiodns 4.0.4: Simple DNS resolver for asyncio
 dev-python/aiofiles 25.1.0: File support for asyncio
-dev-python/aiohappyeyeballs 2.6.1 2.6.2: Happy Eyeballs for pre-resolved hosts
+dev-python/aiohappyeyeballs 2.6.2: Happy Eyeballs for pre-resolved hosts
 dev-python/aiohttp 3.13.5 3.14.0 3.14.1: HTTP client/server for asyncio
 dev-python/aiohttp-cors 0.8.1: Implements CORS support for aiohttp asyncio-powered asynchronous HTTP server
 dev-python/aiohttp-oauthlib 0.1.0: oauthlib for aiohttp clients
@@ -8475,7 +8475,7 @@ dev-python/expandvars 1.1.2: Expand system variables Unix style
 dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
-dev-python/faker 40.18.0 40.19.1 40.21.0 40.23.0: A Python package that generates fake data for you
+dev-python/faker 40.19.1 40.21.0 40.23.0: A Python package that generates fake data for you
 dev-python/fakeredis 2.35.1 2.36.0 2.36.1 2.36.2: Fake implementation of redis API for testing purposes
 dev-python/fastapi 0.136.3: High performance framework, easy to learn, fast to code, ready for production
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
@@ -8606,12 +8606,12 @@ dev-python/hvac 2.4.0: HashiCorp Vault API client
 dev-python/hypercorn 0.18.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.152.7 6.152.9 6.152.11 6.155.2 6.155.3 6.155.5 6.155.6: A library for property based testing
+dev-python/hypothesis 6.152.9 6.152.11 6.155.6: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
 dev-python/icalendar 7.1.1 7.1.2 7.1.3: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
 dev-python/identify 2.6.18 2.6.19: File identification library for Python
-dev-python/idna 3.14 3.15 3.16 3.17 3.18: Internationalized Domain Names in Applications (IDNA)
+dev-python/idna 3.16 3.17 3.18: Internationalized Domain Names in Applications (IDNA)
 dev-python/ifaddr 0.2.0: Enumerate IP addresses on the local network adapters
 dev-python/ijson 3.5.0: Iterative JSON parser with a Pythonic interface
 dev-python/imageio 2.37.3-r1: Python library for reading and writing image data
@@ -8833,7 +8833,7 @@ dev-python/ml-dtypes 0.5.3 0.5.4: A stand-alone implementation of several NumPy 
 dev-python/mmtf-python 1.1.3: The python implementation of the MMTF API, decoder and encoder
 dev-python/mock 5.2.0: Rolling backport of unittest.mock for all Pythons
 dev-python/moddb 0.13.0: Python scrapper to access ModDB mods, games and more as objects
-dev-python/more-itertools 11.0.2 11.1.0: More routines for operating on iterables, beyond itertools
+dev-python/more-itertools 11.1.0: More routines for operating on iterables, beyond itertools
 dev-python/moto 4.2.14 5.1.22-r1 5.2.1 5.2.2: Mock library for boto
 dev-python/mpdlcd 0.5.2-r2: A small tool to display the MPD status on a LCDproc server
 dev-python/mpi4py 4.1.2: Message Passing Interface for Python
@@ -8900,7 +8900,7 @@ dev-python/odfpy 1.4.2: Python API and tools to manipulate OpenDocument files
 dev-python/olefile 0.47: Python package to parse, read and write Microsoft OLE2 files
 dev-python/omemo-dr 1.2.0: OMEMO Crypto Library
 dev-python/opcodes 0.3.14-r3: Opcodes Project
-dev-python/openapi-core 0.23.0 0.23.1-r1: Client-side and server-side support for the OpenAPI Specification v3
+dev-python/openapi-core 0.23.1-r1: Client-side and server-side support for the OpenAPI Specification v3
 dev-python/openapi-schema-validator 0.7.2 0.8.1 0.9.0: OpenAPI schema validation for Python
 dev-python/openapi-spec-validator 0.8.0 0.8.5 0.9.0: OpenAPI 2.0 (aka Swagger) and OpenAPI 3.0 spec validator
 dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
@@ -8908,9 +8908,9 @@ dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
 dev-python/openstackdocstheme 3.6.0: Theme and extension support for Sphinx documentation
 dev-python/openstacksdk 4.12.0 4.13.0 4.14.0 4.15.0 4.16.0: A collection of libraries for building applications to work with OpenStack
-dev-python/opentelemetry-api 1.41.1 1.42.1: OpenTelemetry Python API
-dev-python/opentelemetry-sdk 1.41.1 1.42.1: OpenTelemetry Python SDK
-dev-python/opentelemetry-semantic-conventions 1.41.1 1.42.1: OpenTelemetry Semantic Conventions
+dev-python/opentelemetry-api 1.42.1: OpenTelemetry Python API
+dev-python/opentelemetry-sdk 1.42.1: OpenTelemetry Python SDK
+dev-python/opentelemetry-semantic-conventions 1.42.1: OpenTelemetry Semantic Conventions
 dev-python/opt-einsum 3.4.0: Optimized Einsum: A tensor contraction order optimizer
 dev-python/ordered-set 4.1.0-r1: A mutable set that remembers the order of its entries
 dev-python/orderedmultidict 1.0.1: Ordered Multivalue Dictionary. Powers furl
@@ -9107,7 +9107,7 @@ dev-python/pyhamcrest 2.1.0: Hamcrest framework for matcher objects
 dev-python/pyhcl 0.4.5: HCL configuration parser for python
 dev-python/pyicu 2.16.2: Python bindings for dev-libs/icu
 dev-python/pyinotify 0.9.6-r1: Python module used for monitoring filesystems events
-dev-python/pyjwt 2.12.1 2.13.0: JSON Web Token implementation in Python
+dev-python/pyjwt 2.13.0: JSON Web Token implementation in Python
 dev-python/pykakasi 2.3.0: Kana kanji simple inversion library
 dev-python/pykeepass 4.1.1_p1: Python library to interact with keepass databases (supports KDBX3 and KDBX4)
 dev-python/pykka 4.4.2: A Python implementation of the actor model
@@ -9182,7 +9182,7 @@ dev-python/pyserial 3.5-r3: Python Serial Port extension
 dev-python/pyside 6.10.3 6.11.1-r1 6.9999: Python bindings for the Qt framework
 dev-python/pysimdjson 7.0.2: Python bindings for simdjson
 dev-python/pysmi 2.0.0: Pure-Python implementation of SNMP/SMI MIB parsing and conversion library
-dev-python/pysnmp 7.1.26 7.1.27: Python SNMP library
+dev-python/pysnmp 7.1.27: Python SNMP library
 dev-python/pysnmp-mibs 0.1.6-r1: SNMP framework in Python - MIBs
 dev-python/pysnmpcrypto 0.0.4: Strong cryptography support for PySNMP (SNMP library for Python)
 dev-python/pysocks 1.7.1-r2: SOCKS client module
@@ -9243,7 +9243,7 @@ dev-python/pytest-recording 0.13.3 0.13.4: A pytest plugin to record network int
 dev-python/pytest-regressions 2.10.0 2.11.0: Easy to use fixtures to write regression tests
 dev-python/pytest-repeat 0.9.4: pytest plugin for repeating tests
 dev-python/pytest-reraise 2.1.2: Make multi-threaded pytest test cases fail when they should
-dev-python/pytest-rerunfailures 16.2 16.3: pytest plugin to re-run tests to eliminate flaky failures
+dev-python/pytest-rerunfailures 16.3: pytest plugin to re-run tests to eliminate flaky failures
 dev-python/pytest-reserial 0.6.1: Pytest plugin for recording and replaying serial port traffic during tests
 dev-python/pytest-salt-factories 1.0.0_rc29 1.0.1 1.0.5: The new generation of the pytest-salt Plugin
 dev-python/pytest-services 2.2.2: Collection of fixtures and utility functions to run service processes for pytest
@@ -9281,7 +9281,7 @@ dev-python/python-editor 1.0.4-r2: Programmatically open an editor, capture the 
 dev-python/python-engineio 4.13.2: Python implementation of the Engine.IO realtime server
 dev-python/python-gammu 3.2.5: Python bindings for Gammu
 dev-python/python-gflags 3.1.2-r2: Google's Python argument parsing library
-dev-python/python-glanceclient 4.11.0 4.12.0: A client for the OpenStack Glance API
+dev-python/python-glanceclient 4.12.0: A client for the OpenStack Glance API
 dev-python/python-gnupg 0.5.6: A Python wrapper for GnuPG
 dev-python/python-ironicclient 6.1.0: Python bindings for the Ironic API
 dev-python/python-jose 3.5.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
@@ -9329,7 +9329,7 @@ dev-python/python3-lxc 5.0.0: Python bindings for LXC
 dev-python/python3-saml 1.16.0: OneLogin's SAML Python Toolkit
 dev-python/python3-xapp 3.0.2: Python bindings for x11-libs/xapp
 dev-python/pythondialog 3.5.3: A Python module for making simple text/console-mode user interfaces
-dev-python/pythonnet 3.0.5-r2: Nearly seamless integration with the .NET Common Language Runtime
+dev-python/pythonnet 3.0.5-r2 3.1.0: Nearly seamless integration with the .NET Common Language Runtime
 dev-python/pythran 0.18.1: Ahead of Time compiler for numeric kernels
 dev-python/pytidylib 0.3.2-r2: Python wrapper for HTML Tidy (tidylib)
 dev-python/pytimeparse 1.1.8-r1: A small Python module to parse various kinds of time expressions
@@ -9407,7 +9407,7 @@ dev-python/requests-unixsocket 0.4.1: Use requests to talk HTTP via a UNIX domai
 dev-python/requests-wsgi-adapter 0.4.1: WSGI Transport Adapter for Requests
 dev-python/requestsexceptions 1.4.0-r1: Finds the correct path to exceptions in the requests library
 dev-python/resolvelib 1.2.1: Resolve abstract dependencies into concrete ones
-dev-python/responses 0.26.0 0.26.1: Utility for mocking out the Python Requests library
+dev-python/responses 0.26.1: Utility for mocking out the Python Requests library
 dev-python/respx 0.23.1: Mock HTTPX with awesome request patterns and response side effects
 dev-python/restructuredtext-lint 2.0.2: Checks PyPI validity of reStructuredText
 dev-python/retry-decorator 1.1.1-r1: Decorator for retrying when exceptions occur
@@ -9573,7 +9573,7 @@ dev-python/sshpubkeys 3.3.1-r2: OpenSSH public key parser for Python
 dev-python/sshtunnel 0.4.0-r2: Pure Python SSH tunnels
 dev-python/stack-data 0.6.3-r1: Extract data from Python tracebacks for informative displays
 dev-python/stapler 1.0.0_p20220330-r4: Suite of tools for PDF files manipulation written in Python
-dev-python/starlette 1.0.0 1.0.1 1.1.0 1.2.0 1.2.1 1.3.0 1.3.1: The little ASGI framework that shines
+dev-python/starlette 1.0.1 1.1.0 1.2.1 1.3.1: The little ASGI framework that shines
 dev-python/statsd 4.0.1: A simple statsd client
 dev-python/statsmodels 0.14.6: Statistical computations and models for use with SciPy
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
@@ -10852,7 +10852,7 @@ dev-util/cucumber-tag-expressions 4.1.0 5.0.6 6.1.2: Cucumber tag expressions fo
 dev-util/cunit 2.1_p3-r1: C Unit Test Framework
 dev-util/cutils 1.6-r5: C language utilities
 dev-util/cutter 2.4.1 2.4.1-r1: A Qt and C++ GUI for rizin reverse engineering framework
-dev-util/cvise 2.12.0 9999: Super-parallel Python port of the C-Reduce
+dev-util/cvise 2.12.0 2.12.0-r1 9999: Super-parallel Python port of the C-Reduce
 dev-util/cwdiff 0.4.0 9999: A script that wraps wdiff to support directories and colorize the output
 dev-util/datree 1.9.19-r1: Tool to ensure K8s manifests and Helm charts follow best practices
 dev-util/dbus-test-runner 19.04.0-r2: Run executables under a new DBus session for testing
@@ -19072,7 +19072,7 @@ x11-themes/experience 3.04-r1 3.04-r2: GTK+2 themes which copy and improve the l
 x11-themes/faenza-icon-theme 1.3.1-r1: A scalable icon theme called Faenza
 x11-themes/fedora-backgrounds 27.0.1 28.1.5 29.1.3 30.1.2 31.0.4 32.2.2 33.0.8 34.0.1 36.1.2 37.0.6 38.1.1-r1 39.0.5 40.2.0 41.0.2 42.0.0 43.0.3 43.0.4: A set of default and supplemental wallpapers for Fedora
 x11-themes/flatsvg 1.0: Flat SVG icon set
-x11-themes/fluent-icon-theme 2024.02.25 2025.08.21: Fluent icon theme for Linux desktops
+x11-themes/fluent-icon-theme 2024.02.25 2025.08.21 2026.06.19: Fluent icon theme for Linux desktops
 x11-themes/fluxbox-styles-fluxmod 20050128-r1: A collection of FluxBox themes from FluxMod
 x11-themes/fvwm-crystal 3.7.6: Configurable FVWM theme with transparency and freedesktop compatible menu
 x11-themes/gargantuan-icon-theme 1.7: Gargantuan Icon Theme
