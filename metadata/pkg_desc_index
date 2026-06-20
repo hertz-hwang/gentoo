@@ -12690,7 +12690,7 @@ mail-filter/policyd-weight 0.1.15.2-r3: Weighted Policy daemon for Postfix
 mail-filter/popfile 1.1.3-r1: Anti-spam bayesian filter
 mail-filter/postforward 1.1.1-r1: Postfix Sender Rewriting Scheme forwarding agent
 mail-filter/postfwd 2.02-r1 2.03: Versatile Postfix policy server with a flexible ruleset based configuration
-mail-filter/postgrey 1.37_p20230714-r1: Postgrey is a Postfix policy server implementing greylisting
+mail-filter/postgrey 1.37_p20230714-r1 1.37_p20230714-r2: Postgrey is a Postfix policy server implementing greylisting
 mail-filter/postsrsd 1.12 2.0.11-r6: Postfix Sender Rewriting Scheme daemon
 mail-filter/procmail 3.24-r1: Mail delivery agent/filter
 mail-filter/pyzor 1.1.2: A distributed, collaborative spam detection and filtering network
@@ -17362,7 +17362,7 @@ sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
 sys-apps/system-monitoring-center 3.3.0 3.4.0 3.4.1 9999: Multi-featured system monitor GUI written in Python
 sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services and their logs
-sys-apps/systemd 259.4-r2 260.1-r2 260.2-r1 261 9999: System and service manager for Linux
+sys-apps/systemd 259.4-r2 260.1-r2 260.2-r1 261-r1 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
 sys-apps/systemd-utils 255.18 259.3 259.4 260.1-r1: Utilities split out from systemd for OpenRC users
