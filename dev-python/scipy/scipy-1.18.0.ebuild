@@ -39,7 +39,9 @@ else
 	"
 
 	if [[ ${PV} != *rc* ]]; then
-		KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
+		# due to dev-libs/boost being not keyworded
+		# KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
+		:
 	fi
 fi
 
@@ -60,7 +62,7 @@ COMMON_DEPEND="
 # Only boost.math is used, and meson.build doesn't even look up specific boost modules.
 DEPEND="
 	${COMMON_DEPEND}
-	>=dev-libs/boost-1.89.0
+	>=dev-libs/boost-1.91.0
 "
 RDEPEND="
 	${COMMON_DEPEND}

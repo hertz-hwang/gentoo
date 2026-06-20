@@ -12031,10 +12031,10 @@ gnome-extra/gnome-shell-extension-applications-overview-tooltip 24: Show tooltip
 gnome-extra/gnome-shell-extension-bing-wallpaper 52 53: Change your wallpaper daily to the bing.com background image
 gnome-extra/gnome-shell-extension-control-blur-effect-on-lock-screen 20241110: Control the blur effect on gnome-shell lock screen
 gnome-extra/gnome-shell-extension-dash-to-panel 72 73: An icon taskbar for the Gnome Shell
-gnome-extra/gnome-shell-extension-desktop-icons-ng 49.0.5 50.0.0 50.2.0: Desktop icon support for GNOME Shell
+gnome-extra/gnome-shell-extension-desktop-icons-ng 50.2.0 50.3.0: Desktop icon support for GNOME Shell
 gnome-extra/gnome-shell-extension-gsconnect 71 72: KDE Connect implementation for GNOME
 gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20250710 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
-gnome-extra/gnome-shell-extension-weather-oclock 50.2 50.3: Display the current weather inside the pill next to the clock
+gnome-extra/gnome-shell-extension-weather-oclock 50.3 50.4: Display the current weather inside the pill next to the clock
 gnome-extra/gnome-shell-extensions 48.3 49.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 47.0 48.0: Unofficial extension pack providing GNOME 2-like features
 gnome-extra/gnome-software 49.4: Gnome install & update software
@@ -14321,9 +14321,9 @@ media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to ch
 media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
-media-video/ffmpeg 4.4.7 6.1.5 7.1.4 8.1 8.1.1 8.1.2 9999: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg 4.4.7 6.1.5 7.1.4 7.1.5 8.1 8.1.1 8.1.2 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 151: FFmpeg built specifically for codec support in Chromium-based browsers
-media-video/ffmpeg-compat 4.4.7 6.1.5 7.1.4: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg-compat 4.4.7 6.1.5 7.1.4 7.1.5: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
@@ -14843,7 +14843,7 @@ net-im/signal-desktop-bin 8.15.0: Allows you to send and receive messages of Sig
 net-im/slack 4.49.89 4.50.121: Team collaboration tool
 net-im/spectrum2 2.2.1-r2: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
-net-im/synapse 1.150.0 1.151.0 1.152.0 1.152.1: Reference implementation of Matrix homeserver
+net-im/synapse 1.151.0 1.152.1 1.155.0: Reference implementation of Matrix homeserver
 net-im/talk-desktop-bin 2.1.1 2.1.2 2.2.0: Nextcloud Talk Desktop client
 net-im/telegram-desktop 6.6.2 6.8.2 6.9.3: Official desktop client for Telegram
 net-im/telegram-desktop-bin 6.8.2 6.9.1: Official desktop client for Telegram (binary package)
