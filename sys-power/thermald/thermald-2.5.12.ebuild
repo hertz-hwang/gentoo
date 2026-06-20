@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -43,7 +43,6 @@ my_src_configure() {
 	ECONF_SOURCE="${S}" econf \
 		--disable-werror \
 		--runstatedir="${EPREFIX}"/run \
-		--with-dbus-power-group=wheel \
 		--with-systemdsystemunitdir="$(systemd_get_systemunitdir)"
 }
 
