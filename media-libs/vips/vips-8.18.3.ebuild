@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit flag-o-matic meson python-any-r1 toolchain-funcs vala
 
 DESCRIPTION="VIPS Image Processing Library"
@@ -12,7 +12,7 @@ SRC_URI="https://github.com/libvips/libvips/releases/download/v${PV}/${P}.tar.xz
 
 LICENSE="LGPL-2.1+ MIT"
 SLOT="0/42" # soname
-KEYWORDS="amd64 ~arm64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~x86"
 IUSE="
 	archive deprecated doc exif fftw fits fontconfig graphicsmagick
 	heif +highway imagemagick imagequant +introspection +jpeg jpeg2k
@@ -92,10 +92,6 @@ BDEPEND="
 	)
 	vala? ( $(vala_depend) )
 "
-
-PATCHES=(
-	"${FILESDIR}"/${P}-glibc2.43.patch
-)
 
 pkg_setup() {
 	use doc && python-any-r1_pkg_setup

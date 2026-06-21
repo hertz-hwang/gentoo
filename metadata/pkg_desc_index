@@ -3132,7 +3132,7 @@ app-shells/bashdb 5.0.1.1.2-r1 5.1_pre20240617: bash source code debugging
 app-shells/bashish 2.2.4: Text console theme engine
 app-shells/ccsh 0.0.4-r5: UNIX Shell for people already familiar with the C language
 app-shells/ctypes-sh 1.2_p20240626: Foreign function interface for bash
-app-shells/dash 0.5.12-r1 0.5.13.4 0.5.13.4-r1 9999: Debian Almquist Shell
+app-shells/dash 0.5.12-r1 0.5.13.4 0.5.13.4-r1 0.5.13.4-r2 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
 app-shells/fish 4.5.0-r2 4.6.0 4.7.1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
@@ -3964,7 +3964,7 @@ dev-cpp/pystring 1.1.4-r1 1.1.4-r2: C++ functions matching the interface and beh
 dev-cpp/random123 1.14.0: library of counter-based random number generators (CBRNGs)
 dev-cpp/range-v3 0.12.0-r1: Range library for C++14/17/20, basis for C++20's std::ranges
 dev-cpp/rapidfuzz-cpp 3.3.3: Rapid fuzzy string matching in C++
-dev-cpp/rapidyaml 0.9.0 0.10.0 0.11.1 0.12.1: Library to parse and emit YAML, and do it fast
+dev-cpp/rapidyaml 0.12.1 0.15.2: Library to parse and emit YAML, and do it fast
 dev-cpp/robin-map 1.3.0 1.4.0-r1 1.4.1 9999: C++ fast hash map and hash set using robin hood hashing
 dev-cpp/scitokens-cpp 1.1.0-r1 1.1.1 1.1.2 1.1.3 1.2.0 1.3.0 1.4.0 1.4.1: C++ implementation of the SciTokens library with a C library interface
 dev-cpp/sdbus-c++ 2.3.1: High-level C++ D-Bus library
@@ -10910,7 +10910,7 @@ dev-util/gitlab-cli 1.65.0 1.72.0 1.100.0: the official gitlab command line inte
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.82.5 2.84.4 2.86.4 2.86.5 2.88.0 2.88.1: Build utilities for GLib using projects
-dev-util/global 6.6.14: Tag system to find an object location in various sources
+dev-util/global 6.6.14 6.6.15: Tag system to find an object location in various sources
 dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 48.2-r2 49.1: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
@@ -11036,7 +11036,7 @@ dev-util/pwntools 4.14.1 4.15.0 9999: CTF framework and exploit development libr
 dev-util/py-spy 0.4.0 0.4.1: Sampling profiler for Python programs
 dev-util/pycharm-community 2024.3.5 2025.1.3 2025.2.5: Intelligent Python IDE with unique code assistance and analysis
 dev-util/pycharm-professional 2024.3.5 2025.1.4 2025.2.5 2025.3.1.1 2025.3.4 2026.1: Intelligent Python IDE with unique code assistance and analysis
-dev-util/qbs 3.1.2: Modern build tool for software projects
+dev-util/qbs 3.1.2 3.3.0: Modern build tool for software projects
 dev-util/qdevicemonitor 1.0.1-r4: Crossplatform log viewer for Android, iOS and text files
 dev-util/quilt 0.69 9999: quilt patch manager
 dev-util/radare2 5.9.6 6.0.4: unix-like reverse engineering framework and commandline tools
@@ -11453,7 +11453,7 @@ games-board/phalanx 22-r1: Chess engine suitable for beginner and intermediate p
 games-board/pioneers 15.6: Clone of the popular board game The Settlers of Catan
 games-board/polyglot 1.4.70b-r3 2.0.4_p20210322: Protocol adapter to run UCI chess engines under xboard
 games-board/pychess 1.1.0: GTK chess client
-games-board/pysolfc 3.4.1: Exciting collection of more than 1000 solitaire card games
+games-board/pysolfc 3.4.1 3.6.0: Exciting collection of more than 1000 solitaire card games
 games-board/scid 5.0.2: Shane's Chess Information Database
 games-board/simsu 1.4.5 1.4.6: Basic sudoku game
 games-board/sjeng 11.2_p8_p1-r1: Console based chess interface
@@ -11534,7 +11534,7 @@ games-emulation/vbam 2.1.11-r1 9999: Game Boy, GBC, and GBA emulator forked from
 games-emulation/vecx-jg 1.2.3 9999: Jolly Good Fork of vecx
 games-emulation/vgba 4.8-r1: Gameboy Advance (GBA) emulator for Linux
 games-emulation/zinc 1.1-r1: An x86 binary-only emulator for Sony ZN-1, ZN-2, and Namco System 11 arcades
-games-emulation/zsnes 2.1.0: Fork of the classic Super Nintendo emulator
+games-emulation/zsnes 2.1.0 2.1.1: Fork of the classic Super Nintendo emulator
 games-engines/box2d 2.4.2 2.4.2-r1: C++ engine for simulating rigid bodies in 2D games
 games-engines/dMagnetic 0.37: A Magnetic Scrolls Interpreter for playing a collection of old text adventures
 games-engines/devilutionx 1.5.4-r1 1.5.5: Diablo engine for modern operating systems
@@ -11821,7 +11821,7 @@ games-rpg/eschalon-book-1-demo 106-r1: Classic role-playing game
 games-rpg/eternal-lands 1.9.6.1-r1: 3D fantasy MMORPG written in C and SDL
 games-rpg/freedink 109.6: Dink Smallwood is an adventure/role-playing game, similar to Zelda (2D top view)
 games-rpg/freedink-data 1.08.20190120: Freedink game data
-games-rpg/freedroid 1.2.3: The original Freedroid, a clone of the C64 classic Paradroid
+games-rpg/freedroid 1.2.3 1.9.0: The original Freedroid, a clone of the C64 classic Paradroid
 games-rpg/freedroidrpg 1.0-r1: Modification of the classical Freedroid engine into an RPG
 games-rpg/grimrock 20150707: Legend of Grimrock: The ultimate dungeon crawling RPG + modding engine
 games-rpg/gwiz 0.8-r1: Clone of old-school Wizardry(tm) games by SirTech
@@ -11908,7 +11908,7 @@ games-strategy/lgeneral 1.4.4-r1: Turn-based strategy game heavily inspired by t
 games-strategy/liquidwar 5.6.5: Unique multiplayer wargame
 games-strategy/megaglest 3.13.0-r5: Cross-platform 3D realtime strategy game
 games-strategy/megaglest-data 3.13.0-r1: Data files for the cross-platform 3D realtime strategy game MegaGlest
-games-strategy/naev 0.13.4-r1: 2D space trading and combat game, in a similar vein to Escape Velocity
+games-strategy/naev 0.13.4-r1 0.13.5: 2D space trading and combat game, in a similar vein to Escape Velocity
 games-strategy/openra 20231010-r2 20250330: A free RTS engine supporting games like Command & Conquer, Red Alert and Dune2k
 games-strategy/s25rttr 0.9.5-r1: Open source remake of The Settlers II: Gold Edition (needs original data files)
 games-strategy/satellite-reign 1.13.06: Real-time, class-based strategy game set in a cyberpunk city
@@ -13183,7 +13183,7 @@ media-gfx/ttygif 1.6.0: Convert terminal recordings to animated gifs
 media-gfx/tuxpaint 0.9.31-r2 0.9.35 0.9.35-r1: Drawing program designed for young children
 media-gfx/tuxpaint-stamps 20230402 20241025: Set of 'Rubber Stamp' images which can be used within Tux Paint
 media-gfx/ueberzug 18.3.1: Command line util to draw images on terminals by using child windows
-media-gfx/ueberzugpp 2.9.8: Drop in replacement for ueberzug written in C++
+media-gfx/ueberzugpp 2.9.8 2.9.10: Drop in replacement for ueberzug written in C++
 media-gfx/valentina 1.0.0-r1: Cloth patternmaking software
 media-gfx/viewer 0.8.0-r2: A stereo pair image viewer (supports ppm's only)
 media-gfx/viewnior 1.8-r1: Fast and simple image viewer
@@ -13453,8 +13453,8 @@ media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherape
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
-media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.64 2.32.66 2.32.68: Simple Direct Media Layer
-media-libs/libsdl3 3.2.30 3.4.4 3.4.6 3.4.8 3.4.10: Simple Direct Media Layer
+media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.68: Simple Direct Media Layer
+media-libs/libsdl3 3.2.30 3.4.8 3.4.10: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
 media-libs/libshumate 1.4.0 1.6.1: Shumate is a GTK toolkit providing widgets for embedded maps
@@ -13607,7 +13607,7 @@ media-libs/urt 3.2_rc1_p20250101: the Utah Raster Toolkit is a library for deali
 media-libs/vamp-plugin-sdk 2.10 2.10-r1: Audio processing system for plugins to extract information from audio data
 media-libs/vidstab 1.1.1 1.1.1-r1 1.1.1_p20240615 9999: Video stabilization library
 media-libs/vigra 1.11.2_p20240505 1.12.1 1.12.2 9999: C++ computer vision library emphasizing customizable algorithms and structures
-media-libs/vips 8.18.0 8.18.1 8.18.2: VIPS Image Processing Library
+media-libs/vips 8.18.2 8.18.3: VIPS Image Processing Library
 media-libs/virglrenderer 1.1.1-r1 1.2.0 9999-r1: Library used implement a virtual 3D GPU used by qemu
 media-libs/vitamtp 2.5.9_pre20160829-r1 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/vkroots 0_p20240430: Simple framework for writing Vulkan layers
@@ -17643,7 +17643,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.3.1_p20260619 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.1_p20260619 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.3.1_p20260619 14.4.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.1_p20260619 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.1.1_p20260620 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
