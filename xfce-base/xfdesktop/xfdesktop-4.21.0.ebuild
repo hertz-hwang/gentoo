@@ -63,7 +63,9 @@ src_configure() {
 		$(meson_use video video-backdrop)
 	)
 
-	addpredict /dev/dri
+	if use video; then
+		addpredict /dev
+	fi
 	meson_src_configure
 }
 
