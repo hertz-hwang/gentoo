@@ -15,11 +15,7 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="
-	app-emacs/transient
-"
 BDEPEND="
-	${RDEPEND}
 	app-text/texi2html
 	sys-apps/texinfo
 "
@@ -28,7 +24,6 @@ DOCS=( readme.org news.org doc/html )
 SITEFILE="50${PN}-gentoo.el"
 
 src_compile() {
-	local -x BYTECOMPFLAGS="-L ./elisp"
 	elisp_src_compile
 	emake -C ./doc info web
 }
