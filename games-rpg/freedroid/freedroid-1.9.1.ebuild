@@ -27,7 +27,6 @@ BDEPEND="
 src_prepare() {
 	default
 
-	sed -i 's/-Werror //' src/Makefile.am || die
 	eautoreconf
 }
 
