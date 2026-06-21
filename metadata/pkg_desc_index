@@ -19234,9 +19234,9 @@ xfce-base/xfce4-meta 4.20: The Xfce Desktop Environment (meta package)
 xfce-base/xfce4-panel 4.20.7 4.21.1 4.21.2: Panel for the Xfce desktop environment
 xfce-base/xfce4-power-manager 4.20.0 4.21.1: Power manager for the Xfce desktop environment
 xfce-base/xfce4-session 4.20.4 4.21.1: A session manager for the Xfce desktop environment
-xfce-base/xfce4-settings 4.20.4 4.21.1: Configuration system for the Xfce desktop environment
+xfce-base/xfce4-settings 4.20.4 4.21.1 4.21.2: Configuration system for the Xfce desktop environment
 xfce-base/xfconf 4.20.0 4.21.2: A configuration management system for Xfce
-xfce-base/xfdesktop 4.20.2: Desktop manager for the Xfce desktop environment
+xfce-base/xfdesktop 4.20.2 4.21.0: Desktop manager for the Xfce desktop environment
 xfce-base/xfwm4 4.20.0: Window manager for the Xfce desktop environment
 xfce-extra/thunar-archive-plugin 0.6.0: Archive plug-in for the Thunar filemanager
 xfce-extra/thunar-media-tags-plugin 0.6.0: Adds special features for media files to the Thunar File Manager
