@@ -3165,8 +3165,8 @@ app-shells/posh-z 1.1.12_p20230811 1.1.15: Quickly navigate the file system base
 app-shells/powerline 2.8.4 9999: The ultimate statusline/prompt utility
 app-shells/psh 1.8.1-r4: Combines the interactive nature of a Unix shell with the power of Perl
 app-shells/push 3.4: A POSIX shell function to treat a variable like an array, quoting args
-app-shells/pwsh 7.6.0 7.6.1 7.6.2 7.6.3: Cross-platform automation and configuration tool
-app-shells/pwsh-bin 7.6.0 7.6.1 7.6.2 7.6.3: Cross-platform automation and configuration tool (binary package)
+app-shells/pwsh 7.6.2 7.6.3: Cross-platform automation and configuration tool
+app-shells/pwsh-bin 7.6.2 7.6.3: Cross-platform automation and configuration tool (binary package)
 app-shells/quoter 4.2: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/rc 1.7.4-r3: A reimplementation of the Plan 9 shell
 app-shells/rrs 1.70-r2: Reverse Remote Shell
@@ -4515,7 +4515,7 @@ dev-haskell/fast-logger 3.0.1 3.2.2 3.2.6: A fast logging system
 dev-haskell/fast-math 1.0.2: Non IEEE-754 compliant compile-time floating-point optimisations
 dev-haskell/fdo-notify 0.3.1: Desktop Notifications client
 dev-haskell/feed 1.3.2.1-r4: Interfacing with RSS (v 0.9x, 2.x, 1.0) + Atom feeds
-dev-haskell/fgl 5.8.3.0: Martin Erwig's Functional Graph Library
+dev-haskell/fgl 5.8.3.1: Martin Erwig's Functional Graph Library
 dev-haskell/file-embed 0.0.16.0: Use Template Haskell to embed file contents directly
 dev-haskell/filemanip 0.3.6.3: Expressive file and directory manipulation for Haskell
 dev-haskell/filepath-bytestring 1.4.100.3.2: Library for manipulating RawFilePaths in a cross platform way
@@ -5427,6 +5427,7 @@ dev-lang/tk 8.6.16 8.6.17 9.0.3-r2: Tk Widget Set
 dev-lang/tuprolog 3.2.0-r3: tuProlog is a light-weight Prolog for Internet applications and infrastructures
 dev-lang/typescript 5.9.3 6.0.2 6.0.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-lang/uasm 2.57: UASM is a free MASM-compatible assembler
+dev-lang/unison-lang-bin 1.3.0-r1: A friendly programming language from the future
 dev-lang/vala 0.56.18 0.56.19: Compiler for the GObject type system
 dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
 dev-lang/xsb 4.0.0-r4: XSB is a logic programming and deductive database system
@@ -15327,7 +15328,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.26.0 3.27.1 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.3 10.1.4-r2 10.1.5-r1 10.2.3 10.2.5-r2 10.3.1 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.5.3-r2 10.5.4-r1 10.6.1-r1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.1 1.32.2 1.32.3 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.1 1.32.2 1.32.3 1.32.4 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
