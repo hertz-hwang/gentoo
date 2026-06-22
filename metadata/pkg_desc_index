@@ -8606,7 +8606,7 @@ dev-python/hvac 2.4.0: HashiCorp Vault API client
 dev-python/hypercorn 0.18.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.152.9 6.152.11 6.155.6: A library for property based testing
+dev-python/hypothesis 6.152.9 6.152.11 6.155.6 6.155.7: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
 dev-python/icalendar 7.1.2 7.1.3: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
@@ -8827,7 +8827,7 @@ dev-python/minikanren 1.0.5: Relational programming in Python
 dev-python/minimock 1.3.0-r1: The simplest possible mock library
 dev-python/miniupnpc 2.3.3: Python bindings for UPnP client library
 dev-python/mistletoe 1.5.1: A fast, extensible Markdown parser in pure Python
-dev-python/mistune 3.2.0 3.2.1: The fastest markdown parser in pure Python
+dev-python/mistune 3.2.1 3.3.1: The fastest markdown parser in pure Python
 dev-python/mkautodoc 0.2.0: Auto documentation for MkDocs
 dev-python/ml-dtypes 0.5.3 0.5.4: A stand-alone implementation of several NumPy dtype extensions
 dev-python/mmtf-python 1.1.3: The python implementation of the MMTF API, decoder and encoder
@@ -8876,7 +8876,7 @@ dev-python/netifaces 0.11.0-r2: Portable network interface information
 dev-python/netlink 0.1: Pure-Python client for the Linux NetLink interface
 dev-python/networkx 3.6.1: Python tools to manipulate graphs and complex networks
 dev-python/nextinspace 3.0.1 9999: A command-line tool for seeing the latest in space
-dev-python/nh3 0.3.5: Ammonia HTML sanitizer Python binding
+dev-python/nh3 0.3.5 0.3.6: Ammonia HTML sanitizer Python binding
 dev-python/nnpy 1.4.2-r1: cffi-based Python bindings for nanomsg
 dev-python/node-semver 0.9.0: Python version of node-semver, the semantic versioner for npm
 dev-python/nodeenv 1.10.0: Node.js virtual environment builder
@@ -8887,9 +8887,9 @@ dev-python/notebook-shim 0.2.4: A shim layer for notebook traits and config
 dev-python/notify2 0.3.1-r3: Python interface to DBus notifications
 dev-python/nox 2026.04.10: Flexible test automation for Python
 dev-python/ntplib 0.4.0-r1: Python NTP library
-dev-python/nuitka 4.1.2: Python to native compiler
+dev-python/nuitka 4.1.2 4.1.3: Python to native compiler
 dev-python/numexpr 2.14.1: Fast numerical array expression evaluator for Python and NumPy
-dev-python/numpy 2.2.6 2.4.4 2.4.5 2.4.6 2.5.0_rc1: Fast array and numerical python library
+dev-python/numpy 2.2.6 2.4.4 2.4.5 2.4.6 2.5.0_rc1 2.5.0: Fast array and numerical python library
 dev-python/numpydoc 1.10.0: Sphinx extension to support docstrings in Numpy format
 dev-python/nvidia-ml-py 12.575.51 13.590.44: Python bindings to the NVIDIA Management Library
 dev-python/oauthlib 3.3.1: Spec-compliant and thorough implementation of the OAuth request-signing logic
@@ -8967,7 +8967,7 @@ dev-python/pdoc3 0.11.6: Auto-generate API documentation for Python projects
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
 dev-python/pebble 5.2.0: Threading and multiprocessing eye-candy
 dev-python/pecan 1.8.0: A WSGI object-dispatching web framework, lean, fast, with few dependencies
-dev-python/peewee 4.0.5 4.0.6 4.0.7 4.0.8 4.0.9 4.1.0: Small Python ORM
+dev-python/peewee 4.0.6 4.0.7 4.0.8 4.0.9 4.1.0: Small Python ORM
 dev-python/pefile 2024.8.26 9999: Module to read and work with Portable Executable (PE) files
 dev-python/pelican-minify 2.0.2: An HTML minification plugin for Pelican, the static site generator
 dev-python/pexpect 4.9.0: Python module for spawning child apps and responding to expected patterns
@@ -9787,7 +9787,7 @@ dev-python/zc-lockfile 4.0: Basic inter-process locks
 dev-python/zconfig 4.3: Configuration library supporting a hierarchical schema-driven model
 dev-python/zeep 4.3.2 4.3.3: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zenlib 3.3.0 9999: Useful python decorators and utilities
-dev-python/zeroconf 0.148.0 0.149.3 0.149.5 0.149.7 0.149.9 0.149.13 0.149.16: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
+dev-python/zeroconf 0.148.0 0.149.3 0.149.5 0.149.7 0.149.9 0.149.13 0.149.16 0.149.17: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-python/zipp 4.1.0: Backport of pathlib-compatible object wrapper for zip files
 dev-python/zipstream-ng 1.9.2: A modern and easy to use streamable zip file generator
 dev-python/zlib-ng 1.0.0: Drop-in replacement for zlib and gzip modules using zlib-ng
@@ -11129,7 +11129,7 @@ dev-util/webhook 2.8.1: lightweight incoming webhook server to run shell command
 dev-util/weka 3.8.6: A Java data mining package
 dev-util/wiggle 1.0 1.2: Tool for applying patches that patch cannot apply because of conflicting changes
 dev-util/woke 0.19.0: check source code for non-inclusive language
-dev-util/xdelta 1.1.4-r4 3.0.11-r1: Computes changes between binary or text files and creates deltas
+dev-util/xdelta 1.1.4-r4 3.0.11-r1 3.2.0: Computes changes between binary or text files and creates deltas
 dev-util/xmlindent 0.2.17-r3: XML stream reformatter for ASCII text, but not UTF-8, written in ANSI C
 dev-util/xxd 2025.08.24-r1: Standalone version of Vim's xxd
 dev-util/xxdi 1.0.0: Simple alternative to vim's 'xxd -i' mode
@@ -11469,7 +11469,7 @@ games-board/xscrabble 2.10-r5: An X11 clone of the well-known Scrabble
 games-board/xskat 4.0-r2: Famous german card game
 games-emulation/advancemame 5.0: GNU/Linux port of the MAME emulator with GUI menu
 games-emulation/advancescan 1.16-r1: A command line rom manager for MAME, MESS, AdvanceMAME, AdvanceMESS and Raine
-games-emulation/atari800 5.2.0 6.0.0: Emulator of Atari 8-bit computer systems and 5200 game console
+games-emulation/atari800 5.2.0 6.0.0 6.1.0: Emulator of Atari 8-bit computer systems and 5200 game console
 games-emulation/bsnes-jg 2.0.2 2.1.0 9999: Jolly Good Fork of bsnes
 games-emulation/cega-jg 0.6.1 9999: Jolly Good SG-1000, SMS, and Game Gear Emulator
 games-emulation/desmume 0.9.13-r1: Nintendo DS emulator
@@ -14322,9 +14322,9 @@ media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to ch
 media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
-media-video/ffmpeg 4.4.7 6.1.5 6.1.6 7.1.4 7.1.5 8.1 8.1.1 8.1.2 9999: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg 4.4.7 4.4.8 6.1.5 6.1.6 7.1.4 7.1.5 8.1 8.1.1 8.1.2 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 151: FFmpeg built specifically for codec support in Chromium-based browsers
-media-video/ffmpeg-compat 4.4.7 6.1.5 6.1.6 7.1.4 7.1.5: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg-compat 4.4.7 4.4.8 6.1.5 6.1.6 7.1.4 7.1.5: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
@@ -14371,7 +14371,7 @@ media-video/oxine 0.7.1-r6: OSD frontend for Xine
 media-video/parole 4.20.0: A simple Xfce4 media player using GStreamer
 media-video/peek 1.5.1-r2: Simple animated Gif screen recorder
 media-video/pgmfindclip 1.13: automatically find a clipping border for a sequence of pgm images
-media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.6 1.6.9999 9999: Multimedia processing graphs
+media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.6 1.6.7 1.6.9999 9999: Multimedia processing graphs
 media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
@@ -14711,7 +14711,7 @@ net-dns/ddclient 4.0.0: Perl client used to update dynamic DNS entries
 net-dns/djbdns 1.05-r40 1.05-r42: Collection of DNS client/server software
 net-dns/dnrd 2.20.3-r3: A caching DNS proxy server
 net-dns/dnscap 2.5.0 2.5.1: Network capture utility designed specifically for DNS traffic
-net-dns/dnscrypt-proxy 2.1.12 2.1.13 2.1.14 2.1.15 9999: Flexible DNS proxy, with support for encrypted DNS protocols
+net-dns/dnscrypt-proxy 2.1.15 2.1.16 9999: Flexible DNS proxy, with support for encrypted DNS protocols
 net-dns/dnsdist 2.0.5 2.0.6 9999: A highly DNS-, DoS- and abuse-aware loadbalancer
 net-dns/dnsmasq 2.92_p2: Small forwarding DNS server
 net-dns/dnssec-root 20210902: The DNSSEC root key(s)
@@ -16215,7 +16215,7 @@ sci-libs/lis 1.6.5-r1 2.1.3: Library of Iterative Solvers for Linear Systems
 sci-libs/lmfit 9.0-r1: library for Levenberg-Marquardt least-squares minimization and curve fitting
 sci-libs/lrslib 071b-r1 073: Reverse-search algorithm for vertex enumeration problems
 sci-libs/m4ri 20240729 20250128-r1: Method of four russian for inversion (M4RI)
-sci-libs/m4rie 20250103-r1 20250103-r2 20250128: Fast dense matrix arithmetic over GF(2^e) for 2 <= e <= 16
+sci-libs/m4rie 20250128: Fast dense matrix arithmetic over GF(2^e) for 2 <= e <= 16
 sci-libs/mathgl 8.0.3: Math Graphics Library
 sci-libs/matio 1.5.23 1.5.28: Library for reading and writing matlab files
 sci-libs/mc 1.5-r1: 2D/3D AFEM code for nonlinear geometric PDE
@@ -16392,7 +16392,7 @@ sci-mathematics/rkward 0.8.3: IDE for the R-project
 sci-mathematics/rngstreams 1.0.1: Multiple independent streams of pseudo-random numbers
 sci-mathematics/rw 0.9: Compute rank-width decompositions of graphs
 sci-mathematics/sha1-polyml 5.9: implementation of SHA1 is taken from the GNU coreutils package
-sci-mathematics/singular 4.4.1 4.4.1-r1: Computer algebra system for polynomial computations
+sci-mathematics/singular 4.4.1-r1: Computer algebra system for polynomial computations
 sci-mathematics/slepc 3.22.1 3.23.1 3.24.2 3.25.1: Scalable Library for Eigenvalue Problem Computations
 sci-mathematics/smtinterpol 2.5_p20211018-r1: Interpolating SMT-solver computing Craig interpolants for various theories
 sci-mathematics/spin 6.5.2-r1: An efficient logic-model checker for the verification of multi-threaded code
