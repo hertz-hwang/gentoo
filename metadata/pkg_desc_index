@@ -9653,7 +9653,7 @@ dev-python/sphinxygen 1.0.12: Python module/script that generates Sphinx markup 
 dev-python/sphobjinv 2.3.1.3 2.4: Sphinx objects.inv Inspection/Manipulation Tool
 dev-python/spotipy 2.26.0: A lightweight Python library for the Spotify Web API
 dev-python/spyder 6.1.4: The Scientific Python Development Environment
-dev-python/spyder-kernels 3.1.4: Kernels used by spyder on its ipython console
+dev-python/spyder-kernels 3.1.4 3.1.4_p20260622: Kernels used by spyder on its ipython console
 dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler from within the spyder editor
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
 dev-python/spyder-terminal 1.3.1: Run system terminals inside Spyder
@@ -11112,7 +11112,7 @@ dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinemen
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.19.12 7.0 7.1: Userland tools for Linux Performance Counters
 dev-util/pixi 0.67.2: A package management and workflow tool
-dev-util/pkgcheck 0.10.39 0.10.40 9999: pkgcore-based QA utility for ebuild repos
+dev-util/pkgcheck 0.10.39-r1 0.10.40 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.3.0 2.4.3 2.5.1 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
 dev-util/pkgdev 0.2.15 9999: Collection of tools for Gentoo development
@@ -12793,7 +12793,7 @@ mail-filter/procmail 3.24-r1: Mail delivery agent/filter
 mail-filter/pyzor 1.1.2: A distributed, collaborative spam detection and filtering network
 mail-filter/razor 2.85-r5: Distributed, collaborative spam detection and filtering network
 mail-filter/rblcheck 1.5-r3: Perform lookups in RBL-styles services
-mail-filter/rspamd 3.13.2 3.14.3 4.0.1 9999: Rapid spam filtering system
+mail-filter/rspamd 3.13.2 3.14.3 4.0.1-r1 4.1.1 9999: Rapid spam filtering system
 mail-filter/scmail 1.3: a mail filter written in Scheme
 mail-filter/sieve-connect 0.90: Sieve Command Line Interface
 mail-filter/spamassassin 4.0.1-r1 4.0.2 4.0.2-r1: An extensible mail filter which can identify and tag spam
@@ -12802,8 +12802,8 @@ mail-filter/spampd 2.61: A program to scan messages for Unsolicited Commercial E
 mail-filter/spamprobe 1.4d-r3: Fast, intelligent, automatic spam detector using Bayesian analysis
 mail-filter/spf-engine 3.1.0-r1: Policy daemon for Postfix SPF verification
 mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing policy
-mail-filter/zdkimfilter 3.21 3.22 3.23: DKIM filter for Courier-MTA
-mail-mta/courier 1.4.1 1.5.1 1.6.0: An MTA designed specifically for maildirs
+mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
+mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
 mail-mta/exim 4.98.2-r1 4.99.3 4.99.4: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.30 1.8.31-r1 1.8.32: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -15003,8 +15003,8 @@ net-libs/axtls 2.1.5-r102: Embedded client/server TLSv1 SSL library and small HT
 net-libs/biblesync 2.1.0-r1: A multicast protocol to support Bible software shared co-navigation
 net-libs/c-client 2007f_p7 2007f_p7-r1: UW IMAP c-client library
 net-libs/canlock 3.3.0 3.3.1: A library for creating and verifying Usenet cancel locks
-net-libs/courier-authlib 0.72.3 0.72.4 0.72.6 0.72.7: Courier authentication library
-net-libs/courier-unicode 2.3.0 2.3.1 2.3.2 2.4.0 2.5.0: Unicode library used by the courier mail server
+net-libs/courier-authlib 0.72.3 0.72.4 0.72.6 0.72.7 0.73.0: Courier authentication library
+net-libs/courier-unicode 2.3.0 2.3.1 2.3.2 2.4.0 2.5.0 2.6.0: Unicode library used by the courier mail server
 net-libs/cppzmq 4.9.0 4.10.0 4.11.0: High-level CPP Binding for ZeroMQ
 net-libs/cvm 0.97-r2: Credential Validation Modules by Bruce Guenter
 net-libs/czmq 4.2.1: High-level C Binding for ZeroMQ
