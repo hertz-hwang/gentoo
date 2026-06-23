@@ -1,10 +1,10 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-LLVM_COMPAT=( 21 )
-PYTHON_COMPAT=( python3_{11..14} )
+LLVM_COMPAT=( {17..18} )
+PYTHON_COMPAT=( python3_{12..13} )
 inherit cmake llvm.org llvm-r1 python-any-r1
 
 DESCRIPTION="OpenCL C library"
@@ -12,15 +12,15 @@ HOMEPAGE="https://libclc.llvm.org/"
 
 LICENSE="Apache-2.0-with-LLVM-exceptions || ( MIT BSD )"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 ~loong ~riscv x86"
+KEYWORDS="amd64 ~arm arm64 ~loong ~riscv x86"
 IUSE="+spirv video_cards_nvidia video_cards_r600 video_cards_radeonsi"
 
 BDEPEND="
 	${PYTHON_DEPS}
 	$(llvm_gen_dep '
 		llvm-core/clang:${LLVM_SLOT}
+		spirv? ( dev-util/spirv-llvm-translator:${LLVM_SLOT} )
 	')
-	spirv? ( dev-util/spirv-llvm-translator:* )
 "
 
 LLVM_COMPONENTS=( libclc )
@@ -32,10 +32,7 @@ pkg_setup() {
 }
 
 src_configure() {
-	local libclc_targets=(
-		"clspv--"
-		"clspv64--"
-	)
+	local libclc_targets=()
 
 	use spirv && libclc_targets+=(
 		"spirv-mesa3d-"

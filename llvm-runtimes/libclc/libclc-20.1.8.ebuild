@@ -1,55 +1,33 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..12} )
-inherit cmake llvm llvm.org python-any-r1
+LLVM_COMPAT=( 20 )
+PYTHON_COMPAT=( python3_{12..14} )
+inherit cmake llvm.org llvm-r1 python-any-r1
 
 DESCRIPTION="OpenCL C library"
 HOMEPAGE="https://libclc.llvm.org/"
 
 LICENSE="Apache-2.0-with-LLVM-exceptions || ( MIT BSD )"
 SLOT="0"
-KEYWORDS="amd64 arm64 ~riscv x86"
+KEYWORDS="amd64 arm arm64 ~loong ~riscv x86"
 IUSE="+spirv video_cards_nvidia video_cards_r600 video_cards_radeonsi"
 
-LLVM_MAX_SLOT=16
 BDEPEND="
 	${PYTHON_DEPS}
-	|| (
-		(
-			llvm-core/clang:16
-			spirv? ( dev-util/spirv-llvm-translator:16 )
-		)
-		(
-			llvm-core/clang:15
-			spirv? ( dev-util/spirv-llvm-translator:15 )
-		)
-		(
-			llvm-core/clang:14
-			spirv? ( dev-util/spirv-llvm-translator:14 )
-		)
-		(
-			llvm-core/clang:13
-			spirv? ( dev-util/spirv-llvm-translator:13 )
-		)
-	)
+	$(llvm_gen_dep '
+		llvm-core/clang:${LLVM_SLOT}
+		spirv? ( dev-util/spirv-llvm-translator:${LLVM_SLOT} )
+	')
 "
 
 LLVM_COMPONENTS=( libclc )
 llvm.org_set_globals
 
-llvm_check_deps() {
-	if use spirv; then
-		has_version -b "dev-util/spirv-llvm-translator:${LLVM_SLOT}" ||
-			return 1
-	fi
-	has_version -b "llvm-core/clang:${LLVM_SLOT}"
-}
-
 pkg_setup() {
-	llvm_pkg_setup
+	llvm-r1_pkg_setup
 	python-any-r1_pkg_setup
 }
 
