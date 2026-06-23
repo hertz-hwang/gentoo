@@ -23,9 +23,3 @@ RDEPEND=">=dev-lang/ghc-9.0.2:=
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
 "
-
-src_prepare() {
-	default
-
-	cabal-mksetup
-}

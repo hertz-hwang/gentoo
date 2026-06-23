@@ -4530,7 +4530,7 @@ dev-haskell/foundation 0.0.26.1 0.0.30: Alternative prelude with batteries and n
 dev-haskell/free 5.1.9 5.2-r2: Monads for free
 dev-haskell/fsnotify 0.4.3.0: Cross platform library for file change notification
 dev-haskell/generic-deriving 1.14.1 1.14.5 1.14.6: Generic programming library for generalised deriving
-dev-haskell/generically 0.1.1-r3: Generically newtype to use with DerivingVia
+dev-haskell/generically 0.1.1-r4: Generically newtype to use with DerivingVia
 dev-haskell/generics-sop 0.5.1.4-r1: Generic Programming using True Sums of Products
 dev-haskell/getopt-generics 0.13.0.4 0.13.1.0: Create command line interfaces with ease
 dev-haskell/ghc-byteorder 4.11.0.0.10-r1: "GHC.ByteOrder" API Compatibility Layer
@@ -14061,7 +14061,7 @@ media-sound/aumix 2.9.1-r1: Aumix volume/mixer control program
 media-sound/awesfx 0.5.2-r1: AWE32 Sound Driver Utility Programs
 media-sound/aylet 0.5: Aylet plays music files in the .ay format
 media-sound/baudline 1.08-r2: A time-frequency browser designed for visualization of spectral domains
-media-sound/beets 1.7.0_pre20240501-r1 2.3.1 2.10.0 2.11.0 9999: Media library management system for obsessive music geeks
+media-sound/beets 1.7.0_pre20240501-r1 2.3.1 2.10.0 2.11.0 2.12.0 9999: Media library management system for obsessive music geeks
 media-sound/bitmeter 1.2-r2: Diagnosis tool for JACK audio software
 media-sound/bluez-alsa 4.3.1-r2 9999: Bluetooth Audio ALSA Backend
 media-sound/bplay 0.991: No-frills command-line buffered player and recorder
