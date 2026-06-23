@@ -13,7 +13,7 @@ SRC_URI="https://downloads.sourceforge.net/asymptote/${P}.src.tgz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~riscv ~x86"
+KEYWORDS="~amd64 ~ppc ~riscv ~x86"
 IUSE="context curl doc emacs examples fftw gsl gui +imagemagick latex lsp +opengl python sigsegv svg test vim-syntax"
 RESTRICT="!test? ( test )"
 
@@ -24,7 +24,7 @@ RDEPEND="
 	>=sys-libs/readline-4.3-r5:0=
 	net-libs/libtirpc:=
 	imagemagick? ( media-gfx/imagemagick[png] )
-	opengl? ( media-libs/mesa[X] media-libs/freeglut media-libs/glew:0 media-libs/glm media-libs/glfw )
+	opengl? ( media-libs/mesa[X] media-libs/freeglut media-libs/glew:0 media-libs/glm )
 	svg? ( app-text/dvisvgm )
 	sigsegv? ( dev-libs/libsigsegv )
 	fftw? ( >=sci-libs/fftw-3.0.1:= )
@@ -90,9 +90,9 @@ src_configure() {
 		CFLAGS="${CXXFLAGS}" \
 		--disable-gc-debug \
 		--disable-gc-full-debug \
-		--disable-vulkan \
 		--with-latex=/usr/share/texmf-site/tex/latex \
 		--with-context=/usr/share/texmf-site/tex/context \
+		--disable-offscreen \
 		$(use_enable curl) \
 		$(use_enable lsp) \
 		$(use_enable fftw) \
@@ -138,7 +138,7 @@ src_install() {
 
 	# .asy files
 	insinto /usr/share/${PN}
-	doins -r base/*.asy base/*.js base/*.sh base/*.ps base/shaders base/webgl
+	doins -r base/*.asy base/*.js base/*.sh base/*.ps base/collections base/shaders base/webgl
 	chmod 755 "${D}"/usr/share/${PN}/shaders/*
 
 	# documentation
