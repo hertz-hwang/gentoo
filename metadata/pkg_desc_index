@@ -3997,7 +3997,7 @@ dev-db/citus 12.1.12 13.2.1 13.2.2 13.3.0 14.0.0 14.0.1 14.1.0 9999: Open-source
 dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud services
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
 dev-db/dbeaver-bin 26.0.4 26.1.0: Free universal database tool (community edition)
-dev-db/duckdb 1.5.2 1.5.3: high-performance analytical database system
+dev-db/duckdb 1.5.3 1.5.4: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.18 3.5.26 3.6.7 3.6.11: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
@@ -4962,7 +4962,7 @@ dev-java/apiguardian-api 1.1.2-r1: @org.apiguardian.api.API Java annotation prov
 dev-java/asm 9.7.1-r1 9.9.1 9.10.1: Bytecode manipulation framework for Java
 dev-java/asm-jdk-bridge 0.0.13: A Bridge to Translate ASM From and to The OpenJDK Class File API
 dev-java/aspectj 1.9.7-r1: A seamless aspect-oriented extension to the Java programming language
-dev-java/assertj-core 3.10.0 3.27.6: Rich and fluent assertions for testing for Java
+dev-java/assertj-core 3.10.0 3.27.6 3.27.7: Rich and fluent assertions for testing for Java
 dev-java/auto-service-annotations 1.1.1: Provider-configuration files for ServiceLoader
 dev-java/auto-value 1.11.1: Immutable value-type code generation for Java 1.7+
 dev-java/batik 1.18-r2: XML Graphics Batik
@@ -9568,7 +9568,7 @@ dev-python/setuptools 79.0.1 82.0.1: Collection of extensions to Distutils
 dev-python/setuptools-gettext 0.1.18: Setuptools plugin for building mo files
 dev-python/setuptools-git 1.2-r3: Setuptools revision control system plugin for Git
 dev-python/setuptools-rust 1.12.0 1.12.1: A plugin for setuptools to build Rust Python extensions
-dev-python/setuptools-scm 9.2.2 10.0.5 10.1.1: Manage versions by scm tags via setuptools
+dev-python/setuptools-scm 9.2.2 10.0.5 10.1.1 10.1.2: Manage versions by scm tags via setuptools
 dev-python/sexpdata 1.0.2: a simple S-expression parser/serializer
 dev-python/sgmllib3k 1.0.0-r1: Py3k port of sgmllib
 dev-python/sh 2.2.2 2.2.3 2.2.4 2.3.0: Python subprocess interface
@@ -9807,7 +9807,7 @@ dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/valkey 6.1.1: Python client for Valkey forked from redis-py
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
 dev-python/vcrpy 8.1.1 8.2.0 8.2.1: Automatically mock your HTTP interactions to simplify and speed up testing
-dev-python/vcs-versioning 1.1.1 2.0.1: Core VCS versioning functionality from setuptools-scm
+dev-python/vcs-versioning 1.1.1 2.1.0: Core VCS versioning functionality from setuptools-scm
 dev-python/vcsgraph 0.3.0: Graph algorithms for version control systems
 dev-python/vdf 4.0: A module for (de)serialization to and from VDF, Valve's key-value text format
 dev-python/vdirsyncer 0.20.0: Synchronize calendars and contacts
@@ -15302,7 +15302,7 @@ net-misc/connman-json-client 1.0_p20150721-r3: An ncurses UI for connman
 net-misc/connman-notify 0_pre20191003-r3: Desktop notification integration for connman
 net-misc/connman-ui 0_p20150622-r1: A full-featured GTK based trayicon UI for ConnMan
 net-misc/croc 10.2.4 10.2.5 10.2.7: Easily and securely send things from one computer to another
-net-misc/curl 8.19.0 8.20.0 9999: A Client that groks URLs
+net-misc/curl 8.19.0 8.20.0 8.20.0-r1 9999: A Client that groks URLs
 net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
@@ -17801,7 +17801,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.19.1 7.0 9999: Btrfs filesystem utilities
