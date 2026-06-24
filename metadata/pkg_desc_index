@@ -18215,37 +18215,37 @@ virtual/perl-File-Temp 0.231.100-r1 0.231.200: Virtual for File-Temp
 virtual/perl-Getopt-Long 2.570.0-r1 2.580.0-r2: Virtual for Getopt-Long
 virtual/perl-IO 1.550.0-r1 1.560.0: Virtual for IO
 virtual/perl-IO-Compress 2.212.0 2.213.0 2.220.0: Virtual for IO-Compress
-virtual/perl-IO-Socket-IP 0.420.0 0.430.0: Virtual for IO-Socket-IP
-virtual/perl-JSON-PP 4.160.0-r3: Virtual for JSON-PP
-virtual/perl-MIME-Base64 3.160.100_rc-r2: Virtual for MIME-Base64
-virtual/perl-Math-BigInt 2.3.2 2.5.2: Virtual for Math-BigInt
-virtual/perl-Module-CoreList 5.202.504.134_rc 5.202.507.20-r2 5.202.603.30: Virtual for Module-CoreList
-virtual/perl-Module-Load 0.360.0-r5: Virtual for Module-Load
-virtual/perl-Module-Metadata 1.0.38-r1: Virtual for Module-Metadata
-virtual/perl-Pod-Simple 3.450.0-r1: Virtual for Pod-Simple
-virtual/perl-Scalar-List-Utils 1.630.0-r1 1.680.0 1.680.100_rc: Virtual for Scalar::Util and List::Util, also distributed as Scalar::List::Utils
-virtual/perl-Socket 2.38.0-r1: Virtual for Socket
-virtual/perl-Storable 3.320.0-r1 3.370.0: Virtual for Storable
-virtual/perl-Sys-Syslog 0.360.0-r5: Virtual for Sys-Syslog
-virtual/perl-Term-ANSIColor 5.10.0-r5: Virtual for Term-ANSIColor
-virtual/perl-Term-Table 0.22.0 0.23.0 0.24.0-r1: Virtual for Term-Table
-virtual/perl-Test 1.310.0-r8: Virtual for Test
-virtual/perl-Test-Harness 3.500.0-r1: Virtual for Test-Harness
-virtual/perl-Test-Simple 1.302.199 1.302.208 1.302.210: Virtual for Test-Simple
-virtual/perl-Test2-Suite 0.0.162 1.302.210: Virtual for Test2-Suite
-virtual/perl-Text-Balanced 2.60.0-r2: Virtual for Text-Balanced
-virtual/perl-Text-ParseWords 3.310.0-r4: Virtual for Text-ParseWords
-virtual/perl-Text-Tabs+Wrap 2024.1.0-r1: Virtual for Text::Tabs and Text::Wrap, also distributed as Text::Tabs+Wrap
-virtual/perl-Time-HiRes 1.977.700 1.977.800: Virtual for Time-HiRes
-virtual/perl-Time-Local 1.350.0-r1: Virtual for Time-Local
-virtual/perl-XSLoader 0.320.0-r2: Virtual for XSLoader
+virtual/perl-IO-Socket-IP 0.420.0 0.430.0 0.440.0: Virtual for IO-Socket-IP
+virtual/perl-JSON-PP 4.160.0-r4: Virtual for JSON-PP
+virtual/perl-MIME-Base64 3.160.100_rc-r3: Virtual for MIME-Base64
+virtual/perl-Math-BigInt 2.3.2 2.5.2 2.5.3: Virtual for Math-BigInt
+virtual/perl-Module-CoreList 5.202.504.134_rc 5.202.507.20-r2 5.202.603.30 5.202.606.10: Virtual for Module-CoreList
+virtual/perl-Module-Load 0.360.0-r6: Virtual for Module-Load
+virtual/perl-Module-Metadata 1.0.38-r1 1.0.39: Virtual for Module-Metadata
+virtual/perl-Pod-Simple 3.450.0-r1 3.480.0: Virtual for Pod-Simple
+virtual/perl-Scalar-List-Utils 1.630.0-r1 1.680.0 1.680.100_rc 1.700.0: Virtual for Scalar::Util and List::Util, also distributed as Scalar::List::Utils
+virtual/perl-Socket 2.38.0-r1 2.41.0: Virtual for Socket
+virtual/perl-Storable 3.320.0-r1 3.370.0 3.410.0: Virtual for Storable
+virtual/perl-Sys-Syslog 0.360.0-r6: Virtual for Sys-Syslog
+virtual/perl-Term-ANSIColor 5.10.0-r6: Virtual for Term-ANSIColor
+virtual/perl-Term-Table 0.22.0 0.23.0 0.24.0-r1 0.28.0: Virtual for Term-Table
+virtual/perl-Test 1.310.0-r9: Virtual for Test
+virtual/perl-Test-Harness 3.500.0-r1 3.520.0: Virtual for Test-Harness
+virtual/perl-Test-Simple 1.302.199 1.302.208 1.302.210 1.302.219: Virtual for Test-Simple
+virtual/perl-Test2-Suite 0.0.162 1.302.210 1.302.219: Virtual for Test2-Suite
+virtual/perl-Text-Balanced 2.60.0-r2 2.70.0: Virtual for Text-Balanced
+virtual/perl-Text-ParseWords 3.310.0-r5: Virtual for Text-ParseWords
+virtual/perl-Text-Tabs+Wrap 2024.1.0-r2: Virtual for Text::Tabs and Text::Wrap, also distributed as Text::Tabs+Wrap
+virtual/perl-Time-HiRes 1.977.700 1.977.800 1.978.0: Virtual for Time-HiRes
+virtual/perl-Time-Local 1.350.0-r2: Virtual for Time-Local
+virtual/perl-XSLoader 0.320.0-r3: Virtual for XSLoader
 virtual/perl-autodie 2.370.0-r2: Virtual for autodie
 virtual/perl-if 0.61.0-r4: Virtual for if
-virtual/perl-libnet 3.150.0-r2: Virtual for libnet
-virtual/perl-parent 0.241.0-r1 0.244.0: Virtual for parent
-virtual/perl-podlators 5.10.200_rc 6.0.2: Virtual for podlators
-virtual/perl-threads 2.400.0 2.430.0: Virtual for threads
-virtual/perl-version 0.993.0 0.993.300: Virtual for version
+virtual/perl-libnet 3.150.0-r3: Virtual for libnet
+virtual/perl-parent 0.241.0-r1 0.244.0-r1: Virtual for parent
+virtual/perl-podlators 5.10.200_rc 6.0.2-r1: Virtual for podlators
+virtual/perl-threads 2.400.0 2.430.0 2.450.0: Virtual for threads
+virtual/perl-version 0.993.0 0.993.300 0.993.400: Virtual for version
 virtual/perl6 0: Convenience virtual for perl6
 virtual/pkgconfig 3: Virtual for the pkg-config implementation
 virtual/podofo-build 0.9.8: Virtual package for building against PoDoFo
@@ -18367,7 +18367,7 @@ www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 5.3.1 5.3.2 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr-bin 4.0.17.2969: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr-bin 4.0.18.2971: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7-r1 9999: ttyd, a simple command-line tool for sharing terminal over the web
