@@ -581,7 +581,6 @@ app-emulation/bochs:avx - Enable support for emulating Advanced Vector Extension
 app-emulation/bochs:debugger - Enable debugger (slows down emulation)
 app-emulation/bochs:gdb - Enable support for the remote GDB stub
 app-emulation/bochs:x86-64 - Enable support for emulation of 64-bit CPUs
-app-emulation/crossover-bin:capi - Enable ISDN support via CAPI
 app-emulation/crossover-bin:osmesa - Add support for OpenGL in bitmaps using libOSMesa
 app-emulation/crossover-bin:pcap - Support packet capture software (e.g. wireshark)
 app-emulation/dosemu:fluidsynth - use media-sound/fluidsynth for MIDI emulation
@@ -742,7 +741,6 @@ app-emulation/wine-proton:perl - Install helpers that require perl (winedump/win
 app-emulation/wine-proton:sdl - Enable gamepad support using media-libs/libsdl2
 app-emulation/wine-proton:wow64 - Enable the "new" wow64 mode that allows running 32bit applications without 32bit ELF multilib by mapping to 64bit calls. Generally works well with wine-11.0 or newer, but may or may not have a small perforamce impact or other issues. If USE=mingw is set, still need the default abi_x86_32 set on dev-util/mingw64-toolchain but that can be done even with /no-multilib/ profiles. This can also be enabled on arm64 to allow running x86 applications via binary translation.
 app-emulation/wine-staging:arm64ec - Enable support for running x86_64 applications on arm64 via binary translation
-app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
 app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
 app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
 app-emulation/wine-staging:gecko - Enable mshtml support using app-emulation/wine-gecko
@@ -755,7 +753,6 @@ app-emulation/wine-staging:samba - Pull in net-fs/samba with winbind for NTLM au
 app-emulation/wine-staging:sdl - Enable gamepad support using media-libs/libsdl2
 app-emulation/wine-staging:wow64 - Enable the "new" wow64 mode that allows running 32bit applications without 32bit ELF multilib by mapping to 64bit calls. Generally works well with wine-11.0 or newer, but may or may not have a small perforamce impact or other issues. If USE=mingw is set, still need the default abi_x86_32 set on dev-util/mingw64-toolchain but that can be done even with /no-multilib/ profiles. This can also be enabled on arm64 to allow running x86 applications via binary translation.
 app-emulation/wine-vanilla:arm64ec - Enable support for running x86_64 applications on arm64 via binary translation
-app-emulation/wine-vanilla:capi - Enable ISDN support using net-libs/libcapi
 app-emulation/wine-vanilla:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
 app-emulation/wine-vanilla:dos - Pull in games-emulation/dosbox to run DOS applications
 app-emulation/wine-vanilla:gecko - Enable mshtml support using app-emulation/wine-gecko
