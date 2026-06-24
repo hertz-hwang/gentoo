@@ -16475,7 +16475,7 @@ sci-mathematics/pari 2.15.5 2.17.1 2.17.2: Computer-aided number theory C librar
 sci-mathematics/pari-data 20191216: Additional dataset packages for PARI
 sci-mathematics/petsc 3.22.2 3.23.3 3.23.4 3.24.5 3.25.1: Portable, Extensible Toolkit for Scientific Computation
 sci-mathematics/picosat 965: SAT solver with proof and core support
-sci-mathematics/planarity 3.0.2.0 4.0.0.0: The edge addition planarity suite of graph algorithms
+sci-mathematics/planarity 4.0.0.0 5.0.0.0: The edge addition planarity suite of graph algorithms
 sci-mathematics/plfit 1.0.1: Fit power-law distributions to empirical data
 sci-mathematics/polymake 4.13 4.14 4.15: Tool for polyhedral geometry and combinatorics
 sci-mathematics/primecount 8.0: Highly optimized CLI and library to count primes

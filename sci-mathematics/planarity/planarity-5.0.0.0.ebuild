@@ -1,7 +1,7 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=9
 
 DESCRIPTION="The edge addition planarity suite of graph algorithms"
 HOMEPAGE="https://github.com/graph-algorithms/edge-addition-planarity-suite/"
@@ -10,9 +10,18 @@ SRC_URI="https://github.com/graph-algorithms/edge-addition-planarity-suite/relea
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~riscv ~x86"
+KEYWORDS="~amd64 ~riscv ~x86"
 
 src_install() {
 	default
 	find "${ED}" -type f -name '*.la' -delete || die
+}
+
+src_test() {
+	# "make check" usually works but the test script has
+	# non-UNIX line endings in the release tarball:
+	#
+	# https://github.com/graph-algorithms/edge-addition-planarity-suite/issues/255
+	#
+	./planarity -test c/samples || die
 }
