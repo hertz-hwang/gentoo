@@ -931,7 +931,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.45.14 1.45.18 1.45.24 1.45.29 1.45.34 1.45.35: Universal Command Line Environment for AWS
+app-admin/awscli 1.45.14 1.45.18 1.45.24 1.45.29 1.45.34 1.45.35 1.45.36: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.6.1 2025.7.0 2025.12.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.1.0 2026.2.1: Bitwarden password manager desktop client
@@ -1173,7 +1173,7 @@ app-arch/innoextract 1.10_pre20250206-r1: A tool to unpack installers created by
 app-arch/lbzip2 2.5_p20181227-r3: Parallel bzip2 utility
 app-arch/lcab 1.0_beta12: CAB file creation tool
 app-arch/lha 114i_p20250112: Utility for creating and opening lzh archives
-app-arch/libarchive 3.8.7: Multi-format archive and compression library
+app-arch/libarchive 3.8.7 3.8.8: Multi-format archive and compression library
 app-arch/libdeflate 1.23 1.24 1.25 9999: Heavily optimized DEFLATE/zlib/gzip (de)compression
 app-arch/libpar2 0.4-r1: A library for par2, extracted from par2cmdline
 app-arch/lrzip 0.651 0.651-r1: Long Range ZIP or Lzma RZIP optimized for compressing large files
@@ -1396,7 +1396,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5-r1 6.0.6 6.21 6.22 6.23 7.0.0 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
@@ -2275,7 +2275,7 @@ app-emacs/rust-mode 1.0.5 1.0.6: A major emacs mode for editing Rust source code
 app-emacs/s 1.13.0: The long lost Emacs string manipulation library
 app-emacs/scad-mode 97.0 98.0 99.0: GNU Emacs mode to edit OpenSCAD files
 app-emacs/scala-mode 2.10.7: Scala mode for Emacs
-app-emacs/scala-ts-mode 1.0.0_p20240820: Emacs Scala Mode via Tree-Sitter
+app-emacs/scala-ts-mode 1.0.0_p20240820 1.0.0_p20250418: Emacs Scala Mode via Tree-Sitter
 app-emacs/scheme-complete 0.9.9: Scheme tab-completion and word-completion for Emacs
 app-emacs/scim-bridge-el 0.8.2-r1: a SCIM-Bridge client for Emacs
 app-emacs/scss-mode 0.5.0_p20180123-r2: Major mode for editing SCSS files in Emacs
@@ -3212,7 +3212,7 @@ app-text/bogosort 0.4.2-r1: A file sorting program which uses the bogosort algor
 app-text/build-docbook-catalog 2.3-r1 2.4: DocBook XML catalog auto-updater
 app-text/c2ps 4.0: Generates a beautified ps document from a source file (c/c++)
 app-text/calibre 8.9.0 8.15.0: Ebook management application
-app-text/capyt 1.1.1-r1 1.2.1 1.2.2: A python3 CLI utility to interface with cpy.pt
+app-text/capyt 1.2.2: A python3 CLI utility to interface with cpy.pt
 app-text/catdoc 0.95-r1: Converter for Microsoft Word, Excel, PowerPoint and RTF files to text
 app-text/cb2bib 2.0.3: Tool for extracting unformatted bibliographic references
 app-text/cedilla 0.7-r1: UTF-8 to postscript converter
@@ -5416,7 +5416,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 115.24.0 128.14.0 140.9.1 140.11.0: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 115.24.0 128.14.0 140.9.1 140.11.0 140.12.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.0-r1 10.0.1 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1: Simplified Wrapper and Interface Generator
@@ -8252,7 +8252,7 @@ dev-python/aiohttp-theme 0.1.7: Sphinx theme for aiohttp
 dev-python/aioitertools 0.13.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiopylgtv 0.4.1-r1: Python library to control webOS-based LG TV devices
 dev-python/aioquic 1.2.0 1.3.0: An implementation of QUIC and HTTP/3
-dev-python/aioresponses 0.7.8-r1 0.7.8-r2: Helper to mock/fake web requests in Python's aiohttp package
+dev-python/aioresponses 0.7.8-r1 0.7.8-r2 0.7.9: Helper to mock/fake web requests in Python's aiohttp package
 dev-python/aiorpcx 0.25.0: Generic async RPC implementation, including JSON-RPC
 dev-python/aiosignal 1.4.0: A list of registered asynchronous callbacks
 dev-python/aiosmtpd 1.4.6: Reimplementation of the Python stdlib smtpd.py based on asyncio
@@ -8357,8 +8357,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 25.0.0 26.0.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.14 1.43.18 1.43.24 1.43.29 1.43.34 1.43.35: The AWS SDK for Python
-dev-python/botocore 1.43.14 1.43.18 1.43.24 1.43.29 1.43.34 1.43.35: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.14 1.43.18 1.43.24 1.43.29 1.43.34 1.43.35 1.43.36: The AWS SDK for Python
+dev-python/botocore 1.43.14 1.43.18 1.43.24 1.43.29 1.43.34 1.43.35 1.43.36: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8383,7 +8383,7 @@ dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library 
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0: Foreign Function Interface for Python calling C code
 dev-python/cfgv 3.5.0: Validate configuration and produce human-readable error messages
-dev-python/cfn-lint 1.49.3 1.50.1 1.51.3 1.51.4 1.51.5: CloudFormation Linter
+dev-python/cfn-lint 1.49.3 1.50.1 1.51.3 1.51.4 1.51.5 1.52.0: CloudFormation Linter
 dev-python/cftime 1.6.5: Time-handling functionality from netcdf4-python
 dev-python/chainstream 1.0.1 1.0.2: Chain I/O-Streams together into a single stream
 dev-python/chameleon 4.6.0: Fast HTML/XML template compiler for Python
@@ -8643,7 +8643,7 @@ dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gitpython 3.1.50: Library used to interact with Git repositories
-dev-python/gmpy2 2.3.0 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
+dev-python/gmpy2 2.3.0 2.3.1 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.30.3 2.31.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.196.0 2.197.0: Google API Client for Python
 dev-python/google-auth 2.53.0 2.54.0 2.55.0: Google Authentication Library
@@ -8681,7 +8681,7 @@ dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.3.1 3.4.0: Python extension that wraps hiredis
 dev-python/hishel 1.3.0: An elegant HTTP Cache implementation for HTTPX and HTTP Core
 dev-python/housekeeping 1.1: Reusable deprecation helpers for Python projects
-dev-python/hpack 4.1.0: Pure-Python HPACK header compression
+dev-python/hpack 4.1.0 4.2.0: Pure-Python HPACK header compression
 dev-python/html2text 2025.4.15-r1: Turn HTML into equivalent Markdown-structured text
 dev-python/html5-parser 0.4.12: Fast C based HTML 5 parsing for python
 dev-python/html5lib 1.2_pre20240221: HTML parser based on the HTML5 specification
@@ -8704,7 +8704,7 @@ dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
 dev-python/hypothesis 6.152.9 6.152.11 6.155.6 6.155.7: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
-dev-python/icalendar 7.1.2 7.1.3: RFC 5545 compatible parser and generator of iCalendar files
+dev-python/icalendar 7.1.2 7.1.3 7.2.0: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
 dev-python/identify 2.6.18 2.6.19: File identification library for Python
 dev-python/idna 3.16 3.17 3.18: Internationalized Domain Names in Applications (IDNA)
@@ -8974,7 +8974,7 @@ dev-python/networkx 3.6.1: Python tools to manipulate graphs and complex network
 dev-python/nextinspace 3.0.1 9999: A command-line tool for seeing the latest in space
 dev-python/nh3 0.3.5 0.3.6: Ammonia HTML sanitizer Python binding
 dev-python/nnpy 1.4.2-r1: cffi-based Python bindings for nanomsg
-dev-python/node-semver 0.9.0: Python version of node-semver, the semantic versioner for npm
+dev-python/node-semver 0.9.0 0.9.1: Python version of node-semver, the semantic versioner for npm
 dev-python/nodeenv 1.10.0: Node.js virtual environment builder
 dev-python/noiseprotocol 0.3.1: Implementation of Noise Protocol Framework. Compatible with revisions 32 and 33
 dev-python/nose2 0.16.0: Unittest with plugins
@@ -9057,7 +9057,7 @@ dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.0.3-r1 7.0.3-r2: Inject some useful and sensible default behaviors into setuptools
 dev-python/pbs-installer 2026.5.8 2026.5.10 2026.6.2 2026.6.10: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
-dev-python/pdm 2.27.0: Python package and dependency manager supporting the latest PEP standards
+dev-python/pdm 2.27.0 2.28.0: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.4.8 2.4.9: A PEP 517 backend for PDM that supports PEP 621 metadata
 dev-python/pdoc3 0.11.6: Auto-generate API documentation for Python projects
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
@@ -9220,7 +9220,7 @@ dev-python/pyls-spyder 0.4.0-r3 0.4.0-r4: Spyder extensions for the python langu
 dev-python/pylsqpack 0.3.24: Python wrapper for the ls-qpack QPACK library
 dev-python/pymacaroons 0.13.0-r1: A Python implementation of Macaroons
 dev-python/pymad 0.11.3: Python wrapper for libmad MP3 decoding in python
-dev-python/pymdown-extensions 10.21.3: Extensions for Python Markdown
+dev-python/pymdown-extensions 10.21.3 11.0: Extensions for Python Markdown
 dev-python/pymdown-lexers 0_pre20210902: Additional lexers for use in Pygments
 dev-python/pymdstat 0.5.1: Python library to parse Linux /proc/mdstat
 dev-python/pymediainfo 7.0.1: A Python wrapper for the MediaInfo library
@@ -9241,7 +9241,7 @@ dev-python/pyotp 2.9.0 2.10.0: PyOTP is a Python library for generating and veri
 dev-python/pyparsing 3.3.2: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.11.0 6.12.2 6.13.3 6.14.0: Python library to work with PDF files
+dev-python/pypdf 6.11.0 6.12.2 6.13.3 6.14.0 6.14.2: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9252,7 +9252,7 @@ dev-python/pypresence 4.6.1: Complete Discord IPC and Rich Presence wrapper libr
 dev-python/pyprof2calltree 1.4.5-r1: Convert python profile data to kcachegrind calltree form
 dev-python/pyproj 3.7.2: Python interface to the PROJ library
 dev-python/pyproject-api 1.10.0 1.10.1: API to interact with the python pyproject.toml based projects
-dev-python/pyproject-fmt 2.20.0 2.21.1 2.21.2 2.24.0 2.24.1 2.25.0: Format your pyproject.toml file
+dev-python/pyproject-fmt 2.21.1 2.21.2 2.24.1 2.25.0: Format your pyproject.toml file
 dev-python/pyproject-hooks 1.2.0: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0: PEP 621 metadata parsing
 dev-python/pypugjs 6.0.2 6.0.3: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
@@ -9409,7 +9409,7 @@ dev-python/python-redmine 2.5.0: Python interface to the Redmine REST API
 dev-python/python-rtmidi 1.5.8: Python bindings for media-libs/rtmidi implemented using Cython
 dev-python/python-slugify 8.0.4: A Python Slugify application that handles Unicode
 dev-python/python-snappy 0.7.3: Python library for the snappy compression library from Google
-dev-python/python-socks 2.8.1: SOCKS4, SOCKS5, HTTP tunneling functionality for Python
+dev-python/python-socks 2.8.1 2.8.2: SOCKS4, SOCKS5, HTTP tunneling functionality for Python
 dev-python/python-stdnum 2.2: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.6: A streaming protocol for test results
 dev-python/python-swiftclient 4.10.0: Python bindings to the OpenStack Object Storage API
@@ -9451,7 +9451,7 @@ dev-python/pyxdg 0.28-r2: A Python module to deal with freedesktop.org specifica
 dev-python/pyyaml 6.0.3: YAML parser and emitter for Python
 dev-python/pyzbar 0.1.9: Read one-dimensional barcodes and QR codes from Python
 dev-python/pyzmq 27.1.0: Lightweight and super-fast messaging library built on top of the ZeroMQ library
-dev-python/pyzotero 1.13.1: A Python client for the Zotero API
+dev-python/pyzotero 1.13.1 1.13.2: A Python client for the Zotero API
 dev-python/pyzstd 0.19.1: Support for Zstandard (zstd) compression
 dev-python/qdarkstyle 3.2.3: A dark style sheet for QtWidgets application
 dev-python/qpageview 1.0.4: Page-based viewer widget for Qt6/PyQt5
@@ -9477,7 +9477,7 @@ dev-python/readme-renderer 44.0 45.0: A library for rendering 'readme' descripti
 dev-python/rebulk 3.2.0: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
 dev-python/recurring-ical-events 3.8.2: Repeat ICalendar events by RRULE, RDATE and EXDATE
-dev-python/redis 7.4.0 7.4.1 8.0.0: Python client for Redis key-value store
+dev-python/redis 7.4.0 7.4.1 8.0.0 8.0.1: Python client for Redis key-value store
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
@@ -9543,7 +9543,7 @@ dev-python/sabctools 8.2.6 9.4.0 9.4.1: Module providing raw yEnc encoding/decod
 dev-python/sarge 0.1.8: Wrapper for subprocess which provides command pipeline functionality
 dev-python/sarif-om 1.0.4-r1: Classes implementing the SARIF 2.1.0 object model
 dev-python/schema 0.7.8: Simple data validation library
-dev-python/scikit-build 0.19.0: Improved build system generator for Python C/C++/Fortran/Cython extensions
+dev-python/scikit-build 0.19.0 0.19.1: Improved build system generator for Python C/C++/Fortran/Cython extensions
 dev-python/scikit-build-core 0.12.2: Build backend for CMake based projects
 dev-python/scikit-image 0.26.0-r1: Image processing routines for SciPy
 dev-python/scikit-learn 1.8.0 1.9.0_rc1 1.9.0: Machine learning library for Python
@@ -9577,7 +9577,7 @@ dev-python/shellingham 1.5.4: Tool to Detect Surrounding Shell
 dev-python/shtab 1.8.0: Automagic shell tab completion for Python CLI applications
 dev-python/signature-dispatch 1.0.1-r1: Execute the first function that matches the given arguments
 dev-python/signedjson 1.1.4: Signs JSON objects with ED25519 signatures
-dev-python/signxml 4.4.0 4.5.1 5.0.0 9999: Python XML Signature and XAdES library
+dev-python/signxml 4.4.0 4.5.1 5.0.0 5.0.1 9999: Python XML Signature and XAdES library
 dev-python/sigstore 4.2.0 4.3.0: A tool for signing Python package distributions
 dev-python/sigstore-models 0.0.6: Pydantic based models for Sigstore's protobuf specifications
 dev-python/sigstore-rekor-types 0.0.18: Python models for Rekor's API types
@@ -9654,7 +9654,7 @@ dev-python/sphinxygen 1.0.12: Python module/script that generates Sphinx markup 
 dev-python/sphobjinv 2.3.1.3 2.4: Sphinx objects.inv Inspection/Manipulation Tool
 dev-python/spotipy 2.26.0: A lightweight Python library for the Spotify Web API
 dev-python/spyder 6.1.4: The Scientific Python Development Environment
-dev-python/spyder-kernels 3.1.4 3.1.4_p20260622: Kernels used by spyder on its ipython console
+dev-python/spyder-kernels 3.1.4 3.1.4_p20260622 3.1.5: Kernels used by spyder on its ipython console
 dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler from within the spyder editor
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
 dev-python/spyder-terminal 1.3.1: Run system terminals inside Spyder
@@ -9736,7 +9736,7 @@ dev-python/toolz 1.1.0: List processing tools and functional utilities
 dev-python/toposort 1.10: Implements a topological sort algorithm
 dev-python/tornado 6.5.5 6.5.6 6.5.7: Python web framework and asynchronous networking library
 dev-python/towncrier 25.8.0: Building newsfiles for your project
-dev-python/tox 4.50.3 4.53.1 4.54.0 4.55.0 4.55.1: virtualenv-based automation of test activities
+dev-python/tox 4.54.0 4.55.1 4.56.0: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r2: Python bindings for TSS
 dev-python/tqdm 4.67.3 4.68.1 4.68.2 4.68.3: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1: A configuration system for Python applications
@@ -9798,8 +9798,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.11.16 0.11.19 0.11.21 0.11.23 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.16 0.11.19 0.11.21 0.11.23: PEP517 uv build backend
+dev-python/uv 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24: PEP517 uv build backend
 dev-python/uv-dynamic-versioning 0.14.0: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/uvicorn 0.47.0 0.48.0 0.49.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
@@ -9807,7 +9807,7 @@ dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/valkey 6.1.1: Python client for Valkey forked from redis-py
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
 dev-python/vcrpy 8.1.1 8.2.0 8.2.1: Automatically mock your HTTP interactions to simplify and speed up testing
-dev-python/vcs-versioning 1.1.1 2.1.0: Core VCS versioning functionality from setuptools-scm
+dev-python/vcs-versioning 1.1.1 2.1.0 2.1.2: Core VCS versioning functionality from setuptools-scm
 dev-python/vcsgraph 0.3.0: Graph algorithms for version control systems
 dev-python/vdf 4.0: A module for (de)serialization to and from VDF, Valve's key-value text format
 dev-python/vdirsyncer 0.20.0: Synchronize calendars and contacts
@@ -12752,9 +12752,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.7.1 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.11.1 140.12.0 151.0.1 152.0: Thunderbird Mail Client
+mail-client/thunderbird 140.12.0 152.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.12.0 152.0: Thunderbird Mail Client
-mail-client/thunderbird-l10n 151.0.1 152.0: Thunderbird mail client's translation files
+mail-client/thunderbird-l10n 152.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -13608,7 +13608,7 @@ media-libs/nas 1.9.5-r2: Network Audio System
 media-libs/netpbm 11.2.19 11.2.22 11.14.1 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.2.72.0 13.0.19.0: FFmpeg version of headers required to interface with Nvidias codec APIs
-media-libs/nvidia-vaapi-driver 0.0.16 0.0.17: A VA-API implemention using NVIDIA's NVDEC
+media-libs/nvidia-vaapi-driver 0.0.17: A VA-API implemention using NVIDIA's NVDEC
 media-libs/oidn 2.3.2-r1 2.3.3-r1: Intel Open Image Denoise library
 media-libs/openal 1.24.3 1.25.2: Software implementation of the OpenAL 3D audio API
 media-libs/opencollada 1.6.68-r2: Stream based read/write library for COLLADA files
@@ -14224,7 +14224,7 @@ media-sound/musique 1.12.1_p20240628: Qt music player
 media-sound/ncmpc 0.51 0.52: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.10.1-r1 9999: Featureful ncurses based MPD client inspired by ncmpc
 media-sound/ncpamixer 1.3.8: ncurses PulseAudio Mixer
-media-sound/ncspot 1.3.3 1.3.4: ncurses Spotify client written in Rust using librespot
+media-sound/ncspot 1.3.4: ncurses Spotify client written in Rust using librespot
 media-sound/nickvision-tagger 2024.6.0: An easy-to-use music tag (metadata) editor
 media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
@@ -14276,7 +14276,7 @@ media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
 media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
-media-sound/rescrobbled 0.8.0 0.9.0: MPRIS music scrobbler daemon
+media-sound/rescrobbled 0.9.0 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
 media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1 3.4.9-r2: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
@@ -14506,7 +14506,7 @@ media-video/ushare 2.1_p20250817: uShare is a UPnP (TM) A/V & DLNA Media Server
 media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 9999: v4l2 loopback device whose output is its own input
 media-video/vamps 0.99.2-r2: Very fast requantisizing tool for backup DVDs
 media-video/vcdimager 2.0.1-r1 2.0.1-r2: GNU VCDimager
-media-video/vcsi 7.0.16 7.0.17: Create thumbnail sheets from video files
+media-video/vcsi 7.0.17: Create thumbnail sheets from video files
 media-video/vdr 2.7.7 2.7.9 2.8.1 2.8.2: Video Disk Recorder - turns a pc into a powerful set top box for DVB
 media-video/vdrsync 0.1.3_pre050322-r2: converting vdr-recordings to mpeg2, dvd or other similar formats
 media-video/vdrtools-genindex 0.1.3-r2: VDR: genindex Script
@@ -14519,7 +14519,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20250730 20260520: Download media files from Yle Areena
+media-video/yle-dl 20260520: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
@@ -15596,7 +15596,7 @@ net-news/canto-curses 0.9.9-r1: The ncurses client for canto-daemon
 net-news/canto-daemon 0.9.8: Daemon part of Canto-NG RSS reader
 net-news/liferea 1.15.5-r2 1.15.8-r2 1.16.5 1.16.7 1.16.9: News Aggregator for RDF/RSS/CDF/Atom/Echo feeds
 net-news/newsboat 2.41 2.42 2.43: An RSS/Atom feed reader for text terminals
-net-news/rssguard 5.1.2: Simple (yet powerful) news feed reader
+net-news/rssguard 5.1.2 5.2.0: Simple (yet powerful) news feed reader
 net-news/rsstail 2.2: A tail-like RSS-reader
 net-news/sfeed 2.2 2.3 2.4: Simple RSS and Atom parser
 net-news/snownews 1.9-r2: Command-line RSS feed reader
@@ -18384,9 +18384,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.1 26.04.2: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.11.0 140.12.0 151.0.4 152.0 152.0.1 152.0.2: Firefox Web Browser
-www-client/firefox-bin 140.12.0 152.0 152.0.1 152.0.2: Firefox Web Browser
-www-client/firefox-l10n 151.0.4 152.0 152.0.1 152.0.2: Firefox Web Browser's translation files
+www-client/firefox 140.12.0 152.0.1 152.0.2: Firefox Web Browser
+www-client/firefox-bin 140.12.0 152.0.2: Firefox Web Browser
+www-client/firefox-l10n 152.0.1 152.0.2: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.215 149.0.7827.114 149.0.7827.155: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.53 150.0.7871.13 150.0.7871.24: The web browser from Google
 www-client/google-chrome-unstable 150.0.7846.4 151.0.7872.0 151.0.7886.2: The web browser from Google

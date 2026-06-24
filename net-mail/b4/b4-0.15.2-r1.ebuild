@@ -13,7 +13,7 @@ SRC_URI="https://git.kernel.org/pub/scm/utils/b4/b4.git/snapshot/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~ppc ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~ppc64 ~x86"
 
 RESTRICT=test # gentoo:: is missing dependences (e.g. dev-python/textual)
 
@@ -30,6 +30,10 @@ RDEPEND="
 	>=dev-python/requests-2.32.5[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.6.3[${PYTHON_USEDEP}]
 	>=dev-vcs/git-filter-repo-2.47[${PYTHON_USEDEP}]
+"
+
+BDEPEND="
+	dev-python/shtab[${PYTHON_USEDEP}]
 "
 
 python_compile_all() {
