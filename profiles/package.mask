@@ -44,6 +44,13 @@
 ~virtual/perl-CPAN-Meta-2.150.13
 ~virtual/perl-CPAN-Meta-Requirements-2.145.0
 ~virtual/perl-DB_File-1.860.0
+~virtual/perl-Encode-3.240.0
+~virtual/perl-ExtUtils-CBuilder-0.280.243
+~virtual/perl-ExtUtils-MakeMaker-7.780.0
+~virtual/perl-ExtUtils-ParseXS-3.630.0
+~virtual/perl-File-Spec-3.950.0
+~virtual/perl-IO-1.560.0
+~virtual/perl-IO-Compress-2.220.0
 
 # Michał Górny <mgorny@gentoo.org> (2026-06-20)
 # No py3.14 in compat, tests lost on bump, no revdeps.

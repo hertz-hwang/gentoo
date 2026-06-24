@@ -1074,7 +1074,7 @@ app-office/kmymoney:activities - Enable kde-plasma/plasma-activities integration
 app-office/kmymoney:addressbook - Enable kde-apps/akonadi contact integration
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
 app-office/kmymoney:holidays - Enable kde-frameworks/kholidays integration
-app-office/kmymoney:sql - Enable storage of financial data in SQL Db via dev-qt/qtsql
+app-office/kmymoney:sql - Enable storage of financial data in SQL Db via dev-qt/qtbase[sql]
 app-office/kmymoney:sqlcipher - Enable SQLite3 database encryption support via dev-db/sqlcipher
 app-office/kraft:pim - Enable support for KDE PIM resources integration
 app-office/ledger:gpg - Enable support for encrypted journals
@@ -3567,7 +3567,7 @@ kde-apps/cantor:webengine - Use dev-qt/qtwebengine as embedded QtHelp documentat
 kde-apps/gwenview:activities - Enable kactivities support
 kde-apps/gwenview:annotate - Enable support for image annotations using media-libs/kimageannotator
 kde-apps/gwenview:fits - Enable support for NASA's sci-libs/cfitsio library
-kde-apps/gwenview:mpris - Enable support for MPRIS2 interface, requiring dev-qt/qtdbus as dependency.
+kde-apps/gwenview:mpris - Enable support for MPRIS2 interface, requiring dev-qt/qtbase[dbus] as dependency
 kde-apps/gwenview:share - Enable support for a share menu using kde-frameworks/purpose
 kde-apps/k3b:webengine - Use dev-qt/qtwebengine for fancy k3bdiskinfoview
 kde-apps/kaddressbook:activities - Enable Plasma Activities support via kde-plasma/plasma-activities
@@ -4875,7 +4875,7 @@ media-sound/jack2:metadata - Enable metadata API
 media-sound/jack2:pam - Add basic realtime configuration via sys-auth/realtime-base
 media-sound/jack2:tools - Pull basic tools (e.g. jack_lsp/connect) from media-sound/jack-example-tools
 media-sound/kid3:acoustid - Build acoustic fingerprinting plugin using media-libs/chromaprint
-media-sound/kid3:mpris - Enable support for MPRIS2 interface using dev-qt/qtdbus
+media-sound/kid3:mpris - Enable support for MPRIS2 interface using dev-qt/qtbase[dbus]
 media-sound/klick:rubberband - Enable rubberband support
 media-sound/lame:frontend - Build and install the 'lame' executable frontend to lame libraries.
 media-sound/lame:mp3rtp - Build the mp3-to-RTP streaming utility. **UNSUPPORTED**

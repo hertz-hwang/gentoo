@@ -1370,7 +1370,7 @@ app-containers/cadvisor 0.49.2 0.53.0 0.56.2: Analyzes resource usage and perfor
 app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it's effectively brain-dead
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2 1.9.1: Standard networking plugins for container networking
 app-containers/conmon 2.1.11 2.1.13 2.2.1 9999: An OCI container runtime monitor
-app-containers/containerd 2.0.2-r1 2.0.3-r1 2.0.4-r1 2.0.5-r1 2.0.7-r1 2.1.0-r1 2.1.1-r1 2.1.4-r1 2.1.5-r1 2.2.0-r1 2.2.1-r1 2.2.2-r1 2.3.1: A daemon to control runC
+app-containers/containerd 2.0.5-r1 2.0.7-r1 2.1.4-r1 2.1.5-r1 2.2.2-r1 2.3.1 2.3.2: A daemon to control runC
 app-containers/containers-common 0.63.0 0.64.2 9999: Common config files and docs for Containers stack
 app-containers/containers-image 5.34.2 5.35.0 5.36.2 9999: Default config and docs related to Containers' images
 app-containers/containers-shortnames 2023.02.20 2025.03.19 9999: Configures default shortnames (aliases) for Containers
@@ -1409,7 +1409,7 @@ app-containers/podman 5.7.1 5.8.2 9999: A tool for managing OCI containers and p
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 1.5.0 1.6.1 1.9.0 1.11.1 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
-app-containers/runc 1.2.8 1.3.3 1.4.0-r1 1.4.2: runc container cli tools
+app-containers/runc 1.2.8 1.3.3 1.4.0-r1 1.4.2 1.4.3: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
 app-containers/skopeo 1.22.2 1.23.0 9999: Work with remote container images registries
@@ -2617,7 +2617,7 @@ app-i18n/tomoe-gtk 0.6.0-r7: Tomoe GTK+ interface widget library
 app-i18n/transifex-client 1.6.14 1.6.17: The Transifex command-line client
 app-i18n/translate-shell 0.9.7.1: Online command-line translator
 app-i18n/uchardet 0.0.8: Encoding detector library
-app-i18n/uim 1.8.9-r2 1.9.6: Multilingual input method framework
+app-i18n/uim 1.9.6: Multilingual input method framework
 app-i18n/uim-tomoe-gtk 0.6.0: Japanese input method Tomoe IMEngine for uim
 app-i18n/unicode-cldr 47.0 48.0 48.1: Unicode Common Locale Data Repository
 app-i18n/unicode-data 15.1.0 16.0.0 17.0.0: Unicode data from unicode.org
@@ -11113,7 +11113,7 @@ dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinemen
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.19.12 7.0 7.1: Userland tools for Linux Performance Counters
 dev-util/pixi 0.67.2: A package management and workflow tool
-dev-util/pkgcheck 0.10.39-r1 0.10.40 9999: pkgcore-based QA utility for ebuild repos
+dev-util/pkgcheck 0.10.39-r1 0.10.40-r1 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.3.0 2.4.3 2.5.1 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
 dev-util/pkgdev 0.2.15 9999: Collection of tools for Gentoo development
@@ -15850,7 +15850,7 @@ net-wireless/wpa_supplicant 2.11-r4 2.11-r5 9999: IEEE 802.1X/WPA supplicant for
 perl-core/CPAN 2.290.0-r4: Query, download and build perl modules from CPAN sites
 perl-core/Compress-Raw-Zlib 2.206.0 2.212.0 2.213.0: Low-Level Interface to zlib compression library
 perl-core/Encode 3.190.0 3.210.0: Character encodings in Perl
-perl-core/File-Temp 0.231.100-r1: File::Temp can be used to create and open temporary files in a safe way
+perl-core/File-Temp 0.231.100-r1 0.231.200: File::Temp can be used to create and open temporary files in a safe way
 perl-core/Getopt-Long 2.580.0: Advanced handling of command line options
 perl-core/Math-BigInt 1.999.842-r4: Arbitrary size floating point math package
 perl-core/Module-Load 0.360.0: Runtime require of both modules and files
@@ -18203,18 +18203,18 @@ virtual/perl-Data-Dumper 2.189.0 2.192.0-r1: Virtual for Data-Dumper
 virtual/perl-Devel-PPPort 3.720.0 3.730.0-r1: Virtual for Devel-PPPort
 virtual/perl-Digest 1.200.0-r4: Virtual for Digest
 virtual/perl-Digest-MD5 2.580.100_rc-r1 2.590.0-r1: Virtual for Digest-MD5
-virtual/perl-Digest-SHA 6.40.0-r2: Virtual for Digest-SHA
-virtual/perl-Encode 3.210.0-r2: Virtual for Encode
-virtual/perl-Exporter 5.780.0 5.790.0: Virtual for Exporter
-virtual/perl-ExtUtils-CBuilder 0.280.240 0.280.242-r2: Virtual for ExtUtils-CBuilder
-virtual/perl-ExtUtils-MakeMaker 7.700.0-r1 7.760.0: Virtual for ExtUtils-MakeMaker
-virtual/perl-ExtUtils-ParseXS 3.510.0-r1 3.570.0: Virtual for ExtUtils-ParseXS
-virtual/perl-File-Path 2.180.0-r4: Virtual for File-Path
-virtual/perl-File-Spec 3.910.0-r1 3.940.0: Virtual for File-Spec
-virtual/perl-File-Temp 0.231.100-r1: Virtual for File-Temp
-virtual/perl-Getopt-Long 2.570.0-r1 2.580.0-r1: Virtual for Getopt-Long
-virtual/perl-IO 1.550.0-r1: Virtual for IO
-virtual/perl-IO-Compress 2.212.0 2.213.0: Virtual for IO-Compress
+virtual/perl-Digest-SHA 6.40.0-r3: Virtual for Digest-SHA
+virtual/perl-Encode 3.210.0-r2 3.240.0: Virtual for Encode
+virtual/perl-Exporter 5.780.0 5.790.0-r1: Virtual for Exporter
+virtual/perl-ExtUtils-CBuilder 0.280.240 0.280.242-r2 0.280.243: Virtual for ExtUtils-CBuilder
+virtual/perl-ExtUtils-MakeMaker 7.700.0-r1 7.760.0 7.780.0: Virtual for ExtUtils-MakeMaker
+virtual/perl-ExtUtils-ParseXS 3.510.0-r1 3.570.0 3.630.0: Virtual for ExtUtils-ParseXS
+virtual/perl-File-Path 2.180.0-r5: Virtual for File-Path
+virtual/perl-File-Spec 3.910.0-r1 3.940.0 3.950.0: Virtual for File-Spec
+virtual/perl-File-Temp 0.231.100-r1 0.231.200: Virtual for File-Temp
+virtual/perl-Getopt-Long 2.570.0-r1 2.580.0-r2: Virtual for Getopt-Long
+virtual/perl-IO 1.550.0-r1 1.560.0: Virtual for IO
+virtual/perl-IO-Compress 2.212.0 2.213.0 2.220.0: Virtual for IO-Compress
 virtual/perl-IO-Socket-IP 0.420.0 0.430.0: Virtual for IO-Socket-IP
 virtual/perl-JSON-PP 4.160.0-r3: Virtual for JSON-PP
 virtual/perl-MIME-Base64 3.160.100_rc-r2: Virtual for MIME-Base64
@@ -18240,7 +18240,7 @@ virtual/perl-Time-HiRes 1.977.700 1.977.800: Virtual for Time-HiRes
 virtual/perl-Time-Local 1.350.0-r1: Virtual for Time-Local
 virtual/perl-XSLoader 0.320.0-r2: Virtual for XSLoader
 virtual/perl-autodie 2.370.0-r2: Virtual for autodie
-virtual/perl-if 0.61.0-r3: Virtual for if
+virtual/perl-if 0.61.0-r4: Virtual for if
 virtual/perl-libnet 3.150.0-r2: Virtual for libnet
 virtual/perl-parent 0.241.0-r1 0.244.0: Virtual for parent
 virtual/perl-podlators 5.10.200_rc 6.0.2: Virtual for podlators
@@ -19212,7 +19212,7 @@ x11-themes/human-icon-theme 0.36: A nice and well polished icon theme
 x11-themes/iceicons 0.10.0-r2: IceWM Icons is a set of XPM 16x16, 32x32, and 48x48 XPM and PNG icons for IceWM
 x11-themes/icewm-extra-themes 1.2: Extra themes for IceWM
 x11-themes/kfaenza 0.8.9-r3: Faenza-Cupertino icon theme for KDE Plasma
-x11-themes/kvantum 1.1.5 1.1.6: SVG-based theme engine for Qt, KDE Plasma and LXQt
+x11-themes/kvantum 1.1.8: SVG-based theme engine for Qt, KDE Plasma and LXQt
 x11-themes/larry-backgrounds 20110822-r2: Wallpapers featuring Gentoo mascot Larry the cow
 x11-themes/laughlin-backgrounds 14.1.0.3-r2: Fedora 14 official background artwork
 x11-themes/leonidas-backgrounds 11.0.0.2-r2: Fedora 11 official background artwork
@@ -19238,7 +19238,7 @@ x11-themes/papirus-icon-theme 20250501: Free and open source SVG icon theme
 x11-themes/pearlgrey-xcursors 1.0-r2: A simple crispy white-grey xcursor theme
 x11-themes/pidgin-penguins-smileys 1.0: Penguins pidgin smiley theme
 x11-themes/pulse-glass 20100616-r2: The Pulse Glass x11 mouse cursor theme
-x11-themes/qtcurve 1.9.0_p20250314-r2: Widget styles for Qt and GTK2
+x11-themes/qtcurve 1.9.0_p20260606: Widget styles for Qt and GTK2
 x11-themes/shiki-colors 4.6: Mixes the elegance of a dark theme with the usability of a light theme
 x11-themes/silver-xcursors 0.4-r5: High quality set of animated mouse cursors
 x11-themes/slim-themes 1.2.3a-r7: SLiM (Simple Login Manager) themes pack
