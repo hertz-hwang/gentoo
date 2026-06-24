@@ -48,6 +48,7 @@ python_compile_all() {
 }
 
 python_install_all() {
+	einstalldocs
 	newbashcomp bash.completion b4
 	newzshcomp zsh.completion _b4
 }

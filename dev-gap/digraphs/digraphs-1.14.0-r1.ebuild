@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~riscv"
 
 DEPEND="sci-mathematics/gap:=
-	>=sci-mathematics/planarity-4
+	sci-mathematics/planarity:=
 	sci-libs/bliss:="
 RDEPEND="${DEPEND}
 	dev-gap/io

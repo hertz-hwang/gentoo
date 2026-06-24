@@ -9,7 +9,7 @@ HOMEPAGE="https://github.com/graph-algorithms/edge-addition-planarity-suite/"
 SRC_URI="https://github.com/graph-algorithms/edge-addition-planarity-suite/releases/download/Version_${PV}/${P}.tar.gz"
 
 LICENSE="BSD"
-SLOT="0"
+SLOT="0/4"  # soname major, may be ${PV} minus one
 KEYWORDS="~amd64 ~riscv ~x86"
 
 src_install() {
