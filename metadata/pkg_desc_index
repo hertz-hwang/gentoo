@@ -1029,7 +1029,7 @@ app-admin/mkosi 24.3 25.3: Build Bespoke OS Images
 app-admin/mktwpol 1.0.1-r1: Bash scripts to install tripwire and generate tripwire policy files
 app-admin/mongo-tools 100.9.4: A high-performance, open source, schema-free document-oriented database
 app-admin/mongosh-bin 2.0.2 2.3.4: The MongoDB Shell
-app-admin/monit 5.34.0 5.34.3 5.34.4 5.35.2: Monitoring and managing daemons or similar programs running on a Unix system
+app-admin/monit 5.34.4 5.35.2 6.0.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/mtail 3.0.0_rc36: A tool for extracting metrics from application logs
 app-admin/multilog-watch 1.12-r1: Watches a multilog file for irregularities
 app-admin/needrestart 3.11 9999: Restart daemons after library updates
@@ -1396,7 +1396,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0-r1 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
@@ -14831,7 +14831,7 @@ net-dns/libidn2 2.3.8: An implementation of the IDNA2008 specifications (RFCs 58
 net-dns/maradns 3.5.0036: A security-aware DNS server
 net-dns/mdns-repeater 1.11: Multicast DNS repeater
 net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
-net-dns/nsd 4.14.2 9999: An authoritative only, high performance, open source name server
+net-dns/nsd 4.14.2 4.14.3 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
 net-dns/pdns 5.0.5 5.1.1: The PowerDNS Daemon
