@@ -4278,7 +4278,7 @@ dev-gap/ctbllib 1.3.9 1.3.11: The GAP Character Table Library
 dev-gap/cvec 2.8.4: Compact vectors over finite fields in GAP
 dev-gap/datastructures 0.4.1: Collection of standard data structures for GAP
 dev-gap/design 1.8.2: The Design Package for GAP
-dev-gap/digraphs 1.14.0-r1: Graphs, digraphs, and multidigraphs in GAP
+dev-gap/digraphs 1.14.0-r2: Graphs, digraphs, and multidigraphs in GAP
 dev-gap/edim 1.3.8: Elementary Divisors of Integer Matrices (EDIM) for GAP
 dev-gap/factint 1.6.3: Advanced Methods for Factoring Integers
 dev-gap/fga 1.5.0: Free Group Algorithms (FGA) for GAP
@@ -8275,7 +8275,7 @@ dev-python/ansible-pylibssh 1.4.0: Python bindings for libssh client specific to
 dev-python/ansicolor 0.3.2-r1 0.3.3 9999: Produce ansi color output and colored highlighting and diffing
 dev-python/antlr4-python3-runtime 4.13.2: Python 3 runtime for ANTLR
 dev-python/anyascii 0.3.3: Unicode to ASCII transliteration
-dev-python/anyio 4.13.0 4.14.0: Compatibility layer for multiple asynchronous event loop implementations
+dev-python/anyio 4.13.0 4.14.0 4.14.1: Compatibility layer for multiple asynchronous event loop implementations
 dev-python/anyioutils 0.7.4: Utility classes and functions for AnyIO
 dev-python/anysqlite 0.0.5: sqlite3 for asyncio and trio
 dev-python/anytree 2.13.0: Tree data library
@@ -8399,7 +8399,7 @@ dev-python/clang 16.0.6 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.0.0_pre2026
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.15.0 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
-dev-python/click 8.3.3 8.4.1: A Python package for creating beautiful command line interfaces
+dev-python/click 8.3.3 8.4.1 8.4.2: A Python package for creating beautiful command line interfaces
 dev-python/click-default-group 1.2.4: Extends click.Group to invoke a command without explicit subcommand name
 dev-python/click-help-colors 0.9.4: Colorization of help messages in Click
 dev-python/click-log 0.4.0: Logging integration for Click
@@ -8464,7 +8464,7 @@ dev-python/cwcwidth 0.1.12: Python bindings for wc(s)width
 dev-python/cycler 0.12.1: Composable style cycles
 dev-python/cypari2 2.2.4: Cython interface to PARI
 dev-python/cysignals 1.12.6: Interrupt and signal handling for Cython
-dev-python/cython 3.2.4 3.2.5-r1: A Python to C compiler
+dev-python/cython 3.2.4 3.2.5-r1 3.2.6: A Python to C compiler
 dev-python/cython-test-exception-raiser 26.4.1: A trivial extension that just raises an exception (for testing)
 dev-python/daemonize 2.5.0-r1: Library for writing system daemons in Python
 dev-python/dasbus 1.7: DBus library in Python 3
@@ -8490,7 +8490,7 @@ dev-python/dictdiffer 0.9.0-r1: Dictdiffer is a library that helps you to diff a
 dev-python/diff-match-patch 20241021: Diff, match and patch algorithms for plain text
 dev-python/dill 0.4.1: Serialize all of Python (almost)
 dev-python/dirty-equals 0.10.0 0.11.0: Doing dirty (but extremely useful) things with equals
-dev-python/discid 1.4.0: Python bindings for libdiscid
+dev-python/discid 1.4.0 1.4.1: Python bindings for libdiscid
 dev-python/diskcache 5.6.3: Disk and file backed cache
 dev-python/dissononce 0.34.3-r3: A python implementation for Noise Protocol Framework
 dev-python/distlib 0.4.0 0.4.0-r1 0.4.1 0.4.3: Low-level components of distutils2/packaging
@@ -8814,7 +8814,7 @@ dev-python/jupyterlab-lsp 5.1.0: Coding assistance for JupyterLab with Language 
 dev-python/jupyterlab-pygments 0.3.0: Pygments theme making use of JupyterLab CSS variables
 dev-python/jupyterlab-server 2.28.0: Server components for JupyterLab and JupyterLab like applications
 dev-python/jupyterlab-widgets 3.0.16: Jupyter interactive widgets for JupyterLab
-dev-python/jwcrypto 1.5.7: Implements JWK,JWS,JWE specifications using python-cryptography
+dev-python/jwcrypto 1.5.7 1.5.8: Implements JWK,JWS,JWE specifications using python-cryptography
 dev-python/k5test 0.10.4: Library for testing Python applications in Kerberos 5 environments
 dev-python/kaitaistruct 0.11: Kaitai Struct runtime for Python
 dev-python/kaptan 0.6.0: Configuration manager in your pocket
@@ -9003,10 +9003,10 @@ dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
 dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
 dev-python/openstackdocstheme 3.6.0: Theme and extension support for Sphinx documentation
-dev-python/openstacksdk 4.13.0 4.14.0 4.15.0 4.16.0: A collection of libraries for building applications to work with OpenStack
-dev-python/opentelemetry-api 1.42.1: OpenTelemetry Python API
-dev-python/opentelemetry-sdk 1.42.1: OpenTelemetry Python SDK
-dev-python/opentelemetry-semantic-conventions 1.42.1: OpenTelemetry Semantic Conventions
+dev-python/openstacksdk 4.13.0 4.14.0 4.15.0 4.16.0 4.17.0: A collection of libraries for building applications to work with OpenStack
+dev-python/opentelemetry-api 1.42.1 1.43.0: OpenTelemetry Python API
+dev-python/opentelemetry-sdk 1.42.1 1.43.0: OpenTelemetry Python SDK
+dev-python/opentelemetry-semantic-conventions 1.42.1 1.43.0: OpenTelemetry Semantic Conventions
 dev-python/opt-einsum 3.4.0: Optimized Einsum: A tensor contraction order optimizer
 dev-python/ordered-set 4.1.0-r1: A mutable set that remembers the order of its entries
 dev-python/orderedmultidict 1.0.1: Ordered Multivalue Dictionary. Powers furl
@@ -9125,7 +9125,7 @@ dev-python/ptyprocess 0.7.0-r1: Run a subprocess in a pseudo terminal
 dev-python/publicsuffix2 2.20191221-r2: Get a public suffix for a domain name using the Public Suffix List
 dev-python/pudb 2025.1.5: A full-screen, console-based Python debugger
 dev-python/pulsectl 24.12.0: Python high-level interface and ctypes-based bindings for PulseAudio (libpulse)
-dev-python/pulsectl-asyncio 1.2.2 1.3.0: Asyncio frontend for pulsectl, Python bindings of libpulse
+dev-python/pulsectl-asyncio 1.2.2 1.3.0 1.3.1: Asyncio frontend for pulsectl, Python bindings of libpulse
 dev-python/pure-eval 0.2.3: Safely evaluate AST nodes without side effects
 dev-python/puremagic 2.2.0: Pure python implementation of magic file detection
 dev-python/py 1.11.0-r1: library with cross-python path, ini-parsing, io, code, log facilities
@@ -9539,7 +9539,7 @@ dev-python/ruamel-yaml 0.19.1: YAML parser/emitter that supports roundtrip comme
 dev-python/ruamel-yaml-clib 0.2.15: C-based reader/scanner and emitter for dev-python/ruamel-yaml
 dev-python/ruamel-yaml-clibz 0.3.7: C-based reader/scanner and emitter for dev-python/ruamel-yaml
 dev-python/s3transfer 0.16.1 0.17.0 0.17.1 0.18.0 0.19.0: An Amazon S3 Transfer Manager
-dev-python/sabctools 8.2.6 9.4.0 9.4.1: Module providing raw yEnc encoding/decoding for SABnzbd
+dev-python/sabctools 8.2.6 9.4.0 9.4.1 9.5.0: Module providing raw yEnc encoding/decoding for SABnzbd
 dev-python/sarge 0.1.8: Wrapper for subprocess which provides command pipeline functionality
 dev-python/sarif-om 1.0.4-r1: Classes implementing the SARIF 2.1.0 object model
 dev-python/schema 0.7.8: Simple data validation library
@@ -9675,7 +9675,7 @@ dev-python/statsmodels 0.14.6: Statistical computations and models for use with 
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
 dev-python/stevedore 5.8.0: Manage dynamic plugins for Python applications
 dev-python/strict-rfc3339 0.7-r2: Strict, simple, lightweight RFC3339 functions
-dev-python/stripe 15.1.0 15.2.0 15.2.1: Stripe Python bindings
+dev-python/stripe 15.1.0 15.2.0 15.2.1 15.3.0: Stripe Python bindings
 dev-python/structlog 25.5.0 26.1.0: Structured Logging for Python
 dev-python/subprocess-tee 0.4.2: subprocess.run replacement with tee(1)-like output
 dev-python/suds-community 1.2.0: Lightweight SOAP client
@@ -9867,7 +9867,7 @@ dev-python/xmlschema 4.3.1: An XML Schema validator and decoder
 dev-python/xmlsec 1.3.17: Python bindings for the XML Security Library
 dev-python/xmltodict 1.0.4: Makes working with XML feel like you are working with JSON
 dev-python/xvfbwrapper 0.2.23: Python wrapper for running a display inside X virtual framebuffer
-dev-python/xxhash 3.7.0: Python binding for the xxHash library
+dev-python/xxhash 3.7.0 3.7.1: Python binding for the xxHash library
 dev-python/yapf 0.43.0-r1: A formatter for Python files
 dev-python/yappi 1.7.6: Yet Another Python Profiler
 dev-python/yapsy 1.12.2-r2: A fat-free DIY Python plugin management toolkit
@@ -13574,7 +13574,7 @@ media-libs/libv4l 1.32.0: v4l-utils libraries and optional utilities
 media-libs/libva 2.23.0 9999: Video Acceleration (VA) API for Linux
 media-libs/libva-compat 1.8.3-r3: Video Acceleration (VA) API for Linux
 media-libs/libva-intel-driver 2.4.5 9999: HW video decode support for Intel integrated graphics
-media-libs/libva-intel-media-driver 26.1.6 26.2.0 26.2.1 9999: Intel Media Driver for VA-API (iHD)
+media-libs/libva-intel-media-driver 26.1.6 26.2.0 26.2.1 26.2.3 9999: Intel Media Driver for VA-API (iHD)
 media-libs/libvisio 0.1.10 0.1.11 9999: Library parsing the file format of MS Visio documents
 media-libs/libvisual 0.4.1 0.4.2-r1: Abstraction library between applications and audio visualisation plugins
 media-libs/libvmaf 2.3.1 3.0.0 9999: C libary for Netflix's Perceptual video quality assessment
@@ -16475,7 +16475,7 @@ sci-mathematics/pari 2.15.5 2.17.1 2.17.2: Computer-aided number theory C librar
 sci-mathematics/pari-data 20191216: Additional dataset packages for PARI
 sci-mathematics/petsc 3.22.2 3.23.3 3.23.4 3.24.5 3.25.1: Portable, Extensible Toolkit for Scientific Computation
 sci-mathematics/picosat 965: SAT solver with proof and core support
-sci-mathematics/planarity 4.0.0.0 5.0.0.0-r1: The edge addition planarity suite of graph algorithms
+sci-mathematics/planarity 4.0.0.0 5.0.0.0-r2: The edge addition planarity suite of graph algorithms
 sci-mathematics/plfit 1.0.1: Fit power-law distributions to empirical data
 sci-mathematics/polymake 4.13 4.14 4.15: Tool for polyhedral geometry and combinatorics
 sci-mathematics/primecount 8.0: Highly optimized CLI and library to count primes
@@ -17939,7 +17939,7 @@ sys-kernel/installkernel 68 9999: Gentoo fork of installkernel script from debia
 sys-kernel/kci-dev 0.1.6 0.1.10: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20260221 20260309 20260410 20260519 99999999: Linux firmware files
+sys-kernel/linux-firmware 20260221 20260309 20260410 20260519 20260622 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18 6.19 7.0 7.1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
