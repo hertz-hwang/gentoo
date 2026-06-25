@@ -1087,7 +1087,7 @@ app-admin/stow 2.4.1: GNU Stow is a symlink farm manager
 app-admin/su-exec 0.2: Switch user and group id and exec
 app-admin/sud 1.3-r2 1.3-r3: A daemon to execute processes with special privileges in a nosuid environment
 app-admin/sudo 1.9.17_p2 9999: Allows users or groups to run commands as other users
-app-admin/sudo-rs 0.2.12-r1 0.2.13: A memory safe implementation of sudo and su
+app-admin/sudo-rs 0.2.12-r1 0.2.13 0.2.14: A memory safe implementation of sudo and su
 app-admin/superadduser 1.15: Interactive adduser script from Slackware
 app-admin/supervisor 4.2.5-r1 4.2.5_p20250125 4.3.0: A system for controlling process state under UNIX
 app-admin/sxid 4.2-r3 4.20130802: suid, sgid file and directory checking
@@ -2511,7 +2511,7 @@ app-forensics/examiner 0.5-r3: Utilizes the objdump command to disassemble and c
 app-forensics/foremost 1.5.7-r4: Console program to recover files based on their headers and footers
 app-forensics/galleta 20040505_p1-r1: IE Cookie Parser
 app-forensics/honggfuzz 2.6: A general purpose fuzzer with feedback support
-app-forensics/lynis 3.1.6: Security and system auditing tool
+app-forensics/lynis 3.1.7 3.1.7-r1: Security and system auditing tool
 app-forensics/mac-robber 1.02-r1: mac-robber is a digital forensics and incident response tool that collects data
 app-forensics/magicrescue 1.1.10-r4: Find deleted files in block devices
 app-forensics/memdump 1.01-r1: Simple memory dumper for UNIX-Like systems
