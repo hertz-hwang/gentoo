@@ -15,7 +15,7 @@ if [[ ${PV} == *9999* ]] ; then
 	EGIT_REPO_URI="https://code.videolan.org/videolan/vlc.git"
 	inherit git-r3
 else
-	COMMIT=436a18f2dbb604feeaffe6a46fc822d1abf7a2fd
+	COMMIT=c9b0b564b2f73eb41cb39ef4d645cb5ea7966440
 	if [[ -n ${COMMIT} ]] ; then
 		SRC_URI="https://code.videolan.org/videolan/vlc/-/archive/${COMMIT}.tar.gz -> ${P}-${COMMIT:0:8}.tar.gz"
 		S="${WORKDIR}/${PN}-${COMMIT}"
@@ -27,7 +27,7 @@ else
 		fi
 		S="${WORKDIR}/${MY_P}"
 	fi
-	KEYWORDS="amd64 ~arm arm64 ~loong ~ppc ppc64 ~riscv -sparc ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv -sparc ~x86"
 fi
 inherit autotools flag-o-matic lua-single toolchain-funcs virtualx xdg
 
@@ -41,11 +41,11 @@ IUSE="alsa aom archive aribsub bidi bluray chromaprint chromecast dav1d dbus
 	dc1394 debug directx +dvbpsi dvd +encode faad fdk +ffmpeg flac fluidsynth
 	fontconfig +gcrypt gme keyring gstreamer +gui ieee1394 jack jpeg kate libass
 	libcaca libdrm libnotify libplacebo +libsamplerate libtiger linsys lirc live
-	loudness lua mad matroska modplug mp3 mtp musepack ncurses
-	nfs ogg omxil optimisememory opus png projectm pulseaudio run-as-root samba
-	selinux sftp shout sid skins soxr speex srt ssl svg taglib theora tremor truetype
-	twolame udev upnp vaapi v4l vdpau vnc vpx wayland +X x264 x265 xml zeroconf
-	zvbi cpu_flags_arm_neon cpu_flags_ppc_altivec cpu_flags_x86_sse
+	loudness lua mad matroska modplug mp3 mtp ncurses nfs ogg omxil
+	optimisememory opus png projectm pulseaudio run-as-root samba selinux sftp shout sid
+	skins soxr speex srt ssl svg taglib theora tremor truetype twolame udev upnp
+	vaapi v4l vdpau vnc vpx wayland +X x264 x265 xml zeroconf zvbi
+	cpu_flags_arm_neon cpu_flags_ppc_altivec cpu_flags_x86_sse
 "
 REQUIRED_USE="
 	chromecast? ( encode )
@@ -68,7 +68,7 @@ BDEPEND="
 	virtual/pkgconfig
 	lua? ( ${LUA_DEPS} )
 	amd64? ( dev-lang/yasm )
-	wayland? ( dev-util/wayland-scanner )
+	wayland? ( >=dev-util/wayland-scanner-1.23 )
 	x86? ( dev-lang/yasm )
 "
 # depends on abseil-cpp via protobuf targets
@@ -124,7 +124,7 @@ COMMON_DEPEND="
 	gstreamer? ( >=media-libs/gst-plugins-base-1.4.5:1.0 )
 	gui? (
 		dev-qt/qt5compat:6[qml]
-		dev-qt/qtbase:6=[gui,widgets]
+		dev-qt/qtbase:6=[gui,opengl,widgets]
 		dev-qt/qtdeclarative:6
 		dev-qt/qtsvg:6
 		kde-frameworks/kwindowsystem:6
@@ -167,7 +167,6 @@ COMMON_DEPEND="
 	modplug? ( >=media-libs/libmodplug-0.8.9.0 )
 	mp3? ( media-sound/mpg123-base )
 	mtp? ( media-libs/libmtp:= )
-	musepack? ( media-sound/musepack-tools )
 	ncurses? ( sys-libs/ncurses:=[unicode(+)] )
 	nfs? ( >=net-fs/libnfs-0.10.0:= )
 	ogg? ( media-libs/libogg )
@@ -216,7 +215,7 @@ COMMON_DEPEND="
 	vpx? ( media-libs/libvpx:= )
 	wayland? (
 		>=dev-libs/wayland-1.15
-		>=dev-libs/wayland-protocols-1.12
+		>=dev-libs/wayland-protocols-1.33
 	)
 	X? (
 		x11-libs/libX11
@@ -245,10 +244,10 @@ DOCS=( AUTHORS THANKS NEWS README.md doc/fortunes.txt )
 PATCHES=(
 	"${FILESDIR}"/${PN}-4.0.0_pre20260320-gettext-version.patch # bug 766549
 	"${FILESDIR}"/${PN}-4.0.0_pre20260320-no-vlc-cache-gen.patch # bugs 564842, 608256
-	"${FILESDIR}"/${P}-fix-libtremor-libs.patch # build system
+	"${FILESDIR}"/${PN}-4.0.0_pre20260418-fix-libtremor-libs.patch # build system
 	"${FILESDIR}"/${PN}-4.0.0_pre20260320-configure-lua-version.patch
 	"${FILESDIR}"/${PN}-4.0.0_pre20260215-force-x11.patch # crashes w/ wayland platform plugin
-	"${FILESDIR}"/${P}-no-libprojectm4.patch
+	"${FILESDIR}"/${PN}-4.0.0_pre20260515-no-libprojectm4.patch
 )
 
 pkg_setup() {
@@ -373,7 +372,6 @@ src_configure() {
 		$(use_enable modplug mod)
 		$(use_enable mp3 mpg123)
 		$(use_enable mtp)
-		$(use_enable musepack mpc)
 		$(use_enable ncurses)
 		$(use_enable nfs)
 		$(use_enable ogg)

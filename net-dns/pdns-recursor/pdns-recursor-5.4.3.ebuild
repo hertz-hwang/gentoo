@@ -55,7 +55,7 @@ CRATES="
 	ring@0.17.14
 	rustls@0.23.35
 	rustls-pki-types@1.13.1
-	rustls-webpki@0.103.8
+	rustls-webpki@0.103.13
 	ryu@1.0.20
 	scratch@1.0.9
 	serde@1.0.228
