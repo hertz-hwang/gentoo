@@ -29,7 +29,7 @@ DEPEND="
 	rootless? ( sys-apps/shadow:= )
 "
 RDEPEND="${DEPEND}
-	app-containers/containers-common
+	>=app-containers/container-libs-0.68.0
 "
 BDEPEND="
 	dev-go/go-md2man

@@ -1136,7 +1136,7 @@ app-antivirus/clamav 0.103.12-r3 0.103.12-r4 1.0.7-r2 1.4.1-r3 1.4.2-r1 1.4.3 1.
 app-antivirus/clamtk 6.18-r1 6.18-r2: A graphical front-end for ClamAV
 app-antivirus/fangfrisch 1.9.2 1.9.2-r1: Update and verify unofficial Clam Anti-Virus signatures
 app-antivirus/lkrg 0.9.8 0.9.9 9999: Linux Kernel Runtime Guard
-app-arch/7zip 25.01 26.00 26.01: Free file archiver for extremely high compression
+app-arch/7zip 25.01 26.00 26.01 26.02: Free file archiver for extremely high compression
 app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving compression
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
 app-arch/alien 8.95.6 8.95.9: Converts between the rpm, dpkg, stampede slp, and slackware tgz file formats
@@ -1365,11 +1365,12 @@ app-cdr/xfburn 0.7.2 0.8.0: GTK+ based CD and DVD burning application
 app-containers/aardvark-dns 1.15.0 1.17.0 1.17.1 2.0.0 9999: A container-focused DNS server
 app-containers/amazon-ecr-credential-helper 0.10.1 0.11.0 0.12.0: Automatically gets credentials for Amazon ECR on docker push/docker pull
 app-containers/apptainer 1.4.5: The container system for secure high-performance computing
-app-containers/buildah 1.40.0 1.40.1 1.41.0 1.44.0 9999: A tool that facilitates building OCI images
+app-containers/buildah 1.40.0 1.40.1 1.41.0 1.44.0-r1 9999: A tool that facilitates building OCI images
 app-containers/cadvisor 0.49.2 0.53.0 0.56.2: Analyzes resource usage and performance characteristics of running containers
 app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it's effectively brain-dead
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2 1.9.1: Standard networking plugins for container networking
 app-containers/conmon 2.1.11 2.1.13 2.2.1 9999: An OCI container runtime monitor
+app-containers/container-libs 0.68.0: Several utilities from the containers project
 app-containers/containerd 2.0.5-r1 2.0.7-r1 2.1.4-r1 2.1.5-r1 2.2.2-r1 2.3.1 2.3.2: A daemon to control runC
 app-containers/containers-common 0.63.0 0.64.2 9999: Common config files and docs for Containers stack
 app-containers/containers-image 5.34.2 5.35.0 5.36.2 9999: Default config and docs related to Containers' images
@@ -1385,7 +1386,7 @@ app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1: System container image bu
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
 app-containers/docker 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3-r1 29.5.2: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-bench-security 1.6.0 1.6.1: Test for best practices around deploying docker containers
-app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 0.21.2 0.34.1 9999: Docker CLI plugin for extended build capabilities with BuildKit
+app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 0.21.2 0.34.1 0.35.0 9999: Docker CLI plugin for extended build capabilities with BuildKit
 app-containers/docker-cli 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3 29.5.2: the command line binary for docker
 app-containers/docker-compose 2.34.0-r1 2.39.3 2.40.3 5.0.1-r2 5.1.4-r1: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.9.3 0.9.7: Suite of programs to use native stores to keep Docker credentials safe
@@ -1402,17 +1403,17 @@ app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubern
 app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
 app-containers/lxc-templates 3.0.4_p20240917: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.4 6.3 6.5: Modern, secure and powerful system container and virtual machine manager
-app-containers/nerdctl 2.0.2 2.0.3 2.2.1 2.3.1: Docker-compatible CLI for containerd, with support for Compose
-app-containers/netavark 1.14.1 1.15.2 1.16.1 1.17.0 1.17.1 1.17.2 9999: A container network stack
+app-containers/nerdctl 2.0.2 2.0.3 2.2.1 2.3.1 2.3.3: Docker-compatible CLI for containerd, with support for Compose
+app-containers/netavark 1.14.1 1.15.2 1.16.1 1.17.0 1.17.1 1.17.2 2.0.0 9999: A container network stack
 app-containers/nvidia-container-toolkit 1.18.0 1.19.0 9999: NVIDIA container runtime toolkit
-app-containers/podman 5.7.1 5.8.2 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
+app-containers/podman 5.7.1 5.8.2 6.0.0 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
-app-containers/podman-tui 1.5.0 1.6.1 1.9.0 1.11.1 9999: Terminal UI frontend for Podman
+app-containers/podman-tui 1.5.0 1.6.1 1.9.0 1.11.1 1.11.2 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
 app-containers/runc 1.2.8 1.3.3 1.4.0-r1 1.4.2 1.4.3: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
-app-containers/skopeo 1.22.2 1.23.0 9999: Work with remote container images registries
+app-containers/skopeo 1.22.2 1.23.0-r1 9999: Work with remote container images registries
 app-containers/slirp4netns 1.3.3 1.3.4: User-mode networking for unprivileged network namespaces
 app-containers/snapd 2.63: Service and tools for management of snap packages
 app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Software Bill of Materials from container images and filesystems
@@ -5545,6 +5546,7 @@ dev-libs/foma 0.10.0_p20220612-r2: Multi-purpose finite-state toolkit
 dev-libs/freexl 2.0.0-r1: Simple XLS data extraction library
 dev-libs/fribidi 1.0.13 1.0.16: A free implementation of the unicode bidirectional algorithm
 dev-libs/fstrm 0.6.1-r1: Frame Streams implementation in C
+dev-libs/fuzzylite 6.0: A fuzzy logic control library in C++
 dev-libs/gdl 3.40.0-r2: GNOME docking library
 dev-libs/geoip 1.6.12 1.6.12-r1: GeoIP Legacy C API
 dev-libs/gf-complete 2.0.0_p20170410: Comprehensive Open Source Library for Galois Field Arithmetic
@@ -12016,6 +12018,7 @@ games-strategy/spaz 1.605-r1: Space Pirates and Zombies
 games-strategy/tornado 1.4-r3: Clone of a C64 game - destroy the opponent's house
 games-strategy/ufoai 2.5.0_p20180603-r4: UFO: Alien Invasion - X-COM inspired strategy game
 games-strategy/uqm 0.8.0: The Ur-Quan Masters: Port of Star Control 2
+games-strategy/vcmi 1.7.4: Open-source engine for Heroes of Might and Magic III
 games-strategy/war1gus 3.3.2: Warcraft: Orcs & Humans for the Stratagus game engine
 games-strategy/wargus 3.3.2: Warcraft II for the Stratagus game engine
 games-strategy/warmux 11.04.1-r3: A free Worms clone
@@ -13563,6 +13566,7 @@ media-libs/libsndfile 1.2.2-r2 9999: C library for reading and writing files con
 media-libs/libsoundio 2.0.0-r1: C library for cross-platform real-time audio input and output
 media-libs/libsoundtouch 2.3.3-r1 2.4.0: Audio processing library for changing tempo, pitch and playback rates
 media-libs/libspng 0.7.4: Simple, modern libpng alternative
+media-libs/libsquish 1.15.1.4: Library for compressing images with the DXT/S3TC standard
 media-libs/libsvgtiny 0.1.8 9999: Small and portable C library to parse SVG
 media-libs/libtgvoip 2.4.4_p20240706: VoIP library for Telegram clients
 media-libs/libtheora 1.2.0-r1: The Theora Video Compression Codec
@@ -17770,8 +17774,8 @@ sys-firmware/b43legacy-firmware 3.130.20.0: broadcom firmware for b43legacy/bcm4
 sys-firmware/blisp 0.0.5: Bouffalo Labs in-system-programming tool and library
 sys-firmware/bluez-firmware 1.2_p9_p20250503: Firmware for Broadcom BCM, STLC2300, and Synaptics SYN Bluetooth chips
 sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
-sys-firmware/edk2 202411 202502-r1 202511-r1: TianoCore EDK II UEFI firmware for virtual machines
-sys-firmware/edk2-bin 202202 202408 202411 202511: TianoCore EDK II UEFI firmware for virtual machines
+sys-firmware/edk2 202411 202502-r1 202511-r1 202605: TianoCore EDK II UEFI firmware for virtual machines
+sys-firmware/edk2-bin 202202 202408 202411 202511 202605: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.22: NXP i.MX firmware
 sys-firmware/intel-microcode 20260210_p20260211 20260227_p20260227 20260512_p20260513: Intel IA32/IA64 microcode update data
 sys-firmware/ipw2100-firmware 1.3-r1: Firmware for the Intel PRO/Wireless 2100 3B miniPCI adapter
@@ -18367,7 +18371,7 @@ www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 5.3.2 5.3.3 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr-bin 4.0.18.2978: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr-bin 4.0.19.2979: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7-r1 9999: ttyd, a simple command-line tool for sharing terminal over the web

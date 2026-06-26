@@ -3388,6 +3388,13 @@ games-strategy/ufoai:server - Build the dedicated server
 games-strategy/uqm:music - download and install original 3DO music files
 games-strategy/uqm:remix - download and install remixed music files (large)
 games-strategy/uqm:voice - download and install voice files (large)
+games-strategy/vcmi:discord - Enable Discord integration
+games-strategy/vcmi:editor - Enable editor support
+games-strategy/vcmi:erm - Enable compilation of ERM scripting module
+games-strategy/vcmi:launcher - Enable launcher support
+games-strategy/vcmi:lobby - Enable lobby server
+games-strategy/vcmi:translations - Install translations
+games-strategy/vcmi:video - Enable video support using ffmpeg
 games-strategy/wargus:bne - Support extracting data from the Battle.net Edition
 games-strategy/warzone2100:discord - Enable Discord presence/join integration
 games-strategy/wesnoth:server - Enable compilation of server
