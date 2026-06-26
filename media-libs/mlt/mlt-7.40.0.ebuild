@@ -15,7 +15,7 @@ SLOT="0/7"
 KEYWORDS="~amd64 ~arm64 ~loong ~ppc64 ~riscv ~x86"
 
 IUSE="debug ffmpeg frei0r gtk jack libsamplerate opencv opengl python qt6
-rtaudio rubberband sdl sox test vdpau vidstab vorbis xine xml"
+rtaudio rnnoise rubberband sdl sox test vdpau vidstab vorbis xine xml"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
 RESTRICT="!test? ( test )"
@@ -63,6 +63,7 @@ RDEPEND="
 		>=media-libs/rtaudio-4.1.2:=
 		kernel_linux? ( media-libs/alsa-lib )
 	)
+	rnnoise? ( media-libs/rnnoise:= )
 	rubberband? ( media-libs/rubberband:= )
 	sdl? (
 		media-libs/libsdl2[X,opengl,video]
@@ -128,6 +129,7 @@ src_configure() {
 		-DBUILD_TESTS_WITH_QT6=ON # The tests use qttest, this switch decides whether qt5 or qt6 is used.
 
 		-DMOD_AVFORMAT=$(usex ffmpeg)
+		-DUSE_AVDEVICE=$(usex ffmpeg)
 		#-DMOD_DECKLINK=
 		-DMOD_FREI0R=$(usex frei0r)
 		-DMOD_GDK=$(usex gtk)
@@ -148,6 +150,7 @@ src_configure() {
 		-DMOD_RESAMPLE=$(usex libsamplerate)
 		-DMOD_RTAUDIO=$(usex rtaudio)
 		-DMOD_RUBBERBAND=$(usex rubberband)
+		-DMOD_RNNOISE=$(usex rnnoise)
 		-DMOD_SDL1=OFF
 		-DMOD_SDL2=$(usex sdl)
 		-DMOD_SOX=$(usex sox)

@@ -15,7 +15,7 @@ LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND=">=app-editors/emacs-29.1:*[sqlite]
+RDEPEND=">=app-editors/emacs-29.1:*[dynamic-loading,sqlite]
 	app-emacs/fsm
 	app-emacs/keymap-popup
 	net-libs/mbedtls:3="
@@ -25,12 +25,20 @@ SITEFILE="50${PN}-gentoo-0.11.0.el"
 
 pkg_setup() {
 	elisp-check-emacs-version
-	if [[ $(${EMACS} ${EMACSFLAGS} \
-			--eval "(princ (sqlite-available-p))") != t ]]; then
-		eerror "${CATEGORY}/${PN} needs sqlite support in Emacs."
-		eerror "Emerge app-editors/emacs with USE=\"sqlite\"."
-		die "Missing sqlite support"
-	fi
+
+	local i feat=(
+		dynamic-loading "(fboundp 'module-load)"
+		sqlite "(sqlite-available-p)"
+	)
+
+	for (( i=0; i<${#feat[@]}; i+=2 )); do
+		if [[ $(${EMACS} ${EMACSFLAGS} --eval "(princ ${feat[i+1]})") != t ]]
+		then
+			eerror "${CATEGORY}/${PN} needs ${feat[i]} support in Emacs."
+			eerror "Emerge app-editors/emacs with USE=\"${feat[i]}\"."
+			die "Missing ${feat[i]} support"
+		fi
+	done
 }
 
 src_compile() {
@@ -38,18 +46,13 @@ src_compile() {
 	MBED_FLAGS=$("$(tc-getPKG_CONFIG)" --cflags --libs mbedcrypto-3) || die
 	emake \
 		CC="$(tc-getCC)" \
-		EMACS_CMD="${EMACS} \
-			-L ${EPREFIX}${SITELISP}/fsm \
-			-L ${EPREFIX}${SITELISP}/keymap-popup" \
+		EMACS_CMD="${EMACS}" \
+		EMACS_OPTS="${EMACSFLAGS}" \
 		MBED_FLAGS="${MBED_FLAGS}"
 }
 
 src_test() {
-	local t tests=( tests/jabber-test-*.el )
-	for t in "${!tests[@]}"; do
-		# https://codeberg.org/emacs-jabber/emacs-jabber/issues/155
-		[[ ${tests[t]} = *-mam.el ]] && unset "tests[t]"
-	done
+	local tests=( tests/jabber-test-*.el )
 	elisp-test-ert tests -L lisp "${tests[@]/#/--load=}"
 }
 
