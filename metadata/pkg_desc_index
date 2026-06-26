@@ -5299,7 +5299,7 @@ dev-java/xz-java 1.12: Implementation of xz data compression in pure java
 dev-java/zstd-jni 1.5.7.6: JNI bindings for Zstd native library
 dev-java/zxing-core 3.5.1: Core barcode encoding/decoding library
 dev-java/zxing-javase 3.5.1: Core barcode encoding/decoding library
-dev-lang/R 4.5.0 4.5.2 4.5.3: Language and environment for statistical computing and graphics
+dev-lang/R 4.5.3 4.6.1: Language and environment for statistical computing and graphics
 dev-lang/abs 2.6.0: The ABS programing language
 dev-lang/ada-bootstrap 0_p2021-r1 11 12 13 14: Binary bootstrap compiler for GNAT (Ada compiler)
 dev-lang/algol68g 3.10.13 3.11.3 3.12.2: Algol 68 Genie compiler-interpreter
