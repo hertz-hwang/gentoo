@@ -12812,7 +12812,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.2 3.11.3 3.11.4 3.12_pre20260615: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.2 3.11.3 3.11.4 3.12_pre20260624: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
@@ -13221,7 +13221,7 @@ media-gfx/pablodraw 3.3.13_beta-r1 3.3.14_beta: Ansi/Ascii text and RIPscrip vec
 media-gfx/pdf2svg 0.2.3-r2: Convert PDF to SVG files using poppler and cairo
 media-gfx/pencil 0.7.0 0.7.0_p20260127: 2D animation and drawing program based on Qt
 media-gfx/photopc 3.07: Utility to control digital cameras based on Sierra Imaging firmware
-media-gfx/photoqt 4.9.2 5.0 5.2 5.3: Simple but powerful Qt-based image viewer
+media-gfx/photoqt 5.3 5.4: Simple but powerful Qt-based image viewer
 media-gfx/phototonic 3.1.0 3.2.0: Image viewer and organizer
 media-gfx/pinta 3.0 3.1.2: Pinta is a free, open source program for drawing and image editing
 media-gfx/pixels2pgf 0.1-r1 9999: Convert pixel images (e.g. QRCode) to PGF/Tikz rectangles
@@ -13908,7 +13908,7 @@ media-plugins/obs-source-clone 0.1.5 0.2.3 9999: Plugin for OBS Studio to clone 
 media-plugins/obs-source-dock 0.4.1 0.5.1 9999: Plugin for OBS Studio to add docks
 media-plugins/obs-source-record 0.4.7 9999: Plugin for OBS Studio to make sources available to record via a filter
 media-plugins/obs-vkcapture 1.5.5 9999: OBS Linux Vulkan/OpenGL game capture
-media-plugins/photoqt-extensions 5.2 5.3: Official extensions for PhotoQt
+media-plugins/photoqt-extensions 5.3 5.4: Official extensions for PhotoQt
 media-plugins/qmmp-plugin-pack 2.3.0: Set of extra plugins for Qmmp
 media-plugins/rev-plugins 0.8.1: REV LADSPA plugins package, stereo reverb plugin based on the well-known greverb
 media-plugins/swh-lv2 1.0.16-r1: Large collection of LV2 audio plugins/effects
@@ -15116,7 +15116,7 @@ net-libs/libssh2 1.11.1 9999: Library implementing the SSH2 protocol
 net-libs/libtelnet 0.23-r2: Simple RFC-compliant TELNET implementation as a C library
 net-libs/libtirpc 1.3.6 1.3.7 1.3.7-r2: Transport Independent RPC library (SunRPC replacement)
 net-libs/libtlsrpt 0.5.0 9999: library to implement TLSRPT
-net-libs/libtorrent 0.15.7 0.16.11 0.16.13 0.16.14 9999: BitTorrent library written in C++ for *nix
+net-libs/libtorrent 0.15.7 0.16.11 0.16.13 0.16.14 0.16.15 9999: BitTorrent library written in C++ for *nix
 net-libs/libtorrent-rasterbar 2.0.10: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace processing
 net-libs/libupnp 1.14.24 1.14.25 1.14.30 1.14.31 1.18.5: An Portable Open Source UPnP Development Kit
@@ -15633,7 +15633,7 @@ net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses int
 net-p2p/nicotine+ 3.3.7 3.3.10: Graphical client for the Soulseek peer to peer network written in Python
 net-p2p/qbittorrent 5.1.2-r1 5.1.4 5.2.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
-net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 9999: BitTorrent Client using libtorrent
+net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 0.16.15 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
 net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16 2.1.0 2.1.1: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
@@ -15838,7 +15838,7 @@ net-wireless/suscan 0.3.0_p20251029: a realtime DSP processing library
 net-wireless/suwidgets 0.3.0_p20251029: graphical library containing all SigDigger's custom widgets
 net-wireless/tempestsdr 0.0_p20260404 9999: Remote video eavesdropping using a software-defined radio platform
 net-wireless/ubertooth 2020.12.1-r1 9999: open source wireless development platform suitable for Bluetooth experimentation
-net-wireless/uhd 4.9.0.1-r1 4.10.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
+net-wireless/uhd 4.9.0.1-r1 4.10.0.0-r1: Universal Software Radio Peripheral (USRP) Hardware Driver
 net-wireless/unifi 10.1.89 10.3.58 10.4.57: A Management Controller for Ubiquiti Networks UniFi APs
 net-wireless/urh 2.10.0-r2 9999: Universal Radio Hacker: investigate wireless protocols like a boss
 net-wireless/wavemon 0.9.5 0.9.6: Ncurses based monitor for IEEE 802.11 wireless LAN cards
@@ -18364,7 +18364,7 @@ www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for 
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.3.0 2.4.0 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
-www-apps/rutorrent 5.3.1 5.3.2 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
+www-apps/rutorrent 5.3.2 5.3.3 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.18.2971: Sonarr is a Smart PVR for newsgroup and bittorrent users
