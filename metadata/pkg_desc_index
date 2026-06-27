@@ -1071,7 +1071,7 @@ app-admin/rcm 1.3.6: rc file (dotfile) management
 app-admin/redfishtool 1.1.8: Python package and command-line tool for accessing the Redfish API
 app-admin/restart-services 1.3-r1 1.4 1.5 1.6 1.7: Tool to manage OpenRC and systemd services that need to be restarted
 app-admin/rex 1.16.0-r1 1.16.1-r1 9999: (R)?ex, the friendly automation framework
-app-admin/rsyslog 8.2506.0-r2 8.2512.0-r1 8.2602.0-r1 8.2604.0-r1: An enhanced multi-threaded syslogd with database support and more
+app-admin/rsyslog 8.2506.0-r2 8.2512.0-r1 8.2604.0-r1 8.2606.0: An enhanced multi-threaded syslogd with database support and more
 app-admin/ryzen_monitor 1.0.6_pre20220901: Monitor power information of Ryzen processors via the PM table of the SMU
 app-admin/ryzen_smu 0.1.5: Kernel driver for AMD Ryzen's System Management Unit
 app-admin/sagan 2.0.2: Sagan is a multi-threaded, real time system and event log monitoring system
@@ -1921,7 +1921,7 @@ app-emacs/avy 0.5.0: Jump to arbitrary positions in visible text and quickly sel
 app-emacs/avy-embark-collect 1.1 1.2 9999: Use avy to jump to Embark Collect entries
 app-emacs/bbdb 3.2.2d_p20231122-r1: The Insidious Big Brother Database
 app-emacs/biblio 0.3: Browse and import bibliographic references with Emacs
-app-emacs/binclock 1.11 1.12: Display the current time using a binary clock
+app-emacs/binclock 1.12: Display the current time using a binary clock
 app-emacs/bind-chord 2.4.4-r1: Key-chord binding helper for use-package-chords
 app-emacs/bison-mode 0.3-r1: Emacs major mode for Bison, Yacc and Lex grammars
 app-emacs/blogmax 20170321: Blogging in Emacs
@@ -1948,9 +1948,9 @@ app-emacs/circe 2.14: A great IRC client for Emacs
 app-emacs/citar 1.4.0: Emacs package to quickly find and act on bibliographic references
 app-emacs/citeproc-el 0.9.4-r1: CSL 1.0.2 Citation Processor for Emacs
 app-emacs/citre 0.4.2: Superior code reading and auto-completion with pluggable backends for GNU Emacs
-app-emacs/clatter 0.1.0: An IRCv3-compliant IRC client for GNU Emacs
+app-emacs/clatter 0.1.0 0.4.3: An IRCv3-compliant IRC client for GNU Emacs
 app-emacs/cldoc 1.16: Show Common Lisp operators and variables information in echo area
-app-emacs/clojure-mode 5.21.0 5.22.0 5.23.0: Major mode for Clojure code
+app-emacs/clojure-mode 5.23.0: Major mode for Clojure code
 app-emacs/closql 2.3.2 2.4.0 2.4.1-r1 9999: Store EIEIO objects using EmacSQL
 app-emacs/cmake-font-lock 0.1.13-r1: Advanced, type aware, highlight support for CMake
 app-emacs/cmake-mode 3.30.3: GNU Emacs mode for handling CMake build files
@@ -2018,11 +2018,11 @@ app-emacs/edit-indirect 0.1.13: Edit regions in separate Emacs buffers
 app-emacs/edit-list 0.3: Edit a single list
 app-emacs/edit-server 1.16: Service edit requests from a web browser for editing of textareas
 app-emacs/editorconfig-emacs 0.11.0: EditorConfig plugin for emacs
-app-emacs/ef-themes 2.0.0 2.0.1 2.1.0 9999: Colourful and legible themes for GNU Emacs
+app-emacs/ef-themes 2.1.0 2.2.0 9999: Colourful and legible themes for GNU Emacs
 app-emacs/eimp 1.4.0-r1: Emacs Image Manipulation Package
 app-emacs/el-mock 1.25.1: Mocking library for Emacs
 app-emacs/eldev 1.11.1 1.11.2 9999: Emacs Lisp Development Tool
-app-emacs/eldoc-box 1.11.1 1.12.1 1.13.2 1.14.1 9999: Child frame doc for Eglot and anything that uses ElDoc
+app-emacs/eldoc-box 1.14.1 9999: Child frame doc for Eglot and anything that uses ElDoc
 app-emacs/elfeed 3.4.2-r1 4.0.0 4.0.1: Emacs web feeds client
 app-emacs/elfeed-protocol 0.9.1 1.0.0: Provide extra news client subscription protocols for elfeed
 app-emacs/elixir-mode 2.5.0: Emacs major mode for editing Elixir files
@@ -2105,7 +2105,7 @@ app-emacs/gnuserv 3.12.8-r8: Attach to an already running Emacs
 app-emacs/go-mode 1.6.0: An improved Go mode for emacs
 app-emacs/god-mode 2.18.0 2.19.0: Minor mode for God-like command entering in GNU Emacs
 app-emacs/google-c-style 20140929: Provides the google C/C++ coding style
-app-emacs/gptel 0.9.9.4 0.9.9.5 9999: Simple Large Language Model chat client for GNU Emacs
+app-emacs/gptel 0.9.9.5 9999: Simple Large Language Model chat client for GNU Emacs
 app-emacs/graphql 0.1.2: GraphQL utilities
 app-emacs/graphviz-dot-mode 0.4_p20181118 0.4.2_p20250925: Emacs mode for editing and previewing Graphviz dot graphs
 app-emacs/groovy-emacs-modes 2.1: Groovy major mode, grails minor mode, and a groovy inferior mode
@@ -2181,7 +2181,7 @@ app-emacs/mldonkey 0.0.4b-r2: An Emacs Lisp interface to the MLDonkey core
 app-emacs/mmm-mode 0.5.11: Enables the user to edit different parts of a file in different major modes
 app-emacs/moccur-edit 2.16: An improved interface to color-moccur for editing
 app-emacs/mocker 0.5.0: Simple mocking framework for Emacs
-app-emacs/modus-themes 5.1.0 5.2.0 9999: Highly accessible themes for GNU Emacs
+app-emacs/modus-themes 5.2.0 5.3.0 9999: Highly accessible themes for GNU Emacs
 app-emacs/mpg123-el 1.65: Emacs front-end to mpg123 audio player and OggVorbis audio player
 app-emacs/mu-cite 8.1_p202011031127: Message citation utilities for emacsen
 app-emacs/multi-term 1.4-r1: Manage multiple terminal buffers in Emacs
@@ -2230,7 +2230,7 @@ app-emacs/pinentry 0.1_p20250408: GnuPG Pinentry server implementation for Emacs
 app-emacs/pkg-info 0.6-r1: Provide information about Emacs packages
 app-emacs/pkl-mode 1.0.3: Major mode for editing Pkl files
 app-emacs/planner 3.42-r1: Maintain a local Wiki using Emacs-friendly markup
-app-emacs/plz 0.7.2 0.9.1: HTTP library with curl backend for GNU Emacs
+app-emacs/plz 0.9.1: HTTP library with curl backend for GNU Emacs
 app-emacs/po-mode 0.26: Major mode for GNU gettext PO files
 app-emacs/poke 3.0 3.2: Emacs meets GNU poke!
 app-emacs/poke-mode 3.0: Major mode for editing Poke programs
@@ -2252,7 +2252,7 @@ app-emacs/pyvenv 1.21: Python virtual environment interface for Emacs
 app-emacs/quack 0.48: Enhances Emacs support for Scheme
 app-emacs/queue 0.2: Queue data structure
 app-emacs/qwerty 1.1: Switch between QWERTY and DVORAK without changing the console keymap
-app-emacs/racket-mode 1_p20251107 9999: Emacs modes for Racket: edit, REPL, check-syntax, debug, profile, and more
+app-emacs/racket-mode 1_p20251107 1_p20260303 9999: Emacs modes for Racket: edit, REPL, check-syntax, debug, profile, and more
 app-emacs/rainbow-delimiters 2.1.5: Highlight nested parentheses, brackets, and braces according to their depth
 app-emacs/rainbow-mode 1.0.6: Colorize strings that represent colors inside Emacs buffers
 app-emacs/raku-mode 0.2.1_p20211121: Major mode for editing Raku code
@@ -2348,7 +2348,7 @@ app-emacs/wanderlust 2.15.9_p20230624: Yet Another Message Interface on Emacsen
 app-emacs/web-mode 17.3.20: Web template editing mode for Emacs
 app-emacs/web-server 0.1.2_p20210708-r1: Web server running Emacs Lisp handlers
 app-emacs/webpaste 3.2.2-r1: Paste parts of buffers to several pastebin-like services from Emacs
-app-emacs/websocket 1.14_p20230305 1.15 1.16: A websocket implementation in elisp
+app-emacs/websocket 1.16: A websocket implementation in elisp
 app-emacs/wfnames 1.2: GNU Emacs mode to edit filenames, similar to wdired
 app-emacs/wgrep 3.0.0-r1: Writable grep buffer and apply the changes to files
 app-emacs/which-key 3.6.1: Display the key bindings following your currently entered keys
@@ -2357,7 +2357,7 @@ app-emacs/wikipedia-mode 0.5-r2: Mode for editing Wikipedia articles off-line
 app-emacs/with-editor 3.4.9 3.5.0 3.5.1-r1 9999: Use the Emacsclient as the $EDITOR of child processes
 app-emacs/with-simulated-input 3.0: Emacs Lisp macro to simulate user input non-interactively
 app-emacs/ws-butler 1.3: Unobtrusively trim extraneous white-space *ONLY* in lines edited
-app-emacs/xclip 1.11-r1 1.11.1: Emacs Interface to XClip
+app-emacs/xclip 1.11.1: Emacs Interface to XClip
 app-emacs/xelb 0.21 0.22: X protocol Emacs Lisp Binding
 app-emacs/xrdb-mode 3.0-r1: An Emacs major mode for editing X resource database files
 app-emacs/xslide 0.2.2-r1: An Emacs major mode for editing XSL stylesheets and running XSL processes
@@ -2367,7 +2367,7 @@ app-emacs/yasnippet 0.14.3_p20250604: Yet another snippet extension for Emacs
 app-emacs/yasnippet-snippets 1.1: A collection of yasnippet snippets for many languages
 app-emacs/yatex 1.84: Yet Another TeX mode for Emacs
 app-emacs/zenburn 20110907-r2: Zenburn color theme for Emacs
-app-emacs/zenburn-theme 2.8.0 2.9.0 2.10.0: Zenburn color theme for Emacs
+app-emacs/zenburn-theme 2.10.0: Zenburn color theme for Emacs
 app-emacs/zenirc 2.112-r1: A full-featured scriptable IRC client for the Emacs text editor
 app-emulation/86Box 6.0: Emulator of x86-based machines based on PCem
 app-emulation/aranym 1.1.0-r1: Atari Running on Any Machine, VM running Atari ST/TT/Falcon OS and TOS/GEM apps
@@ -5317,7 +5317,7 @@ dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.4 1.12.5: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260513 20260520 20260526 20260531: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260520 20260526 20260531 20260622: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.19.1 1.20.0-r1 1.20.1 1.20.2: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
@@ -5327,7 +5327,7 @@ dev-lang/dafny-bin 4.11.0-r1: Verification-aware programming language
 dev-lang/deno-bin 2.7.14 2.8.3 2.9.0: Modern runtime for JavaScript and TypeScript
 dev-lang/duktape 2.7.0-r3: Embeddable Javascript engine
 dev-lang/dzaima-bqn 0.2.1 0.2.2 9999: A BQN language implementation written in Java, also know as dbqn
-dev-lang/eisl 5.62 5.66: Interpreter and compiler compatible with the ISLisp standard
+dev-lang/eisl 5.66 5.67: Interpreter and compiler compatible with the ISLisp standard
 dev-lang/elixir 1.16.2 1.16.3 1.17.2 1.17.3 1.18.4 1.19.4 1.19.5 1.20.0: Elixir programming language
 dev-lang/elpi 1.19.6-r1 2.0.7: Embeddable Lambda Prolog Interpreter in OCaml
 dev-lang/erlang 26.2.1-r1 26.2.5.16 26.2.5.20 27.3.4.6 27.3.4.11 28.1 28.2 28.3 28.3.1 28.5 29.0: Erlang programming language, runtime environment and libraries (OTP)
@@ -5529,7 +5529,7 @@ dev-libs/double-conversion 3.4.0: Binary-decimal and decimal-binary conversion r
 dev-libs/dqlite 1.16.4-r1 1.16.7 1.18.0 1.18.2: Embeddable, replicated and fault tolerant SQL engine
 dev-libs/dynolog 0.3.2-r1 0.5.0-r1: Performance monitoring daemon for heterogeneous CPU-GPU systems
 dev-libs/eb 4.4.3 4.4.3-r1: EB is a C library and utilities for accessing CD-ROM books
-dev-libs/editline 1.17.1-r1 1.17.1_p20240527: line editing library for UNIX call compatible with the FSF readline
+dev-libs/editline 1.17.1_p20240527 2.0.0: line editing library for UNIX call compatible with the FSF readline
 dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
 dev-libs/elfutils 0.193-r2 0.194-r1 0.194-r3 0.195 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
@@ -6001,6 +6001,7 @@ dev-libs/tree-sitter-php 0.23.2 0.23.12 0.24.2: PHP grammar for Tree-sitter
 dev-libs/tree-sitter-python 0.23.6 0.25.0: Python grammar for Tree-sitter
 dev-libs/tree-sitter-ql 0.19.0 0.23.1: Semmle QL grammar for Tree-sitter
 dev-libs/tree-sitter-query 0.4.0 0.5.0 0.6.2 0.7.0 0.8.0: Tree-sitter query grammar for Tree-sitter
+dev-libs/tree-sitter-racket 0.24.7_p1: Racket programming language grammar for Tree-sitter
 dev-libs/tree-sitter-regex 0.21.0 1.0.0: Regular Expressions grammar for Tree-sitter
 dev-libs/tree-sitter-ruby 0.23.0 0.23.1: Ruby grammar for Tree-sitter
 dev-libs/tree-sitter-rust 0.23.0 0.23.2 0.24.0 0.24.2: Rust grammar for Tree-sitter
@@ -6008,6 +6009,7 @@ dev-libs/tree-sitter-scala 0.23.0 0.23.2 0.23.4 0.24.0 0.26.0: Scala grammar for
 dev-libs/tree-sitter-tsq 0.19.0: Tree-sitter query language grammar for Tree-sitter
 dev-libs/tree-sitter-tsx 0.23.0 0.23.2: TSX grammar for Tree-sitter
 dev-libs/tree-sitter-typescript 0.23.0 0.23.2: TypeScript grammar for Tree-sitter
+dev-libs/tree-sitter-unison 2.1.3: Unison programming language grammar for Tree-sitter
 dev-libs/tree-sitter-vim 0.4.0 0.5.0 0.6.0 0.7.0 0.8.1: Vimscript grammar for Tree-sitter
 dev-libs/tree-sitter-vimdoc 3.0.0 3.0.1 4.0.0 4.1.0: Vimdoc grammar for Tree-sitter
 dev-libs/trio 1.17.1: Portable string functions, focus on the *printf() and *scanf() clones
@@ -6325,7 +6327,7 @@ dev-ml/qtest 2.11.2: Inline (Unit) Tests for OCaml
 dev-ml/re 1.11.0-r1 1.12.0 1.13.0-r2 1.13.3-r2 1.14.0: Regular expression library for OCaml
 dev-ml/react 1.2.2-r1: OCaml module for functional reactive programming
 dev-ml/reactiveData 0.2.1: Functional reactive programming with incremental changes in data structures
-dev-ml/reason 3.17.3: Simple, fast & type safe language that leverages JavaScript and OCaml
+dev-ml/reason 3.17.3 3.18.0: Simple, fast & type safe language that leverages JavaScript and OCaml
 dev-ml/record_builder 0.17.0-r2: A library which provides traversal of records with an applicative
 dev-ml/result 1.5: Compat result type
 dev-ml/rresult 0.7.0: Result value combinators for OCaml
@@ -15482,7 +15484,7 @@ net-misc/r8168 8.055.00 8.056.02: r8168 driver for Realtek 8111/8168 PCI-E NICs
 net-misc/rabbitmq-server 3.13.1 4.1.6 4.1.8 4.2.1 4.2.3 4.2.4: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/radvd 2.20 2.21: Linux IPv6 Router Advertisement Daemon
 net-misc/raggre46 0.6.0: Aggregate IPv4 & IPv6 network addresses
-net-misc/rclone 1.73.2-r1 1.73.3-r1 1.73.5-r1 1.74.0-r1 1.74.1 1.74.2: A program to sync files to and from various cloud storage providers
+net-misc/rclone 1.74.2 1.74.3: A program to sync files to and from various cloud storage providers
 net-misc/rdate 1.11: Use TCP or UDP to retrieve the current time of another machine
 net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
