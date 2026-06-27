@@ -5480,7 +5480,7 @@ dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.11.1: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
-dev-libs/c-blosc2 2.23.1 3.0.3 3.1.2 3.1.3 3.1.4: Blocking, shuffling and lossless compression library
+dev-libs/c-blosc2 2.23.1 3.0.3 3.1.4 3.1.5: Blocking, shuffling and lossless compression library
 dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serialization/RPC protocol
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
@@ -8302,7 +8302,7 @@ dev-python/arrow 1.4.0: Better dates and times for Python
 dev-python/asgiref 3.11.1: ASGI utilities (successor to WSGI)
 dev-python/asn1crypto 1.5.1_p20231012: Python ASN.1 library with a focus on performance and a pythonic API
 dev-python/assertpy 1.1: Simple assertion library for unit testing in python with a fluent API
-dev-python/ast-serialize 0.3.0: Python bindings for mypy AST serialization
+dev-python/ast-serialize 0.3.0 0.5.0: Python bindings for mypy AST serialization
 dev-python/asteval 1.0.9: Evaluator of Python expression using ast module
 dev-python/astor 0.8.1-r2: Read/rewrite/write Python ASTs
 dev-python/astroid 4.0.4 4.1.2: Abstract Syntax Tree for logilab packages
@@ -8577,7 +8577,7 @@ dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the s
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
 dev-python/faker 40.19.1 40.21.0 40.23.0: A Python package that generates fake data for you
 dev-python/fakeredis 2.35.1 2.36.0 2.36.1 2.36.2: Fake implementation of redis API for testing purposes
-dev-python/fastapi 0.136.3: High performance framework, easy to learn, fast to code, ready for production
+dev-python/fastapi 0.136.3 0.138.1: High performance framework, easy to learn, fast to code, ready for production
 dev-python/fastbencode 0.3.10: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
 dev-python/fastimport 0.9.16: Library for parsing the fastimport VCS serialization format
@@ -8661,7 +8661,7 @@ dev-python/gpgmepy 2.0.0-r1: GnuPG Made Easy is a library for making GnuPG easie
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
 dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and statistical analysis of graphs
 dev-python/graphviz 0.21: Simple Python interface for Graphviz
-dev-python/greenlet 3.4.0 3.5.0 3.5.1 3.5.2: Lightweight in-process concurrent programming
+dev-python/greenlet 3.4.0 3.5.0 3.5.1 3.5.2 3.5.3: Lightweight in-process concurrent programming
 dev-python/greenstalk 2.1.1: Python 3 client for the beanstalkd work queue
 dev-python/griddataformats 1.2.0: Reading and writing of data on regular grids in Python
 dev-python/grpcio 1.80.0 1.81.0 1.81.1: HTTP/2-based RPC framework
@@ -8693,12 +8693,12 @@ dev-python/httmock 1.4.0-r1: A mocking library for requests
 dev-python/httpauth 0.4.1: A WSGI middleware that secures routes using HTTP Digest Authentication
 dev-python/httpbin 0.10.2-r1 0.10.4: HTTP Request and Response Service
 dev-python/httpcore 1.0.9-r1: A minimal low-level HTTP client
-dev-python/httplib2 0.31.1: A comprehensive HTTP client library
+dev-python/httplib2 0.31.1 0.32.0: A comprehensive HTTP client library
 dev-python/httpretty 1.1.4-r3 1.1.4-r4: HTTP client mock for Python
 dev-python/httptools 0.6.4 0.8.0: A collection of framework independent HTTP protocol utils
 dev-python/httpx 0.28.1-r1: Fully-featured HTTP client which provides sync and async APIs
 dev-python/httpx-socks 0.11.0: Proxy (HTTP, SOCKS) transports for httpx
-dev-python/httpx2 2.4.0: The next generation HTTP client (Pydantic fork)
+dev-python/httpx2 2.4.0 2.5.0: The next generation HTTP client (Pydantic fork)
 dev-python/huawei-lte-api 1.11.0: API For huawei LAN/WAN LTE Modems
 dev-python/humanfriendly 10.0-r2: Human friendly output for text interfaces using Python
 dev-python/humanize 4.15.0: Common humanization utilities
@@ -8740,7 +8740,7 @@ dev-python/ioflo 2.0.3: Automated Reasoning Engine and Flow Based Programming Fr
 dev-python/ipy 1.01-r1 1.01-r2: Class and tools for handling of IPv4 and IPv6 addresses and networks
 dev-python/ipykernel 6.31.0 7.1.0 7.2.0 7.3.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 9.1.0-r1 9.2.0: Interactive Parallel Computing with IPython
-dev-python/ipython 9.13.0 9.14.0 9.14.1: Advanced interactive shell for Python
+dev-python/ipython 9.13.0 9.14.0 9.14.1 9.15.0: Advanced interactive shell for Python
 dev-python/ipython-genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/ipython-pygments-lexers 1.1.1: Pygments lexers for syntax-highlighting IPython code and sessions
 dev-python/ipywidgets 8.1.8: IPython HTML widgets for Jupyter
@@ -8777,11 +8777,11 @@ dev-python/jellyfish 1.2.1: Python module for doing approximate and phonetic mat
 dev-python/jinja2 3.1.6: A full-featured template engine for Python
 dev-python/jinja2-pluralize 0.3.0-r1: Jinja2 pluralize filters
 dev-python/jinja2-time 0.2.0-r1: Jinja2 Extension for Dates and Times
-dev-python/jinxed 2.0.1: A pure-Python implementation of a subset of the Python curses library
+dev-python/jinxed 2.0.1 2.0.4: A pure-Python implementation of a subset of the Python curses library
 dev-python/jmespath 1.1.0: JSON Matching Expressions
 dev-python/joblib 1.5.3: Tools to provide lightweight pipelining in Python
 dev-python/josepy 2.2.0: JOSE protocol implementation in Python
-dev-python/joserfc 1.6.4: A Python library for JOSE RFCs: JWS, JWE, JWK, JWA, JWT
+dev-python/joserfc 1.6.4 1.7.1: A Python library for JOSE RFCs: JWS, JWE, JWK, JWA, JWT
 dev-python/jq 1.8.0 1.10.0 1.11.0: Python bindings for jq
 dev-python/jschema-to-python 1.2.3-r1: Generate source code for Python classes from a JSON schema
 dev-python/json-rpc 1.15.0: JSON-RPC transport implementation for python
@@ -8853,6 +8853,7 @@ dev-python/libcst 1.8.6: A concrete syntax tree with AST-like properties for Pyt
 dev-python/libevdev 0.13.1: Python wrappers for the libevdev library
 dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
+dev-python/libpass 1.9.3: Fork of passlib, a password hashing framework
 dev-python/librt 0.11.0: Mypyc runtime library
 dev-python/libsass 0.23.0: A straightforward binding of libsass for Python
 dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
@@ -8969,7 +8970,7 @@ dev-python/nbval 0.11.0: A pytest plugin to validate Jupyter notebooks
 dev-python/nbxmpp 6.4.0 7.1.0 7.2.0: Python library to use Jabber/XMPP networks in a non-blocking way
 dev-python/neovim-remote 2.5.1 9999: A tool that helps control neovim processes
 dev-python/nest-asyncio 1.6.0-r1: Patch asyncio to allow nested event loops
-dev-python/nest-asyncio2 1.7.0: Patch asyncio to allow nested event loops
+dev-python/nest-asyncio2 1.7.0 1.7.2: Patch asyncio to allow nested event loops
 dev-python/netaddr 1.3.0: Network address representation and manipulation library
 dev-python/netcdf4 1.7.4: Python/numpy interface to the netCDF C library
 dev-python/netifaces 0.11.0-r2: Portable network interface information
@@ -9044,7 +9045,6 @@ dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
 dev-python/parso 0.8.6 0.8.7: A python parser that supports error recovery and round-trip parsing
 dev-python/parver 1.0: Parse and manipulate version numbers
-dev-python/passlib 1.7.4-r5 1.9.3: Fork of passlib, a password hashing framework
 dev-python/paste 3.10.1: Tools for using a Web Server Gateway Interface stack
 dev-python/pastedeploy 3.1: Load, configure, and compose WSGI applications and servers
 dev-python/pastel 0.2.1-r1: Bring colors to your terminal
@@ -9478,7 +9478,7 @@ dev-python/ratelimit 2.2.1-r1: An API rate limit decorator for Python
 dev-python/rdflib 7.6.0: RDF library containing a triple store and parser/serializer
 dev-python/re-assert 1.1.0-r3: Show where your regex match assertion failed
 dev-python/readme-renderer 44.0 45.0: A library for rendering 'readme' descriptions for Warehouse
-dev-python/rebulk 3.2.0: Python library that performs advanced searches in strings
+dev-python/rebulk 3.2.0 4.1.0: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
 dev-python/recurring-ical-events 3.8.2: Repeat ICalendar events by RRULE, RDATE and EXDATE
 dev-python/redis 7.4.0 7.4.1 8.0.0 8.0.1: Python client for Redis key-value store
@@ -9665,7 +9665,7 @@ dev-python/spyder-terminal 1.3.1: Run system terminals inside Spyder
 dev-python/spyder-unittest 0.7.1: Plugin for Spyder to run tests and view the results
 dev-python/sqlalchemy 2.0.49 2.0.50 2.0.51 2.1.0_beta2: Python SQL toolkit and Object Relational Mapper
 dev-python/sqlalchemy-rqlite 2.0: A SQLAlchemy dialect for rqlite
-dev-python/sqlglot 30.11.0: An easily customizable SQL parser and transpiler
+dev-python/sqlglot 30.11.0 30.12.0: An easily customizable SQL parser and transpiler
 dev-python/sqlitedict 2.1.0: Persistent dict in Python, backed by SQLite and pickle
 dev-python/sqlparse 0.5.5: A non-validating SQL parser module for Python
 dev-python/srt 3.5.3: Tiny library for parsing, modifying, and composing SRT files
@@ -9692,8 +9692,8 @@ dev-python/swagger-spec-validator 3.0.4: Validate Swagger specs against Swagger 
 dev-python/sybil 10.0.1 10.1.0: Automated testing for the examples in your documentation
 dev-python/symengine 0.14.1-r3: Python wrappers to the symengine C++ library
 dev-python/sympy 1.14.0-r2: Computer Algebra System in pure Python
-dev-python/syrupy 5.3.1: The sweeter pytest snapshot plugin
-dev-python/tables 3.11.1: Hierarchical datasets for Python
+dev-python/syrupy 5.3.1 5.3.4: The sweeter pytest snapshot plugin
+dev-python/tables 3.11.1 3.11.1-r1: Hierarchical datasets for Python
 dev-python/tabulate 0.10.0: Pretty-print tabular data
 dev-python/tagpy 2025.1-r1: Python Bindings for TagLib
 dev-python/tap-py 3.2.1: Test Anything Protocol (TAP) tools
@@ -9746,7 +9746,7 @@ dev-python/tqdm 4.67.3 4.68.1 4.68.2 4.68.3: Add a progress meter to your loops 
 dev-python/traitlets 5.15.1: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
-dev-python/translate-toolkit 3.19.10 3.19.11 3.19.12: Toolkit to convert between many translation formats
+dev-python/translate-toolkit 3.19.10 3.19.11 3.19.12 3.19.13: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.24.0 0.25.1-r1 0.25.2 0.25.2-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 4.12.2: Python library for loading and using triangular meshes
@@ -9766,7 +9766,7 @@ dev-python/txredisapi 1.4.12: Non-blocking redis client for python
 dev-python/txrequests 0.9.6-r1: Asynchronous Python HTTP for Humans
 dev-python/txtorcon 24.8.0-r1 26.6.0: Twisted-based Tor controller client, with state-tracking abstractions
 dev-python/typeguard 4.5.2: Run-time type checker for Python
-dev-python/typer 0.25.1 0.26.7: Build great CLIs. Easy to code. Based on Python type hints
+dev-python/typer 0.25.1 0.26.7 0.26.8: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.22.3.20260518: Typing stubs for docutils
 dev-python/types-gdb 16.3.0.20260518: Typing stubs for gdb
 dev-python/types-psutil 7.2.2.20260408 7.2.2.20260508 7.2.2.20260518: Typing stubs for psutil
@@ -9802,8 +9802,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24: PEP517 uv build backend
+dev-python/uv 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24 0.11.25 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.11.16 0.11.19 0.11.21 0.11.23 0.11.24 0.11.25: PEP517 uv build backend
 dev-python/uv-dynamic-versioning 0.14.0: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/uvicorn 0.47.0 0.48.0 0.49.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
@@ -9812,7 +9812,7 @@ dev-python/valkey 6.1.1: Python client for Valkey forked from redis-py
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
 dev-python/vcrpy 8.1.1 8.2.0 8.2.1: Automatically mock your HTTP interactions to simplify and speed up testing
 dev-python/vcs-versioning 1.1.1 2.1.0 2.1.2 2.2.0: Core VCS versioning functionality from setuptools-scm
-dev-python/vcsgraph 0.3.0: Graph algorithms for version control systems
+dev-python/vcsgraph 0.3.0 0.3.2: Graph algorithms for version control systems
 dev-python/vdf 4.0: A module for (de)serialization to and from VDF, Valve's key-value text format
 dev-python/vdirsyncer 0.20.0: Synchronize calendars and contacts
 dev-python/vecrec 0.3.1-r1: 2D vector and rectangle classes
@@ -14840,8 +14840,8 @@ net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
 net-dns/nsd 4.14.2 4.14.3 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
-net-dns/pdns 5.0.5 5.0.6 5.1.2: The PowerDNS Daemon
-net-dns/pdns-recursor 5.3.6 5.3.8 5.4.3: The PowerDNS Recursor
+net-dns/pdns 5.0.6 5.1.2: The PowerDNS Daemon
+net-dns/pdns-recursor 5.3.8 5.4.3: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/redis-knot 3.5.4 3.5.5: Redis module for Knot DNS
