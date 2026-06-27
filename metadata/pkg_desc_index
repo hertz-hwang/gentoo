@@ -3106,7 +3106,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 76 77 78 79 80 81: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 76 77 78 79 80 81 82: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.6.4 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -17938,9 +17938,9 @@ sys-kernel/dkms 3.2.2 3.3.0 3.4.0 3.4.1 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r1 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.94 6.18.35 6.18.36 7.0.12 7.0.13: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 7.0.12-r1 7.0.13: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.176 6.6.143 6.12.94 6.18.36 7.0.12 7.0.12-r1 7.0.13: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.94 6.18.35 6.18.36 6.18.37 7.0.12 7.0.13 7.0.14 7.1.2: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 6.18.37 7.0.12-r1 7.0.13 7.0.14 7.1.2: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.176 6.6.143 6.12.94 6.18.36 6.18.37 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.1.2: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.141-r1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 6.18.37 7.0.12-r1 7.0.13 7.0.14 7.1.0 7.1.1 7.1.2: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5 7.1_rc6 7.1_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
@@ -17963,7 +17963,7 @@ sys-kernel/scx 1.0.16 1.0.19 1.0.20 1.1.0 1.1.1: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0 1.1.1: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.257 5.10.258 5.10.9999 5.15.208 5.15.209 5.15.9999 6.1.174 6.1.175 6.1.176 6.1.9999 6.6.141 6.6.142 6.6.143 6.6.9999 6.12.93 6.12.94 6.12.9999 6.18.35 6.18.36 6.18.9999 7.0.12 7.0.13: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.257 5.10.258 5.10.9999 5.15.208 5.15.209 5.15.9999 6.1.174 6.1.175 6.1.176 6.1.9999 6.6.141 6.6.142 6.6.143 6.6.9999 6.12.93 6.12.94 6.12.9999 6.18.35 6.18.36 6.18.37 6.18.9999 7.0.12 7.0.13 7.0.14 7.1.2: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.259 5.15.210 6.1.176 6.6.143 6.12.93 6.18.37 7.0.14 7.1.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.0.12: The Zen Kernel Live Sources
@@ -18151,7 +18151,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.93-r1 6.12.94 6.18.35 6.18.35-r1 6.18.36 7.0.12 7.0.12-r1 7.0.13: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.93-r1 6.12.94 6.18.35 6.18.35-r1 6.18.36 6.18.37 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.1.2: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
