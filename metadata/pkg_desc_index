@@ -2331,6 +2331,7 @@ app-emacs/typing 1.1.4: The Typing of Emacs -- an Elisp parody of The Typing of 
 app-emacs/uboat 1.2-r1: Generate u-boat-death messages, patterned after Iron Coffins
 app-emacs/undercover 0.8.1: Test coverage library for Emacs
 app-emacs/undo-tree 0.8.2-r1: Undo trees and visualization
+app-emacs/unison-ts-mode 0.3.0: GNU Emacs major mode for the Unison language that uses Tree-sitter
 app-emacs/uptimes 3.8: Track and display emacs session uptimes
 app-emacs/uxntal-mode 0.3: GNU Emacs major mode for the uxntal assembly language
 app-emacs/vertico 2.8 2.9 2.10 9999: Vertical interactive completion
@@ -5979,10 +5980,12 @@ dev-libs/tree-sitter 0.24.3 0.25.6 0.25.8 0.25.10 0.26.3 0.26.5 0.26.6 0.26.7 0.
 dev-libs/tree-sitter-bash 0.21.0-r1 0.23.3 0.25.0 0.25.1: Bash grammar for Tree-sitter
 dev-libs/tree-sitter-c 0.23.3 0.23.4 0.23.5 0.24.1 0.24.2: C grammar for Tree-sitter
 dev-libs/tree-sitter-c-sharp 0.23.0 0.23.1 0.23.5: C# grammar for Tree-sitter
+dev-libs/tree-sitter-clojure 0.0.13: Clojure programming language grammar for Tree-sitter
 dev-libs/tree-sitter-cmake 0.7.1 0.7.2: CMake grammar for tree-sitter
 dev-libs/tree-sitter-cpp 0.23.0 0.23.1 0.23.4: C++ grammar for Tree-sitter
 dev-libs/tree-sitter-css 0.23.0 0.23.2 0.25.0: CSS grammar for Tree-sitter
 dev-libs/tree-sitter-embedded-template 0.20.0 0.23.2 0.25.0: Embedded template languages (like ERB, EJS) grammar for Tree-sitter
+dev-libs/tree-sitter-erlang 0.19: Erlang programming language grammar for Tree-sitter
 dev-libs/tree-sitter-gleam 1.0.0 1.1.0: Gleam grammar for Tree-sitter
 dev-libs/tree-sitter-go 0.23.1 0.23.4 0.25.0: Go grammar for Tree-sitter
 dev-libs/tree-sitter-haskell 0.23.0 0.23.1: Haskell grammar for Tree-sitter
@@ -5998,6 +6001,7 @@ dev-libs/tree-sitter-markdown-inline 0.2.3 0.2.3-r1 0.3.2 0.3.2-r1 0.5.3: Markdo
 dev-libs/tree-sitter-meta 1-r5: Metapackage for Tree Sitter packages
 dev-libs/tree-sitter-ocaml 0.20.4 0.23.2 0.24.0 0.24.2: OCaml grammar for Tree-sitter
 dev-libs/tree-sitter-php 0.23.2 0.23.12 0.24.2: PHP grammar for Tree-sitter
+dev-libs/tree-sitter-powershell 0.26.5: PowerShell programming language grammar for Tree-sitter
 dev-libs/tree-sitter-python 0.23.6 0.25.0: Python grammar for Tree-sitter
 dev-libs/tree-sitter-ql 0.19.0 0.23.1: Semmle QL grammar for Tree-sitter
 dev-libs/tree-sitter-query 0.4.0 0.5.0 0.6.2 0.7.0 0.8.0: Tree-sitter query grammar for Tree-sitter
@@ -17937,7 +17941,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scr
 sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93 6.12.94 6.18.35 6.18.36 7.0.12 7.0.13: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.6.141_p1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 7.0.12-r1 7.0.13: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.176 6.6.143 6.12.94 6.18.36 7.0.12 7.0.12-r1 7.0.13: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.141-r1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 7.0.12-r1 7.0.13 7.1.0 7.1.1: Full sources including the Gentoo patchset for the 7.1 kernel tree
+sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.141-r1 6.6.142 6.6.143 6.12.93-r1 6.12.94 6.18.35-r1 6.18.36 6.18.37 7.0.12-r1 7.0.13 7.0.14 7.1.0 7.1.1 7.1.2: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.1_rc1 7.1_rc2 7.1_rc3 7.1_rc4 7.1_rc5 7.1_rc6 7.1_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -17960,7 +17964,7 @@ sys-kernel/scx-loader 1.0.19 1.0.20 1.1.0 1.1.1: DBUS on-demand loader of sched-
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 5.10.257 5.10.258 5.10.9999 5.15.208 5.15.209 5.15.9999 6.1.174 6.1.175 6.1.176 6.1.9999 6.6.141 6.6.142 6.6.143 6.6.9999 6.12.93 6.12.94 6.12.9999 6.18.35 6.18.36 6.18.9999 7.0.12 7.0.13: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 5.10.259 5.15.210 6.1.176 6.6.143 6.12.93 6.18.36 7.0.13 7.1.1: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 5.10.259 5.15.210 6.1.176 6.6.143 6.12.93 6.18.37 7.0.14 7.1.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.0.12: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl

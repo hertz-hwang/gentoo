@@ -7,7 +7,7 @@
     <name>Maciej Barć</name>
   </maintainer>
   <upstream>
-    <bugs-to>https://github.com/6cdh/tree-sitter-racket/issues/</bugs-to>
-    <remote-id type="github">6cdh/tree-sitter-racket</remote-id>
+    <bugs-to>https://github.com/whatsapp/tree-sitter-erlang/issues/</bugs-to>
+    <remote-id type="github">whatsapp/tree-sitter-erlang</remote-id>
   </upstream>
 </pkgmetadata>
