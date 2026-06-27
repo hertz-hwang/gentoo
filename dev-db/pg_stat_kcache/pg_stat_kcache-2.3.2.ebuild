@@ -9,7 +9,7 @@ POSTGRES_USEDEP="server"
 
 inherit postgres-multi
 
-DESCRIPTION="Statistics about physical disk access and CPU consumption done by backends."
+DESCRIPTION="Statistics about physical disk access and CPU consumption done by backends"
 HOMEPAGE="https://github.com/powa-team/pg_stat_kcache"
 SRC_URI="https://github.com/powa-team/pg_stat_kcache/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-${MY_PV}"

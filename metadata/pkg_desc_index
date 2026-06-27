@@ -4004,7 +4004,7 @@ dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
 dev-db/gqlplus 1.16-r2: a front-end for Oracle program sqlplus with command-line editing
 dev-db/hsqldb 2.7.4-r1: HSQLDB - Lightweight 100% Java SQL Database Engine
-dev-db/hypopg 1.4.2: Hypothetical Indexes for PostgreSQL
+dev-db/hypopg 1.4.3: Hypothetical Indexes for PostgreSQL
 dev-db/influx-cli 2.7.3 2.7.5-r1: The command line for influxdb
 dev-db/influxdb 1.8.10 2.7.10-r1 2.7.11: Scalable datastore for metrics, events, and real-time analytics
 dev-db/innotop 1.13.0: A text-mode MySQL and InnoDB monitor like mytop, but with many more features
@@ -4033,7 +4033,7 @@ dev-db/mysql-connector-c 8.0.36-r1 8.0.41-r1: C client library for MariaDB/MySQL
 dev-db/mysql-connector-c++ 9.4.0 9.6.0 9.7.0: MySQL database connector for C++ (mimics JDBC 4.0 API)
 dev-db/mysql-init-scripts 2.3-r8: Gentoo MySQL init scripts
 dev-db/mysql-workbench 8.0.42-r1 8.0.44 8.0.46: MySQL Workbench
-dev-db/mysqltuner 2.8.40 2.8.44: Makes recommendations for increased performance and stability for MySQL
+dev-db/mysqltuner 2.8.44 2.8.45: Makes recommendations for increased performance and stability for MySQL
 dev-db/mytop 1.9.1-r2: Clone of top for MySQL
 dev-db/ocp 0.3 9999: Oracle copy tool
 dev-db/opendbx 1.4.6-r6: OpenDBX - A database abstraction layer
@@ -4045,8 +4045,8 @@ dev-db/pgFormatter 5.8: PostgreSQL SQL syntax beautifier
 dev-db/pgLatLon 0.16: Spatial database extension for the PostgreSQL
 dev-db/pg_activity 3.6.2: Realtime PostgreSQL database server monitoring tool
 dev-db/pg_background 1.5: Postgres Background Worker
-dev-db/pg_qualstats 2.1.3: Statistics about predicates for helping finding what indices are missing
-dev-db/pg_stat_kcache 2.3.1: Statistics about physical disk access and CPU consumption done by backends.
+dev-db/pg_qualstats 2.1.4: Statistics about predicates for helping finding what indices are missing
+dev-db/pg_stat_kcache 2.3.2: Statistics about physical disk access and CPU consumption done by backends
 dev-db/pg_top 4.1.3: 'top' for PostgreSQL
 dev-db/pg_track_settings 2.1.2: Keeps track of PostgreSQL settings modification
 dev-db/pg_wait_sampling 1.1.9: Sampling based statistics of wait events
@@ -4066,7 +4066,7 @@ dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.8-r1 3.3.9 3.4.4-r1 3.4.5 3.5.2-r1 3.5.3-r2 3.5.5 3.6.0 3.6.2: Geographic Objects for PostgreSQL
 dev-db/postgresql 14.23 15.18 16.14 17.10 18.4 19_beta1 9999: PostgreSQL RDBMS
-dev-db/powa-archivist 5.1.1: PostgreSQL Workload Analyzer Archivist
+dev-db/powa-archivist 5.1.2: PostgreSQL Workload Analyzer Archivist
 dev-db/powa-collector 1.3.2: PostgreSQL Workload Analyzer Collector
 dev-db/powa-web 5.1.5: PostgreSQL Workload Analyzer user interface
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
@@ -5614,7 +5614,7 @@ dev-libs/ktextaddons 2.0.2: Various text handling addons
 dev-libs/kweathercore 26.04.1 26.04.2: Library for retrieval of weather information including forecasts and alerts
 dev-libs/lager 0.1.1-r1 0.1.2: Library to assist value-oriented design
 dev-libs/leancrypto 1.7.2-r3 9999: Lean cryptographic library usable for bare-metal environments
-dev-libs/level-zero 1.28.6 1.30.0: oneAPI Level Zero headers, loader and validation layer
+dev-libs/level-zero 1.30.0 1.32.0: oneAPI Level Zero headers, loader and validation layer
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
 dev-libs/libaio 0.3.113-r2 0.3.113_p8 9999: Asynchronous input/output library that uses the kernels native interface
@@ -11945,11 +11945,11 @@ games-rpg/wasteland2 1.9.0.13-r2: Sequel to 1988 Wasteland, post-apocalyptic com
 games-rpg/xu4 1.4.3: A remake of the computer game Ultima IV
 games-rpg/zsdx 1.13.0_p20240219: Free 2D Zelda fangame
 games-rpg/zsxd 1.13.0_p20251108: Free 2D Zelda fangame parody
-games-server/bedrock-server 1.26.23.1: The official bedrock (non-java) based server for the sandbox video game
+games-server/bedrock-server 1.26.32.2: The official bedrock (non-java) based server for the sandbox video game
 games-server/crossfire-server 1.71.0-r2 1.75.0-r1: Server for the crossfire clients
 games-server/etqw-ded 1.5-r1: Enemy Territory: Quake Wars dedicated server
 games-server/mednafen-server 0.5.2-r3: Server for Mednafen emulator
-games-server/minecraft-server 26.1.2: The official server for the sandbox video game
+games-server/minecraft-server 26.2: The official server for the sandbox video game
 games-server/monopd 0.10.4: Server for the GtkAtlantic board game
 games-server/mtavc 0.5-r2: dedicated server for GTA3 multiplayer
 games-server/steamcmd 1.0-r4: This is the command-line version of the Steam client for dedicated servers
@@ -17511,7 +17511,7 @@ sys-apps/xmbmon 2.0.5-r2: Mother Board Monitor Program for X Window System
 sys-apps/yarn 1.22.22: Fast, reliable, and secure node dependency management
 sys-apps/zorroutils 0.05: Zorro bus utility for Amigas running 2.1 and later kernels
 sys-apps/zram-generator 1.1.2-r1 1.2.1: Systemd unit generator for zram swap devices
-sys-auth/AusweisApp 2.4.1 2.5.1-r1: Official authentication app for German ID cards and residence permits
+sys-auth/AusweisApp 2.5.1-r1 2.5.3: Official authentication app for German ID cards and residence permits
 sys-auth/docker_auth 1.9.0: Docker Registry 2 authentication server
 sys-auth/elogind 255.24 255.25 255.27 257.14-r1 257.16: The systemd project's logind, extracted to a standalone package
 sys-auth/fprintd 1.94.2-r1 1.94.3-r1 1.94.5: D-Bus service to access fingerprint readers
@@ -17563,7 +17563,7 @@ sys-auth/ykclient 2.15: Yubico C client library
 sys-auth/ykpers 1.20.0-r1: Library and tool for personalization of Yubico's YubiKey
 sys-auth/yubico-piv-tool 2.7.2 2.7.3: Command-line tool and p11-kit module for the YubiKey PIV application
 sys-block/aoetools 37: tools for ATA over Ethernet (AoE) network storage protocol
-sys-block/arcconf 2.01.22270-r2 3.07.23980 4.23.00.27147 4.26.00.27449 5.05.00.28200: Microsemi Adaptec RAID Controller Command Line Utility
+sys-block/arcconf 2.01.22270-r2 3.07.23980 4.23.00.27147 4.26.00.27449 5.05.00.28200 5.09.00.28391: Microsemi Adaptec RAID Controller Command Line Utility
 sys-block/blktrace 1.3.0-r1: show detailed info about what is happening on a block device io queue
 sys-block/bmap-tools 3.6-r1: Flashing tool using block maps and sparse files
 sys-block/bmaptool 3.9.0: The better dd for embedded projects, based on block maps
@@ -18360,7 +18360,7 @@ www-apps/nextcloud-notify_push 1.3.3: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3-r1: A static website and blog generator
 www-apps/novnc 1.4.0 1.6.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
-www-apps/phpsysinfo 3.4.4 3.4.5: A customizable PHP script that displays information about your system nicely
+www-apps/phpsysinfo 3.4.4 3.4.5 3.4.6: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prowlarr-bin 2.5.0.5422: An indexer manager/proxy to integrate with your various PVR apps

@@ -10,7 +10,7 @@ inherit optfeature postgres-multi
 
 DESCRIPTION="PostgreSQL Workload Analyzer Archivist"
 HOMEPAGE="https://github.com/powa-team/powa-archivist"
-SRC_URI="https://github.com/powa-team/${PN}/archive/refs/tags/REL_5_1_1.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/powa-team/${PN}/archive/refs/tags/${PV//./_}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-REL_${PV//./_}"
 
 LICENSE="POSTGRESQL"

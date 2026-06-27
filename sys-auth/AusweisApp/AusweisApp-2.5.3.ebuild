@@ -11,7 +11,7 @@ SRC_URI="https://github.com/Governikus/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
 
 LICENSE="EUPL-1.2"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 BDEPEND="
 	dev-qt/qtshadertools:6
@@ -25,7 +25,7 @@ RDEPEND="
 	dev-qt/qtscxml:6[qml]
 	dev-qt/qtsvg:6
 	dev-qt/qtwebsockets:6[qml]
-	net-libs/http-parser:0=
+	net-libs/llhttp:=
 	sys-apps/pcsc-lite
 	virtual/udev"
 
