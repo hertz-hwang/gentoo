@@ -3141,7 +3141,7 @@ app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
 app-shells/fzf 0.67.0 0.68.0 0.70.0 0.71.0 0.72.0 0.73.1: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
 app-shells/gentoo-bashcomp 20240625 20250620: Gentoo-specific bash command-line completions (emerge, ebuild, equery, etc)
-app-shells/gentoo-zsh-completions 20220112 20230117 20260628 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
+app-shells/gentoo-zsh-completions 20220112 20230117 20260628.1 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
 app-shells/heirloom-sh 050706-r1: Heirloom Bourne Shell, derived from OpenSolaris code SVR4/SVID3
 app-shells/hstr 2.6: Shell history suggest box
 app-shells/invokebuild 5.10.5: Build and test automation in PowerShell
@@ -5478,7 +5478,7 @@ dev-libs/blazesym_c 0.1.7 0.1.8: C bindings for blazesym, a library for address 
 dev-libs/boehm-gc 8.2.8 8.2.10 8.2.10-r1 8.2.12: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/boost 1.90.0-r2 1.91.0-r1: Boost Libraries for C++
 dev-libs/boron 2.1.0: A scripting language similar to REBOL
-dev-libs/botan 3.11.1: C++ crypto library
+dev-libs/botan 3.11.1 3.12.0: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
 dev-libs/c-blosc2 2.23.1 3.0.3 3.1.4 3.1.5: Blocking, shuffling and lossless compression library
@@ -15041,7 +15041,7 @@ net-libs/gupnp-igd 1.6.0-r1: Library to handle UPnP IGD port mapping for GUPnP
 net-libs/http-parser 2.9.4-r2: HTTP request/response parser for C
 net-libs/kdsoap 2.2.0-r1 2.3.0: Qt-based client-side and server-side SOAP component
 net-libs/kdsoap-ws-discovery-client 0.4.0-r2: WS-Discovery client library based on KDSoap
-net-libs/ldns 1.8.4-r1 1.9.0: Library that aims to simplify DNS programming in C
+net-libs/ldns 1.8.4-r1 1.9.0 1.9.2: Library that aims to simplify DNS programming in C
 net-libs/libaccounts-glib 1.27-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 net-libs/libad9361-iio 0.3-r4 9999: IIO AD9361 library for filter design and handling, multi-chip sync, etc
 net-libs/libasr 1.0.4: Async Resolver Library from OpenBSD/OpenSMTPD
@@ -17377,7 +17377,7 @@ sys-apps/minised 1.16: a smaller, cheaper and faster sed implementation
 sys-apps/miscfiles 1.5-r4: Miscellaneous files
 sys-apps/mlocate 0.26-r3: Merging locate is an utility to index and quickly search for files
 sys-apps/mlxup-bin 4.13.0: Mellanox Update and Query Utility
-sys-apps/moor 2.9.6 2.12.0 2.12.3: Pager designed to do the right thing without any configuration
+sys-apps/moor 2.9.6 2.12.0 2.12.3 2.15.1: Pager designed to do the right thing without any configuration
 sys-apps/moreutils 0.70: Collection of tools that nobody thought to write when Unix was young
 sys-apps/most 5.2.0 5.2.0-r1: Paging program that displays, one windowful at a time, the contents of a file
 sys-apps/mount-gtk 1.4.5.1: GTK+ based UDisks2 frontend
