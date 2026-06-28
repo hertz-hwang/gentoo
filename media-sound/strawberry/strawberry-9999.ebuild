@@ -94,6 +94,8 @@ src_configure() {
 		-DENABLE_MTP="$(usex mtp)"
 		-DENABLE_GPOD="$(usex ipod)"
 		-DENABLE_MOODBAR="$(usex moodbar)"
+		-DENABLE_GSTFASTSPECTRUM="$(usex moodbar)"
+		-DENABLE_WAVEFORM="$(usex moodbar)"
 		-DENABLE_EBUR128="$(usex loudness)"
 		-DENABLE_SUBSONIC="$(usex streaming)"
 		-DENABLE_TIDAL="$(usex streaming)"

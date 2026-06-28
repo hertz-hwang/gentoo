@@ -62,7 +62,6 @@ BDEPEND="
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-1.2.11-unforce_alsa.patch
-	"${FILESDIR}"/${PN}-1.2.20-seekbar.patch
 )
 
 DOCS=( Changelog README.md )
