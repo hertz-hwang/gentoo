@@ -29,6 +29,7 @@ DEPEND="
 	>=dev-libs/libsass-3.6.5
 "
 RDEPEND="
+	dev-python/pkg-resources[${PYTHON_USEDEP}]
 	${DEPEND}
 "
 BDEPEND="

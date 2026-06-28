@@ -59,6 +59,7 @@ RDEPEND="
 	media-libs/taglib:=
 	media-libs/vamp-plugin-sdk
 	net-libs/libwebsockets:=
+	net-libs/mbedtls:0
 	net-misc/curl
 	sys-apps/dbus
 	sys-libs/readline:0=

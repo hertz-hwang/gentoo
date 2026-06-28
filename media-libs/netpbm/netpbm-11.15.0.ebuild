@@ -8,7 +8,7 @@ inherit flag-o-matic multilib toolchain-funcs
 # Upstream has 3 flavors of netpbm: super stable, stable and advanced.
 # They only provide a tarball for super stable, but super stable is a bit lagging.
 # So we package the stable branch of their svn (currently versions 11.2.xx) on SLOT "0/stable"
-# and the advanced branch of their svn (currently versions 11.14.yy) on SLOT "0/advanced".
+# and the advanced branch of their svn (currently versions 11.15.yy) on SLOT "0/advanced".
 # The stable branch is stabilized according to usual Gentoo rules, while the
 # advanced branch will not be stabilized.
 # A detailed explanation is here https://netpbm.sourceforge.net/release.html
@@ -61,6 +61,7 @@ PATCHES=(
 	"${FILESDIR}"/netpbm-11.0.0-misc-deps.patch
 	"${FILESDIR}"/netpbm-11.1.0-fix-clang-O2.patch
 	"${FILESDIR}"/netpbm-11.6.1-incompatible-pointer-types.patch
+	"${FILESDIR}"/netpbm-11.15.0-fix-test-pm_message.patch
 )
 
 netpbm_libtype() {
@@ -235,7 +236,7 @@ src_compile() {
 src_test() {
 	# The code wants to install everything first and then test the result.
 	emake install.{bin,lib,data}
-	LC_ALL=C emake check
+	emake check
 }
 
 src_install() {
