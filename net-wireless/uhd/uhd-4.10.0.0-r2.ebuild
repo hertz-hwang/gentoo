@@ -53,6 +53,7 @@ PATCHES=(
 	"${FILESDIR}"/"${PN}"-4.8.0.0-includes.patch
 	"${FILESDIR}"/"${PN}"-4.10.0.0-docs.patch
 	"${FILESDIR}"/"${PN}"-4.10.0.0-manpages.patch
+	"${FILESDIR}"/"${PN}"-4.10.0.0-fix_undef_ref.patch
 )
 
 src_unpack() {

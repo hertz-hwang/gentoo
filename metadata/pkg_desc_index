@@ -2197,7 +2197,7 @@ app-emacs/nix-mode 1.5.0: GNU Emacs major mode for editing Nix expressions
 app-emacs/no-littering 1.8.7 1.8.8: ELisp library that helps keeping Emacs configuration directory clean
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.1: Add support for DocBook 5 schemas to NXML
-app-emacs/nxml-gentoo-schemas 20241116 20260616: Extension for nxml-mode with Gentoo-specific schemas
+app-emacs/nxml-gentoo-schemas 20260616: Extension for nxml-mode with Gentoo-specific schemas
 app-emacs/nxml-libvirt-schemas 11.10.0 12.0.0 12.1.0 12.2.0: Extension for nxml-mode with libvirt schemas
 app-emacs/nxml-svg-schemas 1.1.20081123-r2: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.18.3: OAuth 2.0 authorization protocol
@@ -3095,7 +3095,7 @@ app-portage/g-octave 0.4.1-r8: A tool that generates and installs ebuilds for Oc
 app-portage/gemato 20.12 9999: Stand-alone Manifest generation & verification tool
 app-portage/genlop 0.30.12 9999: Nice emerge.log parser
 app-portage/gentle 1.0.2: Gentoo Lazy Entry - a metadata.xml generator
-app-portage/gentoolkit 0.7.2 0.7.4 9999: Collection of administration scripts for Gentoo
+app-portage/gentoolkit 0.7.2 0.7.4 0.7.5 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.18 1.19.1 2.0 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
 app-portage/golop 0.2.1-r1: A pure Go re-implementation of genlop
@@ -3107,7 +3107,7 @@ app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 76 77 78 79 80 81 82: Handy scripts for ebuild development and more
-app-portage/mirrorselect 2.6.4 9999: Tool to help select distfiles mirrors for Gentoo
+app-portage/mirrorselect 2.6.4 2.6.5 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6: Simple tool for static analysis of overlays
@@ -15848,7 +15848,7 @@ net-wireless/suscan 0.3.0_p20251029: a realtime DSP processing library
 net-wireless/suwidgets 0.3.0_p20251029: graphical library containing all SigDigger's custom widgets
 net-wireless/tempestsdr 0.0_p20260404 9999: Remote video eavesdropping using a software-defined radio platform
 net-wireless/ubertooth 2020.12.1-r1 9999: open source wireless development platform suitable for Bluetooth experimentation
-net-wireless/uhd 4.9.0.1-r1 4.10.0.0-r1: Universal Software Radio Peripheral (USRP) Hardware Driver
+net-wireless/uhd 4.9.0.1-r1 4.10.0.0-r2: Universal Software Radio Peripheral (USRP) Hardware Driver
 net-wireless/unifi 10.1.89 10.3.58 10.4.57: A Management Controller for Ubiquiti Networks UniFi APs
 net-wireless/urh 2.10.0-r2 9999: Universal Radio Hacker: investigate wireless protocols like a boss
 net-wireless/wavemon 0.9.5 0.9.6: Ncurses based monitor for IEEE 802.11 wireless LAN cards
