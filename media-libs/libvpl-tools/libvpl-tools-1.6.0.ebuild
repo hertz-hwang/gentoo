@@ -1,4 +1,4 @@
-# Copyright 2022-2025 Gentoo Authors
+# Copyright 2022-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,7 +11,7 @@ SRC_URI="https://github.com/intel/libvpl-tools/archive/refs/tags/v${PV}.tar.gz -
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 IUSE="dri +drm opencl test +vaapi wayland X"
 RESTRICT="!test? ( test )"
@@ -47,7 +47,9 @@ DEPEND="${RDEPEND}
 
 BDEPEND="virtual/pkgconfig"
 
-PATCHES=( "${FILESDIR}"/${PN}-1.2.0_do-not-fortify-source.patch )
+PATCHES=(
+	"${FILESDIR}"/${PN}-1.2.0_do-not-fortify-source.patch
+)
 
 src_configure() {
 	local mycmakeargs=(

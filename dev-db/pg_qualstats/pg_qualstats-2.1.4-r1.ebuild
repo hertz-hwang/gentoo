@@ -15,6 +15,10 @@ SRC_URI="https://github.com/powa-team/${PN}/archive/refs/tags/${PV}.tar.gz -> ${
 LICENSE="POSTGRESQL"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+REQUIRED_USE="${POSTGRES_REQ_USE}"
+
+RDEPEND="${POSTGRES_DEP}"
+DEPEND="${RDEPEND}"
 
 RESTRICT="test"
 
@@ -27,5 +31,6 @@ src_prepare() {
 }
 
 src_install() {
-	default
+	einstalldocs
+	postgres-multi_src_install
 }
