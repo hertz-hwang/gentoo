@@ -27,10 +27,10 @@ GN_MIN_VER=0.2374
 # chromium-tools/get-chromium-toolchain-strings.py (or just use Chromicler)
 # Node for M145+ should be 24.12.0 but that's not packaged in Gentoo yet. See #969145
 TEST_FONT="9c07d19d9c5ee1ff94f717e6fb17e0c8c354e6f9"
-BUNDLED_CLANG_VER="llvmorg-23-init-10931-g20b6ec66-11"
-BUNDLED_RUST_VER="4c4205163abcbd08948b3efab796c543ba1ea687-5"
+BUNDLED_CLANG_VER="llvmorg-23-init-10931-g20b6ec66-8"
+BUNDLED_RUST_VER="4c4205163abcbd08948b3efab796c543ba1ea687-2"
 RUST_SHORT_HASH=${BUNDLED_RUST_VER:0:10}-${BUNDLED_RUST_VER##*-}
-NODE_VER="24.16.0-r1"
+NODE_VER="24.12.0"
 ESBUILD_VER="0.25.1"
 ROLLUP_VER="4.57.1" # currently manual.
 VIRTUALX_REQUIRED="pgo"
@@ -53,7 +53,7 @@ inherit python-any-r1 readme.gentoo-r1 rust systemd toolchain-funcs virtualx xdg
 DESCRIPTION="Open-source version of Google Chrome web browser"
 HOMEPAGE="https://www.chromium.org/"
 PPC64_HASH="a85b64f07b489b8c6fdb13ecf79c16c56c560fc6"
-PATCH_V="${PV%%\.*}-1"
+PATCH_V="${PV%%\.*}-2"
 COPIUM_COMMIT="b00f26bb5e0781020da5f830981472a142c6baf1"
 SRC_URI="https://github.com/chromium-linux-tarballs/chromium-tarballs/releases/download/${PV}/chromium-${PV}-linux.tar.xz
 	https://deps.gentoo.zip/www-client/chromium/rollup-wasm-node-${ROLLUP_VER}.tgz
@@ -82,11 +82,11 @@ LICENSE+=" IJG ISC LGPL-2 LGPL-2.1 MIT MPL-1.1 MPL-2.0 Ms-PL PSF-2 SGI-B-2.0 SSL
 LICENSE+=" Unicode-DFS-2015 Unlicense UoI-NCSA ZLIB libtiff openssl"
 LICENSE+=" rar? ( unRAR )"
 
-SLOT="beta"
+SLOT="stable"
 # Unstable in gentoo exists mostly to give devs some breathing room for beta/stable releases.
 # It shouldn't be keyworded but adventurous users are encouraged to select it;
 # there's official dev channel Google Chrome after all.
-KEYWORDS="~amd64 ~arm64"
+KEYWORDS="amd64 ~arm64"
 
 IUSE_SYSTEM_LIBS="+system-harfbuzz +system-icu +system-zstd"
 IUSE="+X ${IUSE_SYSTEM_LIBS} bindist bundled-toolchain cups debug ffmpeg-chromium gtk4 +hangouts headless kerberos +official pax-kernel pgo"
@@ -135,7 +135,6 @@ COMMON_SNAPSHOT_DEPEND="
 	!headless? (
 		dev-libs/glib:2
 		>=media-libs/alsa-lib-1.0.19:=
-		media-video/pipewire:=
 		pulseaudio? ( media-libs/libpulse:= )
 		sys-apps/pciutils:=
 		kerberos? ( virtual/krb5 )
@@ -148,7 +147,6 @@ COMMON_SNAPSHOT_DEPEND="
 		)
 		x11-libs/libxkbcommon:=
 		wayland? (
-			screencast? ( media-video/pipewire:= )
 			dev-libs/libffi:=
 			dev-libs/wayland:=
 		)
@@ -173,6 +171,7 @@ COMMON_DEPEND="
 		cups? ( >=net-print/cups-1.3.11:= )
 		qt6? ( dev-qt/qtbase:6[gui,widgets] )
 		X? ( ${COMMON_X_DEPEND} )
+		wayland? ( screencast? ( media-video/pipewire:= ) )
 	)
 "
 RDEPEND="${COMMON_DEPEND}
@@ -214,13 +213,10 @@ BDEPEND="
 	!bundled-toolchain? ( $(llvm_gen_dep '
 		llvm-core/clang:${LLVM_SLOT}
 		llvm-core/llvm:${LLVM_SLOT}
+		llvm-core/lld:${LLVM_SLOT}
 		official? (
 			!ppc64? ( llvm-runtimes/compiler-rt-sanitizers:${LLVM_SLOT}[cfi] )
 		) ')
-		|| (
-			$(llvm_gen_dep 'llvm-core/lld:${LLVM_SLOT}')
-			>=sys-devel/mold-2.41.0
-		)
 		${RUST_DEPEND}
 	)
 	pgo? (
@@ -348,8 +344,6 @@ pkg_setup() {
 			CXX="${CHOST}-clang++-${LLVM_SLOT}"
 		fi
 
-		# LTO in Chromium means LLVM ThinLTO, if GCC support is re-added
-		# We'll need to handle that here too.
 		use_lto="false"
 		local lto_usable="true"
 		if [[ "$want_lto" == "true" ]]; then
@@ -376,6 +370,13 @@ pkg_setup() {
 
 		export use_lto
 
+		# 936858
+		if tc-ld-is-mold; then
+			eerror "Your toolchain is using the mold linker."
+			eerror "This is not supported by Chromium."
+			die "Please switch to a different linker."
+		fi
+
 		if tc-is-cross-compiler; then
 			use pgo && die "The pgo USE flag cannot be used when cross-compiling"
 			CPP="${CBUILD}-clang++-${LLVM_SLOT} -E"
@@ -391,11 +392,9 @@ pkg_setup() {
 		fi
 
 		# Sometimes, when adding a new LLVM slot, devs (me) forget to install an appropriate lld.
-		if tc-ld-is-lld; then
-			local lld_ver=$(ld.lld --version | awk '{split($2,a,"."); print a[1]}' || die "Failed to check lld version")
-			if [[ ${lld_ver} -lt ${LLVM_SLOT} ]]; then
-				die "Your lld version (${lld_ver}) is too old for the selected LLVM slot (${LLVM_SLOT}). Please install a newer lld or select an older LLVM slot."
-			fi
+		local lld_ver=$(ld.lld --version | awk '{split($2,a,"."); print a[1]}' || die "Failed to check lld version")
+		if [[ ${lld_ver} -lt ${LLVM_SLOT} ]]; then
+			die "Your lld version (${lld_ver}) is too old for the selected LLVM slot (${LLVM_SLOT}). Please install a newer lld or select an older LLVM slot."
 		fi
 	fi
 
@@ -502,9 +501,7 @@ src_prepare() {
 	# We'll fill this in as we go. Patches go in chromium-patches.
 	local PATCHES=()
 
-	PATCHES+=(
-		"${WORKDIR}/chromium-patches-${PATCH_V}/common/"
-	)
+	PATCHES+=( "${WORKDIR}/chromium-patches-${PATCH_V}/common/" )
 
 	# https://issues.chromium.org/issues/442698344
 	# Unreleased fontconfig changed magic numbers and google have rolled to this version
@@ -759,10 +756,10 @@ src_prepare() {
 		third_party/devtools-frontend/src/front_end/third_party/lit
 		third_party/devtools-frontend/src/front_end/third_party/marked
 		third_party/devtools-frontend/src/front_end/third_party/puppeteer
-		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/third_party/mitt
-		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/third_party/parsel-js
-		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/third_party/rxjs
-		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/third_party/urlpattern-polyfill
+		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/esm/third_party/mitt
+		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/esm/third_party/parsel-js
+		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/esm/third_party/rxjs
+		third_party/devtools-frontend/src/front_end/third_party/puppeteer/package/lib/esm/third_party/urlpattern-polyfill
 		third_party/devtools-frontend/src/front_end/third_party/source-map-scopes-codec
 		third_party/devtools-frontend/src/front_end/third_party/third-party-web
 		third_party/devtools-frontend/src/front_end/third_party/vscode.web-custom-data
@@ -874,7 +871,6 @@ src_prepare() {
 		third_party/pdfium/third_party/libopenjpeg
 		third_party/pdfium/third_party/libtiff
 		third_party/perfetto
-		third_party/perfetto/protos/third_party/android
 		third_party/perfetto/protos/third_party/chromium
 		third_party/perfetto/protos/third_party/pprof
 		third_party/perfetto/protos/third_party/primes
@@ -1087,7 +1083,6 @@ chromium_configure() {
 		openh264
 		zlib
 	)
-
 	if use system-icu; then
 		gn_system_libraries+=( icu )
 	fi
@@ -1115,10 +1110,7 @@ chromium_configure() {
 		# 949123: Several multimedia components explicitly build with specific CFLAGS and
 		# use runtime detection to enable optimisations; unfortunately any of our CFLAGS are suffixed
 		# to the end of the command line, which causes build failures.
-		# Since M150 `skia` will begin breaking for x86_64 due to compilation of `avx512` code paths;
-		# we need to filter these for all arches.
-		filter-flags "-march*" "-mtune*" "-mcpu*"
-
+		use arm64 && filter-flags "-march*" "-mtune*" "-mcpu*"
 	fi
 
 	# We don't use the same clang version as upstream, and with -Werror
@@ -1154,6 +1146,7 @@ chromium_configure() {
 			"is_clang=true"
 			"clang_use_chrome_plugins=false"
 			"use_clang_modules=false" # M141 enables this for the linux platform by default.
+			"use_lld=true"
 			'custom_toolchain="//build/toolchain/linux/unbundle:default"'
 			# From M127 we need to provide a location for libclang and the clang resource dir so that bindgen can find them
 			"bindgen_libclang_path=\"$(get_llvm_prefix)/$(get_libdir)\""
@@ -1164,16 +1157,6 @@ chromium_configure() {
 			"rust_sysroot_absolute=\"$(get_rust_prefix)\""
 			"rustc_version=\"${RUST_SLOT}\""
 		)
-
-		if tc-ld-is-mold; then
-			myconf_gn+=(
-				"use_mold=true"
-				"use_lld=false"
-				"linker_path=\"${EPREFIX}/usr/bin/mold\""
-			)
-		else
-			myconf_gn+=( "use_lld=true" )
-		fi
 
 		if [[ ${LLVM_SLOT} -lt 23 ]]; then
 			# Workaround for -fsanitize-ignore-for-ubsan-feature (added in LLVM 23)
@@ -1548,7 +1531,6 @@ src_test() {
 		CancelableEventTest.BothCancelFailureAndSucceedOccurUnderContention
 		FilePathTest.FromUTF8Unsafe_And_AsUTF8Unsafe
 		HistogramTesterTest.PumaTestUniqueSample
-		ImmediateCrashTest.ExpectedOpcodeSequence # M150
 		PathServiceTest.CheckedGetFailure
 		PlatformThreadTest.CanChangeThreadType
 		RawPtrTest.SetLookupUsesGetForComparison # M146 ; also broken for alpine in M144.
@@ -1557,6 +1539,7 @@ src_test() {
 		StackTraceDeathTest.StackDumpSignalHandlerIsMallocFree
 		TestLauncherTools.TruncateSnippetFocusedMatchesFatalMessagesTest
 		ThreadPoolEnvironmentConfig.CanUseBackgroundPriorityForWorker
+		DriveInfoTest.GetFileDriveInfo
 	)
 	local test_filter="-$(IFS=:; printf '%s' "${skip_tests[*]}")"
 	# test-launcher-bot-mode enables parallelism and plain output

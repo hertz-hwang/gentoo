@@ -5,7 +5,7 @@ EAPI=8
 
 MY_PV="REL${PV//./_}"
 POSTGRES_COMPAT=( 14 15 16 17 18 )
-POSTGRES_USEDEP="server"
+POSTGRES_USEDEP="server(+)"
 
 inherit postgres-multi
 
