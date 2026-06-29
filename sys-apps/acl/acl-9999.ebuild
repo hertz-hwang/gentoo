@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit libtool multilib-minimal
+inherit dot-a libtool multilib-minimal
 
 DESCRIPTION="Access control list utilities, libraries, and headers"
 HOMEPAGE="https://savannah.nongnu.org/projects/acl"
@@ -44,6 +44,8 @@ src_prepare() {
 }
 
 multilib_src_configure() {
+	use static-libs && lto-guarantee-fat
+
 	local myeconfargs=(
 		--bindir="${EPREFIX}"/bin
 		--libexecdir="${EPREFIX}"/usr/$(get_libdir)
@@ -62,7 +64,10 @@ multilib_src_test() {
 }
 
 multilib_src_install_all() {
-	if ! use static-libs ; then
-		find "${ED}" -type f -name "*.la" -delete || die
+	if ! use static-libs; then
+		find "${ED}" -name '*.la' -delete || die
 	fi
+
+	strip-lto-bytecode
+	einstalldocs
 }
