@@ -4086,7 +4086,7 @@ dev-db/spatialite-tools 5.0.1-r2: A collection of CLI tools supporting SpatiaLit
 dev-db/sqlcipher 4.6.1: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 25.2.2.199.0918: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
-dev-db/sqlite 3.53.1 3.53.2-r1 9999: SQL database engine
+dev-db/sqlite 3.53.1 3.53.2-r1 3.53.3 9999: SQL database engine
 dev-db/sqlitebrowser 3.13.1_p20250502-r2 9999: Light GUI editor for SQLite databases
 dev-db/sqlitestudio 4.0.0_pre20251207: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.10 1.10.6 9999: An automatic SQL injection and database takeover tool
@@ -10999,7 +10999,7 @@ dev-util/ftjam 2.5.3_rc2-r3: A 100% compatible, enhanced implementation of the m
 dev-util/ftnchek 3.3.1-r2: Static analyzer a la 'lint' for Fortran 77
 dev-util/fuzz 0.6-r4: Stress-tests programs by giving them random input
 dev-util/gcovr 8.3-r1: Python script for summarizing gcov data
-dev-util/gdbus-codegen 2.82.5 2.84.4 2.86.4 2.86.5 2.88.0 2.88.1: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.84.4 2.86.5 2.88.1 2.88.2: GDBus code and documentation generator
 dev-util/geany 2.1: GTK+ based fast and lightweight IDE
 dev-util/geany-plugins 2.1: A collection of different plugins for Geany
 dev-util/gengetopt 2.23-r1: Tool to write command line option parsing code for C programs
@@ -11013,7 +11013,7 @@ dev-util/gitlab-ci-linter 2.4.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.65.0 1.72.0 1.100.0: the official gitlab command line interface
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
-dev-util/glib-utils 2.82.5 2.84.4 2.86.4 2.86.5 2.88.0 2.88.1: Build utilities for GLib using projects
+dev-util/glib-utils 2.84.4 2.86.5 2.88.1 2.88.2: Build utilities for GLib using projects
 dev-util/global 6.6.14 6.6.15: Tag system to find an object location in various sources
 dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 48.2-r2 49.1: An IDE for writing GNOME-based software
