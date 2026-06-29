@@ -8292,7 +8292,7 @@ dev-python/apipkg 3.0.2: Namespace control and lazy-import mechanism
 dev-python/apispec 6.10.0: A pluggable API specification generator
 dev-python/appdirs 1.4.4-r3: Module for determining appropriate platform-specific dirs
 dev-python/apprise 1.9.9 1.10.0: Push Notifications that work with just about every platform
-dev-python/apscheduler 3.11.2: In-process task scheduler with Cron-like capabilities
+dev-python/apscheduler 3.11.2 3.11.3: In-process task scheduler with Cron-like capabilities
 dev-python/apsw 3.51.3.0 3.53.0.0 3.53.1.0 3.53.2.0: APSW - Another Python SQLite Wrapper
 dev-python/argcomplete 3.6.3: Bash tab completion for argparse
 dev-python/argh 0.31.3: A simple argparse wrapper
@@ -8370,7 +8370,7 @@ dev-python/botocore 1.43.14 1.43.18 1.43.24 1.43.29 1.43.34 1.43.35 1.43.36: Low
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
-dev-python/bracex 2.6: Bash style brace expansion for Python
+dev-python/bracex 2.6 2.7: Bash style brace expansion for Python
 dev-python/braintree 4.44.0 4.45.0: Braintree Python Library
 dev-python/breathe 4.36.0: Sphinx Doxygen renderer
 dev-python/brotlicffi 1.2.0.1: Python binding to the Brotli library
@@ -8553,7 +8553,7 @@ dev-python/elastic-transport 9.2.1 9.4.1 9.4.2: Transport classes and utilities 
 dev-python/elasticsearch 9.3.0 9.4.1: Official Elasticsearch client library for Python
 dev-python/electrum-aionostr 0.1.0: asyncio nostr client
 dev-python/electrum-ecc 0.0.7: Pure python ctypes wrapper for libsecp256k1
-dev-python/elementpath 5.1.1 5.1.2: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
+dev-python/elementpath 5.1.1 5.1.2 5.1.3: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
 dev-python/email-validator 2.3.0: A robust email syntax and deliverability validation library
 dev-python/emcee 3.1.6: Python ensemble sampling toolkit for affine-invariant MCMC
 dev-python/emoji 2.15.0: Emoji for Python
@@ -8860,7 +8860,7 @@ dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libpass 1.9.3: Fork of passlib, a password hashing framework
 dev-python/librt 0.11.0: Mypyc runtime library
 dev-python/libsass 0.23.0-r1: A straightforward binding of libsass for Python
-dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
+dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0 0.60.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.4.0: Python ctype-based wrapper around libusb1
 dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 12.2.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.4: Parse, compare, simplify and normalize license expressions
@@ -9039,7 +9039,7 @@ dev-python/owslib 0.35.0 0.36.0: Library for client programming with Open Geospa
 dev-python/packaging 26.1 26.2: Core utilities for Python packages
 dev-python/paho-mqtt 2.1.0: MQTT version 5.0/3.1.1 client class
 dev-python/pallets-sphinx-themes 2.5.0: Sphinx themes for Pallets and related projects
-dev-python/pandas 2.3.3 3.0.2 3.0.3: Powerful data structures for data analysis and statistics
+dev-python/pandas 2.3.3 3.0.2 3.0.3 3.0.4: Powerful data structures for data analysis and statistics
 dev-python/pandocfilters 1.5.1: Utilities for writing pandoc filters in python
 dev-python/parallax 1.0.8: Execute commands and copy files over SSH to multiple machines at once
 dev-python/parameterized 0.9.0: Parameterized testing with any Python test framework
@@ -9071,7 +9071,7 @@ dev-python/pdoc3 0.11.6: Auto-generate API documentation for Python projects
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
 dev-python/pebble 5.2.0: Threading and multiprocessing eye-candy
 dev-python/pecan 1.8.0: A WSGI object-dispatching web framework, lean, fast, with few dependencies
-dev-python/peewee 4.0.6 4.0.7 4.0.8 4.0.9 4.1.0: Small Python ORM
+dev-python/peewee 4.0.6 4.0.7 4.0.8 4.0.9 4.1.0 4.1.1: Small Python ORM
 dev-python/pefile 2024.8.26 9999: Module to read and work with Portable Executable (PE) files
 dev-python/pelican-minify 2.0.2: An HTML minification plugin for Pelican, the static site generator
 dev-python/pexpect 4.9.0: Python module for spawning child apps and responding to expected patterns
@@ -9200,7 +9200,7 @@ dev-python/pygdbmi 0.11.0.0: Library to parse gdb mi output and interact with gd
 dev-python/pyghmi 1.6.17 1.6.18: A pure python implementation of IPMI protocol
 dev-python/pygit2 1.19.2 1.19.3: Python bindings for libgit2
 dev-python/pygithub 2.9.0 2.9.1: Python library to access the Github API v3
-dev-python/pyglet 2.1.14: Cross-platform windowing and multimedia library for Python
+dev-python/pyglet 2.1.14 2.1.15: Cross-platform windowing and multimedia library for Python
 dev-python/pygments 2.19.2: Pygments is a syntax highlighting package written in Python
 dev-python/pygments-github-lexers 0.0.5-r2: Pygments Github custom lexers
 dev-python/pygobject 3.50.1 3.50.2 3.52.3 3.52.4 3.54.5 3.56.2 3.56.3: Python bindings for GObject Introspection
@@ -9482,14 +9482,14 @@ dev-python/ratelimit 2.2.1-r1: An API rate limit decorator for Python
 dev-python/rdflib 7.6.0: RDF library containing a triple store and parser/serializer
 dev-python/re-assert 1.1.0-r3: Show where your regex match assertion failed
 dev-python/readme-renderer 44.0 45.0: A library for rendering 'readme' descriptions for Warehouse
-dev-python/rebulk 3.2.0 4.1.0: Python library that performs advanced searches in strings
+dev-python/rebulk 3.2.0 4.1.0 4.2.2: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
 dev-python/recurring-ical-events 3.8.2: Repeat ICalendar events by RRULE, RDATE and EXDATE
 dev-python/redis 7.4.0 7.4.1 8.0.0 8.0.1: Python client for Redis key-value store
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
-dev-python/regex 2026.4.4 2026.5.9: Alternative regular expression module to replace re
+dev-python/regex 2026.5.9 2026.6.28: Alternative regular expression module to replace re
 dev-python/regress 2025.10.1: Python bindings to the Rust regress crate
 dev-python/rencode 1.0.8-r1: Serialization similar to bencode from the BitTorrent project
 dev-python/reno 4.1.0: Release notes manager, storing release notes in a git repo and building docs
