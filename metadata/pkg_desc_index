@@ -1256,7 +1256,7 @@ app-backup/bareos 21.1.11 22.1.8 23.1.5 23.1.7 24.0.7 24.0.10 25.0.1 25.0.3 9999
 app-backup/borgbackup 1.4.1-r1 1.4.2-r1 1.4.3 1.4.4: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 2.0.13 2.1.5 2.1.6: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
-app-backup/burp 3.1.4 3.1.4-r1 3.2.0: Network backup and restore client and server for Unix and Windows
+app-backup/burp 3.2.0 3.3.0: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r2 2.10: Pseudo incremental backup with different exclude lists using hardlinks and rsync
 app-backup/cdbackup 0.7.1-r2: Allows streaming backup utilities to dump/restore from CD-R(W)s or DVD(+/-RW)s
 app-backup/cdbkup 1.0-r5: Performs full/incremental backups of local/remote filesystems onto CD-R(W)s
@@ -3860,7 +3860,7 @@ dev-build/gtk-doc-am 1.34.0: Automake files from gtk-doc
 dev-build/guildmaster 0_pre20250712 9999: FIFO-like jobserver node via CUSE
 dev-build/gyp 20200512145953-r1 99999999999999: GYP (Generate Your Projects) meta-build system
 dev-build/icmake 9.03.01-r1: Hybrid between a make utility and a shell scripting language
-dev-build/just 1.48.1 1.49.0 1.50.0 1.51.0 1.52.0: Just a command runner (with syntax inspired by 'make')
+dev-build/just 1.51.0 1.52.0 1.54.0: Just a command runner (with syntax inspired by 'make')
 dev-build/kas 5.1 5.2: Setup tool for bitbake based projects
 dev-build/kbuild 0.1.9998.3660-r1 9999: A makefile framework for writing simple makefiles for complex tasks
 dev-build/libtool 2.5.4 2.6.0 9999: A shared library tool for developers
@@ -4183,7 +4183,7 @@ dev-embedded/picp 0.6.8: A commandline interface to Microchip's PICSTART+ progra
 dev-embedded/picprog 1.9.1: A PIC16, PIC18 and dsPIC microcontroller programmer software for the serial port
 dev-embedded/pista 0.70: Commandline-driven interface to PICSTART+ PIC programmer
 dev-embedded/pk2cmd 1.20-r1: An application for working with the Microchip PicKit2 PIC programmer
-dev-embedded/platformio 6.1.19-r1: An open source ecosystem for IoT development
+dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development
 dev-embedded/ponyprog 3.1.4_p20250501: EEPROM and microcontroller programmer/flasher
 dev-embedded/powersoftplus-libftdi 0.1.8-r1: Library which includes a table of VIDs and PIDs of Ever UPS devices
 dev-embedded/raspberrypi-utils 0_p20240903 0_p20260527: Raspberry Pi userspace utilities
@@ -6043,7 +6043,7 @@ dev-libs/xapian-bindings 1.4.29 1.4.29-r1 1.4.30 1.4.31 2.0.0: SWIG and JNI bind
 dev-libs/xbyak 5.73 7.33.3: JIT assembler for x86(IA-32)/x64(AMD64, x86-64)
 dev-libs/xerces-c 3.2.5 3.3.0 3.3.0-r1 9999: Validating XML parser written in a portable subset of C++
 dev-libs/xmlrpc-c 1.59.03-r3 1.64.03: A lightweight RPC library based on XML and HTTP
-dev-libs/xmlsec 1.3.9 1.3.10-r1 1.3.11-r1: Command line tool for signing, verifying, encrypting and decrypting XML
+dev-libs/xmlsec 1.3.10-r1 1.3.11-r1 1.3.12: Command line tool for signing, verifying, encrypting and decrypting XML
 dev-libs/xxhash 0.8.3 0.8.3-r2: Extremely fast non-cryptographic hash algorithm
 dev-libs/yajl 2.1.0-r6: Small event-driven (SAX-style) JSON parser
 dev-libs/yaz 5.35.1-r1 5.37.0: C/C++ toolkit for Z39.50v3 clients and servers
@@ -8335,7 +8335,7 @@ dev-python/b2sdk 2.12.0: Library to access Backblaze B2 cloud storage
 dev-python/babel 2.18.0: Collection of tools for internationalizing Python applications
 dev-python/babelfish 0.6.1: Python library to work with countries and languages
 dev-python/backports-zstd 1.5.0 1.6.0: Backport of PEP-784: adding Zstandard to the standard library
-dev-python/backrefs 6.2 7.0: Wrapper around re or regex that adds additional back references
+dev-python/backrefs 7.0: Wrapper around re or regex that adds additional back references
 dev-python/bandit 1.9.4: A security linter from OpenStack Security
 dev-python/bareos 25.0.1: python bindings for bareos network backup suite
 dev-python/base58 2.1.1: Base58 and Base58Check implementation
@@ -8393,7 +8393,7 @@ dev-python/cffi 2.0.0: Foreign Function Interface for Python calling C code
 dev-python/cfgv 3.5.0: Validate configuration and produce human-readable error messages
 dev-python/cfn-lint 1.49.3 1.50.1 1.51.3 1.51.4 1.51.5 1.52.0: CloudFormation Linter
 dev-python/cftime 1.6.5: Time-handling functionality from netcdf4-python
-dev-python/chainstream 1.0.1 1.0.2: Chain I/O-Streams together into a single stream
+dev-python/chainstream 1.0.2: Chain I/O-Streams together into a single stream
 dev-python/chameleon 4.6.0: Fast HTML/XML template compiler for Python
 dev-python/characteristic 14.3.0-r4: Python attributes without the boilerplate
 dev-python/chardet 6.0.0_p1: Universal encoding detector
@@ -11257,7 +11257,7 @@ dev-vcs/cvsutils 0.2.6: A small bundle of utilities to work with CVS repositorie
 dev-vcs/darcs 2.16.5-r6 2.18.5: a distributed, interactive, smart revision control system
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.21 2.22 2.24-r1 2.26 2.27: Simple, high-reliability, source control management, and more
-dev-vcs/git 2.52.0 2.53.0 2.54.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
 dev-vcs/git-big-picture 1.3.0 1.3.0-r1: Visualization tool for Git repositories
@@ -11292,7 +11292,7 @@ dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at Git
 dev-vcs/jj 0.40.0 0.41.0 0.42.0: Jujutsu - an experimental version control system
 dev-vcs/kdesvn 2.1.0_p20250525 2.1.0_p20260608: Frontend to the subversion vcs
 dev-vcs/lab 0.25.1: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
-dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.2 9999: Scalable distributed SCM
+dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.3 9999: Scalable distributed SCM
 dev-vcs/mergiraf 0.16.1 0.16.3 0.17.0: Syntax-aware git merge driver
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pkgcruft-git 0.0.5-r2 9999: QA support for verifying git commits via pkgcruft
@@ -15900,7 +15900,7 @@ sci-astronomy/siril 1.2.6-r1 1.4.2 1.4.4 9999: A free astronomical image process
 sci-astronomy/sirilic 1.15.12: Preparing acquisition files for processing with the SiriL software
 sci-astronomy/skymaker 3.10.5: Program that simulates astronomical images
 sci-astronomy/sofa_c 20231011: Library for algorithms for models in fundamental astronomy
-sci-astronomy/stellarium 25.4 26.1: 3D photo-realistic skies in real time
+sci-astronomy/stellarium 26.1 26.2: 3D photo-realistic skies in real time
 sci-astronomy/stiff 2.4.0-r1: Converts astronomical FITS images to the TIFF format
 sci-astronomy/stuff 1.26.0: Tool for automatic generation of astronomical catalogs
 sci-astronomy/swarp 2.41.5: Resample and coadd astronomical FITS images
@@ -16658,6 +16658,7 @@ sec-keys/openpgp-keys-bcl 20210128 20230315 20260418: OpenPGP keys used by Brian
 sec-keys/openpgp-keys-bennoschulenberg 20260119: OpenPGP key used by Benno Schulenberg
 sec-keys/openpgp-keys-binutils 20260609: OpenPGP keys used to sign GNU Binutils releases
 sec-keys/openpgp-keys-bison 20220407: OpenPGP keys used by Bison
+sec-keys/openpgp-keys-bleachbit 20250910: OpenPGP keys used by the BleachBit developer
 sec-keys/openpgp-keys-bobfriesenhahn 20220326: OpenPGP keys used by Bob Friesenhahn
 sec-keys/openpgp-keys-botan 20210416: OpenPGP keys used to sign Botan releases
 sec-keys/openpgp-keys-bradhouse 20240624: OpenPGP keys used by Brad House
@@ -17232,7 +17233,7 @@ sys-apps/bat 0.23.0-r3 0.24.0-r3 0.25.0-r1 0.26.1-r1: cat(1) clone with syntax h
 sys-apps/bfs 4.0.8 4.1: Breadth-first version of the UNIX find command
 sys-apps/biosdevname 0.7.3-r1: Sets BIOS-given device names instead of kernel eth* names
 sys-apps/biosdisk 1.01: FreeDOS based BIOS updating utility for Dell machines
-sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2: Clean junk to free disk space and to maintain privacy
+sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2 6.0.0: Clean junk to free disk space and to maintain privacy
 sys-apps/bolt 0.9.8-r1 0.9.9 0.9.10 0.9.11: Userspace system daemon to enable security levels for Thunderbolt 3
 sys-apps/bubblewrap 0.11.2-r1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/busybox 1.36.1-r4 1.37.0 1.38.0 9999: Utilities for rescue and embedded systems
@@ -17966,7 +17967,7 @@ sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based PO
 sys-kernel/vanilla-kernel 5.10.257 5.10.258 5.10.9999 5.15.208 5.15.209 5.15.9999 6.1.174 6.1.175 6.1.176 6.1.9999 6.6.141 6.6.142 6.6.143 6.6.9999 6.12.93 6.12.94 6.12.9999 6.18.35 6.18.36 6.18.37 6.18.9999 7.0.12 7.0.13 7.0.14 7.1.2: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.10.259 5.15.210 6.1.176 6.6.143 6.12.93 6.18.37 7.0.14 7.1.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 7.0.12: The Zen Kernel Live Sources
+sys-kernel/zen-sources 7.1.2: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
@@ -18859,7 +18860,7 @@ x11-misc/sddm 0.21.0_p20240723-r10 0.21.0_p20250502-r1 0.21.0_p20251101: Simple 
 x11-misc/seetxt 0.72-r1: Clever, lightweight GUI text file and manual page viewer for X windows
 x11-misc/sent 1_p20230110: Simple plaintext presentation tool
 x11-misc/set_opacity 1.0-r1: Tool for set real compositing for windows through window's id, process' pid etc.
-x11-misc/shared-mime-info 2.4-r2 2.4-r3: The Shared MIME-info Database specification
+x11-misc/shared-mime-info 2.4-r2 2.4-r3 2.5.1: The Shared MIME-info Database specification
 x11-misc/shutter 0.99.6 0.99.7: Feature-rich screenshot program
 x11-misc/simpleswitcher 20191008 99999999: lightweight EWMH window switcher with features and looks of dmenu
 x11-misc/skippy 0.5.0-r2: A full-screen task-switcher providing Apple Expose-like functionality

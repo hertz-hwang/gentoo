@@ -11,7 +11,7 @@ SRC_URI="https://github.com/grke/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="AGPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~arm x86"
+KEYWORDS="~amd64 ~arm ~x86"
 IUSE="acl test xattr"
 
 RESTRICT="!test? ( test )"
@@ -38,6 +38,7 @@ RDEPEND="${COMMON_DEPEND}
 PATCHES=(
 	"${FILESDIR}"/"${PN}"-2.1.20-no_mkdir_run.patch
 	"${FILESDIR}"/"${PN}"-2.0.54-server_user.patch
+	"${FILESDIR}"/"${PN}"-3.2.0-zlib-1.3.2.patch
 )
 
 src_prepare() {

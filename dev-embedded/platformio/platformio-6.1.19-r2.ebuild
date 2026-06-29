@@ -24,7 +24,7 @@ RDEPEND="
 		=dev-python/ajsonrpc-1.2*[${PYTHON_USEDEP}]
 		=dev-python/bottle-0.13*[${PYTHON_USEDEP}]
 		>=dev-python/click-8.2[${PYTHON_USEDEP}]
-		<dev-python/click-8.4[${PYTHON_USEDEP}]
+		<dev-python/click-9[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
 		=dev-python/pyserial-3.5*[${PYTHON_USEDEP}]
 		>=dev-python/zeroconf-0.37[${PYTHON_USEDEP}]
@@ -37,9 +37,9 @@ RDEPEND="
 		<dev-python/pyelftools-1[${PYTHON_USEDEP}]
 		=dev-python/marshmallow-4*[${PYTHON_USEDEP}]
 		>=dev-python/starlette-0.21[${PYTHON_USEDEP}]
-		<dev-python/starlette-1.1[${PYTHON_USEDEP}]
+		<dev-python/starlette-2[${PYTHON_USEDEP}]
 		>=dev-python/uvicorn-0.19[${PYTHON_USEDEP}]
-		<dev-python/uvicorn-0.50[${PYTHON_USEDEP}]
+		<dev-python/uvicorn-1[${PYTHON_USEDEP}]
 		=dev-python/wsproto-1*[${PYTHON_USEDEP}]
 	')
 	virtual/udev"
@@ -109,17 +109,16 @@ distutils_enable_tests pytest
 
 PATCHES=(
 	"${FILESDIR}"/pio-6.1.19-marshmallow-4.patch
-	"${FILESDIR}"/pio-6.1.19-starlette-1.patch
+	"${FILESDIR}"/pio-6.1.19-starlette-1-r1.patch
+	"${FILESDIR}"/pio-6.1.19-click-8.5.patch
 )
 
 python_prepare_all() {
+	# Allow click-8* (>=click-9.0 won't be compatible)
 	# Allow marshmallow-4*
-	# Allow starlette-1.0*
-	# Allow uvicorn-0.4*
 	sed \
+		-e '/click/s/<8\.[0-9]*/<9/' \
 		-e '/marshmallow/s/3\.[0-9.*]*/4.*/' \
-		-e '/starlette/s/<0\.5[0-9]*/<1.1/' \
-		-e '/uvicorn/s/<0\.4[0-9]*/<0.50/' \
 		-i platformio/dependencies.py || die
 
 	distutils-r1_python_prepare_all
