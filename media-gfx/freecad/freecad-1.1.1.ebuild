@@ -75,13 +75,12 @@ RDEPEND="
 	sci-libs/opencascade:=[json]
 	virtual/zlib:=
 	$(python_gen_cond_dep '
-		dev-python/lark[${PYTHON_USEDEP}]
 		dev-python/numpy[${PYTHON_USEDEP}]
 		dev-python/pybind11[${PYTHON_USEDEP}]
 		dev-python/pycxx[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 	')
-	assembly? ( >=sci-libs/ondselsolver-1.0.1_p20260211 )
+	assembly? ( sci-libs/ondselsolver )
 	fem? (
 		sci-libs/vtk:=
 		$(python_gen_cond_dep 'dev-python/ply[${PYTHON_USEDEP}]')
@@ -139,7 +138,9 @@ BDEPEND="
 PATCHES=(
 	"${FILESDIR}"/${PN}-9999-tests-src-Qt-only-build-test-for-BUILD_GUI-ON.patch
 	"${FILESDIR}"/${PN}-9999-Gentoo-specific-don-t-check-vcs.patch
-	"${FILESDIR}/${PN}-1.0.2-pybind11-latent-slots-macro-conflicts-with-Qt.patch" # fixed in pybind-3.0.1
+	"${FILESDIR}"/${PN}-1.1.1-fix-sketcher-toolbars.patch
+	"${FILESDIR}"/${PN}-1.1.1-qt-6.11.patch
+	"${FILESDIR}"/${PN}-1.0.2-pybind11-latent-slots-macro-conflicts-with-Qt.patch # fixed in pybind-3.0.1
 )
 
 DOCS=( CODE_OF_CONDUCT.md README.md )
@@ -551,7 +552,6 @@ src_install() {
 	done
 
 	rm -r "${ED}/usr/$(get_libdir)/${PN}/include/E57Format" || die "failed to drop unneeded include directory E57Format"
-	rm -r "${ED}/usr/$(get_libdir)/${PN}/include/clipper2" || die "failed to drop unneeded include directory clipper2"
 	rmdir "${ED}/usr/$(get_libdir)/${PN}/include/" || die "failed to drop unneeded include directory"
 
 	python_optimize "${ED}/usr/share/${PN}/data/Mod/Start/" "${ED}/usr/$(get_libdir)/${PN}/"{Ext,Mod}/
