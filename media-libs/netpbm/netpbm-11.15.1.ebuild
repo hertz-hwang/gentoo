@@ -61,7 +61,7 @@ PATCHES=(
 	"${FILESDIR}"/netpbm-11.0.0-misc-deps.patch
 	"${FILESDIR}"/netpbm-11.1.0-fix-clang-O2.patch
 	"${FILESDIR}"/netpbm-11.6.1-incompatible-pointer-types.patch
-	"${FILESDIR}"/netpbm-11.15.0-fix-test-pm_message.patch
+	"${FILESDIR}"/netpbm-11.15.1-fix-test-pm_message.patch
 )
 
 netpbm_libtype() {

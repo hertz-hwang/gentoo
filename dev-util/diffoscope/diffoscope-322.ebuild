@@ -3,11 +3,12 @@
 
 EAPI=8
 
+DISTUTILS_SINGLE_IMPL=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 PYTHON_REQ_USE="ncurses"
 VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/chrislamb.asc
-inherit distutils-r1 toolchain-funcs verify-sig
+inherit distutils-r1 optfeature toolchain-funcs verify-sig
 
 DESCRIPTION="Will try to get to the bottom of what makes files or directories different"
 HOMEPAGE="https://diffoscope.org/ https://pypi.org/project/diffoscope/"
@@ -18,21 +19,25 @@ SRC_URI="
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="amd64 ~arm arm64 ~ppc64 ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="acl binutils bzip2 libcaca colord cpio +diff docx dtc e2fsprogs file
-find gettext gif gpg haskell hdf5 hex imagemagick iso java llvm lzma
-mono opendocument pascal pdf postscript R rpm sqlite squashfs
+find gettext gif gpg haskell hdf5 hex imagemagick iso java libguestfs llvm
+lzma mono opendocument pascal pdf postscript R rpm sqlite squashfs
 ssh tar test tcpdump zip zlib zstd"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	|| (
-		dev-python/python-magic[${PYTHON_USEDEP}]
-		sys-apps/file[python,${PYTHON_USEDEP}]
-	)
-	dev-python/libarchive-c[${PYTHON_USEDEP}]
-	dev-python/distro[${PYTHON_USEDEP}]
-	dev-python/python-tlsh[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		|| (
+			dev-python/python-magic[${PYTHON_USEDEP}]
+			sys-apps/file[python,${PYTHON_USEDEP}]
+		)
+		dev-python/libarchive-c[${PYTHON_USEDEP}]
+		dev-python/distro[${PYTHON_USEDEP}]
+		dev-python/python-tlsh[${PYTHON_USEDEP}]
+		hdf5? ( dev-python/h5py[${PYTHON_USEDEP}] )
+		pdf? ( dev-python/pypdf[${PYTHON_USEDEP}] )
+	')
 	acl? ( sys-apps/acl )
 	binutils? ( sys-devel/binutils )
 	bzip2? ( app-arch/bzip2 )
@@ -54,6 +59,7 @@ RDEPEND="
 	imagemagick? ( media-gfx/imagemagick )
 	iso? ( app-cdr/cdrtools )
 	java? ( virtual/jdk )
+	libguestfs? ( app-emulation/libguestfs[python,${PYTHON_SINGLE_USEDEP}] )
 	llvm? ( llvm-core/llvm )
 	lzma? ( app-arch/xz-utils )
 	mono? ( dev-lang/mono )
@@ -62,11 +68,10 @@ RDEPEND="
 	pdf? (
 		app-text/pdftk
 		app-text/poppler
-		dev-python/pypdf[${PYTHON_USEDEP}]
 	)
 	postscript? ( app-text/ghostscript-gpl )
 	R? ( dev-lang/R )
-	rpm? ( app-arch/rpm )
+	rpm? ( app-arch/rpm[python,${PYTHON_SINGLE_USEDEP}] )
 	sqlite? ( dev-db/sqlite:3 )
 	squashfs? ( sys-fs/squashfs-tools )
 	ssh? ( virtual/openssh )
@@ -95,13 +100,8 @@ BDEPEND="
 "
 
 EPYTEST_DESELECT=(
-	# Test seems to use different tarball
-	tests/test_presenters.py::test_text_proper_indentation
-
-	# Needs triage
+	# Presumably needs Gentoo specific handling for "nonexistent" like the rest already have
 	tests/comparators/test_binary.py::test_with_compare_details_and_tool_not_found
-	tests/comparators/test_rlib.py::test_item3_deflate_llvm_bitcode
-	tests/comparators/test_gif.py::test_has_visuals
 
 	# img2txt based failures, bug #797688
 	tests/comparators/test_ico_image.py::test_diff
@@ -122,11 +122,12 @@ EPYTEST_DESELECT=(
 	# Fails on ZFS
 	tests/test_main.py::test_non_unicode_filename
 
-	# Fails on (unreleased) LLVM 16 with minor difference
-	#tests/comparators/test_macho.py::test_llvm_diff
-	#tests/comparators/test_elf.py::test_libmix_differences
+	# Slightly different diff output presentation vise
+	tests/comparators/test_fsimage.py::test_differences
+	tests/comparators/test_fsimage.py::test_differences_fat
 )
 
+EPYTEST_PLUGINS=()
 distutils_enable_tests pytest
 
 src_test() {
@@ -143,4 +144,8 @@ src_test() {
 	esac
 
 	distutils-r1_src_test
+}
+
+pkg_postinst() {
+	optfeature "show an approximate progress bar" dev-python/progressbar2
 }
