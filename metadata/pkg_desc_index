@@ -9392,7 +9392,7 @@ dev-python/python-jose 3.5.0: A JavaScript Object Signing and Encryption (JOSE) 
 dev-python/python-json-logger 4.1.0: Standard python logging to output log data as json objects
 dev-python/python-keystoneclient 5.8.0: Client Library for OpenStack Identity
 dev-python/python-ldap 3.4.7: Various LDAP-related Python modules
-dev-python/python-linux-procfs 0.7.3 0.7.4: Python classes to extract information from the Linux kernel /proc files
+dev-python/python-linux-procfs 0.7.4: Python classes to extract information from the Linux kernel /proc files
 dev-python/python-lsp-black 2.0.0-r2: Black plugin for the Python LSP Server
 dev-python/python-lsp-jsonrpc 1.1.2: JSON RPC 2.0 server library
 dev-python/python-lsp-ruff 2.3.1: Ruff linting plugin for the Python LSP Server
@@ -9437,7 +9437,7 @@ dev-python/pythonnet 3.0.5-r2 3.1.0: Nearly seamless integration with the .NET C
 dev-python/pythran 0.18.1: Ahead of Time compiler for numeric kernels
 dev-python/pytidylib 0.3.2-r2: Python wrapper for HTML Tidy (tidylib)
 dev-python/pytimeparse 1.1.8-r1: A small Python module to parse various kinds of time expressions
-dev-python/pytokens 0.4.0-r1 0.4.1: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons
+dev-python/pytokens 0.4.1: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons
 dev-python/pytoolconfig 1.3.1: Python tool configuration
 dev-python/pytools 2026.1 2026.1.1: Collection of tools missing from the Python standard library
 dev-python/pytrie 0.4.0-r1: A pure Python implementation of the trie data structure
@@ -9480,7 +9480,7 @@ dev-python/rapidfuzz 3.14.5: Rapid fuzzy string matching in Python using various
 dev-python/rarfile 4.2: Module for RAR archive reading
 dev-python/ratelimit 2.2.1-r1: An API rate limit decorator for Python
 dev-python/rdflib 7.6.0: RDF library containing a triple store and parser/serializer
-dev-python/re-assert 1.1.0-r3: Show where your regex match assertion failed
+dev-python/re-assert 1.1.0-r3 1.1.0-r4: Show where your regex match assertion failed
 dev-python/readme-renderer 44.0 45.0: A library for rendering 'readme' descriptions for Warehouse
 dev-python/rebulk 3.2.0 4.1.0 4.2.2 6.0.0: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
@@ -9526,7 +9526,7 @@ dev-python/rich 14.3.4 15.0.0: Python library for rendering rich text, tables, e
 dev-python/rich-argparse 1.7.2 1.8.0: Rich help formatters for argparse and optparse
 dev-python/rich-click 1.9.7 1.9.8: Format click help output nicely with rich
 dev-python/roman 5.2: An Integer to Roman numerals converter
-dev-python/roman-numerals 4.0.0 4.1.0: Manipulate roman numerals
+dev-python/roman-numerals 4.1.0: Manipulate roman numerals
 dev-python/roman-numerals-py 4.1.0: Backwards compatibility for dev-python/roman-numerals
 dev-python/rope 1.14.0: Python refactoring library
 dev-python/ropemode 0.6.1: A helper for using rope refactoring library in IDEs
@@ -15647,7 +15647,7 @@ net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 0.16.15 9999: BitTorrent Client 
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
 net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16 2.1.0 2.1.1: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
-net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 9999: A fast, easy, and free BitTorrent client
+net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 4.1.3 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
 net-p2p/tremc 0.9.3_p20230506: Ncurses interface for the Transmission BitTorrent client
 net-p2p/tvrss 1.8_beta: TV RSS is a tool for automating torrent downloads
