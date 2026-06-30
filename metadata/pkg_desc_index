@@ -2453,7 +2453,7 @@ app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and ic
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.3 10.0.4 11.0.1_beta5 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 11.0 11.8 11.9 11.10 11.11 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 11.0 11.8 11.9 11.10 11.11 11.12 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.8 11.9 11.10 11.11 11.12 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20250102-r1 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
@@ -11998,7 +11998,7 @@ games-strategy/darwinia 1.43: A digital dreamscape simulation game
 games-strategy/dominions2 2.16-r1: Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
 games-strategy/dopewars 1.6.1 1.6.2 1.6.2-r1: Re-Write of the game Drug Wars
 games-strategy/dunelegacy 0.97.02: Updated clone of Westood Studios' Dune II
-games-strategy/endless-sky 0.10.16-r1: Space exploration, trading & combat in the tradition of Terminal Velocity
+games-strategy/endless-sky 0.10.16-r1 0.11.2: Space exploration, trading & combat in the tradition of Terminal Velocity
 games-strategy/freeciv 3.1.4 3.2.3 9999: Multiplayer strategy game (Civilization Clone)
 games-strategy/freecol 1.2.0-r1: Open source clone of the game Colonization
 games-strategy/freeorion 0.5.1.2: Free turn-based space empire and galactic conquest game
@@ -14598,7 +14598,7 @@ net-analyzer/httping 2.9-r1: http protocol ping-like program
 net-analyzer/hunt 1.5_p6_p1-r1: Tool for checking well known weaknesses in the TCP/IP protocol
 net-analyzer/hydra 9.6: Parallelized network login hacker
 net-analyzer/ibmonitor 1.4-r1: Interactive bandwidth monitor
-net-analyzer/icinga2 2.15.0-r2 2.16.0 9999: Distributed, general purpose, network monitoring engine
+net-analyzer/icinga2 2.15.4 2.16.2 9999: Distributed, general purpose, network monitoring engine
 net-analyzer/ifmetric 0.3-r4: Set metrics of all IPv4 routes attached to a given network interface at once
 net-analyzer/ifstat 1.1-r2: Network interface bandwidth usage, with support for snmp targets
 net-analyzer/ifstatus 2.0.0: Simple CLI program for displaying network statistics in real time
