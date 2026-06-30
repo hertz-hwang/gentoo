@@ -56,7 +56,9 @@ RDEPEND="
 	x11-misc/xdg-utils
 "
 
+QA_DT_NEEDED="*"
 QA_PREBUILT="*"
+QA_SONAME="*"
 
 src_unpack() {
 	mkdir -p "${S}" || die
@@ -99,7 +101,6 @@ src_install() {
 	cp -r . "${ED}/${apphome}" || die
 
 	dosym -r "${apphome}/joplin" "/usr/bin/${PN}"
-
 	make_desktop_entry "${PN}" Joplin joplin "Office;" \
 		"StartupWMClass=Joplin\nMimeType=x-scheme-handler/joplin;"
 }
