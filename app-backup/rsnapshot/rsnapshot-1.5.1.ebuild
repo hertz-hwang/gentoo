@@ -1,18 +1,17 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=9
 
 DESCRIPTION="A filesystem backup utility based on rsync"
 HOMEPAGE="https://rsnapshot.org/"
 SRC_URI="https://rsnapshot.org/downloads/${P}.tar.gz"
 
-SLOT="0"
 LICENSE="GPL-2"
-KEYWORDS="~alpha amd64 ppc ppc64 ~sparc x86"
+SLOT="0"
+KEYWORDS="~alpha ~amd64 ~arm64 ~ppc ~ppc64 ~sparc ~x86"
 
-RDEPEND="
-	>=dev-lang/perl-5.8.2
+RDEPEND=">=dev-lang/perl-5.8.2
 	dev-perl/Lchown
 	>=sys-apps/util-linux-2.12-r4
 	>=sys-apps/coreutils-5.0.91-r4
@@ -24,6 +23,10 @@ src_prepare() {
 	default
 	# remove '/etc/' since we don't place it here, bug #461554
 	sed -i -e 's:/etc/rsnapshot.conf.default:rsnapshot.conf.default:' rsnapshot-program.pl || die
+}
+
+src_test() {
+	emake test
 }
 
 src_install() {
@@ -46,6 +49,6 @@ src_install() {
 
 pkg_postinst() {
 	elog "The template configuration file has been installed as"
-	elog "  /usr/share/doc/${PF}/rsnapshot.conf.default"
-	elog "Copy and edit the the above file as /etc/rsnapshot.conf"
+	elog "  ${EROOT}/usr/share/doc/${PF}/rsnapshot.conf.default"
+	elog "Copy and edit the the above file as ${EROOT}/etc/rsnapshot.conf"
 }

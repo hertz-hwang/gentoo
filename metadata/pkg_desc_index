@@ -1281,7 +1281,7 @@ app-backup/rdup 1.1.15-r1 1.1.15-r3: Generate a file list suitable for full or i
 app-backup/rear 2.7 2.9: Relax-and-Recover is a setup-and-forget bare metal disaster recovery solution
 app-backup/reoback 1.0_p3-r1: Reoback Backup Solution
 app-backup/restic 0.18.1 0.19.0: A backup program that is fast, efficient and secure
-app-backup/rsnapshot 1.4.4-r1 1.4.5-r1: A filesystem backup utility based on rsync
+app-backup/rsnapshot 1.4.5-r1 1.5.1: A filesystem backup utility based on rsync
 app-backup/sarab 1.0.0-r1: SaraB is a powerful and automated backup scheduling system based on DAR
 app-backup/simplebackup 1.8.1-r2: Cross-platform backup program
 app-backup/snapper 0.12.2-r1 0.13.0 0.13.1: Command-line program for btrfs and lvm snapshot management
@@ -8918,7 +8918,7 @@ dev-python/mechanicalsoup 1.4.0: A Python library for automating interaction wit
 dev-python/mechanize 0.4.10: Stateful programmatic web browsing in Python
 dev-python/mediafile 0.17.0: Read and write audio files' tags in Python
 dev-python/memory-allocator 0.2.0: An extension class for memory allocation in cython
-dev-python/merge3 0.0.15 0.0.16: Python implementation of 3-way merge
+dev-python/merge3 0.0.16: Python implementation of 3-way merge
 dev-python/mergedict 1.0.0-r1: A Python 'dict' with a merge() method
 dev-python/meshio 5.3.5-r1: Input/output for many mesh formats
 dev-python/meson-python 0.19.0 0.20.0: Meson PEP 517 Python build backend
@@ -9278,7 +9278,7 @@ dev-python/pyro5 5.16 5.17: Distributed object middleware for Python (RPC)
 dev-python/pyroute2 0.9.6: A pure Python netlink and Linux network configuration library
 dev-python/pyrqlite 2.2.3: Python client for rqlite
 dev-python/pyrsistent 0.20.0: Persistent/Functional/Immutable data structures
-dev-python/pyrss2gen 1.1-r2 1.1-r3: RSS feed generator written in Python
+dev-python/pyrss2gen 1.1-r3: RSS feed generator written in Python
 dev-python/pyscard 2.3.1: Smart card support in python
 dev-python/pyscreenshot 3.1: Python screenshot library
 dev-python/pysdl2 0.9.17: Python (ctypes) bindings for SDL2 libraries
@@ -16055,7 +16055,7 @@ sci-chemistry/elem 1.0.3-r3: periodic table of the elements
 sci-chemistry/gelemental 2.0.2 2.0.2-r1: Periodic table viewer with detailed information on the chemical elements
 sci-chemistry/gnome-chemistry-utils 0.14.17_p6-r4: Programs and library containing GTK widgets and C++ classes related to chemistry
 sci-chemistry/gperiodic 3.0.3-r1: Periodic table application for Linux
-sci-chemistry/gromacs 2023.5 2024.6 2025.3 2025.4 2026.0 2026.1 2026.2 2026.9999 9999: The ultimate molecular dynamics simulation package
+sci-chemistry/gromacs 2023.5 2024.6 2025.3 2025.4 2026.2 2026.3 2026.9999 9999: The ultimate molecular dynamics simulation package
 sci-chemistry/ksdssp 040728-r1: An open source implementation of sci-chemistry/dssp
 sci-chemistry/mdtraj 1.10.3 1.11.1_p1: Read, write and analyze MD trajectories with only a few lines of Python code
 sci-chemistry/moldy 2.16e-r2: Molecular dynamics simulations platform
@@ -18350,7 +18350,7 @@ www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
 www-apps/lidarr-bin 3.1.3.4968: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
-www-apps/mediawiki 1.43.6 1.43.8 1.44.3 1.44.5 1.45.1 1.45.3: The MediaWiki wiki web application (as used on wikipedia.org)
+www-apps/mediawiki 1.43.6 1.43.8 1.43.9 1.44.3 1.44.5 1.44.6 1.45.1 1.45.3 1.45.4: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.2.14-r1 2.2.17-r1: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
 www-apps/moodle 4.5.12 5.0.8: The Moodle Course Management System
