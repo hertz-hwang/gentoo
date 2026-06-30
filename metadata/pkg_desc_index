@@ -9899,7 +9899,7 @@ dev-python/zmq-anyio 0.3.10 0.3.14: Asynchronous API for ZMQ using AnyIO
 dev-python/zope-component 7.1: Zope Component Architecture
 dev-python/zope-configuration 7.1: Zope Configuration Architecture
 dev-python/zope-deprecation 6.0: Zope Deprecation Infrastructure
-dev-python/zope-event 6.1 6.2: Event publishing / dispatch, used by Zope Component Architecture
+dev-python/zope-event 6.2: Event publishing / dispatch, used by Zope Component Architecture
 dev-python/zope-exceptions 6.0: General purpose exceptions for Zope packages
 dev-python/zope-hookable 8.2: Efficient creation of 'hookable' objects
 dev-python/zope-i18nmessageid 8.2: Zope support for i18nmessageid (tagging source of i18n strings)
@@ -13724,7 +13724,7 @@ media-libs/volpack 1.0_p7-r2: Volume rendering library
 media-libs/vpl-gpu-rt 26.2.0 26.2.1: Intel Video Processing Library GPU Runtime
 media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 9999: Vulkan Installable Client Driver (ICD) Loader
-media-libs/waffle 1.8.1 1.8.2 9999: Library that allows selection of GL API and of window system at runtime
+media-libs/waffle 1.8.1 1.8.2 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
 media-libs/wxsvg 1.5.24-r1: C++ library to create, manipulate and render SVG files
@@ -14270,7 +14270,7 @@ media-sound/pulseaudio-daemon 17.0-r1 17.0-r2: Daemon component of PulseAudio (n
 media-sound/pulseeffects 4.8.7-r2: Limiter, compressor, reverberation, equalizer auto volume effects for PulseAudio
 media-sound/pulsemixer 1.5.1-r2 9999: CLI and curses mixer for PulseAudio
 media-sound/pwavecat 0.4.5-r1: Concatenates any number of audio files to stdout
-media-sound/pwvucontrol 0.5.2: Volume control applet for Pipewire
+media-sound/pwvucontrol 0.5.2-r1: Volume control applet for Pipewire
 media-sound/qastools 1.4.0: Qt GUI ALSA tools: mixer, configuration browser
 media-sound/qjackctl 1.0.4 9999: Qt GUI to control the JACK Audio Connection Kit and ALSA sequencer connections
 media-sound/qmidiarp 0.7.2: Arpeggiator, sequencer and MIDI LFO for ALSA
@@ -18536,11 +18536,11 @@ x11-apps/xditview 1.0.7: display ditroff output
 x11-apps/xdm 1.1.17: X.Org xdm application
 x11-apps/xdpyinfo 1.3.4 1.4.0: Display information utility for X
 x11-apps/xdriinfo 1.0.8: query configuration information of DRI drivers
-x11-apps/xedit 1.2.4: simple text editor for X
+x11-apps/xedit 1.2.4 1.2.5: simple text editor for X
 x11-apps/xev 1.2.6 1.2.7: Print contents of X events
 x11-apps/xeyes 1.3.1: X.Org xeyes application
 x11-apps/xfd 1.1.5: X.Org xfd application
-x11-apps/xfontsel 1.1.1: point and click selection of X11 font names
+x11-apps/xfontsel 1.1.1 1.1.2: point and click selection of X11 font names
 x11-apps/xgamma 1.0.8: Alter a monitor's gamma correction through the X server
 x11-apps/xgc 1.0.7: X graphics demo
 x11-apps/xhost 1.0.10: Controls host and/or user access to a running X server

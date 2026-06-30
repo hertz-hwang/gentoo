@@ -161,8 +161,8 @@ SRC_URI="
 
 DEPEND="
 	dev-libs/glib:2=
-	gui-libs/gtk:4=
-	gui-libs/libadwaita:1=
+	gui-libs/gtk:4=[introspection]
+	gui-libs/libadwaita:1=[introspection]
 	media-video/pipewire:=
 	media-video/wireplumber:=
 "
