@@ -8024,7 +8024,7 @@ dev-perl/Wx 0.993.200-r4: Perl bindings for wxGTK
 dev-perl/Wx-GLCanvas 0.90.0-r1: interface to wxWidgets' OpenGL canvas
 dev-perl/Wx-Perl-ProcessStream 0.320.0-r6: access IO of external processes via events
 dev-perl/Wx-Scintilla 0.390.0-r6: Scintilla source code editing component for wxWidgets
-dev-perl/X-Osd 0.700.0-r3: Perl glue to libxosd (X OnScreen Display)
+dev-perl/X-Osd 0.700.0-r3 0.700.0-r4: Perl glue to libxosd (X OnScreen Display)
 dev-perl/X11-FreeDesktop-DesktopEntry 0.40.0-r2: An interface to Freedesktop.org .desktop files
 dev-perl/X11-Protocol 0.560.0-r3: Client-side interface to the X11 Protocol
 dev-perl/X11-Protocol-Other 31: X11 Protocol related components not included in dev-perl/X11-Protocol
@@ -9332,7 +9332,7 @@ dev-python/pytest-httpx 0.36.2: Send responses to HTTPX using pytest
 dev-python/pytest-import-check 0.0.4: pytest plugin to check whether Python modules can be imported
 dev-python/pytest-jobserver 1.1.0: Limit parallel tests with POSIX jobserver
 dev-python/pytest-jupyter 0.11.0: Pytest plugin for testing Jupyter libraries and extensions
-dev-python/pytest-lazy-fixtures 1.3.3 1.4.0: Allows you to use fixtures in @pytest.mark.parametrize
+dev-python/pytest-lazy-fixtures 1.4.0: Allows you to use fixtures in @pytest.mark.parametrize
 dev-python/pytest-localftpserver 1.5.0: A PyTest plugin which provides an FTP fixture for your tests
 dev-python/pytest-localserver 0.10.0: Pytest plugin to test server connections locally
 dev-python/pytest-metadata 3.1.1: A plugin for pytest that provides access to test session metadata
@@ -9613,7 +9613,7 @@ dev-python/socksio 1.0.0: Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5
 dev-python/sortedcontainers 2.4.0-r1: Python library to sort collections and containers
 dev-python/soundfile 0.14.0: audio library based on libsndfile, CFFI and NumPy
 dev-python/soupsieve 2.8.3 2.8.4: A modern CSS selector implementation for BeautifulSoup
-dev-python/spake2 0.8-r1 0.9: python implementation of SPAKE2 password-authenticated key exchange algorithm
+dev-python/spake2 0.9: python implementation of SPAKE2 password-authenticated key exchange algorithm
 dev-python/speg 0.3_p20180819-r2: A PEG-based parser interpreter with memoization
 dev-python/sphinx 9.1.0: Python documentation generator
 dev-python/sphinx-argparse 0.5.2: Sphinx extension that automatically documents argparse commands and options
@@ -9880,7 +9880,7 @@ dev-python/yapf 0.43.0-r1: A formatter for Python files
 dev-python/yappi 1.7.6: Yet Another Python Profiler
 dev-python/yapsy 1.12.2-r2: A fat-free DIY Python plugin management toolkit
 dev-python/yara-python 4.5.4 4.5.5 9999: Python interface for a malware identification and classification tool
-dev-python/yarl 1.23.0 1.24.2: Yet another URL library
+dev-python/yarl 1.24.2: Yet another URL library
 dev-python/yaspin 3.4.0: Yet Another Terminal Spinner
 dev-python/yattag 1.16.1: Python library to generate HTML or XML in a readable, concise and pythonic way
 dev-python/yaxmldiff 0.2.0: Yet Another XML Differ
@@ -12805,7 +12805,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.2 3.11.3 3.11.4 3.12_pre20260624: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.4 3.12_pre20260624: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
