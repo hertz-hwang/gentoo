@@ -7040,7 +7040,7 @@ dev-perl/Graphics-ColorNames-WWW 1.140.0-r1: WWW color names and equivalent RGB 
 dev-perl/Graphics-ColorObject 0.5.0-r3: Convert between color spaces
 dev-perl/Graphics-Toolkit-Color 1.710.0 1.972.0: Color palette constructor
 dev-perl/Growl-GNTP 0.210.0-r2: Perl implementation of GNTP Protocol (Client Part)
-dev-perl/Gtk2 1.249.930-r1: Perl bindings for GTK2
+dev-perl/Gtk2 1.249.930-r1 1.249.930-r2: Perl bindings for GTK2
 dev-perl/Gtk3 0.38.0-r1: Perl interface to the 3.x series of the gtk+ toolkit
 dev-perl/Gtk3-ImageView 12.0.0: Image viewer widget for Gtk3
 dev-perl/Gtk3-SimpleList 0.210.0-r1: Simple interface to GTK+ 3's complex MVC list widget
@@ -14012,7 +14012,7 @@ media-radio/kochmorse 3.5.1_p20250730: Morse-code tutor using the Koch method
 media-radio/qlog 0.48.0 0.49.0 0.50.0 9999: Amateur radio logbook software
 media-radio/qrq 0.3.5-r2: Yet another CW trainer for Linux/Unix
 media-radio/qsstv 9.5.11_pre20250212: Amateur radio SSTV software
-media-radio/svxlink 25.05.1_p20250929-r1: Multi Purpose Voice Services System, including Qtel for EchoLink
+media-radio/svxlink 25.05.1_p20250929-r1 26.05: Multi Purpose Voice Services System, including Qtel for EchoLink
 media-radio/tlf 1.4.1-r6: Console-mode amateur radio contest logger
 media-radio/tqsl 2.7.3: ARRL Logbook of the World
 media-radio/tucnak 4.71 4.72: Amateur Radio VHF Contest Logbook
@@ -14908,7 +14908,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 0.0.135 1.0.142 1.0.143 1.0.144: All-in-one voice and text chat for gamers
+net-im/discord 0.0.135 1.0.143 1.0.144 1.0.145: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.10 25.04 25.10 26.04: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.15: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -15376,7 +15376,7 @@ net-misc/kafkacat 1.7.1: Generic command line non-JVM Apache Kafka producer and 
 net-misc/kea 3.0.3-r1 9999: High-performance production grade DHCPv4 & DHCPv6 server
 net-misc/keychain 2.8.5-r2 2.9.8: Agent manager for OpenSSH, ssh.com, Sun SSH, and GnuPG
 net-misc/kio-zeroconf 26.04.1 26.04.2: KIO worker to discover file systems by DNS-SD (DNS Service Discovery)
-net-misc/knock 0.8: Simple port-knocking daemon
+net-misc/knock 0.8 0.8.2: Simple port-knocking daemon
 net-misc/ktls-utils 1.3.0: Kernel TLS helper utilities
 net-misc/l7-filter-userspace 0.12_beta1-r1: Userspace utilities for layer 7 iptables QoS
 net-misc/l7-protocols 2009.05.28-r1: Protocol definitions of l7-filter kernel modules
