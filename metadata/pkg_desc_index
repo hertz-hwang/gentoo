@@ -2632,7 +2632,7 @@ app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomo
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240915: Kernel module to expose more Framework Laptop stuff
 app-laptop/framework-tool-tui 0.8.0 0.8.3 0.8.4: TUI for controlling and monitoring Framework Computers hardware built in Rust
-app-laptop/framework_tool 0.6.2 0.6.3 0.6.4: Tool to control Framework Computer systems
+app-laptop/framework_tool 0.6.2 0.6.3 0.6.4 0.6.5: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
 app-laptop/i8kutils 1.43: Dell Inspiron and Latitude utilities
@@ -16600,7 +16600,7 @@ sec-keys/minisig-keys-ccache 20250914: minisig keys used for ccache
 sec-keys/minisig-keys-libsodium 20230914: OpenPGP keys used for libsodium
 sec-keys/minisig-keys-zig-software-foundation 20240330: Minisign keys used by Zig Software Foundation
 sec-keys/openpgp-keys-aacid 20230907 20260210: OpenPGP keys used by Albert Astals Cid
-sec-keys/openpgp-keys-acl 20260630: OpenPGP keys used by sys-apps/acl
+sec-keys/openpgp-keys-acl 20260702: OpenPGP keys used by sys-apps/acl
 sec-keys/openpgp-keys-adamspiers 20210426 20210426-r1 20250806: OpenPGP keys used by Adam Spiers
 sec-keys/openpgp-keys-aherbert 20240709: OpenPGP keys used by commons.apache.org/rng
 sec-keys/openpgp-keys-akallabeth 20240521: OpenPGP key for Github user akallabeth
