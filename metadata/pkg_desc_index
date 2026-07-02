@@ -1465,7 +1465,7 @@ app-crypt/freepg 2.5.20: Cross-distro GnuPG fork focused on OpenPGP compliance
 app-crypt/gcr 3.41.2-r2 4.4.0.1-r1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
-app-crypt/gnupg 2.4.9 2.5.17-r2 2.5.18 2.5.19 2.5.20 2.5.20-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-crypt/gnupg 2.4.9 2.5.17-r2 2.5.18 2.5.19 2.5.20 2.5.20-r1 2.5.21: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -11078,7 +11078,7 @@ dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.3 3.24.0: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
-dev-util/mesa_clc 25.3.6 26.0.7 26.0.8 26.1.1 26.1.2 26.1.3 9999: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.3.6 26.0.7 26.0.8 26.1.1 26.1.2 26.1.3 26.1.4 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/mig 1.8_p20231217 1.8_p20260123 9999: GNU Mach 3.0 interface generator (IDL compiler)
 dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 13.0.0 14.0.0: Free Win64 runtime and import library definitions
@@ -13590,7 +13590,7 @@ media-libs/lilv 0.24.26-r1: Library to make the use of LV2 plugins as simple as 
 media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 9999: Linux Studio Plugins
 media-libs/lv2 1.18.10-r1 1.18.10-r2: A simple but extensible successor of LADSPA
 media-libs/lvtk 1.2.0-r4: A set of C++ wrappers around the LV2 C API
-media-libs/mesa 25.3.6 26.0.7 26.0.8 26.1.1 26.1.2 26.1.3 9999: OpenGL-like graphic library for Linux
+media-libs/mesa 25.3.6 26.0.7 26.0.8 26.1.1 26.1.2 26.1.3 26.1.4 9999: OpenGL-like graphic library for Linux
 media-libs/mesa-amber 21.3.9-r2 21.3.9-r3 21.3.9-r4: OpenGL-like graphic library for Linux
 media-libs/mlt 7.34.1-r1 7.38.0 7.40.0: Open source multimedia framework for television broadcasting
 media-libs/mpvqt 1.1.1-r3 1.2.0: libmpv wrapper for QtQuick2 and QML
@@ -15517,7 +15517,7 @@ net-misc/sslh 2.3.0 2.3.1-r1 9999: Port multiplexer - accept both HTTPS and SSH 
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-misc/streamlink 8.1.2 8.2.1 8.3.0 8.4.0 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet radio streams
-net-misc/stunnel 5.75 5.76 5.76-r1 5.77 5.78: TLS/SSL - Port Wrapper
+net-misc/stunnel 5.75 5.76 5.76-r1 5.77 5.78 5.79: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
 net-misc/suite3270 4.3_p6 4.4_p6 4.5_p5: Complete 3270 (S390) access package
 net-misc/sunshine 2025.924.154138 2026.516.143833-r1 9999: Self-hosted game stream host for Moonlight
@@ -17924,9 +17924,9 @@ sys-kernel/dkms 3.2.2 3.3.0 3.4.0 3.4.1 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r1 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93 6.12.94 6.12.94_p2 6.18.35 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.13 7.0.14 7.1.2 7.1.2_p1: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93-r1 6.12.94 6.12.94_p2 6.18.35-r1 6.18.36 6.18.37 6.18.37_p1 7.0.12-r1 7.0.13 7.0.14 7.1.2 7.1.2_p1: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.176 6.1.176_p1 6.6.143 6.6.143_p2 6.12.94 6.12.94_p2 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.1.2 7.1.2_p1: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93 6.12.94 6.12.94_p2 6.18.35 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.13 7.0.14 7.0.14_p1 7.1.2 7.1.2_p1: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93-r1 6.12.94 6.12.94_p2 6.18.35-r1 6.18.36 6.18.37 6.18.37_p1 7.0.12-r1 7.0.13 7.0.14 7.0.14_p1 7.1.2 7.1.2_p1: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.176 6.1.176_p1 6.6.143 6.6.143_p2 6.12.94 6.12.94_p2 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.0.14_p1 7.1.2 7.1.2_p1: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.6.143-r1 6.12.94-r1 6.18.37-r1 7.0.14-r1 7.1.2-r1: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.2_rc1: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
@@ -18137,7 +18137,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93 6.12.93-r1 6.12.94 6.12.94_p2 6.18.35 6.18.35-r1 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.1.2 7.1.2_p1: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.257_p1 5.10.258 5.15.208_p1 5.15.209 6.1.174_p1 6.1.175 6.1.176 6.1.176_p1 6.6.141_p1 6.6.142 6.6.143 6.6.143_p2 6.12.93 6.12.93-r1 6.12.94 6.12.94_p2 6.18.35 6.18.35-r1 6.18.36 6.18.37 6.18.37_p1 7.0.12 7.0.12-r1 7.0.13 7.0.14 7.0.14_p1 7.1.2 7.1.2_p1: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
