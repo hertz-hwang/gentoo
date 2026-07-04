@@ -1530,7 +1530,7 @@ app-crypt/princeprocessor 0.22-r1: Standalone password candidate generator using
 app-crypt/qca 2.3.10-r1 9999: Qt Cryptographic Architecture (QCA)
 app-crypt/quickcrypt 0.9.2b-r1: gives you a quick MD5 Password from any string
 app-crypt/rainbowcrack 1.8: Hash cracker that precomputes plaintext - ciphertext pairs in advance
-app-crypt/rhash 1.4.5 1.4.6-r1: Console utility and library for computing and verifying file hash sums
+app-crypt/rhash 1.4.6-r1: Console utility and library for computing and verifying file hash sums
 app-crypt/rotix 0.83-r3: Rotix allows you to generate rotational obfuscations
 app-crypt/rpm-sequoia 1.10.0 1.10.2: Implementation of the RPM PGP interface using Sequoia
 app-crypt/sbctl 0.15.4 0.16 0.18: Secure Boot key manager
@@ -1918,7 +1918,7 @@ app-emacs/autoconf-mode 2.72: Emacs major modes for editing autoconf and autotes
 app-emacs/autocrypt 0.4.2_pre20260126: Generic autocrypt implementation for Emacs
 app-emacs/autothemer 0.2.18 9999: Conveniently define themes for GNU Emacs
 app-emacs/avy 0.5.0: Jump to arbitrary positions in visible text and quickly select
-app-emacs/avy-embark-collect 1.1 1.2 9999: Use avy to jump to Embark Collect entries
+app-emacs/avy-embark-collect 1.2 9999: Use avy to jump to Embark Collect entries
 app-emacs/bbdb 3.2.2d_p20231122-r1: The Insidious Big Brother Database
 app-emacs/biblio 0.3: Browse and import bibliographic references with Emacs
 app-emacs/binclock 1.12: Display the current time using a binary clock
@@ -1929,26 +1929,26 @@ app-emacs/bm 202506: Visible bookmarks in buffer
 app-emacs/bnf-mode 0.4.5: GNU Emacs major mode for editing BNF grammars
 app-emacs/bongo 1.1-r1: Buffer-oriented media player for Emacs
 app-emacs/boogie-friends 0.1_p20220922: Emacs tools for interacting with Boogie, Dafny and Z3 (SMT2)
-app-emacs/boxquote 2.3 2.4.1 9999: Quote text with a semi-box
+app-emacs/boxquote 2.4.1 9999: Quote text with a semi-box
 app-emacs/browse-kill-ring 2.0.0 2.1.0: An improved interface to kill-ring
 app-emacs/bubblet 0.74-r1: A bubble-popping game
-app-emacs/bui 1.2.1_p20210108 1.3: Buffer interface library for Emacs
+app-emacs/bui 1.3: Buffer interface library for Emacs
 app-emacs/burly 0.2 0.3: Save and restore frames and windows with their buffers in Emacs
-app-emacs/buttercup 1.38 1.40 9999: Behaviour-driven Elisp testing
+app-emacs/buttercup 1.40 9999: Behaviour-driven Elisp testing
 app-emacs/calfw 1.6-r1 2.0: A calendar framework for Emacs
-app-emacs/cape 2.6 2.7 9999: Completion At Point Extensions
+app-emacs/cape 2.7 9999: Completion At Point Extensions
 app-emacs/cask 0.9.0 0.9.1: Project management for Emacs package development
 app-emacs/cask-mode 0.1: Major mode for editing Cask files for Emacs
 app-emacs/cdlatex 4.18.5: Fast input methods for LaTeX environments and math
 app-emacs/centaur-tabs 3.2: Customizable tabs plugin for GNU Emacs
 app-emacs/cfrs 1.7.0: Child Frame Read String, alternative to read-string
 app-emacs/chess 2.0.5: A chess client and library for Emacs
-app-emacs/cider 1.20.0 1.21.0 1.22.2: Clojure Interactive Development Environment for GNU Emacs
+app-emacs/cider 1.21.0 1.22.2: Clojure Interactive Development Environment for GNU Emacs
 app-emacs/circe 2.14: A great IRC client for Emacs
 app-emacs/citar 1.4.0: Emacs package to quickly find and act on bibliographic references
 app-emacs/citeproc-el 0.9.4-r1: CSL 1.0.2 Citation Processor for Emacs
 app-emacs/citre 0.4.2: Superior code reading and auto-completion with pluggable backends for GNU Emacs
-app-emacs/clatter 0.1.0 0.4.3: An IRCv3-compliant IRC client for GNU Emacs
+app-emacs/clatter 0.1.0 0.4.3 0.5.0: An IRCv3-compliant IRC client for GNU Emacs
 app-emacs/cldoc 1.16: Show Common Lisp operators and variables information in echo area
 app-emacs/clojure-mode 5.23.0: Major mode for Clojure code
 app-emacs/closql 2.3.2 2.4.0 2.4.1-r1 9999: Store EIEIO objects using EmacSQL
@@ -1965,8 +1965,8 @@ app-emacs/company-math 1.5.1: Completion back-ends for for math unicode symbols 
 app-emacs/company-mode 1.0.2: In-buffer completion front-end
 app-emacs/company-quickhelp 2.3.0: Company documentation popups for completion candidates
 app-emacs/compat 30.1.0.1 31.0.0.0 31.0.0.1: Compatibility libraries for Emacs
-app-emacs/cond-let 0.2.2 1.0.0 1.1.2: Additional and improved binding conditionals for GNU Emacs
-app-emacs/consult 3.4 3.5 3.6 9999: Consulting complete-read for GNU Emacs
+app-emacs/cond-let 1.1.2 1.1.3: Additional and improved binding conditionals for GNU Emacs
+app-emacs/consult 3.5 3.6 9999: Consulting complete-read for GNU Emacs
 app-emacs/consult-flycheck 1.1 1.2: Consult integration for Flycheck
 app-emacs/corfu 2.9 2.10 9999: Completion Overlay Region FUnction
 app-emacs/counsel 0.15.1: Versions of common Emacs commands customized to make the best use of ivy
@@ -1978,7 +1978,7 @@ app-emacs/ctable 0.1.3: Table Component for Emacs Lisp
 app-emacs/cycle-buffer 2.16-r1: Select buffer by cycling through
 app-emacs/d-mode 2.0.12: Emacs major mode for editing D code
 app-emacs/dap-mode 0.8-r1: Debug Adapter Protocol mode
-app-emacs/dape 0.26.0 0.27.1: Debug Adapter Protocol for Emacs
+app-emacs/dape 0.27.1: Debug Adapter Protocol for Emacs
 app-emacs/dash 2.19.1 2.20.0: A modern list library for Emacs
 app-emacs/dashboard 1.8.0 9999: Extensible Emacs dashboard, with sections like bookmarks, agenda and more
 app-emacs/ddskk 17.1-r1: One Japanese input methods on Emacs
@@ -2023,7 +2023,7 @@ app-emacs/eimp 1.4.0-r1: Emacs Image Manipulation Package
 app-emacs/el-mock 1.25.1: Mocking library for Emacs
 app-emacs/eldev 1.11.1 1.11.2 9999: Emacs Lisp Development Tool
 app-emacs/eldoc-box 1.14.1 9999: Child frame doc for Eglot and anything that uses ElDoc
-app-emacs/elfeed 3.4.2-r1 4.0.0 4.0.1: Emacs web feeds client
+app-emacs/elfeed 3.4.2-r1 4.0.0 4.0.1 4.1.0: Emacs web feeds client
 app-emacs/elfeed-protocol 0.9.1 1.0.0: Provide extra news client subscription protocols for elfeed
 app-emacs/elixir-mode 2.5.0: Emacs major mode for editing Elixir files
 app-emacs/elm-mode 0.22.0_p20250401: Major mode for the Elm programming language
@@ -2050,8 +2050,8 @@ app-emacs/emacs-w3m 1.4.632_p20230801: emacs-w3m is an interface program of w3m 
 app-emacs/emacs-websearch 2.1.0 9999: Query search engines from Emacs
 app-emacs/emacs-wget 0.5.0-r1: Wget interface for Emacs
 app-emacs/emacsql 4.3.6 4.4.1: A high-level Emacs Lisp RDBMS front-end
-app-emacs/embark 1.1 1.2 9999: Conveniently act on minibuffer completions inside GNU Emacs
-app-emacs/embark-consult 1.1 1.2 9999: Consult integration for Embark
+app-emacs/embark 1.2 9999: Conveniently act on minibuffer completions inside GNU Emacs
+app-emacs/embark-consult 1.2 9999: Consult integration for Embark
 app-emacs/emhacks 20070920-r2: Useful Emacs Lisp libraries, including gdiff, jjar, jmaker, swbuff, and tabbar
 app-emacs/emms 24: The Emacs Multimedia System
 app-emacs/emojify 1.2_p20210309: Display emojis in Emacs, like :smile: or plain ASCII ones like :)
@@ -2068,12 +2068,12 @@ app-emacs/espuds 0.3.3_p20171111: Common step definitions for Emacs Ecukes
 app-emacs/ess 25.01.0: Emacs Speaks Statistics
 app-emacs/esup 0.7.1_p20220203: Benchmark Emacs Startup time without ever leaving it
 app-emacs/evil 1.14.2-r1: Extensible vi layer for Emacs
-app-emacs/exec-path-from-shell 2.2 2.3: Ensure environment variables inside Emacs are the same as in shell
+app-emacs/exec-path-from-shell 2.3: Ensure environment variables inside Emacs are the same as in shell
 app-emacs/exheres-mode 1.10: Major mode for editing files in exheres format
 app-emacs/expand-region 1.0.0-r1: Emacs extension to increase selected region by semantic units
 app-emacs/external-completion 0.1: Let external tools control completion style in GNU Emacs
 app-emacs/exwm 0.33 0.34: Emacs X Window Manager
-app-emacs/f 0.21.0 0.21.0-r1: Modern API for working with files and directories in Emacs
+app-emacs/f 0.21.0-r1: Modern API for working with files and directories in Emacs
 app-emacs/fedi 0.2 0.3 0.4: Helper functions for Fediverse or other REST API clients for GNU Emacs
 app-emacs/fennel-mode 0.9.1 0.9.2: Emacs support for the Fennel programming language
 app-emacs/fff 20050517-r1: Fast file finder for Emacs
@@ -2087,7 +2087,7 @@ app-emacs/flycheck-inline 0_pre20200808: Display Flycheck errors inline
 app-emacs/flycheck-nimsuggest 0.8.1_p20171027-r1: Emacs Flycheck backend for Nim language using nimsuggest
 app-emacs/flycheck-package 0.14: Flycheck checker for Emacs Lisp package metadata
 app-emacs/folding 2019.0524.1621: A folding-editor-like Emacs minor mode
-app-emacs/forge 0.6.4 0.6.5 0.6.6 9999: Work with Git forges from the comfort of Magit
+app-emacs/forge 0.6.4 0.6.5 0.6.6 0.6.7 9999: Work with Git forges from the comfort of Magit
 app-emacs/fsharp-mode 2.0_p20230622 9999: Support for the F# programming language
 app-emacs/fsm 0.2.1: State machine library
 app-emacs/gap-mode 2.2.2: Major mode for editing and running GAP programs
@@ -2097,7 +2097,7 @@ app-emacs/geiser-chicken 0.17: Chicken Scheme's implementation of the Geiser pro
 app-emacs/geiser-gambit 0.18.1: Gambit Scheme's implementation of the Geiser protocols
 app-emacs/geiser-guile 0.28.3-r101 0.28.5: Guile's implementation of the Geiser protocols
 app-emacs/geiser-mit 0.15: MIT/GNU Scheme's implementation of the Geiser protocols
-app-emacs/ghub 5.1.0 5.2.0 5.2.1: Minuscule client library for the Git forge APIs
+app-emacs/ghub 5.1.0 5.2.0 5.2.1 5.2.2: Minuscule client library for the Git forge APIs
 app-emacs/git-modes 1.4.8 1.5.0 9999: Emacs major modes for editing Git configuration files
 app-emacs/git-timemachine 4.13 9999: Step through historic versions of git controlled files in GNU Emacs
 app-emacs/gnuplot-mode 0.11 0.12: Gnuplot mode for Emacs
@@ -2111,9 +2111,9 @@ app-emacs/graphviz-dot-mode 0.4_p20181118 0.4.2_p20250925: Emacs mode for editin
 app-emacs/groovy-emacs-modes 2.1: Groovy major mode, grails minor mode, and a groovy inferior mode
 app-emacs/gruvbox-theme 1.30.2 9999: Gruvbox is a retro groove color scheme, now in Emacs
 app-emacs/h4x0r 0.13-r1: Aid in writing like a script kiddie does
-app-emacs/haskell-mode 17.4 17.5 17.5_p20260206 9999: Mode for editing (and running) Haskell programs in Emacs
+app-emacs/haskell-mode 17.4 17.5_p20260206 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/haxe-mode 0.3.3: Major mode for editing Haxe files
-app-emacs/helm 4.0.6 4.0.7: Emacs incremental completion and selection narrowing framework
+app-emacs/helm 4.0.7: Emacs incremental completion and selection narrowing framework
 app-emacs/helm-system-packages 1.10.2: A Helm interface to the package manager of your operating system
 app-emacs/hexrgb 0_p1019: Functions to manipulate colors, including RGB hex strings
 app-emacs/highlight-indentation 0.7.0_p20210221: Minor modes to highlight indentation guides in Emacs
@@ -2134,14 +2134,14 @@ app-emacs/ivy 0.15.1: Generic completion mechanism for Emacs
 app-emacs/ivy-rich 0.1.7: More friendly interface for ivy
 app-emacs/jam-mode 0.3-r1: An Emacs major mode for editing Jam files
 app-emacs/jasmin 1.2-r2: An Emacs major mode for editing Jasmin Java bytecode assembler files
-app-emacs/jinx 2.6 2.7 2.8: Enchanted Spell Checker for GNU Emacs
+app-emacs/jinx 2.7 2.8: Enchanted Spell Checker for GNU Emacs
 app-emacs/joplin-mode 202401009.2024: GNU Emacs client for accessing Joplin notes
 app-emacs/jq-mode 0.5.0_p20220610: Emacs major mode for editing jq queries
 app-emacs/js-comint 1.2.0: Run a JavaScript interpreter in an Emacs inferior process window
 app-emacs/js2-mode 20230408 20231224: Improved JavaScript editing mode for GNU Emacs
 app-emacs/julia-mode 0.4_p20211023: Emacs major mode for the Julia programming language
 app-emacs/julia-repl 1.3.0_p20220225 1.5.2: Run an inferior Julia REPL in a terminal inside Emacs
-app-emacs/kaolin-themes 1.7.5 1.7.6 1.7.7: Set of eye pleasing themes for GNU Emacs
+app-emacs/kaolin-themes 1.7.6 1.7.7: Set of eye pleasing themes for GNU Emacs
 app-emacs/key-chord 0.8.2: Map pairs of simultaneously pressed keys to commands
 app-emacs/keymap-popup 0.3.0: Described keymaps with popup help
 app-emacs/keywiz 1.4: Emacs key sequence quiz
@@ -2155,7 +2155,7 @@ app-emacs/log4e 0.4.1: Logging framework for GNU Emacs Lisp
 app-emacs/lookup 1.99.96_pre20180209: An interface to search CD-ROM books and network dictionaries
 app-emacs/lsp-docker 1.0.0_p20240327: Emacs library to leverage lsp-mode in the Docker environment
 app-emacs/lsp-java 3.1_p20240328-r1 4.0: Emacs Java IDE using Eclipse JDT Language Server
-app-emacs/lsp-mode 9.0.0 10.0.0 9999: Emacs client/library for the Language Server Protocol
+app-emacs/lsp-mode 10.0.0 9999: Emacs client/library for the Language Server Protocol
 app-emacs/lsp-treemacs 0.5: Integration between lsp-mode and treemacs
 app-emacs/lsp-ui 8.0.1 9.0.0: UI modules for lsp-mode
 app-emacs/lua-mode 20210802: An Emacs major mode for editing Lua scripts
@@ -2164,7 +2164,7 @@ app-emacs/lyskom-elisp-client 0.48_p20200226: Elisp client for the LysKOM confer
 app-emacs/m-buffer 0.16.1: List Oriented Buffer Operations for Emacs
 app-emacs/macrostep 0.9.5: Interactive macro-expander for Emacs
 app-emacs/macrostep-geiser 0.2.0_p20210717: Emacs macrostep back-end powered by geiser
-app-emacs/magit 4.5.0 4.5.0-r1 9999: A Git porcelain inside Emacs
+app-emacs/magit 4.5.0-r1 4.6.0 9999: A Git porcelain inside Emacs
 app-emacs/magit-popup 2.13.3-r1: Define prefix-infix-suffix command combos
 app-emacs/mailcrypt 3.5.9-r3: Provides a simple interface to public key cryptography with OpenPGP
 app-emacs/marginalia 2.10 2.11: Marginalia in the minibuffer
@@ -2194,7 +2194,7 @@ app-emacs/nginx-mode 1.1.10: Emacs editing mode for Nginx config files
 app-emacs/nim-mode 0.4.2_p20231101: Emacs major mode for the Nim programming language support
 app-emacs/ninja-mode 1.11.1-r2 1.12.0 1.12.1: GNU Emacs mode for handling Ninja build files
 app-emacs/nix-mode 1.5.0: GNU Emacs major mode for editing Nix expressions
-app-emacs/no-littering 1.8.7 1.8.8: ELisp library that helps keeping Emacs configuration directory clean
+app-emacs/no-littering 1.8.8 1.8.9: ELisp library that helps keeping Emacs configuration directory clean
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.1: Add support for DocBook 5 schemas to NXML
 app-emacs/nxml-gentoo-schemas 20260616: Extension for nxml-mode with Gentoo-specific schemas
@@ -2212,10 +2212,10 @@ app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's 
 app-emacs/org-superstar-mode 1.6.0: Prettify headings and plain lists in Org mode (use UTF8 bullets)
 app-emacs/osm 2.2 2.3 9999: OpenStreetMap tile-based viewer for GNU Emacs
 app-emacs/outline-magic 0.9: Outline mode extensions for Emacs
-app-emacs/package-build 4.0.0: Tools for assembling a package archive
+app-emacs/package-build 4.0.0 5.0.0: Tools for assembling a package archive
 app-emacs/package-lint 0.26: Linting library for Emacs Lisp package metadata
 app-emacs/pandoc-mode 2.35 2.90.2: GNU Emacs minor mode for interacting with Pandoc
-app-emacs/paredit 26-r1 26-r2: Minor mode for performing structured editing of S-expressions
+app-emacs/paredit 26-r2: Minor mode for performing structured editing of S-expressions
 app-emacs/pariemacs 3.14-r1: sci-mathematics/pari emacs mode
 app-emacs/parsebib 6.7: Emacs Lisp library for reading .bib files
 app-emacs/parseclj 1.1.1: Clojure Parser for Emacs Lisp
@@ -2242,7 +2242,7 @@ app-emacs/posframe 1.5.1 1.5.2: Pop up a frame at point
 app-emacs/pov-mode 3.3-r1: Major mode for Povray scene files
 app-emacs/powerline 2.5_p20221110: GNU Emacs version of the Vim powerline
 app-emacs/powershell 0.3_pre20220402 0.3_pre20220805: GNU Emacs mode for editing and running PowerShell code
-app-emacs/projectile 2.9.1: A project interaction library for Emacs
+app-emacs/projectile 2.9.1 3.1.0: A project interaction library for Emacs
 app-emacs/proofgeneral 4.5: A generic interface for proof assistants
 app-emacs/protbuf 1.7-r1: Protect Emacs buffers from accidental killing
 app-emacs/psgml 1.4.1: A GNU Emacs Major Mode for editing SGML and XML coded documents
@@ -2287,7 +2287,7 @@ app-emacs/session 2.4b-r1: When you start Emacs, Session restores various variab
 app-emacs/setnu 1.06: Display line numbers in Emacs buffers
 app-emacs/setup 1.4.0 1.5.0: Macro to simplify repetitive configuration patterns
 app-emacs/sharper 1.0_p20230129-r1: .NET SDK CLI wrapper for GNU Emacs using Transient
-app-emacs/shell-maker 0.91.2-r1 0.92.2 0.93.1 9999: Interaction mode for making comint shells for GNU Emacs
+app-emacs/shell-maker 0.91.2-r1 0.92.2 0.93.1 0.93.3 9999: Interaction mode for making comint shells for GNU Emacs
 app-emacs/shell-split-string 0.1: Split Strings Using Shell-Like Syntax
 app-emacs/shrink-path 0.3.1: Fish-style path truncation for GNU Emacs
 app-emacs/shut-up 0.3.3: Reduce Emacs output of messages
@@ -2315,17 +2315,17 @@ app-emacs/teco 7-r2: TECO interpreter for GNU Emacs
 app-emacs/tempel 1.12 1.13 9999: Templates with in-buffer field editing for GNU Emacs
 app-emacs/template 3.3b: Use templates, decorate comments, auto-update buffers
 app-emacs/tempo-snippets 0.1.5-r1: Visual insertion of tempo templates
-app-emacs/thinks 1.12 1.13: Insert text in a think bubble
+app-emacs/thinks 1.13: Insert text in a think bubble
 app-emacs/timu-caribbean-theme 1.5 9999: Color theme with cyan as a dominant color
-app-emacs/tp 0.8 0.9: Utilities to create transient menus for POSTing to an API for GNU Emacs
-app-emacs/transient 0.12.0-r1 0.13.0 0.13.2 0.13.3 0.13.4 9999: Transient commands abstraction for GNU Emacs
+app-emacs/tp 0.9: Utilities to create transient menus for POSTing to an API for GNU Emacs
+app-emacs/transient 0.12.0-r1 0.13.4 0.13.5 9999: Transient commands abstraction for GNU Emacs
 app-emacs/treemacs 3.2: Tree style project file explorer
 app-emacs/treemacs-all-the-icons 3.2: GNU Emacs all-the-icons integration for treemacs
-app-emacs/treepy 0.1.2-r1 0.1.3: Generic tree traversing tools for Emacs Lisp
+app-emacs/treepy 0.1.3: Generic tree traversing tools for Emacs Lisp
 app-emacs/treesit-auto 1.0.9: Automatic installation, usage, fallback for tree-sitter modes in Emacs 29
 app-emacs/ts 0.3: Emacs timestamp and date-time library
 app-emacs/tty-format 12: Text file backspacing and ANSI SGR as faces
-app-emacs/tuareg-mode 3.0.1_p20250911: An Objective Caml/Camllight mode for Emacs
+app-emacs/tuareg-mode 3.0.1_p20250911 3.1.0: An Objective Caml/Camllight mode for Emacs
 app-emacs/typescript-mode 0.4: TypeScript-support for Emacs
 app-emacs/typing 1.1.4: The Typing of Emacs -- an Elisp parody of The Typing of the Dead for Dreamcast
 app-emacs/uboat 1.2-r1: Generate u-boat-death messages, patterned after Iron Coffins
@@ -2355,7 +2355,7 @@ app-emacs/wgrep 3.0.0-r1: Writable grep buffer and apply the changes to files
 app-emacs/which-key 3.6.1: Display the key bindings following your currently entered keys
 app-emacs/whine 20231020: Complaint generator for GNU Emacs
 app-emacs/wikipedia-mode 0.5-r2: Mode for editing Wikipedia articles off-line
-app-emacs/with-editor 3.4.9 3.5.0 3.5.1-r1 9999: Use the Emacsclient as the $EDITOR of child processes
+app-emacs/with-editor 3.5.0 3.5.1-r1 3.5.2 9999: Use the Emacsclient as the $EDITOR of child processes
 app-emacs/with-simulated-input 3.0: Emacs Lisp macro to simulate user input non-interactively
 app-emacs/ws-butler 1.3: Unobtrusively trim extraneous white-space *ONLY* in lines edited
 app-emacs/xclip 1.11.1: Emacs Interface to XClip
@@ -4126,22 +4126,22 @@ dev-debug/systemtap 5.3-r1 5.4 5.5 9999: Linux trace/probe tool
 dev-debug/valgrind 3.26.0 3.26.0_p1 3.27.0 3.27.0_p1 3.27.1 9999: An open-source memory debugger for GNU/Linux
 dev-dotnet/avalonia-ilspy 7.2_rc-r2: Avalonia-based .NET Decompiler, port of ILSpy
 dev-dotnet/cake 6.1.0 6.2.0: Cake (C# Make) is a cross platform build automation system with a C# DSL
-dev-dotnet/coco 2014.12.25 2014.12.25-r1: The compiler generator Coco/R for C#
-dev-dotnet/csharp-gentoodotnetinfo 2.0.0 2.0.0-r1 2.9999: .NET information tool for Gentoo
+dev-dotnet/coco 2014.12.25-r1: The compiler generator Coco/R for C#
+dev-dotnet/csharp-gentoodotnetinfo 2.0.0-r1 2.9999: .NET information tool for Gentoo
 dev-dotnet/csharp-language-server 0.24.0 0.25.0: Roslyn-based LSP language server for C#
 dev-dotnet/csharprepl 0.6.7: A command line C# REPL with syntax highlighting
-dev-dotnet/dotnet-outdated 4.6.4-r2 4.6.9 4.7.0 4.7.1: Display and update outdated NuGet packages in a project
+dev-dotnet/dotnet-outdated 4.7.1: Display and update outdated NuGet packages in a project
 dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.8 8.0.21 8.0.22 8.0.24 8.0.26 9.0.10 9.0.11 9.0.13 9.0.15 10.0.3 10.0.7: .NET runtime nugets
-dev-dotnet/dotnet-script 1.6.0 2.0.0: Run C# scripts from the CLI
+dev-dotnet/dotnet-script 2.0.0: Run C# scripts from the CLI
 dev-dotnet/dotnet-sdk 9.0.111-r1: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/dotnet-sdk-bin 6.0.417-r5 7.0.404-r5 8.0.108-r1 9.0.112 9.0.308 10.0.103 10.0.107 10.0.203: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/fable 4.29.0-r2 5.0.0-r2: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
 dev-dotnet/fantomas 7.0.3: FSharp source code formatter
-dev-dotnet/fsautocomplete 0.82.0 0.83.0: F# language server using the Language Server Protocol
+dev-dotnet/fsautocomplete 0.83.0: F# language server using the Language Server Protocol
 dev-dotnet/gentoo-dotnet-maintainer-tools 3.0.0 3.9999: Gentoo tools for .NET packages maintenance
 dev-dotnet/libgdiplus 6.0.2-r4 6.2: C-based implementation of the GDI+ API
-dev-dotnet/nake 3.0.0-r1 3.0.0-r2: C# scripting build automation task runner
-dev-dotnet/netcoredbg 3.1.2.1054 3.1.2.1054-r1 3.1.3.1062: NetCoreDbg is a managed code debugger with MI interface for CoreCLR
+dev-dotnet/nake 3.0.0-r2: C# scripting build automation task runner
+dev-dotnet/netcoredbg 3.1.3.1062: NetCoreDbg is a managed code debugger with MI interface for CoreCLR
 dev-dotnet/nuget-license 3.0.0: .NET Core tool to print or save all the licenses of a project
 dev-dotnet/omnisharp-roslyn 1.39.13: OmniSharp server (HTTP, STDIO) based on Roslyn workspaces
 dev-dotnet/pe-format 2.1.2-r1: Intelligent PE executable wrapper for binfmt_misc
@@ -5320,7 +5320,7 @@ dev-lang/clojure 1.12.4 1.12.5: General-purpose programming language with an emp
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
 dev-lang/closure-compiler-bin 20260520 20260526 20260531 20260622: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
-dev-lang/crystal 1.19.1 1.20.0-r1 1.20.1 1.20.2: The Crystal Programming Language
+dev-lang/crystal 1.20.2 1.20.3: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
 dev-lang/cxprolog 0.98.2-r3: A WAM based Prolog system
 dev-lang/dafny 4.11.0: Dafny is a verification-aware programming language
@@ -6036,7 +6036,7 @@ dev-libs/voikko-fi 2.5-r2 2.6: Finnish dictionary for libvoikko based spell chec
 dev-libs/volume_key 0.3.12-r4: Library for manipulating and storing storage volume encryption keys
 dev-libs/wayland 1.24.0 1.25.0-r1 9999: Wayland protocol libraries
 dev-libs/wayland-protocols 1.47 1.48 1.49 9999: Wayland protocol files
-dev-libs/weston 14.0.2-r1 15.0.1 15.0.91 9999: Wayland reference compositor
+dev-libs/weston 14.0.2-r1 15.0.1 15.0.92 9999: Wayland reference compositor
 dev-libs/xalan-c 1.12-r4: XSLT processor for transforming XML into HTML, text, or other XML types
 dev-libs/xapian 1.4.29 1.4.30 1.4.31 2.0.0: Xapian Probabilistic Information Retrieval library
 dev-libs/xapian-bindings 1.4.29 1.4.29-r1 1.4.30 1.4.31 2.0.0: SWIG and JNI bindings for Xapian
@@ -8695,7 +8695,7 @@ dev-python/html5-parser 0.4.12: Fast C based HTML 5 parsing for python
 dev-python/html5lib 1.2_pre20240221: HTML parser based on the HTML5 specification
 dev-python/httmock 1.4.0-r1: A mocking library for requests
 dev-python/httpauth 0.4.1: A WSGI middleware that secures routes using HTTP Digest Authentication
-dev-python/httpbin 0.10.2-r1 0.10.4: HTTP Request and Response Service
+dev-python/httpbin 0.10.2-r1 0.10.4-r1: HTTP Request and Response Service
 dev-python/httpcore 1.0.9-r1: A minimal low-level HTTP client
 dev-python/httplib2 0.31.1 0.32.0: A comprehensive HTTP client library
 dev-python/httpretty 1.1.4-r3 1.1.4-r4: HTTP client mock for Python
@@ -9845,7 +9845,7 @@ dev-python/webcolors 25.10.0: Color names and value formats defined by the HTML 
 dev-python/webencodings 0.5.1-r2: Character encoding aliases for legacy web content
 dev-python/webob 1.8.10: WSGI request and response object
 dev-python/websocket-client 1.9.0: WebSocket client for python with hybi13 support
-dev-python/websockets 16.0: Library for building WebSocket servers and clients in Python
+dev-python/websockets 16.0 16.0-r1: Library for building WebSocket servers and clients in Python
 dev-python/websockify 0.13.0: WebSockets support for any application/server
 dev-python/webtest 3.0.7: Helper to test WSGI applications
 dev-python/werkzeug 3.1.8: Collection of various utilities for WSGI applications
@@ -11099,7 +11099,7 @@ dev-util/oprofile 1.4.0-r1: A transparent low-overhead system-wide profiler
 dev-util/ostree 2024.3-r2 2024.8-r1 2025.2 2025.6 2025.7: Operating system and container binary deployment and upgrades
 dev-util/packer 1.14.1 1.14.3: A tool to create identical machine images for multiple platforms
 dev-util/pahole 1.27-r1 1.29 1.30 1.31 9999: pahole (Poke-a-Hole) and other DWARF utilities
-dev-util/patchelf 0.17.2-r1 0.18.0: Small utility to modify the dynamic linker and RPATH of ELF executables
+dev-util/patchelf 0.17.2-r1 0.18.0 0.19.0: Small utility to modify the dynamic linker and RPATH of ELF executables
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
@@ -11185,7 +11185,7 @@ dev-util/sysprof 48.1 49.0 50.0: System-wide Linux Profiler
 dev-util/sysprof-capture 3.36.0-r2 48.1 49.0 50.0: Static library for sysprof capture data generation
 dev-util/sysprof-common 48.1 49.0 50.0: Static library for sysprof capture data generation
 dev-util/tbump 6.11.0-r1: tbump helps you bump the version of your project easily
-dev-util/tea 0.12.0 0.14.0-r1 0.14.1: Command line tool to interact with Gitea server
+dev-util/tea 0.14.1 0.14.2: Command line tool to interact with Gitea server
 dev-util/tinlink 1.0.0-r2: Tool to create very small elf binary from pure binary files
 dev-util/tkdiff 5.7 6.0: Graphical front end to the diff program
 dev-util/tmake 2.12-r2: Cross platform Makefile tool
@@ -11247,7 +11247,7 @@ dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checki
 dev-vcs/git-big-picture 1.3.0 1.3.0-r1: Visualization tool for Git repositories
 dev-vcs/git-cliff 2.10.1 2.11.0: A highly customizable changelog generator
 dev-vcs/git-cola 4.17.1 4.18.2: The highly caffeinated git GUI
-dev-vcs/git-credential-manager 2.7.3 2.8.0: Secure Git credential storage supporing GitHub, Azure Repos, and other services
+dev-vcs/git-credential-manager 2.8.0: Secure Git credential storage supporing GitHub, Azure Repos, and other services
 dev-vcs/git-crypt 0.7.0 0.8.0: Transparent file encryption in git
 dev-vcs/git-delete-merged-branches 7.5.1 7.6.0: Command-line tool to delete merged Git branches
 dev-vcs/git-extras 7.3.0 7.4.0: Git utilities -- repo summary, repl, changelog population, and many more
@@ -11633,7 +11633,7 @@ games-engines/frotz 2.55-r1: Interpreter for Z-code based text games
 games-engines/gargoyle 2019.1.1: An Interactive Fiction (IF) player supporting all major formats
 games-engines/love 0.7.2-r100 0.8.0-r100 11.4 11.5-r1 9999: A framework for 2D games in Lua
 games-engines/minetest 5.9.1 5.11.0: A free open-source voxel game engine with easy modding and game creation
-games-engines/odamex 12.1.0 12.2.0: Online multiplayer free software engine for DOOM
+games-engines/odamex 12.2.0 12.2.1: Online multiplayer free software engine for DOOM
 games-engines/openmw 0.51.0 9999: Open source reimplementation of TES III: Morrowind
 games-engines/openxcom 1.0.0_p20250905 9999: Open-source reimplementation of the popular UFO: Enemy Unknown
 games-engines/scummvm 2026.2.0 2026.3.0 9999: Reimplementation of various game engines for adventures and role-playing games
@@ -12251,7 +12251,7 @@ gui-libs/gtk4-layer-shell 1.1.1-r1: A library for using the Layer Shell Wayland 
 gui-libs/gtksourceview 5.16.0 5.18.0: A text widget implementing syntax highlighting and other features
 gui-libs/kddockwidgets 2.4.0: KDAB's Dock Widget Framework for Qt
 gui-libs/libadwaita 1.7.9 1.8.5.1 1.8.6: Building blocks for modern GNOME applications
-gui-libs/libdecor 0.2.3 0.2.4 0.2.5 9999: A client-side decorations library for Wayland clients
+gui-libs/libdecor 0.2.5 9999: A client-side decorations library for Wayland clients
 gui-libs/libgedit-amtk 5.9.0 5.9.2 5.10.0: Actions, Menus and Toolbars Kit for GTK applications
 gui-libs/libgedit-gfls 0.2.1 0.3.1 0.4.1: A module dedicated to file loading and saving
 gui-libs/libgedit-gtksourceview 299.5.0 299.7.0: Gedit Technology - Source code editing widget
@@ -13091,7 +13091,7 @@ media-gfx/clockphoto 1.2-r1: Adjusts photo timestamps based on clock photos
 media-gfx/converseen 0.12.2.4 0.15.0.3 0.15.2.2: Batch image converter and resizer based on ImageMagick
 media-gfx/cropgui 0.9 0.9-r1: GUI for lossless cropping of jpeg images
 media-gfx/crwinfo 0.2: Canon raw image (CRW) information and thumbnail extractor
-media-gfx/curtail 1.13.0 1.14.0 1.15.0 1.15.1: Image compressor, supporting PNG, JPEG and WebP
+media-gfx/curtail 1.15.1 1.16.2: Image compressor, supporting PNG, JPEG and WebP
 media-gfx/darktable 5.4.1: A virtual lighttable and darkroom for photographers
 media-gfx/dcraw 9.28.0-r4 9.28.0-r5: Command-line decoder for raw digital photos
 media-gfx/digikam 8.8.0 9.1.0: Digital photo management application
@@ -13406,7 +13406,7 @@ media-libs/ladspa-sdk 1.17-r2: The Linux Audio Developer's Simple Plugin API
 media-libs/lasi 1.1.3-r1: C++ library for postscript stream output
 media-libs/lcms 2.17 2.18 2.19.1: A lightweight, speed optimized color management engine
 media-libs/lensfun 0.3.4-r1: Library for rectifying and simulating photographic lens distortions
-media-libs/leptonica 1.85.0 1.87.0: C library for image processing and analysis
+media-libs/leptonica 1.87.0: C library for image processing and analysis
 media-libs/lerc 4.0.0: Limited Error Raster Compression
 media-libs/lib3ds 1.3.0-r2 2.0.0_rc1-r1: library for managing 3D-Studio Release 3 and 4 .3DS files
 media-libs/lib3mf 2.4.1-r1: Implementation of the 3D Manufacturing Format file standard
@@ -13519,7 +13519,7 @@ media-libs/libogg 1.3.5-r1 1.3.5-r2 1.3.6: The Ogg media file format library
 media-libs/liboggz 1.1.1-r1 1.1.3: A simple programming interface for reading and writing Ogg files and streams
 media-libs/libopenaptx 0.2.0-r1 0.2.1-r1 9999: Reverse-engineered aptX and aptX HD library
 media-libs/libopenglrecorder 0.1.0-r1: Library for asynchronous OpenGL recording with audio
-media-libs/libopenmpt 0.7.13 0.8.6: Library to decode tracked music files (modules)
+media-libs/libopenmpt 0.8.6 0.8.7: Library to decode tracked music files (modules)
 media-libs/libopenraw 0.3.7-r3: RAW image formats decoding library
 media-libs/libopusenc 0.2.1-r1 0.3: High-level API for encoding .opus files
 media-libs/libpagemaker 0.0.4-r1 9999: C++ Library that parses the file format of Aldus/Adobe PageMaker documents
@@ -14223,7 +14223,7 @@ media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
 media-sound/oggtst 0.0: A tool for calculating ogg-vorbis playing time
 media-sound/ogmtools 1.5-r3: Information, extraction or creation for OGG media streams
-media-sound/openmpt123 0.8.6: libopenmpt-based command line player for tracked music files (modules)
+media-sound/openmpt123 0.8.7: libopenmpt-based command line player for tracked music files (modules)
 media-sound/opus-tools 0.2-r1: Royalty-free, highly versatile audio codec
 media-sound/orpheus 1.6-r4: Command line MP3 player
 media-sound/owntone 29.0 29.2: DAAP (iTunes) and MPD media server
@@ -14607,7 +14607,7 @@ net-analyzer/macchanger 1.7.0_p5_p4-r2 1.7.0_p5_p4-r3: Utility for viewing/manip
 net-analyzer/masscan 1.3.2: Mass IP port scanner
 net-analyzer/mbrowse 0.4.3-r1: MBrowse is a graphical MIB browser
 net-analyzer/mdns-scan 0.5_p20200715: a tool for scanning for mDNS/DNS-SD published services
-net-analyzer/monitoring-plugins 2.4.0-r1 2.4.0-r2: 50+ standard plugins for Icinga, Naemon, Nagios, Shinken, Sensu
+net-analyzer/monitoring-plugins 2.4.0-r1 3.0.1-r1: 50+ standard plugins for Icinga, Naemon, Nagios, Shinken, Sensu
 net-analyzer/mrtg 2.17.10-r1: A tool to monitor the traffic load on network-links
 net-analyzer/mrtg-ping-probe 2.2.0-r1: Addon mrtg contrib for stats ping/loss packets
 net-analyzer/mtr 0.95-r1 0.96-r1 9999: My TraceRoute, an Excellent network diagnostic tool
@@ -14615,7 +14615,7 @@ net-analyzer/multimon-ng 1.3.0 9999: a fork of multimon, decodes multiple digita
 net-analyzer/multipath-tcp-tools 2018_p12_p21-r1 999999: Analysis tools for Multipath Transmission Control Protocol (MPTCP)
 net-analyzer/munin 2.0.75 2.0.76-r2 2.0.76-r3: Munin Server Monitoring Tool
 net-analyzer/munin-plugins-zfs 0.20170127-r1: A Munin plugin for monitoring ZFS on Linux
-net-analyzer/nagios 4.5.12 4.5.13: The Nagios metapackage
+net-analyzer/nagios 4.5.13: The Nagios metapackage
 net-analyzer/nagios-check_dnssec 0.1_p28: check_dnssec is a set of Nagios plugins to monitor DNSSEC services
 net-analyzer/nagios-check_glsa2 20120930-r1: Nagios check script for GLSAs (Gentoo Linux Security Advisories)
 net-analyzer/nagios-check_ipmi_sensor 3.13: IPMI Sensor Monitoring Plugin for Nagios/Icinga
@@ -14624,11 +14624,11 @@ net-analyzer/nagios-check_logfiles 4.0.1.3: A nagios plugin for checking logfile
 net-analyzer/nagios-check_multiple 0.0.1-r4: A Nagios plugin to execute multiple checks in parallel
 net-analyzer/nagios-check_mysql_health 2.2.2-r2: Nagios plugin for checking MySQL server health
 net-analyzer/nagios-check_rbl 1.7.0: Monitor whether or not a host is blacklisted
-net-analyzer/nagios-core 4.5.12 4.5.13: Nagios core - monitoring daemon, web GUI, and documentation
+net-analyzer/nagios-core 4.5.13: Nagios core - monitoring daemon, web GUI, and documentation
 net-analyzer/nagios-icinga-openvpn 0.0.1-r6: A Nagios plugin to check whether an OpenVPN server is alive
 net-analyzer/nagios-plugin-check_lm_sensors 4.1.1_p20191028: Nagios plugin to monitor the values of onboard sensors and disk temperatures
 net-analyzer/nagios-plugin-check_raid 4.0.10-r3: Nagios/Icinga plugin to check current server's RAID status
-net-analyzer/nagios-plugins 2.4.12-r4: Official plugins for Nagios
+net-analyzer/nagios-plugins 2.4.12-r4 2.5: Official plugins for Nagios
 net-analyzer/nagios-plugins-linux-madrisan 34 35: Additional and alternative Nagios plugins for Linux
 net-analyzer/nagios-plugins-snmp 0.6.0-r2: Additional Nagios plugins for monitoring SNMP capable devices
 net-analyzer/nagircbot 0.0.33: An irc bot that alerts you to nagios changes
@@ -14845,7 +14845,7 @@ net-firewall/bpfilter 0.5.2 0.6.0: BPF-based packet filtering framework
 net-firewall/conntrack-tools 1.4.8-r1 1.4.9: Connection tracking userspace tools
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
-net-firewall/firehol 3.1.7-r2 3.1.8: iptables firewall generator
+net-firewall/firehol 3.1.8: iptables firewall generator
 net-firewall/firewalld 2.4.0 2.4.2: Firewall daemon with D-Bus interface providing a dynamic firewall
 net-firewall/fwbuilder 6.0.0_rc1_p20230723-r1: Firewall management GUI for iptables, PF, Cisco routers and more
 net-firewall/fwknop 2.6.11-r1: Single Packet Authorization and Port Knocking application
@@ -15658,7 +15658,7 @@ net-print/foomatic-db-ppds 4.0.20190226-r1: linuxprinting.org PPD files for post
 net-print/gtklp 1.3.4: A GUI for cupsd
 net-print/gutenprint 5.3.4-r2 5.3.5: Ghostscript and cups printer drivers
 net-print/hplip 3.25.8-r1 3.26.4: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
-net-print/hplip-plugin 3.25.8 3.26.4: Proprietary plugins and firmware for HPLIP
+net-print/hplip-plugin 3.26.4: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r2: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/lexmark-upd-ppd 1.0.0.20240321: Lexmark universal printer driver PPDs
@@ -16095,7 +16095,7 @@ sci-electronics/librepcb 1.3.0-r1: Free EDA software to develop printed circuit 
 sci-electronics/magic 8.3.365: The VLSI design CAD tool
 sci-electronics/netgen 1.4.52: LVS tool (layout versus schematic comparison)
 sci-electronics/ngspice 43 46: The Next Generation Spice (Electronic Circuit Simulator)
-sci-electronics/nvc 1.20.0 1.20.1 1.21.0: NVC is a VHDL compiler and simulator
+sci-electronics/nvc 1.20.1 1.21.0 1.21.1: NVC is a VHDL compiler and simulator
 sci-electronics/pcb 4.3.0: GPL Electronic Design Automation: Printed Circuit Board editor
 sci-electronics/petrify 4.2-r1: Synthesize Petri nets into asynchronous circuits
 sci-electronics/puff 20181104-r1: microwave CAD software
@@ -16442,7 +16442,7 @@ sci-mathematics/jags 4.3.1-r1: Just Another Gibbs Sampler for Bayesian MCMC simu
 sci-mathematics/kind2 1.9.0: Multi-engine SMT-based automatic model checker
 sci-mathematics/kissat 3.1.1-r1 4.0.4: Keep-it-simple and clean bare metal SAT solver written in C
 sci-mathematics/lcalc 2.1.1: Command-line utility and library for L-function computations
-sci-mathematics/lean 4.14.0-r1 4.23.0 4.24.0: The Lean Theorem Prover
+sci-mathematics/lean 4.24.0: The Lean Theorem Prover
 sci-mathematics/libpoly 0.1.11: C library for manipulating polynomials
 sci-mathematics/lpsolve 5.5.2.11-r2 5.5.2.14: Mixed Integer Linear Programming (MILP) solver
 sci-mathematics/lrcalc 1.2 2.1: Littlewood-Richardson Calculator
