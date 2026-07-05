@@ -30,11 +30,13 @@ SLOT="0"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND=">=sys-libs/libselinux-${PV}:=[python]
+RDEPEND="
+	>=sys-libs/libselinux-${PV}:=[python,${PYTHON_USEDEP}]
 	>=sys-libs/libsemanage-${PV}:=[python(+)]
 	>=sys-libs/libsepol-${PV}:=[static-libs(+)]
 	>=app-admin/setools-4.2.0[${PYTHON_USEDEP}]
-	>=sys-process/audit-1.5.1[python,${PYTHON_USEDEP}]"
+	>=sys-process/audit-1.5.1[python,${PYTHON_USEDEP}]
+"
 DEPEND="${RDEPEND}"
 BDEPEND="
 	test? (
@@ -80,6 +82,7 @@ python_test() {
 	# PYTHONPATH, so they get actually found and used. In
 	# particular, already installed versions on the system are not
 	# used.
+	local dir
 	for dir in audit2allow chcat semanage sepolgen/src sepolicy ; do
 		PYTHONPATH="${S}/${dir}:${PYTHONPATH}"
 	done
