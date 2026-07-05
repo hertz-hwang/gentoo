@@ -15519,7 +15519,7 @@ net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet 
 net-misc/stunnel 5.75 5.76 5.76-r1 5.77 5.78 5.79: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
 net-misc/suite3270 4.3_p6 4.4_p6 4.5_p5: Complete 3270 (S390) access package
-net-misc/sunshine 2025.924.154138 2026.516.143833-r1 9999: Self-hosted game stream host for Moonlight
+net-misc/sunshine 2026.516.143833-r1 9999: Self-hosted game stream host for Moonlight
 net-misc/sysrepo 3.3.10: YANG-based configuration and operational state data store
 net-misc/taptap 1.0-r2: Program to link two /dev/net/tun to form virtual ethernet
 net-misc/taylor-uucp 1.07-r7: Taylor UUCP
@@ -17400,7 +17400,7 @@ sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
 sys-apps/policycoreutils 3.8.1 3.9 3.10 3.11 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.6 0.9.7 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
-sys-apps/portage 3.0.79-r1 3.0.80 3.0.81 9999: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.79-r1 3.0.80 3.0.81 3.0.81.1 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
 sys-apps/ppc64-diag 2.7.9: Diagnostic tools for PowerLinux
 sys-apps/prctl 1.6-r1: Tool to query and modify process behavior
