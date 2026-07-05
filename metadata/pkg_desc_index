@@ -3016,7 +3016,7 @@ app-office/denaro 2024.2.0-r1: A personal finance manager
 app-office/dia 0.97.3-r4 0.98_pre20250913: Diagram/flowchart creation program
 app-office/dia2code 1.0.0-r2: Convert UML diagrams produced with Dia to various source code flavours
 app-office/drawio-desktop-bin 26.2.2 29.6.6: draw.io diagramming and whiteboarding desktop app
-app-office/endeavour 43.0-r1 43.0-r2: Personal task manager
+app-office/endeavour 43.0-r2: Personal task manager
 app-office/glabels 3.4.1-r2: Program for creating labels and business cards
 app-office/gnucash 5.14: Personal finance manager
 app-office/gnumeric 1.12.59-r1 1.12.60 1.12.61: The GNOME Spreadsheet
@@ -9647,7 +9647,7 @@ dev-python/sphinxcontrib-github-alt 1.2-r3: Link to GitHub issues, pull requests
 dev-python/sphinxcontrib-htmlhelp 2.1.0-r1: Sphinx extension which outputs HTML help book
 dev-python/sphinxcontrib-httpdomain 2.0.0: Sphinx domain for documenting HTTP APIs
 dev-python/sphinxcontrib-jquery 4.1: Extension to include jQuery on newer Sphinx releases
-dev-python/sphinxcontrib-jsmath 1.0.1-r4: Sphinx extension which renders display math in HTML via JavaScript
+dev-python/sphinxcontrib-jsmath 1.0.1-r5: Sphinx extension which renders display math in HTML via JavaScript
 dev-python/sphinxcontrib-log-cabinet 1.0.1-r1: Organize changelog directives in Sphinx docs
 dev-python/sphinxcontrib-mermaid 2.0.2: Sphinx spelling extension
 dev-python/sphinxcontrib-plantuml 0.31: Sphinx extensions for PlantUML
@@ -12552,7 +12552,7 @@ kde-frameworks/kunitconversion 6.25.0 6.27.0: Framework for converting units
 kde-frameworks/kuserfeedback 6.25.0 6.27.0: Framework to collect user feedback for applications via telemetry and surveys
 kde-frameworks/kwallet 6.25.0 6.27.0: Interface to KWallet Framework providing desktop-wide storage for passwords
 kde-frameworks/kwallet-runtime 6.25.0 6.27.0: Framework providing desktop-wide storage for passwords
-kde-frameworks/kwidgetsaddons 6.25.0 6.27.0: An assortment of high-level widgets for common tasks
+kde-frameworks/kwidgetsaddons 6.25.0 6.27.0: Assortment of high-level widgets for common tasks
 kde-frameworks/kwindowsystem 6.25.0 6.27.0: Framework providing access to properties and features of the window manager
 kde-frameworks/kxmlgui 6.25.0 6.27.0: Framework for managing menu and toolbar actions in an abstract way
 kde-frameworks/modemmanager-qt 6.25.0 6.27.0: ModemManager bindings for Qt
