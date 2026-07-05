@@ -968,7 +968,7 @@ app-admin/drush 6.7.0-r8: Command line shell and scripting interface for Drupal
 app-admin/eclean-kernel 2.99.10 9999: Remove outdated built kernels
 app-admin/emacs-updater 1.19: Rebuild Emacs packages
 app-admin/entr 5.8: Run arbitrary commands when files change
-app-admin/eselect 1.4.30 1.4.31 1.4.32 9999: Gentoo's multi-purpose configuration and management tool
+app-admin/eselect 1.4.32 9999: Gentoo's multi-purpose configuration and management tool
 app-admin/evtxtools 1.1.1-r2: Read, decode and dump Windows Vista/2008/7 event log file
 app-admin/exo 1.94.0: Command-line tool for everything at Exoscale: compute, storage, dns
 app-admin/fam 2.7.0_p17_p3: FAM, the File Alteration Monitor
@@ -2063,7 +2063,7 @@ app-emacs/erlang-mode 27.0.1 28.1 28.3 9999: A major mode for editing Erlang
 app-emacs/erobot 2.1.0-r1: Battle-bots for Emacs!
 app-emacs/ert-async 0.1.2_p20200105: Async support for ERT
 app-emacs/ert-runner 0.8.0-r1: Opinionated Emacs Ert testing workflow
-app-emacs/eselect-mode 1.4.30 1.4.31 1.4.32 9999: Emacs major mode for editing eselect files
+app-emacs/eselect-mode 1.4.32 9999: Emacs major mode for editing eselect files
 app-emacs/espuds 0.3.3_p20171111: Common step definitions for Emacs Ecukes
 app-emacs/ess 25.01.0: Emacs Speaks Statistics
 app-emacs/esup 0.7.1_p20220203: Benchmark Emacs Startup time without ever leaving it
@@ -12740,7 +12740,7 @@ mail-client/geary 46.0-r1 46.0-r2: A lightweight, easy-to-use, feature-rich emai
 mail-client/hap 3.7-r1: A terminal mail notification program (replacement for biff)
 mail-client/mailx 8.1.2.20220412: The $ mail program, which is used to send mail via shell scripts
 mail-client/mailx-support 20060102-r3: Provides lockspool utility
-mail-client/mutt 2.3.2 2.3.3: A small but very powerful text-based mail client
+mail-client/mutt 2.3.2 2.3.3 2.4.1: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.7.1 9999: Browser-based multilingual IMAP client with an application-like user interface
@@ -12799,7 +12799,7 @@ mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing 
 mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
 mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
-mail-mta/exim 4.98.2-r1 4.99.3 4.99.4: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.99.4: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.30 1.8.31-r1 1.8.32: An SMTP client and SMTP plugin for mail user agents such as Mutt
 mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, simple message transfer agent
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
