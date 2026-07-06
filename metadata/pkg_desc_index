@@ -254,6 +254,7 @@ acct-group/nullmail 0-r2: A group for the nullmailer
 acct-group/nut 0-r2: A group for the Network-UPS Tools
 acct-group/nzbget 0-r2: Group for net-nntp/nzbget
 acct-group/oidentd 0-r3: System group: oidentd
+acct-group/ollama 0: A group for ollama
 acct-group/onak 0: System group: onak
 acct-group/openct 0-r3: System group: openct
 acct-group/opendkim 0-r3: Group for OpenDKIM
@@ -697,6 +698,7 @@ acct-user/nut 0-r3: A user for the Network-UPS Tools
 acct-user/nvpd 0-r2: User for nvidia-persistenced
 acct-user/nzbget 0-r2: User for net-nntp/nzbget
 acct-user/oidentd 0-r3: System user: oidentd
+acct-user/ollama 0: A user for ollama
 acct-user/onak 0: user for onak
 acct-user/openctd 0-r2: User for dev-libs/openct
 acct-user/opendkim 0-r3: User for OpenDKIM
@@ -4017,7 +4019,7 @@ dev-db/libodbc++ 0.2.5-r3: Provides a subset of the well-known JDBC 2.0(tm) and 
 dev-db/libzdb 3.4.1 3.5.0: A thread safe high level multi-database connection pool library
 dev-db/litecli 1.17.1 9999: CLI for SQLite with auto-completion and syntax highlighting
 dev-db/litedb 5.0.17-r4 5.0.21: .NET NoSQL Document Store in a single data file
-dev-db/lmdb 0.9.33 0.9.35: An ultra-fast, ultra-compact key-value embedded data store
+dev-db/lmdb 0.9.35 1.0.0: An ultra-fast, ultra-compact key-value embedded data store
 dev-db/lmdb++ 1.0.0-r1: C++11 wrapper for the LMDB database library
 dev-db/m17n-db 1.8.11 1.8.12: Database for the m17n library
 dev-db/mariadb 10.6.23-r1 10.6.24-r1 10.6.27 10.11.14-r1 10.11.15-r1 10.11.18 11.4.8-r1 11.4.9-r1 11.8.3-r2 11.8.3-r5 11.8.5-r1 11.8.5-r2 11.8.6 12.0.2-r2 12.0.2-r3: An enhanced, drop-in replacement for MySQL
@@ -8698,7 +8700,7 @@ dev-python/httpauth 0.4.1: A WSGI middleware that secures routes using HTTP Dige
 dev-python/httpbin 0.10.2-r1 0.10.4-r1: HTTP Request and Response Service
 dev-python/httpcore 1.0.9-r1: A minimal low-level HTTP client
 dev-python/httplib2 0.31.1 0.32.0: A comprehensive HTTP client library
-dev-python/httpretty 1.1.4-r3 1.1.4-r4: HTTP client mock for Python
+dev-python/httpretty 1.1.4-r4: HTTP client mock for Python
 dev-python/httptools 0.8.0: A collection of framework independent HTTP protocol utils
 dev-python/httpx 0.28.1-r1: Fully-featured HTTP client which provides sync and async APIs
 dev-python/httpx-socks 0.11.0: Proxy (HTTP, SOCKS) transports for httpx
@@ -8934,7 +8936,7 @@ dev-python/miniupnpc 2.3.3: Python bindings for UPnP client library
 dev-python/mistletoe 1.5.1: A fast, extensible Markdown parser in pure Python
 dev-python/mistune 3.2.1 3.3.1 3.3.2: The fastest markdown parser in pure Python
 dev-python/mkautodoc 0.2.0: Auto documentation for MkDocs
-dev-python/ml-dtypes 0.5.3 0.5.4: A stand-alone implementation of several NumPy dtype extensions
+dev-python/ml-dtypes 0.5.4: A stand-alone implementation of several NumPy dtype extensions
 dev-python/mmtf-python 1.1.3: The python implementation of the MMTF API, decoder and encoder
 dev-python/mock 5.2.0: Rolling backport of unittest.mock for all Pythons
 dev-python/moddb 0.13.0: Python scrapper to access ModDB mods, games and more as objects
@@ -15676,7 +15678,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 2.8.11 2.8.18 2.8.24 2.8.9999 3.0.5 3.0.14 3.0.23 3.0.9999 3.2.9 3.2.19 3.2.9999 3.3.5 3.3.10 3.3.9999 3.4.0 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.14 3.0.23 3.0.25 3.0.9999 3.2.9 3.2.19 3.2.21 3.2.9999 3.3.5 3.3.10 3.3.12 3.3.9999 3.4.0 3.4.2 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -16538,7 +16540,7 @@ sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hu
 sci-ml/ideep 3.10.2: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20250617-r2 0.4.0_p20260323 0.4.0_p20260410: part of the PyTorch Profiler
-sci-ml/ollama 0.31.1: Get up and running with Llama 3, Mistral, Gemma, and other language models.
+sci-ml/ollama 0.31.1-r1: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2 3.11.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.11.0 2.12.0: Tensors and Dynamic neural networks in Python
