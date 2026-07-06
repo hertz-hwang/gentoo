@@ -5410,9 +5410,9 @@ dev-lang/rakudo 2026.02: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
 dev-lang/ruby 3.2.10 3.2.11 3.3.11 3.3.9999 3.4.9 3.4.9999 4.0.3-r1 4.0.4 4.0.9999: An object-oriented scripting language
-dev-lang/rust 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r103 1.83.0-r3 1.84.0-r2 1.84.1-r2 1.85.0-r2 1.85.1-r1 1.86.0-r2 1.87.0-r1 1.88.0 1.89.0 1.90.0-r1 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 9999: Systems programming language originally developed by Mozilla
-dev-lang/rust-bin 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.0-r2 1.84.1-r2 1.85.0-r1 1.85.1 1.86.0-r1 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 9999: Systems programming language from Mozilla
-dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.1 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 9999: Common files shared between multiple slots of Rust
+dev-lang/rust 1.74.1-r101 1.75.0-r101 1.76.0-r101 1.77.1-r101 1.78.0-r101 1.79.0-r101 1.80.1-r101 1.81.0-r101 1.82.0-r103 1.83.0-r3 1.84.0-r2 1.84.1-r2 1.85.0-r2 1.85.1-r1 1.86.0-r2 1.87.0-r1 1.88.0 1.89.0 1.90.0-r1 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 9999: Systems programming language originally developed by Mozilla
+dev-lang/rust-bin 1.74.1-r102 1.75.0-r102 1.76.0-r101 1.77.1-r102 1.78.0-r102 1.79.0-r103 1.80.1-r103 1.81.0-r103 1.82.0-r103 1.83.0-r2 1.84.0-r2 1.84.1-r2 1.85.0-r1 1.85.1 1.86.0-r1 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 9999: Systems programming language from Mozilla
+dev-lang/rust-common 1.81.0 1.82.0 1.83.0 1.84.1 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 9999: Common files shared between multiple slots of Rust
 dev-lang/sassc 3.6.2: A libsass command line driver
 dev-lang/scala-bin 2.13.9-r1: The Scala Programming Language
 dev-lang/scrapscript 0.1.1-r1 9999: Functional, content-addressable programming language
@@ -9049,7 +9049,7 @@ dev-python/paramiko 3.5.1 4.0.0-r1 5.0.0: SSH2 protocol library
 dev-python/parse 1.22.0 1.22.1: Parse strings using a specification based on the Python format() syntax
 dev-python/parse-type 0.6.6: Extension to the parse module
 dev-python/parsedatetime 2.6-r1: Parse human-readable date/time strings
-dev-python/parso 0.8.6 0.8.7: A python parser that supports error recovery and round-trip parsing
+dev-python/parso 0.8.7: A python parser that supports error recovery and round-trip parsing
 dev-python/parver 1.0: Parse and manipulate version numbers
 dev-python/paste 3.10.1: Tools for using a Web Server Gateway Interface stack
 dev-python/pastedeploy 3.1: Load, configure, and compose WSGI applications and servers
@@ -9340,12 +9340,12 @@ dev-python/pytest-localserver 0.10.0: Pytest plugin to test server connections l
 dev-python/pytest-metadata 3.1.1: A plugin for pytest that provides access to test session metadata
 dev-python/pytest-mock 3.15.1: Thin-wrapper around the mock package for easier use with pytest
 dev-python/pytest-mpl 0.19.0: Facilitate image comparison for Matplotlib figures
-dev-python/pytest-order 1.4.0 1.5.0: pytest plugin to run your tests in a specific order
+dev-python/pytest-order 1.5.0: pytest plugin to run your tests in a specific order
 dev-python/pytest-ordering 0.6-r1: pytest plugin to run your tests in a specific order
 dev-python/pytest-param-files 0.6.0: Pytest parametrize decorators from external files
 dev-python/pytest-plus 0.8.1: PyTest Plus Plugin - extends pytest functionality
 dev-python/pytest-qt 4.5.0-r1: Pytest plugin for PyQt6 and PySide6 applications
-dev-python/pytest-recording 0.13.3 0.13.4: A pytest plugin to record network interactions via VCR.py
+dev-python/pytest-recording 0.13.4: A pytest plugin to record network interactions via VCR.py
 dev-python/pytest-regressions 2.10.0 2.11.0: Easy to use fixtures to write regression tests
 dev-python/pytest-repeat 0.9.4: pytest plugin for repeating tests
 dev-python/pytest-reraise 2.1.2: Make multi-threaded pytest test cases fail when they should
@@ -9862,7 +9862,7 @@ dev-python/wrapt 2.2.1 2.2.2: Module for decorators, wrappers and monkey patchin
 dev-python/wsaccel 0.6.7: Accelerator for ws4py, autobahn and tornado
 dev-python/wsgiproxy2 0.5.1-r1: HTTP proxying tools for WSGI apps
 dev-python/wsproto 1.3.2: WebSockets state-machine based protocol implementation
-dev-python/wtforms 3.2.1 3.2.2: Flexible forms validation and rendering library for python web development
+dev-python/wtforms 3.2.2: Flexible forms validation and rendering library for python web development
 dev-python/wurlitzer 3.1.1: Capture C-level stdout/stderr in Python
 dev-python/wxpython 4.2.3-r2 4.2.4 4.2.5: A blending of the wxWindows C++ class library with Python
 dev-python/x-wr-timezone 2.0.1: Convert calendars using X-WR-TIMEZONE to standard ones
@@ -16533,7 +16533,7 @@ sci-ml/fastdownload 0.0.6: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.15.3: Tensor library for machine learning
+sci-ml/ggml 0.15.3-r1: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hugging Face Hub
@@ -17754,7 +17754,7 @@ sys-devel/nvptx-tools 0_pre20240809 0_pre20260402 9999: Collection of tools for 
 sys-devel/patch 2.7.6-r6 2.7.6-r8 2.8-r1 9999: Utility to apply diffs to files
 sys-devel/qbe 1.2-r1 1.3-r1 9999: Pure-C embeddable compiler backend
 sys-devel/reflex 20241231 20260131: This is a variant of the flex fast lexical scanner
-sys-devel/rust-std 1.74.1 1.75.0 1.77.1 1.79.0 1.80.1 1.81.0 1.82.0 1.83.0 1.84.1 1.85.0 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 9999: Rust standard library, standalone (for crossdev)
+sys-devel/rust-std 1.74.1 1.75.0 1.77.1 1.79.0 1.80.1 1.81.0 1.82.0 1.83.0 1.84.1 1.85.0 1.85.1 1.86.0 1.87.0 1.88.0 1.89.0 1.90.0 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 9999: Rust standard library, standalone (for crossdev)
 sys-devel/smatch 1.72-r2 1.73-r1 9999: Static analysis tool for C
 sys-devel/sparse 0.6.4-r3 9999: C semantic parser
 sys-devel/wild 0.7.0-r1 0.8.0 9999: A very fast linker for Linux
@@ -17931,7 +17931,7 @@ sys-kernel/gentoo-kernel 6.1.176_p1 6.1.177 6.6.143_p2 6.6.144 6.12.94_p2 6.12.9
 sys-kernel/gentoo-kernel-bin 6.1.176_p1 6.1.177 6.6.143_p2 6.6.144 6.12.94_p2 6.12.95 6.18.37_p1 6.18.38 7.1.2_p1 7.1.3: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.176_p1 6.1.177 6.6.143_p2 6.6.144 6.12.94_p2 6.12.95 6.18.37_p1 6.18.38 7.1.2_p1 7.1.3: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 5.10.258 5.15.209 6.1.174-r1 6.1.175 6.1.177 6.6.143-r1 6.6.144 6.12.94-r1 6.12.95 6.18.37-r1 6.18.38 7.0.14-r1 7.1.2-r1 7.1.3: Full sources including the Gentoo patchset for the 7.1 kernel tree
-sys-kernel/git-sources 7.2_rc1: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.2_rc1 7.2_rc2: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68 9999: Gentoo fork of installkernel script from debianutils
