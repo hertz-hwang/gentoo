@@ -6102,7 +6102,7 @@ dev-lua/lua-resty-mysql 0.27: Nonblocking Lua MySQL driver library for the ngx-l
 dev-lua/lua-resty-string 0.16: String utilities and common hash functions for the ngx-lua-module NGINX module
 dev-lua/lua-term 0.8: Terminal operations for Lua
 dev-lua/lua-unbound 1.0.0: A binding to libunbound for Lua
-dev-lua/lua-utf8 0.1.5 0.2.0: A UTF-8 support module for Lua and LuaJIT
+dev-lua/lua-utf8 0.2.0: A UTF-8 support module for Lua and LuaJIT
 dev-lua/lua-zlib 1.4: Simple streaming interface to zlib for Lua
 dev-lua/lua_cliargs 3.0.2: A command-line argument parsing module for Lua
 dev-lua/luacheck 1.2.0: A tool for linting and static analysis of Lua code
@@ -14954,7 +14954,7 @@ net-irc/dccserver 0.5-r2: Linux implementation of the mirc dccserver command
 net-irc/eggdrop 1.9.5 1.10.1: An IRC bot extensible with C or TCL
 net-irc/emech 3.0.99_p20221123: UNIX compatible IRC bot programmed in C
 net-irc/ergo 2.17.0 2.18.0: Modern IRC server written in Go
-net-irc/hexchat 2.16.2-r1 2.16.2-r2: Graphical IRC client based on XChat
+net-irc/hexchat 2.16.2-r2: Graphical IRC client based on XChat
 net-irc/ii 1.9 2.0 9999: A minimalist FIFO and filesystem-based IRC client
 net-irc/inspircd 4.11.0: Inspire IRCd - The Stable, High-Performance Modular IRCd
 net-irc/ircii 20240111 20240918 20260115: An IRC and ICB client that runs under most UNIX platforms
@@ -15455,7 +15455,7 @@ net-misc/pen 0.34.1-r1: TCP Load Balancing Port Forwarder
 net-misc/pimpd 0.8-r1: RFC1413-compliant identd server supporting masqueraded connections
 net-misc/pingu 1.5-r1 1.5.1: Policy routing daemon with failover and load-balancing
 net-misc/pipes 1.16.1-r1: Very versatile TCP pipes
-net-misc/pkixssh 17.0 17.1.1 17.1.2 17.2.2 18.0.2 18.0.3: OpenSSH fork with X.509 v3 certificate support
+net-misc/pkixssh 17.0 17.1.1 17.1.2 17.2.2 18.0.2 18.0.3 19.0: OpenSSH fork with X.509 v3 certificate support
 net-misc/plowshare 2.1.7-r3 9999: Command-line downloader and uploader for file-sharing websites
 net-misc/portfwd 0.29-r2 0.29-r3: Port Forwarding Daemon
 net-misc/portspoof 1.3-r1 9999: return SYN+ACK for every port connection attempt
