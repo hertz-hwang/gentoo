@@ -9588,7 +9588,7 @@ dev-python/shtab 1.8.0 1.8.1: Automagic shell tab completion for Python CLI appl
 dev-python/signature-dispatch 1.0.1-r1: Execute the first function that matches the given arguments
 dev-python/signedjson 1.1.4: Signs JSON objects with ED25519 signatures
 dev-python/signxml 4.4.0 4.5.1 5.0.0 5.0.1 5.1.0 9999: Python XML Signature and XAdES library
-dev-python/sigstore 4.3.0 4.4.0: A tool for signing Python package distributions
+dev-python/sigstore 4.3.0 4.4.0 4.4.0-r1: A tool for signing Python package distributions
 dev-python/sigstore-models 0.0.6: Pydantic based models for Sigstore's protobuf specifications
 dev-python/sigstore-rekor-types 0.0.18: Python models for Rekor's API types
 dev-python/simber 0.2.6: Simple, minimal and powerful logging library for Python
@@ -15313,7 +15313,7 @@ net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nau
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.7.2 4.8.0: User friendly Bitcoin client
 net-misc/email-validator 1.1.0: Basic syntax and deliverability checks on email addresses
-net-misc/ena-driver 2.16.1 2.17.0: Amazon EC2 Elastic Network Adapter (ENA) kernel driver
+net-misc/ena-driver 2.16.1 2.17.0 2.17.2: Amazon EC2 Elastic Network Adapter (ENA) kernel driver
 net-misc/endlessh 1.1-r2: SSH tarpit that slowly sends and endless banner
 net-misc/ethercard-diag 20050321.1g-r2: Low level mii diagnostic tools including mii-diag and etherwake
 net-misc/etherdfs 20180203-r5: An ethernet-based file system for DOS
@@ -18356,7 +18356,7 @@ www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4 3.4.5 3.4.6: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 2.5.0.5422: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/prowlarr-bin 2.5.1.5460: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.2.1.10461: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.7.4 3.7.5: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
