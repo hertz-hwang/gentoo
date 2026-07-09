@@ -1268,7 +1268,7 @@ app-backup/dar 2.8.4 2.8.5: A full featured backup tool, aimed for disks
 app-backup/deja-dup 44.2 48.4: Simple backup tool using duplicity back-end
 app-backup/dirvish 1.2.1-r1: Dirvish is a fast, disk based, rotating network backup system
 app-backup/duplicati 2.2.0.1.2025.11.09: Backup client that securely stores encrypted, incremental, compressed backups
-app-backup/duplicity 3.0.7 9999: Secure backup system using GnuPG to encrypt data
+app-backup/duplicity 3.0.7 3.1.0 9999: Secure backup system using GnuPG to encrypt data
 app-backup/duply 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.9: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
@@ -5675,7 +5675,7 @@ dev-libs/libevent 2.1.12-r1 2.1.13 2.2.1-r3 2.2.1-r4 2.2.2 9999: Library to exec
 dev-libs/libezV24 0.1.1-r3: Library that provides an easy API to Linux serial ports
 dev-libs/libf2c 20240130: Library that converts FORTRAN to C source
 dev-libs/libfastjson 1.2304.0-r1: Fork of the json-c library, which is optimized for liblognorm processing
-dev-libs/libffi 3.4.8-r3 3.5.1 3.5.2 9999: Portable, high level programming interface to various calling conventions
+dev-libs/libffi 3.4.8-r3 3.5.1 3.5.2 3.6.0 3.7.0 9999: Portable, high level programming interface to various calling conventions
 dev-libs/libffi-compat 3.2.1-r3 3.3-r2: a portable, high level programming interface to various calling conventions
 dev-libs/libfido2 1.15.0-r1 1.16.0 1.17.0: Provides library functionality for FIDO 2.0
 dev-libs/libfilezilla 0.54.0 0.54.1 0.55.2 0.55.5 0.56.1: C++ library offering some basic functionality for platform-independent programs
@@ -8509,7 +8509,7 @@ dev-python/distro 1.9.0: Reliable machine-readable Linux distribution informatio
 dev-python/dj-database-url 3.0.1 3.1.2: Use Database URLs in your Django Application
 dev-python/dj-email-url 1.0.6: Use an URL to configure email backend settings in your Django Application
 dev-python/dj-search-url 0.1-r1: Use Search URLs in your Django Haystack Application
-dev-python/django 5.2.15 5.2.16 6.0.6 6.0.7: High-level Python web framework
+dev-python/django 5.2.16 6.0.7: High-level Python web framework
 dev-python/django-auth-ldap 5.3.0: Django LDAP authentication backend
 dev-python/django-cache-url 3.4.6: Use Cache URLs in your Django application
 dev-python/django-cacheops 7.2: ORM cache with automatic granular event-driven invalidation for Django
@@ -9748,7 +9748,7 @@ dev-python/toposort 1.10: Implements a topological sort algorithm
 dev-python/tornado 6.5.6 6.5.7: Python web framework and asynchronous networking library
 dev-python/towncrier 25.8.0: Building newsfiles for your project
 dev-python/tox 4.55.1 4.56.1 4.56.2 4.56.4: virtualenv-based automation of test activities
-dev-python/tpm2-pytss 2.3.0-r2: Python bindings for TSS
+dev-python/tpm2-pytss 2.3.0-r3: Python bindings for TSS
 dev-python/tqdm 4.67.3 4.68.1 4.68.2 4.68.3 4.68.4: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1: A configuration system for Python applications
 dev-python/trakit 0.2.5: Guess additional information from titles in media tracks
@@ -12808,7 +12808,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.5 3.12_pre20260706: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.5 3.12_pre20260709: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
