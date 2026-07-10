@@ -12065,7 +12065,7 @@ games-util/wiiload 0.5.3: Load homebrew apps over the network to your Wii
 games-util/wit 3.05a: command line tools to manipulate Wii/GameCube ISO images and WBFS containers
 games-util/wxchtdecoder 1.5a-r3: Program to decode .CHT files in Snes9x and ZSNES to plain text
 games-util/xboxdrv 0.8.11: Userspace Xbox 360 Controller driver
-games-util/xpadneo 0.9.8 0.10.1 0.10.2 0.10.3.1 9999: Advanced Linux Driver for Xbox One Wireless Controller
+games-util/xpadneo 0.9.8 0.10.1 0.10.2 0.10.4 9999: Advanced Linux Driver for Xbox One Wireless Controller
 games-util/xqf 1.0.6.2: A server browser for many FPS games (frontend for qstat)
 gnome-base/dconf 0.40.0: Simple low-level configuration system
 gnome-base/dconf-editor 45.0.1 49.0: Graphical tool for editing the dconf configuration database
@@ -13058,7 +13058,7 @@ media-fonts/ubuntu-font-family 0.83-r1: Set of matching libre/open fonts funded 
 media-fonts/umeplus-fonts 20180604: Modified Ume and M+ fonts for Japanese
 media-fonts/unfonts 1.0.2_pre080608-r1: Korean Un fonts collection
 media-fonts/unfonts-extra 1.0.2_pre080608-r1: Korean Un fonts extras collection
-media-fonts/unifont 14.0.03 17.0.03: GNU Unifont - a Pan-Unicode X11 bitmap iso10646 font
+media-fonts/unifont 17.0.03 17.0.05: GNU Unifont - a Pan-Unicode X11 bitmap iso10646 font
 media-fonts/urw-fonts 20230503-r1: (URW)++ base 35 font set
 media-fonts/urwvn-fonts 3.05: Vietnamese version of the standard PostScript fonts from URW++
 media-fonts/vdrsymbols-ttf 20100612 20100612-r1: Font that contains symbols needed for VDR
@@ -15814,7 +15814,7 @@ net-wireless/lorcon 2020.06.06_p20220216-r3 9999: A generic library for injectin
 net-wireless/madwimax 0.1.1-r2: Reverse-engineered driver for WiMAX devices based on Samsung CMC-730 chip
 net-wireless/mfoc 0.10.7-r1: Mifare Classic Offline Cracker
 net-wireless/nanovna-saver 0.6.8-r1 0.6.8-r2 0.7.3-r1 9999: tool for reading, displaying and saving data from the NanoVNA
-net-wireless/neard 0.19: Near Field Communication (NFC) management daemon
+net-wireless/neard 0.19 0.20: Near Field Communication (NFC) management daemon
 net-wireless/osmo-fl2k 0.2.0 9999: turns FL2000-based USB 3.0 to VGA adapters into low cost DACs
 net-wireless/portapack-firmware 20190405: Firmware and scripts for controlling the Portapack from Sharebrained
 net-wireless/portapack-havoc 0.0_p20180612: Custom firmware for the HackRF SDR + PortaPack H1 addon
@@ -18011,7 +18011,7 @@ sys-libs/liburing 2.9 2.10-r1 2.11 2.12 2.13 2.14 9999: Efficient I/O with io_ur
 sys-libs/libutempter 1.2.1: Library that allows non-privileged apps to write utmp (login) info
 sys-libs/libuuid 1.0.3-r1: Portable uuid C library
 sys-libs/libvpd 2.2.9: Library implementation for listing Vital Product Data
-sys-libs/libxcrypt 4.4.38 4.4.38-r1: Extended crypt library for descrypt, md5crypt, bcrypt, and others
+sys-libs/libxcrypt 4.4.38 4.4.38-r1 4.5.2: Extended crypt library for descrypt, md5crypt, bcrypt, and others
 sys-libs/lwp 2.8-r1: Light-weight process library (used by Coda)
 sys-libs/minizip-ng 4.0.10-r1 4.2.1: Fork of the popular zip manipulation library found in the zlib distribution
 sys-libs/mtdev 1.1.7: Multitouch Protocol Translation Library
