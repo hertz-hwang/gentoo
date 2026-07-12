@@ -2940,7 +2940,7 @@ app-misc/screenie 20120406: A small and lightweight screen wrapper
 app-misc/scrub 2.6.1-r2: Overwrite files with iterative patterns
 app-misc/sdate 0.7: Never ending September date
 app-misc/selecta 0.0.7-r1: A fuzzy text selector for files and anything else you need to select
-app-misc/siegfried 1.11.4: Signature-based file format identification
+app-misc/siegfried 1.11.4 1.11.5: Signature-based file format identification
 app-misc/skim 0.20.5 1.5.1 1.9.1 2.0.2 4.6.0 4.6.1: Command-line fuzzy finder
 app-misc/sl 5.02-r1: Sophisticated graphical program which corrects your miss typing
 app-misc/smtm 1.6.10-r2: Stock ticker, profit/loss calculator and chart tool
@@ -12804,7 +12804,7 @@ mail-filter/spamprobe 1.4d-r3: Fast, intelligent, automatic spam detector using 
 mail-filter/spf-engine 3.1.0-r1: Policy daemon for Postfix SPF verification
 mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing policy
 mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
-mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2: An MTA designed specifically for maildirs
+mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2 2.0.3: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
 mail-mta/exim 4.99.4 4.99.4-r1: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.32 1.8.33: An SMTP client and SMTP plugin for mail user agents such as Mutt
