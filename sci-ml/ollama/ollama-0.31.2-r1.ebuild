@@ -8,7 +8,7 @@ inherit cmake go-module systemd
 DESCRIPTION="Get up and running with Llama 3, Mistral, Gemma, and other language models"
 HOMEPAGE="https://ollama.com"
 
-LLAMA_CPP_tag=b9840
+LLAMA_CPP_tag=b9888
 
 SRC_URI="
 	https://github.com/ollama/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz
@@ -32,19 +32,23 @@ RDEPEND="
 	${DEPEND}
 	net-misc/curl:=
 "
-BDEPEND=">=dev-lang/go-1.26.0"
+BDEPEND="
+	>=dev-lang/go-1.26.0
+	dev-libs/stb
+"
 
 PATCHES=(
-	"${FILESDIR}"/${P}-ggml.patch
-	"${FILESDIR}"/${P}-llamaDL.patch
-	"${FILESDIR}"/${P}-cmake.patch
-	"${FILESDIR}"/${P}-nostrip.patch
+	"${FILESDIR}"/${PN}-0.31.1-ggml.patch
+	"${FILESDIR}"/${PN}-0.31.1-llamaDL.patch
+	"${FILESDIR}"/${PN}-0.31.1-cmake.patch
+	"${FILESDIR}"/${PN}-0.31.1-nostrip.patch
 )
 
 src_prepare() {
 	cmake_src_prepare
 	cd ../llama.cpp-${LLAMA_CPP_tag}
-	eapply "${FILESDIR}"/${P}-gcc17.patch
+	eapply "${FILESDIR}"/${PN}-0.31.1-gcc17.patch
+	rm -r vendor/stb || die
 }
 
 src_configure() {

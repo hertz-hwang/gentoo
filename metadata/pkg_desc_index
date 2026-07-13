@@ -939,7 +939,7 @@ app-admin/bitwarden-cli-bin 2025.12.0 2026.6.0: CLI client for Bitwarden compati
 app-admin/bitwarden-desktop-bin 2026.6.0 2026.6.1: Bitwarden password manager desktop client
 app-admin/bpftune 0.4_p2: BPF driven auto-tuning
 app-admin/btrfs-assistant 2.2: GUI management tool to make managing a Btrfs filesystem easier
-app-admin/calamares 3.3.14-r1 3.3.14-r4 3.3.14-r8 3.4.2: Distribution-independent installer framework
+app-admin/calamares 3.3.14-r1 3.3.14-r4 3.3.14-r8 3.4.2-r1: Distribution-independent installer framework
 app-admin/cancd 0.1.0-r6: CA NetConsole Daemon receives output from the Linux netconsole driver
 app-admin/ccze 0.2.1-r5: A flexible and fast logfile colorizer
 app-admin/cdist 7.0.0-r1: A usable configuration management system
@@ -1002,7 +1002,7 @@ app-admin/hcloud 1.65.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
-app-admin/ig 0.53.2: Tools and framework for data collection and system inspection using eBPF
+app-admin/ig 0.54.0: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57 2.61 2.61.1: A free, open source, light-weight and easy-to-use password manager
 app-admin/keepassxc 2.8.0_pre20260504 2.8.0_pre20260629: KeePassXC - KeePass Cross-platform Community Edition
@@ -10841,7 +10841,7 @@ dev-util/amdsmi 7.0.2 7.1.1 7.2.0: AMD System Management Interface for managing 
 dev-util/amtterm 1.6-r1: A nice tool to manage amt-enabled machines
 dev-util/android-sdk-cmdline-tools 0_p11076708-r1 0_p14742923: Open Handset Alliance's Android SDK
 dev-util/android-studio 2026.1.1.10: Android development environment based on IntelliJ IDEA
-dev-util/android-tools 35.0.2: Android platform tools (adb, fastboot, and mkbootimg)
+dev-util/android-tools 35.0.2 36.0.1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/android-udev-rules 20250525 20260423: Android udev rules list aimed to be the most comprehensive on the net
 dev-util/anjuta 3.34.0-r3: Base library of defunct IDE for GNOME to run applications
 dev-util/archdiff 1.1.6-r1: Utility to view the differences between two source code archives
@@ -10906,7 +10906,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.177: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.207: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
@@ -15635,7 +15635,7 @@ net-p2p/qbittorrent 5.1.2-r1 5.1.4 5.2.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 0.16.15 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
-net-p2p/syncthing 1.29.5 2.0.10 2.0.14 2.0.15 2.0.16 2.1.0 2.1.1: Open Source Continuous File Synchronization
+net-p2p/syncthing 2.0.10 2.0.16 2.1.1 2.1.2: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
 net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 4.1.3 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
@@ -15724,7 +15724,7 @@ net-vpn/derper 1.96.5 1.100.0: DERP server for tailscale network
 net-vpn/eduvpn-client 4.6.0 4.7.1 4.7.2 9999: Linux client and Python client API for eduVPN
 net-vpn/eduvpn-common 4.0.0 5.0.1 5.0.2: Linux client and Python client API for eduVPN
 net-vpn/fp-multiuser 0.0.2: A frp server plugin to support multiple users for frp
-net-vpn/frp 0.65.0 0.68.0: A reverse proxy that exposes a server behind a NAT or firewall to the internet
+net-vpn/frp 0.65.0 0.68.0 0.70.0: A reverse proxy that exposes a server behind a NAT or firewall to the internet
 net-vpn/gsocket 1.4.43 1.4.43-r1 9999: Allow firewalled/NATed host to establish a secure connection
 net-vpn/headscale 0.27.1 0.29.2: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/httptunnel 3.3_p20230508: httptunnel can create IP tunnels through firewalls/proxies using HTTP
@@ -16545,7 +16545,7 @@ sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hu
 sci-ml/ideep 3.10.2: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20250617-r2 0.4.0_p20260323 0.4.0_p20260410: part of the PyTorch Profiler
-sci-ml/ollama 0.31.1-r1 0.31.2: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.31.2-r1: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2 3.11.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.11.0 2.12.0: Tensors and Dynamic neural networks in Python
@@ -17323,7 +17323,7 @@ sys-apps/init-system-helpers 1.66: Helper scripts useful for both OpenRC and sys
 sys-apps/input-utils 1.3: Small collection of linux input layer utils
 sys-apps/install-xattr 0.10-r1 0.11 0.12 0.13 9999: Wrapper to coreutils install to preserve Filesystem Extended Attributes
 sys-apps/intel-sa-00075-tools 1.0-r1: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/intune-portal 1.2604.13 1.2604.19: Microsoft Intune Company Portal to access a corporate environment
+sys-apps/intune-portal 1.2604.19 1.2605.16: Microsoft Intune Company Portal to access a corporate environment
 sys-apps/inxi 3.3.35.1 3.3.38.1 3.3.40.1 3.3.41.1: The CLI inxi collects and prints hardware and system information
 sys-apps/iotools 1.5: Simple commands to access hardware device registers
 sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
@@ -17459,7 +17459,7 @@ sys-apps/sparc-utils 1.9-r7: Various sparc utilities from Debian GNU/Linux
 sys-apps/spu-tools 2.3.0.136: CELL spu ps and top alike utilities
 sys-apps/stroke 0.1.3-r3: Powerful tool to change file timestamps (including ctimes)
 sys-apps/superdiag 1.11.0.20251106: Provides the capability to determine the health of Supermicro servers components
-sys-apps/syd 3.55.0: seccomp and landlock based application sandbox with support for namespaces
+sys-apps/syd 3.55.0 3.57.0: seccomp and landlock based application sandbox with support for namespaces
 sys-apps/syd-tui 0.2.2: Syd's Terminal User Interface
 sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
@@ -18340,7 +18340,7 @@ www-apps/jellyfin-bin 10.11.11: Jellyfin puts you in control of managing and str
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
-www-apps/lidarr-bin 3.1.3.4968: Looks and smells like Sonarr but made for music
+www-apps/lidarr-bin 3.1.3.4975: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
 www-apps/mediawiki 1.43.6 1.43.8 1.43.9 1.44.3 1.44.5 1.44.6 1.45.1 1.45.3 1.45.4 1.46.0: The MediaWiki wiki web application (as used on wikipedia.org)
@@ -18362,8 +18362,8 @@ www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4 3.4.5 3.4.6: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 2.5.1.5460: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 6.2.1.10461: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 2.5.1.5464: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.7.5 3.7.6: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
