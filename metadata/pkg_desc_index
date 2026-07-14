@@ -1399,10 +1399,10 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 6.0.5-r1 6.0.6 6.23 7.0.0-r1 7.0.1 7.2 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 7.0.1 7.2 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
-app-containers/lxc 5.0.3 6.0.5 6.0.6 7.0.0: A userspace interface for the Linux kernel containment features
+app-containers/lxc 7.0.0: A userspace interface for the Linux kernel containment features
 app-containers/lxc-templates 3.0.4_p20240917: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.4 6.3 6.5: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.0.2 2.0.3 2.2.1 2.3.1 2.3.3 2.3.4: Docker-compatible CLI for containerd, with support for Compose
@@ -5425,7 +5425,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 115.24.0 128.14.0 140.9.1 140.11.0 140.12.0: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 115.24.0 128.14.0 140.11.0 140.12.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.0-r1 10.0.1 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1: Simplified Wrapper and Interface Generator
@@ -5884,7 +5884,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.38.2 4.39: Netscape Portable Runtime
-dev-libs/nss 3.112.5 3.123.1 3.124 3.125: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.112.5 3.125: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -6039,7 +6039,7 @@ dev-libs/vala-common 0.56.18 0.56.19: Build infrastructure for packages that use
 dev-libs/vali 0.1.1: C library and code generator for Varlink
 dev-libs/vc 1.4.5: SIMD Vector Class Library for C++
 dev-libs/vectorscan 5.4.11 5.4.12: A portable fork of the high-performance regular expression matching library
-dev-libs/voikko-fi 2.5-r2 2.6: Finnish dictionary for libvoikko based spell checkers (vvfst format)
+dev-libs/voikko-fi 2.6: Finnish dictionary for libvoikko based spell checkers (vvfst format)
 dev-libs/volume_key 0.3.12-r4: Library for manipulating and storing storage volume encryption keys
 dev-libs/wayland 1.24.0 1.25.0-r1 9999: Wayland protocol libraries
 dev-libs/wayland-protocols 1.48 1.49 9999: Wayland protocol files
@@ -10895,7 +10895,7 @@ dev-util/cargo-tarpaulin 0.35.0 0.35.1 0.35.2: Cargo-Tarpaulin is a tool to dete
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
 dev-util/catalyst 4.1.0 4.1.1-r1 9999: Release metatool used for creating releases based on Gentoo Linux
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
-dev-util/cbindgen 0.29.2 0.29.3 0.29.4: A tool for generating C bindings to Rust code
+dev-util/cbindgen 0.29.3 0.29.4: A tool for generating C bindings to Rust code
 dev-util/ccache 4.13.5: Fast compiler cache
 dev-util/cccc 3.1.6-r1 3.2.0: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20250815.1 9999: C/C++/ObjC language server
@@ -12753,9 +12753,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.7.1 1.7.2 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.12.0 140.12.1 152.0 152.0.1: Thunderbird Mail Client
+mail-client/thunderbird 140.12.1 152.0.1: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.12.1 152.0.1: Thunderbird Mail Client
-mail-client/thunderbird-l10n 152.0 152.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird-l10n 152.0.1: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -14520,7 +14520,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20260520 20260624: Download media files from Yle Areena
+media-video/yle-dl 20260624: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
@@ -15758,7 +15758,7 @@ net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, s
 net-vpn/tailscale 1.82.5 1.84.3 1.86.5 1.90.6 1.92.1 1.92.4 1.96.5 1.98.0 1.98.1 1.98.4 1.100.0: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.11 9999: Anonymizing overlay network for TCP
-net-vpn/vopono 0.10.15 0.10.16 0.10.17 0.10.18: Launch applications via VPN tunnels using temporary network namespaces
+net-vpn/vopono 0.10.18: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
 net-vpn/vpncloud 2.3.0-r2: High performance peer-to-peer mesh VPN
@@ -17806,7 +17806,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.19.1 7.0 9999: Btrfs filesystem utilities
@@ -17877,7 +17877,7 @@ sys-fs/lsscsi 0.32-r1: SCSI sysfs query tool
 sys-fs/lufis 0.3-r1: Wrapper to use lufs modules with fuse kernel support
 sys-fs/lufs 0.9.7-r4: User-mode filesystem implementation
 sys-fs/lvm2 2.03.22-r7 2.03.37 2.03.38 2.03.39 9999: User-land utilities for LVM2 (device-mapper) software
-sys-fs/lxcfs 5.0.4-r2 6.0.5 6.0.6 7.0.0: FUSE filesystem for LXC
+sys-fs/lxcfs 7.0.0: FUSE filesystem for LXC
 sys-fs/mac-fdisk 0.1_p18-r1 0.1_p18-r2: Mac/PowerMac disk partitioning utility
 sys-fs/mdadm 4.4-r1 4.5-r1 4.6-r1: Tool for running RAID systems - replacement for the raidtools
 sys-fs/mergerfs 2.40.2 2.41.1: A featureful union filesystem
@@ -18390,9 +18390,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.12.0 152.0.1 152.0.2 152.0.3 152.0.4 152.0.5: Firefox Web Browser
-www-client/firefox-bin 140.12.0 152.0.4 152.0.5: Firefox Web Browser
-www-client/firefox-l10n 152.0.1 152.0.2 152.0.3 152.0.4 152.0.5: Firefox Web Browser's translation files
+www-client/firefox 140.12.0 152.0.5: Firefox Web Browser
+www-client/firefox-bin 140.12.0 152.0.5: Firefox Web Browser
+www-client/firefox-l10n 152.0.5: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.215 149.0.7827.114 149.0.7827.155: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.53 150.0.7871.13 150.0.7871.24: The web browser from Google
 www-client/google-chrome-unstable 150.0.7846.4 151.0.7872.0 151.0.7886.2: The web browser from Google
@@ -18581,7 +18581,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.24 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.13 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.04 580.173.02 595.44.09 595.71.05 595.80 595.84 610.43.02-r1 610.43.03: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.159.04 580.173.02 595.44.09 595.71.05 595.84 610.43.02-r1 610.43.03: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
