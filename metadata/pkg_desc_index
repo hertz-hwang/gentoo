@@ -4960,7 +4960,7 @@ dev-java/angus-activation 1.0.0-r1: Provides the implementation of the Jakarta A
 dev-java/animal-sniffer-annotations 1.15-r1: Java annotations for marking methods that Animal Sniffer should ignore
 dev-java/ant 1.10.15 1.10.15-r1: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/ant-contrib 1.0_beta6_pre20201123-r3: Ant-contrib tasks for Apache Ant
-dev-java/ant-ivy 2.5.0-r4 2.5.3: Ivy is a free java based dependency manager
+dev-java/ant-ivy 2.5.3: Ivy is a free java based dependency manager
 dev-java/antlr 2.7.7-r10 3.2-r2 3.5.3 4.13.2: A parser generator for many languages
 dev-java/antlr-runtime 3.5.3 4.13.2: ANTLR 4 Runtime
 dev-java/antlr-tool 3.5.3-r1 4.13.2-r1: The ANTLR 4 grammar compiler
@@ -4971,16 +4971,16 @@ dev-java/apiguardian-api 1.1.2-r1: @org.apiguardian.api.API Java annotation prov
 dev-java/asm 9.7.1-r1 9.10.1: Bytecode manipulation framework for Java
 dev-java/asm-jdk-bridge 0.0.13: A Bridge to Translate ASM From and to The OpenJDK Class File API
 dev-java/aspectj 1.9.7-r1: A seamless aspect-oriented extension to the Java programming language
-dev-java/assertj-core 3.10.0 3.27.6 3.27.7: Rich and fluent assertions for testing for Java
+dev-java/assertj-core 3.10.0 3.27.7: Rich and fluent assertions for testing for Java
 dev-java/auto-service-annotations 1.1.1: Provider-configuration files for ServiceLoader
 dev-java/auto-value 1.11.1: Immutable value-type code generation for Java 1.7+
 dev-java/batik 1.18-r2: XML Graphics Batik
 dev-java/bcel 6.11.0: Apache Commons Bytecode Engineering Library
-dev-java/bcmail 1.83 1.84: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
-dev-java/bcpg 1.83 1.84: Java cryptography APIs
-dev-java/bcpkix 1.83 1.84: Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation
-dev-java/bcprov 1.83 1.84: Java cryptography APIs
-dev-java/bcutil 1.83 1.84: Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls
+dev-java/bcmail 1.84: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
+dev-java/bcpg 1.84: Java cryptography APIs
+dev-java/bcpkix 1.84: Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation
+dev-java/bcprov 1.84: Java cryptography APIs
+dev-java/bcutil 1.84: Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls
 dev-java/bnd 7.2.1 7.2.3: bndlib: A Swiss Army Knife for OSGi
 dev-java/bnd-annotation 7.2.1 7.2.3: bnd Annotations Library
 dev-java/bnd-ant 7.2.1 7.2.3: Bnd Ant Tasks
@@ -5075,7 +5075,7 @@ dev-java/injection-api 2.0.1: Jakarta Dependency Injection
 dev-java/iso-relax 20050331-r7: Interfaces useful for applications which support RELAX Core
 dev-java/istack-commons-runtime 3.0.12 4.1.1-r1: istack common utility code
 dev-java/j2objc-annotations 3.1: Annotations for the J2ObjC Java to Objective-C translator
-dev-java/jackcess 4.0.7-r1 4.0.10: A pure Java library for reading from and writing to MS Access databases
+dev-java/jackcess 4.0.10: A pure Java library for reading from and writing to MS Access databases
 dev-java/jackrabbit-webdav 2.10.1-r3: Fully conforming implementation of the JRC API (specified in JSR 170 and 283)
 dev-java/jackson-annotations 2.13.4-r1 2.20: Core annotations used for value types, used by Jackson data binding package
 dev-java/jackson-core 2.13.4-r1 2.20.0: Core Jackson processing abstractions (Streaming API), implementation for JSON
@@ -5224,7 +5224,7 @@ dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting
 dev-java/openjdk 8.492_p09 11.0.31_p11 17.0.19_p10-r1 21.0.11_p10-r1 25.0.3_p9-r1 25.0.4_beta4 27_beta25 28_alpha1: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.492_p09 11.0.31_p11 17.0.19_p10 21.0.11_p10 25.0.3_p9 27_alpha20: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.492_p09 11.0.31_p11 17.0.19_p10 21.0.11_p10 25.0.3_p9: Prebuilt Java JRE binaries provided by Eclipse Temurin
-dev-java/openjfx 8.1000-r2 11.0.11_p1-r5: Java OpenJFX client application platform
+dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
 dev-java/opentest4j 1.3.0-r1: Open Test Alliance for the JVM
 dev-java/osgi-annotation 8.1.0: OSGi Annotation Release 8, Annotations for use in compiling bundles
@@ -5238,7 +5238,7 @@ dev-java/pdfbox 2.0.32-r1 3.0.6: Java library and utilities for working with PDF
 dev-java/pebble 3.1.6: Templating engine for Java
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-java/plexus-classworlds 2.9.0: The class loader framework of the Plexus project
-dev-java/poi 5.2.5 5.5.1: Java API to access Mocrosoft format files
+dev-java/poi 5.5.1: Java API to access Mocrosoft format files
 dev-java/powermock-reflect 2.0.9: Various utilities for accessing internals of a class
 dev-java/protobuf-java 4.33.5: Core Protocol Buffers library
 dev-java/qdox 1.12.1-r8 2.2.0-r2: Parser for extracting class/interface/method definitions
@@ -5271,7 +5271,7 @@ dev-java/stringprep 2.2: Stringprep (RFC 3454) Java implementation
 dev-java/stringtemplate 3.2.1-r3 4.3.4: A Java template engine
 dev-java/sun-jai-bin 1.1.3-r3: JAI is a class library for managing images
 dev-java/swing-layout 1.0.4-r3: Professional cross platform layouts with Swing
-dev-java/swt 4.10-r4 4.29-r1 4.38: GTK based SWT Library
+dev-java/swt 4.29-r1 4.38: GTK based SWT Library
 dev-java/system-rules 1.19.0: A collection of JUnit rules for testing code which uses java.lang.System
 dev-java/tapestry-json 5.8.7-r1: Tapestry JSON
 dev-java/testng 7.11.0: Testing framework inspired by JUnit and NUnit with new features
@@ -14917,7 +14917,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 0.0.135 1.0.144 1.0.145 1.0.146: All-in-one voice and text chat for gamers
+net-im/discord 0.0.135 1.0.146 1.0.147: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.10 25.04 25.10 26.04: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -18392,9 +18392,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.12.0 152.0.5: Firefox Web Browser
+www-client/firefox 140.12.0 152.0.5 152.0.6: Firefox Web Browser
 www-client/firefox-bin 140.12.0 152.0.5 152.0.6: Firefox Web Browser
-www-client/firefox-l10n 152.0.5: Firefox Web Browser's translation files
+www-client/firefox-l10n 152.0.5 152.0.6: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.215 149.0.7827.114 149.0.7827.155: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.53 150.0.7871.13 150.0.7871.24: The web browser from Google
 www-client/google-chrome-unstable 150.0.7846.4 151.0.7872.0 151.0.7886.2: The web browser from Google
