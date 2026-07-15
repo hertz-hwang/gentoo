@@ -1258,7 +1258,7 @@ app-backup/bareos 21.1.11 22.1.8 23.1.5 23.1.7 24.0.7 24.0.10 25.0.1 25.0.3 9999
 app-backup/borgbackup 1.4.3 1.4.4: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 2.0.13 2.1.5 2.1.6: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.6-r1 0.32.6-r2 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
-app-backup/burp 3.2.0 3.3.0: Network backup and restore client and server for Unix and Windows
+app-backup/burp 3.2.0 3.3.0-r1: Network backup and restore client and server for Unix and Windows
 app-backup/ccollect 0.8-r2 2.10: Pseudo incremental backup with different exclude lists using hardlinks and rsync
 app-backup/cdbackup 0.7.1-r2: Allows streaming backup utilities to dump/restore from CD-R(W)s or DVD(+/-RW)s
 app-backup/cdbkup 1.0-r5: Performs full/incremental backups of local/remote filesystems onto CD-R(W)s
@@ -1316,7 +1316,7 @@ app-benchmarks/pmbw 0.6.3: Parallel Memory Bandwidth Measurement / Benchmark Too
 app-benchmarks/ramspeed 3.5.0-r2: Benchmarking for memory and cache
 app-benchmarks/siege 4.1.7: HTTP regression testing and benchmarking utility
 app-benchmarks/stress 1.0.7: A deliberately simple workload generator for POSIX systems
-app-benchmarks/stress-ng 0.21.00 0.21.03: Stress test for a computer system with various selectable ways
+app-benchmarks/stress-ng 0.21.03 0.21.04: Stress test for a computer system with various selectable ways
 app-benchmarks/sysbench 1.0.20-r101: A scriptable multi-threaded benchmark tool based on LuaJIT
 app-benchmarks/tiobench 0.5.0: Portable, robust, fully-threaded I/O benchmark program
 app-benchmarks/wrk 4.2.0: A HTTP benchmarking tool
@@ -1892,7 +1892,7 @@ app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text ed
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
-app-editors/zed 1.1.8 1.4.2 1.6.3 1.7.2: The fast, collaborative code editor
+app-editors/zed 1.4.2 1.6.3 1.7.2 1.10.3: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.2_p20250524 1.3_p20260615: Algol68 major mode for GNU Emacs
@@ -4041,7 +4041,7 @@ dev-db/mysql-connector-c 8.0.36-r1 8.0.41-r1: C client library for MariaDB/MySQL
 dev-db/mysql-connector-c++ 9.4.0 9.6.0 9.7.0: MySQL database connector for C++ (mimics JDBC 4.0 API)
 dev-db/mysql-init-scripts 2.3-r8: Gentoo MySQL init scripts
 dev-db/mysql-workbench 8.0.42-r1 8.0.44 8.0.46: MySQL Workbench
-dev-db/mysqltuner 2.8.44 2.8.45: Makes recommendations for increased performance and stability for MySQL
+dev-db/mysqltuner 2.8.45 2.9.0: Makes recommendations for increased performance and stability for MySQL
 dev-db/mytop 1.9.1-r2: Clone of top for MySQL
 dev-db/ocp 0.3 9999: Oracle copy tool
 dev-db/opendbx 1.4.6-r6: OpenDBX - A database abstraction layer
@@ -4057,7 +4057,7 @@ dev-db/pg_qualstats 2.1.4-r1: Statistics about predicates for helping finding wh
 dev-db/pg_stat_kcache 2.3.2-r1: Statistics about physical disk access and CPU consumption done by backends
 dev-db/pg_top 4.1.3: 'top' for PostgreSQL
 dev-db/pg_track_settings 2.1.2-r1: Keeps track of PostgreSQL settings modification
-dev-db/pg_wait_sampling 1.1.9-r1: Sampling based statistics of wait events
+dev-db/pg_wait_sampling 1.1.11: Sampling based statistics of wait events
 dev-db/pgagent 4.2.3-r1 4.2.3-r2: pgAgent is a job scheduler for PostgreSQL
 dev-db/pgbadger 12.4 13.1 13.2: pgBadger is a PostgreSQL log analyzer
 dev-db/pgbouncer 1.23.1 1.25.2: Lightweight connection pooler for PostgreSQL
@@ -4074,7 +4074,7 @@ dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.8-r1 3.3.9 3.4.4-r1 3.4.5 3.5.2-r1 3.5.3-r2 3.5.5 3.6.0 3.6.2: Geographic Objects for PostgreSQL
 dev-db/postgresql 14.23-r1 15.18-r1 16.14-r1 17.10 18.4 19_beta1 9999: PostgreSQL RDBMS
-dev-db/powa-archivist 5.1.2-r1: PostgreSQL Workload Analyzer Archivist
+dev-db/powa-archivist 5.2.0: PostgreSQL Workload Analyzer Archivist
 dev-db/powa-collector 1.3.2: PostgreSQL Workload Analyzer Collector
 dev-db/powa-web 5.1.5: PostgreSQL Workload Analyzer user interface
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
@@ -11942,7 +11942,7 @@ games-rpg/wasteland2 1.9.0.13-r2: Sequel to 1988 Wasteland, post-apocalyptic com
 games-rpg/xu4 1.4.3: A remake of the computer game Ultima IV
 games-rpg/zsdx 1.13.0_p20240219: Free 2D Zelda fangame
 games-rpg/zsxd 1.13.0_p20251108: Free 2D Zelda fangame parody
-games-server/bedrock-server 1.26.32.2: The official bedrock (non-java) based server for the sandbox video game
+games-server/bedrock-server 1.26.33.2: The official bedrock (non-java) based server for the sandbox video game
 games-server/crossfire-server 1.71.0-r2 1.75.0-r1: Server for the crossfire clients
 games-server/etqw-ded 1.5-r1: Enemy Territory: Quake Wars dedicated server
 games-server/mednafen-server 0.5.2-r3: Server for Mednafen emulator
@@ -11961,7 +11961,7 @@ games-simulation/gl117 1.3.2-r1: Action flight simulator
 games-simulation/lincity 1.13.1-r4: City simulation game for X
 games-simulation/lincity-ng 2.9_beta-r1 2.13.1 9999: City simulation game
 games-simulation/micropolis 1.0_p20250628 1.0_p20250710: Free version of the well-known city building simulation
-games-simulation/openrct2 0.4.32 0.5.2: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
+games-simulation/openrct2 0.4.32 0.5.3: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
 games-simulation/openttd 15.2 15.3 9999: A clone of Transport Tycoon Deluxe
 games-simulation/pmars-sdl 0.9.2e-r2: Portable redcode simulator's sdl port for core war
 games-simulation/searchandrescue 1.7.0-r1: Helicopter based air rescue flight simulator
@@ -14379,7 +14379,7 @@ media-tv/kodi 21.3 21.9999 22.0_alpha2 22.0_alpha3 9999: A free and open source 
 media-tv/linuxtv-dvb-apps 1.1.1.20140321-r2: Small utils for DVB to scan, zap, view signal strength
 media-tv/mythtv 35.0_p20251230: Open Source DVR and media center hub
 media-tv/mythtv-status 1.1.0: Displays the current status of MythTV at the command prompt
-media-tv/plex-media-server 1.43.1.10611: Free media library that is intended for use with a plex client
+media-tv/plex-media-server 1.43.3.10828: Free media library that is intended for use with a plex client
 media-tv/shoutcast2vdr 0.0.8-r1: VDR script: generate shoutcast playlists
 media-tv/tvbrowser-bin 4.2.7: Themeable and easy to use TV Guide - written in Java
 media-tv/tvheadend 4.3_p20240618-r1 4.3_p20260516 9999: Tvheadend is a TV streaming server and digital video recorder
@@ -14940,7 +14940,7 @@ net-im/rocketchat-desktop-bin 3.9.10-r1 4.1.1-r1: The Ultimate Open Source Web C
 net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(1) does for mail
 net-im/sendxmpp-scala 1.2.0 1.2.1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19 0.14.1: Send and receive messages of Signal Messenger over a command line interface
-net-im/signal-desktop-bin 8.15.0: Allows you to send and receive messages of Signal Messenger on your computer
+net-im/signal-desktop-bin 8.18.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/slack 4.49.89 4.50.121 4.50.143: Team collaboration tool
 net-im/spectrum2 2.2.1-r2: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
@@ -15449,7 +15449,7 @@ net-misc/omniORB 4.3.0: A robust, high-performance CORBA 2 ORB
 net-misc/omnisync 1.0_p20200130-r1: A driver for NTPd for people who are firewall-challenged
 net-misc/onedrive 2.5.6 2.5.7-r1 2.5.9 2.5.10: Free Client for OneDrive on Linux
 net-misc/openntpd 6.2_p3-r2 6.2_p3-r3 6.8_p1-r2: Lightweight NTP server ported from OpenBSD
-net-misc/openrdap 0.9.1: RDAP command line client
+net-misc/openrdap 0.9.1 0.10.0: RDAP command line client
 net-misc/openrsync 0.5.0_p20220508 0.5.0_p20250127: BSD-licensed implementation of rsync
 net-misc/openssh 9.8_p1-r4 9.9_p2-r4 10.0_p1 10.0_p2 10.1_p1-r1 10.2_p1 10.2_p1-r1 10.3_p1 10.4_p1: Port of OpenBSD's free SSH release
 net-misc/openssh-contrib 9.7_p1-r4: Port of OpenBSD's free SSH release with HPN/X509 patches
@@ -15842,7 +15842,7 @@ net-wireless/suwidgets 0.3.0_p20251029: graphical library containing all SigDigg
 net-wireless/tempestsdr 0.0_p20260404 9999: Remote video eavesdropping using a software-defined radio platform
 net-wireless/ubertooth 2020.12.1-r1 9999: open source wireless development platform suitable for Bluetooth experimentation
 net-wireless/uhd 4.9.0.1-r1 4.10.0.0-r2: Universal Software Radio Peripheral (USRP) Hardware Driver
-net-wireless/unifi 10.1.89 10.3.58 10.4.57: A Management Controller for Ubiquiti Networks UniFi APs
+net-wireless/unifi 10.5.54: A Management Controller for Ubiquiti Networks UniFi APs
 net-wireless/urh 2.10.0-r2 9999: Universal Radio Hacker: investigate wireless protocols like a boss
 net-wireless/wavemon 0.9.5 0.9.6: Ncurses based monitor for IEEE 802.11 wireless LAN cards
 net-wireless/wepattack 0.1.3-r6 0.1.3-r7: WLAN tool for breaking 802.11 WEP keys
@@ -16720,6 +16720,7 @@ sec-keys/openpgp-keys-gnustep 20251025: OpenPGP keys used by the GNUstep project
 sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 20250704 20260210: OpenPGP keys used by GnuTLS
 sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
+sec-keys/openpgp-keys-grke 20260714: OpenPGP key used by Graham Keeling
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
 sec-keys/openpgp-keys-gsasl 20260127 20260616: OpenPGP keys used by the GNU SASL Library
 sec-keys/openpgp-keys-guillemjover 20220331: OpenPGP keys used by Guillem Jover
@@ -17512,7 +17513,7 @@ sys-apps/xmbmon 2.0.5-r2: Mother Board Monitor Program for X Window System
 sys-apps/yarn 1.22.22: Fast, reliable, and secure node dependency management
 sys-apps/zorroutils 0.05: Zorro bus utility for Amigas running 2.1 and later kernels
 sys-apps/zram-generator 1.1.2-r1 1.2.1: Systemd unit generator for zram swap devices
-sys-auth/AusweisApp 2.5.1-r1 2.5.3: Official authentication app for German ID cards and residence permits
+sys-auth/AusweisApp 2.5.3 2.5.4: Official authentication app for German ID cards and residence permits
 sys-auth/docker_auth 1.9.0: Docker Registry 2 authentication server
 sys-auth/elogind 255.24 255.25 255.27 257.14-r1 257.16: The systemd project's logind, extracted to a standalone package
 sys-auth/fprintd 1.94.2-r1 1.94.3-r1 1.94.5: D-Bus service to access fingerprint readers
