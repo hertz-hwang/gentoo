@@ -2787,7 +2787,7 @@ app-misc/enum 1.1-r1: Replacement for GNU seq and BSD jot
 app-misc/esekeyd 1.2.7-r2: Multimedia key daemon that uses the Linux event interface
 app-misc/evtest 1.35 1.36: Test program for capturing input device events
 app-misc/faq 0.0.7: Format agnostic jQ
-app-misc/fastfetch 0.1.9999 0.2.9999 2.61.0 2.63.1 2.65.2: Fast neofetch-like system information tool
+app-misc/fastfetch 0.1.9999 0.2.9999 2.61.0 2.63.1 2.65.2 2.66.0: Fast neofetch-like system information tool
 app-misc/fdupes 2.3.2 2.4.0 9999: Identify/delete duplicate files residing within specified directories
 app-misc/fdutils 5.6_p2: Utilities for configuring and debugging the Linux floppy driver
 app-misc/fhem 6.3: A GPL'd perl server for house automation
@@ -10908,7 +10908,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.209: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.211: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.1.1 2025.3.2 2025.3.4 2026.1: A complete toolset for C and C++ development
@@ -13609,7 +13609,7 @@ media-libs/musicbrainz 5.1.0-r2: Client Library for accessing the latest XML bas
 media-libs/mutagen 1.47.0 1.48.0 1.48.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20231202: Simple stupid single-header-file SVG parse
 media-libs/nas 1.9.5-r2: Network Audio System
-media-libs/netpbm 11.2.19 11.2.22 11.15.2 9999: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/netpbm 11.2.19 11.2.22 11.15.2 11.15.3 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.1.14.1 13.0.19.0 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.17: A VA-API implemention using NVIDIA's NVDEC
