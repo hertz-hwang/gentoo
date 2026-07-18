@@ -1559,9 +1559,9 @@ app-crypt/tpm-tools 1.3.9.2-r1: TrouSerS' support tools for the Trusted Platform
 app-crypt/tpm2-abrmd 3.0.0-r2: TPM2 Access Broker & Resource Manager
 app-crypt/tpm2-openssl 1.3.0: OpenSSL Provider for TPM2 integration
 app-crypt/tpm2-pkcs11 1.10.0: A PKCS#11 interface for TPM2 hardware
-app-crypt/tpm2-tools 5.7: Tools for the TPM 2.0 TSS
+app-crypt/tpm2-tools 5.7 5.7.1 5.8: Tools for the TPM 2.0 TSS
 app-crypt/tpm2-totp 0.3.0-r1: Attest the trustworthiness of a device against a human using time-based OTP
-app-crypt/tpm2-tss 4.1.3-r2: TCG Trusted Platform Module 2.0 Software Stack
+app-crypt/tpm2-tss 4.1.3-r2 4.1.4 4.2.0: TCG Trusted Platform Module 2.0 Software Stack
 app-crypt/trousers 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
 app-crypt/uacme 1.8.1: A client for the RFC8555 ACMEv2 protocol
 app-crypt/ubuntu-keyring 2023.11.28.1: GnuPG archive keys of the Ubuntu archive
@@ -1822,7 +1822,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 26.3-r25 27.2-r23 28.2-r20 29.4-r6 29.4-r7 29.4-r8 30.2-r1 30.2-r3 30.2-r4 31.0.90 31.0.9999-r1 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 26.3-r25 27.2-r23 28.2-r20 29.4-r6 29.4-r7 30.2-r1 30.2-r3 30.2-r4 31.0.90 31.0.9999-r1 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
 app-editors/fe 2.0-r1: A small and easy to use folding editor
@@ -4159,7 +4159,7 @@ dev-embedded/arduino-listserialportsc 1.4.0-r1: Arduino helper library to list s
 dev-embedded/avarice 2.14-r1: Interface for GDB to Atmel AVR JTAGICE in circuit emulator
 dev-embedded/avr-libc 2.1.0: C library for Atmel AVR microcontrollers
 dev-embedded/avra 1.4.2-r1: Atmel AVR Assembler
-dev-embedded/avrdude 7.2: AVR Downloader/UploaDEr
+dev-embedded/avrdude 7.2 8.2: AVR Downloader/UploaDEr
 dev-embedded/cpik 0.7.4_p4-r1: C compiler for PIC18 devices
 dev-embedded/dc-tool-ip 1.0.4-r1: Ethernet program loader for the Dreamcast
 dev-embedded/dfu-programmer 1.1.0: A Device Firmware Update based USB programmer for Atmel chips
@@ -6493,7 +6493,7 @@ dev-perl/Business-ISMN 1.204.0 1.205.0: International Standard Music Numbers
 dev-perl/Business-ISSN 1.8.0-r1: Object and functions to work with International Standard Serial Numbers
 dev-perl/Business-Tax-VAT-Validation 1.230.0 1.240.0: Class for European VAT numbers validation
 dev-perl/Business-UPS 2.20.0: UPS Interface Module
-dev-perl/Bytes-Random-Secure 0.290.0: Extension to generate cryptographically-secure random bytes
+dev-perl/Bytes-Random-Secure 0.290.0 0.290.0-r1: Extension to generate cryptographically-secure random bytes
 dev-perl/C-Scan 0.740.0: Scan C language files for easily recognized constructs
 dev-perl/CBOR-XS 1.870.0: Concise Binary Object Representation (CBOR, RFC7049)
 dev-perl/CDB_File 1.50.0-r1: Perl extension for access to cdb databases
@@ -6666,7 +6666,7 @@ dev-perl/Crypt-OpenSSL-ECDSA 0.100.0: OpenSSL ECDSA (Elliptic Curve Digital Sign
 dev-perl/Crypt-OpenSSL-Guess 0.150.0: Guess OpenSSL include path
 dev-perl/Crypt-OpenSSL-RSA 0.350.0 0.370.0: RSA encoding and decoding using the OpenSSL libraries
 dev-perl/Crypt-OpenSSL-Random 0.170.0: OpenSSL pseudo-random number generator access
-dev-perl/Crypt-PBKDF2 0.161.520: The PBKDF2 password hashing algorithm
+dev-perl/Crypt-PBKDF2 0.161.520 0.261.630: The PBKDF2 password hashing algorithm
 dev-perl/Crypt-PWSafe3 1.220.0: Read and write Passwordsafe v3 files
 dev-perl/Crypt-PasswdMD5 1.420.0: Provides interoperable MD5-based crypt() functions
 dev-perl/Crypt-Password 0.280.0: Unix-style, Variously Hashed Passwords
@@ -6686,7 +6686,7 @@ dev-perl/Crypt-SmbHash 0.120.0-r3: LM/NT hashing, for Samba's smbpasswd entries
 dev-perl/Crypt-Twofish 2.180.0-r1: The Twofish Encryption Algorithm
 dev-perl/Crypt-URandom 0.540.0 0.550.0: Provide non blocking randomness
 dev-perl/Crypt-X509 0.550.0: Parse a X.509 certificate
-dev-perl/CryptX 0.87.0: Self-contained crypto toolkit
+dev-perl/CryptX 0.87.0 0.90.0: Self-contained crypto toolkit
 dev-perl/Curses 1.450.0 1.460.0: Curses interface modules for Perl
 dev-perl/Curses-UI 0.960.900-r3: Perl UI framework based on the curses library
 dev-perl/CursesWidgets 1.997.0-r3: Provide high level APIs for rapid user interface design on the console in Perl
@@ -7101,7 +7101,7 @@ dev-perl/HTTP-Cookies 6.110.0: Storage of cookies
 dev-perl/HTTP-DAV 0.490.0-r1 0.500.0: A WebDAV client library for Perl5
 dev-perl/HTTP-Daemon 6.160.0: Base class for simple HTTP servers
 dev-perl/HTTP-Daemon-SSL 1.04-r1 1.05.01: A simple http server class with SSL support
-dev-perl/HTTP-Date 6.60.0: Date conversion for HTTP date formats
+dev-perl/HTTP-Date 6.60.0 6.80.0: Date conversion for HTTP date formats
 dev-perl/HTTP-Entity-Parser 0.250.0-r1: PSGI compliant HTTP Entity Parser
 dev-perl/HTTP-Exception 0.40.70-r1: throw HTTP-Errors as (Exception::Class-) Exceptions
 dev-perl/HTTP-Headers-ActionPack 0.90.0-r1: HTTP Action, Adventure and Excitement
@@ -7416,10 +7416,10 @@ dev-perl/Net-Amazon 0.620.0-r1: Framework for accessing amazon.com via SOAP and 
 dev-perl/Net-Amazon-S3 0.991.0-r1: Framework for accessing the Amazon S3 Simple Storage Service
 dev-perl/Net-Bonjour 0.960.0-r1: Module for DNS service discovery (Apple's Bonjour)
 dev-perl/Net-CIDR 0.220.0 0.250.0 0.270.0: Manipulate netblock lists in CIDR notation
-dev-perl/Net-CIDR-Lite 0.220.0-r1: Perl extension for merging IPv4 or IPv6 CIDR addresses
+dev-perl/Net-CIDR-Lite 0.220.0-r1 0.240.0: Perl extension for merging IPv4 or IPv6 CIDR addresses
 dev-perl/Net-CUPS 0.640.0-r2: CUPS C API Interface
 dev-perl/Net-DBus 1.2.0: Perl extension for the DBus message system
-dev-perl/Net-DNS 1.500.0 1.510.0 1.520.0 1.530.0: Perl Interface to the Domain Name System
+dev-perl/Net-DNS 1.530.0 1.560.0: Perl Interface to the Domain Name System
 dev-perl/Net-DNS-Async 1.70.0-r2: Asynchronous DNS helper for high volume applications
 dev-perl/Net-DNS-Resolver-Mock 1.202.302.160: Mock a DNS Resolver object for testing
 dev-perl/Net-DNS-Resolver-Programmable 0.9.0-r1: programmable DNS resolver class for offline emulation of DNS
@@ -7736,7 +7736,7 @@ dev-perl/String-RewritePrefix 0.9.0: Rewrite strings based on a set of known pre
 dev-perl/String-ShellQuote 1.40.0-r2: Quote strings for passing through the shell
 dev-perl/String-Tokenizer 0.60.0-r1: A simple string tokenizer
 dev-perl/String-Truncate 1.100.603: Module for when strings are too long to be displayed in...
-dev-perl/String-Util 1.350.0: String processing utility functions
+dev-perl/String-Util 1.350.0 1.360.0: String processing utility functions
 dev-perl/Struct-Compare 1.0.1-r1: Recursive diff for perl structures
 dev-perl/Struct-Dumb 0.150.0 0.160.0: Make simple lightweight record-like structures
 dev-perl/Sub-Delete 1.0.30: Perl module enabling one to delete subroutines
@@ -11311,7 +11311,7 @@ dev-vcs/svneverever 1.7.2-r1 1.7.2-r2: Tool collecting path entries across SVN h
 dev-vcs/tig 2.5.8 2.5.10 2.5.12 2.6.0 2.6.0-r1 2.6.1 9999: text mode interface for git
 dev-vcs/tkcvs 9.4.9: Tcl/Tk-based graphical interface to CVS with Subversion support
 dev-vcs/topgit 0.19.13 0.19.14: A different patch queue manager
-dev-vcs/tortoisehg 6.9-r1 7.0.1 7.0.1-r1 9999: Set of graphical tools for Mercurial
+dev-vcs/tortoisehg 6.9-r1 7.0.1 7.0.1-r1 7.2.2 9999: Set of graphical tools for Mercurial
 dev-vcs/vcsh 1.20190621.4 2.0.4 2.0.8: Manage config files in $HOME via fake bare git repositories
 games-action/0verkill 0.16-r4: A bloody 2D action deathmatch-like game in ASCII-ART
 games-action/a-story-about-my-uncle 5188: First person platforming adventure about a boy who searches for his lost uncle
@@ -11993,7 +11993,7 @@ games-strategy/colobot-data 0.2.2_alpha: Data package for colobot (Colonize with
 games-strategy/darwinia 1.43: A digital dreamscape simulation game
 games-strategy/dominions2 2.16-r1: Dominions 2: The Ascension Wars is an epic turn-based fantasy strategy game
 games-strategy/dopewars 1.6.1 1.6.2 1.6.2-r1: Re-Write of the game Drug Wars
-games-strategy/dunelegacy 0.97.02: Updated clone of Westood Studios' Dune II
+games-strategy/dunelegacy 0.97.02: Updated clone of Westwood Studios' Dune II
 games-strategy/endless-sky 0.11.2: Space exploration, trading & combat in the tradition of Terminal Velocity
 games-strategy/freeciv 3.1.4 3.2.3 9999: Multiplayer strategy game (Civilization Clone)
 games-strategy/freecol 1.2.0-r1: Open source clone of the game Colonization
@@ -14021,7 +14021,7 @@ media-radio/grig 0.9.0: A tool for controlling amateur radios
 media-radio/ibp 0.21-r3: Shows currently transmitting beacons of the International Beacon Project (IBP)
 media-radio/js8call 3.0.1 3.0.2 3.0.3: Weak signal ham radio communication
 media-radio/kochmorse 3.5.1_p20250730: Morse-code tutor using the Koch method
-media-radio/qlog 0.48.0 0.49.0 0.50.0 9999: Amateur radio logbook software
+media-radio/qlog 0.50.0 0.51.1 9999: Amateur radio logbook software
 media-radio/qrq 0.3.5-r2: Yet another CW trainer for Linux/Unix
 media-radio/qsstv 9.5.11_pre20250212: Amateur radio SSTV software
 media-radio/svxlink 25.05.1_p20250929-r1 26.05: Multi Purpose Voice Services System, including Qtel for EchoLink
@@ -14272,7 +14272,7 @@ media-sound/qjackctl 1.0.4 9999: Qt GUI to control the JACK Audio Connection Kit
 media-sound/qmidiarp 0.7.2: Arpeggiator, sequencer and MIDI LFO for ALSA
 media-sound/qmmp 2.3.0 2.3.1 2.3.2 2.3.3 9999: Qt-based audio player with winamp/xmms skins support
 media-sound/qpaeq 17.0: Equalizer interface for equalizer sinks of PulseAudio (networked sound server)
-media-sound/qpwgraph 0.9.8 9999: PipeWire Graph Qt GUI Interface
+media-sound/qpwgraph 1.0.2 9999: PipeWire Graph Qt GUI Interface
 media-sound/qsampler 1.0.0-r1 9999: Graphical frontend to the LinuxSampler engine
 media-sound/qsynth 1.0.2-r1 9999: Qt application to control FluidSynth
 media-sound/qtractor 1.5.11 1.6.0 1.6.1: Audio/MIDI multi-track sequencer written in C++ with the Qt framework
@@ -17308,7 +17308,7 @@ sys-apps/grep 3.11-r1 3.12: GNU regular expression matcher
 sys-apps/grepcidr 2.0: Filter IPv4 and IPv6 addresses matching CIDR patterns
 sys-apps/groff 1.23.0-r1 1.23.0-r2: Text formatter used for man pages
 sys-apps/gsmartcontrol 2.0.1: Hard Disk Drive and SSD Health Inspection Tool
-sys-apps/haveged 1.9.21: A simple entropy daemon using the HAVEGE algorithm
+sys-apps/haveged 1.9.21 1.9.26: A simple entropy daemon using the HAVEGE algorithm
 sys-apps/hd-idle 1.05-r2 1.05-r3 1.05-r4 1.05-r5: Utility for spinning down hard disks after a period of idle time
 sys-apps/hdparm 9.65-r2: Utility to change hard drive performance parameters
 sys-apps/heirloom-tools 070715-r6 070715-r7: Heirloom toolchest - original Unix tools
@@ -17437,7 +17437,7 @@ sys-apps/restorecond 3.6 3.7 3.8.1 3.9 3.10 3.11 9999: Daemon to watch for creat
 sys-apps/ripgrep 15.1.0 15.2.0: Search tool that combines the usability of ag with the raw speed of grep
 sys-apps/ripgrep-all 0.10.9-r1 0.10.10: Like ripgrep, but also search in PDFs, E-Books, Office documents, archives, etc.
 sys-apps/rkflashtool 6.1: Tool for flashing Rockchip devices
-sys-apps/rng-tools 6.16-r2 6.17-r1: Daemon to use hardware random number generators
+sys-apps/rng-tools 6.17-r1: Daemon to use hardware random number generators
 sys-apps/roccat-tools 5.9.0-r102: Utility for advanced configuration of Roccat devices
 sys-apps/rootlesskit 2.0.2: Linux-native "fake root" for implementing rootless containers
 sys-apps/s390-tools 2.12.0-r1 2.27.0-r1 2.40.0-r1: User space utilities for the zSeries (s390) Linux kernel and device drivers
