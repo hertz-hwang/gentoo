@@ -1884,7 +1884,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.127.0 1.128.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.127.0 1.128.0 1.129.1: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.110.11631 1.112.01907 1.116.02821: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -3145,7 +3145,7 @@ app-shells/dash 0.5.12-r1 0.5.13.4 0.5.13.4-r1 0.5.13.4-r2 9999: Debian Almquist
 app-shells/dsh 0.25.10-r2: Distributed Shell
 app-shells/fish 4.5.0-r2 4.6.0 4.7.1 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
-app-shells/fzf 0.72.0 0.73.1 0.74.0: General-purpose command-line fuzzy finder, written in Golang
+app-shells/fzf 0.72.0 0.73.1 0.74.0 0.74.1: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
 app-shells/gentoo-bashcomp 20240625 20250620: Gentoo-specific bash command-line completions (emerge, ebuild, equery, etc)
 app-shells/gentoo-zsh-completions 20220112 20230117 20260628.1 99999999: Gentoo specific zsh completion support (includes emerge and ebuild commands)
@@ -3420,7 +3420,7 @@ app-text/scrollkeeper-dtd 1.0-r2: DTD from the Scrollkeeper package
 app-text/sdcv 0.5.5: Console version of Stardict program
 app-text/sgml-common 0.6.3-r7: Base ISO character entities and utilities for SGML
 app-text/sgrep 1.94a-r2: Use structural criteria to grep and index text, SGML, XML and HTML and filter
-app-text/sigil 2.7.6 2.8.0: Multi-platform WYSIWYG ebook editor for ePub format
+app-text/sigil 2.7.6 2.8.0 2.8.1: Multi-platform WYSIWYG ebook editor for ePub format
 app-text/sloccount 2.26-r3: Tools for counting Source Lines of Code (SLOC) for a large number of languages
 app-text/spellutils 0.7-r1: spellutils includes 'newsbody' (useful for spellchecking in mails, etc.)
 app-text/sword 1.9.0-r2: Library for Bible reading software
@@ -3475,7 +3475,7 @@ app-text/xlsx2csv 0.8.6: Convert MS Office xlsx files to CSV
 app-text/xml2 0.5-r1: These tools are used to convert XML and HTML to and from a line-oriented format
 app-text/xml2doc 20030510-r4: Tool to convert simple XML to a variety of formats (pdf, html, txt, manpage)
 app-text/xml2rfc 3.26.0 3.33.0: Generates RFCs and IETF drafts from document source in XML
-app-text/xmldiff 2.6.3-r1 2.7.0: Tool that figures out the differences between two similar XML files
+app-text/xmldiff 2.7.0: Tool that figures out the differences between two similar XML files
 app-text/xmlformat 1.04: Reformat XML documents to your custom style
 app-text/xmlstarlet 1.6.1-r3 1.6.1-r4 1.6.1-r5: A set of tools to transform, query, validate, and edit XML documents
 app-text/xmlto 0.0.28-r11: Script for converting XML and DocBook documents to a variety of output formats
@@ -3913,7 +3913,7 @@ dev-cpp/cld3 3.0.13_p20220331: Neural network model for language identification
 dev-cpp/clhpp 2024.10.24: Khronos OpenCL C++ bindings
 dev-cpp/cli11 2.6.1 2.6.2: Command line parser for C++11
 dev-cpp/clucene 2.3.3.4-r9 2.3.3.4-r10 2.3.3.4-r11: High-performance, full-featured text search engine based off of lucene in C++
-dev-cpp/cpp-httplib 0.38.0: C++ HTTP/HTTPS server and client library
+dev-cpp/cpp-httplib 0.38.0 0.50.1: C++ HTTP/HTTPS server and client library
 dev-cpp/cppdap 0_pre20230605-r1 0_pre20240802: C++ library for the Debug Adapter Protocol
 dev-cpp/cppgir 2.0_p20250629 2.0_p20260226 2.0_p20260321: GObject-Introspection C++ binding wrapper generator
 dev-cpp/cpptoml 0.1.1-r1: Header-only library for parsing TOML
@@ -3992,7 +3992,7 @@ dev-cpp/tomlplusplus 3.4.0: TOML config file parser and serializer
 dev-cpp/toomanycooks 1.6.1: C++20 concurrency framework with no compromises
 dev-cpp/tree 3.18 3.18-r1: An STL-like tree class
 dev-cpp/ut2-glaze 0.0.4: Stripped down fork of boost-ext ut2
-dev-cpp/valijson 1.1.0 1.1.1: Header-only C++ library for JSON Schema validation
+dev-cpp/valijson 1.1.0 1.1.2: Header-only C++ library for JSON Schema validation
 dev-cpp/wangle 2024.11.04.00 2025.04.14.00: A framework providing common abstractions for building services
 dev-cpp/waylandpp 1.0.0-r1 1.0.0-r2 1.0.1 1.0.1-r1 9999: Wayland C++ bindings
 dev-cpp/websocketpp 0.8.2-r1: C++/Boost Asio based websocket client/server library
@@ -4032,7 +4032,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client lib
 dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.8 8.0.12: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.6 1.49.8: GUI for MongoDB
-dev-db/mycli 1.76.0 2.1.1 2.2.0: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 1.76.0 2.2.0 2.3.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.45 8.0.46 8.0.46-r1 8.4.9 8.4.10: Fast, multi-threaded, multi-user SQL database server
@@ -4344,7 +4344,7 @@ dev-go/go-tour 0_pre20200201: A Tour of Go
 dev-go/gocov 1.1.0: Coverage testing tool for The Go Programming Language
 dev-go/gogo-protobuf 1.3.2: Protocol Buffers for Go with Gadgets
 dev-go/golangci-lint 1.64.7 2.11.4 2.12.1 2.12.2: Fast linters runner for Go
-dev-go/gopls 0.18.1 0.19.0 0.19.1 0.20.0 0.21.0 0.21.1 0.22.0: "Go please" is the official Go language server
+dev-go/gopls 0.18.1 0.19.0 0.19.1 0.20.0 0.21.0 0.21.1 0.22.0 0.23.0: "Go please" is the official Go language server
 dev-go/gotestsum 1.13.0: 'go test' runner with output optimized for humans
 dev-go/goversion 1.2.0-r1: Print version used to build Go executables
 dev-go/gox 1.0.1: A dead simple, no frills Go cross compile tool
@@ -4961,9 +4961,9 @@ dev-java/animal-sniffer-annotations 1.15-r1: Java annotations for marking method
 dev-java/ant 1.10.15 1.10.15-r1: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/ant-contrib 1.0_beta6_pre20201123-r3: Ant-contrib tasks for Apache Ant
 dev-java/ant-ivy 2.5.3: Ivy is a free java based dependency manager
-dev-java/antlr 2.7.7-r10 3.2-r2 3.5.3 4.13.2: A parser generator for many languages
-dev-java/antlr-runtime 3.5.3 4.13.2: ANTLR 4 Runtime
-dev-java/antlr-tool 3.5.3-r1 4.13.2-r1: The ANTLR 4 grammar compiler
+dev-java/antlr 2.7.7-r10 3.2-r2 3.5.3 4.13.2-r1: A parser generator for many languages
+dev-java/antlr-runtime 3.5.3 4.13.2-r1: ANTLR 4 Runtime
+dev-java/antlr-tool 3.5.3-r1 4.13.2-r2: The ANTLR 4 grammar compiler
 dev-java/antunit 1.4.1-r1: An Antlib that provides a test framework for Apache Ant tasks and types
 dev-java/aopalliance 1.0-r3: Aspect-Oriented Programming (AOP) Alliance classes
 dev-java/apache-rat 0.16.1: Apache Rat is a release audit tool, focused on licenses
@@ -5175,7 +5175,7 @@ dev-java/json 20251224: A reference implementation of a JSON package in Java
 dev-java/json-path 2.10.0: Java JsonPath implementation
 dev-java/json-simple 2.3.1 4.0.1: Java 7+ toolkit to quickly develop RFC 4627 JSON compatible applications
 dev-java/json-smart 1.3.3 2.6.0: JSON Small and Fast Parser
-dev-java/jsonb-api 2.0.0: Jakarta JSON Binding
+dev-java/jsonb-api 2.0.0-r1: Jakarta JSON Binding
 dev-java/jsonp-api 2.0.2-r1: Jakarta JSON Processing API
 dev-java/jsonrpc2-base 1.38.2: Represent, parse and serialise JSON-RPC 2.0 messages
 dev-java/jsonrpc2-server 1.11.1: Server framework for processing JSON-RPC 2.0 messages
@@ -5583,7 +5583,7 @@ dev-libs/hiredis 1.0.2-r3 1.1.0-r1 1.2.0 1.3.0: Minimalistic C client library fo
 dev-libs/http-fetcher 1.1.0-r2: Library for downloading files via HTTP using the GET method
 dev-libs/hyphen 2.8.8-r2: ALTLinux hyphenation library
 dev-libs/icinga-php-library 0.14.1 0.17.0: Icinga PHP libraries for Icinga Web 2
-dev-libs/icinga-php-thirdparty 0.12.1 0.13.1: Icinga PHP libraries for Icinga Web 2
+dev-libs/icinga-php-thirdparty 0.12.1 0.13.1 0.15.3: Icinga PHP libraries for Icinga Web 2
 dev-libs/icu 78.3: International Components for Unicode
 dev-libs/igraph 0.10.11-r1 0.10.12-r1 0.10.15-r1: Creating and manipulating undirected and directed graphs
 dev-libs/iksemel 1.4-r2: eXtensible Markup Language parser library designed for Jabber applications
@@ -5905,7 +5905,7 @@ dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
 dev-libs/openssl 3.0.20 3.0.21 3.0.9999 3.4.5 3.4.6 3.4.9999 3.5.6 3.5.7 3.5.9999 3.6.2 3.6.3 3.6.9999 4.0.0 4.0.1 4.0.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 3.6.2: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/optix 7.4.0 7.5.0 8.1.0-r1 9.0.0-r1: NVIDIA Ray Tracing Engine
-dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
+dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8 1.6.6: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
 dev-libs/pakchois 0.4-r2: PaKChoiS - PKCS #11 wrapper library
 dev-libs/papi 7.1.0: Performance Application Programming Interface
 dev-libs/pcc-libs 1.1.0: pcc compiler support libs
@@ -8214,7 +8214,7 @@ dev-php/pecl-ssh2 1.4.1-r1 1.5.0 9999: PHP bindings for the libssh2 library
 dev-php/pecl-stomp 2.0.3-r2: PHP extension to communicate with Stomp message brokers
 dev-php/pecl-uploadprogress 2.0.2-r2 2.0.2-r3: An extension to track progress of a file upload
 dev-php/pecl-uuid 1.2.1 1.3.0: A wrapper around libuuid
-dev-php/pecl-xattr 1.4.0-r1 1.4.1: Extended attributes for PHP
+dev-php/pecl-xattr 1.4.0-r1 1.4.1-r1: Extended attributes for PHP
 dev-php/pecl-xdiff 2.1.1: PHP extension for generating diff files
 dev-php/pecl-yaml 2.3.0: YAML 1.1 (YAML Ain't Markup Language) serialization for PHP
 dev-php/pecl-yaz 1.2.4-r1: This extension implements a Z39.50 client for PHP using the YAZ toolkit
@@ -10018,7 +10018,7 @@ dev-ruby/bicho 0.0.18: ruby Bugzilla access library
 dev-ruby/bigdecimal 3.2.3 3.3.1 4.0.0 4.0.1: Arbitrary-precision decimal floating-point number library for Ruby
 dev-ruby/bindata 2.4.15 2.5.0 2.5.1: Parsing Binary Data in Ruby
 dev-ruby/bindex 0.8.1-r2: Bindings for your Ruby exceptions
-dev-ruby/binding_of_caller 1.0.1: Retrieve the binding of a method's caller
+dev-ruby/binding_of_caller 1.0.1 2.0.0: Retrieve the binding of a method's caller
 dev-ruby/blankslate 3.1.3-r2: Base class with almost all of the methods from Object and Kernel being removed
 dev-ruby/blinkstick 1.0.1_p20150901-r1: ruby interface for blinkstick via libusb
 dev-ruby/bogus 0.1.7: Ensuring that the things you stub or mock actually exist
@@ -10229,7 +10229,7 @@ dev-ruby/jsobfu 0.4.2-r1: A Javascript code obfuscator
 dev-ruby/json 2.10.2 2.12.2 2.13.2 2.14.1 2.15.2 2.16.0 2.17.1 2.18.0 2.19.4: A JSON implementation as a Ruby extension
 dev-ruby/json-schema 5.2.2-r1: Ruby JSON Schema Validator
 dev-ruby/json_schema 0.21.0: A JSON Schema V4 and Hyperschema V4 parser and validator
-dev-ruby/jwt 2.10.1 3.0.0 3.1.0 3.1.1 3.1.2: A Ruby implementation of JSON Web Token draft 06
+dev-ruby/jwt 2.10.1 2.10.3 3.1.2 3.2.0: A Ruby implementation of JSON Web Token draft 06
 dev-ruby/kissfft 0.0.2-r1: ruby interface to kissfft
 dev-ruby/kpeg 1.3.3: A simple PEG library for Ruby
 dev-ruby/kramdown 2.4.0-r1 2.5.1 2.5.2: Yet-another-markdown-parser but fast, pure Ruby, using strict syntax definition
@@ -10272,7 +10272,7 @@ dev-ruby/memoist3 1.0.0: ActiveSupport::Memoizable with a few enhancements
 dev-ruby/memoizable 0.4.2-r1: Memoize method return values
 dev-ruby/mercenary 0.4.0-r1: Lightweight and flexible library for writing command-line apps
 dev-ruby/metaclass 0.0.4-r2: Adds a __metaclass__ method to all Ruby objects
-dev-ruby/metasm 1.0.5-r2: Cross-architecture assembler, disassembler, linker, and debugger
+dev-ruby/metasm 1.0.5-r3: Cross-architecture assembler, disassembler, linker, and debugger
 dev-ruby/method_source 1.1.0-r1: Retrieve the source code for a method
 dev-ruby/metrics 0.12.2 0.13.0 0.14.0 0.15.0: Application metrics and instrumentation
 dev-ruby/middleware 0.1.0-r1: Generalized implementation of the middleware abstraction for Ruby
@@ -14307,7 +14307,7 @@ media-sound/snd 25.6 26.4: Sound editor
 media-sound/sndfile-tools 1.5 9999: Small collection of programs that use libsndfile
 media-sound/sndio 1.10.0 9999: Small audio and MIDI framework part of the OpenBSD project
 media-sound/sndpeek 1.41-r1: real-time audio visualization
-media-sound/solfege 3.23.4: GNU program to help practicing ear training
+media-sound/solfege 3.23.4-r1: GNU program to help practicing ear training
 media-sound/sonata 1.7.0-r1 1.7.2 1.7.3: Elegant GTK+ music client for the Music Player Daemon (MPD)
 media-sound/sonic-visualiser 5.2.1: Music audio files viewer and analyser
 media-sound/sooperlooper 1.7.8_p2-r2 1.7.8_p3: Live looping sampler with immediate loop recording
@@ -14318,7 +14318,7 @@ media-sound/spek 0.8.5-r2 0.8.5-r3: Analyse your audio files by showing their sp
 media-sound/splay 0.9.5.2-r2: An audio player, primarily for the console
 media-sound/split2flac 122-r1: sh script to split an APE/FLAC/WV/WAV audio image with CUE sheet into tracks
 media-sound/spotify 1.2.92: Spotify is a social music platform
-media-sound/strawberry 1.2.19 1.2.22 9999: Modern music player and library organizer based on Clementine and Qt
+media-sound/strawberry 1.2.19 1.2.23 9999: Modern music player and library organizer based on Clementine and Qt
 media-sound/streamripper 1.64.6-r1: Extracts and records individual MP3 file tracks from shoutcast streams
 media-sound/streamtranscoder 3.1.11-r2: Commandline program to transcode shoutcast/icecast streams to different bitrates
 media-sound/subsonic-bin 6.1.6: Subsonic is a complete, personal media streaming solution
@@ -14427,7 +14427,7 @@ media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring app
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
 media-video/ffmpeg 4.4.8 6.1.6 7.1.5 8.1.2 9999: Complete solution to record/convert/stream audio and video
-media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 150.0.7871.12 151: FFmpeg built specifically for codec support in Chromium-based browsers
+media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 150.0.7871.124 151: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpeg-compat 4.4.8 6.1.6 7.1.5: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
@@ -14984,7 +14984,7 @@ net-irc/limnoria-plugins-chantracker 1.6_p20221109: supybot ban management and c
 net-irc/limnoria-plugins-jlu5 20220201_p20221108: A collection of plugins for the Limnoria IRC bot
 net-irc/limnoria-plugins-progval 20221113: Collection of plugins for Supybot/Limnoria I wrote or forked
 net-irc/muh 2.2a-r2: Persistent IRC bouncer
-net-irc/ngircd 26.1-r5 26.1-r6 27: An IRC server written from scratch
+net-irc/ngircd 26.1-r5 26.1-r6 27 28: An IRC server written from scratch
 net-irc/onis 0.8.2-r2: onis not irc stats
 net-irc/pisg 0.73-r1: Perl IRC Statistics Generator
 net-irc/polari 46.0: An IRC client for GNOME
@@ -16622,7 +16622,7 @@ sec-keys/openpgp-keys-akallabeth 20240521 20260703: OpenPGP key for Github user 
 sec-keys/openpgp-keys-alejandro-colomar 20231031 20260122: OpenPGP keys used by Alejandro Colomar
 sec-keys/openpgp-keys-alekseysanin 20231021: Aleksey Sanin OpenPGP Key
 sec-keys/openpgp-keys-alexanderneumann 20241028: OpenPGP keys used by Alexander Neumann
-sec-keys/openpgp-keys-alexbarton 20241211: OpenPGP keys used by Alex Barton
+sec-keys/openpgp-keys-alexbarton 20260718: OpenPGP keys used by Alex Barton
 sec-keys/openpgp-keys-alisarctl 20200302: OpenPGP keys used by Ali Abdallah
 sec-keys/openpgp-keys-alsa 20260116: OpenPGP keys used by the Alsa Project
 sec-keys/openpgp-keys-andreasschneider 20260218: OpenPGP key used by Andreas Schneider
@@ -16802,6 +16802,7 @@ sec-keys/openpgp-keys-moritzbunkus 20260524: OpenPGP keys used by Moritz Bunkus
 sec-keys/openpgp-keys-mpc 20260118 20260210: OpenPGP keys used by Andreas Enge (to sign MPC releases)
 sec-keys/openpgp-keys-musl 20220407: OpenPGP keys used to sign musl
 sec-keys/openpgp-keys-mysql 20231023 20250120: OpenPGP keys used to sign MySQL releases
+sec-keys/openpgp-keys-nabijaczleweli 20260717: OpenPGP keys used by наб (nabijaczleweli)
 sec-keys/openpgp-keys-netfilter 20220326 20240415: OpenPGP keys used by the netfilter project
 sec-keys/openpgp-keys-nettle 20220603 20250628: OpenPGP keys used by Niels Möller (to sign nettle releases)
 sec-keys/openpgp-keys-networkmanager-strongswan 20260119: OpenPGP keys used for networkmanager-strongswan releases
@@ -18333,7 +18334,7 @@ www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site genera
 www-apps/hugo 0.147.7 0.148.2 0.163.3: Fast static HTML and CSS website generator
 www-apps/icingadb-web 1.2.2: UI for Icinga DB
 www-apps/icingaweb2 2.12.4 2.12.5 9999: Icinga Web 2 - Frontend for icinga2
-www-apps/icingaweb2-module-director 1.11.8 9999: Icinga Web 2 plugin for configuration
+www-apps/icingaweb2-module-director 1.11.9 9999: Icinga Web 2 plugin for configuration
 www-apps/icingaweb2-module-graphite 1.2.1 1.2.5 9999: Icinga Web 2 plugin for Graphite
 www-apps/icingaweb2-module-incubator 0.23.0: Bleeding edge Icinga Web 2 libraries
 www-apps/icingaweb2-module-pnp4nagios 1.0.1-r1 9999: Icinga Web 2 plugin for pnp4nagios
@@ -18390,7 +18391,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.3 6.9.4 7.0.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 146.0.7680.177 148.0.7778.215 149.0.7827.53 149.0.7827.114 149.0.7827.155 149.0.7827.200 150.0.7871.13 151.0.7872.0: Open-source version of Google Chrome web browser
+www-client/chromium 146.0.7680.177 148.0.7778.215 149.0.7827.53 149.0.7827.114 149.0.7827.155 149.0.7827.200 150.0.7871.13 150.0.7871.128 151.0.7872.0: Open-source version of Google Chrome web browser
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
