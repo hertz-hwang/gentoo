@@ -1853,7 +1853,7 @@ app-editors/leafpad 0.8.18.1-r1: Simple GTK2 text editor
 app-editors/levee 4.0: Really tiny vi clone, for things like rescue disks
 app-editors/logseq-desktop-bin 0.10.15-r1 1.0.0: A privacy-first, open-source platform for knowledge sharing and management
 app-editors/lpe 1.2.8_p20210401: A lightweight programmers editor
-app-editors/mg 20230501 20240709 20260227: MicroGnuEmacs, a port from the BSDs
+app-editors/mg 20240709 20260227 20260719: MicroGnuEmacs, a port from the BSDs
 app-editors/micro 2.0.13-r1 2.0.15: Modern and intuitive terminal-based text editor
 app-editors/moe 1.15 1.16: Powerful and user-friendly console text editor
 app-editors/mousepad 0.6.5-r2 0.7.0: GTK+-based editor for the Xfce Desktop Environment
@@ -8670,7 +8670,7 @@ dev-python/google-auth-oauthlib 1.4.0: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
 dev-python/google-pasta 0.2.0-r2: AST-based Python refactoring library
 dev-python/googleapis-common-protos 1.75.0: Python classes generated from the common protos in the googleapis repository
-dev-python/gpep517 19: A backend script to aid installing Python packages in Gentoo
+dev-python/gpep517 19 20: A backend script to aid installing Python packages in Gentoo
 dev-python/gpgmepy 2.0.0-r1: GnuPG Made Easy is a library for making GnuPG easier to use (Python bindings)
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
 dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and statistical analysis of graphs
