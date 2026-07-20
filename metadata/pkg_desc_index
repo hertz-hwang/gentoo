@@ -10585,7 +10585,7 @@ dev-ruby/syslogger 1.6.6-r2: Drop-in replacement for the standard Logger, that l
 dev-ruby/systemu 2.6.5-r1: Universal capture of STDOUT and STDERR and handling of child process PID
 dev-ruby/tdiff 0.4.0: Calculates the differences between two tree-like structures
 dev-ruby/temple 0.10.3 0.10.4: An abstraction and a framework for compiling templates to pure Ruby
-dev-ruby/term-ansicolor 1.11.2 1.11.3: Small Ruby library that colors strings using ANSI escape sequences
+dev-ruby/term-ansicolor 1.11.2 1.11.3 1.11.3-r1: Small Ruby library that colors strings using ANSI escape sequences
 dev-ruby/terminal-table 3.0.2 4.0.0: Simple, feature rich ascii table generation library
 dev-ruby/test-unit 3.6.7 3.6.8 3.6.9 3.7.5 3.7.6 3.7.7: An xUnit family unit testing framework for Ruby
 dev-ruby/test-unit-rr 1.0.5-r2: RR adapter for Test::Unit
@@ -11159,7 +11159,7 @@ dev-util/rocminfo 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: ROCm Application for Reporting 
 dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Callback/Activity Library for Performance tracing AMD GPU's
 dev-util/ropper 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.14.9 0.14.14 0.15.15 0.15.16 0.15.17 0.15.21: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.14.9 0.14.14 0.15.15 0.15.16 0.15.17 0.15.21 0.15.22: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 1.29.0 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -12263,7 +12263,7 @@ gui-libs/gtk 4.18.6-r1 4.20.3-r2 4.20.4: GTK is a multi-platform toolkit for cre
 gui-libs/gtk-layer-shell 0.10.0 0.10.1: Library to create desktop components for Wayland using the Layer Shell protocol
 gui-libs/gtk4-layer-shell 1.1.1-r1: A library for using the Layer Shell Wayland protocol with GTK4
 gui-libs/gtksourceview 5.16.0 5.18.0: A text widget implementing syntax highlighting and other features
-gui-libs/kddockwidgets 2.4.0: KDAB's Dock Widget Framework for Qt
+gui-libs/kddockwidgets 2.4.0 2.4.1: KDAB's Dock Widget Framework for Qt
 gui-libs/libadwaita 1.7.9 1.8.5.1 1.8.6: Building blocks for modern GNOME applications
 gui-libs/libdecor 0.2.5 9999: A client-side decorations library for Wayland clients
 gui-libs/libgedit-amtk 5.9.0 5.9.2 5.10.0: Actions, Menus and Toolbars Kit for GTK applications
@@ -14017,7 +14017,7 @@ media-radio/fldigi 4.2.11 4.2.12: Sound card based multimode software modem for 
 media-radio/flmsg 4.0.23 4.0.24: Fldigi helper for creating radiograms
 media-radio/flrig 2.0.10: Transceiver control program for Amateur Radio use
 media-radio/fsync-mdc1200-decode 1.0-r1 9999: Linux Fleetsync / MDC1200 decoder
-media-radio/gpredict 2.4 2.5.1 9999: Real-time satellite tracking and orbit prediction application
+media-radio/gpredict 2.5.1 2.5.2 9999: Real-time satellite tracking and orbit prediction application
 media-radio/grig 0.9.0: A tool for controlling amateur radios
 media-radio/ibp 0.21-r3: Shows currently transmitting beacons of the International Beacon Project (IBP)
 media-radio/js8call 3.0.1 3.0.2 3.0.3: Weak signal ham radio communication
@@ -14146,7 +14146,7 @@ media-sound/gtkguitune 0.8: A guitar tuning program that uses Schmitt-triggering
 media-sound/guitarix 0.47.0-r2 9999: Virtual guitar amplifier for Linux
 media-sound/headsetcontrol 3.1.0-r1: A tool to control certain aspects of USB-connected headsets on Linux
 media-sound/helm 0.9.0-r2: Open source polyphonic software synthesizer with lots of modulation
-media-sound/helvum 0.5.1-r4: A GTK patchbay for pipewire
+media-sound/helvum 0.5.1-r4 0.6.2: A GTK patchbay for pipewire
 media-sound/horgand 1.14-r3: Opensource software organ
 media-sound/hydrogen 1.2.6 9999: Advanced drum machine
 media-sound/icecream 1.3: Extracts and records individual MP3 tracks from shoutcast streams
@@ -16356,7 +16356,7 @@ sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.4.1 9.6.2 9.7.0 9999: PROJ coordinate transformation software
 sci-libs/punc 1.5-r1: Portable Understructure for Numerical Computing
-sci-libs/pyshp 2.4.1 3.0.2_p1 3.0.3: Pure Python read/write support for ESRI Shapefile format
+sci-libs/pyshp 3.0.3 3.1.4: Pure Python read/write support for ESRI Shapefile format
 sci-libs/qd 2.3.24: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0-r1: ESO stand-alone C library offering easy access to FITS files
 sci-libs/qrupdate 1.1.2-r2 1.1.5: Library for updating of QR and Cholesky decompositions
@@ -18110,7 +18110,7 @@ sys-process/fcron 3.4.0 3.4.0-r1 3.4.1: A command scheduler with extended capabi
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1 4.5.4: CLI curses based monitoring tool
 sys-process/gnome-usage 46.1 48.0: A nice way to view information about use of system resources
-sys-process/htop 3.4.1-r2 3.5.1 9999: Interactive process viewer
+sys-process/htop 3.4.1-r2 3.5.1 3.5.2 9999: Interactive process viewer
 sys-process/incron 0.5.12_p20171113-r1: inotify based cron daemon
 sys-process/iotop 0.6_p20230124: Top-like UI used to show which process is using the I/O
 sys-process/iotop-c 1.27 1.29 1.30 1.31: top utility for IO (C port)
@@ -18398,9 +18398,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.12.0 152.0.5 152.0.6: Firefox Web Browser
+www-client/firefox 140.12.0 152.0.5 152.0.6 153.0: Firefox Web Browser
 www-client/firefox-bin 140.12.0 152.0.5 152.0.6 153.0: Firefox Web Browser
-www-client/firefox-l10n 152.0.5 152.0.6: Firefox Web Browser's translation files
+www-client/firefox-l10n 152.0.5 152.0.6 153.0: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.215 149.0.7827.114 150.0.7871.128: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.53 150.0.7871.13 151.0.7922.34: The web browser from Google
 www-client/google-chrome-unstable 150.0.7846.4 151.0.7872.0 152.0.7953.3: The web browser from Google
