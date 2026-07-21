@@ -12071,7 +12071,7 @@ games-util/wiiload 0.5.3: Load homebrew apps over the network to your Wii
 games-util/wit 3.05a: command line tools to manipulate Wii/GameCube ISO images and WBFS containers
 games-util/wxchtdecoder 1.5a-r3: Program to decode .CHT files in Snes9x and ZSNES to plain text
 games-util/xboxdrv 0.8.11: Userspace Xbox 360 Controller driver
-games-util/xpadneo 0.9.8 0.10.1 0.10.2 0.10.4 9999: Advanced Linux Driver for Xbox One Wireless Controller
+games-util/xpadneo 0.9.8 0.10.4 9999: Advanced Linux Driver for Xbox One Wireless Controller
 games-util/xqf 1.0.6.2: A server browser for many FPS games (frontend for qstat)
 gnome-base/dconf 0.40.0: Simple low-level configuration system
 gnome-base/dconf-editor 45.0.1 49.0: Graphical tool for editing the dconf configuration database
@@ -12819,7 +12819,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.5 3.12_pre20260716: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.5 3.12_pre20260720: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
