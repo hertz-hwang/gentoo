@@ -16361,7 +16361,7 @@ sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.4.1 9.6.2 9.7.0 9999: PROJ coordinate transformation software
 sci-libs/punc 1.5-r1: Portable Understructure for Numerical Computing
-sci-libs/pyshp 3.0.3 3.1.4: Pure Python read/write support for ESRI Shapefile format
+sci-libs/pyshp 3.0.3 3.1.4 3.1.5: Pure Python read/write support for ESRI Shapefile format
 sci-libs/qd 2.3.24: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0-r1: ESO stand-alone C library offering easy access to FITS files
 sci-libs/qrupdate 1.1.2-r2 1.1.5: Library for updating of QR and Cholesky decompositions
@@ -17928,7 +17928,7 @@ sys-fs/udev-init-scripts 35 9999: udev startup scripts for openrc
 sys-fs/udftools 2.3: Ben Fennema's tools for packet writing and the UDF filesystem
 sys-fs/udiskie 2.5.7-r1 2.5.8 2.5.8-r1 2.6.1 2.6.2: An automatic disk mounting service using udisks
 sys-fs/udisks 2.10.2-r1 2.11.0-r1 2.11.1: Daemon providing interfaces to work with storage devices
-sys-fs/unionfs-fuse 3.7 9999: Self-syncing tree-merging file system based on FUSE
+sys-fs/unionfs-fuse 3.7 3.7-r1 9999: Self-syncing tree-merging file system based on FUSE
 sys-fs/vhba 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEmu suite
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
 sys-fs/xcp 0.24.2-r1 0.24.8-r1: A 'cp' alternative with user-friendly feedback and performance optimisations
