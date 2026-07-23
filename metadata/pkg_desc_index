@@ -5351,7 +5351,7 @@ dev-lang/ghc 9.0.2-r4 9.2.8 9.8.4-r1: The Glasgow Haskell Compiler
 dev-lang/gleam 1.13.0 1.14.0: A friendly language for building type-safe, scalable systems!
 dev-lang/gnucobol 3.2-r2: A free/libre COBOL compiler
 dev-lang/gnuprologjava 0.2.6-r2: GNU Prolog for Java is an implementation of ISO Prolog as a Java library
-dev-lang/go 1.24.11-r1 1.24.12-r1 1.25.5-r1 1.25.6-r1 1.25.8 1.25.9 1.25.10 1.25.11 1.26.1 1.26.2 1.26.3 1.26.4 9999: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.24.11-r1 1.24.12-r1 1.25.5-r1 1.25.6-r1 1.25.8 1.25.9 1.25.10 1.25.11 1.25.12 1.26.1 1.26.2 1.26.3 1.26.4 1.26.5 9999: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.20.14 1.22.12 1.24.6: Binary bootstrap package for dev-lang/go
 dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over finite domains (FD)
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
@@ -8661,7 +8661,7 @@ dev-python/gherkin-official 41.0.0 42.0.0: Gherkin parser/compiler for Python
 dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
-dev-python/gitpython 3.1.52 3.1.53 3.1.54: Library used to interact with Git repositories
+dev-python/gitpython 3.1.54: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.0 2.3.1 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.31.0 2.32.0 2.33.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.197.0 2.198.0: Google API Client for Python
@@ -12762,9 +12762,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.7.1 1.7.2 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.12.1 152.0.1: Thunderbird Mail Client
+mail-client/thunderbird 140.12.1 140.13.0 152.0.1 153.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.12.1 140.13.0 152.0.1 153.0: Thunderbird Mail Client
-mail-client/thunderbird-l10n 152.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird-l10n 152.0.1 153.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -12783,7 +12783,7 @@ mail-filter/libopensmtpd 0.8 1.0: Library for creating OpenSMTPD filters
 mail-filter/libsieve 2.2.7: A library for parsing, sorting and filtering your mail
 mail-filter/libspf2 1.2.11 1.2.11-r1: implementation of Sender Policy Framework (SPF)
 mail-filter/libsrs2 1.0.18-r1: libsrs2 is the next generation Sender Rewriting Scheme library
-mail-filter/maildrop 3.1.8-r1 3.2.1-r1 3.3.0: Mail delivery agent/filter
+mail-filter/maildrop 3.1.8-r1 3.2.1-r1 3.3.0 4.0.3: Mail delivery agent/filter
 mail-filter/mailfilter 0.8.9: Mailfilter is a utility to get rid of unwanted spam mails
 mail-filter/mapson 3.3.1: A challenge/response-based white-list spam filter
 mail-filter/milter-regex 2.7-r3: A milter-based regular expression filter
@@ -18396,7 +18396,7 @@ www-apps/webmcp 2.2.1: Web application framework written in Lua and C
 www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.3 6.8.6 6.9.4 6.9.5 7.0.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
-www-client/chromium 146.0.7680.177 148.0.7778.215 149.0.7827.53 149.0.7827.114 149.0.7827.155 149.0.7827.200 150.0.7871.13 150.0.7871.128 151.0.7872.0: Open-source version of Google Chrome web browser
+www-client/chromium 146.0.7680.177 148.0.7778.215 149.0.7827.53 149.0.7827.114 149.0.7827.155 149.0.7827.200 150.0.7871.13 150.0.7871.128 150.0.7871.181 151.0.7872.0: Open-source version of Google Chrome web browser
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
