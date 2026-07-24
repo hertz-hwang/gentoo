@@ -3409,7 +3409,7 @@ app-text/refbase 0.9.6_p20180223: Web-based solution for managing scientific lit
 app-text/restview 3.0.1: reStructuredText viewer
 app-text/rman 3.2-r2: PolyGlotMan man page translator AKA RosettaMan
 app-text/rnc2rng 2.7.0: RELAX NG Compact to regular syntax conversion library
-app-text/rnv 1.7.11-r2 1.7.11-r3 1.7.11-r4: A lightweight Relax NG Compact Syntax validator
+app-text/rnv 1.7.11-r2 1.7.11-r3 1.7.11-r4 1.7.11-r5: A lightweight Relax NG Compact Syntax validator
 app-text/robodoc 4.99.43-r1: Automating Software Documentation
 app-text/ronn-ng 0.10.1: Builds manuals in HTML and Unix man page format from Markdown
 app-text/rpl 1.15.5 1.18 2.0.4: Intelligent recursive search/replace utility
@@ -9065,7 +9065,7 @@ dev-python/parver 1.0: Parse and manipulate version numbers
 dev-python/paste 3.10.1: Tools for using a Web Server Gateway Interface stack
 dev-python/pastedeploy 3.1: Load, configure, and compose WSGI applications and servers
 dev-python/pastel 0.2.1-r1: Bring colors to your terminal
-dev-python/patatt 0.7.0-r1: A simple library to add cryptographic attestation to patches sent via email
+dev-python/patatt 0.7.0-r1 0.8.0: A simple library to add cryptographic attestation to patches sent via email
 dev-python/patch-ng 1.19.1: Library to parse and apply unified diffs, fork of dev-python/patch
 dev-python/path 17.1.1: A module wrapper for os.path
 dev-python/path-and-address 2.0.1-r2: Functions for server CLI applications used by humans
@@ -11049,7 +11049,7 @@ dev-util/intel-graphics-compiler 2.37.1: LLVM-based OpenCL compiler for OpenCL t
 dev-util/intel-graphics-compiler-bin 1.0.17791.9: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 1.3.0: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
-dev-util/intellij-idea 2026.2: A complete toolset for web, mobile and enterprise development
+dev-util/intellij-idea 2026.2 2026.2.0.1: A complete toolset for web, mobile and enterprise development
 dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
 dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
 dev-util/itstool 2.0.7-r2 2.0.7_p20250326: Translation tool for XML documents that uses gettext files and ITS rules
@@ -13726,7 +13726,7 @@ media-libs/vpl-gpu-rt 26.2.0 26.2.1 26.2.3 26.2.4: Intel Video Processing Librar
 media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 9999: Vulkan Installable Client Driver (ICD) Loader
 media-libs/waffle 1.8.1 1.8.2 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
-media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 2.1: AudioProcessing library from the webrtc.org codebase
+media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 1.3-r5 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
 media-libs/wxsvg 1.5.24-r1: C++ library to create, manipulate and render SVG files
 media-libs/x264 0.0.20240513 0.0.20240513-r1 9999: Free library for encoding X264/AVC streams
@@ -18070,7 +18070,7 @@ sys-power/cpupower 6.2 6.10 6.16-r1: Shows and sets processor power related valu
 sys-power/hibernate-script 2.0-r6: Hibernate script supporting multiple suspend methods
 sys-power/iasl 20241212: Intel ACPI Source Language (ASL) compiler
 sys-power/intel-undervolt 1.7-r1: Intel CPU undervolting and throttling configuration tool
-sys-power/libacpica 0_pre20220331_p6 9999: ACPICA as a library
+sys-power/libacpica 0_pre20220331_p6 0_pre20220331_p7 9999: ACPICA as a library
 sys-power/nct6687d 0_pre20260313 0_pre20260519 9999: Kernel module for the Nuvoton NCT6687-R
 sys-power/nut 2.8.4 9999: Network-UPS Tools
 sys-power/nvclock 0.8_p20110102-r2 0.8_p20110102-r3: NVIDIA Overclocking Utility
