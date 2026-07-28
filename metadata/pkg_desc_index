@@ -1885,7 +1885,7 @@ app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.129.1 1.130.0: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.110.11631 1.112.01907 1.116.02821: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscodium 1.116.02821 1.126.04524: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text editor and application development system
@@ -10027,7 +10027,7 @@ dev-ruby/blankslate 3.1.3-r2: Base class with almost all of the methods from Obj
 dev-ruby/blinkstick 1.0.1_p20150901-r1: ruby interface for blinkstick via libusb
 dev-ruby/bogus 0.1.7-r1: Ensuring that the things you stub or mock actually exist
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
-dev-ruby/brotli 0.6.0-r1 0.7.0 0.8.0: Brotli compressor/decompressor
+dev-ruby/brotli 0.6.0-r1 0.7.0 0.8.0-r1: Brotli compressor/decompressor
 dev-ruby/bsearch 1.5.0-r4: A binary search library for Ruby
 dev-ruby/bson 5.0.0 5.1.1 5.2.0: A Ruby BSON implementation for MongoDB. (Includes binary C-based extension.)
 dev-ruby/buftok 0.3.0-r1: Statefully split input data by a specifiable token
@@ -10387,7 +10387,7 @@ dev-ruby/process_executer 1.3.0 2.0.0 3.2.0 3.2.4 4.0.0 4.0.1 4.0.2: An API for 
 dev-ruby/propshaft 1.3.1 1.3.1-r1: Deliver assets for Rails
 dev-ruby/pry 0.14.2 0.15.2 0.16.0: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/pstore 0.2.0: Transactional File Storage for Ruby Objects
-dev-ruby/psych 5.2.3 5.2.4 5.2.5 5.2.6 5.3.0 5.3.1: A YAML parser and emitter
+dev-ruby/psych 5.2.6 5.3.1 5.4.0: A YAML parser and emitter
 dev-ruby/ptools 1.5.0 1.5.2: Several handy methods to Ruby's core File class
 dev-ruby/public_suffix 6.0.2 7.0.2 7.0.5: Parse and decompose a domain name into top level domain, domain and subdomains
 dev-ruby/pundit 2.5.0 2.5.1 2.5.2: Object oriented authorization for Rails applications
@@ -10691,7 +10691,7 @@ dev-scheme/gauche-kakasi 0.1-r1: Kakasi binding for Gauche
 dev-scheme/gauche-mecab 1.0.2-r1: MeCab binding for Gauche
 dev-scheme/gauche-qdbm 0.2-r1: QDBM binding for Gauche
 dev-scheme/goosh 1.3-r100: Small process-control library for Guile
-dev-scheme/guile 1.8.8-r103 2.2.7-r103 3.0.10-r103 3.0.11: GNU Ubiquitous Intelligent Language for Extensions
+dev-scheme/guile 1.8.8-r103 2.2.7-r103 3.0.10-r103 3.0.11 3.0.11-r1: GNU Ubiquitous Intelligent Language for Extensions
 dev-scheme/guile-colorized 0.1_p20191205-r100 9999: Colorized REPL for GNU Guile
 dev-scheme/guile-commonmark 0.1.2_pre20240803: Implementation of CommonMark for Guile
 dev-scheme/guile-config 0.5.1-r100: Guile application configuration parsing library
@@ -15767,7 +15767,7 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.98.0 1.98.1 1.98.4 1.100.0: Tailscale vpn client
+net-vpn/tailscale 1.98.0 1.98.1 1.98.4 1.100.0 1.102.0: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.11 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.18: Launch applications via VPN tunnels using temporary network namespaces
