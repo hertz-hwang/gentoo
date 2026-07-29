@@ -12763,9 +12763,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.7.1 1.7.2 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.12.1 140.13.0 152.0.1 153.0: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.12.1 140.13.0 152.0.1 153.0: Thunderbird Mail Client
-mail-client/thunderbird-l10n 152.0.1 153.0: Thunderbird mail client's translation files
+mail-client/thunderbird 140.13.0 153.0.1: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.13.0 153.0.1: Thunderbird Mail Client
+mail-client/thunderbird-l10n 153.0.1: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -13488,7 +13488,7 @@ media-libs/libgphoto2 2.5.34-r1: Library that implements support for numerous di
 media-libs/libgpod 0.8.3-r9: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1 2.4.5 2.4.5-r1 2.4.6: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
-media-libs/libheif 1.20.2 1.21.2 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.20.2 1.21.2 1.23.1 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libicns 0.8.1-r1: A library for manipulating MacOS X .icns icon format
 media-libs/libid3tag 0.16.3 0.16.4: The MAD id3tag library, Tenacity fork
 media-libs/libiec61883 1.2.0-r2: Library for capturing video (dv or mpeg2) over the IEEE 1394 bus
@@ -16558,7 +16558,7 @@ sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hu
 sci-ml/ideep 3.10.2: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20250617-r2 0.4.0_p20260323 0.4.0_p20260410: part of the PyTorch Profiler
-sci-ml/ollama 0.32.4: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.32.4-r1: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2 3.11.2: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.11.0 2.12.0: Tensors and Dynamic neural networks in Python
