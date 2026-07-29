@@ -17950,7 +17950,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scr
 sys-kernel/gentoo-kernel 6.1.177 6.1.178 6.6.144 6.6.145 6.12.94_p2 6.12.96 6.12.97 6.12.98 6.18.39 6.18.40 7.1.4 7.1.5: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.177 6.1.178 6.6.144 6.6.145 6.12.94_p2 6.12.96 6.12.97 6.12.98 6.18.39 6.18.40 7.1.4 7.1.5: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.177 6.1.178 6.6.144 6.6.145 6.12.94_p2 6.12.96 6.12.97 6.12.98 6.18.39 6.18.40 7.1.4 7.1.5: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.177 6.1.178 6.6.144 6.6.145 6.12.96 6.12.98 6.18.39 6.18.40 7.1.4 7.1.5: Full sources including the Gentoo patchset for the 7.1 kernel tree
+sys-kernel/gentoo-sources 6.1.177 6.1.178 6.1.179 6.6.144 6.6.145 6.6.146 6.12.96 6.12.98 6.12.99 6.18.39 6.18.40 7.1.4 7.1.5: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.2_rc1 7.2_rc2 7.2_rc3 7.2_rc4 7.2_rc5: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -17973,7 +17973,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext sche
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.177 6.1.178 6.1.9999 6.6.144 6.6.145 6.6.9999 6.12.96 6.12.97 6.12.98 6.12.9999 6.18.39 6.18.40 6.18.9999 7.1.4 7.1.5: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.178 6.6.145 6.12.98 6.18.40 7.1.5: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.179 6.6.146 6.12.99 6.18.40 7.1.5: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -19349,7 +19349,7 @@ xfce-base/thunar-volman 4.20.0: Daemon that enforces volume-related policies
 xfce-base/tumbler 4.20.1 4.21.1: A thumbnail service for Thunar
 xfce-base/xfce4-appfinder 4.20.0 4.21.1: A tool to find and launch installed applications for the Xfce desktop
 xfce-base/xfce4-meta 4.20: The Xfce Desktop Environment (meta package)
-xfce-base/xfce4-panel 4.20.7 4.21.1 4.21.2: Panel for the Xfce desktop environment
+xfce-base/xfce4-panel 4.20.7 4.20.8 4.21.1 4.21.2: Panel for the Xfce desktop environment
 xfce-base/xfce4-power-manager 4.20.0 4.21.1: Power manager for the Xfce desktop environment
 xfce-base/xfce4-session 4.20.4 4.21.1: A session manager for the Xfce desktop environment
 xfce-base/xfce4-settings 4.20.4 4.21.1 4.21.2: Configuration system for the Xfce desktop environment
