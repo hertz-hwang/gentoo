@@ -8662,7 +8662,7 @@ dev-python/gherkin-official 41.0.0 42.0.0: Gherkin parser/compiler for Python
 dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
-dev-python/gitpython 3.1.54 3.1.55 3.1.56 3.1.57: Library used to interact with Git repositories
+dev-python/gitpython 3.1.57: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.0 2.3.1 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.31.0 2.32.0 2.33.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.197.0 2.198.0: Google API Client for Python
@@ -9824,7 +9824,7 @@ dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user 
 dev-python/utidylib 1.0.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
 dev-python/uv 0.11.16 0.11.23 0.11.25 0.11.29 0.11.32 0.11.33 0.12.0 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.16 0.11.23 0.11.25 0.11.29 0.11.32 0.11.33: PEP517 uv build backend
+dev-python/uv-build 0.11.16 0.11.23 0.11.25 0.11.29 0.11.32 0.11.33 0.12.0: PEP517 uv build backend
 dev-python/uv-dynamic-versioning 0.14.0: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/uvicorn 0.49.0 0.50.0 0.50.2 0.51.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1: Ultra-fast implementation of asyncio event loop on top of libuv
@@ -15770,7 +15770,7 @@ net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, s
 net-vpn/tailscale 1.98.0 1.98.1 1.98.4 1.100.0 1.102.0: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.11 9999: Anonymizing overlay network for TCP
-net-vpn/vopono 0.10.18: Launch applications via VPN tunnels using temporary network namespaces
+net-vpn/vopono 0.10.18 0.10.19: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
 net-vpn/vpncloud 2.3.0-r2: High performance peer-to-peer mesh VPN
@@ -15796,7 +15796,7 @@ net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
 net-wireless/dump1090 10.2 11.1 9999: Simple Mode S decoder for RTLSDR devices
 net-wireless/gnome-bluetooth 47.1 47.2: Bluetooth graphical utilities integrated with GNOME
-net-wireless/gnuradio 3.10.12.0-r2 3.10.12.0-r3 3.11_pre20260606 3.11_pre20260615 9999: Toolkit that provides signal processing blocks to implement software radios
+net-wireless/gnuradio 3.10.12.0-r2 3.10.12.0-r3 3.11_pre20260615-r1 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
 net-wireless/gqrx 2.17.2-r1 2.17.6 2.17.7 9999: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/gqrx-scanner 1.0.4: frequency scanner for Gqrx Software Defined Radio receiver
@@ -16362,7 +16362,7 @@ sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.4.1 9.6.2 9.7.0 9999: PROJ coordinate transformation software
 sci-libs/punc 1.5-r1: Portable Understructure for Numerical Computing
-sci-libs/pyshp 3.0.3 3.1.4 3.1.5: Pure Python read/write support for ESRI Shapefile format
+sci-libs/pyshp 3.0.3 3.1.5 3.1.6: Pure Python read/write support for ESRI Shapefile format
 sci-libs/qd 2.3.24: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0-r1: ESO stand-alone C library offering easy access to FITS files
 sci-libs/qrupdate 1.1.2-r2 1.1.5: Library for updating of QR and Cholesky decompositions
@@ -16551,7 +16551,7 @@ sci-ml/fastdownload 0.0.6: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.17.0: Tensor library for machine learning
+sci-ml/ggml 0.17.0-r1: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 0.36.2-r1 1.3.7: a client library to interact with the Hugging Face Hub
@@ -17975,7 +17975,7 @@ sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based PO
 sys-kernel/vanilla-kernel 6.1.177 6.1.178 6.1.9999 6.6.144 6.6.145 6.6.9999 6.12.96 6.12.97 6.12.98 6.12.9999 6.18.39 6.18.40 6.18.9999 7.1.4 7.1.5: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.178 6.6.145 6.12.98 6.18.40 7.1.5: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 7.1.2: The Zen Kernel Live Sources
+sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
