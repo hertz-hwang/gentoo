@@ -1886,7 +1886,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.129.1 1.130.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.129.1 1.130.0 1.131.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.116.02821 1.126.04524: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -5404,7 +5404,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.32 8.3.26 8.3.29 8.3.31 8.3.32 8.4.23 8.5.8: The PHP language runtime engine
+dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.33 8.3.26 8.3.29 8.3.31 8.3.32 8.4.23 8.5.9: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 3.11.7.3.23-r1: A fast, compliant alternative implementation of the Python (3.11) language
@@ -14022,7 +14022,7 @@ media-radio/cwdaemon 0.13.0: A morse daemon for the parallel or serial port
 media-radio/direwolf 1.7-r2 1.8-r1 1.8.1-r1: Decoded Information from Radio Emissions for Windows Or Linux Fans
 media-radio/dxcc 20191204-r1: A ham radio callsign DXCC lookup utility
 media-radio/flamp 2.2.07 2.2.14: Fldigi helper for transferring files
-media-radio/fldigi 4.2.11 4.2.12: Sound card based multimode software modem for Amateur Radio use
+media-radio/fldigi 4.2.11 4.2.12 4.2.13: Sound card based multimode software modem for Amateur Radio use
 media-radio/flmsg 4.0.23 4.0.24: Fldigi helper for creating radiograms
 media-radio/flrig 2.0.10: Transceiver control program for Amateur Radio use
 media-radio/fsync-mdc1200-decode 1.0-r1 9999: Linux Fleetsync / MDC1200 decoder
@@ -15734,7 +15734,7 @@ net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
 net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.1.7 6.1.8: A reliable, low-latency, and anti-censorship virtual private network
-net-vpn/cloudflare-warp 2026.3.846.0 2026.4.1350.0 2026.4.1390.0 2026.6.822.0: Cloudflare Warp Client
+net-vpn/cloudflare-warp 2026.3.846.0 2026.4.1350.0 2026.4.1390.0 2026.6.822.0 2026.6.880.0: Cloudflare Warp Client
 net-vpn/cloudflared 2026.3.0 2026.7.0 2026.7.1: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
 net-vpn/derper 1.96.5 1.100.0: DERP server for tailscale network
