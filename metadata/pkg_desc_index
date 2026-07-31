@@ -935,7 +935,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.45.29 1.45.36 1.45.40 1.45.46 1.45.47 1.45.48 1.45.49 1.45.50 1.45.51 1.45.52 1.45.53 1.45.54 1.45.55 1.45.56 1.45.57 1.45.58 1.45.59 1.45.60: Universal Command Line Environment for AWS
+app-admin/awscli 1.45.29 1.45.36 1.45.40 1.45.46 1.45.51 1.45.56 1.45.61: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.34.24 2.34.40 2.36.4: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.12.0 2026.6.0 2026.7.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.6.0 2026.6.1: Bitwarden password manager desktop client
@@ -1177,7 +1177,7 @@ app-arch/innoextract 1.10_pre20250206-r1: A tool to unpack installers created by
 app-arch/lbzip2 2.5_p20181227-r3: Parallel bzip2 utility
 app-arch/lcab 1.0_beta12: CAB file creation tool
 app-arch/lha 114i_p20250112: Utility for creating and opening lzh archives
-app-arch/libarchive 3.8.7 3.8.8 3.8.9: Multi-format archive and compression library
+app-arch/libarchive 3.8.9: Multi-format archive and compression library
 app-arch/libdeflate 1.23 1.24 1.25 9999: Heavily optimized DEFLATE/zlib/gzip (de)compression
 app-arch/libpar2 0.4-r1: A library for par2, extracted from par2cmdline
 app-arch/lrzip 0.651 0.651-r1: Long Range ZIP or Lzma RZIP optimized for compressing large files
@@ -1405,7 +1405,7 @@ app-containers/incus 7.0.1 7.2 9999: Modern, secure and powerful system containe
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 7.0.0: A userspace interface for the Linux kernel containment features
-app-containers/lxc-templates 3.0.4_p20240917 3.0.4_p20260719: Old style template scripts for LXC
+app-containers/lxc-templates 3.0.4_p20260719: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.4 6.3 6.5: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.0.2 2.0.3 2.2.1 2.3.1 2.3.3 2.3.4: Docker-compatible CLI for containerd, with support for Compose
 app-containers/netavark 1.17.1 1.17.2 2.0.0 9999: A container network stack
@@ -8365,7 +8365,7 @@ dev-python/betamax-matchers 0.4.0-r1: A group of experimental matchers for Betam
 dev-python/bibtexparser 1.4.4: A BibTeX parser written in Python
 dev-python/binaryornot 0.6.0: Ultra-lightweight pure Python package to guess whether a file is binary or text
 dev-python/bincopy 20.1.1: Mangling of various file formats that conveys binary information
-dev-python/bitarray 3.8.2 3.9.1 3.9.2: Efficient arrays of booleans -- C extension
+dev-python/bitarray 3.8.2 3.9.1 3.9.2 3.10.0: Efficient arrays of booleans -- C extension
 dev-python/bitstring 4.3.1 4.4.0-r2: A pure Python module for creation and analysis of binary data
 dev-python/black 26.5.1: The uncompromising Python code formatter
 dev-python/blake3 1.0.8-r1 1.0.9: Python bindings for the BLAKE3 cryptographic hash function
@@ -8378,8 +8378,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 26.0.0 26.1.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.29 1.43.36 1.43.40 1.43.46 1.43.47 1.43.48 1.43.49 1.43.50 1.43.51 1.43.52 1.43.53 1.43.54 1.43.55 1.43.56 1.43.57 1.43.58 1.43.59 1.43.60: The AWS SDK for Python
-dev-python/botocore 1.43.29 1.43.36 1.43.40 1.43.46 1.43.47 1.43.48 1.43.49 1.43.50 1.43.51 1.43.52 1.43.53 1.43.54 1.43.55 1.43.56 1.43.57 1.43.58 1.43.59 1.43.60: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.61: The AWS SDK for Python
+dev-python/botocore 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.61: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8760,7 +8760,7 @@ dev-python/ioflo 2.0.3: Automated Reasoning Engine and Flow Based Programming Fr
 dev-python/ipy 1.01-r2: Class and tools for handling of IPv4 and IPv6 addresses and networks
 dev-python/ipykernel 6.31.0 7.1.0 7.2.0 7.3.0: IPython Kernel for Jupyter
 dev-python/ipyparallel 9.1.0-r1 9.2.0: Interactive Parallel Computing with IPython
-dev-python/ipython 9.14.1 9.15.0: Advanced interactive shell for Python
+dev-python/ipython 9.15.0 9.16.0: Advanced interactive shell for Python
 dev-python/ipython-genutils 0.2.0-r4: Vestigial utilities from IPython
 dev-python/ipython-pygments-lexers 1.1.1: Pygments lexers for syntax-highlighting IPython code and sessions
 dev-python/ipywidgets 8.1.8: IPython HTML widgets for Jupyter
@@ -9101,7 +9101,7 @@ dev-python/picobox 4.0.0: Dependency injection framework designed with Python in
 dev-python/pid 3.0.4-r1: Pidfile featuring stale detection and file-locking
 dev-python/piexif 1.1.3-r4: Exif manipulation with pure Python
 dev-python/pika 1.4.1 1.4.2: Pure-Python implementation of the AMQP
-dev-python/pikepdf 10.5.1 10.7.3 10.8.0 10.10.0: Python library to work with pdf files based on qpdf
+dev-python/pikepdf 10.5.1 10.7.3 10.8.0 10.10.0 10.11.0: Python library to work with pdf files based on qpdf
 dev-python/pillow 12.2.0 12.2.0-r1 12.3.0: Python Imaging Library (fork)
 dev-python/pip 26.1.2 26.1.2-r1: The PyPA recommended tool for installing Python packages
 dev-python/pivy 0.6.10: Coin3D bindings for Python
@@ -9681,7 +9681,7 @@ dev-python/sphinxemoji 0.3.2: Extension to use emoji codes in your Sphinx docume
 dev-python/sphinxygen 1.0.12: Python module/script that generates Sphinx markup to describe a C API
 dev-python/sphobjinv 2.4: Sphinx objects.inv Inspection/Manipulation Tool
 dev-python/spotipy 2.26.0: A lightweight Python library for the Spotify Web API
-dev-python/spyder 6.1.4 6.1.5: The Scientific Python Development Environment
+dev-python/spyder 6.1.4 6.1.5 6.1.6: The Scientific Python Development Environment
 dev-python/spyder-kernels 3.1.4 3.1.5: Kernels used by spyder on its ipython console
 dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler from within the spyder editor
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
@@ -9802,7 +9802,7 @@ dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinj
 dev-python/tzdata 10001: tzdata shim to satisfy requirements (while using system tzdata)
 dev-python/tzlocal 5.4.3 5.4.4: tzinfo object for the local timezone
 dev-python/u-msgpack-python 2.8.0: A portable, lightweight MessagePack serializer and deserializer
-dev-python/ubelt 1.4.2: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
+dev-python/ubelt 1.4.2 1.4.3: A stdlib like feel, and extra batteries. Hashing, Caching, Timing, Progress
 dev-python/uc-micro-py 2.0.0: Micro subset of unicode data files for linkify-it-py projects
 dev-python/ujson 5.12.1 5.13.0: Ultra fast JSON encoder and decoder for Python
 dev-python/ukkonen 1.1.0: Implementation of bounded Levenshtein distance (Ukkonen)
@@ -14293,7 +14293,7 @@ media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
 media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
-media-sound/rescrobbled 0.9.0 0.10.0: MPRIS music scrobbler daemon
+media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
 media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1 3.4.9-r2: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
@@ -14536,7 +14536,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20260624 20260716: Download media files from Yle Areena
+media-video/yle-dl 20260716: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
@@ -14959,7 +14959,7 @@ net-im/slack 4.49.89 4.50.121 4.50.143: Team collaboration tool
 net-im/spectrum2 2.2.1_p20260727: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.152.1 1.155.0 1.156.0: Reference implementation of Matrix homeserver
-net-im/talk-desktop-bin 2.1.1 2.1.2 2.2.0 2.2.1: Nextcloud Talk Desktop client
+net-im/talk-desktop-bin 2.1.1 2.1.2 2.2.0 2.2.1 2.2.3: Nextcloud Talk Desktop client
 net-im/telegram-desktop 6.9.3 7.0.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 7.0.1 7.0.5: Official desktop client for Telegram (binary package)
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -18117,7 +18117,7 @@ sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
 sys-process/daemontools-encore 1.11-r2: Collection of tools for managing UNIX services
 sys-process/dcron 4.6: Dillon's lightweight and minimalist cron daemon
 sys-process/dumb-init 1.2.5-r1: A minimal init system for Linux containers
-sys-process/evisum 0.6.4 1.2.5 2.0.11 2.0.12: System and process monitor written with EFL
+sys-process/evisum 1.2.5 2.0.12: System and process monitor written with EFL
 sys-process/fcron 3.4.0 3.4.0-r1 3.4.1: A command scheduler with extended capabilities over cron and anacron
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1 4.5.4: CLI curses based monitoring tool
