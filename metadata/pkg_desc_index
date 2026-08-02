@@ -986,7 +986,7 @@ app-admin/gam-server 0.1.10-r3: Library providing the FAM File Alteration Monito
 app-admin/gamin 0.1.10-r1: Meta package providing the File Alteration Monitor API & Server
 app-admin/genromfs 0.5.7: Create space-efficient, small, read-only romfs filesystems
 app-admin/gentoo-perl-helpers 0.4.0-r1: Introspection and Upgrade Assistance tools for Gentoo Perl
-app-admin/gentoo-retirement-scripts 2: Scripts to help retiring Gentoo developers
+app-admin/gentoo-retirement-scripts 2 3: Scripts to help retiring Gentoo developers
 app-admin/gentoo-rsync-mirror 1.0-r6: Ebuild for setting up a Gentoo rsync mirror
 app-admin/git-credential-gopass 1.15.15: Gopass git-credentials helper
 app-admin/github-backup-utils 3.12.3: Backup and recovery utilities for GitHub Enterprise
@@ -16564,7 +16564,7 @@ sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
 sci-ml/ollama 0.32.5: Get up and running with Llama 3, Mistral, Gemma, and other language models
-sci-ml/oneDNN 3.5.3 3.6.2 3.7.1 3.10.2 3.11.2: oneAPI Deep Neural Network Library
+sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.11.0 2.12.0: Tensors and Dynamic neural networks in Python
 sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
