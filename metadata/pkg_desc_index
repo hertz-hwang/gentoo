@@ -1401,7 +1401,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 7.0.1 7.2 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 7.0.1 7.2 7.3 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 7.0.0: A userspace interface for the Linux kernel containment features
@@ -9681,8 +9681,8 @@ dev-python/sphinxemoji 0.3.2: Extension to use emoji codes in your Sphinx docume
 dev-python/sphinxygen 1.0.12: Python module/script that generates Sphinx markup to describe a C API
 dev-python/sphobjinv 2.4: Sphinx objects.inv Inspection/Manipulation Tool
 dev-python/spotipy 2.26.0: A lightweight Python library for the Spotify Web API
-dev-python/spyder 6.1.4 6.1.5 6.1.6: The Scientific Python Development Environment
-dev-python/spyder-kernels 3.1.4 3.1.5: Kernels used by spyder on its ipython console
+dev-python/spyder 6.1.6: The Scientific Python Development Environment
+dev-python/spyder-kernels 3.1.5-r1: Kernels used by spyder on its ipython console
 dev-python/spyder-line-profiler 0.4.2: Plugin to run the python line profiler from within the spyder editor
 dev-python/spyder-notebook 0.7.1: Jupyter notebook integration with Spyder
 dev-python/spyder-terminal 1.3.1: Run system terminals inside Spyder
