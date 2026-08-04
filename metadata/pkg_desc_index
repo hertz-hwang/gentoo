@@ -12249,7 +12249,7 @@ gui-apps/swaybg 1.2.0 1.2.1 1.2.2 9999: A wallpaper utility for Wayland
 gui-apps/swayidle 1.9.0 9999: Idle management daemon for Wayland
 gui-apps/swaylock 1.8.0 1.8.3 1.8.4 1.8.5 1.8.6 9999: Screen locker for Wayland
 gui-apps/tuigreet 0.8.0-r2 0.9.1-r2 9999: TUI greeter for greetd login manager
-gui-apps/uwsm 0.24.2 0.26.4: Universal Wayland Session Manager
+gui-apps/uwsm 0.26.4 0.26.6: Universal Wayland Session Manager
 gui-apps/waybar 0.10.4-r1 0.11.0 0.11.0-r1 0.12.0 0.14.0 0.15.0 9999: Highly customizable Wayland bar for Sway and Wlroots based compositors
 gui-apps/wayland-logout 1.4 9999: general logout scripts for wayland compositors
 gui-apps/waypipe 0.9.2-r1: Transparent network proxy for Wayland compositors
@@ -13570,7 +13570,7 @@ media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
 media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
 media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.68: Simple Direct Media Layer
-media-libs/libsdl3 3.2.30 3.4.10 3.4.12: Simple Direct Media Layer
+media-libs/libsdl3 3.2.30 3.4.12 3.4.14: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
 media-libs/libshumate 1.4.0 1.6.1: Shumate is a GTK toolkit providing widgets for embedded maps
@@ -14438,9 +14438,9 @@ media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to ch
 media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
-media-video/ffmpeg 4.4.8 6.1.6 7.1.5 8.1.2 9999: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg 4.4.8 6.1.6 7.1.5 8.1.2 9.0 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 137 138 140 141 142 143 144 145 146 147 148 149 150 150.0.7871.124 151: FFmpeg built specifically for codec support in Chromium-based browsers
-media-video/ffmpeg-compat 4.4.8 6.1.6 7.1.5: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg-compat 4.4.8 6.1.6 7.1.5 8.1.2: Complete solution to record/convert/stream audio and video
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
@@ -17698,7 +17698,7 @@ sys-cluster/codipack 3.1.0 9999: Fast gradient evaluation in C++ based on Expres
 sys-cluster/corosync 3.1.0: OSI Certified implementation of a complete cluster engine
 sys-cluster/drbd-utils 9.25.0 9.25.0-r1 9.27.0: mirror/replicate block-devices across a network-connection
 sys-cluster/fake 1.1.10: Switch in backup servers on a LAN
-sys-cluster/flux 2.8.3-r1: Flux is a tool for keeping Kubernetes clusters in sync
+sys-cluster/flux 2.8.3-r2 2.9.3: Flux is a tool for keeping Kubernetes clusters in sync
 sys-cluster/galera 26.4.24 26.4.27: Synchronous multi-master replication engine that provides the wsrep API
 sys-cluster/gasnet 1.32.0: Networking middleware for partitioned global address space (PGAS) language
 sys-cluster/glusterfs 11.1-r2 11.2: GlusterFS is a powerful network/cluster filesystem
@@ -17721,8 +17721,8 @@ sys-cluster/kubeadm 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.
 sys-cluster/kubectl 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.0 1.36.1: CLI to run commands against Kubernetes clusters
 sys-cluster/kubelet 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Node Agent
 sys-cluster/kubeletctl 1.12 1.13: A client for kubelet
-sys-cluster/kubelogin 1.35.2-r1 1.36.0-r1: kubectl plugin for Kubernetes OpenID Connect authentication
-sys-cluster/kubeseal 0.36.1-r1: Client-side utility for one-way encrypted secrets in kubernetes
+sys-cluster/kubelogin 1.36.0-r2 1.36.3: kubectl plugin for Kubernetes OpenID Connect authentication
+sys-cluster/kubeseal 0.36.1-r1 0.38.4: Client-side utility for one-way encrypted secrets in kubernetes
 sys-cluster/legion 23.03.0-r1 9999: Data-centric parallel programming system
 sys-cluster/libcircle 0.3.0: API for distributing embarrassingly parallel workloads using self-stabilization
 sys-cluster/libqb 2.0.8-r1 2.0.9: Library providing high performance logging, tracing, ipc, and poll
@@ -17748,7 +17748,7 @@ sys-cluster/slurm 22.05.11-r1 24.05.3-r1: A Highly Scalable Resource Manager
 sys-cluster/spark-bin 3.1.2-r1: Lightning-fast unified analytics engine
 sys-cluster/torque 6.0.4-r7: Resource manager and queuing system based on OpenPBS
 sys-cluster/ucx 1.18.1 1.19.0: Unified Communication X
-sys-cluster/virtctl 1.8.0-r1: Control virtual machine related operations on your kubernetes cluster
+sys-cluster/virtctl 1.8.0-r1 1.9.0: Control virtual machine related operations on your kubernetes cluster
 sys-cluster/zookeeper-bin 3.8.4 3.8.5 3.8.6 3.9.3 3.9.4 3.9.5: A high-performance coordination service for distributed applications
 sys-cluster/zookeepercli 1.0.11: Simple, lightweight, dependable CLI for ZooKeeper
 sys-devel/autogen 5.18.16-r102: Program and text file generation
@@ -18603,7 +18603,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.24 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.13 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.173.02 580.178.04 595.44.09 595.84 595.91.07 610.43.03 610.57.04: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.173.02 580.178.04 595.44.13 595.84 595.91.07 610.43.03 610.57.04: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
