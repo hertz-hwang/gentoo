@@ -2640,7 +2640,7 @@ app-i18n/zinnia 0.06-r3: Zinnia - Online hand recognition system with machine le
 app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomoe data
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240915: Kernel module to expose more Framework Laptop stuff
-app-laptop/framework-tool-tui 0.8.0 0.8.3 0.8.4: TUI for controlling and monitoring Framework Computers hardware built in Rust
+app-laptop/framework-tool-tui 0.8.0 0.8.3 0.8.4 0.8.5: TUI for controlling and monitoring Framework Computers hardware built in Rust
 app-laptop/framework_tool 0.6.2 0.6.3 0.6.4 0.6.5: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
@@ -3116,7 +3116,7 @@ app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 85: Handy scripts for ebuild development and more
-app-portage/mirrorselect 2.6.4 2.7.0 9999: Tool to help select distfiles mirrors for Gentoo
+app-portage/mirrorselect 2.6.4 2.7.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.2-r1 0.4.3: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
@@ -18413,7 +18413,7 @@ www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 140.13.0 153.0.1: Firefox Web Browser
-www-client/firefox-bin 140.13.0 153.0.1: Firefox Web Browser
+www-client/firefox-bin 140.13.0 153.0.1 153.0.3: Firefox Web Browser
 www-client/firefox-l10n 153.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 148.0.7778.215 149.0.7827.114 150.0.7871.181: The web browser from Google
 www-client/google-chrome-beta 149.0.7827.53 150.0.7871.13 151.0.7922.47: The web browser from Google
