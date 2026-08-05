@@ -1803,7 +1803,7 @@ app-doc/phrack 01-r2 02-r2 03-r2 04-r2 05-r2 06-r2 07-r2 08-r2 09-r2 10-r2 11-r2
 app-doc/phrack-all 72: Hacker magazine by the community, for the community (all issues)
 app-doc/pms 9_p20260614 9999: Gentoo Package Manager Specification (draft)
 app-doc/pms-bin 9_p20260614: Gentoo Package Manager Specification
-app-doc/python-docs 2.7.18 3.8.20 3.9.25 3.10.20 3.11.15 3.12.13 3.13.14 3.14.6: HTML documentation for Python
+app-doc/python-docs 2.7.18 3.8.20 3.9.25 3.10.20 3.11.15 3.12.13 3.13.14 3.13.15 3.14.6 3.14.7: HTML documentation for Python
 app-doc/s6-linux-init-man-pages 1.1.2.1.1 1.2.0.0.2: mdoc port of the HTML documentation for the s6-linux-init suite
 app-doc/s6-man-pages 2.13.1.0.1 2.14.0.1.4: mdoc port of the HTML documentation for the s6 suite
 app-doc/s6-networking-man-pages 2.7.0.4.1 2.7.2.1.4: mdoc port of the HTML documentation for the s6 suite
@@ -5410,7 +5410,7 @@ dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 3.11.7.3.23-r1: A fast, compliant alternative implementation of the Python (3.11) language
 dev-lang/pypy3-exe 3.11.7.3.23: PyPy3.11 executable (build from source)
 dev-lang/pypy3-exe-bin 3.11.7.3.23: PyPy3.11 executable (pre-built version)
-dev-lang/python 0.3.13.14 0.3.13.9999 0.3.14.6 0.3.14.6_p1 0.3.14.9999 0.3.15.0_beta2 0.3.15.0_beta3 0.3.15.0_beta4 0.3.15.0_rc1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.20 3.10.9999 3.11.15-r1 3.11.9999 3.12.13_p1 3.12.9999 3.13.14 3.13.9999 3.14.6 3.14.6_p1 3.14.9999 3.15.0_beta2 3.15.0_beta3 3.15.0_beta4 3.15.0_rc1 3.15.9999: An interpreted, interactive, object-oriented programming language
+dev-lang/python 0.3.13.14 0.3.13.15 0.3.13.9999 0.3.14.6 0.3.14.6_p1 0.3.14.7 0.3.14.9999 0.3.15.0_beta2 0.3.15.0_beta3 0.3.15.0_beta4 0.3.15.0_rc1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.20 3.10.9999 3.11.15-r1 3.11.9999 3.12.13_p1 3.12.9999 3.13.14 3.13.15 3.13.9999 3.14.6 3.14.6_p1 3.14.7 3.14.9999 3.15.0_beta2 3.15.0_beta3 3.15.0_beta4 3.15.0_rc1 3.15.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
 dev-lang/qore 1.19.2: Qore, the embeddable multithreaded scripting language
@@ -9445,7 +9445,7 @@ dev-python/python-stdnum 2.2: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.6: A streaming protocol for test results
 dev-python/python-swiftclient 4.10.0: Python bindings to the OpenStack Object Storage API
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
-dev-python/python-tests 0.3.14.6 0.3.14.6_p1 0.3.14.9999 0.3.15.0_beta2 0.3.15.0_beta3 0.3.15.0_beta4 0.3.15.0_rc1 0.3.15.9999 3.12.13_p1 3.12.9999 3.13.14 3.13.9999 3.14.6 3.14.6_p1 3.14.9999 3.15.0_beta2 3.15.0_beta3 3.15.0_beta4 3.15.0_rc1 3.15.9999: Test modules from dev-lang/python
+dev-python/python-tests 0.3.14.6 0.3.14.6_p1 0.3.14.7 0.3.14.9999 0.3.15.0_beta2 0.3.15.0_beta3 0.3.15.0_beta4 0.3.15.0_rc1 0.3.15.9999 3.12.13_p1 3.12.9999 3.13.14 3.13.15 3.13.9999 3.14.6 3.14.6_p1 3.14.7 3.14.9999 3.15.0_beta2 3.15.0_beta3 3.15.0_beta4 3.15.0_rc1 3.15.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.12.1: Fuzzy matching library - C++ extension for Python
 dev-python/python-utils 3.9.1 4.0.0: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
@@ -11265,7 +11265,7 @@ dev-vcs/cvsutils 0.2.6: A small bundle of utilities to work with CVS repositorie
 dev-vcs/darcs 2.16.5-r6 2.18.5: a distributed, interactive, smart revision control system
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.21 2.22 2.24-r1 2.26 2.27: Simple, high-reliability, source control management, and more
-dev-vcs/gagit 1 2 3: Gentoo AGit workflow tool
+dev-vcs/gagit 3: Gentoo AGit workflow tool
 dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
@@ -15163,7 +15163,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.68.0 1.68.1 1.69.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.19.6 22.13.1 22.21.1 24.14.0 24.19.0 26.3.0 26.6.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.19.6 20.20.2 22.13.1 22.21.1 24.14.0 24.19.0 26.3.0 26.6.0 26.7.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15660,7 +15660,7 @@ net-p2p/qbittorrent 5.1.2-r1 5.1.4 5.2.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.11 0.16.13 0.16.14 0.16.15 0.16.19 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
-net-p2p/syncthing 2.0.10 2.0.16 2.1.1 2.1.2: Open Source Continuous File Synchronization
+net-p2p/syncthing 2.0.10 2.0.16 2.1.2 2.1.3: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
 net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 4.1.3 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
@@ -16573,7 +16573,7 @@ sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
 sci-ml/ollama 0.32.5: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
-sci-ml/pytorch 2.12.0 2.13.0-r2: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+sci-ml/pytorch 2.12.0 2.13.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 sci-ml/safetensors 0.7.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
@@ -16856,7 +16856,7 @@ sec-keys/openpgp-keys-processone 20220316: OpenPGP keys used by processone/ejabb
 sec-keys/openpgp-keys-proftpd 20260119: OpenPGP keys used for ProFTPD releases
 sec-keys/openpgp-keys-putty-release 2023: PuTTY Release Key
 sec-keys/openpgp-keys-pv 20230926 20251012: OpenPGP keys used by Andrew Wood for sys-apps/pv
-sec-keys/openpgp-keys-python 20221025: OpenPGP keys used to sign CPython releases
+sec-keys/openpgp-keys-python 20221025 20260805: OpenPGP keys used to sign CPython releases
 sec-keys/openpgp-keys-qbittorrent 20161227: OpenPGP keys used by qBittorrent
 sec-keys/openpgp-keys-qutebrowser 20251024: OpenPGP keys used by Qutebrowser
 sec-keys/openpgp-keys-roddhjav 20260129: OpenPGP key used by Alexandre Pujol (roddhjav)
