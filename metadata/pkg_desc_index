@@ -2497,7 +2497,7 @@ app-eselect/eselect-pinentry 0.7.4 0.7.5: Manage /usr/bin/pinentry symlink
 app-eselect/eselect-postgresql 2.4-r1: Utility to select the default PostgreSQL slot
 app-eselect/eselect-pwsh 0.1.1: Eselect module for management of multiple pwsh versions
 app-eselect/eselect-python 20200719: Eselect module for management of multiple Python versions
-app-eselect/eselect-rails 0.26 0.28 0.29: Manages Ruby on Rails symlinks
+app-eselect/eselect-rails 0.26 0.28 0.29 0.30: Manages Ruby on Rails symlinks
 app-eselect/eselect-repository 15: Manage repos.conf via eselect
 app-eselect/eselect-ruby 20241225 20251225: Manages multiple Ruby versions
 app-eselect/eselect-rust 20210703: Eselect module for management of multiple Rust versions
@@ -8667,7 +8667,7 @@ dev-python/gentoo-common 1: Common files shared by Python implementations in Gen
 dev-python/genty 1.3.2-r3: Allows you to run a test with multiple data sets
 dev-python/geographiclib 2.1: Python implementation of the geodesic routines
 dev-python/gfloat 0.5.2-r1: Generic floating-point types in Python
-dev-python/gherkin-official 41.0.0 42.0.0: Gherkin parser/compiler for Python
+dev-python/gherkin-official 41.0.0 42.0.0 42.0.1: Gherkin parser/compiler for Python
 dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
@@ -9976,20 +9976,20 @@ dev-ruby/abbrev 0.1.2: Calculates a set of unique abbreviations for a given set 
 dev-ruby/abstract 1.0.0-r5: Library which enable you to define abstract method in Ruby
 dev-ruby/acme-client 2.0.27 2.0.28 2.0.29 2.0.30: A Ruby client for the letsencrypt's ACME protocol
 dev-ruby/action_text-trix 2.1.15 2.1.16 2.1.16-r1: A rich text editor for everyday writing
-dev-ruby/actioncable 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Integrated WebSockets for Rails
-dev-ruby/actionmailbox 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Framework for designing email-service layers
-dev-ruby/actionmailer 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Framework for designing email-service layers
-dev-ruby/actionpack 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Eases web-request routing, handling, and response
+dev-ruby/actioncable 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Integrated WebSockets for Rails
+dev-ruby/actionmailbox 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Framework for designing email-service layers
+dev-ruby/actionmailer 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Framework for designing email-service layers
+dev-ruby/actionpack 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Eases web-request routing, handling, and response
 dev-ruby/actionpack-xml_parser 2.0.1-r4: XML parameters parser for Action Pack (removed from core in Rails 4.0)
-dev-ruby/actiontext 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Edit and display rich text in Rails applications
-dev-ruby/actionview 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Simple, battle-tested conventions and helpers for building web pages
-dev-ruby/activejob 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Job framework with pluggable queues
+dev-ruby/actiontext 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Edit and display rich text in Rails applications
+dev-ruby/actionview 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Simple, battle-tested conventions and helpers for building web pages
+dev-ruby/activejob 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Job framework with pluggable queues
 dev-ruby/activeldap 7.2.2: ActiveLDAP provides an activerecord inspired object oriented interface to LDAP
-dev-ruby/activemodel 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Toolkit for building modeling frameworks like Active Record and Active Resource
+dev-ruby/activemodel 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Toolkit for building modeling frameworks like Active Record and Active Resource
 dev-ruby/activemodel-serializers-xml 1.0.3: XML serialization for your Active Model objects and Active Record models
-dev-ruby/activerecord 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
-dev-ruby/activestorage 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Attach cloud and local files in Rails applications
-dev-ruby/activesupport 7.1.5.1 7.1.6 7.2.3 8.0.4 8.1.1 8.1.2: Utility Classes and Extension to the Standard Library
+dev-ruby/activerecord 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
+dev-ruby/activestorage 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Attach cloud and local files in Rails applications
+dev-ruby/activesupport 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.5.1 8.1.2 8.1.3.1: Utility Classes and Extension to the Standard Library
 dev-ruby/acts_as_list 1.2.4 1.2.6: Capabilities for sorting and reordering a number of objects in a list
 dev-ruby/addressable 2.8.7 2.8.8: A replacement for the URI implementation that is part of Ruby's standard library
 dev-ruby/ae 1.8.2-r1: Assertive Expressive is an assertions library designed for reuse
@@ -10035,6 +10035,7 @@ dev-ruby/binding_of_caller 1.0.1 2.0.0: Retrieve the binding of a method's calle
 dev-ruby/blankslate 3.1.3-r2: Base class with almost all of the methods from Object and Kernel being removed
 dev-ruby/blinkstick 1.0.1_p20150901-r1: ruby interface for blinkstick via libusb
 dev-ruby/bogus 0.1.7-r1: Ensuring that the things you stub or mock actually exist
+dev-ruby/bootsnap 1.24.6: Boot large ruby/rails apps faster
 dev-ruby/brass 1.2.1-r1: BRASS is a very basic assertions framework for Ruby
 dev-ruby/brotli 0.6.0-r1 0.7.0 0.8.0-r1: Brotli compressor/decompressor
 dev-ruby/bsearch 1.5.0-r4: A binary search library for Ruby
@@ -10234,7 +10235,7 @@ dev-ruby/io-wait 0.3.1 0.3.2 0.3.6 0.4.0: Waits until IO is readable or writable
 dev-ruby/ipaddr 1.2.7 1.2.8: IPAddr provides a set of methods to manipulate an IPv4 or IPv6 address
 dev-ruby/irb 1.15.2 1.15.3 1.16.0: Interactive Ruby command-line tool for REPL (Read Eval Print Loop)
 dev-ruby/itextomml 1.6.1 1.6.1-r1: Native Ruby bindings to itex2MML, which converts itex equations to MathML
-dev-ruby/jbuilder 2.13.0-r1 2.14.0 2.14.1: Create JSON structures via a Builder-style DSL
+dev-ruby/jbuilder 2.13.0-r1 2.14.0 2.14.1 2.15.1: Create JSON structures via a Builder-style DSL
 dev-ruby/jmespath 1.6.2: Implements JMESPath for Ruby
 dev-ruby/jquery-rails 4.6.0 4.6.1: jQuery! For Rails! So great
 dev-ruby/jquery-ui-rails 7.0.0 8.0.0 8.0.0-r1: The jQuery UI assets for the Rails 3.2+ asset pipeline
@@ -10305,6 +10306,7 @@ dev-ruby/minitest-hooks 1.5.0 1.5.1 1.5.2 1.5.3: Adds around and before_all/afte
 dev-ruby/minitest-mock 5.27.0: A tiny mock and stub object framework for minitest
 dev-ruby/minitest-power_assert 0.3.1-r1: Power Assert for Minitest
 dev-ruby/minitest-pretty_diff 0.1-r2: Pretty-print hashes and arrays before diffing them in MiniTest
+dev-ruby/minitest-retry 0.3.1: Re-run the test when the test fails
 dev-ruby/mixlib-config 3.0.27: A class based configuration library
 dev-ruby/mixlib-shellout 3.3.9 3.4.13: Run external commands on Unix or Windows
 dev-ruby/mize 0.6.1: Library that provides memoziation for methods and functions for Ruby
@@ -10393,7 +10395,7 @@ dev-ruby/prettyprint 0.2.0: Implements a pretty printing algorithm for readable 
 dev-ruby/prime 0.1.2-r1 0.1.3 0.1.4: Prime numbers and factorization library
 dev-ruby/prism 1.4.0 1.7.0 1.8.0 1.9.0: Prism Ruby parser
 dev-ruby/process_executer 1.3.0 2.0.0 3.2.0 3.2.4 4.0.0 4.0.1 4.0.2: An API for executing commands in a subprocess
-dev-ruby/propshaft 1.3.1 1.3.1-r1: Deliver assets for Rails
+dev-ruby/propshaft 1.3.1 1.3.1-r1 1.3.2: Deliver assets for Rails
 dev-ruby/pry 0.14.2 0.15.2 0.16.0: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/pstore 0.2.0: Transactional File Storage for Ruby Objects
 dev-ruby/psych 5.2.6 5.3.1 5.4.0: A YAML parser and emitter
@@ -10414,10 +10416,10 @@ dev-ruby/rack-session 1.0.1 2.1.0 2.1.1: A session implementation for Rack
 dev-ruby/rack-test 2.2.0: Rack::Test is a small, simple testing API for Rack apps
 dev-ruby/rackup 2.2.1-r1 2.3.1: A general server command for Rack applications
 dev-ruby/radius 0.8.0: Powerful tag-based template system
-dev-ruby/rails 7.1.5.1 7.1.6 7.2.3 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: ruby on rails is a web-application and persistence framework
+dev-ruby/rails 7.1.5.1 7.1.6 7.2.3 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Ruby on Rails is a web-application and persistence framework
 dev-ruby/rails-dom-testing 2.2.0 2.3.0: Compare doms and assert certain elements exists in doms using Nokogiri
 dev-ruby/rails-html-sanitizer 1.6.2: Sanitize HTML fragments in Rails applications
-dev-ruby/railties 7.1.5.1 7.1.6 7.1.6-r1 7.2.3 7.2.3-r1 8.0.4 8.0.4-r1 8.1.1 8.1.2 8.1.2-r1: Tools for creating, working with, and running Rails applications
+dev-ruby/railties 7.1.5.1 7.1.6 7.1.6-r1 7.2.3 7.2.3-r1 7.2.3.2 8.0.4 8.0.4-r1 8.0.5.1 8.1.2 8.1.2-r1 8.1.3.1: Tools for creating, working with, and running Rails applications
 dev-ruby/rainbow 3.1.1: Colorize printed text on ANSI terminals
 dev-ruby/rake 13.2.1 13.3.0 13.3.1: Make-like scripting in Ruby
 dev-ruby/rake-compiler 1.3.0 1.3.1: Provide a standard and simplified way to build and package Ruby extensions
@@ -10518,6 +10520,7 @@ dev-ruby/ruby-romkan 0.4-r7: A Romaji <-> Kana conversion library for Ruby
 dev-ruby/ruby-shadow 2.5.1: ruby shadow bindings
 dev-ruby/ruby-shout 2.2.2-r2: A Ruby interface to libshout2
 dev-ruby/ruby-termios 1.1.0-r2: A Ruby interface to termios
+dev-ruby/ruby-vips 2.3.0: A fast image processing library with low memory needs
 dev-ruby/ruby-yadis 0.3.4-r3: A ruby library for performing Yadis service discovery
 dev-ruby/ruby2_keywords 0.0.5-r1: Shim library for Module#ruby2_keywords
 dev-ruby/ruby2ruby 2.5.2 2.6.0: Generates readable ruby from ParseTree
@@ -10574,7 +10577,7 @@ dev-ruby/spring 4.3.0 4.4.0: Rails application preloader
 dev-ruby/sprockets 3.7.2-r3 4.2.2: Ruby library for compiling and serving web assets
 dev-ruby/sprockets-rails 3.5.2 3.5.2-r1: Sprockets implementation for Rails 4.x (and beyond) Asset Pipeline
 dev-ruby/spy 1.0.5: A simple opinionated mocking framework
-dev-ruby/sqlite3 2.7.3 2.9.0: An extension library to access a SQLite database from Ruby
+dev-ruby/sqlite3 2.7.3 2.9.0 2.9.5: An extension library to access a SQLite database from Ruby
 dev-ruby/sshkey 2.0.0-r1 3.0.0: SSH private and public key generator in pure Ruby
 dev-ruby/sshkit 1.24.0 1.25.0: SSHKit makes it easy to write structured, testable SSH commands in Ruby
 dev-ruby/stamp 0.6.0-r1: Date and time formatting for humans
@@ -17778,7 +17781,7 @@ sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
 sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.4.1_p20260624 13.4.1_p20260701 13.4.1_p20260708 13.4.1_p20260715 13.4.1_p20260722 13.4.1_p20260729 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.3.1_p20260619 14.4.0 14.4.1_p20260716 14.4.1_p20260723 14.4.1_p20260730 14.5.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.1_p20260619 15.3.1_p20260626 15.3.1_p20260703 15.3.1_p20260710 15.3.1_p20260717 15.3.1_p20260724 15.3.1_p20260731 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.1.1_p20260620 16.1.1_p20260627 16.1.1_p20260704 16.1.1_p20260711 16.1.1_p20260718 16.1.1_p20260725 16.1.1_p20260731 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.0_p20260621 17.0.0_p20260628 17.0.0_p20260705 17.0.0_p20260712 17.0.0_p20260719 17.0.0_p20260726 17.0.0_p20260802 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
-sys-devel/gnuconfig 20240728 20250710 99999999: Updated config.sub and config.guess file from GNU
+sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.5.0 13.4.0 14.3.0 15.2.0: 64bit kernel compiler
 sys-devel/m4 1.4.19-r2 1.4.20 1.4.21: GNU macro processor
