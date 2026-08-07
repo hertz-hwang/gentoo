@@ -5888,7 +5888,7 @@ dev-libs/nmeap 0.3-r2: Extensible NMEA-0183 (GPS) data parser in standard C
 dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
-dev-libs/nspr 4.36 4.38.2 4.39: Netscape Portable Runtime
+dev-libs/nspr 4.36 4.38.2 4.39 4.40: Netscape Portable Runtime
 dev-libs/nss 3.112.5 3.125 3.126: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
@@ -11005,7 +11005,7 @@ dev-util/elf_diff 0.7.1: Tool to compare ELF binaries
 dev-util/elfkickers 3.2-r1: Collection of programs to manipulate ELF files: sstrip, rebind, elfls, elftoc
 dev-util/elfshaker 0.9.0_p20250803: Stores binary objects efficiently
 dev-util/esbuild 0.25.1 0.25.2 0.25.5 0.27.3: A modern, extremely fast, JavaScript and CSS bundler and minifier
-dev-util/fj-cli 0.5.0: CLI tool for Forgejo
+dev-util/fj-cli 0.5.0 0.6.0: CLI tool for Forgejo
 dev-util/flatpak-builder 1.4.8 1.4.10-r2: Tool to build flatpaks from source
 dev-util/flawfinder 2.0.19-r2 2.0.20: Examines C/C++ source code for security flaws
 dev-util/fq 0.15.1 0.16.0 0.17.0: Tool for working with binary data (app-misc/jq for binary formats)
@@ -11029,7 +11029,7 @@ dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.84.4 2.86.5 2.88.1 2.88.2: Build utilities for GLib using projects
 dev-util/global 6.6.14 6.6.15: Tag system to find an object location in various sources
-dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 48.2-r2 49.1: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
@@ -11202,9 +11202,9 @@ dev-util/shunit2 2.1.8: Unit-test framework for Bourne-based shell scripts
 dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on Linux systems
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
-dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 17.0.18 17.0.23 17.0.25 18.1.18 18.1.23 18.1.25 19.1.13 19.1.18 19.1.20 20.1.8 20.1.13 20.1.15 21.1.3 21.1.7 21.1.9 22.1.2 22.1.4 23.0.0_pre20260223 23.0.0_pre20260714 24.0.0_pre20260714: Bi-directional translator between SPIR-V and LLVM IR
-dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Provides an API and commands for processing SPIR-V modules
+dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
 dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
@@ -11237,9 +11237,9 @@ dev-util/visual-regexp 3.1: Type the regexp and visualize it on a sample of your
 dev-util/visualvm 2.2-r2: Integrates commandline JDK tools and profiling capabilities
 dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagnostics and control
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
-dev-util/vulkan-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Share code across various Vulkan repositories
+dev-util/vulkan-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0: A fast WebAssembly interpreter and the most universal WASM runtime
 dev-util/watchman 2024.11.04.00 2025.04.14.00: A file watching service
@@ -13706,7 +13706,7 @@ media-libs/sdl3-ttf 3.2.2: Library that allows you to use TrueType fonts in SDL 
 media-libs/sdl_audiolib 0_p20220622-r1 9999: Audio decoding, resampling and mixing library for SDL
 media-libs/sg 1.5: Socket Graphics tool for displaying polygons
 media-libs/sge 030809-r1: Graphics extensions library for SDL
-media-libs/shaderc 2025.4 2025.5 2026.1 2026.2: Collection of tools, libraries and tests for shader compilation
+media-libs/shaderc 2025.4 2025.5 2026.1 2026.2 2026.3: Collection of tools, libraries and tests for shader compilation
 media-libs/simage 1.8.3-r1 1.8.4 9999: Image and video texturing library
 media-libs/smpeg 0.4.4-r11 0.4.4-r12: SDL MPEG Player Library
 media-libs/smpeg2 2.0.0-r4: SDL MPEG Player Library
@@ -13743,8 +13743,8 @@ media-libs/vo-aacenc 0.1.3 9999: VisualOn AAC encoder library
 media-libs/vo-amrwbenc 0.1.3 9999: VisualOn AMR-WB encoder library
 media-libs/volpack 1.0_p7-r2: Volume rendering library
 media-libs/vpl-gpu-rt 26.2.0 26.2.1 26.2.3 26.2.4: Intel Video Processing Library GPU Runtime
-media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 9999: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 9999: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Installable Client Driver (ICD) Loader
 media-libs/waffle 1.8.1 1.8.2 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 1.3-r5 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
@@ -14945,7 +14945,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 1.0.147 1.0.150: All-in-one voice and text chat for gamers
+net-im/discord 1.0.150 1.0.152: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.10 25.04 25.10 26.04: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -17781,7 +17781,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.4.1_p20260624 13.4.1_p20260701 13.4.1_p20260708 13.4.1_p20260715 13.4.1_p20260722 13.4.1_p20260729 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.3.1_p20260619 14.4.0 14.4.1_p20260716 14.4.1_p20260723 14.4.1_p20260730 14.5.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.1_p20260619 15.3.1_p20260626 15.3.1_p20260703 15.3.1_p20260710 15.3.1_p20260717 15.3.1_p20260724 15.3.1_p20260731 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.1.1_p20260620 16.1.1_p20260627 16.1.1_p20260704 16.1.1_p20260711 16.1.1_p20260718 16.1.1_p20260725 16.1.1_p20260731 16.2.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.0_p20260621 17.0.0_p20260628 17.0.0_p20260705 17.0.0_p20260712 17.0.0_p20260719 17.0.0_p20260726 17.0.0_p20260802 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20250807 13.4.1_p20251016 13.4.1_p20260212 13.4.1_p20260422 13.4.1_p20260429 13.4.1_p20260506 13.4.1_p20260513 13.4.1_p20260520 13.4.1_p20260527 13.4.1_p20260603 13.4.1_p20260610 13.4.1_p20260617 13.4.1_p20260624 13.4.1_p20260701 13.4.1_p20260708 13.4.1_p20260715 13.4.1_p20260722 13.4.1_p20260729 13.4.1_p20260805 13.5.9999 14.3.1_p20250801 14.3.1_p20251017 14.3.1_p20260213 14.3.1_p20260423 14.3.1_p20260430 14.3.1_p20260507 14.3.1_p20260514 14.3.1_p20260521 14.3.1_p20260528 14.3.1_p20260604 14.3.1_p20260611 14.3.1_p20260618 14.3.1_p20260619 14.4.0 14.4.1_p20260716 14.4.1_p20260723 14.4.1_p20260730 14.4.1_p20260806 14.5.9999 15.2.1_p20251108-r1 15.2.1_p20251122 15.2.1_p20260214 15.2.1_p20260424 15.2.1_p20260501 15.2.1_p20260508 15.2.1_p20260515 15.2.1_p20260522 15.2.1_p20260529 15.2.1_p20260605 15.3.0 15.3.1_p20260612 15.3.1_p20260619 15.3.1_p20260626 15.3.1_p20260703 15.3.1_p20260710 15.3.1_p20260717 15.3.1_p20260724 15.3.1_p20260731 15.3.9999 16.1.0 16.1.1_p20260502 16.1.1_p20260509 16.1.1_p20260516 16.1.1_p20260523 16.1.1_p20260530 16.1.1_p20260606 16.1.1_p20260613 16.1.1_p20260620 16.1.1_p20260627 16.1.1_p20260704 16.1.1_p20260711 16.1.1_p20260718 16.1.1_p20260725 16.1.1_p20260731 16.2.0 16.3.9999 17.0.0_p20260426 17.0.0_p20260503 17.0.0_p20260510 17.0.0_p20260517 17.0.0_p20260524 17.0.0_p20260531 17.0.0_p20260607 17.0.0_p20260607-r1 17.0.0_p20260614 17.0.0_p20260621 17.0.0_p20260628 17.0.0_p20260705 17.0.0_p20260712 17.0.0_p20260719 17.0.0_p20260726 17.0.0_p20260802 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -17971,7 +17971,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scr
 sys-kernel/gentoo-kernel 6.1.180 6.6.147 6.6.148 6.12.100 6.12.101 6.18.41 6.18.42 6.18.43 7.1.5 7.1.6 7.1.7: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.180 6.6.147 6.6.148 6.12.100 6.12.101 6.18.41 6.18.42 6.18.43 7.1.5 7.1.6 7.1.7: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.180 6.6.147 6.6.148 6.12.100 6.12.101 6.18.41 6.18.42 6.18.43 7.1.5 7.1.6 7.1.7: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.180 6.1.181 6.6.147 6.6.148 6.6.149 6.12.100 6.12.101 6.18.41 6.18.42 6.18.43 7.1.5 7.1.6 7.1.7: Full sources including the Gentoo patchset for the 7.1 kernel tree
+sys-kernel/gentoo-sources 6.1.180 6.1.182 6.6.147 6.6.148 6.6.150 6.12.100 6.12.101 6.12.102 6.18.41 6.18.42 6.18.43 7.1.5 7.1.6 7.1.7: Full sources including the Gentoo patchset for the 7.1 kernel tree
 sys-kernel/git-sources 7.2_rc1 7.2_rc2 7.2_rc3 7.2_rc4 7.2_rc5 7.2_rc6: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -17994,7 +17994,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext sche
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.180 6.1.9999 6.6.147 6.6.148 6.6.9999 6.12.100 6.12.101 6.12.9999 6.18.41 6.18.42 6.18.43 6.18.9999 7.1.5 7.1.6 7.1.7: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.181 6.6.149 6.12.101 6.18.43 7.1.7: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.182 6.6.150 6.12.102 6.18.43 7.1.7: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
