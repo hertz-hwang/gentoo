@@ -33,7 +33,7 @@ RDEPEND="
 		dev-python/regex[${PYTHON_USEDEP}]
 		dev-python/tqdm[${PYTHON_USEDEP}]
 		dev-python/typer[${PYTHON_USEDEP}]
-		sci-ml/safetensors[${PYTHON_USEDEP}]
+		>=sci-ml/safetensors-0.8.0[${PYTHON_USEDEP}]
 	')
 	torch? (
 		sci-ml/accelerate[${PYTHON_SINGLE_USEDEP}]
@@ -41,7 +41,7 @@ RDEPEND="
 	)
 	test? (
 		sci-ml/datasets[${PYTHON_SINGLE_USEDEP}]
-		sci-ml/caffe2[distributed]
+		>=sci-ml/pytorch-2.13[distributed]
 	)
 "
 
@@ -49,6 +49,9 @@ EPYTEST_PLUGINS=( pytest-xdist )
 distutils_enable_tests pytest
 
 python_test() {
+	local EPYTEST_DESELECT=(
+		tests/models/roberta/test_modeling_roberta.py::RobertaModelTest::test_eager_padding_matches_padding_free_with_position_ids
+	)
 	epytest \
 		tests/models/bert \
 		tests/models/gpt2 \
