@@ -900,7 +900,7 @@ acct-user/znc 0-r3: User for net-irc/znc
 acct-user/zookeeper 0-r2: A user for sys-cluster/zookeeper-bin
 app-accessibility/accerciser 3.46.2 3.48.0: Interactive Python accessibility explorer
 app-accessibility/at-spi2-atk 2.46.0: Gtk module for bridging AT-SPI to Atk
-app-accessibility/at-spi2-core 2.58.6 2.58.7 2.60.5: D-Bus accessibility specifications and registration daemon
+app-accessibility/at-spi2-core 2.58.6 2.58.8 2.60.5: D-Bus accessibility specifications and registration daemon
 app-accessibility/brltty 6.7 6.8 6.9 6.9.1: Daemon that provides access to the Linux/Unix console for a blind person
 app-accessibility/caribou 0.4.21-r9: Input assistive technology intended for switch and pointer users
 app-accessibility/edbrowse 3.8.13 3.8.15 3.8.17: Combination editor, browser, and mail client that is 100% text based
@@ -2726,7 +2726,7 @@ app-misc/beanstalkd 1.13 1.13-r1: A simple, fast work queue
 app-misc/beep 1.4.12-r2 1.4.12-r3: Advanced PC speaker beeper
 app-misc/bfr 1.6-r6: General-purpose command-line pipe buffer
 app-misc/bgrep 0.2_p20250205 0.3: Grep-like tool to search for binary strings
-app-misc/bijiben 40.1-r3 40.2: Note editor designed to remain simple to use
+app-misc/bijiben 40.2: Note editor designed to remain simple to use
 app-misc/binclock 1.5-r1: Displays a binary clock in your terminal
 app-misc/binwalk 2.4.3 3.1.0-r1 9999: Analyzes data for embedded file types
 app-misc/birthday 1.6.2-r2: Displays a list of events happening in the near future
@@ -3947,7 +3947,7 @@ dev-cpp/glog 0.5.0 0.6.0 0.6.0-r1 0.7.1: Google Logging library
 dev-cpp/gpgmepp 2.0.0-r1 2.1.0: GnuPG Made Easy is a library for making GnuPG easier to use (C++ bindings)
 dev-cpp/gstreamermm 1.10.0-r3: C++ interface for GStreamer
 dev-cpp/gtest 1.14.0-r2 1.17.0 9999: Google C++ Testing Framework
-dev-cpp/gtkmm 2.24.5-r2 3.24.11 4.18.0-r1 4.20.0: C++ interface for GTK+
+dev-cpp/gtkmm 2.24.5-r2 3.24.11 4.18.0-r1 4.20.0 4.20.0-r1: C++ interface for GTK+
 dev-cpp/gtksourceviewmm 3.18.0-r2: C++ bindings for gtksourceview
 dev-cpp/gulrak-filesystem 1.5.14 1.5.16: Header-only single-file std::filesystem compatible helper library
 dev-cpp/highway 1.2.0 1.3.0 1.4.0 9999: Performance-portable, length-agnostic SIMD with runtime dispatch
@@ -8404,7 +8404,7 @@ dev-python/brotlicffi 1.2.0.1: Python binding to the Brotli library
 dev-python/btrfs 15: Python module to inspect btrfs filesystems
 dev-python/btrfsutil 7.0 7.1: Library for managing Btrfs filesystems
 dev-python/build 1.4.4 1.5.0 1.5.1: A simple, correct PEP517 package builder
-dev-python/cachebox 6.2.1: The fastest memoizing and caching Python library written in Rust
+dev-python/cachebox 6.2.1 6.2.5: The fastest memoizing and caching Python library written in Rust
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
 dev-python/cachelib 0.14.0 0.15.0 0.15.2 0.15.4: Collection of cache libraries in the same API interface. Extracted from werkzeug
 dev-python/cachetools 7.1.4 7.1.5 7.1.6 7.1.7: Extensible memoizing collections and decorators
@@ -8619,7 +8619,7 @@ dev-python/fastjsonschema 2.21.2 2.22.0 2.22.1: Fast JSON schema validator for P
 dev-python/faust-cchardet 2.1.19 2.1.20 2.2.1 3.0.0 3.0.0-r1: High speed universal character encoding detector
 dev-python/feedgenerator 2.2.1: Standalone version of django.utils.feedgenerator
 dev-python/feedparser 6.0.12 6.0.14: Parse RSS and Atom feeds in Python
-dev-python/feedparser-sgmllib 2.0.1: sgmllib from Python 2.7 for feedparser use
+dev-python/feedparser-sgmllib 2.0.1 2.1.0: sgmllib from Python 2.7 for feedparser use
 dev-python/ffmpeg-python 0.2.0_p20220711-r1: Python bindings for FFmpeg with complex filtering support
 dev-python/fido2 0.9.3-r1 2.1.1 2.2.0 2.2.1: Python based FIDO 2.0 library
 dev-python/fields 5.0.0-r3: Container class boilerplate killer
@@ -12112,11 +12112,11 @@ games-util/xpadneo 0.9.8 0.10.4 9999: Advanced Linux Driver for Xbox One Wireles
 games-util/xqf 1.0.6.2: A server browser for many FPS games (frontend for qstat)
 gnome-base/dconf 0.40.0 0.49.0: Simple low-level configuration system
 gnome-base/dconf-editor 45.0.1 49.0: Graphical tool for editing the dconf configuration database
-gnome-base/gdm 48.0-r1 49.2-r2 49.3 49.3-r2: GNOME Display Manager for managing graphical display servers and user logins
+gnome-base/gdm 48.0-r1 49.2-r3 49.3-r3 49.4: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome 45.2 48.0: Meta package for GNOME, merge this package to install
 gnome-base/gnome-applets 3.54.0-r1 3.56.0 3.58.0: Applets for the GNOME Flashback Panel
 gnome-base/gnome-common 3.18.0-r2: Common files for development of Gnome packages
-gnome-base/gnome-control-center 47.7-r1 48.4-r1 48.7 49.7 49.8-r1: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-control-center 49.7 49.8-r1 49.9: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 45.2 48.0: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-core-libs 45.2 48.0: Sub-meta package for the core libraries of GNOME
 gnome-base/gnome-desktop 44.1-r300 44.1-r400 44.4-r300 44.4-r400 44.5-r300 44.5-r400: Library with common API for various GNOME modules
@@ -12127,11 +12127,11 @@ gnome-base/gnome-light 45.2 48.0: Meta package for GNOME-Light, merge this packa
 gnome-base/gnome-menus 3.36.0-r1 3.38.1: Library and layout configuration for the Desktop Menu fd.o specification
 gnome-base/gnome-panel 3.54.0 3.56.0 3.58.1: The GNOME Flashback Panel
 gnome-base/gnome-session 48.0-r2 49.2 49.3: Gnome session manager
-gnome-base/gnome-session-openrc 49.1-r2 49.2-r1: Gnome session leader for OpenRC
+gnome-base/gnome-session-openrc 49.2-r1 49.3: Gnome session leader for OpenRC
 gnome-base/gnome-settings-daemon 48.1 49.1 49.1-r1: Gnome Settings Daemon
-gnome-base/gnome-shell 48.5 48.7 48.8 49.6-r1 49.7 49.8: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.8 49.7 49.8 49.9: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0 49.1: Collection of GSettings schemas for GNOME desktop
-gnome-base/gvfs 1.56.1-r3 1.58.4: Virtual filesystem implementation for GIO
+gnome-base/gvfs 1.58.4: Virtual filesystem implementation for GIO
 gnome-base/libglade 2.6.4-r5: Library to construct graphical interfaces at runtime
 gnome-base/libgnomecanvas 2.30.3-r1: The Gnome 2 Canvas library
 gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
@@ -12147,7 +12147,7 @@ gnome-extra/cinnamon-session 6.6.3: Cinnamon session manager
 gnome-extra/cinnamon-settings-daemon 6.6.3-r1 6.6.4: Cinnamon's settings daemon
 gnome-extra/cinnamon-translations 6.6.2: Translation data for Cinnamon
 gnome-extra/cjs 128.1: Linux Mint's fork of gjs for Cinnamon
-gnome-extra/eiciel 0.10.0 0.10.1: ACL editor for GNOME, with Nautilus extension
+gnome-extra/eiciel 0.10.1-r1: ACL editor for GNOME, with Nautilus extension
 gnome-extra/evolution-data-server 3.56.2-r1 3.58.3 3.60.1 3.60.2: Evolution groupware backend
 gnome-extra/evolution-ews 3.56.2-r1 3.58.3 3.60.1 3.60.2-r1: Evolution module for connecting to Microsoft Exchange Web Services
 gnome-extra/gnome-boxes 48.0 49.1: Simple GNOME application to access remote or virtual systems
@@ -12182,7 +12182,7 @@ gnome-extra/gnome-shell-frippery 48.0 49.1: Unofficial extension pack providing 
 gnome-extra/gnome-software 49.4: Gnome install & update software
 gnome-extra/gnome-system-monitor 48.1 49.1: The Gnome System Monitor
 gnome-extra/gnome-tweaks 46.1-r1 49.0: Customize advanced GNOME options
-gnome-extra/gnome-user-docs 48.5 49.5 49.7: GNOME end user documentation
+gnome-extra/gnome-user-docs 49.7 49.9: GNOME end user documentation
 gnome-extra/gnome-user-share 47.2 48.2 48.3: Personal file sharing for the GNOME desktop
 gnome-extra/gnome-weather 48.0 49.0 50.0: A weather application for GNOME
 gnome-extra/gucharmap 16.0.1 17.0.1 17.0.2: Unicode character map viewer and library
@@ -12301,7 +12301,7 @@ gui-libs/gtk-layer-shell 0.10.0 0.10.1: Library to create desktop components for
 gui-libs/gtk4-layer-shell 1.1.1-r1 1.3.0: A library for using the Layer Shell Wayland protocol with GTK4
 gui-libs/gtksourceview 5.16.0 5.18.0: A text widget implementing syntax highlighting and other features
 gui-libs/kddockwidgets 2.4.0 2.4.1: KDAB's Dock Widget Framework for Qt
-gui-libs/libadwaita 1.7.9 1.8.5.1 1.8.6: Building blocks for modern GNOME applications
+gui-libs/libadwaita 1.8.6 1.8.7: Building blocks for modern GNOME applications
 gui-libs/libdecor 0.2.5 9999: A client-side decorations library for Wayland clients
 gui-libs/libgedit-amtk 5.9.0 5.9.2 5.10.0: Actions, Menus and Toolbars Kit for GTK applications
 gui-libs/libgedit-gfls 0.2.1 0.3.1 0.4.1: A module dedicated to file loading and saving
@@ -12794,7 +12794,7 @@ mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.3.2 2.3.3 2.4.1: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
-mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.7.1 1.7.2 9999: Browser-based multilingual IMAP client with an application-like user interface
+mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.6.18 1.7.1 1.7.2 1.7.3 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 140.13.0 153.0.1 153.0.2: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.13.0 153.0.1 153.0.2: Thunderbird Mail Client
@@ -13409,7 +13409,7 @@ media-libs/ganv 1.8.2: A GTK+ widget for interactive graph-like environments
 media-libs/gavl 1.4.0-r3: Library for handling uncompressed audio and video data
 media-libs/gd 2.3.3-r4: Graphics library for fast image creation
 media-libs/gegl 0.4.70 9999: A graph based image processing framework
-media-libs/gexiv2 0.14.5 0.14.6: GObject-based wrapper around the Exiv2 library
+media-libs/gexiv2 0.14.6 0.14.7: GObject-based wrapper around the Exiv2 library
 media-libs/giblib 1.2.4-r2: A graphics library built on top of imlib2
 media-libs/giflib 5.2.2 6.1.3: Library to handle, display and manipulate GIF images
 media-libs/glew 1.6.0-r101 1.10.0-r101 2.2.0-r1: The OpenGL Extension Wrangler Library
@@ -13790,7 +13790,7 @@ media-plugins/g2reverb 0.7.1: Stereo reverb LADSPA plugin
 media-plugins/gimp-lqr 0.7.2-r1: Content-aware resizing for the GIMP
 media-plugins/gkrellmpc 0.1_beta10-r1: A gkrellm plugin to control the MPD (Music Player Daemon)
 media-plugins/gmsynth-lv2 0.6.3: General MIDI Sample Player Plugin
-media-plugins/grilo-plugins 0.3.18-r1 0.3.18-r2: A collection of plugins for the Grilo framework
+media-plugins/grilo-plugins 0.3.18-r2: A collection of plugins for the Grilo framework
 media-plugins/gst-plugin-gtk4 0.13.4: GStreamer GTK 4 sink element
 media-plugins/gst-plugins-a52dec 1.24.13 1.26.11: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.13 1.26.11: Adaptive demuxer plugins for Gstreamer
@@ -14879,8 +14879,8 @@ net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
 net-dns/nsd 4.14.2 4.14.3 4.15.0 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
-net-dns/pdns 5.0.6 5.0.7 5.1.4: The PowerDNS Daemon
-net-dns/pdns-recursor 5.3.9 5.3.10 5.4.5: The PowerDNS Recursor
+net-dns/pdns 5.0.7 5.1.4: The PowerDNS Daemon
+net-dns/pdns-recursor 5.3.10 5.4.5: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/redis-knot 3.5.4 3.5.5 3.5.6: Redis module for Knot DNS
@@ -14929,7 +14929,7 @@ net-fs/nfs4-acl-tools 0.3.7-r1 0.4.2 0.4.3_rc1: Commandline and GUI tools that d
 net-fs/openafs 1.8.13-r1 1.8.13-r2 1.8.13.1 1.8.13.1-r1 1.8.13.2 1.8.13.2-r1 1.8.14 1.8.15 1.8.16: The OpenAFS distributed file system
 net-fs/s3backer 2.1.3 2.1.6: A filesystem that contains a single file backed by Amazon S3
 net-fs/s3fs 1.95-r1 1.96: Amazon S3 mounting via fuse
-net-fs/samba 4.23.6 4.23.9 4.23.10 4.24.3 4.24.4 4.24.5: Samba Suite Version 4
+net-fs/samba 4.23.9 4.23.10 4.23.11 4.24.4 4.24.5: Samba Suite Version 4
 net-fs/smbnetfs 0.6.3: FUSE filesystem for SMB shares
 net-fs/sshfs 3.7.3-r2 3.7.5 3.7.6: Fuse-filesystem utilizing the sftp service
 net-fs/wdfs 1.4.2-r4: WebDAV filesystem with special features for accessing subversion repositories
@@ -15063,7 +15063,7 @@ net-libs/freaklabs-chibiarduino 1.0.8_p20190329 9999: freaklabs fork of the ligh
 net-libs/fzssh 1.2.1 1.3.0: A SSH/SFTP library based on libfilezilla
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
 net-libs/gloox 1.0.24-r1 1.0.28: A portable high-level Jabber/XMPP client library for C++
-net-libs/gnome-online-accounts 3.54.6 3.54.10 3.56.4 3.56.5: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.56.5: GNOME framework for accessing online accounts
 net-libs/gnutls 3.8.11 3.8.12 3.8.12-r1 3.8.13: Secure communications library implementing the SSL, TLS and DTLS protocols
 net-libs/google-cloud-cpp 2.19.0 2.30.0: Google Cloud Client Library for C++
 net-libs/grpc 1.71.0 1.72.0 1.75.1 1.80.0: Modern open source high performance RPC framework
