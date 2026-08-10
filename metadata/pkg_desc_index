@@ -11487,7 +11487,7 @@ games-arcade/komi 1.04-r2: Komi the Space Frog - a simple SDL game
 games-arcade/late 0.1.0-r2: Game similar to Barrack by Ambrosia Software
 games-arcade/lbreakout 010315-r1 010315-r2: Breakout clone written with the SDL library
 games-arcade/lbreakout2 2.6.5-r2: Breakout clone written with the SDL library
-games-arcade/methane 2.1.0 3.0.1: Port from an old Amiga game
+games-arcade/methane 2.1.0 3.0.1-r1: Port from an old Amiga game
 games-arcade/missile 1.0.1-r2: Port of the Atari Missile Command game for Linux
 games-arcade/moleinvasion 0.4-r4: Mole infested 2D platform game
 games-arcade/mrrescue 1.02b-r2: Arcade 2d action game based around evacuating civilians from burning buildings
@@ -17764,9 +17764,9 @@ sys-cluster/nullmpi 0.7-r1: MPI substitute library
 sys-cluster/openmpi 4.1.6 4.1.6-r1 5.0.6 5.0.6-r1 5.0.8 5.0.9 5.0.9-r1: A high-performance message passing library (MPI)
 sys-cluster/pconsole 1.0-r4: Tool for managing multiple xterms simultaneously
 sys-cluster/ploop 1.15-r2: openvz tool and a library to control ploop block devices
-sys-cluster/pmix 4.2.2-r1 4.2.8 5.0.3 5.0.4-r1 5.0.9: The Process Management Interface (PMI) Exascale
+sys-cluster/pmix 4.2.2-r1 4.2.8 5.0.3 5.0.4-r1 5.0.9 6.1.0: The Process Management Interface (PMI) Exascale
 sys-cluster/poolmon 0.6-r1: Director mailserver pool monitoring script for Dovecot
-sys-cluster/prrte 3.0.6 3.0.7 3.0.12: PMIx Reference RunTime Environment
+sys-cluster/prrte 3.0.7 3.0.12 3.0.13 4.1.0: PMIx Reference RunTime Environment
 sys-cluster/rdma-core 57.0-r1 59.0-r1 63.0 9999: Userspace components for the Linux Kernel's drivers/infiniband subsystem
 sys-cluster/resource-agents 4.12.0 4.15.1: Resources pack for Heartbeat / Pacemaker
 sys-cluster/rocm-k8s-device-plugin 0.3.0 0.5.0: AMD GPU device plugin for kubernetes
@@ -17963,7 +17963,7 @@ sys-fs/ubi_reader 0.8.5-r2 0.8.13: Collection of Python scripts for extracting d
 sys-fs/udev-init-scripts 35 9999: udev startup scripts for openrc
 sys-fs/udftools 2.3: Ben Fennema's tools for packet writing and the UDF filesystem
 sys-fs/udiskie 2.5.7-r1 2.5.8 2.5.8-r1 2.6.1 2.6.2 2.7.0: An automatic disk mounting service using udisks
-sys-fs/udisks 2.10.2-r1 2.11.0-r1 2.11.1: Daemon providing interfaces to work with storage devices
+sys-fs/udisks 2.10.2-r1 2.11.1 2.11.2: Daemon providing interfaces to work with storage devices
 sys-fs/unionfs-fuse 3.7 3.7-r1 9999: Self-syncing tree-merging file system based on FUSE
 sys-fs/vhba 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEmu suite
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
