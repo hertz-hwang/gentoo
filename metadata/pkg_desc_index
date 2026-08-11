@@ -12856,7 +12856,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.5 3.12_pre20260809: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.5 3.11.6 3.12_pre20260809: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
@@ -13323,7 +13323,7 @@ media-gfx/ttfautohint 1.8.4-r4: Application and libary for hinting TrueType font
 media-gfx/ttygif 1.6.0: Convert terminal recordings to animated gifs
 media-gfx/tuxpaint 0.9.31-r2 0.9.35 0.9.35-r1: Drawing program designed for young children
 media-gfx/tuxpaint-stamps 20230402 20241025: Set of 'Rubber Stamp' images which can be used within Tux Paint
-media-gfx/ueberzug 18.3.1: Command line util to draw images on terminals by using child windows
+media-gfx/ueberzug 18.3.1 18.3.2: Command line util to draw images on terminals by using child windows
 media-gfx/ueberzugpp 2.9.8 2.9.10: Drop in replacement for ueberzug written in C++
 media-gfx/valentina 1.0.0-r1 1.0.4: Cloth patternmaking software
 media-gfx/viewer 0.8.0-r2: A stereo pair image viewer (supports ppm's only)
@@ -18396,7 +18396,7 @@ www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition deve
 www-apps/mediawiki 1.43.8 1.43.9 1.45.3 1.45.4 1.46.0: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.2.14-r1 2.2.17-r1: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
-www-apps/moodle 4.5.12 5.0.8: The Moodle Course Management System
+www-apps/moodle 4.5.13 5.0.9 5.2.2: The Moodle Course Management System
 www-apps/mythweb 0.28.1-r2 34.0: PHP scripts intended to manage MythTV from a web browser
 www-apps/nanoc 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-checking 1.0.6: Provides checking functionality for Nanoc
