@@ -11188,7 +11188,7 @@ dev-util/rocminfo 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: ROCm Application for Reporting 
 dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Callback/Activity Library for Performance tracing AMD GPU's
 dev-util/ropper 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.14.9 0.15.22 0.16.1: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.14.9 0.15.22 0.16.1 0.16.2: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 1.29.0 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -15374,7 +15374,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.27.1 3.29.0 3.30.0 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.3 10.1.4-r2 10.1.5-r1 10.2.3 10.2.5-r2 10.3.1 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.5.3-r2 10.5.4-r1 10.6.1-r1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.3 1.32.4 1.32.5 1.32.6 1.32.8 1.32.9 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.6-r1 1.32.8-r1 1.32.9-r1 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
