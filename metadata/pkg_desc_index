@@ -17333,7 +17333,7 @@ sys-apps/findutils 4.10.0 4.11.0: GNU utilities for finding files
 sys-apps/firejail 0.9.76 0.9.80: Security sandbox for any type of processes
 sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag from an ELF object's GNU_STACK
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
-sys-apps/flatpak 1.16.6: Linux application sandboxing and distribution framework
+sys-apps/flatpak 1.16.6 1.18.1: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.5: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
@@ -18023,7 +18023,7 @@ sys-libs/fortify-headers 1.1 9999: Standalone implementation of fortify source
 sys-libs/freeipmi 1.6.18: Provides Remote-Console and System Management Software as per IPMI v1.5/2.0
 sys-libs/fts-standalone 1.2.7 1.2.7-r1: Standalone fts library for use with musl
 sys-libs/gdbm 1.24 1.25 1.26: Standard GNU database libraries
-sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r5 2.42-r6 2.42-r7 2.43 2.43-r1 2.43-r2 2.43.9999 2.44 2.44.9999 9999: GNU libc C library
+sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r7 2.43-r2 2.43-r3 2.43.9999 2.44 2.44-r1 2.44.9999 9999: GNU libc C library
 sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.14.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 26.04.3: Library for managing partitions
