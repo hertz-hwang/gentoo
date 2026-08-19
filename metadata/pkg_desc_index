@@ -12797,9 +12797,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.16 1.6.17 1.6.18 1.7.1 1.7.2 1.7.3 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.13.0 153.0.1 153.0.2 153.0.3: Thunderbird Mail Client
+mail-client/thunderbird 140.13.0 153.0.1 153.0.2 153.0.3 153.1.0 154.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 140.13.0 140.14.0 153.0.1 153.0.2 153.0.3 153.1.0 154.0: Thunderbird Mail Client
-mail-client/thunderbird-l10n 153.0.1 153.0.2 153.0.3: Thunderbird mail client's translation files
+mail-client/thunderbird-l10n 153.0.1 153.0.2 153.0.3 153.1.0 154.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -18010,7 +18010,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext sche
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.182 6.1.9999 6.6.150 6.6.151 6.6.9999 6.12.102 6.12.103 6.12.9999 6.18.43 6.18.44 6.18.9999 7.1.7 7.1.8: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.183 6.6.152 6.12.104 6.18.44 7.1.8 7.2.0: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.183 6.6.152 6.12.104 6.18.45 7.1.9 7.2.0: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
