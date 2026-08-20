@@ -3,10 +3,10 @@
 
 EAPI=8
 inherit bash-completion-r1 go-module toolchain-funcs
-GIT_COMMIT=210b148df93a80eb872ecbeb7e35281b3c582c61
+GIT_COMMIT=c93a4cb9311efc66b90d33ea03f75f2c4120e9b0
 GIT_COMMIT_SHORT=${GIT_COMMIT:0:9}
 
-DESCRIPTION="Single Node Kubernetes Cluster"
+DESCRIPTION="Local kubernetes clusters for learning and development"
 HOMEPAGE="https://github.com/kubernetes/minikube https://kubernetes.io"
 
 SRC_URI="https://github.com/kubernetes/minikube/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
@@ -31,6 +31,7 @@ src_unpack() {
 src_prepare() {
 	ln -sv ../vendor ./ || die
 	default
+	sed -e '/export GOTOOLCHAIN/d' -i Makefile || die
 }
 
 src_configure() {
