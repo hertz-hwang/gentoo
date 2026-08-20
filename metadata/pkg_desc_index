@@ -1077,7 +1077,7 @@ app-admin/rcm 1.3.6: rc file (dotfile) management
 app-admin/redfishtool 1.1.8: Python package and command-line tool for accessing the Redfish API
 app-admin/restart-services 1.3-r1 1.4 1.5 1.6 1.7: Tool to manage OpenRC and systemd services that need to be restarted
 app-admin/rex 1.16.0-r1 1.16.1-r1 9999: (R)?ex, the friendly automation framework
-app-admin/rsyslog 8.2506.0-r2 8.2512.0-r1 8.2604.0-r1 8.2606.0: An enhanced multi-threaded syslogd with database support and more
+app-admin/rsyslog 8.2506.0-r2 8.2512.0-r1 8.2604.0-r1 8.2606.0 8.2608.0: An enhanced multi-threaded syslogd with database support and more
 app-admin/ryzen_monitor 1.0.6_pre20220901: Monitor power information of Ryzen processors via the PM table of the SMU
 app-admin/ryzen_smu 0.1.5: Kernel driver for AMD Ryzen's System Management Unit
 app-admin/sagan 2.0.2: Sagan is a multi-threaded, real time system and event log monitoring system
@@ -1901,10 +1901,10 @@ app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.2_p20250524 1.3_p20260615: Algol68 major mode for GNU Emacs
 app-emacs/ace-window 0.10.0: Quickly switch windows in Emacs
-app-emacs/acp 0.13.1 9999: Agent Client Protocol implementation for GNU Emacs
+app-emacs/acp 0.13.1 0.14.1 9999: Agent Client Protocol implementation for GNU Emacs
 app-emacs/actionscript-mode 7.2.2_p20180527-r1: A major mode for GNU Emacs for editing Actionscript 3 files
 app-emacs/adaptive-wrap 0.8: Smart line-wrapping with wrap-prefix
-app-emacs/agent-shell 0.57.3-r1 0.70.2 0.71.2 0.73.1 9999: Many native agentic integrations inside GNU Emacs
+app-emacs/agent-shell 0.57.3-r1 0.70.2 0.71.2 0.73.1 0.74.1 9999: Many native agentic integrations inside GNU Emacs
 app-emacs/agitjo 2.0.0: Manage Forgejo PRs with AGit-Flow in Emacs
 app-emacs/all-the-icons 5.0.0_p20230316: Various icon fonts propertized for Emacs
 app-emacs/all-the-icons-dired 2.0: Display all-the-icons icon for each file in Emacs' dired buffer
@@ -2026,7 +2026,7 @@ app-emacs/edit-indirect 0.1.13: Edit regions in separate Emacs buffers
 app-emacs/edit-list 0.3: Edit a single list
 app-emacs/edit-server 1.16: Service edit requests from a web browser for editing of textareas
 app-emacs/editorconfig-emacs 0.11.0: EditorConfig plugin for emacs
-app-emacs/ef-themes 2.1.0 2.2.0 9999: Colourful and legible themes for GNU Emacs
+app-emacs/ef-themes 2.1.0 2.2.0 2.2.1 9999: Colourful and legible themes for GNU Emacs
 app-emacs/eimp 1.4.0-r1: Emacs Image Manipulation Package
 app-emacs/el-mock 1.25.1: Mocking library for Emacs
 app-emacs/eldev 1.11.1 1.11.2 9999: Emacs Lisp Development Tool
@@ -2296,7 +2296,7 @@ app-emacs/session 2.4b-r1: When you start Emacs, Session restores various variab
 app-emacs/setnu 1.06: Display line numbers in Emacs buffers
 app-emacs/setup 1.4.0 1.5.0: Macro to simplify repetitive configuration patterns
 app-emacs/sharper 1.0_p20230129-r1: .NET SDK CLI wrapper for GNU Emacs using Transient
-app-emacs/shell-maker 0.93.5 0.96.1 0.97.1 9999: Interaction mode for making comint shells for GNU Emacs
+app-emacs/shell-maker 0.93.5 0.96.1 0.97.1 0.97.2 9999: Interaction mode for making comint shells for GNU Emacs
 app-emacs/shell-split-string 0.1: Split Strings Using Shell-Like Syntax
 app-emacs/shrink-path 0.3.1: Fish-style path truncation for GNU Emacs
 app-emacs/shut-up 0.3.3: Reduce Emacs output of messages
@@ -2453,13 +2453,13 @@ app-emulation/virt-viewer 11.0-r1: Graphical console client for connecting to vi
 app-emulation/virt-what 1.25: Detects if the current machine is running in a virtual machine
 app-emulation/virtio-win 0.1.266.1 0.1.271.1 0.1.285.1: VirtIO drivers for Windows virtual machines running on KVM
 app-emulation/virtiofsd 1.13.1 1.13.2 1.13.3 9999: Shared file system for virtual machines
-app-emulation/virtualbox 7.0.26-r1 7.1.18 7.2.8 7.2.14 9999: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-additions 7.0.26 7.1.18 7.2.8 7.2.14: CD image containing guest additions for VirtualBox
-app-emulation/virtualbox-extpack-oracle 7.0.26 7.1.18 7.2.8 7.2.14: PUEL extensions for VirtualBox
-app-emulation/virtualbox-guest-additions 7.0.26 7.1.18 7.2.8 7.2.14: VirtualBox kernel modules and user-space tools for Gentoo guests
-app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8 7.2.14: Kernel Modules for Virtualbox Guest Additions
-app-emulation/virtualbox-kvm 7.2.8_pre20260201 7.2.12_pre20260201 7.2.14_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.1.18 7.2.8 7.2.14: Kernel Modules for Virtualbox
+app-emulation/virtualbox 7.0.26-r1 7.2.8 7.2.14 7.2.16 9999: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-additions 7.0.26 7.2.8 7.2.14 7.2.16: CD image containing guest additions for VirtualBox
+app-emulation/virtualbox-extpack-oracle 7.0.26 7.2.8 7.2.14 7.2.16: PUEL extensions for VirtualBox
+app-emulation/virtualbox-guest-additions 7.0.26 7.2.8 7.2.14 7.2.16: VirtualBox kernel modules and user-space tools for Gentoo guests
+app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.2.8 7.2.14 7.2.16: Kernel Modules for Virtualbox Guest Additions
+app-emulation/virtualbox-kvm 7.2.8_pre20260201 7.2.14_pre20260201 7.2.16_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.2.8 7.2.14 7.2.16: Kernel Modules for Virtualbox
 app-emulation/vkd3d-proton 2.14.1 3.0.1 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
@@ -5331,7 +5331,7 @@ dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.5: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260622 20260726: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260622 20260726 20260818: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.20.3 1.21.0: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
@@ -13652,7 +13652,7 @@ media-libs/musicbrainz 5.1.0-r2: Client Library for accessing the latest XML bas
 media-libs/mutagen 1.47.0 1.48.0 1.48.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20231202: Simple stupid single-header-file SVG parse
 media-libs/nas 1.9.5-r2: Network Audio System
-media-libs/netpbm 11.2.19 11.2.22 11.2.27 11.15.5 9999: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/netpbm 11.2.19 11.2.22 11.2.28 11.15.6 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.1.14.1 13.0.19.0 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.17: A VA-API implemention using NVIDIA's NVDEC
@@ -15371,7 +15371,7 @@ net-misc/ethercard-diag 20050321.1g-r2: Low level mii diagnostic tools including
 net-misc/etherdfs 20180203-r5: An ethernet-based file system for DOS
 net-misc/ethertypes 0: Maps ethernet frame ids to symbolic names
 net-misc/eventd 0.29.0-r2: A small daemon to act on remote or local events
-net-misc/exabgp 4.2.23 4.2.25 5.0.8: The BGP swiss army knife of networking
+net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.29.0 3.30.0 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.3 10.1.4-r2 10.1.5-r1 10.2.3 10.2.5-r2 10.3.1 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.5.3-r2 10.5.4-r1 10.6.1-r1: The FRRouting Protocol Suite
