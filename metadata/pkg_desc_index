@@ -1824,7 +1824,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 27.2-r23 27.2-r24 28.2-r21 28.2-r22 29.4-r9 29.4-r10 30.2-r5 30.2-r6 31.1_rc1-r1 31.1.9999 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 27.2-r24 28.2-r22 29.4-r10 30.2-r6 31.1_rc1-r1 31.1.9999 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/enter-tex 3.49.0: TeX/LaTeX text editor
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
@@ -16571,7 +16571,7 @@ sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.27.0 0.28.0: Datasets, transforms and models to specific to computer vision
-sci-ml/transformers 5.3.0-r1 5.14.1-r1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-ml/transformers 5.3.0-r1 5.14.1-r1 5.15.1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
 sci-physics/espresso 4.2.2 9999: Extensible Simulation Package for Research on Soft matter
