@@ -1531,7 +1531,7 @@ app-crypt/pkcrack 1.2.2-r2: PkZip cipher breaker
 app-crypt/pkcs11-data 0.7.4: Utilities for PKCS#11 data object manipulation in
 app-crypt/pkcs11-dump 0.3.5: Utilities for PKCS#11 token content dump
 app-crypt/princeprocessor 0.22-r1: Standalone password candidate generator using the PRINCE algorithm
-app-crypt/qca 2.3.10-r1 9999: Qt Cryptographic Architecture (QCA)
+app-crypt/qca 2.3.10-r1 2.3.12 9999: Qt Cryptographic Architecture (QCA)
 app-crypt/quickcrypt 0.9.2b-r1: gives you a quick MD5 Password from any string
 app-crypt/rainbowcrack 1.8: Hash cracker that precomputes plaintext - ciphertext pairs in advance
 app-crypt/rhash 1.4.6-r1: Console utility and library for computing and verifying file hash sums
@@ -2732,7 +2732,7 @@ app-misc/blink1 1.98-r3: blink(1) USB RGB LED status light control suite
 app-misc/bottlerocket 0.04c-r2: CLI interface to the X-10 Firecracker Kit
 app-misc/boxes 2.3.1: Draw any kind of boxes around your text
 app-misc/brewtarget 4.0.17-r1: Application to create and manage beer recipes
-app-misc/broot 1.55.0 1.56.2: A new way to see and navigate directory trees
+app-misc/broot 1.56.2 1.59.0: A new way to see and navigate directory trees
 app-misc/btail 0.3-r1: Bayesian logfile filter
 app-misc/byobu 5.133-r1: A set of profiles for the GNU Screen console window manager (app-misc/screen)
 app-misc/c_rehash 1.7-r1: c_rehash script from OpenSSL
@@ -3119,7 +3119,7 @@ app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 85: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.6.4 2.7.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
-app-portage/nattka 0.4.2-r1 0.4.3: A New Arch Tester Toolkit -- open-source stable-bot replacement
+app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
 app-portage/pfl 3.5.3: Searchable online file/package database for Gentoo
@@ -5355,7 +5355,7 @@ dev-lang/ghc 9.0.2-r4 9.2.8 9.8.4-r1: The Glasgow Haskell Compiler
 dev-lang/gleam 1.13.0 1.14.0: A friendly language for building type-safe, scalable systems!
 dev-lang/gnucobol 3.2-r2: A free/libre COBOL compiler
 dev-lang/gnuprologjava 0.2.6-r2: GNU Prolog for Java is an implementation of ISO Prolog as a Java library
-dev-lang/go 1.24.11-r1 1.24.12-r1 1.25.5-r1 1.25.6-r1 1.25.8 1.25.9 1.25.10 1.25.11 1.25.12 1.25.13 1.25.14 1.26.1 1.26.2 1.26.3 1.26.4 1.26.5 1.26.6 1.26.7 1.27.0 9999: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.24.12-r1 1.25.12 1.25.13 1.25.14 1.26.4 1.26.5 1.26.6 1.26.7 1.27.0 9999: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.20.14 1.22.12 1.24.6: Binary bootstrap package for dev-lang/go
 dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over finite domains (FD)
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
@@ -5540,7 +5540,7 @@ dev-libs/ding-libs 0.6.2-r1: Set of utility libraries (mostly used by sssd)
 dev-libs/distorm3 3.5.2-r1: The ultimate disassembler library (X86-32, X86-64)
 dev-libs/dotconf 1.4.1 9999: dot.conf configuration file parser
 dev-libs/double-conversion 3.4.0: Binary-decimal and decimal-binary conversion routines for IEEE doubles
-dev-libs/dqlite 1.16.4-r1 1.16.7 1.18.0 1.18.2: Embeddable, replicated and fault tolerant SQL engine
+dev-libs/dqlite 1.16.4-r1 1.16.7 1.18.0 1.18.2 1.18.7: Embeddable, replicated and fault tolerant SQL engine
 dev-libs/dynolog 0.3.2-r1 0.5.0-r1: Performance monitoring daemon for heterogeneous CPU-GPU systems
 dev-libs/eb 4.4.3 4.4.3-r1: EB is a C library and utilities for accessing CD-ROM books
 dev-libs/editline 2.1.0: line editing library for UNIX call compatible with the FSF readline
@@ -8687,7 +8687,7 @@ dev-python/google-auth-oauthlib 1.4.0 1.4.1: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
 dev-python/google-pasta 0.2.0-r2: AST-based Python refactoring library
 dev-python/googleapis-common-protos 1.75.0 1.75.1 1.75.2: Python classes generated from the common protos in the googleapis repository
-dev-python/gpep517 19 20: A backend script to aid installing Python packages in Gentoo
+dev-python/gpep517 19 20 22: A backend script to aid installing Python packages in Gentoo
 dev-python/gpgmepy 2.0.0-r1: GnuPG Made Easy is a library for making GnuPG easier to use (Python bindings)
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
 dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and statistical analysis of graphs
@@ -9588,7 +9588,7 @@ dev-python/secretstorage 3.5.0: Python bindings to FreeDesktop.org Secret Servic
 dev-python/securesystemslib 1.4.0 1.5.0: Cryptographic routines for Secure Systems Lab projects at NYU
 dev-python/seedir 0.5.1: Package for creating, editing, and reading folder tree diagrams
 dev-python/segno 1.6.6: Python QR Code and Micro QR Code encoder
-dev-python/selenium 4.34.2 4.35.0 4.46.0 4.47.0: Python language binding for Selenium Remote Control
+dev-python/selenium 4.34.2 4.35.0 4.46.0 4.47.0 4.48.0: Python language binding for Selenium Remote Control
 dev-python/semantic-version 2.10.0: Python library providing a few tools handling SemVer in Python
 dev-python/semver 3.0.4: A Python module for semantic versioning
 dev-python/send2trash 2.1.0: Sends files to the Trash (or Recycle Bin)
@@ -9628,7 +9628,7 @@ dev-python/slixmpp 1.15.0 1.16.0: Python 3 library for XMPP
 dev-python/smartypants 2.0.2: ASCII quote-dot-dash to HTML entity converter
 dev-python/smbus2 0.6.1: A drop-in replacement for smbus-cffi/smbus-python in pure Python
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
-dev-python/snakeoil 0.11.4 9999: misc common functionality and useful optimizations
+dev-python/snakeoil 0.11.4 0.11.5 9999: misc common functionality and useful optimizations
 dev-python/snaketrace 0.3.1-r1: An strace-like tool for Python audit events
 dev-python/snapshottest 0.6.0: Snapshot Testing utils for Python
 dev-python/sniffio 1.3.1: Sniff out which async library your code is running under
@@ -9703,7 +9703,7 @@ dev-python/stack-data 0.6.3-r1: Extract data from Python tracebacks for informat
 dev-python/stapler 1.0.0_p20220330-r4: Suite of tools for PDF files manipulation written in Python
 dev-python/starlette 1.2.1 1.3.1 1.4.1 1.6.0: The little ASGI framework that shines
 dev-python/statsd 4.0.1: A simple statsd client
-dev-python/statsmodels 0.14.6: Statistical computations and models for use with SciPy
+dev-python/statsmodels 0.14.6 0.15.0: Statistical computations and models for use with SciPy
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
 dev-python/stevedore 5.9.0 5.9.1: Manage dynamic plugins for Python applications
 dev-python/strict-rfc3339 0.7-r2: Strict, simple, lightweight RFC3339 functions
@@ -12145,7 +12145,7 @@ gnome-extra/gnome-shell-extension-dash-to-panel 72 73: An icon taskbar for the G
 gnome-extra/gnome-shell-extension-desktop-icons-ng 50.3.0: Desktop icon support for GNOME Shell
 gnome-extra/gnome-shell-extension-gsconnect 71 72: KDE Connect implementation for GNOME
 gnome-extra/gnome-shell-extension-lockscreen-studio 1.1.2: Customization extension for the gnome-shell lock screen
-gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20250710 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
+gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
 gnome-extra/gnome-shell-extension-weather-oclock 50.4 50.5: Display the current weather inside the pill next to the clock
 gnome-extra/gnome-shell-extensions 48.3 49.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 48.0 49.1: Unofficial extension pack providing GNOME 2-like features
@@ -13107,7 +13107,7 @@ media-gfx/brscan4 0.4.11.1-r1: Brother scanner driver
 media-gfx/brscan5 1.6.2.0-r1: SANE driver for Brother scanners (brscan5)
 media-gfx/cairosvg 2.9.0: CLI and library to export SVG to PDF, PostScript, and PNG
 media-gfx/cellwriter 1.3.6-r1: Grid-entry natural handwriting input panel
-media-gfx/chafa 1.18.1 1.18.2: versatile and fast Unicode/ASCII/ANSI graphics renderer
+media-gfx/chafa 1.18.2: versatile and fast Unicode/ASCII/ANSI graphics renderer
 media-gfx/clockphoto 1.2-r1: Adjusts photo timestamps based on clock photos
 media-gfx/converseen 0.12.2.4 0.15.0.3 0.15.2.2: Batch image converter and resizer based on ImageMagick
 media-gfx/cropgui 0.9 0.9-r1: GUI for lossless cropping of jpeg images
@@ -13621,7 +13621,7 @@ media-libs/musicbrainz 5.1.0-r2: Client Library for accessing the latest XML bas
 media-libs/mutagen 1.47.0 1.48.0 1.48.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20231202: Simple stupid single-header-file SVG parse
 media-libs/nas 1.9.5-r2: Network Audio System
-media-libs/netpbm 11.2.19 11.2.22 11.2.28 11.15.6 9999: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/netpbm 11.2.19 11.2.28 11.15.6 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.1.14.1 13.0.19.0 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.17: A VA-API implemention using NVIDIA's NVDEC
@@ -14293,7 +14293,7 @@ media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
-media-sound/rhythmbox 3.4.8-r2 3.4.9 3.4.9-r1 3.4.9-r2: Music management and playback software for GNOME
+media-sound/rhythmbox 3.4.9-r2: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
 media-sound/ripperx 3.0.2: GTK program to rip CD audio tracks to Ogg, MP3 or FLAC
 media-sound/rosegarden 25.12: MIDI and audio sequencer and notation editor
@@ -14678,7 +14678,7 @@ net-analyzer/nfdump 1.7.6 1.7.7-r1: A set of tools to collect and process netflo
 net-analyzer/ngrep 1.47-r2 1.47_p20241209: A grep for network layers
 net-analyzer/nikto 2.1.6_p20220602 2.5.0: Web server vulnerability scanner
 net-analyzer/nload 0.7.5_pre20180309: Real time network traffic monitor for the command line interface
-net-analyzer/nmap 7.99 9999: Network exploration tool and security / port scanner
+net-analyzer/nmap 7.99 7.991 9999: Network exploration tool and security / port scanner
 net-analyzer/nmapsi 0.5_alpha2_p20240407-r1: Qt frontend to nmap
 net-analyzer/nmbscan 1.2.5-r2: Scans the shares of a SMB/NetBIOS network
 net-analyzer/notus-scanner 22.7.2: Notus is a vulnerability scanner for creating results from local security checks
@@ -15644,7 +15644,7 @@ net-p2p/go-ethereum 1.16.7: Official golang implementation of the Ethereum proto
 net-p2p/gtk-gnutella 1.2.2-r1 1.2.3: GTK+ Gnutella client
 net-p2p/gtorrentviewer 0.2b-r1: A GTK2-based viewer and editor for BitTorrent meta files
 net-p2p/ktorrent 26.04.3 26.08.0: Powerful BitTorrent client based on KDE Frameworks
-net-p2p/kubo 0.38.2 0.40.1 0.41.0: Main implementation of IPFS
+net-p2p/kubo 0.40.1 0.41.0 0.43.0: Main implementation of IPFS
 net-p2p/mktorrent 1.1_p20210130-r1: Simple command line utility to create BitTorrent metainfo files
 net-p2p/mldonkey 3.2.1: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses interface
@@ -15701,7 +15701,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 3.0.5 3.0.14 3.0.23 3.0.25 3.0.26 3.0.9999 3.2.9 3.2.19 3.2.21 3.2.22 3.2.9999 3.3.5 3.3.10 3.3.12 3.3.13 3.3.9999 3.4.0 3.4.2 3.4.3 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.14 3.0.23 3.0.25 3.0.26 3.0.27 3.0.9999 3.2.9 3.2.19 3.2.21 3.2.22 3.2.23 3.2.9999 3.3.5 3.3.10 3.3.12 3.3.13 3.3.14 3.3.9999 3.4.0 3.4.2 3.4.3 3.4.4 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -16561,7 +16561,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
-sci-ml/ollama 0.32.15: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.33.1: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17381,7 +17381,7 @@ sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
 sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 3.10 3.11 9999: SELinux context translation to human readable names
-sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00 8.10: Memory tester based on PCMemTest
+sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00 8.10 8.10-r1: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.7: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.7.1: Userspace utility for testing the memory subsystem for faults
 sys-apps/merge-usr 6 7: Script to migrate from split-usr to merged-usr
@@ -17427,7 +17427,7 @@ sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
 sys-apps/policycoreutils 3.8.1 3.9 3.10 3.11 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.7 0.9.8 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
-sys-apps/portage 3.0.81.3 3.0.82 3.0.82.1 9999: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.81.3 3.0.82 3.0.82.1 3.0.82.2 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
 sys-apps/ppc64-diag 2.7.9: Diagnostic tools for PowerLinux
 sys-apps/prctl 1.6-r1: Tool to query and modify process behavior
@@ -17953,10 +17953,10 @@ sys-kernel/dkms 3.3.0 3.4.3 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.182 6.1.183 6.1.184 6.1.185 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.182 6.1.183 6.1.184 6.1.185 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.180 6.1.182 6.1.183 6.1.184 6.1.185 6.6.147 6.6.151 6.6.152 6.6.153 6.6.154 6.12.100 6.12.103 6.12.104 6.12.105 6.12.106 6.18.41 6.18.44 6.18.45 6.18.46 6.18.47 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.2.0 7.2.1: Full sources including the Gentoo patchset for the 7.2 kernel tree
+sys-kernel/gentoo-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.1.186 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.155 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.107 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.48 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.1.12: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.182 6.1.183 6.1.184 6.1.185 6.1.186 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.155 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.107 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.48 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.1.12: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.182 6.1.183 6.1.184 6.1.185 6.1.186 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.155 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.107 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.48 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.1.12: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-sources 6.1.186 6.6.155 6.12.107 6.18.48 7.1.12 7.2.2: Full sources including the Gentoo patchset for the 7.2 kernel tree
 sys-kernel/git-sources 7.2_rc1 7.2_rc2 7.2_rc3 7.2_rc4 7.2_rc5 7.2_rc6 7.2_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -17978,8 +17978,8 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.1.9999 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.9999 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.9999 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.9999 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.185 6.6.154 6.12.106 6.18.46 7.1.11 7.2.1: Full sources for the Linux kernel
+sys-kernel/vanilla-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.1.186 6.1.9999 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.155 6.6.9999 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.107 6.12.9999 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.48 6.18.9999 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.1.12: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-sources 6.1.186 6.6.155 6.12.107 6.18.48 7.1.12 7.2.2: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -18168,7 +18168,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.182 6.1.183 6.1.184 6.1.185 6.1.186 6.6.150 6.6.151 6.6.152 6.6.153 6.6.154 6.6.155 6.12.102 6.12.103 6.12.104 6.12.105 6.12.106 6.12.107 6.18.43 6.18.44 6.18.45 6.18.46 6.18.47 6.18.48 7.1.7 7.1.8 7.1.9 7.1.10 7.1.11 7.1.12: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
