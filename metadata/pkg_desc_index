@@ -936,7 +936,7 @@ app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
 app-admin/awscli 1.45.29 1.45.36 1.45.40 1.45.46 1.45.51 1.45.56 1.45.62 1.46.0 1.46.1: Universal Command Line Environment for AWS
-app-admin/awscli-bin 2.36.4 2.36.17: command line interface for Amazon Web Services
+app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.12.0 2026.6.0 2026.7.0 2026.8.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.6.0 2026.6.1 2026.7.0: Bitwarden password manager desktop client
 app-admin/bpftune 0.4_p2: BPF driven auto-tuning
@@ -1002,7 +1002,7 @@ app-admin/hardinfo 0.6_alpha_pre20240320: System information and benchmark tool 
 app-admin/haskell-updater 1.3.2-r1 1.3.3 1.4.0.0 1.4.1.0 1.5.0.0 9999: Rebuild Haskell dependencies in Gentoo
 app-admin/hcloud 1.65.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
-app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2: Kubernetes Package Manager
+app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2 4.2.4: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
 app-admin/ig 0.55.1: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
@@ -3004,7 +3004,7 @@ app-misc/xmind 3.7.6_p201801311814: Brainstorming and mind mapping software tool
 app-misc/yq 3.4.3-r1 4.1.2-r1: Command-line YAML processor - jq wrapper for YAML documents
 app-misc/yq-go 4.48.2 4.49.2 4.50.1 4.53.3: yq is a lightweight and portable command-line YAML, JSON and XML processor
 app-misc/ytree 2.09 2.10: Curses-based file manager
-app-misc/zellij 0.44.3 0.45.0-r1: A terminal workspace with batteries included
+app-misc/zellij 0.44.3 0.45.0-r1 0.45.1: A terminal workspace with batteries included
 app-misc/zisofs-tools 1.0.8-r1: User utilities for zisofs
 app-mobilephone/adebar 2.4.2: Android DEvice Backup And Report, using Bash and ADB
 app-mobilephone/anyremote 6.7.3: Bluetooth, infrared or cable remote control service
@@ -6229,7 +6229,7 @@ dev-ml/lablgtk-sourceview 3.1.5: OCaml bindings to GTK-3
 dev-ml/labltk 8.06.12-r2 8.06.15-r1: OCaml interface to the Tcl/Tk GUI framework
 dev-ml/lambda-term 3.3.2 3.3.3 3.4.0: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
-dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OCaml bindings for LLVM
+dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
 dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2: Cooperative light-weight thread library for OCaml
@@ -8378,7 +8378,7 @@ dev-python/betamax-matchers 0.4.0-r1: A group of experimental matchers for Betam
 dev-python/bibtexparser 1.4.4: A BibTeX parser written in Python
 dev-python/binaryornot 0.6.0: Ultra-lightweight pure Python package to guess whether a file is binary or text
 dev-python/bincopy 20.1.1: Mangling of various file formats that conveys binary information
-dev-python/bitarray 3.8.2 3.9.2 3.10.0 3.10.1: Efficient arrays of booleans -- C extension
+dev-python/bitarray 3.8.2 3.9.2 3.10.1: Efficient arrays of booleans -- C extension
 dev-python/bitstring 4.3.1 4.4.0-r2: A pure Python module for creation and analysis of binary data
 dev-python/black 26.5.1: The uncompromising Python code formatter
 dev-python/blake3 1.0.8-r1 1.0.9: Python bindings for the BLAKE3 cryptographic hash function
@@ -8420,7 +8420,7 @@ dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library 
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0 2.1.1: Foreign Function Interface for Python calling C code
 dev-python/cfgv 3.5.0: Validate configuration and produce human-readable error messages
-dev-python/cfn-lint 1.52.1 1.53.3 1.54.0 1.55.0 1.55.1: CloudFormation Linter
+dev-python/cfn-lint 1.52.1 1.53.3 1.54.0 1.55.1: CloudFormation Linter
 dev-python/cftime 1.6.5: Time-handling functionality from netcdf4-python
 dev-python/chainstream 1.0.2: Chain I/O-Streams together into a single stream
 dev-python/chameleon 4.6.0: Fast HTML/XML template compiler for Python
@@ -8431,7 +8431,7 @@ dev-python/cheetah3 3.4.0 3.4.0-r1: Python-powered template engine and code gene
 dev-python/cheroot 11.1.2: High-performance, pure-Python HTTP server used by CherryPy
 dev-python/cherrypy 18.10.0: CherryPy is a pythonic, object-oriented HTTP framework
 dev-python/cjkwrap 2.2-r2: A library for wrapping and filling UTF-8 CJK text
-dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Python bindings for llvm-core/clang
+dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Python bindings for llvm-core/clang
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.15.0 2.15.1 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
@@ -8607,12 +8607,12 @@ dev-python/expecttest 0.3.0: golden tests
 dev-python/extras 1.0.0-r2: Useful extra bits for Python that should be in the standard library
 dev-python/eyed3 0.9.9: Module for manipulating ID3 (v1 + v2) tags in Python
 dev-python/faker 40.31.0 40.32.0 40.35.0 40.36.0 40.37.0: A Python package that generates fake data for you
-dev-python/fakeredis 2.35.1 2.36.2 2.37.0 2.37.1: Fake implementation of redis API for testing purposes
+dev-python/fakeredis 2.35.1 2.36.2 2.37.1: Fake implementation of redis API for testing purposes
 dev-python/fastapi 0.140.7 0.140.13 0.141.1: High performance framework, easy to learn, fast to code, ready for production
 dev-python/fastbencode 0.3.10 0.3.11: Implementation of bencode with Rust implementation
 dev-python/fasteners 0.20: Python package that provides useful locks
 dev-python/fastimport 0.9.16: Library for parsing the fastimport VCS serialization format
-dev-python/fastjsonschema 2.21.2 2.22.1 2.22.2: Fast JSON schema validator for Python
+dev-python/fastjsonschema 2.21.2 2.22.2: Fast JSON schema validator for Python
 dev-python/faust-cchardet 2.1.19 2.1.20 2.2.1 3.0.0 3.0.0-r1: High speed universal character encoding detector
 dev-python/feedgenerator 2.2.1: Standalone version of django.utils.feedgenerator
 dev-python/feedparser 6.0.12 6.0.14: Parse RSS and Atom feeds in Python
@@ -8700,7 +8700,7 @@ dev-python/grpcio-status 1.80.0 1.81.1 1.82.1 1.83.0 1.83.1: Reference package f
 dev-python/gsd 5.0.1: GSD - file format specification and a library to read and write it
 dev-python/gssapi 1.11.1 1.12.0: Low and high level wrappers around the GSSAPI C libraries
 dev-python/gst-python 1.24.13 1.26.11: A Python Interface to GStreamer
-dev-python/guessit 4.0.2 4.1.0 4.3.0 4.4.0: Python library for guessing information from video filenames
+dev-python/guessit 4.1.0 4.3.0 4.4.0: Python library for guessing information from video filenames
 dev-python/h11 0.16.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
 dev-python/h2 4.3.0 4.4.1: HTTP/2 State-Machine based protocol implementation
 dev-python/h5py 3.16.0: Simple Python interface to HDF5 files
@@ -8738,7 +8738,7 @@ dev-python/hvac 2.4.0: HashiCorp Vault API client
 dev-python/hypercorn 0.18.0: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.155.7 6.157.2 6.161.8 6.164.0 6.165.10: A library for property based testing
+dev-python/hypothesis 6.157.2 6.164.0 6.165.10: A library for property based testing
 dev-python/hypothesis-gentoo 3 4: Plugin to create 'gentoo' hypothesis profile, disabling health checks
 dev-python/icalendar 7.1.3 7.2.2 7.3.0: RFC 5545 compatible parser and generator of iCalendar files
 dev-python/id 1.6.1: A tool for generating OIDC identities
@@ -8762,7 +8762,7 @@ dev-python/inflection 0.5.1-r1: A port of Ruby on Rails' inflector to Python
 dev-python/ini2toml 0.15: Automatically conversion of .ini/.cfg files to TOML equivalents
 dev-python/iniconfig 2.3.0: Brain-dead simple config-ini parsing
 dev-python/iniparse 0.5.1_p20250425: Better INI parser for Python
-dev-python/inline-snapshot 0.34.2 0.35.2 0.35.3 0.35.4: Create and update inline snapshots in your Python tests
+dev-python/inline-snapshot 0.35.2 0.35.3 0.35.4: Create and update inline snapshots in your Python tests
 dev-python/insipid-sphinx-theme 0.4.4: Insipid Sphinx theme
 dev-python/installer 1.0.1: A library for installing Python wheels
 dev-python/intelhex 2.3.0-r1: Python library for Intel HEX files manipulations
@@ -8898,7 +8898,7 @@ dev-python/line-profiler 5.0.2: Line-by-line profiler
 dev-python/linkify-it-py 2.1.0 2.1.1: Links recognition library with full unicode support
 dev-python/linode-metadata 0.3.5: Python bindings for the Linode Metadata Service
 dev-python/linuxdoc 20240924 99999999: Sphinx-doc extensions for sophisticated C developer
-dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
+dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
 dev-python/littleutils 0.2.4: Small personal collection of Python utility functions
 dev-python/livereload 2.7.1: livereload server in Python
 dev-python/llfuse 1.5.2: Python bindings for the low-level FUSE API
@@ -9225,7 +9225,7 @@ dev-python/pygdbmi 0.11.0.0: Library to parse gdb mi output and interact with gd
 dev-python/pyghmi 1.6.19: A pure python implementation of IPMI protocol
 dev-python/pygit2 1.19.3 1.20.0: Python bindings for libgit2
 dev-python/pygithub 2.9.1 2.10.0: Python library to access the Github API v3
-dev-python/pyglet 2.1.14 2.1.15 2.1.16: Cross-platform windowing and multimedia library for Python
+dev-python/pyglet 2.1.15 2.1.16: Cross-platform windowing and multimedia library for Python
 dev-python/pygments 2.19.2 2.20.0 2.21.0: Pygments is a syntax highlighting package written in Python
 dev-python/pygments-github-lexers 0.0.5-r2: Pygments Github custom lexers
 dev-python/pygobject 3.50.1 3.50.2 3.52.3 3.52.4 3.54.5 3.56.2 3.56.3: Python bindings for GObject Introspection
@@ -9295,7 +9295,7 @@ dev-python/pyqt6 6.11.0-r1: Python bindings for the Qt framework
 dev-python/pyqt6-sip 13.11.1 13.12.0: sip module support for PyQt6
 dev-python/pyqt6-webengine 6.11.0: Python bindings for QtWebEngine
 dev-python/pyqtgraph 0.14.0-r1: A pure-python graphics and GUI library built on PyQt and numpy
-dev-python/pyquery 2.0.1 2.0.1-r1 2.0.2 2.1.0: A jQuery-like library for python
+dev-python/pyquery 2.0.2 2.1.0: A jQuery-like library for python
 dev-python/pyrate-limiter 4.2.0 4.3.1 4.4.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
 dev-python/pyrfc3339 2.1.0: Generates and parses RFC 3339 timestamps
 dev-python/pyro5 5.16 5.17: Distributed object middleware for Python (RPC)
@@ -9422,7 +9422,7 @@ dev-python/python-linux-procfs 0.7.4: Python classes to extract information from
 dev-python/python-lsp-black 2.0.0-r2: Black plugin for the Python LSP Server
 dev-python/python-lsp-jsonrpc 1.1.2: JSON RPC 2.0 server library
 dev-python/python-lsp-ruff 2.3.1 2.3.3: Ruff linting plugin for the Python LSP Server
-dev-python/python-lsp-server 1.13.2 1.14.0 1.15.0: Python Language Server for the Language Server Protocol
+dev-python/python-lsp-server 1.14.0 1.15.0: Python Language Server for the Language Server Protocol
 dev-python/python-ly 0.9.10: Tool and library for manipulating LilyPond files
 dev-python/python-lzo 1.15: Python interface to lzo
 dev-python/python-magic 0.4.27: Access the libmagic file type identification library
@@ -9510,7 +9510,7 @@ dev-python/readme-renderer 45.0 46.0: A library for rendering 'readme' descripti
 dev-python/rebulk 3.2.0 6.0.1: Python library that performs advanced searches in strings
 dev-python/recommonmark 0.7.1-r1: Python docutils-compatibility bridge to CommonMark
 dev-python/recurring-ical-events 3.8.2: Repeat ICalendar events by RRULE, RDATE and EXDATE
-dev-python/redis 7.4.1 8.0.1 8.1.0: Python client for Redis key-value store
+dev-python/redis 8.0.1 8.1.0: Python client for Redis key-value store
 dev-python/reedsolo 2.1.1_beta1-r2: Python Reed Solomon encoder/decoder
 dev-python/referencing 0.37.0: Cross-specification JSON referencing (JSON Schema, OpenAPI...)
 dev-python/reflink 0.2.2: Python wrapper around the reflink system calls
@@ -9541,7 +9541,7 @@ dev-python/respx 0.23.1: Mock HTTPX with awesome request patterns and response s
 dev-python/restructuredtext-lint 2.0.2: Checks PyPI validity of reStructuredText
 dev-python/retry-decorator 1.1.1-r1: Decorator for retrying when exceptions occur
 dev-python/retrying 1.4.2: General-purpose retrying library
-dev-python/rfc3161-client 1.0.3 1.0.6 1.0.8: An Opinionated Python RFC3161 Client
+dev-python/rfc3161-client 1.0.6 1.0.8: An Opinionated Python RFC3161 Client
 dev-python/rfc3339-validator 0.1.4-r1: A pure python RFC3339 validator
 dev-python/rfc3986 2.0.0-r1: Validating URI References per RFC 3986
 dev-python/rfc3986-validator 0.1.1-r2: Pure python RFC3986 validator
@@ -9611,7 +9611,7 @@ dev-python/shtab 1.8.1 1.8.2 1.9.3 1.10.0 1.11.0 1.12.0: Automagic shell tab com
 dev-python/signature-dispatch 1.0.1-r1: Execute the first function that matches the given arguments
 dev-python/signedjson 1.1.4: Signs JSON objects with ED25519 signatures
 dev-python/signxml 4.5.1 5.0.1 5.1.0 9999: Python XML Signature and XAdES library
-dev-python/sigstore 4.3.0 4.4.0 4.4.0-r1 4.5.0: A tool for signing Python package distributions
+dev-python/sigstore 4.4.0-r1 4.5.0: A tool for signing Python package distributions
 dev-python/sigstore-models 0.0.6: Pydantic based models for Sigstore's protobuf specifications
 dev-python/sigstore-rekor-types 0.0.18: Python models for Rekor's API types
 dev-python/simber 0.2.6: Simple, minimal and powerful logging library for Python
@@ -9707,7 +9707,7 @@ dev-python/statsmodels 0.14.6 0.15.0: Statistical computations and models for us
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
 dev-python/stevedore 5.9.0 5.9.1: Manage dynamic plugins for Python applications
 dev-python/strict-rfc3339 0.7-r2: Strict, simple, lightweight RFC3339 functions
-dev-python/stripe 15.3.1 15.4.0 15.5.0 15.5.1 15.6.0: Stripe Python bindings
+dev-python/stripe 15.3.1 15.4.0 15.5.1 15.6.0: Stripe Python bindings
 dev-python/structlog 26.1.0: Structured Logging for Python
 dev-python/subprocess-tee 0.4.2: subprocess.run replacement with tee(1)-like output
 dev-python/suds-community 1.2.0: Lightweight SOAP client
@@ -9770,8 +9770,8 @@ dev-python/tornado 6.5.6 6.5.7 6.5.8: Python web framework and asynchronous netw
 dev-python/towncrier 25.8.0: Building newsfiles for your project
 dev-python/tox 4.57.2 4.58.0 4.60.1 4.61.1: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r3 3.0.0: Python bindings for TSS
-dev-python/tqdm 4.68.4 4.69.1 4.70.0: Add a progress meter to your loops in a second
-dev-python/traitlets 5.15.1 5.16.0 5.16.1: A configuration system for Python applications
+dev-python/tqdm 4.69.1 4.70.0: Add a progress meter to your loops in a second
+dev-python/traitlets 5.15.1 5.16.1: A configuration system for Python applications
 dev-python/trakit 0.2.5 0.3.0: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
 dev-python/translate-toolkit 3.19.15 3.19.17 3.19.18: Toolkit to convert between many translation formats
@@ -11004,7 +11004,7 @@ dev-util/gi-docgen 2025.4 2025.5 2026.1: A documentation generator for GObject-b
 dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
-dev-util/github-cli 2.92.0 2.93.0 2.94.0 2.96.0 9999: GitHub CLI
+dev-util/github-cli 2.96.0 2.98.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.4.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.65.0 1.72.0 1.100.0 1.106.0: the official gitlab command line interface
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
@@ -12684,38 +12684,38 @@ kde-plasma/systemsettings 6.6.6 6.6.6-r1 6.7.4-r1: Control Center to configure K
 kde-plasma/union 6.7.4-r1: Style engine providing a unified style description to separate output styles
 kde-plasma/wacomtablet 6.6.6-r1 6.6.6-r2 6.7.4-r1: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.6.6 6.6.6-r1 6.7.4-r1: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
-llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: C language family frontend for LLVM
-llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Common files shared between multiple slots of clang
+llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: C language family frontend for LLVM
+llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-linker-config 17 18 19 20 21 22 23 24: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use Clang on GCC-free system
-llvm-core/flang 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: LLVM's Fortran frontend
-llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: The LLVM linker (link editor)
+llvm-core/flang 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: LLVM's Fortran frontend
+llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use LLD on binutils-free system
-llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: The LLVM debugger
-llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Low Level Virtual Machine
-llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Common files shared between multiple slots of LLVM
+llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: The LLVM debugger
+llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Low Level Virtual Machine
+llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Common files shared between multiple slots of LLVM
 llvm-core/llvm-toolchain-symlinks 17-r1 18-r1 19 20-r1 21 22 23 24: Symlinks to use LLVM on binutils-free system
 llvm-core/llvmgold 17 18 19 20 21 22 23 24: LLVMgold plugin symlink for autoloading
-llvm-core/mlir 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Multi-Level Intermediate Representation (library only)
-llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Polyhedral optimizations for LLVM
+llvm-core/mlir 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Multi-Level Intermediate Representation (library only)
+llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Polyhedral optimizations for LLVM
 llvm-runtimes/clang-rtlib-config 17 18 19 20 21 22 23 24: Default rtlib configuration for clang
 llvm-runtimes/clang-runtime 17.0.6 17.0.6-r1 18.1.8 18.1.8-r1 19.1.7 19.1.7-r1 20.1.8 20.1.8-r1 21.1.8 22 23 23-r1 24: Meta-ebuild for clang runtime libraries
 llvm-runtimes/clang-stdlib-config 17 18 19 20 21 22 23 24: Default C++ library configuration for clang
 llvm-runtimes/clang-unwindlib-config 17 18 19 20 21 22 23 24: Default unwindlib configuration for clang
-llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime library for clang (built-in part)
-llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
-llvm-runtimes/flang-rt 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: LLVM's Fortran runtime
+llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime library for clang (built-in part)
+llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
+llvm-runtimes/flang-rt 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
-llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenCL C library
-llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
-llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Low level support for a standard C++ library
-llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
-llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: C++ runtime stack unwinder from LLVM
+llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenCL C library
+llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
+llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Low level support for a standard C++ library
+llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
+llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: C++ runtime stack unwinder from LLVM
 llvm-runtimes/offload 19.1.7 20.1.8-r1 21.1.8 22.1.8: OpenMP offloading support
-llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
-llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for amdgcn devices
-llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for nvptx64 devices
-llvm-runtimes/openmp-spirv64-intel 23.1.0_pre20260724 23.1.0_rc2 23.1.0_rc3 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for spirv64 Intel devices
+llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
+llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for amdgcn devices
+llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for nvptx64 devices
+llvm-runtimes/openmp-spirv64-intel 23.1.0 23.1.0.9999 24.0.0_pre20260725 24.0.0.9999: OpenMP target library for spirv64 Intel devices
 lxde-base/lxappearance 0.6.4-r2: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
@@ -16561,7 +16561,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
-sci-ml/ollama 0.33.1: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.33.2: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17309,7 +17309,7 @@ sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.5 2.1.7: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
-sys-apps/gawk 5.3.2 5.4.1 5.4.1-r1: GNU awk pattern-matching language
+sys-apps/gawk 5.3.2 5.4.1 5.4.1-r1 5.4.1a: GNU awk pattern-matching language
 sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 1.7.6 1.7.7 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9-r2 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
@@ -17710,14 +17710,14 @@ sys-cluster/keepalived 2.3.3 2.3.4: A strong & robust keepalive facility to the 
 sys-cluster/knem 1.1.4_p20250126 9999: High-Performance Intra-Node MPI Communication
 sys-cluster/kops 1.28.2 1.30.0: Kubernetes Operations
 sys-cluster/kronosnet 1.19 1.19-r1 1.23 1.25: Network abstraction layer designed for High Availability use cases
-sys-cluster/kube-apiserver 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes API server
-sys-cluster/kube-controller-manager 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Controller Manager
-sys-cluster/kube-proxy 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.35.3 1.36.1: Kubernetes Proxy service
+sys-cluster/kube-apiserver 1.35.0 1.36.1 1.37.0: Kubernetes API server
+sys-cluster/kube-controller-manager 1.35.0 1.36.1 1.37.0: Kubernetes Controller Manager
+sys-cluster/kube-proxy 1.35.0 1.35.3 1.36.1 1.37.0: Kubernetes Proxy service
 sys-cluster/kube-router 1.5.0 1.6.0: A turnkey solution for Kubernetes networking
-sys-cluster/kube-scheduler 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Scheduler
-sys-cluster/kubeadm 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: CLI to Easily bootstrap a secure Kubernetes cluster
-sys-cluster/kubectl 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.0 1.36.1: CLI to run commands against Kubernetes clusters
-sys-cluster/kubelet 1.32.9 1.32.10 1.32.11 1.33.5 1.33.6 1.33.7 1.34.1 1.34.2 1.34.3 1.35.0 1.36.1: Kubernetes Node Agent
+sys-cluster/kube-scheduler 1.35.0 1.36.1 1.37.0: Kubernetes Scheduler
+sys-cluster/kubeadm 1.35.0 1.36.1 1.37.0: CLI to Easily bootstrap a secure Kubernetes cluster
+sys-cluster/kubectl 1.35.0 1.36.0 1.36.1 1.37.0: CLI to run commands against Kubernetes clusters
+sys-cluster/kubelet 1.35.0 1.36.1 1.37.0: Kubernetes Node Agent
 sys-cluster/kubeletctl 1.12 1.13: A client for kubelet
 sys-cluster/kubelogin 1.36.0-r2 1.36.3: kubectl plugin for Kubernetes OpenID Connect authentication
 sys-cluster/kubeseal 0.36.1-r1 0.38.4: Client-side utility for one-way encrypted secrets in kubernetes
