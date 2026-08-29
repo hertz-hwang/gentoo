@@ -19,8 +19,9 @@ HOMEPAGE="https://llvm.org/"
 
 LICENSE="Apache-2.0-with-LLVM-exceptions UoI-NCSA BSD public-domain rc"
 SLOT="${LLVM_MAJOR}/${LLVM_SOABI}"
+KEYWORDS="~amd64 ~arm ~arm64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86 ~arm64-macos ~x64-macos"
 IUSE="
-	+binutils-plugin +debug debuginfod doc exegesis libedit +libffi
+	+binutils-plugin debug debuginfod doc exegesis libedit +libffi
 	test xml z3 zstd
 "
 RESTRICT="!test? ( test )"
@@ -386,6 +387,9 @@ multilib_src_configure() {
 	# to avoid people grumbling. GCC is, anecdotally, more likely to miscompile
 	# LLVM with LTO anyway (which is not necessarily its fault).
 	tc-is-gcc && filter-lto
+
+	# https://github.com/llvm/llvm-project/issues/219693
+	append-flags -fno-strict-aliasing
 
 	local ffi_cflags ffi_ldflags
 	if use libffi; then
