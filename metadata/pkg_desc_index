@@ -1401,7 +1401,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 7.0.1-r1 7.3-r1 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 7.0.1-r1 7.3-r1 7.4 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 7.0.0: A userspace interface for the Linux kernel containment features
@@ -5380,7 +5380,7 @@ dev-lang/lfe 2.2.0-r1 2.2.2: Lisp-flavoured Erlang, a lisp syntax front-end to t
 dev-lang/lisaac 0.13.1-r2: An object prototype based language
 dev-lang/logtalk 3.47.0-r2: Open source object-oriented logic programming language
 dev-lang/lua 5.1.5-r200 5.3.6-r102 5.4.8: A powerful light-weight programming language designed for extending applications
-dev-lang/luajit 2.1.1716656478-r1 2.1.1731601260 2.1.1770848219 2.1.1780076327 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
+dev-lang/luajit 2.1.1780076327 2.1.1787165859 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
 dev-lang/luau 0.707: Gradually typed embeddable scripting language derived from Lua
 dev-lang/maude 3.1-r1 3.2.2 3.3.1 3.4 3.5.1: High-level specification language for equational and logic programming
 dev-lang/mercury 22.01.1-r1: Mercury is a modern general-purpose logic/functional programming language
@@ -5489,7 +5489,7 @@ dev-libs/bitshuffle 0.3.5-r1: Bitshuffle C library
 dev-libs/blake3 1.8.3 1.8.4 1.8.5: a fast cryptographic hash function
 dev-libs/blazesym_c 0.1.8 0.1.10: C bindings for blazesym, a library for address symbolization and related tasks
 dev-libs/boehm-gc 8.2.8 8.2.10 8.2.10-r1 8.2.12: The Boehm-Demers-Weiser conservative garbage collector
-dev-libs/boost 1.90.0-r2 1.91.0-r2: Boost Libraries for C++
+dev-libs/boost 1.90.0-r2 1.91.0-r2 1.92.0: Boost Libraries for C++
 dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.11.1 3.12.0 3.13.0: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
@@ -14831,7 +14831,7 @@ net-dns/dnssec-tools 2.2.3-r3: Tools to ease the deployment of DNSSEC related te
 net-dns/dnssec-validator 2.2.3-r4: Tools to ease the validation of DNSSEC related technologies
 net-dns/dnstop 20140915-r3 20250530: Displays various tables of DNS traffic on your network
 net-dns/dnsviz 0.11.1: Tool suite for analysis and visualization of DNS and DNSSEC
-net-dns/doggo 1.1.7 1.2.0: Command-line DNS Client for Humans
+net-dns/doggo 1.2.0 1.3.0: Command-line DNS Client for Humans
 net-dns/ez-ipupdate 3.0.11.13.3_beta8-r5: Dynamic DNS client for lots of dynamic dns services
 net-dns/fpdns 20190131: Fingerprinting DNS servers
 net-dns/getdns 1.7.3: Modern asynchronous DNS API
@@ -18146,7 +18146,7 @@ sys-process/psinfo 0.12-r1 0.12-r2: Process information and statistics using the
 sys-process/psmisc 23.6 23.7: A set of tools that use the proc filesystem
 sys-process/rtirq 20240220 20240905: Modify realtime scheduling policy and priority of IRQ handlers
 sys-process/runit 2.2.0-r2 2.2.0-r3 2.3.1: A UNIX init scheme with service supervision
-sys-process/rust-parallel 1.23.0: Fast command line app to run commands in parallel
+sys-process/rust-parallel 1.23.0 1.24.0: Fast command line app to run commands in parallel
 sys-process/schedtool 1.3.0-r2: A tool to query or alter a process' scheduling policy
 sys-process/supervise-scripts 4.0-r2: Starting and stopping daemontools managed services
 sys-process/systemd-cron 2.5.1: systemd units to create timers for cron directories and crontab
