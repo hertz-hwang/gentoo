@@ -17496,7 +17496,7 @@ sys-apps/texinfo 7.2-r3 7.2-r4 7.3 9999: The GNU info program and utilities
 sys-apps/the_silver_searcher 2.2.0_p20201217-r4: A code-searching tool similar to ack, but faster
 sys-apps/tomoyo-tools 2.5.0_p20130214-r1 2.6.1_p20250707: TOMOYO Linux userspace tools
 sys-apps/toybox 0.8.12 0.8.13 0.8.14 9999: Common linux commands in a multicall binary
-sys-apps/tuned 2.27.0-r1 2.27.0-r2: Daemon for monitoring and adaptive tuning of system devices
+sys-apps/tuned 2.27.0-r2 2.28.0: Daemon for monitoring and adaptive tuning of system devices
 sys-apps/uam 0.3.2-r2: Simple udev-based automounter for removable USB media
 sys-apps/ucspi-proxy 1.1-r1: Proxy program for two connections set up by a UCSPI server and a UCSPI client
 sys-apps/ucspi-tcp 0.88-r20: Collection of tools for managing UNIX services
@@ -18341,7 +18341,7 @@ www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20250514b 20260714b: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
 www-apps/drupal 10.5.12 10.6.11 11.2.14 11.3.12: PHP-based open-source platform and content management system
 www-apps/element 1.12.22 1.12.24 1.12.25: A glossy Matrix collaboration client for the web
-www-apps/gitea 1.25.3 1.26.4 1.27.1 1.27.2: A painless self-hosted Git service
+www-apps/gitea 1.25.3 1.26.4 1.27.3: A painless self-hosted Git service
 www-apps/grafana-bin 12.1.8 12.2.6 12.3.4 12.4.0 12.4.3_p2 12.4.7 13.1.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site generator
 www-apps/hugo 0.147.7 0.148.2 0.163.3: Fast static HTML and CSS website generator
