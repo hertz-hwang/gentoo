@@ -1171,7 +1171,7 @@ app-arch/gcab 1.6: Library and tool for working with Microsoft Cabinet (CAB) fil
 app-arch/gnome-autoar 0.4.5: Automatic archives creating and extracting library
 app-arch/gtk-splitter 2.2.1-r2: Split files into smaller pieces and combine them back together
 app-arch/gxz 0.5.12: Pure golang package for reading and writing xz-compressed files
-app-arch/gzip 1.14 1.14-r1 1.14_p20260502: Standard GNU compressor
+app-arch/gzip 1.14 1.14-r1 1.14_p20260502 1.14_p20260901: Standard GNU compressor
 app-arch/hardlink 0.3.2: A tool which replaces copies of a file with hardlinks
 app-arch/innoextract 1.10_pre20250206-r1: A tool to unpack installers created by Inno Setup
 app-arch/lbzip2 2.5_p20181227-r3: Parallel bzip2 utility
@@ -5406,7 +5406,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.33 8.3.26 8.3.29 8.3.31 8.3.33 8.4.24-r1 8.5.9-r1: The PHP language runtime engine
+dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.33 8.3.26 8.3.29 8.3.31 8.3.33 8.4.25 8.5.10: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 3.11.7.3.23-r1: A fast, compliant alternative implementation of the Python (3.11) language
