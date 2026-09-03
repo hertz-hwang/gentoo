@@ -10786,7 +10786,7 @@ dev-tex/html2latex 1.1-r3: Perl script to convert HTML files into formatted LaTe
 dev-tex/hyphen_show 20000425-r1: Show hyphenations in DVI files
 dev-tex/ivritex 1.1.2: Hebrew support for TeX
 dev-tex/jlcode 6.1.2: LaTeX package, language definition for Julia source code syntax highlighting
-dev-tex/latex-beamer 3.76 3.77: LaTeX class for creating presentations using a video projector
+dev-tex/latex-beamer 3.76 3.77 3.78: LaTeX class for creating presentations using a video projector
 dev-tex/latex-calendar 3.1: LaTeX package used to create Calendars. Very flexible and robust
 dev-tex/latex2html 2021.2-r2 2022: Convertor written in Perl that converts LaTeX documents to HTML
 dev-tex/latex2pydata 0.4.1: Allows LaTeX to save data to files using Python
@@ -13087,7 +13087,7 @@ media-gfx/apngdis 2.9: Extract PNG frames from an APNG
 media-gfx/apngopt 1.4-r1: Optimize APNG images
 media-gfx/argyllcms 3.4.0 3.4.1: Open source, ICC compatible color management system
 media-gfx/arss 0.2.3-r1: Analysis & Resynthesis Sound Spectrograph
-media-gfx/asymptote 3.11 3.11-r1 3.12-r2 3.13-r1: A vector graphics language that provides a framework for technical drawing
+media-gfx/asymptote 3.11 3.11-r1 3.12-r2 3.13-r1 3.14: A vector graphics language that provides a framework for technical drawing
 media-gfx/autopano-sift-C 2.5.1-r2: SIFT algorithm for automatic panorama creation in C
 media-gfx/aview 1.3.0_rc1-r3: ASCII Image Viewer
 media-gfx/blender 4.2.16 4.4.3 4.5.5 4.5.9999 5.0.0 5.0.9999 9999: 3D Creation/Animation/Publishing System
@@ -14948,7 +14948,7 @@ net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.152.1 1.155.0 1.156.0: Reference implementation of Matrix homeserver
 net-im/talk-desktop-bin 2.1.1 2.1.2 2.2.0 2.2.1 2.2.3 2.2.4: Nextcloud Talk Desktop client
 net-im/telegram-desktop 7.0.2 7.0.9 7.1.2: Official desktop client for Telegram
-net-im/telegram-desktop-bin 7.1.1 7.1.3: Official desktop client for Telegram (binary package)
+net-im/telegram-desktop-bin 7.1.3 7.1.5: Official desktop client for Telegram (binary package)
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
 net-im/tkabber 1.1.2: A jabber client written in Tcl/Tk
 net-im/tokodon 26.04.3 26.08.0: Mastodon client for Plasma and Plasma Mobile
@@ -15727,7 +15727,7 @@ net-vpn/candy 6.1.10 6.1.11: A reliable, low-latency, and anti-censorship virtua
 net-vpn/cloudflare-warp 2026.6.880.0 2026.7.1377.0: Cloudflare Warp Client
 net-vpn/cloudflared 2026.3.0 2026.7.3 2026.8.2: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
-net-vpn/derper 1.96.5 1.100.0: DERP server for tailscale network
+net-vpn/derper 1.100.0 1.102.2: DERP server for tailscale network
 net-vpn/eduvpn-client 4.6.0 4.7.1 4.7.2 9999: Linux client and Python client API for eduVPN
 net-vpn/eduvpn-common 4.0.0 5.0.1 5.0.2: Linux client and Python client API for eduVPN
 net-vpn/fp-multiuser 0.0.2: A frp server plugin to support multiple users for frp
