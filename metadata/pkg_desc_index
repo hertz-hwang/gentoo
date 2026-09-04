@@ -1140,7 +1140,7 @@ app-antivirus/clamav 0.103.12-r6 1.4.3 1.4.4 1.4.5 1.5.3: Clam Anti-Virus Scanne
 app-antivirus/clamtk 6.18-r1 6.18-r2: A graphical front-end for ClamAV
 app-antivirus/fangfrisch 1.9.2 1.9.2-r1: Update and verify unofficial Clam Anti-Virus signatures
 app-antivirus/lkrg 0.9.8 0.9.9 9999: Linux Kernel Runtime Guard
-app-arch/7zip 26.02-r1: Free file archiver for extremely high compression
+app-arch/7zip 26.02-r1 26.03: Free file archiver for extremely high compression
 app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving compression
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
 app-arch/alien 8.95.6 8.95.9: Converts between the rpm, dpkg, stampede slp, and slackware tgz file formats
@@ -12815,7 +12815,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.6 3.12_pre20260821: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.6 3.12_pre20260901: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
