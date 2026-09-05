@@ -10,7 +10,7 @@ EAPI=8
 
 CMAKE_REMOVE_MODULES_LIST=( FindBoost )
 CMAKE_WARN_UNUSED_CLI=no # false positives unless all USE flags are on
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 LUA_COMPAT=( lua5-{3..4} )
 
 inherit check-reqs bash-completion-r1 cmake flag-o-matic lua-single multiprocessing \
@@ -19,16 +19,12 @@ inherit check-reqs bash-completion-r1 cmake flag-o-matic lua-single multiprocess
 DESCRIPTION="Ceph distributed filesystem"
 HOMEPAGE="https://ceph.com/"
 
-SRC_URI="
-	https://download.ceph.com/tarballs/${P}.tar.gz
-	parquet? ( https://github.com/xtensor-stack/xsimd/archive/13.0.0.tar.gz -> ceph-xsimd-${PV}.tar.gz
-		mirror://apache/arrow/arrow-17.0.0/apache-arrow-17.0.0.tar.gz )
-	parquet? ( mirror://apache/arrow/arrow-17.0.0/apache-arrow-17.0.0.tar.gz )
-"
+SRC_URI="https://download.ceph.com/tarballs/${P}.tar.gz"
+SRC_URI+=" https://dev.gentoo.org/~sam/distfiles/${CATEGORY}/${PN}/${PN}-20.2.0-libarrow-20.0.0.patch.xz"
 
 LICENSE="Apache-2.0 LGPL-2.1 CC-BY-SA-3.0 GPL-2 GPL-2+ LGPL-2+ LGPL-2.1 LGPL-3 GPL-3 BSD Boost-1.0 MIT public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~ppc64"
+KEYWORDS="~amd64 ~arm64"
 
 IUSE="
 	babeltrace +cephfs custom-cflags diskprediction dpdk fuse grafana jaeger
@@ -54,6 +50,9 @@ REQUIRED_USE="
 # tests need root access, and network access
 RESTRICT="test !test? ( test )"
 
+# Note: Patch fromn Fedora, ceph-20.2.0-libarrow-20.0.0.patch.xz, is not compatible with recent changes
+# in dev-libs/apache-arrow-24.0.0, in particular, https://github.com/apache/arrow/pull/49492 . Limit
+# to below that version until Fedora respins the patch.
 DEPEND="
 	${LUA_DEPS}
 	${PYTHON_DEPS}
@@ -108,11 +107,7 @@ DEPEND="
 	ldap? ( net-nds/openldap:= )
 	lttng? ( dev-util/lttng-ust:= )
 	nvmeof? ( net-libs/grpc:= )
-	parquet? (
-		>=app-arch/lz4-1.10
-		dev-cpp/xsimd
-		dev-libs/re2:=
-	)
+	parquet? ( <dev-libs/apache-arrow-24.0.0:=[parquet] )
 	pmdk? (
 		>=dev-libs/pmdk-1.10.0:=
 		sys-block/ndctl:=
@@ -233,7 +228,11 @@ PATCHES=(
 	"${FILESDIR}/ceph-20.1.1-always-lua.patch" # bug 934599
 	"${FILESDIR}/ceph-20.1.1-boost-url-linking.patch"
 	# https://bugs.gentoo.org/969039
-	"${FILESDIR}"/ceph-20.1.1-boost-1.89-{1,2,3}.patch
+	"${FILESDIR}"/ceph-20.2.4-boost-1.89-1.patch
+	"${FILESDIR}"/ceph-20.1.1-boost-1.89-{2,3}.patch
+	"${WORKDIR}/ceph-20.2.0-libarrow-20.0.0.patch"
+	"${FILESDIR}/ceph-20.2.1-boost-1.90-intrusive_ptr_fixes.patch"
+	"${FILESDIR}/ceph-20.2.1-rgw_error_handler.patch"
 )
 
 check-reqs_export_vars() {
@@ -266,13 +265,7 @@ src_prepare() {
 	fi
 
 	# ensure system-libs, reduce QA spam (FIXME: fails w/o zstd subdir)
-	rm -r src/{c-ares,jaegertracing/opentelemetry-cpp,rocksdb,utf8proc} || die
-
-	if use parquet; then
-		# hammer in newer version of parquet/arrow
-		rm -r src/arrow/ || die
-		mv "${WORKDIR}/apache-arrow-17.0.0" src/arrow || die
-	fi
+	rm -r src/{arrow,c-ares,jaegertracing/opentelemetry-cpp,rocksdb,utf8proc} || die
 
 	cmake_src_prepare
 
@@ -351,6 +344,7 @@ ceph_src_configure() {
 		-Wno-dev
 		-DCEPHADM_BUNDLED_DEPENDENCIES=none
 		-DWITH_NVMEOF_GATEWAY_MONITOR_CLIENT:BOOL=$(usex nvmeof)
+		-DWITH_SYSTEM_ARROW:BOOL=ON
 	)
 
 	# this breaks when re-configuring for python impl
@@ -400,9 +394,6 @@ ceph_src_configure() {
 
 	# https://bugs.gentoo.org/927066
 	filter-lto
-
-	# hopefully this will not be necessary in the next release
-	use parquet && export ARROW_XSIMD_URL="file:///${DISTDIR}/ceph-xsimd-${PV}.tar.gz"
 
 	cmake_src_configure
 
