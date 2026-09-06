@@ -1,12 +1,12 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 LUA_COMPAT=( luajit )
-PYTHON_COMPAT=( python3_{9..14} ) # fails to compile with python3.13t
+PYTHON_COMPAT=( python3_{11..14} ) # fails to compile with python3.13t
 
-inherit bash-completion-r1 flag-o-matic lua-single python-single-r1 toolchain-funcs
+inherit bash-completion-r1 lua-single python-single-r1 toolchain-funcs
 
 DESCRIPTION="Function (graph) tracer for user-space"
 HOMEPAGE="https://github.com/namhyung/uftrace"
