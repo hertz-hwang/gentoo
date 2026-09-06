@@ -898,7 +898,7 @@ acct-user/znc 0-r3: User for net-irc/znc
 acct-user/zookeeper 0-r2: A user for sys-cluster/zookeeper-bin
 app-accessibility/accerciser 3.46.2 3.48.0: Interactive Python accessibility explorer
 app-accessibility/at-spi2-atk 2.46.0: Gtk module for bridging AT-SPI to Atk
-app-accessibility/at-spi2-core 2.58.6 2.58.8 2.60.5: D-Bus accessibility specifications and registration daemon
+app-accessibility/at-spi2-core 2.58.6 2.58.8 2.60.5 2.60.6: D-Bus accessibility specifications and registration daemon
 app-accessibility/brltty 6.7 6.8 6.9 6.9.1: Daemon that provides access to the Linux/Unix console for a blind person
 app-accessibility/caribou 0.4.21-r9: Input assistive technology intended for switch and pointer users
 app-accessibility/edbrowse 3.8.13 3.8.15 3.8.17: Combination editor, browser, and mail client that is 100% text based
@@ -2451,13 +2451,13 @@ app-emulation/virt-viewer 11.0-r1: Graphical console client for connecting to vi
 app-emulation/virt-what 1.25: Detects if the current machine is running in a virtual machine
 app-emulation/virtio-win 0.1.266.1 0.1.271.1 0.1.285.1: VirtIO drivers for Windows virtual machines running on KVM
 app-emulation/virtiofsd 1.13.1 1.13.2 1.13.3 9999: Shared file system for virtual machines
-app-emulation/virtualbox 7.0.26-r1 7.2.8 7.2.14 7.2.16 9999: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-additions 7.0.26 7.2.8 7.2.14 7.2.16: CD image containing guest additions for VirtualBox
-app-emulation/virtualbox-extpack-oracle 7.0.26 7.2.8 7.2.14 7.2.16: PUEL extensions for VirtualBox
-app-emulation/virtualbox-guest-additions 7.0.26 7.2.8 7.2.14 7.2.16: VirtualBox kernel modules and user-space tools for Gentoo guests
-app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.2.8 7.2.14 7.2.16: Kernel Modules for Virtualbox Guest Additions
-app-emulation/virtualbox-kvm 7.2.8_pre20260201 7.2.14_pre20260201 7.2.16_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.2.8 7.2.14 7.2.16: Kernel Modules for Virtualbox
+app-emulation/virtualbox 7.0.26-r1 7.2.14 7.2.16 9999: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-additions 7.0.26 7.2.14 7.2.16: CD image containing guest additions for VirtualBox
+app-emulation/virtualbox-extpack-oracle 7.0.26 7.2.14 7.2.16: PUEL extensions for VirtualBox
+app-emulation/virtualbox-guest-additions 7.0.26 7.2.14 7.2.16: VirtualBox kernel modules and user-space tools for Gentoo guests
+app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.2.14 7.2.16: Kernel Modules for Virtualbox Guest Additions
+app-emulation/virtualbox-kvm 7.2.14_pre20260201 7.2.16_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.2.14 7.2.16: Kernel Modules for Virtualbox
 app-emulation/vkd3d-proton 2.14.1 3.0.1 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
@@ -2791,7 +2791,7 @@ app-misc/enum 1.1-r1: Replacement for GNU seq and BSD jot
 app-misc/esekeyd 1.2.7-r2: Multimedia key daemon that uses the Linux event interface
 app-misc/evtest 1.35 1.36: Test program for capturing input device events
 app-misc/faq 0.0.7: Format agnostic jQ
-app-misc/fastfetch 0.1.9999 0.2.9999 2.61.0 2.63.1 2.65.2 2.67.1: Fast neofetch-like system information tool
+app-misc/fastfetch 0.1.9999 0.2.9999 2.61.0 2.63.1 2.65.2 2.67.1 2.68.1: Fast neofetch-like system information tool
 app-misc/fdupes 2.3.2 2.4.0 9999: Identify/delete duplicate files residing within specified directories
 app-misc/fdutils 5.6_p2: Utilities for configuring and debugging the Linux floppy driver
 app-misc/fhem 6.3: A GPL'd perl server for house automation
@@ -3031,7 +3031,7 @@ app-office/endeavour 43.0-r2: Personal task manager
 app-office/glabels 3.4.1-r2: Program for creating labels and business cards
 app-office/gnucash 5.14: Personal finance manager
 app-office/gnumeric 1.12.59-r1 1.12.60 1.12.61: The GNOME Spreadsheet
-app-office/grisbi 3.0.4-r1: Grisbi is a personal accounting application for Linux
+app-office/grisbi 3.0.4-r1 3.90.1: Grisbi is a personal accounting application for Linux
 app-office/homebank 5.9.7 5.10.2: Free, easy, personal accounting for everyone
 app-office/impressive 0.13.2: Stylish way of giving presentations with Python
 app-office/joplin-desktop 3.7.6 3.7.9 3.7.10 3.7.12: Secure note taking and to-do app with synchronization capabilities
@@ -11282,7 +11282,7 @@ dev-vcs/git-tools 2022.12 2025.08: Assorted git-related scripts
 dev-vcs/gitg 44-r4 44-r5 50: git repository viewer for GNOME
 dev-vcs/gitolite 3.6.13 3.6.14: Highly flexible server for git directory version tracker
 dev-vcs/gitolite-gentoo 3.6.6.1-r3 3.6.13.1 3.6.14.1: Highly flexible server for git directory version tracker, Gentoo fork
-dev-vcs/gitstats 0_pre20201124: Statistics generator for git
+dev-vcs/gitstats 0_pre20201124 0_pre20201124-r1: Statistics generator for git
 dev-vcs/gitui 0.28.0 0.28.1: blazing fast terminal-ui for git
 dev-vcs/guilt 0.36-r1: A series of bash scripts which add a quilt-like interface to git
 dev-vcs/hg-evolve 11.1.9 11.1.10 12.0.0: enables the changeset evolution feature of Mercurial
@@ -12126,7 +12126,7 @@ gnome-extra/gnome-integration-spotify 20140907-r2: GNOME integration for Spotify
 gnome-extra/gnome-logs 43.0 45.0 49.0: Log viewer for the systemd journal
 gnome-extra/gnome-network-displays 0.97.0-r1 0.98.0 0.99.0: Stream the desktop to Wi-Fi Display capable devices
 gnome-extra/gnome-power-manager 43.0: GNOME power statistics
-gnome-extra/gnome-shell-extension-alphabetical-grid 43.0 44.0: Restore the alphabetical ordering of the app grid
+gnome-extra/gnome-shell-extension-alphabetical-grid 44.0 46.0: Restore the alphabetical ordering of the app grid
 gnome-extra/gnome-shell-extension-appindicator 64 65: Support legacy, AppIndicators and KStatusNotifierItems in Gnome
 gnome-extra/gnome-shell-extension-applications-overview-tooltip 24: Show tooltip with full name and description
 gnome-extra/gnome-shell-extension-bing-wallpaper 52 53: Change your wallpaper daily to the bing.com background image
@@ -12850,7 +12850,7 @@ mate-extra/mate-user-guide 1.28.0: User documentation for MATE Desktop
 mate-extra/mate-user-share 1.28.0-r2: Personal file sharing for the MATE desktop
 mate-extra/mate-utils 1.28.0-r1: Utilities for the MATE desktop
 media-fonts/Humor-Sans 1.0-r1: Sans-serif typeface in the style of xkcd
-media-fonts/adwaita-fonts 49.0: The typefaces for GNOME
+media-fonts/adwaita-fonts 49.0 50.0: The typefaces for GNOME
 media-fonts/ahem 1.0: Font to help test writers develop predictable tests
 media-fonts/alee-fonts 13-r1: Lee's Hangul truetype fonts
 media-fonts/alef 1: Hebrew open source multiscript font
@@ -13116,7 +13116,7 @@ media-gfx/enblend 4.2.0_p20240424 4.2.0_p20240424-r1: Image Blending with Multir
 media-gfx/engauge 12.9.1 9999: Convert an image file showing a graph or map into numbers
 media-gfx/entangle 3.0-r3 3.0-r4: Tethered Camera Control & Capture
 media-gfx/entice 0.0.1: A simple image viewer based on EFL
-media-gfx/eog 47.0 49.3 50.1: The Eye of GNOME image viewer
+media-gfx/eog 50.1 50.3: The Eye of GNOME image viewer
 media-gfx/eog-plugins 44.1 44.1-r1: Eye of GNOME plugins
 media-gfx/eom 1.28.0-r3 1.28.1: The MATE image viewer
 media-gfx/ephoto 1.6.0: Enlightenment image viewer written with EFL
@@ -13143,7 +13143,7 @@ media-gfx/geeqie 2.6.1-r1 2.6.1-r2 9999: A lightweight GTK image viewer forked f
 media-gfx/gif2png 2.5.14: Converts images from gif format to png format
 media-gfx/gifsicle 1.95 1.96: Create, manipulate, and optimize GIF images and animations
 media-gfx/gimp 2.10.38-r5 3.2.4 9999: GNU Image Manipulation Program
-media-gfx/gimp-arrow-brushes 20190407: Brushes for GIMP with the styles arrow, handpointer, button arrow and cursor
+media-gfx/gimp-arrow-brushes 20190407 20190407-r1: Brushes for GIMP with the styles arrow, handpointer, button arrow and cursor
 media-gfx/gnofract4d 4.4: A program for drawing beautiful mathematically-based images known as fractals
 media-gfx/gnome-font-viewer 48.0 49.0: Font viewer utility for GNOME
 media-gfx/gnome-photos 44.0: Access, organize and share your photos on GNOME
@@ -13611,7 +13611,7 @@ media-libs/musicbrainz 5.1.0-r2: Client Library for accessing the latest XML bas
 media-libs/mutagen 1.47.0 1.48.0 1.48.1: Audio metadata tag reader and writer implemented in pure Python
 media-libs/nanosvg 20231202: Simple stupid single-header-file SVG parse
 media-libs/nas 1.9.5-r2: Network Audio System
-media-libs/netpbm 11.2.22 11.2.28 11.15.6 9999: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/netpbm 11.2.22 11.2.29 11.15.7 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
 media-libs/nv-codec-headers 12.1.14.0 12.1.14.1 13.0.19.0 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.17 0.0.18: A VA-API implemention using NVIDIA's NVDEC
@@ -14407,7 +14407,7 @@ media-video/blinkentools 2.9-r1: Provides a set of commandline utilities related
 media-video/bluray_info 1.10: Blu-ray utilities: bluray_info, bluray_copy, bluray_player
 media-video/ccextractor 0.89: Extract closed captioning subtitles from video to SRT
 media-video/cclive 0.9.3-r3: Command line tool for extracting videos from various websites
-media-video/celluloid 0.26 0.29: Simple GTK+ frontend for mpv
+media-video/celluloid 0.29 0.30: Simple GTK+ frontend for mpv
 media-video/chaplin 1.10-r3: This is a program to raw copy chapters from a dvd using libdvdread
 media-video/cheese 44.1-r1: A cheesy program to take pictures and videos from your webcam
 media-video/cpvts 1.2-r1: raw copy title sets from a DVD to your harddisc
@@ -14506,7 +14506,7 @@ media-video/tivodecode 0.2_pre4: TiVo File Decoder
 media-video/totem 43.1 43.2 43.2-r1: Media player for GNOME
 media-video/tsmuxer 2.7.0: Utility to create and demux TS and M2TS files
 media-video/ttcut 0.19.6_p2-r1: Tool for cutting MPEG files especially for removing commercials
-media-video/untrunc 0_pre20260204 0_pre20260605: Restore truncated mp4/mov files
+media-video/untrunc 0_pre20260605 0_pre20260820: Restore truncated mp4/mov files
 media-video/ushare 2.1_p20250817: uShare is a UPnP (TM) A/V & DLNA Media Server
 media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 9999: v4l2 loopback device whose output is its own input
 media-video/vamps 0.99.2-r2: Very fast requantisizing tool for backup DVDs
@@ -16041,7 +16041,7 @@ sci-chemistry/autodock_vina 1.2.7: Program for drug discovery, molecular docking
 sci-chemistry/avogadro2 1.103.0 2.0.0: Advanced molecule editor and visualizer 2
 sci-chemistry/bodr 10: The Blue Obelisk Data Repository listing element and isotope properties
 sci-chemistry/cara-bin 1.8.4-r2: Analysis of NMR spectra and Computer Aided Resonance Assignment
-sci-chemistry/chemex 2026.6.0 2026.6.1: Program to fit chemical exchange induced shift and relaxation data
+sci-chemistry/chemex 2026.6.1 2026.9.0: Program to fit chemical exchange induced shift and relaxation data
 sci-chemistry/chemical-mime-data 0.1.95_pre20171122: A collection of data files to add support for chemical MIME types
 sci-chemistry/chemtool 1.6.14-r1: A GTK program for drawing organic molecules
 sci-chemistry/clashlist 3.17-r1: Build lists of van der Waals clashes from an input PDB file
@@ -16503,7 +16503,7 @@ sci-mathematics/stp 2.3.4-r1: Simple Theorem Prover, an efficient SMT solver for
 sci-mathematics/sympow 2.023.7: Symmetric power elliptic curve L-functions
 sci-mathematics/topcom 0.17.8-r3 1.1.2: Computing Triangulations Of Point Configurations and Oriented Matroids
 sci-mathematics/twelf 1.7.1-r2: Implementation of the logical framework LF
-sci-mathematics/unuran 1.8.1 1.9.0: Universal Non-Uniform Random number generator
+sci-mathematics/unuran 1.8.1 1.9.0 1.12.0: Universal Non-Uniform Random number generator
 sci-mathematics/vampire 5.0.1: The Vampire Prover, theorem prover for first-order logic
 sci-mathematics/verifpal 0.27.0: Cryptographic protocol analysis for real-world protocols
 sci-mathematics/verit 2021.06.2: An open, trustable and efficient SMT-prover
@@ -16580,7 +16580,7 @@ sci-physics/looptools 2.15-r1 2.16: Tools for evaluation of scalar and tensor on
 sci-physics/pythia 8.3.16-r1 8.3.17 9999: Lund Monte Carlo high-energy physics event generator
 sci-physics/reduze 2.4-r1: Program for reducing Feynman integrals
 sci-physics/rivet 3.1.11-r1 4.1.2 4.1.3 9999: Robust Independent Validation of Experiment and Theory toolkit
-sci-physics/root 6.38.04 6.40.02 6.40.9999 9999: C++ data analysis framework and interpreter from CERN
+sci-physics/root 6.38.04 6.40.04 6.40.9999 9999: C++ data analysis framework and interpreter from CERN
 sci-physics/siscone 3.0.6 3.1.0 3.1.2 3.1.2-r1 9999: Hadron Seedless Infrared-Safe Cone jet algorithm
 sci-physics/thepeg 2.2.3-r3 2.3.0-r4: Toolkit for High Energy Physics Event Generation
 sci-physics/vgm 5.2-r1 5.4 9999: Virtual Geometry Model for High Energy Physics Experiments
@@ -18329,7 +18329,7 @@ www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD
 www-apps/chromedriver-bin 151.0.7922.108 151.0.7922.137 151.0.7922.169: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
-www-apps/dokuwiki 20250514b 20260714b: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
+www-apps/dokuwiki 20260714c: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
 www-apps/drupal 10.5.12 10.6.11 11.2.14 11.3.12: PHP-based open-source platform and content management system
 www-apps/element 1.12.22 1.12.24 1.12.25: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.26.4 1.27.3: A painless self-hosted Git service
@@ -18399,7 +18399,7 @@ www-client/chromium 150.0.7871.13 150.0.7871.128 150.0.7871.181 150.0.7871.186 1
 www-client/chromium-common 2: Common configuration files for Chromium slots
 www-client/dillo 3.2.0 9999: Lean FLTK based web browser
 www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-mode web browser
-www-client/epiphany 48.5 49.3 49.8.1: GNOME webbrowser based on Webkit
+www-client/epiphany 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3 26.08.0: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 140.14.0 140.15.0 153.1.0 153.2.0 154.0 154.0.1 155.0 155.0.1: Firefox Web Browser
@@ -18897,7 +18897,7 @@ x11-misc/urxvt-tabbedex 22.32: An extended version of rxvt-unicode's tabbed perl
 x11-misc/util-macros 1.20.2: X.Org autotools utility macros
 x11-misc/vdpauinfo 1.5-r1: Displays info about your card's VDPAU support
 x11-misc/viewglob 2.0.4-r1: Graphical display of directories and globs referenced at the shell prompt
-x11-misc/virtualgl 3.1.3 3.1.4: Run OpenGL applications remotely with full 3D hardware acceleration
+x11-misc/virtualgl 3.1.4 3.1.5: Run OpenGL applications remotely with full 3D hardware acceleration
 x11-misc/vym 2.9.568 9999: View Your Mind, a mindmap tool
 x11-misc/wayv 0.3-r3: Wayv is hand-writing/gesturing recognition software for X
 x11-misc/wbar 2.3.4-r3: A fast, lightweight quick launch bar
@@ -19294,7 +19294,7 @@ x11-wm/blackbox 0.77-r1 0.77-r2: A small, fast, full-featured window manager for
 x11-wm/bspwm 0.9.10 0.9.12: Tiling window manager based on binary space partitioning
 x11-wm/cwm 7.4 7.9 9999: OpenBSD fork of calmwm, a clean and lightweight window manager
 x11-wm/dwm 6.6 6.7 6.8 9999: a dynamic window manager for X11
-x11-wm/e16 1.0.31: Enlightenment Window Manager (E16)
+x11-wm/e16 1.0.31 1.0.32: Enlightenment Window Manager (E16)
 x11-wm/echinus 0.4.9: A window manager for X in the spirit of dwm
 x11-wm/enlightenment 0.27.1: Enlightenment window manager
 x11-wm/evilwm 1.4.2 1.4.3 1.5: A minimalist, no frills window manager for X
