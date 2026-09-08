@@ -26,11 +26,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86"
 
 RDEPEND="
-	<dev-python/django-6.1[${PYTHON_USEDEP}]
-	>=dev-python/django-4.2[${PYTHON_USEDEP}]
+	>=dev-python/django-5.2[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
+		dev-python/dj-database-url[${PYTHON_USEDEP}]
 		dev-python/inflection[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 		dev-python/pytz[${PYTHON_USEDEP}]

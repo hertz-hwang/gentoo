@@ -144,11 +144,11 @@ DEPEND="
 	dev-libs/psimd
 	sci-ml/FP16
 	$(python_gen_cond_dep '
-		<dev-python/pybind11-3.0.5[${PYTHON_USEDEP}]
+		dev-python/pybind11[${PYTHON_USEDEP}]
 		dev-python/pyyaml[${PYTHON_USEDEP}]
 		dev-python/typing-extensions[${PYTHON_USEDEP}]
 	')
-	cuda? ( ~dev-libs/cutlass-4.4.2[tools(+)] )
+	cuda? ( ~dev-libs/cutlass-4.6.1[tools(+)] )
 	onednn? ( sci-ml/ideep )
 	rocm? (
 		>=sci-libs/hipCUB-6.3:=    <sci-libs/hipCUB-7.3:=
