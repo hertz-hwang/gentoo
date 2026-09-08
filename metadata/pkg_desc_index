@@ -2662,7 +2662,7 @@ app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
 app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22 2.1.23: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
 app-laptop/tuxedo-drivers 4.15.4 4.18.2 4.21.0 4.22.1: Kernel modules for TUXEDO laptops
 app-metrics/alertmanager 0.28.0 0.33.1: Alertmanager for alerts sent by client applications such as Prometheus
-app-metrics/apache_exporter 1.1.1: Prometheus exporter for apache metrics
+app-metrics/apache_exporter 1.1.1 1.1.1-r1: Prometheus exporter for apache metrics
 app-metrics/bind_exporter 0.8.0: Prometheus exporter for BIND
 app-metrics/blackbox_exporter 0.25.0 0.28.0: Prometheus exporter for blackbox probing via HTTP, HTTPS, DNS, TCP and ICMP
 app-metrics/carbonapi-booking 0.3.0-r1 0.3.0_p20250201: High-performance Graphite front-end, Booking.com fork
@@ -3862,7 +3862,7 @@ dev-build/bazel-buildtools 8.5.1: Tools for working with Google's Bazel BUILD fi
 dev-build/bazelisk 1.29.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20251111 20260406 20260508: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019-r1 0.4_p20250404: Another set of autoconf macros for compiling against boost
-dev-build/cmake 4.1.4 4.1.5 4.2.4 4.3.4 9999: Cross platform Make
+dev-build/cmake 4.1.4 4.1.5 4.2.4 4.3.4 4.3.5 4.4.2 4.4.3 9999: Cross platform Make
 dev-build/corrosion 0.5.2 0.6.1-r1: Marrying Rust and CMake - Easy Rust and C/C++ Integration!
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 26.04.3 26.08.0: Dolphin plugin for Makefile targets integration
@@ -9623,7 +9623,7 @@ dev-python/simpleeval 1.0.7: A simple, safe single expression evaluator library
 dev-python/simplejson 4.1.1 4.1.2: Simple, fast, extensible JSON encoder/decoder for Python
 dev-python/simplekml 1.3.6: Enables you to generate KML with as little effort as possible
 dev-python/simpy 4.1.2: Object-oriented, process-based discrete-event simulation language
-dev-python/sip 6.15.3 6.16.0 6.16.1: Python bindings generator for C/C++ libraries
+dev-python/sip 6.15.3 6.16.0 6.16.1 6.16.1-r1: Python bindings generator for C/C++ libraries
 dev-python/siphash24 1.8: Streaming-capable SipHash-1-3 and SipHash-2-4 Implementation
 dev-python/six 1.17.0: Python 2 and 3 compatibility library
 dev-python/slixmpp 1.15.0 1.16.0: Python 3 library for XMPP
@@ -16336,7 +16336,7 @@ sci-libs/netcdf 4.9.3-r2 4.10.1: Scientific library and interface for array orie
 sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r1: C++ library for netCDF
 sci-libs/netcdf-fortran 4.5.4 4.5.4-r1 4.6.1: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3: library for nonequispaced discrete Fourier transformations
-sci-libs/nlopt 2.7.1-r100 2.10.0-r1: Non-linear optimization library
+sci-libs/nlopt 2.7.1-r100 2.10.0-r1 2.10.1: Non-linear optimization library
 sci-libs/oc 2.0-r1: Network Data Access Protocol client C library
 sci-libs/octomap 1.10.0-r1: Efficient Probabilistic 3D Mapping Framework Based on Octrees
 sci-libs/ogdi 4.1.0-r2 4.1.1: Open Geographical Datastore Interface, a GIS support library
@@ -16563,7 +16563,7 @@ sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
-sci-ml/torchvision 0.27.0 0.28.0 0.29.0: Datasets, transforms and models to specific to computer vision
+sci-ml/torchvision 0.27.0 0.28.0 0.29.0-r1: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 5.3.0-r1 5.15.1 5.16.1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
@@ -16664,7 +16664,7 @@ sec-keys/openpgp-keys-bleachbit 20250910: OpenPGP keys used by the BleachBit dev
 sec-keys/openpgp-keys-bobfriesenhahn 20220326: OpenPGP keys used by Bob Friesenhahn
 sec-keys/openpgp-keys-botan 20210416 20260703: OpenPGP keys used to sign Botan releases
 sec-keys/openpgp-keys-bradhouse 20240624 20260703: OpenPGP keys used by Brad House (bradh352)
-sec-keys/openpgp-keys-bradking 20230817 20240902 20250904: OpenPGP keys used by Brad King
+sec-keys/openpgp-keys-bradking 20230817 20240902 20250904 20260908: OpenPGP keys used by Brad King
 sec-keys/openpgp-keys-bzip2 20220406: OpenPGP key used to sign bzip2 releases
 sec-keys/openpgp-keys-canonical 20190401: OpenPGP keys used to sign LXD-related packages
 sec-keys/openpgp-keys-cathugger 20240123: OpenPGP keys used by cathugger

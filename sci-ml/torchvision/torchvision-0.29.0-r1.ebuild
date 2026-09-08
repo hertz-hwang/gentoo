@@ -39,12 +39,13 @@ RDEPEND="
 "
 
 BDEPEND="
-	test? (
-		$(python_gen_cond_dep '
-			dev-python/lmdb[${PYTHON_USEDEP}]
-			dev-python/sympy[${PYTHON_USEDEP}]
-		')
-	)
+	$(python_gen_cond_dep '
+		dev-python/filelock[${PYTHON_USEDEP}]
+		test? (
+				dev-python/lmdb[${PYTHON_USEDEP}]
+				dev-python/sympy[${PYTHON_USEDEP}]
+		)
+	')
 "
 
 EPYTEST_PLUGINS=( pytest-mock )
