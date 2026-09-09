@@ -1242,7 +1242,7 @@ app-arch/wimlib 1.14.4-r1: The open source Windows Imaging (WIM) library
 app-arch/xar 1.8.0.0.498-r1: An easily extensible archive format
 app-arch/xarchiver 0.5.4.26 0.5.4.27: A GTK+ archive manager that can be used with Thunar
 app-arch/xdms 1.3.2-r2: xDMS - Amiga DMS disk image decompressor
-app-arch/xz-utils 5.8.3 9999: Utils for managing LZMA compressed files
+app-arch/xz-utils 5.8.3 5.8.4 9999: Utils for managing LZMA compressed files
 app-arch/zchunk 1.3.2 1.4.0 1.5.1 1.5.3 9999: File format designed for highly efficient deltas with good compression
 app-arch/zip 3.0-r7 3.0_p16: Info ZIP (encryption support)
 app-arch/zoo 2.10-r6: Manipulate archives of files in compressed form
@@ -1886,8 +1886,8 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.135.0 1.136.1: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.116.02821 1.126.04524: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscode 1.136.1 1.137.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text editor and application development system
@@ -4109,7 +4109,7 @@ dev-db/unixODBC 2.3.12-r1 2.3.12-r2 2.3.14: Complete ODBC driver manager
 dev-db/valkey 9.1.0-r1 9.1.2: Persistent key-value store, fork of dev-db/redis
 dev-db/vsqlite++ 0.3.13-r1: VSQLite++ - A well designed and portable SQLite3 Wrapper for C++
 dev-db/wxsqlite3 4.10.6-r1: C++ wrapper around the public domain SQLite 3.x database
-dev-db/zedis 0.4.1 0.4.2 0.5.2: Blazing-fast native Redis GUI built with Rust and GPUI
+dev-db/zedis 0.5.2 0.9.0: Blazing-fast native Redis GUI built with Rust and GPUI
 dev-debug/apitrace 13.0: Tool for tracing, analyzing, and debugging graphics APIs
 dev-debug/bpftrace 0.24.2 0.25.1 0.26.1 9999: High-level tracing language for eBPF
 dev-debug/cgdb 0.8.0 9999: A curses front-end for GDB, the GNU debugger
@@ -4335,7 +4335,7 @@ dev-gap/toric 1.9.6: GAP package for computing with toric varieties
 dev-gap/transgrp 3.6.5: GAP transitive groups library
 dev-gap/utils 0.91 0.98: Utility functions in GAP
 dev-go/act 1.6.0: Automated Component Toolkit code generator
-dev-go/delve 1.26.0 1.26.1 1.26.3 1.27.0 1.27.1: A source-level debugger for the Go programming language
+dev-go/delve 1.26.0 1.26.1 1.26.3 1.27.0 1.27.1 1.27.2: A source-level debugger for the Go programming language
 dev-go/enumer 1.5.10 1.5.11: A Go tool to auto generate methods for your enums
 dev-go/go-bindata 3.1.3: A small utility which generates Go code from any file
 dev-go/go-critic 0.6.4: The most opinionated Go source code linter for code audit
@@ -15101,7 +15101,7 @@ net-libs/libomemo-c 0.5.1: XMPP fork of Signal Protocol C Library supporting XEP
 net-libs/liboping 1.10.0-r3: Protocol independent ANSI-C ping library and command line utility
 net-libs/libosmo-dsp 0.5.0-r1 9999: Library with SDR DSP primitives
 net-libs/libotr 4.1.1-r2: (OTR) Messaging allows you to have private conversations over instant messaging
-net-libs/libpcap 1.10.6 9999: A system-independent library for user-level network packet capture
+net-libs/libpcap 1.10.6 1.10.7 9999: A system-independent library for user-level network packet capture
 net-libs/libprotoident 2.0.14_p1 2.0.15_p1 9999: A library that performs application layer protocol identification for flows
 net-libs/libproxy 0.5.9 0.5.11 0.5.12-r1: Library for automatic proxy configuration management
 net-libs/libpsl 0.21.5: C library for the Public Suffix List
@@ -15770,7 +15770,7 @@ net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN imp
 net-vpn/tor 0.4.9.11 0.4.9.11-r1 0.4.9.12 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.22 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
-net-vpn/vpnc-scripts 20220510 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
+net-vpn/vpnc-scripts 20220510 20250727 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
 net-vpn/vpncloud 2.3.0-r2: High performance peer-to-peer mesh VPN
 net-vpn/vpncwatch 1.8.1-r1: Keepalive daemon for vpnc on Linux systems
 net-vpn/vtun 3.0.4-r3 3.0.4-r4: Create tunnels over TCP/IP networks with shaping, encryption, and compression
@@ -16088,7 +16088,7 @@ sci-electronics/espresso-ab 1.0-r3: POSIX compliant version of the espresso logi
 sci-electronics/fasthenry 3.0.20.07.17 3.0.24.03.14: Three dimensional inductance computation program, Whiteley Research version
 sci-electronics/geda 1.10.2-r102: GPL Electronic Design Automation (gEDA):gaf core package
 sci-electronics/geda-suite 20171223-r2 20171223-r3: Metapackage for all components for a full-featured gEDA/gaf system
-sci-electronics/gerbv 2.7.0: A RS-274X (Gerber) and NC drill (Excellon) file viewer
+sci-electronics/gerbv 2.7.0 2.13.0: A RS-274X (Gerber) and NC drill (Excellon) file viewer
 sci-electronics/ghdl 6.0.0: Open-source analyzer, compiler, and simulator for VHDL 2008/93/87
 sci-electronics/gnetman 0.0.1_pre20110124: A GNU Netlist Manipulation Library
 sci-electronics/gnucap 20210107: GNUCap is the GNU Circuit Analysis Package
@@ -16870,7 +16870,7 @@ sec-keys/openpgp-keys-syncthing 20250904: OpenPGP key used to sign Syncthing rel
 sec-keys/openpgp-keys-sysvinit 20220413: OpenPGP keys used by the sysvinit project
 sec-keys/openpgp-keys-tar 20220406: OpenPGP keys used by GNU tar
 sec-keys/openpgp-keys-tarsnap 20260123: OpenPGP key used by app-backup/tarsnap
-sec-keys/openpgp-keys-tcpdump 20210416 20240308 20240901 20260104: OpenPGP keys used to sign tcpdump releases
+sec-keys/openpgp-keys-tcpdump 20210416 20240308 20240901 20260104 20260908: OpenPGP keys used to sign tcpdump releases
 sec-keys/openpgp-keys-teemutoivola 20210426: OpenPGP keys used by Teemu Toivola
 sec-keys/openpgp-keys-tenable 20220718: OpenPGP keys used to sign Tenable Inc. software packages
 sec-keys/openpgp-keys-terminator 20210306: OpenPGP keys used to sign x11-terms/terminator package
@@ -17454,7 +17454,7 @@ sys-apps/s6-linux-init 1.1.3.0-r1 1.2.0.0-r1 1.2.0.1: Generates an init binary f
 sys-apps/s6-linux-utils 2.6.3.0 2.6.4.0 2.6.4.1: Set of tiny linux utilities
 sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1 2.3.1.2: Set of tiny portable unix utilities
 sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1 0.6.1.1: Service manager for the s6 supervision suite
-sys-apps/sandbox 2.46 2.47 2.48 2.49 9999: sandbox'd LD_PRELOAD hack
+sys-apps/sandbox 2.46 2.47 2.48 2.49 2.51 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
 sys-apps/secilc 3.8.1 3.9 3.10 3.11 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.10-r1: Super-useful stream editor
