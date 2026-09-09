@@ -5521,7 +5521,7 @@ dev-libs/crc32c 1.1.2-r2: CRC32C implementation with support for CPU-specific ac
 dev-libs/criterion 2.4.1-r1 2.4.3: Cross platform unit testing framework for C and C++
 dev-libs/crossguid 0.2.2_p20190529: Lightweight cross platform C++ GUID/UUID library
 dev-libs/crypto++ 8.9.0: C++ class library of cryptographic schemes
-dev-libs/cudnn 8.6.0.163 8.8.0.121 8.9.7.29-r1 9.8.0.87-r1 9.14.0.64 9.17.0.29: NVIDIA Accelerated Deep Learning on GPU library
+dev-libs/cudnn 8.6.0.163 8.8.0.121 8.9.7.29-r1 9.8.0.87-r1 9.14.0.64 9.17.0.29 9.25.1.1: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/cusparselt 0.7.1.0: A High-Performance CUDA Library for Sparse Matrix-Matrix Multiplication
 dev-libs/cutlass 3.8.0 3.9.2 4.1.0 4.2.1 4.4.2 4.6.1: CUDA Templates for Linear Algebra Subroutines
 dev-libs/cvector 1.0.3.1 1.0.4.1: An ANSI C implementation of dynamic arrays (approximation of C++ vectors)
@@ -5900,7 +5900,7 @@ dev-libs/olm 3.2.16-r1: Implementation of the Double Ratchet cryptographic ratch
 dev-libs/onigmo 6.2.0-r1: Onigmo is a regular expressions library forked from Oniguruma
 dev-libs/oniguruma 6.9.9 6.9.9-r1 6.9.10 9999: Regular expression library for different character encodings
 dev-libs/opencl-clang 17.0.7 17.0.8 18.1.6 18.1.7 19.1.4 19.1.5 20.1.4 20.1.5 21.1.4 21.1.5 22.1.1 22.1.2: OpenCL-oriented thin wrapper library around clang
-dev-libs/opencl-icd-loader 2024.10.24 2025.07.22: Official Khronos OpenCL ICD Loader
+dev-libs/opencl-icd-loader 2024.10.24 2025.07.22 2026.05.29: Official Khronos OpenCL ICD Loader
 dev-libs/opencryptoki 3.6.1-r1: PKCS#11 provider cryptographic hardware
 dev-libs/openct 0.6.20-r6: library for accessing smart card terminals
 dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transferring data to mobile devices
@@ -11102,11 +11102,11 @@ dev-util/mingw64-toolchain 14.0.0 14.0.0_p1: All-in-one mingw64 toolchain intend
 dev-util/mk-configure 0.38.3: Lightweight replacement for GNU autotools
 dev-util/nihtest 1.10.1 1.11.1: A testing tool for command line utilities
 dev-util/ninka 2.0_pre1_p20220619: A license identification tool for source code
-dev-util/nsight-compute 2025.1.1.2 2025.2.0.11: performance analysis tool designed to visualize an application's algorithms
+dev-util/nsight-compute 2025.1.1.2 2025.2.0.11 2026.3.0.13: performance analysis tool designed to visualize an application's algorithms
 dev-util/nsight-graphics 2025.2.0: standalone developer tool with ray-tracing support
-dev-util/nsight-systems 2025.2.1 2025.3.1: performance analysis tool designed to visualize an application's algorithms
+dev-util/nsight-systems 2025.2.1 2025.3.1 2026.5.1: performance analysis tool designed to visualize an application's algorithms
 dev-util/numdiff 5.9.0 5.9.0-r1: File comparision, ignoring small numeric differences and formats
-dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.1 12.5.1 12.6.3-r1 12.8.1-r1 12.8.2 12.9.1-r1 12.9.2: NVIDIA CUDA Toolkit (compiler and friends)
+dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.3.2 12.4.1 12.5.1 12.6.3-r1 12.8.1-r1 12.8.2 12.9.1-r1 12.9.2 13.4.1: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/objconv 2.51: object code file converted (COFF, ELF, OMF, MACHO)
 dev-util/omake 0.10.3-r2 0.10.7-r1: Make replacement
 dev-util/open-vcdiff 0.8.4-r2: An encoder/decoder for the VCDIFF (RFC3284) format
@@ -12101,15 +12101,15 @@ gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
 gnome-base/libgtop 2.40.0-r2 2.41.3: A library that provides top functionality to applications
 gnome-base/librsvg 2.40.21-r1 2.58.5-r1 2.60.0 2.62.2-r1 2.62.3: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 49.6-r1: Default file manager for the GNOME desktop
-gnome-extra/cinnamon 6.6.7-r1 6.6.8: A fork of GNOME Shell with layout similar to GNOME 2
+gnome-extra/cinnamon 6.6.7-r1 6.6.9: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/cinnamon-control-center 6.6.0: Cinnamons's main interface to configure various aspects of the desktop
 gnome-extra/cinnamon-desktop 6.6.2: A collection of libraries and utilites used by Cinnamon
 gnome-extra/cinnamon-menus 6.6.0: Cinnamon's library for the Desktop Menu fd.o specification
 gnome-extra/cinnamon-screensaver 6.6.1: Screensaver for Cinnamon
-gnome-extra/cinnamon-session 6.6.3: Cinnamon session manager
+gnome-extra/cinnamon-session 6.6.3 6.6.4: Cinnamon session manager
 gnome-extra/cinnamon-settings-daemon 6.6.3-r1 6.6.4: Cinnamon's settings daemon
 gnome-extra/cinnamon-translations 6.6.2: Translation data for Cinnamon
-gnome-extra/cjs 128.1: Linux Mint's fork of gjs for Cinnamon
+gnome-extra/cjs 128.1 140.1: Linux Mint's fork of gjs for Cinnamon
 gnome-extra/eiciel 0.10.1-r1: ACL editor for GNOME, with Nautilus extension
 gnome-extra/evolution-data-server 3.56.2-r1 3.58.3 3.60.1 3.60.2: Evolution groupware backend
 gnome-extra/evolution-ews 3.56.2-r1 3.58.3 3.60.1 3.60.2-r1: Evolution module for connecting to Microsoft Exchange Web Services
@@ -12287,7 +12287,7 @@ gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop sy
 gui-libs/xdg-desktop-portal-lxqt 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
 gui-wm/dwl 0.5-r1 0.6 0.7 9999: dwm for Wayland
-gui-wm/gamescope 3.16.25-r1: Efficient micro-compositor for running games
+gui-wm/gamescope 3.16.25-r1 3.16.28: Efficient micro-compositor for running games
 gui-wm/labwc 0.9.8 0.20.1 0.20.2 9999: Openbox alternative for wayland
 gui-wm/sway 1.11-r1 1.12-r1 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
@@ -13534,7 +13534,7 @@ media-libs/libogg 1.3.5-r1 1.3.5-r2 1.3.6: The Ogg media file format library
 media-libs/liboggz 1.1.1-r1 1.1.3: A simple programming interface for reading and writing Ogg files and streams
 media-libs/libopenaptx 0.2.0-r1 0.2.1-r1 9999: Reverse-engineered aptX and aptX HD library
 media-libs/libopenglrecorder 0.1.0-r1: Library for asynchronous OpenGL recording with audio
-media-libs/libopenmpt 0.8.6 0.8.7: Library to decode tracked music files (modules)
+media-libs/libopenmpt 0.8.6 0.8.9: Library to decode tracked music files (modules)
 media-libs/libopenraw 0.3.7-r3: RAW image formats decoding library
 media-libs/libopusenc 0.2.1-r1 0.3: High-level API for encoding .opus files
 media-libs/libpagemaker 0.0.4-r1 9999: C++ Library that parses the file format of Aldus/Adobe PageMaker documents
@@ -14028,7 +14028,7 @@ media-radio/qrq 0.3.5-r2: Yet another CW trainer for Linux/Unix
 media-radio/qsstv 9.5.11_pre20250212: Amateur radio SSTV software
 media-radio/svxlink 25.05.1_p20250929-r1 26.05.1: Multi Purpose Voice Services System, including Qtel for EchoLink
 media-radio/tlf 1.4.1-r6: Console-mode amateur radio contest logger
-media-radio/tqsl 2.7.3: ARRL Logbook of the World
+media-radio/tqsl 2.7.3 2.8.6: ARRL Logbook of the World
 media-radio/tucnak 4.72 4.73: Amateur Radio VHF Contest Logbook
 media-radio/unixcw 3.6.1-r2: Collection of programs that fit together to form a morse code tutor program
 media-radio/wsjtx_improved 3.1.0_p260418 3.1.0_p260522 3.2.0_p260818-r1: Weak signal ham radio communication with improvements
@@ -14238,7 +14238,7 @@ media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
 media-sound/oggtst 0.0: A tool for calculating ogg-vorbis playing time
 media-sound/ogmtools 1.5-r3: Information, extraction or creation for OGG media streams
-media-sound/openmpt123 0.8.7: libopenmpt-based command line player for tracked music files (modules)
+media-sound/openmpt123 0.8.9: libopenmpt-based command line player for tracked music files (modules)
 media-sound/opus-tools 0.2-r1: Royalty-free, highly versatile audio codec
 media-sound/orpheus 1.6-r4: Command line MP3 player
 media-sound/owntone 29.0 29.2: DAAP (iTunes) and MPD media server
@@ -14969,7 +14969,7 @@ net-irc/emech 3.0.99_p20221123: UNIX compatible IRC bot programmed in C
 net-irc/ergo 2.17.0 2.18.0: Modern IRC server written in Go
 net-irc/hexchat 2.16.2-r2: Graphical IRC client based on XChat
 net-irc/ii 1.9 2.0 9999: A minimalist FIFO and filesystem-based IRC client
-net-irc/inspircd 4.11.0: Inspire IRCd - The Stable, High-Performance Modular IRCd
+net-irc/inspircd 4.11.0 4.12.0: Inspire IRCd - The Stable, High-Performance Modular IRCd
 net-irc/ircii 20240111 20240918 20260115: An IRC and ICB client that runs under most UNIX platforms
 net-irc/ircmap 0.99-r1: Scripts to treate diagrams of IRC networks using the LINKS command
 net-irc/ircstats 1.2: IRCStats is a Linux log analyzer
@@ -16538,7 +16538,7 @@ sci-ml/XNNPACK 2024.12.03: library of floating-point neural network inference op
 sci-ml/accelerate 1.13.0-r1 1.14.0: Run your *raw* PyTorch training script on any kind of device
 sci-ml/caffe2 2.12.0-r3: A deep learning framework
 sci-ml/clearml 1.18.0: Auto-Magical CI/CD to streamline your AI workload
-sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1: A c++ wrapper for the cudnn backend API
+sci-ml/cudnn-frontend 1.10.0 1.11.0 1.12.1 1.15.0 1.16.1 1.28.0: A c++ wrapper for the cudnn backend API
 sci-ml/datasets 4.8.5 5.0.1-r2: Access and share datasets for Audio, Computer Vision, and NLP tasks
 sci-ml/evaluate 0.4.6-r1: makes evaluating, comparing models and reporting their performance easier
 sci-ml/fastai 2.8.7: The fastai deep learning library
@@ -16563,7 +16563,7 @@ sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generat
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
-sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
+sci-ml/torchdata 0.11.0-r1: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.27.0 0.28.0 0.29.0-r2: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 5.3.0-r1 5.15.1 5.16.1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
@@ -17337,7 +17337,7 @@ sys-apps/init-system-helpers 1.66: Helper scripts useful for both OpenRC and sys
 sys-apps/input-utils 1.3: Small collection of linux input layer utils
 sys-apps/install-xattr 0.10-r1 0.11 0.12 0.13 9999: Wrapper to coreutils install to preserve Filesystem Extended Attributes
 sys-apps/intel-sa-00075-tools 1.0-r1: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/intune-portal 1.2605.16 1.2607.4: Microsoft Intune Company Portal to access a corporate environment
+sys-apps/intune-portal 1.2607.4-r1: Microsoft Intune Company Portal to access a corporate environment
 sys-apps/inxi 3.3.35.1 3.3.38.1 3.3.40.1 3.3.41.1: The CLI inxi collects and prints hardware and system information
 sys-apps/iotools 1.5: Simple commands to access hardware device registers
 sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
@@ -17535,7 +17535,7 @@ sys-auth/libnss-mysql 1.7.1 1.7.1-r1: NSS MySQL Library
 sys-auth/libnss-nis 3.1 3.2 3.4: NSS module to provide NIS support
 sys-auth/libnss-pgsql 1.5.0_beta-r1: Name Service Switch module for use with PostgreSQL
 sys-auth/libyubikey 1.13-r1: Yubico C low-level library
-sys-auth/microsoft-identity-broker 3.0.1 3.0.2: Microsoft Authentication Broker to access a corporate environment
+sys-auth/microsoft-identity-broker 3.0.2-r1: Microsoft Authentication Broker to access a corporate environment
 sys-auth/munge 0.5.18: An authentication service for creating and validating credentials
 sys-auth/nss-docker-ng 1.0.7 1.1.3 1.2.1: NSS plugin for finding Docker containers by their ID or name
 sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
@@ -17732,7 +17732,7 @@ sys-cluster/ploop 1.15-r2: openvz tool and a library to control ploop block devi
 sys-cluster/pmix 4.2.2-r1 4.2.8 5.0.3 5.0.4-r1 5.0.9 6.1.0: The Process Management Interface (PMI) Exascale
 sys-cluster/poolmon 0.6-r1: Director mailserver pool monitoring script for Dovecot
 sys-cluster/prrte 3.0.7 3.0.12 3.0.13 4.1.0: PMIx Reference RunTime Environment
-sys-cluster/rdma-core 57.0-r1 59.0-r1 63.0 9999: Userspace components for the Linux Kernel's drivers/infiniband subsystem
+sys-cluster/rdma-core 57.0-r1 59.0-r1 63.0 65.0 9999: Userspace components for the Linux Kernel's drivers/infiniband subsystem
 sys-cluster/resource-agents 4.12.0 4.15.1: Resources pack for Heartbeat / Pacemaker
 sys-cluster/rocm-k8s-device-plugin 0.3.0 0.5.0: AMD GPU device plugin for kubernetes
 sys-cluster/sanlock 3.8.5-r1 3.8.5-r3 4.2.0 4.2.0-r2 5.1.0-r2: shared storage lock manager
@@ -18709,7 +18709,7 @@ x11-libs/startup-notification 0.12-r2: Application startup notification and feed
 x11-libs/tslib 1.23-r1: Touchscreen Access Library
 x11-libs/vte 0.82.3 0.82.4: Library providing a virtual terminal emulator widget
 x11-libs/wxGTK 3.2.8.1-r2: GTK version of wxWidgets, a cross-platform C++ GUI toolkit
-x11-libs/xapp 3.2.2: Cross-desktop libraries and common resources
+x11-libs/xapp 3.2.2 3.2.3: Cross-desktop libraries and common resources
 x11-libs/xbae 4.60.4-r3: Motif-based widget to display a grid of cells as a spreadsheet
 x11-libs/xcb-imdkit 1.0.9: Input method development support for xcb
 x11-libs/xcb-util 0.4.1: X C-language Bindings sample implementations
