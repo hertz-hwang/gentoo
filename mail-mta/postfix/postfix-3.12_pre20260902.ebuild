@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/postfix.asc
 inherit eapi9-ver pam systemd toolchain-funcs verify-sig
 
@@ -36,7 +37,7 @@ DEPEND="
 	eai? ( dev-libs/icu:= )
 	ldap? ( net-nds/openldap:= )
 	ldap-bind? ( net-nds/openldap:=[sasl] )
-	lmdb? ( dev-db/lmdb:0= )
+	lmdb? ( dev-db/lmdb:= )
 	mongodb? ( >=dev-libs/mongo-c-driver-1.23.0 >=dev-libs/libbson-1.23.0 )
 	mysql? ( dev-db/mysql-connector-c:0= )
 	nis? ( net-libs/libnsl:= )

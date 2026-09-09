@@ -1113,13 +1113,13 @@ app-admin/ttyplot 1.7.4 1.7.5 1.7.6: Realtime plotting utility with data input f
 app-admin/ulogd 2.0.9: Userspace logging daemon for netfilter/iptables related logging
 app-admin/usbview 3.0 3.1: Display the topology of devices on the USB bus
 app-admin/vault 1.15.6 1.18.3 1.18.4: A tool for managing secrets
-app-admin/vaultwarden 1.36.0 1.37.1 1.37.2 9999: Unofficial Bitwarden compatible password manager
+app-admin/vaultwarden 1.37.2 9999: Unofficial Bitwarden compatible password manager
 app-admin/verynice 1.1-r3: A tool for dynamically adjusting the nice-level of processes
 app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
 app-admin/webapp-config 1.56 9999: Gentoo's installer for web-based applications
 app-admin/whowatch 1.8.6-r2: Displays information about users currently logged on in real time
-app-admin/winbox 4.3: Management Software for MikroTik RouterOS
+app-admin/winbox 4.3 4.4_rc1: Management Software for MikroTik RouterOS
 app-admin/xkcdpass 1.20.0 1.30.0: Password generator inspired by XKCD 936
 app-admin/xstow 1.1.1: Replacement for GNU stow with extensions
 app-admin/xtail 2.1_p8: Tail multiple logfiles at once, even if rotated
@@ -12819,7 +12819,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.6 3.12_pre20260901: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.6 3.11.7 3.12_pre20260902: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
@@ -16564,7 +16564,7 @@ sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0: A repo for data loading and utilities on PyTorch domain libraries
-sci-ml/torchvision 0.27.0 0.28.0 0.29.0-r1: Datasets, transforms and models to specific to computer vision
+sci-ml/torchvision 0.27.0 0.28.0 0.29.0-r2: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 5.3.0-r1 5.15.1 5.16.1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
@@ -17820,7 +17820,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 1.39.3 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 1.39.3 1.39.5 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.19.1 7.0 7.1 9999: Btrfs filesystem utilities
