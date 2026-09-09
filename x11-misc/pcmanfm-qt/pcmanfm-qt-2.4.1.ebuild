@@ -1,21 +1,24 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-MY_PV="$(ver_cut 1-2)"
-
 inherit cmake optfeature xdg
 
+MY_PV="$(ver_cut 1-2)"
+
 DESCRIPTION="Qt GUI Tabbed Filemanager"
-HOMEPAGE="https://lxqt-project.org/"
+HOMEPAGE="
+	https://lxqt-project.org/
+	https://github.com/lxqt/pcmanfm-qt/
+"
 
 if [[ ${PV} == 9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/lxqt/${PN}.git"
 else
 	SRC_URI="https://github.com/lxqt/${PN}/releases/download/${PV}/${P}.tar.xz"
-	KEYWORDS="amd64 arm64 ~ppc64 ~riscv ~x86"
+	KEYWORDS="~amd64 ~arm64 ~ppc64 ~riscv ~x86"
 fi
 
 LICENSE="GPL-2 GPL-2+ LGPL-2.1+"
@@ -23,7 +26,7 @@ SLOT="0"
 
 BDEPEND="
 	>=dev-qt/qttools-6.6:6[linguist]
-	>=dev-util/lxqt-build-tools-2.3.0
+	>=dev-util/lxqt-build-tools-2.4.0
 "
 DEPEND="
 	dev-libs/glib:2
@@ -43,6 +46,6 @@ pkg_postinst() {
 	xdg_desktop_database_update
 	xdg_icon_cache_update
 
-	optfeature "mount password storing" gnome-base/gnome-keyring
-	! has_version lxqt-base/lxqt-meta && optfeature "trash functionality" gnome-base/gvfs
+	optfeature "computer/trash and similar features" gnome-base/gvfs
+	optfeature "password storage used for mounts" virtual/secret-service
 }
