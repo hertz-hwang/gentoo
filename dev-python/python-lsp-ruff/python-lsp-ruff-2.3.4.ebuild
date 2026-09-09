@@ -4,6 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_VERIFY_REPO=https://github.com/python-lsp/python-lsp-ruff
 PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
@@ -33,3 +34,10 @@ EPYTEST_DESELECT=(
 
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest
+
+src_prepare() {
+	distutils-r1_src_prepare
+
+	# strip Python-level dep on ruff, since we don't install .dist-info
+	sed -i -e '/ruff.*>=/d' pyproject.toml || die
+}
