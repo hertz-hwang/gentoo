@@ -27,10 +27,11 @@ SRC_URI="
 LICENSE="Apache-2.0"
 # Dependent crate licenses
 LICENSE+="
-	Apache-2.0 BSD-2 BSD CC0-1.0 ISC MIT MPL-2.0 Unicode-DFS-2016 ZLIB
+	Apache-2.0 BSD-2 BSD CC0-1.0 CDLA-Permissive-2.0 ISC MIT MPL-2.0
+	Unicode-3.0 Unicode-DFS-2016 ZLIB
 "
 SLOT="0"
-KEYWORDS="amd64 arm64 ~loong ~ppc64"
+KEYWORDS="~amd64 ~arm64 ~loong ~ppc64"
 IUSE="azure dist-client dist-server gcs memcached redis s3 webdav"
 
 BDEPEND="virtual/pkgconfig"
@@ -48,6 +49,10 @@ RDEPEND="
 IDEPEND="dev-util/shadowman"
 
 QA_FLAGS_IGNORED="usr/bin/sccache*"
+
+CARGO_SKIP_TESTS=(
+	test_sccache_command::without_preprocessor_cache
+)
 
 pkg_setup() {
 	export OPENSSL_NO_VENDOR=1

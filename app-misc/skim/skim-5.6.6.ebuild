@@ -4,7 +4,6 @@
 EAPI=8
 
 CRATES=""
-
 RUST_MIN_VER="1.91.0"
 
 inherit cargo optfeature shell-completion
@@ -39,7 +38,7 @@ DOCS=(
 )
 
 src_configure() {
-	myfeatures=( cli )
+	myfeatures=( cli frizbee image )
 	cargo_src_configure --no-default-features
 }
 
