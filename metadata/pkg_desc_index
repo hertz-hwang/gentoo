@@ -1004,7 +1004,7 @@ app-admin/hcloud 1.65.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2 4.2.4: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
-app-admin/ig 0.55.1: Tools and framework for data collection and system inspection using eBPF
+app-admin/ig 0.56.0: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57 2.61 2.61.1: A free, open source, light-weight and easy-to-use password manager
 app-admin/keepassxc 2.8.0_pre20260504 2.8.0_pre20260629-r1: KeePassXC - KeePass Cross-platform Community Edition
@@ -1404,7 +1404,7 @@ app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OC
 app-containers/incus 7.0.1-r1 7.3-r1 7.4 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
-app-containers/lxc 7.0.0: A userspace interface for the Linux kernel containment features
+app-containers/lxc 7.0.0 7.0.0-r1: A userspace interface for the Linux kernel containment features
 app-containers/lxc-templates 3.0.4_p20260719: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.4 6.3 6.5: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.0.2 2.0.3 2.2.1 2.3.1 2.3.3 2.3.4: Docker-compatible CLI for containerd, with support for Compose
@@ -5891,7 +5891,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.38.2 4.39 4.40: Netscape Portable Runtime
-dev-libs/nss 3.112.5 3.125 3.126 3.126.1 3.127 3.128: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.112.5 3.125 3.126 3.126.1 3.127 3.128 3.129: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -9938,7 +9938,7 @@ dev-qt/qt-creator 20.0.1 9999: Lightweight IDE for C++/QML development centering
 dev-qt/qt-docs 6.11.1_p202605090529 6.11.2_p202608131018: Qt6 documentation and examples for Qt Creator and other tools
 dev-qt/qt3d 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: 3D rendering module for the Qt6 framework
 dev-qt/qt5compat 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
-dev-qt/qtbase 6.11.1 6.11.2-r1 6.11.9999 6.12.9999 6.9999: Cross-platform application development framework
+dev-qt/qtbase 6.11.1 6.11.2-r2 6.11.9999 6.12.9999 6.9999: Cross-platform application development framework
 dev-qt/qtcharts 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: Chart component library for the Qt6 framework
 dev-qt/qtconnectivity 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: Bluetooth and NFC support library for the Qt6 framework
 dev-qt/qtdeclarative 6.11.1-r1 6.11.2 6.11.9999 6.12.9999 6.9999: Qt Declarative (Quick 2)
@@ -16554,7 +16554,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
-sci-ml/ollama 0.33.3: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.34.0: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r2: Tensors and Dynamic neural networks in Python with strong GPU acceleration
