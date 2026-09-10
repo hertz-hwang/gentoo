@@ -7,13 +7,13 @@ inherit linux-info
 
 MY_P="wireless-regdb-${PV:0:4}.${PV:4:2}.${PV:6:2}"
 DESCRIPTION="Wireless Regulatory database for Linux"
-HOMEPAGE="https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb"
+HOMEPAGE="https://wireless.docs.kernel.org/en/latest/en/developers/regulatory/wireless-regdb.html"
 SRC_URI="https://mirrors.edge.kernel.org/pub/software/network/${PN}/${MY_P}.tar.xz"
 S="${WORKDIR}/${MY_P}"
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~mips ppc ppc64 ~riscv ~sparc x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86"
 REQUIRED_USE="kernel_linux"
 
 pkg_pretend() {
