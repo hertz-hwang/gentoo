@@ -946,6 +946,7 @@ app-admin/cancd 0.1.0-r6: CA NetConsole Daemon receives output from the Linux ne
 app-admin/ccze 0.2.1-r5: A flexible and fast logfile colorizer
 app-admin/cdist 7.0.0-r1: A usable configuration management system
 app-admin/checksec 2.7.1-r1 2.7.1-r2: Tool to check properties of executables (e.g. ASLR/PIE, RELRO, PaX, Canaries)
+app-admin/chipass 2026.09.0: Secure password manager
 app-admin/chroot_safe 1.4-r1: Chroot any dynamically linked application in a safe and sane manner
 app-admin/chrootuid 1.3-r2: Run a network service at low privilege level and restricted file system access
 app-admin/chrpath 0.16-r1 0.18: Chrpath can modify the rpath and runpath of ELF executables
@@ -12759,9 +12760,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.19 1.7.4 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.14.0 140.15.0 153.1.0 153.2.0 154.0 155.0 155.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.14.0 140.14.1 140.15.0 153.1.0 153.2.0 154.0 155.0 155.0.1: Thunderbird Mail Client
-mail-client/thunderbird-l10n 153.1.0 153.2.0 154.0 155.0 155.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird 140.15.0 153.2.0 155.0 155.0.1: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.15.0 153.2.0 155.0 155.0.1: Thunderbird Mail Client
+mail-client/thunderbird-l10n 153.2.0 155.0 155.0.1: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -13340,7 +13341,7 @@ media-libs/coin 4.0.4 4.0.6: High-level 3D graphics toolkit, fully compatible wi
 media-libs/compface 1.5.2 1.5.2-r1 1.5.2-r2: Utilities and library to convert to/from X-Face format
 media-libs/ctl 1.5.2_p20221224 1.5.3: AMPAS' Color Transformation Language
 media-libs/cubeb 0.2_p20231121 0.2_p20260421: Cross-platform audio library
-media-libs/dav1d 1.4.2 1.5.0 1.5.1 9999: dav1d is an AV1 Decoder :)
+media-libs/dav1d 1.4.2 1.5.0 1.5.1 1.5.4 9999: dav1d is an AV1 Decoder :)
 media-libs/devil 1.7.8-r6: DevIL image library
 media-libs/dssi 1.1.1-r2: Plugin API for software instruments with user interfaces
 media-libs/dumb 2.0.3-r1: Module/tracker based music format parser and player library
@@ -16553,11 +16554,11 @@ sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the Hugging Face Hub
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
-sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603: part of the PyTorch Profiler
+sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805: part of the PyTorch Profiler
 sci-ml/ollama 0.34.0: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
-sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r2: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 sci-ml/safetensors 0.7.0 0.8.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
@@ -18405,9 +18406,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3 26.08.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.14.0 140.15.0 153.1.0 153.2.0 154.0 154.0.1 155.0 155.0.1: Firefox Web Browser
-www-client/firefox-bin 140.14.0 140.15.0 153.1.0 153.2.0 154.0 154.0.1 155.0 155.0.1: Firefox Web Browser
-www-client/firefox-l10n 153.1.0 153.2.0 154.0 154.0.1 155.0 155.0.1: Firefox Web Browser's translation files
+www-client/firefox 140.15.0 153.2.0 155.0 155.0.1: Firefox Web Browser
+www-client/firefox-bin 140.15.0 153.2.0 155.0 155.0.1: Firefox Web Browser
+www-client/firefox-l10n 153.2.0 155.0 155.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 151.0.7922.108 151.0.7922.137 153.0.8010.36: The web browser from Google
 www-client/google-chrome-beta 151.0.7922.47 152.0.7977.30 154.0.8037.17: The web browser from Google
 www-client/google-chrome-unstable 153.0.7993.0 155.0.8040.2 155.0.8048.0: The web browser from Google
