@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit autotools bash-completion-r1
+inherit autotools shell-completion flag-o-matic tmpfiles
 
 DESCRIPTION="Daemon protecting your computer against BadUSB"
 HOMEPAGE="https://github.com/USBGuard/usbguard"
@@ -21,9 +21,8 @@ REQUIRED_USE+=" test? ( static-libs )"
 CDEPEND="
 	dev-libs/pegtl
 	>=dev-libs/libsodium-0.4.5:=
-	>=dev-libs/protobuf-2.5.0:=
+	>=dev-libs/protobuf-2.5.0:=[protoc(+)]
 	>=sys-cluster/libqb-0.16.0:=
-	sys-devel/gcc:*[cxx]
 	>=sys-libs/libcap-ng-0.7.0
 	>=sys-libs/libseccomp-2.0.0
 	>=sys-process/audit-2.7.7
@@ -42,7 +41,7 @@ RDEPEND="${CDEPEND}
 	"
 DEPEND="${CDEPEND}
 	app-text/asciidoc
-	<dev-cpp/catch-3:0
+	test? ( dev-cpp/catch:0 )
 	dbus? (
 		dev-libs/libxml2
 		dev-libs/libxslt
@@ -52,16 +51,17 @@ DEPEND="${CDEPEND}
 
 RESTRICT="!test? ( test )"
 
-PATCHES=(
-	"${FILESDIR}"/${PN}-1.1.2-gcc-13.patch
-)
-
 src_prepare() {
 	default
 	eautoreconf
 }
 
 src_configure() {
+	# bug 976411
+	if has_version ">=dev-cpp/abseil-cpp-20260107.0"; then
+		append-cxxflags -std=c++20
+	fi
+
 	local myargs=(
 		--with-bash-completion-dir=$(get_bashcompdir)
 		--localstatedir=/var  # i.e. not /var/lib, bug 852296
@@ -70,6 +70,7 @@ src_configure() {
 		$(use_with ldap)
 		$(use_enable static-libs static)
 		$(use_enable systemd)
+		$(use_enable test catch)
 		$(use_enable umockdev)
 	)
 
@@ -80,16 +81,21 @@ src_install() {
 	default
 
 	keepdir /etc/usbguard/IPCAccessControl.d  # bug 808801
-	keepdir /var/log/usbguard
+	keepdir /etc/usbguard/rules.d  # bug 933878
 	chmod 0600 "${ED}"/etc/usbguard/IPCAccessControl.d/.keep* || die  # bug 808801
+	chmod 0600 "${ED}"/etc/usbguard/rules.d/.keep* || die  # bug 933878
 
 	newinitd "${FILESDIR}"/${PN}-0.7.6-usbguard.openrc usbguard
 	use dbus && newinitd "${FILESDIR}"/${PN}-0.7.6-usbguard-dbus.openrc usbguard-dbus
 
 	find "${D}" -name '*.la' -delete || die  # bug 850655
+
+	rmdir -p "${D}"/var/log/usbguard  # see pkg_postinst; bug 960270
 }
 
 pkg_postinst() {
+	tmpfiles_process usbguard.conf
+
 	ewarn
 	ewarn 'BEFORE STARTING USBGUARD please be sure to create/generate'
 	ewarn '                         a rules file at /etc/usbguard/rules.conf'

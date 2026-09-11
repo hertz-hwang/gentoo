@@ -1,17 +1,17 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DIST_AUTHOR=SBECK
-DIST_VERSION=6.98
+DIST_VERSION=6.99
 
 inherit perl-module
 
 DESCRIPTION="Perl date manipulation routines"
 
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 ~hppa ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86 ~x64-macos ~x64-solaris"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~x64-macos ~x64-solaris"
 
 RDEPEND="
 	elibc_musl? ( sys-libs/timezone-data )
@@ -28,4 +28,9 @@ PERL_RM_FILES=(
 	t/_pod.t
 	t/_pod_coverage.t
 	t/_version.t
+)
+
+PATCHES=(
+	"${FILESDIR}/Date-Manip-6.990.0-CVE-2026-60074-r1.patch"
+	"${FILESDIR}/Date-Manip-6.990.0-CVE-2026-60075-r1.patch"
 )
