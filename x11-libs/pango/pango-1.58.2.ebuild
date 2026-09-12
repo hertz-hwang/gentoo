@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,20 +11,22 @@ SRC_URI="https://download.gnome.org/sources/pango/$(ver_cut 1-2)/${P}.tar.xz"
 
 LICENSE="LGPL-2+"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
 
-IUSE="debug examples gtk-doc +introspection sysprof test X"
+IUSE="debug examples libthai gtk-doc +introspection sysprof test X"
 REQUIRED_USE="gtk-doc? ( introspection )"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	>=dev-libs/glib-2.82:2[${MULTILIB_USEDEP}]
+	>=dev-libs/glib-2.88:2[${MULTILIB_USEDEP}]
 	>=dev-libs/fribidi-1.0.6[${MULTILIB_USEDEP}]
-	>=media-libs/harfbuzz-8.4.0:=[glib(+),introspection?,truetype(+),${MULTILIB_USEDEP}]
+	>=media-libs/harfbuzz-11.0.0:=[glib(+),introspection?,truetype(+),${MULTILIB_USEDEP}]
 	>=media-libs/fontconfig-2.17.0:1.0[${MULTILIB_USEDEP}]
 	>=x11-libs/cairo-1.18.0[X?,${MULTILIB_USEDEP}]
 	>=media-libs/freetype-2.5.0.1:2[harfbuzz,png,${MULTILIB_USEDEP}]
 	introspection? ( >=dev-libs/gobject-introspection-1.83.2:= )
+	libthai? ( dev-libs/libthai:= )
+	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4[${MULTILIB_USEDEP}] )
 	X? (
 		>=x11-libs/libX11-1.6.2[${MULTILIB_USEDEP}]
 		>=x11-libs/libXft-2.3.1-r1[${MULTILIB_USEDEP}]
@@ -32,7 +34,6 @@ RDEPEND="
 	)
 "
 DEPEND="${RDEPEND}
-	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4[${MULTILIB_USEDEP}] )
 	X? ( x11-base/xorg-proto )
 "
 BDEPEND="
@@ -81,7 +82,7 @@ multilib_src_configure() {
 		-Dbuild-examples=false
 		-Dfontconfig=enabled
 		$(meson_feature sysprof)
-		-Dlibthai=disabled
+		$(meson_native_use_feature libthai)
 		-Dcairo=enabled
 		$(meson_feature X xft)
 		-Dfreetype=enabled

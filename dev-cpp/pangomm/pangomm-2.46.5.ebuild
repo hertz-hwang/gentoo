@@ -1,24 +1,24 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit gnome.org meson-multilib python-any-r1
 
 DESCRIPTION="C++ interface for pango"
 HOMEPAGE="https://gtkmm.gnome.org/en/index.html"
 
 LICENSE="LGPL-2.1+"
-SLOT="2.48"
-KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv ~sparc x86"
+SLOT="1.4"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="gtk-doc"
 
 RDEPEND="
-	>=dev-cpp/cairomm-1.16.0:1.16[gtk-doc?,${MULTILIB_USEDEP}]
-	>=dev-cpp/glibmm-2.68.0:2.68[gtk-doc?,${MULTILIB_USEDEP}]
-	>=dev-libs/libsigc++-3:3[gtk-doc?,${MULTILIB_USEDEP}]
-	>=x11-libs/pango-1.49.4[${MULTILIB_USEDEP}]
+	>=dev-cpp/cairomm-1.2.2:0[gtk-doc?,${MULTILIB_USEDEP}]
+	>=dev-cpp/glibmm-2.48.0:2[gtk-doc?,${MULTILIB_USEDEP}]
+	dev-libs/libsigc++:2[gtk-doc?,${MULTILIB_USEDEP}]
+	>=x11-libs/pango-1.45.1[${MULTILIB_USEDEP}]
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
@@ -37,4 +37,11 @@ multilib_src_configure() {
 		$(meson_native_use_bool gtk-doc build-documentation)
 	)
 	meson_src_configure
+}
+
+multilib_src_install_all() {
+	if use gtk-doc; then
+		mkdir -p "${ED}"/usr/share/gtk-doc/html/ || die
+		mv "${ED}"/usr/share/doc/pangomm-1.4 "${ED}"/usr/share/gtk-doc/html/ || die
+	fi
 }
