@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 IUSE="ar ch-search fi huro is it-dvb"
-IUSE+=" na-dd na-dtv na-tvmedia pt-vodafone tv-check tv-combiner"
+IUSE+=" na-dd na-tvmedia pt-vodafone tv-check tv-combiner"
 IUSE+=" tv-pick-cgi uk-freeview zz-sdjson zz-sdjson-sqlite"
 
 # Check both %prereqs and %recommended in Makefile.PL
@@ -69,10 +69,6 @@ RDEPEND="
 	na-dd? (
 		dev-perl/HTTP-Daemon
 		dev-perl/SOAP-Lite
-	)
-	na-dtv? (
-		dev-perl/DateTime
-		dev-perl/HTTP-Cookies
 	)
 	pt-vodafone? (
 		dev-perl/DateTime

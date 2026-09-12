@@ -1385,7 +1385,7 @@ app-containers/cosign 2.5.0 2.6.1 3.0.3 3.1.0 3.1.3: container signing utility
 app-containers/cri-o 1.36.1-r1 1.36.5: OCI-based implementation of Kubernetes Container Runtime Interface
 app-containers/cri-tools 1.33.0 1.35.0 1.36.0 1.37.0: CLI and validation tools for Kubelet Container Runtime (CRI)
 app-containers/crun 1.19.1 1.20 1.21 1.25.1 1.28-r1 1.29.1-r1: Fast and low-memory footprint OCI Container Runtime fully written in C
-app-containers/devcontainer 0.87.0 0.88.0: Reference implementation of the Development Containers specification
+app-containers/devcontainer 0.88.0 0.89.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1: System container image builder for LXC and incus
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
@@ -1834,7 +1834,7 @@ app-editors/featherpad 1.6.2 1.6.3 1.6.4 9999: Lightweight Qt6 Plain-Text Editor
 app-editors/focuswriter 1.8.10: Fullscreen and distraction-free word processor
 app-editors/gedit 48.1 48.2 49.0-r1: A text editor for the GNOME desktop
 app-editors/gedit-plugins 48.1 48.2 49.0 49.0-r1: Collection of extra plugins for the gedit Text Editor
-app-editors/ghex 48.3 50.3 9999: GNOME hexadecimal editor
+app-editors/ghex 48.3 50.3 50.4 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 26.04.3 26.08.1: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
@@ -1900,7 +1900,7 @@ app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.3_p20260615: Algol68 major mode for GNU Emacs
 app-emacs/ace-window 0.10.0: Quickly switch windows in Emacs
-app-emacs/acp 0.13.1 0.14.1 0.14.2 0.14.3 9999: Agent Client Protocol implementation for GNU Emacs
+app-emacs/acp 0.14.1 0.14.2 0.14.3 0.15.1 9999: Agent Client Protocol implementation for GNU Emacs
 app-emacs/actionscript-mode 7.2.2_p20180527-r1: A major mode for GNU Emacs for editing Actionscript 3 files
 app-emacs/adaptive-wrap 0.8: Smart line-wrapping with wrap-prefix
 app-emacs/agent-shell 0.57.3-r1 0.70.2 0.71.2 0.73.1 0.74.1 0.74.3 9999: Many native agentic integrations inside GNU Emacs
@@ -2213,14 +2213,14 @@ app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
 app-emacs/orderless 1.7: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.8: Contributed packages to Org
-app-emacs/org-mode 9.8.8 9.8.9 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.8.8 9.8.9 9.8.10 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 1.15 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 2.3.0 2.3.1 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
 app-emacs/org-superstar-mode 1.6.0: Prettify headings and plain lists in Org mode (use UTF8 bullets)
 app-emacs/osm 2.5 9999: OpenStreetMap tile-based viewer for GNU Emacs
 app-emacs/outline-magic 0.9: Outline mode extensions for Emacs
-app-emacs/package-build 5.0.0 5.0.1: Tools for assembling a package archive
+app-emacs/package-build 5.0.1 5.0.2: Tools for assembling a package archive
 app-emacs/package-lint 0.26: Linting library for Emacs Lisp package metadata
 app-emacs/pandoc-mode 2.35 2.90.2: GNU Emacs minor mode for interacting with Pandoc
 app-emacs/paredit 26-r2: Minor mode for performing structured editing of S-expressions
@@ -2295,7 +2295,7 @@ app-emacs/session 2.4b-r1: When you start Emacs, Session restores various variab
 app-emacs/setnu 1.06: Display line numbers in Emacs buffers
 app-emacs/setup 1.4.0 1.5.0: Macro to simplify repetitive configuration patterns
 app-emacs/sharper 1.0_p20230129-r1: .NET SDK CLI wrapper for GNU Emacs using Transient
-app-emacs/shell-maker 0.93.5 0.96.1 0.97.1 0.97.2 9999: Interaction mode for making comint shells for GNU Emacs
+app-emacs/shell-maker 0.97.2 0.97.3 9999: Interaction mode for making comint shells for GNU Emacs
 app-emacs/shell-split-string 0.1: Split Strings Using Shell-Like Syntax
 app-emacs/shrink-path 0.3.1: Fish-style path truncation for GNU Emacs
 app-emacs/shut-up 0.3.3: Reduce Emacs output of messages
@@ -3035,7 +3035,7 @@ app-office/gnumeric 1.12.59-r1 1.12.60 1.12.61: The GNOME Spreadsheet
 app-office/grisbi 3.0.4-r1 3.90.1: Grisbi is a personal accounting application for Linux
 app-office/homebank 5.9.7 5.10.2: Free, easy, personal accounting for everyone
 app-office/impressive 0.13.2: Stylish way of giving presentations with Python
-app-office/joplin-desktop 3.7.6 3.7.9 3.7.10 3.7.12: Secure note taking and to-do app with synchronization capabilities
+app-office/joplin-desktop 3.7.10 3.7.12 3.7.18: Secure note taking and to-do app with synchronization capabilities
 app-office/kmymoney 5.2.2 5.2.2_p20260906: Personal finance manager based on KDE Frameworks
 app-office/kraft 2.0.0: Quotes and invoices manager for small enterprises
 app-office/ktimetracker 6.0.0: Todo management and time tracker
@@ -3867,7 +3867,7 @@ dev-build/corrosion 0.5.2 0.6.1-r1: Marrying Rust and CMake - Easy Rust and C/C+
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 26.04.3 26.08.1: Dolphin plugin for Makefile targets integration
 dev-build/gn 0.2122 0.2217 0.2227 0.2235 0.2289 0.2318 0.2354 0.2374 9999: GN is a meta-build system that generates build files for Ninja
-dev-build/gtk-doc-am 1.34.0: Automake files from gtk-doc
+dev-build/gtk-doc-am 1.34.0 1.36.1: Automake files from gtk-doc
 dev-build/guildmaster 0_pre20250712 9999: FIFO-like jobserver node via CUSE
 dev-build/gyp 20200512145953-r1 99999999999999: GYP (Generate Your Projects) meta-build system
 dev-build/icmake 9.03.01-r1: Hybrid between a make utility and a shell scripting language
@@ -4114,7 +4114,7 @@ dev-debug/apitrace 13.0: Tool for tracing, analyzing, and debugging graphics API
 dev-debug/bpftrace 0.24.2 0.25.1 0.26.1 0.27.0 9999: High-level tracing language for eBPF
 dev-debug/cgdb 0.8.0 9999: A curses front-end for GDB, the GNU debugger
 dev-debug/d-feet 0.3.16-r1: D-Feet is a powerful D-Bus debugger
-dev-debug/d-spy 48.0 49.2: D-Spy is a simple tool to explore D-Bus connections
+dev-debug/d-spy 49.2 50.0: D-Spy is a simple tool to explore D-Bus connections
 dev-debug/ddd 3.3.12-r5 3.4.1: Graphical front-end for command-line debuggers
 dev-debug/drgn 0.0.33 0.1.0: Programmable debugger
 dev-debug/dtrace 2.0.7 9999: Dynamic BPF-based system-wide tracing tool
@@ -5329,7 +5329,7 @@ dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.5: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260622 20260726 20260818: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260818 20260909: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.20.3 1.21.0: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
@@ -5374,7 +5374,7 @@ dev-lang/jint 3.1.2 4.5.0: Javascript Interpreter for .NET
 dev-lang/jsonnet 0.21.0 0.22.0: A data templating language for app and tool developers
 dev-lang/julia-bin 1.8.3-r2 1.8.5-r2 1.9.4-r2 1.10.0-r2 1.10.9-r1 1.11.5-r2 1.12.1-r1 9999: High-performance programming language for technical computing
 dev-lang/jwasm 2.19: MASM-compatible TASM-similar assembler (fork of Wasm)
-dev-lang/kotlin-bin 2.4.0 2.4.10: Statically typed language that targets the JVM and JavaScript
+dev-lang/kotlin-bin 2.4.10 2.4.20: Statically typed language that targets the JVM and JavaScript
 dev-lang/lazarus 3.4-r1: feature rich visual programming environment emulating Delphi
 dev-lang/lfe 2.2.0-r1 2.2.2: Lisp-flavoured Erlang, a lisp syntax front-end to the Erlang compiler
 dev-lang/lisaac 0.13.1-r2: An object prototype based language
@@ -11029,7 +11029,7 @@ dev-util/gpp 2.28: A generic preprocessor
 dev-util/gprof2dot 2025.4.14 2025.4.14-r1: Converts profiling output to dot graphs
 dev-util/gtest-parallel 20250716: Run Google Test suites in parallel
 dev-util/gtk-builder-convert 2.24.33: Converts Glade files to GtkBuilder XML format
-dev-util/gtk-doc 1.34.0-r2: GTK+ Documentation Generator
+dev-util/gtk-doc 1.34.0-r2 1.36.1: GTK+ Documentation Generator
 dev-util/gtk-update-icon-cache 3.24.42: GTK update icon cache
 dev-util/heaptrack 1.5.80_pre20251017 9999: Fast heap memory profiler
 dev-util/herdtools7 7.51: The Herd toolsuite to deal with .cat memory models
@@ -11855,7 +11855,7 @@ games-puzzle/pingus 0.7.6-r5: Free Lemmings clone
 games-puzzle/pipepanic 0.1.3-r3: Simple pipe connecting game
 games-puzzle/pipewalker 0.9.5 1.1: Rotating pieces puzzle game
 games-puzzle/quadra 1.3.0: Tetris clone with multiplayer support
-games-puzzle/quadrapassel 40.2 49.3: Fit falling blocks together
+games-puzzle/quadrapassel 49.3 50.2: Fit falling blocks together
 games-puzzle/rezerwar 0.4.2-r2: Puzzle game like the known tetromino and the average pipe games
 games-puzzle/sdl-jewels 1.1.1-r2: Swap and match 3 or more jewels in a line in order to score points
 games-puzzle/sgt-puzzles 20250904: Simon Tatham's Portable Puzzle Collection
@@ -12087,7 +12087,7 @@ gnome-base/gnome-core-libs 45.2 48.0: Sub-meta package for the core libraries of
 gnome-base/gnome-desktop 44.1-r300 44.1-r400 44.4-r300 44.4-r400 44.5-r300 44.5-r400: Library with common API for various GNOME modules
 gnome-base/gnome-extra-apps 45.2 45.2-r1 48.0: Sub-meta package for the applications of GNOME
 gnome-base/gnome-flashback 3.54.0-r1 3.56.0 3.58.0 3.58.0-r1: GNOME Flashback session
-gnome-base/gnome-keyring 48.0-r1: Password and keyring managing daemon
+gnome-base/gnome-keyring 48.0-r1 50.0: Password and keyring managing daemon
 gnome-base/gnome-light 45.2 48.0: Meta package for GNOME-Light, merge this package to install
 gnome-base/gnome-menus 3.36.0-r1 3.38.1: Library and layout configuration for the Desktop Menu fd.o specification
 gnome-base/gnome-panel 3.54.0 3.56.0 3.58.1: The GNOME Flashback Panel
@@ -12115,9 +12115,9 @@ gnome-extra/cjs 128.1 140.1: Linux Mint's fork of gjs for Cinnamon
 gnome-extra/eiciel 0.10.1-r1: ACL editor for GNOME, with Nautilus extension
 gnome-extra/evolution-data-server 3.56.2-r1 3.58.3 3.60.1 3.60.2: Evolution groupware backend
 gnome-extra/evolution-ews 3.56.2-r1 3.58.3 3.60.1 3.60.2-r1: Evolution module for connecting to Microsoft Exchange Web Services
-gnome-extra/gnome-boxes 48.0 49.1: Simple GNOME application to access remote or virtual systems
+gnome-extra/gnome-boxes 49.1 50.0: Simple GNOME application to access remote or virtual systems
 gnome-extra/gnome-browser-connector 42.1-r1: OS-native connector counterpart for GNOME Shell browser extension
-gnome-extra/gnome-calculator 48.1 49.2-r1 50.0: A calculator application for GNOME
+gnome-extra/gnome-calculator 49.2-r1 50.0: A calculator application for GNOME
 gnome-extra/gnome-calendar 48.1 49.0.1 49.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-characters 48.0 49.1: Unicode character map viewer and library
 gnome-extra/gnome-clocks 49.0 50.0: Clocks application for GNOME
@@ -12128,7 +12128,7 @@ gnome-extra/gnome-directory-thumbnailer 0.1.11-r1: Thumbnail generator for direc
 gnome-extra/gnome-firmware 47.0-r1 49.0: Install firmware on devices
 gnome-extra/gnome-getting-started-docs 3.38.1: Help a new user get started in GNOME
 gnome-extra/gnome-integration-spotify 20140907-r2: GNOME integration for Spotify
-gnome-extra/gnome-logs 43.0 45.0 49.0: Log viewer for the systemd journal
+gnome-extra/gnome-logs 49.0 50.0: Log viewer for the systemd journal
 gnome-extra/gnome-network-displays 0.97.0-r1 0.98.0 0.99.0: Stream the desktop to Wi-Fi Display capable devices
 gnome-extra/gnome-power-manager 43.0: GNOME power statistics
 gnome-extra/gnome-shell-extension-alphabetical-grid 44.0 46.0: Restore the alphabetical ordering of the app grid
@@ -12163,9 +12163,9 @@ gnome-extra/nm-applet 1.36.0: NetworkManager connection editor and applet
 gnome-extra/office-runner 1.0.3: Lighthearted tool to temporarily inhibit GNOME's suspend on lid close behavior
 gnome-extra/pch-session 48.0-r1 49.0 49.1: Unofficial gnome based session with different default settings and extensions
 gnome-extra/polkit-gnome 0.105-r2: A dbus session bus service that is used to bring up authentication dialogs
-gnome-extra/sushi 46.0: A quick previewer for Nautilus, the GNOME file manager
-gnome-extra/tecla 48.0.2 49.0: Tecla is a keyboard layout viewer
-gnome-extra/yelp 42.3 49.1: Help browser for GNOME
+gnome-extra/sushi 46.0 50.0: A quick previewer for Nautilus, the GNOME file manager
+gnome-extra/tecla 49.0 50.0: Tecla is a keyboard layout viewer
+gnome-extra/yelp 49.1 49.2: Help browser for GNOME
 gnome-extra/yelp-xsl 42.4 49.0: XSL stylesheets for yelp
 gnome-extra/zenity 4.0.5 4.2.2: Tool to display dialogs from the commandline and shell scripts
 gnustep-apps/aclock 0.4.0-r2: Analog dockapp clock for GNUstep
@@ -12222,7 +12222,7 @@ gnustep-libs/sqlclient 1.9.0: GNUstep lightweight database abstraction layer
 gui-apps/deskflow 1.26.0 9999: Share a mouse and keyboard between computers (FOSS version of Synergy)
 gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Fast, lightweight and minimalistic Wayland terminal emulator
 gui-apps/foot-terminfo 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1 1.20.2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Terminfo for foot, a fast, lightweight and minimal Wayland terminal emulator
-gui-apps/gnome-console 48.1 49.1 49.2: A simple user-friendly terminal emulator for the GNOME desktop
+gui-apps/gnome-console 49.2 50.0: A simple user-friendly terminal emulator for the GNOME desktop
 gui-apps/grim 1.5.0 9999: Grab images from a Wayland compositor
 gui-apps/gtkgreet 0.8 9999: gtk based greeter for greetd
 gui-apps/input-leap 3.0.2-r1 3.0.3 9999: Share a mouse and keyboard between computers (fork of Barrier)
@@ -13150,7 +13150,7 @@ media-gfx/gifsicle 1.95 1.96: Create, manipulate, and optimize GIF images and an
 media-gfx/gimp 2.10.38-r5 3.2.4 9999: GNU Image Manipulation Program
 media-gfx/gimp-arrow-brushes 20190407 20190407-r1: Brushes for GIMP with the styles arrow, handpointer, button arrow and cursor
 media-gfx/gnofract4d 4.4: A program for drawing beautiful mathematically-based images known as fractals
-media-gfx/gnome-font-viewer 48.0 49.0: Font viewer utility for GNOME
+media-gfx/gnome-font-viewer 49.0 50.0: Font viewer utility for GNOME
 media-gfx/gnome-photos 44.0: Access, organize and share your photos on GNOME
 media-gfx/gnome-screenshot 41.0-r1: Screenshot utility for GNOME
 media-gfx/gnuclad 0.2.4-r1: Cladogram tree generator mainly used by the GNU/Linux distro timeline project
@@ -13270,7 +13270,7 @@ media-gfx/scantailor-advanced 1.0.19: Interactive post-processing tool for scann
 media-gfx/scour 0.38.2-r1: Take an SVG file and produce a cleaner and more concise file
 media-gfx/scrot 1.12.1 2.0.0 9999: Screen capture utility using imlib2 library
 media-gfx/sfftobmp 3.1.4_p20250813: sff to bmp converter
-media-gfx/shotwell 0.32.13 0.32.16 0.32.17: Open source photo manager for GNOME
+media-gfx/shotwell 0.32.17: Open source photo manager for GNOME
 media-gfx/simple-scan 46.0 49.1: Simple document scanning utility
 media-gfx/skanpage 26.04.3 26.08.1: Multi-page scanning application supporting image and pdf files
 media-gfx/solvespace 3.1-r1: Parametric 2d/3d CAD
@@ -14288,7 +14288,7 @@ media-sound/reaper-bin 7.61: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
-media-sound/rhythmbox 3.4.9-r2: Music management and playback software for GNOME
+media-sound/rhythmbox 3.4.9-r2 3.5.1: Music management and playback software for GNOME
 media-sound/rip 1.07-r3: Command-line based audio CD ripper and mp3 encoder
 media-sound/ripperx 3.0.2: GTK program to rip CD audio tracks to Ogg, MP3 or FLAC
 media-sound/rosegarden 25.12: MIDI and audio sequencer and notation editor
@@ -15339,7 +15339,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12: The BGP swiss army knife of networki
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.31.1 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.4-r2 10.1.5-r1 10.2.5-r2 10.2.6 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.4.5 10.5.3-r2 10.5.4-r1 10.5.5 10.6.1-r1 10.6.2 10.7.0 10.7.1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.6-r1 1.32.8-r1 1.32.9-r1 1.32.10-r1 1.32.11 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.9-r1 1.32.10-r1 1.32.11 1.32.12 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -15490,7 +15490,7 @@ net-misc/r8168 8.055.00 8.056.02: r8168 driver for Realtek 8111/8168 PCI-E NICs
 net-misc/rabbitmq-server 3.13.1 4.1.6 4.1.8 4.2.1 4.2.3 4.2.4: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/radvd 2.20 2.21: Linux IPv6 Router Advertisement Daemon
 net-misc/raggre46 0.6.0: Aggregate IPv4 & IPv6 network addresses
-net-misc/rclone 1.74.4 1.75.0: A program to sync files to and from various cloud storage providers
+net-misc/rclone 1.75.0 1.75.1: A program to sync files to and from various cloud storage providers
 net-misc/rdate 1.11: Use TCP or UDP to retrieve the current time of another machine
 net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
@@ -15500,7 +15500,7 @@ net-misc/rsync 3.4.4 3.5.0 9999: File transfer program to keep remote files into
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
-net-misc/rygel 45.0 45.1 45.2: Rygel is an open source UPnP/DLNA MediaServer
+net-misc/rygel 45.2 46.0: Rygel is an open source UPnP/DLNA MediaServer
 net-misc/s3cmd 2.4.0: Command line client for Amazon S3
 net-misc/s4cmd 2.1.0-r3: Super S3 command line tool
 net-misc/s6-networking 2.7.1.0 2.7.2.0 2.7.2.1 2.8.0.0: Suite of small networking utilities for Unix systems
@@ -17959,7 +17959,7 @@ sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel scrip
 sys-kernel/kci-dev 0.1.10 0.1.11: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20260221 20260309 20260410 20260519 20260622 20260810 20260910 99999999: Linux firmware files
+sys-kernel/linux-firmware 20260309 20260410 20260519 20260622 20260810 20260910 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18 6.19 7.0 7.1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
