@@ -946,7 +946,7 @@ app-admin/cancd 0.1.0-r6: CA NetConsole Daemon receives output from the Linux ne
 app-admin/ccze 0.2.1-r5: A flexible and fast logfile colorizer
 app-admin/cdist 7.0.0-r1: A usable configuration management system
 app-admin/checksec 2.7.1-r1 2.7.1-r2: Tool to check properties of executables (e.g. ASLR/PIE, RELRO, PaX, Canaries)
-app-admin/chipass 2026.09.0: Secure password manager
+app-admin/chipass 2026.09.0: A slop-free, Qt6 secure password manager
 app-admin/chroot_safe 1.4-r1: Chroot any dynamically linked application in a safe and sane manner
 app-admin/chrootuid 1.3-r2: Run a network service at low privilege level and restricted file system access
 app-admin/chrpath 0.16-r1 0.18: Chrpath can modify the rpath and runpath of ELF executables
@@ -1157,7 +1157,7 @@ app-arch/cfv 3.1.0 3.2.0: Command-line File Verify - versatile file checksum cre
 app-arch/cksfv 1.3.15: SFV checksum utility (simple file verification)
 app-arch/clzip 1.15 1.16: C language version of lzip
 app-arch/cpio 2.14 2.15: File archival tool which can also read and write tar files
-app-arch/createrepo_c 1.2.1-r3 1.2.2-r1 1.2.3 9999: C implementation of createrepo
+app-arch/createrepo_c 1.2.1-r3 1.2.2-r1 1.2.3 1.2.4 9999: C implementation of createrepo
 app-arch/csnappy 0_pre20220804: Google's snappy compression library for the Linux Kernel
 app-arch/deb2targz 1-r3: Convert a .deb file to a .tar.gz archive
 app-arch/dpkg 1.22.19 1.22.21: Package maintenance system for Debian
@@ -2546,21 +2546,21 @@ app-i18n/cstools 3.44: A charset conversion tool cstocs and two Perl modules for
 app-i18n/dbskkd-cdb 3.00-r1: SKK dictionary server based on cdb
 app-i18n/enca 1.19-r3 1.19-r4: Detect and convert encoding of text files
 app-i18n/fbterm 1.7_p20190503: Fast terminal emulator for the Linux framebuffer
-app-i18n/fcitx 5.1.17 5.1.21: Fcitx 5 is a generic input method framework
+app-i18n/fcitx 5.1.17 5.1.21 5.1.22: Fcitx 5 is a generic input method framework
 app-i18n/fcitx-anthy 5.1.6 5.1.8 5.1.10: Japanese Anthy input methods for Fcitx5
-app-i18n/fcitx-chewing 5.1.12: Chewing Wrapper for Fcitx
-app-i18n/fcitx-chinese-addons 5.1.12 5.1.13: Addons related to Chinese, including IME previous bundled inside fcitx4
-app-i18n/fcitx-configtool 5.1.14: Configuration module for Fcitx
+app-i18n/fcitx-chewing 5.1.12 5.1.13: Chewing Wrapper for Fcitx
+app-i18n/fcitx-chinese-addons 5.1.12 5.1.13 5.1.14: Addons related to Chinese, including IME previous bundled inside fcitx4
+app-i18n/fcitx-configtool 5.1.14 5.1.15: Configuration module for Fcitx
 app-i18n/fcitx-gtk 5.1.7: Gtk im module for fcitx5 and glib based dbus client library
-app-i18n/fcitx-hangul 5.1.9 5.1.10: Korean Hangul input method for Fcitx
-app-i18n/fcitx-lua 5.0.17: Lua support for fcitx
+app-i18n/fcitx-hangul 5.1.9 5.1.10 5.1.11: Korean Hangul input method for Fcitx
+app-i18n/fcitx-lua 5.0.17 5.0.18: Lua support for fcitx
 app-i18n/fcitx-m17n 5.1.6: m17n-provided input methods for Fcitx5
-app-i18n/fcitx-qt 5.1.14: Qt library and IM module for fcitx5
-app-i18n/fcitx-rime 5.1.14: Chinese RIME input methods for Fcitx
+app-i18n/fcitx-qt 5.1.14 5.1.15: Qt library and IM module for fcitx5
+app-i18n/fcitx-rime 5.1.14 5.1.16: Chinese RIME input methods for Fcitx
 app-i18n/fcitx-sayura 5.1.5 5.1.6: Fcitx-Sayura is a Sinhala input method for Fcitx input method framework
-app-i18n/fcitx-table-extra 5.1.8 5.1.10 5.1.11 5.1.12: Provides extra table for Fcitx, including Boshiamy, Zhengma, Cangjie, and Quick
-app-i18n/fcitx-table-other 5.1.5 5.1.6 5.1.7: Provides some other tables for Fcitx, fork from ibus-table-others, scim-tables
-app-i18n/fcitx-unikey 5.1.8 5.1.10 5.1.11: Unikey (Vietnamese Input Method) engine support for Fcitx
+app-i18n/fcitx-table-extra 5.1.8 5.1.10 5.1.11 5.1.12 5.1.13: Provides extra table for Fcitx, including Boshiamy, Zhengma, Cangjie, and Quick
+app-i18n/fcitx-table-other 5.1.5 5.1.6 5.1.7 5.1.8: Provides some other tables for Fcitx, fork from ibus-table-others, scim-tables
+app-i18n/fcitx-unikey 5.1.8 5.1.10 5.1.11 5.1.12: Unikey (Vietnamese Input Method) engine support for Fcitx
 app-i18n/gnulib-l10n 20241231: Localization for gnulib
 app-i18n/ibus 1.5.31-r1 1.5.33 1.5.34 1.5.34-r2: Intelligent Input Bus for Linux / Unix OS
 app-i18n/ibus-anthy 1.5.16 1.5.18: Japanese Anthy engine for IBus
@@ -2591,7 +2591,7 @@ app-i18n/kcc 1.0: Kanji code converter
 app-i18n/libcangjie 1.4.0: Library implementing the Cangjie input method
 app-i18n/libchewing 0.5.1-r1 0.10.3: The intelligent phonetic input method library
 app-i18n/libhangul 0.1.0-r1 0.2.0: Library for hangul input method logic, hanja dictionary
-app-i18n/libime 1.1.14 1.1.15: Fcitx5 Next generation of fcitx
+app-i18n/libime 1.1.14 1.1.15 1.1.16: Fcitx5 Next generation of fcitx
 app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin Fuhao
 app-i18n/librime 1.16.1 1.17.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
@@ -2609,7 +2609,7 @@ app-i18n/opencc 1.1.7 1.1.7-r2 1.1.9: Library for conversion between Traditional
 app-i18n/poedit 3.8.2: GUI gettext translations editor
 app-i18n/pyzy 0.1.0-r3: The Chinese PinYin and Bopomofo conversion library
 app-i18n/qkc 1.00: Quick KANJI code Converter
-app-i18n/rime-data 1.0.20250124 1.0.20251206 1.0.20260703: Data resources for Rime Input Method Engine
+app-i18n/rime-data 1.0.20250124 1.0.20251206 1.0.20260703 1.0.20260826: Data resources for Rime Input Method Engine
 app-i18n/scim 1.4.18-r1: Smart Common Input Method (SCIM) is an Input Method (IM) development platform
 app-i18n/scim-anthy 1.2.7-r2 1.4.0: Japanese input method Anthy IMEngine for SCIM
 app-i18n/scim-bridge 0.4.16-r3: Yet another IM-client of SCIM
@@ -3118,7 +3118,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 85: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 85 86: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.6.4 2.7.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -8295,7 +8295,7 @@ dev-python/aiostream 0.7.1 0.7.2: Generator-based operators for asynchronous ite
 dev-python/aiounittest 1.5.0-r1: Test asyncio code more easily
 dev-python/ajsonrpc 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/alabaster 1.0.0: A configurable sidebar-enabled Sphinx theme
-dev-python/alembic 1.18.5 1.19.0 1.19.1 1.19.2: Database migrations tool, written by the author of SQLAlchemy
+dev-python/alembic 1.19.0 1.19.1 1.19.2 1.20.0: Database migrations tool, written by the author of SQLAlchemy
 dev-python/allpairspy 2.5.1: Pairwise test combinations generator
 dev-python/amqp 5.3.1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/aniso8601 10.0.1: A library for parsing ISO 8601 strings
@@ -8392,8 +8392,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0 2.1.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 26.1.0 26.2.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.62 1.43.67 1.43.72 1.43.78 1.43.83 1.43.89 1.43.90 1.43.91 1.43.92: The AWS SDK for Python
-dev-python/botocore 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.62 1.43.67 1.43.72 1.43.78 1.43.83 1.43.89 1.43.90 1.43.91 1.43.92: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.62 1.43.67 1.43.72 1.43.78 1.43.83 1.43.89 1.43.90 1.43.91 1.43.92 1.43.93: The AWS SDK for Python
+dev-python/botocore 1.43.29 1.43.36 1.43.40 1.43.46 1.43.51 1.43.56 1.43.62 1.43.67 1.43.72 1.43.78 1.43.83 1.43.89 1.43.90 1.43.91 1.43.92 1.43.93: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8471,7 +8471,7 @@ dev-python/cons 0.4.7: Implementation of Lisp/Scheme-like cons in Python
 dev-python/consonance 0.1.5-r1: WhatsApp's handshake implementation using Noise Protocol
 dev-python/constantly 23.10.4: Symbolic constants in Python
 dev-python/construct 2.10.70: A powerful declarative parser for binary data
-dev-python/contourpy 1.3.3-r1: Python library for calculating contours in 2D quadrilateral grids
+dev-python/contourpy 1.3.3-r1 1.4.0: Python library for calculating contours in 2D quadrilateral grids
 dev-python/conway-polynomials 0.10: Python interface to Frank Lübeck's Conway polynomial database
 dev-python/cookies 2.2.1-r2: Friendlier RFC 6265-compliant cookie parser/renderer
 dev-python/coverage 7.15.2 7.15.4 7.16.0: Code coverage measurement for Python
@@ -8479,7 +8479,7 @@ dev-python/cppheaderparser 2.7.4-r1: Parse C++ header files and generate a data 
 dev-python/cppy 1.3.1: C++ header library which makes it easier to write Python extension modules
 dev-python/cramjam 2.11.0 2.12.0_rc1 2.12.0 2.12.1: Thin Python bindings to de/compression algorithms in Rust
 dev-python/crashtest 0.4.1: Python library that makes exceptions handling and inspection easier
-dev-python/crc32c 2.8 2.9: CRC32c algorithm in hardware and software
+dev-python/crc32c 2.9: CRC32c algorithm in hardware and software
 dev-python/crcmod 1.7-r5: Python CRC Generator module
 dev-python/crispy-bootstrap3 2024.1: Bootstrap3 template pack for django-crispy-forms
 dev-python/crispy-bootstrap4 2026.2: Bootstrap4 template pack for django-crispy-forms
@@ -8713,7 +8713,7 @@ dev-python/hatch-jupyter-builder 0.9.1-r1: A hatch plugin to help build Jupyter 
 dev-python/hatch-nodejs-version 0.4.0: Hatch plugin for versioning from a package.json file
 dev-python/hatch-vcs 0.5.0: Hatch plugin for versioning with your preferred VCS
 dev-python/hatchling 1.31.0 1.32.0: Modern, extensible Python build backend
-dev-python/hcloud 2.22.0 2.23.0: Official Hetzner Cloud python library
+dev-python/hcloud 2.23.0 2.24.0: Official Hetzner Cloud python library
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.4.0 3.4.1: Python extension that wraps hiredis
@@ -8751,7 +8751,7 @@ dev-python/ijson 3.5.0 3.5.1: Iterative JSON parser with a Pythonic interface
 dev-python/imageio 2.37.3-r1 2.37.4: Python library for reading and writing image data
 dev-python/imageio-ffmpeg 0.6.0: FFMPEG wrapper for Python
 dev-python/imagesize 2.0.0 2.0.1: Pure Python module for getting image size from png/jpeg/jpeg2000/gif files
-dev-python/imapclient 3.1.0: easy-to-use, pythonic, and complete IMAP client library
+dev-python/imapclient 3.1.0 4.0.1: easy-to-use, pythonic, and complete IMAP client library
 dev-python/imaplib2 3.6 9999: Threaded Python IMAP4 client
 dev-python/iminuit 2.32.0: Minuit numerical function minimization in Python
 dev-python/immutabledict 4.3.1: An immutable wrapper around dictionaries
@@ -8933,7 +8933,7 @@ dev-python/markdown2 2.5.5-r1: Python Markdown language reimplementation
 dev-python/markups 4.1.1: A wrapper around various text markups
 dev-python/markupsafe 3.0.3: Implements a XML/HTML/XHTML Markup safe string for Python
 dev-python/marshmallow 4.3.0 4.3.1: A library for converting to and from native Python datatypes
-dev-python/matplotlib 3.10.9 3.11.0_rc2 3.11.0 3.11.1: Pure python plotting library with matlab like syntax
+dev-python/matplotlib 3.10.9 3.11.0 3.11.1 3.11.2: Pure python plotting library with matlab like syntax
 dev-python/matplotlib-inline 0.2.1 0.2.2: Inline Matplotlib backend for Jupyter
 dev-python/matplotlib-venn 1.1.2: Plot area-proportional two- and three-way Venn diagrams in matplotlib
 dev-python/matrix-common 1.3.0-r1: Common code for Synapse, Sydent and Sygnal
@@ -8950,7 +8950,7 @@ dev-python/memory-allocator 0.2.0: An extension class for memory allocation in c
 dev-python/merge3 0.0.16: Python implementation of 3-way merge
 dev-python/mergedict 1.0.0-r1: A Python 'dict' with a merge() method
 dev-python/meshio 5.3.5-r1: Input/output for many mesh formats
-dev-python/meson-python 0.20.0 0.21.0: Meson PEP 517 Python build backend
+dev-python/meson-python 0.20.0 0.21.0 0.21.1: Meson PEP 517 Python build backend
 dev-python/metakernel 1.0.0 1.0.6 1.0.7: Metakernel for Jupyter
 dev-python/micawber 0.7.0 0.7.1 0.8.0: A small library for extracting rich content from urls
 dev-python/mido 1.3.3: MIDI Objects, a library for working with MIDI messages and ports
@@ -9239,7 +9239,7 @@ dev-python/pyhamcrest 2.1.0: Hamcrest framework for matcher objects
 dev-python/pyhcl 0.4.5: HCL configuration parser for python
 dev-python/pyicu 2.16.2: Python bindings for dev-libs/icu
 dev-python/pyinotify 0.9.6-r1: Python module used for monitoring filesystems events
-dev-python/pyjwt 2.13.0: JSON Web Token implementation in Python
+dev-python/pyjwt 2.13.0 2.14.0: JSON Web Token implementation in Python
 dev-python/pykakasi 2.3.0: Kana kanji simple inversion library
 dev-python/pykeepass 4.1.1_p1 4.2.0: Python library to interact with keepass databases (supports KDBX3 and KDBX4)
 dev-python/pykka 4.4.2: A Python implementation of the actor model
@@ -9277,7 +9277,7 @@ dev-python/pyotp 2.9.0 2.10.0: PyOTP is a Python library for generating and veri
 dev-python/pyparsing 3.3.2: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.15.0 6.16.2 6.17.0 6.18.0: Python library to work with PDF files
+dev-python/pypdf 6.15.0 6.16.2 6.17.0 6.18.0 6.18.1: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2 0.18.1: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29 0.0.30: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9774,11 +9774,11 @@ dev-python/tornado 6.5.7 6.5.8: Python web framework and asynchronous networking
 dev-python/towncrier 25.8.0 26.9.0: Building newsfiles for your project
 dev-python/tox 4.58.0 4.60.1 4.61.1 4.61.2 4.61.3 4.61.4: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r3 3.0.0: Python bindings for TSS
-dev-python/tqdm 4.69.1 4.70.0: Add a progress meter to your loops in a second
+dev-python/tqdm 4.69.1 4.70.0 4.70.1: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1 5.16.1: A configuration system for Python applications
 dev-python/trakit 0.2.5 0.3.0: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
-dev-python/translate-toolkit 3.19.17 3.19.18 3.19.19: Toolkit to convert between many translation formats
+dev-python/translate-toolkit 3.19.17 3.19.18 3.19.19 3.20.0: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.25.2-r1 0.26.0: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0 26.7.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 5.0.0 5.1.0: Python library for loading and using triangular meshes
@@ -9799,7 +9799,7 @@ dev-python/txtorcon 26.6.0: Twisted-based Tor controller client, with state-trac
 dev-python/type-lens 0.2.6: A library that allows for utilizing Python types at runtime
 dev-python/typeguard 4.5.2 4.6.0: Run-time type checker for Python
 dev-python/typer 0.27.0 0.27.1 0.27.2: Build great CLIs. Easy to code. Based on Python type hints
-dev-python/types-docutils 0.22.3.20260518 0.22.3.20260712 0.22.3.20260724 0.23.0.20260827: Typing stubs for docutils
+dev-python/types-docutils 0.22.3.20260724 0.23.0.20260827 0.23.0.20260911: Typing stubs for docutils
 dev-python/types-gdb 16.3.0.20260518 16.3.0.20260712: Typing stubs for gdb
 dev-python/types-psutil 7.2.2.20260518 7.2.2.20260827 7.2.2.20260906: Typing stubs for psutil
 dev-python/types-python-dateutil 2.9.0.20260716 2.9.0.20260807: Typing stubs for python-dateutil
@@ -9828,7 +9828,7 @@ dev-python/uri-template 1.3.0: URI Template expansion in strict adherence to RFC
 dev-python/uritemplate 4.2.0: Python implementation of RFC6570, URI Template
 dev-python/url-normalize 3.0.0: URL normalization for Python
 dev-python/urllib3 2.7.0: HTTP library with thread-safe connection pooling, file post, and more
-dev-python/urwid 4.0.8 4.0.9 4.0.11 4.0.13 4.1.0 4.1.1 4.1.2: Curses-based user interface library for Python
+dev-python/urwid 4.0.8 4.0.9 4.0.11 4.0.13 4.1.0 4.1.1 4.1.2 4.1.3: Curses-based user interface library for Python
 dev-python/urwid-readline 0.15.1: Text input widget for urwid that supports readline shortcuts
 dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
@@ -14782,7 +14782,7 @@ net-dialup/accel-ppp 1.12.0_p20230609 1.14.0 1.14.0-r2 9999: High performance PP
 net-dialup/cutecom 0.60.0_rc1-r1: Serial terminal, like minicom, written in Qt
 net-dialup/dial 1.2-r2: A simple client for DWUN
 net-dialup/dwun 0.96e-r6: Dialer Without a Useful Name (DWUN)
-net-dialup/freeradius 3.2.6-r1 3.2.8-r1: Highly configurable free RADIUS server
+net-dialup/freeradius 3.2.6-r1 3.2.8-r1 3.2.10: Highly configurable free RADIUS server
 net-dialup/freeradius-client 1.1.8: FreeRADIUS Client framework
 net-dialup/isdn-firmware 2011.8.29.8.37: ISDN firmware for active ISDN cards (AVM, Eicon, etc.)
 net-dialup/kpnadsl4linux 1.11: ADSL4Linux, a PPTP start/stop/etc. program especially for Dutch users
@@ -15271,7 +15271,7 @@ net-mail/ytnef 2.1.2: Yeraze's TNEF Stream Reader - for winmail.dat files
 net-misc/adjtimex 1.29-r4: Display or set the kernel time variables
 net-misc/aget 0.4.1-r2: multithreaded HTTP download accelerator
 net-misc/aggregate 1.6: Perform two optimisations on a list of prefixes to reduce the length of the list
-net-misc/anydesk 7.1.3 7.1.4: Feature rich multi-platform remote desktop application
+net-misc/anydesk 7.1.4 8.0.4: Feature rich multi-platform remote desktop application
 net-misc/apt-cacher-ng 3.7.4_p1-r2 9999: Yet another caching HTTP proxy for Debian/Ubuntu software packages
 net-misc/aria2 1.37.0: A download utility with segmented downloading with BitTorrent support
 net-misc/arpsponge 3.17.11-r1: Sweeps up stray ARP queries from a peering LAN
@@ -15337,7 +15337,7 @@ net-misc/eventd 0.29.0-r2: A small daemon to act on remote or local events
 net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.31.1 9999: Free implementation of the Remote Desktop Protocol
-net-misc/frr 10.1.3 10.1.4-r2 10.1.5-r1 10.2.3 10.2.5-r2 10.3.1 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.5.3-r2 10.5.4-r1 10.6.1-r1: The FRRouting Protocol Suite
+net-misc/frr 10.1.4-r2 10.1.5-r1 10.2.5-r2 10.2.6 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.4.5 10.5.3-r2 10.5.4-r1 10.5.5 10.6.1-r1 10.6.2 10.7.0 10.7.1: The FRRouting Protocol Suite
 net-misc/gallery-dl 1.32.6-r1 1.32.8-r1 1.32.9-r1 1.32.10-r1 1.32.11 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
@@ -17263,7 +17263,7 @@ sys-apps/cpu-x 5.3.1 5.4.0: A Free software that gathers information on CPU, mot
 sys-apps/cpuid 20260220 20260503: Linux tool to dump x86 CPUID information about the CPUs
 sys-apps/cracklib-words 2.10.2 2.10.3: Large set of crack/cracklib dictionaries
 sys-apps/crazydiskinfo 1.1.0-r1: Interactive TUI S.M.A.R.T viewer
-sys-apps/cyme 3.0.0 3.0.1: List system USB buses and devices; a modern cross-platform `lsusb`
+sys-apps/cyme 3.0.0 3.0.1 3.0.2: List system USB buses and devices; a modern cross-platform `lsusb`
 sys-apps/daemonize 1.7.8-r2: Runs a command as a Unix daemon
 sys-apps/daisydog 2014.05.30-r1 2024.07.12: A very simple /dev/watchdog daemon
 sys-apps/dbus 1.16.2 1.16.2-r1: A message bus system, a simple way for applications to talk to each other
@@ -18372,7 +18372,7 @@ www-apps/nanoc-core 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flex
 www-apps/nanoc-deploying 1.0.2-r1 1.0.3: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
 www-apps/nextcloud 32.0.5 32.0.13 32.0.14 33.0.5 33.0.7 33.0.8 34.0.2 34.0.3: Personal cloud that runs on your own server
-www-apps/nextcloud-notify_push 1.3.3: Push daemon for Nextcloud clients
+www-apps/nextcloud-notify_push 1.4.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3-r1: A static website and blog generator
 www-apps/novnc 1.6.0 1.7.0 9999: noVNC is a VNC client implemented using HTML5 technologies
 www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
@@ -19346,7 +19346,7 @@ xfce-base/garcon 4.20.0 4.21.0: Xfce's freedesktop.org specification compatible 
 xfce-base/libxfce4ui 4.20.2 4.21.7 4.21.8 4.21.9: Unified widget and session management libs for Xfce
 xfce-base/libxfce4util 4.20.1: A basic utility library for the Xfce desktop environment
 xfce-base/libxfce4windowing 4.20.6 4.20.7: Unified widget and session management libs for Xfce
-xfce-base/thunar 4.20.8 4.20.9 4.21.6: File manager for the Xfce desktop environment
+xfce-base/thunar 4.20.8 4.20.9 4.20.10 4.21.6: File manager for the Xfce desktop environment
 xfce-base/thunar-volman 4.20.0: Daemon that enforces volume-related policies
 xfce-base/tumbler 4.20.1 4.20.2 4.21.1: A thumbnail service for Thunar
 xfce-base/xfce4-appfinder 4.20.0 4.21.1: A tool to find and launch installed applications for the Xfce desktop
