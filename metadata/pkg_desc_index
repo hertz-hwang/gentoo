@@ -3086,7 +3086,7 @@ app-pda/usbmuxd 1.1.1_p20231011 1.1.1_p20240915: USB multiplex daemon for use wi
 app-portage/cfg-update 1.8.9-r2 1.8.9-r3 1.8.11 1.11.0: Easy to use GUI & CLI alternative for etc-update
 app-portage/command-not-found 0.0.7-r1: Command-not-found handler for Gentoo
 app-portage/conf-update 1.0.3-r1: conf-update is a ncurses-based config management utility
-app-portage/cpuid2cpuflags 17: Tool to guess CPU_FLAGS_* flags for the host
+app-portage/cpuid2cpuflags 17 18: Tool to guess CPU_FLAGS_* flags for the host
 app-portage/diffmask 0.3.3-r5: A utility to maintain package.unmask entries up-to-date with masks
 app-portage/eix 0.36.9: Search and query ebuilds
 app-portage/elicense 1.0.2-r2 1.0.2-r3: Tool to find installed packages in Gentoo with non-accepted license(s)
@@ -3128,9 +3128,8 @@ app-portage/pkg-testing-tools 0.2.6 0.2.7 0.2.8 9999: Packages testing tools for
 app-portage/portage-utils 0.97 0.97.1 9999: Small and fast Portage helper tools written in C
 app-portage/porticron 0.7.2: cron script to sync portage and send update mails to root
 app-portage/portpeek 3.2.9: A helper program for maintaining the package.keyword and package.unmask files
-app-portage/pram 16: Tool to ease merging Pull Requests and git patches
 app-portage/prefix-toolkit 11-r1 12: Utilities for users of Gentoo Prefix
-app-portage/pycargoebuild 0.15.1 0.15.2 0.15.3 0.16.0: A generator for Rust/Cargo ebuilds written in Python
+app-portage/pycargoebuild 0.16.0 0.17.0: A generator for Rust/Cargo ebuilds written in Python
 app-portage/recover-broken-vdb 1.0.0-r2 9999: Check Portage's VDB for internal inconsistency on ELF metadata
 app-portage/repo-commit 0.4.1-r1 9999: A repository commit helper
 app-portage/smart-live-rebuild 1.4.1-r2 9999: Check live packages for updates and emerge them as necessary
@@ -8586,7 +8585,7 @@ dev-python/email-validator 2.3.0: A robust email syntax and deliverability valid
 dev-python/emcee 3.1.6: Python ensemble sampling toolkit for affine-invariant MCMC
 dev-python/emoji 2.15.0: Emoji for Python
 dev-python/enrich 1.2.7-r1: Extend rich functionality
-dev-python/ensurepip-pip 26.1.2: Shared pip wheel for ensurepip Python module
+dev-python/ensurepip-pip 26.1.2 26.2.1: Shared pip wheel for ensurepip Python module
 dev-python/ensurepip-setuptools 79.0.1 83.0.0 84.0.0: Shared setuptools wheel for ensurepip Python module
 dev-python/ensurepip-wheel 0.47.0 0.48.0: Shared wheel wheel for use in pip tests
 dev-python/entrypoint2 1.1: Easy to use command-line interface for python modules
@@ -9114,7 +9113,7 @@ dev-python/piexif 1.1.3-r4: Exif manipulation with pure Python
 dev-python/pika 1.4.2 1.4.4: Pure-Python implementation of the AMQP
 dev-python/pikepdf 10.5.1 10.7.3 10.10.0 10.11.0 10.12.0 10.13.0_p1: Python library to work with pdf files based on qpdf
 dev-python/pillow 12.2.0 12.2.0-r1 12.3.0: Python Imaging Library (fork)
-dev-python/pip 26.1.2 26.1.2-r1: The PyPA recommended tool for installing Python packages
+dev-python/pip 26.1.2 26.1.2-r1 26.2.1: The PyPA recommended tool for installing Python packages
 dev-python/pivy 0.6.10: Coin3D bindings for Python
 dev-python/pixelmatch 0.4.0: A fast pixel-level image comparison library
 dev-python/pkg-resources 0 81.0.0: pkg_resources package split from old setuptools
@@ -11259,7 +11258,7 @@ dev-vcs/cvsutils 0.2.6: A small bundle of utilities to work with CVS repositorie
 dev-vcs/darcs 2.16.5-r6 2.18.5: a distributed, interactive, smart revision control system
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.21 2.22 2.24-r1 2.26 2.27: Simple, high-reliability, source control management, and more
-dev-vcs/gagit 3 4: Gentoo AGit workflow tool
+dev-vcs/gagit 4: Gentoo AGit workflow tool
 dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
@@ -11299,6 +11298,7 @@ dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.4 9999: Scala
 dev-vcs/mergiraf 0.18.0 0.19.0 0.19.1: Syntax-aware git merge driver
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pkgcruft-git 0.0.5-r2 9999: QA support for verifying git commits via pkgcruft
+dev-vcs/pram 16: Tool to ease merging Pull Requests and git patches
 dev-vcs/pre-commit 4.5.1: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/pwclient 2.6.2: The command-line client for the patchwork patch tracking tool
 dev-vcs/python-gitlab 5.6.0: Python command line interface to gitlab API
@@ -13563,7 +13563,7 @@ media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 
 media-libs/libsdl3 3.2.30 3.4.12 3.4.14 3.4.16: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
-media-libs/libshumate 1.4.0 1.6.1: Shumate is a GTK toolkit providing widgets for embedded maps
+media-libs/libshumate 1.6.1 1.6.3: Shumate is a GTK toolkit providing widgets for embedded maps
 media-libs/libsidplay 1.36.59-r3 2.1.1-r7: C64 SID player library
 media-libs/libsidplayfp 2.11.0 2.14.0 3.0.0 3.0.2: Library for the sidplay2 fork with resid-fp
 media-libs/libsixel 1.10.5: A lightweight, fast implementation of DEC SIXEL graphics codec
@@ -15347,7 +15347,7 @@ net-misc/geomyidae 0.96: A daemon to serve the gopher protocol
 net-misc/gerbera 2.6.1 3.2.1 9999: UPnP Media Server
 net-misc/getdate 1.2-r3: Network Date/Time Query and Set Local Date/Time Utility
 net-misc/gnome-connections 49.0 50.0: A remote desktop client for the GNOME desktop environment
-net-misc/gnome-remote-desktop 49.3-r1: Remote desktop server which allows you to connect to your machine remotely
+net-misc/gnome-remote-desktop 49.3-r1 50.2: Remote desktop server which allows you to connect to your machine remotely
 net-misc/gns3-gui 2.2.56 2.2.59: Graphical Network Simulator
 net-misc/gns3-server 2.2.56 2.2.59: GNS3 server to asynchronously manage emulators
 net-misc/gofish 1.2-r2: Gofish gopher server
@@ -17934,7 +17934,7 @@ sys-fs/vhba 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEm
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
 sys-fs/xcp 0.24.8-r1: A 'cp' alternative with user-friendly feedback and performance optimisations
 sys-fs/xfsdump 3.1.12 3.2.0 3.3.0: XFS dump/restore utilities
-sys-fs/xfsprogs 6.17.0-r1 6.18.0 6.19.0 7.0.1: XFS filesystem utilities
+sys-fs/xfsprogs 6.17.0-r1 6.18.0 6.19.0 7.0.1 7.1.1: XFS filesystem utilities
 sys-fs/xwmfs 0.92: FUSE-based X11 Window-Manager file system
 sys-fs/yaffs2utils 0.2.9-r1: tools for generating YAFFS images
 sys-fs/zerofree 1.1.1-r1: Zeroes out all free space on a filesystem

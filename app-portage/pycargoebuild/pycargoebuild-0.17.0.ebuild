@@ -3,20 +3,21 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=flit
-PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=flit-core
+PYTHON_COMPAT=( python3_{12..15} )
 
 inherit distutils-r1 optfeature pypi
 
 DESCRIPTION="A generator for Rust/Cargo ebuilds written in Python"
 HOMEPAGE="
+	https://gitweb.gentoo.org/proj/pycargoebuild.git/
 	https://github.com/gentoo/pycargoebuild/
 	https://pypi.org/project/pycargoebuild/
 "
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~arm64 ~loong ~ppc64"
+KEYWORDS="~amd64 ~arm64 ~loong ~ppc64"
 
 RDEPEND="
 	dev-python/jinja2[${PYTHON_USEDEP}]
