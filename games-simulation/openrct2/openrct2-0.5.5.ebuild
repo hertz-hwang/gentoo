@@ -12,8 +12,8 @@ MY_PN_RPL="replays"
 MY_PN_SFX="opensound"
 MY_PN_TS="title-sequences"
 MY_PV_MSX="1.6.1"
-MY_PV_OBJ="1.7.6"
-MY_PV_RPL="0.0.92"
+MY_PV_OBJ="1.7.11"
+MY_PV_RPL="0.0.97"
 MY_PV_SFX="1.0.6"
 MY_PV_TS="0.4.26"
 
@@ -31,7 +31,7 @@ S="${WORKDIR}/${MY_PN}-${PV}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~arm arm64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~x86"
 IUSE="dedicated +flac +opengl scripting test +truetype +vorbis"
 RESTRICT="!test? ( test )"
 
@@ -50,7 +50,7 @@ COMMON_DEPEND="
 		vorbis? ( media-libs/libvorbis )
 	)
 	dev-libs/openssl:0=
-	scripting? ( dev-lang/duktape:= )
+	scripting? ( dev-libs/quickjs-ng:= )
 	truetype? (
 		media-libs/fontconfig:1.0
 		media-libs/freetype:2
@@ -78,7 +78,7 @@ BDEPEND="
 
 PATCHES=(
 	"${FILESDIR}/${PN}-0.4.1-gtest-1.10.patch"
-	"${FILESDIR}/${PN}-0.4.16-include-additional-paths.patch"
+	"${FILESDIR}/${PN}-0.5.3-include-additional-paths.patch"
 )
 
 src_unpack() {
@@ -153,7 +153,7 @@ src_test() {
 }
 
 src_install() {
-	use scripting && DOCS+=( "distribution/scripting.md" "distribution/openrct2.d.ts" )
+	use scripting && DOCS+=( "distribution/scripting/scripting.md" "distribution/scripting/openrct2.d.ts" )
 
 	cmake_src_install
 
