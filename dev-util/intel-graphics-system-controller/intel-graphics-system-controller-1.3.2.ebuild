@@ -5,7 +5,7 @@ EAPI=8
 
 MY_PN="igsc"
 MY_P="${MY_PN}-${PV}"
-PYTHON_COMPAT=( python3_{10..14} )
+PYTHON_COMPAT=( python3_{10..15} )
 
 inherit cmake python-any-r1
 
@@ -16,10 +16,10 @@ S="${WORKDIR}/${MY_P}"
 
 LICENSE="Apache-2.0"
 SLOT="0/${PV}"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 IUSE="+cli doc"
 
-RDEPEND=">=dev-libs/metee-6.2.4:="
+RDEPEND=">=dev-libs/metee-6.2.5:="
 DEPEND="${RDEPEND}"
 BDEPEND="
 	doc? (
