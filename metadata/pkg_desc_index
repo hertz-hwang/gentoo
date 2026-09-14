@@ -1825,7 +1825,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 27.2-r24 28.2-r22 29.4-r10 30.2-r6 31.1 31.1.9999 32.0.50_pre20260831 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 27.2-r24 27.2-r25 28.2-r22 28.2-r23 29.4-r10 29.4-r11 30.2-r6 30.2-r7 31.1-r1 31.1.9999 32.0.50_pre20260831 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/enter-tex 3.49.0: TeX/LaTeX text editor
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
@@ -4033,7 +4033,7 @@ dev-db/lmdb++ 1.0.0-r1: C++11 wrapper for the LMDB database library
 dev-db/m17n-db 1.8.12 1.8.14: Database for the m17n library
 dev-db/mariadb 10.6.23-r1 10.6.24-r1 10.6.27 10.11.14-r1 10.11.15-r1 10.11.18 11.4.8-r1 11.4.9-r1 11.8.3-r2 11.8.3-r5 11.8.5-r1 11.8.5-r2 11.8.6 12.0.2-r2 12.0.2-r3: An enhanced, drop-in replacement for MySQL
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
-dev-db/mariadb-connector-odbc 3.1.18 3.2.7-r1 3.2.8: MariaDB Connector/ODBC
+dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.2.7-r1 3.2.8 3.2.9: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
 dev-db/mycli 2.3.0 2.9.0: CLI for MySQL Database with auto-completion and syntax highlighting
@@ -5477,7 +5477,7 @@ dev-libs/aws-c-event-stream 0.5.7 0.7.1 1.0.0: Core c99 package for AWS SDK for 
 dev-libs/aws-c-http 0.10.7 0.11.0-r1 1.0.0: AWS C Http: C99 implementation of the HTTP/1.1 and HTTP/2 specifications
 dev-libs/aws-c-io 0.23.3 0.27.4 1.0.0: AWS C IO: It handles all IO and TLS work for application protocols
 dev-libs/aws-c-mqtt 0.13.3 0.16.0 1.0.0: AWS C MQTT: C99 implementation
-dev-libs/aws-c-s3 0.11.2 0.13.1 1.1.1: AWS C S3 async library
+dev-libs/aws-c-s3 0.11.2 0.13.1 1.1.1-r1: AWS C S3 async library
 dev-libs/aws-c-sdkutils 0.2.4 0.2.7 1.0.0: AWS C SDKUTILS: C99 library implementing AWS SDK specific utilities
 dev-libs/aws-checksums 0.2.7 0.2.10-r1 1.0.0: Cross-Platform HW accelerated CRC32c and CRC32 with fallback to SW
 dev-libs/ayatana-ido 0.10.4-r1: Ayatana Application Indicators (Shared Library)
@@ -5677,7 +5677,7 @@ dev-libs/libdwarf 2.2.0 2.3.0 2.3.1: Library intended to simplify reading (and w
 dev-libs/libebml 1.4.5 1.4.5-r1 1.4.7: Extensible binary format library (kinda like XML)
 dev-libs/libedit 20240808.3.1: BSD replacement for libreadline
 dev-libs/libee 0.4.1-r1: An Event Expression Library inspired by CEE
-dev-libs/libei 1.5.0 1.6.0: Library for Emulated Input, primarily aimed at the Wayland stack
+dev-libs/libei 1.6.0: Library for Emulated Input, primarily aimed at the Wayland stack
 dev-libs/libelf 0.8.13-r3 0.8.13-r4: ELF object file access library
 dev-libs/liberasurecode 1.6.3 1.6.5: Erasure Code API library written in C with pluggable Erasure Code backends
 dev-libs/libestr 0.1.11-r1: Library for some string essentials
@@ -6050,7 +6050,7 @@ dev-libs/vc 1.4.5: SIMD Vector Class Library for C++
 dev-libs/vectorscan 5.4.11 5.4.12: A portable fork of the high-performance regular expression matching library
 dev-libs/voikko-fi 2.6: Finnish dictionary for libvoikko based spell checkers (vvfst format)
 dev-libs/volume_key 0.3.12-r4: Library for manipulating and storing storage volume encryption keys
-dev-libs/wayland 1.24.0 1.25.0-r1 1.26.0 9999: Wayland protocol libraries
+dev-libs/wayland 1.25.0-r1 1.26.0 9999: Wayland protocol libraries
 dev-libs/wayland-protocols 1.48 1.49 9999: Wayland protocol files
 dev-libs/weston 14.0.2-r1 15.0.1 16.0.0 9999: Wayland reference compositor
 dev-libs/xalan-c 1.12-r4: XSLT processor for transforming XML into HTML, text, or other XML types
@@ -8417,7 +8417,7 @@ dev-python/capturer 3.0-r1: Easily capture stdout/stderr of the current process 
 dev-python/casttube 0.2.1-r1: casttube provides a way to interact with the Youtube Chromecast api
 dev-python/catalogus 0.1.0 0.1.2: Classes to provide name-to-object registry-like support
 dev-python/cattrs 26.1.0 26.2.0 26.2.0-r1: Composable complex class support for attrs and dataclasses
-dev-python/cbor2 6.1.3 6.1.4: CBOR (de)serializer with extensive tag support
+dev-python/cbor2 6.1.4: CBOR (de)serializer with extensive tag support
 dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library for Python
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0 2.1.1: Foreign Function Interface for Python calling C code
@@ -8885,7 +8885,7 @@ dev-python/lesscpy 0.15.1 0.15.2: A compiler written in Python for the LESS lang
 dev-python/levenshtein 0.27.3 0.27.4 0.27.5: Functions for fast computation of Levenshtein distance, and edit operations
 dev-python/lhafile 0.3.1: LHA archive support for Python
 dev-python/libarchive-c 5.3: A Python interface to libarchive
-dev-python/libcst 1.8.6 1.9.0: A concrete syntax tree with AST-like properties for Python
+dev-python/libcst 1.9.0: A concrete syntax tree with AST-like properties for Python
 dev-python/libevdev 0.13.1: Python wrappers for the libevdev library
 dev-python/liblarch 3.2.0: Library to handle directed acyclic graphs
 dev-python/liblore 0.8.1 0.9.0: Shared library for public-inbox / lore.kernel.org access
@@ -9561,7 +9561,7 @@ dev-python/roman-numerals 4.1.0: Manipulate roman numerals
 dev-python/rope 1.14.0: Python refactoring library
 dev-python/ropemode 0.6.1: A helper for using rope refactoring library in IDEs
 dev-python/routes 2.5.1-r2: A re-implementation of Rails routes system, mapping URLs to Controllers/Actions
-dev-python/rpds-py 2026.5.1 2026.6.3: Python bindings to Rust's persistent data structures (rpds)
+dev-python/rpds-py 2026.6.3: Python bindings to Rust's persistent data structures (rpds)
 dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rpy2 3.6.4: Python interface to the R language
 dev-python/rpy2-rinterface 3.6.3: Low-level interface from Python to the R
@@ -9880,7 +9880,7 @@ dev-python/werkzeug 3.1.8: Collection of various utilities for WSGI applications
 dev-python/whatever 0.7: Easy anonymous functions by partial application of operators
 dev-python/whatthepatch 1.0.7: A patch parsing and application library
 dev-python/wheel 0.47.0 0.48.0: A built-package format for Python
-dev-python/whenever 0.10.4 0.10.5: Modern datetime library for Python
+dev-python/whenever 0.10.5: Modern datetime library for Python
 dev-python/whisper 1.1.10: Fixed size round-robin style database
 dev-python/whoosh 2.7.4-r2: Fast, pure-Python full text indexing, search and spell checking library
 dev-python/widgetsnbextension 4.0.15 4.0.16: IPython HTML widgets for Jupyter
@@ -10916,7 +10916,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.241: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.270: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1: A complete toolset for C and C++ development
@@ -10976,7 +10976,7 @@ dev-util/diffstat 1.68 1.69: Display a histogram of diff changes
 dev-util/difftastic 0.68.0 0.69.0: A structural diff that understands syntax
 dev-util/diffuse 0.10.0 0.11.0: A graphical tool to compare and merge text files
 dev-util/dirdiff 2.1-r4: A tool for differing and merging directories
-dev-util/directx-headers 1.618.2 1.619.1 9999: DirectX header files and WSL stubs
+dev-util/directx-headers 1.619.1 9999: DirectX header files and WSL stubs
 dev-util/dissembler 0.9-r2: polymorphs bytecode to a printable ASCII string
 dev-util/docker-distribution-pruner 0.2.0: Clean all old container revisions from registry
 dev-util/dogtail 0.9.11-r1: GUI test tool and automation framework using accessibility framework
@@ -11096,7 +11096,7 @@ dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.3 3.24.0: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
-dev-util/mesa_clc 26.0.8 26.1.4 26.1.5 26.1.6 26.1.7 26.1.8 26.2.1 26.2.2 9999: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 26.1.8 26.2.2 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/mig 1.8_p20231217 1.8_p20260123 9999: GNU Mach 3.0 interface generator (IDL compiler)
 dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 13.0.0 14.0.0: Free Win64 runtime and import library definitions
@@ -11191,7 +11191,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 17.0.18 17.0.23 17.0.25 17.0.27 18.1.18 18.1.23 18.1.25 18.1.27 19.1.13 19.1.18 19.1.20 19.1.22 20.1.8 20.1.13 20.1.15 20.1.17 21.1.3 21.1.7 21.1.9 21.1.11 22.1.2 22.1.4 22.1.6 23.1.0 23.1.1 24.0.0_pre20260820: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 17.0.18 17.0.23 17.0.27 18.1.18 18.1.23 18.1.27 19.1.13 19.1.18 19.1.22 20.1.8 20.1.13 20.1.17 21.1.3 21.1.7 21.1.11 22.1.2 22.1.6 23.1.1 24.0.0_pre20260820: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -11231,7 +11231,7 @@ dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.35
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0 0.9.0: A fast WebAssembly interpreter and the most universal WASM runtime
 dev-util/watchman 2024.11.04.00 2025.04.14.00: A file watching service
-dev-util/wayland-scanner 1.24.0 1.25.0 1.26.0 9999: wayland-scanner tool
+dev-util/wayland-scanner 1.25.0 1.26.0 9999: wayland-scanner tool
 dev-util/web_page_replay_go 20221028: A performance testing tool for recording and replaying web pages
 dev-util/webhook 2.8.1: lightweight incoming webhook server to run shell commands
 dev-util/weka 3.8.6: A Java data mining package
@@ -12938,7 +12938,7 @@ media-fonts/font-schumacher-misc 1.1.3: X.Org Schumacher fonts
 media-fonts/font-screen-cyrillic 1.0.5: X.Org Screen cyrillic fonts
 media-fonts/font-sony-misc 1.0.4: X.Org Sony fonts
 media-fonts/font-sun-misc 1.0.4: X.Org Sun fonts
-media-fonts/font-util 1.4.1 1.4.2: X.Org font utilities
+media-fonts/font-util 1.4.2: X.Org font utilities
 media-fonts/font-winitzki-cyrillic 1.0.4: X.Org Winitzki cyrillic font
 media-fonts/font-xfree86-type1 1.0.5: X.Org XFree86 Type 1 font
 media-fonts/fontawesome 6.5.1 9999: The iconic font
@@ -13386,7 +13386,7 @@ media-libs/glu 9.0.3 9999: The OpenGL Utility Library
 media-libs/glycin 2.1.1-r1 2.1.5: Sandboxed and extendable image loading library
 media-libs/glycin-loaders 1.2.4 2.1.1 2.1.5 2.2.0: Loaders for glycin clients (glycin crate or libglycin)
 media-libs/glyr 1.0.10-r1: Music related metadata searchengine, both with commandline interface and C API
-media-libs/gmmlib 22.10.0 22.10.1 9999: Intel Graphics Memory Management Library
+media-libs/gmmlib 22.10.0 22.10.1 22.10.2 9999: Intel Graphics Memory Management Library
 media-libs/graphene 1.10.8-r1: A thin layer of types for graphic libraries
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
 media-libs/gsound 1.0.3: Thin GObject wrapper around the libcanberra sound event library
@@ -13586,7 +13586,7 @@ media-libs/libv4l 1.32.0-r1: v4l-utils libraries and optional utilities
 media-libs/libva 2.23.0 2.24.1 9999: Video Acceleration (VA) API for Linux
 media-libs/libva-compat 1.8.3-r3: Video Acceleration (VA) API for Linux
 media-libs/libva-intel-driver 2.4.5 9999: HW video decode support for Intel integrated graphics
-media-libs/libva-intel-media-driver 26.1.6 26.2.0 26.2.1 26.2.3 26.2.4 26.3.1 26.3.2 9999: Intel Media Driver for VA-API (iHD)
+media-libs/libva-intel-media-driver 26.1.6 26.2.0 26.2.1 26.2.3 26.2.4 26.3.1 26.3.2 26.3.3 9999: Intel Media Driver for VA-API (iHD)
 media-libs/libvisio 0.1.10 0.1.11 9999: Library parsing the file format of MS Visio documents
 media-libs/libvisual 0.4.1 0.4.2-r1: Abstraction library between applications and audio visualisation plugins
 media-libs/libvmaf 2.3.1 3.0.0 9999: C libary for Netflix's Perceptual video quality assessment
@@ -13608,8 +13608,8 @@ media-libs/lilv 0.24.26-r1: Library to make the use of LV2 plugins as simple as 
 media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 9999: Linux Studio Plugins
 media-libs/lv2 1.18.10-r1 1.18.10-r2: A simple but extensible successor of LADSPA
 media-libs/lvtk 1.2.0-r4: A set of C++ wrappers around the LV2 C API
-media-libs/mesa 26.0.8 26.1.4 26.1.5 26.1.6 26.1.7 26.1.8 26.2.1 26.2.2 9999: OpenGL-like graphic library for Linux
-media-libs/mesa-amber 21.3.9-r2 21.3.9-r3 21.3.9-r4: OpenGL-like graphic library for Linux
+media-libs/mesa 26.1.8 26.2.2 9999: OpenGL-like graphic library for Linux
+media-libs/mesa-amber 21.3.9-r4: OpenGL-like graphic library for Linux
 media-libs/mlt 7.38.0 7.40.0: Open source multimedia framework for television broadcasting
 media-libs/mpvqt 1.1.1-r3 1.2.0: libmpv wrapper for QtQuick2 and QML
 media-libs/munt-mt32emu 2.7.0 2.7.3 2.8.3: Library for emulating the Roland MT-32, CM-32L, CM-64 and LAPC-I
@@ -13725,7 +13725,7 @@ media-libs/volpack 1.0_p7-r2: Volume rendering library
 media-libs/vpl-gpu-rt 26.2.0 26.2.1 26.2.3 26.2.4 26.3.2: Intel Video Processing Library GPU Runtime
 media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Installable Client Driver (ICD) Loader
-media-libs/waffle 1.8.1 1.8.2 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
+media-libs/waffle 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 1.3-r5 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
 media-libs/wxsvg 1.5.24-r1: C++ library to create, manipulate and render SVG files
@@ -14934,7 +14934,7 @@ net-im/gajim 2.4.6 2.5.0 2.6.0: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.16.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
-net-im/mattermost-desktop-bin 5.13.7 6.2.3 6.3.0: Mattermost Desktop application
+net-im/mattermost-desktop-bin 5.13.7 6.2.3 6.2.4_rc1 6.3.0 6.3.1_rc1: Mattermost Desktop application
 net-im/neochat 26.04.3 26.08.1: Client for Matrix, the decentralized communication protocol
 net-im/openmittsu 0.10.3.0: Open source chat client for Threema-style end-to-end encrypted chat networks
 net-im/pidgin 2.14.14-r2 2.14.14-r3: GTK Instant Messenger client
@@ -15273,7 +15273,7 @@ net-mail/ytnef 2.1.2: Yeraze's TNEF Stream Reader - for winmail.dat files
 net-misc/adjtimex 1.29-r4: Display or set the kernel time variables
 net-misc/aget 0.4.1-r2: multithreaded HTTP download accelerator
 net-misc/aggregate 1.6: Perform two optimisations on a list of prefixes to reduce the length of the list
-net-misc/anydesk 7.1.4 8.0.4: Feature rich multi-platform remote desktop application
+net-misc/anydesk 7.1.4 8.0.4-r1: Feature rich multi-platform remote desktop application
 net-misc/apt-cacher-ng 3.7.4_p1-r2 9999: Yet another caching HTTP proxy for Debian/Ubuntu software packages
 net-misc/aria2 1.37.0: A download utility with segmented downloading with BitTorrent support
 net-misc/arpsponge 3.17.11-r1: Sweeps up stray ARP queries from a peering LAN
@@ -15293,7 +15293,7 @@ net-misc/axel 2.17.14: Light Unix download accelerator
 net-misc/babeld 1.13.1: a loop-free distance-vector routing protocol
 net-misc/balance 3.57-r1: TCP Load Balancing Port Forwarder
 net-misc/batctl 2022.2: BATMAN advanced control and management tool
-net-misc/bgpq4 1.8 1.15: Generate access-lists for various routers, maintained fork of bgpq3
+net-misc/bgpq4 1.15 1.16: Generate access-lists for various routers, maintained fork of bgpq3
 net-misc/bird 2.17.2 2.17.4 2.18.1 2.19.0 3.1.6 3.2.1 3.3.0: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 & IPv6
 net-misc/bopm 3.1.3-r7: Blitzed Open Proxy Monitor
 net-misc/bridge-utils 1.7.1-r1: Tools for configuring the Linux kernel 802.1d Ethernet Bridge
@@ -17951,9 +17951,9 @@ sys-kernel/dkms 3.3.0 3.4.3 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.186 6.1.187 6.6.155 6.6.156 6.12.107 6.12.108 6.12.109 6.18.48 6.18.49 6.18.50 6.18.51 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.186 6.1.187 6.6.155 6.6.156 6.12.107 6.12.108 6.12.109 6.18.48 6.18.49 6.18.50 6.18.51 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.186 6.1.187 6.6.155 6.6.156 6.12.107 6.12.108 6.12.109 6.18.48 6.18.49 6.18.50 6.18.51 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Full sources including the Gentoo patchset for the 7.2 kernel tree
 sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
@@ -17976,7 +17976,7 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.186 6.1.187 6.1.9999 6.6.155 6.6.156 6.6.9999 6.12.107 6.12.108 6.12.109 6.12.9999 6.18.48 6.18.49 6.18.50 6.18.51 6.18.9999 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 6.1.186 6.1.187 6.1.188 6.1.9999 6.6.155 6.6.156 6.6.157 6.6.9999 6.12.107 6.12.108 6.12.109 6.12.110 6.12.9999 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 6.18.9999 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.188 6.6.157 6.12.110 6.18.52 7.1.13 7.2.6: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
@@ -18026,7 +18026,7 @@ sys-libs/libtermcap-compat 2.0.8-r4: Compatibility package for old termcap-based
 sys-libs/libucontext 1.3.1 1.3.2 1.3.3 1.5.1: ucontext implementation featuring glibc-compatible ABI
 sys-libs/libudev-compat 186-r1: Wrapper around libudev.so.1 for packages needing the old libudev.so.0
 sys-libs/libunwind 1.8.2 1.8.2-r1 1.8.3 9999: Portable and efficient API to determine the call-chain of a program
-sys-libs/liburing 2.9 2.10-r1 2.11 2.12 2.13 2.14 9999: Efficient I/O with io_uring
+sys-libs/liburing 2.9 2.10-r1 2.11 2.12 2.13 2.14 2.15 9999: Efficient I/O with io_uring
 sys-libs/libutempter 1.2.1: Library that allows non-privileged apps to write utmp (login) info
 sys-libs/libuuid 1.0.3-r1: Portable uuid C library
 sys-libs/libvpd 2.2.9: Library implementation for listing Vital Product Data
@@ -18166,7 +18166,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.186 6.1.187 6.6.155 6.6.156 6.12.107 6.12.108 6.12.109 6.18.48 6.18.49 6.18.50 6.18.51 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18367,7 +18367,7 @@ www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition deve
 www-apps/mediawiki 1.43.8 1.43.9 1.45.3 1.45.4 1.46.0: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.2.14-r1 2.2.17-r1: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
-www-apps/moodle 4.5.13 5.0.9 5.2.2: The Moodle Course Management System
+www-apps/moodle 4.5.14 5.0.10 5.2.3: The Moodle Course Management System
 www-apps/mythweb 0.28.1-r2 34.0: PHP scripts intended to manage MythTV from a web browser
 www-apps/nanoc 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-checking 1.0.6: Provides checking functionality for Nanoc
@@ -18410,9 +18410,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1 50.6: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3 26.08.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.15.0 153.2.0 155.0 155.0.1: Firefox Web Browser
+www-client/firefox 140.15.0 153.2.0 155.0 155.0.1 156.0: Firefox Web Browser
 www-client/firefox-bin 140.15.0 153.2.0 155.0 155.0.1 156.0: Firefox Web Browser
-www-client/firefox-l10n 153.2.0 155.0 155.0.1: Firefox Web Browser's translation files
+www-client/firefox-l10n 153.2.0 155.0 155.0.1 156.0: Firefox Web Browser's translation files
 www-client/google-chrome 151.0.7922.108 151.0.7922.137 153.0.8010.36: The web browser from Google
 www-client/google-chrome-beta 151.0.7922.47 152.0.7977.30 154.0.8037.17: The web browser from Google
 www-client/google-chrome-unstable 153.0.7993.0 155.0.8040.2 155.0.8048.0: The web browser from Google
@@ -18516,7 +18516,7 @@ x11-apps/appres 1.0.7: list X application resource database
 x11-apps/bdftopcf 1.1.2: X.Org bdftopcf application
 x11-apps/beforelight 1.0.6: Sample implementation of screen saver
 x11-apps/bitmap 1.1.2: X.Org bitmap application
-x11-apps/editres 1.0.9 1.1.1: a dynamic resource editor for X Toolkit applications
+x11-apps/editres 1.1.1: a dynamic resource editor for X Toolkit applications
 x11-apps/fonttosfnt 1.2.5: X.Org fonttosfnt application
 x11-apps/fslsfonts 1.0.7: list fonts served by X font server
 x11-apps/fstobdf 1.0.8: generate BDF font from X font server
@@ -18541,8 +18541,8 @@ x11-apps/xauth 1.1.5: X authority file utility
 x11-apps/xbacklight 1.2.4: Sets backlight level using the RandR 1.2 BACKLIGHT output property
 x11-apps/xbiff 1.0.6: mailbox flag for X
 x11-apps/xcalc 1.1.3: scientific calculator for X
-x11-apps/xclipboard 1.1.5 1.1.6: interchange between cut buffer and selection
-x11-apps/xclock 1.1.1 1.2.0 1.2.1: analog / digital clock for X
+x11-apps/xclipboard 1.1.6: interchange between cut buffer and selection
+x11-apps/xclock 1.2.1: analog / digital clock for X
 x11-apps/xcmsdb 1.0.7: Device Color Characterization utility for X Color Management System
 x11-apps/xconsole 1.1.1: monitor system console messages with X
 x11-apps/xcursorgen 1.0.9: create an X cursor file from a collection of PNG images
@@ -18550,11 +18550,11 @@ x11-apps/xditview 1.0.7: display ditroff output
 x11-apps/xdm 1.1.17: X.Org xdm application
 x11-apps/xdpyinfo 1.3.4 1.4.0: Display information utility for X
 x11-apps/xdriinfo 1.0.8: query configuration information of DRI drivers
-x11-apps/xedit 1.2.4 1.2.5: simple text editor for X
-x11-apps/xev 1.2.6 1.2.7: Print contents of X events
+x11-apps/xedit 1.2.5: simple text editor for X
+x11-apps/xev 1.2.7: Print contents of X events
 x11-apps/xeyes 1.3.1: X.Org xeyes application
 x11-apps/xfd 1.1.5: X.Org xfd application
-x11-apps/xfontsel 1.1.1 1.1.2: point and click selection of X11 font names
+x11-apps/xfontsel 1.1.2: point and click selection of X11 font names
 x11-apps/xgamma 1.0.8: Alter a monitor's gamma correction through the X server
 x11-apps/xgc 1.0.7: X graphics demo
 x11-apps/xhost 1.0.10: Controls host and/or user access to a running X server
@@ -18564,35 +18564,35 @@ x11-apps/xinput_calibrator 0.8.0: A generic touchscreen calibration program for 
 x11-apps/xisxwayland 2 9999: Tool to determine whether the X server in use is Xwayland
 x11-apps/xkbcomp 1.5.0-r2: XKB keyboard description compiler
 x11-apps/xkbevd 1.1.6: XKB event daemon
-x11-apps/xkbprint 1.0.7 1.0.8: Print an XKB keyboard description
-x11-apps/xkbutils 1.0.6 1.0.7: X.Org xkbutils application
+x11-apps/xkbprint 1.0.8: Print an XKB keyboard description
+x11-apps/xkbutils 1.0.7: X.Org xkbutils application
 x11-apps/xkill 1.0.7: kill a client by its X resource
-x11-apps/xload 1.2.0 1.2.1 1.2.2: system load average display for X
+x11-apps/xload 1.2.1 1.2.2: system load average display for X
 x11-apps/xlogo 1.0.7: X Window System logo
-x11-apps/xlsatoms 1.1.4 1.1.5: list interned atoms defined on server
-x11-apps/xlsclients 1.1.5 1.1.6: X.Org xlsclients application
-x11-apps/xlsfonts 1.0.8 1.0.9: X.Org xlsfonts application
+x11-apps/xlsatoms 1.1.5: list interned atoms defined on server
+x11-apps/xlsclients 1.1.6: X.Org xlsclients application
+x11-apps/xlsfonts 1.0.9: X.Org xlsfonts application
 x11-apps/xmag 1.0.8: X.Org xmag application
 x11-apps/xman 1.2.0: Manual page display program for the X Window System
 x11-apps/xmessage 1.0.7: display a message or query in a window (X-based /bin/echo)
-x11-apps/xmodmap 1.0.11 1.0.12: utility for modifying keymaps and pointer button mappings in X
+x11-apps/xmodmap 1.0.12: utility for modifying keymaps and pointer button mappings in X
 x11-apps/xmore 1.0.4: plain text display program for the X Window System
 x11-apps/xpr 1.2.0 1.2.1: X.Org xpr application
 x11-apps/xprop 1.2.8: property displayer for X
-x11-apps/xrandr 1.5.3 1.5.4: A primitive command line interface to RandR extension
-x11-apps/xrdb 1.2.2 1.2.3-r2: X server resource database utility
+x11-apps/xrandr 1.5.4: A primitive command line interface to RandR extension
+x11-apps/xrdb 1.2.3-r2: X server resource database utility
 x11-apps/xrectsel 0.3.2-r1: Print the geometry of a rectangular screen region
-x11-apps/xrefresh 1.1.0 1.1.1: refresh all or part of an X screen
+x11-apps/xrefresh 1.1.1: refresh all or part of an X screen
 x11-apps/xrestop 0.6: 'Top' like statistics of X11 client's server side resource usage
-x11-apps/xset 1.2.5 1.2.6: X.Org xset application
-x11-apps/xsetroot 1.1.3 1.1.4: X.Org xsetroot application
+x11-apps/xset 1.2.6: X.Org xset application
+x11-apps/xsetroot 1.1.4: X.Org xsetroot application
 x11-apps/xsm 1.0.6: X Session Manager
-x11-apps/xstdcmap 1.0.5 1.0.6: X standard colormap utility
+x11-apps/xstdcmap 1.0.6: X standard colormap utility
 x11-apps/xvidtune 1.0.4: video mode tuner for Xorg
-x11-apps/xvinfo 1.1.5 1.1.6: Print out X-Video extension adaptor information
-x11-apps/xwd 1.0.9 1.0.10: dump an image of an X window
-x11-apps/xwininfo 1.1.6 1.1.7: window information utility for X
-x11-apps/xwud 1.0.7 1.0.8: image displayer for X
+x11-apps/xvinfo 1.1.6: Print out X-Video extension adaptor information
+x11-apps/xwd 1.0.10: dump an image of an X window
+x11-apps/xwininfo 1.1.7: window information utility for X
+x11-apps/xwud 1.0.8: image displayer for X
 x11-base/xcb-proto 1.17.0: X C-language Bindings protocol headers
 x11-base/xorg-apps 3: X11 Applications (meta package)
 x11-base/xorg-drivers 21.1-r2 9999: Meta package containing deps on all xorg drivers
@@ -18661,9 +18661,9 @@ x11-libs/libXdamage 1.1.7: X.Org Xdamage library
 x11-libs/libXdmcp 1.1.5: X.Org X Display Manager Control Protocol library
 x11-libs/libXext 1.3.7: X.Org Xext library
 x11-libs/libXfixes 6.0.2: X.Org Xfixes library
-x11-libs/libXfont2 2.0.8 2.0.9: X.Org Xfont library
+x11-libs/libXfont2 2.0.9: X.Org Xfont library
 x11-libs/libXft 2.3.9: X.Org Xft library
-x11-libs/libXi 1.8.2 1.8.3: X.Org Xi library
+x11-libs/libXi 1.8.3: X.Org Xi library
 x11-libs/libXinerama 1.1.6: X.Org Xinerama library
 x11-libs/libXmu 1.3.1: X.Org Xmu library
 x11-libs/libXpm 3.5.19: X.Org Xpm library
@@ -18680,7 +18680,7 @@ x11-libs/libXxf86vm 1.1.7: X.Org Xxf86vm library
 x11-libs/libclxclient 3.9.2-r1: C++ wrapper library around the X Window System API
 x11-libs/libdlo 0.1.2-r2: A fully open source driver which supports all DisplayLink devices
 x11-libs/libdockapp 0.7.3: Window Maker Dock Applet Library
-x11-libs/libdrm 2.4.131 2.4.134 9999: X.Org libdrm library
+x11-libs/libdrm 2.4.134 9999: X.Org libdrm library
 x11-libs/libfakeXinerama 0.1.0: Fake library to override default libXinerama and expose custom screen dimensions
 x11-libs/libfakekey 0.3-r1: Helper library for the x11-misc/matchbox-keyboard package
 x11-libs/libfm 1.3.2-r1: Library for file management
@@ -18697,7 +18697,7 @@ x11-libs/libvdpau 1.5: VDPAU wrapper and trace libraries
 x11-libs/libwnck 43.2 43.3: A window navigation construction kit
 x11-libs/libxcb 1.17.0: X C-language Bindings library
 x11-libs/libxcvt 0.1.3 9999: X.Org xcvt library and cvt program
-x11-libs/libxkbcommon 1.13.1 1.13.2: Keymap handling library for toolkits and window systems
+x11-libs/libxkbcommon 1.13.2: Keymap handling library for toolkits and window systems
 x11-libs/libxkbfile 1.2.0: X.Org xkbfile library
 x11-libs/libxklavier 5.4-r1: A library for the X Keyboard Extension (high-level API)
 x11-libs/libxshmfence 1.3.3: Shared memory fences using futexes
@@ -18782,7 +18782,7 @@ x11-misc/ftmenu 0.4.0-r2: Tray menu for the Fluxbox toolbar
 x11-misc/gammastep 2.0.11 2.0.11-r1 2.0.11-r2: A screen color temperature adjusting software
 x11-misc/gbase 0.5-r2: A convert program for decimal, hexadecimal, octal and binary values
 x11-misc/gbdfed 1.6 1.6-r1: gbdfed Bitmap Font Editor
-x11-misc/gccmakedep 1.0.4 1.0.5: create dependencies in makefiles using 'gcc -M'
+x11-misc/gccmakedep 1.0.5: create dependencies in makefiles using 'gcc -M'
 x11-misc/genmenu 1.1.0-r2: menu generator for *box, WindowMaker, and Enlightenment
 x11-misc/gigolo 0.6.0-r1: A frontend to easily manage connections to remote filesystems using GIO/GVfs
 x11-misc/gmrun 1.4w-r1: A run utility featuring a slim design and bash style auto-completion
@@ -18923,7 +18923,7 @@ x11-misc/xautomation 1.09-r2: Control X from command line and find things on scr
 x11-misc/xbatt 1.3_rc1-r1: Notebook battery indicator for X
 x11-misc/xbattbar 1.4.9: Advanced Power Management battery status display for X
 x11-misc/xbindkeys 1.8.7-r100: Tool for launching commands on keystrokes
-x11-misc/xbitmaps 1.1.3 1.1.4: X.Org bitmaps data
+x11-misc/xbitmaps 1.1.4: X.Org bitmaps data
 x11-misc/xcalendar 4.0-r3: Simple interactive calendar program with a notebook capability
 x11-misc/xcalib 0.11: Tiny monitor calibration loader for X.org
 x11-misc/xcape 1.2-r1: Utility to make modifier keys send custom key events when pressed on their own
@@ -18953,7 +18953,7 @@ x11-misc/xidle 26052015-r1: Monitors inactivity in X and runs the specified prog
 x11-misc/xkbd 0.8.18 999999: onscreen soft keyboard for X11
 x11-misc/xkblayout-state 0_p20211106: Small program to get/set the current XKB layout
 x11-misc/xkbset 0.8: User preference utility for XKB extensions for X
-x11-misc/xkeyboard-config 2.47 2.48 9999: X keyboard configuration database
+x11-misc/xkeyboard-config 2.48 9999: X keyboard configuration database
 x11-misc/xkeycaps 2.47_p7: GUI frontend to xmodmap
 x11-misc/xlockmore 5.71: Just another screensaver application for X
 x11-misc/xmobar 0.44.1 0.46: A Minimalistic Text Based Status Bar
