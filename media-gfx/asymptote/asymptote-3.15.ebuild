@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 # latex-package does not support EAPI 9
 
 PYTHON_COMPAT=( python3_{11..14} )
@@ -68,7 +69,13 @@ PATCHES=(
 
 	# Bug #322473
 	"${FILESDIR}/${PN}-2.70-info.patch"
+
+	"${FILESDIR}/${PN}-tests.patch"
 )
+
+pkg_setup() {
+	python_setup
+}
 
 src_prepare() {
 	sed -e "s:Datadir/doc/asymptote:Datadir/doc/${PF}:" \
