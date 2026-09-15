@@ -2017,7 +2017,7 @@ app-emacs/dune-format 0.1: Reformat OCaml's dune files automatically
 app-emacs/dwarf-mode 2.40: Emacs mode to browse DWARF information
 app-emacs/earthfile-mode 0.1.0_p20230810: GNU Emacs major mode for editing Earthly Earthfiles
 app-emacs/ebib 2.51.1: BibTeX database manager for Emacs
-app-emacs/ebuild-mode 1.79 1.84: Emacs modes for editing ebuilds and other Gentoo specific files
+app-emacs/ebuild-mode 1.79 1.84 1.85: Emacs modes for editing ebuilds and other Gentoo specific files
 app-emacs/ebuild-run-mode 20221116: Major mode for Emacs buffers where ebuild commands run
 app-emacs/ecukes 0.6.18-r1: Cucumber for Emacs
 app-emacs/edb 1.34: EDB, The Emacs Database
@@ -3706,7 +3706,7 @@ app-xemacs/dictionary 1.18: Interface to RFC2229 dictionary servers
 app-xemacs/dired 1.22: Manage file systems
 app-xemacs/docbookide 0.10: DocBook editing support
 app-xemacs/easypg 1.05: GnuPG interface for Emacs
-app-xemacs/ebuild-mode 1.84: Emacs modes for editing ebuilds and other Gentoo specific files
+app-xemacs/ebuild-mode 1.84 1.85: Emacs modes for editing ebuilds and other Gentoo specific files
 app-xemacs/ecb 1.26: Emacs source code browser
 app-xemacs/ecrypto 0.23: Crypto functionality in Emacs Lisp
 app-xemacs/ede 1.07: Emacs Development Environment
@@ -4033,7 +4033,7 @@ dev-db/lmdb++ 1.0.0-r1: C++11 wrapper for the LMDB database library
 dev-db/m17n-db 1.8.12 1.8.14: Database for the m17n library
 dev-db/mariadb 10.6.23-r1 10.6.24-r1 10.6.27 10.11.14-r1 10.11.15-r1 10.11.18 11.4.8-r1 11.4.9-r1 11.8.3-r2 11.8.3-r5 11.8.5-r1 11.8.5-r2 11.8.6 12.0.2-r2 12.0.2-r3: An enhanced, drop-in replacement for MySQL
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
-dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.2.7-r1 3.2.8 3.2.9: MariaDB Connector/ODBC
+dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.2.8 3.2.9: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
 dev-db/mycli 2.3.0 2.9.0: CLI for MySQL Database with auto-completion and syntax highlighting
@@ -8690,7 +8690,7 @@ dev-python/google-auth-oauthlib 1.4.0 1.4.1: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
 dev-python/google-pasta 0.2.0-r2: AST-based Python refactoring library
 dev-python/googleapis-common-protos 1.75.0 1.75.1 1.75.2 1.75.3: Python classes generated from the common protos in the googleapis repository
-dev-python/gpep517 19 20 22: A backend script to aid installing Python packages in Gentoo
+dev-python/gpep517 20 22 23: A backend script to aid installing Python packages in Gentoo
 dev-python/gpgmepy 2.0.0-r1 2.0.0-r2: GnuPG Made Easy is a library for making GnuPG easier to use (Python bindings)
 dev-python/gpt-image 0.9.1: Tool to create GPT disk image files
 dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and statistical analysis of graphs
@@ -12816,7 +12816,7 @@ mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing 
 mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
 mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2 2.0.3 2.0.4 2.0.6 2.0.7: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
-mail-mta/exim 4.99.4 4.99.4-r1 4.99.5 4.100: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.99.5 4.100: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.32 1.8.33 1.8.34: An SMTP client and SMTP plugin for mail user agents such as Mutt
 mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, simple message transfer agent
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
@@ -14895,7 +14895,7 @@ net-fs/nfs4-acl-tools 0.3.7-r1 0.4.2 0.4.3_rc1: Commandline and GUI tools that d
 net-fs/openafs 1.8.13-r1 1.8.13-r2 1.8.13.1 1.8.13.1-r1 1.8.13.2 1.8.13.2-r1 1.8.14 1.8.15 1.8.16: The OpenAFS distributed file system
 net-fs/s3backer 2.1.3 2.1.6: A filesystem that contains a single file backed by Amazon S3
 net-fs/s3fs 1.95-r1 1.96: Amazon S3 mounting via fuse
-net-fs/samba 4.23.9 4.23.10 4.23.11 4.23.12 4.24.4 4.24.5 4.24.6 4.24.7: Samba Suite Version 4
+net-fs/samba 4.23.9 4.23.10 4.23.11 4.23.12 4.24.4 4.24.5 4.24.6 4.24.7 4.25.0_rc2: Samba Suite Version 4
 net-fs/smbnetfs 0.6.3: FUSE filesystem for SMB shares
 net-fs/sshfs 3.7.6: Fuse-filesystem utilizing the sftp service
 net-fs/wdfs 1.4.2-r4: WebDAV filesystem with special features for accessing subversion repositories
@@ -17408,7 +17408,7 @@ sys-apps/nvme-cli 2.16: NVM-Express user space tooling for Linux
 sys-apps/onerng 3.7-r1: Software for the Open Hardware Random Number Generator called OneRNG
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.12.3 3.12.4: Drivers and user-space daemon to control Razer devices on GNU/Linux
-sys-apps/openrc 0.63.1 0.63.3 9999: OpenRC manages the services, startup and shutdown of a host
+sys-apps/openrc 0.63.3 0.64 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/osinfo-db 20250606 20251212: Osinfo database for virtualization provisioning tools
 sys-apps/osinfo-db-tools 1.11.0-r1 1.12.0-r1: Tools for managing the osinfo database
 sys-apps/pandora_box 0.22.0 0.24.0: Syd's log inspector & profile writer
@@ -18056,9 +18056,9 @@ sys-libs/rpmatch-standalone 1.0-r1: Standalone rpmatch library for use with musl
 sys-libs/scallop 5.3.9.20251212-r1 9999: Fork of bash enabling integration into pkgcraft
 sys-libs/slang 2.3.3-r1 2.3.3-r2: Multi-platform library designed to allow a developer to create robust software
 sys-libs/snapd-glib 1.67-r1 1.70 1.72: glib library for communicating with snapd
-sys-libs/talloc 2.4.2 2.4.3 2.4.4: Samba talloc library
+sys-libs/talloc 2.4.2 2.4.3 2.4.4 2.5.0: Samba talloc library
 sys-libs/tdb 1.4.12 1.4.13 1.4.14 1.4.15: Simple database API
-sys-libs/tevent 0.16.1 0.16.2 0.17.1: Samba tevent library
+sys-libs/tevent 0.16.1 0.16.2 0.17.1 0.17.2: Samba tevent library
 sys-libs/timezone-data 2026a 2026b 2026c 2026d: Timezone data (/usr/share/zoneinfo) and utilities (tzselect/zic/zdump)
 sys-libs/uid_wrapper 1.3.2: Wrapper to fake privilege separation
 sys-libs/zlib 1.3.1-r1 1.3.2-r1: Standard (de)compression library
