@@ -935,7 +935,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.46.0 1.46.1 2.36.45: Universal Command Line Environment for AWS
+app-admin/awscli 1.46.0 1.46.1 2.36.45 2.36.46: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.12.0 2026.6.0 2026.7.0 2026.8.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.7.0 2026.8.0: Bitwarden password manager desktop client
@@ -5225,7 +5225,7 @@ dev-java/objenesis 3.4: A library for instantiating Java objects
 dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
-dev-java/openjdk 8.502_p07 8.504_p01 11.0.32_p9 11.0.32.1_p1 11.0.32.1_p1-r1 17.0.20_p8 17.0.20.1_p1 17.0.20.1_p1-r1 21.0.12_p8 21.0.12.1_p1 21.0.12.1_p1-r1 25.0.4_p7 25.0.4.1_p1 27_beta35 28_alpha13: Open source implementation of the Java programming language
+dev-java/openjdk 8.502_p07 8.504_p01 11.0.32_p9 11.0.32.1_p1 11.0.32.1_p1-r1 17.0.20_p8 17.0.20.1_p1 17.0.20.1_p1-r1 21.0.12_p8 21.0.12.1_p1 21.0.12.1_p1-r1 25.0.4_p7 25.0.4.1_p1 27_p35 28_alpha15: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.502_p07 8.504_p01 11.0.32_p9 11.0.32.1_p1 17.0.20_p8 17.0.20.1_p1 17.0.20.1_p1-r1 21.0.12_p8 21.0.12.1_p1 21.0.12.1_p1-r1 25.0.4_p7 25.0.4.1_p1 25.0.4.1_p1-r1 27_beta35 27_beta35-r1 28_alpha13 28_alpha13-r1: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.502_p07 8.504_p01 11.0.32_p9 11.0.32.1_p1 17.0.20_p8 17.0.20.1_p1 21.0.12_p8 21.0.12.1_p1 25.0.4_p7 25.0.4.1_p1: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
@@ -8853,7 +8853,7 @@ dev-python/jupyter-server-terminals 0.5.4: A Jupyter Server Extension Providing 
 dev-python/jupyterlab 4.5.10 4.6.3: JupyterLab computational environment
 dev-python/jupyterlab-lsp 5.1.0 5.3.0: Coding assistance for JupyterLab with Language Server Protocol
 dev-python/jupyterlab-pygments 0.3.0: Pygments theme making use of JupyterLab CSS variables
-dev-python/jupyterlab-server 2.28.0: Server components for JupyterLab and JupyterLab like applications
+dev-python/jupyterlab-server 2.28.0 2.28.1: Server components for JupyterLab and JupyterLab like applications
 dev-python/jupyterlab-widgets 3.0.16 3.0.17: Jupyter interactive widgets for JupyterLab
 dev-python/jwcrypto 1.5.8 1.5.9 1.6.0 1.6.1: Implements JWK,JWS,JWE specifications using python-cryptography
 dev-python/k5test 0.10.4: Library for testing Python applications in Kerberos 5 environments
@@ -11052,7 +11052,7 @@ dev-util/intel-graphics-compiler 2.37.1 2.41.5: LLVM-based OpenCL compiler for O
 dev-util/intel-graphics-compiler-bin 1.0.17791.9: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 1.3.1 1.3.2: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
-dev-util/intellij-idea 2026.2.2: A complete toolset for web, mobile and enterprise development
+dev-util/intellij-idea 2026.2.3: A complete toolset for web, mobile and enterprise development
 dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
 dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
 dev-util/itstool 2.0.7-r2 2.0.7_p20250326: Translation tool for XML documents that uses gettext files and ITS rules
@@ -13636,7 +13636,7 @@ media-libs/openh264 2.3.1-r3 2.6.0: Cisco OpenH264 library and Gecko Media Plugi
 media-libs/openimageio 2.5.18.0 2.5.19.0 2.5.19.1 3.0.6.1 3.0.8.1 3.0.8.1-r1 3.0.8.1-r2 3.0.11.0 3.1.7.0-r1 9999: A library for reading and writing images
 media-libs/openjpeg 2.5.4-r1: Open-source JPEG 2000 library
 media-libs/openpgl 0.5.0-r1 0.6.0 0.7.0: Intel Open Path Guiding Library
-media-libs/opensubdiv 3.6.0-r4 3.6.1-r1 3.7.0: An Open-Source subdivision surface library
+media-libs/opensubdiv 3.6.0-r4 3.6.1-r1: An Open-Source subdivision surface library
 media-libs/opentimelineio 0.17.0 0.18.1: Open Source API and interchange format for editorial timeline information
 media-libs/opus 1.5.2 1.6.1: Open codec for interactive speech and music transmission over the Internet
 media-libs/opusfile 0.12-r1: A high-level decoding and seeking API for .opus files
@@ -14891,7 +14891,7 @@ net-fs/ksmbd-tools 3.5.3 3.5.6: cifsd/ksmbd kernel server userspace utilities
 net-fs/libnfs 5.0.2 5.0.3 9999: Client library for accessing NFS shares over a network
 net-fs/mc 2025.07.21.05.28.08 2025.08.13.08.35.41: Minio client provides alternatives for ls, cat on cloud storage and filesystems
 net-fs/netatalk 3.1.18: Open Source AFP server
-net-fs/nfs-utils 2.6.4-r12 2.7.1-r1 2.8.5: NFS client and server daemons
+net-fs/nfs-utils 2.8.5: NFS client and server daemons
 net-fs/nfs4-acl-tools 0.3.7-r1 0.4.2 0.4.3_rc1: Commandline and GUI tools that deal directly with NFSv4 ACLs
 net-fs/openafs 1.8.13-r1 1.8.13-r2 1.8.13.1 1.8.13.1-r1 1.8.13.2 1.8.13.2-r1 1.8.14 1.8.15 1.8.16: The OpenAFS distributed file system
 net-fs/s3backer 2.1.3 2.1.6: A filesystem that contains a single file backed by Amazon S3
