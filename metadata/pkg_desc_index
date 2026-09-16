@@ -1391,7 +1391,7 @@ app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1: System container image bu
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
 app-containers/docker 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3-r1 29.5.2 29.7.2 29.8.0: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-bench-security 1.6.0 1.6.1: Test for best practices around deploying docker containers
-app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 0.21.2 0.34.1 0.35.0 0.36.1 0.37.0 9999: Docker CLI plugin for extended build capabilities with BuildKit
+app-containers/docker-buildx 0.11.2 0.14.0 0.19.1 0.20.1 0.21.2 0.34.1 0.35.0 0.36.1 0.37.0 0.37.1 9999: Docker CLI plugin for extended build capabilities with BuildKit
 app-containers/docker-cli 28.0.1 28.0.4 28.1.1 28.2.2 28.4.0 29.1.3 29.5.2 29.7.2 29.8.0: the command line binary for docker
 app-containers/docker-compose 2.34.0-r1 2.39.3 2.40.3 5.0.1-r2 5.1.4-r1 5.4.0 5.5.0 5.5.1: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.9.3 0.9.7 0.9.8 0.9.9: Suite of programs to use native stores to keep Docker credentials safe
@@ -1407,18 +1407,18 @@ app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 7.0.0 7.0.0-r1: A userspace interface for the Linux kernel containment features
 app-containers/lxc-templates 3.0.4_p20260719: Old style template scripts for LXC
-app-containers/lxd 5.21.1-r1 5.21.4 6.3 6.5: Modern, secure and powerful system container and virtual machine manager
+app-containers/lxd 5.21.1-r1 5.21.1-r2 5.21.4 5.21.4-r1 5.21.7 6.3 6.3-r1 6.5 6.5-r1 6.9: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.3.3 2.3.4 2.3.5: Docker-compatible CLI for containerd, with support for Compose
 app-containers/netavark 1.17.1 1.17.2 2.0.0 2.1.0 9999: A container network stack
-app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0 9999: NVIDIA container runtime toolkit
-app-containers/podman 5.7.1 5.8.2 5.8.5 5.8.6 6.0.0 6.0.1 6.0.2 6.1.0 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
+app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 9999: NVIDIA container runtime toolkit
+app-containers/podman 5.7.1 5.8.2 5.8.5 5.8.6 6.0.0 6.0.1 6.0.2 6.1.0 6.1.2 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 1.11.2 1.11.3 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
 app-containers/runc 1.3.6 1.4.2 1.4.3: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
-app-containers/skopeo 1.22.2 1.23.0-r1 1.24.0 9999: Work with remote container images registries
+app-containers/skopeo 1.22.2 1.23.0-r1 1.24.0 1.24.1 9999: Work with remote container images registries
 app-containers/slirp4netns 1.3.3 1.3.4 1.3.5: User-mode networking for unprivileged network namespaces
 app-containers/snapd 2.63: Service and tools for management of snap packages
 app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Software Bill of Materials from container images and filesystems
@@ -1887,7 +1887,7 @@ app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clo
 app-editors/vim 9.1.1652-r2 9999: Vim, an improved vi-style text editor
 app-editors/vim-core 9.1.1652-r3 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.136.1 1.137.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.137.0 1.138.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -2477,9 +2477,9 @@ app-eselect/eselect-blas 0.1 0.2 0.3: BLAS/CBLAS module for eselect
 app-eselect/eselect-cblas 0.1: C-language BLAS module for eselect
 app-eselect/eselect-cdparanoia 0.1-r1: Manage /usr/bin/cdparanoia symlink
 app-eselect/eselect-chuck 1.0.2-r1: Manages the /usr/bin/chuck symlink
-app-eselect/eselect-ctags 1.19: Manages ctags implementations
+app-eselect/eselect-ctags 1.19 1.20: Manages ctags implementations
 app-eselect/eselect-dotnet 1.0.1: Eselect module for management of multiple dotnet versions
-app-eselect/eselect-emacs 1.19: Manage multiple Emacs versions on one system
+app-eselect/eselect-emacs 1.19 1.20: Manage multiple Emacs versions on one system
 app-eselect/eselect-fontconfig 20220403: An eselect module to manage /etc/fonts/conf.d symlinks
 app-eselect/eselect-gnome-shell-extensions 20180306-r1: Manages system defaults for GNOME Shell extensions
 app-eselect/eselect-gradle 0.2-r1 9999: Manage multiple Gradle versions on one system
@@ -4031,8 +4031,8 @@ dev-db/litedb 5.0.17-r4 5.0.21: .NET NoSQL Document Store in a single data file
 dev-db/lmdb 0.9.35 0.9.36 1.0.1-r3: An ultra-fast, ultra-compact key-value embedded data store
 dev-db/lmdb++ 1.0.0-r1: C++11 wrapper for the LMDB database library
 dev-db/m17n-db 1.8.12 1.8.14: Database for the m17n library
-dev-db/mariadb 10.11.18 10.11.19 11.4.9-r1 11.4.13 11.8.5-r1 11.8.6 11.8.9 12.3.3: An enhanced, drop-in replacement for MySQL
-dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 9999: C client library for MariaDB/MySQL
+dev-db/mariadb 10.11.18 10.11.19 11.4.9-r1 11.4.13-r1 11.8.5-r1 11.8.6 11.8.9-r1 12.3.3-r1: An enhanced, drop-in replacement for MySQL
+dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 3.4.9 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.2.8 3.2.9: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
@@ -4121,7 +4121,7 @@ dev-debug/dtrace 2.0.7 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
 dev-debug/gdb 16.3 17.1 17.2 17.2-r1 9999: GNU debugger
 dev-debug/gef 2023.08 2025.01 2026.01 9999: GDB Enhanced Features for exploit devs & reversers
-dev-debug/gfxreconstruct 1.4.341.0 1.4.350.0 1.4.357.0 9999: Graphics API Capture and Replay Tools
+dev-debug/gfxreconstruct 1.4.350.0 1.4.357.0 9999: Graphics API Capture and Replay Tools
 dev-debug/gprofng-gui 2.0 2.1 2.2 9999: Full-fledged graphical interface to operate gprofng
 dev-debug/hotspot 1.5.1_p20250907-r1 1.6.0 9999: Linux perf GUI for performance analysis
 dev-debug/kdbg 3.1.0_p20250406 3.1.0_p20250406-r1 3.2.0: Graphical debugger interface
@@ -11018,7 +11018,7 @@ dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.88.2 2.88.3: Build utilities for GLib using projects
 dev-util/global 6.6.14 6.6.15: Tag system to find an object location in various sources
-dev-util/glslang 1.4.328.0-r1 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.4.350.0 1.4.357.0 9999: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/gnome-builder 49.1 50.0: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
@@ -11191,9 +11191,9 @@ dev-util/shunit2 2.1.8: Unit-test framework for Bourne-based shell scripts
 dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on Linux systems
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
-dev-util/spirv-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-headers 1.4.350.0 1.4.357.0 9999: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-llvm-translator 17.0.18 17.0.23 17.0.27 18.1.18 18.1.23 18.1.27 19.1.13 19.1.18 19.1.22 20.1.8 20.1.13 20.1.17 21.1.3 21.1.7 21.1.11 22.1.2 22.1.6 23.1.1 24.0.0_pre20260820: Bi-directional translator between SPIR-V and LLVM IR
-dev-util/spirv-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Provides an API and commands for processing SPIR-V modules
+dev-util/spirv-tools 1.4.350.0 1.4.357.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
 dev-util/squashmerge 0.1: dev-util/squashdelta delta merge tool
@@ -11226,9 +11226,9 @@ dev-util/visual-regexp 3.1: Type the regexp and visualize it on a sample of your
 dev-util/visualvm 2.2-r2: Integrates commandline JDK tools and profiling capabilities
 dev-util/vmtouch 1.3.1: Virtual Memory Toucher, portable file system cache diagnostics and control
 dev-util/vtable-dumper 1.2-r1: A tool to list content of virtual tables in a shared library
-dev-util/vulkan-headers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Share code across various Vulkan repositories
+dev-util/vulkan-headers 1.4.350.0 1.4.357.0 9999: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.350.0 1.4.357.0 9999: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.350.0 1.4.357.0 9999: Share code across various Vulkan repositories
 dev-util/wachy 0.1.0_alpha6-r2: A dynamic tracing profiler for Linux
 dev-util/wasm3 0.5.0 0.9.0: A fast WebAssembly interpreter and the most universal WASM runtime
 dev-util/watchman 2024.11.04.00 2025.04.14.00: A file watching service
@@ -13687,7 +13687,7 @@ media-libs/sdl3-ttf 3.2.2: Library that allows you to use TrueType fonts in SDL 
 media-libs/sdl_audiolib 0_p20220622-r1 9999: Audio decoding, resampling and mixing library for SDL
 media-libs/sg 1.5: Socket Graphics tool for displaying polygons
 media-libs/sge 030809-r1: Graphics extensions library for SDL
-media-libs/shaderc 2025.4 2025.5 2026.1 2026.2 2026.3: Collection of tools, libraries and tests for shader compilation
+media-libs/shaderc 2026.2 2026.3: Collection of tools, libraries and tests for shader compilation
 media-libs/simage 1.8.3-r1 1.8.4-r1 1.8.5 9999: Image and video texturing library
 media-libs/smpeg 0.4.4-r11 0.4.4-r12: SDL MPEG Player Library
 media-libs/smpeg2 2.0.0-r4: SDL MPEG Player Library
@@ -13724,8 +13724,8 @@ media-libs/vo-aacenc 0.1.3 9999: VisualOn AAC encoder library
 media-libs/vo-amrwbenc 0.1.3 9999: VisualOn AMR-WB encoder library
 media-libs/volpack 1.0_p7-r2: Volume rendering library
 media-libs/vpl-gpu-rt 26.2.0 26.2.1 26.2.3 26.2.4 26.3.2: Intel Video Processing Library GPU Runtime
-media-libs/vulkan-layers 1.4.328.0 1.4.335.0 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.328.0-r1 1.4.335.0-r1 1.4.341.0 1.4.350.0 1.4.357.0 9999: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-layers 1.4.350.0 1.4.357.0 9999: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.350.0 1.4.357.0 9999: Vulkan Installable Client Driver (ICD) Loader
 media-libs/waffle 1.8.3 9999: Library that allows selection of GL API and of window system at runtime
 media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 1.3-r5 2.1: AudioProcessing library from the webrtc.org codebase
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
@@ -14811,7 +14811,7 @@ net-dialup/speedtouch-usb 3.0.1.2-r4: Firmware and configuration instructions fo
 net-dialup/wvdial 1.61-r1: Excellent program to automatically configure PPP sessions
 net-dialup/xl2tpd 1.3.20-r1 1.3.20-r2: A modern version of the Layer 2 Tunneling Protocol (L2TP) daemon
 net-dns/avahi 0.9_rc2-r3 0.9_rc3: System which facilitates service discovery on a local network
-net-dns/bind 9.18.38 9.18.39 9.18.42 9.18.47 9.18.48 9.18.49 9.20.21 9.20.22 9.20.23 9.20.24 9.20.26 9.20.27: Berkeley Internet Name Domain - Name Server
+net-dns/bind 9.20.27 9.20.29: Berkeley Internet Name Domain - Name Server
 net-dns/bind-tools 9.18.0-r1: bind tools: dig, nslookup, host, nsupdate, dnssec-keygen
 net-dns/c-ares 1.34.6 1.34.8: C library that resolves names asynchronously
 net-dns/cares-tools 0.3 0.4: c-ares tools: host, nslookup
@@ -14855,7 +14855,7 @@ net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/s6-dns 2.4.1.0 2.4.1.1 2.4.1.2: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 48.2 48.4: A local DNS server returns the fastest access results
-net-dns/unbound 1.25.1 1.25.2 1.25.2-r1: A validating, recursive and caching DNS resolver
+net-dns/unbound 1.25.1 1.25.2 1.25.2-r1 1.26.1: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a-r1 2.1.2a-r1: Arno's iptables firewall script
@@ -15151,7 +15151,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -17965,7 +17965,7 @@ sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel scrip
 sys-kernel/kci-dev 0.1.10 0.1.11: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20260309 20260410 20260519 20260622 20260810 20260910 99999999: Linux firmware files
+sys-kernel/linux-firmware 20260309 20260410 20260519 20260622 20260810 20260910 20260916 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18 6.19 7.0 7.1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
@@ -18513,7 +18513,7 @@ www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
 www-servers/tomcat 9.0.120 9.0.121 9.0.122 10.1.57 10.1.59 10.1.60 11.0.24 11.0.25 11.0.26: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
-www-servers/vinyl-cache 8.0.1 8.0.2 9.0.0 9.0.1 9.0.1-r1: A high-performance caching HTTP reverse proxy
+www-servers/vinyl-cache 8.0.2 9.0.1 9.0.1-r1 9.0.2 9.1.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
 x11-apps/appres 1.0.7: list X application resource database
 x11-apps/bdftopcf 1.1.2: X.Org bdftopcf application
