@@ -4366,6 +4366,7 @@ media-libs/freeverb3:forcefpu - Disable assembly code
 media-libs/freeverb3:plugdouble - Build plugins in double precision mode (default is float)
 media-libs/ganv:fdgl - Use experimental force-directed graph layout
 media-libs/gegl:sdl2 - Add support for Simple Direct Layer 2.0 (media-libs/libsdl2)
+media-libs/gegl:sdl3 - Add support for Simple Direct Layer 3.0 (media-libs/libsdl3)
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
 media-libs/glew:egl-only - Enable EGL support and disable X11 support
 media-libs/glfw:wayland-only - Enable wayland support and disable X11 support
@@ -5772,6 +5773,7 @@ net-dns/dnsdist:doh3 - Enable support for dns over http3 via net-libs/quiche
 net-dns/dnsdist:ipcipher - Enable support for ipcipher via dev-libs/openssl
 net-dns/dnsdist:ipcrypt - Enable support for encryption/decryption of IP addresses via IPCrypt
 net-dns/dnsdist:lmdb - Enable support for lmdb
+net-dns/dnsdist:otlp - Enable support for OTLP logging
 net-dns/dnsdist:quic - Enable support for dns over quic via net-libs/quiche
 net-dns/dnsdist:regex - Enable support for regular expression matching via dev-libs/re2
 net-dns/dnsdist:ssl - Enable support for and encrypted client-server communication via dev-libs/libsodium
