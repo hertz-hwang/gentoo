@@ -935,7 +935,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.46.0 1.46.1 2.36.45 2.36.46: Universal Command Line Environment for AWS
+app-admin/awscli 1.46.0 1.46.1 2.36.45 2.36.46 2.36.47: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2025.12.0 2026.6.0 2026.7.0 2026.8.0: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.7.0 2026.8.0: Bitwarden password manager desktop client
@@ -3010,7 +3010,7 @@ app-misc/zisofs-tools 1.0.8-r1: User utilities for zisofs
 app-mobilephone/adebar 2.4.2: Android DEvice Backup And Report, using Bash and ADB
 app-mobilephone/anyremote 6.7.3: Bluetooth, infrared or cable remote control service
 app-mobilephone/dfu-util 0.11 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
-app-mobilephone/gammu 1.42.0-r1 1.44.0 1.44.1: A tool to handle your cellular phone
+app-mobilephone/gammu 1.44.0 1.44.1 1.45.0: A tool to handle your cellular phone
 app-mobilephone/gnokii 0.6.31-r5: User space driver and tools for use with mobile phones
 app-mobilephone/heimdall 2.2.2: Tool suite used to flash firmware onto Samsung devices
 app-mobilephone/scmxx 0.9.0-r1: Exchange data with Siemens phones
@@ -3147,7 +3147,7 @@ app-shells/ccsh 0.0.4-r5: UNIX Shell for people already familiar with the C lang
 app-shells/ctypes-sh 1.2_p20240626: Foreign function interface for bash
 app-shells/dash 0.5.12-r1 0.5.13.5 9999: Debian Almquist Shell
 app-shells/dsh 0.25.10-r2: Distributed Shell
-app-shells/fish 4.5.0-r2 4.6.0 4.7.1 4.8.1 4.9.2 9999: Friendly Interactive SHell
+app-shells/fish 4.5.0-r2 4.6.0 4.7.1 4.8.1 4.9.3 9999: Friendly Interactive SHell
 app-shells/fsh 1.0.0_p20220816-r2: F# Shell with integrated F# scripting
 app-shells/fzf 0.74.1 0.74.3: General-purpose command-line fuzzy finder, written in Golang
 app-shells/gash 0.3.0-r100: POSIX-compatible shell written in Guile Scheme
@@ -4271,7 +4271,7 @@ dev-games/physfs 3.2.0 9999: Abstraction layer for filesystem and archive access
 dev-games/ps2-packer 0.4.4-r1: Another ELF packer for the PS2
 dev-games/quake4-sdk 1.4.2-r1: Quake4 SDK
 dev-games/recastnavigation 1.6.0-r1: Navigation mesh construction toolset for games
-dev-games/simgear 2024.1.1 9999: Development library for simulation games
+dev-games/simgear 2024.1.1 2024.1.7 9999: Development library for simulation games
 dev-games/t4k-common 0.1.1-r4: Library of code shared between tuxmath and tuxtype
 dev-games/tiled 1.11.2_p20250614 1.12.0: A general purpose tile map editor
 dev-gap/aclib 1.4: Almost-crystallographic group library and algorithms for GAP
@@ -8292,7 +8292,7 @@ dev-python/aiorpcx 0.25.0: Generic async RPC implementation, including JSON-RPC
 dev-python/aiosignal 1.4.0: A list of registered asynchronous callbacks
 dev-python/aiosmtpd 1.4.6: Reimplementation of the Python stdlib smtpd.py based on asyncio
 dev-python/aiosqlite 0.22.1: asyncio bridge to the standard sqlite3 module
-dev-python/aiostream 0.7.2 0.8.0: Generator-based operators for asynchronous iteration
+dev-python/aiostream 0.8.0 0.8.1: Generator-based operators for asynchronous iteration
 dev-python/aiounittest 1.5.0-r1: Test asyncio code more easily
 dev-python/ajsonrpc 1.2.0: Async JSON-RPC 2.0 protocol + server powered by asyncio
 dev-python/alabaster 1.0.0: A configurable sidebar-enabled Sphinx theme
@@ -8393,13 +8393,13 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.0.0 2.1.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 26.1.0 26.2.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.72 1.43.78 1.43.83 1.43.89 1.43.93 1.43.94 1.43.95: The AWS SDK for Python
-dev-python/botocore 1.43.72 1.43.78 1.43.83 1.43.89 1.43.93 1.43.94 1.43.95: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.72 1.43.78 1.43.83 1.43.89 1.43.93 1.43.94 1.43.95 1.43.96: The AWS SDK for Python
+dev-python/botocore 1.43.72 1.43.78 1.43.83 1.43.89 1.43.93 1.43.94 1.43.95 1.43.96: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
 dev-python/bracex 2.6 2.7 3.0.1: Bash style brace expansion for Python
-dev-python/braintree 4.45.0 4.46.0: Braintree Python Library
+dev-python/braintree 4.46.0 4.47.0: Braintree Python Library
 dev-python/breathe 4.36.0: Sphinx Doxygen renderer
 dev-python/brotlicffi 1.2.0.1 1.2.0.2: Python binding to the Brotli library
 dev-python/btrfs 15: Python module to inspect btrfs filesystems
@@ -8408,7 +8408,7 @@ dev-python/build 1.5.1 1.6.0 1.6.1: A simple, correct PEP517 package builder
 dev-python/cachebox 6.2.6 6.2.7: The fastest memoizing and caching Python library written in Rust
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
 dev-python/cachelib 0.14.0 0.15.4 0.16.1 0.17.0: Collection of cache libraries in the same API interface. Extracted from werkzeug
-dev-python/cachetools 7.1.6 7.1.7 7.1.8: Extensible memoizing collections and decorators
+dev-python/cachetools 7.1.7 7.1.8 7.2.0: Extensible memoizing collections and decorators
 dev-python/cairocffi 1.7.1-r1: CFFI-based drop-in replacement for Pycairo
 dev-python/cangjie 1.5.0: Python wrapper for libcangjie
 dev-python/canonicaljson 2.0.0: Canonical JSON
@@ -8585,7 +8585,7 @@ dev-python/electrum-ecc 0.0.7 0.0.8: Pure python ctypes wrapper for libsecp256k1
 dev-python/elementpath 5.1.3 5.1.4: XPath 1.0/2.0 parsers and selectors for ElementTree and lxml
 dev-python/email-validator 2.3.0: A robust email syntax and deliverability validation library
 dev-python/emcee 3.1.6: Python ensemble sampling toolkit for affine-invariant MCMC
-dev-python/emoji 2.15.0: Emoji for Python
+dev-python/emoji 2.15.0 2.16.0: Emoji for Python
 dev-python/enrich 1.2.7-r1: Extend rich functionality
 dev-python/ensurepip-pip 26.1.2 26.2.1: Shared pip wheel for ensurepip Python module
 dev-python/ensurepip-setuptools 79.0.1 83.0.0 84.0.0: Shared setuptools wheel for ensurepip Python module
@@ -8648,8 +8648,8 @@ dev-python/flatbuffers 25.12.19: RFC 7049 - Concise Binary Object Representation
 dev-python/flatdict 4.1.0: Python module for interacting with nested dicts
 dev-python/fleep 1.0.1-r1 9999: File format determination library for Python
 dev-python/flexmock 0.13.0: Testing library to create mocks, stubs and fakes
-dev-python/flit 3.12.0 4.0.2: Simplified packaging of Python modules
-dev-python/flit-core 3.12.0 4.0.2: Simplified packaging of Python modules (core module)
+dev-python/flit 4.0.2 4.1.0: Simplified packaging of Python modules
+dev-python/flit-core 3.12.0 4.0.2 4.1.0: Simplified packaging of Python modules (core module)
 dev-python/flit-scm 1.7.0: A PEP 518 build backend combining flit with setuptools_scm
 dev-python/flufl-lock 9.1.0: NFS-safe file locking with timeouts for POSIX systems
 dev-python/fonttools 4.63.0-r1 4.64.0 4.65.0: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
@@ -8714,12 +8714,12 @@ dev-python/hatch-fancy-pypi-readme 25.1.0: Fancy PyPI READMEs with Hatch
 dev-python/hatch-jupyter-builder 0.9.1-r1: A hatch plugin to help build Jupyter packages
 dev-python/hatch-nodejs-version 0.4.0: Hatch plugin for versioning from a package.json file
 dev-python/hatch-vcs 0.5.0: Hatch plugin for versioning with your preferred VCS
-dev-python/hatchling 1.31.0 1.32.0: Modern, extensible Python build backend
+dev-python/hatchling 1.32.0: Modern, extensible Python build backend
 dev-python/hcloud 2.23.0 2.24.0: Official Hetzner Cloud python library
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.4.0 3.4.1: Python extension that wraps hiredis
-dev-python/hishel 1.3.0 1.3.1: An elegant HTTP Cache implementation for HTTPX and HTTP Core
+dev-python/hishel 1.3.1 1.4.0: An elegant HTTP Cache implementation for HTTPX and HTTP Core
 dev-python/housekeeping 1.1: Reusable deprecation helpers for Python projects
 dev-python/hpack 4.2.0: Pure-Python HPACK header compression
 dev-python/html2text 2025.4.15-r1: Turn HTML into equivalent Markdown-structured text
@@ -9123,7 +9123,7 @@ dev-python/pkg-resources 0 81.0.0: pkg_resources package split from old setuptoo
 dev-python/pkgconfig 1.5.5-r1: Interface Python with pkg-config
 dev-python/pkgcraft 0.0.11 9999: Python bindings for pkgcraft
 dev-python/pkginfo 1.12.1.2: Provides an API for querying the distutils metadata written in a PKG-INFO file
-dev-python/platformdirs 4.10.1 4.11.3 4.11.4 4.11.5 4.11.7 4.11.8: A small Python module for determining appropriate platform-specific dirs
+dev-python/platformdirs 4.11.3 4.11.4 4.11.5 4.11.7 4.11.8 4.11.9: A small Python module for determining appropriate platform-specific dirs
 dev-python/plotly 7.0.0 7.1.0: Browser-based graphing library for Python
 dev-python/plotly-geo 1.0.0-r2: Browser-based graphing library for Python
 dev-python/pluggy 1.6.0: Plugin and hook calling mechanisms for Python
@@ -9201,7 +9201,7 @@ dev-python/pycpio 1.7.0 9999: Python CPIO library
 dev-python/pycryptodome 3.23.0: A self-contained cryptographic library for Python
 dev-python/pycuda 2025.1.3-r1: Python wrapper for NVIDIA CUDA
 dev-python/pycups 2.0.4: Python bindings for the CUPS API
-dev-python/pycurl 7.45.7 7.46.0 7.47.0: Python bindings for curl/libcurl
+dev-python/pycurl 7.45.7 7.46.0 7.47.0 7.48.0: Python bindings for curl/libcurl
 dev-python/pycurl-requests 0.5.2: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.8-r3 7.2.1: Set of facilities to extend Python with C++
 dev-python/pydantic 2.13.4 2.13.5: Data parsing and validation using Python type hints
@@ -9234,7 +9234,7 @@ dev-python/pyglet 2.1.15 2.1.16: Cross-platform windowing and multimedia library
 dev-python/pygments 2.19.2 2.20.0 2.21.0: Pygments is a syntax highlighting package written in Python
 dev-python/pygments-github-lexers 0.0.5-r2: Pygments Github custom lexers
 dev-python/pygobject 3.50.1 3.50.2 3.56.3 3.58.0: Python bindings for GObject Introspection
-dev-python/pygraphviz 1.14-r2 2.0.1-r1: Python wrapper for the Graphviz Agraph data structure
+dev-python/pygraphviz 1.14-r2 2.0.1-r1 2.0.2: Python wrapper for the Graphviz Agraph data structure
 dev-python/pygresql 6.2.3: A Python interface for the PostgreSQL database
 dev-python/pyh2o 1-r1: Python API for sci-libs/libh2o
 dev-python/pyhamcrest 2.1.0: Hamcrest framework for matcher objects
@@ -9279,7 +9279,7 @@ dev-python/pyotp 2.9.0 2.10.0: PyOTP is a Python library for generating and veri
 dev-python/pyparsing 3.3.2: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.15.0 6.16.2 6.17.0 6.18.0 6.18.1: Python library to work with PDF files
+dev-python/pypdf 6.15.0 6.16.2 6.17.0 6.18.0 6.18.1 6.19.0: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2 0.18.1: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29 0.0.30: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9291,7 +9291,7 @@ dev-python/pyprof2calltree 1.4.5-r1: Convert python profile data to kcachegrind 
 dev-python/pyproj 3.7.2 3.8.0: Python interface to the PROJ library
 dev-python/pyproject-api 1.11.0 1.11.1: API to interact with the python pyproject.toml based projects
 dev-python/pyproject-fmt 2.21.2 2.26.0 2.27.1 2.28.2: Format your pyproject.toml file
-dev-python/pyproject-hooks 1.2.0 1.3.0: Wrappers to build Python packages using PEP 517 hooks
+dev-python/pyproject-hooks 1.2.0 1.3.0 1.3.3: Wrappers to build Python packages using PEP 517 hooks
 dev-python/pyproject-metadata 0.11.0 0.12.1: PEP 621 metadata parsing
 dev-python/pypugjs 6.0.3 7.0.0: Pug (Jade) syntax adapter for Django, Jinja2 and Mako templates
 dev-python/pypy-exe 7.3.23: PyPy executable (build from source)
@@ -9415,7 +9415,7 @@ dev-python/python-distutils-extra 2.47 3.3: Gettext support, themed icons and sc
 dev-python/python-dotenv 1.2.2 1.2.3: Manage .env files
 dev-python/python-editor 1.0.4-r2: Programmatically open an editor, capture the result
 dev-python/python-engineio 4.13.5 4.14.0: Python implementation of the Engine.IO realtime server
-dev-python/python-gammu 3.2.5 3.4.0 3.4.1: Python bindings for Gammu
+dev-python/python-gammu 3.4.1 3.5.0: Python bindings for Gammu
 dev-python/python-gflags 3.1.2-r2: Google's Python argument parsing library
 dev-python/python-glanceclient 4.12.0 4.13.0: A client for the OpenStack Glance API
 dev-python/python-gnupg 0.5.6: A Python wrapper for GnuPG
@@ -9423,7 +9423,7 @@ dev-python/python-ironicclient 6.2.0 6.3.0: Python bindings for the Ironic API
 dev-python/python-jose 3.5.0: A JavaScript Object Signing and Encryption (JOSE) implementation in Python
 dev-python/python-json-logger 4.1.0 4.2.0: Standard python logging to output log data as json objects
 dev-python/python-keystoneclient 5.8.0 6.0.0: Client Library for OpenStack Identity
-dev-python/python-ldap 3.4.7: Various LDAP-related Python modules
+dev-python/python-ldap 3.4.7 3.4.8: Various LDAP-related Python modules
 dev-python/python-linux-procfs 0.7.4: Python classes to extract information from the Linux kernel /proc files
 dev-python/python-lsp-black 2.0.0-r2: Black plugin for the Python LSP Server
 dev-python/python-lsp-jsonrpc 1.1.2: JSON RPC 2.0 server library
@@ -9655,7 +9655,7 @@ dev-python/sphinx-bootstrap-theme 0.8.1: Sphinx theme integrates the Bootstrap C
 dev-python/sphinx-celery 2.1.3: Celery Sphinx Theme and Utilities
 dev-python/sphinx-copybutton 0.5.2: A small sphinx extension to add a "copy" button to code blocks
 dev-python/sphinx-epytext 0.0.4-r2: Sphinx epytext extension
-dev-python/sphinx-gallery 0.21.0: Sphinx extension to automatically generate an examples gallery
+dev-python/sphinx-gallery 0.21.0 0.22.0: Sphinx extension to automatically generate an examples gallery
 dev-python/sphinx-inline-tabs 2023.4.21-r1 2025.12.21.14: A sphinx extension for inline tabs
 dev-python/sphinx-issues 6.0.0: Sphinx extension for linking to your project's issue tracker
 dev-python/sphinx-lv2-theme 1.4.6: Minimal pure-CSS Sphinx theme using the LV2 plugin documentation style
@@ -9845,7 +9845,7 @@ dev-python/validators 0.35.0: Python Data Validation for Humans
 dev-python/valkey 6.1.1: Python client for Valkey forked from redis-py
 dev-python/varlink 31.0.0: Python implementation of the Varlink protocol
 dev-python/vcrpy 8.1.1 8.3.0: Automatically mock your HTTP interactions to simplify and speed up testing
-dev-python/vcs-versioning 2.2.4 2.3.1 2.3.4 2.4.0: Core VCS versioning functionality from setuptools-scm
+dev-python/vcs-versioning 2.2.4 2.3.1 2.3.4 2.4.0 2.4.1: Core VCS versioning functionality from setuptools-scm
 dev-python/vcsgraph 0.3.2: Graph algorithms for version control systems
 dev-python/vdf 4.0: A module for (de)serialization to and from VDF, Valve's key-value text format
 dev-python/vdirsyncer 0.20.0 0.21.0: Synchronize calendars and contacts
@@ -10899,7 +10899,7 @@ dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.22.0 0.22.1 0.22.2: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20 0.10.21 0.10.22-r1 0.10.23 0.10.25: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
-dev-util/cargo-nextest 0.9.132 0.9.133 0.9.135 0.9.137 0.9.138 0.9.140 0.9.143: Next-generation test runner for Rust
+dev-util/cargo-nextest 0.9.138 0.9.140 0.9.143 0.9.144: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1 0.18.0: pgrx: A Rust framework for creating Postgres extensions
 dev-util/cargo-tarpaulin 0.35.0 0.35.1 0.35.2 0.37.0: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
@@ -11169,7 +11169,7 @@ dev-util/ruff 0.14.9 0.15.22 0.16.1 0.16.2 0.16.3 0.16.5 0.16.6 0.16.7: An extre
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 1.29.0 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
-dev-util/sccache 0.16.0 0.17.0: ccache/distcc like tool with support for rust and cloud storage
+dev-util/sccache 0.16.0 0.17.0 0.18.0: ccache/distcc like tool with support for rust and cloud storage
 dev-util/schroot 1.6.13_p7-r2: Utility to execute commands in a chroot environment
 dev-util/sdl-jstest 0.2.2 9999: Simple SDL joystick test application for the console
 dev-util/seer 2.6 2.7 9999: GUI frontend to gdb
@@ -11294,7 +11294,7 @@ dev-vcs/guilt 0.36-r1: A series of bash scripts which add a quilt-like interface
 dev-vcs/hg-evolve 11.1.9 11.1.10 12.0.0: enables the changeset evolution feature of Mercurial
 dev-vcs/hg-git 1.2.0-r1 1.2.0_p20260328: push to and pull from a Git repository using Mercurial
 dev-vcs/hub 2.14.2-r1: Command-line wrapper for git that makes you better at GitHub
-dev-vcs/jj 0.40.0 0.41.0 0.42.0 0.44.0 0.45.1: Jujutsu - an experimental version control system
+dev-vcs/jj 0.40.0 0.41.0 0.42.0 0.44.0 0.45.1 0.45.1-r1: Jujutsu - an experimental version control system
 dev-vcs/kdesvn 2.1.0_p20260608: Frontend to the subversion vcs
 dev-vcs/lab 0.25.1: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
 dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.4 9999: Scalable distributed SCM
@@ -11964,8 +11964,8 @@ games-simulation/EmptyEpsilon 2022.10.28: A spaceship bridge simulator game
 games-simulation/corsix-th 0.68.0 0.70.0-r2 0.70.0-r4 0.70.1 9999: Open source clone of Theme Hospital
 games-simulation/crashtest 1.1-r3: Educational car crash simulator
 games-simulation/crrcsim 0.9.13-r2: Model-airplane flight simulation program
-games-simulation/flightgear 2024.1.1 9999: Open Source Flight Simulator
-games-simulation/flightgear-data 2024.1.1 9999: FlightGear data files
+games-simulation/flightgear 2024.1.1 2024.1.7 9999: Open Source Flight Simulator
+games-simulation/flightgear-data 2024.1.1 2024.1.7 9999: FlightGear data files
 games-simulation/gl117 1.3.2-r1: Action flight simulator
 games-simulation/lincity 1.13.1-r4: City simulation game for X
 games-simulation/lincity-ng 2.9_beta-r1 2.13.1 9999: City simulation game
@@ -12764,7 +12764,7 @@ mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but ve
 mail-client/roundcube 1.6.11 1.6.19 1.7.4 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 140.15.0 153.2.0 155.0 155.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.15.0 153.2.0 155.0 155.0.1: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.15.0 140.16.0 153.2.0 153.3.0 155.0 155.0.1 156.0: Thunderbird Mail Client
 mail-client/thunderbird-l10n 153.2.0 155.0 155.0.1: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
@@ -12823,7 +12823,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16: qmail -- a secure, reliable, efficient, sim
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.7 3.12_pre20260915: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.7 3.12_pre20260916: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
@@ -16774,7 +16774,7 @@ sec-keys/openpgp-keys-leancrypto 20260116: OpenPGP key used to sign leancrypto r
 sec-keys/openpgp-keys-leiningen 20260128: OpenPGP keys used to sign Leiningen packages
 sec-keys/openpgp-keys-less 20260115: OpenPGP keys used by less
 sec-keys/openpgp-keys-libarchive 20251118: OpenPGP keys used by the libarchive project
-sec-keys/openpgp-keys-libass 20220515 20250608: OpenPGP keys used to sign libass releases
+sec-keys/openpgp-keys-libass 20220515 20250608 20260917: OpenPGP keys used to sign libass releases
 sec-keys/openpgp-keys-libevent 0 1: OpenPGP keys used by the libevent project
 sec-keys/openpgp-keys-libgssglue 20260127: OpenPGP keys used by net-libs/libgssglue
 sec-keys/openpgp-keys-libidn 20250414 20260617: OpenPGP keys used to sign libidn releases
@@ -17975,8 +17975,8 @@ sys-kernel/raspberrypi-image 6.1.21_p20230405 6.6.28_p20240424 6.6.31_p20240529 
 sys-kernel/raspberrypi-sources 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250916 6.12.75_p20260408 6.18.32_p20260521 6.18.32_p20260521-r1 6.18.46_p20260824-r1 6.18.48_p20260907: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15.185_p86 6.0.5_p14 6.1.134_p51 6.1.141_p52 6.5.2_p8 6.6.94_p56 6.12.28_p10: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/rumpkernel 0_pre20250111_p6 9999: NetBSD's rumpkernel for the Hurd
-sys-kernel/scx 1.1.0 1.1.1 1.1.2: sched_ext schedulers and tools
-sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2: DBUS on-demand loader of sched-ext schedulers
+sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3: sched_ext schedulers and tools
+sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.186 6.1.187 6.1.188 6.1.9999 6.6.155 6.6.156 6.6.157 6.6.9999 6.12.107 6.12.108 6.12.109 6.12.110 6.12.9999 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 6.18.9999 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Linux kernel built from vanilla upstream sources
@@ -18503,7 +18503,7 @@ www-servers/kore 4.3.0_rc4: Web application platform for writing scalable, concu
 www-servers/lighttpd 1.4.85 9999: Lightweight high-performance web server
 www-servers/mongrel2 1.11.0-r3: A language agnostic web server focused on web applications
 www-servers/moonbridge 1.1.3-r1: Network Server for Lua Applications
-www-servers/nginx 1.30.4-r1 1.31.3-r1 1.31.5 9999: Robust, small and high performance HTTP and reverse proxy server
+www-servers/nginx 1.30.4-r1 1.30.5 1.31.3-r1 1.31.6 9999: Robust, small and high performance HTTP and reverse proxy server
 www-servers/pound 4.22 4.23: A http/https reverse-proxy and load-balancer
 www-servers/pshs 0.4.3: Pretty small HTTP server -- a command-line tool to share files
 www-servers/puma 6.6.0 6.6.1 7.2.0 7.2.1: a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack
