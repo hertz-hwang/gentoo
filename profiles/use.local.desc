@@ -2074,6 +2074,7 @@ dev-libs/efl:xim - Enable X Input Method
 dev-libs/efl:xpresent - Enable x11-libs/libXpresent support
 dev-libs/elfutils:debuginfod - Enable debuginfod support, both the debuginfod server and the libdebuginfod client library
 dev-libs/elfutils:libarchive - Needed for debuginfod (the server) and also for --zip support in the eu-srcfiles utility. Requires app-arch/libarchive.
+dev-libs/elfutils:libpfm - Enable dev-libs/libpfm support for hardware performance counters with eu-stackprof.
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:stacktrace - Build experimental eu-stacktrace tool. Relies on integration with dev-util/sysprof. See https://developers.redhat.com/articles/2024/06/11/get-system-wide-profiles-binaries-without-frame-pointers.
 dev-libs/elfutils:utils - Install command-line utilities (all the eu-* programs).
@@ -4435,7 +4436,7 @@ media-libs/libcanberra:pulseaudio - Enables PulseAudio sound driver that should 
 media-libs/libcanberra:tdb - Enables Trivial Database support for caching purposes.
 media-libs/libde265:dec265 - Enable build of dec265 example program
 media-libs/libde265:enc265 - Enable build of enc265 tool
-media-libs/libde265:sdl - Enable video output of dec265 example program with media-libs/libsdl
+media-libs/libde265:sdl - Enable video output of dec265 example program with media-libs/libsdl2
 media-libs/libde265:tools - Enable installation of varous binary tools
 media-libs/libffado:test-programs - Install standalone test programs
 media-libs/libggi:3dfx - Enables support for Voodoo chipsets, also called 3DFX and TDFX
@@ -5398,7 +5399,6 @@ media-video/pipewire:gsettings - Use gsettings (dev-libs/glib) to read/save used
 media-video/pipewire:jack-client - Install a plugin for running PipeWire as a JACK client
 media-video/pipewire:jack-sdk - Use PipeWire as JACK replacement
 media-video/pipewire:libcamera - Enable libcamera plugin via media-libs/libcamera
-media-video/pipewire:liblc3 - Allow loading LC3 plugins via media-sound/liblc3
 media-video/pipewire:loudness - Enable loudness normalisation according to the EBU R128 standard using media-libs/libebur128
 media-video/pipewire:lv2 - Allow loading LV2 plugins via media-libs/lv2
 media-video/pipewire:modemmanager - Combined with USE=bluetooth, allows PipeWire to perform telephony on mobile devices.

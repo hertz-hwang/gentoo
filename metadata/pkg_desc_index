@@ -3045,7 +3045,7 @@ app-office/libreoffice 25.2.7.2-r1 9999: A full office productivity suite
 app-office/libreoffice-bin 25.8.4-r1: A full office productivity suite. Binary package
 app-office/libreoffice-l10n 25.2.7.2: Translations for the Libreoffice suite
 app-office/libreoffice-voikko 5.0-r1: Free Finnish spell checking and hyphenation for LibreOffice
-app-office/lyx 2.4.4 2.5.0 2.5.1 2.5.2: WYSIWYM (What You See Is What You Mean) document processor based on LaTeX
+app-office/lyx 2.5.2 2.5.3: WYSIWYM (What You See Is What You Mean) document processor based on LaTeX
 app-office/magicpoint 1.13a_p20121015-r2: X11 based presentation tool
 app-office/mdbtools 1.0.1: Set of libraries and utilities for reading Microsoft Access database (MDB) files
 app-office/merkuro 26.04.3-r1 26.08.1-r1: Calendar application using Akonadi
@@ -4003,7 +4003,7 @@ dev-cpp/websocketpp 0.8.2-r1: C++/Boost Asio based websocket client/server libra
 dev-cpp/xsimd 13.2.0 14.0.0 14.2.0 14.3.0: C++ wrappers for SIMD intrinsics
 dev-cpp/yaml-cpp 0.8.0-r2 0.9.0-r1: YAML parser and emitter in C++
 dev-db/apgdiff 2.7.0-r1: A simple PostgreSQL diff tool that is useful for schema upgrades
-dev-db/barman 3.15.0 3.16.1 3.17.0: Administration tool for disaster recovery of PostgreSQL servers
+dev-db/barman 3.15.0 3.16.1 3.17.0 3.20.0: Administration tool for disaster recovery of PostgreSQL servers
 dev-db/bucardo 5.4.1: An asynchronous PostgreSQL replication system
 dev-db/cdb 0.75-r4 0.75-r5: Fast, reliable, simple package for creating and reading constant databases
 dev-db/citus 12.1.14 13.4.0 14.0.1 14.1.0 14.2.0 9999: Open-source postgresql extension for clustering/multi-node setups
@@ -4087,7 +4087,7 @@ dev-db/qdbm 1.8.78-r5: Quick Database Manager
 dev-db/qt5-sqlcipher 1.1.0-r1: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
 dev-db/redict 7.3.6: A persistent caching system, key-value, and data structures database
-dev-db/redis 8.2.2 8.2.6 8.2.7 8.2.9 8.4.4 8.4.6 8.6.4 8.6.6 8.8.0 8.8.2 8.10.1: A persistent caching system, key-value, and data structures database
+dev-db/redis 8.2.2 8.2.6 8.2.7 8.2.9 8.2.10 8.4.4 8.4.6 8.4.7 8.6.4 8.6.6 8.6.7 8.8.0 8.8.2 8.8.3 8.10.1 8.10.2: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.5.0: PostgreSQL Replication Manager
 dev-db/rqlite 9.4.1: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
@@ -5546,7 +5546,7 @@ dev-libs/eb 4.4.3 4.4.3-r1: EB is a C library and utilities for accessing CD-ROM
 dev-libs/editline 2.1.0: line editing library for UNIX call compatible with the FSF readline
 dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
-dev-libs/elfutils 0.195 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+dev-libs/elfutils 0.195 0.196 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
 dev-libs/expat 2.8.3 2.8.4: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
@@ -5674,7 +5674,7 @@ dev-libs/libdivsufsort 2.0.1-r2 2.0.1-r3: Suffix-sorting library (for BWT)
 dev-libs/libdnet 1.18.0-r1 1.18.0-r2 1.18.0-r3 1.18.2: Simplified, portable interface to several low-level networking routines
 dev-libs/libdnsres 0.1a-r4 0.1a-r5: A non-blocking DNS resolver library
 dev-libs/libdshconfig 0.20.13: Library for parsing dsh.style configuration files
-dev-libs/libdwarf 2.2.0 2.3.0 2.3.1: Library intended to simplify reading (and writing) applications using DWARF
+dev-libs/libdwarf 2.3.1 2.3.2: Library intended to simplify reading (and writing) applications using DWARF
 dev-libs/libebml 1.4.5 1.4.5-r1 1.4.7: Extensible binary format library (kinda like XML)
 dev-libs/libedit 20240808.3.1: BSD replacement for libreadline
 dev-libs/libee 0.4.1-r1: An Event Expression Library inspired by CEE
@@ -5992,7 +5992,7 @@ dev-libs/tntnet 3.0: Modular, multithreaded web application server extensible wi
 dev-libs/tomsfastmath 0.13.1-r1: Fast public domain large integer arithmetic library
 dev-libs/totem-pl-parser 3.26.6-r2 3.26.7: Playlist parsing library
 dev-libs/tre 0.8.0_p20210321-r4 0.9.0-r1: Lightweight, robust, and efficient POSIX compliant regexp matching library
-dev-libs/tree-sitter 0.24.3 0.25.6 0.25.8 0.25.10 0.26.3 0.26.5 0.26.6 0.26.7 0.26.8 0.26.11 0.26.12 0.26.13 0.27.0 9999: Tree-sitter is a parser generator tool and an incremental parsing library
+dev-libs/tree-sitter 0.24.3 0.25.10 0.26.12 0.26.13 0.27.0 9999: Tree-sitter is a parser generator tool and an incremental parsing library
 dev-libs/tree-sitter-bash 0.21.0-r1 0.23.3 0.25.0 0.25.1: Bash grammar for Tree-sitter
 dev-libs/tree-sitter-c 0.23.3 0.23.4 0.23.5 0.24.1 0.24.2: C grammar for Tree-sitter
 dev-libs/tree-sitter-c-sharp 0.23.0 0.23.1 0.23.5: C# grammar for Tree-sitter
@@ -6652,7 +6652,7 @@ dev-perl/Convert-UU 0.520.100: Perl replacement for uuencode
 dev-perl/Convert-UUlib 1.800.0: decode uu/xx/b64/mime/yenc/etc-encoded data
 dev-perl/Cookie-Baker 0.120.0: Cookie string generator / parser
 dev-perl/Cookie-Baker-XS 0.120.0: Accelerate Cookie::Baker's crush_cookie
-dev-perl/Coro 6.570.0: The only real threads in perl
+dev-perl/Coro 6.570.0 6.570.0-r1: The only real threads in perl
 dev-perl/Cpanel-JSON-XS 4.410.0: cPanel fork of JSON::XS, fast and correct serializing
 dev-perl/Crypt-Argon2 0.032: Perl interface to the Argon2 key derivation functions
 dev-perl/Crypt-Blowfish 2.140.0-r2: Perl Blowfish encryption module
@@ -9782,7 +9782,7 @@ dev-python/traitlets 5.15.1 5.16.1: A configuration system for Python applicatio
 dev-python/trakit 0.3.0 0.4.0: Guess additional information from titles in media tracks
 dev-python/transitions 0.9.3: A lightweight, object-oriented state machine implementation in Python
 dev-python/translate-toolkit 3.19.17 3.19.18 3.19.19 3.20.0: Toolkit to convert between many translation formats
-dev-python/tree-sitter 0.25.2-r1 0.26.0 0.26.0_p20260816: Python bindings to the Tree-sitter parsing library
+dev-python/tree-sitter 0.25.2-r1 0.26.0 0.26.0_p20260816-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0 26.7.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 5.0.0 5.1.0: Python library for loading and using triangular meshes
 dev-python/trio 0.33.0 0.34.0: Python library for async concurrency and I/O
@@ -11211,7 +11211,7 @@ dev-util/tinlink 1.0.0-r2: Tool to create very small elf binary from pure binary
 dev-util/tkdiff 5.7 6.0: Graphical front end to the diff program
 dev-util/tmake 2.12-r2: Cross platform Makefile tool
 dev-util/trace-cmd 3.3.2 3.3.3 3.4: User-space front-end for Ftrace
-dev-util/tree-sitter-cli 0.24.3-r1 0.25.6 0.25.8 0.25.10 0.26.6 0.26.8 0.26.11 0.26.12 0.27.0: Command-line tool for creating and testing tree-sitter grammars
+dev-util/tree-sitter-cli 0.24.3-r1 0.25.10 0.26.12 0.27.0: Command-line tool for creating and testing tree-sitter grammars
 dev-util/treecc 0.3.10-r2 0.3.10-r3: Compiler-compiler tool for aspect-oriented programming
 dev-util/txt2regex 0.9: A Regular Expression wizard that converts human sentences to regexs
 dev-util/ty 0.0.7: An extremely fast Python type checker and language server, written in Rust
@@ -13454,7 +13454,7 @@ media-libs/libcue 2.3.0: CUE Sheet Parser Library
 media-libs/libcuefile 477-r3 477-r4: Cue File library from Musepack
 media-libs/libdc1394 2.2.6: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libdca 0.0.7-r1: Library for decoding DTS Coherent Acoustics streams used in DVD
-media-libs/libde265 1.0.15 1.0.16 9999: Open h.265 video codec implementation
+media-libs/libde265 1.0.16 1.1.3 9999: Open h.265 video codec implementation
 media-libs/libdiscid 0.6.4: Client library to create MusicBrainz enabled tagging applications
 media-libs/libdisplay-info 0.3.0 0.4.0: EDID and DisplayID library
 media-libs/libdmtx 0.7.8: Barcode data matrix reading and writing library
@@ -14481,7 +14481,7 @@ media-video/oxine 0.7.1-r6: OSD frontend for Xine
 media-video/parole 4.20.0: A simple Xfce4 media player using GStreamer
 media-video/peek 1.5.1-r2: Simple animated Gif screen recorder
 media-video/pgmfindclip 1.13: automatically find a clipping border for a sequence of pgm images
-media-video/pipewire 1.4.10 1.4.11 1.4.9999 1.6.4 1.6.4-r1 1.6.5 1.6.6 1.6.7 1.6.8 1.6.9999 9999: Multimedia processing graphs
+media-video/pipewire 1.6.8 1.6.9 1.6.9999 9999: Multimedia processing graphs
 media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
@@ -14527,7 +14527,7 @@ media-video/videotrans 1.6.1-r2: A package to convert movies to DVD format and t
 media-video/vlc 3.0.23-r1 3.0.9999 4.0.0_pre20260625 9999: Media player and framework with support for most multimedia files and streaming
 media-video/vobcopy 1.2.1: Copies DVD .vob files to harddisk, decrypting them on the way
 media-video/webcamoid 9.2.3 9999: Full featured webcam capture application
-media-video/wireplumber 0.5.13_p20260216 0.5.14 0.5.15 9999: Replacement for pipewire-media-session
+media-video/wireplumber 0.5.15 0.5.17 9999: Replacement for pipewire-media-session
 media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X264/AVC streams
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
@@ -14866,7 +14866,7 @@ net-firewall/conntrack-tools 1.4.8-r1 1.4.9: Connection tracking userspace tools
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
 net-firewall/firehol 3.1.8: iptables firewall generator
-net-firewall/firewalld 2.4.0 2.4.2 2.4.4 2.5.1: Firewall daemon with D-Bus interface providing a dynamic firewall
+net-firewall/firewalld 2.4.4 2.5.1 2.5.2: Firewall daemon with D-Bus interface providing a dynamic firewall
 net-firewall/fwbuilder 6.0.0_rc1_p20230723-r1: Firewall management GUI for iptables, PF, Cisco routers and more
 net-firewall/fwknop 2.6.11-r1: Single Packet Authorization and Port Knocking application
 net-firewall/ipkungfu 0.6.1-r2: A nice iptables firewall script
@@ -17768,7 +17768,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18345,7 +18345,7 @@ www-apps/dokuwiki 20260714c: DokuWiki is a simple to use Wiki aimed at a small c
 www-apps/drupal 10.5.12 10.6.11 11.2.14 11.3.12: PHP-based open-source platform and content management system
 www-apps/element 1.12.25 1.12.27: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.26.4 1.27.3: A painless self-hosted Git service
-www-apps/grafana-bin 12.1.8 12.2.6 12.3.4 12.4.0 12.4.3_p2 12.4.7 13.1.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
+www-apps/grafana-bin 12.1.10 12.2.10 12.3.11 12.4.0 12.4.3_p2 12.4.11 13.1.6 13.2.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site generator
 www-apps/hugo 0.147.7 0.148.2 0.163.3: Fast static HTML and CSS website generator
 www-apps/icingadb-web 1.2.2: UI for Icinga DB
@@ -18404,7 +18404,7 @@ www-apps/ttyd 1.7.7-r1 1.7.7-r2 9999: ttyd, a simple command-line tool for shari
 www-apps/vaultwarden-web 2026.1.1 2026.4.1 2026.6.4 2026.7.0: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
 www-apps/webmcp 2.2.1: Web application framework written in Lua and C
-www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.6 6.9.5 7.0.4 7.1: Wordpress PHP and MySQL based content management system (CMS)
+www-apps/wordpress 6.4.4 6.5.5 6.6.2 6.7.2 6.8.6 6.9.5 7.0.4 7.1.1: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
 www-client/chromium 150.0.7871.13 150.0.7871.128 150.0.7871.181 150.0.7871.186 151.0.7872.0 151.0.7922.108 151.0.7922.137 151.0.7922.169-r1: Open-source version of Google Chrome web browser
