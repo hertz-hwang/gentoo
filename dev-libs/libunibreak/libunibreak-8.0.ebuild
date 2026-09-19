@@ -10,7 +10,7 @@ SRC_URI="https://github.com/adah1972/libunibreak/releases/download/${PN}_${PV/./
 LICENSE="ZLIB"
 SLOT="0/$(ver_cut 1)"
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~x86"
-IUSE="doc +man static-libs test"
+IUSE="doc man static-libs test"
 RESTRICT="!test? ( test )"
 
 BDEPEND="
@@ -24,13 +24,10 @@ BDEPEND="
 src_prepare() {
 	default
 
+	# Clean this up + src_install if/when https://github.com/adah1972/libunibreak/pull/47
+	# is merged.
 	if use man; then
 		echo 'GENERATE_MAN=YES' >> Doxyfile || die
-	fi
-	if use doc; then
-		echo 'GENERATE_HTML=YES' >> Doxyfile || die
-	else
-		echo 'GENERATE_HTML=NO' >> Doxyfile || die
 	fi
 }
 
