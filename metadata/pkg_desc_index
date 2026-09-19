@@ -1839,6 +1839,7 @@ app-editors/ghostwriter 26.04.3 26.08.1: Cross-platform, aesthetic, distraction-
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
 app-editors/gvim 9.1.1652-r2 9.2.1119 9999: GUI version of the Vim text editor
+app-editors/gvim-classic 8.3.0 9999: GUI version of the Vim text editor
 app-editors/helix 25.07.1: A post-modern text editor
 app-editors/hexcurse 1.60.0: ncurses based hex editor
 app-editors/hexedit 1.6: View and edit files in hex or ASCII
@@ -1885,6 +1886,8 @@ app-editors/texworks 0.6.10 0.6.11: Simple interface for working with TeX docume
 app-editors/uemacs-pk 4.0.15_p20210330 4.0.15_p20260806: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/vim 9.1.1652-r2 9.2.1119 9999: Vim, an improved vi-style text editor
+app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
+app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
 app-editors/vim-core 9.1.1652-r3 9.2.1119 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.137.0 1.138.0: Multiplatform Visual Studio Code from Microsoft
@@ -3927,7 +3930,7 @@ dev-cpp/ctemplate 2.4: A simple but powerful template language for C++
 dev-cpp/curlpp 0.8.1-r1: C++ wrapper for libcURL
 dev-cpp/doctest 2.4.12 2.5.2 2.5.3: The fastest feature-rich C++11/14/17/20 single-header testing framework
 dev-cpp/edencommon 2023.06.19.00 2024.11.04.00 2025.04.14.00: Shared library for Watchman and Eden projects
-dev-cpp/eigen 3.4.0-r3 3.4.1 3.4.9999 5.0.1 5.0.9999 9999: C++ template library for linear algebra
+dev-cpp/eigen 3.4.0-r3 3.4.1-r1 3.4.9999 5.0.1 5.0.9999 9999: C++ template library for linear algebra
 dev-cpp/elfio 3.12: ELF reader/producer header-only C++ library
 dev-cpp/expected 1.1.0 1.3.1: Single header implementation of std::expected with functional-style extensions
 dev-cpp/expected-lite 0.8.0 0.9.0 0.10.0: Expected objects in C++11 and later in a single-file header-only library
@@ -5655,7 +5658,7 @@ dev-libs/libcbor 0.13.0: CBOR protocol implementation for C and others
 dev-libs/libcdada 0.6.1 0.6.4: Basic data structures in C
 dev-libs/libcdio 2.1.0-r2 2.2.0: A library to encapsulate CD-ROM reading and control
 dev-libs/libcdio-paranoia 2.0.1 2.0.2: Advanced CDDA reader with error correction
-dev-libs/libcec 7.1.1 8.1.6: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
+dev-libs/libcec 7.1.1 8.1.6 8.1.7: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libcgroup 3.1.0 3.2.0: Tools and libraries to configure and manage kernel control groups
 dev-libs/libclthreads 2.4.2: POSIX threads C++ access library
 dev-libs/libconfig 1.8.1 1.8.2: Libconfig is a simple library for manipulating structured configuration files
@@ -13071,7 +13074,7 @@ media-fonts/ubuntu-font-family 0.83-r1: Set of matching libre/open fonts funded 
 media-fonts/umeplus-fonts 20180604: Modified Ume and M+ fonts for Japanese
 media-fonts/unfonts 1.0.2_pre080608-r1: Korean Un fonts collection
 media-fonts/unfonts-extra 1.0.2_pre080608-r1: Korean Un fonts extras collection
-media-fonts/unifont 17.0.03 17.0.05: GNU Unifont - a Pan-Unicode X11 bitmap iso10646 font
+media-fonts/unifont 17.0.05 18.0.01: Unicode bitmap font with full Basic Multilingual Plane coverage
 media-fonts/urw-fonts 20230503-r1: (URW)++ base 35 font set
 media-fonts/urwvn-fonts 3.05: Vietnamese version of the standard PostScript fonts from URW++
 media-fonts/vdrsymbols-ttf 20100612 20100612-r1: Font that contains symbols needed for VDR
@@ -15668,7 +15671,7 @@ net-print/cnrdrvcups-lb 5.40-r1 5.40-r2 5.80-r1 5.80-r2: Canon UFR II / LIPSLX P
 net-print/cups 2.4.19 9999: The Common Unix Printing System
 net-print/cups-bjnp 2.0.3-r1: CUPS backend for canon printers using proprietary USB over IP BJNP protocol
 net-print/cups-browsed 2.1.1-r1: helper daemon to browse for remote CUPS queues and IPP network printers
-net-print/cups-filters 1.28.17-r2 2.0.1 2.0.1-r1: Cups filters
+net-print/cups-filters 1.28.17-r2 2.0.1 2.0.1-r1 9999: Cups filters
 net-print/cups-meta 2: Metapackage for a fully configured cups printer setup
 net-print/cups-pdf 3.0.3: Provides a virtual printer for CUPS to produce PDF files
 net-print/cups-pk-helper 0.2.7-r1: PolicyKit helper to configure cups with fine-grained privileges
@@ -15687,7 +15690,7 @@ net-print/hplip-plugin 3.26.4: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r2: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/lexmark-upd-ppd 1.0.0.20240321: Lexmark universal printer driver PPDs
-net-print/libcupsfilters 2.1.1-r1 2.2.1: library for developing printing features, split out of cups-filters
+net-print/libcupsfilters 2.1.1-r1 2.2.1 9999: library for developing printing features, split out of cups-filters
 net-print/libinklevel 0.9.3 0.9.7: A library to get the ink level of your printer
 net-print/libppd 2.1.1: Legacy library for PPD files, split out of cups-filters
 net-print/mtink 1.0.16-r2: mtink is a status monitor and inkjet cartridge changer for some Epson printers
@@ -16689,6 +16692,7 @@ sec-keys/openpgp-keys-craigsmall 20260203: OpenPGP key used by Craig Small
 sec-keys/openpgp-keys-crypto++ 20210416 20260703: OpenPGP keys used to sign crypto++ releases
 sec-keys/openpgp-keys-danielstenberg 20220330: OpenPGP keys used by Daniel Stenberg
 sec-keys/openpgp-keys-danielveillard 20210514: OpenPGP keys used by Daniel Veillard
+sec-keys/openpgp-keys-ddevault 20250219: Drew DeVault's PGP signing key
 sec-keys/openpgp-keys-dealii 20230904 20240811: OpenPGP keys used by dealii
 sec-keys/openpgp-keys-debugedit 20260311: OpenPGP key used to sign debugedit releases
 sec-keys/openpgp-keys-dehydrated 20230716: OpenPGP keys used by dehydrated
@@ -16844,6 +16848,7 @@ sec-keys/openpgp-keys-pam 20230330 20260122: OpenPGP keys used by the linux-pam 
 sec-keys/openpgp-keys-patch 20220407 20250206: OpenPGP keys used by GNU patch
 sec-keys/openpgp-keys-patrick96 20260816: OpenPGP keys used by Patrick Ziegler
 sec-keys/openpgp-keys-pauleggert 20260913: OpenPGP keys used by Paul Eggert
+sec-keys/openpgp-keys-paulhardy 20220319: OpenPGP keys used by Paul Hardy
 sec-keys/openpgp-keys-pevik 20260120: OpenPGP key used by Petr Vorel (pevik)
 sec-keys/openpgp-keys-philiphazel 20220416: OpenPGP keys used by Philip Hazel
 sec-keys/openpgp-keys-plexmediaserver 20240120: OpenPGP keys used by Plex Inc.
@@ -18135,7 +18140,7 @@ sys-process/iotop-c 1.27 1.29 1.30 1.31: top utility for IO (C port)
 sys-process/latencytop 0.5-r3: Tool for identifying where in the system latency is happening
 sys-process/lsof 4.99.6 4.99.7: Lists open files for running Unix processes
 sys-process/memwatch 0.3.3-r1: Interactive memory viewer
-sys-process/minicoredumper 2.0.7 2.0.8: Core dump file processor
+sys-process/minicoredumper 2.0.8 2.1.0: Core dump file processor
 sys-process/minit 0.10-r2: a small yet feature-complete init
 sys-process/nmon 16q: Nigel's performance MONitor for CPU, memory, network, disks, etc
 sys-process/numactl 2.0.19 9999: Utilities and libraries for NUMA systems
@@ -18175,7 +18180,7 @@ virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
 virtual/dist-kernel 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
-virtual/editor 0-r7: Virtual for editor
+virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
 virtual/fortran 0-r1: Virtual for Fortran Compiler
 virtual/freedesktop-icon-theme 0-r4: Virtual to choose between different icon themes
