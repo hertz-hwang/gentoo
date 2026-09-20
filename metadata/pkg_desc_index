@@ -11122,7 +11122,7 @@ dev-util/opencl-headers 2024.10.24 2025.07.22 2026.05.29: Unified C language hea
 dev-util/oprofile 1.4.0-r1: A transparent low-overhead system-wide profiler
 dev-util/ostree 2024.3-r2 2024.8-r1 2025.2 2025.6 2025.7: Operating system and container binary deployment and upgrades
 dev-util/packer 1.14.1 1.14.3 1.15.4 1.16.0: A tool to create identical machine images for multiple platforms
-dev-util/pahole 1.27-r1 1.29 1.30 1.31 9999: pahole (Poke-a-Hole) and other DWARF utilities
+dev-util/pahole 1.27-r1 1.29 1.30 1.31 1.32 9999: pahole (Poke-a-Hole) and other DWARF utilities
 dev-util/patchelf 0.17.2-r1 0.18.0 0.19.1: Small utility to modify the dynamic linker and RPATH of ELF executables
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
@@ -17525,7 +17525,7 @@ sys-apps/usermode-utilities 20070815-r6: Tools for use with Usermode Linux virtu
 sys-apps/uswid 0.4.7 0.6.0: Pure-Python library and CLI tool for processing SBoM metadata
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
 sys-apps/util-linux 2.41.5 2.42.2 2.42.3 9999: Various useful Linux utilities
-sys-apps/uutils-coreutils 0.7.0 0.8.0-r1 0.9.0 0.10.0 9999: GNU coreutils rewritten in Rust
+sys-apps/uutils-coreutils 0.7.0 0.8.0-r1 0.9.0 0.10.0 0.12.0 9999: GNU coreutils rewritten in Rust
 sys-apps/uutils-findutils 0.8.0 9999: GNU findutils rewritten in Rust
 sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. reinitialize video card)
 sys-apps/watchdog 5.16-r1: A software watchdog and /dev/watchdog daemon
