@@ -5413,9 +5413,9 @@ dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction 
 dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.33 8.3.26 8.3.29 8.3.31 8.3.33 8.4.25 8.5.10: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
-dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 3.11.7.3.23-r1: A fast, compliant alternative implementation of the Python (3.11) language
-dev-lang/pypy3-exe 3.11.7.3.23: PyPy3.11 executable (build from source)
-dev-lang/pypy3-exe-bin 3.11.7.3.23: PyPy3.11 executable (pre-built version)
+dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 3.11.7.3.23-r1 3.11.8.0.0: A fast, compliant alternative implementation of the Python (3.11) language
+dev-lang/pypy3-exe 3.11.7.3.23 3.11.8.0.0: PyPy3.11 executable (build from source)
+dev-lang/pypy3-exe-bin 3.11.7.3.23 3.11.8.0.0: PyPy3.11 executable (pre-built version)
 dev-lang/python 0.3.13.14 0.3.13.15 0.3.13.9999 0.3.14.6 0.3.14.6_p1 0.3.14.7 0.3.14.9999 0.3.15.0_beta2 0.3.15.0_beta3 0.3.15.0_beta4 0.3.15.0_rc1-r1 0.3.15.0_rc2 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.20 3.10.21 3.10.9999 3.11.15-r1 3.11.16 3.11.9999 3.12.13_p1 3.12.14 3.12.9999 3.13.14 3.13.15 3.13.9999 3.14.6 3.14.6_p1 3.14.7 3.14.9999 3.15.0_beta2 3.15.0_beta3 3.15.0_beta4 3.15.0_rc1 3.15.0_rc1_p1-r1 3.15.0_rc2 3.15.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
@@ -16566,7 +16566,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.34.1: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.34.2: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17810,7 +17810,7 @@ sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
 sys-firmware/edk2 202511-r1 202605 202608: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/edk2-bin 202202 202408 202411 202511 202605 202608: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.22: NXP i.MX firmware
-sys-firmware/intel-microcode 20260210_p20260211 20260227_p20260227 20260512_p20260513 20260811_p20260811 20260812_p20260813: Intel IA32/IA64 microcode update data
+sys-firmware/intel-microcode 20260512_p20260513 20260811_p20260811 20260812_p20260813: Intel IA32/IA64 microcode update data
 sys-firmware/ipw2100-firmware 1.3-r1: Firmware for the Intel PRO/Wireless 2100 3B miniPCI adapter
 sys-firmware/ipw2200-firmware 3.1-r1: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI and 2225BG PCI
 sys-firmware/ipxe 1.21.1 1.21.1_p20230601 1.21.1_p20230601-r1: Open source network boot (PXE) firmware
@@ -17965,11 +17965,11 @@ sys-kernel/dkms 3.3.0 3.4.3 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 6.1.188 6.6.157 6.12.109 6.12.110 6.18.50 6.18.52 7.2.6: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.188 6.6.157 6.12.109 6.12.110 6.18.50 6.18.52 7.2.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.188 6.6.157 6.12.109 6.12.110 6.18.50 6.18.52 7.2.6: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.188 6.6.157 6.12.109 6.12.110 6.18.50 6.18.51 6.18.52 7.2.4 7.2.5 7.2.6: Full sources including the Gentoo patchset for the 7.2 kernel tree
-sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel script from debianutils
@@ -17990,7 +17990,7 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.186 6.1.187 6.1.188 6.1.9999 6.6.155 6.6.156 6.6.157 6.6.9999 6.12.107 6.12.108 6.12.109 6.12.110 6.12.9999 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 6.18.9999 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 6.1.188 6.1.9999 6.6.157 6.6.9999 6.12.109 6.12.110 6.12.9999 6.18.50 6.18.52 6.18.9999 7.2.6: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.188 6.6.157 6.12.110 6.18.52 7.1.13 7.2.6: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.1.5: The Zen Kernel Live Sources
@@ -18180,7 +18180,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.186 6.1.187 6.1.188 6.6.155 6.6.156 6.6.157 6.12.107 6.12.108 6.12.109 6.12.110 6.18.48 6.18.49 6.18.50 6.18.51 6.18.52 7.1.12 7.1.13 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.188 6.6.157 6.12.109 6.12.110 6.18.50 6.18.52 7.2.6: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
