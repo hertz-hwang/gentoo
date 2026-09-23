@@ -2646,7 +2646,7 @@ app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomo
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240915: Kernel module to expose more Framework Laptop stuff
 app-laptop/framework-tool-tui 0.8.0 0.8.3 0.8.4 0.8.5: TUI for controlling and monitoring Framework Computers hardware built in Rust
-app-laptop/framework_tool 0.6.2 0.6.3 0.6.4 0.6.5: Tool to control Framework Computer systems
+app-laptop/framework_tool 0.6.2 0.6.3 0.6.4 0.6.5 0.6.6: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
 app-laptop/i8kutils 1.43: Dell Inspiron and Latitude utilities
@@ -10926,7 +10926,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.270: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.280: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1: A complete toolset for C and C++ development
@@ -17928,7 +17928,7 @@ sys-fs/multipath-tools 0.14.3: Device mapper target autoconfig
 sys-fs/ncdu 1.22 2.9.1 2.9.2: NCurses Disk Usage
 sys-fs/ncdu-bin 2.9.1: NCurses Disk Usage
 sys-fs/nilfs-utils 2.2.9: A New Implementation of a Log-structured File System for Linux
-sys-fs/ntfs3g 2026.2.25 2026.7.7: Open source read-write NTFS driver that runs under FUSE
+sys-fs/ntfs3g 2026.2.25 2026.7.7 2026.9.18: Open source read-write NTFS driver that runs under FUSE
 sys-fs/progsreiserfs 0.3.1_rc8-r1: Library for accessing and manipulating reiserfs partitions
 sys-fs/quota 4.09-r1 4.10 4.11: Linux quota tools
 sys-fs/quotatool 1.6.5: Command-line utility for filesystem quotas
