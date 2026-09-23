@@ -1012,7 +1012,7 @@ app-admin/keepassxc 2.8.0_pre20260504 2.8.0_pre20260629-r1: KeePassXC - KeePass 
 app-admin/kernel-hardening-checker 0.6.17.1: A tool for checking the security hardening options of the Linux kernel
 app-admin/killproc 2.13-r2: killproc and assorted tools for boot scripts
 app-admin/kio-admin 26.04.3 26.08.1: Manage files as administrator using the admin:// KIO protocol
-app-admin/kpcli 4.1 4.1.3: Command line interface to KeePass database files
+app-admin/kpcli 4.1 4.1.3 4.1.3-r1: Command line interface to KeePass database files
 app-admin/kube-bench 0.6.8: Kubernetes Bench for Security runs the CIS Kubernetes Benchmark
 app-admin/kubectx 0.9.5 0.11.0: Fast way to switch between clusters and namespaces in kubectl
 app-admin/lib_users 0.15-r2: Check for mapped libs and open files that are marked as deleted
@@ -3241,7 +3241,7 @@ app-text/code2html 0.9.1-r2: Converts source files to colored HTML output
 app-text/convertlit 1.8-r4: CLit converts MS ebook .lit files to .opf (xml+html+png+jpg)
 app-text/convmv 2.06: convert filenames to utf8 or any other charset
 app-text/cpdf 2.7.1 2.8.1: A command line tool for manipulating PDF files
-app-text/crengine-ng 0.9.13-r1: Cross-platform library designed to implement e-book readers
+app-text/crengine-ng 0.9.13-r1 0.9.13-r2: Cross-platform library designed to implement e-book readers
 app-text/crf++ 0.58-r1 0.58-r2: Yet Another CRF toolkit for segmenting/labelling sequential data
 app-text/crm114 20100106-r2: A powerful text processing tool, mainly used for spam filtering
 app-text/crqt-ng 1.0.15: Cross-platform e-book reader
@@ -3908,7 +3908,7 @@ dev-cpp/argparse 2.9 3.0 3.2: Argument Parser for Modern C++
 dev-cpp/asio 1.30.2 1.34.2 1.36.0 1.38.0: Asynchronous Network Library
 dev-cpp/atkmm 2.28.4 2.36.3: C++ interface for the ATK library
 dev-cpp/aws-crt-cpp 0.35.4 0.42.3 0.43.6 0.43.7: C++ wrapper around the aws-c-* libraries
-dev-cpp/aws-sdk-cpp 1.11.712 1.11.764: AWS SDK for C++
+dev-cpp/aws-sdk-cpp 1.11.712 1.11.764 1.11.887: AWS SDK for C++
 dev-cpp/azure-core 1.16.1 1.16.2 1.16.3: Azure SDK for C++
 dev-cpp/azure-identity 1.13.2 1.13.3: Azure SDK for C++
 dev-cpp/azure-security-keyvault-certificates 4.2.1: Azure SDK for C++
@@ -6982,7 +6982,9 @@ dev-perl/File-Flat 1.70.0-r1: Implements a flat filesystem
 dev-perl/File-Flock 2014.10.0-r2: flock() wrapper. Auto-create locks
 dev-perl/File-Grep 0.20.0-r3: Find matches to a pattern in a series of files and related functions
 dev-perl/File-HomeDir 1.6.0-r1: Get home directory for self or other user
+dev-perl/File-KDBX 0.906.0: Encrypted database to store secret text and files
 dev-perl/File-KeePass 2.30.0-r2: Interface to KeePass V1 and V2 database files
+dev-perl/File-KeePass-KDBX 0.902.0: Read and write KDBX files (using the File::KDBX backend)
 dev-perl/File-LibMagic 1.230.0-r1: Perl wrapper for libmagic
 dev-perl/File-Listing 6.160.0: Parse directory listings
 dev-perl/File-MMagic 1.300.0-r3: The Perl Image-Info Module
@@ -7200,6 +7202,7 @@ dev-perl/Importer 0.26.0: Alternative interface to modules that export symbols
 dev-perl/Inline 0.860.0 0.870.0: Write Perl subroutines in other languages
 dev-perl/Inline-C 0.820.0: C Language Support for Inline
 dev-perl/Inline-Files 0.710.0: Multiple virtual files in a single file
+dev-perl/Iterator-Simple 0.70.0: Simple iterator and utilities
 dev-perl/JSON 4.100.0: JSON (JavaScript Object Notation) encoder/decoder
 dev-perl/JSON-Any 1.400.0: Wrapper Class for the various JSON classes (DEPRECATED)
 dev-perl/JSON-MaybeXS 1.4.8: Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
@@ -7782,6 +7785,7 @@ dev-perl/Syntax-Highlight-Engine-Simple 0.102.0: Simple Syntax Highlight Engine
 dev-perl/Syntax-Highlight-Engine-Simple-Perl 0.60.0: Experimental Perl code highlighting class
 dev-perl/Syntax-Keyword-Junction 0.3.8-r2 0.3.9: Perl6 style Junction operators in Perl5
 dev-perl/Syntax-Keyword-Try 0.300.0 0.310.0: A try/catch/finally syntax for Perl
+dev-perl/Syntax-Operator-Equ 0.110.0: Equality operators that distinguish undef
 dev-perl/Sys-CPU 0.610.0-r2: Access CPU info. number, etc on Win and UNIX
 dev-perl/Sys-CpuLoad 0.310.0-r2 0.320.0: Module to retrieve system load averages
 dev-perl/Sys-Hostname-Long 1.500.0-r2: Try every conceivable way to get full hostname
@@ -12768,9 +12772,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.19 1.7.4 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.15.0 140.16.0 153.2.0 153.3.0 155.0 155.0.1 156.0: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.15.0 140.16.0 153.2.0 153.3.0 155.0 155.0.1 156.0: Thunderbird Mail Client
-mail-client/thunderbird-l10n 153.2.0 153.3.0 155.0 155.0.1 156.0: Thunderbird mail client's translation files
+mail-client/thunderbird 140.15.0 140.16.0 153.2.0 153.3.0 155.0 155.0.1 156.0 156.0.1: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.15.0 140.16.0 153.2.0 153.3.0 155.0 155.0.1 156.0 156.0.1: Thunderbird Mail Client
+mail-client/thunderbird-l10n 153.2.0 153.3.0 155.0 155.0.1 156.0 156.0.1: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -13223,13 +13227,13 @@ media-gfx/monica 3.7-r2: Monica is a Monitor Calibration Tool
 media-gfx/mscgen 0.20-r1: Message sequence chart generator
 media-gfx/mypaint 2.0.1-r7 2.0.1-r8: Fast and easy graphics application for digital painters
 media-gfx/mypaint-brushes 1.3.1 2.0.2-r2: Default MyPaint brushes
-media-gfx/netgen 6.2.2505 6.2.2604 6.2.2605 9999: Automatic 3d tetrahedral mesh generator
+media-gfx/netgen 6.2.2505 6.2.2604 6.2.2607 9999: Automatic 3d tetrahedral mesh generator
 media-gfx/nomacs 3.19.1-r1 3.21.0 3.21.1 3.22.0: Qt-based image viewer
 media-gfx/nvidia-cg-toolkit 3.1.0013-r6: NVIDIA's C graphics compiler toolkit
 media-gfx/openclipart 0.20: Open Clip Art Library (openclipart.org)
 media-gfx/opencsg 1.6.0-r1 1.8.1: The Constructive Solid Geometry rendering library
 media-gfx/openmesh 11.0.0: Generic data structure to represent and manipulate polygonal meshes
-media-gfx/openscad 2025.05.01_pre-r1 2026.08.19_pre 9999: The Programmers Solid 3D CAD Modeller
+media-gfx/openscad 2025.05.01_pre-r1 2026.09.18_pre 9999: The Programmers Solid 3D CAD Modeller
 media-gfx/openvdb 12.0.1: Library for the efficient manipulation of volumetric data
 media-gfx/optipng 0.7.8 7.9.1: Recompress PNG files to a smaller size without loss of information
 media-gfx/oxipng 8.0.0-r1 9.0.0-r1 9.1.2-r1 9.1.2-r2 9.1.3 9.1.4 10.0.0 10.1.0 10.1.1: Multithreaded lossless PNG compression optimizer written in Rust
@@ -14784,7 +14788,7 @@ net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup to
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
 net-analyzer/yersinia 0.8.2_p20221119: A framework for layer 2 attacks
-net-analyzer/zabbix 6.0.46 6.0.48 7.0.27 7.0.29 7.0.30 7.4.11 7.4.13 7.4.14: ZABBIX is software for monitoring of your applications, network and servers
+net-analyzer/zabbix 6.0.46 6.0.48 7.0.27 7.0.29 7.0.30 7.0.31 7.4.11 7.4.13 7.4.14: ZABBIX is software for monitoring of your applications, network and servers
 net-analyzer/zmap 4.3.2: Fast network scanner designed for Internet-wide network surveys
 net-analyzer/zniper 1.0-r3: Displays and kill active TCP connections seen by the selected interface
 net-dialup/accel-ppp 1.12.0_p20230609 1.14.0 1.14.0-r2 9999: High performance PPTP/L2TP/SSTP/PPPoE/IPoE server
@@ -16346,7 +16350,7 @@ sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix So
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r2 4.10.1: Scientific library and interface for array oriented data access
 sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r1: C++ library for netCDF
-sci-libs/netcdf-fortran 4.5.4 4.5.4-r1 4.6.1: Scientific library and interface for array oriented data access
+sci-libs/netcdf-fortran 4.5.4-r1 4.6.4: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3-r1: library for nonequispaced discrete Fourier transformations
 sci-libs/nlopt 2.7.1-r100 2.10.0-r1 2.10.1 2.11.0: Non-linear optimization library
 sci-libs/oc 2.0-r1: Network Data Access Protocol client C library
@@ -17420,7 +17424,7 @@ sys-apps/nvme-cli 2.16: NVM-Express user space tooling for Linux
 sys-apps/onerng 3.7-r1: Software for the Open Hardware Random Number Generator called OneRNG
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.12.3 3.12.4: Drivers and user-space daemon to control Razer devices on GNU/Linux
-sys-apps/openrc 0.63.3 0.64 9999: OpenRC manages the services, startup and shutdown of a host
+sys-apps/openrc 0.63.3 0.64 0.64.1 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/osinfo-db 20250606 20251212: Osinfo database for virtualization provisioning tools
 sys-apps/osinfo-db-tools 1.11.0-r1 1.12.0-r1: Tools for managing the osinfo database
 sys-apps/pandora_box 0.22.0 0.24.0: Syd's log inspector & profile writer
@@ -18414,7 +18418,7 @@ www-apps/ttyd 1.7.7-r1 1.7.7-r2 9999: ttyd, a simple command-line tool for shari
 www-apps/vaultwarden-web 2026.1.1 2026.4.1 2026.6.4 2026.7.0: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
 www-apps/webmcp 2.2.1: Web application framework written in Lua and C
-www-apps/wordpress 6.4.11 6.5.11 6.6.8 6.7.8 6.8.9 6.9.8 7.0.5 7.1.1: Wordpress PHP and MySQL based content management system (CMS)
+www-apps/wordpress 6.4.12 6.5.12 6.6.9 6.7.9 6.8.10 6.9.9 7.0.6 7.1.2: Wordpress PHP and MySQL based content management system (CMS)
 www-apps/xpra-html5 20: HTML5 client to connect to any xpra server
 www-apps/zeppelin-bin 0.11.2: Web-based interactive data analytics notebook launcher
 www-client/chromium 150.0.7871.13 150.0.7871.128 150.0.7871.181 150.0.7871.186 151.0.7872.0 151.0.7922.108 151.0.7922.137 151.0.7922.169-r1: Open-source version of Google Chrome web browser
@@ -18715,7 +18719,7 @@ x11-libs/libxkbcommon 1.13.2: Keymap handling library for toolkits and window sy
 x11-libs/libxkbfile 1.2.0: X.Org xkbfile library
 x11-libs/libxklavier 5.4-r1: A library for the X Keyboard Extension (high-level API)
 x11-libs/libxshmfence 1.3.3: Shared memory fences using futexes
-x11-libs/motif 2.3.8-r6 2.5.2 2.5.2-r2: The Motif user interface component toolkit
+x11-libs/motif 2.3.8-r6 2.5.2 2.5.2-r3: The Motif user interface component toolkit
 x11-libs/neXtaw 0.15.1-r5: Athena Widgets with N*XTSTEP appearance
 x11-libs/pango 1.57.1 1.58.2: Internationalized text layout and rendering library
 x11-libs/pixman 0.46.4 9999: Low-level pixel manipulation routines
@@ -19341,7 +19345,7 @@ x11-wm/openbox 3.6.1-r11 9999: Standards compliant, fast, light-weight, extensib
 x11-wm/oroborus 2.0.20-r2: Small and fast window manager
 x11-wm/page 1.9.10 1.9.10-r1: A mouse friendly tiling window manager
 x11-wm/pekwm 0.3.2 0.4.2: Lightweight window manager initially based on aewm++
-x11-wm/qtile 0.37.0 0.37.1: A full-featured, hackable tiling window manager written in Python
+x11-wm/qtile 0.37.0 0.37.1-r1: A full-featured, hackable tiling window manager written in Python
 x11-wm/ratpoison 1.4.9-r3 9999: window manager without mouse dependency
 x11-wm/selectwm 0.4.1-r2: window manager selector tool
 x11-wm/sithwm 1.2.3: Minimalist Window Manager for X
