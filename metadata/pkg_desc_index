@@ -2209,7 +2209,7 @@ app-emacs/no-littering 1.9.0 1.9.1: ELisp library that helps keeping Emacs confi
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.1: Add support for DocBook 5 schemas to NXML
 app-emacs/nxml-gentoo-schemas 20260901 20260922: Extension for nxml-mode with Gentoo-specific schemas
-app-emacs/nxml-libvirt-schemas 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0: Extension for nxml-mode with libvirt schemas
+app-emacs/nxml-libvirt-schemas 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 12.7.0: Extension for nxml-mode with libvirt schemas
 app-emacs/nxml-svg-schemas 1.1.20081123-r2: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.18.3: OAuth 2.0 authorization protocol
 app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
@@ -2421,7 +2421,7 @@ app-emulation/libdsk 1.5.21: Library for accessing discs and disc image files
 app-emulation/libguestfs 1.54.1-r1 1.56.2 1.58.1: Tools for accessing, inspecting, and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.54.0 1.56.0 1.58.1: VM appliance disk image used in libguestfs package
 app-emulation/libspectrum 1.6.0 1.6.1: Spectrum emulation library
-app-emulation/libvirt 11.10.0 12.0.0 12.1.0-r1 12.2.0 12.6.0 9999: C toolkit to manipulate virtual machines
+app-emulation/libvirt 11.10.0 12.0.0 12.1.0-r1 12.2.0 12.6.0 12.7.0 9999: C toolkit to manipulate virtual machines
 app-emulation/libvirt-glib 4.0.0-r1 5.0.0-r1: GLib and GObject mappings for libvirt
 app-emulation/nemu 3.3.0-r1 3.4.0: Ncurses interface for QEMU
 app-emulation/open-vm-tools 13.0.10-r1: Tools for VMware guests
@@ -5438,7 +5438,7 @@ dev-lang/spark 2024.01.11-r2: Software development for high-reliability applicat
 dev-lang/spidermonkey 115.24.0 128.14.0 140.11.0 140.12.0 140.13.0 140.14.0 140.16.0 153.1.0 153.2.0 153.3.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.2: Versatile implementation of the Prolog programming language
-dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1: Simplified Wrapper and Interface Generator
+dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1 4.5.1: Simplified Wrapper and Interface Generator
 dev-lang/tcc 0.9.27_p20211022 0.9.27_p20230223 0.9.27_p20250608 0.9.27_p20250608-r1 9999: A very small C compiler for ix86/amd64
 dev-lang/tcl 8.6.16 8.6.17 9.0.3-r2: Tool Command Language
 dev-lang/teyjus 2.1-r2: Higher-order logic programming language Lambda Prolog
@@ -5550,7 +5550,7 @@ dev-libs/eb 4.4.3 4.4.3-r1: EB is a C library and utilities for accessing CD-ROM
 dev-libs/editline 2.1.0: line editing library for UNIX call compatible with the FSF readline
 dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
-dev-libs/elfutils 0.195 0.196 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+dev-libs/elfutils 0.195 0.196-r1 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
 dev-libs/expat 2.8.4 2.8.5: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
@@ -7790,7 +7790,7 @@ dev-perl/Sys-Mmap 0.200.0: Uses mmap to map in a file as a Perl variable
 dev-perl/Sys-SigAction 0.230.0-r1 0.240.0: Perl extension for Consistent Signal Handling
 dev-perl/Sys-Statistics-Linux 0.660.0-r2: Collect linux system statistics
 dev-perl/Sys-Syscall 0.250.0-r3: Access system calls that Perl doesn't normally provide access to
-dev-perl/Sys-Virt 11.0.0 11.2.0 11.6.0 11.8.0 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0: API for using the libvirt library from Perl
+dev-perl/Sys-Virt 11.0.0 11.2.0 11.6.0 11.8.0 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 12.7.0: API for using the libvirt library from Perl
 dev-perl/Sysadm-Install 0.480.0-r1: Typical installation tasks for system administrators
 dev-perl/TAP-Parser-SourceHandler-pgTAP 3.360.0 3.370.0: Stream TAP from pgTAP test scripts
 dev-perl/Taint-Runtime 0.30.0-r2: Runtime enable taint checking
@@ -8901,7 +8901,7 @@ dev-python/librt 0.13.0 0.15.0: Mypyc runtime library
 dev-python/libsass 0.23.0-r1: A straightforward binding of libsass for Python
 dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0 0.60.0 0.61.0 0.62.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.4.0: Python ctype-based wrapper around libusb1
-dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 9999: libvirt Python bindings
+dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 12.7.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.4: Parse, compare, simplify and normalize license expressions
 dev-python/line-profiler 5.0.2: Line-by-line profiler
 dev-python/linkify-it-py 2.1.0 2.1.1 2.2.0: Links recognition library with full unicode support
@@ -10871,7 +10871,7 @@ dev-util/amtterm 1.6-r1: A nice tool to manage amt-enabled machines
 dev-util/android-sdk-cmdline-tools 0_p11076708-r1 0_p14742923: Open Handset Alliance's Android SDK
 dev-util/android-studio 2026.1.4.8: Android development environment based on IntelliJ IDEA
 dev-util/android-tools 35.0.2 36.0.1: Android platform tools (adb, fastboot, and mkbootimg)
-dev-util/android-udev-rules 20250525 20260423: Android udev rules list aimed to be the most comprehensive on the net
+dev-util/android-udev-rules 20260423 20260922: Android udev rules list aimed to be the most comprehensive on the net
 dev-util/anjuta 3.34.0-r3: Base library of defunct IDE for GNOME to run applications
 dev-util/archdiff 1.1.6-r1: Utility to view the differences between two source code archives
 dev-util/argouml 0.34-r1: Modelling tool that helps you do your design using UML
@@ -11182,7 +11182,7 @@ dev-util/sel 0.08.4-r2: A filemanager for shell scripts
 dev-util/selenium-manager 4.43.0 4.46.0 4.47.0 4.48.0 4.49.0: CLI tool that manages the browser/driver infrastructure required by Selenium
 dev-util/serialtalk 1.3 9999: simple command-line tool to talk to serial devices
 dev-util/sh 3.11.0: A shell parser, formatter, and interpreter with bash support
-dev-util/shader-slang 2026.16.1: Making it easier to work with shaders
+dev-util/shader-slang 2026.16.1 2026.18.2: Making it easier to work with shaders
 dev-util/shadowman 5: Unified compiler shadow link directory updater
 dev-util/shake 0.19.8: Build system library, like Make, but more accurate dependencies
 dev-util/shards 0.20.0: Dependency manager for the Crystal language
@@ -12839,7 +12839,7 @@ mate-base/mate 1.28.0: Meta ebuild for MATE, a traditional desktop environment
 mate-base/mate-applets 1.28.0-r1 1.28.1: Applets for the MATE Desktop and Panel
 mate-base/mate-applets-meta 1.28.0: Meta package for MATE panel applets
 mate-base/mate-common 1.28.0: Common files for development of MATE packages
-mate-base/mate-control-center 1.28.0-r2: The MATE Desktop configuration tool
+mate-base/mate-control-center 1.28.0-r3: The MATE Desktop configuration tool
 mate-base/mate-desktop 1.28.2: Libraries for the MATE desktop that are not part of the UI
 mate-base/mate-menus 1.28.0 1.28.0-r1: MATE menu system, implementing the F.D.O cross-desktop spec
 mate-base/mate-panel 1.28.1-r1 1.28.4-r1 1.28.7: The MATE panel
@@ -13493,7 +13493,7 @@ media-libs/libgphoto2 2.5.34-r1: Library that implements support for numerous di
 media-libs/libgpod 0.8.3-r9: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1 2.4.5 2.4.5-r1 2.4.6: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
-media-libs/libheif 1.20.2 1.21.2 1.23.1 1.23.4 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.20.2 1.21.2 1.23.1 1.23.4 1.23.5 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libicns 0.8.1-r1: A library for manipulating MacOS X .icns icon format
 media-libs/libid3tag 0.16.3 0.16.4: The MAD id3tag library, Tenacity fork
 media-libs/libiec61883 1.2.0-r2: Library for capturing video (dv or mpeg2) over the IEEE 1394 bus
@@ -15504,7 +15504,7 @@ net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
 net-misc/remmina 1.4.40-r2 1.4.40-r3 1.4.41 1.4.41-r1 1.4.42 1.4.43: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73-r1: redirects TCP connections from one IP address and port to another
-net-misc/rsync 3.4.4 3.5.0 9999: File transfer program to keep remote files into sync
+net-misc/rsync 3.4.4 3.5.0 3.5.1 9999: File transfer program to keep remote files into sync
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
@@ -17373,7 +17373,7 @@ sys-apps/kmod 33 34.2 9999: Library and tools for managing linux kernel modules
 sys-apps/kmscon 9.3.2 9.3.3 9.3.4 9.3.5 10.0.0 10.0.0-r1 10.0.1 10.0.2 10.0.3: KMS/DRM based virtual Console Emulator
 sys-apps/lcdsplash 0.3-r1: splash Gentoo boot information on LCD's
 sys-apps/lcdutils 0.2-r2: (Sun) Cobalt Qube/RaQ button reading and LCD writing utilities
-sys-apps/less 643-r2 668 679 685 691 692 702 704 9999: Excellent text file viewer
+sys-apps/less 704 710 9999: Excellent text file viewer
 sys-apps/likwid 5.2.1 5.2.2 5.5.1 5.5.2: A performance-oriented tool suite for x86 multicore environments
 sys-apps/linux-misc-apps 5.8-r1 6.16: Misc tools bundled with kernel sources
 sys-apps/lm-sensors 3.6.2: Hardware Monitoring user-space utilities
@@ -18615,7 +18615,7 @@ x11-base/xorg-proto 2025.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.24 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.13 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.173.02 580.178.04 595.44.15 595.84 595.91.07 595.99.02 610.57.04 615.71.09: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 595.44.15 595.99.02 595.104.02 610.57.04 615.71.09: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
@@ -19421,7 +19421,7 @@ xfce-extra/xfce4-verve-plugin 2.1.0: A comfortable command line plugin for the X
 xfce-extra/xfce4-volumed-pulse 0.3.0: Daemon to control volume up/down and mute keys for pulseaudio
 xfce-extra/xfce4-wavelan-plugin 0.7.0: A panel plug-in to display wireless interface statistics
 xfce-extra/xfce4-weather-plugin 0.12.0: A weather plug-in for the Xfce desktop environment
-xfce-extra/xfce4-whiskermenu-plugin 2.10.1: Alternate application launcher for Xfce
+xfce-extra/xfce4-whiskermenu-plugin 2.10.1-r1: Alternate application launcher for Xfce
 xfce-extra/xfce4-windowck-plugin 0.6.1: Panel plugin to put the maximized window title and window buttons on the panel
 xfce-extra/xfce4-xkb-plugin 0.9.0: XKB layout switching panel plug-in for the Xfce desktop environment
 xfce-extra/xfdashboard 1.1.0: Maybe a GNOME shell like dashboard for the Xfce desktop environment
