@@ -14870,7 +14870,7 @@ net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a-r1 2.1.2a-r1: Arno's iptables firewall script
 net-firewall/arptables 0.0.5-r2: Set up, maintain, and inspect the tables of ARP rules in the Linux kernel
-net-firewall/bpfilter 0.5.2 0.6.0: BPF-based packet filtering framework
+net-firewall/bpfilter 0.5.2 0.6.0 0.7.0: BPF-based packet filtering framework
 net-firewall/conntrack-tools 1.4.8-r1 1.4.9: Connection tracking userspace tools
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
@@ -15161,7 +15161,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 26.8.2-r2 26.9.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 26.8.2-r2 26.9.0 26.10.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -16570,7 +16570,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.34.2: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.34.3: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r3: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -16578,10 +16578,10 @@ sci-ml/safetensors 0.7.0 0.8.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
-sci-ml/tokenizers 0.22.1 0.22.2 0.23.1: Implementation of today's most used tokenizers
+sci-ml/tokenizers 0.22.1 0.22.2 0.23.1 0.23.2: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0-r1: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.27.0 0.28.0 0.29.0-r2: Datasets, transforms and models to specific to computer vision
-sci-ml/transformers 5.3.0-r1 5.15.1 5.16.1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-ml/transformers 5.3.0-r1 5.15.1 5.17.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
 sci-physics/espresso 4.2.2 9999: Extensible Simulation Package for Research on Soft matter
