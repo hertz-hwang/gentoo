@@ -4081,7 +4081,7 @@ dev-db/phpmyadmin 5.2.3: Web-based administration for MySQL and MariaDB database
 dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.10 3.4.6 3.5.2-r1 3.5.7 3.6.4 3.7.0_rc1: Geographic Objects for PostgreSQL
-dev-db/postgresql 14.24 15.19 16.15 17.11 18.6 19_beta3 9999: PostgreSQL RDBMS
+dev-db/postgresql 14.24 15.19 16.15 17.11 18.6 19_beta4 9999: PostgreSQL RDBMS
 dev-db/powa-archivist 5.3.0: PostgreSQL Workload Analyzer Archivist
 dev-db/powa-collector 1.3.2: PostgreSQL Workload Analyzer Collector
 dev-db/powa-web 5.1.5: PostgreSQL Workload Analyzer user interface
@@ -5435,7 +5435,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 115.24.0 128.14.0 140.11.0 140.12.0 140.13.0 140.14.0 140.16.0 153.1.0 153.2.0 153.3.0: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 128.14.0 140.11.0 140.16.0 153.3.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1 4.5.1: Simplified Wrapper and Interface Generator
@@ -5662,7 +5662,7 @@ dev-libs/libcec 7.1.1 8.1.6 8.1.7: Library for communicating with the Pulse-Eigh
 dev-libs/libcgroup 3.1.0 3.2.0: Tools and libraries to configure and manage kernel control groups
 dev-libs/libclthreads 2.4.2: POSIX threads C++ access library
 dev-libs/libconfig 1.8.1 1.8.2: Libconfig is a simple library for manipulating structured configuration files
-dev-libs/libcpuid 0.8.1: A small C library for x86 (and x86_64) CPU detection and feature extraction
+dev-libs/libcpuid 0.8.1 0.8.2: A small C library for x86 (and x86_64) CPU detection and feature extraction
 dev-libs/libcroco 0.6.13-r2: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
 dev-libs/libcss 0.9.2 9999: CSS parser and selection engine, written in C
 dev-libs/libdaemon 0.14-r4: Simple library for creating daemon processes in C
@@ -9946,7 +9946,7 @@ dev-python/zope-testing 6.1 6.2: Zope testing helpers
 dev-python/zstandard 0.25.0: Zstandard Bindings for Python
 dev-python/zxcvbn 4.5.0: Realistic password strength estimator
 dev-qt/qlementine 1.4.2: Modern QStyle for desktop Qt6 applications
-dev-qt/qt-creator 20.0.1 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qt-creator 20.0.1 20.0.2 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qt-docs 6.11.1_p202605090529 6.11.2_p202608131018: Qt6 documentation and examples for Qt Creator and other tools
 dev-qt/qt3d 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: 3D rendering module for the Qt6 framework
 dev-qt/qt5compat 6.11.1 6.11.2 6.11.9999 6.12.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
@@ -12001,7 +12001,7 @@ games-sports/trigger 0.6.1-r1: Free OpenGL rally car racing game
 games-sports/trophy 2.0.4-r1: 2D Racing Game
 games-sports/ultimatestunts 0.7.7-r3: Remake of the famous Stunts game
 games-sports/xmoto 0.6.3: A challenging 2D motocross platform game, where physics play an important role
-games-strategy/0ad 0.27.1 0.28.0 0.28.0-r1: A free, real-time strategy game
+games-strategy/0ad 0.28.0-r1: A free, real-time strategy game
 games-strategy/augustus 3.1.0: Feature-enhanced open source re-implementation of Caesar III
 games-strategy/colobot 0.2.2_alpha 9999: A real-time strategy game, where you can program your bots
 games-strategy/colobot-data 0.2.2_alpha: Data package for colobot (Colonize with Bots)
@@ -12035,7 +12035,7 @@ games-strategy/spaz 1.605-r1: Space Pirates and Zombies
 games-strategy/tornado 1.4-r3: Clone of a C64 game - destroy the opponent's house
 games-strategy/ufoai 2.5.0_p20180603-r4: UFO: Alien Invasion - X-COM inspired strategy game
 games-strategy/uqm 0.8.0: The Ur-Quan Masters: Port of Star Control 2
-games-strategy/vcmi 1.7.4: Open-source engine for Heroes of Might and Magic III
+games-strategy/vcmi 1.7.5: Open-source engine for Heroes of Might and Magic III
 games-strategy/war1gus 3.3.2: Warcraft: Orcs & Humans for the Stratagus game engine
 games-strategy/wargus 3.3.2: Warcraft II for the Stratagus game engine
 games-strategy/warmux 11.04.1-r3: A free Worms clone
@@ -15335,7 +15335,7 @@ net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
 net-misc/downloader-cli 0.3.4-r2: Simple downloader with an customizable progressbar
 net-misc/dropbear 2025.89 2026.94: Small SSH 2 client/server designed for small memory environments
-net-misc/dropbox 258.4.3749 260.4.2926 262.4.3183 264.4.3385 264.4.3421 266.4.3911 268.4.4124: Dropbox daemon (pretends to be GUI-less)
+net-misc/dropbox 258.4.3749 260.4.2926 262.4.3183 264.4.3385 264.4.3421 266.4.3911 268.4.4124 270.4.3312: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.8.0 4.8.1 4.8.2: User friendly Bitcoin client
@@ -17321,7 +17321,7 @@ sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag f
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
 sys-apps/flatpak 1.16.6 1.18.1: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
-sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.5 2.1.7: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.5 2.1.7 2.1.8: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
 sys-apps/gawk 5.3.2 5.4.1 5.4.1-r1 5.4.1a: GNU awk pattern-matching language
@@ -19169,9 +19169,9 @@ x11-terms/ghostty 1.1.3 1.2.3 1.3.0-r1 1.3.1: Fast, feature-rich, and cross-plat
 x11-terms/ghostty-terminfo 1.1.3 1.2.3 1.3.0 1.3.1: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
 x11-terms/gnome-terminal 3.56.3 3.58.0: A terminal emulator for GNOME
 x11-terms/guake 3.10 3.10.1: Drop-down terminal for GNOME
-x11-terms/kitty 0.48.2 0.49.0 9999: Fast, feature-rich, GPU-based terminal
-x11-terms/kitty-shell-integration 0.48.2 0.49.0 9999: Shell integration scripts for kitty, a GPU-based terminal emulator
-x11-terms/kitty-terminfo 0.48.2 0.49.0 9999: Terminfo for kitty, a GPU-based terminal emulator
+x11-terms/kitty 0.48.2 0.49.0 0.49.1 9999: Fast, feature-rich, GPU-based terminal
+x11-terms/kitty-shell-integration 0.48.2 0.49.0 0.49.1 9999: Shell integration scripts for kitty, a GPU-based terminal emulator
+x11-terms/kitty-terminfo 0.48.2 0.49.0 0.49.1 9999: Terminfo for kitty, a GPU-based terminal emulator
 x11-terms/kterm 6.2.0-r7: Japanese Kanji X Terminal
 x11-terms/mate-terminal 1.28.1: The MATE Terminal
 x11-terms/mlterm 3.9.4 3.9.5: A multi-lingual terminal emulator

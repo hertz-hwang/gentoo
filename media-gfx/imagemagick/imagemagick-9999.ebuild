@@ -139,9 +139,6 @@ src_configure() {
 
 	[[ ${CHOST} == *-solaris* ]] && append-ldflags -lnsl -lsocket
 
-	# Workaround for bug #941208 (gcc PR117100)
-	tc-is-gcc && [[ $(gcc-major-version) == 13 ]] && append-flags -fno-unswitch-loops
-
 	local myeconfargs=(
 		$(use_enable static-libs static)
 		$(use_enable hdri)
@@ -220,6 +217,7 @@ src_test() {
 	cp "${S}"/config/policy{-open,}.xml || die
 	cp "${FILESDIR}"/policy.test.xml "${XDG_CONFIG_HOME}"/ImageMagick/policy.xml || die
 
+	local ret=0
 	(
 		# Make sure we use the just-built IM
 		. "${S}"/magick.sh
