@@ -37,6 +37,34 @@
 #--- END OF EXAMPLES ---
 
 # Sam James <sam@gentoo.org> (2026-09-24)
+# Increasingly challenging to maintain with increased release cadence,
+# upstream toolchain changes, and conflicts between trying to provide
+# a consistent experience for Gentoo users (avoiding bundled where possible)
+# vs. getting updates out in a timely manner.  Many unfixed vulnerabilities.
+#
+# Keeping it in ::gentoo isn't a matter of just supplying an updated ebuild,
+# but a commitment to keeping it up to date and finding a compromise between
+# users' expectations (like various USE flags & not forcing all bundled
+# components) and maintainability.
+#
+# Still supported packages include:
+#   www-client/google-chrome variants
+# Other chromium-based browsers:
+#   www-client/microsoft-edge
+#   www-client/opera
+#   www-client/vivaldi
+# qtwebengine-based browsers (uses chromium's engine):
+#   kde-apps/konqueror
+#   www-client/falkon
+#   www-client/qutebrowser
+# Other browsers:
+#   www-client/firefox and www-client/firefox-bin
+#   www-client/seamonkey
+#
+# Removal on 2026-10-24.  Bug #982204.
+www-client/chromium
+
+# Sam James <sam@gentoo.org> (2026-09-24)
 # ImageMagick 6 only receives security fixes now upstream and already
 # suffers serious bugs. EOL announcement:
 # https://github-stories.com/2026/imagemagick-6-end-of-life-announcement/
