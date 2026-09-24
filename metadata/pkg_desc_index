@@ -1894,7 +1894,7 @@ app-editors/vscode 1.138.0 1.139.0: Multiplatform Visual Studio Code from Micros
 app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
-app-editors/xemacs 21.5.36-r6 21.5.9999: highly customizable open source text editor and application development system
+app-editors/xemacs 21.5.36-r6 21.5.37 21.5.9999: highly customizable open source text editor and application development system
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
@@ -1974,11 +1974,11 @@ app-emacs/company-ebuild 0.1.4 9999: Company backend for editing Ebuild files
 app-emacs/company-math 1.5.1: Completion back-ends for for math unicode symbols and latex tags
 app-emacs/company-mode 1.0.2 1.1.0: In-buffer completion front-end
 app-emacs/company-quickhelp 2.3.0: Company documentation popups for completion candidates
-app-emacs/compat 31.0.0.1 31.0.0.2: Compatibility libraries for Emacs
+app-emacs/compat 31.0.0.1 31.0.0.2 31.1.0.0: Compatibility libraries for Emacs
 app-emacs/cond-let 1.1.3 1.1.4: Additional and improved binding conditionals for GNU Emacs
-app-emacs/consult 3.7 3.8 9999: Consulting complete-read for GNU Emacs
+app-emacs/consult 3.7 3.8 3.9 9999: Consulting complete-read for GNU Emacs
 app-emacs/consult-flycheck 1.2: Consult integration for Flycheck
-app-emacs/corfu 2.13 2.14 2.15 9999: Completion Overlay Region FUnction
+app-emacs/corfu 2.13 2.14 2.15 2.16 9999: Completion Overlay Region FUnction
 app-emacs/counsel 0.15.1: Versions of common Emacs commands customized to make the best use of ivy
 app-emacs/crontab-mode 1.20: Mode for editing crontab files
 app-emacs/crux 0.4.0 0.5.0: Collection of Ridiculously Useful eXtensions for GNU Emacs
@@ -2175,7 +2175,7 @@ app-emacs/lyskom-elisp-client 0.48_p20200226: Elisp client for the LysKOM confer
 app-emacs/m-buffer 0.16.1: List Oriented Buffer Operations for Emacs
 app-emacs/macrostep 0.9.5: Interactive macro-expander for Emacs
 app-emacs/macrostep-geiser 0.2.0_p20210717: Emacs macrostep back-end powered by geiser
-app-emacs/magit 4.7.0 9999: A Git porcelain inside Emacs
+app-emacs/magit 4.7.0 4.7.1 9999: A Git porcelain inside Emacs
 app-emacs/magit-popup 2.13.3-r1: Define prefix-infix-suffix command combos
 app-emacs/mailcrypt 3.5.9-r3: Provides a simple interface to public key cryptography with OpenPGP
 app-emacs/marginalia 2.11 2.12: Marginalia in the minibuffer
@@ -2223,7 +2223,7 @@ app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's 
 app-emacs/org-superstar-mode 1.6.0: Prettify headings and plain lists in Org mode (use UTF8 bullets)
 app-emacs/osm 2.5 9999: OpenStreetMap tile-based viewer for GNU Emacs
 app-emacs/outline-magic 0.9: Outline mode extensions for Emacs
-app-emacs/package-build 5.0.1 5.0.2: Tools for assembling a package archive
+app-emacs/package-build 5.0.1 5.0.2 5.0.3: Tools for assembling a package archive
 app-emacs/package-lint 0.26: Linting library for Emacs Lisp package metadata
 app-emacs/pandoc-mode 2.35 2.90.2: GNU Emacs minor mode for interacting with Pandoc
 app-emacs/paredit 26-r2: Minor mode for performing structured editing of S-expressions
@@ -2346,7 +2346,7 @@ app-emacs/undo-tree 0.8.2-r1: Undo trees and visualization
 app-emacs/unison-ts-mode 0.3.0: GNU Emacs major mode for the Unison language that uses Tree-sitter
 app-emacs/uptimes 3.8: Track and display emacs session uptimes
 app-emacs/uxntal-mode 0.3: GNU Emacs major mode for the uxntal assembly language
-app-emacs/vertico 2.12 2.13 2.14 9999: Vertical interactive completion
+app-emacs/vertico 2.12 2.13 2.14 2.15 9999: Vertical interactive completion
 app-emacs/vhdl-mode 3.39.3: VHDL-mode for Emacs
 app-emacs/visual-basic-mode 1.5-r1: A mode for editing Visual Basic programs
 app-emacs/visual-fill-column 2.7.1: GNU Emacs mode for wrapping visual-line-mode buffers at fill-column
@@ -4113,7 +4113,7 @@ dev-db/unixODBC 2.3.12-r1 2.3.12-r2 2.3.14: Complete ODBC driver manager
 dev-db/valkey 9.1.2: Persistent key-value store, fork of dev-db/redis
 dev-db/vsqlite++ 0.3.13-r1: VSQLite++ - A well designed and portable SQLite3 Wrapper for C++
 dev-db/wxsqlite3 4.10.6-r1: C++ wrapper around the public domain SQLite 3.x database
-dev-db/zedis 0.5.2 0.9.0: Blazing-fast native Redis GUI built with Rust and GPUI
+dev-db/zedis 0.5.2 0.9.0 0.11.1: Blazing-fast native Redis GUI built with Rust and GPUI
 dev-debug/apitrace 13.0: Tool for tracing, analyzing, and debugging graphics APIs
 dev-debug/bpftrace 0.24.2 0.25.1 0.26.1 0.27.0 9999: High-level tracing language for eBPF
 dev-debug/cgdb 0.8.0 9999: A curses front-end for GDB, the GNU debugger
@@ -4351,7 +4351,7 @@ dev-go/go-tools 0.28.0: Tools that support the Go programming language (godoc, e
 dev-go/go-tour 0_pre20200201: A Tour of Go
 dev-go/gocov 1.1.0: Coverage testing tool for The Go Programming Language
 dev-go/gogo-protobuf 1.3.2: Protocol Buffers for Go with Gadgets
-dev-go/golangci-lint 2.12.2 2.13.1 2.13.2: Fast linters runner for Go
+dev-go/golangci-lint 2.12.2 2.13.1 2.13.2 2.14.0: Fast linters runner for Go
 dev-go/gopls 0.18.1 0.19.0 0.19.1 0.20.0 0.21.0 0.21.1 0.22.0 0.23.0: "Go please" is the official Go language server
 dev-go/gotestsum 1.13.0: 'go test' runner with output optimized for humans
 dev-go/goversion 1.2.0-r1: Print version used to build Go executables
@@ -5498,7 +5498,7 @@ dev-libs/boron 2.1.0: A scripting language similar to REBOL
 dev-libs/botan 3.11.1 3.12.0 3.13.0: C++ crypto library
 dev-libs/boxfort 0.1.4-r1 0.1.4-r2 0.1.5: Convenient & cross-platform sandboxing C library
 dev-libs/c-blosc 1.21.6-r1: Blocking, shuffling and lossless compression library
-dev-libs/c-blosc2 2.23.1 3.3.2 3.3.3 3.3.4: Blocking, shuffling and lossless compression library
+dev-libs/c-blosc2 2.23.1 3.3.2 3.3.3 3.3.4 3.3.5: Blocking, shuffling and lossless compression library
 dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serialization/RPC protocol
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
@@ -8552,7 +8552,7 @@ dev-python/django-cors-headers 4.9.0: Django App that adds CORS (Cross-Origin Re
 dev-python/django-crispy-forms 2.6 2.7: DRY Django forms
 dev-python/django-debug-toolbar 7.1.1 8.0.0: A configurable set of panels that display various debug information
 dev-python/django-filter 25.2 26.1: Django app allowing declarative dynamic QuerySet filtering from URL parameters
-dev-python/django-js-asset 4.0.2 4.1.0: Script tag with additional attributes for django.forms.Media
+dev-python/django-js-asset 4.1.0 4.2.0: Script tag with additional attributes for django.forms.Media
 dev-python/django-otp 1.7.2 1.7.3: Django framework adding two-factor authentication using one-time passwords
 dev-python/django-polymorphic 4.11.6 4.11.7: Seamless Polymorphic Inheritance for Django Models
 dev-python/django-prometheus 2.5.0: Library to export Django metrics for Prometheus
@@ -9052,7 +9052,7 @@ dev-python/openapi3 1.8.2: Python OpenAPI 3 Specification client and validator
 dev-python/openpyxl 3.1.5: Pure python reader and writer of Excel OpenXML files
 dev-python/opensearch-py 3.0.0: Python client for OpenSearch
 dev-python/openstackdocstheme 3.6.0: Theme and extension support for Sphinx documentation
-dev-python/openstacksdk 4.17.0 4.18.0 4.19.0 4.19.1 4.20.0: A collection of libraries for building applications to work with OpenStack
+dev-python/openstacksdk 4.18.0 4.19.0 4.19.1 4.20.0: A collection of libraries for building applications to work with OpenStack
 dev-python/opentelemetry-api 1.43.0 1.44.0: OpenTelemetry Python API
 dev-python/opentelemetry-sdk 1.43.0 1.44.0: OpenTelemetry Python SDK
 dev-python/opentelemetry-semantic-conventions 1.43.0 1.44.0: OpenTelemetry Semantic Conventions
@@ -9116,7 +9116,7 @@ dev-python/pelican-minify 2.0.2: An HTML minification plugin for Pelican, the st
 dev-python/pexpect 4.9.0: Python module for spawning child apps and responding to expected patterns
 dev-python/pgspecial 2.2.1: Python implementation of PostgreSQL meta commands
 dev-python/pgzero 1.2.1-r2: A zero-boilerplate games programming framework based on Pygame
-dev-python/phonenumbers 9.0.37 9.0.38 9.0.39: Python port of Google's libphonenumber
+dev-python/phonenumbers 9.0.37 9.0.38 9.0.39 9.0.40: Python port of Google's libphonenumber
 dev-python/phply 1.2.6: Lexer and parser for PHP source implemented using PLY
 dev-python/pickleshare 0.7.5-r1: A small 'shelve' like datastore with concurrency support
 dev-python/picobox 4.0.0: Dependency injection framework designed with Python in mind
@@ -9274,7 +9274,7 @@ dev-python/pymdstat 0.5.1: Python library to parse Linux /proc/mdstat
 dev-python/pymediainfo 7.0.1: A Python wrapper for the MediaInfo library
 dev-python/pymetar 1.4-r2: Downloads and decodes to the weather report for a given station ID
 dev-python/pymilter 1.0.7_pre20251111 9999: module to enable python scripts to attach to Sendmail's libmilter API
-dev-python/pymongo 4.16.0 4.17.0 4.18.0 4.18.1: Python driver for MongoDB
+dev-python/pymongo 4.16.0 4.17.0 4.18.0 4.18.1 4.18.2: Python driver for MongoDB
 dev-python/pymountboot 0.2.3-r2: Python extension module to (re)mount /boot
 dev-python/pymysql 1.1.3 1.2.0 1.2.3: Pure-Python MySQL Driver
 dev-python/pynacl 1.6.2: Python binding to the Networking and Cryptography (NaCl) library
@@ -9482,7 +9482,7 @@ dev-python/pytimeparse 1.1.8-r1: A small Python module to parse various kinds of
 dev-python/pytokens 0.4.1: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons
 dev-python/pytoolconfig 1.3.1: Python tool configuration
 dev-python/pytools 2026.1.1: Collection of tools missing from the Python standard library
-dev-python/pytz 2026.2 2026.3_p1: World timezone definitions for Python
+dev-python/pytz 2026.3_p1 2026.4: World timezone definitions for Python
 dev-python/pyu2f 0.1.5-r1: Python based U2F host library
 dev-python/pyuca 1.2: Python implementation of the Unicode Collation Algorithm
 dev-python/pyudev 0.24.4: Python binding to libudev
@@ -9811,10 +9811,10 @@ dev-python/type-lens 0.2.6: A library that allows for utilizing Python types at 
 dev-python/typeguard 4.5.2 4.6.0: Run-time type checker for Python
 dev-python/typer 0.27.0 0.27.1 0.27.2: Build great CLIs. Easy to code. Based on Python type hints
 dev-python/types-docutils 0.22.3.20260724 0.23.0.20260827 0.23.0.20260911 0.23.0.20260917 0.23.0.20260923: Typing stubs for docutils
-dev-python/types-gdb 16.3.0.20260518 16.3.0.20260712: Typing stubs for gdb
+dev-python/types-gdb 16.3.0.20260712: Typing stubs for gdb
 dev-python/types-psutil 7.2.2.20260518 7.2.2.20260827 7.2.2.20260906: Typing stubs for psutil
-dev-python/types-python-dateutil 2.9.0.20260716 2.9.0.20260807: Typing stubs for python-dateutil
-dev-python/types-setuptools 83.0.0.20260807 84.0.0.20260812: Typing stubs for setuptools
+dev-python/types-python-dateutil 2.9.0.20260807: Typing stubs for python-dateutil
+dev-python/types-setuptools 84.0.0.20260812: Typing stubs for setuptools
 dev-python/typing-extensions 4.15.0 4.16.0: Backported and Experimental Type Hints for Python 3.7+
 dev-python/typing-inspection 0.4.2 0.4.3 0.4.4: Runtime typing introspection tools
 dev-python/typogrify 2.1.0: Filters for web typography, supporting Django & Jinja templates
@@ -9923,7 +9923,7 @@ dev-python/yattag 1.16.1: Python library to generate HTML or XML in a readable, 
 dev-python/yaxmldiff 0.2.0 0.3.0: Yet Another XML Differ
 dev-python/youtube-search-python 1.6.6-r3: Get YouTube video information using link WITHOUT YouTube Data API v3
 dev-python/yt-dlp-ejs 0.8.0: External JavaScript for yt-dlp supporting many runtimes
-dev-python/ytmusicapi 1.12.1-r1 1.12.2: Unofficial API for YouTube Music
+dev-python/ytmusicapi 1.12.2 1.12.3: Unofficial API for YouTube Music
 dev-python/zc-lockfile 4.0: Basic inter-process locks
 dev-python/zconfig 4.3: Configuration library supporting a hierarchical schema-driven model
 dev-python/zeep 4.3.3: A modern/fast Python SOAP client based on lxml / requests
@@ -11020,9 +11020,9 @@ dev-util/git-bug 0.10.1: Distributed, offline-first bug tracker embedded in git
 dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
-dev-util/github-cli 2.96.0 2.98.0 2.100.0 9999: GitHub CLI
+dev-util/github-cli 2.96.0 2.98.0 2.100.0 2.101.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.4.0: linter for .gitlab-ci.yml files
-dev-util/gitlab-cli 1.106.0 1.116.0: the official gitlab command line interface
+dev-util/gitlab-cli 1.106.0 1.116.0 1.119.0: the official gitlab command line interface
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
 dev-util/glade 3.40.0-r3: A user interface designer for GTK+ and GNOME
 dev-util/glib-utils 2.88.2 2.88.3: Build utilities for GLib using projects
@@ -11655,7 +11655,7 @@ games-emulation/vbam 2.1.11-r1 9999: Game Boy, GBC, and GBA emulator forked from
 games-emulation/vecx-jg 1.2.3-r1 1.2.4 9999: Jolly Good Fork of vecx
 games-emulation/vgba 4.8-r1: Gameboy Advance (GBA) emulator for Linux
 games-emulation/zinc 1.1-r1: An x86 binary-only emulator for Sony ZN-1, ZN-2, and Namco System 11 arcades
-games-emulation/zsnes 2.2.3 2.3.0: Fork of the classic Super Nintendo emulator
+games-emulation/zsnes 2.2.3 2.3.0 2.3.2: Fork of the classic Super Nintendo emulator
 games-engines/box2d 2.4.2 2.4.2-r1: C++ engine for simulating rigid bodies in 2D games
 games-engines/dMagnetic 0.37: A Magnetic Scrolls Interpreter for playing a collection of old text adventures
 games-engines/devilutionx 1.5.5: Diablo engine for modern operating systems
@@ -14066,7 +14066,7 @@ media-sound/amsynth 1.13.4: Virtual analogue synthesizer
 media-sound/apetag 1.12-r3: Command-line ape 2.0 tagger
 media-sound/apulse 0.1.14: PulseAudio emulation for ALSA
 media-sound/aqualung 2.0-r1: Music player for a wide range of formats designed for gapless playback
-media-sound/ardour 9.2.0 9.7.0-r1 9.8.0 9999: Digital Audio Workstation
+media-sound/ardour 9.7.0-r1 9.8.0 9999: Digital Audio Workstation
 media-sound/ario 1.6-r2: GTK client for MPD inspired by Rhythmbox but much lighter and faster
 media-sound/aseqview 0.2.8-r3: ALSA sequencer event viewer/filter
 media-sound/asunder 3.0.1-r2: Graphical Audio CD ripper and encoder with support for many output formats
@@ -14787,7 +14787,7 @@ net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup to
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
 net-analyzer/yersinia 0.8.2_p20221119: A framework for layer 2 attacks
-net-analyzer/zabbix 6.0.46 6.0.48 7.0.27 7.0.30 7.0.31 7.4.11 7.4.14 7.4.15-r1: ZABBIX is software for monitoring of your applications, network and servers
+net-analyzer/zabbix 6.0.48-r1 7.0.30-r1 7.0.31-r1 7.4.14-r1 7.4.15-r1: ZABBIX is software for monitoring of your applications, network and servers
 net-analyzer/zmap 4.3.2: Fast network scanner designed for Internet-wide network surveys
 net-analyzer/zniper 1.0-r3: Displays and kill active TCP connections seen by the selected interface
 net-dialup/accel-ppp 1.12.0_p20230609 1.14.0 1.14.0-r2 9999: High performance PPTP/L2TP/SSTP/PPPoE/IPoE server
@@ -15350,7 +15350,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12: The BGP swiss army knife of networki
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.31.1 3.32.0 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.4-r2 10.1.5-r1 10.2.5-r2 10.2.6 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.4.5 10.5.3-r2 10.5.4-r1 10.5.5 10.6.1-r1 10.6.2 10.7.0 10.7.1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.9-r1 1.32.10-r1 1.32.11 1.32.12 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.9-r1 1.32.10-r1 1.32.11 1.32.12 1.32.13 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -16562,14 +16562,14 @@ sci-ml/fastdownload 0.0.6-r1: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.24.0: Tensor library for machine learning
+sci-ml/ggml 0.25.3: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the Hugging Face Hub
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.34.3-r1: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.34.4: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r4: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17503,7 +17503,7 @@ sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services
 sys-apps/systemd 259.4-r2 260.1-r2 260.2-r1 260.4 261-r1 261.1 261.2 261.3 262_rc1 262_rc2 262 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
 sys-apps/systemd-readahead 216: Split of readahead systemd implementation
-sys-apps/systemd-utils 255.18 260.1-r1: Utilities split out from systemd for OpenRC users
+sys-apps/systemd-utils 255.18 260.1-r1 262: Utilities split out from systemd for OpenRC users
 sys-apps/sysvinit 3.15 3.18: /sbin/init - parent of all processes
 sys-apps/tas 1.11.0.260514: Supermicro Thin-Agent Service for monitoring through the BMC/IPMI
 sys-apps/tcp-wrappers 7.6.31-r2: TCP Wrappers
