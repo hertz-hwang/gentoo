@@ -1894,7 +1894,7 @@ app-editors/vscode 1.138.0 1.139.0: Multiplatform Visual Studio Code from Micros
 app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
-app-editors/xemacs 21.5.36-r6 21.5.37 21.5.9999: highly customizable open source text editor and application development system
+app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.9999: highly customizable open source text editor and application development system
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
@@ -3132,7 +3132,7 @@ app-portage/portage-utils 0.97 0.97.1 9999: Small and fast Portage helper tools 
 app-portage/porticron 0.7.2: cron script to sync portage and send update mails to root
 app-portage/portpeek 3.2.9: A helper program for maintaining the package.keyword and package.unmask files
 app-portage/prefix-toolkit 11-r1 12: Utilities for users of Gentoo Prefix
-app-portage/pycargoebuild 0.16.0 0.17.0: A generator for Rust/Cargo ebuilds written in Python
+app-portage/pycargoebuild 0.16.0 0.17.0 0.17.1: A generator for Rust/Cargo ebuilds written in Python
 app-portage/recover-broken-vdb 1.0.0-r2 9999: Check Portage's VDB for internal inconsistency on ELF metadata
 app-portage/repo-commit 0.4.1-r1 9999: A repository commit helper
 app-portage/smart-live-rebuild 1.4.1-r2 9999: Check live packages for updates and emerge them as necessary
@@ -15213,7 +15213,7 @@ net-mail/email 3.1.3-r2: Advanced CLI tool for sending email
 net-mail/eps 1.7-r1: Inter7 Email Processing and mht System library
 net-mail/ezmlm-idx 7.2.2-r1: Simple yet powerful mailing list manager for qmail
 net-mail/fdm 2.2-r3: Fetch, filter and deliver mail
-net-mail/fetchmail 6.6.2 6.6.4: the legendary remote-mail retrieval and forwarding utility
+net-mail/fetchmail 6.6.2 6.6.4 6.6.8: the legendary remote-mail retrieval and forwarding utility
 net-mail/getmail 6.20.00 6.20.01: A mail retriever with reliable Maildir and mbox delivery
 net-mail/gnubiff 2.2.17-r4: A mail notification program
 net-mail/grepmail 5.3111: Search normal or compressed mailbox using a regular expression or dates
@@ -15791,7 +15791,7 @@ net-vpn/wireguard-modules 1.0.20220627-r1: Simple yet fast and modern VPN that u
 net-vpn/wireguard-tools 1.0.20250521-r1 1.0.20260223: Required tools for WireGuard, such as wg(8) and wg-quick(8)
 net-wireless/aic8800 1.0.3 1.0.5 1.0.6: aic8800 driver for AICSemi AIC8800/8801/8800DC/8800DW/8800FC Wifi/Bluetooth
 net-wireless/aircrack-ng 1.7-r3 9999: WLAN tools for breaking 802.11 WEP/WPA keys
-net-wireless/airspy 1.0.10 9999: Usemode driver and associated tools for airspy
+net-wireless/airspy 1.0.10 1.0.10-r1 9999: Usemode driver and associated tools for airspy
 net-wireless/airtraf 1.1-r5: AirTraf 802.11b Wireless traffic sniffer
 net-wireless/b43-fwcutter 019: Firmware tool for Broadcom 43xx-based wireless devices using mac80211
 net-wireless/bdaddr 0_p20210511: Utility for changing the Bluetooth device address
@@ -17994,7 +17994,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3: DBUS on-demand loader of sched-ex
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.188 6.1.9999 6.6.157 6.6.9999 6.12.109 6.12.110 6.12.111 6.12.9999 6.18.50 6.18.52 6.18.53 6.18.9999 7.2.6 7.2.7: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.188 6.6.157 6.12.111 6.18.53 7.2.7: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.188 6.6.157 6.12.111 6.18.54 7.2.8: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.2.7: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -18354,7 +18354,7 @@ www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD
 www-apps/chromedriver-bin 151.0.7922.108 151.0.7922.137 154.0.8037.57: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
-www-apps/dokuwiki 20260714c: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
+www-apps/dokuwiki 20260714c-r1: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
 www-apps/drupal 10.5.12 10.6.11 11.2.14 11.3.12: PHP-based open-source platform and content management system
 www-apps/element 1.12.25 1.12.27: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.26.4 1.27.3: A painless self-hosted Git service
