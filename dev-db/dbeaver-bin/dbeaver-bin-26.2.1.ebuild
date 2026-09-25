@@ -20,7 +20,7 @@ SLOT="0"
 KEYWORDS="-* ~amd64 ~arm64"
 
 RDEPEND="
-	>=virtual/jre-21:*
+	>=virtual/jdk-21:*[-headless-awt]
 	x11-libs/gtk+:3[wayland]
 "
 
@@ -33,6 +33,8 @@ src_prepare() {
 		-e 's:/usr/share/dbeaver:/opt/dbeaver:g' \
 		-e "s:^Exec=.*:Exec=${EPREFIX}/usr/bin/${MY_PN}:" \
 		-i "${MY_PN}-ce.desktop" || die
+	# Disable self-update, the install in /opt is managed by portage
+	echo "-Dpolicy.software.update.disabled=true" >> "${MY_PN}.ini" || die
 	default
 }
 
@@ -40,7 +42,7 @@ src_configure() {
 	# Remove JRE bundled
 	rm -r "${S}/jre" || die
 	# Remove unused plugins for other platforms
-	local JNA_DIR="${S}/plugins/com.sun.jna_5.18.1.v20251001-0800/com/sun/jna"
+	local JNA_DIR="${S}/plugins/com.sun.jna_5.19.1.v20260612-1000/com/sun/jna"
 	pushd "${JNA_DIR}" || die
 	for i in *-*; do
 		use amd64 && [[ ${i} == linux-x86-64 ]] && continue
