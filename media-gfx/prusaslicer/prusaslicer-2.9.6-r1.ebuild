@@ -14,7 +14,7 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/prusa3d/prusaslicer.git"
 else
 	SRC_URI="https://github.com/prusa3d/PrusaSlicer/archive/refs/tags/version_${MY_PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~arm64 ~x86"
+	KEYWORDS="amd64 ~arm64 ~x86"
 	S="${WORKDIR}/${MY_PN}-version_${MY_PV}"
 fi
 
@@ -28,7 +28,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	dev-cpp/eigen:=
+	=dev-cpp/eigen-3*:=
 	dev-cpp/tbb:=
 	dev-cpp/nlohmann_json:=
 	dev-libs/boost:=[nls]

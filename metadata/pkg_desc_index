@@ -1376,7 +1376,7 @@ app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2 1.9.1: Standard networking plugins for container networking
 app-containers/conmon 2.1.11 2.1.13 2.2.1 9999: An OCI container runtime monitor
 app-containers/container-libs 0.68.0 0.68.0-r1 0.69.0: Several utilities from the containers project
-app-containers/containerd 2.2.5-r1 2.3.2-r1 2.3.3 2.3.4 2.3.5 2.4.0: A daemon to control runC
+app-containers/containerd 2.2.5-r1 2.3.2-r1 2.3.3 2.3.4 2.3.5 2.4.0 2.4.1: A daemon to control runC
 app-containers/containers-common 0.63.0 0.64.2 9999: Common config files and docs for Containers stack
 app-containers/containers-image 5.34.2 5.35.0 5.36.2 9999: Default config and docs related to Containers' images
 app-containers/containers-shortnames 2023.02.20 2025.03.19 2025.03.19_p20260615 9999: Configures default shortnames (aliases) for Containers
@@ -5475,7 +5475,7 @@ dev-libs/atk 2.38.0 2.46.0: GTK+ & GNOME Accessibility Toolkit
 dev-libs/avro-c 1.12.0 1.12.0-r1: c library for the apache avro data serialization system
 dev-libs/aws-c-auth 0.9.3 0.10.4 1.0.0: AWS C Auth: C99 library implementation of AWS client-side authentication
 dev-libs/aws-c-cal 0.9.13 0.9.14 1.0.0: Crypto Abstraction Layer: Cross-Platform C99 wrapper for cryptography primitives
-dev-libs/aws-c-common 0.12.6 0.14.2 1.0.0 1.0.1: Core c99 package for AWS SDK for C
+dev-libs/aws-c-common 0.12.6 0.14.2 1.0.0 1.0.1-r1: Core c99 package for AWS SDK for C
 dev-libs/aws-c-compression 0.3.1 0.3.2 1.0.0: AWS C Compression cross-platform algorithms
 dev-libs/aws-c-event-stream 0.5.7 0.7.1 1.0.0: Core c99 package for AWS SDK for C
 dev-libs/aws-c-http 0.10.7 0.11.0-r1 1.0.0: AWS C Http: C99 implementation of the HTTP/1.1 and HTTP/2 specifications
@@ -10880,7 +10880,7 @@ dev-util/anjuta 3.34.0-r3: Base library of defunct IDE for GNOME to run applicat
 dev-util/archdiff 1.1.6-r1: Utility to view the differences between two source code archives
 dev-util/argouml 0.34-r1: Modelling tool that helps you do your design using UML
 dev-util/aruba 2.2.0 2.3.2 2.3.3: Cucumber steps for driving out command line applications
-dev-util/astyle 3.1-r2 3.4.9 3.4.9-r1 3.6.1 3.6.7: Artistic Style is a re-indenter and reformatter for C, C++ and Java source code
+dev-util/astyle 3.1-r2 3.4.9 3.4.9-r1 3.6.1 3.6.7 3.6.18: Artistic Style is a re-indenter and reformatter for C, C++ and Java source code
 dev-util/autodia 2.140.0-r2: Parses source code, XML or data and produces an XML document in Dia format
 dev-util/autoproject 0.20_p15: Start a programming project using autotools and a command line parser generator
 dev-util/azuredatastudio 1.52.0-r1: Data management and development tool from Microsoft
@@ -10891,7 +10891,7 @@ dev-util/bcc 0.31.0-r3 0.32.0-r1 0.34.0-r1 0.35.0-r1 0.35.0-r2 0.36.0 0.36.1 0.3
 dev-util/bcpp 20240917: Indents C/C++ source code
 dev-util/bdelta 0.3.1-r1: Binary Delta - Efficient difference algorithm and format
 dev-util/bear 3.1.6 4.1.5 4.2.2: A tool that generates a compilation database for clang tooling
-dev-util/bindgen 0.72.0 0.72.1: Automatically generate Rust FFI bindings to C and C++ libraries
+dev-util/bindgen 0.72.0 0.72.1 0.73.2: Automatically generate Rust FFI bindings to C and C++ libraries
 dev-util/bingrep 0.11.0-r1: Binary file analysis tool
 dev-util/bloaty 1.1-r1 1.1-r2 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.20.4 0.22.2: Compiler for Blueprint, a markup language for GTK user interfaces
@@ -10983,7 +10983,7 @@ dev-util/diff-cover 9.6.0: Find diff lines that do not have test coverage
 dev-util/diffball 1.0.1-r2: Delta compression suite for using/generating binary patches
 dev-util/diffoscope 325 327 329: Will try to get to the bottom of what makes files or directories different
 dev-util/diffstat 1.68 1.69: Display a histogram of diff changes
-dev-util/difftastic 0.68.0 0.69.0: A structural diff that understands syntax
+dev-util/difftastic 0.68.0 0.69.0 0.71.0: A structural diff that understands syntax
 dev-util/diffuse 0.10.0 0.11.0: A graphical tool to compare and merge text files
 dev-util/dirdiff 2.1-r4: A tool for differing and merging directories
 dev-util/directx-headers 1.619.1 9999: DirectX header files and WSL stubs
@@ -13258,7 +13258,7 @@ media-gfx/povray 3.7.0.0-r6: The Persistence of Vision Raytracer
 media-gfx/pqiv 2.12 2.13.3: A powerful GTK 3 based command-line image viewer with a minimal UI
 media-gfx/pqstego 0.0.1: Tools for Perturbed Quantization Steganography
 media-gfx/propaganda 1.0-r2: Propaganda Volume 1-14 + E. Tiling images for your desktop
-media-gfx/prusaslicer 2.9.4 2.9.5 2.9.6 9999: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
+media-gfx/prusaslicer 2.9.5 2.9.6-r1 9999: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-gfx/psftools 1.0.10: Utilities for manipulation of console fonts in PSF format
 media-gfx/pstoedit 3.75: Translate PostScript and PDF graphics into other vector formats
 media-gfx/qimgv 1.0.2_p20250721: Cross-platform image viewer with webm support, written in Qt
@@ -15707,7 +15707,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 3.0.5 3.0.14 3.0.23 3.0.25 3.0.26 3.0.27 3.0.9999 3.2.9 3.2.19 3.2.21 3.2.22 3.2.23 3.2.9999 3.3.5 3.3.10 3.3.12 3.3.13 3.3.14 3.3.9999 3.4.0 3.4.2 3.4.3 3.4.4 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.14 3.0.26 3.0.27 3.0.28 3.0.9999 3.2.9 3.2.22 3.2.23 3.2.24 3.2.9999 3.4.3 3.4.4 3.4.5 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
