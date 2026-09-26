@@ -9643,7 +9643,7 @@ dev-python/slixmpp 1.15.0 1.16.0: Python 3 library for XMPP
 dev-python/smartypants 2.0.2: ASCII quote-dot-dash to HTML entity converter
 dev-python/smbus2 0.6.1: A drop-in replacement for smbus-cffi/smbus-python in pure Python
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
-dev-python/snakeoil 0.11.4 0.11.5 0.11.6 9999: misc common functionality and useful optimizations
+dev-python/snakeoil 0.11.6 9999: misc common functionality and useful optimizations
 dev-python/snaketrace 0.3.1-r1: An strace-like tool for Python audit events
 dev-python/snapshottest 0.6.0: Snapshot Testing utils for Python
 dev-python/sniffio 1.3.1: Sniff out which async library your code is running under
@@ -10928,7 +10928,7 @@ dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
 dev-util/claude-code 2.1.280: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
-dev-util/clinfo 3.0.23.01.25 3.0.25.02.14 9999: A tool to display info about the system's OpenCL capabilities
+dev-util/clinfo 3.1.26.09.26 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
 dev-util/clojure-tools 1.12.4.1629 1.12.5.1645: Development tools for the Clojure programming language
@@ -11133,10 +11133,10 @@ dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinemen
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.19.12 7.0 7.1 7.2: Userland tools for Linux Performance Counters
 dev-util/pixi 0.80.0 0.81.0: A package management and workflow tool
-dev-util/pkgcheck 0.10.42 0.10.43 0.10.44 9999: pkgcore-based QA utility for ebuild repos
+dev-util/pkgcheck 0.10.43 0.10.44 0.10.45 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.5.1 3.0.3 3.0.4 3.0.5 3.0.6 3.0.7 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
-dev-util/pkgdev 0.2.16 0.2.17 0.2.18 9999: Collection of tools for Gentoo development
+dev-util/pkgdev 0.2.18 9999: Collection of tools for Gentoo development
 dev-util/pkgdiff 1.8 9999: Package Changes Analyzer (pkgdiff)
 dev-util/plan9port 0_pre20240617 0_pre20260226: Port of many Plan 9 programs and libraries
 dev-util/ply 2.3.0: Dynamic instrumentation of the Linux kernel with BPF and kprobes
@@ -16347,7 +16347,7 @@ sci-libs/mkl 2025.3.1.8 2026.0.0.908 2026.1.0.236: Intel Math Kernel Library
 sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library based on MPFR
 sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
-sci-libs/netcdf 4.9.3-r2 4.10.1: Scientific library and interface for array oriented data access
+sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
 sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r1: C++ library for netCDF
 sci-libs/netcdf-fortran 4.5.4-r1 4.6.4: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3-r1: library for nonequispaced discrete Fourier transformations
@@ -17435,7 +17435,7 @@ sys-apps/pcsc-lite 2.4.0-r1 2.4.1 2.5.1: PC/SC Architecture smartcard middleware
 sys-apps/pcsc-slb-rf72-drv 1.1.0-r2: Schlumberger Reflex 72 Serial Smartcard Reader
 sys-apps/pcsc-tools 1.7.3-r1 1.7.4: PC/SC Architecture smartcard tools
 sys-apps/pick 4.0.0-r1: A fuzzy search tool for the command-line
-sys-apps/pkgcore 0.12.40 0.12.41 0.12.42 0.12.43 9999: a framework for package management
+sys-apps/pkgcore 0.12.42 0.12.43 0.12.44 9999: a framework for package management
 sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.23 1.1.24: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
@@ -17813,7 +17813,7 @@ sys-firmware/broadcom-bt-firmware 12.0.1.1105_p4-r1: Broadcom Bluetooth firmware
 sys-firmware/edk2 202511-r1 202605 202608: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/edk2-bin 202202 202408 202411 202511 202605 202608: TianoCore EDK II UEFI firmware for virtual machines
 sys-firmware/firmware-imx 8.22: NXP i.MX firmware
-sys-firmware/intel-microcode 20260512_p20260513 20260811_p20260811 20260812_p20260813: Intel IA32/IA64 microcode update data
+sys-firmware/intel-microcode 20260512_p20260513 20260811_p20260811 20260812_p20260813 20260925_p20260925: Intel IA32/IA64 microcode update data
 sys-firmware/ipw2100-firmware 1.3-r1: Firmware for the Intel PRO/Wireless 2100 3B miniPCI adapter
 sys-firmware/ipw2200-firmware 3.1-r1: Firmware for the Intel PRO/Wireless 2200BG/2915ABG miniPCI and 2225BG PCI
 sys-firmware/ipxe 1.21.1 1.21.1_p20230601 1.21.1_p20230601-r1: Open source network boot (PXE) firmware
