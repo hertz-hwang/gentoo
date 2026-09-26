@@ -2020,7 +2020,7 @@ app-emacs/dune-format 0.1: Reformat OCaml's dune files automatically
 app-emacs/dwarf-mode 2.40: Emacs mode to browse DWARF information
 app-emacs/earthfile-mode 0.1.0_p20230810: GNU Emacs major mode for editing Earthly Earthfiles
 app-emacs/ebib 2.51.1: BibTeX database manager for Emacs
-app-emacs/ebuild-mode 1.79 1.84 1.85: Emacs modes for editing ebuilds and other Gentoo specific files
+app-emacs/ebuild-mode 1.79 1.84 1.85 1.86: Emacs modes for editing ebuilds and other Gentoo specific files
 app-emacs/ebuild-run-mode 20221116: Major mode for Emacs buffers where ebuild commands run
 app-emacs/ecukes 0.6.18-r1: Cucumber for Emacs
 app-emacs/edb 1.34: EDB, The Emacs Database
@@ -2873,7 +2873,7 @@ app-misc/linuxspa 0.7.1-r2: Linux Serial Protocol Analyser
 app-misc/liquidctl 1.15.0 1.16.0: Cross-platform tool and drivers for liquid coolers and other devices
 app-misc/lirc 0.10.2-r2 0.10.2-r3: decode and send infra-red signals of many commonly used remote controls
 app-misc/livecd-tools 2.11 2.12 9999: Gentoo LiveCD tools for autoconfiguration of hardware
-app-misc/localsearch 3.8.2 3.10.2-r1 3.11.2: Indexer and search engine that powers desktop search for core GNOME components
+app-misc/localsearch 3.8.2 3.10.2-r1 3.11.2 3.12.0: Indexer and search engine that powers desktop search for core GNOME components
 app-misc/lockfile-progs 0.1.19 0.2.0: Programs to safely lock/unlock files and mailboxes
 app-misc/logiops 0.3.5: An unofficial userspace driver for HID++ Logitech devices
 app-misc/lsx 0.1-r1: list executables
@@ -2969,7 +2969,7 @@ app-misc/terminal-colors 3.0.2 9999: A tool to display color charts for 8, 16, 8
 app-misc/timestamp 1.1-r3: A text filtering pipe that marks each line with a timestamp
 app-misc/timew 1.9.1: Tracks your time from the command line, and generates reports
 app-misc/timew-report 1.4.0-r1: An interface for Timewarrior report data
-app-misc/tinysparql 3.8.2 3.10.1 3.11.1: Low-footprint RDF triple store with SPARQL 1.1 interface
+app-misc/tinysparql 3.8.2 3.10.1 3.11.1 3.12.0: Low-footprint RDF triple store with SPARQL 1.1 interface
 app-misc/tkpasman 2.2b: Useful and reliable personal password manager, written in Tcl/Tk
 app-misc/tmate 2.4.0-r2: Instant terminal sharing
 app-misc/tmux 3.4-r1 3.5a 3.6a 3.7c 9999: Terminal multiplexer
@@ -3087,7 +3087,7 @@ app-pda/libusbmuxd 2.1.0 2.1.1: USB multiplex daemon for use with Apple iPhone/i
 app-pda/pilot-link 0.12.5-r4 0.12.5-r5: Suite of tools for moving data between a Palm device and a desktop
 app-pda/usbmuxd 1.1.1_p20231011 1.1.1_p20240915: USB multiplex daemon for use with Apple iPhone/iPod Touch devices
 app-portage/cfg-update 1.8.9-r2 1.8.9-r3 1.8.11 1.11.0: Easy to use GUI & CLI alternative for etc-update
-app-portage/command-not-found 0.0.7-r1: Command-not-found handler for Gentoo
+app-portage/command-not-found 0.0.7-r1 0.0.8: Command-not-found handler for Gentoo
 app-portage/conf-update 1.0.3-r1: conf-update is a ncurses-based config management utility
 app-portage/cpuid2cpuflags 17 18: Tool to guess CPU_FLAGS_* flags for the host
 app-portage/diffmask 0.3.3-r5: A utility to maintain package.unmask entries up-to-date with masks
@@ -3140,7 +3140,7 @@ app-portage/tatt 0.11-r1 9999: Arch testing tool
 app-portage/time64-prep 1: A tool to prepare for (comparatively) safe time64 transition
 app-portage/ufed 0.96 9999: Gentoo Linux USE flags editor
 app-portage/unsymlink-lib 20: Convert your system to SYMLINK_LIB=no
-app-shells/atuin 18.11.0 18.12.1 18.13.5 18.14.1 18.16.0 18.16.1: Shell history manager supporting encrypted synchronisation
+app-shells/atuin 18.12.1 18.14.1 18.16.0 18.16.1 18.23.0: Shell history manager supporting encrypted synchronisation
 app-shells/autojump 22.5.3-r4: change directory command that learns
 app-shells/bash 2.05b_p13 3.0_p22 3.1_p23 3.2_p57 4.0_p44 4.1_p17 4.2_p53 4.3_p48-r2 4.4_p23-r2 5.0_p18-r3 5.1_p16-r14 5.2_p37-r5 5.3_p9 5.3_p9-r1 5.3_p9-r2 5.3_p12 5.3_p15 5.3_p20 5.4_alpha_pre20251202-r1 9999: The standard GNU Bourne again shell
 app-shells/bash-completion 2.16.0-r3 2.17.0 2.18.0 9999: Programmable Completion for bash
@@ -3293,7 +3293,7 @@ app-text/grip 4.6.2: Preview GitHub Markdown files like Readme locally before co
 app-text/groonga 16.0.1 16.1.0: Embeddable Fulltext Search Engine
 app-text/groonga-normalizer-mysql 1.1.1-r1: Groonga plugin that provides MySQL compatible normalizers
 app-text/grutatxt 2.200.0: A converter from plain text to HTML and other markup languages
-app-text/gspell 1.14.4: Spell check library for GTK+ applications
+app-text/gspell 1.14.4 1.14.5: Spell check library for GTK+ applications
 app-text/gtkspell 2.0.16-r2 3.0.10-r1: Spell checking widget for GTK
 app-text/gtranslator 48.0 51.0: GNOME Translation Editor
 app-text/gv 3.7.4: Viewer for PostScript and PDF documents using Ghostscript
@@ -3710,7 +3710,7 @@ app-xemacs/dictionary 1.18: Interface to RFC2229 dictionary servers
 app-xemacs/dired 1.22: Manage file systems
 app-xemacs/docbookide 0.10: DocBook editing support
 app-xemacs/easypg 1.05: GnuPG interface for Emacs
-app-xemacs/ebuild-mode 1.84 1.85: Emacs modes for editing ebuilds and other Gentoo specific files
+app-xemacs/ebuild-mode 1.84 1.85 1.86: Emacs modes for editing ebuilds and other Gentoo specific files
 app-xemacs/ecb 1.26: Emacs source code browser
 app-xemacs/ecrypto 0.23: Crypto functionality in Emacs Lisp
 app-xemacs/ede 1.07: Emacs Development Environment
@@ -5654,9 +5654,9 @@ dev-libs/libbson 1.24.4-r1: Library routines related to building,parsing and ite
 dev-libs/libbulletml 0.0.6-r1: A Library of Bullet Markup Language
 dev-libs/libburn 1.5.8-r2: Open-source library for reading, mastering and writing optical discs
 dev-libs/libbytesize 2.11 2.12: Tiny library providing a C "class" for working with arbitrary big byte sizes
-dev-libs/libcbor 0.13.0: CBOR protocol implementation for C and others
+dev-libs/libcbor 0.13.0 0.14.0: CBOR protocol implementation for C and others
 dev-libs/libcdada 0.6.1 0.6.4: Basic data structures in C
-dev-libs/libcdio 2.1.0-r2 2.2.0: A library to encapsulate CD-ROM reading and control
+dev-libs/libcdio 2.1.0-r2 2.2.0 2.4.0: A library to encapsulate CD-ROM reading and control
 dev-libs/libcdio-paranoia 2.0.1 2.0.2: Advanced CDDA reader with error correction
 dev-libs/libcec 7.1.1 8.1.6 8.1.7: Library for communicating with the Pulse-Eight USB HDMI-CEC Adaptor
 dev-libs/libcgroup 3.1.0 3.2.0: Tools and libraries to configure and manage kernel control groups
@@ -9003,7 +9003,7 @@ dev-python/nagiosplugin 1.4.0: A class library for writing nagios-compatible plu
 dev-python/nanobind 2.12.0 2.15.0 3.0.1 3.1.0: Tiny and efficient C++/Python bindings
 dev-python/narwhals 2.24.0 2.25.0 2.26.0: Extremely lightweight compatibility layer between dataframe libraries
 dev-python/natsort 8.4.0: Natural sorting for Python
-dev-python/nautilus-python 4.0.1 4.1.0: Python bindings for the Nautilus file manager
+dev-python/nautilus-python 4.0.1 4.1.0 4.2.0: Python bindings for the Nautilus file manager
 dev-python/nbclassic 1.3.3: Jupyter Notebook as a Jupyter Server Extension
 dev-python/nbclient 0.11.0: A client library for executing Jupyter notebooks
 dev-python/nbconvert 7.17.1: Converting Jupyter Notebooks
@@ -11546,7 +11546,7 @@ games-board/fruit 2.1-r1: UCI-only chess engine
 games-board/gambit 1.0.6: Qt-based chess application + engine "gupta"
 games-board/gmchess 0.29.6-r3: Chinese chess with gtkmm and c++
 games-board/gnome-chess 49.2 50.1: Play the classic two-player boardgame of chess
-games-board/gnome-mahjongg 48.1 49.0.1 49.1.1: Disassemble a pile of tiles by removing matching pairs
+games-board/gnome-mahjongg 49.1.1 51.1: Disassemble a pile of tiles by removing matching pairs
 games-board/gnome-mines 48.1 49.0.1: Clear hidden mines from a minefield
 games-board/gnubg 1.08.003-r1: GNU BackGammon
 games-board/gnuchess 6.2.9-r1: Console based chess interface
@@ -15160,7 +15160,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 26.8.2-r2 26.9.0 26.10.0 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 26.8.2-r2 26.9.0 26.10.0 26.10.0-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15171,7 +15171,7 @@ net-libs/quiche 0.24.1 0.26.1-r1 0.28.0 0.29.0 0.29.1 0.29.2 0.29.3 0.30.0 9999:
 net-libs/qxmpp 1.16.3: Cross-platform C++ XMPP client and server library
 net-libs/rabbitmq-c 0.13.0: RabbitMQ C client
 net-libs/radcli 1.4.0: A simple RADIUS client library
-net-libs/rest 0.9.1-r2 0.10.2: Helper library for RESTful services
+net-libs/rest 0.10.2 0.10.2-r1: Helper library for RESTful services
 net-libs/rpc2 2.37: Remote procedure call package for IP/UDP (used by Coda)
 net-libs/rpcsvc-proto 0-r1 1.4.4 1.4.4-r1: rpcsvc protocol definitions from glibc
 net-libs/rtrlib 0.8.0-r1: An open-source C implementation of the RPKI/Router Protocol client
@@ -17424,7 +17424,7 @@ sys-apps/onerng 3.7-r1: Software for the Open Hardware Random Number Generator c
 sys-apps/opal-utils 7.0: OPAL firmware utilities
 sys-apps/openrazer 3.12.3 3.12.4: Drivers and user-space daemon to control Razer devices on GNU/Linux
 sys-apps/openrc 0.63.3 0.64 0.64.1 9999: OpenRC manages the services, startup and shutdown of a host
-sys-apps/osinfo-db 20250606 20251212: Osinfo database for virtualization provisioning tools
+sys-apps/osinfo-db 20251212 20260812: Osinfo database for virtualization provisioning tools
 sys-apps/osinfo-db-tools 1.11.0-r1 1.12.0-r1: Tools for managing the osinfo database
 sys-apps/pandora_box 0.22.0 0.24.0: Syd's log inspector & profile writer
 sys-apps/paxctl 0.9: Manages various PaX related program header flags for Elf32, Elf64, binaries
