@@ -2823,7 +2823,7 @@ app-misc/go-jira 1.0.28-r1: A simple JIRA commandline client in Go
 app-misc/gojq 0.12.17: Pure Go implementation of jq with yaml support
 app-misc/golly 5.0: Simulator for Conway's Game of Life and other cellular automata
 app-misc/grabcartoons 2.8.5 9999: Comic-summarizing utility
-app-misc/gramps 5.2.3 6.0.1 6.0.4 6.0.8: Community genealogy program aiming to be both intuitive and feature-complete
+app-misc/gramps 5.2.3 6.0.1 6.0.4 6.0.8-r1: Community genealogy program aiming to be both intuitive and feature-complete
 app-misc/graphlcd-base 2.0.3-r3: Contains the lowlevel lcd drivers for GraphLCD
 app-misc/grc 1.13-r1: Generic Colouriser beautifies your logfiles or output of commands
 app-misc/gtk-sunlight 0.4.2-r2: Real-time Sunlight Wallpaper
@@ -3288,7 +3288,7 @@ app-text/flpsed 0.7.3-r1: Pseudo PostScript editor
 app-text/foliate 3.3.0-r1: gtk ebook reader built with gjs
 app-text/fzy 1.1 9999: Fuzzy text selector (interactive grep) for console
 app-text/gentoo-dtd 20230914-r1 20260615 99999999: Document Type Definition for Gentoo-related XML files
-app-text/ghostscript-gpl 10.06.0 10.06.0-r2: Interpreter for the PostScript language and PDF
+app-text/ghostscript-gpl 10.06.0-r2 10.08.0: Interpreter for the PostScript language and PDF
 app-text/grip 4.6.2: Preview GitHub Markdown files like Readme locally before committing them
 app-text/groonga 16.0.1 16.1.0: Embeddable Fulltext Search Engine
 app-text/groonga-normalizer-mysql 1.1.1-r1: Groonga plugin that provides MySQL compatible normalizers
@@ -3379,7 +3379,7 @@ app-text/pandoc 2.18-r2 3: Metapackage for pandoc version 3
 app-text/pandoc-bin 3.10.1 3.10.2 3.11: Conversion between markup formats (binary package)
 app-text/pandoc-cli 0.1.1-r1 3.10: Conversion between documentation formats
 app-text/paper-clip 5.5.2 9999: Edit the title, author, keywords and more details of PDF documents
-app-text/papers 48.5-r1 49.6-r1 50.2: A document viewer for the GNOME desktop
+app-text/papers 50.2 50.3: A document viewer for the GNOME desktop
 app-text/paperwork 2.2.5-r1: a personal document manager for scanned documents (and PDFs)
 app-text/paperwork-backend 2.2.5 2.2.5-r1: Backend part of Paperwork (Python API, no UI)
 app-text/paps 0.8.0: Unicode-aware text to PostScript converter
@@ -5552,7 +5552,7 @@ dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
 dev-libs/elfutils 0.195 0.196-r1 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
-dev-libs/expat 2.8.4 2.8.5: Stream-oriented XML parser library
+dev-libs/expat 2.8.5: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
 dev-libs/fcgi 2.4.1_pre0910052249-r2: FastCGI Developer's Kit
 dev-libs/fddl 20111124-r2: Free Decision Diagram Library
@@ -8288,7 +8288,7 @@ dev-python/agate-sql 0.7.3: Adds SQL read/write support to agate
 dev-python/aiodns 4.0.4: Simple DNS resolver for asyncio
 dev-python/aiofiles 25.1.0: File support for asyncio
 dev-python/aiohappyeyeballs 2.6.2 2.7.1: Happy Eyeballs for pre-resolved hosts
-dev-python/aiohttp 3.13.5 3.14.3: HTTP client/server for asyncio
+dev-python/aiohttp 3.14.3-r1: HTTP client/server for asyncio
 dev-python/aiohttp-cors 0.8.1: Implements CORS support for aiohttp asyncio-powered asynchronous HTTP server
 dev-python/aiohttp-oauthlib 0.1.0: oauthlib for aiohttp clients
 dev-python/aiohttp-socks 0.11.0 0.11.0-r1 0.12.0: SOCKS proxy connector for aiohttp
@@ -8508,7 +8508,7 @@ dev-python/curtsies 0.4.3: Curses-like terminal wrapper, with colored strings
 dev-python/cvxopt 1.3.2 1.3.3: Python package for convex optimization
 dev-python/cwcwidth 0.1.12: Python bindings for wc(s)width
 dev-python/cycler 0.12.1: Composable style cycles
-dev-python/cypari2 2.2.4: Cython interface to PARI
+dev-python/cypari2 2.2.4-r1: Cython interface to PARI
 dev-python/cysignals 1.12.6: Interrupt and signal handling for Cython
 dev-python/cython 3.2.9 3.3.0: A Python to C compiler
 dev-python/cython-test-exception-raiser 26.4.1: A trivial extension that just raises an exception (for testing)
@@ -9920,7 +9920,7 @@ dev-python/yara-python 4.5.4 4.5.5 9999: Python interface for a malware identifi
 dev-python/yarl 1.24.5 1.25.1: Yet another URL library
 dev-python/yaspin 3.5.0 3.5.1: Yet Another Terminal Spinner
 dev-python/yattag 1.16.1: Python library to generate HTML or XML in a readable, concise and pythonic way
-dev-python/yaxmldiff 0.2.0 0.3.0: Yet Another XML Differ
+dev-python/yaxmldiff 0.3.0: Yet Another XML Differ
 dev-python/youtube-search-python 1.6.6-r3: Get YouTube video information using link WITHOUT YouTube Data API v3
 dev-python/yt-dlp-ejs 0.8.0: External JavaScript for yt-dlp supporting many runtimes
 dev-python/ytmusicapi 1.12.2 1.12.3: Unofficial API for YouTube Music
@@ -11057,7 +11057,7 @@ dev-util/icemon 3.3_p20250520: Monitor program for use with Icecream compile clu
 dev-util/imediff 1.1.2.1 3.4.0 3.4.1: 2-way/3-way merge tool (CLI, Ncurses)
 dev-util/include-what-you-use 0.25 0.26: Find unused include directives in C/C++ programs
 dev-util/indent 2.2.13-r1: Indent program source files
-dev-util/intel-graphics-compiler 2.37.1 2.41.9: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
+dev-util/intel-graphics-compiler 2.37.1 2.41.9-r1: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-compiler-bin 1.0.17791.9: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 1.3.1 1.3.2: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
@@ -13180,7 +13180,7 @@ media-gfx/hydrus 637 9999: A booru-like media organizer for the desktop
 media-gfx/icon-slicer 0.3-r1: Utility for generating icon themes and libXcursor cursor themes
 media-gfx/icoutils 0.32.3-r1: Tools to extract and convert images in icon and cursor files (.ico, .cur)
 media-gfx/igal 3.2: Static HTML image gallery generator
-media-gfx/imagemagick 7.1.2.3-r1 7.1.2.5 7.1.2.10 7.1.2.18 7.1.2.31 9999: A collection of tools and libraries for many image formats
+media-gfx/imagemagick 7.1.2.3-r1 7.1.2.5 7.1.2.10 7.1.2.18 7.1.2.31 7.1.2.32 9999: A collection of tools and libraries for many image formats
 media-gfx/imageworsener 1.3.5: Utility for image scaling and processing
 media-gfx/img2pdf 0.4.4-r1 0.5.1 0.6.1 0.6.3: Losslessly convert raster images to PDF
 media-gfx/imv 5.0.1: Minimal image viewer designed for tiling window manager users
@@ -16495,7 +16495,7 @@ sci-mathematics/octave-epstk 2.4: Graphical output functions for Matlab and Octa
 sci-mathematics/opensmt 2.7.0 2.9.2: Compact and open-source SMT-solver written in C++
 sci-mathematics/otter 3.3-r4: An Automated Deduction System
 sci-mathematics/palp 2.21: A Package for Analyzing Lattice Polytopes (PALP)
-sci-mathematics/pari 2.15.5 2.17.1 2.17.2: Computer-aided number theory C library and tools
+sci-mathematics/pari 2.15.5 2.17.1 2.17.4: Computer-aided number theory C library and tools
 sci-mathematics/pari-data 20191216: Additional dataset packages for PARI
 sci-mathematics/petsc 3.22.2 3.23.3 3.23.4 3.24.5 3.25.1: Portable, Extensible Toolkit for Scientific Computation
 sci-mathematics/picosat 965: SAT solver with proof and core support
@@ -17534,7 +17534,7 @@ sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. re
 sys-apps/watchdog 5.16-r1: A software watchdog and /dev/watchdog daemon
 sys-apps/which 2.23: Prints out location of specified executables that are in your path
 sys-apps/x86info 1.31: Dave Jones' handy, informative x86 CPU diagnostic utility
-sys-apps/xdg-dbus-proxy 0.1.7 0.1.8: Filtering proxy for D-Bus connections
+sys-apps/xdg-dbus-proxy 0.1.8: Filtering proxy for D-Bus connections
 sys-apps/xdg-desktop-portal 1.20.4-r1: Desktop integration portal
 sys-apps/xdg-desktop-portal-gnome 49.0 50.0: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xdg-desktop-portal-gtk 1.14.1 1.15.2 1.15.3: Backend implementation for xdg-desktop-portal using GTK+
@@ -17781,7 +17781,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18711,7 +18711,7 @@ x11-libs/libpciaccess 0.19: Library providing generic access to the PCI bus and 
 x11-libs/libtinynotify 0.2.1: A lightweight implementation of Desktop Notification Spec
 x11-libs/libtinynotify-cli 1.2.1-r1: Common CLI routines for tinynotify-send & sw-notify-send
 x11-libs/libvdpau 1.5: VDPAU wrapper and trace libraries
-x11-libs/libwnck 43.2 43.3: A window navigation construction kit
+x11-libs/libwnck 43.3: A window navigation construction kit
 x11-libs/libxcb 1.17.0: X C-language Bindings library
 x11-libs/libxcvt 0.1.3 9999: X.Org xcvt library and cvt program
 x11-libs/libxkbcommon 1.13.2: Keymap handling library for toolkits and window systems
