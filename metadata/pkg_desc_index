@@ -16348,7 +16348,7 @@ sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library ba
 sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
-sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r1: C++ library for netCDF
+sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r2: C++ library for netCDF
 sci-libs/netcdf-fortran 4.5.4-r1 4.6.4: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3-r1: library for nonequispaced discrete Fourier transformations
 sci-libs/nlopt 2.7.1-r100 2.10.0-r1 2.10.1 2.11.0: Non-linear optimization library
@@ -17972,7 +17972,7 @@ sys-kernel/gentoo-kernel 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18
 sys-kernel/gentoo-kernel-bin 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.51 6.18.52 6.18.53 6.18.54 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8: Full sources including the Gentoo patchset for the 7.2 kernel tree
-sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4 7.3_rc5: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel script from debianutils
