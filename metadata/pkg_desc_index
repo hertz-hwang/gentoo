@@ -3908,7 +3908,7 @@ dev-cpp/argparse 2.9 3.0 3.2: Argument Parser for Modern C++
 dev-cpp/asio 1.30.2 1.34.2 1.36.0 1.38.0: Asynchronous Network Library
 dev-cpp/atkmm 2.28.4 2.36.3: C++ interface for the ATK library
 dev-cpp/aws-crt-cpp 0.35.4 0.42.3 0.43.6 0.43.7: C++ wrapper around the aws-c-* libraries
-dev-cpp/aws-sdk-cpp 1.11.712 1.11.764 1.11.887: AWS SDK for C++
+dev-cpp/aws-sdk-cpp 1.11.712 1.11.764 1.11.887 1.11.901: AWS SDK for C++
 dev-cpp/azure-core 1.16.1 1.16.2 1.16.3: Azure SDK for C++
 dev-cpp/azure-identity 1.13.2 1.13.3: Azure SDK for C++
 dev-cpp/azure-security-keyvault-certificates 4.2.1: Azure SDK for C++
@@ -12265,7 +12265,7 @@ gui-apps/xwaylandvideobridge 0.5.2-r1 0.5.3: Screenshare Wayland windows to XWay
 gui-libs/amtk 5.6.1: Actions, Menus and Toolbars Kit for GTK+ applications
 gui-libs/display-manager-init 1.1.2-r3: RC init files for starting display and login managers
 gui-libs/egl-gbm 1.1.3 1.1.4: NVIDIA GBM EGL external platform library
-gui-libs/egl-wayland 1.1.21 1.1.22: NVIDIA wayland EGL external platform library
+gui-libs/egl-wayland 1.1.21 1.1.22 1.1.23: NVIDIA wayland EGL external platform library
 gui-libs/egl-wayland2 1.0.1 1.0.2: NVIDIA wayland EGL external platform library, version 2
 gui-libs/egl-x11 1.0.5 1.0.6: NVIDIA X11/XCB EGL external platform library
 gui-libs/eglexternalplatform 1.2.1: EGL External Platform interface
@@ -14443,6 +14443,7 @@ media-video/ffcast 2.4.8: Record screencasts using ffmpeg
 media-video/ffmpeg 4.4.8 6.1.6 7.1.5 8.1.2 8.1.3 9.0.2 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 140 142 145 148 150 150.0.7871.124 151 152: FFmpeg built specifically for codec support in Chromium-based browsers
 media-video/ffmpeg-compat 4.4.8 6.1.6 7.1.5 8.1.2 8.1.3: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg-soc-udev-rules 0: Common udev rules for ffmpeg and ffmpeg-compat with USE=soc
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
@@ -14524,7 +14525,7 @@ media-video/tsmuxer 2.7.0: Utility to create and demux TS and M2TS files
 media-video/ttcut 0.19.6_p2-r1: Tool for cutting MPEG files especially for removing commercials
 media-video/untrunc 0_pre20260605 0_pre20260820: Restore truncated mp4/mov files
 media-video/ushare 2.1_p20250817: uShare is a UPnP (TM) A/V & DLNA Media Server
-media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 9999: v4l2 loopback device whose output is its own input
+media-video/v4l2loopback 0.13.1 0.15.0 0.15.1 0.15.3 0.15.4 9999: v4l2 loopback device whose output is its own input
 media-video/vamps 0.99.2-r2: Very fast requantisizing tool for backup DVDs
 media-video/vcdimager 2.0.1-r1 2.0.1-r2: GNU VCDimager
 media-video/vcsi 7.0.17: Create thumbnail sheets from video files
@@ -14963,7 +14964,7 @@ net-im/slack 4.50.143 4.51.180 4.51.191: Team collaboration tool
 net-im/spectrum2 2.2.1_p20260727-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/synapse 1.152.1 1.155.0 1.156.0: Reference implementation of Matrix homeserver
-net-im/talk-desktop-bin 2.1.1 2.1.2 2.2.0 2.2.1 2.2.3 2.2.4: Nextcloud Talk Desktop client
+net-im/talk-desktop-bin 2.2.3 2.2.4 2.3.2: Nextcloud Talk Desktop client
 net-im/telegram-desktop 7.0.2 7.0.9 7.1.2: Official desktop client for Telegram
 net-im/telegram-desktop-bin 7.1.3 7.1.5: Official desktop client for Telegram (binary package)
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -15160,7 +15161,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.1 26.8.2 26.8.2-r1 26.8.2-r2 26.9.0 26.10.0 26.10.0-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.2-r2 26.9.0 26.10.0 26.10.0-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15283,7 +15284,7 @@ net-mail/ytnef 2.1.2: Yeraze's TNEF Stream Reader - for winmail.dat files
 net-misc/adjtimex 1.29-r4: Display or set the kernel time variables
 net-misc/aget 0.4.1-r2: multithreaded HTTP download accelerator
 net-misc/aggregate 1.6: Perform two optimisations on a list of prefixes to reduce the length of the list
-net-misc/anydesk 7.1.4 8.0.4-r1: Feature rich multi-platform remote desktop application
+net-misc/anydesk 7.1.4 8.0.4-r1 8.1.0: Feature rich multi-platform remote desktop application
 net-misc/apt-cacher-ng 3.7.4_p1-r2 9999: Yet another caching HTTP proxy for Debian/Ubuntu software packages
 net-misc/aria2 1.37.0: A download utility with segmented downloading with BitTorrent support
 net-misc/arpsponge 3.17.11-r1: Sweeps up stray ARP queries from a peering LAN
@@ -15525,7 +15526,7 @@ net-misc/sgopherd 18.08: Small Gopher Server written in GNU Bash
 net-misc/shigofumi 0.9-r1 9999: Command line client for ISDS
 net-misc/shmux 1.0.3: run the same command across many hosts in parallel
 net-misc/sipcalc 1.1.6-r1: Advanced console-based IPv4/IPv6 subnet calculator
-net-misc/sipp 3.7.5 3.7.7: A free Open Source test tool / traffic generator for the SIP protocol
+net-misc/sipp 3.7.5 3.7.7 3.7.8: A free Open Source test tool / traffic generator for the SIP protocol
 net-misc/sipsak 0.9.8.1_p20230215: Small command line tool for testing SIP applications and devices
 net-misc/sitecopy 0.16.6-r4: Maintain remote web sites with ease
 net-misc/sks 1.1.6_p20200624-r3: An OpenPGP keyserver which is decentralized with highly reliable synchronization
@@ -15707,7 +15708,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 3.0.5 3.0.14 3.0.26 3.0.27 3.0.28 3.0.9999 3.2.9 3.2.22 3.2.23 3.2.24 3.2.9999 3.4.3 3.4.4 3.4.5 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.14 3.0.26 3.0.27 3.0.28 3.0.9999 3.2.9 3.2.22 3.2.23 3.2.24 3.2.9999 3.4.3 3.4.4 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -16348,7 +16349,7 @@ sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library ba
 sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
-sci-libs/netcdf-cxx 4.2-r301 4.3.1 4.3.1-r2: C++ library for netCDF
+sci-libs/netcdf-cxx 4.2-r301 4.3.1-r2: C++ library for netCDF
 sci-libs/netcdf-fortran 4.5.4-r1 4.6.4: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3-r1: library for nonequispaced discrete Fourier transformations
 sci-libs/nlopt 2.7.1-r100 2.10.0-r1 2.10.1 2.11.0: Non-linear optimization library
@@ -18432,21 +18433,21 @@ www-client/firefox-bin 140.16.0 153.3.0 156.0 156.0.1: Firefox Web Browser
 www-client/firefox-l10n 153.3.0 156.0 156.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 151.0.7922.108 151.0.7922.137 154.0.8037.57: The web browser from Google
 www-client/google-chrome-beta 151.0.7922.47 152.0.7977.30 155.0.8059.12: The web browser from Google
-www-client/google-chrome-unstable 153.0.7993.0 155.0.8040.2 156.0.8063.3: The web browser from Google
+www-client/google-chrome-unstable 155.0.8040.2 156.0.8063.3 156.0.8072.0: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
 www-client/links 2.30-r2 2.30-r3: A fast and lightweight web browser running in both graphics and text mode
 www-client/luakit 2.3.6 2.4.0: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
-www-client/microsoft-edge 153.0.4234.48: The web browser from Microsoft
-www-client/microsoft-edge-beta 154.0.4258.24 154.0.4258.32 155.0.4283.13: The web browser from Microsoft
+www-client/microsoft-edge 154.0.4258.37: The web browser from Microsoft
+www-client/microsoft-edge-beta 154.0.4258.32 155.0.4283.13 155.0.4283.18: The web browser from Microsoft
 www-client/microsoft-edge-dev 155.0.4268.0 155.0.4273.0 156.0.4285.0: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11-r1 9999: A free, open source web browser
-www-client/opera 135.0.5973.133-r1: A fast and secure web browser
+www-client/opera 136.0.6008.52: A fast and secure web browser
 www-client/opera-beta 124.0.5705.51 126.0.5750.11 126.0.5750.30: A fast and secure web browser
-www-client/opera-developer 137.0.6010.1-r1 137.0.6015.0-r1 137.0.6022.0: A fast and secure web browser
-www-client/opera-gx 135.0.5973.94 135.0.5973.126 135.0.5973.135: Opera, but for 'gamers'
+www-client/opera-developer 137.0.6015.0-r1 137.0.6022.0 137.0.6029.0: A fast and secure web browser
+www-client/opera-gx 135.0.5973.126 135.0.5973.135 135.0.5973.153: Opera, but for 'gamers'
 www-client/pybugz 0.14 0.15 9999: Command line interface to (Gentoo) Bugzilla
 www-client/qutebrowser 3.6.3 3.7.0 9999: Keyboard-driven, vim-like browser based on Python and Qt
 www-client/seamonkey 2.53.23 2.53.24: Seamonkey Web Browser
@@ -18454,8 +18455,8 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.5-r1: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 2.2.3-r1 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 8.2.4133.52 8.2.4133.55: A browser for our friends
-www-client/vivaldi-snapshot 8.2.4133.43 8.3.4157.3: A browser for our friends
+www-client/vivaldi 8.2.4133.64 8.2.4133.68: A browser for our friends
+www-client/vivaldi-snapshot 8.3.4161.3 8.3.4171.3: A browser for our friends
 www-client/w3m 0.5.3_p20240916 0.5.6: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r13: A variant of w3m with support for multiple character encodings
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
@@ -18501,7 +18502,7 @@ www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
 www-nginx/njs 0.9.9 1.0.1: A subset of JavaScript language to use in NGINX
 www-plugins/browserpass 3.1.2 3.1.2-r1: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 151.0.7922.47_beta 151.0.7922.108 151.0.7922.137 152.0.7977.30_beta 153.0.7993.0_alpha 154.0.8037.57 155.0.8040.2_alpha 155.0.8059.12_beta 156.0.8063.3_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 151.0.7922.47_beta 151.0.7922.108 151.0.7922.137 152.0.7977.30_beta 154.0.8037.57 155.0.8040.2_alpha 155.0.8059.12_beta 156.0.8063.3_alpha 156.0.8072.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.9.0: High performance flash player
 www-plugins/passff-host 1.2.4 1.2.5: Host app for the PassFF WebExtension
 www-plugins/pdfjs 4.5.136 4.9.155 4.10.38 5.0.375: A PDF reader in JavaScript
