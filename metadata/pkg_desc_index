@@ -1436,7 +1436,7 @@ app-crypt/asedriveiiie-serial 3.5: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.5: ASEDriveIIIe USB Card Reader
 app-crypt/asekey 3.7-r1: ASEKey USB SIM Card Reader
 app-crypt/autofirma-bin 1.9.0: Spanish government certificate and digital signature manager
-app-crypt/badkeys 0.0.18 0.0.19 0.0.20: Check cryptographic keys for known weaknesses
+app-crypt/badkeys 0.0.18 0.0.19 0.0.20 0.0.21: Check cryptographic keys for known weaknesses
 app-crypt/bcwipe 1.9.13: Secure file removal utility
 app-crypt/bsign 0.4.5-r1: embed secure hashes (SHA1) and digital signatures (GNU Privacy Guard) into files
 app-crypt/ccid 1.6.1 1.7.0 1.7.1 1.8.3: CCID free software driver
@@ -1470,7 +1470,7 @@ app-crypt/freepg 2.5.20 2.5.21: Cross-distro GnuPG fork focused on OpenPGP compl
 app-crypt/gcr 3.41.2-r2 4.4.0.1-r1 4.4.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
-app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -3169,7 +3169,7 @@ app-shells/loksh 7.8: Linux port of OpenBSD's ksh
 app-shells/mcfly 0.5.13-r1 0.9.0-r1 0.9.3: Context-aware bash history search replacement (ctrl-r)
 app-shells/mksh 59c 9999: MirBSD Korn Shell
 app-shells/mpibash 1.5 9999: Parallel scripting right from the Bourne-Again Shell (Bash)
-app-shells/nushell 0.110.0 0.113.0 0.114.0 0.115.1: A new type of shell, written in Rust
+app-shells/nushell 0.110.0 0.114.0 0.115.1 0.116.0: A new type of shell, written in Rust
 app-shells/pdmenu 1.3.6 1.3.6-r1 1.3.6-r2: A simple console menu program
 app-shells/pdsh 2.34-r2 2.35: A high-performance, parallel remote shell utility
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
@@ -5940,7 +5940,7 @@ dev-libs/pthreadpool 2023.08.29: Portable and efficient thread pool implementati
 dev-libs/pugixml 1.15 1.16 9999: Light-weight, simple, and fast XML parser for C++ with XPath support
 dev-libs/qcoro 0.13.0: C++ Coroutine Library for Qt
 dev-libs/qcustomplot 2.1.1-r10: Qt C++ widget for plotting and data visualization
-dev-libs/qgpgme 2.0.0-r2 2.1.0 2.2.0: GnuPG Made Easy is a library for making GnuPG easier to use (Qt bindings)
+dev-libs/qgpgme 2.0.0-r2 2.1.0 2.2.0-r1: GnuPG Made Easy is a library for making GnuPG easier to use (Qt bindings)
 dev-libs/qhotkey 1.5.0-r1: A global shortcut/hotkey library for desktop Qt applications
 dev-libs/qqwing 1.3.4-r1: Sudoku puzzle generator and solver
 dev-libs/qr-code-generator 1.8.0 1.8.0-r1: QR Code Generator Library in Multiple Languages
@@ -12680,7 +12680,7 @@ kde-plasma/plasma-workspace-wallpapers 6.6.6-r1 6.7.5: Wallpapers for the Plasma
 kde-plasma/plasma5support 6.6.6-r1 6.7.5: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.6.6-r1 6.7.5: KDE Plasma control module for Plymouth
 kde-plasma/polkit-kde-agent 6.6.6-r1 6.7.5: PolKit agent module for KDE Plasma
-kde-plasma/powerdevil 6.6.6-r2 6.7.5-r1 6.7.5-r2: Power management for KDE Plasma Shell
+kde-plasma/powerdevil 6.6.6-r2 6.7.5-r3: Power management for KDE Plasma Shell
 kde-plasma/print-manager 6.6.6-r1 6.7.5: Manage CUPS print jobs and printers in Plasma
 kde-plasma/qqc2-breeze-style 6.6.6-r1 6.7.5: Breeze inspired QQC2 Style
 kde-plasma/sddm-kcm 6.6.6-r1 6.7.5: KDE Plasma control module for SDDM
@@ -14322,7 +14322,7 @@ media-sound/sndfile-tools 1.5 9999: Small collection of programs that use libsnd
 media-sound/sndio 1.10.0 9999: Small audio and MIDI framework part of the OpenBSD project
 media-sound/sndpeek 1.41-r1: real-time audio visualization
 media-sound/solfege 3.23.4-r1: GNU program to help practicing ear training
-media-sound/sonata 1.7.0-r1 1.7.2 1.7.3: Elegant GTK+ music client for the Music Player Daemon (MPD)
+media-sound/sonata 1.7.3 1.7.3-r1: Elegant GTK+ music client for the Music Player Daemon (MPD)
 media-sound/sonic-visualiser 5.2.1: Music audio files viewer and analyser
 media-sound/sooperlooper 1.7.8_p2-r2 1.7.8_p3: Live looping sampler with immediate loop recording
 media-sound/sound-juicer 3.40.0-r1: CD ripper for GNOME
@@ -15161,7 +15161,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.2-r2 26.9.0 26.10.0 26.10.0-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.2 24.14.0 24.19.0 24.21.0 26.3.0 26.8.2-r2 26.9.0 26.10.0 26.10.0-r1 26.10.0-r2 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15708,7 +15708,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 3.0.5 3.0.14 3.0.26 3.0.27 3.0.28 3.0.9999 3.2.9 3.2.22 3.2.23 3.2.24 3.2.9999 3.4.3 3.4.4 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.14 3.0.26 3.0.27 3.0.29 3.0.9999 3.2.9 3.2.22 3.2.23 3.2.25 3.2.9999 3.4.3 3.4.4 3.4.6 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -16349,7 +16349,7 @@ sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library ba
 sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
-sci-libs/netcdf-cxx 4.2-r301 4.3.1-r2: C++ library for netCDF
+sci-libs/netcdf-cxx 4.2-r301 4.3.1-r3: C++ library for netCDF
 sci-libs/netcdf-fortran 4.5.4-r1 4.6.4: Scientific library and interface for array oriented data access
 sci-libs/nfft 3.5.3-r1: library for nonequispaced discrete Fourier transformations
 sci-libs/nlopt 2.7.1-r100 2.10.0-r1 2.10.1 2.11.0: Non-linear optimization library
@@ -18428,9 +18428,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1 50.6: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3 26.08.1: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 140.16.0 153.3.0 156.0 156.0.1: Firefox Web Browser
-www-client/firefox-bin 140.16.0 153.3.0 156.0 156.0.1: Firefox Web Browser
-www-client/firefox-l10n 153.3.0 156.0 156.0.1: Firefox Web Browser's translation files
+www-client/firefox 140.16.0 153.3.0 156.0 156.0.1 157.0: Firefox Web Browser
+www-client/firefox-bin 140.16.0 153.3.0 153.4.0 156.0 156.0.1 157.0: Firefox Web Browser
+www-client/firefox-l10n 153.3.0 156.0 156.0.1 157.0: Firefox Web Browser's translation files
 www-client/google-chrome 151.0.7922.108 151.0.7922.137 154.0.8037.57: The web browser from Google
 www-client/google-chrome-beta 151.0.7922.47 152.0.7977.30 155.0.8059.12: The web browser from Google
 www-client/google-chrome-unstable 155.0.8040.2 156.0.8063.3 156.0.8072.0: The web browser from Google
