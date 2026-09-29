@@ -1269,7 +1269,7 @@ app-backup/dar 2.8.5 2.8.6: A full featured backup tool, aimed for disks
 app-backup/deja-dup 44.2 48.4: Simple backup tool using duplicity back-end
 app-backup/dirvish 1.2.1-r1: Dirvish is a fast, disk based, rotating network backup system
 app-backup/duplicati 2.2.0.1.2025.11.09: Backup client that securely stores encrypted, incremental, compressed backups
-app-backup/duplicity 3.0.7 3.1.0 3.2.0 3.2.0.1 9999: Secure backup system using GnuPG to encrypt data
+app-backup/duplicity 3.0.7 3.1.0 3.2.0 3.2.0.1 3.2.1 9999: Secure backup system using GnuPG to encrypt data
 app-backup/duply 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.9: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
@@ -1862,7 +1862,7 @@ app-editors/mousepad 0.6.5-r2 0.7.0: GTK+-based editor for the Xfce Desktop Envi
 app-editors/nano 8.7.1 9.0 9.1 9.2 9999: GNU GPL'd Pico clone with more functionality
 app-editors/ne 3.3.3: The nice editor, easy to use for the beginner and powerful for the wizard
 app-editors/nedit 5.7-r1 5.8: Multi-purpose text editor for the X Window System
-app-editors/neovim 0.11.7-r1 0.12.0-r1 0.12.4-r1 0.12.5-r1 9999: Vim-fork focused on extensibility and agility
+app-editors/neovim 0.11.7-r1 0.12.0-r1 0.12.4-r1 0.12.5-r1 0.12.5-r2 9999: Vim-fork focused on extensibility and agility
 app-editors/ng 1.5_beta1-r3: Emacs like micro editor Ng -- based on mg2a
 app-editors/okteta 0.26.60_pre20260628: Hex editor by KDE
 app-editors/padre 1.0.0-r4: Perl Application Development and Refactoring Environment
@@ -2598,7 +2598,7 @@ app-i18n/librime 1.16.1 1.17.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
 app-i18n/libskk 1.1.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
 app-i18n/man-pages-ja 20260815 20260915: Collection of manual pages translated into Japanese
-app-i18n/man-pages-l10n 4.31.0: A somewhat comprehensive collection of man page translations
+app-i18n/man-pages-l10n 4.31.0 4.32.2: A somewhat comprehensive collection of man page translations
 app-i18n/man-pages-ru 5.03.2390.2390.20191017-r1: A collection of Russian translations of Linux manual pages
 app-i18n/man-pages-zh_CN 1.6.4.2-r1: A somewhat comprehensive collection of Chinese Linux man pages
 app-i18n/mecab-skkserv 0.03-r1: mecab-skkserv is a Kana-Kanji conversion server using MeCab
@@ -5623,7 +5623,7 @@ dev-libs/kdiagram 3.0.1: Powerful libraries (KChart, KGantt) for creating busine
 dev-libs/kdsingleapplication 1.2.1: KDAB's helper class for single-instance policy applications
 dev-libs/keybinder 0.3.2-r300: A library for registering global keyboard shortcuts
 dev-libs/keystone 0.9.2-r3 0.9.2-r4 9999: assembly/assembler framework + bindings
-dev-libs/kirigami-addons 1.12.1 1.13.1 1.14.1: Visual end user components for Kirigami-based applications
+dev-libs/kirigami-addons 1.12.1 1.13.1 1.14.2: Visual end user components for Kirigami-based applications
 dev-libs/kirigami-app-components 1.0.2: Kirigami addons and modules necessary to do a full featured KDE application
 dev-libs/kopeninghours 26.04.3 26.08.1: Library for parsing and evaluating OSM opening hours expressions
 dev-libs/kosmindoormap 26.04.3 26.08.1: Data Model and Extraction System for Travel Reservation information
@@ -6014,9 +6014,9 @@ dev-libs/tree-sitter-jsdoc 0.19.0 0.25.0: JSDoc grammar for Tree-sitter
 dev-libs/tree-sitter-json 0.23.0 0.24.8: JSON grammar for Tree-sitter
 dev-libs/tree-sitter-julia 0.22.0 0.23.1 0.25.0: Julia grammar for Tree-sitter
 dev-libs/tree-sitter-lua 0.3.0 0.4.0 0.4.1 0.5.0: Lua grammar for Tree-sitter
-dev-libs/tree-sitter-markdown 0.4.1 0.5.0 0.5.1 0.5.2 0.5.3: Markdown grammar for Tree-sitter
+dev-libs/tree-sitter-markdown 0.4.1 0.5.0 0.5.1 0.5.2 0.5.3 0.5.3-r1: Markdown grammar for Tree-sitter
 dev-libs/tree-sitter-markdown-inline 0.2.3 0.2.3-r1 0.3.2 0.3.2-r1 0.5.3: Markdown-inline grammar for Tree-sitter
-dev-libs/tree-sitter-meta 1-r5: Metapackage for Tree Sitter packages
+dev-libs/tree-sitter-meta 1-r5 1-r6: Metapackage for Tree Sitter packages
 dev-libs/tree-sitter-ocaml 0.20.4 0.23.2 0.24.0 0.24.2 0.25.0: OCaml grammar for Tree-sitter
 dev-libs/tree-sitter-php 0.23.2 0.23.12 0.24.2: PHP grammar for Tree-sitter
 dev-libs/tree-sitter-phpdoc 0.1.8: PHPDoc grammar for Tree-sitter
@@ -6035,6 +6035,7 @@ dev-libs/tree-sitter-typescript 0.23.0 0.23.2: TypeScript grammar for Tree-sitte
 dev-libs/tree-sitter-unison 2.1.3: Unison programming language grammar for Tree-sitter
 dev-libs/tree-sitter-vim 0.4.0 0.5.0 0.6.0 0.7.0 0.8.1: Vimscript grammar for Tree-sitter
 dev-libs/tree-sitter-vimdoc 3.0.0 3.0.1 4.0.0 4.1.0: Vimdoc grammar for Tree-sitter
+dev-libs/tree-sitter-xml 0.7.0: HTML grammar for Tree-sitter
 dev-libs/trio 1.17.1: Portable string functions, focus on the *printf() and *scanf() clones
 dev-libs/tvision 2.2.3 2.2.3-r1: Text User Interface that implements the well known CUA widgets
 dev-libs/tvmet 1.7.2-r2 1.7.2-r3: Tiny Vector Matrix library using Expression Templates
@@ -10979,7 +10980,7 @@ dev-util/devhelp 43.0: An API documentation browser for GNOME
 dev-util/dialog 1.3.20250116-r1 1.3.20250817: Tool to display dialog boxes from a shell
 dev-util/diff-cover 9.6.0: Find diff lines that do not have test coverage
 dev-util/diffball 1.0.1-r2: Delta compression suite for using/generating binary patches
-dev-util/diffoscope 325 327 329: Will try to get to the bottom of what makes files or directories different
+dev-util/diffoscope 325 327 329 332: Will try to get to the bottom of what makes files or directories different
 dev-util/diffstat 1.68 1.69: Display a histogram of diff changes
 dev-util/difftastic 0.68.0 0.69.0 0.71.0: A structural diff that understands syntax
 dev-util/diffuse 0.10.0 0.11.0: A graphical tool to compare and merge text files
@@ -11269,7 +11270,7 @@ dev-vcs/darcs 2.16.5-r6 2.18.5: a distributed, interactive, smart revision contr
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.26 2.27: Simple, high-reliability, source control management, and more
 dev-vcs/gagit 4: Gentoo AGit workflow tool
-dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 2.56.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
 dev-vcs/git-big-picture 1.3.0 1.3.0-r1: Visualization tool for Git repositories
@@ -13150,7 +13151,6 @@ media-gfx/fotema 2.4.1: Photo gallery for Linux
 media-gfx/fotocx 26.2-r1 26.8: Program for improving image files made with a digital camera
 media-gfx/fotowall 1.0_p20241107: Qt tool for creating wallpapers
 media-gfx/freecad 1.0.2-r2 1.1.1 1.1.3 9999: Qt based Computer Aided Design application
-media-gfx/freepv 0.3.0-r6: Panorama viewer (Quicktime, PangeaVR, GLPanoView formats)
 media-gfx/frogr 1.8.1-r1: flickr applications for GNOME
 media-gfx/geeqie 2.6.1-r1 2.6.1-r2 9999: A lightweight GTK image viewer forked from GQview
 media-gfx/gif2png 2.5.14 3.0.5: Converts images from GIF format to PNG format
@@ -14391,7 +14391,7 @@ media-tv/gentoo-vdr-scripts 3.0_rc2-r1: Scripts necessary for use of VDR as a se
 media-tv/gtk-v4l 0.4-r1: A GTK+ application for controlling V4L preferences of a web cam device
 media-tv/ivtv-utils 1.4.1-r1: IVTV utilities for Hauppauge PVR PCI cards
 media-tv/ivtvplayer 0.1.3-r3: Simple IVTV command line TV and radio player with support of LIRC
-media-tv/kodi 21.3 21.9999 22.0_alpha3 22.0_beta1 9999: A free and open source media-player and entertainment hub
+media-tv/kodi 21.3 21.9999 22.0_beta1 22.0_rc1 9999: A free and open source media-player and entertainment hub
 media-tv/linuxtv-dvb-apps 1.1.1.20140321-r2: Small utils for DVB to scan, zap, view signal strength
 media-tv/mythtv 35.0_p20251230 36.0_p20260819: Open Source DVR and media center hub
 media-tv/mythtv-status 1.1.0: Displays the current status of MythTV at the command prompt
@@ -14534,7 +14534,7 @@ media-video/videotrans 1.6.1-r2: A package to convert movies to DVD format and t
 media-video/vlc 3.0.23-r1 3.0.24 3.0.9999 4.0.0_pre20260625 9999: Media player and framework with support for most multimedia files and streaming
 media-video/vobcopy 1.2.1: Copies DVD .vob files to harddisk, decrypting them on the way
 media-video/webcamoid 9.2.3 9999: Full featured webcam capture application
-media-video/wireplumber 0.5.15 0.5.17 9999: Replacement for pipewire-media-session
+media-video/wireplumber 0.5.15 0.5.17 0.5.18 9999: Replacement for pipewire-media-session
 media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X264/AVC streams
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
@@ -17926,7 +17926,7 @@ sys-fs/multipath-tools 0.14.3: Device mapper target autoconfig
 sys-fs/ncdu 1.22 2.9.1 2.9.2: NCurses Disk Usage
 sys-fs/ncdu-bin 2.9.1: NCurses Disk Usage
 sys-fs/nilfs-utils 2.2.9: A New Implementation of a Log-structured File System for Linux
-sys-fs/ntfs3g 2026.2.25 2026.7.7 2026.9.18-r1: Open source read-write NTFS driver that runs under FUSE
+sys-fs/ntfs3g 2026.2.25 2026.7.7 2026.9.18-r1 2026.9.28: Open source read-write NTFS driver that runs under FUSE
 sys-fs/progsreiserfs 0.3.1_rc8-r1: Library for accessing and manipulating reiserfs partitions
 sys-fs/quota 4.09-r1 4.10 4.11: Linux quota tools
 sys-fs/quotatool 1.6.5: Command-line utility for filesystem quotas
@@ -17935,7 +17935,6 @@ sys-fs/reiserfs-defrag 0.2.3: Small defragmentation tool for reiserfs
 sys-fs/reiserfsprogs 3.6.27-r2: Reiserfs Utilities
 sys-fs/safecopy 1.7-r1: Tool for fault-tolerant data recovery from damaged (IO-errors) devices or files
 sys-fs/sanoid 2.3.0-r1 2.3.0-r2 9999: Policy-driven snapshot management and replication tools for OpenZFS
-sys-fs/shake 1.0: Defragmenter that runs in userspace while the system is used
 sys-fs/simple-mtpfs 0.4.0-r1: Simple MTP fuse filesystem driver
 sys-fs/snapraid 14.6: Backup program with disk array for cold data on existing filesystems
 sys-fs/squashfs-tools 4.7.5: Tools to create and extract Squashfs filesystems
@@ -18008,7 +18007,7 @@ sys-libs/fortify-headers 1.1 9999: Standalone implementation of fortify source
 sys-libs/freeipmi 1.6.18 1.6.19: Provides Remote-Console and System Management Software as per IPMI v1.5/2.0
 sys-libs/fts-standalone 1.2.7 1.2.7-r1: Standalone fts library for use with musl
 sys-libs/gdbm 1.24 1.25 1.26: Standard GNU database libraries
-sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r7 2.43-r2 2.43-r4 2.43.9999 2.44-r2 2.44-r3 2.44.9999 9999: GNU libc C library
+sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r7 2.43-r2 2.43-r4 2.43-r5 2.43.9999 2.44-r2 2.44-r3 2.44.9999 9999: GNU libc C library
 sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.14.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 26.04.3 26.08.1: Library for managing partitions
