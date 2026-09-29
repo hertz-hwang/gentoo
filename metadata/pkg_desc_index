@@ -1566,7 +1566,7 @@ app-crypt/tpm2-tss 4.1.3-r2 4.1.4 4.2.0: TCG Trusted Platform Module 2.0 Softwar
 app-crypt/trousers 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
 app-crypt/uacme 1.8.1: A client for the RFC8555 ACMEv2 protocol
 app-crypt/ubuntu-keyring 2023.11.28.1 2026.08.18: GnuPG archive keys of the Ubuntu archive
-app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r1: Disk encryption with strong security based on TrueCrypt
+app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r2: Disk encryption with strong security based on TrueCrypt
 app-crypt/xca 2.8.0 2.9.0 2.9.0-r1: A GUI to OpenSSL, RSA public keys, certificates, signing requests etc
 app-crypt/xor-analyze 0.5-r1: Program for cryptanalyzing xor 'encryption' with variable key length
 app-crypt/yubihsm-connector 3.0.7: Server to expose YubiHSM 2 to network
@@ -3120,7 +3120,7 @@ app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 85 86 87 88: Handy scripts for ebuild development and more
-app-portage/mirrorselect 2.6.4 2.7.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
+app-portage/mirrorselect 2.6.4 2.7.0 2.8.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
@@ -5820,7 +5820,7 @@ dev-libs/libtpms 0.10.2: Library providing software emulation of a TPM
 dev-libs/libtracecmd 1.5.2 1.5.3 1.5.5: Linux kernel tracecmd library
 dev-libs/libtraceevent 1.8.3 1.8.4 1.8.6 1.8.7 1.9.0: Linux kernel trace event library
 dev-libs/libtracefs 1.8.1 1.8.2 1.8.3: Linux kernel trace file system library
-dev-libs/libtsm 4.3.0 4.4.3 4.5.0 4.6.0 4.7.0 4.7.1: Terminal Emulator State Machine
+dev-libs/libtsm 4.3.0 4.4.3 4.5.0 4.6.0 4.7.0 4.7.1 4.8.0: Terminal Emulator State Machine
 dev-libs/libucl 0.9.2 9999: Universal configuration library parser
 dev-libs/libudfread 1.1.2 1.2.0-r1 9999: Library for reading UDF from raw devices and image files
 dev-libs/libuev 2.4.1: Lightweight event loop library for Linux epoll() family APIs
@@ -5911,7 +5911,7 @@ dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transfe
 dev-libs/openpace 1.1.3 1.1.4: Cryptographic library for EAC version 2
 dev-libs/opensc 0.27.1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
-dev-libs/openssl 3.0.21 3.0.22 3.0.9999 3.4.6 3.4.7 3.4.9999 3.5.7 3.5.8 3.5.9999 3.6.3 3.6.4 3.6.9999 4.0.1 4.0.2 4.0.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
+dev-libs/openssl 3.0.21 3.0.22 3.0.9999 3.4.6 3.4.7 3.4.8 3.4.9999 3.5.7 3.5.8 3.5.9 3.5.9999 3.6.3 3.6.4 3.6.5 3.6.9999 4.0.1 4.0.2 4.0.3 4.0.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 3.6.2 3.6.4: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/optix 7.4.0 7.5.0 8.1.0-r1 9.0.0-r1: NVIDIA Ray Tracing Engine
 dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8 1.6.6: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
@@ -5942,7 +5942,7 @@ dev-libs/qgpgme 2.0.0-r2 2.1.0 2.2.0-r1: GnuPG Made Easy is a library for making
 dev-libs/qhotkey 1.5.0-r1: A global shortcut/hotkey library for desktop Qt applications
 dev-libs/qqwing 1.3.4-r1: Sudoku puzzle generator and solver
 dev-libs/qr-code-generator 1.8.0 1.8.0-r1: QR Code Generator Library in Multiple Languages
-dev-libs/qtkeychain 0.16.0 0.17.0: Qt API for storing passwords securely
+dev-libs/qtkeychain 0.17.0-r1 0.17.0-r2: Qt API for storing passwords securely
 dev-libs/quazip 1.5: Simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package
 dev-libs/quickjs-ng 0.14.0 0.16.2: QuickJS, the Next Generation: a mighty JavaScript engine
 dev-libs/qxlsx 1.5.0 1.5.1.1: Excel file(*.xlsx) reader/writer library using Qt
@@ -8706,6 +8706,7 @@ dev-python/graph-tool 2.98 9999: An efficient python module for manipulation and
 dev-python/graphviz 0.21: Simple Python interface for Graphviz
 dev-python/greenlet 3.5.5 3.5.6: Lightweight in-process concurrent programming
 dev-python/greenstalk 2.1.1: Python 3 client for the beanstalkd work queue
+dev-python/grep-ast 20250508: Grep source code and see useful code context about matching lines
 dev-python/griddataformats 1.2.0: Reading and writing of data on regular grids in Python
 dev-python/grpcio 1.80.0 1.83.0 1.83.1 1.84.0: HTTP/2-based RPC framework
 dev-python/grpcio-status 1.80.0 1.83.0 1.83.1 1.84.0: Reference package for GRPC Python status proto mapping
@@ -9960,7 +9961,7 @@ dev-qt/qtlanguageserver 6.11.2 6.11.9999 6.12.9999 6.9999: Implementation of the
 dev-qt/qtlocation 6.11.2 6.11.9999 6.12.9999 6.9999: Location (places, maps, navigation) library for the Qt6 framework
 dev-qt/qtmultimedia 6.11.2 6.11.9999 6.12.9999 6.9999: Multimedia (audio, video, radio, camera) library for the Qt6 framework
 dev-qt/qtnetworkauth 6.11.2 6.11.9999 6.12.9999 6.9999: Network authorization library for the Qt6 framework
-dev-qt/qtpbfimageplugin 5.2: Qt image plugin for displaying Mapbox vector tiles
+dev-qt/qtpbfimageplugin 5.2-r1: Qt image plugin for displaying Mapbox vector tiles
 dev-qt/qtpositioning 6.11.2 6.11.9999 6.12.9999 6.9999: Physical position determination library for the Qt6 framework
 dev-qt/qtquick3d 6.11.2 6.11.9999 6.12.9999 6.9999: Qt module and API for defining 3D content in Qt QuickTools
 dev-qt/qtquicktimeline 6.11.2 6.11.9999 6.12.9999 6.9999: Qt module for keyframe-based timeline construction
@@ -12073,7 +12074,7 @@ games-util/lutris 0.5.19-r1 0.5.20-r1 0.5.22-r1 9999: An open source gaming plat
 games-util/mcrcon 0.7.1 0.7.2: Remote connection client for Minecraft servers
 games-util/nml 0.7.5 9999: Compiler of NML files into GRF/NFO files
 games-util/qstat 2.14-r1 2.17: Server statics collector supporting many FPS games
-games-util/sc-controller 0.5.0-r1 1.0.1: User-mode driver and GTK-based GUI for Steam Controllers and others
+games-util/sc-controller 0.5.0-r1 1.0.5: User-mode driver and GTK-based GUI for Steam Controllers and others
 games-util/slade 3.2.6-r2 3.2.7-r1: Modern editor for Doom-engine based games and source ports
 games-util/ucon64 2.2.2: The backup tool and wonderful emulator's Swiss Army knife program
 games-util/uglygs 0_rc11-r1: Quickly searches the network for game servers
@@ -14670,7 +14671,7 @@ net-analyzer/nessus-agent-bin 11.1.1: A remote security scanner for Linux - agen
 net-analyzer/nessus-bin 10.11.2: A remote security scanner for Linux
 net-analyzer/net-snmp 5.9.5.2 9999: Software for generating and retrieving SNMP data
 net-analyzer/netcat 110.20180111-r2: The network swiss army knife
-net-analyzer/netdata 1.47.5 2.5.3 9999: Linux real time system monitoring, done right!
+net-analyzer/netdata 1.47.5 2.5.3 2.11.1 9999: Linux real time system monitoring, done right!
 net-analyzer/netdata-go-plugin 1.47.5-r1 2.5.3: Netdata plugin for collectors written in Go
 net-analyzer/netdiscover 0.10 0.20: Active/passive address reconnaissance tool
 net-analyzer/nethogs 0.8.7 0.8.8 0.9.0: Small 'net top' tool, grouping bandwidth by process
@@ -14891,7 +14892,7 @@ net-firewall/ufw 0.36.2: A program used to manage a netfilter firewall
 net-firewall/xtables-addons 3.29 3.31: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.9-r2: Kernel based automounter
 net-fs/btfs 2.24: Bittorrent filesystem based on FUSE
-net-fs/cifs-utils 7.5 7.6 7.7: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 7.5 7.6 7.7 7.8: Tools for Managing Linux CIFS Client Filesystems
 net-fs/curlftpfs 0.9.2-r5: File system for accessing ftp hosts based on FUSE
 net-fs/cvmfs 2.12.7 2.13.1 2.13.3 2.14.1: HTTP read-only file system for distributing software
 net-fs/davfs2 1.7.1 1.7.3: Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
@@ -15389,7 +15390,7 @@ net-misc/inetutils 2.8-r1: Collection of common network programs
 net-misc/ip-sentinel 0.12-r2: Prevent unauthorized usage of IP addresses
 net-misc/ipcalc 0.42_p2-r1 0.51-r1: IP Calculator prints broadcast/network/etc for an IP address and netmask
 net-misc/ipcalc-ng 1.0.3: Modern IPv4/IPv6 ipcalc tool
-net-misc/iperf 2.2.1 2.9999 3.19.1 3.19.1-r1 3.20 3.21: TCP, UDP, and SCTP network bandwidth measurement tool
+net-misc/iperf 2.2.1 2.9999 3.19.1 3.19.1-r1 3.20 3.21 3.22: TCP, UDP, and SCTP network bandwidth measurement tool
 net-misc/ipmiview 2.25.0.260812: A GUI application that allows to manage multiple target systems through BMC
 net-misc/iprange 1.0.4: A tool capable of managing sets of IPs
 net-misc/ipsorcery 2.0.9-r2: Ipsorcery allows you to generate IP, TCP, UDP, ICMP, and IGMP packets
@@ -16743,6 +16744,7 @@ sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 202
 sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grke 20260714: OpenPGP key used by Graham Keeling
+sec-keys/openpgp-keys-groff 20260929: OpenPGP keys used by GNU roff
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
 sec-keys/openpgp-keys-gsasl 20260127 20260616: OpenPGP keys used by the GNU SASL Library
 sec-keys/openpgp-keys-guillemjover 20220331: OpenPGP keys used by Guillem Jover
@@ -17279,7 +17281,7 @@ sys-apps/consolation 0.0.7: libinput based console mouse daemon
 sys-apps/conspy 1.16: Remote control for Linux virtual consoles
 sys-apps/coreutils 9.9-r12 9.10 9.11 9.11-r1 9.12 9999: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 sys-apps/cpint 2.5.3: Linux/390 Interface to z/VM's Control Program
-sys-apps/cpu-x 5.3.1 5.4.0: A Free software that gathers information on CPU, motherboard and more
+sys-apps/cpu-x 5.3.1 5.4.0 5.4.1: A Free software that gathers information on CPU, motherboard and more
 sys-apps/cpuid 20260220 20260503: Linux tool to dump x86 CPUID information about the CPUs
 sys-apps/cracklib-words 2.10.2 2.10.3: Large set of crack/cracklib dictionaries
 sys-apps/crazydiskinfo 1.1.0-r1: Interactive TUI S.M.A.R.T viewer
@@ -17333,7 +17335,7 @@ sys-apps/gptfdisk 1.0.10-r1: GPT partition table manipulator for Linux
 sys-apps/gradm 3.1.201903191516: Administrative interface for the grsecurity Role Based Access Control system
 sys-apps/grep 3.11-r1 3.12: GNU regular expression matcher
 sys-apps/grepcidr 2.0: Filter IPv4 and IPv6 addresses matching CIDR patterns
-sys-apps/groff 1.23.0-r1 1.23.0-r2: Text formatter used for man pages
+sys-apps/groff 1.23.0-r1 1.23.0-r2 1.24.2: Text formatter used for man pages
 sys-apps/gsmartcontrol 2.0.1: Hard Disk Drive and SSD Health Inspection Tool
 sys-apps/haveged 1.9.21 1.9.26: A simple entropy daemon using the HAVEGE algorithm
 sys-apps/hd-idle 1.05-r2 1.05-r3 1.05-r4 1.05-r5: Utility for spinning down hard disks after a period of idle time
@@ -17372,7 +17374,7 @@ sys-apps/kbd 2.9.0-r2 2.10.0 9999: Keyboard and console utilities
 sys-apps/kexec-tools 2.0.32 2.0.32-r1 9999: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.6.3-r1: Linux Key Management Utilities
 sys-apps/kmod 33 34.2 9999: Library and tools for managing linux kernel modules
-sys-apps/kmscon 9.3.2 9.3.3 9.3.4 9.3.5 10.0.0 10.0.0-r1 10.0.1 10.0.2 10.0.3: KMS/DRM based virtual Console Emulator
+sys-apps/kmscon 9.3.2 9.3.3 9.3.4 9.3.5 10.0.0 10.0.0-r1 10.0.1 10.0.2 10.0.3 10.0.4: KMS/DRM based virtual Console Emulator
 sys-apps/lcdsplash 0.3-r1: splash Gentoo boot information on LCD's
 sys-apps/lcdutils 0.2-r2: (Sun) Cobalt Qube/RaQ button reading and LCD writing utilities
 sys-apps/less 704 710 9999: Excellent text file viewer
@@ -17390,7 +17392,7 @@ sys-apps/lssbus 0.1-r1: Small utility for Linux/SPARC that list devices on SBUS
 sys-apps/lsvpd 1.7.14: Utility to List Device Vital Product Data (VPD)
 sys-apps/makedev 3.23.1-r3: Program used for creating device files in /dev
 sys-apps/man-db 2.13.0-r1 2.13.1-r1 9999: A man replacement that utilizes dbm instead of flat files
-sys-apps/man-pages 6.10 6.16-r2 6.17-r1 9999: A somewhat comprehensive collection of Linux man pages
+sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 9999: A somewhat comprehensive collection of Linux man pages
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
@@ -18722,7 +18724,7 @@ x11-libs/pango 1.57.1 1.58.2: Internationalized text layout and rendering librar
 x11-libs/pixman 0.46.4 9999: Low-level pixel manipulation routines
 x11-libs/qscintilla 2.14.1-r2: Qt port of Neil Hodgson's Scintilla C++ editor control
 x11-libs/qtermwidget 2.4.0 9999: Qt terminal emulator widget
-x11-libs/qwt 6.3.0-r1: 2D plotting library for Qt
+x11-libs/qwt 6.3.0-r2: 2D plotting library for Qt
 x11-libs/spread-sheet-widget 0.8 0.10: GNU Spread Sheet Widget
 x11-libs/startup-notification 0.12-r2: Application startup notification and feedback library
 x11-libs/tslib 1.23-r1: Touchscreen Access Library
@@ -19252,7 +19254,7 @@ x11-themes/human-icon-theme 0.36: A nice and well polished icon theme
 x11-themes/iceicons 0.10.0-r2: IceWM Icons is a set of XPM 16x16, 32x32, and 48x48 XPM and PNG icons for IceWM
 x11-themes/icewm-extra-themes 1.2: Extra themes for IceWM
 x11-themes/kfaenza 0.8.9-r3: Faenza-Cupertino icon theme for KDE Plasma
-x11-themes/kvantum 1.1.8: SVG-based theme engine for Qt, KDE Plasma and LXQt
+x11-themes/kvantum 1.1.8-r1: SVG-based theme engine for Qt, KDE Plasma and LXQt
 x11-themes/larry-backgrounds 20110822-r2: Wallpapers featuring Gentoo mascot Larry the cow
 x11-themes/laughlin-backgrounds 14.1.0.3-r2: Fedora 14 official background artwork
 x11-themes/leonidas-backgrounds 11.0.0.2-r2: Fedora 11 official background artwork

@@ -3,7 +3,8 @@
 
 EAPI=8
 
-inherit cmake
+QTMIN=6.11.2
+inherit cmake qt-utils
 
 DESCRIPTION="Qt API for storing passwords securely"
 HOMEPAGE="https://github.com/frankosterfeld/qtkeychain"
@@ -24,24 +25,23 @@ IUSE="keyring test"
 RESTRICT="test !test? ( test )"
 
 RDEPEND="
-	dev-qt/qtbase:6[dbus]
+	>=dev-qt/qtbase-${QTMIN}:6[dbus]
 	keyring? (
 		app-crypt/libsecret
 		dev-libs/glib:2
 	)
 "
 DEPEND="${RDEPEND}"
-BDEPEND="dev-qt/qttools:6[linguist]"
+BDEPEND=">=dev-qt/qttools-${QTMIN}:6[linguist]"
 
 DOCS=( ChangeLog ReadMe.md )
 
 src_configure() {
 	local mycmakeargs=(
-		-DECM_MKSPECS_INSTALL_DIR="${EPREFIX}"/usr/$(get_libdir)/qt6/mkspecs
+		-DECM_MKSPECS_INSTALL_DIR="${EPREFIX}"$(qt_get_mkspecsdir 6)
 		-DBUILD_QTQUICK_DEMO=OFF
 		-DBUILD_TEST_APPLICATION=OFF
 		-DBUILD_TRANSLATIONS=ON
-		-DBUILD_WITH_QT6=ON
 		-DLIBSECRET_SUPPORT=$(usex keyring)
 		-DBUILD_TESTING=$(usex test)
 	)
