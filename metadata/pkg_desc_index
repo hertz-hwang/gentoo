@@ -211,7 +211,6 @@ acct-group/memcached 0-r3: System group: memcached
 acct-group/memcached_exporter 0-r2: System group: memcached_exporter
 acct-group/messagebus 0-r3: System group: messagebus
 acct-group/mgraph 0-r2: Group for net-mail/mailgraph
-acct-group/microsoft-identity-broker 0: Group for sys-auth/microsoft-identity-broker
 acct-group/milter-regex 0-r3: Group for mail-filter/milter-regex
 acct-group/minecraft 0-r3: A group for the Minecraft server
 acct-group/minetest 0-r3: A group for the Minetest server
@@ -654,7 +653,6 @@ acct-user/memcached 0-r3: User for the memcached service
 acct-user/memcached_exporter 0-r2: user for memcached_exporter
 acct-user/messagebus 0-r3: System user: messagebus
 acct-user/mgraph 0-r2: User for net-mail/mailgraph
-acct-user/microsoft-identity-broker 0: User for sys-auth/microsoft-identity-broker
 acct-user/milter-regex 0-r3: User for mail-filter/milter-regex
 acct-user/minecraft 0-r3: A user for the Minecraft server
 acct-user/minetest 1-r3: A user for the Minetest server
@@ -5410,7 +5408,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.29 8.2.30 8.2.31 8.2.33 8.3.26 8.3.29 8.3.31 8.3.33 8.4.25 8.5.10: The PHP language runtime engine
+dev-lang/php 8.2.33 8.2.34 8.3.33 8.3.35 8.4.26 8.5.11: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 3.11.7.3.23-r1 3.11.8.0.0 3.12.8.0.0: A fast, compliant alternative implementation of the Python (3.12) language
@@ -5773,7 +5771,7 @@ dev-libs/libp11 0.4.12-r7 0.4.13 0.4.16 0.4.17: Abstraction layer to simplify PK
 dev-libs/libparserutils 0.2.5: C library for building efficient parsers
 dev-libs/libpcre 8.45-r4: Perl-compatible regular expression library
 dev-libs/libpcre-debian 8-r3: libpcre(posix).so.3 symlinks for compatibility with Debian
-dev-libs/libpcre2 10.47 10.48: Perl-compatible regular expression library
+dev-libs/libpcre2 10.47 10.48 10.49: Perl-compatible regular expression library
 dev-libs/libpeas 1.38.1 2.2.1: A GObject plugins library
 dev-libs/libpfm 4.13.0 4.13.0_p20260328 9999: Hardware-based performance monitoring interface for Linux
 dev-libs/libphonenumber 8.13.47-r1: Library for parsing, formatting, and validating international phone numbers
@@ -10935,7 +10933,7 @@ dev-util/clojure-tools 1.12.4.1629 1.12.5.1645: Development tools for the Clojur
 dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
 dev-util/coccigrep 1.21: A semantic grep for the C language
 dev-util/coccinelle 1.1.1-r6 1.3.0 1.3.1: Program matching and transformation engine
-dev-util/codeblocks 25.03-r2 9999: The open source, cross platform, free C, C++ and Fortran IDE
+dev-util/codeblocks 25.03-r2 25.03-r3 9999: The open source, cross platform, free C, C++ and Fortran IDE
 dev-util/codespell 2.4.1 2.4.2 2.4.3: Check text files for common misspellings
 dev-util/colm 0.13.0.7 0.14.7-r4: COmputer Language Manipulation
 dev-util/colorgcc 1.3.2-r7: Perl script to colorise the gcc output
@@ -12074,7 +12072,7 @@ games-util/lutris 0.5.19-r1 0.5.20-r1 0.5.22-r1 9999: An open source gaming plat
 games-util/mcrcon 0.7.1 0.7.2: Remote connection client for Minecraft servers
 games-util/nml 0.7.5 9999: Compiler of NML files into GRF/NFO files
 games-util/qstat 2.14-r1 2.17: Server statics collector supporting many FPS games
-games-util/sc-controller 0.5.0-r1: User-mode driver and GTK-based GUI for Steam Controllers and others
+games-util/sc-controller 0.5.0-r1 1.0.1: User-mode driver and GTK-based GUI for Steam Controllers and others
 games-util/slade 3.2.6-r2 3.2.7-r1: Modern editor for Doom-engine based games and source ports
 games-util/ucon64 2.2.2: The backup tool and wonderful emulator's Swiss Army knife program
 games-util/uglygs 0_rc11-r1: Quickly searches the network for game servers
@@ -17320,7 +17318,7 @@ sys-apps/findutils 4.10.0 4.11.0: GNU utilities for finding files
 sys-apps/firejail 0.9.76 0.9.80: Security sandbox for any type of processes
 sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag from an ELF object's GNU_STACK
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
-sys-apps/flatpak 1.16.6 1.18.1: Linux application sandboxing and distribution framework
+sys-apps/flatpak 1.16.6 1.18.1 1.18.4: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
 sys-apps/fwupd 2.0.16 2.0.20 2.1.1-r2 2.1.2 2.1.5 2.1.7 2.1.8: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.7 1.8: EFI executable for fwupd
@@ -17535,7 +17533,7 @@ sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. re
 sys-apps/watchdog 5.16-r1: A software watchdog and /dev/watchdog daemon
 sys-apps/which 2.23: Prints out location of specified executables that are in your path
 sys-apps/x86info 1.31: Dave Jones' handy, informative x86 CPU diagnostic utility
-sys-apps/xdg-dbus-proxy 0.1.8: Filtering proxy for D-Bus connections
+sys-apps/xdg-dbus-proxy 0.1.8 0.1.9: Filtering proxy for D-Bus connections
 sys-apps/xdg-desktop-portal 1.20.4-r1: Desktop integration portal
 sys-apps/xdg-desktop-portal-gnome 49.0 50.0: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xdg-desktop-portal-gtk 1.14.1 1.15.2 1.15.3: Backend implementation for xdg-desktop-portal using GTK+
@@ -18214,7 +18212,7 @@ virtual/libcrypt 1-r2 2 2-r1: Virtual for libcrypt.so
 virtual/libelf 2-r1 3-r1: Virtual for libelf.so.1 provider dev-libs/elfutils
 virtual/libiconv 0-r2: Virtual for the GNU conversion library
 virtual/libintl 0-r2: Virtual for the GNU Internationalization Library
-virtual/libpcre2-internals 10.47 10.48: Virtual for dev-libs/libpcre2 internals
+virtual/libpcre2-internals 10.47 10.48 10.49: Virtual for dev-libs/libpcre2 internals
 virtual/libudev 251-r2 257: Virtual for libudev providers
 virtual/libusb 0-r2 1-r2: Virtual for libusb
 virtual/linux-sources 3-r8 3-r9: Virtual for Linux kernel sources
