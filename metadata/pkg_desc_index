@@ -1172,7 +1172,7 @@ app-arch/gtk-splitter 2.2.1-r2: Split files into smaller pieces and combine them
 app-arch/gxz 0.5.12: Pure golang package for reading and writing xz-compressed files
 app-arch/gzip 1.14 1.14-r1 1.15: Standard GNU compressor
 app-arch/hardlink 0.3.2: A tool which replaces copies of a file with hardlinks
-app-arch/innoextract 1.10_pre20250206-r1: A tool to unpack installers created by Inno Setup
+app-arch/innoextract 1.10_pre20250206-r1 1.13.0: A tool to unpack installers created by Inno Setup
 app-arch/lbzip2 2.5_p20181227-r3: Parallel bzip2 utility
 app-arch/lcab 1.0_beta12: CAB file creation tool
 app-arch/lha 114i_p20250112: Utility for creating and opening lzh archives
@@ -12299,7 +12299,7 @@ gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop sy
 gui-libs/xdg-desktop-portal-lxqt 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
 gui-wm/dwl 0.5-r1 0.6 0.7 9999: dwm for Wayland
-gui-wm/gamescope 3.16.28 3.16.29: Efficient micro-compositor for running games
+gui-wm/gamescope 3.16.28 3.16.31: Efficient micro-compositor for running games
 gui-wm/labwc 0.9.8 0.20.1 0.20.2 9999: Openbox alternative for wayland
 gui-wm/sway 1.11-r1 1.12-r1 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
@@ -14466,7 +14466,7 @@ media-video/lossless-cut-bin 3.68.0: The swiss army knife of lossless video/audi
 media-video/lsdvd 0.17: Utility for getting info out of DVDs
 media-video/lxdvdrip 1.77-r1 1.77-r2: Command line tool to automate the process of ripping and burning DVDs
 media-video/m2vrequantizer 0.0.2_pre20060306-r1: Tool to requantize mpeg2 videos
-media-video/makemkv 1.18.4: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
+media-video/makemkv 2.0.0: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
 media-video/matroxset 0.4-r2: Matrox utility to switch output modes (activate tvout)
 media-video/mediainfo 24.11-r1 26.05: MediaInfo supplies technical and tag information about media files
 media-video/mjpegtools 2.2.1-r2: Tools for MJPEG video
@@ -15554,7 +15554,7 @@ net-misc/sysrepo 3.3.10: YANG-based configuration and operational state data sto
 net-misc/taptap 1.0-r2: Program to link two /dev/net/tun to form virtual ethernet
 net-misc/taylor-uucp 1.07-r7: Taylor UUCP
 net-misc/tcpsound 0.3.1-r1: Play sounds in response to network traffic
-net-misc/teamviewer 15.73.5 15.81.5: All-In-One Solution for Remote Access and Support over the Internet
+net-misc/teamviewer 15.73.5 15.81.5 15.82.6: All-In-One Solution for Remote Access and Support over the Internet
 net-misc/telnet-bsd 1.2-r6: Telnet and telnetd ported from OpenBSD with IPv6 support
 net-misc/throttle 1.2-r1 1.2-r3: Bandwidth limiting pipe
 net-misc/tiers 1.1: Random network topography generator
@@ -18396,7 +18396,7 @@ www-apps/nextcloud 32.0.5 32.0.13 32.0.14 32.0.15 33.0.5 33.0.7 33.0.8 33.0.9 34
 www-apps/nextcloud-notify_push 1.4.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3-r1: A static website and blog generator
 www-apps/novnc 1.6.0 1.7.0 9999: noVNC is a VNC client implemented using HTML5 technologies
-www-apps/phpBB 3.3.17: An open-source PHP-based bulletin board package
+www-apps/phpBB 3.3.19: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4 3.4.5 3.4.6 3.4.7: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
