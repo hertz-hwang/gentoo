@@ -1003,7 +1003,7 @@ app-admin/hcloud 1.65.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2 4.2.4: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
-app-admin/ig 0.56.0: Tools and framework for data collection and system inspection using eBPF
+app-admin/ig 0.56.1: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57 2.61 2.61.1: A free, open source, light-weight and easy-to-use password manager
 app-admin/keepassxc 2.8.0_pre20260504 2.8.0_pre20260629-r1: KeePassXC - KeePass Cross-platform Community Edition
@@ -1836,7 +1836,7 @@ app-editors/ghex 48.3 50.3 50.4 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 26.04.3 26.08.1: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
-app-editors/gvim 9.1.1652-r2 9.2.1119 9.2.1125 9999: GUI version of the Vim text editor
+app-editors/gvim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9999: GUI version of the Vim text editor
 app-editors/gvim-classic 8.3.0 9999: GUI version of the Vim text editor
 app-editors/helix 25.07.1: A post-modern text editor
 app-editors/hexcurse 1.60.0: ncurses based hex editor
@@ -1883,10 +1883,10 @@ app-editors/ted 2.23-r3: X-based rich text editor
 app-editors/texworks 0.6.10 0.6.11: Simple interface for working with TeX documents
 app-editors/uemacs-pk 4.0.15_p20210330 4.0.15_p20260806: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
-app-editors/vim 9.1.1652-r2 9.2.1119 9.2.1125 9999: Vim, an improved vi-style text editor
+app-editors/vim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9999: Vim, an improved vi-style text editor
 app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
-app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9999: vim and gvim shared files
+app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9.2.1152 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.138.0 1.139.1: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
@@ -2433,7 +2433,7 @@ app-emulation/qemu 9.2.4 10.0.7 10.0.10 10.1.3-r1 10.2.2 10.2.3 10.2.3-r1 9999: 
 app-emulation/qemu-guest-agent 8.2.0 9.2.0 10.2.2 10.2.3: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.8-r1: RISC-V CPU simulator for education
-app-emulation/ruffle 0_p20260213: Flash Player emulator written in Rust
+app-emulation/ruffle 0_p20260213 0.6.0: Flash Player emulator written in Rust
 app-emulation/simh 3.11.1 3.12.5: a simulator for historical computers such as Vax, PDP-11 etc.
 app-emulation/ski 1.5.0: ia64 instruction set simulator
 app-emulation/softgun 0.22-r1: ARM software emulator
@@ -11277,7 +11277,7 @@ dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checki
 dev-vcs/git-big-picture 1.3.0 1.3.0-r1: Visualization tool for Git repositories
 dev-vcs/git-cliff 2.10.1 2.11.0: A highly customizable changelog generator
 dev-vcs/git-cola 4.17.1 4.18.2: The highly caffeinated git GUI
-dev-vcs/git-credential-manager 2.8.0 2.9.1: Secure Git credential storage supporing GitHub, Azure Repos, and other services
+dev-vcs/git-credential-manager 2.9.1 3.0.0: Secure Git credential storage supporing GitHub, Azure Repos, and other services
 dev-vcs/git-crypt 0.7.0 0.8.0: Transparent file encryption in git
 dev-vcs/git-delete-merged-branches 7.5.1 7.6.0 7.6.1: Command-line tool to delete merged Git branches
 dev-vcs/git-extras 7.3.0 7.4.0: Git utilities -- repo summary, repl, changelog population, and many more
@@ -11307,7 +11307,7 @@ dev-vcs/jj 0.40.0 0.41.0 0.42.0 0.44.0 0.45.1 0.45.1-r1: Jujutsu - an experiment
 dev-vcs/kdesvn 2.1.0_p20260608: Frontend to the subversion vcs
 dev-vcs/lab 0.25.1: Lab wraps Git or Hub, making it simple to interact with repositories on GitLab
 dev-vcs/mercurial 6.7.4-r2 6.7.4-r3 6.8.2 6.9.4 7.0.3 7.1.2-r1 7.2.4 9999: Scalable distributed SCM
-dev-vcs/mergiraf 0.18.0 0.19.0 0.19.1: Syntax-aware git merge driver
+dev-vcs/mergiraf 0.19.1 0.20.0: Syntax-aware git merge driver
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pkgcruft-git 0.0.5-r2 9999: QA support for verifying git commits via pkgcruft
 dev-vcs/pram 16: Tool to ease merging Pull Requests and git patches
@@ -15056,7 +15056,7 @@ net-libs/ldns 1.9.2: Library that aims to simplify DNS programming in C
 net-libs/libaccounts-glib 1.27-r1: Accounts SSO (Single Sign-On) management library for GLib applications
 net-libs/libad9361-iio 0.3-r4 9999: IIO AD9361 library for filter design and handling, multi-chip sync, etc
 net-libs/libasr 1.0.4: Async Resolver Library from OpenBSD/OpenSMTPD
-net-libs/libasyncns 0.8-r4: C library for executing name service queries asynchronously
+net-libs/libasyncns 0.8-r5: C library for executing name service queries asynchronously
 net-libs/libblkmaker 0.6.0-r2: C implementation of Bitcoin's getblocktemplate interface
 net-libs/libbloom 1.6: A simple and small bloom filter implementation in plain C
 net-libs/libbtbb 2020.12.1-r1 2020.12.1-r2 9999: Library to decode Bluetooth baseband packets
@@ -15190,7 +15190,7 @@ net-libs/udns 0.6: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0 0.11.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0_p20250331: A cross-platform userland SCTP stack
 net-libs/wandio 4.2.3_p1-r1 4.2.3_p1-r2 4.2.4 4.2.6: C library for simple and efficient file IO
-net-libs/webkit-gtk 2.48.5-r410 2.48.5-r411 2.48.5-r600 2.48.5-r601 2.52.6-r410 2.52.6-r600 2.54.0-r410 2.54.0-r600: Open source web browser engine
+net-libs/webkit-gtk 2.48.5-r410 2.48.5-r411 2.48.5-r600 2.48.5-r601 2.52.6-r410 2.52.6-r600 2.54.0-r411 2.54.0-r601: Open source web browser engine
 net-libs/wslay 1.1.1_p20210115: WebSocket library in C
 net-libs/wvstreams 4.6.1_p14-r2 4.6.1_p14-r3: A network programming library in C++
 net-libs/xdp-tools 1.6.2 1.6.3-r1: The libxdp library and various tools for use with XDP
@@ -16161,7 +16161,7 @@ sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolu
 sci-geosciences/gshhs-data 2.2.0: Global Self-consistent, Hierarchical, High-resolution Shoreline programs data
 sci-geosciences/gtk-g-rays2 2.05-r1: GUI for accessing the Wintec WBT 201 / G-Rays 2 GPS device
 sci-geosciences/harmonics-dwf-free 20241229: Tidal harmonics database for libtcd
-sci-geosciences/josm-bin 19481 19555: Java-based editor for the OpenStreetMap project
+sci-geosciences/josm-bin 19555 19613: Java-based editor for the OpenStreetMap project
 sci-geosciences/laszip 3.4.3: Library for free and lossless compression of the LAS LiDAR format
 sci-geosciences/librttopo 1.1.0: Exposes an API to create and manage standard (ISO 13249 aka SQL/MM) topologies
 sci-geosciences/libtcd 2.2.7_p3: Library for reading and writing Tide Constituent Database (TCD) files
@@ -16175,7 +16175,7 @@ sci-geosciences/osmctools 0.9-r2: A few really fast tools to convert, filter and
 sci-geosciences/owntracks-recorder 1.0.4: Stores and accesses location data published by the OwnTracks apps
 sci-geosciences/pymap3d 3.2.0: Python 3-D coordinate conversions
 sci-geosciences/qgis 4.0.3 9999: User friendly Geographic Information System
-sci-geosciences/qmapshack 1.19.0 1.20.1 1.20.2 1.20.3: GPS mapping utility
+sci-geosciences/qmapshack 1.19.0 1.20.3 1.21.1: GPS mapping utility
 sci-geosciences/readosm 1.1.0a: Library to extract valid data from an Open Street Map input file
 sci-geosciences/routino 3.4.3: Routing application based on openstreetmap data
 sci-geosciences/s2geometry 0.13.1-r3: Computational geometry and spatial indexing on the sphere
@@ -16569,7 +16569,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.34.4: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.35.0: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.0-r4: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -18402,7 +18402,7 @@ www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prowlarr-bin 2.5.1.5464: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couchpotato
-www-apps/radicale 3.7.6 3.7.7: A simple CalDAV calendar server
+www-apps/radicale 3.7.7 3.8.1: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.3.0 2.4.0 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
