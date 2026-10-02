@@ -1003,7 +1003,7 @@ app-admin/hcloud 1.65.0: A command-line interface for Hetzner Cloud
 app-admin/hddtemp 0.3_beta15-r29: A simple utility to read the temperature of SMART capable hard drives
 app-admin/helm 3.17.2 3.18.6 3.19.0 3.19.2 4.2.4: Kubernetes Package Manager
 app-admin/ide-smart 1.4-r3: A tool to read SMART information from harddiscs
-app-admin/ig 0.56.1: Tools and framework for data collection and system inspection using eBPF
+app-admin/ig 0.56.2: Tools and framework for data collection and system inspection using eBPF
 app-admin/integrit 4.2_rc1: file integrity verification program
 app-admin/keepass 2.57 2.61 2.61.1: A free, open source, light-weight and easy-to-use password manager
 app-admin/keepassxc 2.8.0_pre20260504 2.8.0_pre20260629-r1: KeePassXC - KeePass Cross-platform Community Edition
@@ -2466,8 +2466,8 @@ app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and ic
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0 11.3.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.4 11.0.1 11.0.2 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 11.0 11.14 11.15 11.16 11.17 11.18 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.14 11.15 11.16 11.17 11.18 9999: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/wine-staging 11.0 11.16 11.17 11.18 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.16 11.17 11.18 11.19 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
@@ -5624,7 +5624,7 @@ dev-libs/kdiagram 3.0.1: Powerful libraries (KChart, KGantt) for creating busine
 dev-libs/kdsingleapplication 1.2.1: KDAB's helper class for single-instance policy applications
 dev-libs/keybinder 0.3.2-r300: A library for registering global keyboard shortcuts
 dev-libs/keystone 0.9.2-r3 0.9.2-r4 9999: assembly/assembler framework + bindings
-dev-libs/kirigami-addons 1.12.1 1.13.1 1.14.2: Visual end user components for Kirigami-based applications
+dev-libs/kirigami-addons 1.13.1 1.14.2 1.15.0: Visual end user components for Kirigami-based applications
 dev-libs/kirigami-app-components 1.0.2: Kirigami addons and modules necessary to do a full featured KDE application
 dev-libs/kopeninghours 26.04.3 26.08.1: Library for parsing and evaluating OSM opening hours expressions
 dev-libs/kosmindoormap 26.04.3 26.08.1: Data Model and Extraction System for Travel Reservation information
@@ -5664,6 +5664,7 @@ dev-libs/libconfig 1.8.1 1.8.2: Libconfig is a simple library for manipulating s
 dev-libs/libcpuid 0.8.1 0.8.2: A small C library for x86 (and x86_64) CPU detection and feature extraction
 dev-libs/libcroco 0.6.13-r2: Generic Cascading Style Sheet (CSS) parsing and manipulation toolkit
 dev-libs/libcss 0.9.2 9999: CSS parser and selection engine, written in C
+dev-libs/libcsv 3.0.3_p20210820: Fast and flexible ANSI C library to read and write CSV data
 dev-libs/libdaemon 0.14-r4: Simple library for creating daemon processes in C
 dev-libs/libdatrie 0.2.14 0.2.14-r1: Double-Array Trie Library
 dev-libs/libdazzle 3.44.0: Experimental new features for GTK+ and GLib
@@ -9148,6 +9149,7 @@ dev-python/podman 5.8.0: A library to interact with a Podman server
 dev-python/poetry 2.4.1 2.4.2 2.4.3 2.5.0 2.5.1: A frontend for poetry - a python dependency management and packaging tool
 dev-python/poetry-core 2.3.2 2.4.1 2.5.0: Poetry PEP 517 Build Backend
 dev-python/poetry-plugin-export 1.10.0 1.10.1: A plugin that allows the export of locked packages to various formats
+dev-python/polars 1.44.2: Extremely fast Query Engine for DataFrames, written in Rust
 dev-python/polib 1.2.0: A library to manipulate gettext files (.po and .mo files)
 dev-python/pooch 1.8.2 1.9.0: Manage your Python library's sample data files
 dev-python/portalocker 4.2.0 4.3.2 4.4.0: A library for Python file locking
@@ -10927,7 +10929,7 @@ dev-util/chirurgien 2.2: Chirurgien helps to understand and manipulate file form
 dev-util/chroot-wrapper 0.9.9: Wrapper for chroot to set up some bind mounts, namespaces, and control groups
 dev-util/clair 4.4.4: Vulnerability Static Analysis for Containers
 dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code content from source files
-dev-util/claude-code 2.1.280: Claude Code - an agentic coding tool by Anthropic
+dev-util/claude-code 2.1.288: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.1.26.09.26 9999: A tool to display info about the system's OpenCL capabilities
 dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1: A complete toolset for C and C++ development
@@ -11128,7 +11130,7 @@ dev-util/oprofile 1.4.0-r1: A transparent low-overhead system-wide profiler
 dev-util/ostree 2024.3-r2 2024.8-r1 2025.2 2025.6 2025.7: Operating system and container binary deployment and upgrades
 dev-util/packer 1.14.1 1.14.3 1.15.4 1.16.0: A tool to create identical machine images for multiple platforms
 dev-util/pahole 1.27-r1 1.29 1.30 1.31 1.32 9999: pahole (Poke-a-Hole) and other DWARF utilities
-dev-util/patchelf 0.17.2-r1 0.18.0 0.19.1: Small utility to modify the dynamic linker and RPATH of ELF executables
+dev-util/patchelf 0.17.2-r1 0.18.0 0.19.2: Small utility to modify the dynamic linker and RPATH of ELF executables
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
@@ -11175,7 +11177,7 @@ dev-util/rocminfo 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: ROCm Application for Reporting 
 dev-util/roctracer 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0: Callback/Activity Library for Performance tracing AMD GPU's
 dev-util/ropper 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.14.9 0.15.22 0.16.1 0.16.2 0.16.3 0.16.5 0.16.6 0.16.7 0.16.9: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.14.9 0.15.22 0.16.1 0.16.2 0.16.3 0.16.5 0.16.6 0.16.7 0.16.9 0.16.10: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.28.2-r2 1.29.0 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -11728,7 +11730,7 @@ games-fps/tribes2 25034: Tribes 2 - Team Combat on an Epic Scale
 games-fps/turtlearena 0.6.1-r2: A turtle featuring free and open source third-person action game (ioq3 engine)
 games-fps/unreal 227k_p15: Modern build of the original Unreal engine
 games-fps/unreal-gold-data 226b: Data files for Unreal and Return to Na Pali
-games-fps/unreal-tournament 469e-r1: Modern build of the Unreal Tournament (99) engine
+games-fps/unreal-tournament 469e-r1 469f_rc5: Modern build of the Unreal Tournament (99) engine
 games-fps/unreal-tournament-data 436_p4: Data files for Unreal Tournament (99)
 games-fps/urbanterror 4.3.4_p20211208: Hollywood tactical shooter based on the ioquake3 engine
 games-fps/urbanterror-data 4.3.4: Data files for UrbanTerror
@@ -12231,9 +12233,9 @@ gnustep-libs/performance 0.6.0: Help improve the performance of GNUstep applicat
 gnustep-libs/renaissance 0.9.0-r2: GNUstep Renaissance allows to describe user interfaces XML files
 gnustep-libs/sope 5.12.7 5.12.8: A set of frameworks forming a complete Web application server environment
 gnustep-libs/sqlclient 1.9.0: GNUstep lightweight database abstraction layer
-gui-apps/deskflow 1.26.0 9999: Share a mouse and keyboard between computers (FOSS version of Synergy)
-gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Fast, lightweight and minimalistic Wayland terminal emulator
-gui-apps/foot-terminfo 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1 1.20.2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0: Terminfo for foot, a fast, lightweight and minimal Wayland terminal emulator
+gui-apps/deskflow 1.26.0 1.27.0 9999: Share a mouse and keyboard between computers (FOSS version of Synergy)
+gui-apps/foot 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1-r1 1.20.2 1.20.2-r2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0 1.28.0: Fast, lightweight and minimalistic Wayland terminal emulator
+gui-apps/foot-terminfo 1.16.2 1.17.0 1.17.1 1.17.2 1.18.0 1.18.1 1.19.0 1.20.0 1.20.1 1.20.2 1.21.0 1.22.0 1.22.3 1.23.0 1.23.1 1.24.0 1.25.0 1.26.1 1.27.0 1.28.0: Terminfo for foot, a fast, lightweight and minimal Wayland terminal emulator
 gui-apps/gnome-console 49.2 50.0: A simple user-friendly terminal emulator for the GNOME desktop
 gui-apps/grim 1.5.0 9999: Grab images from a Wayland compositor
 gui-apps/gtkgreet 0.8 9999: gtk based greeter for greetd
@@ -12611,7 +12613,7 @@ kde-misc/markdownpart 26.04.3 26.08.1: Markdown viewer KParts plugin based on QT
 kde-misc/plasma-pass 1.3.1: Plasma applet to access password from pass
 kde-misc/rsibreak 0.13.0: Small utility which bothers you at certain intervals
 kde-misc/skanlite 26.04.3 26.08.1: Simple image scanning application based on libksane and KDE Frameworks
-kde-misc/tellico 4.2.1 4.2.2: Collection manager based on KDE Frameworks
+kde-misc/tellico 4.2.1 4.2.2 4.3: Collection manager based on KDE Frameworks
 kde-misc/zanshin 26.04.3 26.08.1: Getting things done application by KDE
 kde-plasma/aurorae 6.6.6-r1 6.7.5: Themeable window decoration for KWin
 kde-plasma/bluedevil 6.6.6-r1 6.7.5: Bluetooth stack for KDE Plasma
@@ -13484,7 +13486,7 @@ media-libs/libffado 2.4.9-r1 2.5.0_p5: Driver for IEEE1394 (Firewire) audio inte
 media-libs/libfishsound 1.0.1 1.0.1-r1: Simple programming interface to decode and encode audio with vorbis or speex
 media-libs/libfpx 1.3.1_p10-r1: Library for manipulating FlashPIX images
 media-libs/libfreeaptx 0.1.1-r1 9999: Reverse-engineered aptX and aptX HD library (fork of libopenaptx)
-media-libs/libfreehand 0.1.3 9999: Library for import of FreeHand drawings
+media-libs/libfreehand 0.1.3 0.1.4 9999: Library for import of FreeHand drawings
 media-libs/libggi 2.2.2-r2: Provides an opaque interface to the display's acceleration function
 media-libs/libggigcp 1.0.2-r1 1.0.2-r2: Libggi extension for advanced color and palette handling
 media-libs/libggimisc 2.2.2-r2: Adds support for some special graphical target features
@@ -15118,7 +15120,7 @@ net-libs/libotr 4.1.1-r2: (OTR) Messaging allows you to have private conversatio
 net-libs/libpcap 1.10.6 1.10.7 1.11.0 9999: System-independent library for user-level network packet capture
 net-libs/libprotoident 2.0.14_p1 2.0.15_p1 9999: A library that performs application layer protocol identification for flows
 net-libs/libproxy 0.5.9 0.5.11 0.5.12-r1: Library for automatic proxy configuration management
-net-libs/libpsl 0.21.5: C library for the Public Suffix List
+net-libs/libpsl 0.21.5 0.23.3: C library for the Public Suffix List
 net-libs/libqmi 1.32.4-r1 1.36.0 9999: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/libqrtr-glib 1.2.2 1.4.0: Qualcomm IPC Router protocol helper library
 net-libs/libquotient 0.9.6.1: Qt-based SDK to develop applications for Matrix
@@ -15656,7 +15658,7 @@ net-p2p/mktorrent 1.1_p20210130-r1: Simple command line utility to create BitTor
 net-p2p/mldonkey 3.2.1: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses interface
 net-p2p/nicotine+ 3.3.7 3.3.10: Graphical client for the Soulseek peer to peer network written in Python
-net-p2p/qbittorrent 5.1.4-r1 5.2.0-r1 5.2.3 9999: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.1.4-r1 5.2.0-r1 5.2.3 5.2.4 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.22 0.16.24 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
@@ -15901,7 +15903,7 @@ sci-astronomy/galaxy 2.2-r1: Stellar simulation program
 sci-astronomy/gasgano 2.4.8-r2: ESO astronomical data file organizer
 sci-astronomy/gnuastro 0.16-r1: GNU Astronomy Utilities
 sci-astronomy/idlastro 20161220-r1: Astronomical user routines for IDL
-sci-astronomy/kstars 3.8.4.1: Desktop Planetarium
+sci-astronomy/kstars 3.8.4.1 3.8.5: Desktop Planetarium
 sci-astronomy/missfits 2.8.0: Performs basic maintenance and packaging tasks on FITS files
 sci-astronomy/montage 6.1: Toolkit for assembling FITS images into mosaics
 sci-astronomy/pal 0.9.8 0.9.8-r1: Positional Astronomy Library
@@ -16289,7 +16291,7 @@ sci-libs/idlcoyote 20161220-r1 99999999: GDL library from D. Fannings IDL course
 sci-libs/idlmarkwardt 20160319-r1: Craig Markwardt IDL procedures (MPFIT, CMSVLIB, etc)
 sci-libs/iml 1.0.5-r1: Integer Matrix Library
 sci-libs/inchi 1.06-r1 1.07.5: Program and library for generating standard and non-standard InChI and InChIKeys
-sci-libs/indilib 2.2.4.2: INDI Astronomical Control Protocol library
+sci-libs/indilib 2.2.4.2 2.2.5: INDI Astronomical Control Protocol library
 sci-libs/ipopt 3.14.4-r1: Interior-Point Optimizer for large-scale nonlinear optimization
 sci-libs/itpp 4.3.1-r2: C++ library of mathematical, signal processing and communication
 sci-libs/jama 1.2.5-r1: Java-like matrix C++ templates
@@ -17972,7 +17974,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scr
 sys-kernel/gentoo-kernel 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.188 6.6.157 6.12.109 6.12.110 6.12.111 6.18.50 6.18.51 6.18.52 6.18.53 6.18.54 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8: Full sources including the Gentoo patchset for the 7.2 kernel tree
+sys-kernel/gentoo-sources 6.1.188 6.6.157 6.12.110 6.12.111 6.18.52 6.18.53 6.18.54 7.2.6 7.2.7 7.2.8: Full sources including the Gentoo patchset for the 7.2 kernel tree
 sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4 7.3_rc5: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
