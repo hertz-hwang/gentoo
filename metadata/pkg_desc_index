@@ -2466,7 +2466,7 @@ app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and ic
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0 11.3.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.4 11.0.1 11.0.2 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 11.0 11.16 11.17 11.18 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-staging 11.0 11.16 11.17 11.18 11.19 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.16 11.17 11.18 11.19 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
@@ -3555,7 +3555,7 @@ app-vim/frawor 0.2.3-r1: vim plugin: modular vim framework
 app-vim/fugitive 3.7 9999: vim plugin: a git wrapper for vim
 app-vim/fuzzyfinder 4.2.2: vim plugin: buffer/file/command/tag/etc explorer with fuzzy matching
 app-vim/genindent 1.1-r2: vim plugin: library for simplifying indent files
-app-vim/gentoo-syntax 16 9999: vim plugin: Gentoo and Portage syntax highlighting
+app-vim/gentoo-syntax 16 17 9999: vim plugin: Gentoo and Portage syntax highlighting
 app-vim/genutils 2.5-r2: vim plugin: library with various useful functions
 app-vim/gist 7.3-r1: vim plugin: interact with gists (gist.github.com)
 app-vim/git-patch-tags 0.2: vim plugin: add git patch tags as used in linux kernel development
@@ -4153,6 +4153,7 @@ dev-dotnet/fable 4.29.0-r2 5.0.0-r2: F# to JavaScript, TypeScript, Python, Rust 
 dev-dotnet/fantomas 7.0.3: FSharp source code formatter
 dev-dotnet/fsautocomplete 0.83.0 0.84.0: F# language server using the Language Server Protocol
 dev-dotnet/gentoo-dotnet-maintainer-tools 3.0.0 3.9999: Gentoo tools for .NET packages maintenance
+dev-dotnet/ilspy 11.1: Cross-platform .NET Decompiler
 dev-dotnet/libgdiplus 6.0.2-r4 6.2: C-based implementation of the GDI+ API
 dev-dotnet/nake 3.0.0-r2: C# scripting build automation task runner
 dev-dotnet/netcoredbg 3.1.3.1062: NetCoreDbg is a managed code debugger with MI interface for CoreCLR
@@ -8606,7 +8607,7 @@ dev-python/environs 15.1.0 15.2.0: Python library for simplified environment var
 dev-python/enzyme 0.5.2: Python video metadata parser
 dev-python/ephemeral-port-reserve 1.1.4: Bind to an ephemeral port, force it into the TIME_WAIT state, and unbind it
 dev-python/eradicate 3.0.1: Removes commented-out code from Python files
-dev-python/esp-pylib 1.1.4: library for logging, utils and constants for Espressif Systems' Python projects
+dev-python/esp-pylib 1.1.4 1.1.5: library for logging, utils and constants for Espressif Systems' Python projects
 dev-python/et-xmlfile 2.0.0: An implementation of lxml.xmlfile for the standard library
 dev-python/etuples 0.3.10: Python S-expression emulation using tuple-like objects
 dev-python/evdev 1.9.3 2.0.0: Python library for evdev bindings
@@ -8720,7 +8721,7 @@ dev-python/guessit 4.1.0 4.3.0 4.4.0: Python library for guessing information fr
 dev-python/h11 0.16.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
 dev-python/h2 4.3.0 4.4.1: HTTP/2 State-Machine based protocol implementation
 dev-python/h5py 3.16.0: Simple Python interface to HDF5 files
-dev-python/hachoir 3.3.0: Library to view and edit a binary stream field by field
+dev-python/hachoir 3.3.0 3.4.0: Library to view and edit a binary stream field by field
 dev-python/hashin 1.0.5: Adds hashed entries for packages to requirements.txt
 dev-python/hatch-fancy-pypi-readme 25.1.0: Fancy PyPI READMEs with Hatch
 dev-python/hatch-jupyter-builder 0.9.1-r1 0.10.0: A hatch plugin to help build Jupyter packages
@@ -14939,7 +14940,7 @@ net-im/centerim 5.0.1-r2: Ncurses ICQ/Yahoo!/AIM/IRC/MSN/Jabber/GaduGadu/RSS/Liv
 net-im/coturn 4.6.2 4.17.2 9999: coturn TURN server project
 net-im/cpop 0.0.4-r2: GTK+ network popup message client. Compatible with the jpop protocol
 net-im/dino 0.5.0 0.5.1 9999: Modern Jabber/XMPP Client using GTK+/Vala
-net-im/discord 1.0.153 1.0.154 1.0.159: All-in-one voice and text chat for gamers
+net-im/discord 1.0.159 1.0.160: All-in-one voice and text chat for gamers
 net-im/ejabberd 24.10 25.04 25.10 26.04 26.07: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.28: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
@@ -17998,7 +17999,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3: DBUS on-demand loader of sched-ex
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.188 6.1.9999 6.6.157 6.6.9999 6.12.109 6.12.110 6.12.111 6.12.9999 6.18.50 6.18.52 6.18.53 6.18.54 6.18.9999 7.2.6 7.2.7 7.2.8: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.188 6.6.157 6.12.111 6.18.54 7.2.8: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.189 6.6.157 6.12.112 6.18.55 7.2.9: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.2.7: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
