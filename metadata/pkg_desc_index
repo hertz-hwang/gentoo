@@ -2582,7 +2582,7 @@ app-i18n/ibus-table-chinese 1.8.14: Chinese tables for IBus-Table
 app-i18n/ibus-table-extraphrase 1.3.9.20110826-r1: Chinese extra phrases for IBus-Table
 app-i18n/ibus-table-latin 1.2.0.20100305-r1: Latin tables for IBus-Table
 app-i18n/ibus-table-others 1.3.22: Various tables for IBus-Table
-app-i18n/ibus-typing-booster 2.30.11 2.31.0: Completion input method for IBus
+app-i18n/ibus-typing-booster 2.30.11 2.31.0 2.31.1: Completion input method for IBus
 app-i18n/ibus-unikey 0.7.0_beta1: Vietnamese UniKey engine for IBus
 app-i18n/im-chooser 1.7.3: Desktop Input Method configuration tool
 app-i18n/imsettings 1.8.2-r1: Delivery framework for general Input Method configuration
@@ -5835,7 +5835,7 @@ dev-libs/libunistring 0.9.10-r1 1.0 1.3 1.4.2: Library for manipulating Unicode 
 dev-libs/libusb 1.0.27-r1 1.0.28 1.0.29 1.0.30: Userspace access to USB devices
 dev-libs/libusb-compat 0.1.8 0.1.9: Userspace access to USB devices (libusb-0.1 compat wrapper)
 dev-libs/libusbhp 1.0.2-r1: USB Hotplug Library
-dev-libs/libutf8proc 2.11.3: A clean C Library for processing UTF-8 Unicode data
+dev-libs/libutf8proc 2.11.3 2.12.0: A clean C Library for processing UTF-8 Unicode data
 dev-libs/libuv 1.52.1 9999: Cross-platform asynchronous I/O
 dev-libs/libvarlink 24: C implementation of the Varlink protocol and command line tool
 dev-libs/libverto 0.3.2 0.3.2-r1: Main event loop abstraction library
@@ -10749,7 +10749,7 @@ dev-scheme/owl-lisp 0.2.1 0.2.2 9999: Purely functional dialect of Scheme
 dev-scheme/racket 8.16 9.3: General purpose, multi-paradigm Lisp-Scheme programming language
 dev-scheme/scm 5.5.6-r4 5.6.4 5.6.4-r1: SCM is a Scheme implementation from the author of slib
 dev-scheme/scmxlate 20090410-r2: Scmxlate is a configuration tool for software packages written in Scheme
-dev-scheme/sigscheme 0.9.4 0.9.5: SigScheme is an R5RS Scheme interpreter for embedded use
+dev-scheme/sigscheme 0.9.5 0.9.6: SigScheme is an R5RS Scheme interpreter for embedded use
 dev-scheme/skribilo 0.10.0-r101: Document production tool written in Guile Scheme
 dev-scheme/slib 3.3.1-r100: Portable Scheme library for all standard Scheme implementations
 dev-scheme/stklos 2.10 26.0: Fast and light Scheme implementation
@@ -10934,7 +10934,7 @@ dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code co
 dev-util/claude-code 2.1.288: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.15 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.1.26.09.26 9999: A tool to display info about the system's OpenCL capabilities
-dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1: A complete toolset for C and C++ development
+dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1 2026.2.3: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
 dev-util/clojure-tools 1.12.4.1629 1.12.5.1645: Development tools for the Clojure programming language
 dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
@@ -11037,7 +11037,7 @@ dev-util/gnome-builder 49.1 50.0: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
 dev-util/godcc 1.0: Full-fledged command-line interface to Compiler Explorer instances
-dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.4 2026.1.1 2026.1.4 2026.2.0.1: Golang IDE by JetBrains
+dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.4 2026.1.1 2026.1.4 2026.2.0.1 2026.2.3: Golang IDE by JetBrains
 dev-util/google-perftools 2.15 2.16 2.17.2: Fast, multi-threaded malloc() and nifty performance analysis tools
 dev-util/gource 0.55: A software version control visualization tool
 dev-util/gperf 3.1-r2 3.2.1 3.3: A perfect hash function generator
@@ -13573,7 +13573,7 @@ media-libs/librosprite 0.1.3-r2: Framebuffer abstraction library, written in C
 media-libs/librtprocess 0.12.0-r1: Algorithms for RAW processing from RawTherapee
 media-libs/libsamplerate 0.2.2 9999: Secret Rabbit Code (aka libsamplerate) is a Sample Rate Converter for audio
 media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modification
-media-libs/libsdl 1.2.68 1.2.74: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
+media-libs/libsdl 1.2.68 1.2.78: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
 media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.72 2.32.74: Simple Direct Media Layer
 media-libs/libsdl3 3.2.30 3.4.16 3.4.18: Simple Direct Media Layer
 media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
