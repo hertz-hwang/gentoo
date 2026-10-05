@@ -1179,7 +1179,7 @@ app-arch/lha 114i_p20250112: Utility for creating and opening lzh archives
 app-arch/libarchive 3.8.9: Multi-format archive and compression library
 app-arch/libdeflate 1.23 1.24 1.25 9999: Heavily optimized DEFLATE/zlib/gzip (de)compression
 app-arch/libpar2 0.4-r1: A library for par2, extracted from par2cmdline
-app-arch/lrzip 0.7.1 0.651 0.651-r1: Long Range ZIP or Lzma RZIP optimized for compressing large files
+app-arch/lrzip 0.7.3 0.651 0.651-r1: Long Range ZIP or Lzma RZIP optimized for compressing large files
 app-arch/lrzip-next 0.14.1 9999: Fork of Con Kolivas' lrzip program for compressing large files
 app-arch/lunzip 1.16: Decompressor for the lzip format, written in C
 app-arch/lxqt-archiver 1.4.0: Qt GUI File Archiver
@@ -1265,7 +1265,7 @@ app-backup/cdbackup 0.7.1-r2: Allows streaming backup utilities to dump/restore 
 app-backup/cdbkup 1.0-r5: Performs full/incremental backups of local/remote filesystems onto CD-R(W)s
 app-backup/consul-backinator 1.6.6: consul backup and restore utility
 app-backup/cpdup 1.18-r1: Comprehensive filesystem mirroring program
-app-backup/dar 2.8.5 2.8.6: A full featured backup tool, aimed for disks
+app-backup/dar 2.8.6: A full featured backup tool, aimed for disks
 app-backup/deja-dup 44.2 48.4: Simple backup tool using duplicity back-end
 app-backup/dirvish 1.2.1-r1: Dirvish is a fast, disk based, rotating network backup system
 app-backup/duplicati 2.2.0.1.2025.11.09: Backup client that securely stores encrypted, incremental, compressed backups
@@ -2454,13 +2454,13 @@ app-emulation/virt-viewer 11.0-r1: Graphical console client for connecting to vi
 app-emulation/virt-what 1.25: Detects if the current machine is running in a virtual machine
 app-emulation/virtio-win 0.1.266.1 0.1.271.1 0.1.285.1: VirtIO drivers for Windows virtual machines running on KVM
 app-emulation/virtiofsd 1.13.1 1.13.2 1.13.3 9999: Shared file system for virtual machines
-app-emulation/virtualbox 7.0.26-r1 7.2.14 7.2.16 7.2.18 9999: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-additions 7.0.26 7.2.14 7.2.16 7.2.18: CD image containing guest additions for VirtualBox
-app-emulation/virtualbox-extpack-oracle 7.0.26 7.2.14 7.2.16 7.2.18: PUEL extensions for VirtualBox
-app-emulation/virtualbox-guest-additions 7.0.26 7.2.14 7.2.16 7.2.18: VirtualBox kernel modules and user-space tools for Gentoo guests
-app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.2.14 7.2.16 7.2.18: Kernel Modules for Virtualbox Guest Additions
-app-emulation/virtualbox-kvm 7.2.14_pre20260201 7.2.16_pre20260201 7.2.18_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
-app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.2.14 7.2.16 7.2.18: Kernel Modules for Virtualbox
+app-emulation/virtualbox 7.0.26-r1 7.2.16 7.2.18 9999: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-additions 7.0.26 7.2.16 7.2.18: CD image containing guest additions for VirtualBox
+app-emulation/virtualbox-extpack-oracle 7.0.26 7.2.16 7.2.18: PUEL extensions for VirtualBox
+app-emulation/virtualbox-guest-additions 7.0.26 7.2.16 7.2.18: VirtualBox kernel modules and user-space tools for Gentoo guests
+app-emulation/virtualbox-guest-modules 7.0.26 7.0.26-r1 7.2.16 7.2.18: Kernel Modules for Virtualbox Guest Additions
+app-emulation/virtualbox-kvm 7.2.16_pre20260201 7.2.18_pre20260201: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox-modules 7.0.26 7.0.26-r1 7.2.16 7.2.18: Kernel Modules for Virtualbox
 app-emulation/vkd3d-proton 2.14.1 3.0.1 9999: Fork of VKD3D, development branches for Proton's Direct3D 12 implementation
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
@@ -2879,7 +2879,7 @@ app-misc/lsx 0.1-r1: list executables
 app-misc/ltunify 0.3: Tool for working with Logitech Unifying receivers and devices
 app-misc/lxsplit 0.2.4-r1: Command-line file splitter/joiner for Linux
 app-misc/mat2 0.14.0: Metadata Anonymisation Toolkit
-app-misc/mc 4.8.30-r2 4.8.33: GNU Midnight Commander is a text based file manager
+app-misc/mc 4.8.33: GNU Midnight Commander is a text based file manager
 app-misc/media-player-info 24-r1 26: Repository of data files describing media player capabilities
 app-misc/mencal 3.0-r1: Calendar to track menstruation cycles
 app-misc/mepl 0.45-r2: Self-employed-mode software for 3COM/USR message modems
@@ -5883,7 +5883,7 @@ dev-libs/miniz 3.0.2 3.1.1 3.1.2: Lossless, high performance data compression li
 dev-libs/mm 1.4.2-r2: Shared Memory Abstraction Library
 dev-libs/mmtf-cpp 1.0.0-r1 1.1.0-r1: The pure C++ implementation of the MMTF API, decoder and encoder
 dev-libs/modsecurity 3.0.15 3.0.16: Application firewall and intrusion detection
-dev-libs/mongo-c-driver 1.24.4-r1: Client library written in C for MongoDB
+dev-libs/mongo-c-driver 1.24.4-r2: Client library written in C for MongoDB
 dev-libs/mpc 1.3.1 1.4.0 1.4.1: A library for multiprecision complex arithmetic with exact rounding
 dev-libs/mpdecimal 4.0.1: Correctly-rounded arbitrary precision decimal floating point arithmetic
 dev-libs/mpfr 4.2.1 4.2.2: Library for multiple-precision floating-point computations with exact rounding
@@ -8351,7 +8351,7 @@ dev-python/astroid 4.0.4 4.1.2 4.3.1 4.3.2 4.3.3: Abstract Syntax Tree for logil
 dev-python/asttokens 3.0.1 3.0.2: Annotate Python AST trees with source text and token information
 dev-python/async-lru 2.3.0: Simple lru_cache for asyncio
 dev-python/async-timeout 5.0.1: Timeout context manager for asyncio programs
-dev-python/asyncssh 2.22.0 2.23.1 2.24.0: Asynchronous SSHv2 client and server library
+dev-python/asyncssh 2.24.0 2.24.1: Asynchronous SSHv2 client and server library
 dev-python/asyncstdlib 3.14.0: The missing async toolbox
 dev-python/atomicwrites 1.4.1: Atomic file writes
 dev-python/atpublic 7.0.0 8.0.1: A decorator to populate __all__ and the module globals
@@ -8370,7 +8370,7 @@ dev-python/awkward-cpp 56 57: CPU kernels and compiled extensions for Awkward Ar
 dev-python/aws-sam-translator 1.112.0 1.113.0: A library that transform SAM templates into AWS CloudFormation templates
 dev-python/aws-xray-sdk 2.15.0: AWS X-Ray SDK for Python
 dev-python/awscrt 0.36.3 0.36.4 0.37.0: A common runtime for AWS Python projects
-dev-python/b2sdk 2.12.0 2.13.0: Library to access Backblaze B2 cloud storage
+dev-python/b2sdk 2.13.0 2.13.1: Library to access Backblaze B2 cloud storage
 dev-python/babel 2.18.0: Collection of tools for internationalizing Python applications
 dev-python/babelfish 0.6.1: Python library to work with countries and languages
 dev-python/backports-zstd 1.5.0 1.6.0 1.7.0: Backport of PEP-784: adding Zstandard to the standard library
@@ -8393,7 +8393,7 @@ dev-python/binaryornot 0.6.0: Ultra-lightweight pure Python package to guess whe
 dev-python/bincopy 20.1.1: Mangling of various file formats that conveys binary information
 dev-python/bitarray 3.9.2 3.10.1 3.11.0: Efficient arrays of booleans -- C extension
 dev-python/bitstring 4.4.0-r2: A pure Python module for creation and analysis of binary data
-dev-python/black 26.5.1: The uncompromising Python code formatter
+dev-python/black 26.5.1 26.10.0: The uncompromising Python code formatter
 dev-python/blake3 1.0.9 1.0.10: Python bindings for the BLAKE3 cryptographic hash function
 dev-python/bleach 6.4.0: An easy whitelist-based HTML-sanitizing tool
 dev-python/blessed 1.48.0 1.49.0 1.50.0: Library for making terminal apps using colors, keyboard input and positioning
@@ -8636,7 +8636,7 @@ dev-python/feedparser-sgmllib 2.0.1 2.1.0: sgmllib from Python 2.7 for feedparse
 dev-python/ffmpeg-python 0.2.0_p20220711-r1: Python bindings for FFmpeg with complex filtering support
 dev-python/fido2 2.2.0 2.2.1: Python based FIDO 2.0 library
 dev-python/filebytes 0.10.2 9999: Classes/Types to read and edit executable files
-dev-python/filelock 3.32.5 3.32.6 4.0.1 4.0.3 4.0.4 4.0.6 4.0.7 4.0.9 4.0.10: A platform independent file lock for Python
+dev-python/filelock 3.32.5 3.32.6 4.0.1 4.0.3 4.0.4 4.0.6 4.0.7 4.0.9 4.0.10 4.0.11: A platform independent file lock for Python
 dev-python/filetype 1.2.0: Small, dependency-free, fast Python package to infer binary file types checking
 dev-python/findimports 3.0.0: Python module import analysis tool
 dev-python/findpython 0.8.0: A utility to find python versions on your system
@@ -8694,7 +8694,7 @@ dev-python/git-review 2.4.0 2.5.0 9999: Tool to submit code to Gerrit
 dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gitpython 3.1.58 3.1.59 3.1.60 3.1.61 3.1.62 3.2.0: Library used to interact with Git repositories
-dev-python/gmpy2 2.3.0 2.3.1 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
+dev-python/gmpy2 2.3.1 2.3.2 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.33.0 2.35.0 2.36.0 2.37.0 2.38.0 2.39.0 2.40.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.199.0 2.200.0 2.201.0: Google API Client for Python
 dev-python/google-auth 2.56.3 2.57.1 2.58.0 2.58.1 2.59.0 2.59.1: Google Authentication Library
@@ -9107,12 +9107,12 @@ dev-python/patiencediff 0.2.19: Python implementation of the patiencediff algori
 dev-python/patsy 1.0.2 1.0.3: Python module to describe statistical models and design matrices
 dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.1.0 7.1.1 7.1.2: Inject some useful and sensible default behaviors into setuptools
-dev-python/pbs-installer 2026.9.1 2026.9.29 2026.10.1: Installer for Python Build Standalone
+dev-python/pbs-installer 2026.9.29 2026.10.1 2026.10.3: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
 dev-python/pdm 2.29.1 2.29.2: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.4.9 2.4.10 2.5.0: A PEP 517 backend for PDM that supports PEP 621 metadata
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
-dev-python/pebble 5.2.1-r1 5.2.2: Threading and multiprocessing eye-candy
+dev-python/pebble 5.2.1-r1 5.2.2 5.2.3: Threading and multiprocessing eye-candy
 dev-python/pecan 1.8.0: A WSGI object-dispatching web framework, lean, fast, with few dependencies
 dev-python/peewee 4.3.0 4.5.0 4.5.1 4.5.2: Small Python ORM
 dev-python/pefile 2024.8.26 9999: Module to read and work with Portable Executable (PE) files
@@ -9199,7 +9199,7 @@ dev-python/pyaudio 0.2.14 0.2.14-r1: Python bindings for PortAudio
 dev-python/pybind11 3.0.1 3.0.4 3.1.0: AST-based Python refactoring library
 dev-python/pybtex 0.26.1: BibTeX-compatible bibliography processor
 dev-python/pybtex-docutils 1.0.3: A docutils backend for pybtex
-dev-python/pycairo 1.29.0-r1 1.29.1: Python bindings for the cairo library
+dev-python/pycairo 1.29.1 1.29.2: Python bindings for the cairo library
 dev-python/pycares 5.0.1: Python interface for c-ares
 dev-python/pycdio 2.1.1-r1: Python OO interface to libcdio (CD Input and Control library)
 dev-python/pychm 0.8.6-r1: Python bindings for the chmlib library
@@ -9212,7 +9212,7 @@ dev-python/pycotap 1.3.1: A tiny test runner that outputs TAP results to standar
 dev-python/pycountry 26.2.16: Database of countries, subdivisions, languages, currencies and script
 dev-python/pycparser 3.0: C parser and AST generator written in Python
 dev-python/pycpio 1.7.0 9999: Python CPIO library
-dev-python/pycryptodome 3.23.0: A self-contained cryptographic library for Python
+dev-python/pycryptodome 3.23.0 3.24.0: A self-contained cryptographic library for Python
 dev-python/pycuda 2025.1.3-r1: Python wrapper for NVIDIA CUDA
 dev-python/pycups 2.0.4: Python bindings for the CUPS API
 dev-python/pycurl 7.45.7 7.46.0 7.47.0 7.48.0: Python bindings for curl/libcurl
@@ -9368,7 +9368,7 @@ dev-python/pytest-flask 1.3.0: A set of pytest fixtures to test Flask applicatio
 dev-python/pytest-forked 1.6.0 1.7.5: Run tests in isolated forked subprocesses
 dev-python/pytest-freezer 0.4.9: Pytest plugin providing a fixture interface for spulec/freezegun
 dev-python/pytest-gitconfig 0.9.0: Provide a Git config sandbox for testing
-dev-python/pytest-golden 1.0.1: Plugin for pytest that offloads expected outputs to data files
+dev-python/pytest-golden 1.0.1 1.0.2: Plugin for pytest that offloads expected outputs to data files
 dev-python/pytest-helpers-namespace 2021.12.29-r1: Provides a helpers pytest namespace
 dev-python/pytest-home 0.6.0: Home directory fixtures
 dev-python/pytest-httpbin 2.1.0: Easily test your HTTP library against a local copy of httpbin
@@ -9487,7 +9487,7 @@ dev-python/pytimeparse 1.1.8-r1 1.1.9: A small Python module to parse various ki
 dev-python/pytokens 0.4.1: A fast, spec compliant Python 3.13+ tokenizer that runs on older Pythons
 dev-python/pytoolconfig 1.3.1: Python tool configuration
 dev-python/pytools 2026.1.1: Collection of tools missing from the Python standard library
-dev-python/pytz 2026.3_p1 2026.4: World timezone definitions for Python
+dev-python/pytz 2026.3_p1 2026.4 2026.5: World timezone definitions for Python
 dev-python/pyu2f 0.1.5-r1: Python based U2F host library
 dev-python/pyuca 1.2: Python implementation of the Unicode Collation Algorithm
 dev-python/pyudev 0.24.4 0.24.5: Python binding to libudev
@@ -9576,7 +9576,7 @@ dev-python/roman-numerals 4.1.0: Manipulate roman numerals
 dev-python/rope 1.14.0 1.15.0: Python refactoring library
 dev-python/ropemode 0.6.1: A helper for using rope refactoring library in IDEs
 dev-python/routes 2.5.1-r2: A re-implementation of Rails routes system, mapping URLs to Controllers/Actions
-dev-python/rpds-py 2026.6.3: Python bindings to Rust's persistent data structures (rpds)
+dev-python/rpds-py 2026.6.3 2026.9.1: Python bindings to Rust's persistent data structures (rpds)
 dev-python/rply 0.7.8-r1: Pure python parser generator that also works with RPython
 dev-python/rpy2 3.6.4: Python interface to the R language
 dev-python/rpy2-rinterface 3.6.3: Low-level interface from Python to the R
@@ -9882,7 +9882,7 @@ dev-python/watchdog 6.0.0: Python API and shell utilities to monitor file system
 dev-python/watchfiles 1.2.0 1.3.0: Simple, modern file watching and code reload in Python
 dev-python/wcag-contrast-ratio 0.9-r1: A library for computing contrast ratios, as required by WCAG 2.0
 dev-python/wcmatch 11.0 11.0.1: Wildcard/glob file name matcher
-dev-python/wcwidth 0.8.2 0.8.3 0.8.4 0.9.1: Measures number of Terminal column cells of wide-character codes
+dev-python/wcwidth 0.8.3 0.8.4 0.9.1 0.9.2: Measures number of Terminal column cells of wide-character codes
 dev-python/weasyprint 69.0 70.0: Visual rendering engine for HTML and CSS that can export to PDF
 dev-python/webcolors 25.10.0: Color names and value formats defined by the HTML and CSS specifications
 dev-python/webencodings 0.5.1-r2 0.6.1: Character encoding aliases for legacy web content
@@ -14956,7 +14956,7 @@ net-im/openmittsu 0.10.3.0: Open source chat client for Threema-style end-to-end
 net-im/pidgin 2.14.14-r2 2.14.14-r3: GTK Instant Messenger client
 net-im/poezio 0.15.1-r1 0.17 9999: Console XMPP client that looks like most famous IRC clients
 net-im/profanity 0.15.0 0.15.1 0.18.1: A console based XMPP client inspired by Irssi
-net-im/prosody 13.0.5 13.0.6: Prosody is a modern XMPP communication server
+net-im/prosody 13.0.5 13.0.6 13.0.7: Prosody is a modern XMPP communication server
 net-im/prosody-modules 0_pre20241231 9999: A collection of community-maintained modules for Prosody
 net-im/purple-events 0.99.2: Allows a fine-grained control over libpurple events
 net-im/qtox 1.18.4 1.18.5 9999: Instant messaging client using the encrypted p2p Tox protocol
@@ -15340,7 +15340,7 @@ net-misc/dhcpcd-ui 0.7.9-r1 0.8.0: Desktop notification and configuration for dh
 net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if responding
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
 net-misc/downloader-cli 0.3.4-r2: Simple downloader with an customizable progressbar
-net-misc/dropbear 2025.89 2026.94: Small SSH 2 client/server designed for small memory environments
+net-misc/dropbear 2026.94: Small SSH 2 client/server designed for small memory environments
 net-misc/dropbox 258.4.3749 260.4.2926 262.4.3183 264.4.3385 264.4.3421 266.4.3911 268.4.4124 270.4.3312 273.4.4708: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
@@ -17693,7 +17693,7 @@ sys-boot/os-prober 1.81-r3 1.82 1.85 9999: Utility to detect other OSs on a set 
 sys-boot/palo 2.28 2.29 9999: PALO: PArisc Linux Loader
 sys-boot/plymouth 22.02.122-r4 24.004.60-r1 9999: Graphical boot animation (splash) and logger
 sys-boot/plymouth-openrc-plugin 0.1.3 0.4.0: Plymouth plugin for OpenRC
-sys-boot/raspberrypi-firmware 1.20230106 1.20240902 1.20250915 1.20260408 1.20260521 1.20260824 1.20260907 1.20260915 9999: Raspberry Pi (all versions) bootloader and GPU firmware
+sys-boot/raspberrypi-firmware 1.20230106 1.20240902 1.20250915 1.20260408 1.20260824 1.20260907 1.20260915 9999: Raspberry Pi (all versions) bootloader and GPU firmware
 sys-boot/refind 0.14.2-r4: The UEFI Boot Manager by Rod Smith
 sys-boot/sgibootcd 0.13: Creates burnable CD images for SGI LiveCDs
 sys-boot/shim 15.8 16.1_p7 16.1_p8: Fedora's signed UEFI shim
@@ -17848,7 +17848,7 @@ sys-fs/autorun 3.17: auto cdrom mounter for the lazy user
 sys-fs/avfs 1.1.5: Virtual filesystem that allows browsing of compressed files
 sys-fs/bashmount 4.3.2-r2: Bash script that uses udisks to mount removable devices without GUI
 sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
-sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 1.39.3 1.39.5 1.39.6 9999: Tools for bcachefs
+sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 1.39.3 1.39.5 1.39.6 1.39.7 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
 sys-fs/btrfs-progs 6.19.1 7.0 7.1 9999: Btrfs filesystem utilities
@@ -17991,8 +17991,8 @@ sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel me
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
 sys-kernel/modprobed-db 2.47 2.48: Keeps track of EVERY kernel module ever used - useful for make localmodconfig
 sys-kernel/pf-sources 6.17_p4 6.18_p6 6.19_p5 7.0_p1 7.0_p4 7.1_p6 7.2_p6: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
-sys-kernel/raspberrypi-image 6.1.21_p20230405 6.6.28_p20240424 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250915 6.12.75_p20260408 6.18.32_p20260521 6.18.46_p20260824 6.18.48_p20260907 6.18.50_p20260915 9999: Raspberry Pi (all versions) kernel and modules
-sys-kernel/raspberrypi-sources 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250916 6.12.75_p20260408 6.18.32_p20260521 6.18.32_p20260521-r1 6.18.46_p20260824-r1 6.18.48_p20260907 6.18.50_p20260915: Raspberry Pi kernel sources
+sys-kernel/raspberrypi-image 6.1.21_p20230405 6.6.28_p20240424 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250915 6.12.75_p20260408 6.18.46_p20260824 6.18.48_p20260907 6.18.50_p20260915 9999: Raspberry Pi (all versions) kernel and modules
+sys-kernel/raspberrypi-sources 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250916 6.12.75_p20260408 6.18.46_p20260824-r1 6.18.48_p20260907 6.18.50_p20260915: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15.185_p86 6.0.5_p14 6.1.134_p51 6.1.141_p52 6.5.2_p8 6.6.94_p56 6.12.28_p10: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/rumpkernel 0_pre20250111_p6 9999: NetBSD's rumpkernel for the Hurd
 sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3: sched_ext schedulers and tools
