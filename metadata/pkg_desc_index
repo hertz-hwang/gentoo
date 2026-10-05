@@ -5490,7 +5490,7 @@ dev-libs/bemenu 0.6.10-r1 0.6.14 0.6.15 0.6.16 0.6.21 0.6.23 9999: dmenu clone f
 dev-libs/bglibs 2.04-r4 2.04-r5: Bruce Guenter's Libraries Collection
 dev-libs/bitset 2.8.4-r3 2.8.4-r4: A compressed bitset with supporting data structures and algorithms
 dev-libs/bitshuffle 0.3.5-r1: Bitshuffle C library
-dev-libs/blake3 1.8.3 1.8.4 1.8.5: a fast cryptographic hash function
+dev-libs/blake3 1.8.5 1.8.7: a fast cryptographic hash function
 dev-libs/blazesym_c 0.1.8 0.1.10: C bindings for blazesym, a library for address symbolization and related tasks
 dev-libs/boehm-gc 8.2.8 8.2.10 8.2.10-r1 8.2.12: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/boost 1.90.0-r2 1.91.0-r2 1.92.0: Boost Libraries for C++
@@ -5552,7 +5552,7 @@ dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1: Enlightenment Foundation Libraries all-in-one package
 dev-libs/elfutils 0.195 0.196-r1 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
-dev-libs/expat 2.8.5: Stream-oriented XML parser library
+dev-libs/expat 2.8.5 2.9.0: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
 dev-libs/fcgi 2.4.1_pre0910052249-r2: FastCGI Developer's Kit
 dev-libs/fddl 20111124-r2: Free Decision Diagram Library
@@ -10948,7 +10948,7 @@ dev-util/complexity 1.10-r1: a tool designed for analyzing the complexity of C p
 dev-util/conan 2.14.0-r1 2.17.0 2.20.1 2.22.1 2.24.0: Distributed C/C++ package manager
 dev-util/conf2struct 1.5 9999: Create C parsers for libconfig and command-line
 dev-util/cookiecutter 2.3.1 2.5.0 2.6.0 2.7.1: Command-line utility to create projects from cookiecutters (project templates)
-dev-util/cppcheck 2.17.1 2.18.2 2.19.1 2.20.0: Static analyzer of C/C++ code
+dev-util/cppcheck 2.17.1 2.18.2 2.19.1 2.20.0 2.21.0: Static analyzer of C/C++ code
 dev-util/cppi 1.18: a cpp directive indenter
 dev-util/cpptest 2.0.0-r1 2.0.1: Simple but powerful unit testing framework for C++
 dev-util/cppunit 1.15.1-r3 1.15.1_p20240106 9999-r1: C++ port of the famous JUnit framework for unit testing
@@ -13398,7 +13398,7 @@ media-libs/glm 1.0.1 1.0.2 1.0.3: OpenGL Mathematics
 media-libs/glpng 1.47: OpenGL PNG image library
 media-libs/glu 9.0.3 9999: The OpenGL Utility Library
 media-libs/glycin 2.1.1-r1 2.1.5: Sandboxed and extendable image loading library
-media-libs/glycin-loaders 1.2.4 2.1.1 2.1.5 2.2.0 2.2.1: Loaders for glycin clients (glycin crate or libglycin)
+media-libs/glycin-loaders 1.2.4 1.2.4-r1 2.1.1 2.1.5 2.2.0 2.2.1 2.2.1-r1: Loaders for glycin clients (glycin crate or libglycin)
 media-libs/glyr 1.0.10-r1: Music related metadata searchengine, both with commandline interface and C API
 media-libs/gmmlib 22.10.0 22.10.1 22.10.2 9999: Intel Graphics Memory Management Library
 media-libs/graphene 1.10.8-r1: A thin layer of types for graphic libraries
@@ -13731,7 +13731,7 @@ media-libs/vamp-plugin-sdk 2.10 2.10-r1: Audio processing system for plugins to 
 media-libs/vidstab 1.1.1 1.1.1-r1 1.1.1_p20240615 9999: Video stabilization library
 media-libs/vigra 1.11.2_p20240505 1.12.1 1.12.2 9999: C++ computer vision library emphasizing customizable algorithms and structures
 media-libs/vips 8.18.6 8.18.7: VIPS Image Processing Library
-media-libs/virglrenderer 1.1.1-r1 1.2.0 9999-r1: Library used implement a virtual 3D GPU used by qemu
+media-libs/virglrenderer 1.1.1-r1 1.2.0 1.3.0 9999-r1: Library used implement a virtual 3D GPU used by qemu
 media-libs/vitamtp 2.5.9_pre20160829-r1 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/vkroots 0_p20240430: Simple framework for writing Vulkan layers
 media-libs/vo-aacenc 0.1.3 9999: VisualOn AAC encoder library
@@ -17788,7 +17788,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18113,8 +18113,8 @@ sys-power/sandmann-bin 1.3.1 1.4.1-r1: An autosuspend and wakeup daemon
 sys-power/sispmctl 4.12: GEMBIRD SiS-PM control utility
 sys-power/suspend 1.0_p20200924: Userspace Software Suspend and S2Ram
 sys-power/switcheroo-control 3.0: D-Bus service to check the availability of dual-GPU
-sys-power/thermald 2.5.11 2.5.12 2.5.12-r1: Thermal daemon for Intel architectures
-sys-power/throttled 0.11 0.12-r1 0.12.2-r1: Daemon to work around throttling issues on some Intel laptops
+sys-power/thermald 2.5.11 2.5.12-r1 2.5.13: Thermal daemon for Intel architectures
+sys-power/throttled 0.11 0.12-r1 0.12.2-r1 0.13: Daemon to work around throttling issues on some Intel laptops
 sys-power/tlp 1.9.1 1.9.1-r1 1.10.1: Optimize laptop battery life
 sys-power/uhubctl 2.5.0: USB hub per-port power control
 sys-power/upower 1.90.9 1.91.2 1.91.3: D-Bus abstraction for enumerating power devices, querying history and statistics
