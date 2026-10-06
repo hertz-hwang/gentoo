@@ -8459,6 +8459,7 @@ dev-python/clickdc 0.1.1: Define click command line options from a python datacl
 dev-python/cliff 4.15.0 4.16.0: Command Line Interface Formulation Framework
 dev-python/clikit 0.6.2-r1: Group of utilities to build beautiful and testable command line interfaces
 dev-python/clint 0.5.1-r4: Python Command-line Application Tools
+dev-python/cloudflare 5.9.0: The official Python library for the Cloudflare API
 dev-python/cloudpickle 3.1.2: Extended pickling support for Python objects
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/clr-loader 0.3.1: Generic pure Python loader for .NET runtimes
@@ -8746,6 +8747,7 @@ dev-python/httplib2 0.31.1 0.32.0: A comprehensive HTTP client library
 dev-python/httpretty 1.1.4-r4: HTTP client mock for Python
 dev-python/httptools 0.8.0: A collection of framework independent HTTP protocol utils
 dev-python/httpx 0.28.1-r1: Fully-featured HTTP client which provides sync and async APIs
+dev-python/httpx-aiohttp 0.2.0: Aiohttp transport for HTTPX
 dev-python/httpx-socks 0.11.0 0.12.0 0.13.0 0.13.1: Proxy (HTTP, SOCKS) transports for httpx
 dev-python/httpx2 2.10.0 2.12.0 2.13.0 2.13.1: The next generation HTTP client (Pydantic fork)
 dev-python/huawei-lte-api 1.11.0 2.0.1: API For huawei LAN/WAN LTE Modems
@@ -11021,7 +11023,7 @@ dev-util/geany-plugins 2.1: A collection of different plugins for Geany
 dev-util/gengetopt 2.23-r1: Tool to write command line option parsing code for C programs
 dev-util/gertty 1.6.0-r3 9999: Gertty is a console-based interface to the Gerrit Code Review system
 dev-util/gi-docgen 2025.4 2025.5 2026.1: A documentation generator for GObject-based libraries
-dev-util/git-bug 0.10.1: Distributed, offline-first bug tracker embedded in git
+dev-util/git-bug 0.10.1 0.11.0: Distributed, offline-first bug tracker embedded in git
 dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
@@ -11389,7 +11391,7 @@ games-action/noiz2sa 0.51a-r2: Abstract Shooting Game
 games-action/orbital-eunuchs-sniper 1.30-r1: Snipe terrorists from your orbital base
 games-action/postalplus 1-r1: Ultraviolent and controversial game featuring the Postal Dude
 games-action/powermanga 0.93.1-r1: Arcade 2D shoot-em-up game
-games-action/prismlauncher 9.1-r1 9.4-r1 10.0.5 11.0.0 11.0.2 11.0.3 9999: Custom, open source Minecraft launcher
+games-action/prismlauncher 9.4-r1 11.0.3 11.1.1 9999: Custom, open source Minecraft launcher
 games-action/psychonauts-gog 2.0.0.4: A mind-bending platforming adventure from Double Fine Productions
 games-action/psychonauts-hb 20130506: A mind-bending platforming adventure from Double Fine Productions
 games-action/psychonauts2-hb 1097251: Platform-adventure game with cinematic style and customizable psychic powers
@@ -13772,7 +13774,7 @@ media-plugins/gimp-lqr 0.7.2-r1: Content-aware resizing for the GIMP
 media-plugins/gkrellmpc 0.1_beta10-r1: A gkrellm plugin to control the MPD (Music Player Daemon)
 media-plugins/gmsynth-lv2 0.6.3 0.6.4: General MIDI Sample Player Plugin
 media-plugins/grilo-plugins 0.3.18-r2: A collection of plugins for the Grilo framework
-media-plugins/gst-plugin-gtk4 0.13.4: GStreamer GTK 4 sink element
+media-plugins/gst-plugin-gtk4 0.13.4-r1: GStreamer GTK 4 sink element
 media-plugins/gst-plugins-a52dec 1.24.13 1.26.11: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.13 1.26.11: Adaptive demuxer plugins for Gstreamer
 media-plugins/gst-plugins-amr 1.24.13 1.26.11: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
@@ -16351,7 +16353,7 @@ sci-libs/metis 5.2.1-r2: Package for unstructured serial graph partitioning
 sci-libs/miopen 6.3.3 6.4.3-r1 7.0.2 7.1.0-r1 7.2.0: AMD's Machine Intelligence Library
 sci-libs/mkl 2025.3.1.8 2026.0.0.908 2026.1.0.236: Intel Math Kernel Library
 sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library based on MPFR
-sci-libs/mumps 5.3.5-r1: MUltifrontal Massively Parallel sparse direct matrix Solver
+sci-libs/mumps 5.3.5-r2: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
 sci-libs/netcdf-cxx 4.2-r301 4.3.1-r3: C++ library for netCDF
@@ -17624,7 +17626,7 @@ sys-block/gparted 1.6.0-r2 1.7.0: Partition editor for graphically managing your
 sys-block/hdrecover 0.5: Attempts to recover a hard disk that has bad blocks on it
 sys-block/hpssacli 2.40.13.0-r2 3.40.3.0-r1 4.21.7.0 5.30.6.0 6.10.14.0 6.25.9.0: HPE Smart Storage Administrator (HPE SSA) CLI (HPSSACLI, formerly HPACUCLI)
 sys-block/io-scheduler-udev-rules 2: Udev rules to allow easier customization of kernel I/O schedulers
-sys-block/libfabric 1.11.2-r3 2.3.1: The Open Fabrics Interfaces (OFI) framework
+sys-block/libfabric 1.11.2-r3 2.3.1-r1: The Open Fabrics Interfaces (OFI) framework
 sys-block/libzbc 5.9.0 5.13.0 5.13.0-r1: A library and tools for working with ZBC and ZAC disks
 sys-block/libzbd 1.2.0-r1 2.0.4: Zoned block device manipulation library and tools
 sys-block/lsiutil 1.62-r3: LSI Logic Fusion MPT Command Line Interface management tool
@@ -17970,7 +17972,7 @@ sys-fs/zfs-auto-snapshot 1.2.4-r3: ZFS Automatic Snapshot Service for Linux
 sys-fs/zfs-kmod 2.2.11 2.3.9: Linux ZFS kernel module for sys-fs/zfs
 sys-kernel/asahi-sources 6.19.14_p2 7.0.9_p2: Asahi Linux kernel sources
 sys-kernel/cryptodev 1.14 9999: device that allows access to Linux kernel cryptographic drivers
-sys-kernel/dkms 3.3.0 3.4.3 9999: Dynamic Kernel Module Support
+sys-kernel/dkms 3.3.0 3.4.3 3.4.4 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
