@@ -1305,7 +1305,7 @@ app-benchmarks/geekbench 2.4.2-r1 2.4.3-r2 3.4.4-r1 4.4.4-r1 5.5.1 6.7.1 7.1.0: 
 app-benchmarks/geekbench-ai 1.8.0: A Cross-Platform AI Benchmark for Android, iOS, Linux, MacOS and Windows
 app-benchmarks/hey 0.1.2: HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom
 app-benchmarks/httperf 0.9.1_p20201206-r1: Tool from HP for measuring web server performance
-app-benchmarks/hyperfine 1.19.0 1.20.0: A command-line benchmarking tool
+app-benchmarks/hyperfine 1.19.0 1.20.0 1.21.0: A command-line benchmarking tool
 app-benchmarks/i7z 93_p20131012-r3: A better i7 (and now i3, i5) reporting tool for Linux
 app-benchmarks/interbench 0.31-r1: A Linux interactivity benchmark
 app-benchmarks/ioping 1.3: Simple disk I/0 latency measuring tool
@@ -1896,7 +1896,7 @@ app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.9999: highly customizable open sou
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
-app-editors/zed 1.10.3 1.14.2 1.15.0: The fast, collaborative code editor
+app-editors/zed 1.14.2 1.15.0 1.21.0: The fast, collaborative code editor
 app-editors/zile 2.6.2-r2 2.6.4: Zile is a small Emacs clone
 app-emacs/a 1.0.0: Associative data structure functions for Emacs Lisp
 app-emacs/a68-mode 1.3_p20260615: Algol68 major mode for GNU Emacs
@@ -3121,7 +3121,7 @@ app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 85 86 87 88: Handy scripts for ebuild development and more
-app-portage/mirrorselect 2.6.4 2.7.0 2.8.0 9998 9999: Tool to help select distfiles mirrors for Gentoo
+app-portage/mirrorselect 2.6.4 2.7.0 2.8.1 9998 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
@@ -3883,7 +3883,7 @@ dev-build/make 4.4.1-r100 4.4.1-r101 4.4.1-r102 9999: Standard tool to compile s
 dev-build/melange 0.18.3: Build APK packages from source code using declarative pipelines
 dev-build/meson 1.9.2 1.10.2 1.11.1 1.11.2 1.12.0 1.12.1 9999: Open source build system
 dev-build/meson-format-array 0: Format shell expressions into a meson array
-dev-build/muon 0.2.0-r2 0.3.0 0.4.0 0.5.0 0.6.0: A meson-compatible build system
+dev-build/muon 0.2.0-r2 0.3.0 0.4.0 0.5.0 0.6.0 0.7.0: A meson-compatible build system
 dev-build/netsurf-buildsystem 1.10: Build system used for netsurf and its libraries
 dev-build/ninja 1.13.1 1.13.2 1.13.2-r1 9999: A small build system similar to make
 dev-build/parmasan 0_pre20250221-r1: Parallel make sanitizer
@@ -3920,7 +3920,7 @@ dev-cpp/cld3 3.0.13_p20220331: Neural network model for language identification
 dev-cpp/clhpp 2024.10.24: Khronos OpenCL C++ bindings
 dev-cpp/cli11 2.6.2 2.7.1 2.7.2: Command line parser for C++11
 dev-cpp/clucene 2.3.3.4-r9 2.3.3.4-r10 2.3.3.4-r11: High-performance, full-featured text search engine based off of lucene in C++
-dev-cpp/cpp-httplib 0.51.0 0.56.0: C++ HTTP/HTTPS server and client library
+dev-cpp/cpp-httplib 0.51.0 0.56.0 0.58.0: C++ HTTP/HTTPS server and client library
 dev-cpp/cppdap 0_pre20230605-r1 0_pre20240802: C++ library for the Debug Adapter Protocol
 dev-cpp/cppgir 2.0_p20260321 2.0_p20260518: GObject-Introspection C++ binding wrapper generator
 dev-cpp/cpptoml 0.1.1-r1: Header-only library for parsing TOML
@@ -4039,7 +4039,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 3.4.9-r2 9999: C c
 dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.1.24 3.2.8 3.2.9 3.2.10: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
-dev-db/mycli 2.9.0 2.25.3: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 2.9.0 2.25.3 2.27.0: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.45 8.0.46-r1 8.4.10 8.4.11: Fast, multi-threaded, multi-user SQL database server
@@ -5187,6 +5187,7 @@ dev-java/jsonb-api 2.0.0-r1: Jakarta JSON Binding
 dev-java/jsonp-api 2.0.2-r1: Jakarta JSON Processing API
 dev-java/jsonrpc2-base 1.38.2: Represent, parse and serialise JSON-RPC 2.0 messages
 dev-java/jsonrpc2-server 1.11.1: Server framework for processing JSON-RPC 2.0 messages
+dev-java/jsoup 1.23.2: Java HTML parser that makes sense of real-world HTML soup
 dev-java/jspecify 1.0.0: JSpecify annotations
 dev-java/jsr305 3.0.2-r1: Annotations for Software Defect Detection in Java
 dev-java/jstl 1.2.7: Jakarta Standard Tag Library API
@@ -5213,7 +5214,7 @@ dev-java/log4j-core 2.26.0: The Apache Log4j Implementation
 dev-java/log4j-over-slf4j 2.0.3: Log4j implemented over SLF4J
 dev-java/lucene 2.4.1-r5: High-performance, full-featured text search engine written entirely in Java
 dev-java/lz4-java 1.8.0-r6: LZ4 compression for Java
-dev-java/lzma 25.01: Java code for LZMA compression and decompression
+dev-java/lzma 25.01 26.04: Java code for LZMA compression and decompression
 dev-java/lzmajio 0.95-r4: LzmaInputStream/LzmaOutputStream interacting with underlying LZMA en-/decoders
 dev-java/maven-bin 3.9.16: Project Management and Comprehension Tool for Java
 dev-java/mchange-commons 0.2.20-r1: a library of arguably useful Java utilities
@@ -5251,6 +5252,7 @@ dev-java/powermock-reflect 2.0.9: Various utilities for accessing internals of a
 dev-java/protobuf-java 4.33.5: Core Protocol Buffers library
 dev-java/qdox 1.12.1-r8 2.2.0-r2: Parser for extracting class/interface/method definitions
 dev-java/randomized-runner 2.8.3: JUnit test runner and plugins for running JUnit tests with pseudo-randomness
+dev-java/re2j 1.8: Linear time regular expressions for Java
 dev-java/reflections 0.9.12-r7: Reflections - a Java runtime metadata analysis
 dev-java/relaxng-datatype 20020414: Interface between RELAX NG validators and datatype libraries
 dev-java/reload4j 1.2.22: Reload4j revives EOLed log4j 1.x
@@ -11172,7 +11174,7 @@ dev-util/redo 0.42d-r1: Smaller, easier, more powerful, and more reliable than m
 dev-util/regexxer 0.10-r2: An interactive tool for performing search and replace operations
 dev-util/rej 0.16-r1: A utility for solving diff/patch rejects
 dev-util/reuse 2.1.0 3.0.1 3.0.2 5.0.2 6.2.0: Manage license information according to the SPDX standard
-dev-util/rgbds 1.0.0 1.0.1 9999: Rednex Game Boy Development System
+dev-util/rgbds 1.0.1 1.0.4 9999: Rednex Game Boy Development System
 dev-util/rinstall 0.2.0-r1: Utility for declarative installation of programs
 dev-util/rizin 0.8.2 0.9.1-r1: reverse engineering framework for binary analysis
 dev-util/rocm-smi 6.3.3-r1 6.4.3-r1 7.0.2 7.1.0 7.2.0: ROCm System Management Interface Library
@@ -12296,7 +12298,7 @@ gui-libs/libsfdo 0.1.4: Collection of libraries which implement some freedesktop
 gui-libs/libwlembed 0.0.0_pre20250715 9999: A library for easily adding embedded Wayland compositor functionality
 gui-libs/libwpe 1.16.2 1.16.3: Platform-agnostic interfaces for WPE WebKit
 gui-libs/neatvnc 0.8.1 0.9.4 1.0.0 9999: Liberally licensed VNC server library with a clean interface
-gui-libs/qt-color-widgets 3.0.0: Qt (C++) widgets to manage color inputs
+gui-libs/qt-color-widgets 3.0.0 3.0.0_p20260318: Qt (C++) widgets to manage color inputs
 gui-libs/tepl 6.8.0: GtkSourceView-based text editors and IDE helper library
 gui-libs/vte 0.82.4 0.84.1: Library providing a virtual terminal emulator widget
 gui-libs/vte-common 0.82.4 0.84.1: Library providing a virtual terminal emulator widget
@@ -13153,7 +13155,7 @@ media-gfx/fbida 2.14_p20241216-r1: Image viewers for the framebuffer console (fb
 media-gfx/feh 3.12.2 3.12.4 3.13 3.13.1: A fast, lightweight imageviewer using imlib2
 media-gfx/fig2dev 3.2.9-r5 3.2.9a 3.2.9a-r1 9999: Set of tools for creating TeX documents with graphics
 media-gfx/flam3 3.1.1-r1: Tools and a library for creating flame fractal images
-media-gfx/flameshot 13.1.0-r1 13.3.0: Powerful yet simple to use screenshot software
+media-gfx/flameshot 13.3.0 14.0.0: Powerful yet simple to use screenshot software
 media-gfx/fondu 20060102-r1: Utilities for converting between and manipulating mac fonts and unix fonts
 media-gfx/fontforge 20230101-r2: postscript font editor and converter
 media-gfx/fotema 2.4.1: Photo gallery for Linux
@@ -13242,7 +13244,7 @@ media-gfx/openmesh 11.0.0: Generic data structure to represent and manipulate po
 media-gfx/openscad 2025.05.01_pre-r1 2026.09.18_pre 9999: The Programmers Solid 3D CAD Modeller
 media-gfx/openvdb 12.0.1: Library for the efficient manipulation of volumetric data
 media-gfx/optipng 0.7.8 7.9.1: Recompress PNG files to a smaller size without loss of information
-media-gfx/oxipng 8.0.0-r1 9.0.0-r1 9.1.2-r1 9.1.2-r2 9.1.3 9.1.4 10.0.0 10.1.0 10.1.1: Multithreaded lossless PNG compression optimizer written in Rust
+media-gfx/oxipng 8.0.0-r1 9.0.0-r1 9.1.2-r1 9.1.2-r2 9.1.3 9.1.4 10.0.0 10.1.0 10.1.1 10.2.1: Multithreaded lossless PNG compression optimizer written in Rust
 media-gfx/pablodraw 3.3.13_beta-r1 3.3.14_beta: Ansi/Ascii text and RIPscrip vector graphic art editor/viewer
 media-gfx/pdf2svg 0.2.3-r2: Convert PDF to SVG files using poppler and cairo
 media-gfx/pencil 0.7.0 0.7.0_p20260127: 2D animation and drawing program based on Qt
@@ -13579,7 +13581,7 @@ media-libs/libsbsms 2.3.0: A library for high quality time and pitch scale modif
 media-libs/libsdl 1.2.68 1.2.78: Simple Direct Media Layer 1.2 compatibility wrapper around SDL2
 media-libs/libsdl2 2.30.7-r1 2.30.11 2.32.0 2.32.2 2.32.4 2.32.6 2.32.8 2.32.10 2.32.72 2.32.74: Simple Direct Media Layer
 media-libs/libsdl3 3.2.30 3.4.16 3.4.18: Simple Direct Media Layer
-media-libs/libsfml 2.6.2 3.0.1: Simple and Fast Multimedia Library (SFML)
+media-libs/libsfml 2.6.2 3.0.1 3.1.0: Simple and Fast Multimedia Library (SFML)
 media-libs/libshout 2.4.6-r1: library for connecting and sending data to icecast servers
 media-libs/libshumate 1.6.1 1.6.3: Shumate is a GTK toolkit providing widgets for embedded maps
 media-libs/libsidplay 1.36.59-r3 2.1.1-r7: C64 SID player library
@@ -13703,6 +13705,7 @@ media-libs/sdl_audiolib 0_p20220622-r1 9999: Audio decoding, resampling and mixi
 media-libs/sg 1.5: Socket Graphics tool for displaying polygons
 media-libs/sge 030809-r1: Graphics extensions library for SDL
 media-libs/shaderc 2026.2 2026.3: Collection of tools, libraries and tests for shader compilation
+media-libs/sheenbidi 3.0.0: A sophisticated implementation of Unicode Bidirectional Algorithm
 media-libs/simage 1.8.4-r1 1.8.5 9999: Image and video texturing library
 media-libs/smpeg 0.4.4-r11 0.4.4-r12: SDL MPEG Player Library
 media-libs/smpeg2 2.0.0-r4: SDL MPEG Player Library
@@ -14089,7 +14092,7 @@ media-sound/aumix 2.9.1-r1: Aumix volume/mixer control program
 media-sound/awesfx 0.5.2-r1: AWE32 Sound Driver Utility Programs
 media-sound/aylet 0.5: Aylet plays music files in the .ay format
 media-sound/baudline 1.08-r2: A time-frequency browser designed for visualization of spectral domains
-media-sound/beets 2.12.0 2.13.1 2.14.0 9999: Media library management system for obsessive music geeks
+media-sound/beets 2.12.0 2.13.1 2.14.0 2.14.1 9999: Media library management system for obsessive music geeks
 media-sound/bitmeter 1.2-r2: Diagnosis tool for JACK audio software
 media-sound/bluez-alsa 4.3.1-r2 9999: Bluetooth Audio ALSA Backend
 media-sound/bplay 0.991: No-frills command-line buffered player and recorder
@@ -14231,7 +14234,7 @@ media-sound/mp3val 0.1.8-r1: Validate and fix MPEG audio files
 media-sound/mp3wrap 0.5: Command-line utility that wraps multiple mp3 files into one large playable mp3
 media-sound/mpc 0.35: Commandline client for Music Player Daemon (media-sound/mpd)
 media-sound/mpck 0.15-r1: Checks MP3s for errors
-media-sound/mpd 0.24.9 0.24.12-r1: The Music Player Daemon (mpd)
+media-sound/mpd 0.24.12-r1 0.24.15: The Music Player Daemon (mpd)
 media-sound/mpd-ynca 0.3.0: MPD client to control Yamaha AV receivers with YNCA (network control) support
 media-sound/mpdas 0.4.5: AudioScrobbler client for MPD written in C++
 media-sound/mpdscribble 0.25: An MPD client that submits information to Audioscrobbler
@@ -14854,7 +14857,7 @@ net-dns/https_dns_proxy 0_pre20200925 9999: Lightweight DNS-over-HTTPS proxy
 net-dns/idnkit 2.3-r2: Toolkit for Internationalized Domain Names (IDN)
 net-dns/inadyn 2.13.0: Dynamic DNS client with multiple SSL/TLS library support
 net-dns/knot 3.5.5-r2 3.5.6 3.5.8 3.6.0: High-performance authoritative-only DNS server
-net-dns/knot-resolver 5.7.7-r1 5.7.8 6.4.1-r1 6.4.2: Scaleable caching DNS resolver
+net-dns/knot-resolver 5.7.8 6.4.2 6.5.0: Scaleable caching DNS resolver
 net-dns/libidn 1.43 1.44: Internationalized Domain Names (IDN) implementation
 net-dns/libidn2 2.3.8: An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893)
 net-dns/maradns 3.5.0036: A security-aware DNS server
@@ -14886,7 +14889,7 @@ net-firewall/firewalld 2.4.4 2.5.1 2.5.2: Firewall daemon with D-Bus interface p
 net-firewall/fwbuilder 6.0.0_rc1_p20230723-r1: Firewall management GUI for iptables, PF, Cisco routers and more
 net-firewall/fwknop 2.6.11-r1: Single Packet Authorization and Port Knocking application
 net-firewall/ipkungfu 0.6.1-r2: A nice iptables firewall script
-net-firewall/ipset 7.24: IPset tool for iptables, successor to ippool
+net-firewall/ipset 7.24-r1: IPset tool for iptables, successor to ippool
 net-firewall/ipt_netflow 2.6-r1 2.6_p20250317 9999: Netflow iptables module
 net-firewall/iptables 1.8.11-r1 1.8.12 1.8.13: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-firewall/lutelwall 0.99-r1: IPTables firewall setup script
@@ -14980,7 +14983,7 @@ net-im/tokodon 26.04.3 26.08.1: Mastodon client for Plasma and Plasma Mobile
 net-im/toxic 0.16.2 0.16.3: A curses-based client for Tox
 net-im/whatsapp-desktop-bin 0.5.3 0.5.4: Unofficial electron-based wrapper around WhatsApp Web
 net-im/ysm 2.9.9.1-r2: A console ICQ client supporting versions 7/8
-net-im/zoom 6.7.5.6891-r1 7.0.0.1666-r2: Video conferencing and web conferencing service
+net-im/zoom 6.7.5.6891-r1 7.0.0.1666-r2 7.1.5.4332: Video conferencing and web conferencing service
 net-irc/anope 2.0.14 2.0.18: Anope IRC Services
 net-irc/atheme-services 7.2.12-r7: A portable and secure set of open-source and modular IRC services
 net-irc/bnc 2.9.4-r3: BNC (BouNCe) is used as a gateway to an IRC Server
@@ -15021,7 +15024,7 @@ net-irc/soju 0.9.0 0.10.1: soju is a user-friendly IRC bouncer
 net-irc/telepathy-idle 0.2.2: Full-featured IRC connection manager for Telepathy
 net-irc/unrealircd 6.0.4.2-r1 6.2.6 6.2.7: An advanced Internet Relay Chat daemon
 net-irc/weechat 4.7.2-r1 4.9.3 4.9.4 4.10.0 9999: Portable and multi-interface IRC client
-net-irc/znc 1.10.1 1.10.3 9999: An advanced IRC Bouncer
+net-irc/znc 1.10.1 1.10.3 1.10.3-r1 9999: An advanced IRC Bouncer
 net-irc/znc-clientbuffer 1.0.48-r1 1.0.53: ZNC module which provides client specific buffers
 net-irc/znc-igloo-push 20200520: A ZNC module which provides push notifications for Igloo client
 net-irc/znc-palaver 1.2.2: A ZNC module which provides push notifications to Palaver
@@ -15479,7 +15482,7 @@ net-misc/onedrive 2.5.6 2.5.7-r1 2.5.9 2.5.10: Free Client for OneDrive on Linux
 net-misc/openntpd 6.2_p3-r2 6.2_p3-r3 6.8_p1-r2: Lightweight NTP server ported from OpenBSD
 net-misc/openrdap 0.10.1 0.10.2: RDAP command line client
 net-misc/openrsync 0.5.0_p20250127 0.5.0_p20260706 9999: BSD-licensed implementation of rsync
-net-misc/openssh 9.8_p1-r4 9.9_p2-r4 10.0_p1 10.0_p2 10.1_p1-r1 10.2_p1 10.2_p1-r1 10.3_p1 10.4_p1-r1 10.5_p1: Port of OpenBSD's free SSH release
+net-misc/openssh 9.8_p1-r4 9.9_p2-r4 10.0_p1 10.0_p2 10.1_p1-r1 10.2_p1 10.2_p1-r1 10.3_p1 10.4_p1-r1 10.5_p1 10.6_p1: Port of OpenBSD's free SSH release
 net-misc/openssh-contrib 9.7_p1-r4: Port of OpenBSD's free SSH release with HPN/X509 patches
 net-misc/openvswitch 3.3.8-r1 3.3.9 3.7.1: Production quality, multilayer virtual switch
 net-misc/owncloud-client 5.3.2.15463 6.0.2.17506 6.0.3.18040: Synchronize files from ownCloud Server with your computer
@@ -15653,7 +15656,7 @@ net-p2p/dbhub 0.451-r3: Hub software for Direct Connect, fork of opendchub
 net-p2p/deluge 2.1.1-r8 2.1.1-r9 2.2.0-r1 2.2.0-r2 9999: BitTorrent client with a client/server model
 net-p2p/ed2k_hash 0.4.0-r3: Tool for generating eDonkey2000 links
 net-p2p/energi3 3.0.8 3.1.0 9999: Official golang implementation of the Energi Core
-net-p2p/freenet 0.7.5_p1506: Freenet REference Daemon
+net-p2p/freenet 0.7.5_p1506 0.7.5_p1507: Freenet REference Daemon
 net-p2p/go-ethereum 1.16.7: Official golang implementation of the Ethereum protocol
 net-p2p/gtk-gnutella 1.2.2-r1 1.2.3: GTK+ Gnutella client
 net-p2p/gtorrentviewer 0.2b-r1: A GTK2-based viewer and editor for BitTorrent meta files
@@ -15781,7 +15784,7 @@ net-vpn/nstx 1.1_beta6-r3: IP over DNS tunnel
 net-vpn/ocserv 1.3.0-r11 1.4.1 9999: Openconnect SSL VPN server
 net-vpn/openconnect 9.12-r1 9.12-r2 9.20 9.21 9999: Free client for Cisco AnyConnect SSL VPN software
 net-vpn/openfortivpn 1.23.1 1.24.1: Fortinet compatible VPN client
-net-vpn/openvpn 2.6.20-r1 2.7.4 2.7.5 2.7.6 9999: Robust and highly flexible tunneling application compatible with many OSes
+net-vpn/openvpn 2.6.20-r1 2.7.4 2.7.5 2.7.6 2.7.7 9999: Robust and highly flexible tunneling application compatible with many OSes
 net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenVPN Data Channel Offload in the linux kernel
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
@@ -16648,6 +16651,7 @@ sec-keys/openpgp-keys-alejandro-colomar 20231031 20260122: OpenPGP keys used by 
 sec-keys/openpgp-keys-alekseysanin 20231021: Aleksey Sanin OpenPGP Key
 sec-keys/openpgp-keys-alexanderneumann 20241028: OpenPGP keys used by Alexander Neumann
 sec-keys/openpgp-keys-alexbarton 20260718: OpenPGP keys used by Alex Barton
+sec-keys/openpgp-keys-alexeysokolov 20260914: OpenPGP keys used by Alexey Sokolov
 sec-keys/openpgp-keys-alisarctl 20200302-r1: OpenPGP keys used by Ali Abdallah
 sec-keys/openpgp-keys-alsa 20260116: OpenPGP keys used by the Alsa Project
 sec-keys/openpgp-keys-andreasschneider 20260218: OpenPGP key used by Andreas Schneider
@@ -16831,6 +16835,7 @@ sec-keys/openpgp-keys-miniupnp 20201006: OpenPGP keys used to sign miniupnp* pac
 sec-keys/openpgp-keys-mlichvar 20210513: OpenPGP keys used by Miroslav Lichvar
 sec-keys/openpgp-keys-moritzbunkus 20260524: OpenPGP keys used by Moritz Bunkus
 sec-keys/openpgp-keys-mpc 20260118 20260210: OpenPGP keys used by Andreas Enge (to sign MPC releases)
+sec-keys/openpgp-keys-mpd 20130810: OpenPGP keys used by the Music Player Daemon developer
 sec-keys/openpgp-keys-musl 20220407: OpenPGP keys used to sign musl
 sec-keys/openpgp-keys-mysql 20250120: OpenPGP keys used to sign MySQL releases
 sec-keys/openpgp-keys-nabijaczleweli 20260717: OpenPGP keys used by наб (nabijaczleweli)
@@ -17664,7 +17669,7 @@ sys-block/storcli 7.2405 7.3703: MegaRAID StorCLI (successor of the MegaCLI)
 sys-block/tapecat 1.0.0-r1: tapecat is a tape utility used to describe the physical content of a tape
 sys-block/targetcli-fb 2.1.58-r1 3.0.1: Command shell for managing Linux LIO kernel target
 sys-block/tgt 1.0.91 1.0.92: Linux SCSI target framework (tgt)
-sys-block/thin-provisioning-tools 1.3.0 1.3.1: A suite of tools for thin provisioning on Linux
+sys-block/thin-provisioning-tools 1.3.1 1.3.4: A suite of tools for thin provisioning on Linux
 sys-block/tw_cli 10.2.2.1-r2: 3ware SATA/PATA/SAS RAID controller Command Line Interface tool
 sys-block/vblade 25: vblade exports a block device using AoE
 sys-block/vdo 8.3.2.1: Userspace tools for managing VDO volumes
@@ -17685,7 +17690,7 @@ sys-boot/gnu-efi 3.0.19 4.0.4: Library for build EFI Applications
 sys-boot/grub 2.12-r12 2.14-r5 2.16-r1 9999: GNU GRUB boot loader
 sys-boot/grub-themes-gentoo 1.0-r2: Grub2 Themes for Gentoo
 sys-boot/lilo 24.2-r2 24.2-r3: LInux LOader, the original Linux bootloader
-sys-boot/limine 12.9.0: Modern, secure, portable, multiprotocol bootloader and boot manager
+sys-boot/limine 12.9.3: Modern, secure, portable, multiprotocol bootloader and boot manager
 sys-boot/makebootfat 1.4: Command line utility able to create bootable USB disks
 sys-boot/mbr 1.1.11-r2: A replacement master boot record for IBM-PC compatible computers
 sys-boot/milo 2.4.18: The Alpha MIniLOader, for Alpha Machines without SRM
@@ -17709,7 +17714,7 @@ sys-boot/yaboot 1.3.17-r4: PPC Bootloader
 sys-boot/yaboot-static 1.3.17-r2: Static yaboot ppc boot loader for machines with open firmware
 sys-cluster/ampi 0_pre20140616-r1: MPI library for algorithmic differentiation
 sys-cluster/c3 4.0.1: The Cluster Command and Control (C3) tool suite
-sys-cluster/ceph 20.1.1-r1 20.2.1-r3 20.2.1-r4 20.2.1-r5 20.2.4 20.2.4-r1: Ceph distributed filesystem
+sys-cluster/ceph 20.1.1-r1 20.2.1-r5 20.2.4-r2: Ceph distributed filesystem
 sys-cluster/charliecloud 0.43 0.44 9999: Lightweight user-defined software stacks for high-performance computing
 sys-cluster/charm 6.10.2: Message-passing parallel language and runtime system
 sys-cluster/charmdebug 6.2.0-r2: A debugger for Charm++ applications
