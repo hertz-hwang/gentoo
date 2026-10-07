@@ -1853,7 +1853,7 @@ app-editors/kakoune 2022.10.31 2023.08.05 2024.05.18 2025.06.03 2026.05.21 9999:
 app-editors/kile 2.9.94: Latex Editor and TeX shell based on KDE Frameworks
 app-editors/leafpad 0.8.18.1-r1: Simple GTK2 text editor
 app-editors/levee 4.0: Really tiny vi clone, for things like rescue disks
-app-editors/logseq-desktop-bin 0.10.15-r1 1.0.0: A privacy-first, open-source platform for knowledge sharing and management
+app-editors/logseq-desktop-bin 0.10.15-r1 1.0.0 2.0.2: A privacy-first, open-source platform for knowledge sharing and management
 app-editors/lpe 1.2.8_p20210401: A lightweight programmers editor
 app-editors/mg 20240709 20260227 20260719: MicroGnuEmacs, a port from the BSDs
 app-editors/micro 2.0.13-r1 2.0.15: Modern and intuitive terminal-based text editor
@@ -1888,7 +1888,7 @@ app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
 app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9.2.1152 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.139.1 1.140.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.140.0 1.141.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.126.04524 1.135.06055: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -9646,7 +9646,7 @@ dev-python/simpleeval 1.0.7 1.0.8: A simple, safe single expression evaluator li
 dev-python/simplejson 4.1.2 4.2.0: Simple, fast, extensible JSON encoder/decoder for Python
 dev-python/simplekml 1.3.6: Enables you to generate KML with as little effort as possible
 dev-python/simpy 4.1.2: Object-oriented, process-based discrete-event simulation language
-dev-python/sip 6.16.1-r1 6.17.0: Python bindings generator for C/C++ libraries
+dev-python/sip 6.16.1-r1 6.17.0-r1: Python bindings generator for C/C++ libraries
 dev-python/siphash24 1.8 1.9: Streaming-capable SipHash-1-3 and SipHash-2-4 Implementation
 dev-python/six 1.17.0: Python 2 and 3 compatibility library
 dev-python/slixmpp 1.15.0 1.16.0: Python 3 library for XMPP
@@ -13351,7 +13351,7 @@ media-libs/bcg729 1.1.1-r1: Encoder and decoder of the ITU G729 Annex A/B speech
 media-libs/bio2jack 0.9-r2: Library for porting blocked I/O OSS/ALSA audio applications to JACK
 media-libs/blib 1.1.7-r3 1.1.7-r4: Library full of useful things to hack the Blinkenlights
 media-libs/cal3d 0.11.0-r1: Cal3D is a skeletal based character animation library
-media-libs/chromaprint 1.5.1-r4 1.6.0-r1: Library implementing a custom algorithm for extracting audio fingerprints
+media-libs/chromaprint 1.6.0-r1 1.6.1: Library implementing a custom algorithm for extracting audio fingerprints
 media-libs/cimg 3.4.3: C++ template image processing toolkit
 media-libs/clutter 1.26.4-r2: Clutter is a library for creating graphical user interfaces
 media-libs/clutter-gst 3.0.27-r2: GStreamer integration library for Clutter
@@ -18626,13 +18626,13 @@ x11-apps/xwininfo 1.1.7: window information utility for X
 x11-apps/xwud 1.0.8: image displayer for X
 x11-base/xcb-proto 1.17.0: X C-language Bindings protocol headers
 x11-base/xorg-apps 3: X11 Applications (meta package)
-x11-base/xorg-drivers 21.1-r2 9999: Meta package containing deps on all xorg drivers
+x11-base/xorg-drivers 21.1-r2 26.0 9999: Meta package containing deps on all xorg drivers
 x11-base/xorg-fonts 3: X11 fonts (meta package)
 x11-base/xorg-proto 2025.1 2026.1 9999: X.Org combined protocol headers
-x11-base/xorg-server 21.1.24 21.1.25 9999: X.Org X servers
+x11-base/xorg-server 21.1.24 21.1.25 26.0.99.903 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
-x11-base/xwayland 24.1.13 24.1.14 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 595.44.15 595.104.02 615.71.09: NVIDIA Accelerated Graphics Driver
+x11-base/xwayland 24.1.13 24.1.14 26.0.99.903 9999: Standalone X server running under Wayland
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 595.44.15 595.104.02 615.71.09 615.78.08: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
