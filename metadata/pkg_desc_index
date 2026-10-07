@@ -1139,7 +1139,7 @@ app-antivirus/clamav 0.103.12-r6 1.4.3 1.4.4 1.4.5 1.5.3: Clam Anti-Virus Scanne
 app-antivirus/clamtk 6.18-r1 6.18-r2: A graphical front-end for ClamAV
 app-antivirus/fangfrisch 1.9.2 1.9.2-r1: Update and verify unofficial Clam Anti-Virus signatures
 app-antivirus/lkrg 0.9.8 0.9.9 9999: Linux Kernel Runtime Guard
-app-arch/7zip 26.02-r1 26.03: Free file archiver for extremely high compression
+app-arch/7zip 26.02-r1 26.03 26.04: Free file archiver for extremely high compression
 app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving compression
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
 app-arch/alien 8.95.6 8.95.9: Converts between the rpm, dpkg, stampede slp, and slackware tgz file formats
@@ -1269,7 +1269,7 @@ app-backup/dar 2.8.6: A full featured backup tool, aimed for disks
 app-backup/deja-dup 44.2 48.4: Simple backup tool using duplicity back-end
 app-backup/dirvish 1.2.1-r1: Dirvish is a fast, disk based, rotating network backup system
 app-backup/duplicati 2.2.0.1.2025.11.09: Backup client that securely stores encrypted, incremental, compressed backups
-app-backup/duplicity 3.0.7 3.1.0 3.2.0 3.2.0.1 3.2.1 9999: Secure backup system using GnuPG to encrypt data
+app-backup/duplicity 3.1.0 3.2.1 9999: Secure backup system using GnuPG to encrypt data
 app-backup/duply 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.9: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
@@ -2806,7 +2806,7 @@ app-misc/francis 26.04.3 26.08.1: Productivity application using the well-known 
 app-misc/freewvs 0.1.5: Scans filesystem for known vulnerable web applications
 app-misc/fslurp 2.1.4: Read and display data from Fronius IG and IG Plus inverters
 app-misc/fsniper 1.3.1-r2: Monitors a given set of directories for new files
-app-misc/fx 39.1.0 39.2.0: Terminal JSON viewer & processor
+app-misc/fx 39.1.0 39.2.0 40.0.0: Terminal JSON viewer & processor
 app-misc/g810-led 0.4.2: Led controller for Logitech G- Keyboards
 app-misc/gcal 4.1-r3: The GNU Calendar - a replacement for cal
 app-misc/geekcode 1.7.3-r1: Geek code generator
@@ -2987,7 +2987,7 @@ app-misc/ttyload 0.5.3-r1: color-coded graph of load averages over time
 app-misc/ttyrec 1.1.7.1 1.2.0.0: ttyrec provides tools to record and replay a terminal session
 app-misc/tzupdate 3.1.0-r1: Set the system timezone based on IP geolocation
 app-misc/unfoo 1.0.8-r2: Simple bash driven frontend to simplify decompression of files
-app-misc/upterm 0.24.0 0.25.1 0.26.0 0.31.0: Instant Terminal Sharing
+app-misc/upterm 0.24.0 0.25.1 0.26.0 0.31.0 0.36.0: Instant Terminal Sharing
 app-misc/uptimed 0.4.7: System uptime record daemon that keeps track of your highest uptimes
 app-misc/vcontrold 0.98.11-r1: Daemon for communication with Viessmann Vito heatings
 app-misc/vcp 2.2-r2: Copy files/directories in a curses interface
@@ -5628,7 +5628,7 @@ dev-libs/kdsingleapplication 1.2.1: KDAB's helper class for single-instance poli
 dev-libs/keybinder 0.3.2-r300: A library for registering global keyboard shortcuts
 dev-libs/keystone 0.9.2-r3 0.9.2-r4 9999: assembly/assembler framework + bindings
 dev-libs/kirigami-addons 1.13.1 1.14.2 1.15.0: Visual end user components for Kirigami-based applications
-dev-libs/kirigami-app-components 1.0.2: Kirigami addons and modules necessary to do a full featured KDE application
+dev-libs/kirigami-app-components 1.1.1: Kirigami addons and modules necessary to do a full featured KDE application
 dev-libs/kopeninghours 26.04.3 26.08.1: Library for parsing and evaluating OSM opening hours expressions
 dev-libs/kosmindoormap 26.04.3 26.08.1: Data Model and Extraction System for Travel Reservation information
 dev-libs/kpathsea 6.3.5_p20230311 6.4.0_p20240311 6.4.0_p20240311-r1 6.4.2_p20260301: Path searching library for TeX-related files
@@ -11030,7 +11030,7 @@ dev-util/git-bug 0.10.1 0.11.0: Distributed, offline-first bug tracker embedded 
 dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
-dev-util/github-cli 2.96.0 2.98.0 2.100.0 2.101.0 9999: GitHub CLI
+dev-util/github-cli 2.100.0 2.101.0 2.102.0 9999: GitHub CLI
 dev-util/gitlab-ci-linter 2.4.0: linter for .gitlab-ci.yml files
 dev-util/gitlab-cli 1.106.0 1.116.0 1.119.0: the official gitlab command line interface
 dev-util/gitlab-runner 18.6.6 18.7.2 18.8.0: The official GitLab Runner, written in Go
@@ -12638,7 +12638,7 @@ kde-plasma/kde-cli-tools 6.6.6-r1 6.7.5: Tools based on KDE Frameworks 6 to bett
 kde-plasma/kde-cli-tools-common 6.6.6-r1 6.7.5: Common files for kde-cli-tools
 kde-plasma/kde-gtk-config 6.6.6-r1 6.7.5: Syncs KDE Plasma theme settings to GTK applications
 kde-plasma/kdecoration 6.6.6-r1 6.7.5: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 6.6.6-r1 6.7.5 6.7.5-r1: Extra Plasma applets and engines
+kde-plasma/kdeplasma-addons 6.6.6-r1 6.7.5-r1: Extra Plasma applets and engines
 kde-plasma/kdesu-gui 6.6.6-r1 6.7.5: Graphical frontend for KDE Frameworks' kdesu
 kde-plasma/keditfiletype 6.6.6-r1 6.7.5: File Type Editor
 kde-plasma/kgamma 6.6.6-r1 6.7.5: Screen gamma values kcontrol module
@@ -12647,15 +12647,15 @@ kde-plasma/kinfocenter 6.6.6-r1 6.7.5: Utility providing information about the c
 kde-plasma/kmenuedit 6.6.6-r1 6.7.5: KDE Plasma menu editor
 kde-plasma/knighttime 6.6.6-r1 6.7.5: Helpers for scheduling the dark-light cycle
 kde-plasma/kpipewire 6.6.6.1-r1 6.7.5: Components relating to Flatpak pipewire use in Plasma
-kde-plasma/krdp 6.6.6-r1 6.7.5 6.7.5-r1: Library and examples for creating an RDP server
+kde-plasma/krdp 6.6.6-r1 6.7.5-r1: Library and examples for creating an RDP server
 kde-plasma/kscreen 6.6.6-r1 6.7.5: KDE Plasma screen management
 kde-plasma/kscreenlocker 6.6.6-r1 6.7.5: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 6.6.6-r1 6.7.5: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/ksshaskpass 6.6.6-r1 6.7.5 6.7.5-r1: Implementation of ssh-askpass with KDE Wallet integration
 kde-plasma/ksystemstats 6.6.6-r1 6.7.5: Plugin-based system monitoring daemon
 kde-plasma/kwallet-pam 6.6.6-r1 6.7.5: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.6.6-r1 6.7.5: Qt-style API to interact with the wayland-client API
-kde-plasma/kwin 6.6.6-r1 6.7.5 6.7.5-r1: Flexible, composited Window Manager for windowing systems on Linux
-kde-plasma/kwin-x11 6.6.6-r1 6.7.5 6.7.5-r1: Flexible, composited X window manager
+kde-plasma/kwin 6.6.6-r1 6.7.5-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin-x11 6.6.6-r1 6.7.5-r1: Flexible, composited X window manager
 kde-plasma/kwrited 6.6.6-r1 6.7.5: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.6.6-r1 6.7.5: Qt component to allow applications make use of Wayland wl-layer-shell protocol
 kde-plasma/libkscreen 6.6.6-r2 6.7.5: Plasma screen management library
@@ -12686,7 +12686,7 @@ kde-plasma/plasma-systemmonitor 6.6.6-r1 6.7.5: Monitor system sensors, process 
 kde-plasma/plasma-thunderbolt 6.6.6-r1 6.7.5: Plasma integration for controlling Thunderbolt devices
 kde-plasma/plasma-vault 6.6.6-r1 6.7.5: Plasma applet and services for creating encrypted vaults
 kde-plasma/plasma-welcome 6.6.6-r1 6.7.5: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.6.6-r1 6.7.5 6.7.5-r1: KDE Plasma workspace
+kde-plasma/plasma-workspace 6.6.6-r1 6.7.5-r1: KDE Plasma workspace
 kde-plasma/plasma-workspace-wallpapers 6.6.6-r1 6.7.5: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.6.6-r1 6.7.5: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.6.6-r1 6.7.5: KDE Plasma control module for Plymouth
@@ -12834,7 +12834,7 @@ mail-filter/spamprobe 1.4d-r3: Fast, intelligent, automatic spam detector using 
 mail-filter/spf-engine 3.1.0-r1: Policy daemon for Postfix SPF verification
 mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing policy
 mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
-mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2 2.0.3 2.0.4 2.0.6 2.0.7: An MTA designed specifically for maildirs
+mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2 2.0.3 2.0.4 2.0.6 2.0.7 2.0.8: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
 mail-mta/exim 4.99.5 4.100.1: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.32 1.8.33 1.8.34: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -13216,7 +13216,7 @@ media-gfx/kio-mobi-thumbnailer 26.04.3 26.08.1: KIO thumbnail generator for Mobi
 media-gfx/kio-ps-thumbnailer 26.04.3 26.08.1: KIO thumbnail generator for DVI, EPS, PDF and PS files
 media-gfx/kio-raw-thumbnailer 26.04.3 26.08.1: KIO thumbnail generator for RAW files
 media-gfx/kphotoalbum 6.2.0: Tool for indexing, searching, and viewing images
-media-gfx/krita 6.0.1 6.0.3-r1 6.0.4: Free digital painting application. Digital Painting, Creative Freedom!
+media-gfx/krita 6.0.1 6.0.4: Free digital painting application. Digital Painting, Creative Freedom!
 media-gfx/kuickshow 0.11.0: Image viewer based on KDE Frameworks
 media-gfx/kxstitch 3.0.0_pre20250110: Program to create cross stitch patterns
 media-gfx/libbgcode 0.0.20241024 0.0.20251210 0.0.20260521: Prusa Block & Binary G-code reader / writer / converter
@@ -13452,7 +13452,7 @@ media-libs/libao 1.2.2-r3: The Audio Output library
 media-libs/libaom 3.12.1 3.14.1 9999: Alliance for Open Media AV1 Codec SDK
 media-libs/libart_lgpl 2.3.21-r3: A LGPL version of libart
 media-libs/libass 0.17.4 0.17.5 0.17.5-r1: Library for SSA/ASS subtitles rendering
-media-libs/libavif 1.3.0 1.4.1 9999: Library for encoding and decoding .avif files
+media-libs/libavif 1.3.0 1.4.1 1.4.2 9999: Library for encoding and decoding .avif files
 media-libs/libbdplus 0.2.0 9999: Blu-ray library for BD+ decryption
 media-libs/libbluray 1.3.4-r3 1.4.1 9999: Blu-ray playback libraries
 media-libs/libbs2b 3.1.0-r2: Bauer stereophonic-to-binaural DSP library
@@ -13506,7 +13506,7 @@ media-libs/libgphoto2 2.5.34-r1: Library that implements support for numerous di
 media-libs/libgpod 0.8.3-r9: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1 2.4.5 2.4.5-r1 2.4.6: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
-media-libs/libheif 1.20.2 1.21.2 1.23.1 1.23.4 1.23.5 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.20.2 1.21.2 1.23.5 1.23.6 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libicns 0.8.1-r1: A library for manipulating MacOS X .icns icon format
 media-libs/libid3tag 0.16.3 0.16.4: The MAD id3tag library, Tenacity fork
 media-libs/libiec61883 1.2.0-r2: Library for capturing video (dv or mpeg2) over the IEEE 1394 bus
@@ -15438,7 +15438,7 @@ net-misc/minissdpd 1.6.0: MiniSSDP Daemon
 net-misc/miniupnpd 2.3.10 2.3.11: MiniUPnP IGD Daemon
 net-misc/mobile-broadband-provider-info 20240407 20251101: Database of mobile broadband service providers
 net-misc/modemmanager 1.20.6 1.24.0 1.24.2: Modem and mobile broadband management libraries
-net-misc/moonlight 6.1.0-r4 9999: NVIDIA GameStream (and Sunshine) client
+net-misc/moonlight 6.2.0 9999: NVIDIA GameStream (and Sunshine) client
 net-misc/mosh 1.4.0-r2: Mobile shell that supports roaming and intelligent local echo
 net-misc/mptcpd 0.12 0.13 0.14 9999: Daemon that performs multipath TCP path management related operations
 net-misc/mrouted 4.6-r1 4.7: IP multicast routing daemon
@@ -15790,9 +15790,9 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.100.0 1.102.0 1.102.2 1.102.5: Tailscale vpn client
+net-vpn/tailscale 1.100.0 1.102.0 1.102.2 1.102.5 1.104.1: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
-net-vpn/tor 0.4.9.11 0.4.9.11-r1 0.4.9.12 0.4.9.13 9999: Anonymizing overlay network for TCP
+net-vpn/tor 0.4.9.13 0.4.9.14 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 0.10.22 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 20250727 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
@@ -16581,7 +16581,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.0-r1: a client library to interact with the
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.35.1: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.40.0: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.1: Tensors and Dynamic neural networks in Python with strong GPU acceleration
