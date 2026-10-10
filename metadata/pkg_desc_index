@@ -2465,7 +2465,7 @@ app-emulation/vkd3d-proton 2.14.1 3.0.1 9999: Fork of VKD3D, development branche
 app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0 11.3.0: Replacement for the .NET runtime and class libraries in Wine
-app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.4 11.0.1 11.0.2 9999: Valve Software's fork of Wine
+app-emulation/wine-proton 8.0.5c 9.0.4-r2 10.0.4 11.0.2 11.0.2e 9999: Valve Software's fork of Wine
 app-emulation/wine-staging 11.0 11.16 11.17 11.18 11.19 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-emulation/wine-vanilla 8.0.2 9.0.1-r1 10.0-r2 11.0 11.16 11.17 11.18 11.19 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
@@ -11685,11 +11685,11 @@ games-engines/stratagus 3.3.2-r2: A realtime strategy game engine
 games-engines/uzdoom 5.0.3: Modder-friendly hardware-accelerated source port of the DOOM engine
 games-engines/xzip 1.8.2-r4: X interface to Z-code based text games
 games-engines/zoom 1.1.5-r2: Fast, clean, modern Z-code interpreter for X
-games-fps/alephone 20250829 99999999: Enhanced game engine version from the classic Mac game, Marathon
+games-fps/alephone 20250829 20260930 99999999: Enhanced game engine version from the classic Mac game, Marathon
 games-fps/alephone-apotheosis-x 1.1: Aleph One - Apotheosis X
-games-fps/alephone-durandal 20240822 20250302: Aleph One - Marathon 2 (Durandal)
-games-fps/alephone-infinity 20240822 20250302: Aleph One - Marathon Infinity
-games-fps/alephone-marathon 20240822 20250302: Aleph One - Marathon (M1A1)
+games-fps/alephone-durandal 20250302 20260930: Aleph One - Marathon 2 (Durandal)
+games-fps/alephone-infinity 20250302 20260930: Aleph One - Marathon Infinity
+games-fps/alephone-marathon 20250302 20260930: Aleph One - Marathon (M1A1)
 games-fps/alienarena 7.66-r1: Fast-paced multiplayer deathmatch game
 games-fps/blackshades 20070723-r2: You control a psychic bodyguard, and try to protect the VIP
 games-fps/chocolate-doom 3.1.1: A Doom source port that is minimalist and historically accurate
@@ -17406,7 +17406,7 @@ sys-apps/lssbus 0.1-r1: Small utility for Linux/SPARC that list devices on SBUS
 sys-apps/lsvpd 1.7.14: Utility to List Device Vital Product Data (VPD)
 sys-apps/makedev 3.23.1-r3: Program used for creating device files in /dev
 sys-apps/man-db 2.13.0-r1 2.13.1-r1 9999: A man replacement that utilizes dbm instead of flat files
-sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 9999: A somewhat comprehensive collection of Linux man pages
+sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 6.19 9999: A somewhat comprehensive collection of Linux man pages
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
