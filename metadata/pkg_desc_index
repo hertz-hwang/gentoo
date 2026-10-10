@@ -5482,7 +5482,7 @@ dev-libs/aws-c-compression 0.3.1 0.3.2 1.0.0: AWS C Compression cross-platform a
 dev-libs/aws-c-event-stream 0.5.7 0.7.1 1.0.0: Core c99 package for AWS SDK for C
 dev-libs/aws-c-http 0.10.7 0.11.0-r1 1.0.0 1.1.0: AWS C Http: C99 implementation of the HTTP/1.1 and HTTP/2 specifications
 dev-libs/aws-c-io 0.23.3 0.27.4 1.0.0 1.1.0: AWS C IO: It handles all IO and TLS work for application protocols
-dev-libs/aws-c-mqtt 0.13.3 0.16.0 1.0.0 1.1.0 1.1.1: AWS C MQTT: C99 implementation
+dev-libs/aws-c-mqtt 0.13.3 0.16.0 1.0.0 1.1.1-r1: AWS C MQTT: C99 implementation
 dev-libs/aws-c-s3 0.11.2 0.13.1 1.1.1-r1 1.1.2 1.1.3 1.2.0 1.3.0 1.3.1: AWS C S3 async library
 dev-libs/aws-c-sdkutils 0.2.4 0.2.7 1.0.0: AWS C SDKUTILS: C99 library implementing AWS SDK specific utilities
 dev-libs/aws-checksums 0.2.7 0.2.10-r1 1.0.0: Cross-Platform HW accelerated CRC32c and CRC32 with fallback to SW
@@ -5908,7 +5908,7 @@ dev-libs/nwjs 0.116.0: Framework that lets you call all Node.js modules directly
 dev-libs/olm 3.2.16-r1: Implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/onigmo 6.2.0-r1: Onigmo is a regular expressions library forked from Oniguruma
 dev-libs/oniguruma 6.9.9 6.9.9-r1 6.9.10 9999: Regular expression library for different character encodings
-dev-libs/opencl-clang 17.0.8 17.0.10 18.1.7 18.1.9 19.1.5 19.1.7 20.1.5 20.1.7 21.1.5 21.1.7 22.1.2 22.1.4: OpenCL-oriented thin wrapper library around clang
+dev-libs/opencl-clang 17.0.10 18.1.9 19.1.7 20.1.7 21.1.7 22.1.4 23.1.0: OpenCL-oriented thin wrapper library around clang
 dev-libs/opencl-icd-loader 2024.10.24 2025.07.22 2026.05.29: Official Khronos OpenCL ICD Loader
 dev-libs/opencryptoki 3.6.1-r1: PKCS#11 provider cryptographic hardware
 dev-libs/openct 0.6.20-r6: library for accessing smart card terminals
@@ -6239,7 +6239,7 @@ dev-ml/lablgtk-sourceview 3.1.5: OCaml bindings to GTK-3
 dev-ml/labltk 8.06.12-r2 8.06.15-r1: OCaml interface to the Tcl/Tk GUI framework
 dev-ml/lambda-term 3.3.2 3.3.3 3.4.0: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
-dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OCaml bindings for LLVM
+dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
 dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2: Cooperative light-weight thread library for OCaml
@@ -8447,7 +8447,7 @@ dev-python/cheetah3 3.4.0 3.4.0-r1: Python-powered template engine and code gene
 dev-python/cheroot 11.1.2: High-performance, pure-Python HTTP server used by CherryPy
 dev-python/cherrypy 18.10.0: CherryPy is a pythonic, object-oriented HTTP framework
 dev-python/cjkwrap 2.2-r2: A library for wrapping and filling UTF-8 CJK text
-dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Python bindings for llvm-core/clang
+dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Python bindings for llvm-core/clang
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.15.0 2.15.1 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
@@ -8920,7 +8920,7 @@ dev-python/line-profiler 5.0.2: Line-by-line profiler
 dev-python/linkify-it-py 2.1.0 2.1.1 2.2.0: Links recognition library with full unicode support
 dev-python/linode-metadata 0.3.5 0.4.0: Python bindings for the Linode Metadata Service
 dev-python/linuxdoc 20240924 99999999: Sphinx-doc extensions for sophisticated C developer
-dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
+dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
 dev-python/littleutils 0.2.4: Small personal collection of Python utility functions
 dev-python/livereload 2.7.1: livereload server in Python
 dev-python/llfuse 1.5.2: Python bindings for the low-level FUSE API
@@ -11211,7 +11211,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.350.0 1.4.357.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 17.0.18 17.0.23 17.0.27 18.1.18 18.1.23 18.1.27 19.1.13 19.1.18 19.1.22 20.1.8 20.1.13 20.1.17 21.1.3 21.1.7 21.1.11 22.1.2 22.1.6 23.1.1 24.0.0_pre20260820: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 17.0.27 18.1.27 19.1.22 20.1.17 21.1.11 22.1.6 23.1.1 24.0.0_pre20260820: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.350.0 1.4.357.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -12700,38 +12700,38 @@ kde-plasma/systemsettings 6.6.6-r1 6.7.5: Control Center to configure KDE Plasma
 kde-plasma/union 6.7.5: Style engine providing a unified style description to separate output styles
 kde-plasma/wacomtablet 6.6.6-r2 6.7.5: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.6.6-r1 6.7.5: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
-llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: C language family frontend for LLVM
-llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Common files shared between multiple slots of clang
+llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: C language family frontend for LLVM
+llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-linker-config 17 18 19 20 21 22 23 24: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use Clang on GCC-free system
-llvm-core/flang 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: LLVM's Fortran frontend
-llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: The LLVM linker (link editor)
+llvm-core/flang 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: LLVM's Fortran frontend
+llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use LLD on binutils-free system
-llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: The LLVM debugger
-llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Low Level Virtual Machine
-llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Common files shared between multiple slots of LLVM
+llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: The LLVM debugger
+llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Low Level Virtual Machine
+llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Common files shared between multiple slots of LLVM
 llvm-core/llvm-toolchain-symlinks 17-r1 18-r1 19 20-r1 21 22 23 24: Symlinks to use LLVM on binutils-free system
 llvm-core/llvmgold 17 18 19 20 21 22 23 24: LLVMgold plugin symlink for autoloading
-llvm-core/mlir 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Multi-Level Intermediate Representation (library only)
-llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Polyhedral optimizations for LLVM
+llvm-core/mlir 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Multi-Level Intermediate Representation (library only)
+llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Polyhedral optimizations for LLVM
 llvm-runtimes/clang-rtlib-config 17 18 19 20 21 22 23 24: Default rtlib configuration for clang
 llvm-runtimes/clang-runtime 17.0.6-r1 18.1.8-r1 19.1.7-r2 20.1.8-r2 21.1.8-r1 22-r1 23-r2 24: Meta-ebuild for clang runtime libraries
 llvm-runtimes/clang-stdlib-config 17 18 19 20 21 22 23 24: Default C++ library configuration for clang
 llvm-runtimes/clang-unwindlib-config 17 18 19 20 21 22 23 24: Default unwindlib configuration for clang
-llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Compiler runtime library for clang (built-in part)
-llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
-llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: LLVM's Fortran runtime
+llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime library for clang (built-in part)
+llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
+llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
-llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OpenCL C library
-llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
-llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Low level support for a standard C++ library
-llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
-llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8-r1 23.1.2-r1 23.1.3-r1 24.0.0_pre20260929 24.0.0.9999: C++ runtime stack unwinder from LLVM
+llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenCL C library
+llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
+llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Low level support for a standard C++ library
+llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
+llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8-r1 23.1.2-r1 23.1.3-r1 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: C++ runtime stack unwinder from LLVM
 llvm-runtimes/offload 19.1.7 20.1.8-r1 21.1.8 22.1.8: OpenMP offloading support
-llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
-llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OpenMP target library for amdgcn devices
-llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OpenMP target library for nvptx64 devices
-llvm-runtimes/openmp-spirv64-intel 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0.9999: OpenMP target library for spirv64 Intel devices
+llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
+llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for amdgcn devices
+llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for nvptx64 devices
+llvm-runtimes/openmp-spirv64-intel 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for spirv64 Intel devices
 lxde-base/lxappearance 0.6.4-r2: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
@@ -13216,7 +13216,7 @@ media-gfx/kio-mobi-thumbnailer 26.04.3 26.08.2: KIO thumbnail generator for Mobi
 media-gfx/kio-ps-thumbnailer 26.04.3 26.08.2: KIO thumbnail generator for DVI, EPS, PDF and PS files
 media-gfx/kio-raw-thumbnailer 26.04.3 26.08.2: KIO thumbnail generator for RAW files
 media-gfx/kphotoalbum 6.2.0: Tool for indexing, searching, and viewing images
-media-gfx/krita 6.0.1 6.0.4: Free digital painting application. Digital Painting, Creative Freedom!
+media-gfx/krita 6.0.1 6.0.4.1: Free digital painting application. Digital Painting, Creative Freedom!
 media-gfx/kuickshow 0.11.0: Image viewer based on KDE Frameworks
 media-gfx/kxstitch 3.0.0_pre20250110: Program to create cross stitch patterns
 media-gfx/libbgcode 0.0.20241024 0.0.20251210 0.0.20260521: Prusa Block & Binary G-code reader / writer / converter
@@ -13751,7 +13751,7 @@ media-libs/webrtc-audio-processing 0.3.1-r1 1.3-r3 1.3-r4 1.3-r5 2.1: AudioProce
 media-libs/woff2 1.0.2-r7: Encode/decode WOFF2 font format
 media-libs/wxsvg 1.5.24-r1: C++ library to create, manipulate and render SVG files
 media-libs/x264 0.0.20240513 0.0.20240513-r1 9999: Free library for encoding X264/AVC streams
-media-libs/x265 3.6-r1 4.1 9999: Library for encoding video streams into the H.265/HEVC format
+media-libs/x265 4.1 4.3 9999: Library for encoding video streams into the H.265/HEVC format
 media-libs/xine-lib 1.2.13-r3 1.2.13-r5 1.2.9999: Core libraries for Xine movie player
 media-libs/xvid 1.3.7-r2: High performance/quality MPEG-4 video de-/encoding solution
 media-libs/zimg 3.0.4-r1 9999: Scaling, colorspace conversion, and dithering library
@@ -16357,7 +16357,7 @@ sci-libs/metis 5.2.1-r2: Package for unstructured serial graph partitioning
 sci-libs/miopen 6.3.3 6.4.3-r1 7.0.2 7.1.0-r1 7.2.0: AMD's Machine Intelligence Library
 sci-libs/mkl 2025.3.1.8 2026.0.0.908 2026.1.0.236: Intel Math Kernel Library
 sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library based on MPFR
-sci-libs/mumps 5.3.5-r2: MUltifrontal Massively Parallel sparse direct matrix Solver
+sci-libs/mumps 5.3.5-r2 5.4.1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
 sci-libs/netcdf-cxx 4.2-r301 4.3.1-r3: C++ library for netCDF
