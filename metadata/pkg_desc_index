@@ -1273,7 +1273,6 @@ app-backup/duplicity 3.1.0 3.2.1 9999: Secure backup system using GnuPG to encry
 app-backup/duply 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.9: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
-app-backup/kup 0.10.0: Backup scheduler for the Plasma desktop
 app-backup/mirdir 2.1-r3: Synchronize two directory trees in a fast way
 app-backup/mylvmbackup 0.16-r2: Tool for creating backups of MySQL server's data files using LVM snapshots
 app-backup/pdumpfs 1.3-r3: A daily backup system similar to Plan9's dumpfs
@@ -5118,7 +5117,8 @@ dev-java/java-diff-utils 1.3.0-r1 4.15: Library for computing diffs, applying pa
 dev-java/java-getopt 1.0.14-r3: Java command line option parser
 dev-java/java-service-wrapper 3.5.50-r2: A wrapper that makes it possible to install a Java Application as daemon
 dev-java/java-websocket 1.6.0: A barebones WebSocket client and server implementation written in 100% Java
-dev-java/javacc 4.1-r1 7.0.4-r1 7.0.13-r1: Java Compiler Compiler - The Java Parser Generator
+dev-java/javacc 4.1-r1 7.0.4-r1 7.0.13-r1 8.1.0: Core module of JavaCC
+dev-java/javacc-java 8.1.0: Java code generator module of JavaCC
 dev-java/javacup 11b_p20160615-r2: CUP Parser Generator for Java
 dev-java/javahelp 2.0.05_p20170719-r4: The JavaHelp system online help system
 dev-java/javaparser-core 3.13.10 3.26.3: Java 1-21 Parser and Abstract Syntax Tree for Java
@@ -5321,11 +5321,11 @@ dev-java/zxing-javase 3.5.1: Core barcode encoding/decoding library
 dev-lang/R 4.5.3 4.6.1: Language and environment for statistical computing and graphics
 dev-lang/abs 2.6.0: The ABS programing language
 dev-lang/ada-bootstrap 0_p2021-r1 11 12 13 14: Binary bootstrap compiler for GNAT (Ada compiler)
-dev-lang/algol68g 3.12.3 3.13.2 3.13.3: Algol 68 Genie compiler-interpreter
+dev-lang/algol68g 3.13.3: Algol 68 Genie compiler-interpreter
 dev-lang/ammonite-repl-bin 2.5.11 3.0.0 3.0.2: Scala language-based scripting and REPL
 dev-lang/arc 3.2-r1: New dialect of Lisp, works well for web applications
 dev-lang/ats2 0.4.2-r1: Functional programming language with dependent types
-dev-lang/bas 2.6-r2: An interpreter for the classic dialect of the programming language BASIC
+dev-lang/bas 2.6-r2 2.7: An interpreter for the classic dialect of the programming language BASIC
 dev-lang/bff 1.0.7: A brainfuck interpreter
 dev-lang/boogie 3.5.7 3.5.8: SMT-based program verifier
 dev-lang/c-intercal 33.0-r2: C-INTERCAL - INTERCAL to binary (via C) compiler
@@ -5335,7 +5335,7 @@ dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.5 1.12.6: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260818 20260909: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260818 20260909 20261005: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.21.0: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
@@ -6008,7 +6008,7 @@ dev-libs/tree-sitter-cmake 0.7.1 0.7.2 0.7.4: CMake grammar for tree-sitter
 dev-libs/tree-sitter-cpp 0.23.0 0.23.1 0.23.4: C++ grammar for Tree-sitter
 dev-libs/tree-sitter-css 0.23.0 0.23.2 0.25.0-r1: CSS grammar for Tree-sitter
 dev-libs/tree-sitter-embedded-template 0.20.0 0.23.2 0.25.0: Embedded template languages (like ERB, EJS) grammar for Tree-sitter
-dev-libs/tree-sitter-erlang 0.19 0.20: Erlang programming language grammar for Tree-sitter
+dev-libs/tree-sitter-erlang 0.20 0.21.0: Erlang programming language grammar for Tree-sitter
 dev-libs/tree-sitter-gleam 1.0.0 1.1.0: Gleam grammar for Tree-sitter
 dev-libs/tree-sitter-go 0.23.1 0.23.4 0.25.0: Go grammar for Tree-sitter
 dev-libs/tree-sitter-haskell 0.23.0 0.23.1: Haskell grammar for Tree-sitter
@@ -11321,7 +11321,7 @@ dev-vcs/mergiraf 0.19.1 0.20.0: Syntax-aware git merge driver
 dev-vcs/mr 1.20180726: Multiple Repository management tool
 dev-vcs/pkgcruft-git 0.0.5-r2 9999: QA support for verifying git commits via pkgcruft
 dev-vcs/pram 16: Tool to ease merging Pull Requests and git patches
-dev-vcs/pre-commit 4.5.1: A framework for managing and maintaining multi-language Git pre-commit hooks
+dev-vcs/pre-commit 4.5.1 4.7.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/pwclient 2.6.2: The command-line client for the patchwork patch tracking tool
 dev-vcs/python-gitlab 5.6.0: Python command line interface to gitlab API
 dev-vcs/qgit 2.12 2.13: Qt-based GUI for Git repositories
@@ -12653,6 +12653,7 @@ kde-plasma/kscreen 6.6.6-r1 6.7.5: KDE Plasma screen management
 kde-plasma/kscreenlocker 6.6.6-r1 6.7.5: Library and components for secure lock screen architecture
 kde-plasma/ksshaskpass 6.6.6-r1 6.7.5 6.7.5-r1: Implementation of ssh-askpass with KDE Wallet integration
 kde-plasma/ksystemstats 6.6.6-r1 6.7.5: Plugin-based system monitoring daemon
+kde-plasma/kup 0.10.0: Backup scheduler for the Plasma desktop
 kde-plasma/kwallet-pam 6.6.6-r1 6.7.5: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.6.6-r1 6.7.5: Qt-style API to interact with the wayland-client API
 kde-plasma/kwin 6.6.6-r1 6.7.5-r1: Flexible, composited Window Manager for windowing systems on Linux
@@ -13625,7 +13626,7 @@ media-libs/libyuv 1904-r1 1909 9999: Open source project that includes YUV scali
 media-libs/libzen 0.4.39 0.4.41: Shared library for libmediainfo and mediainfo
 media-libs/libzmf 0.0.2-r1 9999: Library for parsing Zoner Callisto/Draw documents
 media-libs/lilv 0.24.26-r1: Library to make the use of LV2 plugins as simple as possible for applications
-media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 9999: Linux Studio Plugins
+media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 1.2.35 9999: Linux Studio Plugins
 media-libs/lv2 1.18.10-r1 1.18.10-r2: A simple but extensible successor of LADSPA
 media-libs/lvtk 1.2.0-r4: A set of C++ wrappers around the LV2 C API
 media-libs/mesa 26.1.8 26.2.2 26.2.3 26.2.4 9999: OpenGL-like graphic library for Linux
@@ -14056,7 +14057,7 @@ media-radio/tlf 1.4.1-r6: Console-mode amateur radio contest logger
 media-radio/tqsl 2.7.3 2.8.6: ARRL Logbook of the World
 media-radio/tucnak 4.73 4.74: Amateur Radio VHF Contest Logbook
 media-radio/unixcw 3.6.1-r2: Collection of programs that fit together to form a morse code tutor program
-media-radio/wsjtx_improved 3.1.0_p260418 3.1.0_p260522 3.2.0_p260818-r1: Weak signal ham radio communication with improvements
+media-radio/wsjtx_improved 3.2.0_p260818-r1 3.2.0_p20260908: Weak signal ham radio communication with improvements
 media-radio/xastir 2.2.2 2.2.4: X Amateur Station Tracking and Information Reporting
 media-radio/xdx 2.91: a GTK+ TCP/IP DX-cluster and ON4KST chat client
 media-radio/xlog 2.0.25: An amateur radio logging program
@@ -14131,7 +14132,7 @@ media-sound/din 58.1: a software musical instrument and audio synthesizer
 media-sound/dir2ogg 0.13-r3: Converts mp3, m4a, wma, and wav files to Ogg Vorbis format
 media-sound/drumstick 2.11.0 2.11.1: Qt/C++ wrapper for ALSA sequencer
 media-sound/dvda-author 10.06-r2: Author a DVD-Audio DVD
-media-sound/easyeffects 7.2.3 7.2.5 8.0.5 9999: Limiter, auto volume and many other plugins for PipeWire applications
+media-sound/easyeffects 7.2.3 7.2.5 8.0.5 8.3.0 9999: Limiter, auto volume and many other plugins for PipeWire applications
 media-sound/easytag 2.4.3-r7 2.4.3-r8 2.4.3-r9: GTK+ utility for editing MP2, MP3, MP4, FLAC, Ogg and other media tags
 media-sound/ecasound 2.9.3-r1: Package for multitrack audio processing
 media-sound/elisa 26.04.3 26.08.2: Simple music player by KDE
@@ -14506,7 +14507,7 @@ media-video/pipewire 1.6.8 1.6.9 1.6.9999 9999: Multimedia processing graphs
 media-video/pitivi 2023.03-r2 2023.03-r3: A non-linear video editor using the GStreamer multimedia framework
 media-video/popcorntime-bin 0.5.1-r4: BitTorrent client that includes an integrated media player
 media-video/projectx 0.91.0.10-r6: Converts, splits and demuxes DVB and other MPEG recordings
-media-video/qmplay2 25.09.11 26.06.27 26.08.02 9999: A Qt-based video player, which can play most formats and codecs
+media-video/qmplay2 26.08.02 9999: A Qt-based video player, which can play most formats and codecs
 media-video/rage 0.4.0-r1: Video and audio player written using EFL
 media-video/rav1e 0.6.6-r1 0.7.1-r1 0.8.1 9999: The fastest and safest AV1 encoder
 media-video/recmpeg 1.0.5: Simple libfame-based video encoder, compresses raw video sequences to MPEG video
@@ -15361,7 +15362,7 @@ net-misc/ethertypes 0: Maps ethernet frame ids to symbolic names
 net-misc/eventd 0.29.0-r2: A small daemon to act on remote or local events
 net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12: The BGP swiss army knife of networking
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
-net-misc/freerdp 3.31.1 3.32.0 3.32.1 9999: Free implementation of the Remote Desktop Protocol
+net-misc/freerdp 3.32.1 3.32.2 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.4-r2 10.1.5-r1 10.2.5-r2 10.2.6 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.4.5 10.5.3-r2 10.5.4-r1 10.5.5 10.6.1-r1 10.6.2 10.7.0 10.7.1: The FRRouting Protocol Suite
 net-misc/gallery-dl 1.32.9-r1 1.32.12 1.32.13 1.32.15 1.32.16 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
@@ -17778,7 +17779,7 @@ sys-cluster/spark-bin 3.1.2-r1: Lightning-fast unified analytics engine
 sys-cluster/torque 6.0.4-r7: Resource manager and queuing system based on OpenPBS
 sys-cluster/ucx 1.18.1 1.19.0: Unified Communication X
 sys-cluster/virtctl 1.8.0-r1 1.9.0: Control virtual machine related operations on your kubernetes cluster
-sys-cluster/zookeeper-bin 3.8.4 3.8.7 3.9.6: A high-performance coordination service for distributed applications
+sys-cluster/zookeeper-bin 3.8.7 3.9.6: A high-performance coordination service for distributed applications
 sys-cluster/zookeepercli 1.0.11: Simple, lightweight, dependable CLI for ZooKeeper
 sys-devel/autogen 5.18.16-r102: Program and text file generation
 sys-devel/bc 1.07.1-r6 1.08.0 1.08.1 1.08.2: Handy console-based calculator utility
@@ -18540,7 +18541,7 @@ www-servers/servefile 0.5.4-r2 0.5.4-r3 0.5.4-r4: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 1.8.2 2.0.0 2.0.1: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.121 9.0.122 10.1.59 10.1.60 11.0.25 11.0.26: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
+www-servers/tomcat 9.0.121 9.0.122 9.0.123 10.1.59 10.1.60 10.1.61 11.0.25 11.0.26 11.0.27: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
 www-servers/vinyl-cache 8.0.2 9.0.1 9.0.1-r1 9.0.2 9.1.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
