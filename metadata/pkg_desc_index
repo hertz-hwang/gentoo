@@ -2971,7 +2971,7 @@ app-misc/timew-report 1.4.0-r1: An interface for Timewarrior report data
 app-misc/tinysparql 3.8.2 3.10.1 3.11.1 3.12.0: Low-footprint RDF triple store with SPARQL 1.1 interface
 app-misc/tkpasman 2.2b: Useful and reliable personal password manager, written in Tcl/Tk
 app-misc/tmate 2.4.0-r2: Instant terminal sharing
-app-misc/tmux 3.4-r1 3.5a 3.6a 3.7c 9999: Terminal multiplexer
+app-misc/tmux 3.4-r1 3.5a 3.6a 3.7c 3.8 9999: Terminal multiplexer
 app-misc/tmux-mem-cpu-load 3.8.1 9999: CPU, RAM memory, and load monitor for use with tmux
 app-misc/tmux-xpanes 4.2.0: tmux-based terminal divider
 app-misc/tmux2html 0.1.11-r1: Render full tmux windows or individual panes as HTML
@@ -3400,7 +3400,7 @@ app-text/po4a 0.74-r1: Tools to ease the translation of documentation
 app-text/podofo 0.9.8-r1 0.10.1-r2 0.10.3-r1: PoDoFo is a C++ library to work with the PDF file format
 app-text/poppler 26.05.0-r1 26.09.0 9999: PDF rendering library based on the xpdf-3.0 code base
 app-text/poppler-data 0.4.12: Data files for poppler to support uncommon encodings without xpdfrc
-app-text/ps2eps 1.68: Generate Encapsulated Postscript Format files from one-page Postscript documents
+app-text/ps2eps 1.68 1.70: Generate Encapsulated Postscript Format files from one-page Postscript documents
 app-text/ps2pkm 1.8_p20230311 1.8_p20240311 1.8_p20260301: Tool that converts a PostScript type1 font into a corresponding TeX PK font
 app-text/psiconv 0.9.9: Interpreter for Psion 5(MX) file formats
 app-text/psmark 2.1: Prints watermark-like text on any PostScript document
@@ -4013,7 +4013,7 @@ dev-db/citus 12.1.14 13.4.0 14.0.1 14.1.0 14.2.0 9999: Open-source postgresql ex
 dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud services
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
 dev-db/dbeaver-bin 26.2.0 26.2.1: Free universal database tool (community edition)
-dev-db/duckdb 1.5.4 1.5.5: high-performance analytical database system
+dev-db/duckdb 1.5.5 1.5.6: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.18 3.5.33 3.6.11 3.6.14 3.7.1: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
@@ -5868,7 +5868,7 @@ dev-libs/log4cplus 2.1.2-r1: C++ port of the Log for Java (log4j) logging librar
 dev-libs/log4cpp 1.1.3-r3 1.1.4: C++ classes for flexible logging to files, syslog and other destinations
 dev-libs/log4cxx 1.8.0: Library of C++ classes for logging to files, syslog and other destinations
 dev-libs/log4sh 1.4.2: A flexible logging framework for shell scripts
-dev-libs/ls-qpack 2.6.1 2.6.4: QPACK compression library for use with HTTP/3
+dev-libs/ls-qpack 2.6.1 2.6.4 2.7.0: QPACK compression library for use with HTTP/3
 dev-libs/luise 0.1.1-r2: Programming interface for the Wallbraun LCD-USB-Interface
 dev-libs/lzo 2.10: An extremely fast compression and decompression library
 dev-libs/m17n-lib 1.8.6 1.8.6-r1: Multilingual Library for Unix/Linux
@@ -9108,7 +9108,7 @@ dev-python/path-and-address 2.0.1-r2: Functions for server CLI applications used
 dev-python/pathable 0.6.0: Object-oriented paths
 dev-python/pathspec 1.0.4 1.1.0 1.1.1: Utility library for gitignore style pattern matching of file paths
 dev-python/pathvalidate 3.3.1: A Python library to sanitize/validate a string such as filenames/file-paths/etc
-dev-python/patiencediff 0.2.19: Python implementation of the patiencediff algorithm
+dev-python/patiencediff 0.2.19 1.0.0: Python implementation of the patiencediff algorithm
 dev-python/patsy 1.0.2 1.0.3: Python module to describe statistical models and design matrices
 dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.1.2 7.1.3: Inject some useful and sensible default behaviors into setuptools
@@ -9132,7 +9132,7 @@ dev-python/picobox 4.0.0: Dependency injection framework designed with Python in
 dev-python/pid 3.0.4-r1: Pidfile featuring stale detection and file-locking
 dev-python/piexif 1.1.3-r4: Exif manipulation with pure Python
 dev-python/pika 1.4.2 1.4.4: Pure-Python implementation of the AMQP
-dev-python/pikepdf 10.5.1 10.7.3 10.12.0 10.13.0_p1 10.14.0 10.15.0 10.16.0: Python library to work with pdf files based on qpdf
+dev-python/pikepdf 10.5.1 10.7.3 10.12.0 10.13.0_p1 10.14.0 10.15.0 10.16.0 10.17.0: Python library to work with pdf files based on qpdf
 dev-python/pillow 12.3.0: Python Imaging Library (fork)
 dev-python/pip 26.1.2 26.1.2-r1 26.2.1: The PyPA recommended tool for installing Python packages
 dev-python/pivy 0.6.10 0.6.11: Coin3D bindings for Python
@@ -9217,7 +9217,7 @@ dev-python/pycotap 1.3.1: A tiny test runner that outputs TAP results to standar
 dev-python/pycountry 26.2.16: Database of countries, subdivisions, languages, currencies and script
 dev-python/pycparser 3.0 3.1 3.11: C parser and AST generator written in Python
 dev-python/pycpio 1.7.0 9999: Python CPIO library
-dev-python/pycryptodome 3.23.0 3.24.0: A self-contained cryptographic library for Python
+dev-python/pycryptodome 3.23.0 3.24.0 3.24.1: A self-contained cryptographic library for Python
 dev-python/pycuda 2025.1.3-r1: Python wrapper for NVIDIA CUDA
 dev-python/pycups 2.0.4: Python bindings for the CUPS API
 dev-python/pycurl 7.45.7 7.46.0 7.47.0 7.48.0: Python bindings for curl/libcurl
@@ -9249,7 +9249,7 @@ dev-python/pygdbmi 0.11.0.0: Library to parse gdb mi output and interact with gd
 dev-python/pyghmi 1.6.19: A pure python implementation of IPMI protocol
 dev-python/pygit2 1.20.0 1.20.1: Python bindings for libgit2
 dev-python/pygithub 2.9.1 2.10.0: Python library to access the Github API v3
-dev-python/pyglet 2.1.16: Cross-platform windowing and multimedia library for Python
+dev-python/pyglet 2.1.16 2.1.19: Cross-platform windowing and multimedia library for Python
 dev-python/pygments 2.20.0 2.21.0: Pygments is a syntax highlighting package written in Python
 dev-python/pygments-github-lexers 0.0.5-r2: Pygments Github custom lexers
 dev-python/pygobject 3.50.1 3.50.2 3.56.3 3.58.0: Python bindings for GObject Introspection
@@ -9662,7 +9662,7 @@ dev-python/socketio-client-nexus 0.7.6: A socket.io 2.x client library for Pytho
 dev-python/socksio 1.0.0: Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5
 dev-python/sortedcontainers 2.4.0-r1: Python library to sort collections and containers
 dev-python/soundfile 0.14.0: audio library based on libsndfile, CFFI and NumPy
-dev-python/soupsieve 2.9.2 2.10 3.0.1: A modern CSS selector implementation for BeautifulSoup
+dev-python/soupsieve 2.9.2 2.10 3.0.1 3.0.2: A modern CSS selector implementation for BeautifulSoup
 dev-python/spake2 0.9: python implementation of SPAKE2 password-authenticated key exchange algorithm
 dev-python/speg 0.3_p20180819-r2: A PEG-based parser interpreter with memoization
 dev-python/sphinx 9.1.0 9.1.0-r1: Python documentation generator
@@ -9874,7 +9874,7 @@ dev-python/verboselogs 1.7-r1: Verbose logging for Python's logging module
 dev-python/versioneer 0.29-r1: Easy VCS-based management of project version strings
 dev-python/versioningit 3.3.0: A setuptools plugin for versioning based on git tags
 dev-python/vine 5.1.0: Python Promises
-dev-python/virtualenv 21.7.7 21.7.8 21.7.9 21.7.16 21.12.1 21.13.0 21.14.1 21.14.3 21.14.5 21.14.6: Virtual Python Environment builder
+dev-python/virtualenv 21.7.9 21.7.16 21.12.1 21.13.0 21.14.1 21.14.3 21.14.5 21.14.6 21.14.7: Virtual Python Environment builder
 dev-python/virtualenv-clone 0.5.7: A script for cloning a non-relocatable virtualenv
 dev-python/virtualenvwrapper 6.1.1: Set of extensions to Ian Bicking's virtualenv tool
 dev-python/visitor 0.1.3-r2: A tiny pythonic visitor implementation
@@ -16259,7 +16259,7 @@ sci-libs/composable-kernel 6.3.0 6.4.3 7.0.2 7.1.0 7.2.0: High Performance Compo
 sci-libs/cqrlib 1.1.4: Utility library for quaternion arithmetic / rotation math (ANSI C implemented)
 sci-libs/cxsparse 3.2.0 4.4.2-r1: Extended sparse matrix package
 sci-libs/dcmtk 3.6.7-r2 3.6.8-r1 3.6.9-r1: The DICOM Toolkit
-sci-libs/dealii 9.7.1 9.8.0 9999: Solving partial differential equations with the finite element method
+sci-libs/dealii 9.7.1-r1 9.8.0-r1 9999: Solving partial differential equations with the finite element method
 sci-libs/dlib 20.0 20.0.1: Numerical and networking C++ library
 sci-libs/dmlc-core 0_p20170719-r1 0.5: Common bricks library for building distributed machine learning
 sci-libs/dsdp 5.8-r4: Software for interior-point for semidefinite programming
@@ -16418,7 +16418,7 @@ sci-libs/ta-lib 0.4.0-r1: Technical Analysis Library for analyzing financial mar
 sci-libs/tamu_anova 0.2-r1: ANOVA Extensions to the GNU Scientific Library
 sci-libs/taucs 2.2.1: C library of sparse linear solvers
 sci-libs/tnt 3.0.12: Template Numerical Toolkit: C++ headers for array and matrices
-sci-libs/trilinos 14.4.0-r1 15.1.1-r1 16.2.1 17.0.0 17.0.0-r1 17.1.0 17.1.0-r1: Scientific library collection for large scale problems
+sci-libs/trilinos 16.2.2 17.1.2 17.2.1: Scientific library collection for large scale problems
 sci-libs/udunits 2.2.28: Library for manipulating units of physical quantities
 sci-libs/ufconfig 3.7.1: Common configuration scripts for the SuiteSparse libraries
 sci-libs/umfpack 5.7.9 5.7.9-r1 6.3.7-r1: Unsymmetric multifrontal sparse LU factorization library
@@ -16632,7 +16632,7 @@ sci-visualization/grace 5.1.25_p18-r1: Motif based XY-plotting tool
 sci-visualization/gwyddion 2.67-r1 2.69: Framework for Scanning Mode Microscopy data analysis
 sci-visualization/kst 2.1.0_p20260208-r1: Fast real-time large-dataset viewing and plotting tool
 sci-visualization/labplot 2.11.1-r1 9999: Scientific data analysis and visualisation based on KDE Frameworks
-sci-visualization/paraview 5.13.2-r2 5.13.3-r3 6.0.1 6.1.1: Powerful scientific data visualization application
+sci-visualization/paraview 5.13.2-r2 5.13.3-r3 6.0.1 6.1.1 6.2.0: Powerful scientific data visualization application
 sci-visualization/pythonprop 0.30.1_p20240217-r1: Scripts to prepare and plot VOACAP propagation predictions
 sci-visualization/quickplot 1.0.1_rc-r1: A fast interactive 2D plotter
 sci-visualization/spyview 2018.12.24-r2 9999: 2D and 3D data visualization and analysis program
