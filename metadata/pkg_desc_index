@@ -14205,7 +14205,7 @@ media-sound/lingot 1.1.1: Accurate, easy to use, and highly configurable musical
 media-sound/linuxsampler 2.3.1-r1 9999: Software audio sampler engine with professional grade features
 media-sound/litestream 1.3_rc3: Litstream is a lightweight and robust shoutcast-compatible streaming mp3 server
 media-sound/lltag 0.14.6: Automatic command-line mp3/ogg/flac file tagger and renamer
-media-sound/lollypop 1.4.45: Modern music player for GNOME
+media-sound/lollypop 1.4.45 1.4.48: Modern music player for GNOME
 media-sound/lxmusic 0.4.7-r2: Simple GUI XMMS2 client with minimal functionality
 media-sound/mac 4.11.4.5.7-r1 13.26 13.27: Monkey's Audio Codecs
 media-sound/madplay 0.15.2b-r2: The MAD audio player
@@ -17796,7 +17796,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.4.1_p20261008 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.1_p20261009 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.2.1_p20261010 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.0_p20261011 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
