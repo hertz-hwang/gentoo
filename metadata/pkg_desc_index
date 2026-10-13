@@ -933,7 +933,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.46.1 2.37.4 2.37.9 2.37.12: Universal Command Line Environment for AWS
+app-admin/awscli 1.46.1 2.37.4 2.37.9 2.37.12 2.37.13: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2026.8.0 2026.9.1: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.8.0 2026.9.0: Bitwarden password manager desktop client
@@ -1565,7 +1565,7 @@ app-crypt/tpm2-tss 4.1.3-r2 4.1.4 4.2.0: TCG Trusted Platform Module 2.0 Softwar
 app-crypt/trousers 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
 app-crypt/uacme 1.8.1: A client for the RFC8555 ACMEv2 protocol
 app-crypt/ubuntu-keyring 2023.11.28.1 2026.08.18: GnuPG archive keys of the Ubuntu archive
-app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r2: Disk encryption with strong security based on TrueCrypt
+app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r3: Disk encryption with strong security based on TrueCrypt
 app-crypt/xca 2.8.0 2.9.0 2.9.0-r1: A GUI to OpenSSL, RSA public keys, certificates, signing requests etc
 app-crypt/xor-analyze 0.5-r1: Program for cryptanalyzing xor 'encryption' with variable key length
 app-crypt/yubihsm-connector 3.0.7: Server to expose YubiHSM 2 to network
@@ -2905,6 +2905,7 @@ app-misc/openrgb 1.0_rc3_p1 1.0 9999: Open source RGB lighting control
 app-misc/openrgb-plugin-effects 1.0_rc2-r1 1.0: Plugin for OpenRGB with various Effects that can be synced across devices
 app-misc/openrgb-plugin-skin 1.0_rc2-r1: Plugin for OpenRGB that allows you to customize the look and feel of OpenRGB
 app-misc/openrgb-plugin-visualmap 1.0_rc2-r1 1.0: Plugin for OpenRGB to create virtual devices out of multiple real ones
+app-misc/opentmux 0.1 9999: Terminal multiplexer, slop-free fork of app-misc/tmux
 app-misc/pal 0.4.3-r2: Command-line calendar program
 app-misc/pax-utils 1.3.10 1.3.11 9999: ELF utils that can check files for security relevant properties
 app-misc/perltrash 0.3-r2: Command-line trash can emulation
@@ -3919,7 +3920,7 @@ dev-cpp/cld3 3.0.13_p20220331: Neural network model for language identification
 dev-cpp/clhpp 2024.10.24: Khronos OpenCL C++ bindings
 dev-cpp/cli11 2.6.2 2.7.1 2.7.2: Command line parser for C++11
 dev-cpp/clucene 2.3.3.4-r9 2.3.3.4-r10 2.3.3.4-r11: High-performance, full-featured text search engine based off of lucene in C++
-dev-cpp/cpp-httplib 0.51.0 0.56.0 0.58.0: C++ HTTP/HTTPS server and client library
+dev-cpp/cpp-httplib 0.51.0 0.56.0 0.58.0 0.60.1: C++ HTTP/HTTPS server and client library
 dev-cpp/cppdap 0_pre20230605-r1 0_pre20240802: C++ library for the Debug Adapter Protocol
 dev-cpp/cppgir 2.0_p20260321 2.0_p20260518: GObject-Introspection C++ binding wrapper generator
 dev-cpp/cpptoml 0.1.1-r1: Header-only library for parsing TOML
@@ -4038,7 +4039,7 @@ dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 3.4.9-r2 9999: C c
 dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.1.24 3.2.8 3.2.9 3.2.10: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
 dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
-dev-db/mycli 2.9.0 2.25.3 2.27.0: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mycli 2.25.3 2.27.0 2.29.4: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.45 8.0.46-r1 8.4.10 8.4.11: Fast, multi-threaded, multi-user SQL database server
@@ -5577,7 +5578,7 @@ dev-libs/glib 2.88.2 2.88.3: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r2: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2025.08.27.16.03.17 2026.01.14.22.26.00 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
-dev-libs/gobject-introspection 1.84.0-r2 1.86.0: Introspection system for GObject-based libraries
+dev-libs/gobject-introspection 1.84.0-r2 1.86.0 1.86.0-r1: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0 1.84.0 1.86.0: Build infrastructure for GObject Introspection
 dev-libs/gom 0.5.4 0.5.5 0.5.6: GObject to SQLite object mapper library
 dev-libs/gost-engine 3.0.1 3.0.1-r1 3.0.2 3.0.3 9999: A reference implementation of the Russian GOST crypto algorithms for OpenSSL
@@ -5613,7 +5614,7 @@ dev-libs/isa-l_crypto 2.25.0: Intelligent Storage Acceleration Library - cryptog
 dev-libs/isl 0.26 0.27 0.28: A library for manipulating integer points bounded by linear constraints
 dev-libs/ivykis 0.42.4 0.43.1 0.43.2: Library for asynchronous I/O readiness notification
 dev-libs/jansson 2.14.1 2.15.1: C library for encoding, decoding and manipulating JSON data
-dev-libs/jemalloc 5.3.0-r2 5.3.0-r3: Jemalloc is a general-purpose scalable concurrent allocator
+dev-libs/jemalloc 5.3.0-r3 5.4.0: Jemalloc is a general-purpose scalable concurrent allocator
 dev-libs/jerasure 2.0.0_p20170410: Library in C facilitating Erasure Coding for storage applications
 dev-libs/jose 14: C-language implementation of Javascript Object Signing and Encryption
 dev-libs/json-c 0.18 0.19 0.19-r2 9999: A JSON implementation in C
@@ -8300,7 +8301,7 @@ dev-python/aiohttp-socks 0.11.0 0.11.0-r1 0.12.0: SOCKS proxy connector for aioh
 dev-python/aiohttp-theme 0.1.7: Sphinx theme for aiohttp
 dev-python/aioitertools 0.13.0: itertools and builtins for AsyncIO and mixed iterables
 dev-python/aiopylgtv 0.4.1-r1: Python library to control webOS-based LG TV devices
-dev-python/aioquic 1.2.0 1.3.0 1.4.0 1.5.0: An implementation of QUIC and HTTP/3
+dev-python/aioquic 1.2.0 1.3.0 1.4.0 1.5.0 1.6.1: An implementation of QUIC and HTTP/3
 dev-python/aioresponses 0.7.8-r2 0.7.9: Helper to mock/fake web requests in Python's aiohttp package
 dev-python/aiorpcx 0.25.0: Generic async RPC implementation, including JSON-RPC
 dev-python/aiosignal 1.4.0: A list of registered asynchronous callbacks
@@ -8347,17 +8348,17 @@ dev-python/arrow 1.4.0: Better dates and times for Python
 dev-python/asgiref 3.11.1 3.11.1-r1 3.12.1: ASGI utilities (successor to WSGI)
 dev-python/asn1crypto 1.5.1_p20231012: Python ASN.1 library with a focus on performance and a pythonic API
 dev-python/assertpy 1.1: Simple assertion library for unit testing in python with a fluent API
-dev-python/ast-serialize 0.9.0 0.10.0 0.11.2 0.12.0 0.12.1: Python bindings for mypy AST serialization
+dev-python/ast-serialize 0.10.0 0.11.2 0.12.0 0.12.1 0.13.0: Python bindings for mypy AST serialization
 dev-python/asteval 1.0.9 1.0.10: Evaluator of Python expression using ast module
 dev-python/astor 0.8.1-r2: Read/rewrite/write Python ASTs
 dev-python/astroid 4.0.4 4.1.2 4.3.1 4.3.2 4.3.3 4.3.4: Abstract Syntax Tree for logilab packages
 dev-python/asttokens 3.0.1 3.0.2: Annotate Python AST trees with source text and token information
-dev-python/async-lru 2.3.0: Simple lru_cache for asyncio
+dev-python/async-lru 2.3.0 2.4.0: Simple lru_cache for asyncio
 dev-python/async-timeout 5.0.1: Timeout context manager for asyncio programs
 dev-python/asyncssh 2.24.0 2.24.1: Asynchronous SSHv2 client and server library
 dev-python/asyncstdlib 3.14.0: The missing async toolbox
 dev-python/atomicwrites 1.4.1: Atomic file writes
-dev-python/atpublic 7.0.0 8.0.1: A decorator to populate __all__ and the module globals
+dev-python/atpublic 7.0.0 8.0.1 9.0.0: A decorator to populate __all__ and the module globals
 dev-python/attrs 26.1.0: Attributes without boilerplate
 dev-python/audioop-lts 0.2.2: An LTS port of Python's audioop module
 dev-python/audioread 3.0.1-r1: Wrapper for audio file decoding using FFmpeg or GStreamer
@@ -8370,7 +8371,7 @@ dev-python/autopep8 2.3.2: Automatically formats Python code to conform to the P
 dev-python/autoprop 4.1.0: Infer properties from accessor methods
 dev-python/awkward 2.13.0 2.14.0: Manipulate JSON-like data with NumPy-like idioms
 dev-python/awkward-cpp 56 57: CPU kernels and compiled extensions for Awkward Array
-dev-python/aws-sam-translator 1.113.0 1.114.0: A library that transform SAM templates into AWS CloudFormation templates
+dev-python/aws-sam-translator 1.113.0 1.114.0 1.115.0: A library that transform SAM templates into AWS CloudFormation templates
 dev-python/aws-xray-sdk 2.15.0: AWS X-Ray SDK for Python
 dev-python/awscrt 0.36.3 0.36.4 0.37.0: A common runtime for AWS Python projects
 dev-python/b2sdk 2.13.0 2.13.1: Library to access Backblaze B2 cloud storage
@@ -8407,8 +8408,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.1.0 2.2.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 26.2.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111: The AWS SDK for Python
-dev-python/botocore 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111 1.43.112: The AWS SDK for Python
+dev-python/botocore 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111 1.43.112: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8466,7 +8467,7 @@ dev-python/cloudflare 5.9.0: The official Python library for the Cloudflare API
 dev-python/cloudpickle 3.1.2: Extended pickling support for Python objects
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/clr-loader 0.3.1: Generic pure Python loader for .NET runtimes
-dev-python/cmd2 4.2.1 4.2.2 4.2.3 4.2.4: Extra features for standard library's cmd module
+dev-python/cmd2 4.2.4 4.3.0: Extra features for standard library's cmd module
 dev-python/colorama 0.4.6: ANSI escape character sequences for colored terminal text & cursor positioning
 dev-python/colorclass 2.2.2-r1: Colorful worry-free console applications for multiple platforms
 dev-python/colored-traceback 0.4.2: Automatically color Python's uncaught exception tracebacks
@@ -8667,7 +8668,7 @@ dev-python/flexmock 0.13.0: Testing library to create mocks, stubs and fakes
 dev-python/flit 4.0.2 4.1.0: Simplified packaging of Python modules
 dev-python/flit-core 3.12.0 4.0.2 4.1.0: Simplified packaging of Python modules (core module)
 dev-python/flit-scm 1.7.0: A PEP 518 build backend combining flit with setuptools_scm
-dev-python/flufl-lock 9.1.0 9.2.0: NFS-safe file locking with timeouts for POSIX systems
+dev-python/flufl-lock 9.2.0 10.0.0: NFS-safe file locking with timeouts for POSIX systems
 dev-python/fonttools 4.63.0-r1 4.64.0 4.65.0 4.66.0 4.66.1: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/forbiddenfruit 0.1.4-r1: Patch built-in Python objects
 dev-python/fpylll 0.6.4-r1: Python bindings for sci-libs/fplll
@@ -8701,7 +8702,7 @@ dev-python/gitpython 3.1.58 3.1.59 3.1.60 3.1.61 3.1.62 3.2.0: Library used to i
 dev-python/gmpy2 2.3.1 2.3.2 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.33.0 2.35.0 2.36.0 2.37.0 2.38.0 2.39.0 2.40.0 2.41.0 2.42.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.199.0 2.200.0 2.201.0: Google API Client for Python
-dev-python/google-auth 2.57.1 2.58.0 2.58.1 2.59.0 2.59.1 2.60.0 2.61.0: Google Authentication Library
+dev-python/google-auth 2.57.1 2.58.0 2.58.1 2.59.0 2.59.1 2.60.0 2.61.0 2.62.0: Google Authentication Library
 dev-python/google-auth-httplib2 0.4.2 0.4.3 0.4.4: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.4.1 1.5.0: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
@@ -8767,7 +8768,7 @@ dev-python/id 1.6.1: A tool for generating OIDC identities
 dev-python/identify 2.6.19 2.6.20: File identification library for Python
 dev-python/idna 3.18 3.19 3.20: Internationalized Domain Names in Applications (IDNA)
 dev-python/ifaddr 0.2.0: Enumerate IP addresses on the local network adapters
-dev-python/ijson 3.5.0 3.5.1: Iterative JSON parser with a Pythonic interface
+dev-python/ijson 3.5.1 3.6.0: Iterative JSON parser with a Pythonic interface
 dev-python/imageio 2.38.0 2.38.1: Python library for reading and writing image data
 dev-python/imageio-ffmpeg 0.6.0: FFMPEG wrapper for Python
 dev-python/imagesize 2.0.0 2.0.1: Pure Python module for getting image size from png/jpeg/jpeg2000/gif files
@@ -8786,7 +8787,7 @@ dev-python/iniconfig 2.3.0 2.3.1: Brain-dead simple config-ini parsing
 dev-python/iniparse 0.5.1_p20250425: Better INI parser for Python
 dev-python/inline-snapshot 0.35.4 0.36.0 0.36.1: Create and update inline snapshots in your Python tests
 dev-python/insipid-sphinx-theme 0.4.4: Insipid Sphinx theme
-dev-python/installer 1.0.1: A library for installing Python wheels
+dev-python/installer 1.0.1 1.1.0: A library for installing Python wheels
 dev-python/intelhex 2.3.0-r1: Python library for Intel HEX files manipulations
 dev-python/intervaltree 3.2.1: Editable interval tree data structure for Python 2 and 3
 dev-python/iocapture 0.1.2-r3: Capture stdout, stderr easily
@@ -8826,7 +8827,7 @@ dev-python/jaraco-vcs 2.4.1: Facilities for working with VCS repositories
 dev-python/jaraco-versioning 1.1.0: More sophisticated version manipulation (than packaging)
 dev-python/jc 1.25.7 1.26.0: Converts the output of popular command-line tools and file-types to JSON
 dev-python/jdcal 1.4.1-r1: Julian dates from proleptic Gregorian and Julian calendars
-dev-python/jedi 0.20.0: Autocompletion library for Python
+dev-python/jedi 0.20.0 0.20.1: Autocompletion library for Python
 dev-python/jeepney 0.9.0: Low-level, pure Python DBus protocol wrapper
 dev-python/jellyfish 1.2.1: Python module for doing approximate and phonetic matching of strings
 dev-python/jinja2 3.1.6: A full-featured template engine for Python
@@ -9356,7 +9357,7 @@ dev-python/pytest 9.0.3 9.1.1: Simple powerful testing with Python
 dev-python/pytest-aiohttp 1.1.1: pytest plugin for aiohttp support
 dev-python/pytest-asyncio 1.4.0: Library for testing asyncio code with pytest
 dev-python/pytest-bdd 8.1.0-r1 9.0.0: BDD library for the pytest runner
-dev-python/pytest-check 2.9.1 3.0.0: pytest plugin that allows multiple failures per test
+dev-python/pytest-check 2.9.1 3.0.0 3.0.1: pytest plugin that allows multiple failures per test
 dev-python/pytest-click 1.1.0: Pytest plugin for Click
 dev-python/pytest-codeblocks 0.18.0: Extract code blocks from markdown
 dev-python/pytest-console-scripts 1.4.1: Pytest plugin for testing console scripts
@@ -9807,7 +9808,7 @@ dev-python/trio 0.33.0 0.34.0: Python library for async concurrency and I/O
 dev-python/trio-websocket 0.12.2: WebSocket client and server implementation for Python Trio
 dev-python/trove-classifiers 2026.6.1.19 2026.9.21.13: Canonical source for classifiers on PyPI (pypi.org)
 dev-python/trustme 1.2.1: #1 quality TLS certs while you wait, for the discerning tester
-dev-python/truststore 0.10.4: Verify certificates using native system trust stores
+dev-python/truststore 0.10.4 0.10.5: Verify certificates using native system trust stores
 dev-python/tubes 0.2.1: Flow control and backpressure for event-driven applications
 dev-python/tuf 7.0.0 7.0.1: A secure updater framework for Python
 dev-python/twine 7.0.0: Collection of utilities for publishing packages on PyPI
@@ -10918,7 +10919,7 @@ dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.22.0 0.22.1 0.22.2: Audit Cargo.lock for crates with security vulnerabilities
 dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20 0.10.21 0.10.22-r1 0.10.23 0.10.25 0.10.26: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
-dev-util/cargo-nextest 0.9.138 0.9.140 0.9.143 0.9.144: Next-generation test runner for Rust
+dev-util/cargo-nextest 0.9.140 0.9.143 0.9.144 0.9.148: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1 0.18.0: pgrx: A Rust framework for creating Postgres extensions
 dev-util/cargo-tarpaulin 0.35.0 0.35.1 0.35.2 0.37.0 0.37.5: Cargo-Tarpaulin is a tool to determine code coverage achieved via tests
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
@@ -15651,7 +15652,7 @@ net-p2p/amule 2.3.3-r8 3.0.1 9999: aMule, the all-platform eMule p2p client
 net-p2p/arti 1.8.0 2.5.1 9999: Implementation of Tor in Rust
 net-p2p/automatic 0.9.0-r1: RSS downloader for Tranmission
 net-p2p/biglybt 4.0.0.0: Feature-filled Bittorrent client based on Azureus
-net-p2p/bitcoin-core 29.3 29.3-r1 29.4 30.2 30.2-r1 30.3 31.0 31.1: Reference implementation of the Bitcoin cryptocurrency
+net-p2p/bitcoin-core 29.3 29.3-r1 29.4 30.2 30.2-r1 30.3 31.0 31.1 32.0_rc4: Reference implementation of the Bitcoin cryptocurrency
 net-p2p/bitflu 1.52-r1: BitTorrent client, written in Perl and is designed to run as a daemon
 net-p2p/cpuminer-opt 26.1 9999: Optimized multi algo CPU miner
 net-p2p/ctorrent 3.3.2-r4: Enhanced CTorrent is a BitTorrent console client written in C and C++
@@ -17438,7 +17439,7 @@ sys-apps/noexec 1.1.0-r2: Package for preventing processes from using exec syste
 sys-apps/nosig 2-r1: Block signals before running programs (a generic "nohup")
 sys-apps/nvme-cli 2.16: NVM-Express user space tooling for Linux
 sys-apps/onerng 3.7-r1: Software for the Open Hardware Random Number Generator called OneRNG
-sys-apps/opal-utils 7.0: OPAL firmware utilities
+sys-apps/opal-utils 7.0 7.1: OPAL firmware utilities
 sys-apps/openrazer 3.12.3 3.12.4: Drivers and user-space daemon to control Razer devices on GNU/Linux
 sys-apps/openrc 0.63.3 0.64 0.64.1 9999: OpenRC manages the services, startup and shutdown of a host
 sys-apps/osinfo-db 20251212 20260812: Osinfo database for virtualization provisioning tools
@@ -17788,7 +17789,7 @@ sys-devel/binutils 2.32-r2 2.33.1-r1 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2
 sys-devel/binutils-config 5.5.2 5.5.3 5.6 9999: Utility to change the binutils version being used
 sys-devel/binutils-hppa64 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r2 2.44-r3 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.47 9999: Tools necessary to build programs
 sys-devel/bison 3.8.2-r2 3.8.2-r3: A general-purpose (yacc-compatible) parser generator
-sys-devel/bpf-toolchain 15.2.0_p3 16.1.0_p1 16.1.0_p2: All-in-one bpf toolchain for building DTrace and systemd without crossdev
+sys-devel/bpf-toolchain 15.2.0_p3 16.1.0_p1 16.1.0_p2 16.2.0_p1: All-in-one bpf toolchain for building DTrace and systemd without crossdev
 sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23: Symlinks to a Clang crosscompiler
 sys-devel/cproc 0_pre20260113 0_pre20260527 9999: C11 compiler using QBE as backend
 sys-devel/crossdev 20260326 20260501 20260501-r1 20260617 20260623 99999999: Gentoo Cross-toolchain generator
@@ -18418,7 +18419,7 @@ www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
 www-apps/prowlarr-bin 2.5.1.5464: An indexer manager/proxy to integrate with your various PVR apps
 www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couchpotato
-www-apps/radicale 3.7.7 3.8.1: A simple CalDAV calendar server
+www-apps/radicale 3.8.1 3.8.3: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.3.0 2.4.0 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
@@ -19359,7 +19360,7 @@ x11-wm/notion 4.0.4 4.0.5 9999: Notion is a tiling, tabbed window manager for th
 x11-wm/openbox 3.6.1-r11 9999: Standards compliant, fast, light-weight, extensible window manager
 x11-wm/oroborus 2.0.20-r2: Small and fast window manager
 x11-wm/page 1.9.10 1.9.10-r1: A mouse friendly tiling window manager
-x11-wm/pekwm 0.3.2 0.4.2: Lightweight window manager initially based on aewm++
+x11-wm/pekwm 0.3.2 0.4.2 0.4.4: Lightweight window manager initially based on aewm++
 x11-wm/qtile 0.37.0 0.37.1-r1: A full-featured, hackable tiling window manager written in Python
 x11-wm/ratpoison 1.4.9-r3 9999: window manager without mouse dependency
 x11-wm/selectwm 0.4.1-r2: window manager selector tool
