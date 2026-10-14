@@ -6,9 +6,11 @@ EAPI=8
 CONFIG_CHECK="~ADVISE_SYSCALLS"
 PYTHON_COMPAT=( python3_{11..14} )
 PYTHON_REQ_USE="threads(+)"
+RUST_OPTIONAL=1
+RUST_MIN_VER="1.86.0"
 
-inherit bash-completion-r1 check-reqs flag-o-matic linux-info
-inherit ninja-utils pax-utils python-any-r1 toolchain-funcs xdg-utils
+inherit check-reqs flag-o-matic linux-info ninja-utils pax-utils
+inherit python-any-r1 rust shell-completion toolchain-funcs xdg-utils
 
 DESCRIPTION="A JavaScript runtime built on Chrome's V8 JavaScript engine"
 HOMEPAGE="https://nodejs.org/"
@@ -19,50 +21,49 @@ if [[ ${PV} == *9999 ]]; then
 	EGIT_REPO_URI="https://github.com/nodejs/node"
 	SLOT="0"
 else
-	SRC_URI="
-		https://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz
-	"
+	SRC_URI="https://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz"
 	SLOT="0/$(ver_cut 1)"
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86 ~x64-macos"
 	S="${WORKDIR}/node-v${PV}"
 fi
 
-IUSE="corepack cpu_flags_x86_sse2 debug doc +icu +inspector lto +npm pax-kernel +snapshot +ssl +system-icu +system-ssl test"
+IUSE="cpu_flags_x86_sse2 debug doc +icu +inspector lto +npm pax-kernel +snapshot +ssl system-icu +system-ssl test temporal"
 REQUIRED_USE="inspector? ( icu ssl )
 	npm? ( ssl )
 	system-icu? ( icu )
 	system-ssl? ( ssl )
+	temporal? ( icu !system-icu )
 	x86? ( cpu_flags_x86_sse2 )"
 
 RESTRICT="!test? ( test )"
 
 COMMON_DEPEND=">=app-arch/brotli-1.1.0:=
 	dev-db/sqlite:3
-	>=dev-cpp/ada-3.3.0:=
-	>=dev-cpp/simdutf-7.3.4:=
+	>=dev-cpp/ada-4.0.0:=
+	>=dev-cpp/simdutf-9.2.1:=[atomic-base64]
 	>=dev-libs/libuv-1.52.1:=
-	>=dev-libs/simdjson-4.6.1:=
-	>=net-dns/c-ares-1.34.5:=
-	>=net-libs/nghttp2-1.69.0:=
-	>=net-libs/nghttp3-1.14.0:=
+	>=dev-libs/simdjson-5.0.3:=
+	>=net-dns/c-ares-1.34.8:=
+	>=net-libs/nghttp2-1.70.0:=
+	>=net-libs/nghttp3-1.18.0:=
 	virtual/zlib:=
-	corepack? ( !sys-apps/yarn )
-	system-icu? ( >=dev-libs/icu-73:= )
+	system-icu? ( >=dev-libs/icu-78:= )
 	system-ssl? (
-		>=net-libs/ngtcp2-1.14.0:=
-		>=dev-libs/openssl-3.5.6:0=
+		>=net-libs/ngtcp2-1.25.0:=
+		>=dev-libs/openssl-3.5.9:0=
 	)
-	!system-ssl? ( >=net-libs/ngtcp2-1.14.0:=[-gnutls] )
+	!system-ssl? ( >=net-libs/ngtcp2-1.25.0:=[-gnutls] )
 	|| (
 		sys-devel/gcc:*
 		llvm-runtimes/libatomic-stub
 	)"
 BDEPEND="${PYTHON_DEPS}
 	app-alternatives/ninja
+	pax-kernel? ( sys-apps/elfix )
 	sys-apps/coreutils
-	virtual/pkgconfig
+	temporal? ( ${RUST_DEPEND} )
 	test? ( net-misc/curl )
-	pax-kernel? ( sys-apps/elfix )"
+	virtual/pkgconfig"
 DEPEND="${COMMON_DEPEND}"
 RDEPEND="${COMMON_DEPEND}"
 
@@ -77,7 +78,11 @@ CHECKREQS_MEMORY="8G"
 CHECKREQS_DISK_BUILD="22G"
 
 PATCHES=(
-	"${FILESDIR}"/${P}-32-bit.patch
+	"${FILESDIR}"/${PN}-26.12.0-v8-climits.patch
+	"${FILESDIR}"/${PN}-26.11.1-add-missing-funcational-inc.patch
+	"${FILESDIR}"/${PN}-26.10.0-x86-SSE2-fix.patch
+	"${FILESDIR}"/${PN}-26.10.0-simdutf-use-system-header.patch
+	"${FILESDIR}"/${PN}-26.11.1-include-EACCES-in-mkdir-test.patch
 )
 
 pkg_pretend() {
@@ -92,6 +97,14 @@ pkg_pretend() {
 pkg_setup() {
 	python-any-r1_pkg_setup
 	linux-info_pkg_setup
+	# https://github.com/nodejs/node/issues/62676 - Can't build Temporal with system ICU.
+	if use system-icu; then
+		ewarn "The ES2026 'Temporal' datetime feature/object is not available when using system-icu."
+		ewarn "Please consider whether this is desirable for your use case."
+		ewarn "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal"
+	fi
+
+	use temporal && rust_pkg_setup
 }
 
 src_prepare() {
@@ -101,7 +114,7 @@ src_prepare() {
 
 	# fix compilation on Darwin
 	# https://code.google.com/p/gyp/issues/detail?id=260
-	sed -i -e "/append('-arch/d" tools/gyp/pylib/gyp/xcode_emulation.py || die
+	sed -i -e '/append("-arch")/{N;d;}' tools/gyp/pylib/gyp/xcode_emulation.py || die
 
 	# proper libdir, hat tip @ryanpcmcquen https://github.com/iojs/io.js/issues/504
 	local LIBDIR=$(get_libdir)
@@ -139,6 +152,20 @@ src_configure() {
 	# https://bugs.gentoo.org/931514
 	use arm64 && append-flags $(test-flags-CXX -mbranch-protection=none)
 
+	# Highway compilation error on riscv
+	# See: https://bugs.gentoo.org/983938
+	#
+	# Upstream Highway fixed the issue, but V8 has not picked up a Highway
+	# version that includes it, so Node still hits the old headers.
+	# this workaround will stop Highway from compiling RVV, and stop the host
+	# compiler from emitting RVV in non-V8 code. V8 can still emit RVV at runtime
+	# on machines that have it.
+	#
+	# Additionally, force the EMU128 (128-bit scalar emulation) for boards
+	# without RVV (VisionFive V2 / JH7110).
+	# This will ensure V8's FixedTag<..., 16> in the JSON stringifier is legal.
+	use riscv && append-cxxflags -DHWY_DISABLED_TARGETS=HWY_RVV -DHWY_BROKEN_EMU128=0
+
 	local myconf=(
 		--ninja
 		--shared-ada
@@ -156,13 +183,15 @@ src_configure() {
 	use debug && myconf+=( --debug )
 	use lto && myconf+=( --enable-lto )
 	if use system-icu; then
+		# No Temporal support: https://github.com/nodejs/node/issues/62676
 		myconf+=( --with-intl=system-icu )
 	elif use icu; then
+		# Full embedded ICU (Temporal works)
 		myconf+=( --with-intl=full-icu )
 	else
-		myconf+=( --with-intl=none )
+		# Default embedded subset (Temporal works, saves space over full-icu)
+		myconf+=( --with-intl=small-icu )
 	fi
-	use corepack || myconf+=( --without-corepack )
 	use inspector || myconf+=( --without-inspector )
 	use npm || myconf+=( --without-npm )
 	use snapshot || myconf+=( --without-node-snapshot )
@@ -171,6 +200,7 @@ src_configure() {
 	else
 		myconf+=( --without-ssl )
 	fi
+	! use temporal && myconf+=( --v8-disable-temporal-support )
 
 	local myarch=""
 	case "${ARCH}:${ABI}" in
@@ -196,6 +226,8 @@ src_configure() {
 
 src_compile() {
 	eninja -C out/Release
+	# There's just a plain make target for the FFI tests, and it doesn't support ninja.
+	use test && emake build-ffi-tests
 }
 
 src_install() {
@@ -235,15 +267,14 @@ src_install() {
 
 		# Remove various development and/or inappropriate files and
 		# useless docs of dependend packages.
+		# Strict match for LICENSE files to avoid purging actual logic (e.g. license.js)
+		# which breaks npm.
 		find "${LIBDIR}"/node_modules \
 			\( -type d -name examples \) -or \( -type f \( \
-				-iname "LICEN?E*" \
+				\( -iname "LICEN?E*" -not -name "*.js" -not -name "*.json" \) \
 				"${find_name[@]}" \
 			\) \) -exec rm -rf "{}" \;
 	fi
-
-	use corepack &&
-		"${D}"/usr/bin/corepack enable --install-directory "${D}"/usr/bin
 
 	mv "${ED}"/usr/share/doc/node "${ED}"/usr/share/doc/${PF} || die
 }
@@ -266,11 +297,25 @@ src_test() {
 		test/parallel/test-process-setgroups.js
 		test/parallel/test-process-uid-gid.js
 		test/parallel/test-release-npm.js
+		# Unreliable when using system libraries and ASLR.
+		# The variations between snapshot generation passes appear limited to memory
+		# allocation pointers leaking into the serialised V8 blob array; the actual
+		# bytecode and engine structures remain consistently... consistent.
+		test/parallel/test-snapshot-reproducible.js
 		test/parallel/test-socket-write-after-fin-error.js
 		test/parallel/test-strace-openat-openssl.js
 		test/sequential/test-tls-session-timeout.js
 		test/sequential/test-util-debug.js
 	)
+
+	if has_version "sys-libs/zlib-ng" ; then
+		elog "Some tests will be skipped due to being known to fail with sys-libs/zlib-ng"
+		elog
+		drop_tests+=( test/parallel/test-process-versions.js )
+		drop_tests+=( test/parallel/test-zlib-zip-interop.js )
+		elog
+	fi
+
 	use inspector ||
 		drop_tests+=(
 			test/parallel/test-inspector-emit-protocol-event.js
@@ -290,5 +335,13 @@ pkg_postinst() {
 	if use npm; then
 		ewarn "remember to run: source /etc/profile if you plan to use nodejs"
 		ewarn " in your current shell"
+	fi
+
+	if use system-icu; then
+		ewarn ""
+		ewarn "Node.js was built with USE='system-icu'."
+		ewarn "The JavaScript 'Temporal' API has been disabled."
+		ewarn "If you need full ES2026+ compliance, rebuild with USE='-system-icu'."
+		ewarn ""
 	fi
 }
