@@ -2971,7 +2971,7 @@ app-misc/timew-report 1.4.0-r1: An interface for Timewarrior report data
 app-misc/tinysparql 3.8.2 3.10.1 3.11.1 3.12.0: Low-footprint RDF triple store with SPARQL 1.1 interface
 app-misc/tkpasman 2.2b: Useful and reliable personal password manager, written in Tcl/Tk
 app-misc/tmate 2.4.0-r2: Instant terminal sharing
-app-misc/tmux 3.4-r1 3.5a 3.6a 3.7c 3.8 9999: Terminal multiplexer
+app-misc/tmux 3.6a 3.7c 3.8 9999: Terminal multiplexer
 app-misc/tmux-mem-cpu-load 3.8.1 9999: CPU, RAM memory, and load monitor for use with tmux
 app-misc/tmux-xpanes 4.2.0: tmux-based terminal divider
 app-misc/tmux2html 0.1.11-r1: Render full tmux windows or individual panes as HTML
@@ -3240,7 +3240,7 @@ app-text/code2html 0.9.1-r2: Converts source files to colored HTML output
 app-text/convertlit 1.8-r4: CLit converts MS ebook .lit files to .opf (xml+html+png+jpg)
 app-text/convmv 2.06: convert filenames to utf8 or any other charset
 app-text/cpdf 2.7.1 2.8.1: A command line tool for manipulating PDF files
-app-text/crengine-ng 0.9.13-r1 0.9.13-r2 0.9.14 0.9.14.1: Cross-platform library designed to implement e-book readers
+app-text/crengine-ng 0.9.13-r1 0.9.13-r2 0.9.14.1: Cross-platform library designed to implement e-book readers
 app-text/crf++ 0.58-r1 0.58-r2: Yet Another CRF toolkit for segmenting/labelling sequential data
 app-text/crm114 20100106-r2: A powerful text processing tool, mainly used for spam filtering
 app-text/crqt-ng 1.0.15: Cross-platform e-book reader
@@ -4966,7 +4966,7 @@ dev-haskell/zlib 0.6.2.3 0.6.3.0 0.7.1.0: Compression and decompression in the g
 dev-haskell/zlib-clib 1.3.1: zlib C library bits
 dev-java/angus-activation 1.0.0-r1: Provides the implementation of the Jakarta Activation Specification
 dev-java/animal-sniffer-annotations 1.15-r1: Java annotations for marking methods that Animal Sniffer should ignore
-dev-java/ant 1.10.15-r1: Java-based build tool similar to 'make' that uses XML configuration files
+dev-java/ant 1.10.15-r2 1.10.18: Java-based build tool similar to 'make' that uses XML configuration files
 dev-java/ant-contrib 1.0_beta6_pre20201123-r3: Ant-contrib tasks for Apache Ant
 dev-java/ant-ivy 2.5.3: Ivy is a free java based dependency manager
 dev-java/antlr 2.7.7-r10 3.2-r2 3.5.3 4.13.2-r1: A parser generator for many languages
@@ -4997,7 +4997,8 @@ dev-java/bndlib 7.2.3 7.4.0: bndlib: A Swiss Army Knife for OSGi
 dev-java/brotli-dec 0.1.2-r1: Brotli decompressor
 dev-java/browserlauncher2 1.3-r3: A library that facilitates opening a browser from a Java application
 dev-java/bsf 2.4.0-r7: Bean Script Framework
-dev-java/bsh 2.1.1-r2: A small embeddable Java source interpreter
+dev-java/bsh 2.1.1-r2 3.0.0_rc1: A small embeddable Java source interpreter
+dev-java/bsh-bsf-engine 3.0.0_rc1: Beanshell BSF engine
 dev-java/byaccj 1.15-r3: A Java extension of BSD YACC-compatible parser generator
 dev-java/byte-buddy 1.18.10: Offers convenience for attaching an agent to the local or a remote VM
 dev-java/c3p0 0.9.5.5-r3: JDBC drivers with JNDI-bindable DataSources
@@ -5614,7 +5615,7 @@ dev-libs/isa-l_crypto 2.25.0: Intelligent Storage Acceleration Library - cryptog
 dev-libs/isl 0.26 0.27 0.28: A library for manipulating integer points bounded by linear constraints
 dev-libs/ivykis 0.42.4 0.43.1 0.43.2: Library for asynchronous I/O readiness notification
 dev-libs/jansson 2.14.1 2.15.1: C library for encoding, decoding and manipulating JSON data
-dev-libs/jemalloc 5.3.0-r3 5.4.0-r1: Jemalloc is a general-purpose scalable concurrent allocator
+dev-libs/jemalloc 5.3.0-r3 5.4.0-r2: Jemalloc is a general-purpose scalable concurrent allocator
 dev-libs/jerasure 2.0.0_p20170410: Library in C facilitating Erasure Coding for storage applications
 dev-libs/jose 14: C-language implementation of Javascript Object Signing and Encryption
 dev-libs/json-c 0.18 0.19 0.19-r2 9999: A JSON implementation in C
@@ -12769,9 +12770,9 @@ mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomu
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
 mail-client/roundcube 1.6.11 1.6.19 1.7.4 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
-mail-client/thunderbird 140.16.0 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1: Thunderbird Mail Client
-mail-client/thunderbird-bin 140.16.0 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1: Thunderbird Mail Client
-mail-client/thunderbird-l10n 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1: Thunderbird mail client's translation files
+mail-client/thunderbird 140.16.0 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1 158.0: Thunderbird Mail Client
+mail-client/thunderbird-bin 140.16.0 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1 158.0: Thunderbird Mail Client
+mail-client/thunderbird-l10n 153.3.0 153.4.0 156.0 156.0.1 157.0 157.0.1 158.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
 mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
@@ -13373,7 +13374,7 @@ media-libs/fontconfig 2.16.2-r1 2.17.1 2.18.1 2.18.2 2.18.3: A library for confi
 media-libs/freealut 1.1.0-r5: The OpenAL Utility Toolkit
 media-libs/freeglut 3.8.0: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-libs/freeimage 3.18.0-r10 3.18.0-r11: Image library supporting many formats
-media-libs/freetype 2.14.3 9999: High-quality and portable font engine
+media-libs/freetype 2.14.3 2.15.0 9999: High-quality and portable font engine
 media-libs/freeverb3 3.2.1-r3 3.2.1-r4: Reverb and Impulse Response Convolution plug-ins (Audacious/JACK)
 media-libs/ftgl 2.1.3_rc5-r1 2.1.3_rc5-r3: library to use arbitrary fonts in OpenGL applications
 media-libs/game-music-emu 0.6.4: Video game music file emulators
@@ -15323,7 +15324,7 @@ net-misc/connman-json-client 1.0_p20150721-r3: An ncurses UI for connman
 net-misc/connman-notify 0_pre20191003-r3: Desktop notification integration for connman
 net-misc/connman-ui 0_p20150622-r1: A full-featured GTK based trayicon UI for ConnMan
 net-misc/croc 10.2.4 10.2.5 10.2.7: Easily and securely send things from one computer to another
-net-misc/curl 8.21.0-r1 8.22.0 9999: A Client that groks URLs
+net-misc/curl 8.21.0-r1 8.22.0 8.23.0 9999: A Client that groks URLs
 net-misc/datapipe 1.0-r2: Bind a local port and connect it to a remote socket
 net-misc/dcetest 2.0: dcetest is a clone of the Windows rpcinfo
 net-misc/dhcdrop 0.5-r1 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
@@ -17783,7 +17784,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.4.1_p20261008 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.1_p20261009 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.2.1_p20261010 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.0_p20261011 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.4.1_p20261008 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.1_p20261009 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.2.1_p20261010 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.0_p20261011 17.0.0_p20261011-r1 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18010,7 +18011,7 @@ sys-libs/fortify-headers 1.1 9999: Standalone implementation of fortify source
 sys-libs/freeipmi 1.6.19 1.6.20: Provides Remote-Console and System Management Software as per IPMI v1.5/2.0
 sys-libs/fts-standalone 1.2.7 1.2.7-r1: Standalone fts library for use with musl
 sys-libs/gdbm 1.24 1.25 1.26: Standard GNU database libraries
-sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r7 2.43-r2 2.43-r4 2.43-r5 2.43.9999 2.44-r2 2.44-r3 2.44.9999 9999: GNU libc C library
+sys-libs/glibc 2.19-r3 2.31-r7 2.32-r8 2.33-r14 2.34-r14 2.35-r11 2.36-r8 2.37-r10 2.38-r13 2.39-r11 2.40-r11 2.41-r10 2.42-r7 2.43-r4 2.43-r5 2.43-r6 2.43.9999 2.44-r3 2.44-r4 2.44.9999 9999: GNU libc C library
 sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.14.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 26.04.3 26.08.2: Library for managing partitions
