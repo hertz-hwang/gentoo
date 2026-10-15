@@ -14230,7 +14230,7 @@ media-sound/mpd-ynca 0.3.0: MPD client to control Yamaha AV receivers with YNCA 
 media-sound/mpdas 0.4.5: AudioScrobbler client for MPD written in C++
 media-sound/mpdscribble 0.25: An MPD client that submits information to Audioscrobbler
 media-sound/mpfc 1.3.8.1-r5: Music Player For Console
-media-sound/mpg123 1.32.3-r100: A meta package for realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
+media-sound/mpg123 1.32.3-r100 1.33.7: A meta package for realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
 media-sound/mpg123-base 1.32.10-r2 1.33.0 1.33.1 1.33.3 1.33.4 1.33.5 1.33.6 1.33.7: Realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
 media-sound/mpg321 0.3.2-r1: Realtime MPEG 1.0/2.0/2.5 audio player for layers 1, 2 and 3
 media-sound/mplay 0.80: Curses front-end for mplayer
@@ -14854,7 +14854,7 @@ net-dns/libidn2 2.3.8: An implementation of the IDNA2008 specifications (RFCs 58
 net-dns/maradns 3.5.0036: A security-aware DNS server
 net-dns/mdns-repeater 1.11: Multicast DNS repeater
 net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
-net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 9999: An authoritative only, high performance, open source name server
+net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 4.15.3 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
 net-dns/pdns 5.1.4 5.1.4-r1: The PowerDNS Daemon
@@ -18159,7 +18159,7 @@ sys-process/parallel 20250722 20250722-r1: Shell tool for executing jobs in para
 sys-process/pkill-darwin 1.0-r1: pgrep(1) and pkill(1) for Darwin
 sys-process/prll 0.6.4: Utility for parallelizing execution of shell functions
 sys-process/procenv 0.51-r1 0.60 0.60-r1: command-line utility to show process environment
-sys-process/procps 4.0.5-r4 4.0.5-r5 4.0.6: Standard informational utilities and process-handling tools
+sys-process/procps 4.0.5-r4 4.0.5-r6 4.0.6: Standard informational utilities and process-handling tools
 sys-process/procs 0.14.6-r1 0.14.9: Modern replacement for ps
 sys-process/psinfo 0.12-r1 0.12-r2: Process information and statistics using the kernel /proc interface
 sys-process/psmisc 23.6 23.7: A set of tools that use the proc filesystem
