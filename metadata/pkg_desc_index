@@ -1407,7 +1407,7 @@ app-containers/lxc-templates 3.0.4_p20260719: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.1-r2 5.21.4 5.21.4-r1 6.3 6.3-r1 6.5 6.5-r1 6.9: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.3.3 2.3.4 2.3.5: Docker-compatible CLI for containerd, with support for Compose
 app-containers/netavark 1.17.1 1.17.2 2.0.0 2.1.0 9999: A container network stack
-app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 9999: NVIDIA container runtime toolkit
+app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 1.20.1 9999: NVIDIA container runtime toolkit
 app-containers/podman 5.7.1 5.8.2 5.8.5 5.8.6 6.0.0 6.0.1 6.0.2 6.1.0 6.1.2 6.1.4 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 1.11.2 1.11.3 9999: Terminal UI frontend for Podman
@@ -5232,8 +5232,8 @@ dev-java/objenesis 3.4 3.6: A library for instantiating Java objects
 dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
-dev-java/openjdk 8.504_p01 11.0.32.1_p1 11.0.32.1_p1-r1 17.0.20.1_p1 17.0.20.1_p1-r1 21.0.12.1_p1 21.0.12.1_p1-r1 25.0.4.1_p1 27_p35 28_alpha15: Open source implementation of the Java programming language
-dev-java/openjdk-bin 8.504_p01 11.0.32.1_p1 17.0.20.1_p1-r1 21.0.12.1_p1-r1 25.0.4.1_p1-r1 27_p35 28_alpha16: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk 8.504_p01 11.0.32.1_p1 11.0.32.1_p1-r1 17.0.20.1_p1 17.0.20.1_p1-r1 21.0.12.1_p1 21.0.12.1_p1-r1 25.0.4.1_p1 27_p35 28_alpha20: Open source implementation of the Java programming language
+dev-java/openjdk-bin 8.504_p01 11.0.32.1_p1 17.0.20.1_p1-r1 21.0.12.1_p1-r1 25.0.4.1_p1-r1 27_p35 28_alpha20: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.504_p01 11.0.32.1_p1 17.0.20.1_p1 21.0.12.1_p1 25.0.4.1_p1: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
@@ -11598,7 +11598,7 @@ games-emulation/dosbox 0.75_pre4302-r1: DOS emulator
 games-emulation/dosbox-staging 0.82.2-r2 0.83.0: Modernized DOSBox soft-fork
 games-emulation/emutos 1.4: Single-user single-tasking operating system for 32-bit Atari computer emulators
 games-emulation/fbzx 4.8.0-r1: Full Screen Sinclair Spectrum emulator
-games-emulation/fceux 2.6.6-r2: Portable Famicom/NES emulator, an evolution of the original FCE Ultra
+games-emulation/fceux 2.6.6-r2 2.7.0: Portable Famicom/NES emulator, an evolution of the original FCE Ultra
 games-emulation/gambatte-jg 0.6.0-r1 0.6.1 9999: Jolly Good Fork of Gambatte
 games-emulation/generator 0.35_p4-r1: Sega Genesis / Mega Drive emulator
 games-emulation/gens 2.15.5-r2: Sega Genesis/CD/32X emulator
@@ -15236,7 +15236,7 @@ net-mail/mhonarc-gentoo 2.6.18-r3: Perl Mail-to-HTML Converter, Gentoo fork
 net-mail/mlmmj 1.5.2 1.6.0 1.8.0: Mailing list managing made joyful
 net-mail/mpop 1.4.21: Small, fast, and portable POP3 client
 net-mail/mswatch 1.2.0-r1: A utility to watch mailstores for changes and initiate mailbox syncs
-net-mail/mu 1.12.15 1.14.0 1.14.1 1.14.2 1.14.3: Set of tools to deal with Maildirs, in particular, searching and indexing
+net-mail/mu 1.12.15 1.14.0 1.14.1 1.14.2 1.14.3 1.14.4: Set of tools to deal with Maildirs, in particular, searching and indexing
 net-mail/muchsync 7: Synchronizes mail messages and notmuch tags across machines
 net-mail/nmzmail 1.1-r2: Fast mail searching for mutt using namazu
 net-mail/notmuch 0.39-r1 0.40-r2: Thread-based e-mail indexer, supporting quick search and tagging
@@ -18030,7 +18030,7 @@ sys-libs/libieee1284 0.2.11-r9: Library to query devices using IEEE1284
 sys-libs/libixp 0.5_p20110208-r3: A stand-alone client/server 9P library including ixpc client
 sys-libs/libmodulemd 2.15.0-r1 2.15.2 9999: C Library for manipulating Fedora Modularity metadata files
 sys-libs/libnbd 1.18.1-r3 1.22.5-r1 1.23.9-r1 1.24.0-r1: NBD client library in userspace
-sys-libs/libnvidia-container 1.18.0 1.19.1 1.20.0 9999: NVIDIA container runtime library
+sys-libs/libnvidia-container 1.18.0 1.19.1 1.20.0 1.20.1 9999: NVIDIA container runtime library
 sys-libs/libnvme 1.16.1 1.16.2: C Library for NVM Express on Linux
 sys-libs/libosinfo 1.11.0-r1 1.12.0-r1: GObject library for managing information about real and virtual OSes
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
