@@ -5733,7 +5733,6 @@ dev-libs/libite 2.6.1: A collection of useful BSD APIs
 dev-libs/libixion 0.19.0-r2 0.20.0 9999: General purpose formula parser & interpreter
 dev-libs/libjcat 0.2.3 0.2.5 0.2.6: Library and tool for reading and writing Jcat files
 dev-libs/libjodycode 3.1.2 4.1.2: Shared code used by several utilities written by Jody Bruchon
-dev-libs/libjwt 1.15.3: JWT C Library
 dev-libs/libkdumpfile 0.5.5-r2 0.5.6: Kernel coredump file access
 dev-libs/libkpass 6-r2: Libkpass is a C implementation to access KeePass 1.x format password databases
 dev-libs/libksba 1.8.0 1.8.1: X.509 and CMS (PKCS#7) library
@@ -8401,7 +8400,7 @@ dev-python/bitstring 4.4.0-r2 5.0.0: A pure Python module for creation and analy
 dev-python/black 26.5.1 26.10.0 26.10.1: The uncompromising Python code formatter
 dev-python/blake3 1.0.10 1.0.11: Python bindings for the BLAKE3 cryptographic hash function
 dev-python/bleach 6.4.0: An easy whitelist-based HTML-sanitizing tool
-dev-python/blessed 1.49.0 1.50.0: Library for making terminal apps using colors, keyboard input and positioning
+dev-python/blessed 1.49.0 1.50.0 1.51.0: Library for making terminal apps using colors, keyboard input and positioning
 dev-python/blinker 1.9.0: Fast, simple object-to-object and broadcast signaling
 dev-python/blockbuster 1.5.27 1.5.28 1.5.29: Utility to detect blocking calls in the async event loop
 dev-python/blosc 1.11.4: High performance compressor optimized for binary data
@@ -8667,7 +8666,7 @@ dev-python/flit 4.0.2 4.1.0: Simplified packaging of Python modules
 dev-python/flit-core 3.12.0 4.0.2 4.1.0: Simplified packaging of Python modules (core module)
 dev-python/flit-scm 1.7.0: A PEP 518 build backend combining flit with setuptools_scm
 dev-python/flufl-lock 9.2.0 10.0.0: NFS-safe file locking with timeouts for POSIX systems
-dev-python/fonttools 4.64.0 4.65.0 4.66.0 4.66.1: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.64.0 4.65.0 4.66.0 4.66.1 4.67.0: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/forbiddenfruit 0.1.4-r1: Patch built-in Python objects
 dev-python/fpylll 0.6.4-r1: Python bindings for sci-libs/fplll
 dev-python/fqdn 1.5.1-r2 1.6.0: RFC-compliant FQDN validation and manipulation for Python
@@ -9295,7 +9294,7 @@ dev-python/pyotp 2.9.0 2.10.0: PyOTP is a Python library for generating and veri
 dev-python/pyparsing 3.3.2 3.3.3: Easy-to-use Python module for text parsing
 dev-python/pyparted 3.13.0: Python bindings for sys-block/parted
 dev-python/pypax 0.9.5-r2 9999: Python module to get or set either PT_PAX and/or XATTR_PAX flags
-dev-python/pypdf 6.18.0 6.18.1 6.19.0 6.20.0 6.20.1: Python library to work with PDF files
+dev-python/pypdf 6.18.0 6.18.1 6.19.0 6.20.0 6.20.1 6.21.0: Python library to work with PDF files
 dev-python/pyperclip 1.11.0: A cross-platform clipboard module for Python
 dev-python/pyphen 0.17.2 0.18.1: Python module for hyphenation using hunspell dictionaries
 dev-python/pypi-attestations 0.0.29 0.0.30: Convert between Sigstore Bundles and PEP-740 Attestation objects
@@ -9423,7 +9422,7 @@ dev-python/python-daemon 3.1.2: Library to implement a well-behaved Unix daemon 
 dev-python/python-dateutil 2.9.0_p0: Extensions to the standard Python datetime module
 dev-python/python-dbusmock 0.38.1: Easily create mock objects on D-Bus for software testing
 dev-python/python-debian 1.1.1: Python modules to work with Debian-related data formats
-dev-python/python-discovery 1.6.0 1.6.1 1.6.2: Python interpreter discovery
+dev-python/python-discovery 1.6.0 1.6.1 1.6.2 1.6.3: Python interpreter discovery
 dev-python/python-distutils-extra 2.47 3.3: Gettext support, themed icons and scrollkeeper-based documentation in distutils
 dev-python/python-dotenv 1.2.3 1.2.4: Manage .env files
 dev-python/python-editor 1.0.4-r2: Programmatically open an editor, capture the result
@@ -9778,12 +9777,12 @@ dev-python/tokenize-rt 6.2.0: A wrapper around the stdlib 'tokenize' which round
 dev-python/toml-fmt-common 1.3.5: Common logic to the TOML formatter
 dev-python/tomli 2.4.1 2.5.0: A lil' TOML parser
 dev-python/tomli-w 1.2.0: A lil' TOML writer
-dev-python/tomlkit 0.15.0 0.15.1: Style preserving TOML library
+dev-python/tomlkit 0.15.1 0.15.2: Style preserving TOML library
 dev-python/toolz 1.1.0-r1 1.2.0: List processing tools and functional utilities
 dev-python/toposort 1.10: Implements a topological sort algorithm
 dev-python/tornado 6.5.8 6.5.9 6.5.10: Python web framework and asynchronous networking library
 dev-python/towncrier 25.8.0 26.9.0: Building newsfiles for your project
-dev-python/tox 4.61.2 4.61.4 4.63.0 4.64.3 4.64.4 4.64.5 4.64.7 4.64.8 4.64.9 4.64.10 4.65.2 4.65.3 4.65.4 4.65.5 4.65.6: virtualenv-based automation of test activities
+dev-python/tox 4.61.2 4.61.4 4.63.0 4.64.3 4.64.4 4.64.5 4.64.7 4.64.8 4.64.9 4.64.10 4.65.2 4.65.3 4.65.4 4.65.5 4.65.6 4.66.0: virtualenv-based automation of test activities
 dev-python/tpm2-pytss 2.3.0-r3 3.0.0: Python bindings for TSS
 dev-python/tqdm 4.69.1 4.70.0 4.70.1: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1 5.16.1: A configuration system for Python applications
@@ -9897,7 +9896,7 @@ dev-python/wsgiproxy2 0.5.1-r1: HTTP proxying tools for WSGI apps
 dev-python/wsproto 1.3.2: WebSockets state-machine based protocol implementation
 dev-python/wtforms 3.2.2: Flexible forms validation and rendering library for python web development
 dev-python/wurlitzer 3.1.1: Capture C-level stdout/stderr in Python
-dev-python/wxpython 4.2.3-r2 4.2.5: A blending of the wxWindows C++ class library with Python
+dev-python/wxpython 4.2.5: A blending of the wxWindows C++ class library with Python
 dev-python/x-wr-timezone 2.0.1: Convert calendars using X-WR-TIMEZONE to standard ones
 dev-python/xarray 2026.7.0 2026.9.0: N-D labeled arrays and datasets in Python
 dev-python/xcffib 1.12.0: A drop in replacement for xpyb, an XCB python binding
@@ -9936,8 +9935,8 @@ dev-python/zope-configuration 7.1: Zope Configuration Architecture
 dev-python/zope-deprecation 6.0: Zope Deprecation Infrastructure
 dev-python/zope-event 6.2: Event publishing / dispatch, used by Zope Component Architecture
 dev-python/zope-exceptions 6.0: General purpose exceptions for Zope packages
-dev-python/zope-hookable 8.2 8.3: Efficient creation of 'hookable' objects
-dev-python/zope-i18nmessageid 8.2 8.3: Zope support for i18nmessageid (tagging source of i18n strings)
+dev-python/zope-hookable 8.3 8.4: Efficient creation of 'hookable' objects
+dev-python/zope-i18nmessageid 8.3 8.4: Zope support for i18nmessageid (tagging source of i18n strings)
 dev-python/zope-interface 8.6 8.7: Interfaces for Python
 dev-python/zope-schema 8.1: Zope schema Architecture
 dev-python/zope-testing 6.1 6.2: Zope testing helpers
@@ -14629,7 +14628,6 @@ net-analyzer/iptstate 2.2.7: IP Tables State displays states being kept by iptab
 net-analyzer/ipv6toolkit 2.1_p20200412-r1 2.2: Set of IPv6 security/trouble-shooting tools to send arbitrary IPv6-based packets
 net-analyzer/isic 0.07-r2 0.07-r3: IP Stack Integrity Checker
 net-analyzer/jnettop 0.13.0-r2: Top like console network traffic visualiser
-net-analyzer/kapacitor 1.5.5: Monitoring, processing and alerting on time series data
 net-analyzer/knocker 0.8.0: Knocker is an easy to use security port scanner written in C
 net-analyzer/lft 3.91-r1: Layer Four Traceroute (LFT) and WhoB
 net-analyzer/linkchecker 10.5.0 10.6.0: Check websites for broken links
