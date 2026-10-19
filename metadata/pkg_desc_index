@@ -6241,7 +6241,7 @@ dev-ml/lablgtk-sourceview 3.1.5: OCaml bindings to GTK-3
 dev-ml/labltk 8.06.12-r2 8.06.15-r1: OCaml interface to the Tcl/Tk GUI framework
 dev-ml/lambda-term 3.3.2 3.3.3 3.4.0: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
-dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OCaml bindings for LLVM
+dev-ml/llvm 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
 dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2: Cooperative light-weight thread library for OCaml
@@ -6350,7 +6350,7 @@ dev-ml/ppx_tydi 0.16.0 0.17.0-r2 0.17.1: Let expressions, inferring pattern type
 dev-ml/ppx_typerep_conv 0.16.0 0.17.0-r2 0.17.1: Generation of runtime types from type declarations
 dev-ml/ppx_variants_conv 0.16.0-r1 0.17.0-r2 0.17.1: Generation of accessor and iteration functions for ocaml variant types
 dev-ml/ppx_yojson_conv_lib 0.17.0: Runtime lib for ppx_yojson_conv
-dev-ml/ppxlib 0.22.2-r4 0.24.0-r2 0.30.0-r2 0.33.0-r2 0.36.2-r1 0.37.0-r1: Base library and tools for ppx rewriters
+dev-ml/ppxlib 0.22.2-r4 0.24.0-r2 0.30.0-r2 0.33.0-r2 0.36.2-r1 0.37.0-r1 0.39.0: Base library and tools for ppx rewriters
 dev-ml/ppxlib_jane 0.17.2-r2 0.17.4-r1: Utilities for working with Jane Street AST constructs
 dev-ml/protocol_version_header 0.16.0 0.17.0: Protocol aware version negotiation for OCaml
 dev-ml/ptime 1.1.0 1.2.0: POSIX time for OCaml
@@ -8447,7 +8447,7 @@ dev-python/cheetah3 3.4.0 3.4.0-r1: Python-powered template engine and code gene
 dev-python/cheroot 11.1.2: High-performance, pure-Python HTTP server used by CherryPy
 dev-python/cherrypy 18.10.0: CherryPy is a pythonic, object-oriented HTTP framework
 dev-python/cjkwrap 2.2-r2: A library for wrapping and filling UTF-8 CJK text
-dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Python bindings for llvm-core/clang
+dev-python/clang 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Python bindings for llvm-core/clang
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.15.1 2.15.2 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
@@ -8917,7 +8917,7 @@ dev-python/line-profiler 5.0.2 5.1.0: Line-by-line profiler
 dev-python/linkify-it-py 2.1.0 2.1.1 2.2.0: Links recognition library with full unicode support
 dev-python/linode-metadata 0.3.5 0.4.0: Python bindings for the Linode Metadata Service
 dev-python/linuxdoc 20240924 99999999: Sphinx-doc extensions for sophisticated C developer
-dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
+dev-python/lit 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
 dev-python/littleutils 0.2.4: Small personal collection of Python utility functions
 dev-python/livereload 2.7.1: livereload server in Python
 dev-python/llfuse 1.5.2: Python bindings for the low-level FUSE API
@@ -12254,9 +12254,9 @@ gui-apps/waybar 0.10.4-r1 0.11.0 0.11.0-r1 0.12.0 0.14.0 0.15.0 9999: Highly cus
 gui-apps/wayland-logout 1.4 9999: general logout scripts for wayland compositors
 gui-apps/waypipe 0.9.2-r1: Transparent network proxy for Wayland compositors
 gui-apps/wayvnc 0.9.1-r1 0.10.0 0.10.1 9999: VNC server for wlroots based Wayland compositors
-gui-apps/wcm 0.10.0 0.11.0 9999: Wayfire Config Manager
+gui-apps/wcm 0.11.0 9999: Wayfire Config Manager
 gui-apps/wf-recorder 0.5.0-r1 0.6.0 9999: Screen recorder for wlroots-based compositors
-gui-apps/wf-shell 0.10.0-r1 0.11.0-r1 9999: Compiz like 3D wayland compositor
+gui-apps/wf-shell 0.11.0-r1 9999: Compiz like 3D wayland compositor
 gui-apps/wl-clipboard 2.2.1-r1 2.3.0 9999: Wayland clipboard utilities
 gui-apps/wmenu 0.2.0 9999: dynamic menu for wlroots compositors, maintains the look and feel of dmenu
 gui-apps/wofi 1.4.1 1.5 9999: Wofi is a launcher/menu program for wlroots based wayland compositors like sway
@@ -12291,8 +12291,8 @@ gui-libs/qt-color-widgets 3.0.0 3.0.0_p20260318: Qt (C++) widgets to manage colo
 gui-libs/tepl 6.8.0: GtkSourceView-based text editors and IDE helper library
 gui-libs/vte 0.82.4 0.84.1: Library providing a virtual terminal emulator widget
 gui-libs/vte-common 0.82.4 0.84.1: Library providing a virtual terminal emulator widget
-gui-libs/wayfire-plugins-extra 0.10.0 0.11.2 9999: extra plugins for wayfire
-gui-libs/wf-config 0.10.0 0.11.0 9999: library for managing wayfire configuration files
+gui-libs/wayfire-plugins-extra 0.11.2 9999: extra plugins for wayfire
+gui-libs/wf-config 0.11.0 9999: library for managing wayfire configuration files
 gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 0.19.1 0.19.2 0.20.0 0.20.1 0.20.2 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
 gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop systems
 gui-libs/xdg-desktop-portal-lxqt 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
@@ -12302,7 +12302,7 @@ gui-wm/gamescope 3.16.28 3.16.31: Efficient micro-compositor for running games
 gui-wm/labwc 0.9.8 0.20.1 0.20.2 9999: Openbox alternative for wayland
 gui-wm/sway 1.11-r1 1.12-r1 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
-gui-wm/wayfire 0.10.1-r1 0.11.0-r1 9999: compiz like 3D wayland compositor
+gui-wm/wayfire 0.11.0-r1 9999: compiz like 3D wayland compositor
 kde-apps/akonadi 26.04.3 26.08.2: Storage service for PIM data and libraries for PIM apps
 kde-apps/akonadi-calendar 26.04.3 26.08.2: Library for akonadi calendar integration
 kde-apps/akonadi-calendar-tools-common 26.04.3 26.08.2: Common files for akonadi-calendar-tools
@@ -12689,38 +12689,38 @@ kde-plasma/systemsettings 6.6.6-r1 6.7.5 6.8.0: Control Center to configure KDE 
 kde-plasma/union 6.8.0-r1: Style engine providing a unified style description to separate output styles
 kde-plasma/wacomtablet 6.6.6-r2 6.7.5: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.6.6-r1 6.7.5 6.8.0: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
-llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 23.1.3-r1 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: C language family frontend for LLVM
-llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Common files shared between multiple slots of clang
+llvm-core/clang 17.0.6-r1 18.1.8-r7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.3-r1 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: C language family frontend for LLVM
+llvm-core/clang-common 17.0.6-r10 18.1.8-r3 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-linker-config 17 18 19 20 21 22 23 24: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use Clang on GCC-free system
-llvm-core/flang 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: LLVM's Fortran frontend
-llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: The LLVM linker (link editor)
+llvm-core/flang 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: LLVM's Fortran frontend
+llvm-core/lld 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8-r1 22.1.8-r1 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 17 18 19 20 21 22 23 24: Symlinks to use LLD on binutils-free system
-llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: The LLVM debugger
-llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Low Level Virtual Machine
-llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Common files shared between multiple slots of LLVM
+llvm-core/lldb 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: The LLVM debugger
+llvm-core/llvm 17.0.6-r3 18.1.8-r6 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Low Level Virtual Machine
+llvm-core/llvm-common 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Common files shared between multiple slots of LLVM
 llvm-core/llvm-toolchain-symlinks 17-r1 18-r1 19 20-r1 21 22 23 24: Symlinks to use LLVM on binutils-free system
 llvm-core/llvmgold 17 18 19 20 21 22 23 24: LLVMgold plugin symlink for autoloading
-llvm-core/mlir 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Multi-Level Intermediate Representation (library only)
-llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Polyhedral optimizations for LLVM
+llvm-core/mlir 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Multi-Level Intermediate Representation (library only)
+llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Polyhedral optimizations for LLVM
 llvm-runtimes/clang-rtlib-config 17 18 19 20 21 22 23 24: Default rtlib configuration for clang
 llvm-runtimes/clang-runtime 17.0.6-r1 18.1.8-r1 19.1.7-r2 20.1.8-r2 21.1.8-r1 22-r1 23-r2 24: Meta-ebuild for clang runtime libraries
 llvm-runtimes/clang-stdlib-config 17 18 19 20 21 22 23 24: Default C++ library configuration for clang
 llvm-runtimes/clang-unwindlib-config 17 18 19 20 21 22 23 24: Default unwindlib configuration for clang
-llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime library for clang (built-in part)
-llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
-llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: LLVM's Fortran runtime
+llvm-runtimes/compiler-rt 17.0.6-r2 18.1.8-r2 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Compiler runtime library for clang (built-in part)
+llvm-runtimes/compiler-rt-sanitizers 17.0.6-r1 18.1.8-r6 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
+llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
-llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenCL C library
-llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
-llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Low level support for a standard C++ library
-llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
-llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8-r1 23.1.2-r1 23.1.3-r1 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: C++ runtime stack unwinder from LLVM
+llvm-runtimes/libclc 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OpenCL C library
+llvm-runtimes/libcxx 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
+llvm-runtimes/libcxxabi 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Low level support for a standard C++ library
+llvm-runtimes/libgcc 19.1.7 19.1.7-r1 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
+llvm-runtimes/libunwind 17.0.6 18.1.8 19.1.7 20.1.8-r1 21.1.8 22.1.8-r1 23.1.3-r1 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: C++ runtime stack unwinder from LLVM
 llvm-runtimes/offload 19.1.7 20.1.8-r1 21.1.8 22.1.8: OpenMP offloading support
-llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
-llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for amdgcn devices
-llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for nvptx64 devices
-llvm-runtimes/openmp-spirv64-intel 23.1.2 23.1.3 24.0.0_pre20260929 24.0.0_pre20261010 24.0.0.9999: OpenMP target library for spirv64 Intel devices
+llvm-runtimes/openmp 17.0.6 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
+llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OpenMP target library for amdgcn devices
+llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OpenMP target library for nvptx64 devices
+llvm-runtimes/openmp-spirv64-intel 23.1.3 24.0.0_pre20261010 24.0.0_pre20261018 24.0.0.9999: OpenMP target library for spirv64 Intel devices
 lxde-base/lxappearance 0.6.4-r2: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
@@ -12769,7 +12769,7 @@ mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.3.2 2.4.1 2.4.3: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
 mail-client/neomutt 20240201 20250510 20260504 20260616 99999999: A small but very powerful text-based mail client
-mail-client/roundcube 1.6.11 1.6.19 1.7.4 9999: Browser-based multilingual IMAP client with an application-like user interface
+mail-client/roundcube 1.6.11 1.6.19 1.6.20 1.7.5 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.24 14.9.25: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 153.5.0 158.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 153.5.0 158.0: Thunderbird Mail Client
@@ -14905,7 +14905,7 @@ net-fs/nfs4-acl-tools 0.3.7-r1 0.4.2 0.4.3_rc1: Commandline and GUI tools that d
 net-fs/openafs 1.8.13-r1 1.8.13-r2 1.8.13.1 1.8.13.1-r1 1.8.13.2 1.8.13.2-r1 1.8.14 1.8.15 1.8.16: The OpenAFS distributed file system
 net-fs/s3backer 2.1.3 2.1.6: A filesystem that contains a single file backed by Amazon S3
 net-fs/s3fs 1.95-r1 1.96: Amazon S3 mounting via fuse
-net-fs/samba 4.23.9 4.23.10 4.23.11 4.23.12 4.24.4 4.24.5 4.24.6 4.24.7 4.25.0: Samba Suite Version 4
+net-fs/samba 4.23.9 4.23.10 4.23.11 4.23.12 4.23.13 4.24.4 4.24.5 4.24.6 4.24.7 4.25.0: Samba Suite Version 4
 net-fs/smbnetfs 0.6.3: FUSE filesystem for SMB shares
 net-fs/sshfs 3.7.6: Fuse-filesystem utilizing the sftp service
 net-fs/wdfs 1.4.2-r4: WebDAV filesystem with special features for accessing subversion repositories
@@ -15335,7 +15335,7 @@ net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
 net-misc/downloader-cli 0.3.4-r2: Simple downloader with an customizable progressbar
 net-misc/dropbear 2026.94: Small SSH 2 client/server designed for small memory environments
-net-misc/dropbox 258.4.3749 260.4.2926 262.4.3183 264.4.3385 264.4.3421 266.4.3911 268.4.4124 270.4.3312 273.4.4708: Dropbox daemon (pretends to be GUI-less)
+net-misc/dropbox 258.4.3749 260.4.2926 262.4.3183 264.4.3385 264.4.3421 266.4.3911 268.4.4124 270.4.3312 273.4.4708 275.4.3565: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.8.1 4.8.2: User friendly Bitcoin client
@@ -16345,7 +16345,7 @@ sci-libs/metis 5.2.1-r2: Package for unstructured serial graph partitioning
 sci-libs/miopen 6.3.3 6.4.3-r1 7.0.2 7.1.0-r1 7.2.0 10.1.0: AMD's Machine Intelligence Library
 sci-libs/mkl 2026.1.0.236 2026.2.0.881: Intel Math Kernel Library
 sci-libs/mpfi 1.5.4_p20220401: Multiple precision interval arithmetic library based on MPFR
-sci-libs/mumps 5.3.5-r2 5.4.1 5.5.1 5.6.2-r1 5.7.3 5.8.2: MUltifrontal Massively Parallel sparse direct matrix Solver
+sci-libs/mumps 5.3.5-r2 5.4.1 5.5.1 5.6.2-r1 5.7.3 5.8.2 5.9.1: MUltifrontal Massively Parallel sparse direct matrix Solver
 sci-libs/nanoflann 1.7.1 1.12.1 9999: C++ header-only library for Nearest Neighbor (NN) search wih KD-trees
 sci-libs/netcdf 4.9.3-r3 4.10.1-r1: Scientific library and interface for array oriented data access
 sci-libs/netcdf-cxx 4.2-r301 4.3.1-r3: C++ library for netCDF
@@ -17401,7 +17401,7 @@ sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
 sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 3.10 3.11 9999: SELinux context translation to human readable names
-sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00 8.10 8.10-r1: Memory tester based on PCMemTest
+sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00 8.10 8.10-r1 9.00: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.7: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.7.1: Userspace utility for testing the memory subsystem for faults
 sys-apps/merge-usr 6 7: Script to migrate from split-usr to merged-usr
@@ -17705,7 +17705,7 @@ sys-boot/yaboot 1.3.17-r4: PPC Bootloader
 sys-boot/yaboot-static 1.3.17-r2: Static yaboot ppc boot loader for machines with open firmware
 sys-cluster/ampi 0_pre20140616-r1: MPI library for algorithmic differentiation
 sys-cluster/c3 4.0.1: The Cluster Command and Control (C3) tool suite
-sys-cluster/ceph 20.1.1-r1 20.2.1-r5 20.2.4-r2: Ceph distributed filesystem
+sys-cluster/ceph 20.1.1-r1 20.2.1-r5 20.2.4-r3: Ceph distributed filesystem
 sys-cluster/charliecloud 0.43 0.44 9999: Lightweight user-defined software stacks for high-performance computing
 sys-cluster/charm 6.10.2: Message-passing parallel language and runtime system
 sys-cluster/charmdebug 6.2.0-r2: A debugger for Charm++ applications
@@ -17971,7 +17971,7 @@ sys-kernel/cryptodev 1.14 9999: device that allows access to Linux kernel crypto
 sys-kernel/dkms 3.3.0 3.4.3 3.4.4 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
-sys-kernel/genkernel 4.3.17-r4 4.3.18 9999: Gentoo automatic kernel building scripts
+sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel building scripts
 sys-kernel/gentoo-kernel 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Minimal subset of gentoo-kernel-bin for building modules, for containers
