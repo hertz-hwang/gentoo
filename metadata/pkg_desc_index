@@ -16338,7 +16338,7 @@ sci-libs/lrslib 071b-r1 073: Reverse-search algorithm for vertex enumeration pro
 sci-libs/m4ri 20250128-r1: Method of four russian for inversion (M4RI)
 sci-libs/m4rie 20250128: Fast dense matrix arithmetic over GF(2^e) for 2 <= e <= 16
 sci-libs/mathgl 8.0.3: Math Graphics Library
-sci-libs/matio 1.5.23 1.5.28: Library for reading and writing matlab files
+sci-libs/matio 1.5.23 1.5.28 1.5.30 1.6.0: Library for reading and writing matlab files
 sci-libs/mc 1.5-r1: 2D/3D AFEM code for nonlinear geometric PDE
 sci-libs/med 4.1.1-r4 5.0.0: Library to store and exchange meshed data or computation results
 sci-libs/metis 5.2.1-r2: Package for unstructured serial graph partitioning
@@ -16562,7 +16562,7 @@ sci-ml/fastdownload 0.0.6-r1: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.27.0: Tensor library for machine learning
+sci-ml/ggml 0.27.0-r1: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interact with the Hugging Face Hub
@@ -17983,7 +17983,7 @@ sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel scrip
 sys-kernel/kci-dev 0.1.10 0.1.11: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20260309 20260410 20260519 20260622 20260810 20260910 20260916 99999999: Linux firmware files
+sys-kernel/linux-firmware 20260309 20260410 20260519 20260622 20260810 20260910 20260916 20261019 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18 6.19 7.0 7.1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
