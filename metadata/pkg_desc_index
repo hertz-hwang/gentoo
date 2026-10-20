@@ -11029,7 +11029,7 @@ dev-util/gnome-builder 49.1 50.0: An IDE for writing GNOME-based software
 dev-util/gnome-devel-docs 40.3: Documentation for developing for the GNOME desktop environment
 dev-util/gob 2.0.20-r1: Preprocessor for making GTK+ objects with inline C code
 dev-util/godcc 1.0: Full-fledged command-line interface to Compiler Explorer instances
-dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.4 2026.1.1 2026.1.4 2026.2.0.1 2026.2.3: Golang IDE by JetBrains
+dev-util/goland 2024.3.5 2025.1.4 2025.2.5 2025.3.4 2026.1.1 2026.1.4 2026.2.0.1 2026.2.3-r1: Golang IDE by JetBrains
 dev-util/google-perftools 2.15 2.16 2.17.2: Fast, multi-threaded malloc() and nifty performance analysis tools
 dev-util/gource 0.55: A software version control visualization tool
 dev-util/gperf 3.1-r2 3.2.1 3.3: A perfect hash function generator
@@ -11961,7 +11961,7 @@ games-rpg/xu4 1.4.3: A remake of the computer game Ultima IV
 games-rpg/zsdx 1.13.0_p20240219: Free 2D Zelda fangame
 games-rpg/zsxd 1.13.0_p20251108: Free 2D Zelda fangame parody
 games-server/bedrock-server 1.26.52.3: The official bedrock (non-java) based server for the sandbox video game
-games-server/crossfire-server 1.71.0-r2 1.75.0-r1: Server for the crossfire clients
+games-server/crossfire-server 1.71.0-r2 1.75.0-r2: Server for the crossfire clients
 games-server/etqw-ded 1.5-r1: Enemy Territory: Quake Wars dedicated server
 games-server/mednafen-server 0.5.2-r3: Server for Mednafen emulator
 games-server/minecraft-server 26.3: The official server for the sandbox video game
