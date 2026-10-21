@@ -973,7 +973,7 @@ app-admin/emacs-updater 1.19: Rebuild Emacs packages
 app-admin/entr 5.8: Run arbitrary commands when files change
 app-admin/eselect 1.4.32 9999: Gentoo's multi-purpose configuration and management tool
 app-admin/evtxtools 1.1.1-r2: Read, decode and dump Windows Vista/2008/7 event log file
-app-admin/exo 1.94.0: Command-line tool for everything at Exoscale: compute, storage, dns
+app-admin/exo 1.103.2: Command-line tool for everything at Exoscale: compute, storage, dns
 app-admin/fam 2.7.0_p17_p3: FAM, the File Alteration Monitor
 app-admin/fetchlog 1.6: Displays the last new messages of a logfile
 app-admin/fifo-cronolog 1.2.3-r1 1.3.0: cronolog wrapper for use with dumb daemons like squid, varnish and so on
@@ -3442,7 +3442,7 @@ app-text/tessdata_legacy 4.0.0 4.1.0: Trained models for app-text/tesseract comp
 app-text/tesseract 5.5.2 5.5.2-r1 5.5.3 9999: An OCR Engine, originally developed at HP, now open source
 app-text/texi2html 5.0-r1: Perl script that converts Texinfo to HTML
 app-text/texlive 2023 2023-r1 2024 2026: A complete TeX distribution
-app-text/texlive-core 2023-r10 2024-r2 2026: A complete TeX distribution
+app-text/texlive-core 2023-r10 2023-r11 2024-r2 2024-r3 2026-r1: A complete TeX distribution
 app-text/tkinfo 2.11: Info Browser in TK
 app-text/tkman 2.2-r3: Graphical, hypertex man and info page browser
 app-text/tofrodos 1.7.13: Utility that converts ASCII files between the MSDOS and the Unix format
@@ -5414,7 +5414,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.33 8.2.34 8.3.33 8.3.35 8.4.26 8.5.11: The PHP language runtime engine
+dev-lang/php 8.2.35 8.3.36 8.4.27 8.5.12: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 2.7.8.0.0-r1 2.7.8.0.1 3.11.7.3.23-r1 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: A fast, compliant alternative implementation of the Python (3.12) language
@@ -6370,7 +6370,7 @@ dev-ml/sexp_pretty 0.16.0 0.17.0-r2: S-expression pretty-printer
 dev-ml/sexplib 0.16.0-r1 0.17.0-r1: Library for automated conversion of OCaml-values to and from S-expressions
 dev-ml/sexplib0 0.15.0-r2 0.15.1-r1 0.16.0 0.17.0-r2: Library for automated conversion of OCaml-values to and from S-expressions
 dev-ml/spawn 0.13.0 0.15.0-r1 0.15.1 0.17.0: Spawning sub-processes
-dev-ml/spdx_licenses 1.2.0 1.4.0: A library providing a strict SPDX License Expression parser
+dev-ml/spdx_licenses 1.4.0 1.6.0: A library providing a strict SPDX License Expression parser
 dev-ml/splittable_random 0.16.0 0.17.0-r2: PRNG that can be split into independent streams
 dev-ml/stdcompat 19-r2 21.1-r1: Compatibility module for OCaml standard library
 dev-ml/stdio 0.16.0 0.17.0-r2: Standard IO Library for OCaml
@@ -9843,8 +9843,8 @@ dev-python/urwidtrees 1.0.3-r2: Tree widgets for urwid
 dev-python/userpath 1.9.2: Cross-platform tool for adding locations to the user PATH
 dev-python/utidylib 1.0.0 1.1.0: TidyLib Python wrapper
 dev-python/uuid6 2025.0.1: New time-based UUID formats which are suited for use as a database key
-dev-python/uv 0.11.25 0.12.7 0.12.9 0.12.13 0.12.17 0.12.19 0.12.23 0.13.1 0.13.3 0.13.4 9999: A Python package installer and resolver, written in Rust
-dev-python/uv-build 0.11.25 0.12.7 0.12.9 0.12.13 0.12.17 0.12.19 0.12.23 0.13.1 0.13.3 0.13.4: PEP517 uv build backend
+dev-python/uv 0.12.17-r1 0.13.4-r1 9999: A Python package installer and resolver, written in Rust
+dev-python/uv-build 0.12.17 0.13.4: PEP517 uv build backend
 dev-python/uv-dynamic-versioning 0.14.0 0.14.1: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/uvicorn 0.52.4 0.53.0 0.54.0: Lightning-fast ASGI server implementation
 dev-python/uvloop 0.22.1 0.23.0: Ultra-fast implementation of asyncio event loop on top of libuv
@@ -9976,7 +9976,7 @@ dev-qt/qttranslations 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Translation file
 dev-qt/qtvirtualkeyboard 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Customizable input framework and virtual keyboard for Qt
 dev-qt/qtwayland 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Toolbox for making Qt based Wayland compositors
 dev-qt/qtwebchannel 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Qt WebChannel
-dev-qt/qtwebengine 6.11.2 6.11.9999 6.140.9999 6.9999: Library for rendering dynamic web content in Qt6 C++ and QML applications
+dev-qt/qtwebengine 6.11.2-r1 6.11.9999 6.140.9999 6.9999: Library for rendering dynamic web content in Qt6 C++ and QML applications
 dev-qt/qtwebsockets 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Implementation of the WebSocket protocol for the Qt6 framework
 dev-qt/qtwebview 6.11.2 6.11.9999 6.12.0 6.12.9999 6.9999: Module for displaying web content in a QML application using the Qt6 framework
 dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
@@ -10821,7 +10821,7 @@ dev-tex/tth 4.16: Translate TEX into HTML
 dev-tex/vc 0.6: The vc (version control) bundle
 dev-texlive/texlive-basic 2023_p59159-r4 2024_p72890 2026_p72890: TeXLive Essential programs and files
 dev-texlive/texlive-bibtexextra 2023_p67386-r1 2024_p71940 2026_p75480: TeXLive BibTeX additional styles
-dev-texlive/texlive-binextra 2023_p69527-r3 2023_p69527-r4 2023_p69527-r5 2024_p72338-r1 2024_p72338-r2 2026_p77772: TeXLive TeX auxiliary programs
+dev-texlive/texlive-binextra 2023_p69527-r3 2023_p69527-r4 2023_p69527-r5 2024_p72338-r1 2024_p72338-r2 2026_p77772-r1: TeXLive TeX auxiliary programs
 dev-texlive/texlive-context 2023_p69108-r3 2023_p69108-r4 2024_p72727 2026_p75426: TeXLive ConTeXt and packages
 dev-texlive/texlive-fontsextra 2023_p69663-r2 2024_p72727 2026_p77044: TeXLive Additional fonts
 dev-texlive/texlive-fontsrecommended 2023_p54074-r1 2024_p54074 2026_p54074: TeXLive Recommended fonts
@@ -14852,7 +14852,7 @@ net-dns/libidn2 2.3.8: An implementation of the IDNA2008 specifications (RFCs 58
 net-dns/maradns 3.5.0036: A security-aware DNS server
 net-dns/mdns-repeater 1.11: Multicast DNS repeater
 net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
-net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 4.15.3 9999: An authoritative only, high performance, open source name server
+net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 4.15.3 4.15.4 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
 net-dns/pdns 5.1.4 5.1.4-r1: The PowerDNS Daemon
@@ -14864,7 +14864,7 @@ net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
 net-dns/resolvconf-symlink 0: Make /etc/resolv.conf a symlink to a runtime-writable location
 net-dns/s6-dns 2.4.1.0 2.4.1.1 2.4.1.2: Suite of DNS client programs and libraries for Unix systems
 net-dns/smartdns 48.2 48.4: A local DNS server returns the fastest access results
-net-dns/unbound 1.25.1 1.25.2 1.25.2-r1 1.26.1: A validating, recursive and caching DNS resolver
+net-dns/unbound 1.25.1 1.25.2 1.25.2-r1 1.26.1 1.26.2: A validating, recursive and caching DNS resolver
 net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns services
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a-r1 2.1.2a-r1: Arno's iptables firewall script
@@ -17975,7 +17975,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel bu
 sys-kernel/gentoo-kernel 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.190 6.6.159 6.12.113 6.18.57 7.2.11 7.3.0: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-sources 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12 7.3.0: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4 7.3_rc5 7.3_rc6 7.3_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18355,7 +18355,7 @@ www-apps/bugzilla 5.0.6-r2: Bugzilla is the Bug-Tracking System from the Mozilla
 www-apps/cgisysinfo 0.4.1: A small cgi utility to show basic system information
 www-apps/cgit 1.3 9999 9999-r1: A fast web-interface for Git repositories
 www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD collected by collectd
-www-apps/chromedriver-bin 154.0.8037.57 154.0.8037.92 155.0.8059.39: WebDriver for Chrome
+www-apps/chromedriver-bin 154.0.8037.57 154.0.8037.92 156.0.8078.47: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20260714c-r1: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
@@ -18434,22 +18434,22 @@ www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 153.5.0 153.5.1 158.0 158.0.1: Firefox Web Browser
 www-client/firefox-bin 153.5.0 153.5.1 158.0 158.0.1: Firefox Web Browser
 www-client/firefox-l10n 153.5.0 153.5.1 158.0 158.0.1: Firefox Web Browser's translation files
-www-client/google-chrome 154.0.8037.57 154.0.8037.92 155.0.8059.39: The web browser from Google
-www-client/google-chrome-beta 155.0.8059.12 156.0.8078.4 156.0.8078.12: The web browser from Google
-www-client/google-chrome-unstable 156.0.8063.3 156.0.8072.0 157.0.8081.0: The web browser from Google
+www-client/google-chrome 154.0.8037.57 154.0.8037.92 156.0.8078.47: The web browser from Google
+www-client/google-chrome-beta 155.0.8059.12 156.0.8078.4 157.0.8103.6: The web browser from Google
+www-client/google-chrome-unstable 156.0.8063.3 156.0.8072.0 158.0.8106.0: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
 www-client/links 2.30-r2 2.30-r3: A fast and lightweight web browser running in both graphics and text mode
 www-client/luakit 2.3.6 2.4.0: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
-www-client/microsoft-edge 155.0.4283.45: The web browser from Microsoft
-www-client/microsoft-edge-beta 155.0.4283.33 155.0.4283.39 156.0.4314.8: The web browser from Microsoft
-www-client/microsoft-edge-dev 156.0.4285.0 156.0.4301.0 157.0.4322.0: The web browser from Microsoft
+www-client/microsoft-edge 155.0.4283.62: The web browser from Microsoft
+www-client/microsoft-edge-beta 156.0.4314.30 156.0.4314.36 157.0.4341.10: The web browser from Microsoft
+www-client/microsoft-edge-dev 157.0.4322.0 157.0.4329.0 158.0.4344.0: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11-r1 9999: A free, open source web browser
-www-client/opera 137.0.6036.39: A fast and secure web browser
+www-client/opera 138.0.6044.24: A fast and secure web browser
 www-client/opera-beta 124.0.5705.51 126.0.5750.11 126.0.5750.30: A fast and secure web browser
-www-client/opera-developer 138.0.6038.0: A fast and secure web browser
+www-client/opera-developer 138.0.6038.0 139.0.6051.0: A fast and secure web browser
 www-client/opera-gx 135.0.5973.135 135.0.5973.153 136.0.6008.76: Opera, but for 'gamers'
 www-client/pybugz 0.14 0.15 9999: Command line interface to (Gentoo) Bugzilla
 www-client/qutebrowser 3.6.3 3.7.0 9999: Keyboard-driven, vim-like browser based on Python and Qt
@@ -18505,7 +18505,7 @@ www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
 www-nginx/njs 0.9.9 1.0.1: A subset of JavaScript language to use in NGINX
 www-plugins/browserpass 3.1.2 3.1.2-r1: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 154.0.8037.57 154.0.8037.92 155.0.8059.12_beta 155.0.8059.39 156.0.8063.3_alpha 156.0.8072.0_alpha 156.0.8078.4_beta 156.0.8078.12_beta 157.0.8081.0_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 154.0.8037.57 154.0.8037.92 155.0.8059.12_beta 156.0.8063.3_alpha 156.0.8072.0_alpha 156.0.8078.4_beta 156.0.8078.47 157.0.8103.6_beta 158.0.8106.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.9.0 0.10.0: High performance flash player
 www-plugins/passff-host 1.2.4 1.2.5: Host app for the PassFF WebExtension
 www-plugins/pdfjs 4.5.136 4.9.155 4.10.38 5.0.375: A PDF reader in JavaScript
