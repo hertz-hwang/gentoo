@@ -1093,7 +1093,7 @@ app-admin/sud 1.3-r2 1.3-r3: A daemon to execute processes with special privileg
 app-admin/sudo 1.9.17_p2 1.9.17_p2-r1 9999: Allows users or groups to run commands as other users
 app-admin/sudo-rs 0.2.12-r1 0.2.13 0.2.14 0.2.15: A memory safe implementation of sudo and su
 app-admin/superadduser 1.15: Interactive adduser script from Slackware
-app-admin/supervisor 4.2.5-r1 4.2.5_p20250125 4.3.0: A system for controlling process state under UNIX
+app-admin/supervisor 4.3.0: A system for controlling process state under UNIX
 app-admin/sxid 4.2-r3 4.20130802: suid, sgid file and directory checking
 app-admin/sysklogd 2.5.2-r1 2.6.2-r1 2.7.2 9999: Standard log daemons
 app-admin/syslog-ng 4.10.2 4.11.0: syslog replacement with advanced filtering features
@@ -2913,7 +2913,7 @@ app-misc/perltrash 0.3-r2: Command-line trash can emulation
 app-misc/pet 0.4.0: Simple command-line snippet manager
 app-misc/pfm 2.12.3-r1: Terminal-based file manager written in Perl
 app-misc/physlock 13-r3: Lightweight Linux console locking tool
-app-misc/piper 0.7-r1 0.8 9999: GTK application to configure gaming devices
+app-misc/piper 0.8 9999: GTK application to configure gaming devices
 app-misc/pipeworks 0.4-r2: Small utility that measures throughput between stdin and stdout
 app-misc/plod 1.9-r3: Tool to help administrators keep track of daily activities
 app-misc/presenterm 0.15.1: A terminal slideshow presentation tool
@@ -3841,7 +3841,7 @@ dev-ada/gprbuild 25.0.0-r5 26.0.0: Multi-Language Management
 dev-ada/gprconfig_kb 25.0.0-r3 26.0.0: GPR configuration knowledge base
 dev-ada/gtkada 25.0.1-r2 26.0.0: A complete Ada graphical toolkit
 dev-ada/lal-refactor 25.0.0-r2 26.0.0: Refactoring tools for the Ada programming language
-dev-ada/langkit 24.0.0-r2 25.0.0-r7 26.0.0-r1: A Python framework to generate language parsers
+dev-ada/langkit 25.0.0-r7 26.0.0-r1: A Python framework to generate language parsers
 dev-ada/langkit-contrib 25.0.0-r2 26.0.0: A Python framework to generate language parsers - Contrib
 dev-ada/libadalang 25.0.0-r1 26.0.0: high performance semantic engine for the Ada programming language
 dev-ada/libadalang-tools 25.0.0-r4 26.0.0-r1: Libadalang-based tools: gnatpp, gnatmetric and gnatstub
@@ -4977,13 +4977,13 @@ dev-java/antunit 1.4.1-r1 1.5.0: An Antlib that provides a test framework for Ap
 dev-java/aopalliance 1.0-r3: Aspect-Oriented Programming (AOP) Alliance classes
 dev-java/apache-rat 0.16.1: Apache Rat is a release audit tool, focused on licenses
 dev-java/apiguardian-api 1.1.2-r1: @org.apiguardian.api.API Java annotation provider
-dev-java/asm 9.7.1-r1 9.10.1: Bytecode manipulation framework for Java
+dev-java/asm 9.7.1-r1 9.10.1 9.11.1: Bytecode manipulation framework for Java
 dev-java/asm-jdk-bridge 0.0.13: A Bridge to Translate ASM From and to The OpenJDK Class File API
 dev-java/aspectj 1.9.7-r1: A seamless aspect-oriented extension to the Java programming language
 dev-java/assertj-core 3.10.0 3.27.7: Rich and fluent assertions for testing for Java
 dev-java/auto-service-annotations 1.1.1: Provider-configuration files for ServiceLoader
 dev-java/auto-value 1.11.1: Immutable value-type code generation for Java 1.7+
-dev-java/batik 1.18-r2: XML Graphics Batik
+dev-java/batik 1.18-r3 1.20: XML Graphics Batik
 dev-java/bcel 6.11.0: Apache Commons Bytecode Engineering Library
 dev-java/bcmail 1.84: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
 dev-java/bcpg 1.84: Java cryptography APIs
@@ -5001,7 +5001,7 @@ dev-java/bsf 2.4.0-r7: Bean Script Framework
 dev-java/bsh 2.1.1-r2 3.0.0_rc1: A small embeddable Java source interpreter
 dev-java/bsh-bsf-engine 3.0.0_rc1: Beanshell BSF engine
 dev-java/byaccj 1.15-r3: A Java extension of BSD YACC-compatible parser generator
-dev-java/byte-buddy 1.18.10: Offers convenience for attaching an agent to the local or a remote VM
+dev-java/byte-buddy 1.18.10 1.18.15: Offers convenience for attaching an agent to the local or a remote VM
 dev-java/c3p0 0.9.5.5-r3: JDBC drivers with JNDI-bindable DataSources
 dev-java/cache2k-api 0.23.1: light weight and high performance Java caching library: API
 dev-java/cache2k-core 0.23.1: light weight and high performance Java caching library: core
@@ -5057,7 +5057,7 @@ dev-java/felix-utils 1.11.8-r1: Utility classes for OSGi
 dev-java/findbugs-annotations 4.10.3: Annotations the SpotBugs tool supports
 dev-java/fishbowl 1.4.1: Use the AAA pattern for writing tests for code that throws an exception
 dev-java/fontbox 2.0.32-r1 3.0.6: An open source Java library for parsing font files
-dev-java/fop 2.10-r2: XML Graphics Format Object Processor All-In-One
+dev-java/fop 2.10-r3 2.12: XML Graphics Format Object Processor All-In-One
 dev-java/freenet-ext 29-r3: Freenet REference Daemon
 dev-java/generics-resolver 3.0.3: Java generics runtime resolver
 dev-java/gnu-regexp 1.1.4-r5: GNU regular expression package for Java
@@ -5307,7 +5307,7 @@ dev-java/xerces 2.12.2-r2: Xerces Java XML parser
 dev-java/xerial-core 2.1: Core library of the Xerial project
 dev-java/xml-commons-external 1.4.01-r3: Externally-defined set of standard interfaces, namely DOM, SAX, and JAXP
 dev-java/xml-commons-resolver 1.2-r3: An XML Entity and URI Resolver
-dev-java/xmlgraphics-commons 2.10: XML Graphics Commons
+dev-java/xmlgraphics-commons 2.10 2.12: XML Graphics Commons
 dev-java/xmlunit 1.6-r2: XMLUnit extends JUnit and NUnit to enable unit testing of XML
 dev-java/xmlunit-assertj 2.9.1: XMLUnit with AssertJ fluent API
 dev-java/xmlunit-core 2.9.1 2.11.0: XMLUnit extends JUnit and NUnit to enable unit testing of XML
@@ -5440,7 +5440,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 128.14.0 140.11.0 140.16.0 140.17.0 153.3.0 153.5.0: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 128.14.0 140.11.0 140.16.0 140.17.0 153.3.0 153.5.0 153.5.1: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1 4.5.1: Simplified Wrapper and Interface Generator
@@ -5793,7 +5793,7 @@ dev-libs/libpwquality 1.4.5-r2 1.4.5-r3: Library for password quality checking a
 dev-libs/libpy 0.2.5-r3: Utilities for writing C++ extension modules
 dev-libs/libqt6pas 6.2.7: Free Pascal Qt6 bindings library updated by lazarus IDE
 dev-libs/libqtxdg 4.4.0: Qt Implementation of XDG Standards
-dev-libs/libratbag 0.17-r2 0.18 9999: Library to configure gaming mice
+dev-libs/libratbag 0.18 9999: Library to configure gaming mice
 dev-libs/librdkafka 2.10.0 2.11.1 2.12.1: Apache Kafka C/C++ client library
 dev-libs/librelp 1.11.0: An easy to use library for the RELP protocol
 dev-libs/librepfunc 1.10.0 1.10.0-r1: A collection of functions, classes and so on, for vdr plugins
@@ -11162,7 +11162,7 @@ dev-util/rebar 2.6.4-r1 3.22.1-r1 3.23.0 3.24.0 3.27.0: A sophisticated build-to
 dev-util/redo 0.42d-r1: Smaller, easier, more powerful, and more reliable than make
 dev-util/regexxer 0.10-r2: An interactive tool for performing search and replace operations
 dev-util/rej 0.16-r1: A utility for solving diff/patch rejects
-dev-util/reuse 2.1.0 3.0.1 3.0.2 5.0.2 6.2.0: Manage license information according to the SPDX standard
+dev-util/reuse 5.0.2 6.2.0: Manage license information according to the SPDX standard
 dev-util/rgbds 1.0.1 1.0.4 9999: Rednex Game Boy Development System
 dev-util/rinstall 0.2.0-r1: Utility for declarative installation of programs
 dev-util/rizin 0.8.2 0.9.1-r1: reverse engineering framework for binary analysis
@@ -13097,7 +13097,7 @@ media-gfx/aaphoto 0.45-r1 0.45_p20160710: Automatic color correction and resizin
 media-gfx/aewan 1.0.01-r2: A curses-based editor for ASCII art
 media-gfx/ahoviewer 2.0.0_pre20241230-r1: A GTK image viewer, manga reader, and booru browser
 media-gfx/album 4.15-r1: HTML photo album generator
-media-gfx/alembic 1.8.6-r1 1.8.8: Open framework for storing and sharing scene data
+media-gfx/alembic 1.8.8: Open framework for storing and sharing scene data
 media-gfx/ansilove 4.2.2 9999: ANSI and ASCII art to PNG converter (using libansilove)
 media-gfx/apng2gif 1.8: Create a GIF from an APNG
 media-gfx/apngasm 3.1.10-r1: create an APNG from multiple PNG files
@@ -15162,7 +15162,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 24.21.0-r2 24.22.1 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 24.21.0-r2 24.22.1 24.22.1-r1 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15857,7 +15857,7 @@ net-wireless/soapyhackrf 0.3.4-r1 0.3.5 9999: SoapySDR HackRF module
 net-wireless/soapyplutosdr 0.2.2-r1 0.2.4 9999: Soapy SDR plugin for the Pluto SDR
 net-wireless/soapyremote 0.5.2 0.5.3 9999: Soapy SDR remote module
 net-wireless/soapyrtlsdr 0.3.3-r3 0.3.4 9999: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.8.1-r2 0.8.1-r3 9999: vendor and platform neutral SDR support library
+net-wireless/soapysdr 0.8.1-r2 0.8.1-r3 0.9.0 9999: vendor and platform neutral SDR support library
 net-wireless/soapysdrplay 0_p20220120 0.5.2 9999: Soapy SDR plugin for SDRPlay
 net-wireless/soapyuhd 0.4.1_p20251220 0.4.1_p20251220-r1 9999: Soapy SDR plugins for UHD supported SDR devices
 net-wireless/suscan 0.3.0_p20251029-r1: a realtime DSP processing library
@@ -16668,6 +16668,7 @@ sec-keys/openpgp-keys-apache-tomcat-jakartaee-migration 20210205: OpenPGP keys u
 sec-keys/openpgp-keys-apache-xalan-c 20221123: OpenPGP keys used to sign Apache Xalan-C
 sec-keys/openpgp-keys-apache-xalan-j 20221029: OpenPGP keys used by xalan.apache.org
 sec-keys/openpgp-keys-apache-xerces-j 20200102: OpenPGP keys used by xerces.apache.org/xerces2-j
+sec-keys/openpgp-keys-apache-xmlgraphics 20260128: OpenPGP keys used by xmlgraphics.apache.org/commons
 sec-keys/openpgp-keys-apache-xmlgraphics-batik 20170410: OpenPGP keys used by xmlgraphics.apache.org/batik
 sec-keys/openpgp-keys-apache-xmlgraphics-commons 20150603: OpenPGP keys used by xmlgraphics.apache.org/commons
 sec-keys/openpgp-keys-apache-xmlgraphics-fop 20150603: OpenPGP keys used by xmlgraphics.apache.org/fop
@@ -18624,7 +18625,7 @@ x11-base/xorg-proto 2025.1 2026.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.24 21.1.25 26.0.99.903 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.13 24.1.14 26.0.99.903 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 580.196.07 595.44.15 595.104.02 615.78.08: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 580.196.07 595.44.15 595.104.02 595.112.07 615.78.08: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
