@@ -7,21 +7,19 @@ CONFIG_CHECK="~ADVISE_SYSCALLS"
 PYTHON_COMPAT=( python3_{11..14} )
 PYTHON_REQ_USE="threads(+)"
 
-inherit check-reqs flag-o-matic linux-info ninja-utils
-inherit pax-utils python-any-r1 shell-completion toolchain-funcs xdg-utils
+inherit check-reqs flag-o-matic linux-info ninja-utils pax-utils
+inherit python-any-r1 shell-completion toolchain-funcs xdg-utils
 
 DESCRIPTION="A JavaScript runtime built on Chrome's V8 JavaScript engine"
 HOMEPAGE="https://nodejs.org/"
-LICENSE="Apache-1.1 Apache-2.0 BlueOak-1.0.0 BSD BSD-2 MIT npm? ( Artistic-2 )"
+LICENSE="Apache-1.1 Apache-2.0 BSD BSD-2 MIT npm? ( Artistic-2 )"
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/nodejs/node"
 	SLOT="0"
 else
-	SRC_URI="
-		https://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz
-	"
+	SRC_URI="https://nodejs.org/dist/v${PV}/node-v${PV}.tar.xz"
 	SLOT="0/$(ver_cut 1)"
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86 ~x64-macos"
 	S="${WORKDIR}/node-v${PV}"
@@ -36,23 +34,21 @@ REQUIRED_USE="inspector? ( icu ssl )
 
 RESTRICT="!test? ( test )"
 
-COMMON_DEPEND=">=app-arch/brotli-1.1.0:=
+COMMON_DEPEND=">=app-arch/brotli-1.2.1:=
 	dev-db/sqlite:3
-	>=dev-cpp/ada-3.3.0:=
-	>=dev-cpp/simdutf-7.3.4:=
-	>=dev-libs/libuv-1.52.1:=
-	>=dev-libs/simdjson-4.6.1:=
-	>=net-dns/c-ares-1.34.5:=
-	>=net-libs/nghttp2-1.69.0:=
-	>=net-libs/nghttp3-1.14.0:=
+	>=dev-libs/libuv-1.51.0:=
+	>=dev-libs/simdjson-3.13.0:=
+	>=net-dns/c-ares-1.34.4:=
+	>=net-libs/nghttp2-1.64.0:=
+	>=net-libs/nghttp3-1.7.0:=
 	virtual/zlib:=
 	corepack? ( !sys-apps/yarn )
 	system-icu? ( >=dev-libs/icu-73:= )
 	system-ssl? (
-		>=net-libs/ngtcp2-1.14.0:=
-		>=dev-libs/openssl-3.5.6:0=
+		>=net-libs/ngtcp2-1.9.1:=
+		>=dev-libs/openssl-3.5.4:0=
 	)
-	!system-ssl? ( >=net-libs/ngtcp2-1.14.0:=[-gnutls] )
+	!system-ssl? ( >=net-libs/ngtcp2-1.9.1:=[-gnutls] )
 	|| (
 		sys-devel/gcc:*
 		llvm-runtimes/libatomic-stub
@@ -75,10 +71,6 @@ RDEPEND="${COMMON_DEPEND}"
 # fatter binaries and set the disk requirement to 22GiB.
 CHECKREQS_MEMORY="8G"
 CHECKREQS_DISK_BUILD="22G"
-
-PATCHES=(
-	"${FILESDIR}"/${PN}-24.21.0-32-bit.patch
-)
 
 pkg_pretend() {
 	if [[ ${MERGE_TYPE} != "binary" ]]; then
@@ -120,17 +112,10 @@ src_prepare() {
 	fi
 
 	# We need to disable mprotect on two files when it builds Bug 694100.
-	use pax-kernel &&
-		PATCHES+=( "${FILESDIR}"/${PN}-24.1.0-paxmarking.patch )
+	use pax-kernel && PATCHES+=( "${FILESDIR}"/${PN}-22.12.0-paxmarking.patch )
 
-	use ppc64 &&
-		PATCHES+=(	"${FILESDIR}/${PN}-24.11.1-restore-ppc64be.patch" )
-
-	# Apply 32-bit only fix
-	# Remove  AVX2 code path that uses a 64-bit-only intrinsic.
-	if [[ ${ARCH} == x86 ]] || { use amd64 && [[ ${ABI} == x86 ]]; }; then
-	    PATCHES+=( "${FILESDIR}"/${PN}-24.21.0-rm-64bit-only-intrinsic-for-32bit.patch )
-	fi
+	# bug 931256
+	use riscv && PATCHES+=( "${FILESDIR}"/${PN}-22.2.0-riscv.patch )
 
 	default
 }
@@ -147,7 +132,9 @@ src_configure() {
 
 	local myconf=(
 		--ninja
-		--shared-ada
+		# ada is not packaged yet
+		# https://github.com/ada-url/ada
+		# --shared-ada
 		--shared-brotli
 		--shared-cares
 		--shared-libuv
@@ -155,7 +142,9 @@ src_configure() {
 		--shared-nghttp3
 		--shared-ngtcp2
 		--shared-simdjson
-		--shared-simdutf
+		# sindutf is not packaged yet
+		# https://github.com/simdutf/simdutf
+		# --shared-simdutf
 		--shared-sqlite
 		--shared-zlib
 	)
@@ -209,6 +198,13 @@ src_install() {
 	default
 
 	pax-mark -m "${ED}"/usr/bin/node
+
+	# set up a symlink structure that node-gyp expects..
+	dodir /usr/include/node/deps/{v8,uv}
+	dosym . /usr/include/node/src
+	for var in deps/{uv,v8}/include; do
+		dosym ../.. /usr/include/node/${var}
+	done
 
 	if use doc; then
 		docinto html
@@ -277,14 +273,6 @@ src_test() {
 		test/sequential/test-tls-session-timeout.js
 		test/sequential/test-util-debug.js
 	)
-
-	if has_version "sys-libs/zlib-ng" ; then
-		elog "Some tests will be skipped due to being known to fail with sys-libs/zlib-ng"
-		elog
-		drop_tests+=( test/parallel/test-process-versions.js )
-		elog
-	fi
-
 	use inspector ||
 		drop_tests+=(
 			test/parallel/test-inspector-emit-protocol-event.js
