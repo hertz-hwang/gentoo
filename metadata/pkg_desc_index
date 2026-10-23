@@ -2018,7 +2018,7 @@ app-emacs/dune-format 0.1: Reformat OCaml's dune files automatically
 app-emacs/dwarf-mode 2.40: Emacs mode to browse DWARF information
 app-emacs/earthfile-mode 0.1.0_p20230810: GNU Emacs major mode for editing Earthly Earthfiles
 app-emacs/ebib 2.51.1 2.53.1: BibTeX database manager for Emacs
-app-emacs/ebuild-mode 1.79 1.85 1.88-r1: Emacs modes for editing ebuilds and other Gentoo specific files
+app-emacs/ebuild-mode 1.79 1.85 1.89: Emacs modes for editing ebuilds and other Gentoo specific files
 app-emacs/ebuild-run-mode 20221116: Major mode for Emacs buffers where ebuild commands run
 app-emacs/ecukes 0.6.18-r1: Cucumber for Emacs
 app-emacs/edb 1.34: EDB, The Emacs Database
@@ -3710,7 +3710,7 @@ app-xemacs/dictionary 1.18: Interface to RFC2229 dictionary servers
 app-xemacs/dired 1.22: Manage file systems
 app-xemacs/docbookide 0.10: DocBook editing support
 app-xemacs/easypg 1.05: GnuPG interface for Emacs
-app-xemacs/ebuild-mode 1.85 1.88-r1: Emacs modes for editing ebuilds and other Gentoo specific files
+app-xemacs/ebuild-mode 1.85 1.89: Emacs modes for editing ebuilds and other Gentoo specific files
 app-xemacs/ecb 1.26: Emacs source code browser
 app-xemacs/ecrypto 0.23: Crypto functionality in Emacs Lisp
 app-xemacs/ede 1.07: Emacs Development Environment
@@ -12277,7 +12277,7 @@ gui-libs/gtk 4.18.6-r1 4.20.3-r2 4.20.4-r1 4.22.5-r1: GTK is a multi-platform to
 gui-libs/gtk-layer-shell 0.10.0 0.10.1: Library to create desktop components for Wayland using the Layer Shell protocol
 gui-libs/gtk4-layer-shell 1.1.1-r1 1.3.0: A library for using the Layer Shell Wayland protocol with GTK4
 gui-libs/gtksourceview 5.18.0 5.20.0: A text widget implementing syntax highlighting and other features
-gui-libs/kddockwidgets 2.4.0 2.4.1: KDAB's Dock Widget Framework for Qt
+gui-libs/kddockwidgets 2.4.1 2.5.1: KDAB's Dock Widget Framework for Qt
 gui-libs/libadwaita 1.8.7 1.9.3 1.9.4: Building blocks for modern GNOME applications
 gui-libs/libdecor 0.2.5 9999: A client-side decorations library for Wayland clients
 gui-libs/libgedit-amtk 5.9.0 5.9.2 5.10.0: Actions, Menus and Toolbars Kit for GTK applications
@@ -15858,7 +15858,7 @@ net-wireless/soapyhackrf 0.3.4-r1 0.3.5 9999: SoapySDR HackRF module
 net-wireless/soapyplutosdr 0.2.2-r1 0.2.4 9999: Soapy SDR plugin for the Pluto SDR
 net-wireless/soapyremote 0.5.2 0.5.3 9999: Soapy SDR remote module
 net-wireless/soapyrtlsdr 0.3.3-r3 0.3.4 9999: SoapySDR RTL-SDR Support Module
-net-wireless/soapysdr 0.8.1-r2 0.8.1-r3 0.9.0 9999: vendor and platform neutral SDR support library
+net-wireless/soapysdr 0.8.1-r3 0.9.0 9999: vendor and platform neutral SDR support library
 net-wireless/soapysdrplay 0.5.2 0.5.3 9999: Soapy SDR plugin for SDRPlay
 net-wireless/soapyuhd 0.4.1_p20251220 0.4.1_p20251220-r1 9999: Soapy SDR plugins for UHD supported SDR devices
 net-wireless/suscan 0.3.0_p20251029-r1: a realtime DSP processing library
@@ -16674,6 +16674,7 @@ sec-keys/openpgp-keys-apache-xmlgraphics-batik 20170410: OpenPGP keys used by xm
 sec-keys/openpgp-keys-apache-xmlgraphics-commons 20150603: OpenPGP keys used by xmlgraphics.apache.org/commons
 sec-keys/openpgp-keys-apache-xmlgraphics-fop 20150603: OpenPGP keys used by xmlgraphics.apache.org/fop
 sec-keys/openpgp-keys-apache-zeppelin 20240211: OpenPGP keys used by zeppelin.apache.org
+sec-keys/openpgp-keys-apparmor 20260924: OpenPGP keys used by AppArmor
 sec-keys/openpgp-keys-arnaldocarvalhodemelo 20180830 20260703: OpenPGP keys of Arnaldo Carvalho de Melo
 sec-keys/openpgp-keys-baldurkarlsson 20220415: OpenPGP keys used by Baldur Karlsson
 sec-keys/openpgp-keys-bcl 20210128 20230315 20260418: OpenPGP keys used by Brian C. Lane
@@ -16937,7 +16938,7 @@ sec-keys/openpgp-keys-zvbi 20260217: OpenPGP keys used by the zvbi developer
 sec-keys/signify-keys-opensmtpd 20181026: Signify keys used to sign OpenSMTPD portable releases
 sec-keys/signify-keys-signify 30: Signify keys used to sign signify portable releases
 sec-keys/sigstore-trusted-root 0_p20241016: trusted-root.json for dev-python/sigstore
-sec-policy/apparmor-profiles 3.1.4 4.1.1 4.1.7 9999: A collection of profiles for the AppArmor application security system
+sec-policy/apparmor-profiles 3.1.4 4.1.1 4.1.7 5.0.2 9999: A collection of profiles for the AppArmor application security system
 sec-policy/selinux-accountsd 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for accountsd
 sec-policy/selinux-acct 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for acct
 sec-policy/selinux-afs 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for afs
@@ -17250,8 +17251,8 @@ sys-apps/acl 2.3.2-r3 2.4.0-r2 9999: Access control list utilities, libraries, a
 sys-apps/agedu 20211129: A utility for tracking down wasted disk space
 sys-apps/amdgpu_top 0.10.3 0.10.4 0.11.0 0.11.2 0.11.5: Tool to display AMDGPU usage
 sys-apps/apmd 3.2.2_p14-r3: Advanced Power Management Daemon
-sys-apps/apparmor 3.1.4-r2 4.0.3 4.1.7: Userspace utils and init scripts for the AppArmor application security system
-sys-apps/apparmor-utils 3.1.4-r1 4.0.3-r1 4.1.7: Additional userspace utils to assist with AppArmor profile management
+sys-apps/apparmor 3.1.4-r2 4.0.3 4.1.7 5.0.2: Userspace utils and init scripts for the AppArmor application security system
+sys-apps/apparmor-utils 3.1.4-r1 4.0.3-r1 4.1.7 5.0.2: Additional userspace utils to assist with AppArmor profile management
 sys-apps/apply-default-acl 0.4.4: Apply default POSIX ACLs to files and directories
 sys-apps/arch-chroot 29 31: Wraps the chroot command while ensuring that important filesystems are mounted
 sys-apps/arrayprobe 2.0-r3: Utility to report status of an HP (Compaq) array controller (both IDA & CCISS)
@@ -18023,7 +18024,7 @@ sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.14.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 26.04.3 26.08.2: Library for managing partitions
 sys-libs/ldb 2.9.2: LDAP-like embedded database
-sys-libs/libapparmor 3.1.4-r2 4.0.3 4.0.3-r2 4.1.7: Library to support AppArmor userspace utilities
+sys-libs/libapparmor 3.1.4-r2 4.0.3 4.0.3-r2 4.1.7 5.0.2: Library to support AppArmor userspace utilities
 sys-libs/libavc1394 0.5.4-r2: Library for the 1394 AV/C (Audio/Video Control) Digital Interface Command Set
 sys-libs/libblockdev 3.4.0 3.5.0: Library for manipulating block devices
 sys-libs/libcap 2.78 9999: POSIX 1003.1e capabilities
