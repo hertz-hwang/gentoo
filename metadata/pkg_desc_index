@@ -2582,7 +2582,7 @@ app-i18n/ibus-table-chinese 1.8.14: Chinese tables for IBus-Table
 app-i18n/ibus-table-extraphrase 1.3.9.20110826-r1: Chinese extra phrases for IBus-Table
 app-i18n/ibus-table-latin 1.2.0.20100305-r1: Latin tables for IBus-Table
 app-i18n/ibus-table-others 1.3.22: Various tables for IBus-Table
-app-i18n/ibus-typing-booster 2.30.11 2.31.0 2.31.1: Completion input method for IBus
+app-i18n/ibus-typing-booster 2.31.0 2.31.1 2.31.2: Completion input method for IBus
 app-i18n/ibus-unikey 0.7.0_beta1: Vietnamese UniKey engine for IBus
 app-i18n/im-chooser 1.7.3: Desktop Input Method configuration tool
 app-i18n/imsettings 1.8.2-r1: Delivery framework for general Input Method configuration
@@ -2598,7 +2598,7 @@ app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin
 app-i18n/librime 1.16.1 1.17.0: RIME (Rime Input Method Engine) core library
 app-i18n/librime-lua 20240819212322-r1 20250707183812 99999999999999: Lua module for RIME
 app-i18n/libskk 1.1.1: GObject-based library to deal with Japanese kana-to-kanji conversion method
-app-i18n/man-pages-ja 20260815 20260915: Collection of manual pages translated into Japanese
+app-i18n/man-pages-ja 20260815 20260915 20261015: Collection of manual pages translated into Japanese
 app-i18n/man-pages-l10n 4.31.0 4.32.2: A somewhat comprehensive collection of man page translations
 app-i18n/man-pages-ru 5.03.2390.2390.20191017-r1: A collection of Russian translations of Linux manual pages
 app-i18n/man-pages-zh_CN 1.6.4.2-r1: A somewhat comprehensive collection of Chinese Linux man pages
@@ -5429,7 +5429,7 @@ dev-lang/qu-prolog 10.8-r1: Extended Prolog supporting quantifiers, object-varia
 dev-lang/rakudo 2026.02 2026.08 2026.09: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
-dev-lang/ruby 3.2.10 3.2.11 3.3.12 3.3.9999 3.4.10 3.4.9999 4.0.6 4.0.9999: An object-oriented scripting language
+dev-lang/ruby 3.2.11 3.2.11-r1 3.3.12 3.3.13 3.3.9999 3.4.10 3.4.12 3.4.9999 4.0.6 4.0.9 4.0.9999: An object-oriented scripting language
 dev-lang/rust 1.90.0-r1 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language originally developed by Mozilla
 dev-lang/rust-bin 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language from Mozilla
 dev-lang/rust-common 1.90.0 1.91.0 1.92.0 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Common files shared between multiple slots of Rust
@@ -5619,7 +5619,7 @@ dev-libs/jansson 2.14.1 2.15.1: C library for encoding, decoding and manipulatin
 dev-libs/jemalloc 5.3.0-r3 5.4.0-r2: Jemalloc is a general-purpose scalable concurrent allocator
 dev-libs/jerasure 2.0.0_p20170410: Library in C facilitating Erasure Coding for storage applications
 dev-libs/jose 14: C-language implementation of Javascript Object Signing and Encryption
-dev-libs/json-c 0.18 0.19 0.19-r2 9999: A JSON implementation in C
+dev-libs/json-c 0.18 0.19 0.19-r3 9999: A JSON implementation in C
 dev-libs/json-glib 1.10.0 1.10.6 1.10.8: Library providing GLib serialization and deserialization for the JSON format
 dev-libs/json-parser 1.1.0_p20211208: Very low footprint JSON parser written in portable ANSI C
 dev-libs/jsoncpp 1.9.6-r2 1.9.8_rc1 1.9.8: C++ JSON reader and writer
@@ -10463,7 +10463,7 @@ dev-ruby/regexp_property_values 1.5.2: See which property values are supported b
 dev-ruby/reline 0.6.1 0.6.2 0.6.3: Alternative readline implementation in pure Ruby
 dev-ruby/repl_type_completor 0.1.11 0.1.12: Type based completion for REPL
 dev-ruby/request_store 1.7.0: Per-request global storage for Rack
-dev-ruby/resolv 0.6.2 0.6.3 0.7.0: Thread-aware DNS resolver library in Ruby
+dev-ruby/resolv 0.7.0 0.7.2: Thread-aware DNS resolver library in Ruby
 dev-ruby/resolv-replace 0.1.1 0.2.0: Replace Socket DNS with Resolv
 dev-ruby/rest-client 2.1.0-r1: Simple Simple HTTP and REST client for Ruby
 dev-ruby/rexical 1.0.8: Rexical is a lexical scanner generator
@@ -14515,7 +14515,7 @@ media-video/srs 6.0.184: Simple Realtime media Server
 media-video/streamdvd 0.4-r2: fast tool to backup Video DVDs 'on the fly'
 media-video/sub2srt 0.5.3: Tool to convert several subtitle formats into subviewer srt
 media-video/subcheck 0.78.2-r1: Subcheck checks srt subtitle files for errors
-media-video/subliminal 2.6.0 2.7.0 9999: Python library to search and download subtitles
+media-video/subliminal 2.7.0 2.8.0 9999: Python library to search and download subtitles
 media-video/submux-dvd 0.5.2-r1: A subtitle multiplexer, muxes subtitles into .vob
 media-video/subsync 0.0.1: subsync is an program that synchronizes srt subtitle files
 media-video/subtitlecomposer 0.8.2-r1: Text-based subtitles editor
@@ -14859,8 +14859,8 @@ net-dns/ndu 0.4-r4: DNS serial number incrementer and reverse zone builder
 net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 4.15.3 4.15.4 9999: An authoritative only, high performance, open source name server
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
-net-dns/pdns 5.1.4 5.1.4-r1 5.1.5: The PowerDNS Daemon
-net-dns/pdns-recursor 5.4.6 5.4.7 5.4.8: The PowerDNS Recursor
+net-dns/pdns 5.1.5: The PowerDNS Daemon
+net-dns/pdns-recursor 5.4.8: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/redis-knot 3.5.8 3.5.10 3.6.0 3.6.2: Redis module for Knot DNS
@@ -15549,7 +15549,7 @@ net-misc/sshpass 1.10: Tool for non-interactively performing password authentica
 net-misc/sshrc 0.6.2: Bring your .bashrc, .vimrc, etc. from your local machine when you ssh
 net-misc/sslh 2.3.0 2.3.1-r1 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
-net-misc/streamlink 8.4.0 8.5.0 9999: CLI for extracting streams from websites to a video player of your choice
+net-misc/streamlink 8.5.0 8.6.2 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r8: Stream directory browser for browsing internet radio streams
 net-misc/stunnel 5.75 5.76 5.76-r1 5.77 5.78 5.79 5.81: TLS/SSL - Port Wrapper
 net-misc/stuntman 1.2.16: Open source implementation of the STUN protocol
@@ -15666,7 +15666,7 @@ net-p2p/rtorrent 0.15.7 0.16.24 0.16.25 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
 net-p2p/syncthing 2.0.10 2.0.16 2.1.2 2.1.3 2.1.7: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
-net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 4.1.3 9999: A fast, easy, and free BitTorrent client
+net-p2p/transmission 4.0.6-r6 4.1.1 4.1.2 4.1.3 4.1.4 9999: A fast, easy, and free BitTorrent client
 net-p2p/transmission-remote-gtk 1.5.1-r1 1.6.0: GTK+ client for management of the Transmission BitTorrent client, over HTTP RPC
 net-p2p/tremc 0.9.3_p20230506 0.9.6: Ncurses interface for the Transmission BitTorrent client
 net-p2p/tvrss 1.8_beta: TV RSS is a tool for automating torrent downloads
