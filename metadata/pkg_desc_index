@@ -934,7 +934,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0 1.2.896.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.46.1 1.46.2 2.37.4 2.37.9 2.37.12 2.37.13 2.38.0 2.38.1: Universal Command Line Environment for AWS
+app-admin/awscli 1.46.1 1.46.2 2.37.4 2.37.9 2.37.12 2.37.13 2.38.0 2.38.1 2.38.5: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2026.8.0 2026.9.1: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.8.0 2026.9.0: Bitwarden password manager desktop client
@@ -4014,7 +4014,7 @@ dev-db/citus 12.1.14 13.4.0 14.0.1 14.1.0 14.2.0 9999: Open-source postgresql ex
 dev-db/cockroach 2.1.5-r1 19.1.1-r1: open source database for building cloud services
 dev-db/datadraw 3.1.1 3.1.1-r1: feature rich database generator for high performance C applications
 dev-db/dbeaver-bin 26.2.1 26.2.3: Free universal database tool (community edition)
-dev-db/duckdb 1.5.6 2.0.0: high-performance analytical database system
+dev-db/duckdb 1.5.6 2.0.0-r1: high-performance analytical database system
 dev-db/etcd 3.4.31 3.5.18 3.5.33 3.6.11 3.6.14 3.7.1: Highly-available key value store for shared configuration and service discovery
 dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
@@ -5421,7 +5421,7 @@ dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 2.7.8.0.0-r1 2.7.8.0.1 3.11.7.3.23-r1 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: A fast, compliant alternative implementation of the Python (3.12) language
 dev-lang/pypy3-exe 3.11.7.3.23 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: PyPy3.12 executable (build from source)
 dev-lang/pypy3-exe-bin 3.11.7.3.23 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: PyPy3.12 executable (pre-built version)
-dev-lang/python 0.3.13.15 0.3.13.9999 0.3.14.7 0.3.14.8 0.3.14.9 0.3.14.9999 0.3.15.0 0.3.15.1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.21 3.10.22 3.10.9999 3.11.16 3.11.17 3.11.9999 3.12.14 3.12.15 3.12.9999 3.13.15 3.13.16 3.13.17 3.13.9999 3.14.7 3.14.8 3.14.9 3.14.9999 3.15.0 3.15.1 3.15.9999 3.16.0_alpha1 3.16.9999: An interpreted, interactive, object-oriented programming language
+dev-lang/python 0.3.13.15 0.3.13.17_p1 0.3.13.9999 0.3.14.7 0.3.14.8 0.3.14.9 0.3.14.9_p1 0.3.14.9999 0.3.15.0 0.3.15.1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.21 3.10.22 3.10.9999 3.11.16 3.11.17 3.11.9999 3.12.14 3.12.15 3.12.15_p1 3.12.9999 3.13.15 3.13.16 3.13.17 3.13.17_p1 3.13.9999 3.14.7 3.14.8 3.14.9 3.14.9_p1 3.14.9999 3.15.0 3.15.1 3.15.9999 3.16.0_alpha1 3.16.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
 dev-lang/qore 1.19.2: Qore, the embeddable multithreaded scripting language
@@ -5916,7 +5916,7 @@ dev-libs/opencryptoki 3.6.1-r1: PKCS#11 provider cryptographic hardware
 dev-libs/openct 0.6.20-r6: library for accessing smart card terminals
 dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transferring data to mobile devices
 dev-libs/openpace 1.1.3 1.1.4: Cryptographic library for EAC version 2
-dev-libs/opensc 0.27.1 9999: Libraries and applications to access smartcards
+dev-libs/opensc 0.27.1 0.27.1-r1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
 dev-libs/openssl 3.5.7 3.5.8 3.5.9 3.5.9999 3.6.3 3.6.4 3.6.5 3.6.9999 4.0.1 4.0.2 4.0.3 4.0.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 1.1.1w 3.6.2 3.6.4 3.6.5: Full-strength general purpose cryptography library (including SSL and TLS)
@@ -8206,7 +8206,6 @@ dev-php/PEAR-Structures_Graph 1.2.0: Graph datastructure manipulation library
 dev-php/PEAR-XML_Util 1.4.5: XML utility class
 dev-php/PHPMailer 7.1.1: Full-featured email creation and transfer class for PHP
 dev-php/PHP_CodeSniffer 3.6.1: Detect violations of PHP code standards
-dev-php/PHP_Timer 2.1.2-r1 5.0.3: Utility class for timing
 dev-php/SabreAMF 1.5.0: SabreAMF is a Flash Remoting server and client for PHP
 dev-php/Text_Template 2.0.4: A simple template engine
 dev-php/adodb 5.22.7 5.22.12: Database abstraction layer for PHP
@@ -8257,7 +8256,7 @@ dev-php/phar-io-version 3.1.0: Library for handling version information and cons
 dev-php/phar-utils 1.1.2: PHAR file format utilities, for when PHP phars you up
 dev-php/psr-log 1.1.4: Common interface for logging libraries
 dev-php/reactphp-promise 2.8.0: A lightweight implementation of CommonJS Promises/A for PHP
-dev-php/recaptcha 1.2.4: PHP client library for Google's reCAPTCHA service
+dev-php/recaptcha 1.2.4 2.1.0: PHP client library for Google's reCAPTCHA service
 dev-php/scrypt 2.0.0 2.0.1 9999: A PHP wrapper for the scrypt hashing algorithm
 dev-php/sebastian-code-unit-reverse-lookup 2.0.3: Looks up which function or method a line of code belongs to
 dev-php/sebastian-complexity 2.0.2: Library for calculating the complexity of PHP code units
@@ -8419,7 +8418,7 @@ dev-python/braintree 4.47.0 4.48.0: Braintree Python Library
 dev-python/breathe 4.36.0 5.0.0: Sphinx Doxygen renderer
 dev-python/brotlicffi 1.2.0.2 1.2.1.0: Python binding to the Brotli library
 dev-python/btrfs 15: Python module to inspect btrfs filesystems
-dev-python/btrfsutil 7.0 7.1: Library for managing Btrfs filesystems
+dev-python/btrfsutil 7.0 7.1 7.3: Library for managing Btrfs filesystems
 dev-python/build 1.5.1 1.6.0 1.6.1: A simple, correct PEP517 package builder
 dev-python/cachebox 6.2.7 6.2.8: The fastest memoizing and caching Python library written in Rust
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
@@ -9468,7 +9467,7 @@ dev-python/python-stdnum 2.2: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.6: A streaming protocol for test results
 dev-python/python-swiftclient 4.10.0 4.11.0: Python bindings to the OpenStack Object Storage API
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
-dev-python/python-tests 0.3.14.7 0.3.14.8 0.3.14.9 0.3.14.9999 0.3.15.0 0.3.15.1 0.3.15.9999 3.12.14 3.12.15 3.12.9999 3.13.15 3.13.16 3.13.17 3.13.9999 3.14.7 3.14.8 3.14.9 3.14.9999 3.15.0 3.15.1 3.15.9999: Test modules from dev-lang/python
+dev-python/python-tests 0.3.14.7 0.3.14.8 0.3.14.9 0.3.14.9_p1 0.3.14.9999 0.3.15.0 0.3.15.1 0.3.15.9999 3.12.14 3.12.15 3.12.15_p1 3.12.9999 3.13.15 3.13.16 3.13.17 3.13.17_p1 3.13.9999 3.14.7 3.14.8 3.14.9 3.14.9_p1 3.14.9999 3.15.0 3.15.1 3.15.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.12.1: Fuzzy matching library - C++ extension for Python
 dev-python/python-utils 4.0.0 4.1.0 4.1.1 4.1.2 4.1.3 4.1.4: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
@@ -12302,7 +12301,7 @@ gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop sy
 gui-libs/xdg-desktop-portal-lxqt 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
 gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
 gui-wm/dwl 0.5-r1 0.6 0.7 9999: dwm for Wayland
-gui-wm/gamescope 3.16.28 3.16.31: Efficient micro-compositor for running games
+gui-wm/gamescope 3.16.28 3.16.31 3.17.0: Efficient micro-compositor for running games
 gui-wm/labwc 0.9.8 0.20.1 0.20.2 9999: Openbox alternative for wayland
 gui-wm/sway 1.11-r1 1.12-r1 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
@@ -14833,7 +14832,7 @@ net-dns/ddclient 4.0.0: Perl client used to update dynamic DNS entries
 net-dns/djbdns 1.05-r40 1.05-r42: Collection of DNS client/server software
 net-dns/dnrd 2.20.3-r3: A caching DNS proxy server
 net-dns/dnscap 2.5.0 2.5.1: Network capture utility designed specifically for DNS traffic
-net-dns/dnscrypt-proxy 2.1.15 2.1.16 2.1.16-r1 9999: Flexible DNS proxy, with support for encrypted DNS protocols
+net-dns/dnscrypt-proxy 2.1.16-r1 2.1.16-r2 2.1.20 9999: Flexible DNS proxy, with support for encrypted DNS protocols
 net-dns/dnsdist 2.1.1 2.1.2 9999: A highly DNS-, DoS- and abuse-aware loadbalancer
 net-dns/dnsmasq 2.92_p2 2.93: Small forwarding DNS server
 net-dns/dnssec-root 20210902 20260528: The DNSSEC root key(s)
@@ -15164,7 +15163,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 24.21.0-r2 24.22.1 24.22.1-r1 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 24.22.1 24.22.1-r1 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -15476,8 +15475,9 @@ net-misc/onedrive 2.5.6 2.5.7-r1 2.5.9 2.5.10: Free Client for OneDrive on Linux
 net-misc/openntpd 6.2_p3-r2 6.2_p3-r3 6.8_p1-r2 7.9_p1-r1: Lightweight NTP server ported from OpenBSD
 net-misc/openrdap 0.10.1 0.10.2: RDAP command line client
 net-misc/openrsync 0.5.0_p20250127 0.5.0_p20260706 9999: BSD-licensed implementation of rsync
-net-misc/openssh 9.8_p1-r4 9.9_p2-r4 10.0_p1 10.0_p2 10.1_p1-r1 10.2_p1 10.2_p1-r1 10.3_p1 10.4_p1-r1 10.5_p1 10.6_p1: Port of OpenBSD's free SSH release
+net-misc/openssh 10.5_p1 10.6_p1: Port of OpenBSD's free SSH release
 net-misc/openssh-contrib 9.7_p1-r4: Port of OpenBSD's free SSH release with HPN/X509 patches
+net-misc/openssh-legacy 9.9_p2: Old versions of OpenSSH installed separately for legacy machines
 net-misc/openvswitch 3.3.8-r1 3.3.9 3.7.1: Production quality, multilayer virtual switch
 net-misc/owncloud-client 5.3.2.15463 6.0.2.17506 6.0.3.18040: Synchronize files from ownCloud Server with your computer
 net-misc/packETH 3.0: Packet generator tool for ethernet
@@ -15488,7 +15488,7 @@ net-misc/pen 0.34.1-r1: TCP Load Balancing Port Forwarder
 net-misc/pimpd 0.8-r1: RFC1413-compliant identd server supporting masqueraded connections
 net-misc/pingu 1.5-r1 1.5.1: Policy routing daemon with failover and load-balancing
 net-misc/pipes 1.16.1-r1: Very versatile TCP pipes
-net-misc/pkixssh 17.2.2 18.0.3 19.0 19.0.1 19.1 20.0.1: OpenSSH fork with X.509 v3 certificate support
+net-misc/pkixssh 20.0.1: OpenSSH fork with X.509 v3 certificate support
 net-misc/plowshare 2.1.7-r3 9999: Command-line downloader and uploader for file-sharing websites
 net-misc/portfwd 0.29-r2 0.29-r3: Port Forwarding Daemon
 net-misc/portspoof 1.3-r1 9999: return SYN+ACK for every port connection attempt
@@ -17857,7 +17857,7 @@ sys-fs/bcache-tools 1.1_p20230217-r2 9999: Tools for bcache
 sys-fs/bcachefs-tools 1.25.2 1.37.4-r1 1.38.2-r1 1.38.5 1.38.6 1.38.8 1.39.3 1.39.5 1.39.6 1.39.7 9999: Tools for bcachefs
 sys-fs/bees 0.10-r1 0.11 9999: Best-Effort Extent-Same, a btrfs dedup agent
 sys-fs/bindfs 1.17.7 1.18.3 1.18.4: FUSE filesystem for bind mounting with altered permissions
-sys-fs/btrfs-progs 6.19.1 7.0 7.1-r1 9999: Btrfs filesystem utilities
+sys-fs/btrfs-progs 6.19.1 7.0 7.1-r1 7.3 9999: Btrfs filesystem utilities
 sys-fs/btrfsmaintenance 0.5.2: Scripts for btrfs maintenance tasks like periodic scrub, balance, trim or defrag
 sys-fs/cachefilesd 0.10.10-r2: Provides a caching directory on an already mounted filesystem
 sys-fs/clamfs 1.3.0: A FUSE-based user-space file system with on-access anti-virus file scanning
@@ -17967,7 +17967,7 @@ sys-fs/vhba 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEm
 sys-fs/vzquota 3.1: OpenVZ VPS disk quota utility
 sys-fs/xcp 0.24.8-r1: A 'cp' alternative with user-friendly feedback and performance optimisations
 sys-fs/xfsdump 3.1.12 3.2.0 3.3.0: XFS dump/restore utilities
-sys-fs/xfsprogs 6.17.0-r1 6.18.0 6.19.0 7.0.1 7.1.1 7.2.0: XFS filesystem utilities
+sys-fs/xfsprogs 6.17.0-r1 6.18.0 6.19.0 7.0.1 7.1.1 7.2.0 7.2.1: XFS filesystem utilities
 sys-fs/xwmfs 0.92: FUSE-based X11 Window-Manager file system
 sys-fs/yaffs2utils 0.2.9-r1: tools for generating YAFFS images
 sys-fs/zerofree 1.1.1-r1 1.1.1-r2: Zeroes out all free space on a filesystem
@@ -18531,7 +18531,7 @@ www-servers/mongrel2 1.11.0-r3: A language agnostic web server focused on web ap
 www-servers/moonbridge 1.1.3-r1: Network Server for Lua Applications
 www-servers/nginx 1.30.5 1.30.6 1.31.6 1.31.7 1.31.7-r1 9999: Robust, small and high performance HTTP and reverse proxy server
 www-servers/pound 4.22 4.23: A http/https reverse-proxy and load-balancer
-www-servers/pshs 0.4.3: Pretty small HTTP server -- a command-line tool to share files
+www-servers/pshs 0.4.3 0.4.4: Pretty small HTTP server -- a command-line tool to share files
 www-servers/puma 6.6.0 6.6.1 7.2.0 7.2.1: a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack
 www-servers/servefile 0.5.4-r2 0.5.4-r3 0.5.4-r4: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
