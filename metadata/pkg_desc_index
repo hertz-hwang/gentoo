@@ -1554,7 +1554,7 @@ app-crypt/ssdeep 2.14.1-r1: Computes context triggered piecewise hashes (fuzzy h
 app-crypt/ssss 0.5.7-r3: Shamir's Secret Sharing Scheme
 app-crypt/stan 0.4.1-r1: Stan analyzes binary streams and calculates statistical information
 app-crypt/stoken 0.92-r3: Software Token for Linux/UNIX
-app-crypt/swtpm 0.9.0 0.10.0 0.10.0-r2 0.10.1 0.10.2: Libtpms-based TPM emulator
+app-crypt/swtpm 0.10.2: Libtpms-based TPM emulator
 app-crypt/tc-play 3.3: A free, pretty much fully featured and stable TrueCrypt implementation
 app-crypt/tpm-tools 1.3.9.2-r1: TrouSerS' support tools for the Trusted Platform Modules
 app-crypt/tpm2-abrmd 3.0.0-r2: TPM2 Access Broker & Resource Manager
@@ -1836,7 +1836,7 @@ app-editors/ghex 48.3 50.3 50.4 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 26.04.3 26.08.2: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
-app-editors/gvim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9999: GUI version of the Vim text editor
+app-editors/gvim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: GUI version of the Vim text editor
 app-editors/gvim-classic 8.3.0 9999: GUI version of the Vim text editor
 app-editors/helix 25.07.1: A post-modern text editor
 app-editors/hexcurse 1.60.0: ncurses based hex editor
@@ -1883,10 +1883,10 @@ app-editors/ted 2.23-r3: X-based rich text editor
 app-editors/texworks 0.6.10 0.6.11: Simple interface for working with TeX documents
 app-editors/uemacs-pk 4.0.15_p20210330 4.0.15_p20260806: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
-app-editors/vim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9999: Vim, an improved vi-style text editor
+app-editors/vim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: Vim, an improved vi-style text editor
 app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
-app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9999: vim and gvim shared files
+app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.141.0 1.142.0 1.143.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.135.06055 1.140.06880: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
@@ -3985,7 +3985,7 @@ dev-cpp/rapidyaml 0.12.1 0.15.2: Library to parse and emit YAML, and do it fast
 dev-cpp/robin-map 1.3.0 1.4.0-r1 1.4.1 9999: C++ fast hash map and hash set using robin hood hashing
 dev-cpp/scitokens-cpp 1.1.0-r1 1.1.1 1.1.2 1.1.3 1.2.0 1.3.0 1.4.0 1.4.1: C++ implementation of the SciTokens library with a C library interface
 dev-cpp/sdbus-c++ 2.3.1: High-level C++ D-Bus library
-dev-cpp/simdutf 9.0.0 9.2.1: Unicode validation and transcoding at billions of characters per second
+dev-cpp/simdutf 9.0.0 9.2.1 9.3.2: Unicode validation and transcoding at billions of characters per second
 dev-cpp/simpleini 4.26 4.27: C++ library providing a simple API to read and write INI-style files
 dev-cpp/sol2 3.5.0-r1: Header-only C++ <-> Lua API wrapper
 dev-cpp/sparsehash 2.0.4-r2: An extremely memory-efficient hash_map implementation
@@ -5918,7 +5918,7 @@ dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transfe
 dev-libs/openpace 1.1.3 1.1.4: Cryptographic library for EAC version 2
 dev-libs/opensc 0.27.1 0.27.1-r1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
-dev-libs/openssl 3.5.7 3.5.8 3.5.9 3.5.9999 3.6.3 3.6.4 3.6.5 3.6.9999 4.0.1 4.0.2 4.0.3 4.0.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
+dev-libs/openssl 3.5.7 3.5.8 3.5.9 3.5.9999 3.6.3 3.6.4 3.6.5 3.6.9999 4.0.1 4.0.2 4.0.3 4.0.9999 4.1.0 4.1.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 1.1.1w 3.6.2 3.6.4 3.6.5: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/optix 7.4.0 7.5.0 8.1.0-r1 9.0.0-r1: NVIDIA Ray Tracing Engine
 dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8 1.6.6: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
@@ -5928,7 +5928,7 @@ dev-libs/pcc-libs 1.1.0: pcc compiler support libs
 dev-libs/pcl 1.12-r2: Portable Coroutine Library
 dev-libs/pegtl 3.2.8 3.2.8-r1 3.2.8-r2: Header-only library for creating parsers according to Parsing Expression Grammar
 dev-libs/pfs 0.10.0: Production grade, very easy to use, procfs parsing library in C++
-dev-libs/pkcs11-helper 1.29.0-r1 1.30.0 1.31.0: PKCS#11 helper library
+dev-libs/pkcs11-helper 1.31.0: PKCS#11 helper library
 dev-libs/plasma-wayland-protocols 1.22.0 1.23.0: Plasma Specific Protocols for Wayland
 dev-libs/pmdk 2.1.1: Persistent Memory Development Kit
 dev-libs/pocketfft 2024.11.30 2026.04.10 9999: PocketFFT for C++
@@ -10904,7 +10904,7 @@ dev-util/btyacc 3.0-r4 3.0-r5: Backtracking YACC - modified from Berkeley YACC
 dev-util/bugbite-cli 0.0.15: A command line tool for bug, issue, and ticket mangling
 dev-util/byacc 20241231 20260126: The best variant of the Yacc parser generator
 dev-util/cargo-audit 0.22.0 0.22.1 0.22.2: Audit Cargo.lock for crates with security vulnerabilities
-dev-util/cargo-c 0.10.13-r1 0.10.14 0.10.15 0.10.16 0.10.18 0.10.19 0.10.20 0.10.21 0.10.22-r1 0.10.23 0.10.25 0.10.26: Helper program to build and install c-like libraries
+dev-util/cargo-c 0.10.16 0.10.26: Helper program to build and install c-like libraries
 dev-util/cargo-license 0.6.1-r1 0.7.0: Cargo subcommand to see license of dependencies
 dev-util/cargo-nextest 0.9.140 0.9.143 0.9.144 0.9.148: Next-generation test runner for Rust
 dev-util/cargo-pgrx 0.12.7 0.12.9 0.13.1 0.14.3 0.15.0 0.16.0 0.16.1 0.18.0: pgrx: A Rust framework for creating Postgres extensions
@@ -15660,7 +15660,7 @@ net-p2p/mktorrent 1.1_p20210130-r1: Simple command line utility to create BitTor
 net-p2p/mldonkey 3.2.1: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses interface
 net-p2p/nicotine+ 3.3.7 3.3.10: Graphical client for the Soulseek peer to peer network written in Python
-net-p2p/qbittorrent 5.1.4-r1 5.2.0-r1 5.2.3 5.2.4 9999: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.1.4-r1 5.2.0-r1 5.2.3 5.2.4 5.3.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.24 0.16.25 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
