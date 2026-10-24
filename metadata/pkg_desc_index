@@ -1519,7 +1519,7 @@ app-crypt/onak 0.6.3 0.6.4: onak is an OpenPGP keyserver
 app-crypt/ophcrack 3.8.0-r2: A time-memory-trade-off-cracker
 app-crypt/ophcrack-tables 1.0-r2: Tables available for ophcrack
 app-crypt/osslsigncode 2.9 2.13: Platform-independent tool for Authenticode signing of EXE/CAB files
-app-crypt/p11-kit 0.26.2 0.26.4: Provides a standard configuration setup for installing PKCS#11
+app-crypt/p11-kit 0.26.4: Provides a standard configuration setup for installing PKCS#11
 app-crypt/paperkey 1.6: OpenPGP key archiver
 app-crypt/pdfcrack 0.20-r1 0.21: Tool for recovering passwords and content from PDF-files
 app-crypt/pesign 116: Tools for manipulating signed PE-COFF binaries
@@ -8227,15 +8227,15 @@ dev-php/mmslib 0.97-r1: Encoding, decoding, and sending of MMS:es
 dev-php/myclabs-deepcopy 1.10.2: Create deep copies (clones) of your objects
 dev-php/nikic-php-parser 4.13.2: PHP 5.2 to PHP 8.0 parser written in PHP
 dev-php/pear 1.10.3-r1: PEAR - PHP Extension and Application Repository
-dev-php/pecl-amqp 2.1.2 2.2.0: PHP Bindings for AMQP 0-9-1 compatible brokers
+dev-php/pecl-amqp 2.2.0: PHP Bindings for AMQP 0-9-1 compatible brokers
 dev-php/pecl-apcu 5.1.24 5.1.28: Stripped down version of APC supporting only user cache
 dev-php/pecl-brotli 0.15.0 0.16.0 9999: Brotli compression extension for PHP
-dev-php/pecl-dio 0.2.1 0.3.0: Direct I/O functions for PHP
+dev-php/pecl-dio 0.3.0: Direct I/O functions for PHP
 dev-php/pecl-event 3.1.4: PHP wrapper for libevent2
 dev-php/pecl-http 4.2.6 4.3.1-r1: Extended HTTP Support for PHP
 dev-php/pecl-imagick 3.8.1: PHP wrapper for the ImageMagick library
 dev-php/pecl-mailparse 3.1.6 3.2.0: PHP extension for parsing and working with RFC822 and MIME compliant messages
-dev-php/pecl-memcached 3.4.0 3.4.0-r1: Interface PHP with memcached via libmemcached library
+dev-php/pecl-memcached 3.4.0-r1: Interface PHP with memcached via libmemcached library
 dev-php/pecl-mongodb 1.16.2-r1: MongoDB database driver for PHP
 dev-php/pecl-parallel 1.2.7-r1 1.2.14 1.2.15: A succint parallel concurrency API for PHP
 dev-php/pecl-radius 1.4.0_beta1-r4: Provides support for RADIUS authentication (RFC 2865) and accounting (RFC 2866)
@@ -8245,7 +8245,7 @@ dev-php/pecl-rrd 2.0.3: RRDtool bindings for PHP
 dev-php/pecl-ssh2 1.4.1-r1 1.5.0 9999: PHP bindings for the libssh2 library
 dev-php/pecl-stomp 2.0.3-r2: PHP extension to communicate with Stomp message brokers
 dev-php/pecl-uploadprogress 2.0.2-r3: An extension to track progress of a file upload
-dev-php/pecl-uuid 1.2.1 1.3.0: A wrapper around libuuid
+dev-php/pecl-uuid 1.3.0: A wrapper around libuuid
 dev-php/pecl-xattr 1.4.0-r1 1.4.1-r1: Extended attributes for PHP
 dev-php/pecl-xdiff 2.1.1: PHP extension for generating diff files
 dev-php/pecl-yaml 2.3.0: YAML 1.1 (YAML Ain't Markup Language) serialization for PHP
@@ -13330,7 +13330,7 @@ media-libs/alsa-topology-conf 1.2.5.1-r1: ALSA topology configuration files
 media-libs/alsa-ucm-conf 1.2.14 1.2.15.3 1.2.16 1.2.16.1: ALSA ucm configuration files
 media-libs/alure 1.2-r4: The OpenAL Utility Toolkit
 media-libs/amdgpu-pro-vulkan 22.40.6.1580631-r1 23.40.0.1741713 24.30.2125445 25.10.2203192: AMD's closed source vulkan driver, from Radeon Software for Linux
-media-libs/amf-headers 1.4.33 1.4.34 1.4.35 1.4.36 1.4.36-r2 1.5.0: The Advanced Media Framework (AMF) SDK
+media-libs/amf-headers 1.5.2: The Advanced Media Framework (AMF) SDK
 media-libs/ampache_browser 1.0.7-r1 1.0.8: Ampache desktop client library
 media-libs/aribb24 1.0.3-r2: Library for decoding ARIB STD-B24 subtitles
 media-libs/assimp 5.4.3-r1 6.0.2: Importer library to import assets from 3D files
