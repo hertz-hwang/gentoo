@@ -934,7 +934,7 @@ app-admin/apg 2.3.0b_p20240821: Another Password Generator
 app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0 1.2.896.0: AWS Session Manager Plugin for aws-cli
-app-admin/awscli 1.46.1 1.46.2 2.37.4 2.37.9 2.37.12 2.37.13 2.38.0 2.38.1 2.38.5: Universal Command Line Environment for AWS
+app-admin/awscli 1.46.2 2.38.5: Universal Command Line Environment for AWS
 app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2026.8.0 2026.9.1: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.8.0 2026.9.0: Bitwarden password manager desktop client
@@ -1458,7 +1458,7 @@ app-crypt/debian-archive-keyring 2023.4 2025.1: GnuPG archive keys of the Debian
 app-crypt/dehydrated 0.7.1-r1 0.7.1-r2 0.7.2: A client for signing certificates with an ACME-server
 app-crypt/dieharder 3.31.1-r4 3.31.1-r5: An advanced suite for testing the randomness of RNGs
 app-crypt/easy-rsa 3.2.1 3.2.6 3.2.7: Small RSA key management package, based on OpenSSL
-app-crypt/efitools 1.9.2-r1: Tools for manipulating UEFI secure boot platforms
+app-crypt/efitools 1.9.2-r1 1.9.2_p1: Tools for manipulating UEFI secure boot platforms
 app-crypt/eid-mw 5.1.31 9999: Electronic Identity Card middleware supplied by the Belgian Federal Government
 app-crypt/ekeyd 1.1.5-r101: Entropy Key userspace daemon
 app-crypt/elettra 1.0: Plausible deniable file cryptography
@@ -1468,7 +1468,7 @@ app-crypt/freepg 2.5.20 2.5.21: Cross-distro GnuPG fork focused on OpenPGP compl
 app-crypt/gcr 3.41.2-r2 4.4.0.1-r1 4.4.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
-app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r1: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r2: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -1537,7 +1537,7 @@ app-crypt/rhash 1.4.6-r1: Console utility and library for computing and verifyin
 app-crypt/rotix 0.83-r3: Rotix allows you to generate rotational obfuscations
 app-crypt/rpm-sequoia 1.10.0 1.10.2: Implementation of the RPM PGP interface using Sequoia
 app-crypt/sbctl 0.15.4 0.16 0.18: Secure Boot key manager
-app-crypt/sbsigntools 0.9.5: Utilities for signing and verifying files for UEFI Secure Boot
+app-crypt/sbsigntools 0.9.5 0.9.5_p1: Utilities for signing and verifying files for UEFI Secure Boot
 app-crypt/scdrand 0.3.5: Feed kernel entropy pool from smartcard's TRNG
 app-crypt/scrypt 1.3.3: A simple password-based encryption utility using scrypt key derivation function
 app-crypt/scute 1.7.0-r2: A PKCS #11 module for OpenPGP smartcards
@@ -1566,7 +1566,7 @@ app-crypt/tpm2-tss 4.1.3-r2 4.1.4 4.2.0: TCG Trusted Platform Module 2.0 Softwar
 app-crypt/trousers 0.3.15-r1: An open-source TCG Software Stack (TSS) v1.1 implementation
 app-crypt/uacme 1.8.1: A client for the RFC8555 ACMEv2 protocol
 app-crypt/ubuntu-keyring 2023.11.28.1 2026.08.18: GnuPG archive keys of the Ubuntu archive
-app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r3: Disk encryption with strong security based on TrueCrypt
+app-crypt/veracrypt 1.25.9-r2 1.26.7-r1 1.26.15-r1 1.26.20 1.26.29-r3 1.26.30: Disk encryption with strong security based on TrueCrypt
 app-crypt/xca 2.8.0 2.9.0 2.9.0-r1: A GUI to OpenSSL, RSA public keys, certificates, signing requests etc
 app-crypt/xor-analyze 0.5-r1: Program for cryptanalyzing xor 'encryption' with variable key length
 app-crypt/yubihsm-connector 3.0.7: Server to expose YubiHSM 2 to network
@@ -4045,7 +4045,7 @@ dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded ba
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
 dev-db/mysql 8.0.45 8.0.46-r1 8.4.10 8.4.11: Fast, multi-threaded, multi-user SQL database server
 dev-db/mysql++ 3.3.0: C++ API interface to the MySQL database
-dev-db/mysql-connector-c 8.0.41-r1: C client library for MariaDB/MySQL
+dev-db/mysql-connector-c 8.0.41-r1 8.0.46 26.10.0: C client library for MariaDB/MySQL
 dev-db/mysql-connector-c++ 9.6.0 26.7.0: MySQL database connector for C++ (mimics JDBC 4.0 API)
 dev-db/mysql-init-scripts 2.3-r8: Gentoo MySQL init scripts
 dev-db/mysql-workbench 8.0.42-r1 8.0.44 8.0.46: MySQL Workbench
@@ -5213,7 +5213,7 @@ dev-java/libg 7.2.3 7.4.0: A library to be statically linked. Contains many smal
 dev-java/lmax-disruptor 3.4.4: A High Performance Inter-Thread Messaging Library
 dev-java/log4j-12-api 2.26.0: The Apache Log4j 1.x Compatibility API
 dev-java/log4j-api 2.26.0: The Apache Log4j API
-dev-java/log4j-core 2.26.0: The Apache Log4j Implementation
+dev-java/log4j-core 2.26.0-r1: The Apache Log4j Implementation
 dev-java/log4j-over-slf4j 2.0.3: Log4j implemented over SLF4J
 dev-java/lucene 2.4.1-r6: High-performance, full-featured text search engine written entirely in Java
 dev-java/lz4-java 1.8.0-r6: LZ4 compression for Java
@@ -5508,7 +5508,7 @@ dev-libs/c-capnproto 0.3-r1: C library/compiler for the Cap'n Proto serializatio
 dev-libs/c-siphash 1.1.0-r1: Streaming-capable SipHash Implementation
 dev-libs/c-stdaux 1.6.0: Auxiliary macros and functions for the C standard library
 dev-libs/cJSON 1.7.19: Ultralightweight JSON parser in ANSI C
-dev-libs/capnproto 1.0.2 1.1.0 1.4.0: RPC/Serialization system with capabilities support
+dev-libs/capnproto 1.0.2 1.1.0 1.4.0 1.5.0: RPC/Serialization system with capabilities support
 dev-libs/capstone 5.0.6-r1 5.0.7 5.0.9 6.0.0_alpha4-r1 6.0.0_alpha10 9999: disassembly/disassembler framework + bindings
 dev-libs/castxml 0.7.0 0.8.0: C-family abstract syntax tree XML output tool
 dev-libs/cdk 5.0.20230201 5.0.20230201-r2 5.0.20240331-r1 5.0.20240619-r2 5.0.20250116-r1 5.0.20251014 5.0.20260119: A library of curses widgets
@@ -5918,7 +5918,7 @@ dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transfe
 dev-libs/openpace 1.1.3 1.1.4: Cryptographic library for EAC version 2
 dev-libs/opensc 0.27.1 0.27.1-r1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
-dev-libs/openssl 3.5.7 3.5.8 3.5.9 3.5.9999 3.6.3 3.6.4 3.6.5 3.6.9999 4.0.1 4.0.2 4.0.3 4.0.9999 4.1.0 4.1.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
+dev-libs/openssl 3.5.9 3.5.9999 3.6.5 3.6.9999 4.0.3 4.0.9999 4.1.0 4.1.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 1.1.1w 3.6.2 3.6.4 3.6.5: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/optix 7.4.0 7.5.0 8.1.0-r1 9.0.0-r1: NVIDIA Ray Tracing Engine
 dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8 1.6.6: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
@@ -5929,6 +5929,7 @@ dev-libs/pcl 1.12-r2: Portable Coroutine Library
 dev-libs/pegtl 3.2.8 3.2.8-r1 3.2.8-r2: Header-only library for creating parsers according to Parsing Expression Grammar
 dev-libs/pfs 0.10.0: Production grade, very easy to use, procfs parsing library in C++
 dev-libs/pkcs11-helper 1.31.0: PKCS#11 helper library
+dev-libs/pkcs11-provider 1.3.0: OpenSSL 3+ provider to access hardware or software tokens via PKCS#11
 dev-libs/plasma-wayland-protocols 1.22.0 1.23.0: Plasma Specific Protocols for Wayland
 dev-libs/pmdk 2.1.1: Persistent Memory Development Kit
 dev-libs/pocketfft 2024.11.30 2026.04.10 9999: PocketFFT for C++
@@ -8408,8 +8409,8 @@ dev-python/bluelet 0.2.0-r1: Module for pure Python asynchronous I/O using corou
 dev-python/blurb 2.2.0 2.3.0: Tool to create and manage NEWS blurbs for CPython
 dev-python/boltons 26.2.0: Pure-python utilities in the same spirit as the standard library
 dev-python/boolean-py 5.0: Define boolean algebras, create and parse boolean expressions
-dev-python/boto3 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111 1.43.112 1.43.113 1.43.114 1.43.118: The AWS SDK for Python
-dev-python/botocore 1.43.89 1.43.93 1.43.98 1.43.103 1.43.108 1.43.111 1.43.112 1.43.113 1.43.114 1.43.118: Low-level, data-driven core of boto 3
+dev-python/boto3 1.43.118: The AWS SDK for Python
+dev-python/botocore 1.43.118: Low-level, data-driven core of boto 3
 dev-python/bottle 0.13.4: A fast and simple micro-framework for small web-applications
 dev-python/bottleneck 1.6.0: Fast NumPy array functions written in C
 dev-python/bpython 0.26: Syntax highlighting and autocompletion for the Python interpreter
@@ -8600,7 +8601,7 @@ dev-python/email-validator 2.3.0: A robust email syntax and deliverability valid
 dev-python/emcee 3.1.6: Python ensemble sampling toolkit for affine-invariant MCMC
 dev-python/emoji 2.15.0 2.16.0: Emoji for Python
 dev-python/enrich 1.2.7-r1: Extend rich functionality
-dev-python/ensurepip-pip 26.1.2 26.2.1 26.2.1-r1 26.2.2 26.2.2-r1: Shared pip wheel for ensurepip Python module
+dev-python/ensurepip-pip 26.2.1-r1 26.2.2-r1: Shared pip wheel for ensurepip Python module
 dev-python/ensurepip-setuptools 79.0.1 84.0.0 84.2.0 84.2.1: Shared setuptools wheel for ensurepip Python module
 dev-python/ensurepip-wheel 0.47.0 0.48.0: Shared wheel wheel for use in pip tests
 dev-python/entrypoint2 1.1: Easy to use command-line interface for python modules
@@ -9131,7 +9132,7 @@ dev-python/piexif 1.1.3-r4: Exif manipulation with pure Python
 dev-python/pika 1.4.2 1.4.4: Pure-Python implementation of the AMQP
 dev-python/pikepdf 10.5.1 10.7.3 10.12.0 10.13.0_p1 10.14.0 10.15.0 10.16.0 10.17.0: Python library to work with pdf files based on qpdf
 dev-python/pillow 12.3.0 13.0.0: Python Imaging Library (fork)
-dev-python/pip 26.1.2-r1 26.2.1 26.2.2: The PyPA recommended tool for installing Python packages
+dev-python/pip 26.2.1 26.2.2: The PyPA recommended tool for installing Python packages
 dev-python/pivy 0.6.10 0.6.11: Coin3D bindings for Python
 dev-python/pixelmatch 0.4.0: A fast pixel-level image comparison library
 dev-python/pkg-resources 0 81.0.0: pkg_resources package split from old setuptools
@@ -11269,7 +11270,7 @@ dev-vcs/darcs 2.16.5-r6 2.18.5: a distributed, interactive, smart revision contr
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.26 2.27: Simple, high-reliability, source control management, and more
 dev-vcs/gagit 4: Gentoo AGit workflow tool
-dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 2.56.0 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
+dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 2.56.0 2.56.0-r1 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
 dev-vcs/git-big-picture 1.3.0 1.3.0-r1: Visualization tool for Git repositories
@@ -14790,7 +14791,7 @@ net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup to
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
 net-analyzer/yersinia 0.8.2_p20221119: A framework for layer 2 attacks
-net-analyzer/zabbix 6.0.48-r1 6.0.49 7.0.30-r1 7.0.31-r1 7.0.32 7.4.14-r1 7.4.15-r1 7.4.16: ZABBIX is software for monitoring of your applications, network and servers
+net-analyzer/zabbix 6.0.48-r1 6.0.49 7.0.31-r1 7.0.32 7.4.15-r1 7.4.16: ZABBIX is software for monitoring of your applications, network and servers
 net-analyzer/zmap 4.3.2: Fast network scanner designed for Internet-wide network surveys
 net-analyzer/zniper 1.0-r3: Displays and kill active TCP connections seen by the selected interface
 net-dialup/accel-ppp 1.12.0_p20230609 1.14.0 1.14.0-r2 9999: High performance PPTP/L2TP/SSTP/PPPoE/IPoE server
@@ -15223,7 +15224,7 @@ net-mail/getmail 6.20.00 6.20.01: A mail retriever with reliable Maildir and mbo
 net-mail/gnubiff 2.2.17-r4: A mail notification program
 net-mail/grepmail 5.3111: Search normal or compressed mailbox using a regular expression or dates
 net-mail/imapsync 1.977 2.314 2.314-r1: Tool for incremental and recursive IMAP transfers between mailboxes
-net-mail/isync 1.5.0 1.5.1 9999: MailDir mailbox synchronizer
+net-mail/isync 1.5.0 1.5.1 1.5.1-r1 9999: MailDir mailbox synchronizer
 net-mail/lbdb 0.47: Little Brother database
 net-mail/libdbx 1.0.3-r1: Tools and library for reading Outlook Express mailboxes (.dbx format)
 net-mail/mailbase 1.8.1: MTA layout package
@@ -15355,7 +15356,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12 5.0.14 5.0.15: The BGP swiss army kni
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.32.1 3.32.2 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.4-r2 10.1.5-r1 10.2.5-r2 10.2.6 10.3.3-r2 10.3.4-r1 10.4.3-r2 10.4.4-r1 10.4.5 10.5.3-r2 10.5.4-r1 10.5.5 10.6.1-r1 10.6.2 10.7.0 10.7.1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.9-r1 1.32.12 1.32.13 1.32.15 1.32.16 1.32.17 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.13 1.32.15 1.32.16 1.32.17-r1 1.32.18 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -17789,7 +17790,7 @@ sys-devel/bison 3.8.2-r2 3.8.2-r3: A general-purpose (yacc-compatible) parser ge
 sys-devel/bpf-toolchain 15.2.0_p3 16.1.0_p1 16.1.0_p2 16.2.0_p1: All-in-one bpf toolchain for building DTrace and systemd without crossdev
 sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23: Symlinks to a Clang crosscompiler
 sys-devel/cproc 0_pre20260113 0_pre20260527 9999: C11 compiler using QBE as backend
-sys-devel/crossdev 20260501-r1 20260623 99999999: Gentoo Cross-toolchain generator
+sys-devel/crossdev 20260623 99999999: Gentoo Cross-toolchain generator
 sys-devel/crosstool-ng 1.28.0 9999: Versatile (cross-)toolchain generator
 sys-devel/dev86 1.0.1: Bruce's C compiler - Simple C compiler to generate 8086 code
 sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across several machines on a network
@@ -17799,7 +17800,7 @@ sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
 sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.4.1_p20261008 14.4.1_p20261015 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.1_p20261009 15.3.1_p20261016 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.2.1_p20261010 16.2.1_p20261017 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.0_p20261011 17.0.0_p20261011-r1 17.0.0_p20261018 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
-sys-devel/gnuconfig 20240728 20250710 20260517 99999999: Updated config.sub and config.guess file from GNU
+sys-devel/gnuconfig 20260517 99999999: Updated config.sub and config.guess file from GNU
 sys-devel/icecream 1.4-r1: Distributed compiler with a central scheduler to share build load
 sys-devel/kgcc64 10.5.0 11.5.0 12.5.0 13.4.0 13.5.0 14.3.0 14.4.0 15.2.0 15.3.0 16.2.0: 64bit kernel compiler
 sys-devel/m4 1.4.19-r2 1.4.20 1.4.21: GNU macro processor
@@ -18061,7 +18062,7 @@ sys-libs/liburing 2.9 2.10-r1 2.11 2.12 2.13 2.14 2.15 9999: Efficient I/O with 
 sys-libs/libutempter 1.2.1: Library that allows non-privileged apps to write utmp (login) info
 sys-libs/libuuid 1.0.3-r1: Portable uuid C library
 sys-libs/libvpd 2.2.9: Library implementation for listing Vital Product Data
-sys-libs/libxcrypt 4.4.38 4.4.38-r1 4.5.2: Extended crypt library for descrypt, md5crypt, bcrypt, and others
+sys-libs/libxcrypt 4.4.38-r1 4.5.2: Extended crypt library for descrypt, md5crypt, bcrypt, and others
 sys-libs/lwp 2.8-r1: Light-weight process library (used by Coda)
 sys-libs/minizip-ng 4.0.10-r1 4.2.1: Fork of the popular zip manipulation library found in the zlib distribution
 sys-libs/mtdev 1.1.7: Multitouch Protocol Translation Library
