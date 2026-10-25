@@ -1519,7 +1519,7 @@ app-crypt/onak 0.6.3 0.6.4: onak is an OpenPGP keyserver
 app-crypt/ophcrack 3.8.0-r2: A time-memory-trade-off-cracker
 app-crypt/ophcrack-tables 1.0-r2: Tables available for ophcrack
 app-crypt/osslsigncode 2.9 2.13: Platform-independent tool for Authenticode signing of EXE/CAB files
-app-crypt/p11-kit 0.26.4: Provides a standard configuration setup for installing PKCS#11
+app-crypt/p11-kit 0.26.4 0.26.5: Provides a standard configuration setup for installing PKCS#11
 app-crypt/paperkey 1.6: OpenPGP key archiver
 app-crypt/pdfcrack 0.20-r1 0.21: Tool for recovering passwords and content from PDF-files
 app-crypt/pesign 116: Tools for manipulating signed PE-COFF binaries
@@ -1559,7 +1559,7 @@ app-crypt/tc-play 3.3: A free, pretty much fully featured and stable TrueCrypt i
 app-crypt/tpm-tools 1.3.9.2-r1: TrouSerS' support tools for the Trusted Platform Modules
 app-crypt/tpm2-abrmd 3.0.0-r2: TPM2 Access Broker & Resource Manager
 app-crypt/tpm2-openssl 1.3.0: OpenSSL Provider for TPM2 integration
-app-crypt/tpm2-pkcs11 1.10.0: A PKCS#11 interface for TPM2 hardware
+app-crypt/tpm2-pkcs11 1.10.1: A PKCS#11 interface for TPM2 hardware
 app-crypt/tpm2-tools 5.7 5.7.1 5.8: Tools for the TPM 2.0 TSS
 app-crypt/tpm2-totp 0.3.0-r1: Attest the trustworthiness of a device against a human using time-based OTP
 app-crypt/tpm2-tss 4.1.3-r2 4.1.4 4.2.0: TCG Trusted Platform Module 2.0 Software Stack
@@ -5078,7 +5078,7 @@ dev-java/httpcomponents-client 4.5.13-r3: Apache HttpComponents Client
 dev-java/httpcore 4.4.14-r2: Apache HttpComponents Core (blocking I/O)
 dev-java/icedtea-sound 1.0.1-r2: Plugins for javax.sound
 dev-java/icedtea-web 1.8.8-r2: FOSS Java browser plugin and Web Start implementation
-dev-java/icu4j 77.1 78.2: A set of Java libraries providing Unicode and Globalization support
+dev-java/icu4j 77.1 78.2 79.1: A set of Java libraries providing Unicode and Globalization support
 dev-java/identicon 1.0: Visual representation of a hash value
 dev-java/incap 1.0.0: Helper library for building incremental annotation processors
 dev-java/injection-api 2.0.1: Jakarta Dependency Injection
@@ -5215,7 +5215,7 @@ dev-java/log4j-12-api 2.26.0: The Apache Log4j 1.x Compatibility API
 dev-java/log4j-api 2.26.0: The Apache Log4j API
 dev-java/log4j-core 2.26.0: The Apache Log4j Implementation
 dev-java/log4j-over-slf4j 2.0.3: Log4j implemented over SLF4J
-dev-java/lucene 2.4.1-r5: High-performance, full-featured text search engine written entirely in Java
+dev-java/lucene 2.4.1-r6: High-performance, full-featured text search engine written entirely in Java
 dev-java/lz4-java 1.8.0-r6: LZ4 compression for Java
 dev-java/lzma 25.01 26.04: Java code for LZMA compression and decompression
 dev-java/lzmajio 0.95-r4: LzmaInputStream/LzmaOutputStream interacting with underlying LZMA en-/decoders
@@ -5244,7 +5244,7 @@ dev-java/osgi-cmpn 8.0.0-r1: OSGi Service Platform Compendium API (Companion Cod
 dev-java/osgi-core 8.0.0: OSGi Service Platform Core API (Companion Code)
 dev-java/osgi-service-log 1.3.0: OSGi Companion Code for org.osgi.service.log
 dev-java/osgi-service-subsystem 1.1.0: OSGi Companion Code for org.osgi.service.subsystem
-dev-java/owasp-java-encoder 1.4.0 1.4.1: OWASP Java Encoder
+dev-java/owasp-java-encoder 1.4.1: OWASP Java Encoder
 dev-java/parboiled 1.4.1: Elegant parsing in Java and Scala - lightweight, easy-to-use, powerful
 dev-java/pdfbox 2.0.32-r1 3.0.6: Java library and utilities for working with PDF documents
 dev-java/pebble 3.1.6: Templating engine for Java
@@ -5282,7 +5282,7 @@ dev-java/sparsebitset 1.3: An efficient sparse bitset implementation for Java
 dev-java/stax2-api 4.2.2: stax2 API is an extension to basic Stax 1.0 API
 dev-java/stringprep 2.4: Stringprep (RFC 3454) Java implementation
 dev-java/stringtemplate 3.2.1-r3 4.3.4: A Java template engine
-dev-java/sun-jai-bin 1.1.3-r3: JAI is a class library for managing images
+dev-java/sun-jai-bin 1.1.3-r3 1.1.3-r4: JAI is a class library for managing images
 dev-java/swing-layout 1.0.4-r3: Professional cross platform layouts with Swing
 dev-java/swt 4.29-r1 4.38: GTK based SWT Library
 dev-java/system-rules 1.19.0: A collection of JUnit rules for testing code which uses java.lang.System
@@ -17444,9 +17444,9 @@ sys-apps/paxctl 0.9: Manages various PaX related program header flags for Elf32,
 sys-apps/paxctld 1.2.5-r1: PaX flags maintenance daemon
 sys-apps/pciutils 3.14.0 3.15.0: Various utilities dealing with the PCI bus
 sys-apps/pcmciautils 018_p18: PCMCIA userspace utilities for Linux
-sys-apps/pcsc-lite 2.4.0-r1 2.4.1 2.5.1: PC/SC Architecture smartcard middleware library
+sys-apps/pcsc-lite 2.4.0-r1 2.4.1 2.5.1 2.5.3: PC/SC Architecture smartcard middleware library
 sys-apps/pcsc-slb-rf72-drv 1.1.0-r2: Schlumberger Reflex 72 Serial Smartcard Reader
-sys-apps/pcsc-tools 1.7.3-r1 1.7.4: PC/SC Architecture smartcard tools
+sys-apps/pcsc-tools 1.7.4 1.7.5: PC/SC Architecture smartcard tools
 sys-apps/pick 4.0.0-r1: A fuzzy search tool for the command-line
 sys-apps/pkgcore 0.12.44 0.12.45 0.12.46 0.12.47 0.12.48 9999: a framework for package management
 sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
@@ -17585,7 +17585,7 @@ sys-auth/pam_krb5 4.11: Kerberos V PAM Authentication Module
 sys-auth/pam_mktemp 1.1.1: Create per-user private temporary directories during login
 sys-auth/pam_mount 2.20 2.21 2.22: A PAM module that can mount volumes for a user session
 sys-auth/pam_mysql 0.8.2-r2: pam_mysql is a module for pam to authenticate users with mysql
-sys-auth/pam_p11 0.6.0: PAM module for authenticating against PKCS#11 tokens
+sys-auth/pam_p11 0.6.1: PAM module for authenticating against PKCS#11 tokens
 sys-auth/pam_require 0.7-r2: Allows you to require a special group or user to access a service
 sys-auth/pam_skey 1.1.5-r7: PAM interface for the S/Key authentication system
 sys-auth/pam_smb 2.0.0_rc6-r3: PAM module for authenticating against an SMB (such as the Win_x families) server
@@ -18241,7 +18241,7 @@ virtual/notification-daemon 0: Virtual for notification daemon dbus service
 virtual/ooo 1: Virtual for LibreOffice
 virtual/opencl 3-r5: Virtual for OpenCL API
 virtual/opengl 8: Virtual for OpenGL implementation
-virtual/openssh 0 0-r1: Virtual for net-misc/openssh and variants
+virtual/openssh 0-r2: Virtual for net-misc/openssh and variants
 virtual/os-headers 0-r2: Virtual for operating system headers
 virtual/package-manager 2: Virtual for the package manager
 virtual/pager 0-r1: Virtual for command-line pagers
