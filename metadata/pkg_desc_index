@@ -1540,7 +1540,7 @@ app-crypt/sbctl 0.15.4 0.16 0.18: Secure Boot key manager
 app-crypt/sbsigntools 0.9.5 0.9.5_p1: Utilities for signing and verifying files for UEFI Secure Boot
 app-crypt/scdrand 0.3.5: Feed kernel entropy pool from smartcard's TRNG
 app-crypt/scrypt 1.3.3: A simple password-based encryption utility using scrypt key derivation function
-app-crypt/scute 1.7.0-r2: A PKCS #11 module for OpenPGP smartcards
+app-crypt/scute 1.7.0-r3: A PKCS #11 module for OpenPGP smartcards
 app-crypt/seahorse 47.0.1-r1 47.0.1-r2: Manage your passwords and encryption keys
 app-crypt/sequoia-chameleon-gnupg 0.13.1-r4: Sequoia's reimplementation of the GnuPG interface
 app-crypt/sequoia-sop 0.37.3: Implementation of the Stateless OpenPGP Command Line Interface using Sequoia
@@ -4068,7 +4068,7 @@ dev-db/pg_track_settings 2.1.2-r1: Keeps track of PostgreSQL settings modificati
 dev-db/pg_wait_sampling 1.1.11: Sampling based statistics of wait events
 dev-db/pgagent 4.2.3-r1 4.2.3-r2: pgAgent is a job scheduler for PostgreSQL
 dev-db/pgbadger 12.4 13.1 13.2: pgBadger is a PostgreSQL log analyzer
-dev-db/pgbouncer 1.23.1 1.25.2 1.26.0: Lightweight connection pooler for PostgreSQL
+dev-db/pgbouncer 1.23.1 1.25.2 1.26.0 1.26.1: Lightweight connection pooler for PostgreSQL
 dev-db/pgcli 4.1.0: CLI for Postgres with auto-completion and syntax highlighting
 dev-db/pglogical 2.4.4: Logical replication for PostgreSQL
 dev-db/pgmemcache 2.3.0 2.3.0-r1: A PostgreSQL API based on libmemcached to interface with memcached
@@ -13555,7 +13555,7 @@ media-libs/libopusenc 0.2.1-r1 0.3: High-level API for encoding .opus files
 media-libs/libpagemaker 0.0.4-r1 9999: C++ Library that parses the file format of Aldus/Adobe PageMaker documents
 media-libs/libpano13 2.9.23: Helmut Dersch's panorama toolbox library
 media-libs/libpgf 7.21.7-r2: Library to load, handle and manipulate images in the PGF format
-media-libs/libplacebo 7.360.0-r1 7.360.1 9999: Reusable library for GPU-accelerated image processing primitives
+media-libs/libplacebo 7.360.1 7.387.0 9999: Reusable library for GPU-accelerated image processing primitives
 media-libs/libpng 1.6.58 1.6.59-r1: Portable Network Graphics library
 media-libs/libpng-compat 1.2.59-r1 1.5.30-r1: Portable Network Graphics library
 media-libs/libpqstego 0.0.1-r2: Library for Perturbed Quantization Steganography
@@ -18790,7 +18790,7 @@ x11-misc/chgres 0.1-r3: A very simple command line utility for changing X resolu
 x11-misc/clipmenu 6.2.0-r1 9999: Clipboard management
 x11-misc/clipnotify 1.0.2: Notify on new X clipboard events
 x11-misc/colord 1.4.8-r1: System service to accurately color manage input and output devices
-x11-misc/compose-tables 1.8.13: X.Org Compose Key tables from libX11
+x11-misc/compose-tables 1.8.13 1.8.14: X.Org Compose Key tables from libX11
 x11-misc/copyq 13.0.0: Clipboard manager with advanced features
 x11-misc/dclock 2.2.2_p12: Digital clock for the X window system
 x11-misc/devilspie 0.23-r2: Window matching utility similar to Sawfish's Matched Windows
