@@ -2122,7 +2122,7 @@ app-emacs/gruvbox-theme 1.30.2 1.30.3 1.30.4 9999: Gruvbox is a retro groove col
 app-emacs/h4x0r 0.13-r1: Aid in writing like a script kiddie does
 app-emacs/haskell-mode 17.4 17.5_p20260206 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/haxe-mode 0.3.3: Major mode for editing Haxe files
-app-emacs/helm 4.0.7: Emacs incremental completion and selection narrowing framework
+app-emacs/helm 4.0.7 4.0.9: Emacs incremental completion and selection narrowing framework
 app-emacs/helm-system-packages 1.10.2: A Helm interface to the package manager of your operating system
 app-emacs/hexrgb 0_p1019: Functions to manipulate colors, including RGB hex strings
 app-emacs/highlight-indentation 0.7.0_p20210221: Minor modes to highlight indentation guides in Emacs
@@ -2214,7 +2214,7 @@ app-emacs/ocaml-mode 4.05.0-r1: Emacs mode for OCaml
 app-emacs/orderless 1.7 1.8: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.8: Contributed packages to Org
-app-emacs/org-mode 9.8.10 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.8.10 9.8.12 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 1.15 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 2.3.0 2.3.1 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
@@ -3376,7 +3376,7 @@ app-text/openpaperwork-core 2.2.5: Core part of Paperwork (plugin management)
 app-text/openpaperwork-gtk 2.2.5: Paperwork plugins
 app-text/opensp 1.5.2-r10: A free, object-oriented toolkit for SGML parsing and entity management
 app-text/pandoc 2.18-r2 3: Metapackage for pandoc version 3
-app-text/pandoc-bin 3.11 3.12 3.12.1: Conversion between markup formats (binary package)
+app-text/pandoc-bin 3.11 3.12 3.12.1 3.13: Conversion between markup formats (binary package)
 app-text/pandoc-cli 0.1.1-r1 3.10: Conversion between documentation formats
 app-text/paper-clip 5.5.2 9999: Edit the title, author, keywords and more details of PDF documents
 app-text/papers 50.2 50.3: A document viewer for the GNOME desktop
@@ -5338,7 +5338,7 @@ dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.5 1.12.6: General-purpose programming language with an emphasis on functional programming
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
-dev-lang/closure-compiler-bin 20260909 20261005 20261015 20261018: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20260909 20261005 20261015 20261018 20261021: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.21.0 1.22.0 1.22.1: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
@@ -10896,7 +10896,7 @@ dev-util/bloaty 1.1-r1 1.1-r2 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.20.4 0.22.2: Compiler for Blueprint, a markup language for GTK user interfaces
 dev-util/bootconfig 6.6 6.9: Bootconfig tools for kernel command line to support key-value
 dev-util/bpf-linker 0.11.0 0.11.1 0.12.0: Simple BPF static linker
-dev-util/bpftool 7.6.0-r1 7.7.0-r1 7.8.1 9999: Tool for inspection and simple manipulation of eBPF programs and maps
+dev-util/bpftool 7.7.0-r2 7.8.1-r1 9999: Tool for inspection and simple manipulation of eBPF programs and maps
 dev-util/bpftop 0.7.1 0.8.0: Dynamic real-time view of running eBPF programs
 dev-util/breakpad 2024.02.16: A set of client and server components which implement a crash-reporting system
 dev-util/bsdiff 4.3-r4: bsdiff: Binary Differencer using a suffix alg
@@ -13500,7 +13500,7 @@ media-libs/libgphoto2 2.5.34-r1: Library that implements support for numerous di
 media-libs/libgpod 0.8.3-r9: Shared library to access the contents of an iPod
 media-libs/libharu 2.4.2-r1 2.4.5 2.4.5-r1 2.4.6: C/C++ library for PDF generation
 media-libs/libhdhomerun 20190621 20200521: SiliconDust HDHomeRun Utilties
-media-libs/libheif 1.20.2 1.21.2 1.23.5 1.23.6 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.20.2 1.21.2 1.23.5 1.23.6 1.23.7 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libicns 0.8.1-r1: A library for manipulating MacOS X .icns icon format
 media-libs/libid3tag 0.16.3 0.16.4: The MAD id3tag library, Tenacity fork
 media-libs/libiec61883 1.2.0-r2: Library for capturing video (dv or mpeg2) over the IEEE 1394 bus
@@ -14861,7 +14861,7 @@ net-dns/nsd 4.14.3 4.15.0 4.15.1 4.15.2 4.15.3 4.15.4 9999: An authoritative onl
 net-dns/opendnssec 2.1.13-r2: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.16.5 3.17.0 3.17.3 3.17.4: A framework for managing DNS information
 net-dns/pdns 5.1.5: The PowerDNS Daemon
-net-dns/pdns-recursor 5.4.8: The PowerDNS Recursor
+net-dns/pdns-recursor 5.4.8 5.4.9: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/redis-knot 3.5.8 3.5.10 3.6.0 3.6.2: Redis module for Knot DNS
@@ -15605,7 +15605,7 @@ net-misc/x2goserver 4.1.0.6: The X2Go server
 net-misc/xmrig 6.22.2 6.26.0 9999: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/yandex-disk 0.1.6.1080_p1: CLI to access Yandex Disk file storage service
 net-misc/youtube-viewer 3.11.6 9999: A command line utility for viewing youtube-videos in Mplayer
-net-misc/yt-dlp 2026.08.19 2026.10.21 9999: youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2026.10.21 2026.10.26 9999: youtube-dl fork with additional features and fixes
 net-misc/ytmdl 2024.08.15.1-r3: Simple app to get songs from youtube in mp3 format
 net-misc/zerotier 1.14.2-r2 1.16.0-r2: A software-based managed Ethernet switch for planet Earth
 net-misc/zssh 1.5c-r3: SSH wrapper enabling zmodem up/download in ssh
@@ -16944,7 +16944,7 @@ sec-keys/openpgp-keys-zvbi 20260217: OpenPGP keys used by the zvbi developer
 sec-keys/signify-keys-opensmtpd 20181026: Signify keys used to sign OpenSMTPD portable releases
 sec-keys/signify-keys-signify 30: Signify keys used to sign signify portable releases
 sec-keys/sigstore-trusted-root 0_p20241016: trusted-root.json for dev-python/sigstore
-sec-policy/apparmor-profiles 3.1.4 4.1.1 4.1.7 5.0.2 9999: A collection of profiles for the AppArmor application security system
+sec-policy/apparmor-profiles 3.1.4 4.1.1 4.1.7 4.1.8 5.0.2 9999: A collection of profiles for the AppArmor application security system
 sec-policy/selinux-accountsd 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for accountsd
 sec-policy/selinux-acct 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for acct
 sec-policy/selinux-afs 2.20250618_p1 2.20260312_p1 2.20260616_p1 2.20260922_p1 9999: SELinux policy for afs
@@ -17257,8 +17257,8 @@ sys-apps/acl 2.3.2-r3 2.4.0-r2 9999: Access control list utilities, libraries, a
 sys-apps/agedu 20211129: A utility for tracking down wasted disk space
 sys-apps/amdgpu_top 0.10.3 0.10.4 0.11.0 0.11.2 0.11.5: Tool to display AMDGPU usage
 sys-apps/apmd 3.2.2_p14-r3: Advanced Power Management Daemon
-sys-apps/apparmor 3.1.4-r2 4.0.3 4.1.7 5.0.2: Userspace utils and init scripts for the AppArmor application security system
-sys-apps/apparmor-utils 3.1.4-r1 4.0.3-r1 4.1.7 5.0.2: Additional userspace utils to assist with AppArmor profile management
+sys-apps/apparmor 3.1.4-r2 4.0.3 4.1.7 4.1.8 5.0.2 5.0.2-r1: Userspace utils and init scripts for the AppArmor application security system
+sys-apps/apparmor-utils 3.1.4-r1 4.0.3-r1 4.1.7 4.1.8 5.0.2: Additional userspace utils to assist with AppArmor profile management
 sys-apps/apply-default-acl 0.4.4: Apply default POSIX ACLs to files and directories
 sys-apps/arch-chroot 29 31: Wraps the chroot command while ensuring that important filesystems are mounted
 sys-apps/arrayprobe 2.0-r3: Utility to report status of an HP (Compaq) array controller (both IDA & CCISS)
@@ -17984,10 +17984,10 @@ sys-kernel/dkms 3.3.0 3.4.3 3.4.4 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12 7.2.13 7.3.0: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-kernel 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 6.18.59 7.2.11 7.2.12 7.2.13: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 6.18.59 7.2.11 7.2.12 7.2.13: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 6.18.59 7.2.11 7.2.12 7.2.13: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-sources 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 6.18.59 7.2.11 7.2.12 7.2.13 7.3.0: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4 7.3_rc5 7.3_rc6 7.3_rc7: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18009,7 +18009,7 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.190 6.1.9999 6.6.159 6.6.160 6.6.9999 6.12.113 6.12.114 6.12.9999 6.18.57 6.18.58 6.18.9999 7.2.11 7.2.12: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 6.1.190 6.1.9999 6.6.159 6.6.160 6.6.9999 6.12.113 6.12.114 6.12.9999 6.18.57 6.18.58 6.18.59 6.18.9999 7.2.11 7.2.12 7.2.13: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.190 6.6.159 6.12.114 6.18.59 7.2.13 7.3.0: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.2.7: The Zen Kernel Live Sources
@@ -18030,7 +18030,7 @@ sys-libs/gpm 1.20.7-r6: Console-based mouse driver
 sys-libs/gwenhywfar 5.14.1: Multi-platform helper library for other libraries
 sys-libs/kpmcore 26.04.3 26.08.2: Library for managing partitions
 sys-libs/ldb 2.9.2: LDAP-like embedded database
-sys-libs/libapparmor 3.1.4-r2 4.0.3 4.0.3-r2 4.1.7 5.0.2: Library to support AppArmor userspace utilities
+sys-libs/libapparmor 3.1.4-r2 4.0.3 4.0.3-r2 4.1.7 4.1.8 5.0.2: Library to support AppArmor userspace utilities
 sys-libs/libavc1394 0.5.4-r2: Library for the 1394 AV/C (Audio/Video Control) Digital Interface Command Set
 sys-libs/libblockdev 3.4.0 3.5.0: Library for manipulating block devices
 sys-libs/libcap 2.78 9999: POSIX 1003.1e capabilities
@@ -18199,7 +18199,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 7.2.11 7.2.12: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.190 6.6.159 6.6.160 6.12.113 6.12.114 6.18.57 6.18.58 6.18.59 7.2.11 7.2.12 7.2.13: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0-r1: Virtual for .NET SDK
 virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18390,7 +18390,7 @@ www-apps/jekyll-coffeescript 2.0.0-r1: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r2: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 12.3: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 12.4: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
