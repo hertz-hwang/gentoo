@@ -1400,7 +1400,7 @@ app-containers/earthly 0.8.16-r1: Build automation tool that executes in contain
 app-containers/flannel 0.26.3: An etcd backed network fabric for containers
 app-containers/grype 0.59.1 0.61.0 0.72.0 0.73.0 0.79.3 0.86.1: A vulnerability scanner for container images and filesystems
 app-containers/img 0.5.11: Standalone daemon-less unprivileged Dockerfile and OCI container image builder
-app-containers/incus 7.0.1-r1 7.0.1-r2 7.0.2 7.3-r1 7.4-r1 7.5.1 9999: Modern, secure and powerful system container and virtual machine manager
+app-containers/incus 7.0.2 7.5.1 9999: Modern, secure and powerful system container and virtual machine manager
 app-containers/k3d 5.8.3 5.9.0: k3d creates k3s clusters in docker
 app-containers/kompose 1.35.0 1.38.0: Tool to move from docker-compose to Kubernetes
 app-containers/lxc 7.0.0 7.0.0-r1: A userspace interface for the Linux kernel containment features
@@ -1892,7 +1892,7 @@ app-editors/vscode 1.141.0 1.142.0 1.143.0 1.144.0: Multiplatform Visual Studio 
 app-editors/vscodium 1.135.06055 1.140.06880: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
-app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.9999: highly customizable open source text editor and application development system
+app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.37-r2 21.5.9999: highly customizable open source text editor and application development system
 app-editors/xmlcopyeditor 1.3.1.0-r4: XML Copy Editor is a fast, free, validating XML editor
 app-editors/xvile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
 app-editors/yudit 3.1.0: Free (Y)unicode text editor for all unices
@@ -3274,7 +3274,7 @@ app-text/dvipsk 2023.03.11_p66203 2024.03.11_p70015 2026.03.01_p77830: DVI-to-Po
 app-text/dvisvgm 2.14-r1 3.0.4 3.1 3.1.2 3.2 3.3 3.4 3.6: Converts DVI files to SVG
 app-text/ebook-tools 0.2.2-r4: Tools for accessing and converting various ebook file formats
 app-text/ebook2cw 0.8.5: Convert ebooks to Morse MP3s/OGGs
-app-text/editorconfig-core-c 0.12.6 0.12.9 0.12.11: EditorConfig core library written in C
+app-text/editorconfig-core-c 0.12.6 0.12.9 0.12.11 0.12.11-r1: EditorConfig core library written in C
 app-text/enchant 1.6.1-r2 2.6.1-r1 2.8.12 2.8.14 2.8.16: Spellchecker wrapping library
 app-text/enscript 1.6.6-r1 1.6.6-r2: Powerful text-to-postscript converter
 app-text/epspdf 0.6.5.1 0.6.5.2: GUI and command-line converter for [e]ps and pdf
@@ -5441,7 +5441,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 128.14.0 140.11.0 140.16.0 140.17.0 153.3.0 153.5.0 153.5.1: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 128.14.0 140.11.0 140.16.0 140.17.0 153.3.0 153.5.0 153.5.1 153.6.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1 4.5.1: Simplified Wrapper and Interface Generator
@@ -5903,7 +5903,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9 9999: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.38.2 4.39 4.40: Netscape Portable Runtime
-dev-libs/nss 3.112.5 3.125 3.129 3.130 3.131 3.131.1 3.132: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.125 3.132: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -5979,7 +5979,7 @@ dev-libs/serdisplib 2.02-r3: Library to drive several displays with built-in con
 dev-libs/sexpp 0.9.2: S-expressions parser and generator library in C++
 dev-libs/shhopt 1.1.7-r3: library for parsing command line options
 dev-libs/simde 0.8.2: Header-only library providing implementations of SIMD instruction sets
-dev-libs/simdjson 5.0.3 5.0.4 5.0.5 5.0.7-r1: SIMD accelerated C++ JSON library
+dev-libs/simdjson 5.0.3 5.0.4 5.0.5 5.0.8: SIMD accelerated C++ JSON library
 dev-libs/skalibs 2.14.4.0 2.14.5.0 2.14.5.1 2.15.0.0: General-purpose libraries from skarnet.org
 dev-libs/sleef 3.8 3.9.0: Implements vectorized versions of C standard math functions
 dev-libs/sltdl 0.5.1 0.5.2 9999: A surrogate ltdl implementation
@@ -6087,13 +6087,13 @@ dev-libs/zydis 4.1.1 9999: Fast and lightweight x86/x86-64 disassembler and code
 dev-libs/zziplib 0.13.80: Lightweight library for extracting data from files archived in a single zip file
 dev-lisp/abcl 1.10.0: Armed Bear Common Lisp is a Common Lisp implementation for the JVM
 dev-lisp/alexandria 1.4: A collection of portable utilities for Common Lisp
-dev-lisp/asdf 3.3.5-r1: ASDF is Another System Definition Facility for Common Lisp
+dev-lisp/asdf 3.3.5-r1 3.3.7: ASDF is Another System Definition Facility for Common Lisp
 dev-lisp/c2ffi 21.1.0.20260104: Clang-based FFI wrapper generator for Common Lisp
 dev-lisp/cl-ppcre 2.1.0-r1 2.1.2: CL-PPCRE is a portable regular expression library for Common Lisp
 dev-lisp/cl-ppcre-unicode 2.1.0-r1 2.1.2: CL-PPCRE is a portable regular expression library for Common Lisp
 dev-lisp/cl-unicode 0.1.5-r1: Provides Common Lisp implementations with knowledge about Unicode characters
 dev-lisp/clisp 2.49.92-r1 2.49.92-r3: Portable, bytecode-compiled implementation of Common Lisp
-dev-lisp/clozurecl 1.12.2 1.13: Common Lisp implementation, derived from Digitool's MCL product
+dev-lisp/clozurecl 1.12.2 1.13 1.14: Common Lisp implementation, derived from Digitool's MCL product
 dev-lisp/clx 0.7.5-r1: CLX is the Common Lisp interface to the X11 protocol primarily for SBCL
 dev-lisp/cmucl 21e: CMU Common Lisp is an implementation of ANSI Common Lisp
 dev-lisp/ecl 24.5.10 24.5.10-r1 26.3.27 26.5.5-r1: ECL is an embeddable Common Lisp implementation
@@ -6103,7 +6103,7 @@ dev-lisp/hyperspec 7.0-r3: Common Lisp ANSI-standard Hyperspec
 dev-lisp/roswell 21.10.14.111 22.12.14.113 23.10.14.114: A lisp installer and launcher for major environment
 dev-lisp/sbcl 2.5.4 2.5.11 2.6.7 2.6.8 2.6.9: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-lisp/trivial-gray-streams 20170830-r1: A thin compatibility layer between Gray Stream Common Lisp implementations
-dev-lisp/uiop 3.3.5: UIOP is a portability layer spun off ASDF3
+dev-lisp/uiop 3.3.5 3.3.7: UIOP is a portability layer spun off ASDF3
 dev-lua/LuaBitOp 1.0.2-r1 1.0.3: Bit Operations Library for the Lua Programming Language
 dev-lua/basexx 0.4.1: A base2, base16, base32, base64 and base85 library for Lua
 dev-lua/binaryheap 0.4: Binary heap implementation in pure Lua
@@ -10874,7 +10874,7 @@ dev-util/act 0.2.59 0.2.64: run github workflows locally
 dev-util/amdsmi 7.0.2 7.1.1 7.2.0 10.1.0: AMD System Management Interface for managing and monitoring GPUs
 dev-util/amtterm 1.6-r1: A nice tool to manage amt-enabled machines
 dev-util/android-sdk-cmdline-tools 0_p11076708-r1 0_p14742923: Open Handset Alliance's Android SDK
-dev-util/android-studio 2026.2.1.8: Android development environment based on IntelliJ IDEA
+dev-util/android-studio 2026.2.2.8: Android development environment based on IntelliJ IDEA
 dev-util/android-tools 35.0.2 36.0.1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/android-udev-rules 20260423 20260922: Android udev rules list aimed to be the most comprehensive on the net
 dev-util/anjuta 3.34.0-r3: Base library of defunct IDE for GNOME to run applications
@@ -10915,7 +10915,7 @@ dev-util/cargo-tarpaulin 0.35.0 0.35.1 0.35.2 0.37.0 0.37.5: Cargo-Tarpaulin is 
 dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
 dev-util/catalyst 4.1.0 4.1.1-r1 4.2.0 9999: Release metatool used for creating releases based on Gentoo Linux
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
-dev-util/cbindgen 0.29.3 0.29.4: A tool for generating C bindings to Rust code
+dev-util/cbindgen 0.29.4: A tool for generating C bindings to Rust code
 dev-util/ccache 4.13.5 4.14: Fast compiler cache
 dev-util/cccc 3.1.6-r1 3.2.0: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20250815.1 9999: C/C++/ObjC language server
@@ -11045,7 +11045,7 @@ dev-util/gtk-doc 1.34.0-r2 1.36.1: GTK+ Documentation Generator
 dev-util/gtk-update-icon-cache 3.24.42: GTK update icon cache
 dev-util/heaptrack 1.5.80_pre20251017 9999: Fast heap memory profiler
 dev-util/herdtools7 7.51: The Herd toolsuite to deal with .cat memory models
-dev-util/hermes 2.9 3.1 9999: Lua based testing manager
+dev-util/hermes 2.9 3.1 3.2 9999: Lua based testing manager
 dev-util/hfstospell 0.5.4-r1: HFST spell checker library and command line tool
 dev-util/hip 6.3.3-r2 6.4.3-r2 7.0.2-r1 7.1.0-r1 7.2.0-r2 10.1.0: C++ Heterogeneous-Compute Interface for Portability
 dev-util/hipcc 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: Radeon Open Compute hipcc
@@ -11102,7 +11102,7 @@ dev-util/makeheaders 0_p20240823 0_p20251008: Tool that automatically generates 
 dev-util/makepp 2.0.99.2: GNU make replacement
 dev-util/marksman 2025.11.25 2026.02.08: LSP language server for editing Markdown files
 dev-util/massif-visualizer 26.04.3 26.08.2: Tool visualising massif data
-dev-util/maturin 1.14.1 1.15.0: Build and publish crates with pyo3, rust-cpython and cffi bindings
+dev-util/maturin 1.15.0 1.16.0: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.22.3 3.24.0: A graphical diff and merge tool
@@ -14548,7 +14548,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20260716 20261002: Download media files from Yle Areena
+media-video/yle-dl 20261002: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
@@ -15604,7 +15604,7 @@ net-misc/wormhole-william 1.0.8: End-to-end encrypted file transfer, a magic wor
 net-misc/wput 0.6.2_p20130413_p11-r1: Tiny program like wget, to upload files/whole directories via FTP
 net-misc/x11-ssh-askpass 1.2.4.1-r2: X11-based passphrase dialog for use with OpenSSH
 net-misc/x2goserver 4.1.0.6: The X2Go server
-net-misc/xmrig 6.22.2 6.26.0 9999: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
+net-misc/xmrig 6.22.2 6.26.0-r1 9999: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/yandex-disk 0.1.6.1080_p1: CLI to access Yandex Disk file storage service
 net-misc/youtube-viewer 3.11.6 9999: A command line utility for viewing youtube-videos in Mplayer
 net-misc/yt-dlp 2026.10.21 2026.10.26 9999: youtube-dl fork with additional features and fixes
@@ -15792,7 +15792,7 @@ net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, s
 net-vpn/tailscale 1.100.0 1.102.0 1.102.2 1.102.5 1.104.1 1.104.2: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.13 0.4.9.14 9999: Anonymizing overlay network for TCP
-net-vpn/vopono 0.10.22 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
+net-vpn/vopono 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 20250727 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
 net-vpn/vpncloud 2.3.0-r2: High performance peer-to-peer mesh VPN
@@ -16165,7 +16165,7 @@ sci-geosciences/gpscorrelate 2.0-r1 2.3: Tool for adjusting EXIF tags of your ph
 sci-geosciences/gpsd 3.26.1-r1 3.27.5 9999: GPS daemon and library for USB/serial GPS devices and GPS/mapping clients
 sci-geosciences/gpsprune-bin 23.2: An application for viewing, editing and converting GPS data
 sci-geosciences/gpx-viewer 0.4.0-r2: Simple program to visualize a gpx file
-sci-geosciences/gpxsee 16.11 16.16 16.17: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
+sci-geosciences/gpxsee 16.11 16.17 16.19: Viewer and analyzer that supports gpx, tcx, kml, fit, igc and nmea files
 sci-geosciences/grass 8.4.1-r2 8.4.2 8.5.0_rc1 8.5.0-r1 9999: Free GIS with raster and vector functionality, as well as 3D vizualization
 sci-geosciences/gshhg-gmt 2.3.7: Global Self-consistent, Hierarchical, High-resolution Geography Database
 sci-geosciences/gshhs 1.13-r1: Global Self-consistent, Hierarchical, High-resolution Shoreline programs
@@ -16583,7 +16583,7 @@ sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the Py
 sci-ml/ollama 0.40.10: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
-sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.1: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.1 2.15.0: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 sci-ml/safetensors 0.7.0 0.8.0: Simple, safe way to store and distribute tensors
 sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generation
 sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
@@ -16743,7 +16743,7 @@ sec-keys/openpgp-keys-gawk 20220407: OpenPGP keys used by GNU Awk
 sec-keys/openpgp-keys-gdal 20260412: OpenPGP keys used to sign GDAL
 sec-keys/openpgp-keys-gdbm 20220407 20250323: OpenPGP keys used by GNU dbm
 sec-keys/openpgp-keys-gentoo-auth 20260206: Gentoo Authority Keys (GLEP 79)
-sec-keys/openpgp-keys-gentoo-developers 20260323 20260406 20260622 20260727 99999999: Gentoo Authority Keys (GLEP 79)
+sec-keys/openpgp-keys-gentoo-developers 20260323 20260406 20260622 20260727 20261026 99999999: Gentoo Authority Keys (GLEP 79)
 sec-keys/openpgp-keys-gentoo-infrastructure 20260202 20260727 99999999: Gentoo Authority Keys (GLEP 79)
 sec-keys/openpgp-keys-gentoo-release 20260125: OpenPGP keys used for Gentoo releases (snapshots, stages)
 sec-keys/openpgp-keys-gettext 20220407 20250608: OpenPGP keys used by GNU gettext
@@ -17759,7 +17759,7 @@ sys-cluster/legion 23.03.0-r1 9999: Data-centric parallel programming system
 sys-cluster/libcircle 0.3.0: API for distributing embarrassingly parallel workloads using self-stabilization
 sys-cluster/libqb 2.0.8-r1 2.0.9: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/libquo 1.3.1-r3 1.4.1 9999: Run-time tuning of process binding policies made easy
-sys-cluster/lmod 8.6.14-r1 8.7.67 9.0.8 9.1.2 9.2 9.2.1 9.2.2 9.2.4 9.4 9999: Environment Module System based on Lua
+sys-cluster/lmod 8.6.14-r1 8.7.67 9.0.8 9.1.2 9.2 9.2.1 9.2.2 9.2.4 9.4 9.4.5 9999: Environment Module System based on Lua
 sys-cluster/medipack 1.4.0 9999: Message Differentiation Package
 sys-cluster/minikube 1.37.0 1.38.1: Local kubernetes clusters for learning and development
 sys-cluster/mpich 3.4.3-r1: A high performance and portable MPI implementation
