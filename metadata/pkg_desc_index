@@ -5631,7 +5631,7 @@ dev-libs/kdiagram 3.0.1: Powerful libraries (KChart, KGantt) for creating busine
 dev-libs/kdsingleapplication 1.2.1: KDAB's helper class for single-instance policy applications
 dev-libs/keybinder 0.3.2-r300: A library for registering global keyboard shortcuts
 dev-libs/keystone 0.9.2-r3 0.9.2-r4 9999: assembly/assembler framework + bindings
-dev-libs/kirigami-addons 1.14.2 1.15.0: Visual end user components for Kirigami-based applications
+dev-libs/kirigami-addons 1.14.2 1.15.0 1.16.0: Visual end user components for Kirigami-based applications
 dev-libs/kirigami-app-components 1.1.1: Kirigami addons and modules necessary to do a full featured KDE application
 dev-libs/kopeninghours 26.04.3 26.08.2: Library for parsing and evaluating OSM opening hours expressions
 dev-libs/kosmindoormap 26.04.3 26.08.2: Data Model and Extraction System for Travel Reservation information
@@ -12645,7 +12645,7 @@ kde-plasma/kpipewire 6.7.5 6.8.2: Components relating to Flatpak pipewire use in
 kde-plasma/krdp 6.7.5-r1 6.8.2: Library and examples for creating an RDP server
 kde-plasma/kscreen 6.7.5 6.8.2: KDE Plasma screen management
 kde-plasma/kscreenlocker 6.7.5 6.8.2: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 6.7.5 6.7.5-r1 6.8.2: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/ksshaskpass 6.7.5-r1 6.8.2: Implementation of ssh-askpass with KDE Wallet integration
 kde-plasma/ksystemstats 6.7.5 6.8.2: Plugin-based system monitoring daemon
 kde-plasma/kup 6.8.2: Backup scheduler for the Plasma desktop
 kde-plasma/kwallet-pam 6.7.5 6.8.2: PAM module to not enter KWallet password again after login
@@ -12682,7 +12682,7 @@ kde-plasma/plasma-systemmonitor 6.7.5 6.8.2: Monitor system sensors, process inf
 kde-plasma/plasma-thunderbolt 6.7.5 6.8.2: Plasma integration for controlling Thunderbolt devices
 kde-plasma/plasma-vault 6.7.5 6.8.2: Plasma applet and services for creating encrypted vaults
 kde-plasma/plasma-welcome 6.7.5 6.8.2: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.7.5-r1 6.8.2: KDE Plasma workspace
+kde-plasma/plasma-workspace 6.7.5-r1 6.8.2 6.8.2-r1: KDE Plasma workspace
 kde-plasma/plasma-workspace-wallpapers 6.7.5 6.8.2: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.7.5 6.8.2: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.7.5 6.8.2: KDE Plasma control module for Plymouth
@@ -15168,7 +15168,7 @@ net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP
 net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
-net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 22.23.4-r1 24.22.1 24.22.1-r1 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 22.23.4-r1 24.22.1 24.22.1-r1 24.22.2 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
@@ -16152,6 +16152,7 @@ sci-electronics/xnec2c 4.4.18: A GTK+ graphical interactive version of nec2c
 sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
 sci-electronics/xoscope 2.3: Soundcard Oscilloscope for X
 sci-geosciences/GeographicLib 2.3 2.5 2.7: C++ library for converting geographic coordinate systems
+sci-geosciences/affine 3.0.1: Affine transformation matrices
 sci-geosciences/dcw-gmt 1.1.4: Digital Chart of the World for GMT 5 or later
 sci-geosciences/folium 0.20.0-r2: Python Data, Leaflet.js Maps
 sci-geosciences/foxtrotgps 1.2.2-r2: Easy to use, fast and lightweight mapping application (fork of tangogps)
@@ -16187,6 +16188,7 @@ sci-geosciences/owntracks-recorder 1.0.4: Stores and accesses location data publ
 sci-geosciences/pymap3d 3.2.0: Python 3-D coordinate conversions
 sci-geosciences/qgis 4.0.3 9999: User friendly Geographic Information System
 sci-geosciences/qmapshack 1.19.0 1.20.3 1.21.1 1.21.1-r1: GPS mapping utility
+sci-geosciences/rasterio 1.5.2: Rasterio reads and writes geospatial raster datasets
 sci-geosciences/readosm 1.1.0a: Library to extract valid data from an Open Street Map input file
 sci-geosciences/routino 3.4.3: Routing application based on openstreetmap data
 sci-geosciences/s2geometry 0.13.1-r3: Computational geometry and spatial indexing on the sphere
