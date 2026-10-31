@@ -1501,7 +1501,7 @@ app-crypt/libscrypt 1.22-r3: Shared library to implement the scrypt algorithm
 app-crypt/libsecret 0.21.7 0.21.7-r1 0.21.8.2-r1: GObject library for accessing the freedesktop.org Secret Service API
 app-crypt/libu2f-host 1.1.10-r1: Yubico Universal 2nd Factor (U2F) Host C Library
 app-crypt/libu2f-server 1.1.0-r2: Yubico Universal 2nd Factor (U2F) server C Library
-app-crypt/loop-aes-losetup 2.40.2 2.41.1: Loop-AES losetup utility
+app-crypt/loop-aes-losetup 2.41.1 2.42.2: Loop-AES losetup utility
 app-crypt/mcrypt 2.6.8-r3: Replacement of the old unix crypt(1)
 app-crypt/md5deep 4.4: Expanded md5sum program with recursive and comparison options
 app-crypt/md6sum 1.0-r3: A C implementation of MD6
@@ -2466,8 +2466,8 @@ app-emulation/wine-desktop-common 20150204-r2: Various desktop menu items and ic
 app-emulation/wine-gecko 2.47.3 2.47.4: Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 7.4.0 8.1.0 9.3.1 9.4.0 10.0.0 10.3.0 10.4.1 11.0.0 11.1.0 11.2.0 11.3.0: Replacement for the .NET runtime and class libraries in Wine
 app-emulation/wine-proton 9.0.4-r2 10.0.4 11.0.2 11.0.2e 9999: Valve Software's fork of Wine
-app-emulation/wine-staging 11.0 11.18 11.19 11.20 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
-app-emulation/wine-vanilla 9.0.1-r1 10.0-r2 11.0 11.18 11.19 11.20 9999: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/wine-staging 11.0 11.18 11.19 11.20 11.21 9999: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
+app-emulation/wine-vanilla 9.0.1-r1 10.0-r2 11.0 11.18 11.19 11.20 11.21 9999: Free implementation of Windows(tm) on Unix, without external patchsets
 app-emulation/winetricks 20260125 99999999: Easy way to install DLLs needed to work around problems in Wine
 app-emulation/x48 0.6.4-r3: HP48 Calculator Emulator
 app-emulation/xcpc 0.37.0-r1: XCPC is a portable Amstrad CPC 464/664/6128 emulator written in C
@@ -4203,7 +4203,7 @@ dev-embedded/pk2cmd 1.20-r1: An application for working with the Microchip PicKi
 dev-embedded/platformio 6.1.19-r2 6.2.0-r1: An open source ecosystem for IoT development
 dev-embedded/ponyprog 3.1.4_p20250501-r1: EEPROM and microcontroller programmer/flasher
 dev-embedded/powersoftplus-libftdi 0.1.8-r1: Library which includes a table of VIDs and PIDs of Ever UPS devices
-dev-embedded/raspberrypi-utils 0_p20240903 0_p20260527: Raspberry Pi userspace utilities
+dev-embedded/raspberrypi-utils 0_p20240903 0_p20260527 0_p20261026: Raspberry Pi userspace utilities
 dev-embedded/rpi-eeprom 28.24_p1 28.28 28.30 28.31 28.32: Updater for Raspberry Pi 4/5 bootloader and the VL805 USB controller
 dev-embedded/sdcc 4.3.0-r1 4.5.0 9999: Small device C compiler (for various microprocessors)
 dev-embedded/smdk-dltool 0.20-r4: Tool to communicate with Samsung SMDK boards
@@ -6065,7 +6065,7 @@ dev-libs/voikko-fi 2.6: Finnish dictionary for libvoikko based spell checkers (v
 dev-libs/volume_key 0.3.12-r4: Library for manipulating and storing storage volume encryption keys
 dev-libs/wayland 1.26.0 9999: Wayland protocol libraries
 dev-libs/wayland-protocols 1.49 9999: Wayland protocol files
-dev-libs/weston 14.0.2-r1 15.0.1 16.0.1 9999: Wayland reference compositor
+dev-libs/weston 14.0.2-r1 15.0.1 16.0.2 9999: Wayland reference compositor
 dev-libs/xalan-c 1.12-r4: XSLT processor for transforming XML into HTML, text, or other XML types
 dev-libs/xapian 1.4.29 1.4.30 1.4.31 1.4.32 2.0.0 2.1.0: Xapian Probabilistic Information Retrieval library
 dev-libs/xapian-bindings 1.4.29 1.4.29-r1 1.4.30 1.4.31 1.4.32 2.0.0 2.1.0: SWIG and JNI bindings for Xapian
@@ -7296,7 +7296,7 @@ dev-perl/MIME-EncWords 1.15.0: Deal with RFC 2047 encoded words (improved)
 dev-perl/MIME-Lite 3.33.0: Low-calorie MIME generator
 dev-perl/MIME-Lite-HTML 1.240.0-r1: Provide routine to transform a HTML page in a MIME-Lite mail
 dev-perl/MIME-Types 2.270.0 2.280.0 2.290.0: Definition of MIME types
-dev-perl/MIME-tools 5.515.0 5.517.0: A Perl module for parsing and creating MIME entities
+dev-perl/MIME-tools 5.517.0 5.522.0: A Perl module for parsing and creating MIME entities
 dev-perl/MLDBM 2.50.0-r1: Multidimensional/tied hash Perl Module
 dev-perl/MLDBM-Sync 0.300.0-r2: Safe concurrent access to MLDBM databases
 dev-perl/MP3-Info 1.260.0-r1: A Perl module to manipulate/fetch info from MP3 files
@@ -7936,7 +7936,7 @@ dev-perl/Text-Autoformat 1.750.0: Automatic text wrapping and reformatting
 dev-perl/Text-BibTeX 0.890.0-r2 0.910.0: A Perl library for reading, parsing, and processing BibTeX files
 dev-perl/Text-CSV 2.30.0 2.40.0 2.60.0: Manipulate comma-separated value strings
 dev-perl/Text-CSV-Simple 1.0.0-r2: Text::CSV::Simple - Simpler parsing of CSV files
-dev-perl/Text-CSV_XS 1.620.0: Comma-separated values manipulation routines
+dev-perl/Text-CSV_XS 1.620.0 1.650.0: Comma-separated values manipulation routines
 dev-perl/Text-CharWidth 0.40.0-r2: Get number of occupied columns of a string on terminal
 dev-perl/Text-Diff 1.450.0-r1: Perform diffs on files and record sets
 dev-perl/Text-FindIndent 0.110.0-r1 0.120.0: Heuristically determine the indent style
@@ -11062,7 +11062,7 @@ dev-util/intel-graphics-compiler 2.41.9-r1 2.42.3: LLVM-based OpenCL compiler fo
 dev-util/intel-graphics-compiler-bin 1.0.17791.9: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 1.3.1 1.3.2: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
-dev-util/intellij-idea 2026.2.3: A complete toolset for web, mobile and enterprise development
+dev-util/intellij-idea 2026.2.4: A complete toolset for web, mobile and enterprise development
 dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
 dev-util/its4 1.1.1-r2: ITS4: Software Security Tool
 dev-util/itstool 2.0.7-r2 2.0.7_p20250326: Translation tool for XML documents that uses gettext files and ITS rules
@@ -11128,7 +11128,7 @@ dev-util/oprofile 1.4.0-r1: A transparent low-overhead system-wide profiler
 dev-util/ostree 2024.3-r2 2024.8-r1 2025.2 2025.6 2025.7: Operating system and container binary deployment and upgrades
 dev-util/packer 1.14.1 1.14.3 1.15.4 1.16.0: A tool to create identical machine images for multiple platforms
 dev-util/pahole 1.27-r1 1.29 1.30 1.31 1.32 9999: pahole (Poke-a-Hole) and other DWARF utilities
-dev-util/patchelf 0.17.2-r1 0.18.0 0.19.2: Small utility to modify the dynamic linker and RPATH of ELF executables
+dev-util/patchelf 0.17.2-r1 0.18.0 0.19.2 0.19.3: Small utility to modify the dynamic linker and RPATH of ELF executables
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
@@ -13755,7 +13755,6 @@ media-libs/zint 2.15.0 2.16.0: Barcode encoding library supporting over 50 symbo
 media-libs/zita-alsa-pcmi 0.6.1: Provides easy access to ALSA PCM devices
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-libs/zita-resampler 1.11.2: C++ library for real-time resampling of audio signals
-media-libs/zmusic 1.3.0: UZDoom's music system as a standalone library
 media-libs/zvbi 0.2.44 0.2.45: VBI Decoding Library for Zapping
 media-libs/zxing-cpp 2.3.0-r1 3.1.1: C++ Multi-format 1D/2D barcode image processing library
 media-plugins/alsa-plugins 1.2.12: ALSA extra plugins
@@ -14474,7 +14473,7 @@ media-video/lossless-cut-bin 3.68.0: The swiss army knife of lossless video/audi
 media-video/lsdvd 0.17: Utility for getting info out of DVDs
 media-video/lxdvdrip 1.77-r1 1.77-r2: Command line tool to automate the process of ripping and burning DVDs
 media-video/m2vrequantizer 0.0.2_pre20060306-r1: Tool to requantize mpeg2 videos
-media-video/makemkv 2.0.0: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
+media-video/makemkv 1.18.4 2.0.0: Tool for ripping and streaming Blu-ray, HD-DVD and DVD discs
 media-video/matroxset 0.4-r2: Matrox utility to switch output modes (activate tvout)
 media-video/mediainfo 24.11-r1 26.05: MediaInfo supplies technical and tag information about media files
 media-video/mjpegtools 2.2.1-r2: Tools for MJPEG video
@@ -14758,7 +14757,7 @@ net-analyzer/squidview 0.86: Interactive console program to analyse squid logs
 net-analyzer/ssh-audit 3.3.0_p20250901 3.9.0_p20261011: SSH server auditing (banner, key exchange, encryption, mac, compression, etc)
 net-analyzer/sshping 0.1.4-r1: ssh-based ping: measure character echo latency and bandwidth
 net-analyzer/ssldump 1.5 1.8 1.9: An SSLv3/TLS network protocol analyzer
-net-analyzer/sslscan 2.2.0 2.2.1-r1 2.2.2: Fast SSL configuration scanner
+net-analyzer/sslscan 2.2.0 2.2.2 2.2.3: Fast SSL configuration scanner
 net-analyzer/sslsplit 0.5.5-r1: Transparent SSL/TLS interception
 net-analyzer/ssmping 0.9.1: Tool for testing multicast connectivity
 net-analyzer/suricata 7.0.15-r1: High performance Network IDS, IPS and Network Security Monitoring engine
@@ -15565,7 +15564,7 @@ net-misc/sysrepo 3.3.10: YANG-based configuration and operational state data sto
 net-misc/taptap 1.0-r2: Program to link two /dev/net/tun to form virtual ethernet
 net-misc/taylor-uucp 1.07-r7: Taylor UUCP
 net-misc/tcpsound 0.3.1-r1: Play sounds in response to network traffic
-net-misc/teamviewer 15.73.5 15.81.5 15.82.6: All-In-One Solution for Remote Access and Support over the Internet
+net-misc/teamviewer 15.73.5 15.81.5 15.82.6 15.83.3: All-In-One Solution for Remote Access and Support over the Internet
 net-misc/telnet-bsd 1.2-r6: Telnet and telnetd ported from OpenBSD with IPv6 support
 net-misc/throttle 1.2-r1 1.2-r3: Bandwidth limiting pipe
 net-misc/tiers 1.1: Random network topography generator
@@ -16592,7 +16591,7 @@ sci-ml/seqeval 1.2.2-r4: Python framework for sequence labeling evaluation
 sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1 0.23.2 0.23.3-r1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0-r1: A repo for data loading and utilities on PyTorch domain libraries
-sci-ml/torchvision 0.27.0 0.28.0 0.29.1-r1: Datasets, transforms and models to specific to computer vision
+sci-ml/torchvision 0.27.0 0.28.0 0.29.1-r2: Datasets, transforms and models to specific to computer vision
 sci-ml/transformers 5.3.0-r1 5.15.1 5.17.0 5.18.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
@@ -17928,7 +17927,7 @@ sys-fs/lessfs 1.7.0-r2: A high performance inline data deduplicating filesystem
 sys-fs/libeatmydata 131: LD_PRELOAD hack to convert sync()/msync() and the like to NO-OP
 sys-fs/libfat 0.3a-r1: Support library to access and manipulate FAT12 / FAT16 / FAT32 file systems
 sys-fs/linux-apfs-rw 0.3.10 0.3.13: APFS module for linux, with experimental write support
-sys-fs/loop-aes 3.8e 3.8g: Linux kernel module to encrypt disk partitions with AES cipher
+sys-fs/loop-aes 3.8g 3.8j: Linux kernel module to encrypt disk partitions with AES cipher
 sys-fs/lsscsi 0.32-r1: SCSI sysfs query tool
 sys-fs/lufis 0.3-r1: Wrapper to use lufs modules with fuse kernel support
 sys-fs/lufs 0.9.7-r4: User-mode filesystem implementation
@@ -18432,7 +18431,7 @@ www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mas
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.19.2979: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
-www-apps/tt-rss 20250417 20251216 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
+www-apps/tt-rss 20250417 20251216 20261025 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7-r1 1.7.7-r2 9999: ttyd, a simple command-line tool for sharing terminal over the web
 www-apps/vaultwarden-web 2026.1.1 2026.4.1 2026.6.4 2026.7.0: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
