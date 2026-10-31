@@ -9723,7 +9723,7 @@ dev-python/starlette 1.6.0 1.7.0 1.8.0 1.9.0 1.10.0: The little ASGI framework t
 dev-python/statsd 4.0.1: A simple statsd client
 dev-python/statsmodels 0.14.6 0.15.0: Statistical computations and models for use with SciPy
 dev-python/stdio-mgr 1.0.1.1: Context manager for mocking/wrapping stdin/stdout/stderr
-dev-python/stevedore 5.9.0 5.9.1: Manage dynamic plugins for Python applications
+dev-python/stevedore 5.9.1: Manage dynamic plugins for Python applications
 dev-python/strict-rfc3339 0.7-r2: Strict, simple, lightweight RFC3339 functions
 dev-python/stripe 16.0.1 16.1.0: Stripe Python bindings
 dev-python/structlog 26.1.0: Structured Logging for Python
@@ -12108,7 +12108,7 @@ gnome-base/gnome-panel 3.54.0 3.56.0 3.58.1: The GNOME Flashback Panel
 gnome-base/gnome-session 49.3 50.1: Gnome session manager
 gnome-base/gnome-session-openrc 49.2-r1 49.3 50.0: Gnome session leader for OpenRC
 gnome-base/gnome-settings-daemon 49.1-r1 50.1: Gnome Settings Daemon
-gnome-base/gnome-shell 48.8 49.7 49.9 50.5: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.8 49.7 49.9 50.5 50.6: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.1 50.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.5 1.60.3: Virtual filesystem implementation for GIO
 gnome-base/libglade 2.6.4-r5: Library to construct graphical interfaces at runtime
@@ -12116,7 +12116,7 @@ gnome-base/libgnomecanvas 2.30.3-r1: The Gnome 2 Canvas library
 gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
 gnome-base/libgtop 2.40.0-r2 2.41.3: A library that provides top functionality to applications
 gnome-base/librsvg 2.40.21-r1 2.58.5-r1 2.62.3 2.62.4: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 49.6-r1 50.3.1: Default file manager for the GNOME desktop
+gnome-base/nautilus 49.6-r1 50.3.1 50.4: Default file manager for the GNOME desktop
 gnome-extra/cinnamon 6.6.9: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/cinnamon-control-center 6.6.0: Cinnamons's main interface to configure various aspects of the desktop
 gnome-extra/cinnamon-desktop 6.6.2: A collection of libraries and utilites used by Cinnamon
@@ -12167,7 +12167,7 @@ gnome-extra/gnome-weather 48.0 49.0 50.0: A weather application for GNOME
 gnome-extra/gucharmap 17.0.2: Unicode character map viewer and library
 gnome-extra/krb5-auth-dialog 43.0-r1: An application to acquire and list Kerberos tickets
 gnome-extra/libgda 5.2.9-r3: GNOME database access library
-gnome-extra/libgsf 1.14.53-r1 1.14.56 1.14.58: The GNOME Structured File Library
+gnome-extra/libgsf 1.14.58 1.14.59: The GNOME Structured File Library
 gnome-extra/mousetweaks 3.32.0-r1: Mouse accessibility enhancements for the GNOME desktop
 gnome-extra/nautilus-dropbox 2024.04.17: Dropbox Nautilus Extension
 gnome-extra/nautilus-sendto 3.8.6-r1: A nautilus extension for sending files to locations
@@ -12276,7 +12276,7 @@ gui-libs/egl-x11 1.0.5 1.0.6: NVIDIA X11/XCB EGL external platform library
 gui-libs/eglexternalplatform 1.2.1: EGL External Platform interface
 gui-libs/gdk-pixbuf-loader-webp 0.2.7: WebP GDK Pixbuf Loader library
 gui-libs/greetd 0.10.0-r1 0.10.3-r1: ipc based login daemon
-gui-libs/gtk 4.18.6-r1 4.20.3-r2 4.20.4-r1 4.22.5-r1: GTK is a multi-platform toolkit for creating graphical user interfaces
+gui-libs/gtk 4.18.6-r1 4.20.4-r1 4.22.5-r1: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtk-layer-shell 0.10.0 0.10.1: Library to create desktop components for Wayland using the Layer Shell protocol
 gui-libs/gtk4-layer-shell 1.1.1-r1 1.3.0: A library for using the Layer Shell Wayland protocol with GTK4
 gui-libs/gtksourceview 5.18.0 5.20.0: A text widget implementing syntax highlighting and other features
@@ -15789,7 +15789,7 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.100.0 1.102.0 1.102.2 1.102.5 1.104.1 1.104.2 1.104.4: Tailscale vpn client
+net-vpn/tailscale 1.104.4: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.13 0.4.9.14 0.4.9.15 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
@@ -18425,7 +18425,7 @@ www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couch
 www-apps/radicale 3.8.3 3.9.0: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
-www-apps/roundup 2.3.0 2.4.0 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
+www-apps/roundup 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 5.3.19 5.3.20 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
@@ -19357,7 +19357,7 @@ x11-wm/matwm2 0.1.2_pre3-r2 0.1.2_pre3-r3: Simple EWMH compatible window manager
 x11-wm/metacity 3.54.0-r1 3.56.0 3.58.1: GNOME Flashback window manager
 x11-wm/muffin 6.6.3: Compositing window manager forked from Mutter for use with Cinnamon
 x11-wm/musca 0.9.24_p20100226-r4: A simple dynamic window manager, with features nicked from ratpoison and dwm
-x11-wm/mutter 48.8 49.6 49.7 50.5 9999: GNOME compositing window manager based on Clutter
+x11-wm/mutter 48.8 49.6 49.7 50.5 50.6 9999: GNOME compositing window manager based on Clutter
 x11-wm/notion 4.0.4 4.0.5 9999: Notion is a tiling, tabbed window manager for the X window system
 x11-wm/openbox 3.6.1-r11 9999: Standards compliant, fast, light-weight, extensible window manager
 x11-wm/oroborus 2.0.20-r2: Small and fast window manager
