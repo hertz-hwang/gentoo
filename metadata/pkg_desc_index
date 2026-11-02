@@ -774,7 +774,7 @@ acct-user/readarr 0-r1: User for readarr
 acct-user/redict 0: Redict program user
 acct-user/redis 0-r2: Redis program user
 acct-user/redis_exporter 0-r2: A user for app-metrics/redis_exporter
-acct-user/redmine 0-r3: Redmine application user
+acct-user/redmine 0-r4: Redmine application user
 acct-user/redsocks 0-r3: A user for net-proxy/redsocks
 acct-user/reg 0-r3: A user for app-containers/reg
 acct-user/registry 0-r2: A user for app-containers/docker-registry
@@ -1119,7 +1119,7 @@ app-admin/watchfolder 0.3.3-r2: Watches directories and processes files
 app-admin/webalizer 2.23.08-r1: Webserver log file analyzer
 app-admin/webapp-config 1.56 9999: Gentoo's installer for web-based applications
 app-admin/whowatch 1.8.6-r2: Displays information about users currently logged on in real time
-app-admin/winbox 4.4: Management Software for MikroTik RouterOS
+app-admin/winbox 4.5_rc2: Management Software for MikroTik RouterOS
 app-admin/xkcdpass 1.20.0 1.30.0: Password generator inspired by XKCD 936
 app-admin/xstow 1.1.1: Replacement for GNU stow with extensions
 app-admin/xtail 2.1_p8: Tail multiple logfiles at once, even if rotated
@@ -1231,7 +1231,7 @@ app-arch/unace 2.5-r6: ACE unarchiver
 app-arch/unadf 0.7.12-r2 0.9.0: Extract files from Amiga adf disk images
 app-arch/unar 1.10.8: Unpacker for various archiving formats, e.g. rar v3
 app-arch/unp 2.0: Script for unpacking various file formats
-app-arch/unrar 7.2.7 7.3.1 7.3.2: Uncompress rar files
+app-arch/unrar 7.3.1 7.3.2: Uncompress rar files
 app-arch/unrpa 2.3.0-r1: Ren'Py's RPA data file extractor
 app-arch/unshield 1.6.2-r1: InstallShield CAB file extractor
 app-arch/unzip 6.0_p29-r2 6.0_p31: unzipper for pkzip-compressed files
@@ -1317,7 +1317,7 @@ app-benchmarks/pmbw 0.6.3: Parallel Memory Bandwidth Measurement / Benchmark Too
 app-benchmarks/ramspeed 3.5.0-r2: Benchmarking for memory and cache
 app-benchmarks/siege 4.1.7: HTTP regression testing and benchmarking utility
 app-benchmarks/stress 1.0.7: A deliberately simple workload generator for POSIX systems
-app-benchmarks/stress-ng 0.21.04 0.22.01: Stress test for a computer system with various selectable ways
+app-benchmarks/stress-ng 0.22.01: Stress test for a computer system with various selectable ways
 app-benchmarks/sysbench 1.0.20-r101: A scriptable multi-threaded benchmark tool based on LuaJIT
 app-benchmarks/tiobench 0.5.0: Portable, robust, fully-threaded I/O benchmark program
 app-benchmarks/wrk 4.2.0: A HTTP benchmarking tool
@@ -1325,7 +1325,7 @@ app-cdr/b5i2iso 0.2-r2: Convert CD images from b5i (BlindWrite) to iso
 app-cdr/bashburn 3.1.0-r2: A shell script for burning optical media
 app-cdr/bchunk 1.2.2-r1: Convert CD images from bin/cue to iso+wav/cdr
 app-cdr/bin2iso 19b-r3: converts RAW format (.bin/.cue) files to ISO/WAV format
-app-cdr/brasero 3.12.3-r4: CD/DVD burning application for the GNOME desktop
+app-cdr/brasero 3.12.3-r4 3.12.4: CD/DVD burning application for the GNOME desktop
 app-cdr/burncdda 1.8.3-r1: Console app for copying burning audio cds
 app-cdr/ccd2iso 0.3-r2: Convert CD images from ccd (CloneCD) to iso
 app-cdr/cdck 0.7.0-r3: Measure the read time per sector on CD or DVD to check the quality
@@ -1408,7 +1408,7 @@ app-containers/lxc-templates 3.0.4_p20260719: Old style template scripts for LXC
 app-containers/lxd 5.21.1-r1 5.21.1-r2 5.21.4 5.21.4-r1 6.3 6.3-r1 6.5 6.5-r1 6.9: Modern, secure and powerful system container and virtual machine manager
 app-containers/nerdctl 2.3.3 2.3.4 2.3.5: Docker-compatible CLI for containerd, with support for Compose
 app-containers/netavark 1.17.1 1.17.2 2.0.0 2.1.0 9999: A container network stack
-app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 1.20.1 9999: NVIDIA container runtime toolkit
+app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 1.20.1-r1 9999: NVIDIA container runtime toolkit
 app-containers/podman 5.8.2 5.8.9 6.1.4 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 1.11.2 1.11.3 9999: Terminal UI frontend for Podman
@@ -1640,7 +1640,7 @@ app-dicts/aspell-no 0.50.2-r2: Aspell (Norwegian) language dictionary
 app-dicts/aspell-ny 0.01.0-r1: Aspell (Chichewa) language dictionary
 app-dicts/aspell-or 0.03.1-r1: Aspell (Oriya) language dictionary
 app-dicts/aspell-pa 0.01.1-r1: Aspell (Punjabi) language dictionary
-app-dicts/aspell-pl 6.0.20260901.0: Aspell (Polish) language dictionary
+app-dicts/aspell-pl 6.0.20260901.0 6.0.20261101.0: Aspell (Polish) language dictionary
 app-dicts/aspell-pt 20251001: Aspell (Portuguese) language dictionary
 app-dicts/aspell-pt-br 20131030.12.0-r1: Aspell (Brazilian Portuguese) language dictionary
 app-dicts/aspell-qu 0.02.0-r1: Aspell (Quechua Runasimi) language dictionary
@@ -1784,7 +1784,7 @@ app-doc/eclass-manpages 20260904 99999999: Collection of Gentoo eclass manpages
 app-doc/elisp-manual 18.1.03-r1 19.2.4.2-r1 20.2.5-r1 21.2.8-r3 22.2.9-r1 23.4-r1 24.5-r1 25.3-r1 26.3-r1 27.2-r1 28.2-r1 29.4-r1 30.2: The GNU Emacs Lisp Reference Manual
 app-doc/execline-man-pages 2.9.6.1.1 2.9.9.1.1: mdoc port of the HTML documentation for the execline suite
 app-doc/geant-docs 4.11.4: User documentation for Geant4 physics simulation toolkit
-app-doc/gimp-help 2.10.34-r2 3.0.2 3.2.0: GNU Image Manipulation Program help files
+app-doc/gimp-help 2.10.34-r2 3.2.0: GNU Image Manipulation Program help files
 app-doc/gnu-c-intro-ref 0.1 9999: GNU C Language Intro and Reference Manual
 app-doc/gnucash-docs 5.14 5.17: Documentation package for GnuCash
 app-doc/info-manual 30.2: Manual for the Info reader in GNU Emacs
@@ -1836,7 +1836,7 @@ app-editors/ghex 48.3 50.3 50.4 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 26.04.3 26.08.2: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
-app-editors/gvim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: GUI version of the Vim text editor
+app-editors/gvim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9999: GUI version of the Vim text editor
 app-editors/gvim-classic 8.3.0 9999: GUI version of the Vim text editor
 app-editors/helix 25.07.1: A post-modern text editor
 app-editors/hexcurse 1.60.0: ncurses based hex editor
@@ -1883,10 +1883,10 @@ app-editors/ted 2.23-r3: X-based rich text editor
 app-editors/texworks 0.6.10 0.6.11: Simple interface for working with TeX documents
 app-editors/uemacs-pk 4.0.15_p20210330 4.0.15_p20260806: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
-app-editors/vim 9.1.1652-r2 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: Vim, an improved vi-style text editor
+app-editors/vim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9999: Vim, an improved vi-style text editor
 app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
-app-editors/vim-core 9.1.1652-r3 9.2.1119 9.2.1125 9.2.1152 9.2.1172 9.2.1202 9.2.1229 9999: vim and gvim shared files
+app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.141.0 1.142.0 1.143.0 1.144.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.135.06055 1.140.06880: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
@@ -2394,7 +2394,7 @@ app-emulation/diskimage-builder 3.32.0 3.33.0 3.41.0 9999: Golden Disk Image bui
 app-emulation/dosemu 1.4.1_pre20130107-r7: DOS Emulator
 app-emulation/dxvk 2.7.1 3.0.2 3.1.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23 0.2.24: Cisco 7200/3600 Simulator
-app-emulation/faudio 26.09 26.10: Accuracy-focused XAudio reimplementation for open platforms
+app-emulation/faudio 26.10 26.11: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/fex-xtajit 2608: A wine emulation dll for running x86 application on an arm64 host
 app-emulation/firecracker-bin 1.16.1 1.17.0: Secure and fast microVMs for serverless computing (static build)
 app-emulation/free42 3.1.9 3.3.11 3.3.12: An HP-42S Calculator Simulator
@@ -3021,7 +3021,7 @@ app-mobilephone/scrcpy 4.1 5.0.1: Display and control your Android device
 app-mobilephone/smstools 3.1.21-r2: Send and receive short messages through GSM modems
 app-mobilephone/sobexsrv 1.0.1-r3: Scripting/Secure OBEX Server (for BlueZ Linux)
 app-mobilephone/vmoconv 1.0-r1: A tool that converts Siemens phones VMO and VMI audio files to gsm and wav
-app-office/abiword 3.0.7-r2 3.0.7-r3 3.0.8: Fully featured yet light and fast cross platform word processor
+app-office/abiword 3.0.7-r3 3.0.8: Fully featured yet light and fast cross platform word processor
 app-office/abiword-docs 3.0.2-r1: Fully featured yet light and fast cross platform word processor documentation
 app-office/auto-multiple-choice 1.6.0: Create and manage multiple choice questionnaries, including automated marking
 app-office/calcurse 4.8.1-r1 4.8.2: A text-based calendar and scheduling application
@@ -3110,7 +3110,7 @@ app-portage/g-octave 0.4.1-r8: A tool that generates and installs ebuilds for Oc
 app-portage/gemato 20.13 20.14 20.15: Stand-alone Manifest generation & verification tool
 app-portage/genlop 0.30.12 9999: Nice emerge.log parser
 app-portage/gentle 1.0.2: Gentoo Lazy Entry - a metadata.xml generator
-app-portage/gentoo-reminders 0.1.0: Generate reminder emails for Gentoo package maintainers
+app-portage/gentoo-reminders 0.1.0 0.1.1: Generate reminder emails for Gentoo package maintainers
 app-portage/gentoolkit 0.8.1 0.8.2 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.18 1.19.1 2.0 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
@@ -3501,7 +3501,7 @@ app-text/zathura-meta 0-r1: Meta package for app-text/zathura plugins
 app-text/zathura-pdf-mupdf 0.4.4 2026.02.03 2026.07.18 9999: PDF support for zathura using the mupdf PDF rendering library
 app-text/zathura-pdf-poppler 0.3.3 2026.02.03 2026.07.18 9999: PDF plug-in for zathura
 app-text/zathura-ps 0.2.8 2026.02.03 2026.07.18 9999: PostScript plug-in for zathura
-app-text/zeal 0.8.1 0.9.1-r1 0.9.2: Offline documentation browser inspired by Dash
+app-text/zeal 0.9.2: Offline documentation browser inspired by Dash
 app-text/zotero-bin 9.0.6 10.0.1: Helps you collect, organize, cite, and share your research sources
 app-vim/Vim-Jinja2-Syntax 0.0_pre20210604: vim plugin: Jinja2 syntax highlighting
 app-vim/ackvim 1.0.9-r2: vim plugin: run ack from vim
@@ -4021,7 +4021,7 @@ dev-db/freetds 1.5 1.5.6: Tabular Datastream Library
 dev-db/futuresql 0.1.1: Non-blocking Qt database framework
 dev-db/gqlplus 1.16-r2: a front-end for Oracle program sqlplus with command-line editing
 dev-db/hsqldb 2.7.4-r1: HSQLDB - Lightweight 100% Java SQL Database Engine
-dev-db/hypopg 1.4.4: Hypothetical Indexes for PostgreSQL
+dev-db/hypopg 1.4.5: Hypothetical Indexes for PostgreSQL
 dev-db/influx-cli 2.7.3 2.7.5-r1: The command line for influxdb
 dev-db/influxdb 1.8.10 2.7.10-r1 2.7.11: Scalable datastore for metrics, events, and real-time analytics
 dev-db/innotop 1.13.0: A text-mode MySQL and InnoDB monitor like mytop, but with many more features
@@ -4124,7 +4124,7 @@ dev-debug/ddd 3.3.12-r5 3.4.1: Graphical front-end for command-line debuggers
 dev-debug/drgn 0.1.0 0.3.0: Programmable debugger
 dev-debug/dtrace 2.0.7 9999: Dynamic BPF-based system-wide tracing tool
 dev-debug/duma 2.5.15-r3: DUMA (Detect Unintended Memory Access) is a memory debugging library
-dev-debug/gdb 16.3 17.1 17.2 17.2-r1 18.1 18.1-r1 9999: GNU debugger
+dev-debug/gdb 16.3 17.1 17.2 17.2-r1 18.1 18.1-r1 18.1-r2 9999: GNU debugger
 dev-debug/gef 2023.08 2025.01 2026.01 9999: GDB Enhanced Features for exploit devs & reversers
 dev-debug/gfxreconstruct 1.4.350.0 1.4.357.0 9999: Graphics API Capture and Replay Tools
 dev-debug/gprofng-gui 2.0 2.1 2.2 9999: Full-fledged graphical interface to operate gprofng
@@ -5565,7 +5565,7 @@ dev-libs/fddl 20111124-r2: Free Decision Diagram Library
 dev-libs/ferrisloki 3.0.13-r3: Loki C++ library from Modern C++ Design
 dev-libs/ffcall 2.5: Build foreign function call interfaces in embedded interpreter
 dev-libs/flatbuffers 25.12.19: Memory efficient serialization library
-dev-libs/folks 0.15.9-r3 0.15.9-r4 0.15.12: Library for aggregating people from multiple sources
+dev-libs/folks 0.15.12: Library for aggregating people from multiple sources
 dev-libs/foma 0.10.0_p20220612-r2: Multi-purpose finite-state toolkit
 dev-libs/freexl 2.0.0-r1: Simple XLS data extraction library
 dev-libs/fribidi 1.0.13 1.0.16: A free implementation of the unicode bidirectional algorithm
@@ -5758,7 +5758,7 @@ dev-libs/libmemcached 1.0.18-r4: a C client library to the memcached server
 dev-libs/libmemcached-awesome 1.1.4-r1: a C/C++ memcached client library
 dev-libs/libmirage 3.3.2-r1 3.3.3: CD and DVD image access library
 dev-libs/libmix 2.05-r7: Programs Crypto/Network/Multipurpose Library
-dev-libs/libmodbus 3.1.12 3.2.0: Modbus library which supports RTU communication over a serial line or a TCP link
+dev-libs/libmodbus 3.2.0: Modbus library which supports RTU communication over a serial line or a TCP link
 dev-libs/libmoe 1.5.8-r3: Multi octet character encoding handling library
 dev-libs/libmowgli 2.1.3-r3 9999: Useful set of performance and usability-oriented extensions to C
 dev-libs/libmpack 1.0.5-r5: Simple implementation of msgpack in C
@@ -6064,7 +6064,7 @@ dev-libs/vectorscan 5.4.11 5.4.12: A portable fork of the high-performance regul
 dev-libs/voikko-fi 2.6: Finnish dictionary for libvoikko based spell checkers (vvfst format)
 dev-libs/volume_key 0.3.12-r4: Library for manipulating and storing storage volume encryption keys
 dev-libs/wayland 1.26.0 9999: Wayland protocol libraries
-dev-libs/wayland-protocols 1.49 9999: Wayland protocol files
+dev-libs/wayland-protocols 1.49 1.50 9999: Wayland protocol files
 dev-libs/weston 14.0.2-r1 15.0.1 16.0.2 9999: Wayland reference compositor
 dev-libs/xalan-c 1.12-r4: XSLT processor for transforming XML into HTML, text, or other XML types
 dev-libs/xapian 1.4.29 1.4.30 1.4.31 1.4.32 2.0.0 2.1.0: Xapian Probabilistic Information Retrieval library
@@ -6104,7 +6104,7 @@ dev-lisp/roswell 21.10.14.111 22.12.14.113 23.10.14.114: A lisp installer and la
 dev-lisp/sbcl 2.5.4 2.5.11 2.6.7 2.6.8 2.6.9: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-lisp/trivial-gray-streams 20170830-r1: A thin compatibility layer between Gray Stream Common Lisp implementations
 dev-lisp/uiop 3.3.5 3.3.7: UIOP is a portability layer spun off ASDF3
-dev-lua/LuaBitOp 1.0.2-r1 1.0.3: Bit Operations Library for the Lua Programming Language
+dev-lua/LuaBitOp 1.0.3: Bit Operations Library for the Lua Programming Language
 dev-lua/basexx 0.4.1: A base2, base16, base32, base64 and base85 library for Lua
 dev-lua/binaryheap 0.4: Binary heap implementation in pure Lua
 dev-lua/busted 2.3.0: Elegant Lua unit testing
@@ -6137,7 +6137,7 @@ dev-lua/lua-zlib 1.4: Simple streaming interface to zlib for Lua
 dev-lua/lua_cliargs 3.0.2: A command-line argument parsing module for Lua
 dev-lua/luacheck 1.2.0: A tool for linting and static analysis of Lua code
 dev-lua/luacov 0.17.0: A simple coverage analyzer for Lua scripts
-dev-lua/luadbi 0.7.4 0.7.5: A database interface library for Lua
+dev-lua/luadbi 0.7.5: A database interface library for Lua
 dev-lua/luaevent 0.4.6-r1: Binding of libevent for Lua
 dev-lua/luaexpat 1.5.2: A SAX XML parser based on the Expat library
 dev-lua/luafilesystem 1.9.0: File System Library for the Lua programming language
@@ -6149,7 +6149,7 @@ dev-lua/luarocks 3.13.0: A package manager for the Lua programming language
 dev-lua/luasec 1.3.2: Lua binding for OpenSSL library to provide TLS/SSL communication
 dev-lua/luasocket 3.1.0: Networking support for the Lua language
 dev-lua/luassert 1.9.0: Assertion library for Lua
-dev-lua/luasystem 0.7.0 0.7.1: Platform independent system calls for Lua
+dev-lua/luasystem 0.7.1: Platform independent system calls for Lua
 dev-lua/lutok 0.6: Lightweight C++ API library for Lua
 dev-lua/luv 1.44.2.0 1.45.0.0 1.50.0.1 1.52.1.0: Bare libuv bindings for lua
 dev-lua/md5 1.3-r1: Offers basic cryptographic facilities for Lua
@@ -7131,7 +7131,7 @@ dev-perl/HTTP-CookieJar 0.14.0: Minimalist HTTP user agent cookie jar
 dev-perl/HTTP-Cookies 6.110.0: Storage of cookies
 dev-perl/HTTP-DAV 0.490.0-r1 0.500.0: A WebDAV client library for Perl5
 dev-perl/HTTP-Daemon 6.160.0 6.160.0-r1: Base class for simple HTTP servers
-dev-perl/HTTP-Daemon-SSL 1.04-r1 1.05.01: A simple http server class with SSL support
+dev-perl/HTTP-Daemon-SSL 1.05.01: A simple http server class with SSL support
 dev-perl/HTTP-Date 6.80.0: Date conversion for HTTP date formats
 dev-perl/HTTP-Entity-Parser 0.250.0-r1: PSGI compliant HTTP Entity Parser
 dev-perl/HTTP-Exception 0.40.70-r1: throw HTTP-Errors as (Exception::Class-) Exceptions
@@ -8717,11 +8717,11 @@ dev-python/greenlet 3.5.5 3.5.6: Lightweight in-process concurrent programming
 dev-python/greenstalk 2.1.1: Python 3 client for the beanstalkd work queue
 dev-python/grep-ast 20250508: Grep source code and see useful code context about matching lines
 dev-python/griddataformats 1.2.0: Reading and writing of data on regular grids in Python
-dev-python/grpcio 1.83.1 1.84.0 1.84.1 1.85.0 1.85.1: HTTP/2-based RPC framework
+dev-python/grpcio 1.83.1 1.84.0 1.84.1 1.85.0 1.85.1 1.85.1-r1: HTTP/2-based RPC framework
 dev-python/grpcio-status 1.83.1 1.84.0 1.84.1 1.85.0 1.85.1: Reference package for GRPC Python status proto mapping
 dev-python/gsd 5.0.1: GSD - file format specification and a library to read and write it
 dev-python/gssapi 1.11.1 1.12.0: Low and high level wrappers around the GSSAPI C libraries
-dev-python/gst-python 1.24.13 1.26.11: A Python Interface to GStreamer
+dev-python/gst-python 1.26.11: A Python Interface to GStreamer
 dev-python/guessit 4.1.0 4.3.0 4.4.0: Python library for guessing information from video filenames
 dev-python/h11 0.16.0: A pure-Python implementation of HTTP/1.1 inspired by hyper-h2
 dev-python/h2 4.3.0 4.4.1: HTTP/2 State-Machine based protocol implementation
@@ -9251,7 +9251,7 @@ dev-python/pygithub 2.9.1 2.10.0: Python library to access the Github API v3
 dev-python/pyglet 2.1.16 2.1.19: Cross-platform windowing and multimedia library for Python
 dev-python/pygments 2.20.0 2.21.0: Pygments is a syntax highlighting package written in Python
 dev-python/pygments-github-lexers 0.0.5-r2: Pygments Github custom lexers
-dev-python/pygobject 3.50.1 3.50.2 3.56.3 3.58.0: Python bindings for GObject Introspection
+dev-python/pygobject 3.58.0 3.58.1: Python bindings for GObject Introspection
 dev-python/pygraphviz 1.14-r2 2.0.1-r1 2.0.2 2.0.3 2.0.4: Python wrapper for the Graphviz Agraph data structure
 dev-python/pygresql 6.2.3: A Python interface for the PostgreSQL database
 dev-python/pyh2o 1-r1: Python API for sci-libs/libh2o
@@ -10918,7 +10918,7 @@ dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, track
 dev-util/cbindgen 0.29.4: A tool for generating C bindings to Rust code
 dev-util/ccache 4.13.5 4.14: Fast compiler cache
 dev-util/cccc 3.1.6-r1 3.2.0: Source metrics (line counts, complexity, etc) for Java and C++
-dev-util/ccls 0.20250815.1 9999: C/C++/ObjC language server
+dev-util/ccls 0.20250815.1 0.20261004 9999: C/C++/ObjC language server
 dev-util/cdecl 14.2 18.4.1: Composing and deciphering C (or C++) declarations or casts, aka "gibberish."
 dev-util/cflow 1.7 1.8: C function call hierarchy analyzer
 dev-util/cgvg 1.6.3: Minimal command-line source browsing tool similar to cscope
@@ -11105,7 +11105,7 @@ dev-util/massif-visualizer 26.04.3 26.08.2: Tool visualising massif data
 dev-util/maturin 1.15.0 1.16.0: Build and publish crates with pyo3, rust-cpython and cffi bindings
 dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
-dev-util/meld 3.22.3 3.24.0: A graphical diff and merge tool
+dev-util/meld 3.24.0 3.24.1: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
 dev-util/mesa_clc 26.1.8 26.2.5 26.2.6 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/mig 1.8_p20231217 1.8_p20260123 9999: GNU Mach 3.0 interface generator (IDL compiler)
@@ -11202,7 +11202,7 @@ dev-util/smem 1.5-r3: A tool that can give numerous reports on memory usage on L
 dev-util/snakeviz 2.2.2: A web-based viewer for Python profiler output
 dev-util/source-highlight 3.1.9-r2 9999: Generate highlighted source code as an (x)html document
 dev-util/spirv-headers 1.4.350.0 1.4.357.0 1.4.363.0 9999: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-llvm-translator 18.1.27 18.1.28 19.1.22 19.1.23 20.1.17 20.1.18 21.1.11 21.1.12 22.1.6 22.1.7 23.1.2 24.0.0_pre20260820 24.0.0_pre20260827: Bi-directional translator between SPIR-V and LLVM IR
+dev-util/spirv-llvm-translator 18.1.27 18.1.29 19.1.22 19.1.24 20.1.17 20.1.19 21.1.11 21.1.13 22.1.6 22.1.8 23.1.3 24.0.0_pre20260820 24.0.0_pre20260827: Bi-directional translator between SPIR-V and LLVM IR
 dev-util/spirv-tools 1.4.350.0 1.4.357.0 1.4.363.0 9999: Provides an API and commands for processing SPIR-V modules
 dev-util/splint 3.1.2-r3: Check C programs for vulnerabilities and programming mistakes
 dev-util/squashdelta 0.1.2: Efficient (partially uncompressed) SquashFS binary delta tool
@@ -12128,8 +12128,8 @@ gnome-extra/cinnamon-settings-daemon 6.6.4: Cinnamon's settings daemon
 gnome-extra/cinnamon-translations 6.6.2: Translation data for Cinnamon
 gnome-extra/cjs 140.1: Linux Mint's fork of gjs for Cinnamon
 gnome-extra/eiciel 0.10.1-r1: ACL editor for GNOME, with Nautilus extension
-gnome-extra/evolution-data-server 3.56.2-r1 3.58.3 3.60.1 3.60.2: Evolution groupware backend
-gnome-extra/evolution-ews 3.56.2-r1 3.58.3 3.60.1 3.60.2-r1: Evolution module for connecting to Microsoft Exchange Web Services
+gnome-extra/evolution-data-server 3.60.2 3.62.1: Evolution groupware backend
+gnome-extra/evolution-ews 3.60.2-r1 3.62.1: Evolution module for connecting to Microsoft Exchange Web Services
 gnome-extra/gnome-boxes 49.1 50.0: Simple GNOME application to access remote or virtual systems
 gnome-extra/gnome-browser-connector 42.1-r1: OS-native connector counterpart for GNOME Shell browser extension
 gnome-extra/gnome-calculator 49.2-r1 50.0: A calculator application for GNOME
@@ -12154,7 +12154,7 @@ gnome-extra/gnome-shell-extension-control-blur-effect-on-lock-screen 20241110: C
 gnome-extra/gnome-shell-extension-dash-to-panel 73 74: An icon taskbar for the Gnome Shell
 gnome-extra/gnome-shell-extension-desktop-icons-ng 50.3.0 51.0.8 51.2.0: Desktop icon support for GNOME Shell
 gnome-extra/gnome-shell-extension-gsconnect 72 73 74: KDE Connect implementation for GNOME
-gnome-extra/gnome-shell-extension-lockscreen-studio 1.1.2 1.2.1: Customization extension for the gnome-shell lock screen
+gnome-extra/gnome-shell-extension-lockscreen-studio 1.1.2 1.2.1 1.2.1-r1: Customization extension for the gnome-shell lock screen
 gnome-extra/gnome-shell-extension-no-screenshot-box 20260716: Customize the GNOME Shell screenshot area selector
 gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
 gnome-extra/gnome-shell-extension-weather-oclock 50.4 50.5: Display the current weather inside the pill next to the clock
@@ -12169,7 +12169,7 @@ gnome-extra/gnome-weather 48.0 49.0 50.0: A weather application for GNOME
 gnome-extra/gucharmap 17.0.2: Unicode character map viewer and library
 gnome-extra/krb5-auth-dialog 43.0-r1: An application to acquire and list Kerberos tickets
 gnome-extra/libgda 5.2.9-r3: GNOME database access library
-gnome-extra/libgsf 1.14.58 1.14.59: The GNOME Structured File Library
+gnome-extra/libgsf 1.14.58 1.14.59 1.14.60: The GNOME Structured File Library
 gnome-extra/mousetweaks 3.32.0-r1: Mouse accessibility enhancements for the GNOME desktop
 gnome-extra/nautilus-dropbox 2024.04.17: Dropbox Nautilus Extension
 gnome-extra/nautilus-sendto 3.8.6-r1: A nautilus extension for sending files to locations
@@ -12772,7 +12772,7 @@ mail-client/balsa 2.6.4-r2 2.6.4-r3 2.6.5: Email client for GNOME
 mail-client/bower 1.0: Curses terminal client for the Notmuch email system
 mail-client/claws-mail 3.21.0-r2 4.3.1-r2 4.4.0 9999: An email client (and news reader) based on GTK+
 mail-client/clawsker 1.4.0 1.4.1: Applet to edit Claws Mail's hidden preferences
-mail-client/evolution 3.56.2-r1 3.58.3 3.60.1 3.60.2: Integrated mail, addressbook and calendaring functionality
+mail-client/evolution 3.60.2 3.62.1: Integrated mail, addressbook and calendaring functionality
 mail-client/geary 46.0-r1 46.0-r2: A lightweight, easy-to-use, feature-rich email client
 mail-client/hap 3.7-r1: A terminal mail notification program (replacement for biff)
 mail-client/mailx 8.1.2.20220412: The $ mail program, which is used to send mail via shell scripts
@@ -13142,7 +13142,7 @@ media-gfx/enblend 4.2.0_p20240424 4.2.0_p20240424-r1: Image Blending with Multir
 media-gfx/engauge 12.9.1 9999: Convert an image file showing a graph or map into numbers
 media-gfx/entangle 3.0-r3 3.0-r4 3.0-r5: Tethered Camera Control & Capture
 media-gfx/entice 0.0.1: A simple image viewer based on EFL
-media-gfx/eog 50.1 50.3: The Eye of GNOME image viewer
+media-gfx/eog 50.1 50.3 50.4: The Eye of GNOME image viewer
 media-gfx/eog-plugins 44.1 44.1-r1: Eye of GNOME plugins
 media-gfx/eom 1.28.0-r3 1.28.1: The MATE image viewer
 media-gfx/ephoto 1.6.0: Enlightenment image viewer written with EFL
@@ -13182,7 +13182,7 @@ media-gfx/graphicsmagick 1.3.46 1.3.47 1.3.48 9999: Collection of tools and libr
 media-gfx/graphite2 1.3.14_p20210810-r5: Library providing rendering capabilities for complex non-Roman writing systems
 media-gfx/graphviz 15.1.0 16.1.0: Open Source Graph Visualization Software
 media-gfx/gscan2pdf 2.13.5: Scan documents, perform OCR, produce PDFs and DjVus
-media-gfx/gthumb 3.12.7 3.12.8.2 3.12.10: Image viewer and browser for Gnome
+media-gfx/gthumb 3.12.10 3.12.12: Image viewer and browser for Gnome
 media-gfx/gtkimageview 1.6.4: A simple image viewer widget for GTK
 media-gfx/hp2xx 3.4.4-r4: Convert Hewlett-Packard's HP-GL plotter language to other graphics formats
 media-gfx/hugin 2025.0.1 9999: GUI for the creation & processing of panoramic images
@@ -13409,13 +13409,13 @@ media-libs/gmmlib 22.10.0 22.10.1 22.10.2 9999: Intel Graphics Memory Management
 media-libs/graphene 1.10.8-r1: A thin layer of types for graphic libraries
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
 media-libs/gsound 1.0.3: Thin GObject wrapper around the libcanberra sound event library
-media-libs/gst-plugins-bad 1.24.13-r1 1.26.11: Less plugins for GStreamer
-media-libs/gst-plugins-base 1.24.13-r1 1.26.11: Basepack of plugins for gstreamer
-media-libs/gst-plugins-good 1.24.13-r2 1.26.11: Basepack of plugins for GStreamer
-media-libs/gst-plugins-ugly 1.24.13-r1 1.26.11: Basepack of plugins for gstreamer
-media-libs/gst-rtsp-server 1.24.13 1.26.11: A GStreamer based RTSP server
-media-libs/gstreamer 1.24.13 1.26.11: Open source multimedia framework
-media-libs/gstreamer-editing-services 1.24.13 1.26.11: SDK for making video editors and more
+media-libs/gst-plugins-bad 1.26.11: Less plugins for GStreamer
+media-libs/gst-plugins-base 1.26.11: Basepack of plugins for gstreamer
+media-libs/gst-plugins-good 1.26.11: Basepack of plugins for GStreamer
+media-libs/gst-plugins-ugly 1.26.11: Basepack of plugins for gstreamer
+media-libs/gst-rtsp-server 1.26.11: A GStreamer based RTSP server
+media-libs/gstreamer 1.26.11: Open source multimedia framework
+media-libs/gstreamer-editing-services 1.26.11: SDK for making video editors and more
 media-libs/gupnp-dlna 0.12.0-r1: Library providing DLNA-related functionality for MediaServers
 media-libs/hamlib 4.7.2-r1: Ham radio backend rig control libraries
 media-libs/harfbuzz 12.3.2 9999: An OpenType text shaping engine
@@ -13778,83 +13778,83 @@ media-plugins/gkrellmpc 0.1_beta10-r1: A gkrellm plugin to control the MPD (Musi
 media-plugins/gmsynth-lv2 0.6.3 0.6.4: General MIDI Sample Player Plugin
 media-plugins/grilo-plugins 0.3.18-r2: A collection of plugins for the Grilo framework
 media-plugins/gst-plugin-gtk4 0.13.4-r1: GStreamer GTK 4 sink element
-media-plugins/gst-plugins-a52dec 1.24.13 1.26.11: ATSC A/52 audio decoder plugin for GStreamer
-media-plugins/gst-plugins-adaptivedemux2 1.24.13 1.26.11: Adaptive demuxer plugins for Gstreamer
-media-plugins/gst-plugins-amr 1.24.13 1.26.11: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
-media-plugins/gst-plugins-aom 1.24.13 1.26.11: Alliance for Open Media AV1 plugin for GStreamer
-media-plugins/gst-plugins-assrender 1.24.13 1.26.11: ASS/SSA rendering with effects support plugin for GStreamer
-media-plugins/gst-plugins-bluez 1.24.13 1.26.11: AVDTP source/sink and A2DP sink plugin for GStreamer
-media-plugins/gst-plugins-bs2b 1.24.13 1.26.11: bs2b elements for Gstreamer
-media-plugins/gst-plugins-cairo 1.24.13 1.26.11: Video overlay plugin based on cairo for GStreamer
-media-plugins/gst-plugins-cdio 1.24.13 1.26.11: CD Audio Source (cdda) plugin for GStreamer
-media-plugins/gst-plugins-cdparanoia 1.24.13 1.26.11: CD Audio Source (cdda) plugin for GStreamer
-media-plugins/gst-plugins-chromaprint 1.24.13 1.26.11: Calculate Chromaprint fingerprint from audio files for GStreamer
+media-plugins/gst-plugins-a52dec 1.26.11: ATSC A/52 audio decoder plugin for GStreamer
+media-plugins/gst-plugins-adaptivedemux2 1.26.11: Adaptive demuxer plugins for Gstreamer
+media-plugins/gst-plugins-amr 1.26.11: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
+media-plugins/gst-plugins-aom 1.26.11: Alliance for Open Media AV1 plugin for GStreamer
+media-plugins/gst-plugins-assrender 1.26.11: ASS/SSA rendering with effects support plugin for GStreamer
+media-plugins/gst-plugins-bluez 1.26.11: AVDTP source/sink and A2DP sink plugin for GStreamer
+media-plugins/gst-plugins-bs2b 1.26.11: bs2b elements for Gstreamer
+media-plugins/gst-plugins-cairo 1.26.11: Video overlay plugin based on cairo for GStreamer
+media-plugins/gst-plugins-cdio 1.26.11: CD Audio Source (cdda) plugin for GStreamer
+media-plugins/gst-plugins-cdparanoia 1.26.11: CD Audio Source (cdda) plugin for GStreamer
+media-plugins/gst-plugins-chromaprint 1.26.11: Calculate Chromaprint fingerprint from audio files for GStreamer
 media-plugins/gst-plugins-colormanagement 1.24.13 1.26.11: Color management correction GStreamer plugins
-media-plugins/gst-plugins-dash 1.24.13 1.26.11: MPEG-DASH plugin for GStreamer
-media-plugins/gst-plugins-dtls 1.24.13 1.26.11: DTLS encoder/decoder with SRTP support plugin for GStreamer
-media-plugins/gst-plugins-dts 1.24.13 1.26.11: DTS audio decoder plugin for Gstreamer
-media-plugins/gst-plugins-dv 1.24.13 1.26.11: DV demuxer and decoder plugin for GStreamer
-media-plugins/gst-plugins-dvb 1.24.13 1.26.11: plugin for gstreamer
-media-plugins/gst-plugins-dvdread 1.24.13 1.26.11: DVD read plugin for GStreamer
-media-plugins/gst-plugins-faac 1.24.13 1.26.11: AAC audio encoder plugin for GStreamer
-media-plugins/gst-plugins-faad 1.24.13 1.26.11: AAC audio decoder plugin
-media-plugins/gst-plugins-flac 1.24.13 1.26.11: FLAC encoder/decoder/tagger plugin for GStreamer
-media-plugins/gst-plugins-gdkpixbuf 1.24.13 1.26.11: plugin for gstreamer
-media-plugins/gst-plugins-gtk 1.24.13 1.26.11: Video sink plugin for GStreamer that renders to a GtkWidget
-media-plugins/gst-plugins-hls 1.24.13 1.26.11: HTTP live streaming plugin for GStreamer
-media-plugins/gst-plugins-jack 1.24.13 1.26.11: plugin for gstreamer
-media-plugins/gst-plugins-jpeg 1.24.13 1.26.11: JPEG image encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-ladspa 1.24.13 1.26.11: Ladspa elements for Gstreamer
-media-plugins/gst-plugins-lame 1.24.13 1.26.11: MP3 encoder plugin for GStreamer
-media-plugins/gst-plugins-ldac 1.24.13 1.26.11: LDAC plugin for GStreamer
-media-plugins/gst-plugins-libav 1.24.13 1.26.11: FFmpeg based gstreamer plugin
-media-plugins/gst-plugins-libde265 1.24.13 1.26.11: H.265 decoder plugin for GStreamer
+media-plugins/gst-plugins-dash 1.26.11: MPEG-DASH plugin for GStreamer
+media-plugins/gst-plugins-dtls 1.26.11: DTLS encoder/decoder with SRTP support plugin for GStreamer
+media-plugins/gst-plugins-dts 1.26.11: DTS audio decoder plugin for Gstreamer
+media-plugins/gst-plugins-dv 1.26.11: DV demuxer and decoder plugin for GStreamer
+media-plugins/gst-plugins-dvb 1.26.11: plugin for gstreamer
+media-plugins/gst-plugins-dvdread 1.26.11: DVD read plugin for GStreamer
+media-plugins/gst-plugins-faac 1.26.11: AAC audio encoder plugin for GStreamer
+media-plugins/gst-plugins-faad 1.26.11: AAC audio decoder plugin
+media-plugins/gst-plugins-flac 1.26.11: FLAC encoder/decoder/tagger plugin for GStreamer
+media-plugins/gst-plugins-gdkpixbuf 1.26.11: plugin for gstreamer
+media-plugins/gst-plugins-gtk 1.26.11: Video sink plugin for GStreamer that renders to a GtkWidget
+media-plugins/gst-plugins-hls 1.26.11: HTTP live streaming plugin for GStreamer
+media-plugins/gst-plugins-jack 1.26.11: plugin for gstreamer
+media-plugins/gst-plugins-jpeg 1.26.11: JPEG image encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-ladspa 1.26.11: Ladspa elements for Gstreamer
+media-plugins/gst-plugins-lame 1.26.11: MP3 encoder plugin for GStreamer
+media-plugins/gst-plugins-ldac 1.26.11: LDAC plugin for GStreamer
+media-plugins/gst-plugins-libav 1.26.11: FFmpeg based gstreamer plugin
+media-plugins/gst-plugins-libde265 1.26.11: H.265 decoder plugin for GStreamer
 media-plugins/gst-plugins-libnice 0.1.23 0.1.24: GStreamer plugin for ICE (RFC 5245) support
-media-plugins/gst-plugins-libpng 1.24.13 1.26.11: PNG image encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-libvisual 1.24.13 1.26.11: Visualization elements for GStreamer
-media-plugins/gst-plugins-lv2 1.24.13 1.26.11: Lv2 elements for Gstreamer
-media-plugins/gst-plugins-meta 1.24.13 1.26.11: Meta ebuild to pull in gst plugins for apps
-media-plugins/gst-plugins-modplug 1.24.13 1.26.11: MOD audio decoder plugin for GStreamer
-media-plugins/gst-plugins-mpeg2dec 1.24.13 1.26.11: MPEG2 decoder plugin for GStreamer
-media-plugins/gst-plugins-mpeg2enc 1.24.13 1.26.11: MPEG-1/2 video encoding plugin for GStreamer
-media-plugins/gst-plugins-mpg123 1.24.13 1.26.11: MP3 decoder plugin for GStreamer
-media-plugins/gst-plugins-mplex 1.24.13 1.26.11: MPEG/DVD/SVCD/VCD video/audio multiplexing plugin for GStreamer
-media-plugins/gst-plugins-neon 1.24.13 1.26.11: HTTP client source plugin for GStreamer
-media-plugins/gst-plugins-openaptx 1.24.13 1.26.11: openaptx plugin for GStreamer
+media-plugins/gst-plugins-libpng 1.26.11: PNG image encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-libvisual 1.26.11: Visualization elements for GStreamer
+media-plugins/gst-plugins-lv2 1.26.11: Lv2 elements for Gstreamer
+media-plugins/gst-plugins-meta 1.26.11: Meta ebuild to pull in gst plugins for apps
+media-plugins/gst-plugins-modplug 1.26.11: MOD audio decoder plugin for GStreamer
+media-plugins/gst-plugins-mpeg2dec 1.26.11: MPEG2 decoder plugin for GStreamer
+media-plugins/gst-plugins-mpeg2enc 1.26.11: MPEG-1/2 video encoding plugin for GStreamer
+media-plugins/gst-plugins-mpg123 1.26.11: MP3 decoder plugin for GStreamer
+media-plugins/gst-plugins-mplex 1.26.11: MPEG/DVD/SVCD/VCD video/audio multiplexing plugin for GStreamer
+media-plugins/gst-plugins-neon 1.26.11: HTTP client source plugin for GStreamer
+media-plugins/gst-plugins-openaptx 1.26.11: openaptx plugin for GStreamer
 media-plugins/gst-plugins-opencv 1.24.13 1.26.11: OpenCV elements for GStreamer
-media-plugins/gst-plugins-openh264 1.24.13 1.26.11: H.264 encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-opus 1.24.13 1.26.11: Opus audio parser plugin for GStreamer
-media-plugins/gst-plugins-oss 1.24.13 1.26.11: OSS (Open Sound System) support plugin for GStreamer
-media-plugins/gst-plugins-pulse 1.24.13 1.26.11: PulseAudio sound server plugin for GStreamer
-media-plugins/gst-plugins-qt6 1.24.13 1.26.11: Qt6 QML video sink plugin for GStreamer
-media-plugins/gst-plugins-raw1394 1.24.13 1.26.11: Fiwewire DV/HDV capture plugin for GStreamer
-media-plugins/gst-plugins-resindvd 1.24.13 1.26.11: DVD playback support plugin for GStreamer
-media-plugins/gst-plugins-rtmp 1.24.13 1.26.11: RTMP source/sink plugin for GStreamer
+media-plugins/gst-plugins-openh264 1.26.11: H.264 encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-opus 1.26.11: Opus audio parser plugin for GStreamer
+media-plugins/gst-plugins-oss 1.26.11: OSS (Open Sound System) support plugin for GStreamer
+media-plugins/gst-plugins-pulse 1.26.11: PulseAudio sound server plugin for GStreamer
+media-plugins/gst-plugins-qt6 1.26.11: Qt6 QML video sink plugin for GStreamer
+media-plugins/gst-plugins-raw1394 1.26.11: Fiwewire DV/HDV capture plugin for GStreamer
+media-plugins/gst-plugins-resindvd 1.26.11: DVD playback support plugin for GStreamer
+media-plugins/gst-plugins-rtmp 1.26.11: RTMP source/sink plugin for GStreamer
 media-plugins/gst-plugins-sbc 1.24.13 1.26.11: SBC encoder and decoder plugin for GStreamer
-media-plugins/gst-plugins-sctp 1.24.13 1.26.11: SCTP plugins for GStreamer
-media-plugins/gst-plugins-shout2 1.24.13 1.26.11: Icecast server sink plugin for GStreamer
-media-plugins/gst-plugins-sidplay 1.24.13 1.26.11: Sid decoder plugin for GStreamer
-media-plugins/gst-plugins-smoothstreaming 1.24.13 1.26.11: Smooth Streaming plugin for GStreamer
+media-plugins/gst-plugins-sctp 1.26.11: SCTP plugins for GStreamer
+media-plugins/gst-plugins-shout2 1.26.11: Icecast server sink plugin for GStreamer
+media-plugins/gst-plugins-sidplay 1.26.11: Sid decoder plugin for GStreamer
+media-plugins/gst-plugins-smoothstreaming 1.26.11: Smooth Streaming plugin for GStreamer
 media-plugins/gst-plugins-sndio 1.8.0.1 1.24.0: Sndio audio sink and source for GStreamer
-media-plugins/gst-plugins-soundtouch 1.24.13 1.26.11: Beats-per-minute detection and pitch controlling plugin for GStreamer
-media-plugins/gst-plugins-soup 1.24.13 1.26.11: HTTP client source/sink plugin for GStreamer
-media-plugins/gst-plugins-speex 1.24.13 1.26.11: Speex encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-soundtouch 1.26.11: Beats-per-minute detection and pitch controlling plugin for GStreamer
+media-plugins/gst-plugins-soup 1.26.11: HTTP client source/sink plugin for GStreamer
+media-plugins/gst-plugins-speex 1.26.11: Speex encoder/decoder plugin for GStreamer
 media-plugins/gst-plugins-srt 1.24.13 1.26.11: Secure reliable transport (SRT) transfer plugin for GStreamer
-media-plugins/gst-plugins-srtp 1.24.13 1.26.11: SRTP encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-taglib 1.24.13 1.26.11: ID3v2/APEv2 tagger plugin for GStreamer
-media-plugins/gst-plugins-twolame 1.24.13 1.26.11: MPEG2 encoder plugin for GStreamer
-media-plugins/gst-plugins-uvch264 1.24.13 1.26.11: UVC compliant H264 encoding cameras plugin for GStreamer
-media-plugins/gst-plugins-v4l2 1.24.13 1.26.11: plugin for gstreamer
-media-plugins/gst-plugins-vaapi 1.24.13 1.26.11: Hardware accelerated video decoding through VA-API plugin for GStreamer
-media-plugins/gst-plugins-voaacenc 1.24.13 1.26.11: AAC encoder plugin for GStreamer
-media-plugins/gst-plugins-voamrwbenc 1.24.13 1.26.11: AMR-WB audio encoder plugin for GStreamer
-media-plugins/gst-plugins-vpx 1.24.13 1.26.11: VP8/VP9 video encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-wavpack 1.24.13 1.26.11: Wavpack audio encoder/decoder plugin for GStreamer
-media-plugins/gst-plugins-webp 1.24.13 1.26.11: WebP image format support for GStreamer
-media-plugins/gst-plugins-webrtc 1.24.13 1.26.11: WebRTC plugins for GStreamer
-media-plugins/gst-plugins-x264 1.24.13 1.26.11: H.264 encoder plugin for GStreamer
-media-plugins/gst-plugins-x265 1.24.13 1.26.11: H.265 encoder plugin for GStreamer
-media-plugins/gst-plugins-ximagesrc 1.24.13 1.26.11: X11 video capture stream plugin for GStreamer
+media-plugins/gst-plugins-srtp 1.26.11: SRTP encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-taglib 1.26.11: ID3v2/APEv2 tagger plugin for GStreamer
+media-plugins/gst-plugins-twolame 1.26.11: MPEG2 encoder plugin for GStreamer
+media-plugins/gst-plugins-uvch264 1.26.11: UVC compliant H264 encoding cameras plugin for GStreamer
+media-plugins/gst-plugins-v4l2 1.26.11: plugin for gstreamer
+media-plugins/gst-plugins-vaapi 1.26.11: Hardware accelerated video decoding through VA-API plugin for GStreamer
+media-plugins/gst-plugins-voaacenc 1.26.11: AAC encoder plugin for GStreamer
+media-plugins/gst-plugins-voamrwbenc 1.26.11: AMR-WB audio encoder plugin for GStreamer
+media-plugins/gst-plugins-vpx 1.26.11: VP8/VP9 video encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-wavpack 1.26.11: Wavpack audio encoder/decoder plugin for GStreamer
+media-plugins/gst-plugins-webp 1.26.11: WebP image format support for GStreamer
+media-plugins/gst-plugins-webrtc 1.26.11: WebRTC plugins for GStreamer
+media-plugins/gst-plugins-x264 1.26.11: H.264 encoder plugin for GStreamer
+media-plugins/gst-plugins-x265 1.26.11: H.265 encoder plugin for GStreamer
+media-plugins/gst-plugins-ximagesrc 1.26.11: X11 video capture stream plugin for GStreamer
 media-plugins/gst-plugins-zbar 1.24.13 1.26.11: Bar codes detection in video streams for GStreamer
 media-plugins/hdx-realtime-media-engine 2.9.700.3000: HDX RealTime Media Engine plugin for Citrix Workspace App
 media-plugins/hexter 1.1.1: Yamaha DX7 modeling DSSI plugin
@@ -14213,7 +14213,7 @@ media-sound/mcdp 0.4b: Very small console cd player
 media-sound/meterbridge 0.9.3: Software meterbridge for the UNIX based JACK audio system
 media-sound/mhwaveedit 1.4.24-r1: GTK+ Sound file editor (wav, and a few others.)
 media-sound/mikmod 3.2.8-r1 3.2.9: Console MOD-Player based on libmikmod
-media-sound/milkytracker 1.05.01-r1: FastTracker 2 inspired music tracker
+media-sound/milkytracker 1.05.01-r1 1.05.01-r2: FastTracker 2 inspired music tracker
 media-sound/mixxx 2.5.4 2.5.6 9999: Advanced Digital DJ tool based on Qt
 media-sound/mmix 0.3-r1: Soundcard mixer for the OSS driver
 media-sound/moc 2.6_alpha3-r8: Music On Console - ncurses interface for playing audio files
@@ -14305,7 +14305,7 @@ media-sound/quimup 2.1.1-r1 2.1.2-r1: Qt client for the music player daemon (MPD
 media-sound/quodlibet 4.6.0-r2 4.6.0-r3 4.7.1 4.7.1-r1 4.7.1-r2: audio library tagger, manager, and player for GTK+
 media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
-media-sound/reaper-bin 7.84: Digital audio workstation
+media-sound/reaper-bin 7.84-r1: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
@@ -14618,7 +14618,7 @@ net-analyzer/hexinject 1.6-r2: Network packet sniffer and injector
 net-analyzer/hping 3_pre20141226: A ping-like TCP/IP packet assembler/analyzer
 net-analyzer/httping 2.9-r1: http protocol ping-like program
 net-analyzer/hunt 1.5_p6_p1-r1: Tool for checking well known weaknesses in the TCP/IP protocol
-net-analyzer/hydra 9.6: Parallelized network login hacker
+net-analyzer/hydra 9.6 9.6-r1: Parallelized network login hacker
 net-analyzer/ibmonitor 1.4-r1: Interactive bandwidth monitor
 net-analyzer/icinga2 2.15.4 2.16.2 2.16.5 9999: Distributed, general purpose, network monitoring engine
 net-analyzer/ifmetric 0.3-r4: Set metrics of all IPv4 routes attached to a given network interface at once
@@ -14930,7 +14930,7 @@ net-ftp/lftp 4.9.3 9999: A sophisticated ftp/sftp/http/https/torrent client and 
 net-ftp/linksys-tftp 1.2.1-r4: TFTP client suitable for uploading to the Linksys WRT54G Wireless Router
 net-ftp/ncftp 3.3.0: An extremely configurable ftp client
 net-ftp/proftpd 1.3.9b: An advanced and very configurable FTP server
-net-ftp/pure-ftpd 1.0.53 1.0.54 9999: Fast, production-quality, standard-conformant FTP server
+net-ftp/pure-ftpd 1.0.54 9999: Fast, production-quality, standard-conformant FTP server
 net-ftp/pureadmin 0.4-r3: GUI tool used to make the management of Pure-FTPd a little easier
 net-ftp/tftp-hpa 5.2-r4: Port of the OpenBSD TFTP server
 net-ftp/tnftp 20210827 20230507: NetBSD FTP client with several advanced features
@@ -15011,7 +15011,7 @@ net-irc/muh 2.2a-r2: Persistent IRC bouncer
 net-irc/ngircd 26.1-r5 26.1-r6 27 28: An IRC server written from scratch
 net-irc/onis 0.8.2-r2: onis not irc stats
 net-irc/pisg 0.73-r1: Perl IRC Statistics Generator
-net-irc/polari 46.0: An IRC client for GNOME
+net-irc/polari 46.0 50.0: An IRC client for GNOME
 net-irc/psybnc 2.4.3-r1: A multi-user and multi-server gateway to IRC networks
 net-irc/quassel 0.14.50_pre20260525-r1 9999: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity
 net-irc/rbot 0.9.15_p20210609-r1: A ruby IRC bot
@@ -15154,7 +15154,7 @@ net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace pro
 net-libs/libupnp 1.14.31 1.18.5 22.1.8 22.1.10: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.3 1.0.4: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
-net-libs/libwebsockets 4.5.8-r1 5.0.0-r1: A flexible pure-C library for implementing network protocols
+net-libs/libwebsockets 4.5.8-r1 5.0.0-r1 5.1.0: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
 net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.4.2 9.4.3: Port of http_parser to llparse
@@ -15175,7 +15175,7 @@ net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 22.23.4-r1 24.22.1 24.22.1-r1 24
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
 net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
-net-libs/phodav 3.0-r1: WebDav server implementation using libsoup
+net-libs/phodav 3.0-r1 3.2: WebDav server implementation using libsoup
 net-libs/pjproject 2.15.1-r1 2.15.1-r3 2.16-r2 2.17 2.17-r1: Open source SIP, Media, and NAT Traversal Library
 net-libs/ppp-defs 0: Shim header for net/ppp_defs.h on musl
 net-libs/quiche 0.24.1 0.26.1-r1 0.28.0 0.29.0 0.29.1 0.29.2 0.29.3 0.30.0 9999: Implementation of the QUIC transport protocol and HTTP/3
@@ -15411,7 +15411,7 @@ net-misc/iputils 20250605-r3 20250605-r4 99999999: Network monitoring tools incl
 net-misc/ipv6calc 4.4.0 4.4.1: IPv6 address calculator
 net-misc/jlj 2.12-r1: Simple console LiveJournal entry system
 net-misc/jwhois 4.0-r2: Advanced Internet Whois client capable of recursive queries
-net-misc/kafka-bin 4.1.2 4.2.1 4.3.1: A high-throughput distributed messaging system
+net-misc/kafka-bin 4.2.2 4.3.2 4.4.0: A high-throughput distributed messaging system
 net-misc/kafkacat 1.7.1: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/kea 3.0.3-r1 3.2.0 3.2.0-r1 9999: High-performance production grade DHCPv4 & DHCPv6 server
 net-misc/keychain 2.8.5-r2 2.9.8: Agent manager for OpenSSH, ssh.com, Sun SSH, and GnuPG
@@ -15525,7 +15525,7 @@ net-misc/rsync 3.4.4 3.5.1 9999: File transfer program to keep remote files into
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
 net-misc/rwbs 0.27-r2: Roger Wilco base station
 net-misc/rwhoisd 1.5.9.6_p2: ARIN rwhois daemon
-net-misc/rygel 45.2 46.0: Rygel is an open source UPnP/DLNA MediaServer
+net-misc/rygel 45.2 46.0 46.1: Rygel is an open source UPnP/DLNA MediaServer
 net-misc/s3cmd 2.4.0: Command line client for Amazon S3
 net-misc/s4cmd 2.1.0-r3: Super S3 command line tool
 net-misc/s6-networking 2.7.1.0 2.7.2.0 2.7.2.1 2.8.0.0: Suite of small networking utilities for Unix systems
@@ -15816,7 +15816,7 @@ net-wireless/blueman 2.4.6 9999: Simple and intuitive GTK+ Bluetooth Manager
 net-wireless/bluetui 0.7.2 0.8.0 0.8.1 0.8.2: TUI for managing bluetooth on Linux
 net-wireless/bluez 5.87: Bluetooth Tools and System Daemons for Linux
 net-wireless/bluez-tools 0_p20201025-r1: Set of tools to manage bluetooth devices for Linux
-net-wireless/broadcom-sta 6.30.223.271-r11: Broadcom's IEEE 802.11a/b/g/n hybrid Linux device driver
+net-wireless/broadcom-sta 6.30.223.271-r11 6.30.223.271-r12: Broadcom's IEEE 802.11a/b/g/n hybrid Linux device driver
 net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
 net-wireless/crackle 0.1-r1: Crackle cracks BLE Encryption (AKA Bluetooth Smart)
 net-wireless/dump1090 11.1 9999: Simple Mode S decoder for RTLSDR devices
@@ -15858,7 +15858,7 @@ net-wireless/portapack-firmware 20190405: Firmware and scripts for controlling t
 net-wireless/portapack-havoc 0.0_p20180612: Custom firmware for the HackRF SDR + PortaPack H1 addon
 net-wireless/qdmr 0.14.1 0.15.0 0.15.1 9999: GUI application for configuring and programming cheap DMR radios
 net-wireless/reaver 1.6.5: Brute force attack against Wifi Protected Setup
-net-wireless/rtl-sdr 2.0.2-r3 2.0.3 9999: Turns your Realtek RTL2832 based DVB dongle into a SDR receiver
+net-wireless/rtl-sdr 2.0.3 9999: Turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 net-wireless/rtl-sdr-blog 1.4.0: Modified Osmocom drivers with enhancements for RTL-SDR Blog V3 and V4 units
 net-wireless/rtl_433 21.12 22.11 9999: Decode OOK modulated signals
 net-wireless/sdrplay 2.13.1-r1 3.15.2: SDRplay API/HW driver for all RSPs
@@ -16327,7 +16327,7 @@ sci-libs/libh2o 0.2.1-r1: Library of routines for IF97 water & steam properties
 sci-libs/libh2oxx 0.2-r1: C++ bindings for libh2o
 sci-libs/libhomfly 1.02.6 1.04: Library to compute the homfly polynomial of a link
 sci-libs/libigl 2.5.0: A simple C++ geometry processing library
-sci-libs/libint 1.1.6-r1 2.9.0 2.11.0: Matrix elements (integrals) evaluation over Cartesian Gaussian functions
+sci-libs/libint 1.1.6-r1 2.9.0-r1 2.11.0-r1: Matrix elements (integrals) evaluation over Cartesian Gaussian functions
 sci-libs/libmuscle 3.7-r4: Library for sci-biology/mauve
 sci-libs/libnova 0.16.0: Celestial Mechanics and Astronomical Calculation Library
 sci-libs/liborigin 3.0.1_p20210828-r1 3.0.4: Library for reading OriginLab OPJ project files
@@ -16579,7 +16579,7 @@ sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter No
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
 sci-ml/ggml 0.28.0: Tensor library for machine learning
-sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1: library of floating-point neural network inference operators
+sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1 2026.06.10: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interact with the Hugging Face Hub
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
@@ -16860,7 +16860,7 @@ sec-keys/openpgp-keys-nmap 20210416: OpenPGP keys used to sign Nmap releases
 sec-keys/openpgp-keys-notqmail 20210223: OpenPGP keys used to sign notqmail releases
 sec-keys/openpgp-keys-ntpsec 20230919 20260731: OpenPGP keys used to sign ntpsec releases
 sec-keys/openpgp-keys-nut 20261015: OpenPGP keys used to sign NUT
-sec-keys/openpgp-keys-oath-toolkit 20260122: OpenPGP keys used for sys-auth/oath-toolkit
+sec-keys/openpgp-keys-oath-toolkit 20260122 20261101: OpenPGP keys used for sys-auth/oath-toolkit
 sec-keys/openpgp-keys-ocserv 20230505: OpenPGP key for ocserv
 sec-keys/openpgp-keys-oisf 20260319: OpenPGP key used by Open InfoSec Foundation (OISF) software releases
 sec-keys/openpgp-keys-oletange 20210423: OpenPGP keys used by Ole Tange
@@ -17590,7 +17590,7 @@ sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-auth/nss-pam-ldapd 0.9.13: NSS module for name lookups using LDAP
 sys-auth/nss_ldap 265-r11: NSS LDAP Module
-sys-auth/oath-toolkit 2.6.14: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
+sys-auth/oath-toolkit 2.6.14 2.6.15: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
 sys-auth/otpcalc 0.98.1: A One Time Password and S/Key calculator for GTK+
 sys-auth/pam-pgsql 0.7.3.2-r2: PAM module to authenticate users via PostgreSQL
 sys-auth/pam-script 1.1.9: PAM module for running scripts during authorization, password change and session
@@ -17808,7 +17808,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20260903 14.4.1_p20260917 14.4.1_p20260924 14.4.1_p20261001 14.4.1_p20261008 14.4.1_p20261015 14.4.1_p20261022 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20260904 15.3.1_p20260911 15.3.1_p20260918 15.3.1_p20260925 15.3.1_p20261002 15.3.1_p20261009 15.3.1_p20261016 15.3.1_p20261023 15.3.9999 16.2.0 16.2.1_p20260905 16.2.1_p20260912 16.2.1_p20260926 16.2.1_p20261003 16.2.1_p20261010 16.2.1_p20261017 16.2.1_p20261024 16.3.9999 17.0.0_p20260906 17.0.0_p20260913 17.0.0_p20260920 17.0.0_p20260927 17.0.0_p20261004 17.0.0_p20261011 17.0.0_p20261011-r1 17.0.0_p20261018 17.0.0_p20261025 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20261008 14.4.1_p20261029 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20261009 15.3.1_p20261030 15.3.9999 16.2.0 16.2.1_p20260926 16.2.1_p20261031 16.3.9999 17.0.0_p20261025 17.0.0_p20261101 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -17998,7 +17998,7 @@ sys-kernel/gentoo-kernel 6.1.190 6.1.191 6.6.159 6.6.160 6.6.161 6.12.113 6.12.1
 sys-kernel/gentoo-kernel-bin 6.1.190 6.1.191 6.6.159 6.6.160 6.6.161 6.12.113 6.12.114 6.12.115 6.18.57 6.18.58 6.18.59 6.18.60 7.2.11 7.2.12 7.2.13 7.2.14 7.3.1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.190 6.1.191 6.6.159 6.6.160 6.6.161 6.12.113 6.12.114 6.12.115 6.18.57 6.18.58 6.18.59 6.18.60 7.2.11 7.2.12 7.2.13 7.2.14 7.3.1: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.190 6.1.191 6.6.159 6.6.160 6.6.161 6.12.113 6.12.114 6.12.115 6.18.57 6.18.58 6.18.59 6.18.60 7.2.12 7.2.13 7.2.14 7.2.15 7.3.0 7.3.1: Full sources including the Gentoo patchset for the 7.3 kernel tree
-sys-kernel/git-sources 7.3_rc1 7.3_rc2 7.3_rc3 7.3_rc4 7.3_rc5 7.3_rc6 7.3_rc7: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.4_rc1: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68-r1 69-r1 70 9999: Gentoo fork of installkernel script from debianutils
@@ -18430,7 +18430,7 @@ www-apps/prowlarr-bin 2.5.1.5464: An indexer manager/proxy to integrate with you
 www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.8.3 3.9.0: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
-www-apps/redmine 6.0.7: Flexible project management web application using the Ruby on Rails framework
+www-apps/redmine 6.0.7 6.0.9 6.0.11: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 5.3.19 5.3.20 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
@@ -18439,7 +18439,7 @@ www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.19.2979: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 20261025 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
-www-apps/ttyd 1.7.7-r1 1.7.7-r2 9999: ttyd, a simple command-line tool for sharing terminal over the web
+www-apps/ttyd 1.7.7-r1 1.7.7-r2 1.7.7-r3 9999: ttyd, a simple command-line tool for sharing terminal over the web
 www-apps/vaultwarden-web 2026.1.1 2026.4.1 2026.6.4 2026.7.0: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
 www-apps/webmcp 2.2.1: Web application framework written in Lua and C
@@ -18731,7 +18731,7 @@ x11-libs/libfm-extra 1.3.2: Library for file management
 x11-libs/libfm-qt 2.4.0: Qt Library for Building File Managers
 x11-libs/libfontenc 1.1.9: X.Org fontenc library
 x11-libs/libgxim 0.5.0-r1: GObject-based XIM protocol library
-x11-libs/libnotify 0.8.7 0.8.8: A library for sending desktop notifications
+x11-libs/libnotify 0.8.8 0.8.9: A library for sending desktop notifications
 x11-libs/liboglappth 1.0.0-r1: Libary for OpenGL applications with easy-to-code scene setup and selection
 x11-libs/libpciaccess 0.19: Library providing generic access to the PCI bus and devices
 x11-libs/libtinynotify 0.2.1: A lightweight implementation of Desktop Notification Spec
