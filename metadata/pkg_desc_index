@@ -1274,6 +1274,7 @@ app-backup/duplicity 3.1.0 3.2.1 3.2.2 9999: Secure backup system using GnuPG to
 app-backup/duply 2.5.6: Shell frontend for duplicity
 app-backup/fsarchiver 0.8.9: Flexible filesystem archiver for backup and deployment tool
 app-backup/hdup 2.0.14-r2: Hdup is backup program using tar, find, gzip/bzip2, mcrypt and ssh
+app-backup/kio-snapshot 1.1.0: Btrfs Filesystem snapshot integration for KDE applications
 app-backup/mirdir 2.1-r3: Synchronize two directory trees in a fast way
 app-backup/mylvmbackup 0.16-r2: Tool for creating backups of MySQL server's data files using LVM snapshots
 app-backup/pdumpfs 1.3-r3: A daily backup system similar to Plan9's dumpfs
@@ -1291,7 +1292,7 @@ app-backup/snapper 0.12.2-r1 0.13.0 0.13.1: Command-line program for btrfs and l
 app-backup/spideroak-bin 7.5.0-r3: Secure free online backup, storage, and sharing system
 app-backup/synology-cloud-station-backup 4469: Back up your files from multiple client computers to a centralized Synology NAS
 app-backup/tarsnap 1.0.41: Online backups for the truly paranoid
-app-backup/tsm 8.1.27.0-r2 8.1.27.1-r1 8.2.1.0 8.2.2.0: IBM Storage Protect (former Tivoli Storage Manager) Backup/Archive Client, API
+app-backup/tsm 8.1.27.0-r3 8.1.27.1-r2 8.2.1.0-r1 8.2.2.0-r1: IBM Storage Protect (former Tivoli Storage Manager) Backup/Archive Client, API
 app-backup/untangle-https-backup 0.2.0: Back up Untangle configurations via the web admin UI
 app-benchmarks/bashmark 0.6.2: Geno's cross platform benchmarking suite
 app-benchmarks/bonnie 2.0.6-r3: Performance Test of Filesystem I/O using standard C library calls
@@ -1854,7 +1855,7 @@ app-editors/kakoune 2022.10.31 2023.08.05 2024.05.18 2025.06.03 2026.05.21 9999:
 app-editors/kile 2.9.94: Latex Editor and TeX shell based on KDE Frameworks
 app-editors/leafpad 0.8.18.1-r1: Simple GTK2 text editor
 app-editors/levee 4.0: Really tiny vi clone, for things like rescue disks
-app-editors/logseq-desktop-bin 0.10.15-r1 1.0.0 2.0.2-r1: A privacy-first, open-source platform for knowledge sharing and management
+app-editors/logseq-desktop-bin 0.10.15-r2 1.0.0-r1 2.0.2-r2: A privacy-first, open-source platform for knowledge sharing and management
 app-editors/lpe 1.2.8_p20210401: A lightweight programmers editor
 app-editors/mg 20240709 20260719: MicroGnuEmacs, a port from the BSDs
 app-editors/micro 2.0.13-r1 2.0.15: Modern and intuitive terminal-based text editor
@@ -1889,8 +1890,8 @@ app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
 app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.141.0 1.142.0 1.143.0 1.144.0: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.135.06055 1.140.06880: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscode 1.141.0-r1 1.142.0-r1 1.143.0-r1 1.144.0-r1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscodium 1.135.06055-r1 1.140.06880-r1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.37-r2 21.5.9999: highly customizable open source text editor and application development system
@@ -2398,7 +2399,7 @@ app-emulation/dynamips 0.2.23 0.2.24: Cisco 7200/3600 Simulator
 app-emulation/faudio 26.10 26.11: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/fex-xtajit 2608: A wine emulation dll for running x86 application on an arm64 host
 app-emulation/firecracker-bin 1.16.1 1.17.0: Secure and fast microVMs for serverless computing (static build)
-app-emulation/free42 3.1.9 3.3.11 3.3.12: An HP-42S Calculator Simulator
+app-emulation/free42 3.1.9 3.3.11 3.3.12 3.5.1: An HP-42S Calculator Simulator
 app-emulation/fs-uae 3.1.66 3.2.35 9999: Integrates the most accurate Amiga emulation code available from WinUAE
 app-emulation/fs-uae-launcher 3.1.70-r1 3.2.35: PyQt-based launcher for FS-UAE
 app-emulation/fuse 1.7.0 1.8.0: Free Unix Spectrum Emulator by Philip Kendall
@@ -2427,11 +2428,11 @@ app-emulation/nemu 3.3.0-r1 3.4.0: Ncurses interface for QEMU
 app-emulation/open-vm-tools 13.0.10-r1 13.1.0: Tools for VMware guests
 app-emulation/open-vmdk 0.3.12 0.3.13: Tools for creating and converting OVA virtual appliance files
 app-emulation/pcem 17_p20241210-r2: A PC emulator that specializes in running old operating systems and software
-app-emulation/plus42 1.3.13 1.3.15: An Enhanced HP-42S Calculator Simulator
+app-emulation/plus42 1.3.13 1.3.15 1.5.1: An Enhanced HP-42S Calculator Simulator
 app-emulation/protontricks 1.13.1 1.14.1 1.15.0: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r2: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.4.2: Qt GUI configuration tool for Wine
-app-emulation/qemu 10.0.7-r2 10.0.10-r2 10.0.14-r1 10.1.3-r3 10.2.2-r2 10.2.3-r1 10.2.3-r3 10.2.4-r1 11.1.2-r1 9999: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 10.0.7-r2 10.0.10-r2 10.0.14-r1 10.1.3-r3 10.2.2-r2 10.2.3-r1 10.2.3-r4 10.2.4-r2 11.1.2-r2 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 8.2.0 9.2.0 10.2.2 10.2.3: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.8-r1: RISC-V CPU simulator for education
@@ -3067,7 +3068,7 @@ app-office/texmaker 6.0.1: Powerful LaTeX-IDE
 app-office/texstudio 4.9.5 4.9.6 4.9.9: Free cross-platform LaTeX editor (fork from texmakerX)
 app-office/unoconv 0.9.0-r1: Convert between document formats supported by LibreOffice
 app-office/worklog-assistant-bin 2.3.3900: Hassle-free time tracking for JIRA self-hosted and OnDemand
-app-office/wps-office 11.1.0.11723 11.1.0.11723-r1: WPS Office is an office productivity suite
+app-office/wps-office 11.1.0.11723-r2: WPS Office is an office productivity suite
 app-officeext/barcode 2.4.0: Extension for reading barcodes
 app-officeext/ct2n 1.5.0: Extension for converting text to numbers
 app-officeext/dmaths 3.4.9.0-r1: Mathematics Formula Editor Extension
@@ -3184,7 +3185,7 @@ app-shells/powerline 2.8.4 9999: The ultimate statusline/prompt utility
 app-shells/psh 1.8.1-r4: Combines the interactive nature of a Unix shell with the power of Perl
 app-shells/push 3.4: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/pwsh 7.6.3-r1 7.6.5 7.6.6: Cross-platform automation and configuration tool
-app-shells/pwsh-bin 7.6.3-r1 7.6.5: Cross-platform automation and configuration tool (binary package)
+app-shells/pwsh-bin 7.6.3-r2 7.6.5-r1: Cross-platform automation and configuration tool (binary package)
 app-shells/quoter 4.2: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/rc 1.7.4-r3: A reimplementation of the Plan 9 shell
 app-shells/rrs 1.70-r2: Reverse Remote Shell
@@ -3864,7 +3865,7 @@ dev-build/automake 1.11.6-r5 1.17-r3 1.18.1-r1 1.19 9999: Used to generate Makef
 dev-build/automake-vanilla 1.11.6-r1 1.15.1-r1 1.16.5-r1 1.17-r1 1.18 1.18.1-r1 1.19 9999: Used to generate Makefile.in from Makefile.am
 dev-build/automake-wrapper 20240607 20250528 20260920 99999999: Wrapper for automake to manage multiple automake versions
 dev-build/b2 5.4.2 5.4.2-r1 5.5.3 5.6.1: A system for large project software construction, simple to use and powerful
-dev-build/bazel-buildtools 8.5.1 10.1.0: Tools for working with Google's Bazel BUILD files
+dev-build/bazel-buildtools 8.5.1 10.1.0 10.2.0: Tools for working with Google's Bazel BUILD files
 dev-build/bazelisk 1.29.0 1.30.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20251111 20260508 20260912: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019-r1 0.4_p20250404: Another set of autoconf macros for compiling against boost
@@ -3910,7 +3911,7 @@ dev-cpp/argparse 2.9 3.0 3.2: Argument Parser for Modern C++
 dev-cpp/asio 1.30.2 1.34.2 1.36.0 1.38.0: Asynchronous Network Library
 dev-cpp/atkmm 2.28.4 2.36.3: C++ interface for the ATK library
 dev-cpp/aws-crt-cpp 0.43.7 0.43.8 0.43.9 0.44.0 0.44.1 0.44.2 0.44.3: C++ wrapper around the aws-c-* libraries
-dev-cpp/aws-sdk-cpp 1.11.712 1.11.764 1.11.887 1.11.901 1.11.909: AWS SDK for C++
+dev-cpp/aws-sdk-cpp 1.11.712 1.11.764 1.11.887 1.11.901 1.11.921: AWS SDK for C++
 dev-cpp/azure-core 1.16.1 1.16.2 1.16.3: Azure SDK for C++
 dev-cpp/azure-identity 1.13.2 1.13.3: Azure SDK for C++
 dev-cpp/azure-security-keyvault-certificates 4.2.1: Azure SDK for C++
@@ -4041,7 +4042,7 @@ dev-db/mariadb 10.11.18 10.11.19 11.4.9-r1 11.4.13-r1 11.8.5-r1 11.8.6 11.8.9-r1
 dev-db/mariadb-connector-c 3.3.8 3.3.15 3.3.17 3.4.5-r1 3.4.7 3.4.9-r2 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18 3.1.23 3.1.24 3.2.8 3.2.9 3.2.10: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.32 6.0.27 7.0.28 8.0.29 8.3.8: A high-performance, open source, schema-free document-oriented database
-dev-db/mongodb-compass-bin 1.49.8 1.50.0: GUI for MongoDB
+dev-db/mongodb-compass-bin 1.49.8-r1 1.50.0-r1: GUI for MongoDB
 dev-db/mycli 2.30.0 2.30.2: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.20.1.2 0.21.2.2 0.21.3.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
@@ -4151,7 +4152,7 @@ dev-dotnet/dotnet-outdated 4.7.1 4.8.1: Display and update outdated NuGet packag
 dev-dotnet/dotnet-runtime-nugets 6.0.25-r1 6.0.33 6.0.36 7.0.14-r1 7.0.20 8.0.8 8.0.21 8.0.22 8.0.26 8.0.30 8.0.32 9.0.10 9.0.11 9.0.15 9.0.19 9.0.21 10.0.11 10.0.13: .NET runtime nugets
 dev-dotnet/dotnet-script 2.0.0: Run C# scripts from the CLI
 dev-dotnet/dotnet-sdk 9.0.111-r1: .NET is a free, cross-platform, open-source developer platform
-dev-dotnet/dotnet-sdk-bin 6.0.417-r5 7.0.404-r5 8.0.108-r1 9.0.112 9.0.308 10.0.111 10.0.113 10.0.402: .NET is a free, cross-platform, open-source developer platform
+dev-dotnet/dotnet-sdk-bin 6.0.417-r6 7.0.404-r6 8.0.108-r2 9.0.112-r1 9.0.308-r1 10.0.111-r1 10.0.113-r1 10.0.402-r1: .NET is a free, cross-platform, open-source developer platform
 dev-dotnet/fable 4.29.0-r2 5.0.0-r2 5.20.0: F# to JavaScript, TypeScript, Python, Rust and Dart Compiler
 dev-dotnet/fantomas 7.0.3: FSharp source code formatter
 dev-dotnet/fsautocomplete 0.84.0 0.85.0 0.85.4: F# language server using the Language Server Protocol
@@ -5346,7 +5347,7 @@ dev-lang/crystal 1.21.0 1.22.0 1.22.1: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
 dev-lang/cxprolog 0.98.2-r3: A WAM based Prolog system
 dev-lang/dafny 4.11.0: Dafny is a verification-aware programming language
-dev-lang/dafny-bin 4.11.0-r1: Verification-aware programming language
+dev-lang/dafny-bin 4.11.0-r2: Verification-aware programming language
 dev-lang/deno-bin 2.9.8: Modern runtime for JavaScript and TypeScript
 dev-lang/duktape 2.7.0-r3: Embeddable Javascript engine
 dev-lang/dzaima-bqn 0.2.2 9999: A BQN language implementation written in Java, also know as dbqn
@@ -5392,7 +5393,7 @@ dev-lang/lisaac 0.13.1-r2: An object prototype based language
 dev-lang/logtalk 3.47.0-r2: Open source object-oriented logic programming language
 dev-lang/lua 5.1.5-r200 5.3.6-r102 5.4.8: A powerful light-weight programming language designed for extending applications
 dev-lang/luajit 2.1.1780076327 2.1.1787165859 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
-dev-lang/luau 0.707 0.743: Gradually typed embeddable scripting language derived from Lua
+dev-lang/luau 0.707 0.743 0.745: Gradually typed embeddable scripting language derived from Lua
 dev-lang/maude 3.1-r1 3.2.2 3.3.1 3.4 3.5.1: High-level specification language for equational and logic programming
 dev-lang/mercury 22.01.1-r1: Mercury is a modern general-purpose logic/functional programming language
 dev-lang/mercury-extras 22.01.1: Additional libraries and tools that are not part of the Mercury standard library
@@ -5516,7 +5517,7 @@ dev-libs/castxml 0.7.0 0.8.0: C-family abstract syntax tree XML output tool
 dev-libs/cdk 5.0.20230201 5.0.20230201-r2 5.0.20240331-r1 5.0.20240619-r2 5.0.20250116-r1 5.0.20251014 5.0.20260119: A library of curses widgets
 dev-libs/cereal 1.3.2-r4: Header-only C++11 serialization library
 dev-libs/cgilib 0.7-r2: Simple and lightweight interface to the CGI for C and C++ programs
-dev-libs/cglm 0.9.6: OpenGL Mathematics (glm) for C
+dev-libs/cglm 0.9.6 0.9.7: OpenGL Mathematics (glm) for C
 dev-libs/cgreen 1.6.4 1.7.0: Unit test and mocking framework for C and C++
 dev-libs/check 0.15.2-r2: A unit test framework for C
 dev-libs/chmlib 0.40-r2: Library for MS CHM (compressed html) file format
@@ -5690,7 +5691,7 @@ dev-libs/libdwarf 2.3.1 2.3.2: Library intended to simplify reading (and writing
 dev-libs/libebml 1.4.5 1.4.5-r1 1.4.7: Extensible binary format library (kinda like XML)
 dev-libs/libedit 20240808.3.1: BSD replacement for libreadline
 dev-libs/libee 0.4.1-r1: An Event Expression Library inspired by CEE
-dev-libs/libei 1.6.0: Library for Emulated Input, primarily aimed at the Wayland stack
+dev-libs/libei 1.6.0-r1: Library for Emulated Input, primarily aimed at the Wayland stack
 dev-libs/libelf 0.8.13-r3 0.8.13-r4: ELF object file access library
 dev-libs/liberasurecode 1.6.3 1.6.5: Erasure Code API library written in C with pluggable Erasure Code backends
 dev-libs/libestr 0.1.11-r1: Library for some string essentials
@@ -5980,7 +5981,7 @@ dev-libs/serdisplib 2.02-r3: Library to drive several displays with built-in con
 dev-libs/sexpp 0.9.2: S-expressions parser and generator library in C++
 dev-libs/shhopt 1.1.7-r3: library for parsing command line options
 dev-libs/simde 0.8.2: Header-only library providing implementations of SIMD instruction sets
-dev-libs/simdjson 5.0.3 5.0.4 5.0.5 5.0.8 5.1.0: SIMD accelerated C++ JSON library
+dev-libs/simdjson 5.0.3 5.0.4 5.0.5 5.0.8 5.1.0 5.1.1: SIMD accelerated C++ JSON library
 dev-libs/skalibs 2.14.4.0 2.14.5.0 2.14.5.1 2.15.0.0: General-purpose libraries from skarnet.org
 dev-libs/sleef 3.8 3.9.0: Implements vectorized versions of C standard math functions
 dev-libs/sltdl 0.5.1 0.5.2 9999: A surrogate ltdl implementation
@@ -6248,7 +6249,7 @@ dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
 dev-ml/llvm 18.1.8 19.1.7 20.1.8 21.1.8 22.1.8 23.1.4 24.0.0_pre20261018 24.0.0_pre20261028 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
-dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2: Cooperative light-weight thread library for OCaml
+dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2 5.10.1: Cooperative light-weight thread library for OCaml
 dev-ml/lwt_log 1.1.1-r1 1.1.2: Cooperative light-weight thread library for OCaml
 dev-ml/lwt_ssl 1.1.3 1.2.0: GLib integration for Lwt
 dev-ml/markup 1.0.3: Error-recovering streaming HTML5 and XML parsers
@@ -10931,7 +10932,7 @@ dev-util/clang-extract 0_pre20241220 0_pre20251006 9999: Tool to extract code co
 dev-util/claude-code 2.1.312: Claude Code - an agentic coding tool by Anthropic
 dev-util/clazy 1.17.1-r1: Compiler plugin which allows clang to understand Qt semantics
 dev-util/clinfo 3.1.26.09.26 9999: A tool to display info about the system's OpenCL capabilities
-dev-util/clion 2024.3.5-r1 2025.1.4-r1 2025.2.5 2025.3.4 2026.1.4 2026.2.0.1 2026.2.3: A complete toolset for C and C++ development
+dev-util/clion 2024.3.5-r2 2025.1.4-r2 2025.2.5-r1 2025.3.4-r1 2026.1.4-r1 2026.2.0.1-r1 2026.2.3-r1: A complete toolset for C and C++ development
 dev-util/cloc 1.96 2.00: Count Lines of Code
 dev-util/clojure-tools 1.12.4.1629 1.12.5.1645 1.12.6.1673: Development tools for the Clojure programming language
 dev-util/cmocka 1.1.8 2.0.2: Unit testing framework for C
@@ -12247,7 +12248,7 @@ gui-apps/labwc-menu-generator 0.2.0 9999: Simple, lightweight, Labwc/Openbox XML
 gui-apps/labwc-tweaks 0.2.0 9999: Qt configuration tool for labwc
 gui-apps/lavalauncher 2.1.1 9999: Simple launcher for wayland
 gui-apps/liquidshell 1.10.0 1.10.1: Basic desktop shell using QtWidgets
-gui-apps/mako 1.8.0 1.9.0 1.10.0 1.11.0 9999: A lightweight notification daemon for Wayland. Works on Sway
+gui-apps/mako 1.11.0 9999: A lightweight notification daemon for Wayland. Works on Sway
 gui-apps/nm-tray 0.5.1: A simple Qt-based NetworkManager front-end
 gui-apps/qt6ct 0.11: Qt6 Configuration Tool (for DE/WM without Qt integration)
 gui-apps/railway 2.10.0 2.10.1: Travel with all your train information in one place
@@ -12307,11 +12308,11 @@ gui-libs/wf-config 0.11.0 9999: library for managing wayfire configuration files
 gui-libs/wlroots 0.17.4-r1 0.18.2 0.19.0 0.19.1 0.19.2 0.20.0 0.20.1 0.20.2 9999: Pluggable, composable, unopinionated modules for building a Wayland compositor
 gui-libs/wpebackend-fdo 1.16.0 1.16.1: WPE backend designed for Linux desktop systems
 gui-libs/xdg-desktop-portal-lxqt 1.4.0: Backend implementation for xdg-desktop-portal using Qt/KF5/libfm-qt
-gui-libs/xdg-desktop-portal-wlr 0.7.1-r1 0.7.1-r2 0.8.1 9999: xdg-desktop-portal backend for wlroots
+gui-libs/xdg-desktop-portal-wlr 0.8.1-r1 9999: xdg-desktop-portal backend for wlroots
 gui-wm/dwl 0.5-r1 0.6 0.7 0.8 0.9 9999: dwm for Wayland
 gui-wm/gamescope 3.16.28 3.16.31 3.17.0: Efficient micro-compositor for running games
 gui-wm/labwc 0.20.2 0.20.3 9999: Openbox alternative for wayland
-gui-wm/sway 1.11-r1 1.12-r1 9999: i3-compatible Wayland window manager
+gui-wm/sway 1.11-r2 1.12-r2 9999: i3-compatible Wayland window manager
 gui-wm/tinywl 0.17.4 0.18.0 0.18.1 0.19.2 0.20.0 9999: "minimum viable product" Wayland compositor based on wlroots
 gui-wm/wayfire 0.11.0-r1 9999: compiz like 3D wayland compositor
 kde-apps/akonadi 26.04.3 26.08.2: Storage service for PIM data and libraries for PIM apps
@@ -12655,7 +12656,7 @@ kde-plasma/ksystemstats 6.7.5 6.8.2: Plugin-based system monitoring daemon
 kde-plasma/kup 6.8.2: Backup scheduler for the Plasma desktop
 kde-plasma/kwallet-pam 6.7.5 6.8.2: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.7.5 6.8.2: Qt-style API to interact with the wayland-client API
-kde-plasma/kwin 6.7.5-r1 6.8.2 6.8.2-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.7.5-r1 6.8.2-r1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.7.5-r2: Flexible, composited X window manager
 kde-plasma/kwrited 6.7.5 6.8.2: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.7.5 6.8.2: Qt component to allow applications make use of Wayland wl-layer-shell protocol
@@ -12687,7 +12688,7 @@ kde-plasma/plasma-systemmonitor 6.7.5 6.8.2: Monitor system sensors, process inf
 kde-plasma/plasma-thunderbolt 6.7.5 6.8.2: Plasma integration for controlling Thunderbolt devices
 kde-plasma/plasma-vault 6.7.5 6.8.2: Plasma applet and services for creating encrypted vaults
 kde-plasma/plasma-welcome 6.7.5 6.8.2: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.7.5-r1 6.8.2 6.8.2-r1: KDE Plasma workspace
+kde-plasma/plasma-workspace 6.7.5-r1 6.8.2-r1: KDE Plasma workspace
 kde-plasma/plasma-workspace-wallpapers 6.7.5 6.8.2: Wallpapers for the Plasma workspace
 kde-plasma/plasma5support 6.7.5 6.8.2: Support components for porting from KF5/Qt5 to KF6/Qt6
 kde-plasma/plymouth-kcm 6.7.5 6.8.2: KDE Plasma control module for Plymouth
@@ -13165,7 +13166,7 @@ media-gfx/fotocx 26.2-r1 26.8 26.8.1: Program for improving image files made wit
 media-gfx/fotowall 1.0_p20241107: Qt tool for creating wallpapers
 media-gfx/freecad 1.0.2-r2 1.1.1 1.1.3 9999: Qt based Computer Aided Design application
 media-gfx/frogr 1.8.1-r1: flickr applications for GNOME
-media-gfx/geeqie 2.6.1-r1 2.6.1-r2 3.3 9999: A lightweight GTK image viewer forked from GQview
+media-gfx/geeqie 2.6.1-r1 2.6.1-r2 3.3 3.4 9999: A lightweight GTK image viewer forked from GQview
 media-gfx/gif2png 2.5.14 3.0.5: Converts images from GIF format to PNG format
 media-gfx/gifsicle 1.95 1.96: Create, manipulate, and optimize GIF images and animations
 media-gfx/gimp 2.10.38-r5 3.2.4 3.2.6 9999: GNU Image Manipulation Program
@@ -13424,7 +13425,7 @@ media-libs/icc-profiles-basiccolor-printing2009 1.2.0: ICC profiles for printing
 media-libs/icc-profiles-openicc 1.3.1: ICC color profiles by OpenICC
 media-libs/icclib 2.14-r1 3.2.0: Library for reading and writing ICC color profile files
 media-libs/id3lib 3.8.3-r10 3.8.3-r12: Id3 library for C/C++
-media-libs/iir1 1.9.5 1.10.0-r1: DSP IIR realtime filter library written in C++
+media-libs/iir1 1.10.0-r1 1.11.1: DSP IIR realtime filter library written in C++
 media-libs/imlib 1.9.15-r9: Image loading and rendering library
 media-libs/imlib2 1.11.0 1.12.6 1.12.7: Version 2 of an advanced replacement library for libraries like libXpm
 media-libs/intel-hybrid-codec-driver 2.0.0: Libva support for older hardware accelerated encode/decode on Haswell and newer
@@ -14460,11 +14461,11 @@ media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream aud
 media-video/frameworks 0.3.7-r1: A small v4l frame capture utility especially suited for stop motion animation
 media-video/gaupol 1.15-r2 1.16: Editor for text-based subtitle files
 media-video/gnome-video-effects 0.6.0: Effects for Cheese, the webcam video and picture application
-media-video/gpac 2.4.0-r1: Implementation of the MPEG-4 Systems standard developed from scratch in ANSI C
+media-video/gpac 2.4.0-r1 2.4.0-r2: Implementation of the MPEG-4 Systems standard developed from scratch in ANSI C
 media-video/guvcview 2.2.1 2.2.2: Simple Qt6 or GTK+3 interface for capturing and viewing video from v4l2 devices
 media-video/h264enc 10.4.7-r1: Script to encode H.264/AVC/MPEG-4 Part 10 formats
 media-video/handbrake 1.11.2-r1 9999: Open-source, GPL-licensed, multiplatform, multithreaded video transcoder
-media-video/haruna 1.8.1-r1: Video player built with Qt/QML and libmpv
+media-video/haruna 1.8.1-r1 1.9.0: Video player built with Qt/QML and libmpv
 media-video/harvid 0.9.1: HTTP Ardour Video Daemon
 media-video/hevc-hm 17.0: HEVC HM reference software
 media-video/imagination 3.6: Simple DVD slideshow maker
@@ -14791,7 +14792,7 @@ net-analyzer/tsung 1.8.0: Erlang's multi-protocol distributed load testing tool
 net-analyzer/ttcp 1.12-r3: Tool to test TCP and UDP throughput
 net-analyzer/ttl 0.13.3 0.15.3 0.16.1 0.17.0 0.18.0 0.19.0: Modern traceroute/mtr-style TUI with hop stats and optional ASN/geo enrichment
 net-analyzer/upnpscan 0.4-r3: Scans the network for UPnP capable devices
-net-analyzer/vnstat 2.13-r2 2.13-r3 9999: Console-based network traffic monitor that keeps statistics of network usage
+net-analyzer/vnstat 2.13-r2 2.13-r3 2.14 9999: Console-based network traffic monitor that keeps statistics of network usage
 net-analyzer/webfuzzer 0.2.0-r2: Poor man's web vulnerability scanner
 net-analyzer/wireshark 4.6.8 4.6.9 9999: Network protocol analyzer (sniffer)
 net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup tool for non-robots
@@ -15773,7 +15774,7 @@ net-vpn/iodine 0.7.0-r5: IP over DNS tunnel
 net-vpn/isatapd 0.9.7-r2: Creates and maintains an ISATAP tunnel (rfc5214)
 net-vpn/libreswan 4.15 5.1-r1 5.2 5.3: IPsec implementation for Linux, fork of Openswan
 net-vpn/logmein-hamachi 2.1.0.203: LogMeIn Hamachi VPN tunneling engine
-net-vpn/microsoft-azurevpnclient 3.0.0: Microsoft Azure VPN client for connecting securely to the Azure cloud
+net-vpn/microsoft-azurevpnclient 3.0.0-r1: Microsoft Azure VPN client for connecting securely to the Azure cloud
 net-vpn/mullvad-netns 0.2-r1 0.3-r1 0.4 9999: Script to run a command within a Mullvad network namespace
 net-vpn/networkmanager-fortisslvpn 1.4.0-r2: NetworkManager Fortinet SSLVPN compatible plugin
 net-vpn/networkmanager-l2tp 1.20.16-r1 1.52.6: NetworkManager L2TP plugin
@@ -16597,7 +16598,7 @@ sci-ml/tensorpipe 2025.11.05: provides a tensor-aware channel
 sci-ml/tokenizers 0.22.1 0.22.2 0.23.1 0.23.2 0.23.3-r1: Implementation of today's most used tokenizers
 sci-ml/torchdata 0.11.0-r1: A repo for data loading and utilities on PyTorch domain libraries
 sci-ml/torchvision 0.27.0 0.28.0 0.29.1-r2 0.29.2: Datasets, transforms and models to specific to computer vision
-sci-ml/transformers 5.3.0-r1 5.15.1 5.17.0 5.18.0: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-ml/transformers 5.3.0-r1 5.15.1 5.17.0 5.18.0-r1: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-physics/bullet 3.21 3.22b: Continuous Collision Detection and Physics Library
 sci-physics/clhep 2.4.7.1-r1 2.4.7.2: High Energy Physics C++ library
 sci-physics/fastjet 3.4.3 3.5.1 3.5.1-r2 9999: A software package for jet finding in pp and e+e- collisions
@@ -17386,7 +17387,7 @@ sys-apps/init-system-helpers 1.66: Helper scripts useful for both OpenRC and sys
 sys-apps/input-utils 1.3: Small collection of linux input layer utils
 sys-apps/install-xattr 0.10-r1 0.11 0.12 0.13 9999: Wrapper to coreutils install to preserve Filesystem Extended Attributes
 sys-apps/intel-sa-00075-tools 1.0-r1: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/intune-portal 1.2607.4-r1 1.2609.5: Microsoft Intune Company Portal to access a corporate environment
+sys-apps/intune-portal 1.2607.4-r2 1.2609.5-r1: Microsoft Intune Company Portal to access a corporate environment
 sys-apps/inxi 3.3.35.1 3.3.38.1 3.3.40.1 3.3.41.1: The CLI inxi collects and prints hardware and system information
 sys-apps/iotools 1.5: Simple commands to access hardware device registers
 sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
@@ -17578,13 +17579,13 @@ sys-auth/elogind 255.24 255.25 255.27 257.14-r1 257.16: The systemd project's lo
 sys-auth/fprintd 1.94.2-r1 1.94.3-r1 1.94.5: D-Bus service to access fingerprint readers
 sys-auth/google-authenticator 1.11 9999: PAM Module for two step verification via mobile platform
 sys-auth/libfprint 1.94.4 1.94.7 1.94.9 1.94.9-r1 1.94.10: Library to add support for consumer fingerprint readers
-sys-auth/libfprint-2-tod1-broadcom 5.12.018 5.15.285: Proprietary driver for the fingerprint reader on the Dell Latitude
+sys-auth/libfprint-2-tod1-broadcom 5.12.018-r1 5.15.285-r1: Proprietary driver for the fingerprint reader on the Dell Latitude
 sys-auth/libnss-cache 0.10.2: libnss-cache is a library that serves nss lookups
 sys-auth/libnss-mysql 1.7.1 1.7.1-r1: NSS MySQL Library
 sys-auth/libnss-nis 3.1 3.2 3.4: NSS module to provide NIS support
 sys-auth/libnss-pgsql 1.5.0_beta-r1: Name Service Switch module for use with PostgreSQL
 sys-auth/libyubikey 1.13-r1: Yubico C low-level library
-sys-auth/microsoft-identity-broker 3.0.2-r1: Microsoft Authentication Broker to access a corporate environment
+sys-auth/microsoft-identity-broker 3.0.2-r2: Microsoft Authentication Broker to access a corporate environment
 sys-auth/munge 0.5.18: An authentication service for creating and validating credentials
 sys-auth/nss-docker-ng 1.0.7 1.1.3 1.2.1: NSS plugin for finding Docker containers by their ID or name
 sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
@@ -17998,7 +17999,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel bu
 sys-kernel/gentoo-kernel 6.1.191 6.6.161 6.12.115 6.18.60 7.3.1: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.191 6.6.161 6.12.115 6.18.60 7.3.1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.191 6.6.161 6.12.115 6.18.60 7.3.1: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.190 6.1.191 6.6.159 6.6.160 6.6.161 6.12.113 6.12.114 6.12.115 6.18.57 6.18.58 6.18.59 6.18.60 7.2.12 7.2.13 7.2.14 7.2.15 7.3.0 7.3.1: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-sources 6.1.191 6.6.161 6.12.115 6.18.60 7.2.15 7.3.1: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18383,7 +18384,7 @@ www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20260714c-r1: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
 www-apps/drupal 10.6.18 11.2.14 11.3.17 11.4.8: PHP-based open-source platform and content management system
-www-apps/element 1.12.27 1.12.30 1.12.32: A glossy Matrix collaboration client for the web
+www-apps/element 1.12.32 1.12.33: A glossy Matrix collaboration client for the web
 www-apps/gitea 1.27.3 28.3.0: A painless self-hosted Git service
 www-apps/grafana-bin 12.3.11 12.4.3_p2 12.4.13 13.1.8 13.2.4: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/haunt 0.3.0: Haunt is a simple, functional, hackable static site generator
@@ -18395,17 +18396,17 @@ www-apps/icingaweb2-module-graphite 1.2.1 1.2.5 9999: Icinga Web 2 plugin for Gr
 www-apps/icingaweb2-module-incubator 0.23.0: Bleeding edge Icinga Web 2 libraries
 www-apps/icingaweb2-module-pnp4nagios 1.0.1-r1 9999: Icinga Web 2 plugin for pnp4nagios
 www-apps/ikiwiki 3.20200202.3-r1 3.20200202.4: A wiki compiler
-www-apps/jackett-bin 0.22.1719 0.24.1367: API Support for your favorite torrent trackers
+www-apps/jackett-bin 0.22.1719-r1 0.24.1367-r1: API Support for your favorite torrent trackers
 www-apps/jekyll 4.4.1: Simple, blog aware, static site generator
 www-apps/jekyll-coffeescript 2.0.0-r1: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r2: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 12.4: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 12.4-r1: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
-www-apps/lidarr-bin 3.1.3.4975: Looks and smells like Sonarr but made for music
+www-apps/lidarr-bin 3.1.3.4975-r1: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
 www-apps/mediawiki 1.43.9 1.43.11 1.45.4 1.45.6 1.46.0 1.46.2: The MediaWiki wiki web application (as used on wikipedia.org)
@@ -18427,17 +18428,17 @@ www-apps/phpBB 3.3.19: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.7: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 16.3.0 16.4.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.16: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 2.5.1.5464: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 6.3.0.10514: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 2.5.1.5464-r1: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 6.3.0.10514-r1: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.8.3 3.9.0: A simple CalDAV calendar server
-www-apps/readarr-bin 0.4.18.2805: An ebook and audiobook collection manager for Usenet and BitTorrent users
+www-apps/readarr-bin 0.4.18.2805-r1: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 6.0.7 6.0.9 6.0.11: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
 www-apps/rutorrent 5.3.19 5.3.20 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
-www-apps/sonarr-bin 4.0.19.2979: Sonarr is a Smart PVR for newsgroup and bittorrent users
+www-apps/sonarr-bin 4.0.19.2979-r1: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 20261025 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
 www-apps/ttyd 1.7.7-r1 1.7.7-r2 1.7.7-r3 9999: ttyd, a simple command-line tool for sharing terminal over the web
