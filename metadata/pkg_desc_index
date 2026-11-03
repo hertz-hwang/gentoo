@@ -2666,10 +2666,10 @@ app-laptop/tpacpi-bat 3.1-r1 9999: Control battery thresholds of recent ThinkPad
 app-laptop/tpb 0.6.4-r1: IBM ThinkPad buttons utility
 app-laptop/tuxedo-control-center-bin 2.1.16 2.1.22 2.1.23: Tool to control performance, energy, fan and comfort settings on TUXEDO laptops
 app-laptop/tuxedo-drivers 4.15.4 4.18.2 4.21.0 4.22.1: Kernel modules for TUXEDO laptops
-app-metrics/alertmanager 0.28.0 0.33.1: Alertmanager for alerts sent by client applications such as Prometheus
+app-metrics/alertmanager 0.28.0 0.33.1 0.34.2: Alertmanager for alerts sent by client applications such as Prometheus
 app-metrics/apache_exporter 1.1.1 1.1.1-r1: Prometheus exporter for apache metrics
 app-metrics/bind_exporter 0.8.0: Prometheus exporter for BIND
-app-metrics/blackbox_exporter 0.25.0 0.28.0: Prometheus exporter for blackbox probing via HTTP, HTTPS, DNS, TCP and ICMP
+app-metrics/blackbox_exporter 0.28.0 0.29.1: Prometheus exporter for blackbox probing via HTTP, HTTPS, DNS, TCP and ICMP
 app-metrics/carbonapi-booking 0.3.0-r1 0.3.0_p20250201: High-performance Graphite front-end, Booking.com fork
 app-metrics/carbonapi-web 1.1: graphite-web fork for standalone usage with carbonapi
 app-metrics/ceph_exporter 4.1.1-r1 4.2.5: Prometheus exporter that scrapes metrics from a ceph cluster
@@ -2756,7 +2756,7 @@ app-misc/cfiles 1.8: A ncurses file manager written in C with vim like keybindin
 app-misc/check-jsonschema 0.28.4-r2 0.34.0 0.37.1: A CLI and set of pre-commit hooks for jsonschema validation
 app-misc/chkcrontab 1.7-r3: A tool to detect crontab errors
 app-misc/ckb 0.6.1-r1 0.6.2-r1 9999: Corsair K65/K70/K95 Driver
-app-misc/ckermit 10.0.416_beta12 11.1.516: Combined serial and network communication software package
+app-misc/ckermit 10.0.416_beta12 11.1.516-r1: Combined serial and network communication software package
 app-misc/clockywock 0.3.1a: ncurses based analog clock
 app-misc/cmatrix 2.0-r5 2.0-r6: Ncurses based app to show a scrolling screen from the Matrix
 app-misc/color 1.2-r3: Easily add ANSI colouring to shell scripts
@@ -9649,7 +9649,7 @@ dev-python/slixmpp 1.15.0 1.16.0: Python 3 library for XMPP
 dev-python/smartypants 2.0.2: ASCII quote-dot-dash to HTML entity converter
 dev-python/smbus2 0.6.1: A drop-in replacement for smbus-cffi/smbus-python in pure Python
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
-dev-python/snakeoil 0.11.6 0.11.7 9999: misc common functionality and useful optimizations
+dev-python/snakeoil 0.11.7 9999: misc common functionality and useful optimizations
 dev-python/snaketrace 0.3.1-r1: An strace-like tool for Python audit events
 dev-python/snapshottest 0.6.0: Snapshot Testing utils for Python
 dev-python/sniffio 1.3.1: Sniff out which async library your code is running under
@@ -11137,10 +11137,10 @@ dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinemen
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.19.12 7.0 7.1 7.2: Userland tools for Linux Performance Counters
 dev-util/pixi 0.83.0-r1: A package management and workflow tool
-dev-util/pkgcheck 0.10.45 0.10.47 0.10.48 0.10.49 9999: pkgcore-based QA utility for ebuild repos
+dev-util/pkgcheck 0.10.49 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.5.1 3.0.3 3.0.4 3.0.5 3.0.6 3.0.7 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
-dev-util/pkgdev 0.2.18 0.2.19 9999: Collection of tools for Gentoo development
+dev-util/pkgdev 0.2.19 9999: Collection of tools for Gentoo development
 dev-util/pkgdiff 1.8 9999: Package Changes Analyzer (pkgdiff)
 dev-util/plan9port 0_pre20240617 0_pre20260226: Port of many Plan 9 programs and libraries
 dev-util/ply 2.3.0: Dynamic instrumentation of the Linux kernel with BPF and kprobes
@@ -14520,7 +14520,7 @@ media-video/simplescreenrecorder 0.4.4_p20250125 0.4.4_p20251228 9999: Simple Sc
 media-video/smplayer 25.6.0_p20250903-r1: Great Qt GUI front-end for mplayer/mpv
 media-video/snappy 1.0_p20200428: A simple media player written using GStreamer and Clutter
 media-video/sonic-snap 1.7-r2: Webcam app for sn9c10x based camera controllers (with optional MPEG4 support)
-media-video/srs 6.0.184: Simple Realtime media Server
+media-video/srs 6.0.195: Simple Realtime media Server
 media-video/streamdvd 0.4-r2: fast tool to backup Video DVDs 'on the fly'
 media-video/sub2srt 0.5.3: Tool to convert several subtitle formats into subviewer srt
 media-video/subcheck 0.78.2-r1: Subcheck checks srt subtitle files for errors
@@ -14882,7 +14882,7 @@ net-dns/updatedd 2.6-r8: Dynamic DNS client with plugins for several dynamic dns
 net-dns/valtz 0.8: Validation tool for tinydns-data zone files
 net-firewall/arno-iptables-firewall 2.1.1a-r1 2.1.2a-r1: Arno's iptables firewall script
 net-firewall/arptables 0.0.5-r2: Set up, maintain, and inspect the tables of ARP rules in the Linux kernel
-net-firewall/bpfilter 0.5.2 0.6.0 0.7.0: BPF-based packet filtering framework
+net-firewall/bpfilter 0.5.2 0.6.0 0.7.0 0.8.0: BPF-based packet filtering framework
 net-firewall/conntrack-tools 1.4.8-r1 1.4.9: Connection tracking userspace tools
 net-firewall/ebtables 2.0.11-r3: Controls Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/ferm 2.7: Command line util for managing firewall rules
@@ -14953,7 +14953,7 @@ net-im/ejabberd 25.10 26.04 26.07: Robust, scalable and extensible XMPP server
 net-im/element-desktop-bin 1.12.28: A glossy Matrix collaboration client for desktop (binary package)
 net-im/err 6.1.9: Multiprotocol chatbot designed to be easily deployable and maintainable
 net-im/fractal 14.2 14.3: Matrix messaging app for GNOME written in Rust
-net-im/gajim 2.4.6 2.5.0 2.6.0: GTK XMPP Client
+net-im/gajim 2.4.6 2.6.0 2.7.0: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.16.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
@@ -16588,7 +16588,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interac
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.40.13: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.40.14: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.1 2.15.0: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17465,7 +17465,7 @@ sys-apps/pcsc-lite 2.4.0-r1 2.4.1 2.5.1 2.5.3: PC/SC Architecture smartcard midd
 sys-apps/pcsc-slb-rf72-drv 1.1.0-r2: Schlumberger Reflex 72 Serial Smartcard Reader
 sys-apps/pcsc-tools 1.7.4 1.7.5: PC/SC Architecture smartcard tools
 sys-apps/pick 4.0.0-r1: A fuzzy search tool for the command-line
-sys-apps/pkgcore 0.12.44 0.12.45 0.12.46 0.12.47 0.12.48 9999: a framework for package management
+sys-apps/pkgcore 0.12.48 9999: a framework for package management
 sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.23 1.1.24: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
@@ -18410,7 +18410,7 @@ www-apps/klaus 3.0.1: A simple, easy-to-set-up Git web viewer
 www-apps/lidarr-bin 3.1.3.4975-r1: Looks and smells like Sonarr but made for music
 www-apps/liquid_feedback_core 4.2.2: Internet platforms for proposition development and decision making
 www-apps/liquid_feedback_frontend 4.0.0: Internet platforms for proposition development and decision making
-www-apps/mediawiki 1.43.9 1.43.11 1.45.4 1.45.6 1.46.0 1.46.2: The MediaWiki wiki web application (as used on wikipedia.org)
+www-apps/mediawiki 1.43.11 1.45.6 1.46.2: The MediaWiki wiki web application (as used on wikipedia.org)
 www-apps/miniflux 2.2.17-r1 2.3.4: Minimalist and opinionated feed reader
 www-apps/mirmon 2.11-r2: Simple webapp to monitor the status of mirrors
 www-apps/moodle 4.5.15 5.2.4 5.3: The Moodle Course Management System
@@ -18456,9 +18456,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1 50.6: GNOME webbrowser based on Webkit
 www-client/falkon 26.04.3 26.08.2: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 153.6.0 159.0: Firefox Web Browser
+www-client/firefox 153.6.0 159.0 159.0.1: Firefox Web Browser
 www-client/firefox-bin 153.6.0 159.0 159.0.1: Firefox Web Browser
-www-client/firefox-l10n 153.6.0 159.0: Firefox Web Browser's translation files
+www-client/firefox-l10n 153.6.0 159.0 159.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 154.0.8037.92 156.0.8078.47 156.0.8078.79: The web browser from Google
 www-client/google-chrome-beta 156.0.8078.4 157.0.8103.6 158.0.8127.2: The web browser from Google
 www-client/google-chrome-unstable 156.0.8072.0 158.0.8106.0 159.0.8130.0: The web browser from Google
