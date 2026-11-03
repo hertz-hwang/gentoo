@@ -1890,8 +1890,8 @@ app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
 app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.141.0-r1 1.142.0-r1 1.143.0-r1 1.144.0-r1: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.135.06055-r1 1.140.06880-r1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscode 1.144.0-r1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscodium 1.140.06880-r1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.36-r6 21.5.37-r1 21.5.37-r2 21.5.9999: highly customizable open source text editor and application development system
@@ -2756,7 +2756,7 @@ app-misc/cfiles 1.8: A ncurses file manager written in C with vim like keybindin
 app-misc/check-jsonschema 0.28.4-r2 0.34.0 0.37.1: A CLI and set of pre-commit hooks for jsonschema validation
 app-misc/chkcrontab 1.7-r3: A tool to detect crontab errors
 app-misc/ckb 0.6.1-r1 0.6.2-r1 9999: Corsair K65/K70/K95 Driver
-app-misc/ckermit 10.0.416_beta12: Combined serial and network communication software package
+app-misc/ckermit 10.0.416_beta12 11.1.516: Combined serial and network communication software package
 app-misc/clockywock 0.3.1a: ncurses based analog clock
 app-misc/cmatrix 2.0-r5 2.0-r6: Ncurses based app to show a scrolling screen from the Matrix
 app-misc/color 1.2-r3: Easily add ANSI colouring to shell scripts
@@ -3443,7 +3443,7 @@ app-text/teseq 1.1.1: A tool for analyzing files that contain control characters
 app-text/tessdata_best 4.0.0 4.1.0: Most accurate trained models for app-text/tesseract
 app-text/tessdata_fast 4.0.0 4.1.0: Fast integer versions of trained models for app-text/tesseract
 app-text/tessdata_legacy 4.0.0 4.1.0: Trained models for app-text/tesseract compatible with the legacy engine
-app-text/tesseract 5.5.2 5.5.2-r1 5.5.3 9999: An OCR Engine, originally developed at HP, now open source
+app-text/tesseract 5.5.3 5.5.4 9999: An OCR Engine, originally developed at HP, now open source
 app-text/texi2html 5.0-r1: Perl script that converts Texinfo to HTML
 app-text/texlive 2023 2023-r1 2024 2026: A complete TeX distribution
 app-text/texlive-core 2023-r10 2023-r11 2024-r2 2024-r3 2026-r2: A complete TeX distribution
@@ -5921,7 +5921,7 @@ dev-libs/openobex 1.7.2-r3: Implementation of the OBEX protocol used for transfe
 dev-libs/openpace 1.1.3 1.1.4: Cryptographic library for EAC version 2
 dev-libs/opensc 0.27.1 0.27.1-r1 9999: Libraries and applications to access smartcards
 dev-libs/openspecfun 0.5.5: A collection of special mathematical functions
-dev-libs/openssl 3.5.9 3.5.9999 3.6.5 3.6.9999 4.0.3 4.0.9999 4.1.0 4.1.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
+dev-libs/openssl 3.5.9 3.5.9999 3.6.5 3.6.9999 4.1.0 4.1.9999: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/openssl-compat 1.0.2u-r2 1.1.1u 1.1.1w 3.6.2 3.6.4 3.6.5: Full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/optix 7.4.0 7.5.0 8.1.0-r1 9.0.0-r1: NVIDIA Ray Tracing Engine
 dev-libs/ossp-uuid 1.6.2-r7 1.6.2-r8 1.6.6: An ISO-C:1999 API with CLI for generating DCE, ISO/IEC and RFC compliant UUID
@@ -6707,7 +6707,7 @@ dev-perl/Crypt-Random-Source 0.140.0: Get weak or strong random data from plugga
 dev-perl/Crypt-Random-TESHA2 0.10.0: Random numbers using timer/schedule entropy
 dev-perl/Crypt-Rijndael 1.160.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Crypt-SMIME 0.300.0-r1 0.310.0: S/MIME message signing, verification, encryption and decryption
-dev-perl/Crypt-SSLeay 0.720.0-r4: OpenSSL support for LWP
+dev-perl/Crypt-SSLeay 0.720.0-r4 0.720.0-r5: OpenSSL support for LWP
 dev-perl/Crypt-Simple 0.60.0-r3: Encrypt stuff simply
 dev-perl/Crypt-SmbHash 0.120.0-r3: LM/NT hashing, for Samba's smbpasswd entries
 dev-perl/Crypt-Twofish 2.180.0-r1: The Twofish Encryption Algorithm
@@ -12606,7 +12606,7 @@ kde-frameworks/threadweaver 6.29.0 6.31.0: Framework for managing threads using 
 kde-misc/basket 2.49b_p20251207: Multiple information organizer - a DropDrawers clone
 kde-misc/colord-kde 26.04.3 26.08.2: Provides interfaces and session daemon to colord
 kde-misc/kclock 26.04.3 26.08.2: Convergent clock application for Plasma
-kde-misc/kdeconnect 26.04.3-r3 26.08.2: Adds communication between KDE Plasma and your smartphone
+kde-misc/kdeconnect 26.04.3-r3 26.04.3-r4 26.08.2-r1: Adds communication between KDE Plasma and your smartphone
 kde-misc/kdiff3 1.12.6: Frontend to diff3 based on KDE Frameworks
 kde-misc/kio-fuse 5.1.1: FUSE interface for KIO
 kde-misc/kio-gdrive 26.04.3 26.08.2: KIO worker for Google Drive service
@@ -12616,7 +12616,7 @@ kde-misc/krename 5.0.60_pre20260606: Powerful batch file renamer
 kde-misc/krunner-vscodeprojects 2.0.2: Open VSCode Project Manager projects from Krunner
 kde-misc/krusader 2.9.0: Advanced twin-panel (commander-style) file-manager with many extras
 kde-misc/kshutdown 6.2: Shutdown manager for desktop environments like KDE Plasma
-kde-misc/kweather 26.04.3 26.08.2: Weather forecast application for Plasma with flat and dynamic/animated views
+kde-misc/kweather 26.04.3-r1 26.08.2-r1: Weather forecast application for Plasma with flat and dynamic/animated views
 kde-misc/kwin-type 0.2: Autotype on KDE's KWin Wayland compositor
 kde-misc/markdownpart 26.04.3 26.08.2: Markdown viewer KParts plugin based on QTextDocument
 kde-misc/plasma-pass 1.3.1: Plasma applet to access password from pass
@@ -12656,7 +12656,7 @@ kde-plasma/ksystemstats 6.7.5 6.8.2: Plugin-based system monitoring daemon
 kde-plasma/kup 6.8.2: Backup scheduler for the Plasma desktop
 kde-plasma/kwallet-pam 6.7.5 6.8.2: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.7.5 6.8.2: Qt-style API to interact with the wayland-client API
-kde-plasma/kwin 6.7.5-r1 6.8.2-r1: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.7.5-r1 6.8.2-r2: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.7.5-r2: Flexible, composited X window manager
 kde-plasma/kwrited 6.7.5 6.8.2: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.7.5 6.8.2: Qt component to allow applications make use of Wayland wl-layer-shell protocol
@@ -12676,7 +12676,7 @@ kde-plasma/plasma-disks 6.7.5 6.8.2: Monitors S.M.A.R.T. capable devices for imm
 kde-plasma/plasma-firewall 6.7.5 6.8.2: Plasma frontend for Firewalld or UFW
 kde-plasma/plasma-integration 6.7.5 6.8.2: Qt Platform Theme integration plugins for the Plasma workspaces
 kde-plasma/plasma-keyboard 6.7.5 6.8.2: Virtual keyboard based on Qt Virtual Keyboard
-kde-plasma/plasma-login-manager 6.8.2: Plasma Login Manager
+kde-plasma/plasma-login-manager 6.8.2-r1: Plasma Login Manager
 kde-plasma/plasma-login-sessions 6.7.5: KDE Plasma login sessions
 kde-plasma/plasma-meta 6.7.5 6.8.2: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-mimeapps-list 3: Gentoo curated mimeapps list for KDE Plasma
@@ -12769,7 +12769,7 @@ lxqt-base/lxqt-sudo 2.4.0: LXQt GUI frontend for sudo
 lxqt-base/lxqt-wayland-session 0.4.0: LXQt Wayland Session Support
 mail-client/aerc 0.20.1 0.21.0 9999: Email client for your terminal
 mail-client/alot 0.11-r2 9999: Experimental terminal UI for net-mail/notmuch written in Python
-mail-client/alpine 2.26-r5 2.29.9: An easy to use text-based based mail and news client
+mail-client/alpine 2.26-r5 2.29.9 2.29.99_p20260616: An easy to use text-based based mail and news client
 mail-client/balsa 2.6.4-r2 2.6.4-r3 2.6.5: Email client for GNOME
 mail-client/bower 1.0: Curses terminal client for the Notmuch email system
 mail-client/claws-mail 3.21.0-r2 4.3.1-r2 4.4.0 9999: An email client (and news reader) based on GTK+
@@ -12799,7 +12799,7 @@ mail-filter/dkimproxy 1.4.1: An SMTP proxy server for adding DKIM headers
 mail-filter/exim-geoip 0.1-r1: This is an IPv4 and IPv6 capable GeoIP dlfunc library for Exim
 mail-filter/exim-p0f 0.1-r1: This is p0f version 3 dlfunc library for Exim
 mail-filter/gld 1.7-r4: Standalone anti-spam greylisting algorithm on top of Postfix
-mail-filter/imapfilter 2.8.3 2.8.5: An IMAP mail filtering utility
+mail-filter/imapfilter 2.8.5 2.8.6: An IMAP mail filtering utility
 mail-filter/libmilter 1.0.2_p4 1.0.2_p4-r1 1.0.2_p5: The Sendmail Filter API (Milter)
 mail-filter/libopensmtpd 0.8 1.0: Library for creating OpenSMTPD filters
 mail-filter/libsieve 2.2.7: A library for parsing, sorting and filtering your mail
@@ -13270,7 +13270,7 @@ media-gfx/povray 3.7.0.0-r6: The Persistence of Vision Raytracer
 media-gfx/pqiv 2.12 2.13.3: A powerful GTK 3 based command-line image viewer with a minimal UI
 media-gfx/pqstego 0.0.1: Tools for Perturbed Quantization Steganography
 media-gfx/propaganda 1.0-r2: Propaganda Volume 1-14 + E. Tiling images for your desktop
-media-gfx/prusaslicer 2.9.6-r1 9999: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
+media-gfx/prusaslicer 2.9.6-r1 2.9.7 9999: A mesh slicer to generate G-code for fused-filament-fabrication (3D printers)
 media-gfx/psftools 1.0.10: Utilities for manipulation of console fonts in PSF format
 media-gfx/pstoedit 3.75: Translate PostScript and PDF graphics into other vector formats
 media-gfx/qimgv 1.0.2_p20250721: Cross-platform image viewer with webm support, written in Qt
@@ -14174,7 +14174,7 @@ media-sound/headsetcontrol 3.1.0-r1: A tool to control certain aspects of USB-co
 media-sound/helm 0.9.0-r2: Open source polyphonic software synthesizer with lots of modulation
 media-sound/helvum 0.5.1-r4 0.6.2: A GTK patchbay for pipewire
 media-sound/horgand 1.14-r3: Opensource software organ
-media-sound/hydrogen 1.2.6 1.2.7 9999: Advanced drum machine
+media-sound/hydrogen 1.2.7 9999: Advanced drum machine
 media-sound/icecream 1.3: Extracts and records individual MP3 tracks from shoutcast streams
 media-sound/id3 0.15-r2: changes the id3 tag in an mp3 file
 media-sound/id3ed 1.10.4-r1: ID3 tag editor for mp3 files
@@ -15170,7 +15170,7 @@ net-libs/nDPI 4.8 4.14 9999: Open Source Deep Packet Inspection Software Toolkit
 net-libs/neon 0.34.0 0.37.1: HTTP and WebDAV client library
 net-libs/net6 1.3.14-r2: Network access framework for IPv4/IPv6 written in C++
 net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP protocols
-net-libs/nghttp2 1.69.0 1.70.0 9999: HTTP/2 C Library
+net-libs/nghttp2 1.70.0 1.71.0 9999: HTTP/2 C Library
 net-libs/nghttp3 1.8.0 1.8.0-r1 1.9.0 1.10.1 1.11.0 1.12.0 1.13.1 1.14.0 1.15.0 1.16.0 1.17.0 1.18.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.12.0 1.20.0 1.20.0-r1 1.21.0 1.22.0 1.22.1 1.23.0 1.24.0 1.25.0 9999: Implementation of the IETF QUIC Protocol
 net-libs/nodejs 20.18.2 20.20.2 22.13.1 22.23.4 22.23.4-r1 24.22.1 24.22.1-r1 24.22.2 26.3.0 26.12.1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -15498,7 +15498,7 @@ net-misc/pen 0.34.1-r1: TCP Load Balancing Port Forwarder
 net-misc/pimpd 0.8-r1: RFC1413-compliant identd server supporting masqueraded connections
 net-misc/pingu 1.5-r1 1.5.1: Policy routing daemon with failover and load-balancing
 net-misc/pipes 1.16.1-r1: Very versatile TCP pipes
-net-misc/pkixssh 20.0.1: OpenSSH fork with X.509 v3 certificate support
+net-misc/pkixssh 20.0.1 20.0.1-r1: OpenSSH fork with X.509 v3 certificate support
 net-misc/plowshare 2.1.7-r3 9999: Command-line downloader and uploader for file-sharing websites
 net-misc/portfwd 0.29-r2 0.29-r3: Port Forwarding Daemon
 net-misc/portspoof 1.3-r1 9999: return SYN+ACK for every port connection attempt
@@ -15739,7 +15739,7 @@ net-proxy/privoxy 3.0.34-r1 4.0.0 4.2.0: A web proxy with advanced filtering cap
 net-proxy/redsocks 0.5-r2 9999: Transparent redirector of any TCP connection to proxy
 net-proxy/rejik 3.2.11: A squid redirector used for blocking unwanted content
 net-proxy/shadowsocks-libev 3.3.6-r1: A lightweight secured SOCKS5 proxy for embedded devices and low end boxes
-net-proxy/squid 7.6 7.7: Full-featured web proxy cache
+net-proxy/squid 7.6 7.7 7.8: Full-featured web proxy cache
 net-proxy/squidguard 1.6.0-r1 1.6.0-r2: Combined filter, redirector and access controller plugin for Squid
 net-proxy/squirm 1.26-r1: A redirector for Squid
 net-proxy/sshuttle 1.3.1: Transparent proxy server that works as a poor man's VPN using ssh
@@ -16580,7 +16580,7 @@ sci-ml/fastdownload 0.0.6-r1: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.28.0: Tensor library for machine learning
+sci-ml/ggml 0.28.0-r1: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1 2026.06.10: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interact with the Hugging Face Hub
@@ -16649,8 +16649,8 @@ sec-keys/minisig-keys-ccache 20250914: minisig keys used for ccache
 sec-keys/minisig-keys-libsodium 20230914: OpenPGP keys used for libsodium
 sec-keys/minisig-keys-zig-software-foundation 20240330: Minisign keys used by Zig Software Foundation
 sec-keys/openpgp-keys-3proxy 20260821: OpenPGP keys used by the 3proxy developer
-sec-keys/openpgp-keys-aacid 20230907 20260210: OpenPGP keys used by Albert Astals Cid
-sec-keys/openpgp-keys-acl 20260702: OpenPGP keys used by sys-apps/acl
+sec-keys/openpgp-keys-aacid 20260210 20261103: OpenPGP keys used by Albert Astals Cid
+sec-keys/openpgp-keys-acl 20260702 20261103: OpenPGP keys used by sys-apps/acl
 sec-keys/openpgp-keys-adamspiers 20210426 20210426-r1 20250806: OpenPGP keys used by Adam Spiers
 sec-keys/openpgp-keys-aherbert 20240709: OpenPGP keys used by commons.apache.org/rng
 sec-keys/openpgp-keys-akallabeth 20240521 20260703: OpenPGP key for Github user akallabeth
@@ -16661,10 +16661,10 @@ sec-keys/openpgp-keys-alexbarton 20260718: OpenPGP keys used by Alex Barton
 sec-keys/openpgp-keys-alexeysokolov 20260914: OpenPGP keys used by Alexey Sokolov
 sec-keys/openpgp-keys-alisarctl 20200302-r1: OpenPGP keys used by Ali Abdallah
 sec-keys/openpgp-keys-alsa 20260116: OpenPGP keys used by the Alsa Project
-sec-keys/openpgp-keys-andreasschneider 20260218: OpenPGP key used by Andreas Schneider
+sec-keys/openpgp-keys-andreasschneider 20260218 20261103: OpenPGP key used by Andreas Schneider
 sec-keys/openpgp-keys-andresimon 20240906 20250911 20260703: OpenPGP keys used by Andre Simo
 sec-keys/openpgp-keys-andrewtridgell 20250329 20260703: OpenPGP keys used by Andrew Tridgell
-sec-keys/openpgp-keys-annejan 20260129: OpenPGP key used by Anne Jan Brouwer (annejan)
+sec-keys/openpgp-keys-annejan 20260129 20261103: OpenPGP key used by Anne Jan Brouwer (annejan)
 sec-keys/openpgp-keys-antoniodiazdiaz 20260213: OpenPGP keys used by Antonio Diaz Diaz
 sec-keys/openpgp-keys-apache-ant 20260402: OpenPGP keys used by ant.apache.org
 sec-keys/openpgp-keys-apache-commons 20251102: OpenPGP keys used by commons.apache.org
@@ -16673,7 +16673,7 @@ sec-keys/openpgp-keys-apache-creadur 20230123: OpenPGP keys used by creadur.apac
 sec-keys/openpgp-keys-apache-felix 20200125: OpenPGP keys used by felix.apache.org
 sec-keys/openpgp-keys-apache-httpcomponents-client 220903: OpenPGP keys used by httpcomponents-client.hc.apache.org
 sec-keys/openpgp-keys-apache-httpcomponents-httpcore 220903: OpenPGP keys used by httpcomponents-core.hc.apache.org
-sec-keys/openpgp-keys-apache-httpd 20260807: OpenPGP keys used to sign Apache httpd
+sec-keys/openpgp-keys-apache-httpd 20260807 20261103: OpenPGP keys used to sign Apache httpd
 sec-keys/openpgp-keys-apache-logging 20251104: OpenPGP keys used by logging.apache.org
 sec-keys/openpgp-keys-apache-lucene 20170408: OpenPGP keys used by lucene.apache.org
 sec-keys/openpgp-keys-apache-maven 20260421: OpenPGP keys used by maven.apache.org
@@ -16696,8 +16696,8 @@ sec-keys/openpgp-keys-baldurkarlsson 20220415: OpenPGP keys used by Baldur Karls
 sec-keys/openpgp-keys-bcl 20210128 20230315 20260418: OpenPGP keys used by Brian C. Lane
 sec-keys/openpgp-keys-bennoschulenberg 20260119: OpenPGP key used by Benno Schulenberg
 sec-keys/openpgp-keys-binutils 20260609: OpenPGP keys used to sign GNU Binutils releases
-sec-keys/openpgp-keys-bison 20220407 20260703: OpenPGP keys used by Bison
-sec-keys/openpgp-keys-bleachbit 20250910: OpenPGP keys used by the BleachBit developer
+sec-keys/openpgp-keys-bison 20260703 20261103: OpenPGP keys used by Bison
+sec-keys/openpgp-keys-bleachbit 20250910 20261103: OpenPGP keys used by the BleachBit developer
 sec-keys/openpgp-keys-bobfriesenhahn 20220326: OpenPGP keys used by Bob Friesenhahn
 sec-keys/openpgp-keys-botan 20210416 20260703: OpenPGP keys used to sign Botan releases
 sec-keys/openpgp-keys-bradhouse 20240624 20260703: OpenPGP keys used by Brad House (bradh352)
@@ -16711,8 +16711,8 @@ sec-keys/openpgp-keys-chrislamb 20260211: OpenPGP key used by Chris Lamb
 sec-keys/openpgp-keys-cjwatson 20260124 20260210: OpenPGP key used by Colin Watson
 sec-keys/openpgp-keys-colordiff 20260118: OpenPGP keys used to sign colordiff releases
 sec-keys/openpgp-keys-conserver 20180324: OpenPGP keys used by the conserver developer
-sec-keys/openpgp-keys-coreutils 20220407 20250806 20260210: OpenPGP keys used by GNU coreutils
-sec-keys/openpgp-keys-craigsmall 20260203: OpenPGP key used by Craig Small
+sec-keys/openpgp-keys-coreutils 20260210 20261103: OpenPGP keys used by GNU coreutils
+sec-keys/openpgp-keys-craigsmall 20260203 20261103: OpenPGP key used by Craig Small
 sec-keys/openpgp-keys-crypto++ 20210416 20260703: OpenPGP keys used to sign crypto++ releases
 sec-keys/openpgp-keys-danielstenberg 20220330: OpenPGP keys used by Daniel Stenberg
 sec-keys/openpgp-keys-danielveillard 20210514: OpenPGP keys used by Daniel Veillard
@@ -16723,7 +16723,7 @@ sec-keys/openpgp-keys-dehydrated 20230716: OpenPGP keys used by dehydrated
 sec-keys/openpgp-keys-diffutils 20220407: OpenPGP keys used by GNU diffutils
 sec-keys/openpgp-keys-django 20241002: OpenPGP keys used to sign Django releases
 sec-keys/openpgp-keys-dnkl 20190530: OpenPGP keys used by dnkl to sign releases & commits
-sec-keys/openpgp-keys-dougmassay 20260608: OpenPGP key used by Doug Massay
+sec-keys/openpgp-keys-dougmassay 20260608 20261103: OpenPGP key used by Doug Massay
 sec-keys/openpgp-keys-dovecot 20260122: OpenPGP keys used by net-mail/dovecot
 sec-keys/openpgp-keys-dropbear 20220406: OpenPGP keys used to sign Dropbear releases
 sec-keys/openpgp-keys-dshaw 20260121: OpenPGP key used by David Shaw
@@ -16733,15 +16733,15 @@ sec-keys/openpgp-keys-dwz 20260115: OpenPGP key used to sign dwz releases
 sec-keys/openpgp-keys-eduvpn 20231208 20240307: OpenPGP keys used by eduVPN developers
 sec-keys/openpgp-keys-electrum 4.5.8: OpenPGP keys for net-misc/electrum releases
 sec-keys/openpgp-keys-elfutils 20220427 20240301: OpenPGP key used to sign elfutils releases
-sec-keys/openpgp-keys-emersion 20260503: OpenPGP key used by Simon Ser
+sec-keys/openpgp-keys-emersion 20260503 20261103: OpenPGP key used by Simon Ser
 sec-keys/openpgp-keys-erwinwaterlander 20260418: OpenPGP key used by Erwin Waterlander
-sec-keys/openpgp-keys-eschwartz 20250723-r1: OpenPGP keys used by Eli Schwartz
+sec-keys/openpgp-keys-eschwartz 20250723-r1 20261103: OpenPGP keys used by Eli Schwartz
 sec-keys/openpgp-keys-evenrouault 20250913: OpenPGP keys used by Even Rouault
 sec-keys/openpgp-keys-fche 20260119: OpenPGP key used by Frank Ch. Eigler (fche)
 sec-keys/openpgp-keys-fefe 20250926: OpenPGP keys used to sign packages from http://www.fefe.de/
 sec-keys/openpgp-keys-ffmpeg 20220405: OpenPGP keys used to sign FFmpeg
 sec-keys/openpgp-keys-file 20220611: OpenPGP keys used by Christos Zoulas (to sign file releases)
-sec-keys/openpgp-keys-findutils 20220407 20260703: OpenPGP keys used by GNU findutils
+sec-keys/openpgp-keys-findutils 20260703 20261103: OpenPGP keys used by GNU findutils
 sec-keys/openpgp-keys-foxboron 20220802: OpenPGP keys used by Morten Linderund
 sec-keys/openpgp-keys-franz 20260413: OpenPGP keys used by Michal Babej (franz)
 sec-keys/openpgp-keys-freenet 20250830: OpenPGP keys used by freenetproject.org
@@ -16756,18 +16756,18 @@ sec-keys/openpgp-keys-gentoo-infrastructure 20260202 20260727 99999999: Gentoo A
 sec-keys/openpgp-keys-gentoo-release 20260125: OpenPGP keys used for Gentoo releases (snapshots, stages)
 sec-keys/openpgp-keys-gettext 20220407 20250608: OpenPGP keys used by GNU gettext
 sec-keys/openpgp-keys-ggregory 20250720: OpenPGP keys used by commons.apache.org
-sec-keys/openpgp-keys-ghc 20250925-r1: OpenPGP keys used to sign GHC releases
+sec-keys/openpgp-keys-ghc 20250925-r1 20261103: OpenPGP keys used to sign GHC releases
 sec-keys/openpgp-keys-glibc 20251014: OpenPGP keys used to sign glibc releases
 sec-keys/openpgp-keys-gmp 20250628: OpenPGP keys used by Niels Möller (to sign GMP releases)
 sec-keys/openpgp-keys-gnupg 20220210 20260703 20260913: OpenPGP keys used to sign GnuPG releases
 sec-keys/openpgp-keys-gnustep 20251025: OpenPGP keys used by the GNUstep project
-sec-keys/openpgp-keys-gnutls 20220320 20221017 20231129 20240415 20240415-r1 20250704 20260210: OpenPGP keys used by GnuTLS
+sec-keys/openpgp-keys-gnutls 20260210 20261103: OpenPGP keys used by GnuTLS
 sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grke 20260714: OpenPGP key used by Graham Keeling
 sec-keys/openpgp-keys-groff 20260929: OpenPGP keys used by GNU roff
 sec-keys/openpgp-keys-grub 20251028: OpenPGP keys used for GRUB releases
-sec-keys/openpgp-keys-gsasl 20260127 20260616: OpenPGP keys used by the GNU SASL Library
+sec-keys/openpgp-keys-gsasl 20260127 20260616 20261103: OpenPGP keys used by the GNU SASL Library
 sec-keys/openpgp-keys-guillemjover 20220331: OpenPGP keys used by Guillem Jover
 sec-keys/openpgp-keys-gzip 20220406: OpenPGP keys used by GNU Gzip
 sec-keys/openpgp-keys-handbrake 20260208 20260311: OpenPGP keys used to sign HandBrake
@@ -16776,10 +16776,10 @@ sec-keys/openpgp-keys-hughsie 20260124 20260210: OpenPGP key used by Richard Hug
 sec-keys/openpgp-keys-i2p 20260310: OpenPGP keys used to sign I2P releases
 sec-keys/openpgp-keys-icu 20220408 20221020 20241110: OpenPGP keys used by ICU
 sec-keys/openpgp-keys-imagemagick 20260329: OpenPGP key used to sign ImageMagick releases
-sec-keys/openpgp-keys-inetutils 20260630: OpenPGP keys used for net-misc/inetutils
+sec-keys/openpgp-keys-inetutils 20260630 20261103: OpenPGP keys used for net-misc/inetutils
 sec-keys/openpgp-keys-irssi 20260119: OpenPGP keys used for irssi releases
 sec-keys/openpgp-keys-isc 20240213: OpenPGP keys used to sign ISC releases
-sec-keys/openpgp-keys-janmojzis 20160524: OpenPGP keys used by Jan Mojžíš
+sec-keys/openpgp-keys-janmojzis 20160524 20261103: OpenPGP keys used by Jan Mojžíš
 sec-keys/openpgp-keys-janwassenberg 20260503: OpenPGP key used by Jan Wassenberg
 sec-keys/openpgp-keys-jariruusu 20240521: OpenPGP key used by Jari Ruusu
 sec-keys/openpgp-keys-jberkenbilt 1: OpenPGP key of Jay Berkenbilt (QPDF maintainer)
@@ -16790,7 +16790,7 @@ sec-keys/openpgp-keys-joelrosdahl 20220409: OpenPGP keys used by Joel Rosdahl
 sec-keys/openpgp-keys-johnogness 20260524: OpenPGP keys used by John Ogness
 sec-keys/openpgp-keys-jpakkane 20231105: OpenPGP keys used by Jussi Pakkanen
 sec-keys/openpgp-keys-jvoisin 20251029: OpenPGP keys used by Julien Voisin
-sec-keys/openpgp-keys-kamilaszewczyk 20260920: OpenPGP keys used by Kamila Szewczyk
+sec-keys/openpgp-keys-kamilaszewczyk 20260920 20261103: OpenPGP keys used by Kamila Szewczyk
 sec-keys/openpgp-keys-kamildudka 20220525: OpenPGP keys used by Kamil Dudka
 sec-keys/openpgp-keys-karelzak 20220331 20230110 20230517: OpenPGP keys used by Karel Zak
 sec-keys/openpgp-keys-karlberry 20250528: OpenPGP keys used by Karl Berry
@@ -16810,23 +16810,23 @@ sec-keys/openpgp-keys-less 20260115: OpenPGP keys used by less
 sec-keys/openpgp-keys-libarchive 20251118: OpenPGP keys used by the libarchive project
 sec-keys/openpgp-keys-libass 20220515 20250608 20260917: OpenPGP keys used to sign libass releases
 sec-keys/openpgp-keys-libevent 0 1: OpenPGP keys used by the libevent project
-sec-keys/openpgp-keys-libgssglue 20260127: OpenPGP keys used by net-libs/libgssglue
-sec-keys/openpgp-keys-libidn 20250414 20260617: OpenPGP keys used to sign libidn releases
+sec-keys/openpgp-keys-libgssglue 20260127 20261103: OpenPGP keys used by net-libs/libgssglue
+sec-keys/openpgp-keys-libidn 20260617 20261103: OpenPGP keys used to sign libidn releases
 sec-keys/openpgp-keys-libjpeg-turbo 20260124: OpenPGP key used by media-libs/libjpeg-turbo
 sec-keys/openpgp-keys-libmicrohttpd 201906 999999: OpenPGP keys used to sign GNU libmicrohttpd releases
-sec-keys/openpgp-keys-libntlm 20260127: OpenPGP keys used by net-libs/libntlm
-sec-keys/openpgp-keys-libseccomp 20260122 20260210: OpenPGP key used for sys-libs/libseccomp
+sec-keys/openpgp-keys-libntlm 20260127 20261103: OpenPGP keys used by net-libs/libntlm
+sec-keys/openpgp-keys-libseccomp 20260210 20261103: OpenPGP key used for sys-libs/libseccomp
 sec-keys/openpgp-keys-libssh 20260121: OpenPGP key used by net-libs/libssh
-sec-keys/openpgp-keys-libtasn1 20260210-r1: OpenPGP keys used by GNU Libtasn1
+sec-keys/openpgp-keys-libtasn1 20260210-r1 20261103: OpenPGP keys used by GNU Libtasn1
 sec-keys/openpgp-keys-libtool 20260920: OpenPGP keys used by GNU libtool
 sec-keys/openpgp-keys-libusb 1.0.29: OpenPGP key used by dev-libs/libusb
 sec-keys/openpgp-keys-libuv 20240209 20260323: OpenPGP keys used by libuv
-sec-keys/openpgp-keys-libvirt 20210401 20250830 20260831: OpenPGP keys used by libvirt
+sec-keys/openpgp-keys-libvirt 20210401 20250830 20260831 20261103: OpenPGP keys used by libvirt
 sec-keys/openpgp-keys-lighttpd 20231008 20250325: OpenPGP keys used to sign lighttpd
 sec-keys/openpgp-keys-linuxcontainers 20201014: OpenPGP keys used to sign LXC-related packages
 sec-keys/openpgp-keys-llvm 21.1.4: OpenPGP keys used to sign LLVM releases
 sec-keys/openpgp-keys-lsandova 20260831: OpenPGP key for Leo Sandoval
-sec-keys/openpgp-keys-ludovicrousseau 20260204: OpenPGP key used by Ludovic Rousseau
+sec-keys/openpgp-keys-ludovicrousseau 20260204 20261103: OpenPGP key used by Ludovic Rousseau
 sec-keys/openpgp-keys-lyx 20260207: OpenPGP key used by app-office/lyx
 sec-keys/openpgp-keys-m4 20220407: OpenPGP keys used by GNU m4
 sec-keys/openpgp-keys-madler 20220328: OpenPGP keys used by Mark Adler
@@ -16835,7 +16835,7 @@ sec-keys/openpgp-keys-marcusb 20260217: OpenPGP key used by Marcus Butler (marcu
 sec-keys/openpgp-keys-marcusmeissner 20260415: OpenPGP key used by Marcus Meissner
 sec-keys/openpgp-keys-martinlambers 20260120: OpenPGP key used by Martin Lambers
 sec-keys/openpgp-keys-martinmares 20260120: OpenPGP key used by Martin Mareš
-sec-keys/openpgp-keys-mathieudesnoyers 20250909: OpenPGP keys used by Mathieu Desnoyers
+sec-keys/openpgp-keys-mathieudesnoyers 20250909 20261103: OpenPGP keys used by Mathieu Desnoyers
 sec-keys/openpgp-keys-maxbaz 20260207: OpenPGP key used by Max Baz
 sec-keys/openpgp-keys-mdroth 20260619: OpenPGP key used by Michael Roth (mdroth)
 sec-keys/openpgp-keys-michaelrsweet 20260917: OpenPGP keys used by Michael R Sweet
@@ -16845,7 +16845,7 @@ sec-keys/openpgp-keys-milanbroz 20260121: OpenPGP key used by Milan Broz
 sec-keys/openpgp-keys-miniupnp 20201006: OpenPGP keys used to sign miniupnp* packages
 sec-keys/openpgp-keys-mlichvar 20210513: OpenPGP keys used by Miroslav Lichvar
 sec-keys/openpgp-keys-moritzbunkus 20260524: OpenPGP keys used by Moritz Bunkus
-sec-keys/openpgp-keys-mpc 20260118 20260210: OpenPGP keys used by Andreas Enge (to sign MPC releases)
+sec-keys/openpgp-keys-mpc 20260210 20261103: OpenPGP keys used by Andreas Enge (to sign MPC releases)
 sec-keys/openpgp-keys-mpd 20130810: OpenPGP keys used by the Music Player Daemon developer
 sec-keys/openpgp-keys-musl 20220407: OpenPGP keys used to sign musl
 sec-keys/openpgp-keys-mysql 20250120: OpenPGP keys used to sign MySQL releases
@@ -16874,9 +16874,9 @@ sec-keys/openpgp-keys-openssl 20220316-r1 20221101 20230207 20230801 20240424 20
 sec-keys/openpgp-keys-openvpn 20260119 202600704: OpenPGP keys used for OpenVPN releases
 sec-keys/openpgp-keys-openwall 20210107: OpenPGP keys used to sign Openwall software releases
 sec-keys/openpgp-keys-openzfs 20210419: OpenPGP keys used to sign OpenZFS releases
-sec-keys/openpgp-keys-p11-kit 20260120 20260210: OpenPGP key used to sign p11-kit releases
+sec-keys/openpgp-keys-p11-kit 20260210 20261103: OpenPGP key used to sign p11-kit releases
 sec-keys/openpgp-keys-pam 20230330 20260122: OpenPGP keys used by the linux-pam project
-sec-keys/openpgp-keys-patch 20220407 20250206: OpenPGP keys used by GNU patch
+sec-keys/openpgp-keys-patch 20250206 20261103: OpenPGP keys used by GNU patch
 sec-keys/openpgp-keys-patrick96 20260816: OpenPGP keys used by Patrick Ziegler
 sec-keys/openpgp-keys-pauleggert 20260913: OpenPGP keys used by Paul Eggert
 sec-keys/openpgp-keys-paulhardy 20220319: OpenPGP keys used by Paul Hardy
@@ -16886,7 +16886,7 @@ sec-keys/openpgp-keys-plexmediaserver 20240120: OpenPGP keys used by Plex Inc.
 sec-keys/openpgp-keys-postfix 20260122: OpenPGP keys used by mail-mta/postfix
 sec-keys/openpgp-keys-pottlinger 20251006: OpenPGP keys used by creadur.apache.org
 sec-keys/openpgp-keys-processone 20220316: OpenPGP keys used by processone/ejabberd
-sec-keys/openpgp-keys-proftpd 20260119: OpenPGP keys used for ProFTPD releases
+sec-keys/openpgp-keys-proftpd 20260119 20261103: OpenPGP keys used for ProFTPD releases
 sec-keys/openpgp-keys-putty-release 2023 2026: PuTTY Release Key
 sec-keys/openpgp-keys-pv 20230926 20251012: OpenPGP keys used by Andrew Wood for sys-apps/pv
 sec-keys/openpgp-keys-python 20221025 20260805: OpenPGP keys used to sign CPython releases
@@ -16896,7 +16896,7 @@ sec-keys/openpgp-keys-roddhjav 20260129: OpenPGP key used by Alexandre Pujol (ro
 sec-keys/openpgp-keys-roymarples 20260418-r1: OpenPGP key used by Roy Marples
 sec-keys/openpgp-keys-rust 20210504: Rust Language Tag and Release Signing Key
 sec-keys/openpgp-keys-sed 20220407: OpenPGP keys used by GNU sed
-sec-keys/openpgp-keys-sendmail 20250220 20251229: OpenPGP keys used by Sendmail
+sec-keys/openpgp-keys-sendmail 20250220 20251229 20261103: OpenPGP keys used by Sendmail
 sec-keys/openpgp-keys-sergehallyn 20220812: OpenPGP keys used by Serge Hallyn
 sec-keys/openpgp-keys-signify 20211219: OpenPGP keys used to sign signify's signify key
 sec-keys/openpgp-keys-simonkelley 20260512: OpenPGP key used by Simon Kelley
@@ -16929,7 +16929,7 @@ sec-keys/openpgp-keys-tinc 20260205: OpenPGP key used by net-vpn/tinc
 sec-keys/openpgp-keys-tor 20230727 20250713: OpenPGP keys used by the Tor project
 sec-keys/openpgp-keys-tpm 20260324: OpenPGP keys used by Tim-Philipp Müller
 sec-keys/openpgp-keys-tsujan 20260206: OpenPGP key used by Pedram Pourang
-sec-keys/openpgp-keys-tytso 20260115: OpenPGP keys used by Theodore Ts'o
+sec-keys/openpgp-keys-tytso 20260115 20261103: OpenPGP keys used by Theodore Ts'o
 sec-keys/openpgp-keys-unbound 20220316 20250515 20251107: OpenPGP keys used by unbound
 sec-keys/openpgp-keys-unifont 20251028: OpenPGP keys used by Unifont
 sec-keys/openpgp-keys-unrealircd 20220407 20241118: OpenPGP keys used to sign UnrealIRCd releases
@@ -17478,7 +17478,7 @@ sys-apps/prctl 1.6-r1: Tool to query and modify process behavior
 sys-apps/preload 0.6.4-r3: Adaptive readahead daemon
 sys-apps/progress 0.17: Coreutils Viewer: show progress for cp, rm, dd, and so forth
 sys-apps/proot 5.3.0 5.4.0: User-space implementation of chroot, mount --bind, and binfmt_misc
-sys-apps/pv 1.10.4 1.12.0 9999: Pipe Viewer: a tool for monitoring the progress of data through a pipe
+sys-apps/pv 1.12.0 1.12.7 9999: Pipe Viewer: a tool for monitoring the progress of data through a pipe
 sys-apps/qcontrol 0.4.2-r101: Send commands to some microcontrollers, e.g., to change LEDs or sound a buzzer
 sys-apps/qdirstat 2.0: Qt-based directory statistics
 sys-apps/qingy 1.0.0-r6: A DirectFB getty replacement
@@ -17729,7 +17729,7 @@ sys-boot/yaboot 1.3.17-r4: PPC Bootloader
 sys-boot/yaboot-static 1.3.17-r2: Static yaboot ppc boot loader for machines with open firmware
 sys-cluster/ampi 0_pre20140616-r1: MPI library for algorithmic differentiation
 sys-cluster/c3 4.0.1: The Cluster Command and Control (C3) tool suite
-sys-cluster/ceph 20.1.1-r1 20.2.1-r5 20.2.4-r3: Ceph distributed filesystem
+sys-cluster/ceph 20.1.1-r1 20.2.1-r5 20.2.4-r3 20.2.5: Ceph distributed filesystem
 sys-cluster/charliecloud 0.43 0.44 9999: Lightweight user-defined software stacks for high-performance computing
 sys-cluster/charm 6.10.2: Message-passing parallel language and runtime system
 sys-cluster/charmdebug 6.2.0-r2: A debugger for Charm++ applications
@@ -17821,7 +17821,7 @@ sys-devel/mold 2.41.0 2.42.1 9999: A Modern Linker
 sys-devel/multilib-gcc-wrapper 0-r2: Wrappers for gcc tools to be used on non-native CHOSTs
 sys-devel/native-cctools 5-r1 5-r2: Host OS native assembler as and static linker ld
 sys-devel/nvptx-tools 0_pre20240809 0_pre20260402 0_pre20261017 9999: Collection of tools for use with nvptx-none GCC toolchains
-sys-devel/patch 2.8-r1 9999: Utility to apply diffs to files
+sys-devel/patch 2.8-r1 2.8.1 9999: Utility to apply diffs to files
 sys-devel/qbe 1.2-r1 1.3-r1 9999: Pure-C embeddable compiler backend
 sys-devel/reflex 20241231 20260131: This is a variant of the flex fast lexical scanner
 sys-devel/rust-std 1.90.0 1.91.0 1.92.0_p1-r1 1.93.0 1.93.1 1.94.0 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Rust standard library, standalone (for crossdev)
@@ -17950,7 +17950,7 @@ sys-fs/mhddfs 0.1.39-r2: Fuse multi harddrive filesystem
 sys-fs/mount-zip 1.0.15: FUSE file system for ZIP archives
 sys-fs/mp3fs 1.1.1-r5: Read-only FUSE filesystem which transcodes FLAC audio files to MP3 when read
 sys-fs/mtd-utils 2.1.6-r2 2.2.1-r1 2.3.1: MTD userspace tools (NFTL, JFFS2, NAND, FTL, UBI)
-sys-fs/mtools 4.0.49: Utilities to access MS-DOS disks from Unix without mounting them
+sys-fs/mtools 4.0.49 4.0.50: Utilities to access MS-DOS disks from Unix without mounting them
 sys-fs/mtpfs 1.1-r6: A FUSE filesystem providing access to MTP devices
 sys-fs/multipath-tools 0.14.3: Device mapper target autoconfig
 sys-fs/ncdu 1.22 2.9.1 2.9.2: NCurses Disk Usage
@@ -18482,8 +18482,8 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.5-r1: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 2.2.3-r1 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 8.2.4133.89 8.2.4133.91: A browser for our friends
-www-client/vivaldi-snapshot 8.3.4190.36 8.3.4191.1: A browser for our friends
+www-client/vivaldi 8.2.4133.94 8.2.4133.96: A browser for our friends
+www-client/vivaldi-snapshot 8.3.4191.3 8.3.4191.10: A browser for our friends
 www-client/w3m 0.5.3_p20240916 0.5.6: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r13: A variant of w3m with support for multiple character encodings
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
