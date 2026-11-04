@@ -5298,7 +5298,7 @@ dev-java/system-rules 1.19.0: A collection of JUnit rules for testing code which
 dev-java/tapestry-json 5.8.7-r1: Tapestry JSON
 dev-java/testng 7.12.0: Testing framework inspired by JUnit and NUnit with new features
 dev-java/testparameterinjector 1.19: TestParameterInjector For JUnit4
-dev-java/tomcat-native 1.3.9-r1 1.3.10-r1 2.0.16-r1 2.0.17-r1: Allows Tomcat to use certain native resources for better performance
+dev-java/tomcat-native 1.3.9-r2 1.3.10-r2 2.0.16-r2 2.0.17-r2: Allows Tomcat to use certain native resources for better performance
 dev-java/tomcat-servlet-api 4.1.40-r1: Tomcat's Servlet API 2.3/JSP API 1.2 implementation
 dev-java/treelayout 1.0.3-r1: Efficient and customizable TreeLayout Algorithm in Java
 dev-java/truth 1.4.5: Fluent assertions for Java and Android
@@ -5430,7 +5430,7 @@ dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 2.7.8.0.0-r1 2.7.8.0.1 3.11.7.3.23-r1 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: A fast, compliant alternative implementation of the Python (3.12) language
 dev-lang/pypy3-exe 3.11.7.3.23 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: PyPy3.12 executable (build from source)
 dev-lang/pypy3-exe-bin 3.11.7.3.23 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: PyPy3.12 executable (pre-built version)
-dev-lang/python 0.3.13.18 0.3.13.9999 0.3.14.10 0.3.14.9999 0.3.15.2 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.22 3.11.18 3.11.9999 3.12.16 3.12.9999 3.13.18 3.13.18_p1 3.13.9999 3.14.10 3.14.10_p1 3.14.9999 3.15.2 3.15.2_p1 3.15.9999 3.16.0_alpha1 3.16.9999: An interpreted, interactive, object-oriented programming language
+dev-lang/python 0.3.13.18 0.3.13.18_p1 0.3.13.9999 0.3.14.10 0.3.14.10_p1 0.3.14.9999 0.3.15.2 0.3.15.2_p1 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.25 3.10.22 3.11.18 3.11.9999 3.12.16 3.12.9999 3.13.18 3.13.18_p1 3.13.9999 3.14.10 3.14.10_p1 3.14.9999 3.15.2 3.15.2_p1 3.15.9999 3.16.0_alpha1 3.16.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
 dev-lang/qore 1.19.2: Qore, the embeddable multithreaded scripting language
@@ -5911,7 +5911,7 @@ dev-libs/nng 1.10.1 1.11: Light-weight brokerless messaging
 dev-libs/npth 1.8: New GNU Portable Threads Library
 dev-libs/nsgenbind 0.9 9999: Generate Javascript-to-DOM bindings from w3c webidl files
 dev-libs/nspr 4.36 4.38.2 4.39 4.40: Netscape Portable Runtime
-dev-libs/nss 3.125 3.132: Mozilla's Network Security Services library that implements PKI support
+dev-libs/nss 3.125 3.125.1 3.132: Mozilla's Network Security Services library that implements PKI support
 dev-libs/nss-pem 1.1.1: PEM file reader for Network Security Services (NSS)
 dev-libs/nsync 1.25.0 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ntl 11.5.1-r4 11.6.0: High-performance and portable C++ number theory library
@@ -5958,7 +5958,7 @@ dev-libs/qcustomplot 2.1.1-r10: Qt C++ widget for plotting and data visualizatio
 dev-libs/qgpgme 2.0.0-r2 2.1.0 2.2.0-r1: GnuPG Made Easy is a library for making GnuPG easier to use (Qt bindings)
 dev-libs/qhotkey 1.5.0-r1: A global shortcut/hotkey library for desktop Qt applications
 dev-libs/qqwing 1.3.4-r1: Sudoku puzzle generator and solver
-dev-libs/qr-code-generator 1.8.0 1.8.0-r1: QR Code Generator Library in Multiple Languages
+dev-libs/qr-code-generator 1.8.0-r1: QR Code Generator Library in Multiple Languages
 dev-libs/qtkeychain 0.17.0-r1 0.17.0-r2: Qt API for storing passwords securely
 dev-libs/quazip 1.5: Simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package
 dev-libs/quickjs-ng 0.14.0 0.16.2: QuickJS, the Next Generation: a mighty JavaScript engine
@@ -9479,7 +9479,7 @@ dev-python/python-stdnum 2.2: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.6: A streaming protocol for test results
 dev-python/python-swiftclient 4.10.0 4.11.0: Python bindings to the OpenStack Object Storage API
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
-dev-python/python-tests 0.3.14.10 0.3.14.9999 0.3.15.2 0.3.15.9999 3.12.16 3.12.9999 3.13.18 3.13.18_p1 3.13.9999 3.14.10 3.14.10_p1 3.14.9999 3.15.2 3.15.2_p1 3.15.9999: Test modules from dev-lang/python
+dev-python/python-tests 0.3.14.10 0.3.14.10_p1 0.3.14.9999 0.3.15.2 0.3.15.2_p1 0.3.15.9999 3.12.16 3.12.9999 3.13.18 3.13.18_p1 3.13.9999 3.14.10 3.14.10_p1 3.14.9999 3.15.2 3.15.2_p1 3.15.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.12.1: Fuzzy matching library - C++ extension for Python
 dev-python/python-utils 4.0.0 4.1.0 4.1.1 4.1.2 4.1.3 4.1.4: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
@@ -12613,7 +12613,7 @@ kde-frameworks/threadweaver 6.29.0 6.31.0: Framework for managing threads using 
 kde-misc/basket 2.49b_p20251207: Multiple information organizer - a DropDrawers clone
 kde-misc/colord-kde 26.04.3 26.08.2: Provides interfaces and session daemon to colord
 kde-misc/kclock 26.04.3 26.08.2: Convergent clock application for Plasma
-kde-misc/kdeconnect 26.04.3-r3 26.04.3-r4 26.08.2-r1: Adds communication between KDE Plasma and your smartphone
+kde-misc/kdeconnect 26.04.3-r4 26.08.2-r1: Adds communication between KDE Plasma and your smartphone
 kde-misc/kdiff3 1.12.6: Frontend to diff3 based on KDE Frameworks
 kde-misc/kio-fuse 5.1.1: FUSE interface for KIO
 kde-misc/kio-gdrive 26.04.3 26.08.2: KIO worker for Google Drive service
@@ -13942,7 +13942,7 @@ media-plugins/noise-repellent 0.1.5: An lv2 plug-in for broadband noise reductio
 media-plugins/obs-3d-effect 0.1.4 9999: Plugin for OBS Studio adding 3D effect filter
 media-plugins/obs-composite-blur 1.5.1 1.5.2 9999: OBS plugin that provides different blur algorithms, and proper compositing
 media-plugins/obs-move-transition 3.1.5 3.2.1 9999: Move transition for OBS Studio
-media-plugins/obs-pipewire-audio-capture 1.2.1-r1 9999: Audio device and application capture for OBS Studio using PipeWire
+media-plugins/obs-pipewire-audio-capture 1.2.1-r1 1.2.2 9999: Audio device and application capture for OBS Studio using PipeWire
 media-plugins/obs-scale-to-sound 1.2.4 1.2.5 9999: OBS filter plugin that scales a source reactively to sound levels
 media-plugins/obs-source-clone 0.1.5 0.2.3 9999: Plugin for OBS Studio to clone sources
 media-plugins/obs-source-dock 0.4.1 0.5.1 9999: Plugin for OBS Studio to add docks
@@ -14911,7 +14911,7 @@ net-firewall/ufw 0.36.2: A program used to manage a netfilter firewall
 net-firewall/xtables-addons 3.29 3.31: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.9-r2: Kernel based automounter
 net-fs/btfs 2.24: Bittorrent filesystem based on FUSE
-net-fs/cifs-utils 7.5 7.6 7.7 7.8: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 7.5-r1 7.6-r1 7.7-r1 7.8-r1: Tools for Managing Linux CIFS Client Filesystems
 net-fs/curlftpfs 0.9.2-r5: File system for accessing ftp hosts based on FUSE
 net-fs/cvmfs 2.12.7 2.13.1 2.13.3 2.14.1: HTTP read-only file system for distributing software
 net-fs/davfs2 1.7.1 1.7.3: Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
@@ -15550,7 +15550,7 @@ net-misc/shmux 1.0.3: run the same command across many hosts in parallel
 net-misc/sipcalc 1.1.6-r1: Advanced console-based IPv4/IPv6 subnet calculator
 net-misc/sipp 3.7.7 3.7.9 3.8.0: A free Open Source test tool / traffic generator for the SIP protocol
 net-misc/sipsak 0.9.8.1_p20230215: Small command line tool for testing SIP applications and devices
-net-misc/sitecopy 0.16.6-r4: Maintain remote web sites with ease
+net-misc/sitecopy 0.16.6-r4 0.17: Maintain remote web sites with ease
 net-misc/sks 1.1.6_p20200624-r3: An OpenPGP keyserver which is decentralized with highly reliable synchronization
 net-misc/smb4k 4.0.7: Advanced network neighborhood browser
 net-misc/smbc 1.2.2-r4: Text mode (ncurses) SMB network commander. Features: resume and UTF-8
@@ -15803,7 +15803,7 @@ net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client 
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 net-vpn/tailscale 1.104.4: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
-net-vpn/tor 0.4.9.13 0.4.9.14 0.4.9.15 9999: Anonymizing overlay network for TCP
+net-vpn/tor 0.4.9.13 0.4.9.14 0.4.9.15 0.4.9.16 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 20250727 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
@@ -17402,7 +17402,7 @@ sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
 sys-apps/ipmicfg 1.38.0.260701: An in-band utility for configuring Supermicro IPMI devices
 sys-apps/ipmitool 1.8.19 1.8.19-r1: Utility for controlling IPMI enabled devices
 sys-apps/ipmiutil 3.1.9 3.2.1: IPMI Management Utilities
-sys-apps/iproute2 6.16.0 6.17.0 6.18.0 6.19.0 7.0.0 7.2.0 9999: kernel routing and traffic control utilities
+sys-apps/iproute2 6.16.0 6.17.0 6.18.0 6.19.0 7.0.0 7.2.0 7.3.0 9999: kernel routing and traffic control utilities
 sys-apps/irqbalance 1.9.4-r3 1.9.5: Distribute hardware interrupts across processors on a multiprocessor system
 sys-apps/isapnptools 1.27-r1: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1 2.3.1-r2: Tool to manipulate Intel X86 and X86-64 processor microcode update collections
