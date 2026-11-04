@@ -3754,6 +3754,7 @@ kde-plasma/kwin:gamepad - Support using game controllers as input devices
 kde-plasma/kwin:lock - Enable screen locking via kde-plasma/kscreenlocker
 kde-plasma/kwin:screencast - Enable screencast portal using media-video/pipewire
 kde-plasma/kwin:shortcuts - Enable global shortcuts support via kde-plasma/kglobalacceld
+kde-plasma/kwin-x11:activities - Enable Plasma Activities support via kde-plasma/plasma-activities
 kde-plasma/kwin-x11:lock - Enable screen locking via kde-plasma/kscreenlocker
 kde-plasma/kwin-x11:nightlight - Enable night light support via kde-plasma/knighttime
 kde-plasma/kwin-x11:shortcuts - Enable global shortcuts support via kde-plasma/kglobalacceld
@@ -5628,9 +5629,6 @@ net-analyzer/net-snmp:pcre - Add support for Perl Compatible Regular Expressions
 net-analyzer/net-snmp:rpm - Enable monitoring of app-arch/rpm. This flag requires the bzip2 and zlib flags to be enabled as well.
 net-analyzer/net-snmp:smux - Enable support for the legacy smux protocol (superseded by agentx)
 net-analyzer/net-snmp:ucd-compat - Build UCD compatibility library. Increases significantly the install size.
-net-analyzer/netdata:aclk - Enable Agent-Cloud Link (ACLK) for securely connecting a Netdata Agent to your web browser through Netdata Cloud
-net-analyzer/netdata:bpf - Enable the extended Berkeley Packet Filter (eBPF) collector to monitor kernel-level metrics about applications with per-second granularity
-net-analyzer/netdata:cloud - Enable Netdata Cloud support
 net-analyzer/netdata:dbengine - Enable the Netdata database engine
 net-analyzer/netdata:ipmi - Install sys-apps/ipmitool required for monitoring IPMI sensors
 net-analyzer/netdata:mongodb - Enable support for the mongodb backend
@@ -6905,6 +6903,7 @@ net-p2p/airdcpp-webclient:tbb - Enable support of the TBB library to improve per
 net-p2p/airdcpp-webclient:webui - Enable the Web UI
 net-p2p/amule:bfd - Backtrace symbol resolution via sys-libs/binutils-libs
 net-p2p/amule:daemon - Enable amule daemon
+net-p2p/amule:mediainfo - Support extracting metadata using media-libs/libmediainfo
 net-p2p/amule:remote - Enable remote controlling of the client
 net-p2p/amule:stats - Enable statistic reporting
 net-p2p/bitcoin-core:berkdb - Support legacy wallets in Berkeley DB format
@@ -7058,6 +7057,7 @@ net-voip/yate:zaptel - Enable Zaptel driver
 net-vpn/eduvpn-common:openvpn - enable support for OpenVPN
 net-vpn/frp:client - Build and install frp client (frpc)
 net-vpn/frp:server - Build and install frp server (frps)
+net-vpn/i2pd:torrents - Build the built-in torrent client
 net-vpn/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound)
 net-vpn/libreswan:ikev1 - Enable the IKEv1 protocol
 net-vpn/networkmanager-sstp:gtk4 - Use gui-libs/gtk for GUI support.
