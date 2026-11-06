@@ -1009,7 +1009,7 @@ app-admin/keepassxc 2.8.0_beta1 2.8.0: KeePassXC - KeePass Cross-platform Commun
 app-admin/kernel-hardening-checker 0.6.17.1: A tool for checking the security hardening options of the Linux kernel
 app-admin/killproc 2.13-r2: killproc and assorted tools for boot scripts
 app-admin/kio-admin 26.04.3 26.08.3: Manage files as administrator using the admin:// KIO protocol
-app-admin/kpcli 4.1 4.1.3 4.1.3-r1: Command line interface to KeePass database files
+app-admin/kpcli 4.1 4.1.3 4.1.3-r1 4.1.3-r2: Command line interface to KeePass database files
 app-admin/kube-bench 0.6.8: Kubernetes Bench for Security runs the CIS Kubernetes Benchmark
 app-admin/kubectx 0.9.5 0.11.0: Fast way to switch between clusters and namespaces in kubectl
 app-admin/lib_users 0.15-r2: Check for mapped libs and open files that are marked as deleted
@@ -1517,7 +1517,7 @@ app-crypt/nwipe 0.43.1: Securely erase disks using a variety of recognized metho
 app-crypt/onak 0.6.3 0.6.4: onak is an OpenPGP keyserver
 app-crypt/ophcrack 3.8.0-r2: A time-memory-trade-off-cracker
 app-crypt/ophcrack-tables 1.0-r2: Tables available for ophcrack
-app-crypt/osslsigncode 2.9 2.13: Platform-independent tool for Authenticode signing of EXE/CAB files
+app-crypt/osslsigncode 2.13 2.14: Platform-independent tool for Authenticode signing of EXE/CAB files
 app-crypt/p11-kit 0.26.4 0.26.5: Provides a standard configuration setup for installing PKCS#11
 app-crypt/paperkey 1.6: OpenPGP key archiver
 app-crypt/pdfcrack 0.20-r1 0.21: Tool for recovering passwords and content from PDF-files
@@ -2745,7 +2745,7 @@ app-misc/broot 1.59.0 1.61.0: A new way to see and navigate directory trees
 app-misc/btail 0.3-r1: Bayesian logfile filter
 app-misc/byobu 5.133-r1: A set of profiles for the GNU Screen console window manager (app-misc/screen)
 app-misc/c_rehash 1.7-r1: c_rehash script from OpenSSL
-app-misc/ca-certificates 20240203.3.98 20250419.3.112-r1 20260223.3.112.4 20260223.3.112.4-r1 20260601.3.112.5 20260816.3.125 20260816.3.131.1 20260816.3.131.1-r1: Common CA Certificates PEM files
+app-misc/ca-certificates 20260816.3.131.1 20260816.3.131.1-r1: Common CA Certificates PEM files
 app-misc/cadubi 1.3.4: An application that allows you to draw ASCII-Art images
 app-misc/calamares-gentoo-livecd 3.3.14_p20250918 3.3.14_p20260210 3.3.14_p20260506: Gentoo Linux Calamares installer configuration for LiveCD
 app-misc/calendar 0.9.1-r2: Standard unix calendar program for Linux, ported from OpenBSD
@@ -3435,7 +3435,7 @@ app-text/scrollkeeper-dtd 1.0-r2: DTD from the Scrollkeeper package
 app-text/sdcv 0.5.5: Console version of Stardict program
 app-text/sgml-common 0.6.3-r7: Base ISO character entities and utilities for SGML
 app-text/sgrep 1.94a-r2: Use structural criteria to grep and index text, SGML, XML and HTML and filter
-app-text/sigil 2.8.1: Multi-platform WYSIWYG ebook editor for ePub format
+app-text/sigil 2.8.1 2.8.5: Multi-platform WYSIWYG ebook editor for ePub format
 app-text/sloccount 2.26-r3: Tools for counting Source Lines of Code (SLOC) for a large number of languages
 app-text/spellutils 0.7-r1: spellutils includes 'newsbody' (useful for spellchecking in mails, etc.)
 app-text/sword 1.9.0-r2: Library for Bible reading software
@@ -5813,7 +5813,7 @@ dev-libs/libserdes 5.4.0-r2: Avro SerializationDeserialization w/ Confluent sche
 dev-libs/libserialport 0.1.2-r1 9999: Cross platform serial port access library
 dev-libs/libsigc++ 2.12.1 3.6.0 3.8.0: Typesafe callback system for standard C++
 dev-libs/libsigsegv 2.14-r1 2.15: Library for handling page faults in user mode
-dev-libs/libslz 1.2.0-r1 1.3.1: Stateless, zlib-compatible, and very fast compression library
+dev-libs/libslz 1.2.0-r1 1.3.1 1.3.2: Stateless, zlib-compatible, and very fast compression library
 dev-libs/libsodium 1.0.21_p20260122 1.0.22: Portable fork of NaCl, a higher-level cryptographic library
 dev-libs/libspnav 1.1 1.2: libspnav is a replacement for the magellan library with a cleaner API
 dev-libs/libspt 1.1-r4 1.1-r5: Library for handling root privilege
@@ -6107,7 +6107,7 @@ dev-lisp/flexi-streams 1.0.19: Flexible bivalent streams for Common Lisp
 dev-lisp/gcl 2.6.14 2.6.15_pre3: GNU Common Lisp
 dev-lisp/hyperspec 7.0-r3: Common Lisp ANSI-standard Hyperspec
 dev-lisp/roswell 21.10.14.111 22.12.14.113 23.10.14.114: A lisp installer and launcher for major environment
-dev-lisp/sbcl 2.5.4 2.5.11 2.6.7 2.6.8 2.6.9: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
+dev-lisp/sbcl 2.5.4 2.5.11 2.6.7 2.6.9 2.6.10: Steel Bank Common Lisp (SBCL) is an implementation of ANSI Common Lisp
 dev-lisp/trivial-gray-streams 20170830-r1: A thin compatibility layer between Gray Stream Common Lisp implementations
 dev-lisp/uiop 3.3.5 3.3.7: UIOP is a portability layer spun off ASDF3
 dev-lua/LuaBitOp 1.0.3: Bit Operations Library for the Lua Programming Language
@@ -8328,7 +8328,7 @@ dev-python/annotated-doc 0.0.4 0.0.5: Document parameters, variables inline, wit
 dev-python/annotated-types 0.7.0 0.8.0: Reusable constraint types to use with typing.Annotated
 dev-python/ansi 0.3.7: ANSI cursor movement and graphics in Python
 dev-python/ansi2html 1.9.4 1.9.5: Convert text with ANSI color codes to HTML
-dev-python/ansible-compat 26.8.0 26.9.0 26.10.0: Contains functions that facilitate working with various versions of Ansible
+dev-python/ansible-compat 26.9.0 26.10.0 26.11.0: Contains functions that facilitate working with various versions of Ansible
 dev-python/ansible-pygments 0.1.2: Pygments lexer and style Ansible snippets
 dev-python/ansible-pylibssh 1.4.0: Python bindings for libssh client specific to Ansible use case
 dev-python/ansicolor 0.3.2-r1 0.3.3 9999: Produce ansi color output and colored highlighting and diffing
@@ -8356,7 +8356,7 @@ dev-python/array-api-compat 1.15.0 1.16.0: Array API standard compatibility wrap
 dev-python/arrow 1.4.0: Better dates and times for Python
 dev-python/asgiref 3.12.1 3.13.0: ASGI utilities (successor to WSGI)
 dev-python/asn1crypto 1.5.1_p20231012: Python ASN.1 library with a focus on performance and a pythonic API
-dev-python/assertpy 1.1 2.35.0: Simple assertion library for unit testing in python with a fluent API
+dev-python/assertpy 1.1 2.35.0 2.36.0: Simple assertion library for unit testing in python with a fluent API
 dev-python/ast-serialize 0.10.0 0.11.2 0.12.0 0.12.1 0.13.0 0.13.1: Python bindings for mypy AST serialization
 dev-python/asteval 1.0.9 1.0.10: Evaluator of Python expression using ast module
 dev-python/astor 0.8.1-r2: Read/rewrite/write Python ASTs
@@ -8372,7 +8372,7 @@ dev-python/attrs 26.1.0: Attributes without boilerplate
 dev-python/audioop-lts 0.2.2: An LTS port of Python's audioop module
 dev-python/audioread 3.0.1-r1: Wrapper for audio file decoding using FFmpeg or GStreamer
 dev-python/authheaders 0.16.3: A library wrapping email authentication header verification and generation
-dev-python/authlib 1.9.1 1.9.2 1.9.3 1.9.4: A Python library in building OAuth and OpenID Connect servers and clients
+dev-python/authlib 1.9.4 1.9.5: A Python library in building OAuth and OpenID Connect servers and clients
 dev-python/authres 1.2.0-r1: Parse and generate Authentication-Results headers
 dev-python/automat 25.4.16: Self-service finite-state machines for the programmer on the go
 dev-python/autopage 0.6.0: A library to provide automatic paging for console output
@@ -8431,7 +8431,7 @@ dev-python/build 1.5.1 1.6.0 1.6.1: A simple, correct PEP517 package builder
 dev-python/cachebox 6.2.7 6.2.8 6.2.10: The fastest memoizing and caching Python library written in Rust
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
 dev-python/cachelib 0.15.4 0.16.1 0.17.0: Collection of cache libraries in the same API interface. Extracted from werkzeug
-dev-python/cachetools 7.2.0 7.2.1 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8: Extensible memoizing collections and decorators
+dev-python/cachetools 7.2.0 7.2.1 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8 7.3.0: Extensible memoizing collections and decorators
 dev-python/cairocffi 1.7.1-r1: CFFI-based drop-in replacement for Pycairo
 dev-python/cangjie 1.5.0: Python wrapper for libcangjie
 dev-python/canonicaljson 2.0.0: Canonical JSON
@@ -8445,7 +8445,7 @@ dev-python/cerberus 1.3.8: A lightweight and extensible data-validation library 
 dev-python/certifi 3024.7.22: A certifi hack to use system trust store on Linux/FreeBSD
 dev-python/cffi 2.0.0 2.1.1: Foreign Function Interface for Python calling C code
 dev-python/cfgv 3.5.0: Validate configuration and produce human-readable error messages
-dev-python/cfn-lint 1.57.0 1.57.1 1.59.0: CloudFormation Linter
+dev-python/cfn-lint 1.57.1 1.59.0 1.60.0: CloudFormation Linter
 dev-python/cftime 1.6.5 1.6.6 1.6.6.1: Time-handling functionality from netcdf4-python
 dev-python/chainstream 1.0.2: Chain I/O-Streams together into a single stream
 dev-python/chameleon 4.6.0: Fast HTML/XML template compiler for Python
@@ -8470,7 +8470,7 @@ dev-python/clickdc 0.1.1: Define click command line options from a python datacl
 dev-python/cliff 4.16.0 4.17.0: Command Line Interface Formulation Framework
 dev-python/clikit 0.6.2-r1: Group of utilities to build beautiful and testable command line interfaces
 dev-python/clint 0.5.1-r4: Python Command-line Application Tools
-dev-python/cloudflare 5.9.0: The official Python library for the Cloudflare API
+dev-python/cloudflare 5.9.0 5.10.0: The official Python library for the Cloudflare API
 dev-python/cloudpickle 3.1.2: Extended pickling support for Python objects
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/clr-loader 0.3.1: Generic pure Python loader for .NET runtimes
@@ -8706,7 +8706,7 @@ dev-python/gitdb 4.0.12: GitDB is a pure-Python git object database
 dev-python/github3-py 4.0.1: A wrapper for the GitHub API written in python
 dev-python/gitpython 3.1.58 3.1.59 3.1.60 3.1.61 3.1.62 3.2.0 3.2.1: Library used to interact with Git repositories
 dev-python/gmpy2 2.3.1 2.3.2 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
-dev-python/google-api-core 2.39.0 2.40.0 2.41.0 2.42.0 2.43.0 2.43.1 2.43.2: Core Library for Google Client Libraries
+dev-python/google-api-core 2.41.0 2.42.0 2.43.0 2.43.1 2.43.2 2.44.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.199.0 2.200.0 2.201.0: Google API Client for Python
 dev-python/google-auth 2.59.1 2.60.0 2.61.0 2.62.0 2.62.1: Google Authentication Library
 dev-python/google-auth-httplib2 0.4.2 0.4.3 0.4.4: httplib2 Transport for Google Auth
@@ -8743,7 +8743,7 @@ dev-python/hcloud 2.23.0 2.24.0 2.25.1 2.26.0 2.27.0: Official Hetzner Cloud pyt
 dev-python/helpdev 0.7.1-r1: Helping users and developers to get information about the environment
 dev-python/hidapi 0.15.0: A Cython interface to HIDAPI library
 dev-python/hiredis 3.4.1 3.4.2 3.5.0: Python extension that wraps hiredis
-dev-python/hishel 1.3.1 1.4.0: An elegant HTTP Cache implementation for HTTPX and HTTP Core
+dev-python/hishel 1.4.0 2.0.0: An elegant HTTP Cache implementation for HTTPX and HTTP Core
 dev-python/housekeeping 1.1: Reusable deprecation helpers for Python projects
 dev-python/hpack 4.2.0: Pure-Python HPACK header compression
 dev-python/html2text 2025.4.15-r1: Turn HTML into equivalent Markdown-structured text
@@ -9120,7 +9120,7 @@ dev-python/pbkdf2 1.3-r2: Implementation of PBKDF2, specified in RSA PKCS#5 v2.0
 dev-python/pbr 7.1.2 7.1.3: Inject some useful and sensible default behaviors into setuptools
 dev-python/pbs-installer 2026.10.21 2026.10.25: Installer for Python Build Standalone
 dev-python/pdfrw 0.4_p1-r1: PDF file reader/writer library
-dev-python/pdm 2.29.3 2.29.4 2.29.5: Python package and dependency manager supporting the latest PEP standards
+dev-python/pdm 2.29.5 2.29.7: Python package and dependency manager supporting the latest PEP standards
 dev-python/pdm-backend 2.4.9 2.4.10 2.5.0: A PEP 517 backend for PDM that supports PEP 621 metadata
 dev-python/peachpy 2022.11.13-r3: Portable Efficient Assembly Code-generator in Higher-level Python
 dev-python/pebble 5.2.1-r1 5.2.2 5.2.3: Threading and multiprocessing eye-candy
@@ -9176,7 +9176,7 @@ dev-python/primecountpy 0.2.1: Cython interface to sci-mathematics/primecount
 dev-python/priority 2.0.0-r1: A pure-Python implementation of the HTTP/2 priority tree
 dev-python/process-tests 3.0.0: Tools for testing processes
 dev-python/progress 1.6.1: Easy to use progress bars
-dev-python/progressbar2 4.5.0 4.6.0: Text progressbar library for python
+dev-python/progressbar2 4.6.0 4.7.0: Text progressbar library for python
 dev-python/prometheus-client 0.25.0 0.26.0: Python client for the Prometheus monitoring system
 dev-python/prompt-toolkit 3.0.52 3.0.53: Building powerful interactive command lines in Python
 dev-python/propcache 0.5.2 0.5.4: Accelerated property cache
@@ -9229,7 +9229,7 @@ dev-python/pycups 2.0.4: Python bindings for the CUPS API
 dev-python/pycurl 7.48.0 7.49.0: Python bindings for curl/libcurl
 dev-python/pycurl-requests 0.5.2: Requests-compatible interface for PycURL
 dev-python/pycxx 7.1.8-r3 7.2.1: Set of facilities to extend Python with C++
-dev-python/pydantic 2.13.5 2.14.0 2.14.1 2.14.2: Data parsing and validation using Python type hints
+dev-python/pydantic 2.13.5 2.14.0 2.14.1 2.14.2 2.14.3: Data parsing and validation using Python type hints
 dev-python/pydantic-settings 2.15.0 2.16.0 2.16.1 2.16.2: Settings management using Pydantic
 dev-python/pydata-sphinx-theme 0.21.0 0.22.0 0.23.0 0.24.0: Bootstrap-based Sphinx theme from the PyData community
 dev-python/pydbus 0.6.0-r1: Pythonic DBus library
@@ -9479,7 +9479,7 @@ dev-python/python-swiftclient 4.10.0 4.11.0: Python bindings to the OpenStack Ob
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
 dev-python/python-tests 0.3.14.10 0.3.14.10_p1 0.3.14.9999 0.3.15.2 0.3.15.2_p1 0.3.15.9999 3.12.16 3.12.9999 3.13.18 3.13.18_p1 3.13.9999 3.14.10 3.14.10_p1 3.14.9999 3.15.2 3.15.2_p1 3.15.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.12.1: Fuzzy matching library - C++ extension for Python
-dev-python/python-utils 4.0.0 4.1.0 4.1.1 4.1.2 4.1.3 4.1.4: Collection of small Python functions & classes
+dev-python/python-utils 4.1.0 4.1.1 4.1.2 4.1.3 4.1.4 4.2.0: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
 dev-python/python-xlib 0.33: A fully functional X client library for Python, written in Python
 dev-python/python-xmp-toolkit 2.1.0: Library for working with XMP metadata
@@ -9579,7 +9579,7 @@ dev-python/rich-argparse 1.8.0: Rich help formatters for argparse and optparse
 dev-python/rich-click 1.9.8 1.9.9: Format click help output nicely with rich
 dev-python/roman 5.2: An Integer to Roman numerals converter
 dev-python/roman-numerals 4.1.0: Manipulate roman numerals
-dev-python/rope 1.14.0 1.15.0: Python refactoring library
+dev-python/rope 1.14.0 1.15.0 1.15.2: Python refactoring library
 dev-python/ropemode 0.6.1: A helper for using rope refactoring library in IDEs
 dev-python/routes 2.5.1-r2: A re-implementation of Rails routes system, mapping URLs to Controllers/Actions
 dev-python/rpds-py 2026.6.3 2026.9.1: Python bindings to Rust's persistent data structures (rpds)
@@ -9773,7 +9773,7 @@ dev-python/textdistance 4.6.3: Compute distance between the two texts
 dev-python/textile 4.0.4: A Python port of Textile, A humane web text generator
 dev-python/texttable 1.7.0 1.7.1 1.7.2: Module to create simple ASCII tables
 dev-python/textx 4.3.0 4.4.0: Meta-language for DSL implementation inspired by Xtext
-dev-python/threadpoolctl 3.6.0 3.7.0: Limit the number of threads used in native libs that have their own threadpool
+dev-python/threadpoolctl 3.7.0 3.8.0: Limit the number of threads used in native libs that have their own threadpool
 dev-python/three-merge 0.1.1-r1: Simple Python library to perform a 3-way merge between strings
 dev-python/thrift 0.24.0 0.25.0: Python implementation of Thrift
 dev-python/thriftpy2 0.7.0 0.7.1: Pure python approach of Apache Thrift
@@ -9881,7 +9881,7 @@ dev-python/voluptuous 0.16.0: A Python data validation library
 dev-python/waitress 3.0.2: A pure-Python WSGI server
 dev-python/wand 0.7.1 0.7.2: Ctypes-based simple ImageMagick binding for Python
 dev-python/warlock 2.1.0: Python object model built on JSON schema and JSON patch
-dev-python/watchdog 6.0.0 7.0.0: Python API and shell utilities to monitor file system events
+dev-python/watchdog 6.0.0 7.0.0 7.1.0: Python API and shell utilities to monitor file system events
 dev-python/watchfiles 1.2.0 1.3.0: Simple, modern file watching and code reload in Python
 dev-python/wcag-contrast-ratio 0.9-r1: A library for computing contrast ratios, as required by WCAG 2.0
 dev-python/wcmatch 11.0.1 11.1 11.2 12.0: Wildcard/glob file name matcher
@@ -9932,7 +9932,7 @@ dev-python/yaxmldiff 0.3.0: Yet Another XML Differ
 dev-python/youtube-search-python 1.6.6-r3: Get YouTube video information using link WITHOUT YouTube Data API v3
 dev-python/yt-dlp-ejs 0.8.0: External JavaScript for yt-dlp supporting many runtimes
 dev-python/ytmusicapi 1.12.2 1.12.3: Unofficial API for YouTube Music
-dev-python/zc-lockfile 4.0: Basic inter-process locks
+dev-python/zc-lockfile 4.0 4.1: Basic inter-process locks
 dev-python/zconfig 4.3: Configuration library supporting a hierarchical schema-driven model
 dev-python/zeep 4.3.3: A modern/fast Python SOAP client based on lxml / requests
 dev-python/zenlib 3.3.0 9999: Useful python decorators and utilities
@@ -15755,7 +15755,7 @@ net-proxy/trojan 1.16.0-r4: An unidentifiable mechanism that helps you bypass GF
 net-proxy/tsocks 1.8_beta5-r9 1.8_beta5-r10: Transparent SOCKS v4 proxying library
 net-proxy/wwwoffle 2.9j: Web caching proxy suitable for non-permanent Internet connections
 net-proxy/ziproxy 3.3.2-r1: Forwarding, non-caching, compressing web proxy server
-net-voip/mumble 1.6.0_pre20250920-r3 1.6.0_pre20260215-r2 9999: Open source, low-latency, high quality voice chat software
+net-voip/mumble 1.6.0_pre20250920-r3 1.6.0_pre20260215-r3 9999: Open source, low-latency, high quality voice chat software
 net-voip/murmur 1.6.0_pre20250920-r3 1.6.0_pre20260215-r1 9999: Open source, low-latency, high quality voice chat server
 net-voip/sipvicious 0.3.7 0.3.8: SIPVicious is a SIP security package
 net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
@@ -16075,7 +16075,7 @@ sci-chemistry/MDAnalysis 2.9.0 2.10.0: A python library to analyze and manipulat
 sci-chemistry/ParmEd 4.3.0 4.3.1: Parameter and topology file editor and molecular mechanical simulator engine
 sci-chemistry/autodock 4.2.6-r1: A suite of automated docking tools
 sci-chemistry/autodock_vina 1.2.7: Program for drug discovery, molecular docking and virtual screening
-sci-chemistry/avogadro2 1.103.0 2.0.0: Advanced molecule editor and visualizer 2
+sci-chemistry/avogadro2 2.0.0 2.1.0: Advanced molecule editor and visualizer 2
 sci-chemistry/bodr 10: The Blue Obelisk Data Repository listing element and isotope properties
 sci-chemistry/cara-bin 1.8.4-r2: Analysis of NMR spectra and Computer Aided Resonance Assignment
 sci-chemistry/chemex 2026.9.0 2026.9.2: Program to fit chemical exchange induced shift and relaxation data
@@ -16215,7 +16215,7 @@ sci-libs/armadillo 14.6.1 15.0.3: Streamlined C++ linear algebra library
 sci-libs/arpack 3.9.1 9999: Arnoldi package library to solve large scale eigenvalue problems
 sci-libs/arprec 2.2.19-r1 2.2.20: Arbitrary precision float arithmetics and functions
 sci-libs/atlas 3.10.2-r1 3.10.3 3.11.41: Automatically Tuned Linear Algebra Software
-sci-libs/avogadrolibs 1.103.0 2.0.0: Advanced molecule editor and visualizer 2 - libraries
+sci-libs/avogadrolibs 2.0.0 2.1.0: Advanced molecule editor and visualizer 2 - libraries
 sci-libs/blas-lapack-aux-wrapper 6: BLAS/LAPACK wrappers for FlexiBLAS
 sci-libs/blis 2.0 2.1: BLAS-like Library Instantiation Software Framework
 sci-libs/bliss 0.77 0.77-r1: Compute Automorphism Groups and Canonical Labelings of Graphs
@@ -16315,7 +16315,7 @@ sci-libs/indilib 2.2.4.2 2.2.5: INDI Astronomical Control Protocol library
 sci-libs/ipopt 3.14.4-r1: Interior-Point Optimizer for large-scale nonlinear optimization
 sci-libs/itpp 4.3.1-r2: C++ library of mathematical, signal processing and communication
 sci-libs/jama 1.2.5-r1: Java-like matrix C++ templates
-sci-libs/jkqtplotter 5.0.0_beta1: Extensive Qt Plotter framework
+sci-libs/jkqtplotter 5.0.0_beta1 5.0.0_beta2: Extensive Qt Plotter framework
 sci-libs/kissfft 131.1.0-r3 131.2.0 9999: Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid
 sci-libs/klu 1.3.9-r2 2.3.6-r1: Sparse LU factorization for circuit simulation
 sci-libs/lapack 3.12.1-r2: BLAS, CBLAS, LAPACK, LAPACKE reference implementations
@@ -16412,7 +16412,7 @@ sci-libs/rtabmap 0.21.13 9999: Real-Time Appearance-Based Mapping (RGB-D Graph S
 sci-libs/scalapack 2.2.2-r1 2.2.3-r2: Subset of LAPACK routines redesigned for heterogenous (MPI) computing
 sci-libs/scotch 7.0.8 7.0.11 7.0.13: Software for graph, mesh and hypergraph partitioning
 sci-libs/shapelib 1.6.0: Library for manipulating ESRI Shapefiles
-sci-libs/spglib 2.6.0-r1 2.7.0: Spglib is a C library for finding and handling crystal symmetries
+sci-libs/spglib 2.7.0 2.8.0: C library for finding and handling crystal symmetries
 sci-libs/spooles 2.2: SParse Object Oriented Linear Equations Solver
 sci-libs/spqr 2.0.9-r4 4.3.6-r1: Multithreaded multifrontal sparse QR factorization library
 sci-libs/spr 3.3.2-r2: Statistical analysis and machine learning library
@@ -17564,7 +17564,7 @@ sys-apps/uswid 0.6.0: Pure-Python library and CLI tool for processing SBoM metad
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
 sys-apps/util-linux 2.41.5 2.42.2 2.42.3 9999: Various useful Linux utilities
 sys-apps/uutils-coreutils 0.7.0 0.8.0-r1 0.9.0 0.10.0 0.12.0 9999: GNU coreutils rewritten in Rust
-sys-apps/uutils-findutils 0.8.0 9999: GNU findutils rewritten in Rust
+sys-apps/uutils-findutils 0.11.0 9999: GNU findutils rewritten in Rust
 sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. reinitialize video card)
 sys-apps/watchdog 5.16-r1: A software watchdog and /dev/watchdog daemon
 sys-apps/which 2.23: Prints out location of specified executables that are in your path
@@ -18440,7 +18440,7 @@ www-apps/readarr-bin 0.4.18.2805-r1: An ebook and audiobook collection manager f
 www-apps/redmine 6.0.7 6.0.9 6.0.11: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
-www-apps/rutorrent 5.3.19 5.3.20 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
+www-apps/rutorrent 5.3.20 5.3.21 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.19.2979-r1: Sonarr is a Smart PVR for newsgroup and bittorrent users
