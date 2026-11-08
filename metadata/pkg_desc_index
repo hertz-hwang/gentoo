@@ -1823,7 +1823,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r2 31.1.9999 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r2 31.1.90 31.1.9999 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/enter-tex 3.49.0: TeX/LaTeX text editor
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
@@ -16250,7 +16250,7 @@ sci-libs/coinor-bcp 1.4.4: COIN-OR Branch-Cut-Price Framework
 sci-libs/coinor-bcps 0.94.5: COIN-OR BiCePS data handling library
 sci-libs/coinor-blis 0.94.8: COIN-OR BiCePS Linear Integer Solver
 sci-libs/coinor-bonmin 1.8.8: COIN-OR Basic Open-source Nonlinear Mixed INteger programming
-sci-libs/coinor-cbc 2.10.5 2.10.12: COIN-OR branch-and-cut mixed integer program solver
+sci-libs/coinor-cbc 2.10.5-r1 2.10.12-r1: COIN-OR branch-and-cut mixed integer program solver
 sci-libs/coinor-cgl 0.60.3 0.60.9: COIN-OR cut-generation library
 sci-libs/coinor-clp 1.17.6 1.17.6-r1 1.17.10: COIN-OR linear programming solver
 sci-libs/coinor-couenne 0.5.8-r1: COIN-OR Convex Over and Under ENvelopes for Nonlinear Estimation
@@ -16397,7 +16397,7 @@ sci-libs/profnet 1.0.22: Neural network architecture for profacc
 sci-libs/profphd-utils 1.0.10-r1: Additional utils for profphd
 sci-libs/proj 9.4.1 9.6.2 9.7.0 9999: PROJ coordinate transformation software
 sci-libs/punc 1.5-r1: Portable Understructure for Numerical Computing
-sci-libs/pyshp 3.1.5 3.1.6: Pure Python read/write support for ESRI Shapefile format
+sci-libs/pyshp 3.1.6 3.1.7: Pure Python read/write support for ESRI Shapefile format
 sci-libs/qd 2.3.24: Quad-double and double-double float arithmetics
 sci-libs/qfits 6.2.0-r1: ESO stand-alone C library offering easy access to FITS files
 sci-libs/qrupdate 1.1.2-r2 1.1.5 1.2.0: Library for updating of QR and Cholesky decompositions
@@ -18544,7 +18544,7 @@ www-servers/apache 2.4.69 2.4.70: The Apache Web Server
 www-servers/caddy 2.10.2-r1 2.11.7 2.11.8 9999: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
 www-servers/civetweb 1.16: Embedded C/C++ web server
 www-servers/fnord 1.11-r3: Yet another small httpd
-www-servers/gatling 0.16-r6: High performance web server
+www-servers/gatling 0.16-r6 0.16-r7: High performance web server
 www-servers/gunicorn 26.1.0 26.2.0: A WSGI HTTP Server for UNIX
 www-servers/h2o 2.3.0_pre20260804 9999: H2O - the optimized HTTP/1, HTTP/2 server
 www-servers/kore 4.3.0_rc4 4.3.0_rc5: Web application platform for writing scalable, concurrent web based processes
