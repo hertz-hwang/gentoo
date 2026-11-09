@@ -14410,7 +14410,7 @@ media-tv/mythtv-status 1.1.0: Displays the current status of MythTV at the comma
 media-tv/plex-media-server 1.43.5.11079: Free media library that is intended for use with a plex client
 media-tv/shoutcast2vdr 0.0.8-r1: VDR script: generate shoutcast playlists
 media-tv/tvbrowser-bin 4.2.7: Themeable and easy to use TV Guide - written in Java
-media-tv/tvheadend 4.3_p20240618-r1 4.3_p20260516 9999: Tvheadend is a TV streaming server and digital video recorder
+media-tv/tvheadend 4.3_p20240618-r1 4.3_p20261106 9999: Tvheadend is a TV streaming server and digital video recorder
 media-tv/v4l-dvb-saa716x 0.0.1_p20170225-r6: driver for saa716x based dvb cards like TT S2-6400 or Skystar 2 eXpress HD
 media-tv/w_scan 20170107: Scan DVB-C/DVB-T/DVB-S channels
 media-tv/xmltv 1.0.0-r1 1.4.0-r1: Set of utilities to manage TV listings stored in the XMLTV format
@@ -17998,7 +17998,7 @@ sys-kernel/gentoo-kernel 6.1.192 6.6.162 6.12.116 6.18.62 7.3.3: Linux kernel bu
 sys-kernel/gentoo-kernel-bin 6.1.192 6.6.162 6.12.116 6.18.62 7.3.3: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.192 6.6.162 6.12.116 6.18.62 7.3.3: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.116 6.18.62 7.3.3: Full sources including the Gentoo patchset for the 7.3 kernel tree
-sys-kernel/git-sources 7.4_rc1: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.4_rc1 7.4_rc2: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68-r1 70-r1 9999: Gentoo fork of installkernel script from debianutils
