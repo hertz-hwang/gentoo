@@ -4094,7 +4094,7 @@ dev-db/qdbm 1.8.78-r5: Quick Database Manager
 dev-db/qt5-sqlcipher 1.1.0-r1: Qt SQL driver plugin for SQLCipher
 dev-db/recutils 1.9-r1: Tools and libraries to access human-editable, plain text databases
 dev-db/redict 7.3.6: A persistent caching system, key-value, and data structures database
-dev-db/redis 8.2.2 8.2.6 8.2.7 8.2.9 8.2.10 8.4.4 8.4.6 8.4.7 8.6.4 8.6.6 8.6.7 8.8.0 8.8.2 8.8.3 8.10.1 8.10.2: A persistent caching system, key-value, and data structures database
+dev-db/redis 8.2.10 8.2.11 8.4.8 8.6.7 8.6.8 8.8.4 8.10.2 8.10.3: A persistent caching system, key-value, and data structures database
 dev-db/repmgr 5.5.0: PostgreSQL Replication Manager
 dev-db/rqlite 9.4.1: Replicated SQLite using the Raft consensus protocol
 dev-db/slony1 2.2.10-r1: A replication system for the PostgreSQL Database Management System
@@ -5432,7 +5432,7 @@ dev-lang/qu-prolog 10.8-r1: Extended Prolog supporting quantifiers, object-varia
 dev-lang/rakudo 2026.02 2026.08 2026.09: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
-dev-lang/ruby 3.2.11 3.2.11-r1 3.3.12 3.3.13 3.3.9999 3.4.10 3.4.12 3.4.9999 4.0.6 4.0.9 4.0.9999: An object-oriented scripting language
+dev-lang/ruby 3.2.11-r1 3.3.13 3.3.9999 3.4.12 3.4.9999 4.0.9 4.0.9999: An object-oriented scripting language
 dev-lang/rust 1.90.0-r1 1.91.0 1.92.0_p1-r1 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language originally developed by Mozilla
 dev-lang/rust-bin 1.90.0 1.91.0 1.92.0 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language from Mozilla
 dev-lang/rust-common 1.90.0 1.91.0 1.92.0 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Common files shared between multiple slots of Rust
@@ -9612,7 +9612,7 @@ dev-python/segno 1.6.6: Python QR Code and Micro QR Code encoder
 dev-python/selenium 4.34.2 4.35.0 4.49.0 4.50.0 4.51.0 4.52.0: Python language binding for Selenium Remote Control
 dev-python/semantic-version 2.10.0: Python library providing a few tools handling SemVer in Python
 dev-python/semver 3.1.0: A Python module for semantic versioning
-dev-python/send2trash 2.1.0 2.2.0: Sends files to the Trash (or Recycle Bin)
+dev-python/send2trash 2.2.0: Sends files to the Trash (or Recycle Bin)
 dev-python/sense-hat 2.6.0: Raspberry Pi Sense HAT python library
 dev-python/serpent 1.43: A simple serialization library based on ast.literal_eval
 dev-python/serverfiles 0.3.1-r1: Utility for accessing HTTP server and storing files locally for reuse
@@ -9765,7 +9765,7 @@ dev-python/testscenarios 0.6.1 0.7.0: A pyunit extension for dependency injectio
 dev-python/testtools 2.9.1: Extensions to the Python standard library unit testing framework
 dev-python/text-unidecode 1.3-r1: The most basic port of the Text::Unidecode Perl library
 dev-python/textdistance 4.6.3: Compute distance between the two texts
-dev-python/textile 4.0.4 4.0.5: A Python port of Textile, A humane web text generator
+dev-python/textile 4.0.5: A Python port of Textile, A humane web text generator
 dev-python/texttable 1.7.0 1.7.1 1.7.2: Module to create simple ASCII tables
 dev-python/textx 4.3.0 4.4.0: Meta-language for DSL implementation inspired by Xtext
 dev-python/threadpoolctl 3.7.0 3.8.0: Limit the number of threads used in native libs that have their own threadpool
@@ -12274,10 +12274,10 @@ gui-apps/wofi 1.4.1 1.5 9999: Wofi is a launcher/menu program for wlroots based 
 gui-apps/xwaylandvideobridge 0.5.3: Screenshare Wayland windows to XWayland apps
 gui-libs/amtk 5.6.1: Actions, Menus and Toolbars Kit for GTK+ applications
 gui-libs/display-manager-init 1.1.2-r3: RC init files for starting display and login managers
-gui-libs/egl-gbm 1.1.3 1.1.4: NVIDIA GBM EGL external platform library
-gui-libs/egl-wayland 1.1.22 1.1.23 1.1.24: NVIDIA wayland EGL external platform library
-gui-libs/egl-wayland2 1.0.1 1.0.2: NVIDIA wayland EGL external platform library, version 2
-gui-libs/egl-x11 1.0.5 1.0.6: NVIDIA X11/XCB EGL external platform library
+gui-libs/egl-gbm 1.1.4: NVIDIA GBM EGL external platform library
+gui-libs/egl-wayland 1.1.24: NVIDIA wayland EGL external platform library
+gui-libs/egl-wayland2 1.0.2: NVIDIA wayland EGL external platform library, version 2
+gui-libs/egl-x11 1.0.6: NVIDIA X11/XCB EGL external platform library
 gui-libs/eglexternalplatform 1.2.1: EGL External Platform interface
 gui-libs/gdk-pixbuf-loader-webp 0.2.7: WebP GDK Pixbuf Loader library
 gui-libs/greetd 0.10.0-r1 0.10.3-r1: ipc based login daemon
@@ -12802,7 +12802,7 @@ mail-filter/imapfilter 2.8.5 2.8.6: An IMAP mail filtering utility
 mail-filter/libmilter 1.0.2_p4 1.0.2_p4-r1 1.0.2_p5: The Sendmail Filter API (Milter)
 mail-filter/libopensmtpd 0.8 1.0: Library for creating OpenSMTPD filters
 mail-filter/libsieve 2.2.7: A library for parsing, sorting and filtering your mail
-mail-filter/libspf2 1.2.11 1.2.11-r1: implementation of Sender Policy Framework (SPF)
+mail-filter/libspf2 1.2.11 1.2.11-r2: implementation of Sender Policy Framework (SPF)
 mail-filter/libsrs2 1.0.18-r1: libsrs2 is the next generation Sender Rewriting Scheme library
 mail-filter/maildrop 3.1.8-r1 3.2.1-r1 3.3.0 4.0.5: Mail delivery agent/filter
 mail-filter/mailfilter 0.8.9: Mailfilter is a utility to get rid of unwanted spam mails
@@ -15668,7 +15668,7 @@ net-p2p/mktorrent 1.1_p20210130-r1: Simple command line utility to create BitTor
 net-p2p/mldonkey 3.2.1: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses interface
 net-p2p/nicotine+ 3.3.10 3.3.11: Graphical client for the Soulseek peer to peer network written in Python
-net-p2p/qbittorrent 5.1.4-r2 5.2.4-r1 5.3.0-r1 9999: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.1.4-r2 5.2.4-r1 5.3.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/rtorrent 0.15.7 0.16.24 0.16.25 0.16.27 0.16.28 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
