@@ -1165,7 +1165,7 @@ app-arch/engrampa 1.28.1 1.28.2: Engrampa archive manager for MATE
 app-arch/file-roller 44.6 44.7: Archive manager for GNOME
 app-arch/funzix 1.0-r1: Unpacker for the bogus ZIX format
 app-arch/gcab 1.6: Library and tool for working with Microsoft Cabinet (CAB) files
-app-arch/gnome-autoar 0.4.5: Automatic archives creating and extracting library
+app-arch/gnome-autoar 0.4.5 0.5.2: Automatic archives creating and extracting library
 app-arch/gtk-splitter 2.2.1-r2: Split files into smaller pieces and combine them back together
 app-arch/gxz 0.5.12: Pure golang package for reading and writing xz-compressed files
 app-arch/gzip 1.14 1.14-r1 1.15: Standard GNU compressor
@@ -1365,7 +1365,7 @@ app-cdr/xfburn 0.7.2 0.8.0: GTK+ based CD and DVD burning application
 app-containers/aardvark-dns 1.17.1 2.0.0 2.1.0 9999: A container-focused DNS server
 app-containers/amazon-ecr-credential-helper 0.10.1 0.11.0 0.12.0: Automatically gets credentials for Amazon ECR on docker push/docker pull
 app-containers/apptainer 1.4.5 1.5.4 1.5.5: The container system for secure high-performance computing
-app-containers/buildah 1.41.0 1.45.0 1.46.0 9999: A tool that facilitates building OCI images
+app-containers/buildah 1.41.0 1.46.0 1.46.1 9999: A tool that facilitates building OCI images
 app-containers/cadvisor 0.49.2 0.53.0 0.56.2 0.60.5: Analyzes resource usage and performance characteristics of running containers
 app-containers/catatonit 0.2.0 0.2.1 9999: A container init that is so simple it's effectively brain-dead
 app-containers/cni-plugins 1.3.0 1.5.1 1.6.1 1.6.2 1.9.1: Standard networking plugins for container networking
@@ -1406,14 +1406,14 @@ app-containers/lxd 5.21.1-r1 5.21.1-r2 5.21.4 5.21.4-r1 6.3 6.3-r1 6.5 6.5-r1 6.
 app-containers/nerdctl 2.3.3 2.3.4 2.3.5: Docker-compatible CLI for containerd, with support for Compose
 app-containers/netavark 1.17.1 1.17.2 2.0.0 2.1.0 9999: A container network stack
 app-containers/nvidia-container-toolkit 1.18.0 1.19.1 1.20.0-r1 1.20.1-r1 9999: NVIDIA container runtime toolkit
-app-containers/podman 6.1.4 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
+app-containers/podman 6.1.4 6.2.0 9999: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 2.0.0 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
 app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
-app-containers/skopeo 1.22.2 1.23.0-r1 1.24.0 1.24.1 9999: Work with remote container images registries
+app-containers/skopeo 1.24.1 1.25.1 9999: Work with remote container images registries
 app-containers/slirp4netns 1.3.3 1.3.4 1.3.5 1.3.7: User-mode networking for unprivileged network namespaces
 app-containers/snapd 2.63-r1: Service and tools for management of snap packages
 app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Software Bill of Materials from container images and filesystems
@@ -2568,7 +2568,7 @@ app-i18n/fcitx-table-extra 5.1.8 5.1.10 5.1.11 5.1.12 5.1.13: Provides extra tab
 app-i18n/fcitx-table-other 5.1.5 5.1.6 5.1.7 5.1.8: Provides some other tables for Fcitx, fork from ibus-table-others, scim-tables
 app-i18n/fcitx-unikey 5.1.8 5.1.10 5.1.11 5.1.12: Unikey (Vietnamese Input Method) engine support for Fcitx
 app-i18n/gnulib-l10n 20241231: Localization for gnulib
-app-i18n/ibus 1.5.31-r1 1.5.33 1.5.34 1.5.34-r2: Intelligent Input Bus for Linux / Unix OS
+app-i18n/ibus 1.5.34-r2 1.5.35: Intelligent Input Bus for Linux / Unix OS
 app-i18n/ibus-anthy 1.5.16 1.5.18: Japanese Anthy engine for IBus
 app-i18n/ibus-cangjie 2.5.0-r1: Chinese Cangjie and Quick engines for IBus
 app-i18n/ibus-chewing 2.1.7: Chinese Chewing engine for IBus
@@ -5446,7 +5446,7 @@ dev-lang/smlnj 110.99.6.1 110.99.9: Standard ML of New Jersey compiler and libra
 dev-lang/snobol 1.4.1-r1: Phil Budne's port of Macro SNOBOL4 in C, for modern machines
 dev-lang/souffle 2.5-r1: Datalog compiler, synthesizes C++ program from logic specification
 dev-lang/spark 2024.01.11-r2: Software development for high-reliability applications
-dev-lang/spidermonkey 128.14.0 140.16.0 140.17.0 153.6.0: Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 128.14.0 140.16.0 140.17.0 153.6.0 153.7.0: Mozilla's JavaScript engine written in C and C++
 dev-lang/squirrel 3.2: A interpreted language mainly used for games
 dev-lang/swi-prolog 10.0.2: Versatile implementation of the Prolog programming language
 dev-lang/swig 4.1.1-r1 4.2.1 4.3.1 4.4.1 4.5.1: Simplified Wrapper and Interface Generator
@@ -6180,7 +6180,7 @@ dev-ml/base 0.16.3-r1 0.17.3: Standard library for OCaml
 dev-ml/base_bigstring 0.16.0 0.17.0-r1: String type based on Bigarray, for use in I/O and C-bindings
 dev-ml/base_quickcheck 0.16.0 0.17.0-r2 0.17.1: Randomized testing framework, designed for compatibility with Base
 dev-ml/batteries 3.10.0 3.11.0: A community-maintained standard library extension
-dev-ml/bigarray-compat 1.0.0 1.1.0: Compatibility library to use Stdlib.Bigarray when possible
+dev-ml/bigarray-compat 1.1.0: Compatibility library to use Stdlib.Bigarray when possible
 dev-ml/bigstringaf 0.10.0: Bigstring intrinsics and fast blits based on memcpy/memmove
 dev-ml/bin_prot 0.16.0 0.17.0-r1: Binary protocol generator
 dev-ml/biniou 1.2.2-r1: A binary data serialization format inspired by JSON for OCaml
@@ -6254,6 +6254,7 @@ dev-ml/lambda-term 3.3.2 3.3.3 3.4.0: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
 dev-ml/llvm 20.1.8 21.1.8 22.1.8 23.1.5 24.0.0_pre20261028 24.0.0_pre20261110 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
+dev-ml/logs-syslog 0.5.0: Logs reporter to syslog (UDP/TCP/TLS)
 dev-ml/luv 0.5.11-r2 0.5.14-r1: Binding to libuv: cross-platform asynchronous I/O
 dev-ml/lwt 5.7.0 5.9.0 5.9.1-r1 5.9.2 5.10.1: Cooperative light-weight thread library for OCaml
 dev-ml/lwt_log 1.1.1-r1 1.1.2: Cooperative light-weight thread library for OCaml
@@ -6287,7 +6288,7 @@ dev-ml/ocaml-inifiles 1.2: A small OCaml library to read and write .ini files
 dev-ml/ocaml-markdown 0.2.1: Markdown parser and printer in OCaml
 dev-ml/ocaml-migrate-parsetree 2.1.0 2.2.0 2.3.0-r1 2.4.0-r1: Convert OCaml parsetrees between different major versions
 dev-ml/ocaml-process 0.2.1-r1: Easy process control for OCaml
-dev-ml/ocaml-sha 1.15.1 1.15.2 1.15.4: Binding to the SHA cryptographic functions
+dev-ml/ocaml-sha 1.15.4: Binding to the SHA cryptographic functions
 dev-ml/ocaml-sqlite3 5.0.2: SQLite3 bindings for OCaml
 dev-ml/ocaml-ssl 0.5.13-r1 0.7.0: OCaml bindings for OpenSSL
 dev-ml/ocaml-stdint 0.7.0 0.7.2-r1: Signed and unsigned integer types having specified widths
@@ -6319,6 +6320,7 @@ dev-ml/patience_diff 0.16.0 0.17.0-r1: Tool and library implementing patience di
 dev-ml/pcre-ocaml 7.4.6-r2 7.5.0: Perl Compatibility Regular Expressions for O'Caml
 dev-ml/pcre2-ocaml 8.0.3-r1: OCaml bindings to PCRE (Perl Compatibility Regular Expressions)
 dev-ml/pp 2.0.0: Pretty-printing library
+dev-ml/pp_loc 2.1.0: Quote and highlight input fragments at a given source location
 dev-ml/pprint 20220103 20230830: A pretty-printing combinator library and rendering engine
 dev-ml/ppx_assert 0.16.0 0.17.0-r1: Assert-like extension nodes that raise useful errors on failure
 dev-ml/ppx_base 0.16.0-r1 0.17.0: Base set of ppx rewriters
@@ -6390,6 +6392,7 @@ dev-ml/stdio 0.16.0 0.17.0-r2: Standard IO Library for OCaml
 dev-ml/stdlib-shims 0.2.0 0.3.0: Pure OCaml library that allows replacing Pervasives with Stdlib before 4.08
 dev-ml/stringext 1.6.0: Extra string functions for OCaml
 dev-ml/swhid_core 0.1: OCaml library to work with swhids
+dev-ml/syslog-message 1.2.0: Syslog message parser
 dev-ml/textutils 0.16.0 0.17.0-r1: Text output utilities
 dev-ml/textutils_kernel 0.16.0 0.17.0-r1: Text output utilities
 dev-ml/time_now 0.16.0 0.17.0-r2: Reports the current time
@@ -9991,7 +9994,7 @@ dev-qt/qttranslations 6.11.3 6.12.0 6.12.9999 6.9999: Translation files for the 
 dev-qt/qtvirtualkeyboard 6.11.3 6.12.0 6.12.9999 6.9999: Customizable input framework and virtual keyboard for Qt
 dev-qt/qtwayland 6.11.3 6.12.0 6.12.9999 6.9999: Toolbox for making Qt based Wayland compositors
 dev-qt/qtwebchannel 6.11.3 6.12.0 6.12.9999 6.9999: Qt WebChannel
-dev-qt/qtwebengine 6.11.3 6.140.9999 6.9999: Library for rendering dynamic web content in Qt6 C++ and QML applications
+dev-qt/qtwebengine 6.11.3 6.140.0 6.140.9999 6.9999: Library for rendering dynamic web content in Qt6 C++ and QML applications
 dev-qt/qtwebsockets 6.11.3 6.12.0 6.12.9999 6.9999: Implementation of the WebSocket protocol for the Qt6 framework
 dev-qt/qtwebview 6.11.3 6.12.0 6.12.9999 6.9999: Module for displaying web content in a QML application using the Qt6 framework
 dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
@@ -11007,7 +11010,7 @@ dev-util/drone-cli 1.7.0: Command-line interface for Drone
 dev-util/dropwatch 1.5.4: Monitor for dropped network packets
 dev-util/dwdiff 2.1.4: diff-like program operating at word level instead of line level
 dev-util/ebuildtester 47 48: A dockerized approach to test a Gentoo package within a clean stage3 container
-dev-util/edi 0.8.0-r3: An EFL-based IDE
+dev-util/edi 0.8.0-r3 0.9.0: An EFL-based IDE
 dev-util/editorconfig-geany 0.2.1: EditorConfig plugin for Geany
 dev-util/egypt 1.11: Devilishly simple tool for creating call graphs of C programs
 dev-util/elf_diff 0.7.1: Tool to compare ELF binaries
@@ -11186,7 +11189,7 @@ dev-util/rocminfo 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: ROCm Application for Rep
 dev-util/roctracer 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: Callback/Activity Library for Performance tracing AMD GPU's
 dev-util/ropper 1.13.13 9999: Use to display information about binary files in different file formats
 dev-util/rt-tests 2.9 2.10: A collection of latency testing tools for the linux(-rt) kernel
-dev-util/ruff 0.16.5 0.16.10 0.17.2 0.17.3 0.17.4: An extremely fast Python linter, written in Rust
+dev-util/ruff 0.16.5 0.16.10 0.17.2 0.17.3 0.17.4 0.17.5: An extremely fast Python linter, written in Rust
 dev-util/runme 2.0.5 3.15.0: Execute your runbooks, docs and READMEs
 dev-util/rustup 1.29.3 9999: Rust toolchain installer
 dev-util/scanmem 0.17: Locate and modify variables in executing processes
@@ -12162,12 +12165,12 @@ gnome-extra/gnome-shell-extension-applications-overview-tooltip 24 24-r1: Show t
 gnome-extra/gnome-shell-extension-bing-wallpaper 53 54: Change your wallpaper daily to the bing.com background image
 gnome-extra/gnome-shell-extension-control-blur-effect-on-lock-screen 20241110: Control the blur effect on gnome-shell lock screen
 gnome-extra/gnome-shell-extension-dash-to-panel 73 74: An icon taskbar for the Gnome Shell
-gnome-extra/gnome-shell-extension-desktop-icons-ng 50.3.0 51.0.8 51.2.0: Desktop icon support for GNOME Shell
+gnome-extra/gnome-shell-extension-desktop-icons-ng 50.3.0 51.2.0 51.4.0: Desktop icon support for GNOME Shell
 gnome-extra/gnome-shell-extension-gsconnect 72 73 74: KDE Connect implementation for GNOME
 gnome-extra/gnome-shell-extension-lockscreen-studio 1.1.2 1.2.1 1.2.1-r1: Customization extension for the gnome-shell lock screen
 gnome-extra/gnome-shell-extension-no-screenshot-box 20260716: Customize the GNOME Shell screenshot area selector
 gnome-extra/gnome-shell-extension-pop-shell 1.2.0_p20260331: Keyboard-driven layer for GNOME Shell with tiling support
-gnome-extra/gnome-shell-extension-weather-oclock 50.4 50.5: Display the current weather inside the pill next to the clock
+gnome-extra/gnome-shell-extension-weather-oclock 50.4 50.5 51.0: Display the current weather inside the pill next to the clock
 gnome-extra/gnome-shell-extensions 48.3 49.0 50.4: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-shell-frippery 49.1 50.0: Unofficial extension pack providing GNOME 2-like features
 gnome-extra/gnome-software 49.4 50.4: Gnome install & update software
@@ -13151,7 +13154,7 @@ media-gfx/ebdftopcf 2-r1: Optimally generate PCF files from BDF files
 media-gfx/enblend 4.2.0_p20240424 4.2.0_p20240424-r1: Image Blending with Multiresolution Splines
 media-gfx/engauge 12.9.1 9999: Convert an image file showing a graph or map into numbers
 media-gfx/entangle 3.0-r3 3.0-r4 3.0-r5: Tethered Camera Control & Capture
-media-gfx/entice 0.0.1: A simple image viewer based on EFL
+media-gfx/entice 0.0.1 0.1.0: A simple image viewer based on EFL
 media-gfx/eog 50.1 50.3 50.4: The Eye of GNOME image viewer
 media-gfx/eog-plugins 44.1 44.1-r1: Eye of GNOME plugins
 media-gfx/eom 1.28.0-r3 1.28.1: The MATE image viewer
@@ -14265,7 +14268,7 @@ media-sound/musique 1.12.1_p20240628: Qt music player
 media-sound/ncmpc 0.51 0.52 0.54: Ncurses client for the Music Player Daemon (MPD)
 media-sound/ncmpcpp 0.10.1-r1 9999: Featureful ncurses based MPD client inspired by ncmpc
 media-sound/ncpamixer 1.3.8: ncurses PulseAudio Mixer
-media-sound/ncspot 1.5.0: ncurses Spotify client written in Rust using librespot
+media-sound/ncspot 1.5.0 1.5.1: ncurses Spotify client written in Rust using librespot
 media-sound/nickvision-tagger 2024.6.0: An easy-to-use music tag (metadata) editor
 media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
@@ -14561,7 +14564,7 @@ media-video/x264-encoder 0.0.20240513-r1 9999: A free commandline encoder for X2
 media-video/xine-ui 0.99.13-r1 0.99.14: Xine movie player
 media-video/xvattr 1.3-r4: X11 XVideo Querying/Setting Tool from Ogle project
 media-video/xvid4conf 1.12-r1: GTK2-configuration dialog for xvid4
-media-video/yle-dl 20261002: Download media files from Yle Areena
+media-video/yle-dl 20261002 20261106: Download media files from Yle Areena
 net-analyzer/2ping 4.5.1-r1: A bi-directional ping utility
 net-analyzer/alive 2.0.5-r100: Periodic ping program
 net-analyzer/apinger 0.6.1: Alarm Pinger
@@ -15444,7 +15447,7 @@ net-misc/mikutter 5.0.5 5.0.5-r1 9999: Simple, powerful and moeful twitter clien
 net-misc/minidlna 1.3.3: DLNA/UPnP-AV compliant media server
 net-misc/minissdpd 1.6.0: MiniSSDP Daemon
 net-misc/miniupnpd 2.3.10 2.3.11: MiniUPnP IGD Daemon
-net-misc/mobile-broadband-provider-info 20240407 20251101: Database of mobile broadband service providers
+net-misc/mobile-broadband-provider-info 20251101 20261111: Database of mobile broadband service providers
 net-misc/modemmanager 1.20.6 1.24.0 1.24.2: Modem and mobile broadband management libraries
 net-misc/moonlight 6.2.0 9999: NVIDIA GameStream (and Sunshine) client
 net-misc/mosh 1.4.0-r2: Mobile shell that supports roaming and intelligent local echo
@@ -15822,7 +15825,7 @@ net-wireless/bladerf-firmware 2.6.0: bladeRF FX3 firmware images
 net-wireless/bladerf-fpga 0.16.0: bladeRF FPGA bitstreams
 net-wireless/blueman 2.4.6 9999: Simple and intuitive GTK+ Bluetooth Manager
 net-wireless/bluetui 0.7.2 0.8.0 0.8.1 0.8.2: TUI for managing bluetooth on Linux
-net-wireless/bluez 5.87: Bluetooth Tools and System Daemons for Linux
+net-wireless/bluez 5.87 5.88: Bluetooth Tools and System Daemons for Linux
 net-wireless/bluez-tools 0_p20201025-r1: Set of tools to manage bluetooth devices for Linux
 net-wireless/broadcom-sta 6.30.223.271-r11 6.30.223.271-r12: Broadcom's IEEE 802.11a/b/g/n hybrid Linux device driver
 net-wireless/bss 0.8-r2 0.8-r3: Bluetooth stack smasher / fuzzer
@@ -18157,7 +18160,7 @@ sys-process/audit 4.1.4-r4 4.2.1: Userspace utilities for storing and processing
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 sys-process/bcron 0.11: A new cron system designed with secure operations in mind by Bruce Guenter
 sys-process/below 0.11.0-r1 9999: An interactive tool to view and record historical system data
-sys-process/bottom 0.12.3 0.14.6: A graphical process/system monitor with a customizable interface
+sys-process/bottom 0.12.3 0.14.6 0.14.9: A graphical process/system monitor with a customizable interface
 sys-process/bpytop 1.0.68-r1: Linux/OSX/FreeBSD resource monitor
 sys-process/btop 1.4.6 1.4.7: A monitor of resources
 sys-process/criu 3.19 4.1: Utility to checkpoint/restore a process tree
@@ -18169,7 +18172,7 @@ sys-process/daemontools 0.76-r12: Collection of tools for managing UNIX services
 sys-process/daemontools-encore 1.11-r2: Collection of tools for managing UNIX services
 sys-process/dcron 4.6: Dillon's lightweight and minimalist cron daemon
 sys-process/dumb-init 1.2.5-r1: A minimal init system for Linux containers
-sys-process/evisum 1.2.5 2.0.12: System and process monitor written with EFL
+sys-process/evisum 2.0.12 2.0.16: System and process monitor written with EFL
 sys-process/fcron 3.4.0 3.4.0-r1 3.4.1: A command scheduler with extended capabilities over cron and anacron
 sys-process/ftop 1.0-r2: Monitor open files and filesystems
 sys-process/glances 4.1.2.1 4.3.1 4.5.4 4.5.6: CLI curses based monitoring tool
@@ -18647,9 +18650,9 @@ x11-base/xorg-apps 3: X11 Applications (meta package)
 x11-base/xorg-drivers 21.1-r2 26.0 9999: Meta package containing deps on all xorg drivers
 x11-base/xorg-fonts 3: X11 fonts (meta package)
 x11-base/xorg-proto 2025.1 2026.1 9999: X.Org combined protocol headers
-x11-base/xorg-server 21.1.24 21.1.25 21.1.26 26.0.99.903-r1 9999: X.Org X servers
+x11-base/xorg-server 21.1.26 26.0.99.903-r1 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
-x11-base/xwayland 24.1.13 24.1.14 24.1.15 26.0.99.903 9999: Standalone X server running under Wayland
+x11-base/xwayland 24.1.15 26.0.99.903 9999: Standalone X server running under Wayland
 x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 580.196.07 595.44.16 595.104.02 595.112.07 615.78.08 620.70.06: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
