@@ -1456,7 +1456,7 @@ app-crypt/dehydrated 0.7.1-r1 0.7.1-r2 0.7.2: A client for signing certificates 
 app-crypt/dieharder 3.31.1-r4 3.31.1-r5: An advanced suite for testing the randomness of RNGs
 app-crypt/easy-rsa 3.2.1 3.2.6 3.2.7: Small RSA key management package, based on OpenSSL
 app-crypt/efitools 1.9.2-r1 1.9.2_p1: Tools for manipulating UEFI secure boot platforms
-app-crypt/eid-mw 5.1.31 9999: Electronic Identity Card middleware supplied by the Belgian Federal Government
+app-crypt/eid-mw 5.1.31-r1 9999: Electronic Identity Card middleware supplied by the Belgian Federal Government
 app-crypt/ekeyd 1.1.5-r101: Entropy Key userspace daemon
 app-crypt/elettra 1.0: Plausible deniable file cryptography
 app-crypt/envchain 1.0.1: Save environment variables in a secret vault
@@ -2815,7 +2815,7 @@ app-misc/fx 39.1.0 39.2.0 40.0.0: Terminal JSON viewer & processor
 app-misc/g810-led 0.4.2: Led controller for Logitech G- Keyboards
 app-misc/gcal 4.1-r3: The GNU Calendar - a replacement for cal
 app-misc/geekcode 1.7.3-r1: Geek code generator
-app-misc/geneweb 7.1_beta-r1 7.1.0_beta2: Genealogy software program with a Web interface
+app-misc/geneweb 7.1_beta-r1 7.1.0_beta2-r1: Genealogy software program with a Web interface
 app-misc/gentoo 0.20.7-r1: Graphical file manager for Unix-like systems, using GTK+
 app-misc/gentoo-elections 0_p20240831: Gentoo election control data and scripts
 app-misc/geoclue 2.7.2 2.8.0 2.8.1: Location information D-Bus service
@@ -6323,7 +6323,7 @@ dev-ml/patience_diff 0.16.0 0.17.0-r1: Tool and library implementing patience di
 dev-ml/pcre-ocaml 7.4.6-r2 7.5.0: Perl Compatibility Regular Expressions for O'Caml
 dev-ml/pcre2-ocaml 8.0.3-r1: OCaml bindings to PCRE (Perl Compatibility Regular Expressions)
 dev-ml/pp 2.0.0: Pretty-printing library
-dev-ml/pp_loc 2.1.0: Quote and highlight input fragments at a given source location
+dev-ml/pp_loc 2.1.0-r1: Quote and highlight input fragments at a given source location
 dev-ml/pprint 20220103 20230830: A pretty-printing combinator library and rendering engine
 dev-ml/ppx_assert 0.16.0 0.17.0-r1: Assert-like extension nodes that raise useful errors on failure
 dev-ml/ppx_base 0.16.0-r1 0.17.0: Base set of ppx rewriters
@@ -11751,7 +11751,7 @@ games-fps/unreal-tournament 469f_rc6: Modern build of the Unreal Tournament (99)
 games-fps/unreal-tournament-data 436_p4: Data files for Unreal Tournament (99)
 games-fps/urbanterror 4.3.4_p20211208: Hollywood tactical shooter based on the ioquake3 engine
 games-fps/urbanterror-data 4.3.4: Data files for UrbanTerror
-games-fps/ut2004 3374_pre23-r1: Modern build of the Unreal Tournament 2004 engine
+games-fps/ut2004 3374_rc3: Modern build of the Unreal Tournament 2004 engine
 games-fps/ut2004-bonuspack-cbp1 1-r5: UT2004 Community Bonus Pack Volume 1
 games-fps/ut2004-bonuspack-cbp2 1-r5: UT2004 Community Bonus Pack 2 Volume 1 and 2
 games-fps/ut2004-bonuspack-xp 1: UT2004 XP Bonus Maps
@@ -14719,7 +14719,7 @@ net-analyzer/nrpe 4.1.0 4.1.3: Nagios Remote Plugin Executor
 net-analyzer/nsat 1.5-r7: Network Security Analysis Tool, an application-level network security scanner
 net-analyzer/nsca 2.7.2-r104: Nagios Service Check Acceptor
 net-analyzer/nstats 0.4-r4: Displays statistics about ethernet traffic including protocol breakdown
-net-analyzer/ntopng 6.0: Network traffic analyzer with web interface
+net-analyzer/ntopng 7.0: Network traffic analyzer with web interface
 net-analyzer/nuttcp 8.1.4-r1: Network performance measurement tool
 net-analyzer/odhcploc 20111021-r2: Open DHCP Locator
 net-analyzer/oinkmaster 2.0: Rule management for SNORT
@@ -14735,7 +14735,7 @@ net-analyzer/pathload 1.3.2-r1: Non-intrusive utility for estimation of availabl
 net-analyzer/pbnj 2.04-r1: Tool for running Nmap scans and diff'ing the results
 net-analyzer/pinger 0.33-r2: Cyclic multi ping utility for selected adresses using GTK/ncurses
 net-analyzer/pktstat 1.8.5-r2: A network monitoring tool with bandwidth tracking
-net-analyzer/pmacct 1.7.9 9999: A network tool to gather IP traffic information
+net-analyzer/pmacct 1.7.9-r1 9999: A network tool to gather IP traffic information
 net-analyzer/pnp4nagios 0.6.26_p20230918 0.6.26_p20241118: A performance data analyzer for nagios
 net-analyzer/poink 2.03: TCP/IP-based ping implementation
 net-analyzer/pontos 25.7.2 25.8.1: Common utilities and tools maintained by Greenbone Networks
@@ -15120,7 +15120,7 @@ net-libs/libmrss 0.19.4: A C-library for parsing and writing RSS 0.91/0.92/1.0/2
 net-libs/libnatpmp 20230423-r1: An alternative protocol to UPnP IGD specification
 net-libs/libndp 1.9-r1: Library for Neighbor Discovery Protocol
 net-libs/libnet 1.3-r1: Library for commonly used low-level network functions
-net-libs/libnetconf2 3.7.1: C library for building NETCONF servers and clients
+net-libs/libnetconf2 3.7.1-r1: C library for building NETCONF servers and clients
 net-libs/libnetfilter_acct 1.0.3-r1: Library providing interface to extended accounting infrastructure
 net-libs/libnetfilter_conntrack 1.1.0 1.1.1: Programming interface (API) to the in-kernel connection tracking state table
 net-libs/libnetfilter_cthelper 1.0.1-r1: Userspace library for interface to user-space helper for conntrack
@@ -15180,7 +15180,7 @@ net-libs/mbedtls 2.28.10 3.6.4 3.6.5: Cryptographic library for embedded systems
 net-libs/meanwhile 1.1.1: Meanwhile (Sametime protocol) library
 net-libs/miniupnpc 2.3.3-r1: UPnP client library and a simple UPnP client
 net-libs/msgraph 0.3.4 0.3.5: GLib-based library for accessing online serive APIs using MS Graph protocol
-net-libs/nDPI 4.8 4.14 9999: Open Source Deep Packet Inspection Software Toolkit
+net-libs/nDPI 6.0 9999: Open Source Deep Packet Inspection Software Toolkit
 net-libs/neon 0.34.0 0.37.1: HTTP and WebDAV client library
 net-libs/net6 1.3.14-r2: Network access framework for IPv4/IPv6 written in C++
 net-libs/netwib 5.39.0-r1: Library of Ethernet, IP, UDP, TCP, ICMP, ARP and RARP protocols
@@ -15404,7 +15404,7 @@ net-misc/htpdate 2.0.0 9999: Synchronize local workstation with time offered by 
 net-misc/httpie 3.2.4: Modern command line HTTP client
 net-misc/httpstat 1.3.1-r1: httpstat visualizes cURL statistics in a way of beauty and clarity
 net-misc/httptype 1.3.9-r1: Returns the http host software of a website
-net-misc/hurl 7.0.0: Hurl, run and test HTTP requests
+net-misc/hurl 7.0.0 8.0.1: Hurl, run and test HTTP requests
 net-misc/hylafaxplus 7.0.6-r4: Enterprise client-server fax package for class 1 and 2 fax modems
 net-misc/iaxmodem 1.3.3: Software modem that uses an IAX channel instead of a traditional phone line
 net-misc/icaclient 26.01.0.150 26.04.0.105: ICA Client for Citrix Presentation servers
@@ -15771,7 +15771,7 @@ net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.1.10 6.1.11: A reliable, low-latency, and anti-censorship virtual private network
 net-vpn/cloudflare-warp 2026.8.2100.0 2026.8.2110.0: Cloudflare Warp Client
-net-vpn/cloudflared 2026.3.0 2026.8.2 2026.10.4: A command-line client and tunneling daemon for Cloudflare Tunnel
+net-vpn/cloudflared 2026.8.2 2026.10.4 2026.11.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
 net-vpn/derper 1.100.0 1.102.2-r1: DERP server for tailscale network
 net-vpn/eduvpn-client 4.6.0 4.7.2 9999: Linux client and Python client API for eduVPN
@@ -17408,7 +17408,7 @@ sys-apps/iotools 1.5: Simple commands to access hardware device registers
 sys-apps/ipmi-fan-control 0.4.0-r1 9999: SuperMicro IPMI fan control daemon
 sys-apps/ipmicfg 1.38.0.260701: An in-band utility for configuring Supermicro IPMI devices
 sys-apps/ipmitool 1.8.19 1.8.19-r1: Utility for controlling IPMI enabled devices
-sys-apps/ipmiutil 3.1.9 3.2.1: IPMI Management Utilities
+sys-apps/ipmiutil 3.1.9 3.2.1 3.2.3: IPMI Management Utilities
 sys-apps/iproute2 6.16.0 6.17.0 6.18.0 6.19.0 7.0.0 7.2.0 7.3.0 9999: kernel routing and traffic control utilities
 sys-apps/irqbalance 1.9.4-r3 1.9.5: Distribute hardware interrupts across processors on a multiprocessor system
 sys-apps/isapnptools 1.27-r1: Tools for configuring ISA PnP devices
