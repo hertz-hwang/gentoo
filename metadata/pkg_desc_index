@@ -5347,7 +5347,7 @@ dev-lang/clojure 1.12.5 1.12.6: General-purpose programming language with an emp
 dev-lang/clojure-clr 1.12.2: Port of the functional programming language Clojure to the CLR and .NET
 dev-lang/closure-compiler-bin 20261005 20261015 20261018 20261021 20261109: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0 2.7.1: A little language that compiles into javascript
-dev-lang/crystal 1.21.0 1.22.0 1.22.1 1.22.2: The Crystal Programming Language
+dev-lang/crystal 1.21.0 1.22.0 1.22.1 1.22.2 1.22.3: The Crystal Programming Language
 dev-lang/cue 0.14.1: open-source data validation language and inference engine
 dev-lang/cxprolog 0.98.2-r3: A WAM based Prolog system
 dev-lang/dafny 4.11.0: Dafny is a verification-aware programming language
@@ -5413,7 +5413,7 @@ dev-lang/mujs 1.3.8 1.3.9: An embeddable JavaScript interpreter written in C
 dev-lang/nasm 2.16.03 3.01 3.02: groovy little assembler
 dev-lang/neko 2.4.0-r2 2.4.1: Neko is a high-level dynamically typed programming language
 dev-lang/nelua 20240113 99999999: Statically-typed systems programming language inspired by Lua
-dev-lang/nim 2.2.12 2.4.0-r2: Compiled, garbage-collected systems programming language
+dev-lang/nim 2.2.12 2.4.0-r2 2.4.2: Compiled, garbage-collected systems programming language
 dev-lang/nprolog 5.18 5.20: Interpreter and compiler to be compatible with Arity/Prolog32
 dev-lang/nqp 2026.02 2026.08 2026.09 9999: Not Quite Perl, a Raku bootstrapping compiler
 dev-lang/ocaml 4.14.2 5.3.0-r1 5.4.0 5.5.1: Programming language supporting functional, imperative & object-oriented styles
@@ -5471,7 +5471,7 @@ dev-libs/OpenNI 1.5.7.10-r4 9999: OpenNI SDK
 dev-libs/OpenNI2 2.2_beta2-r2 2.2_beta2-r3 9999: OpenNI2 SDK
 dev-libs/amdgpu-pro-opencl 20.40.1147286: Proprietary OpenCL implementation for AMD GPUs
 dev-libs/aml 0.3.0 1.0.0 9999: Event timer executor loop
-dev-libs/angelscript 2.37.0 2.38.0: A flexible, cross-platform scripting library
+dev-libs/angelscript 2.38.0 2.39.0: A flexible, cross-platform scripting library
 dev-libs/antlr-c 3.5.2-r3: The ANTLR3 C Runtime
 dev-libs/apache-arrow 23.0.1 24.0.0 25.0.1-r1 26.0.0 26.0.1 9999: A cross-language development platform for in-memory data
 dev-libs/appstream 1.0.6: Cross-distro effort for providing metadata for software in the Linux ecosystem
@@ -5636,7 +5636,7 @@ dev-libs/kdiagram 3.0.1: Powerful libraries (KChart, KGantt) for creating busine
 dev-libs/kdsingleapplication 1.2.1: KDAB's helper class for single-instance policy applications
 dev-libs/keybinder 0.3.2-r300: A library for registering global keyboard shortcuts
 dev-libs/keystone 0.9.2-r3 0.9.2-r4 9999: assembly/assembler framework + bindings
-dev-libs/kirigami-addons 1.14.2 1.15.0 1.16.0 1.16.1: Visual end user components for Kirigami-based applications
+dev-libs/kirigami-addons 1.14.2 1.16.1: Visual end user components for Kirigami-based applications
 dev-libs/kirigami-app-components 1.1.1: Kirigami addons and modules necessary to do a full featured KDE application
 dev-libs/kopeninghours 26.08.3: Library for parsing and evaluating OSM opening hours expressions
 dev-libs/kosmindoormap 26.08.3: Data Model and Extraction System for Travel Reservation information
@@ -5937,7 +5937,7 @@ dev-libs/pegtl 3.2.8 3.2.8-r1 3.2.8-r2: Header-only library for creating parsers
 dev-libs/pfs 0.10.0: Production grade, very easy to use, procfs parsing library in C++
 dev-libs/pkcs11-helper 1.31.0: PKCS#11 helper library
 dev-libs/pkcs11-provider 1.3.0: OpenSSL 3+ provider to access hardware or software tokens via PKCS#11
-dev-libs/plasma-wayland-protocols 1.22.0 1.23.0: Plasma Specific Protocols for Wayland
+dev-libs/plasma-wayland-protocols 1.23.0: Plasma Specific Protocols for Wayland
 dev-libs/pmdk 2.1.1: Persistent Memory Development Kit
 dev-libs/pocketfft 2024.11.30 2026.04.10 9999: PocketFFT for C++
 dev-libs/pocl 7.0-r2 7.0-r3 7.1: Portable Computing Language (an implementation of OpenCL)
@@ -5957,7 +5957,7 @@ dev-libs/qgpgme 2.0.0-r2 2.1.0 2.2.0-r1: GnuPG Made Easy is a library for making
 dev-libs/qhotkey 1.5.0-r1: A global shortcut/hotkey library for desktop Qt applications
 dev-libs/qqwing 1.3.4-r1: Sudoku puzzle generator and solver
 dev-libs/qr-code-generator 1.8.0-r1: QR Code Generator Library in Multiple Languages
-dev-libs/qtkeychain 0.17.0-r1 0.17.0-r2 0.18.0: Qt API for storing passwords securely
+dev-libs/qtkeychain 0.17.0-r2 0.18.0: Qt API for storing passwords securely
 dev-libs/quazip 1.5: Simple C++ wrapper over Gilles Vollant's ZIP/UNZIP package
 dev-libs/quickjs-ng 0.14.0 0.16.2: QuickJS, the Next Generation: a mighty JavaScript engine
 dev-libs/qxlsx 1.5.0 1.5.1.1: Excel file(*.xlsx) reader/writer library using Qt
@@ -8440,7 +8440,7 @@ dev-python/btrfsutil 7.1 7.3: Library for managing Btrfs filesystems
 dev-python/build 1.5.1 1.6.0 1.6.1: A simple, correct PEP517 package builder
 dev-python/cachebox 6.2.7 6.2.8 6.2.10: The fastest memoizing and caching Python library written in Rust
 dev-python/cachecontrol 0.14.3: httplib2 caching for requests
-dev-python/cachelib 0.17.0: Collection of cache libraries in the same API interface. Extracted from werkzeug
+dev-python/cachelib 0.17.0 0.17.2: Collection of cache libraries in the same API interface. Extracted from werkzeug
 dev-python/cachetools 7.2.1 7.2.2 7.2.3 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8 7.3.0 8.0.0: Extensible memoizing collections and decorators
 dev-python/cairocffi 1.7.1-r1: CFFI-based drop-in replacement for Pycairo
 dev-python/cangjie 1.5.0: Python wrapper for libcangjie
@@ -12065,7 +12065,7 @@ games-strategy/wesnoth 1.18.6 1.19.18 1.19.19: Battle for Wesnoth - A fantasy tu
 games-strategy/widelands 1.3.1 9999: Game similar to Settlers 2
 games-strategy/xbattleai 1.2.2-r3: A multi-player game of strategy and coordination
 games-util/acc 1.60: ACS script compiler for use with ZDoom and Hexen
-games-util/antimicrox 3.6.1: Graphical program used to map keyboard buttons and mouse controls to a gamepad
+games-util/antimicrox 3.6.1 3.6.2: Graphical program used to map keyboard buttons and mouse controls to a gamepad
 games-util/atlas 0.6.1_beta_pre20181202: Chart Program to use with Flightgear Flight Simulator
 games-util/basis_universal 1.16.4: Basis Universal GPU Texture Codec
 games-util/biounzip 1.1a: Unpacks BioZip archives
@@ -13572,7 +13572,7 @@ media-libs/libogg 1.3.5-r1 1.3.5-r2 1.3.6: The Ogg media file format library
 media-libs/liboggz 1.1.1-r1 1.1.3: A simple programming interface for reading and writing Ogg files and streams
 media-libs/libopenaptx 0.2.0-r1 0.2.1-r1 9999: Reverse-engineered aptX and aptX HD library
 media-libs/libopenglrecorder 0.1.0-r1: Library for asynchronous OpenGL recording with audio
-media-libs/libopenmpt 0.8.6 0.8.9: Library to decode tracked music files (modules)
+media-libs/libopenmpt 0.8.6 0.8.10: Library to decode tracked music files (modules)
 media-libs/libopenraw 0.3.7-r3: RAW image formats decoding library
 media-libs/libopusenc 0.2.1-r1 0.3: High-level API for encoding .opus files
 media-libs/libpagemaker 0.0.4-r1 9999: C++ Library that parses the file format of Aldus/Adobe PageMaker documents
@@ -13740,7 +13740,7 @@ media-libs/suil 0.10.22-r2: Lightweight C library for loading and wrapping LV2 p
 media-libs/svt-av1 2.1.2 3.1.2 4.0.1 4.1.0 9999: Scalable Video Technology for AV1 (SVT-AV1 Encoder)
 media-libs/svt-hevc 1.5.1 1.5.1-r1 9999: Scalable Video Technology for HEVC (SVT-HEVC Encoder)
 media-libs/t1lib 5.1.2-r5: Type 1 Font Rasterizer Library for UNIX/X11
-media-libs/taglib 1.13.1 2.3.1 2.3.2-r1: Library for reading and editing audio meta data
+media-libs/taglib 1.13.1 2.3.2-r1: Library for reading and editing audio meta data
 media-libs/tg_owt 0_pre20260803 0_pre20261030: WebRTC build for Telegram
 media-libs/theoraplay 0_pre20180524-r2: Simple library to make decoding of Ogg Theora videos easier
 media-libs/tiff 4.5.1 4.7.1: Tag Image File Format (TIFF) library
@@ -14210,7 +14210,7 @@ media-sound/kasts 26.08.3: Convergent podcast application for desktop and mobile
 media-sound/kid3 3.10.1 3.10.2: Simple tag editor based on Qt
 media-sound/klick 0.12.2-r5: An advanced command-line based metronome for JACK
 media-sound/kmetronome 1.4.1: MIDI based metronome using ALSA sequencer
-media-sound/kmidimon 1.4.0 1.4.1: MIDI monitor for ALSA sequencer
+media-sound/kmidimon 1.4.1: MIDI monitor for ALSA sequencer
 media-sound/krecorder 26.08.3: Convergent audio recording application for Plasma
 media-sound/lame 3.100-r3: LAME Ain't an MP3 Encoder
 media-sound/lash 0.5.4-r7 0.5.4-r8: LASH Audio Session Handler
@@ -14277,7 +14277,7 @@ media-sound/normalize 0.7.7-r1 0.7.7-r2: Audio file volume normalizer
 media-sound/ogg2mp3 0.6.1-r1: Perl script to convert Ogg Vorbis files to MP3 files
 media-sound/oggtst 0.0: A tool for calculating ogg-vorbis playing time
 media-sound/ogmtools 1.5-r3: Information, extraction or creation for OGG media streams
-media-sound/openmpt123 0.8.9: libopenmpt-based command line player for tracked music files (modules)
+media-sound/openmpt123 0.8.10: libopenmpt-based command line player for tracked music files (modules)
 media-sound/opus-tools 0.2-r1: Royalty-free, highly versatile audio codec
 media-sound/orpheus 1.6-r4: Command line MP3 player
 media-sound/owntone 29.0 29.2: DAAP (iTunes) and MPD media server
@@ -14433,7 +14433,8 @@ media-tv/xmltv 1.0.0-r1 1.4.0-r1: Set of utilities to manage TV listings stored 
 media-video/acidrip 0.14-r4: A gtk-perl mplayer/mencoder frontend for ripping DVDs
 media-video/aegisub 3.4.2-r1 3.4.2-r3 3.5.1 9999: Advanced subtitle editor
 media-video/alevt 1.8.2-r1: Teletext viewer for X11
-media-video/amdgpu-pro-amf 1.4.36.2125445 1.4.37.2203192 25.20.399 25.30.422: AMD's closed source Advanced Media Framework (AMF) driver for AMD GPUs
+media-video/amdgpu-pro-amf 25.20.399 25.30.422 26.10.499: AMD's closed source GPU video encode/decode binary driver, for RDNA3 or newer
+media-video/amdgpu-pro-amf-legacy 25.10.2203192: AMD's closed source GPU video encode/decode binary driver, for RDNA2 or older
 media-video/aravis 0.8.34-r1 9999: Library for video acquisition using Genicam cameras
 media-video/asfrecorder 1.1-r2: Linux WindowsMedia streaming client
 media-video/atomicparsley 0.9.6_p20210715_p151551: Command line program for manipulating iTunes-style metadata in MPEG4 files
@@ -14466,9 +14467,9 @@ media-video/dvdimagecmp 0.3-r1: Tool to compare a burned DVD with an image to ch
 media-video/dvdstyler 3.2.1-r2 3.2.1-r3: A cross-platform free DVD authoring application
 media-video/dvgrab 3.5-r2: Digital Video (DV) grabber for GNU/Linux
 media-video/ffcast 2.4.8: Record screencasts using ffmpeg
-media-video/ffmpeg 4.4.8 6.1.6 7.1.5 8.1.3 9.0.2 9999: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg 4.4.8 6.1.6-r1 7.1.5-r1 8.1.3-r1 9.0.2-r1 9999: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-chromium 150.0.7871.124 151 152 153 154 155.0.8059.85 156.0.8078.35 157.0.8103.39 158.0.8105.1 9999: FFmpeg built specifically for codec support in Chromium-based browsers
-media-video/ffmpeg-compat 4.4.8 6.1.6 7.1.5 8.1.3: Complete solution to record/convert/stream audio and video
+media-video/ffmpeg-compat 4.4.8 6.1.6-r1 7.1.5-r1 8.1.3-r1: Complete solution to record/convert/stream audio and video
 media-video/ffmpeg-soc-udev-rules 0: Common udev rules for ffmpeg and ffmpeg-compat with USE=soc
 media-video/ffmpegthumbnailer 2.2.3: Lightweight video thumbnailer that can be used by file managers
 media-video/flvstreamer 2.1c: Open source command-line RTMP client to stream audio or video flash content
@@ -14478,7 +14479,7 @@ media-video/gnome-video-effects 0.6.0: Effects for Cheese, the webcam video and 
 media-video/gpac 2.4.0-r1 2.4.0-r2: Implementation of the MPEG-4 Systems standard developed from scratch in ANSI C
 media-video/guvcview 2.2.1 2.2.2: Simple Qt6 or GTK+3 interface for capturing and viewing video from v4l2 devices
 media-video/h264enc 10.4.7-r1: Script to encode H.264/AVC/MPEG-4 Part 10 formats
-media-video/handbrake 1.11.2-r1 9999: Open-source, GPL-licensed, multiplatform, multithreaded video transcoder
+media-video/handbrake 1.11.2-r2 9999: Open-source, GPL-licensed, multiplatform, multithreaded video transcoder
 media-video/haruna 1.8.1-r1 1.9.0: Video player built with Qt/QML and libmpv
 media-video/harvid 0.9.1: HTTP Ardour Video Daemon
 media-video/hevc-hm 17.0: HEVC HM reference software
@@ -15359,7 +15360,7 @@ net-misc/dhcpcd 10.2.4 10.3.0 10.3.1 10.3.2 10.5.0 10.5.2 9999: A fully featured
 net-misc/dhcpcd-ui 0.7.9-r1 0.8.0: Desktop notification and configuration for dhcpcd
 net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if responding
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
-net-misc/downloader-cli 0.3.4-r2: Simple downloader with an customizable progressbar
+net-misc/downloader-cli 0.3.4-r2 0.4.1: Simple downloader with an customizable progressbar
 net-misc/dropbear 2026.94: Small SSH 2 client/server designed for small memory environments
 net-misc/dropbox 275.4.3565 277.4.4974: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
@@ -15376,7 +15377,7 @@ net-misc/exabgp 4.2.23 4.2.25 5.0.8 5.0.12 5.0.14 5.0.15: The BGP swiss army kni
 net-misc/fakeidentd 2.6-r1: A static, secure identd. One source file only!
 net-misc/freerdp 3.32.1 3.32.2 9999: Free implementation of the Remote Desktop Protocol
 net-misc/frr 10.1.4-r2 10.1.5-r2 10.2.5-r2 10.2.6-r1 10.3.3-r2 10.3.4-r2 10.4.3-r2 10.4.4-r1 10.4.5-r1 10.5.3-r2 10.5.4-r1 10.5.5-r1 10.6.1-r1 10.6.2-r1 10.7.0 10.7.1-r1: The FRRouting Protocol Suite
-net-misc/gallery-dl 1.32.13 1.32.15 1.32.16 1.32.17-r1 1.32.18 1.32.19 9999: Download image galleries and collections from several image hosting sites
+net-misc/gallery-dl 1.32.16 1.32.17-r1 1.32.18 1.32.19 1.32.20 9999: Download image galleries and collections from several image hosting sites
 net-misc/geckodriver 0.36.0 0.37.0 0.37.1: Proxy for using WebDriver clients to interact with Gecko-based browsers
 net-misc/gensio 2.8.5 3.0.4: General Stream I/O
 net-misc/geoipupdate 6.1.0 7.1.0: Performs automatic updates of GeoIP2 and GeoIP Legacy binary databases
@@ -15444,7 +15445,7 @@ net-misc/lldpd 1.0.22 1.0.23: Implementation of IEEE 802.1ab (LLDP)
 net-misc/magic-wormhole-rust 0.8.1: Rust implementation of Magic Wormhole, with new features and enhancements
 net-misc/mcproxy 1.1.1-r2: Multicast proxy for IGMP/MLD
 net-misc/megatools 1.11.4 1.11.5: Command line tools and C library for accessing Mega cloud storage
-net-misc/memcached 1.6.45: High-performance, distributed memory object caching system
+net-misc/memcached 1.6.45 1.6.45-r1: High-performance, distributed memory object caching system
 net-misc/midentd 2.3.1-r3: ident daemon with masquerading and fake replies support
 net-misc/mikutter 5.0.5 5.0.5-r1 9999: Simple, powerful and moeful twitter client
 net-misc/minidlna 1.3.3: DLNA/UPnP-AV compliant media server
@@ -16423,7 +16424,7 @@ sci-libs/spglib 2.7.0 2.8.0: C library for finding and handling crystal symmetri
 sci-libs/spooles 2.2: SParse Object Oriented Linear Equations Solver
 sci-libs/spqr 2.0.9-r4 4.3.6-r1: Multithreaded multifrontal sparse QR factorization library
 sci-libs/spr 3.3.2-r2: Statistical analysis and machine learning library
-sci-libs/stellarsolver 2.8: Cross-platform Sextractor and Astrometry.net-Based internal astrometric solver
+sci-libs/stellarsolver 2.8 2.9: Cross-platform Sextractor and Astrometry.net-Based internal astrometric solver
 sci-libs/suitesparse 5.4.0 7.12.2: Metapackage for a suite of sparse matrix tools
 sci-libs/suitesparseconfig 5.4.0 7.12.2-r2: Common configurations for all packages in suitesparse
 sci-libs/sundials 5.8.0 6.2.0 6.5.0 7.0.0 7.1.1 7.3.0 7.5.0 7.7.0 7.8.0: Suite of nonlinear solvers
@@ -17541,7 +17542,7 @@ sys-apps/syd 3.58.0 3.59.0: seccomp and landlock based application sandbox with 
 sys-apps/syd-tui 0.2.2: Syd's Terminal User Interface
 sys-apps/syscriptor 1.5.15: Display misc information about your hardware
 sys-apps/syslog-notify 0.2: Notifications for syslog entries via libnotify
-sys-apps/system-monitoring-center 3.4.1-r1 9999: Multi-featured system monitor GUI written in Python
+sys-apps/system-monitoring-center 3.4.1-r1 3.5.0 9999: Multi-featured system monitor GUI written in Python
 sys-apps/systemctl-tui 0.4.0: A simple TUI for interacting with systemd services and their logs
 sys-apps/systemd 259.4-r2 260.1-r2 260.2-r1 260.4 261-r1 261.1 261.2 261.3 262_rc1 262_rc2 262 262.1 9999: System and service manager for Linux
 sys-apps/systemd-initctl 2 4: initctl Compatibility Daemon
@@ -18218,6 +18219,7 @@ sys-process/wait_on_pid 0.0.2-r2: Small utility to wait for an arbitrary process
 sys-process/watchpid 0.1-r2: Watches a process for termination
 sys-process/xjobs 20241010 20250529: Reads commands line by line and executes them in parallel
 virtual/acl 0-r2 2.4.0: Virtual for acl support (sys/acl.h)
+virtual/amdgpu-pro-amf 0: Virtual for AMD's closed source GPU video encode/decode binary driver
 virtual/blas 3.8-r1: Virtual for FORTRAN 77 BLAS implementation
 virtual/cblas 3.8-r1: Virtual for BLAS C implementation
 virtual/checkpassword 0-r2: Virtual for checkpassword compatible applications
