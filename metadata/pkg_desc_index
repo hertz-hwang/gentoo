@@ -949,7 +949,7 @@ app-admin/cli53 0.8.18: A command-line tool for Amazon Route 53
 app-admin/clog 1.3.0-r2: Colorized log tail utility
 app-admin/clsync 0.4.5 9999: Live sync tool based on inotify, written in GNU C
 app-admin/clustershell 1.9.3: Python framework for efficient cluster administration
-app-admin/conky 1.22.3 1.25.3 1.26.0: An advanced, highly configurable system monitor for X
+app-admin/conky 1.22.3 1.26.0: An advanced, highly configurable system monitor for X
 app-admin/conserver 8.2.6-r3 8.2.7_p20250129 8.3.0: Serial Console Manager
 app-admin/consul 1.20.4 1.22.1: A tool for service discovery, monitoring and configuration
 app-admin/consul-replicate 0.4.0_p20211027: Consul cross-DC KV replication daemon
@@ -1136,7 +1136,7 @@ app-antivirus/clamav 0.103.12-r6 1.4.3 1.4.4 1.4.5 1.4.6 1.5.3 1.5.4: Clam Anti-
 app-antivirus/clamtk 6.18-r1 6.18-r2: A graphical front-end for ClamAV
 app-antivirus/fangfrisch 1.9.2-r1 1.9.3: Update and verify unofficial Clam Anti-Virus signatures
 app-antivirus/lkrg 0.9.8 0.9.9 9999: Linux Kernel Runtime Guard
-app-antivirus/mdatp 101.26101.0000: Microsoft Defender Advanced Threat Protection for Endpoints
+app-antivirus/mdatp 101.26101.0000-r1: Microsoft Defender Advanced Threat Protection for Endpoints
 app-arch/7zip 26.02-r1 26.03 26.04 26.05 26.06: Free file archiver for extremely high compression
 app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving compression
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
@@ -1547,6 +1547,7 @@ app-crypt/shash 0.2.6-r4: Generate or check digests or MACs of files
 app-crypt/signify 31 33: Cryptographically sign and verify files
 app-crypt/signing-party 2.12: Collection of several tools related to OpenPGP
 app-crypt/simple-tpm-pk11 0.06-r2: Simple PKCS11 provider for TPM chips
+app-crypt/sops 3.5.0 3.13.3: Simple and flexible tool for managing secrets
 app-crypt/ssdeep 2.14.1-r1: Computes context triggered piecewise hashes (fuzzy hashes)
 app-crypt/ssss 0.5.7-r3: Shamir's Secret Sharing Scheme
 app-crypt/stan 0.4.1-r1: Stan analyzes binary streams and calculates statistical information
@@ -2774,7 +2775,7 @@ app-misc/dailystrips 1.0.28-r4: Dailystrips automatically downloads your favorit
 app-misc/dasel 2.7.0: Query, update and convert data structures from the command line
 app-misc/datefudge 1.26 1.27: A program (and preload library) to fake system date
 app-misc/dateutils 0.4.10 0.4.11: Command line date and time utilities
-app-misc/datovka 4.29.5: GUI to access the Czech data box e-government system
+app-misc/datovka 4.29.5 4.30.1: GUI to access the Czech data box e-government system
 app-misc/ddate 0.2.2_p20160627-r1: Perpetual date converter from gregorian to poee calendar
 app-misc/ddccontrol 1.0.3-r1: Control monitor parameters, like brightness, contrast, RGB color levels via DDC
 app-misc/ddccontrol-db 20240920: DDCControl monitor database
@@ -2814,7 +2815,7 @@ app-misc/fx 39.1.0 39.2.0 40.0.0: Terminal JSON viewer & processor
 app-misc/g810-led 0.4.2: Led controller for Logitech G- Keyboards
 app-misc/gcal 4.1-r3: The GNU Calendar - a replacement for cal
 app-misc/geekcode 1.7.3-r1: Geek code generator
-app-misc/geneweb 7.1_beta-r1: Genealogy software program with a Web interface
+app-misc/geneweb 7.1_beta-r1 7.1.0_beta2: Genealogy software program with a Web interface
 app-misc/gentoo 0.20.7-r1: Graphical file manager for Unix-like systems, using GTK+
 app-misc/gentoo-elections 0_p20240831: Gentoo election control data and scripts
 app-misc/geoclue 2.7.2 2.8.0 2.8.1: Location information D-Bus service
@@ -3131,7 +3132,7 @@ app-portage/mirrorselect 2.7.0 2.8.1 9998 9999: Tool to help select distfiles mi
 app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
-app-portage/pfl 3.5.3 3.6.0: Searchable online file/package database for Gentoo
+app-portage/pfl 3.6.0: Searchable online file/package database for Gentoo
 app-portage/pkg-testing-tools 0.2.6 0.2.7 0.2.8 9999: Packages testing tools for Gentoo
 app-portage/portage-utils 0.97 0.97.1 9999: Small and fast Portage helper tools written in C
 app-portage/porticron 0.7.2: cron script to sync portage and send update mails to root
@@ -3870,7 +3871,7 @@ dev-build/bazel-buildtools 8.5.1 10.1.0 10.2.0: Tools for working with Google's 
 dev-build/bazelisk 1.29.0 1.30.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20251111 20260508 20260912: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019-r1 0.4_p20250404: Another set of autoconf macros for compiling against boost
-dev-build/cmake 4.1.4 4.1.5 4.2.4 4.3.4 4.3.5 4.4.2 4.4.3 9999: Cross platform Make
+dev-build/cmake 4.3.4 4.3.5 4.3.6 4.4.2 4.4.3 4.4.5 9999: Cross platform Make
 dev-build/corrosion 0.5.2 0.6.1-r1: Marrying Rust and CMake - Easy Rust and C/C++ Integration!
 dev-build/cython-cmake 0.3.0: CMake helpers for building Cython modules
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
@@ -4991,11 +4992,11 @@ dev-java/auto-service-annotations 1.1.1: Provider-configuration files for Servic
 dev-java/auto-value 1.11.1: Immutable value-type code generation for Java 1.7+
 dev-java/batik 1.18-r3 1.20: XML Graphics Batik
 dev-java/bcel 6.11.0: Apache Commons Bytecode Engineering Library
-dev-java/bcmail 1.84: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
-dev-java/bcpg 1.84: Java cryptography APIs
-dev-java/bcpkix 1.84: Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation
-dev-java/bcprov 1.84: Java cryptography APIs
-dev-java/bcutil 1.84: Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls
+dev-java/bcmail 1.84 1.86.2: The Bouncy Castle Java S/MIME APIs for handling S/MIME protocols
+dev-java/bcpg 1.84 1.86.2: Java cryptography APIs
+dev-java/bcpkix 1.84 1.86.2: Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP, and certificate generation
+dev-java/bcprov 1.84 1.86.2: Java cryptography APIs
+dev-java/bcutil 1.84 1.86.2: Java APIs for ASN.1 extension and utility APIs used to support bcpkix and bctls
 dev-java/bnd 7.4.0: bndlib: A Swiss Army Knife for OSGi
 dev-java/bnd-annotation 7.4.0: bnd Annotations Library
 dev-java/bnd-ant 7.4.0: Bnd Ant Tasks
@@ -5169,7 +5170,7 @@ dev-java/jffi 1.3.13: Java Foreign Function Interface
 dev-java/jflex 1.9.1-r1: JFlex is a lexical analyzer generator for Java
 dev-java/jimfs 1.3.1-r1: An in-memory file system for Java 7+
 dev-java/jline 2.14.6-r1: A Java library for handling console input
-dev-java/jmc 8.3.0-r1 9.1.1: JDK Mission Control
+dev-java/jmc 8.3.0-r1 9.1.1 9.1.2: JDK Mission Control
 dev-java/jmh-core 1.37: Harness for building, running, and analysing nano/micro/milli/macro benchmarks
 dev-java/jmh-generator-annprocess 1.37: Harness for building, running, and analysing nano/micro/milli/macro benchmarks
 dev-java/jmock 1.2.0-r3 2.12.0: An expressive Mock Object library for Test Driven Development
@@ -5250,7 +5251,7 @@ dev-java/osgi-cmpn 8.0.0-r1: OSGi Service Platform Compendium API (Companion Cod
 dev-java/osgi-core 8.0.0: OSGi Service Platform Core API (Companion Code)
 dev-java/osgi-service-log 1.3.0: OSGi Companion Code for org.osgi.service.log
 dev-java/osgi-service-subsystem 1.1.0: OSGi Companion Code for org.osgi.service.subsystem
-dev-java/owasp-java-encoder 1.4.1: OWASP Java Encoder
+dev-java/owasp-java-encoder 1.4.1 1.6.0: OWASP Java Encoder
 dev-java/parboiled 1.4.1: Elegant parsing in Java and Scala - lightweight, easy-to-use, powerful
 dev-java/pdfbox 2.0.32-r1 3.0.6: Java library and utilities for working with PDF documents
 dev-java/pebble 3.1.6: Templating engine for Java
@@ -6217,6 +6218,7 @@ dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/curses 1.0.12: Bindings to ncurses
 dev-ml/decompress 1.6.1: Pure OCaml implementation of Zlib
 dev-ml/delimited_parsing 0.17.0: Parsing of character (e.g., comma) separated and fixed-width values
+dev-ml/digestif 1.4.2: Hashes implementations (SHA*, RIPEMD160, BLAKE2* and MD5)
 dev-ml/dose3 7.0.0-r2: Library to perform analysis on package repositories
 dev-ml/dune 3.16.1 3.17.2 3.18.1 3.19.1 3.20.2 3.21.1-r2 3.23.1: A composable build system for OCaml
 dev-ml/dune-build-info 3.16.0 3.18.1 3.19.1-r1 3.20.2 3.21.1: Embed locations informations inside executable and libraries
@@ -6225,6 +6227,7 @@ dev-ml/dune-private-libs 3.16.0-r4 3.18.1 3.19.0-r1: Private libraries of Dune
 dev-ml/dune-site 3.16.0 3.16.1 3.18.1 3.19.1-r1 3.20.2 3.21.1-r1: Embed locations informations inside executable and libraries
 dev-ml/duration 0.1.3 0.2.1 0.3.1: Duration - conversions to various time units
 dev-ml/easy-format 1.2.0-r1 1.3.4: Pretty-printing library for OCaml
+dev-ml/eqaf 0.10: Constant time equal function to avoid timing attacks in OCaml
 dev-ml/expect_test_helpers_core 0.16.0 0.17.0-r1: Helpers for writing expectation tests
 dev-ml/extlib 1.7.9-r1 1.8.0: Standard library extensions for O'Caml
 dev-ml/facile 1.1.4: OCaml constraint programming library on integer & integer set finite domains
@@ -9282,7 +9285,7 @@ dev-python/pylatex 1.4.2: A Python library for creating LaTeX files and snippets
 dev-python/pylatexenc 2.11: Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion
 dev-python/pylev 1.4.0-r1: Python Levenshtein implementation
 dev-python/pylibacl 0.7.3: POSIX ACLs (Access Control Lists) for Python
-dev-python/pylibmc 1.6.3-r3: Libmemcached wrapper written as a Python extension
+dev-python/pylibmc 1.6.3-r3 1.7.1: Libmemcached wrapper written as a Python extension
 dev-python/pylint 4.0.8 4.0.9 4.1.1 4.1.2 4.1.3: Python code static checker
 dev-python/pylint-venv 3.0.4: Init-hook to use the same Pylint with different virtual environments
 dev-python/pylru 1.3.2 1.3.3: A least recently used (LRU) cache for Python
@@ -12084,7 +12087,7 @@ games-util/gslist 0.8.11a-r1: A GameSpy server browser
 games-util/heroic-bin 2.22.1 2.22.3 2.22.4: GOG and Epic Games Launcher for Linux
 games-util/joycond 0.1.0_p20220720-r1 0.1.0_p20250412: Daemon that uses hid-nintendo evdev devices to implement joycon pairing
 games-util/joystick 1.8.1: Joystick testing utilities
-games-util/lgogdownloader 3.19 9999: Unofficial GOG.com downloader for Linux
+games-util/lgogdownloader 3.20 9999: Unofficial GOG.com downloader for Linux
 games-util/libstrangle 0.1.1_p20220222-r1: Frame rate limiter for OpenGL/Vulkan
 games-util/linux-wbfs-manager 0.1.12: WBFS manager for Linux using GTK+
 games-util/loki_patch 20091105-r2: Loki Software binary patch tool
@@ -15403,7 +15406,7 @@ net-misc/httptype 1.3.9-r1: Returns the http host software of a website
 net-misc/hurl 7.0.0: Hurl, run and test HTTP requests
 net-misc/hylafaxplus 7.0.6-r4: Enterprise client-server fax package for class 1 and 2 fax modems
 net-misc/iaxmodem 1.3.3: Software modem that uses an IAX channel instead of a traditional phone line
-net-misc/icaclient 25.05.0.44-r1 26.01.0.150: ICA Client for Citrix Presentation servers
+net-misc/icaclient 26.01.0.150 26.04.0.105: ICA Client for Citrix Presentation servers
 net-misc/icecast 2.4.4-r3 2.5.0: Opensource alternative to shoutcast that supports mp3, ogg and aac streaming
 net-misc/ices 2.0.2-r3 2.0.3: Icecast OGG streaming client, supports on the fly re-encoding
 net-misc/icingadb 1.2.0 1.4.0 1.6.0: Icinga configuration and state database supporting multiple environments
@@ -15713,8 +15716,8 @@ net-print/foomatic-db-engine 4.0.12-r3 4.0.20261031: Generates ppds out of xml f
 net-print/foomatic-db-ppds 4.0.20190226-r1 4.0.20261031: linuxprinting.org PPD files for postscript printers
 net-print/gtklp 1.3.4: A GUI for cupsd
 net-print/gutenprint 5.3.4-r2 5.3.5: Ghostscript and cups printer drivers
-net-print/hplip 3.26.4 3.26.6: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
-net-print/hplip-plugin 3.26.4 3.26.6: Proprietary plugins and firmware for HPLIP
+net-print/hplip 3.26.6: HP Linux Imaging and Printing - Print, scan, fax drivers and service tools
+net-print/hplip-plugin 3.26.6: Proprietary plugins and firmware for HPLIP
 net-print/ink 0.5.3: A command line utility to display the ink level of your printer
 net-print/kyocera-1x2x-mfp-driver 1.1203-r2: Printer descriptions (PPDs) and filters for Kyocera 1x2x MFP
 net-print/lexmark-upd-ppd 1.0.0.20240321: Lexmark universal printer driver PPDs
@@ -16391,7 +16394,7 @@ sci-libs/p4est 2.8.6 2.8.7: Scalable Algorithms for Parallel Adaptive Mesh Refin
 sci-libs/parmetis 4.0.3_p20230326-r1: Parallel (MPI) unstructured graph partitioning library
 sci-libs/pastix 6.0.3: Parallel solver for very large sparse linear systems
 sci-libs/pcl 1.14.1-r3 1.15.1 9999: 2D/3D image and point cloud processing
-sci-libs/pdal 2.9.2 2.10.0: C++ library for translating and manipulating point cloud data
+sci-libs/pdal 2.10.0: C++ library for translating and manipulating point cloud data
 sci-libs/pgplot 5.2.2-r8 5.2.2-r9: FORTRAN/C device-independent scientific graphic library
 sci-libs/plplot 5.15.0_p15-r2: Multi-language scientific plotting library
 sci-libs/primegen 0.97-r3: Small, fast library to generate primes in order
@@ -16589,7 +16592,7 @@ sci-ml/fastdownload 0.0.6-r1: Easily download, verify, and extract archives
 sci-ml/fastprogress 1.0.5 1.1.6: Simple and flexible progress bar for Jupyter Notebook and console
 sci-ml/foxi 2021.05.27: ONNXIFI with Facebook Extension
 sci-ml/gemmlowp 2021.12.20: Low-precision matrix multiplication
-sci-ml/ggml 0.29.0 0.29.0-r1: Tensor library for machine learning
+sci-ml/ggml 1.0.0: Tensor library for machine learning
 sci-ml/gloo 2023.12.03 2025.06.04-r2 2025.12.02-r1 2026.06.10: library of floating-point neural network inference operators
 sci-ml/hf_xet 1.2.0 1.5.2: xet client tech, used in huggingface_hub
 sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interact with the Hugging Face Hub
@@ -17327,7 +17330,7 @@ sys-apps/crazydiskinfo 1.1.0-r1: Interactive TUI S.M.A.R.T viewer
 sys-apps/cyme 3.0.0 3.0.1 3.0.2: List system USB buses and devices; a modern cross-platform `lsusb`
 sys-apps/daemonize 1.7.8-r2: Runs a command as a Unix daemon
 sys-apps/daisydog 2014.05.30-r1 2024.07.12: A very simple /dev/watchdog daemon
-sys-apps/dbus 1.16.2 1.16.2-r1 1.16.2-r2 1.16.4: A message bus system, a simple way for applications to talk to each other
+sys-apps/dbus 1.16.2 1.16.2-r1 1.16.2-r2 1.16.4-r1: A message bus system, a simple way for applications to talk to each other
 sys-apps/dbus-broker 33-r1 33-r2 35 36 37-r1 9999: Linux D-Bus Message Broker
 sys-apps/dcfldd 1.9.1-r2 1.9.2 1.9.2-r1 1.9.3: enhanced dd with features for forensics and security
 sys-apps/dchroot 0.12.1: Utility for managing chroots for non-root users
@@ -18560,7 +18563,7 @@ www-servers/servefile 0.5.4-r2 0.5.4-r3 0.5.4-r4: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 2.0.1: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.123 10.1.61 11.0.27 11.0.29: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
+www-servers/tomcat 9.0.123 9.0.124 10.1.61 11.0.27 11.0.29: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
 www-servers/vinyl-cache 8.0.2 9.0.1 9.0.1-r1 9.0.2 9.1.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
