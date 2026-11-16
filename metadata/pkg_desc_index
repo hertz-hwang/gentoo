@@ -1959,7 +1959,7 @@ app-emacs/citre 0.4.2: Superior code reading and auto-completion with pluggable 
 app-emacs/clatter 0.8.1: An IRCv3-compliant IRC client for GNU Emacs
 app-emacs/cldoc 1.16: Show Common Lisp operators and variables information in echo area
 app-emacs/clojure-mode 5.23.0 5.24.0: Major mode for Clojure code
-app-emacs/closql 2.4.2 9999: Store EIEIO objects using EmacSQL
+app-emacs/closql 2.4.2 2.5.0 9999: Store EIEIO objects using EmacSQL
 app-emacs/cmake-font-lock 0.1.13-r1: Advanced, type aware, highlight support for CMake
 app-emacs/cmake-mode 3.30.3: GNU Emacs mode for handling CMake build files
 app-emacs/color-browser 0.3-r1: A utility for designing Emacs color themes
@@ -2083,7 +2083,7 @@ app-emacs/expand-region 1.0.0-r1: Emacs extension to increase selected region by
 app-emacs/external-completion 0.1: Let external tools control completion style in GNU Emacs
 app-emacs/exwm 0.34 0.35: Emacs X Window Manager
 app-emacs/f 0.21.0-r1: Modern API for working with files and directories in Emacs
-app-emacs/fedi 0.4 0.5: Helper functions for Fediverse or other REST API clients for GNU Emacs
+app-emacs/fedi 0.4 0.5 0.6: Helper functions for Fediverse or other REST API clients for GNU Emacs
 app-emacs/fennel-mode 0.9.1 0.9.2: Emacs support for the Fennel programming language
 app-emacs/fff 20050517-r2: Fast file finder for Emacs
 app-emacs/filladapt 2.12.2: Filladapt enhances the behavior of Emacs' fill functions
@@ -2324,7 +2324,7 @@ app-emacs/swiper 0.15.1: Alternative to isearch that uses ivy to show overview o
 app-emacs/switch-window 1.6.2_p20210808: Offer a customizable visual way to choose a window to switch to
 app-emacs/system-packages 1.1.2: Manage your installed packages with Emacs
 app-emacs/systemd-mode 1.6: Major mode for editing systemd units in GNU Emacs
-app-emacs/tablist 1.1: Extended tabulated-list mode fro Emacs
+app-emacs/tablist 1.1 1.3: Extended tabulated-list mode fro Emacs
 app-emacs/teco 7-r2: TECO interpreter for GNU Emacs
 app-emacs/telega 0.8.660_p20260806 0.8.680_p20260909: Full-featured unofficial GNU Emacs client for Telegram
 app-emacs/tempel 1.14 9999: Templates with in-buffer field editing for GNU Emacs
@@ -4139,7 +4139,7 @@ dev-debug/kdbg 3.1.0_p20250406 3.1.0_p20250406-r1 3.2.0: Graphical debugger inte
 dev-debug/leaktracer 2.4-r3: Trace and analyze memory leaks in C++ programs
 dev-debug/ltrace 0.7.91_pre20221216-r1 0.8.1: trace library calls made at runtime
 dev-debug/peda 1.2-r1 9999: Python Exploit Development Assistance for GDB
-dev-debug/pwndbg 20250418-r1 20250530-r3 20251010-r3 20251020-r3 99999999: A GDB plug-in that makes debugging with GDB suck less
+dev-debug/pwndbg 20250418-r1 20250530-r3 20251010-r3 20251020-r3 20261028 99999999: A GDB plug-in that makes debugging with GDB suck less
 dev-debug/rr 5.9.0-r1 9999: Record and Replay Framework
 dev-debug/scap-driver 0.20.0 0.21.0: Kernel module for dev-debug/sysdig
 dev-debug/strace 7.2 7.3 9999: Useful diagnostic, instructional, and debugging tool
@@ -9049,6 +9049,7 @@ dev-python/netlink 0.1: Pure-Python client for the Linux NetLink interface
 dev-python/networkx 3.6.1 3.7: Python tools to manipulate graphs and complex networks
 dev-python/nextinspace 3.0.1 9999: A command-line tool for seeing the latest in space
 dev-python/nh3 0.3.6 0.3.7: Ammonia HTML sanitizer Python binding
+dev-python/niche-elf 0.3.7 9999: Library that optimizes some niche operations used by debugger extensions
 dev-python/nnpy 1.4.2-r1: cffi-based Python bindings for nanomsg
 dev-python/node-semver 0.9.1: Python version of node-semver, the semantic versioner for npm
 dev-python/nodeenv 1.11.0 1.11.1 1.12.0: Node.js virtual environment builder
@@ -10934,7 +10935,7 @@ dev-util/cargo-vendor-filterer 0.5.18: Tool to 'cargo vendor' with filtering
 dev-util/catalyst 4.1.0 4.1.1-r1 4.2.0 9999: Release metatool used for creating releases based on Gentoo Linux
 dev-util/catfish 4.20.0 4.20.1-r1: A frontend for find, (s)locate, doodle, tracker, beagle, strigi and pinot
 dev-util/cbindgen 0.29.4: A tool for generating C bindings to Rust code
-dev-util/ccache 4.13.5 4.14: Fast compiler cache
+dev-util/ccache 4.13.5 4.14 4.14.3: Fast compiler cache
 dev-util/cccc 3.1.6-r1 3.2.0: Source metrics (line counts, complexity, etc) for Java and C++
 dev-util/ccls 0.20250815.1 0.20261004 9999: C/C++/ObjC language server
 dev-util/cdecl 14.2 18.4.1: Composing and deciphering C (or C++) declarations or casts, aka "gibberish."
@@ -10995,7 +10996,7 @@ dev-util/debhelper 13.2.1: Collection of programs that can be used to automate c
 dev-util/debootstrap 1.0.128_p2 1.0.134 1.0.142: Debian/Ubuntu bootstrap scripts
 dev-util/debugedit 5.3 5.4: Create debuginfo and source file distributions
 dev-util/dejagnu 1.6.3: Framework for testing other programs
-dev-util/desktop-file-utils 0.28-r1: Command line utilities to work with desktop menu entries
+dev-util/desktop-file-utils 0.28-r1 0.29: Command line utilities to work with desktop menu entries
 dev-util/devhelp 43.0: An API documentation browser for GNOME
 dev-util/dialog 1.3.20250116-r1 1.3.20250817: Tool to display dialog boxes from a shell
 dev-util/diff-cover 9.6.0: Find diff lines that do not have test coverage
@@ -11116,7 +11117,7 @@ dev-util/lttng-ust 2.12.10 2.13.9 2.13.10 2.14.2 2.14.3: Linux Trace Toolkit - U
 dev-util/lttng-ust-compat 2.12.10: Linux Trace Toolkit - UST library
 dev-util/lv2lint 0.16.2: Check whether a given LV2 plugin is up to the specification
 dev-util/lxqt-build-tools 2.4.0 2.5.0: LXQt Build Tools
-dev-util/makeheaders 0_p20240823 0_p20251008: Tool that automatically generates .h files for a C or C++ programming project
+dev-util/makeheaders 0_p20251008: Tool that automatically generates .h files for a C or C++ programming project
 dev-util/makepp 2.0.99.2: GNU make replacement
 dev-util/marksman 2025.11.25 2026.02.08: LSP language server for editing Markdown files
 dev-util/massif-visualizer 26.08.3: Tool visualising massif data
@@ -11153,7 +11154,7 @@ dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
 dev-util/perf 6.19.12 7.2 7.3: Userland tools for Linux Performance Counters
 dev-util/pixi 0.84.1 0.84.2: A package management and workflow tool
 dev-util/pkgcheck 0.10.49 9999: pkgcore-based QA utility for ebuild repos
-dev-util/pkgconf 2.5.1 3.0.3 3.0.4 3.0.5 3.0.6 3.0.7 9999: pkg-config compatible replacement with no dependencies other than C99
+dev-util/pkgconf 2.5.1 3.0.7 3.0.11 9999: pkg-config compatible replacement with no dependencies other than C99
 dev-util/pkgcruft 0.0.18-r1 9999: QA library and tools based on pkgcraft
 dev-util/pkgdev 0.2.19 9999: Collection of tools for Gentoo development
 dev-util/pkgdiff 1.8 9999: Package Changes Analyzer (pkgdiff)
@@ -14266,7 +14267,7 @@ media-sound/munt-mt32emu-alsadrv 2.6.1: ALSA MIDI driver for emulating the Rolan
 media-sound/mup 6.9-r1: Program for printing music scores
 media-sound/muse 0.9.2_p20161002-r1: Multiple Streaming Engine, an icecast source streamer
 media-sound/musepack-tools 495 495-r1: Musepack SV8 libraries and utilities
-media-sound/musescore 4.7.4-r1 4.7.5 4.7.6: WYSIWYG Music Score Typesetter
+media-sound/musescore 4.7.4-r1 4.7.5 4.7.6 4.7.7: WYSIWYG Music Score Typesetter
 media-sound/music-file-organizer 1.0.3-r1: Organizes audio files into directories based on metadata tags
 media-sound/musique 1.12.1_p20240628: Qt music player
 media-sound/ncmpc 0.51 0.52 0.54: Ncurses client for the Music Player Daemon (MPD)
@@ -14370,7 +14371,7 @@ media-sound/taginfo 1.2-r3: A simple ID3 tag reader for use in shell scripts
 media-sound/tagtool 0.12.3-r2 0.12.3-r3: Audio Tag Tool Ogg/Mp3 Tagger
 media-sound/tap-reverbed 0-r2: Standalone JACK counterpart of LADSPA plugin TAP Reverberator
 media-sound/teamspeak-client 6.0.0_beta4: A client software for quality voice communication via the internet
-media-sound/teamspeak-server 3.13.8: A server software for hosting quality voice communication via the internet
+media-sound/teamspeak-server 3.13.9: A server software for hosting quality voice communication via the internet
 media-sound/tempest_for_eliza 1.0.5-r2: Listen to music on the radio generated by images on your screen
 media-sound/terminatorx 4.2.0-r3: Realtime audio synthesizer allowing you to 'scratch' on sampled audio data
 media-sound/timemachine 0.3.4: JACK client record button remembering the last 10 seconds when pressed
@@ -14936,7 +14937,7 @@ net-fs/samba 4.23.9 4.23.10 4.23.11 4.23.12 4.23.13 4.24.4 4.24.5 4.24.6 4.24.7 
 net-fs/smbnetfs 0.6.3: FUSE filesystem for SMB shares
 net-fs/sshfs 3.7.6: Fuse-filesystem utilizing the sftp service
 net-fs/wdfs 1.4.2-r4: WebDAV filesystem with special features for accessing subversion repositories
-net-ftp/atftp 0.8.0: Advanced TFTP implementation client/server
+net-ftp/atftp 0.8.0 0.8.2: Advanced TFTP implementation client/server
 net-ftp/cmdftp 0.9.8: Light weight, yet robust command line FTP client with shell-likefunctions
 net-ftp/filezilla 3.70.6 3.71.0 3.71.1: FTP client with lots of useful features and an intuitive interface
 net-ftp/frox 0.7.18-r9: Transparent ftp proxy
@@ -15893,7 +15894,7 @@ net-wireless/suwidgets 0.3.0_p20251029: graphical library containing all SigDigg
 net-wireless/tempestsdr 0.0_p20260404 9999: Remote video eavesdropping using a software-defined radio platform
 net-wireless/ubertooth 2020.12.1-r1 9999: open source wireless development platform suitable for Bluetooth experimentation
 net-wireless/uhd 4.10.0.0-r2 4.11.0.0: Universal Software Radio Peripheral (USRP) Hardware Driver
-net-wireless/unifi 10.6.109: A Management Controller for Ubiquiti Networks UniFi APs
+net-wireless/unifi 10.6.111: A Management Controller for Ubiquiti Networks UniFi APs
 net-wireless/urh 2.10.0-r2 9999: Universal Radio Hacker: investigate wireless protocols like a boss
 net-wireless/wavemon 0.9.5 0.9.6: Ncurses based monitor for IEEE 802.11 wireless LAN cards
 net-wireless/wepattack 0.1.3-r6 0.1.3-r7: WLAN tool for breaking 802.11 WEP keys
@@ -17436,7 +17437,7 @@ sys-apps/lshw 02.19.2b_p20220831-r1 02.20.2b-r1: Hardware Lister
 sys-apps/lssbus 0.1-r1: Small utility for Linux/SPARC that list devices on SBUS
 sys-apps/lsvpd 1.7.14: Utility to List Device Vital Product Data (VPD)
 sys-apps/makedev 3.23.1-r3: Program used for creating device files in /dev
-sys-apps/man-db 2.13.0-r1 2.13.1-r1 9999: A man replacement that utilizes dbm instead of flat files
+sys-apps/man-db 2.13.0-r1 2.13.1-r1 2.13.2 9999: A man replacement that utilizes dbm instead of flat files
 sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 6.19 9999: A somewhat comprehensive collection of Linux man pages
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
@@ -17827,7 +17828,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20261008 14.4.1_p20261029 14.4.1_p20261105 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20261009 15.3.1_p20261030 15.3.1_p20261106 15.3.9999 16.2.0 16.2.1_p20260926 16.2.1_p20261031 16.2.1_p20261107 16.3.9999 17.0.0_p20261025 17.0.0_p20261101 17.0.0_p20261108 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20261008 14.4.1_p20261029 14.4.1_p20261105 14.4.1_p20261112 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20261009 15.3.1_p20261030 15.3.1_p20261106 15.3.1_p20261113 15.3.9999 16.2.0 16.2.1_p20260926 16.2.1_p20261031 16.2.1_p20261107 16.2.1_p20261114 16.3.9999 17.0.0_p20261025 17.0.0_p20261101 17.0.0_p20261108 17.0.0_p20261115 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18017,7 +18018,7 @@ sys-kernel/gentoo-kernel 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Linux kernel bu
 sys-kernel/gentoo-kernel-bin 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Full sources including the Gentoo patchset for the 7.3 kernel tree
-sys-kernel/git-sources 7.4_rc1 7.4_rc2: The very latest -git version of the Linux kernel
+sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
 sys-kernel/installkernel 68-r1 70-r1 9999: Gentoo fork of installkernel script from debianutils
