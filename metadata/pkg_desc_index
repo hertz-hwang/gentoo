@@ -1822,7 +1822,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r2 31.1-r3 31.1.90 31.1.9999 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r4 31.1.90 31.1.9999 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/enter-tex 3.49.0: TeX/LaTeX text editor
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
@@ -6395,7 +6395,7 @@ dev-ml/stdio 0.16.0 0.17.0-r2: Standard IO Library for OCaml
 dev-ml/stdlib-shims 0.2.0 0.3.0: Pure OCaml library that allows replacing Pervasives with Stdlib before 4.08
 dev-ml/stringext 1.6.0: Extra string functions for OCaml
 dev-ml/swhid_core 0.1: OCaml library to work with swhids
-dev-ml/syslog-message 1.2.0: Syslog message parser
+dev-ml/syslog-message 1.2.0-r1: Syslog message parser
 dev-ml/textutils 0.16.0 0.17.0-r1: Text output utilities
 dev-ml/textutils_kernel 0.16.0 0.17.0-r1: Text output utilities
 dev-ml/time_now 0.16.0 0.17.0-r2: Reports the current time
@@ -15491,7 +15491,7 @@ net-misc/ntpsec 1.2.4 1.2.5 1.2.6 9999: The NTP reference implementation, refact
 net-misc/nx 3.5.99.27-r2 3.5.99.27-r3: NX compression technology core libraries
 net-misc/nxplayer 7.6.2.4-r1: Client for NoMachine remote servers
 net-misc/ofono 2.14 2.18: Open Source mobile telephony (GSM/UMTS) daemon
-net-misc/oidc-agent 4.5.2 5.2.3 5.3.6 5.3.8: Agent and tools for managing OpenID Connect tokens on the command line
+net-misc/oidc-agent 5.3.8 5.3.9: Agent and tools for managing OpenID Connect tokens on the command line
 net-misc/oidentd 3.0.0-r1 3.1.0: Another (RFC1413 compliant) ident daemon
 net-misc/olsrd 0.9.8_p20241102: An implementation of the Optimized Link State Routing protocol
 net-misc/omniORB 4.3.0: A robust, high-performance CORBA 2 ORB
@@ -15811,7 +15811,7 @@ net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client 
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 net-vpn/tailscale 1.104.4 1.104.5: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
-net-vpn/tor 0.4.9.17 0.4.9.17-r2 9999: Anonymizing overlay network for TCP
+net-vpn/tor 0.4.9.17 0.4.9.17-r3 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
 net-vpn/vpnc 0.5.3_p20240129 9999: IPsec (Cisco/Juniper) VPN concentrator client
 net-vpn/vpnc-scripts 20220510 20250727 99999999: Connect scripts for use with vpnc and openconnect (and similar clients)
@@ -16206,7 +16206,7 @@ sci-geosciences/osm2pgsql 2.2.0 99999999: Converts OSM planet.osm data to a Post
 sci-geosciences/osmctools 0.9-r2: A few really fast tools to convert, filter and update OSM data files
 sci-geosciences/owntracks-recorder 1.0.4: Stores and accesses location data published by the OwnTracks apps
 sci-geosciences/pymap3d 3.2.0: Python 3-D coordinate conversions
-sci-geosciences/qgis 4.0.3 9999: User friendly Geographic Information System
+sci-geosciences/qgis 4.0.3 4.2.3 9999: User friendly Geographic Information System
 sci-geosciences/qmapshack 1.19.0 1.21.1-r1: GPS mapping utility
 sci-geosciences/rasterio 1.5.2-r2: Rasterio reads and writes geospatial raster datasets
 sci-geosciences/readosm 1.1.0a: Library to extract valid data from an Open Street Map input file
@@ -17368,10 +17368,10 @@ sys-apps/fix-gnustack 0.1-r1: Utility to report and remove the executable flag f
 sys-apps/flashrom 1.5.1 1.6.0 1.7.0: Utility for reading, writing, erasing and verifying flash ROM chips
 sys-apps/flatpak 1.18.4: Linux application sandboxing and distribution framework
 sys-apps/fwts 22.03.00 23.11.00 24.03.00: Firmware Test Suite
-sys-apps/fwupd 2.1.7 2.1.8 2.1.9: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.1.7 2.1.8 2.1.9 2.1.10: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/fwupd-efi 1.8 1.9: EFI executable for fwupd
 sys-apps/fxload 20081013-r1: USB firmware uploader
-sys-apps/gawk 5.3.2 5.4.1-r1 5.4.1e: GNU awk pattern-matching language
+sys-apps/gawk 5.3.2 5.4.1-r1 5.4.2: GNU awk pattern-matching language
 sys-apps/gentoo-functions 0.19 1.7.4 1.7.5 1.7.6 1.7.7 9999: Base functions required by all Gentoo systems
 sys-apps/gentoo-systemd-integration 9-r2 9999: systemd integration files for Gentoo
 sys-apps/gentoo-wsl-config 0.1.14: WSL2 configuration for Gentoo Linux
@@ -18014,9 +18014,9 @@ sys-kernel/dkms 3.3.0 3.4.3 3.4.4 3.4.5 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
@@ -18230,7 +18230,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0 10.0-r1 11.0: Virtual for .NET SDK
 virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18438,7 +18438,7 @@ www-apps/nanoc-cli 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexi
 www-apps/nanoc-core 4.13.5 4.14.1 4.14.3 4.14.5: nanoc is a simple but very flexible static site generator written in Ruby
 www-apps/nanoc-deploying 1.0.2-r1 1.0.3: Provides deploying functionality for Nanoc
 www-apps/nanoc-spec 0.0.2-r1: Provides Nanoc::Spec, containing functionality for writing tests for Nanoc
-www-apps/nextcloud 33.0.5 33.0.9 33.0.10 34.0.4 34.0.5 35.0.1 35.0.2: Personal cloud that runs on your own server
+www-apps/nextcloud 33.0.5 33.0.9 33.0.10 33.0.11 34.0.4 34.0.5 34.0.6 35.0.1 35.0.2 35.0.3: Personal cloud that runs on your own server
 www-apps/nextcloud-notify_push 1.4.0: Push daemon for Nextcloud clients
 www-apps/nikola 8.3.1-r1 8.3.3-r1: A static website and blog generator
 www-apps/novnc 1.6.0 1.7.0 9999: noVNC is a VNC client implemented using HTML5 technologies
