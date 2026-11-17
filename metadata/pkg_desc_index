@@ -1253,7 +1253,7 @@ app-backup/backupninja 1.2.2: lightweight, extensible meta-backup system
 app-backup/backuppc 3.3.1-r6 4.4.0-r1 4.4.0-r2 4.4.0-r3: High-performance backups to a server's disk
 app-backup/bacula 15.0.3-r3 15.0.3-r4: Featureful client/server network backup suite
 app-backup/bareos 21.1.11 22.1.8 23.1.5 23.1.7 24.0.7 24.0.10 25.0.1 25.0.3 9999: Featureful client/server network backup suite
-app-backup/borgbackup 1.4.5: Deduplicating backup program with compression and authenticated encryption
+app-backup/borgbackup 1.4.5 1.4.6_rc1: Deduplicating backup program with compression and authenticated encryption
 app-backup/borgmatic 2.1.5 2.1.10 2.2.0: Automatically create, prune and verify backups with borgbackup
 app-backup/btrbk 0.32.7 9999: Tool for creating snapshots and remote backups of btrfs subvolumes
 app-backup/burp 3.3.0-r1: Network backup and restore client and server for Unix and Windows
@@ -1384,11 +1384,11 @@ app-containers/devcontainer 0.89.0 0.90.0: Reference implementation of the Devel
 app-containers/distrobox 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1 3.4.0: System container image builder for LXC and incus
 app-containers/dive 0.13.1: terminal based UI to manage kubernetes clusters
-app-containers/docker 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3: The core functions you need to create Docker images and run Docker containers
+app-containers/docker 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3 29.10.0: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-bench-security 1.6.0 1.6.1: Test for best practices around deploying docker containers
-app-containers/docker-buildx 0.36.1 0.37.0 0.37.1 0.38.2 9999: Docker CLI plugin for extended build capabilities with BuildKit
-app-containers/docker-cli 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3: the command line binary for docker
-app-containers/docker-compose 2.40.3 5.5.0 5.5.1 5.6.0 5.7.0: Multi-container orchestration for Docker
+app-containers/docker-buildx 0.36.1 0.37.0 0.37.1 0.38.2 0.39.0 9999: Docker CLI plugin for extended build capabilities with BuildKit
+app-containers/docker-cli 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3 29.10.0: the command line binary for docker
+app-containers/docker-compose 2.40.3 5.5.0 5.5.1 5.6.0 5.7.0 5.7.1: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.9.8 0.9.9 0.9.12: Suite of programs to use native stores to keep Docker credentials safe
 app-containers/docker-pushrm 1.9.0: Docker CLI plugin to update container repository documentation
 app-containers/docker-registry 3.0.0_rc2 3.0.0_rc3 3.1.1: Docker Registry 2.0
@@ -1410,7 +1410,7 @@ app-containers/podman 6.1.4 6.2.0 9999: A tool for managing OCI containers and p
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 2.0.0 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
-app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2: CLI tool for spawning and running containers
+app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2 1.5.3: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
 app-containers/skopeo 1.24.1 1.25.1 9999: Work with remote container images registries
@@ -2031,7 +2031,7 @@ app-emacs/eimp 1.4.0-r1: Emacs Image Manipulation Package
 app-emacs/el-mock 1.25.1: Mocking library for Emacs
 app-emacs/eldev 1.11.3 1.11.4 9999: Emacs Lisp Development Tool
 app-emacs/eldoc-box 1.14.1 9999: Child frame doc for Eglot and anything that uses ElDoc
-app-emacs/elfeed 4.2.1: Emacs web feeds client
+app-emacs/elfeed 4.2.1 4.2.2: Emacs web feeds client
 app-emacs/elfeed-protocol 0.9.1 1.0.0: Provide extra news client subscription protocols for elfeed
 app-emacs/elixir-mode 2.5.0: Emacs major mode for editing Elixir files
 app-emacs/elm-mode 0.22.0_p20250401: Major mode for the Elm programming language
@@ -2678,7 +2678,7 @@ app-metrics/carbonapi-web 1.1: graphite-web fork for standalone usage with carbo
 app-metrics/ceph_exporter 4.1.1-r1 4.2.5: Prometheus exporter that scrapes metrics from a ceph cluster
 app-metrics/chrony_exporter 0.13.3 0.14.0 0.15.0: Chrony NTP exporter for Prometheus
 app-metrics/collectd 5.12.0-r12: Collects system statistics and provides mechanisms to store the values
-app-metrics/consul_exporter 0.13.0: Prometheus exporter for consul metrics
+app-metrics/consul_exporter 0.13.0-r1: Prometheus exporter for consul metrics
 app-metrics/dnsmasq_exporter 0.3.0: prometheus exporter for dnsmasq
 app-metrics/elasticsearch_exporter 1.3.0 1.8.0: Elasticsearch stats exporter for Prometheus
 app-metrics/exabgp_exporter 1.1.3: Prometheus exporter for exabgp
@@ -2694,7 +2694,7 @@ app-metrics/nftables-exporter 0.2.7 0.3.1: prometheus exporter for nftables metr
 app-metrics/nginx-lua-prometheus 0.1_pre20170610-r101: Library that exports Nginx metrics to Prometheus
 app-metrics/nginx-vts-exporter 0.10.8: Nginx virtual host traffic stats exporter for Prometheus
 app-metrics/node_exporter 1.8.2 1.9.0 1.9.1 1.10.2 1.11.1 1.12.1 9999: Prometheus exporter for machine metrics
-app-metrics/openvpn_exporter 0.3.0: Prometheus Exporter for OpenVPN
+app-metrics/openvpn_exporter 0.3.0 1.2.5: Prometheus Exporter for OpenVPN
 app-metrics/portage-exporter 0.1.0: Prometheus exporter for Gentoo Portage
 app-metrics/postfix_exporter 0.3.0: Prometheus Exporter for Postfix
 app-metrics/postgres_exporter 0.15.0 0.16.0 0.17.1 0.19.1: PostgreSQL stats exporter for Prometheus
@@ -2825,7 +2825,7 @@ app-misc/gnote 49.4 50.2: Desktop note-taking application
 app-misc/gnuit 4.9.5-r2: GNU Interactive Tools - increase speed and efficiency of most daily tasks
 app-misc/go-jira 1.0.28-r1: A simple JIRA commandline client in Go
 app-misc/gojq 0.12.17: Pure Go implementation of jq with yaml support
-app-misc/golly 5.0: Simulator for Conway's Game of Life and other cellular automata
+app-misc/golly 5.0 5.1: Simulator for Conway's Game of Life and other cellular automata
 app-misc/grabcartoons 2.8.5 9999: Comic-summarizing utility
 app-misc/gramps 5.2.3 6.0.1 6.0.4 6.0.8-r1: Community genealogy program aiming to be both intuitive and feature-complete
 app-misc/graphlcd-base 2.0.3-r3: Contains the lowlevel lcd drivers for GraphLCD
@@ -3127,7 +3127,7 @@ app-portage/iwdevtools 0.13.1 9999: Small tools to aid with Gentoo development, 
 app-portage/kuroneko 0.1.5: Vulnerability checker using data scraped from Gentoo Bugzilla
 app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
-app-portage/mgorny-dev-scripts 88 89: Handy scripts for ebuild development and more
+app-portage/mgorny-dev-scripts 88 89 90: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.7.0 2.8.1 9998 9999: Tool to help select distfiles mirrors for Gentoo
 app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
@@ -5397,7 +5397,7 @@ dev-lang/lisaac 0.13.1-r2: An object prototype based language
 dev-lang/logtalk 3.47.0-r2: Open source object-oriented logic programming language
 dev-lang/lua 5.1.5-r200 5.3.6-r102 5.4.8: A powerful light-weight programming language designed for extending applications
 dev-lang/luajit 2.1.1780076327 2.1.1787165859 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
-dev-lang/luau 0.707 0.743 0.745 0.746: Gradually typed embeddable scripting language derived from Lua
+dev-lang/luau 0.707 0.743 0.745 0.746 0.747: Gradually typed embeddable scripting language derived from Lua
 dev-lang/maude 3.1-r1 3.2.2 3.3.1 3.4 3.5.1: High-level specification language for equational and logic programming
 dev-lang/mercury 22.01.1-r1: Mercury is a modern general-purpose logic/functional programming language
 dev-lang/mercury-extras 22.01.1: Additional libraries and tools that are not part of the Mercury standard library
@@ -5650,7 +5650,7 @@ dev-libs/level-zero 1.30.0-r1 1.32.0-r1 1.33.1-r1 1.34.0 1.35.0: oneAPI Level Ze
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
 dev-libs/libaio 0.3.113-r2 0.3.113_p8 9999: Asynchronous input/output library that uses the kernels native interface
-dev-libs/libansilove 1.4.2-r1 1.4.3 1.4.4 1.4.5 9999: library to convert ANSi and artscene related file formats into PNG images
+dev-libs/libansilove 1.4.2-r1 1.4.3 1.4.4 1.4.5 1.4.6 9999: library to convert ANSi and artscene related file formats into PNG images
 dev-libs/libassuan 2.5.7 3.0.0-r1 3.0.1-r1: IPC library used by GnuPG and GPGME
 dev-libs/libatasmart 0.19_p5 0.19_p6: Small and lightweight parser library for ATA S.M.A.R.T. hard disks
 dev-libs/libatomic_ops 7.8.4 7.10.0: Implementation for atomic memory update operations
@@ -11006,7 +11006,7 @@ dev-util/diffstat 1.68 1.69: Display a histogram of diff changes
 dev-util/difftastic 0.68.0 0.69.0 0.71.0 0.72.0: A structural diff that understands syntax
 dev-util/diffuse 0.10.0 0.11.0: A graphical tool to compare and merge text files
 dev-util/dirdiff 2.1-r4: A tool for differing and merging directories
-dev-util/directx-headers 1.619.1 9999: DirectX header files and WSL stubs
+dev-util/directx-headers 1.619.1 1.620.2 9999: DirectX header files and WSL stubs
 dev-util/dissembler 0.9-r2: polymorphs bytecode to a printable ASCII string
 dev-util/docker-distribution-pruner 0.2.0: Clean all old container revisions from registry
 dev-util/dogtail 0.9.11-r1: GUI test tool and automation framework using accessibility framework
@@ -11126,7 +11126,7 @@ dev-util/maxcso 1.13.0 9999: Fast cso compressor
 dev-util/mdds 2.1.1-r1 3.0.0 9999: Collection of multi-dimensional data structure and indexing algorithm
 dev-util/meld 3.24.0 3.24.1: A graphical diff and merge tool
 dev-util/memprof 0.6.2-r2: Profiling and leak detection tool
-dev-util/mesa_clc 26.1.8 26.2.5 26.2.6 9999: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 26.1.8 26.2.5 26.2.6 26.2.7 9999: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/mig 1.8_p20231217 1.8_p20260123 9999: GNU Mach 3.0 interface generator (IDL compiler)
 dev-util/min-cscope 16.1.0-r2: Interactively examine a C program
 dev-util/mingw64-runtime 13.0.0 14.0.0: Free Win64 runtime and import library definitions
@@ -12638,7 +12638,7 @@ kde-misc/markdownpart 26.08.3: Markdown viewer KParts plugin based on QTextDocum
 kde-misc/plasma-pass 1.3.1: Plasma applet to access password from pass
 kde-misc/rsibreak 0.13.0: Small utility which bothers you at certain intervals
 kde-misc/skanlite 26.08.3: Simple image scanning application based on libksane and KDE Frameworks
-kde-misc/tellico 4.2.2 4.3: Collection manager based on KDE Frameworks
+kde-misc/tellico 4.3 4.3.1: Collection manager based on KDE Frameworks
 kde-misc/zanshin 26.04.3 26.08.3: Getting things done application by KDE
 kde-plasma/aurorae 6.7.6 6.8.3: Themeable window decoration for KWin
 kde-plasma/bluedevil 6.7.6 6.8.3: Bluetooth stack for KDE Plasma
@@ -12852,7 +12852,7 @@ mail-filter/spamprobe 1.4d-r3: Fast, intelligent, automatic spam detector using 
 mail-filter/spf-engine 3.1.0-r1: Policy daemon for Postfix SPF verification
 mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing policy
 mail-filter/zdkimfilter 3.21 3.22 3.23 3.24: DKIM filter for Courier-MTA
-mail-mta/courier 1.4.1 1.5.1 1.6.0 2.0.1 2.0.2 2.0.3 2.0.4 2.0.6 2.0.7 2.0.8 2.0.8-r1 2.0.9: An MTA designed specifically for maildirs
+mail-mta/courier 2.0.9 2.0.10: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
 mail-mta/exim 4.100.1: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.32 1.8.33 1.8.34: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -13623,7 +13623,7 @@ media-libs/libv4l 1.32.0-r1: v4l-utils libraries and optional utilities
 media-libs/libva 2.23.0-r1 2.24.1-r1 9999: Video Acceleration (VA) API for Linux
 media-libs/libva-compat 1.8.3-r4: Video Acceleration (VA) API for Linux
 media-libs/libva-intel-driver 2.4.5-r1 9999: HW video decode support for Intel integrated graphics
-media-libs/libva-intel-media-driver 26.2.4-r2 26.3.5-r2 9999: Intel Media Driver for VA-API (iHD)
+media-libs/libva-intel-media-driver 26.2.4-r2 26.3.5-r2 26.4.2 9999: Intel Media Driver for VA-API (iHD)
 media-libs/libvisio 0.1.11 9999: Library parsing the file format of MS Visio documents
 media-libs/libvisual 0.4.1 0.4.2-r1: Abstraction library between applications and audio visualisation plugins
 media-libs/libvmaf 3.0.0 3.2.1 9999: C libary for Netflix's Perceptual video quality assessment
@@ -13642,10 +13642,10 @@ media-libs/libyuv 1904-r1 1909 9999: Open source project that includes YUV scali
 media-libs/libzen 0.4.39 0.4.41: Shared library for libmediainfo and mediainfo
 media-libs/libzmf 0.0.2-r1 9999: Library for parsing Zoner Callisto/Draw documents
 media-libs/lilv 0.24.26-r1: Library to make the use of LV2 plugins as simple as possible for applications
-media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 1.2.35 9999: Linux Studio Plugins
+media-libs/lsp-plugins 1.2.3-r1 1.2.6 1.2.14 1.2.37 9999: Linux Studio Plugins
 media-libs/lv2 1.18.10-r1 1.18.10-r2: A simple but extensible successor of LADSPA
 media-libs/lvtk 1.2.0-r4: A set of C++ wrappers around the LV2 C API
-media-libs/mesa 26.1.8-r1 26.2.5-r1 26.2.6 9999: OpenGL-like graphic library for Linux
+media-libs/mesa 26.1.8-r1 26.2.5-r1 26.2.6 26.2.7 9999: OpenGL-like graphic library for Linux
 media-libs/mesa-amber 21.3.9-r4: OpenGL-like graphic library for Linux
 media-libs/mlt 7.40.0 7.42.0: Open source multimedia framework for television broadcasting
 media-libs/mpvqt 1.2.0 1.2.1: libmpv wrapper for QtQuick2 and QML
@@ -14920,7 +14920,7 @@ net-firewall/ufw 0.36.2: A program used to manage a netfilter firewall
 net-firewall/xtables-addons 3.29 3.31: iptables extensions not yet accepted in the main kernel
 net-fs/autofs 5.1.9-r2: Kernel based automounter
 net-fs/btfs 2.24: Bittorrent filesystem based on FUSE
-net-fs/cifs-utils 7.5-r1 7.6-r1 7.7-r1 7.8-r1: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 7.5-r1 7.6-r1 7.7-r1 7.8-r1 7.9: Tools for Managing Linux CIFS Client Filesystems
 net-fs/curlftpfs 0.9.2-r5: File system for accessing ftp hosts based on FUSE
 net-fs/cvmfs 2.12.7 2.13.1 2.13.3 2.14.1: HTTP read-only file system for distributing software
 net-fs/davfs2 1.7.1 1.7.3: Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
@@ -14972,7 +14972,7 @@ net-im/gajim 2.4.6 2.6.0 2.7.0: GTK XMPP Client
 net-im/gitter-bin 5.0.1-r1 5.0.1-r2: Chat and network platform
 net-im/kaidan 0.16.0: Modern XMPP chat app for every device
 net-im/libcommuni 3.7.0-r2: A cross-platform IRC framework written with Qt
-net-im/mattermost-desktop-bin 6.2.5 6.3.2: Mattermost Desktop application
+net-im/mattermost-desktop-bin 6.2.5 6.3.2 6.4.0: Mattermost Desktop application
 net-im/neochat 26.08.3: Client for Matrix, the decentralized communication protocol
 net-im/openmittsu 0.10.3.0: Open source chat client for Threema-style end-to-end encrypted chat networks
 net-im/pidgin 2.14.14-r2 2.14.14-r3: GTK Instant Messenger client
@@ -15172,7 +15172,7 @@ net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace pro
 net-libs/libupnp 1.14.31 1.18.5 22.1.8 22.1.10: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.3 1.0.4: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
-net-libs/libwebsockets 4.5.8-r1 5.0.0-r1 5.1.0: A flexible pure-C library for implementing network protocols
+net-libs/libwebsockets 4.5.8-r1 5.0.0-r1 5.1.0 5.1.0-r1: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
 net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.4.3 9.4.4: Port of http_parser to llparse
@@ -15269,7 +15269,7 @@ net-mail/muchsync 7: Synchronizes mail messages and notmuch tags across machines
 net-mail/nmzmail 1.1-r2: Fast mail searching for mutt using namazu
 net-mail/notmuch 0.39-r1 0.40-r2: Thread-based e-mail indexer, supporting quick search and tagging
 net-mail/offlineimap3 8.0.3 9999: Powerful IMAP/Maildir synchronization and reader support
-net-mail/onionrouter 0.6.2-r1 9999: .onion discovery via SRV DNS lookups for use with postfix
+net-mail/onionrouter 0.6.2-r2 9999: .onion discovery via SRV DNS lookups for use with postfix
 net-mail/pflogsumm 1.1.5-r1 1.1.5-r2: Pflogsumm is a log analyzer for Postfix logs
 net-mail/pfqueue 0.5.6-r2 0.5.6-r3: pfqueue is an ncurses console-based tool for managing Postfix queued messages
 net-mail/pop-before-smtp 1.42: Simple daemon to control email relay based on successful POP or IMAP logins
@@ -15320,7 +15320,7 @@ net-misc/arpsponge 3.17.11-r1: Sweeps up stray ARP queries from a peering LAN
 net-misc/asahi-btsync 0.2.5: Bluetooth pairing data handoff from macOS for Apple Silicon Macs
 net-misc/asahi-wifisync 0.2.3: WiFi network handoff from macOS for Apple Silicon Macs
 net-misc/asterisk 20.20.1 20.21.0 20.22.0 21.12.3 22.11.0 22.12.0 23.5.0 23.6.0 24.0.0: Asterisk: A Modular Open Source PBX System
-net-misc/asterisk-base 3 4 5: Gentoo Asterisk init scripts
+net-misc/asterisk-base 4 5: Gentoo Asterisk init scripts
 net-misc/asterisk-core-sounds 1.6.1-r1: Core sounds for asterisk
 net-misc/asterisk-extra-sounds 1.5.2: Extra sounds for asterisk
 net-misc/asterisk-g729 20.0.3.1.10-r2 20.0.3.1.11-r1 20.0.3.1.12 21.0.3.1.11-r1 21.0.3.1.12 22.0.3.1.11-r1 22.0.3.1.12 23.0.3.1.12: G.729 codec and supporting files for asterisk
@@ -15364,7 +15364,7 @@ net-misc/dhcping 1.2-r1: Utility to send DHCP requests to DHCP servers to see if
 net-misc/dibbler 1.0.1-r4: Portable DHCPv6 implementation (server, client and relay)
 net-misc/downloader-cli 0.3.4-r2 0.4.1: Simple downloader with an customizable progressbar
 net-misc/dropbear 2026.94: Small SSH 2 client/server designed for small memory environments
-net-misc/dropbox 275.4.3565 277.4.4974: Dropbox daemon (pretends to be GUI-less)
+net-misc/dropbox 275.4.3565 277.4.4974 279.4.5723: Dropbox daemon (pretends to be GUI-less)
 net-misc/dropbox-cli 2026.03.20: Cli interface for dropbox (python), part of nautilus-dropbox
 net-misc/efax 0.9a_p19_p1: A simple fax program for single-user systems
 net-misc/electrum 4.8.3 4.8.4: User friendly Bitcoin client
@@ -15536,7 +15536,7 @@ net-misc/rclone 1.75.2 1.76.0: A program to sync files to and from various cloud
 net-misc/rdate 1.11: Use TCP or UDP to retrieve the current time of another machine
 net-misc/rdesktop 1.9.0-r4: A Remote Desktop Protocol Client
 net-misc/redir 3.3-r1: Redir is a port redirector
-net-misc/remmina 1.4.40-r2 1.4.40-r3 1.4.41 1.4.41-r1 1.4.42 1.4.43: A GTK+ RDP, SPICE, VNC and SSH client
+net-misc/remmina 1.4.40-r2 1.4.40-r3 1.4.41 1.4.41-r1 1.4.42 1.4.43 1.4.44: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/rinetd 0.73-r1: redirects TCP connections from one IP address and port to another
 net-misc/rsync 3.5.2-r1 9999: File transfer program to keep remote files into sync
 net-misc/rsync-bpc 3.1.3.0_p20250706 3.1.3.0_p20251201-r1: Rsync-bpc is a customized version of rsync that is used as part of BackupPC
@@ -15772,7 +15772,7 @@ net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
 net-voip/yate 6.2.0: The Yate AV Suite
 net-vpn/6tunnel 0.13-r1: TCP proxy for applications that don't speak IPv6
 net-vpn/candy 6.1.10 6.1.11: A reliable, low-latency, and anti-censorship virtual private network
-net-vpn/cloudflare-warp 2026.8.2100.0 2026.8.2110.0: Cloudflare Warp Client
+net-vpn/cloudflare-warp 2026.8.2100.0 2026.8.2110.0 2026.8.2115.0: Cloudflare Warp Client
 net-vpn/cloudflared 2026.8.2 2026.10.4 2026.11.0: A command-line client and tunneling daemon for Cloudflare Tunnel
 net-vpn/corkscrew 2.0-r1: a tool for tunneling SSH through HTTP proxies
 net-vpn/derper 1.100.0 1.102.2-r1: DERP server for tailscale network
@@ -17437,7 +17437,7 @@ sys-apps/lshw 02.19.2b_p20220831-r1 02.20.2b-r1: Hardware Lister
 sys-apps/lssbus 0.1-r1: Small utility for Linux/SPARC that list devices on SBUS
 sys-apps/lsvpd 1.7.14: Utility to List Device Vital Product Data (VPD)
 sys-apps/makedev 3.23.1-r3: Program used for creating device files in /dev
-sys-apps/man-db 2.13.0-r1 2.13.1-r1 2.13.2 9999: A man replacement that utilizes dbm instead of flat files
+sys-apps/man-db 2.13.0-r1 2.13.1-r1 2.13.3 9999: A man replacement that utilizes dbm instead of flat files
 sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 6.19 9999: A somewhat comprehensive collection of Linux man pages
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
@@ -17605,7 +17605,7 @@ sys-auth/libnss-pgsql 1.5.0_beta-r1: Name Service Switch module for use with Pos
 sys-auth/libyubikey 1.13-r1: Yubico C low-level library
 sys-auth/microsoft-identity-broker 3.0.2-r2: Microsoft Authentication Broker to access a corporate environment
 sys-auth/munge 0.5.18: An authentication service for creating and validating credentials
-sys-auth/nss-docker-ng 1.0.7 1.1.3 1.2.1: NSS plugin for finding Docker containers by their ID or name
+sys-auth/nss-docker-ng 1.0.7 1.1.3 1.2.1 1.3.0: NSS plugin for finding Docker containers by their ID or name
 sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-auth/nss-pam-ldapd 0.9.13: NSS module for name lookups using LDAP
@@ -17994,7 +17994,7 @@ sys-fs/treesize 0.54.1-r1: A disk consumption analyzing tool
 sys-fs/ubi_reader 0.8.5-r2 0.8.13: Collection of Python scripts for extracting data from UBI and UBIFS images
 sys-fs/udev-init-scripts 35 9999: udev startup scripts for openrc
 sys-fs/udftools 2.3: Ben Fennema's tools for packet writing and the UDF filesystem
-sys-fs/udiskie 2.5.7-r1 2.5.8 2.5.8-r1 2.6.1 2.6.2 2.7.0: An automatic disk mounting service using udisks
+sys-fs/udiskie 2.6.2 2.7.0 2.8.1: An automatic disk mounting service using udisks
 sys-fs/udisks 2.11.2: Daemon providing interfaces to work with storage devices
 sys-fs/unionfs-fuse 3.8 9999: Self-syncing tree-merging file system based on FUSE
 sys-fs/vhba 20260313: Virtual (SCSI) Host Bus Adapter kernel module for the CDEmu suite
@@ -18459,7 +18459,7 @@ www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.19.2979-r1: Sonarr is a Smart PVR for newsgroup and bittorrent users
 www-apps/trickster 1.1.5: Dashboard Accelerator for Prometheus
 www-apps/tt-rss 20250417 20251216 20261025 99999999: Tiny Tiny RSS - A web-based news feed (RSS/Atom) aggregator using AJAX
-www-apps/ttyd 1.7.7-r1 1.7.7-r3 9999: ttyd, a simple command-line tool for sharing terminal over the web
+www-apps/ttyd 1.7.7-r1 1.7.7-r3 1.7.7-r4 9999: ttyd, a simple command-line tool for sharing terminal over the web
 www-apps/vaultwarden-web 2026.1.1 2026.4.1 2026.6.4 2026.7.0: Prebuilt web vault frontend for Vaultwarden
 www-apps/webdavcgi 1.1.2: A Perl CGI for accessing and sharing files, or calendar/addressbooks via WebDAV
 www-apps/webmcp 2.2.1: Web application framework written in Lua and C
@@ -18568,7 +18568,7 @@ www-servers/servefile 0.5.4-r2 0.5.4-r3 0.5.4-r4: Serve a single file via HTTP
 www-servers/sniproxy 0.6.1: Proxies incoming HTTP and TLS connections based on the hostname
 www-servers/spawn-fcgi 1.6.5 1.6.6: A FCGI spawner for lighttpd and cherokee and other webservers
 www-servers/thin 2.0.1: A fast and very simple Ruby web server
-www-servers/tomcat 9.0.123 9.0.124 10.1.61 11.0.27 11.0.29: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
+www-servers/tomcat 9.0.123 9.0.124 10.1.61 10.1.62 11.0.27 11.0.29: Tomcat Servlet-6.1/JSP-4.0/EL-6.0/WebSocket-2.2/JASPIC-3.1 Container
 www-servers/uwsgi 2.0.23-r1 2.0.27-r1 2.0.31: uWSGI server for Python web applications
 www-servers/vinyl-cache 8.0.2 9.0.1 9.0.1-r1 9.0.2 9.1.0: A high-performance caching HTTP reverse proxy
 www-servers/webfs 1.21: Lightweight HTTP server for static content
@@ -18632,7 +18632,7 @@ x11-apps/xlogo 1.0.7: X Window System logo
 x11-apps/xlsatoms 1.1.5: list interned atoms defined on server
 x11-apps/xlsclients 1.1.6: X.Org xlsclients application
 x11-apps/xlsfonts 1.0.9: X.Org xlsfonts application
-x11-apps/xmag 1.0.8: X.Org xmag application
+x11-apps/xmag 1.0.8 1.0.9: X.Org xmag application
 x11-apps/xman 1.2.0: Manual page display program for the X Window System
 x11-apps/xmessage 1.0.7: display a message or query in a window (X-based /bin/echo)
 x11-apps/xmodmap 1.0.12: utility for modifying keymaps and pointer button mappings in X
