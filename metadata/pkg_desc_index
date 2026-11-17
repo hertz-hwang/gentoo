@@ -1302,7 +1302,7 @@ app-benchmarks/geekbench 2.4.2-r1 2.4.3-r2 3.4.4-r1 4.4.4-r1 5.5.1 6.7.1 7.1.0: 
 app-benchmarks/geekbench-ai 1.8.0: A Cross-Platform AI Benchmark for Android, iOS, Linux, MacOS and Windows
 app-benchmarks/hey 0.1.2: HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom
 app-benchmarks/httperf 0.9.1_p20201206-r1: Tool from HP for measuring web server performance
-app-benchmarks/hyperfine 1.19.0 1.20.0 1.21.0: A command-line benchmarking tool
+app-benchmarks/hyperfine 1.19.0 1.20.0 1.21.0 2.0.0: A command-line benchmarking tool
 app-benchmarks/i7z 93_p20131012-r3: A better i7 (and now i3, i5) reporting tool for Linux
 app-benchmarks/interbench 0.31-r1: A Linux interactivity benchmark
 app-benchmarks/ioping 1.3: Simple disk I/0 latency measuring tool
@@ -5328,7 +5328,7 @@ dev-java/xz-java 1.12: Implementation of xz data compression in pure java
 dev-java/zstd-jni 1.5.7.6: JNI bindings for Zstd native library
 dev-java/zxing-core 3.5.1: Core barcode encoding/decoding library
 dev-java/zxing-javase 3.5.1: Core barcode encoding/decoding library
-dev-lang/R 4.5.3 4.6.1: Language and environment for statistical computing and graphics
+dev-lang/R 4.5.3 4.6.1 4.6.2: Language and environment for statistical computing and graphics
 dev-lang/abs 2.6.0: The ABS programing language
 dev-lang/ada-bootstrap 0_p2021-r1 11 12 13 14: Binary bootstrap compiler for GNAT (Ada compiler)
 dev-lang/algol68g 3.13.3 3.13.4 3.14.0: Algol 68 Genie compiler-interpreter
@@ -9811,7 +9811,7 @@ dev-python/tqdm 4.70.0 4.70.1: Add a progress meter to your loops in a second
 dev-python/traitlets 5.15.1 5.16.1: A configuration system for Python applications
 dev-python/trakit 0.3.0 0.4.0: Guess additional information from titles in media tracks
 dev-python/translate-toolkit 3.20.0 3.20.1 3.20.2 3.20.3 3.20.4 3.20.6: Toolkit to convert between many translation formats
-dev-python/tree-sitter 0.25.2-r1 0.26.0_p20260816-r1 0.26.1: Python bindings to the Tree-sitter parsing library
+dev-python/tree-sitter 0.25.2-r1 0.26.0_p20260816-r1 0.26.1-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0 26.7.0: A requests-like API built on top of twisted.web's Agent
 dev-python/trimesh 5.1.1 5.2.0 5.2.1: Python library for loading and using triangular meshes
 dev-python/trio 0.34.0 0.35.0: Python library for async concurrency and I/O
@@ -11187,7 +11187,7 @@ dev-util/rej 0.16-r1: A utility for solving diff/patch rejects
 dev-util/reuse 5.0.2 6.2.0: Manage license information according to the SPDX standard
 dev-util/rgbds 1.0.1 1.0.4 9999: Rednex Game Boy Development System
 dev-util/rinstall 0.2.0-r1: Utility for declarative installation of programs
-dev-util/rizin 0.8.2 0.9.1-r1: reverse engineering framework for binary analysis
+dev-util/rizin 0.8.2-r1 0.9.1-r1: reverse engineering framework for binary analysis
 dev-util/rocm-smi 6.3.3-r1 6.4.3-r1 7.0.2 7.1.0 7.2.0: ROCm System Management Interface Library
 dev-util/rocm_bandwidth_test 6.3.3 6.4.3 7.0.2 7.1.0-r2 7.2.0: Bandwidth test for ROCm
 dev-util/rocminfo 6.3.3 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: ROCm Application for Reporting System Info
@@ -12184,7 +12184,7 @@ gnome-extra/gnome-tweaks 46.1-r1 49.0: Customize advanced GNOME options
 gnome-extra/gnome-user-docs 49.9 50.4 50.5: GNOME end user documentation
 gnome-extra/gnome-user-share 47.2 48.2 48.3: Personal file sharing for the GNOME desktop
 gnome-extra/gnome-weather 48.0 49.0 50.0: A weather application for GNOME
-gnome-extra/gucharmap 17.0.2: Unicode character map viewer and library
+gnome-extra/gucharmap 17.0.2 18.0.0: Unicode character map viewer and library
 gnome-extra/krb5-auth-dialog 43.0-r1: An application to acquire and list Kerberos tickets
 gnome-extra/libgda 5.2.9-r3: GNOME database access library
 gnome-extra/libgsf 1.14.58 1.14.59 1.14.60: The GNOME Structured File Library
@@ -14922,7 +14922,7 @@ net-fs/autofs 5.1.9-r2: Kernel based automounter
 net-fs/btfs 2.24: Bittorrent filesystem based on FUSE
 net-fs/cifs-utils 7.5-r1 7.6-r1 7.7-r1 7.8-r1 7.9: Tools for Managing Linux CIFS Client Filesystems
 net-fs/curlftpfs 0.9.2-r5: File system for accessing ftp hosts based on FUSE
-net-fs/cvmfs 2.12.7 2.13.1 2.13.3 2.14.1: HTTP read-only file system for distributing software
+net-fs/cvmfs 2.12.7 2.13.1 2.13.3 2.14.1 2.14.2: HTTP read-only file system for distributing software
 net-fs/davfs2 1.7.1 1.7.3: Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
 net-fs/ksmbd-tools 3.5.3 3.5.6: cifsd/ksmbd kernel server userspace utilities
 net-fs/libnfs 5.0.2 5.0.3 8.0.0 9999: Client library for accessing NFS shares over a network
@@ -15000,7 +15000,7 @@ net-im/tokodon 26.08.3: Mastodon client for Plasma and Plasma Mobile
 net-im/toxic 0.16.2 0.16.3: A curses-based client for Tox
 net-im/whatsapp-desktop-bin 0.5.3 0.5.4: Unofficial electron-based wrapper around WhatsApp Web
 net-im/ysm 2.9.9.1-r2: A console ICQ client supporting versions 7/8
-net-im/zoom 6.7.5.6891-r1 7.0.0.1666-r2 7.1.5.4332: Video conferencing and web conferencing service
+net-im/zoom 6.7.5.6891-r1 7.0.0.1666-r2 7.1.5.4332 7.2.1.5760: Video conferencing and web conferencing service
 net-irc/anope 2.0.14 2.0.18: Anope IRC Services
 net-irc/atheme-services 7.2.12-r7: A portable and secure set of open-source and modular IRC services
 net-irc/bnc 2.9.4-r3: BNC (BouNCe) is used as a gateway to an IRC Server
@@ -15191,7 +15191,7 @@ net-libs/nghttp3 1.18.0 1.19.0 9999: HTTP/3 library written in C
 net-libs/ngtcp2 1.25.0 1.26.0 9999: Implementation of the IETF QUIC Protocol
 net-libs/nodejs 22.23.5-r1 24.22.3-r1 26.13.1-r1 99999999: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/ntirpc 6.0.1: Transport Independent RPC library for nfs-ganesha
-net-libs/pacparser 1.4.3 1.4.5 1.4.6: Library to parse proxy auto-config files
+net-libs/pacparser 1.4.6 1.5.4: Library to parse proxy auto-config files
 net-libs/paho-mqtt-c 1.3.15 1.3.16: An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS
 net-libs/phodav 3.0-r1 3.2-r1: WebDav server implementation using libsoup
 net-libs/pjproject 2.17-r1: Open source SIP, Media, and NAT Traversal Library
@@ -18017,7 +18017,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel bu
 sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18040,7 +18040,7 @@ sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3-r1: DBUS on-demand loader of sched
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
 sys-kernel/vanilla-kernel 6.1.192 6.1.9999 6.6.162 6.6.9999 6.12.117 6.12.9999 6.18.63 6.18.9999 7.3.4: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.192 6.6.162 6.12.117 6.18.63 7.3.4: Full sources for the Linux kernel
+sys-kernel/vanilla-sources 6.1.192 6.6.162 6.12.118 6.18.64 7.3.5: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.2.15: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -18453,7 +18453,7 @@ www-apps/readarr-bin 0.4.18.2805-r1: An ebook and audiobook collection manager f
 www-apps/redmine 6.0.7 6.0.9 6.0.11: Flexible project management web application using the Ruby on Rails framework
 www-apps/roundup 2.5.0: Issue-tracking system with command-line, web, and e-mail interfaces
 www-apps/rt 5.0.6-r1: RT is an enterprise-grade ticketing system
-www-apps/rutorrent 5.3.20 5.3.21 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
+www-apps/rutorrent 5.3.21 5.3.23 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-apps/selfoss 2.20_pre20230730: The multipurpose rss reader, live stream, mashup, aggregation web application
 www-apps/sfpg 4.11.0: A web gallery in one single PHP file
 www-apps/sonarr-bin 4.0.19.2979-r1: Sonarr is a Smart PVR for newsgroup and bittorrent users
@@ -18471,9 +18471,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1 50.6: GNOME webbrowser based on Webkit
 www-client/falkon 26.08.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 153.6.0 153.7.0 159.0 159.0.1 160.0: Firefox Web Browser
-www-client/firefox-bin 153.6.0 153.7.0 159.0 159.0.1 160.0: Firefox Web Browser
-www-client/firefox-l10n 153.6.0 153.7.0 159.0 159.0.1 160.0: Firefox Web Browser's translation files
+www-client/firefox 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
+www-client/firefox-bin 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
+www-client/firefox-l10n 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser's translation files
 www-client/google-chrome 157.0.8103.38 157.0.8103.50 157.0.8103.78: The web browser from Google
 www-client/google-chrome-beta 157.0.8103.6 158.0.8127.2 158.0.8127.18: The web browser from Google
 www-client/google-chrome-unstable 158.0.8106.0 159.0.8130.0 159.0.8144.0: The web browser from Google
