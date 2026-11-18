@@ -1132,7 +1132,7 @@ app-alternatives/ninja 1: ninja symlinks
 app-alternatives/sh 0: /bin/sh (POSIX shell) symlink
 app-alternatives/tar 0: Tar symlink
 app-alternatives/yacc 1-r2: yacc symlinks
-app-antivirus/clamav 0.103.12-r6 0.103.12-r7 1.4.3 1.4.4 1.4.5 1.4.6 1.5.3 1.5.4: Clam Anti-Virus Scanner
+app-antivirus/clamav 0.103.12-r6 0.103.12-r7 1.4.3 1.4.4 1.4.5 1.4.6 1.5.3 1.5.4 1.5.4-r1: Clam Anti-Virus Scanner
 app-antivirus/clamtk 6.18-r1 6.18-r2: A graphical front-end for ClamAV
 app-antivirus/fangfrisch 1.9.2-r1 1.9.3: Update and verify unofficial Clam Anti-Virus signatures
 app-antivirus/lkrg 0.9.8 0.9.9 9999: Linux Kernel Runtime Guard
@@ -1788,7 +1788,7 @@ app-doc/gnu-c-intro-ref 0.1 9999: GNU C Language Intro and Reference Manual
 app-doc/gnucash-docs 5.14 5.17: Documentation package for GnuCash
 app-doc/info-manual 30.2 31.1: Manual for the Info reader in GNU Emacs
 app-doc/jargon 4.4.7-r2: A compendium of hacker slang illuminating many aspects of hackish tradition
-app-doc/kicad-doc 9.0.9-r1 10.0.3 10.0.5 10.0.8: Electronic Schematic and PCB design tools manuals
+app-doc/kicad-doc 10.0.3 10.0.5 10.0.8: Electronic Schematic and PCB design tools manuals
 app-doc/lapack-docs 3.1.1: Documentation reference and man pages for lapack implementations
 app-doc/linkers-and-loaders 1-r1: The Linkers and Loaders book
 app-doc/linux-device-drivers 2-r1 3-r1: Howto write linux device drivers (updated for Linux 2.6)
@@ -2650,7 +2650,7 @@ app-i18n/zinnia-tomoe 0.6.0_p20080911: Handwriting model files trained with Tomo
 app-laptop/dispad 0.3.1-r1: Daemon to disable trackpads while typing
 app-laptop/framework-laptop-kmod 0_pre20240915: Kernel module to expose more Framework Laptop stuff
 app-laptop/framework-tool-tui 0.8.0 0.8.3 0.8.4 0.8.5 0.8.6: TUI for controlling and monitoring Framework Computers hardware built in Rust
-app-laptop/framework_tool 0.6.2 0.6.3 0.6.4 0.6.5 0.6.6: Tool to control Framework Computer systems
+app-laptop/framework_tool 0.6.6 0.6.7: Tool to control Framework Computer systems
 app-laptop/hdaps-gl 0.0.7: OpenGL visualization for HDAPS data
 app-laptop/hdapsd 20141203-r3: IBM ThinkPad Hard Drive Active Protection System (HDAPS) daemon
 app-laptop/i8kutils 1.43: Dell Inspiron and Latitude utilities
@@ -3414,7 +3414,7 @@ app-text/pspdftool 0.03: Tool for prepress preparation of PDF and PostScript doc
 app-text/pspresent 1.3-r2: A tool to display full-screen PostScript presentations
 app-text/pstotext 1.9-r5: Extract ASCII text from a PostScript or PDF file
 app-text/psutils 1.17-r5 2.09 3.3.11 3.3.15: Utilities for manipulating PostScript documents
-app-text/qpdf 12.4.1-r1 12.4.2: Command-line tool for structural, content-preserving transformation of PDF files
+app-text/qpdf 12.4.1-r2 12.4.2-r1: Command-line tool for structural, content-preserving transformation of PDF files
 app-text/qpdfview 0.5_p20240423 0.5_p20260701: Tabbed document viewer
 app-text/rarian 0.8.4 0.8.6-r1: A documentation metadata library
 app-text/recode 3.7.14: Convert files between various character sets
@@ -5970,7 +5970,7 @@ dev-libs/redland 1.0.17-r3: High-level interface for the Resource Description Fr
 dev-libs/rinutils 0.10.3: Set of C headers containing macros and static functions
 dev-libs/rlog 1.4: A C++ logging library
 dev-libs/rocdbgapi 6.4.3 7.0.2 7.1.0-r1 7.2.0 10.1.0: AMD Debugger API
-dev-libs/rocksdb 7.9.2-r1 8.11.3 9.10.0 10.5.1 11.8.1 11.13.2: Embeddable, persistent key-value store for fast storage
+dev-libs/rocksdb 7.9.2-r1 11.13.2: Embeddable, persistent key-value store for fast storage
 dev-libs/rocm-comgr 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: Radeon Open Compute Code Object Manager
 dev-libs/rocm-core 7.0.2 7.1.0 7.2.0 10.1.0: Library that provides ROCm release version and install path information
 dev-libs/rocm-device-libs 6.4.3 7.0.2 7.1.0 7.2.0 10.1.0: Radeon Open Compute Device Libraries
@@ -8439,7 +8439,7 @@ dev-python/btrfs 15: Python module to inspect btrfs filesystems
 dev-python/btrfsutil 7.1 7.3: Library for managing Btrfs filesystems
 dev-python/build 1.5.1 1.6.0 1.6.1: A simple, correct PEP517 package builder
 dev-python/cachebox 6.2.7 6.2.8 6.2.10: The fastest memoizing and caching Python library written in Rust
-dev-python/cachecontrol 0.14.3: httplib2 caching for requests
+dev-python/cachecontrol 0.14.3 0.15.0: httplib2 caching for requests
 dev-python/cachelib 0.17.0 0.17.2: Collection of cache libraries in the same API interface. Extracted from werkzeug
 dev-python/cachetools 7.2.3 7.2.4 7.2.5 7.2.6 7.2.7 7.2.8 7.3.0 8.0.0 8.0.1: Extensible memoizing collections and decorators
 dev-python/cairocffi 1.7.1-r1: CFFI-based drop-in replacement for Pycairo
@@ -11151,7 +11151,7 @@ dev-util/patchelf 0.17.2-r1 0.18.0 0.19.2 0.19.3: Small utility to modify the dy
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
-dev-util/perf 6.19.12 7.2 7.3: Userland tools for Linux Performance Counters
+dev-util/perf 6.19.12 7.2-r1 7.3-r1: Userland tools for Linux Performance Counters
 dev-util/pixi 0.84.1 0.84.2: A package management and workflow tool
 dev-util/pkgcheck 0.10.49 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.5.1 3.0.7 3.0.11 9999: pkg-config compatible replacement with no dependencies other than C99
@@ -11290,7 +11290,7 @@ dev-vcs/cvsutils 0.2.6: A small bundle of utilities to work with CVS repositorie
 dev-vcs/darcs 2.16.5-r6 2.18.5-r1: a distributed, interactive, smart revision control system
 dev-vcs/easygit 1.7.5.2-r1: Easy GIT (eg), a frontend for git designed for former cvs and svn users
 dev-vcs/fossil 2.26 2.27 2.28: Simple, high-reliability, source control management, and more
-dev-vcs/gagit 4: Gentoo AGit workflow tool
+dev-vcs/gagit 4 5: Gentoo AGit workflow tool
 dev-vcs/git 2.52.0 2.53.0 2.54.0 2.55.0 2.56.0 2.56.0-r1 2.56.1 9999 9999-r1 9999-r2 9999-r3: Stupid content tracker: distributed VCS designed for speed and efficiency
 dev-vcs/git-absorb 0.7.0 0.8.0 0.9.0: Automatically absorb staged changes into git current branch
 dev-vcs/git-annex 10.20230802 10.20260601: manage files with git, without checking their contents into git
@@ -12610,7 +12610,7 @@ kde-frameworks/kwindowsystem 6.31.0 6.32.0: Framework providing access to proper
 kde-frameworks/kxmlgui 6.31.0 6.32.0: Framework for managing menu and toolbar actions in an abstract way
 kde-frameworks/modemmanager-qt 6.31.0 6.32.0: ModemManager bindings for Qt
 kde-frameworks/networkmanager-qt 6.31.0 6.32.0: NetworkManager bindings for Qt
-kde-frameworks/oxygen-icons 6.31.0 6.32.0: Oxygen SVG icon theme
+kde-frameworks/oxygen-icons 6.31.0 6.32.0-r1: Oxygen SVG icon theme
 kde-frameworks/prison 6.31.0 6.32.0: QRCode and data matrix barcode library
 kde-frameworks/purpose 6.31.0 6.32.0: Library for providing abstractions to get the developer's purposes fulfilled
 kde-frameworks/qqc2-desktop-style 6.31.0 6.32.0: Style for QtQuickControls 2 that uses QWidget's QStyle for painting
@@ -12860,7 +12860,7 @@ mail-mta/netqmail 1.06-r14 1.06-r16 1.06-r17: qmail -- a secure, reliable, effic
 mail-mta/notqmail 1.08-r6 9999: Collaborative open-source successor to qmail
 mail-mta/nullmailer 2.2-r2: Simple relay-only local mail transport agent
 mail-mta/opensmtpd 7.5.0_p0 7.6.0_p1 7.7.0_p0 7.8.0_p1 7.9.0_p0: Lightweight but featured SMTP daemon from OpenBSD
-mail-mta/postfix 3.11.7 3.12_pre20261115: A fast and secure drop-in replacement for sendmail
+mail-mta/postfix 3.11.7 3.12_pre20261117: A fast and secure drop-in replacement for sendmail
 mail-mta/proton-mail-bridge 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/qpsmtpd 0.95-r1 9999: qpsmtpd is a flexible smtpd daemon written in Perl
 mail-mta/sendmail 8.18.2 8.18.2-r1 8.19.0.0-r1 8.19.0.1: Widely-used Mail Transport Agent (MTA)
@@ -13400,7 +13400,7 @@ media-libs/flac 1.4.3 1.5.0: Free lossless audio encoder and decoder
 media-libs/flac-compat 1.3.4 1.4.3: Free lossless audio encoder and decoder
 media-libs/flickcurl 1.26-r2: C library for the Flickr API
 media-libs/fluidsynth-dssi 1.0.0-r2: DSSI Soft Synth Interface
-media-libs/fontconfig 2.18.1 2.18.3: A library for configuring and customizing font access
+media-libs/fontconfig 2.18.1 2.18.3 2.18.4: A library for configuring and customizing font access
 media-libs/freealut 1.1.0-r5: The OpenAL Utility Toolkit
 media-libs/freeglut 3.8.0: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-libs/freeimage 3.18.0-r10 3.18.0-r11: Image library supporting many formats
@@ -15255,7 +15255,7 @@ net-mail/mailbase 1.8.1: MTA layout package
 net-mail/mailfront 2.22-r1: Mail server network protocol front-ends
 net-mail/mailgraph 1.14-r4: A mail statistics RRDtool frontend for Postfix
 net-mail/mailshears 0.2.0: Mangle your mail garden
-net-mail/mailutils 3.21: A useful collection of mail servers, clients, and filters
+net-mail/mailutils 3.21 3.21-r1: A useful collection of mail servers, clients, and filters
 net-mail/mairix 0.24-r1: Indexes and searches Maildir/MH folders
 net-mail/mboxgrep 0.7.13: Grep for mbox files
 net-mail/mess822 0.58-r3: Collection of utilities for parsing Internet mail messages
@@ -15783,7 +15783,7 @@ net-vpn/frp 0.65.0 0.68.0 0.70.0: A reverse proxy that exposes a server behind a
 net-vpn/gsocket 1.4.43-r1 9999: Allow firewalled/NATed host to establish a secure connection
 net-vpn/headscale 0.27.1 0.29.2 0.29.7: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/httptunnel 3.3_p20230508: httptunnel can create IP tunnels through firewalls/proxies using HTTP
-net-vpn/i2p 2.13.0 2.14.0: A privacy-centric, anonymous network
+net-vpn/i2p 2.13.0 2.14.0 2.14.1: A privacy-centric, anonymous network
 net-vpn/i2pd 2.59.0 2.61.0 3.0.0: A C++ daemon for accessing the I2P anonymous network
 net-vpn/iodine 0.7.0-r5: IP over DNS tunnel
 net-vpn/isatapd 0.9.7-r2: Creates and maintains an ISATAP tunnel (rfc5214)
@@ -16143,12 +16143,12 @@ sci-electronics/gtkwave 3.3.125: Wave viewer for LXT, LXT2, VZT, GHW and standar
 sci-electronics/gwave 20190116-r100: Analog waveform viewer for SPICE-like simulations
 sci-electronics/irsim 9.7.93 9.7.93-r1: IRSIM is a "switch-level" simulator
 sci-electronics/iverilog 12.0-r1 13.0 9999: A Verilog simulation and synthesis tool
-sci-electronics/kicad 9.0.9-r1 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools
-sci-electronics/kicad-footprints 9.0.9 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools footprint libraries
-sci-electronics/kicad-meta 9.0.9 10.0.3 10.0.5 10.0.8: Electronic Schematic and PCB design tools (meta package)
-sci-electronics/kicad-packages3d 9.0.9 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools 3D package libraries
-sci-electronics/kicad-symbols 9.0.9 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools symbol libraries
-sci-electronics/kicad-templates 9.0.9 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools project templates
+sci-electronics/kicad 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools
+sci-electronics/kicad-footprints 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools footprint libraries
+sci-electronics/kicad-meta 10.0.3 10.0.5 10.0.8: Electronic Schematic and PCB design tools (meta package)
+sci-electronics/kicad-packages3d 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools 3D package libraries
+sci-electronics/kicad-symbols 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools symbol libraries
+sci-electronics/kicad-templates 10.0.3 10.0.5 10.0.8 9999: Electronic Schematic and PCB design tools project templates
 sci-electronics/klayout 0.30.7-r1 0.30.8 9999: Viewer and editor for GDS and OASIS integrated circuit layouts
 sci-electronics/ktechlab 0.51.0_p20251122: IDE for microcontrollers and electronics
 sci-electronics/labone 21.08.20515-r2 23.02.42414: Platform independent instrument control for Zurich Instruments devices
@@ -16204,7 +16204,7 @@ sci-geosciences/mtkbabel 0.8.3.1-r2: MTKBabel is a Perl program to operate the i
 sci-geosciences/osm-gps-map 1.2.0: A GTK+ widget for displaying OpenStreetMap tiles
 sci-geosciences/osm2pgsql 2.2.0 99999999: Converts OSM planet.osm data to a PostgreSQL/PostGIS database
 sci-geosciences/osmctools 0.9-r2: A few really fast tools to convert, filter and update OSM data files
-sci-geosciences/owntracks-recorder 1.0.4: Stores and accesses location data published by the OwnTracks apps
+sci-geosciences/owntracks-recorder 1.0.6: Stores and accesses location data published by the OwnTracks apps
 sci-geosciences/pymap3d 3.2.0: Python 3-D coordinate conversions
 sci-geosciences/qgis 4.0.3 4.2.3 9999: User friendly Geographic Information System
 sci-geosciences/qmapshack 1.19.0 1.21.1-r1: GPS mapping utility
@@ -16301,7 +16301,7 @@ sci-libs/ginkgo 1.4.0-r3 1.6.0 1.8.0 1.10.0 1.11.0: Numerical linear algebra sof
 sci-libs/givaro 4.2.1 4.2.2: C++ library for arithmetic and algebraic computations
 sci-libs/gklib 5.1.1_p20230327-r1: Helper routines and frameworks used by KarypisLab software
 sci-libs/gmsh 4.14.0 4.14.1: Three-dimensional finite element mesh generator
-sci-libs/gsl 2.7.1-r2 2.7.1-r3: The GNU Scientific Library
+sci-libs/gsl 2.7.1-r2 2.7.1-r3 2.8: The GNU Scientific Library
 sci-libs/gts 20121130: GNU Triangulated Surface Library
 sci-libs/hdf 4.2.15-r2: General purpose library and format for storing scientific data
 sci-libs/hdf5 1.14.6-r2 2.2.0: General purpose library and file format for storing scientific data
@@ -16788,7 +16788,7 @@ sec-keys/openpgp-keys-gzip 20220406: OpenPGP keys used by GNU Gzip
 sec-keys/openpgp-keys-handbrake 20260208 20260311: OpenPGP keys used to sign HandBrake
 sec-keys/openpgp-keys-hclee 20260204: OpenPGP key used by Hyunchul Lee (hclee)
 sec-keys/openpgp-keys-hughsie 20260124 20260210: OpenPGP key used by Richard Hughes (hughsie)
-sec-keys/openpgp-keys-i2p 20260310: OpenPGP keys used to sign I2P releases
+sec-keys/openpgp-keys-i2p 20260310 20261111: OpenPGP keys used to sign I2P releases
 sec-keys/openpgp-keys-icu 20220408 20221020 20241110: OpenPGP keys used by ICU
 sec-keys/openpgp-keys-imagemagick 20260329: OpenPGP key used to sign ImageMagick releases
 sec-keys/openpgp-keys-inetutils 20260630 20261103: OpenPGP keys used for net-misc/inetutils
@@ -17315,7 +17315,7 @@ sys-apps/busybox 1.36.1-r4 1.37.0 1.38.0 9999: Utilities for rescue and embedded
 sys-apps/byld 1.0.3-r1: Build a Linux distribution on a single floppy
 sys-apps/cciss_vol_status 1.12a-r1: Shows status of logical drives attached to HP SmartArray controllers
 sys-apps/ccs-tools 1.8.3_p20130214: TOMOYO Linux tools
-sys-apps/checkpolicy 3.8.1 3.9 3.10 3.11 9999: SELinux policy compiler
+sys-apps/checkpolicy 3.11 9999: SELinux policy compiler
 sys-apps/chname 1.1-r1: Run a command with a new system hostname
 sys-apps/cinit 0.2.1-r2: a fast, small and simple init with support for profiles
 sys-apps/ckbcomp 1.230: Compile an XKB keymap for loadkeys
@@ -17442,7 +17442,7 @@ sys-apps/man-pages 6.10 6.16-r2 6.17-r1 6.17-r2 6.19 9999: A somewhat comprehens
 sys-apps/man-pages-posix 2013a 2017a-r1: POSIX man-pages (0p, 1p, 3p)
 sys-apps/man2html 1.6g-r2: Standard commands to read man pages
 sys-apps/mawk 1.3.4_p20260302: An (often faster than gawk) awk-interpreter
-sys-apps/mcstrans 3.6 3.7-r1 3.8.1 3.9 3.10 3.11 9999: SELinux context translation to human readable names
+sys-apps/mcstrans 3.11 9999: SELinux context translation to human readable names
 sys-apps/memtest86+ 6.20-r1 7.00 7.20 8.00 8.10 8.10-r1 9.00: Memory tester based on PCMemTest
 sys-apps/memtest86-bin 11.7: Stand alone memory testing software for x86 EFI hardware
 sys-apps/memtester 4.7.1: Userspace utility for testing the memory subsystem for faults
@@ -17487,7 +17487,7 @@ sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.23 1.1.24: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
 sys-apps/pnputils 0.1-r1: Plug and Play BIOS utilities
-sys-apps/policycoreutils 3.8.1 3.9 3.10 3.11 9999: SELinux core utilities
+sys-apps/policycoreutils 3.11 9999: SELinux core utilities
 sys-apps/polychromatic 0.9.7 0.9.8 9999: RGB lighting management software for GNU/Linux powered by OpenRazer
 sys-apps/portage 3.0.82.2-r1 3.0.83-r1 9999: The package management and distribution system for Gentoo
 sys-apps/powerpc-utils 1.1.3.18-r4: PowerPC utilities and additional OldWorld apps
@@ -17508,7 +17508,7 @@ sys-apps/readahead-list 1.20060421.1016-r4: Preloads files into the page cache t
 sys-apps/rename 1.3-r3: Easily rename files
 sys-apps/renameutils 0.12.0: Use your favorite text editor to rename files
 sys-apps/restartd 0.2.2-r1: A daemon for checking your running and not running processes
-sys-apps/restorecond 3.6 3.7 3.8.1 3.9 3.10 3.11 9999: Daemon to watch for creation and set default SELinux fcontexts
+sys-apps/restorecond 3.11 9999: Daemon to watch for creation and set default SELinux fcontexts
 sys-apps/ripgrep 15.1.0 15.2.0: Search tool that combines the usability of ag with the raw speed of grep
 sys-apps/ripgrep-all 0.10.9-r1 0.10.10: Like ripgrep, but also search in PDFs, E-Books, Office documents, archives, etc.
 sys-apps/rkflashtool 6.1: Tool for flashing Rockchip devices
@@ -17524,11 +17524,11 @@ sys-apps/s6-portable-utils 2.3.1.0 2.3.1.1 2.3.1.2: Set of tiny portable unix ut
 sys-apps/s6-rc 0.5.6.0 0.5.6.0-r1 0.6.0.0 0.6.0.0-r1 0.6.1.1: Service manager for the s6 supervision suite
 sys-apps/sandbox 2.46 2.47 2.48 2.49 2.51 9999: sandbox'd LD_PRELOAD hack
 sys-apps/sdparm 1.12 1.12-r1: Utility to output and modify parameters on a SCSI device, like hdparm
-sys-apps/secilc 3.8.1 3.9 3.10 3.11 9999: SELinux Common Intermediate Language (CIL) Compiler
+sys-apps/secilc 3.11 9999: SELinux Common Intermediate Language (CIL) Compiler
 sys-apps/sed 4.10-r1: Super-useful stream editor
 sys-apps/seedfiles 1.5 1.5.1 1.6 1.7 9999: Portable drop-in reimplementation of systemd-tmpfiles
-sys-apps/selinux-python 3.7-r1 3.8.1 3.8.1-r2 3.9 3.10-r1 3.11-r1 9999: SELinux core utilities
-sys-apps/semodule-utils 3.6 3.7 3.8.1 3.9 3.10 3.11 9999: SELinux policy module utilities
+sys-apps/selinux-python 3.11-r1 9999: SELinux core utilities
+sys-apps/semodule-utils 3.11 9999: SELinux policy module utilities
 sys-apps/sensei-raw-ctl 0.0_pre20180729-r1 0.0_pre20230801: SteelSeries Sensei Raw configuration tool
 sys-apps/servicelog 1.1.15 1.1.16: Provides utilities for logging service-related events
 sys-apps/setserial 2.17-r6: Configure your serial ports with it
@@ -18017,7 +18017,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel bu
 sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-sources 6.1.192-r1 6.6.162-r1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18078,9 +18078,9 @@ sys-libs/libosinfo 1.11.0-r1 1.12.0-r1: GObject library for managing information
 sys-libs/libraw1394 2.1.2-r1: Library that provides direct access to the IEEE 1394 bus
 sys-libs/librtas 2.0.3 2.0.6: A set of libraries for userspace access to RTAS on the PowerPC platform(s)
 sys-libs/libseccomp 2.6.0-r3 2.6.1 9999: High level interface to Linux seccomp filter
-sys-libs/libselinux 3.8.1-r2 3.8.1-r3 3.9 3.10 3.10-r3 3.11-r1 9999: SELinux userland library
-sys-libs/libsemanage 3.8.1 3.9 3.10 3.11 9999: SELinux kernel and policy management library
-sys-libs/libsepol 3.8.1 3.9 3.10 3.11 9999: SELinux binary policy representation library
+sys-libs/libselinux 3.11-r1 9999: SELinux userland library
+sys-libs/libsemanage 3.11 9999: SELinux kernel and policy management library
+sys-libs/libsepol 3.11 9999: SELinux binary policy representation library
 sys-libs/libservicelog 1.1.19: Provides a library for logging service-related events
 sys-libs/libsmbios 2.4.3-r3: Provide access to (SM)BIOS information
 sys-libs/libstatgrab 0.92.1: A tool to provide access to statistics about the system on which it's run
@@ -18398,7 +18398,7 @@ www-apps/bugzilla 5.0.6-r2: Bugzilla is the Bug-Tracking System from the Mozilla
 www-apps/cgisysinfo 0.4.1: A small cgi utility to show basic system information
 www-apps/cgit 1.3 9999 9999-r1: A fast web-interface for Git repositories
 www-apps/cgp 1_p20190510-r2: A graphical web-based front-end for visualizing RRD collected by collectd
-www-apps/chromedriver-bin 157.0.8103.38 157.0.8103.50 157.0.8103.78: WebDriver for Chrome
+www-apps/chromedriver-bin 157.0.8103.38 157.0.8103.50 158.0.8127.36: WebDriver for Chrome
 www-apps/cvsweb 3.0.6-r2: WWW interface to a CVS tree
 www-apps/davical 1.1.12-r1: A CalDAV and CardDAV Server
 www-apps/dokuwiki 20260714c-r1: DokuWiki is a simple to use Wiki aimed at a small company's documentation needs
@@ -18474,22 +18474,22 @@ www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
 www-client/firefox 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
 www-client/firefox-bin 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
 www-client/firefox-l10n 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser's translation files
-www-client/google-chrome 157.0.8103.38 157.0.8103.50 157.0.8103.78: The web browser from Google
-www-client/google-chrome-beta 157.0.8103.6 158.0.8127.2 158.0.8127.18: The web browser from Google
-www-client/google-chrome-unstable 158.0.8106.0 159.0.8130.0 159.0.8144.0: The web browser from Google
+www-client/google-chrome 157.0.8103.38 157.0.8103.50 158.0.8127.36: The web browser from Google
+www-client/google-chrome-beta 157.0.8103.6 158.0.8127.2 159.0.8154.6: The web browser from Google
+www-client/google-chrome-unstable 158.0.8106.0 159.0.8130.0 160.0.8157.0: The web browser from Google
 www-client/httrack 3.49.5: HTTrack Website Copier, Open Source Offline Browser
 www-client/jd 2.8.9_p150226-r2: gtk2 based 2ch browser written in C++
 www-client/links 2.30-r2 2.30-r3 2.30-r4: A fast and lightweight web browser running in both graphics and text mode
 www-client/luakit 2.3.6 2.4.0: A fast, extensible, and customizable web browser
 www-client/lynx 2.9.0 2.9.2: An excellent console-based web browser with ssl support
-www-client/microsoft-edge 157.0.4341.46: The web browser from Microsoft
-www-client/microsoft-edge-beta 158.0.4370.7 158.0.4370.12 158.0.4370.16: The web browser from Microsoft
+www-client/microsoft-edge 157.0.4341.60: The web browser from Microsoft
+www-client/microsoft-edge-beta 158.0.4370.21 158.0.4370.26 159.0.4402.7: The web browser from Microsoft
 www-client/microsoft-edge-dev 158.0.4357.0 159.0.4378.0 159.0.4393.0: The web browser from Microsoft
 www-client/netrik 1.16.1-r3: A text based web browser with no ssl support
 www-client/netsurf 3.11-r1 9999: A free, open source web browser
-www-client/opera 140.0.6074.18: A fast and secure web browser
+www-client/opera 140.0.6074.36: A fast and secure web browser
 www-client/opera-beta 124.0.5705.51 126.0.5750.11 126.0.5750.30: A fast and secure web browser
-www-client/opera-developer 140.0.6066.0 140.0.6072.0 141.0.6079.0: A fast and secure web browser
+www-client/opera-developer 140.0.6072.0 141.0.6079.0 141.0.6087.0: A fast and secure web browser
 www-client/opera-gx 138.0.6044.65 139.0.6053.42 139.0.6053.63: Opera, but for 'gamers'
 www-client/pybugz 0.14 0.15 9999: Command line interface to (Gentoo) Bugzilla
 www-client/qutebrowser 3.7.0 9999: Keyboard-driven, vim-like browser based on Python and Qt
@@ -18545,7 +18545,7 @@ www-nginx/ngx-xss 0.06: Native support for cross-site scripting (XSS) in NGINX
 www-nginx/ngx_devel_kit 0.3.4: An NGINX module that adds generic tools for third-party modules
 www-nginx/njs 0.9.9 1.0.1: A subset of JavaScript language to use in NGINX
 www-plugins/browserpass 3.1.2 3.1.2-r1: WebExtension host binary for app-admin/pass, a UNIX password manager
-www-plugins/chrome-binary-plugins 157.0.8103.6_beta 157.0.8103.38 157.0.8103.50 157.0.8103.78 158.0.8106.0_alpha 158.0.8127.2_beta 158.0.8127.18_beta 159.0.8130.0_alpha 159.0.8144.0_alpha: Binary plugins from Google Chrome for use in Chromium
+www-plugins/chrome-binary-plugins 157.0.8103.6_beta 157.0.8103.38 157.0.8103.50 158.0.8106.0_alpha 158.0.8127.2_beta 158.0.8127.36 159.0.8130.0_alpha 159.0.8154.6_beta 160.0.8157.0_alpha: Binary plugins from Google Chrome for use in Chromium
 www-plugins/lightspark 0.9.0 0.10.0: High performance flash player
 www-plugins/passff-host 1.2.4 1.2.5: Host app for the PassFF WebExtension
 www-plugins/pdfjs 4.5.136 4.9.155 4.10.38 5.0.375: A PDF reader in JavaScript
