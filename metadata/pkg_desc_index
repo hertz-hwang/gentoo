@@ -1032,7 +1032,7 @@ app-admin/mongosh-bin 2.0.2 2.3.4: The MongoDB Shell
 app-admin/monit 5.34.4 5.35.2 6.0.0: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/mtail 3.0.0_rc36: A tool for extracting metrics from application logs
 app-admin/multilog-watch 1.12-r1: Watches a multilog file for irregularities
-app-admin/needrestart 3.11 9999: Restart daemons after library updates
+app-admin/needrestart 3.11 3.11.1 9999: Restart daemons after library updates
 app-admin/ngxtop 0.0.3_pre141201-r3: real-time metrics for nginx server (and others)
 app-admin/ocsinventory-agent 2.10.0: Hardware and software inventory tool (client)
 app-admin/op-cli-bin 2.23.0: command line interface for the 1password password manager
@@ -2210,7 +2210,7 @@ app-emacs/nix-mode 1.5.0: GNU Emacs major mode for editing Nix expressions
 app-emacs/no-littering 1.9.2 1.9.3: ELisp library that helps keeping Emacs configuration directory clean
 app-emacs/noflet 0.0.15_p20141102-r1: Dynamic, local advice for Emacs-Lisp code
 app-emacs/nxml-docbook5-schemas 5.1: Add support for DocBook 5 schemas to NXML
-app-emacs/nxml-gentoo-schemas 20260922: Extension for nxml-mode with Gentoo-specific schemas
+app-emacs/nxml-gentoo-schemas 20260922 20261117: Extension for nxml-mode with Gentoo-specific schemas
 app-emacs/nxml-libvirt-schemas 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 12.7.0: Extension for nxml-mode with libvirt schemas
 app-emacs/nxml-svg-schemas 1.1.20081123-r2: Extension for nxml-mode with SVG 1.1 schemas
 app-emacs/oauth2 0.18.3: OAuth 2.0 authorization protocol
@@ -5240,7 +5240,7 @@ dev-java/objenesis 3.6: A library for instantiating Java objects
 dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
-dev-java/openjdk 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.32.1_p1-r2 11.0.33_p10 17.0.20.1_p1 17.0.20.1_p1-r1 17.0.21.0.3_p1 21.0.12.1_p1 21.0.12.1_p1-r1 21.0.13.0.3_p1 25.0.4.1_p1 25.0.5.0.3_p1 27.0.1.0.3_p1 28_alpha22: Open source implementation of the Java programming language
+dev-java/openjdk 8.504_p01 8.512_p09 8.514_p01 11.0.32.1_p1 11.0.32.1_p1-r2 11.0.33_p10 11.0.33.1_p1 17.0.20.1_p1 17.0.20.1_p1-r1 17.0.21.0.3_p1 17.0.21.1_p2 21.0.12.1_p1 21.0.12.1_p1-r1 21.0.13.0.3_p1 21.0.13.1_p2 25.0.4.1_p1 25.0.5.0.3_p1 25.0.5.1_p2 27.0.1.1_p4 28_alpha24: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1-r1 17.0.21_p9 21.0.12.1_p1-r1 21.0.13_p9 25.0.4.1_p1-r1 25.0.5_p8 27.0.1.0.2_p1 28_alpha22: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1 17.0.21_p9 21.0.12.1_p1 21.0.13_p9 25.0.4.1_p1 25.0.5_p8: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
@@ -5682,7 +5682,7 @@ dev-libs/libdatrie 0.2.14 0.2.14-r1: Double-Array Trie Library
 dev-libs/libdazzle 3.44.0: Experimental new features for GTK+ and GLib
 dev-libs/libdbh 5.0.22: A small library to create and manage 64-bit disk based hash tables
 dev-libs/libdbusmenu 16.04.0-r4: Library to pass menu structure across DBus
-dev-libs/libdbusmenu-lxqt 0.4.0 0.5.0: LXQt DBusMenu Implementation
+dev-libs/libdbusmenu-lxqt 0.4.0 0.5.0-r1: LXQt DBusMenu Implementation
 dev-libs/libdex 1.0.0 1.2.0: Dex provides Future-based programming for GLib-based applications
 dev-libs/libdispatch 5.8 6.1.1 6.4.2: Library for concurrent code execution on multicore hardware
 dev-libs/libdivecomputer 0.6.0-r1 9999: Library for communication with dive computers from various manufacturers
@@ -8481,7 +8481,7 @@ dev-python/cliff 4.16.0 4.17.0: Command Line Interface Formulation Framework
 dev-python/clikit 0.6.2-r1: Group of utilities to build beautiful and testable command line interfaces
 dev-python/clint 0.5.1-r4: Python Command-line Application Tools
 dev-python/cloudflare 5.10.0: The official Python library for the Cloudflare API
-dev-python/cloudpickle 3.1.2: Extended pickling support for Python objects
+dev-python/cloudpickle 3.1.2-r1: Extended pickling support for Python objects
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/clr-loader 0.3.1: Generic pure Python loader for .NET runtimes
 dev-python/cmd2 4.2.4 4.3.0 4.3.1 4.4.0 4.4.1 4.4.2: Extra features for standard library's cmd module
@@ -12761,21 +12761,21 @@ lxde-base/lxlauncher 0.2.5-r1: Open source clone of the Asus launcher for EeePC
 lxde-base/lxmenu-data 0.1.5: Provides files needed for LXDE application menus
 lxde-base/lxpanel 0.10.1-r1 0.10.1-r2: Lightweight X11 desktop panel for LXDE
 lxde-base/lxrandr 0.3.2-r1: LXDE GUI interface to RandR extention
-lxde-base/lxsession 0.5.6: LXDE session manager
+lxde-base/lxsession 0.5.6 0.5.7: LXDE session manager
 lxde-base/lxtask 0.1.10: LXDE Task manager
 lxde-base/lxterminal 0.4.0_p20230917-r1: Lightweight vte-based tabbed terminal emulator for LXDE
 lxde-base/menu-cache 1.1.0-r1: Library to create and utilize caches to speed up freedesktop application menus
-lxqt-base/liblxqt 2.4.0 2.5.0: Common base library for the LXQt desktop environment
+lxqt-base/liblxqt 2.4.0 2.5.0 2.5.1: Common base library for the LXQt desktop environment
 lxqt-base/libsysstat 1.1.0 1.2.0: Qt GUI for System Statistics
 lxqt-base/lxqt-about 2.4.0 2.5.0: LXQt about dialog
 lxqt-base/lxqt-admin 2.4.0 2.5.0: LXQt system administration tool
-lxqt-base/lxqt-config 2.4.0 2.4.0-r1 2.5.0: LXQt system configuration control center
+lxqt-base/lxqt-config 2.4.0 2.4.0-r1 2.5.0 2.5.1: LXQt system configuration control center
 lxqt-base/lxqt-globalkeys 2.4.0 2.5.0: Daemon and library for global keyboard shortcuts registration
 lxqt-base/lxqt-menu-data 2.4.0 2.5.0: LXQt Menu Files and Translations for Menu Categories
 lxqt-base/lxqt-meta 2.4.0 2.5.0: Meta ebuild for LXQt, the Lightweight Desktop Environment
 lxqt-base/lxqt-notificationd 2.4.0 2.5.0: LXQt notification daemon and library
 lxqt-base/lxqt-openssh-askpass 2.4.0 2.5.0: LXQt OpenSSH user password prompt tool
-lxqt-base/lxqt-panel 2.4.1-r2 2.5.0: LXQt desktop panel and plugins
+lxqt-base/lxqt-panel 2.4.1-r2 2.5.0 2.5.1: LXQt desktop panel and plugins
 lxqt-base/lxqt-policykit 2.4.0 2.5.0: LXQt PolKit authentication agent
 lxqt-base/lxqt-powermanagement 2.4.0 2.5.0: LXQt daemon for power management and auto-suspend
 lxqt-base/lxqt-qtplugin 2.4.0 2.5.0: LXQt system integration plugin for Qt
@@ -14288,7 +14288,7 @@ media-sound/paprefs 1.2-r3: PulseAudio Preferences, configuration dialog for Pul
 media-sound/pasystray 0.8.2: PulseAudio system tray
 media-sound/patchage 1.0.10 9999: Modular patch bay for JACK-based audio and MIDI systems
 media-sound/pavucontrol 6.1-r1: Pulseaudio Volume Control, GTK based mixer for Pulseaudio
-media-sound/pavucontrol-qt 2.4.0 2.5.0: Qt GUI Pulseaudio Mixer
+media-sound/pavucontrol-qt 2.4.0 2.5.0 2.5.1: Qt GUI Pulseaudio Mixer
 media-sound/pavumeter 0.9.3-r2: PulseAudio Volume Meter, simple GTK volume meter for PulseAudio
 media-sound/peercast 0.1218-r2: A client and server for Peercast P2P-radio network
 media-sound/pianobar 2022.04.01-r1 2024.12.21 9999: Console-based replacement for Pandora's flash player
@@ -14323,7 +14323,7 @@ media-sound/quimup 2.1.1-r1 2.1.2-r1: Qt client for the music player daemon (MPD
 media-sound/quodlibet 4.6.0-r2 4.6.0-r3 4.7.1 4.7.1-r1 4.7.1-r2: audio library tagger, manager, and player for GTK+
 media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
-media-sound/reaper-bin 7.85: Digital audio workstation
+media-sound/reaper-bin 7.86: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
@@ -15172,7 +15172,7 @@ net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace pro
 net-libs/libupnp 1.14.31 1.18.5 22.1.8 22.1.10: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.3 1.0.4: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
-net-libs/libwebsockets 4.5.8-r1 5.0.0-r1 5.1.0 5.1.0-r1: A flexible pure-C library for implementing network protocols
+net-libs/libwebsockets 5.0.0-r1 5.1.0 5.1.0-r1: A flexible pure-C library for implementing network protocols
 net-libs/libyang 3.12.2: YANG data modeling language library
 net-libs/liquid-dsp 1.7.0 9999: digital signal processing library for software-defined radios
 net-libs/llhttp 9.4.3 9.4.4: Port of http_parser to llparse
@@ -15214,7 +15214,7 @@ net-libs/socket_wrapper 1.4.0 1.5.0 1.5.2: Library passing all socket communicat
 net-libs/srt 1.5.1 1.5.3 1.5.4 1.5.4-r1: Secure Reliable Transport (SRT) library and tools
 net-libs/tdlib 1.8.66 1.8.68 1.8.69: Cross-platform library for building Telegram clients
 net-libs/telepathy-glib 0.24.2-r1: GLib bindings for the Telepathy D-Bus protocol
-net-libs/tox 0.2.22 0.2.23 0.2.24 9999: Encrypted P2P, messaging, and audio/video calling platform
+net-libs/tox 0.2.22 0.2.23 0.2.24 0.2.25 9999: Encrypted P2P, messaging, and audio/video calling platform
 net-libs/udns 0.6 0.7: Async-capable DNS stub resolver library
 net-libs/uhttpmock 0.5.5-r1 0.9.0 0.11.0: HTTP web service mocking library
 net-libs/usrsctp 0.9.5.0_p20250331: A cross-platform userland SCTP stack
@@ -16501,7 +16501,7 @@ sci-mathematics/gmp-ecm 7.0.6-r1 7.0.7: Elliptic Curve Method for Integer Factor
 sci-mathematics/gp2c 0.0.12 0.0.15: A GP to C translator
 sci-mathematics/gretl 2021d: Regression, econometrics and time-series library
 sci-mathematics/gsl-shell 2.3.5: Lua interactive shell for sci-libs/gsl
-sci-mathematics/highs 1.14.0-r3: Modern solver for linear, quadratic, and mixed-integer programs
+sci-mathematics/highs 1.14.0-r3 1.16.0: Modern solver for linear, quadratic, and mixed-integer programs
 sci-mathematics/jags 4.3.1-r1: Just Another Gibbs Sampler for Bayesian MCMC simulation
 sci-mathematics/kind2 1.9.0: Multi-engine SMT-based automatic model checker
 sci-mathematics/kissat 3.1.1-r1 4.0.4: Keep-it-simple and clean bare metal SAT solver written in C
@@ -17819,7 +17819,7 @@ sys-devel/binutils-config 5.5.2 5.5.3 5.6 9999: Utility to change the binutils v
 sys-devel/binutils-hppa64 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r2 2.44-r3 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.47 9999: Tools necessary to build programs
 sys-devel/bison 3.8.2-r2 3.8.2-r3: A general-purpose (yacc-compatible) parser generator
 sys-devel/bpf-toolchain 15.2.0_p3 16.1.0_p1 16.1.0_p2 16.2.0_p1: All-in-one bpf toolchain for building DTrace and systemd without crossdev
-sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23: Symlinks to a Clang crosscompiler
+sys-devel/clang-crossdev-wrappers 16 17 18 19 20 21 22 23 24: Symlinks to a Clang crosscompiler
 sys-devel/cproc 0_pre20260113 0_pre20260527 9999: C11 compiler using QBE as backend
 sys-devel/crossdev 20260623 99999999: Gentoo Cross-toolchain generator
 sys-devel/crosstool-ng 1.28.0 9999: Versatile (cross-)toolchain generator
@@ -18014,9 +18014,9 @@ sys-kernel/dkms 3.3.0 3.4.3 3.4.4 3.4.5 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Minimal subset of gentoo-kernel-bin for building modules, for containers
 sys-kernel/gentoo-sources 6.1.192 6.6.162 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
@@ -18039,7 +18039,7 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3-r1: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.192 6.1.9999 6.6.162 6.6.9999 6.12.117 6.12.9999 6.18.63 6.18.9999 7.3.4: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 6.1.192 6.1.9999 6.6.162 6.6.9999 6.12.117 6.12.118 6.12.9999 6.18.63 6.18.64 6.18.9999 7.3.4 7.3.5: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.192 6.6.162 6.12.118 6.18.64 7.3.5: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.2.15: The Zen Kernel Live Sources
@@ -18230,7 +18230,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.18.63 7.3.4: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0 10.0-r1 11.0: Virtual for .NET SDK
 virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
