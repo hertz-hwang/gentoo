@@ -931,7 +931,6 @@ app-admin/augeas 1.14.1-r1: A library for changing configuration files
 app-admin/authbind 2.1.3: Bind sockets to privileged ports without root
 app-admin/aws-session-manager-plugin 1.2.814.0 1.2.835.0 1.2.896.0: AWS Session Manager Plugin for aws-cli
 app-admin/awscli 1.46.2 1.46.3 2.38.5 2.39.3 2.39.6 2.40.3: Universal Command Line Environment for AWS
-app-admin/awscli-bin 2.36.17 2.36.34: command line interface for Amazon Web Services
 app-admin/bitwarden-cli-bin 2026.8.0 2026.9.1: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.9.0 2026.10.0: Bitwarden password manager desktop client
 app-admin/bpftune 0.4_p2: BPF driven auto-tuning
@@ -1363,7 +1362,7 @@ app-cdr/uif2iso 0.1.7c-r2: Convert CD images from uif (MagicISO) to iso
 app-cdr/xcdroast 1.19-r1: Lightweight cdrtools front-end for CD and DVD writing
 app-cdr/xfburn 0.7.2 0.8.0: GTK+ based CD and DVD burning application
 app-containers/aardvark-dns 1.17.1 2.0.0 2.1.0 9999: A container-focused DNS server
-app-containers/amazon-ecr-credential-helper 0.10.1 0.11.0 0.12.0: Automatically gets credentials for Amazon ECR on docker push/docker pull
+app-containers/amazon-ecr-credential-helper 0.10.1 0.11.0 0.12.0 0.13.0: Automatically gets credentials for Amazon ECR on docker push/docker pull
 app-containers/apptainer 1.4.5 1.5.4 1.5.5: The container system for secure high-performance computing
 app-containers/buildah 1.41.0 1.46.0 1.46.1 9999: A tool that facilitates building OCI images
 app-containers/cadvisor 0.49.2 0.53.0 0.56.2 0.60.5: Analyzes resource usage and performance characteristics of running containers
@@ -1379,7 +1378,7 @@ app-containers/containers-storage 1.55.1 1.57.2 1.59.1 9999: Default config and 
 app-containers/cosign 2.5.0 2.6.1 3.0.3 3.1.0 3.1.3: container signing utility
 app-containers/cri-o 1.36.1-r1 1.36.5: OCI-based implementation of Kubernetes Container Runtime Interface
 app-containers/cri-tools 1.33.0 1.35.0 1.36.0 1.37.0: CLI and validation tools for Kubelet Container Runtime (CRI)
-app-containers/crun 1.19.1 1.20 1.21 1.25.1 1.28-r1 1.29.1-r1 1.30.1: Fast and low-memory footprint OCI Container Runtime fully written in C
+app-containers/crun 1.19.1 1.20 1.21 1.25.1 1.28-r1 1.29.1-r1 1.30.1 1.31: Fast and low-memory footprint OCI Container Runtime fully written in C
 app-containers/devcontainer 0.89.0 0.90.0: Reference implementation of the Development Containers specification
 app-containers/distrobox 1.8.2.5 9999: Use any Linux distribution inside your terminal (powered by docker/podman)
 app-containers/distrobuilder 2.1 3.0-r1 3.1 3.2 3.3.1 3.4.0: System container image builder for LXC and incus
@@ -1388,7 +1387,7 @@ app-containers/docker 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3 29.10.0: The cor
 app-containers/docker-bench-security 1.6.0 1.6.1: Test for best practices around deploying docker containers
 app-containers/docker-buildx 0.36.1 0.37.0 0.37.1 0.38.2 0.39.0 9999: Docker CLI plugin for extended build capabilities with BuildKit
 app-containers/docker-cli 28.4.0 29.7.2 29.8.0 29.8.1 29.9.0 29.9.3 29.10.0: the command line binary for docker
-app-containers/docker-compose 2.40.3 5.5.0 5.5.1 5.6.0 5.7.0 5.7.1: Multi-container orchestration for Docker
+app-containers/docker-compose 2.40.3 5.5.0 5.5.1 5.6.0 5.7.0 5.7.1 5.8.0: Multi-container orchestration for Docker
 app-containers/docker-credential-helpers 0.9.8 0.9.9 0.9.12: Suite of programs to use native stores to keep Docker credentials safe
 app-containers/docker-pushrm 1.9.0: Docker CLI plugin to update container repository documentation
 app-containers/docker-registry 3.0.0_rc2 3.0.0_rc3 3.1.1: Docker Registry 2.0
@@ -1413,7 +1412,7 @@ app-containers/reg 0.16.1-r1: Docker registry v2 command line client
 app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2 1.5.3: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
-app-containers/skopeo 1.24.1 1.25.1 9999: Work with remote container images registries
+app-containers/skopeo 1.24.1 1.25.1 1.25.2 9999: Work with remote container images registries
 app-containers/slirp4netns 1.3.3 1.3.4 1.3.5 1.3.7: User-mode networking for unprivileged network namespaces
 app-containers/snapd 2.63-r1: Service and tools for management of snap packages
 app-containers/syft 0.75.0 0.76.0 0.94.0 0.95.0 1.9.0 1.18.1: Generate a Software Bill of Materials from container images and filesystems
@@ -1465,7 +1464,7 @@ app-crypt/freepg 2.5.20 2.5.21: Cross-distro GnuPG fork focused on OpenPGP compl
 app-crypt/gcr 3.41.2-r2 4.4.0.1-r1 4.4.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
-app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r2: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r2 9999: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
 app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
@@ -1887,7 +1886,7 @@ app-editors/vim-classic 8.3.0 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 9999: vim-classic and gvim-classic shared files
 app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
-app-editors/vscode 1.144.0-r1 1.145.0 1.146.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.146.0 1.147.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.140.06880-r1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r4: A cross-platform hex editor designed specially for large files
@@ -2435,7 +2434,7 @@ app-emulation/plus42 1.3.13 1.3.15 1.5.1: An Enhanced HP-42S Calculator Simulato
 app-emulation/protontricks 1.13.1 1.14.1 1.15.0: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r2: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.4.2: Qt GUI configuration tool for Wine
-app-emulation/qemu 10.0.7-r2 10.0.10-r2 10.0.14-r1 10.1.3-r3 10.2.2-r2 10.2.3-r1 10.2.3-r4 10.2.4-r2 11.1.2-r2 9999: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 10.0.7-r2 10.0.14-r1 10.0.15 10.1.3-r3 10.1.5 10.2.3-r4 10.2.4-r2 11.1.2-r2 11.1.3 11.2.0_rc0 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/qemu-guest-agent 8.2.0 9.2.0 10.2.2 10.2.3: QEMU Guest Agent (qemu-ga) for use when running inside a VM
 app-emulation/qemu-init-scripts 0.3.0-r1: Kvm and qemu init scripts
 app-emulation/qtrvsim 0.9.8-r1: RISC-V CPU simulator for education
@@ -5242,7 +5241,7 @@ dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic tes
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/openjdk 8.504_p01 8.512_p09 8.514_p01 11.0.32.1_p1 11.0.32.1_p1-r2 11.0.33_p10 11.0.33.1_p1 17.0.20.1_p1 17.0.20.1_p1-r1 17.0.21.0.3_p1 17.0.21.1_p2 21.0.12.1_p1 21.0.12.1_p1-r1 21.0.13.0.3_p1 21.0.13.1_p2 25.0.4.1_p1 25.0.5.0.3_p1 25.0.5.1_p2 27.0.1.1_p4 28_alpha24: Open source implementation of the Java programming language
 dev-java/openjdk-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1-r1 17.0.21_p9 21.0.12.1_p1-r1 21.0.13_p9 25.0.4.1_p1-r1 25.0.5_p8 27.0.1.0.2_p1 28_alpha22: Prebuilt Java JDK binaries provided by Eclipse Temurin
-dev-java/openjdk-jre-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1 17.0.21_p9 21.0.12.1_p1 21.0.13_p9 25.0.4.1_p1 25.0.5_p8: Prebuilt Java JRE binaries provided by Eclipse Temurin
+dev-java/openjdk-jre-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1 17.0.21_p9 17.0.21.1_p2 21.0.12.1_p1 21.0.13_p9 21.0.13.1_p2 25.0.4.1_p1 25.0.5_p8 25.0.5.1_p2: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
 dev-java/opentest4j 1.3.0-r1: Open Test Alliance for the JVM
@@ -11138,7 +11137,7 @@ dev-util/nsight-compute 2026.3.0.13: performance analysis tool designed to visua
 dev-util/nsight-graphics 2025.2.0 2026.3.1: standalone developer tool with ray-tracing support
 dev-util/nsight-systems 2026.5.1: performance analysis tool designed to visualize an application's algorithms
 dev-util/numdiff 5.9.0 5.9.0-r1: File comparision, ignoring small numeric differences and formats
-dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.9.2 13.4.1: NVIDIA CUDA Toolkit (compiler and friends)
+dev-util/nvidia-cuda-toolkit 11.8.0-r4 12.9.2 13.4.1 13.4.3: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/objconv 2.51: object code file converted (COFF, ELF, OMF, MACHO)
 dev-util/omake 0.10.3-r2 0.10.7-r1: Make replacement
 dev-util/open-vcdiff 0.8.4-r2: An encoder/decoder for the VCDIFF (RFC3284) format
@@ -11151,7 +11150,7 @@ dev-util/patchelf 0.17.2-r1 0.18.0 0.19.2 0.19.3: Small utility to modify the dy
 dev-util/patchutils 0.4.2 0.4.4-r1 0.4.4-r2 0.4.5-r1: Collection of tools that operate on patch files
 dev-util/patdiff 0.16.0 0.17.0: Colored patience diffs with word-level refinement
 dev-util/peg 0.1.19 0.1.20: Recursive-descent parser generators for C
-dev-util/perf 6.19.12 7.2-r1 7.3-r1: Userland tools for Linux Performance Counters
+dev-util/perf 6.19.12 7.2-r1 7.3-r1 9999: Userland tools for Linux Performance Counters
 dev-util/pixi 0.84.1 0.84.2: A package management and workflow tool
 dev-util/pkgcheck 0.10.49 0.10.50 9999: pkgcore-based QA utility for ebuild repos
 dev-util/pkgconf 2.5.1 3.0.7 3.0.11 9999: pkg-config compatible replacement with no dependencies other than C99
@@ -13656,7 +13655,7 @@ media-libs/nanosvg 20231202: Simple stupid single-header-file SVG parse
 media-libs/nas 1.9.5-r2: Network Audio System
 media-libs/netpbm 11.2.22 11.2.31 11.16.2 9999: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/noise-suppression-for-voice 1.10-r2 9999: A real-time noise suppression plugin for voice
-media-libs/nv-codec-headers 12.1.14.0 12.1.14.1 13.0.19.0 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
+media-libs/nv-codec-headers 13.0.19.1 13.1.15.0: FFmpeg version of headers required to interface with Nvidias codec APIs
 media-libs/nvidia-vaapi-driver 0.0.18-r1: A VA-API implemention using NVIDIA's NVDEC
 media-libs/oidn 2.3.2-r1 2.3.3-r1: Intel Open Image Denoise library
 media-libs/openal 1.24.3 1.25.2: Software implementation of the OpenAL 3D audio API
@@ -14987,7 +14986,7 @@ net-im/sendxmpp 1.24: A perl-script to send xmpp (jabber), similar to what mail(
 net-im/sendxmpp-scala 1.2.1 1.2.2-r1 9999: Send XMPP (Jabber) messages via command line
 net-im/signal-cli-bin 0.13.9 0.13.19 0.14.1 0.14.8: Send and receive messages of Signal Messenger over a command line interface
 net-im/signal-desktop-bin 8.34.0: Allows you to send and receive messages of Signal Messenger on your computer
-net-im/slack 4.50.143 4.51.180 4.51.191: Team collaboration tool
+net-im/slack 4.51.191 4.53.287: Team collaboration tool
 net-im/spectrum2 2.2.1_p20260727-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: Cross-platform C++ library for implementing XMPP applications
 net-im/synapse 1.152.1 1.155.0 1.156.0: Reference implementation of Matrix homeserver
@@ -15738,7 +15737,7 @@ net-proxy/adzapper 20110915-r2: Redirector for squid to intercept advertising, p
 net-proxy/cntlm 0.93_beta5-r4: Cntlm is an NTLM/NTLMv2 authenticating HTTP proxy
 net-proxy/dante 1.4.1-r6 1.4.3 1.4.4: A free socks4,5 and msproxy implementation
 net-proxy/dnsproxy 1.17-r1: The dnsproxy daemon is a proxy for DNS queries
-net-proxy/haproxy 3.0.5 3.0.27 3.0.29 3.0.30 3.0.9999 3.2.23 3.2.25 3.2.26 3.2.9999 3.4.4 3.4.6 3.4.7 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
+net-proxy/haproxy 3.0.5 3.0.27 3.0.29 3.0.30 3.0.31 3.0.9999 3.2.23 3.2.25 3.2.26 3.2.27 3.2.9999 3.4.4 3.4.6 3.4.7 3.4.8 3.4.9999 9999: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
@@ -17828,7 +17827,7 @@ sys-devel/distcc 3.4-r4 3.4-r6 3.4-r9: Distribute compilation of C code across s
 sys-devel/dwz 0.16 0.17 9999: DWARF optimization and duplicate removal tool
 sys-devel/elftoolchain 0.7.1_p20210319: Libraries/utilities to handle ELF objects (BSD drop in replacement for libelf)
 sys-devel/flex 2.6.4-r6: The Fast Lexical Analyzer
-sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20261008 14.4.1_p20261029 14.4.1_p20261105 14.4.1_p20261112 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20261009 15.3.1_p20261030 15.3.1_p20261106 15.3.1_p20261113 15.3.9999 16.2.0 16.2.1_p20260926 16.2.1_p20261031 16.2.1_p20261107 16.2.1_p20261114 16.3.9999 17.0.0_p20261025 17.0.0_p20261101 17.0.0_p20261108 17.0.0_p20261115 17.0.9999: The GNU Compiler Collection
+sys-devel/gcc 8.5.0-r2 9.5.0 10.5.0 11.5.0 12.5.0 13.2.0 13.4.1_p20260603 13.5.0 14.3.1_p20260604 14.4.0 14.4.1_p20260716 14.4.1_p20261008 14.4.1_p20261029 14.4.1_p20261105 14.4.1_p20261112 14.5.9999 15.3.0 15.3.1_p20260717 15.3.1_p20261009 15.3.1_p20261030 15.3.1_p20261106 15.3.1_p20261113 15.3.9999 16.2.0 16.2.1_p20260926 16.2.1_p20261031 16.2.1_p20261107 16.2.1_p20261114 16.3.9999 17.0.0_p20261025 17.0.0_p20261101 17.0.0_p20261108 17.0.0_p20261115-r1 17.0.9999: The GNU Compiler Collection
 sys-devel/gcc-config 2.12.1 2.12.2 9999: Utility to manage compilers
 sys-devel/gettext 0.21.1 0.22.5-r2 0.23.1-r1 0.23.2 0.25.1 0.26 1.0: GNU locale utilities
 sys-devel/gnuconfig 20260517 99999999: Updated config.sub and config.guess file from GNU
@@ -18661,7 +18660,7 @@ x11-base/xorg-proto 2025.1 2026.1 9999: X.Org combined protocol headers
 x11-base/xorg-server 21.1.26 26.0.99.903-r1 9999: X.Org X servers
 x11-base/xorg-sgml-doctools 1.12.1: SGML entities and XML/CSS stylesheets used in X.Org docs
 x11-base/xwayland 24.1.15 26.0.99.903 9999: Standalone X server running under Wayland
-x11-drivers/nvidia-drivers 390.157 470.256.02-r2 535.309.01 580.178.04 580.196.07 595.44.16 595.104.02 595.112.07 615.78.08 620.70.06 620.73.04: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 390.157 470.256.02-r2 580.196.07 595.44.16-r1 595.112.07-r1 620.70.06-r1 620.73.04-r1: NVIDIA Accelerated Graphics Driver
 x11-drivers/xf86-input-elographics 1.4.4: Elographics input driver
 x11-drivers/xf86-input-evdev 2.11.0: Generic Linux input driver
 x11-drivers/xf86-input-joystick 1.6.4: X.Org driver for joystick input devices
