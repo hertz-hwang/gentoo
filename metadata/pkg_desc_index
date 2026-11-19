@@ -1091,7 +1091,7 @@ app-admin/superadduser 1.15: Interactive adduser script from Slackware
 app-admin/supervisor 4.3.0: A system for controlling process state under UNIX
 app-admin/sxid 4.2-r3 4.20130802: suid, sgid file and directory checking
 app-admin/sysklogd 2.5.2-r1 2.6.2-r1 2.7.2 9999: Standard log daemons
-app-admin/syslog-ng 4.10.2 4.12.0: syslog replacement with advanced filtering features
+app-admin/syslog-ng 4.10.2 4.12.0 4.13.0: syslog replacement with advanced filtering features
 app-admin/syslog-summary 1.14-r5 1.14-r6: Summarizes the contents of a syslog log file
 app-admin/sysrqd 17-r2: Daemon providing access to the kernel sysrq functions via network
 app-admin/sysstat 12.6.2-r2 12.7.9: System performance tools for Linux
@@ -1466,7 +1466,7 @@ app-crypt/gifshuffle 2.0-r1: GIF colourmap steganography
 app-crypt/glep63-check 12: GLEP 63 compliance checker for OpenPGP keys
 app-crypt/gnupg 2.5.20-r1 2.5.21 2.5.22 2.5.24 2.5.24-r2 9999: The GNU Privacy Guard, a GPL OpenPGP implementation
 app-crypt/gnupg-pkcs11-scd 0.11.0 9999: PKCS#11 support for GnuPG
-app-crypt/gocryptfs 2.6.1-r1: Encrypted overlay filesystem written in Go
+app-crypt/gocryptfs 2.6.1-r1 2.7.0: Encrypted overlay filesystem written in Go
 app-crypt/gorilla 1.4-r2: Password Safe in secure way with GUI interface
 app-crypt/gpa 0.11.0-r2 0.11.1: GNU Privacy Assistant (GPA): a graphical user interface for GnuPG
 app-crypt/gpg-ringmgr 1.12-r1: GPG Keyring Manager to handle large GPG keyrings more easily
@@ -2686,6 +2686,7 @@ app-metrics/fusioninventory-agent 2.5.2: The FusionInventory agent is a generic 
 app-metrics/github-exporter 1.0.3 1.3.1: Github statistics exporter for prometheus
 app-metrics/go-carbon 0.17.3 0.18.0: Golang implementation of Graphite/Carbon server
 app-metrics/grok_exporter 1.0.0_rc5: Unstructured log data exporter for Prometheus
+app-metrics/ipmi_exporter 1.7.0 1.10.1: Remote IPMI exporter for Prometheus
 app-metrics/memcached_exporter 0.10.0 0.15.0 0.18.0: Prometheus exporter for memcached
 app-metrics/mongodb_exporter 0.43.1 0.47.1 0.51.0 0.54.0: Prometheus exporter for MongoDB
 app-metrics/mysqld_exporter 0.14.0 0.14.0_p20221209 0.14.0_p20230328 0.18.0 0.20.0: Prometheus exporter for MySQL server metrics
@@ -2848,7 +2849,7 @@ app-misc/interceptty 0.6-r3: a program that can sit between a serial port and an
 app-misc/irtrans-irclient 6.01.05-r1: ASCII Client for the IRTrans Server
 app-misc/irtrans-irserver 6.09.04-r1: Server software for IRTrans
 app-misc/jail 2.0-r4: Builds a chroot and configures all the required files, directories and libraries
-app-misc/jaq 2.2.0 2.3.0 3.0.0 3.1.0 3.1.1 3.1.2: Just another JSON query tool
+app-misc/jaq 3.1.1 3.1.2 3.2.0: Just another JSON query tool
 app-misc/jdupes 1.28.0-r1 1.31.1 1.31.2 9999: Identify duplicate files on the filesystem
 app-misc/jf 0.6.2-r2 1.0.0: A small utility to safely format and print JSON objects in the commandline
 app-misc/jo 1.9: JSON output from a shell
@@ -4087,7 +4088,7 @@ dev-db/phpmyadmin 5.2.3: Web-based administration for MySQL and MariaDB database
 dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.10 3.4.6 3.5.7 3.6.4 3.7.0: Geographic Objects for PostgreSQL
-dev-db/postgresql 14.25 15.20 16.16 17.12 18.7 19_rc2 9999: PostgreSQL RDBMS
+dev-db/postgresql 14.25 15.20 16.16 17.12 18.7 19.0 9999: PostgreSQL RDBMS
 dev-db/powa-archivist 5.3.0: PostgreSQL Workload Analyzer Archivist
 dev-db/powa-collector 1.3.2: PostgreSQL Workload Analyzer Collector
 dev-db/powa-web 5.1.5: PostgreSQL Workload Analyzer user interface
@@ -5158,7 +5159,7 @@ dev-java/jclasslib 4.3.1: Java bytecode viewer
 dev-java/jcommander 1.83-r1: Command line parsing framework for Java
 dev-java/jctools-core 4.0.5-r1 4.0.7: Java Concurrency Tools Core Library
 dev-java/jdbc-mysql 9.6.0: JDBC Type 4 driver for MySQL
-dev-java/jdbc-postgresql 42.7.13: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database
+dev-java/jdbc-postgresql 42.7.13 42.7.14: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL database
 dev-java/jdepend 2.10-r1: Traverses Java class file directories and generates design quality metrics
 dev-java/jdisasm 1.0.6: A disassembler for Java .class files
 dev-java/jdom 1.1.3-r2 2.0.6.1: Java-based solution for accessing, manipulating, and outputting XML data
@@ -5421,7 +5422,7 @@ dev-lang/orc 0.4.41 0.4.42: The Oil Runtime Compiler, a just-in-time compiler fo
 dev-lang/parrot 8.1.0-r4: Virtual machine designed to compile and execute bytecode for dynamic languages
 dev-lang/pcc 1.1.0-r2: pcc portable c compiler
 dev-lang/perl 5.40.2 5.42.0-r1 5.42.2 5.44.0: Larry Wall's Practical Extraction and Report Language
-dev-lang/php 8.2.35 8.3.36 8.4.27 8.5.12: The PHP language runtime engine
+dev-lang/php 8.2.35 8.2.36 8.3.36 8.3.37 8.4.27 8.4.28 8.5.12 8.5.13: The PHP language runtime engine
 dev-lang/pico8 0.2.7-r1: Fantasy console for making and playing tiny games and other computer programs
 dev-lang/polyml 5.9.1 5.9.2-r1: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.23 2.7.8.0.0 2.7.8.0.0-r1 2.7.8.0.1 3.11.7.3.23-r1 3.11.8.0.0 3.11.8.0.1 3.12.8.0.0 3.12.8.0.1: A fast, compliant alternative implementation of the Python (3.12) language
@@ -5435,7 +5436,7 @@ dev-lang/qu-prolog 10.8-r1: Extended Prolog supporting quantifiers, object-varia
 dev-lang/rakudo 2026.02 2026.08 2026.09: A compiler for the Raku programming language
 dev-lang/rapydscript-ng 0.7.22 9999: Pythonic JavaScript that doesn't suck
 dev-lang/regina-rexx 3.9.5 3.9.6: Portable Rexx interpreter
-dev-lang/ruby 3.2.11-r1 3.3.13 3.3.9999 3.4.12 3.4.9999 4.0.9 4.0.9999: An object-oriented scripting language
+dev-lang/ruby 3.2.11-r1 3.3.13 3.3.14 3.3.9999 3.4.12 3.4.13 3.4.9999 4.0.9 4.0.10 4.0.9999: An object-oriented scripting language
 dev-lang/rust 1.90.0-r1 1.91.0 1.92.0_p1-r1 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language originally developed by Mozilla
 dev-lang/rust-bin 1.90.0 1.91.0 1.92.0 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Systems programming language from Mozilla
 dev-lang/rust-common 1.90.0 1.91.0 1.92.0 1.93.1 1.94.1 1.95.0 1.96.1 1.97.1 1.98.1 1.99.0 9999: Common files shared between multiple slots of Rust
@@ -5647,6 +5648,7 @@ dev-libs/lager 0.1.1-r1 0.1.2: Library to assist value-oriented design
 dev-libs/leancrypto 1.7.2-r3 1.8.0 9999: Lean cryptographic library usable for bare-metal environments
 dev-libs/level-zero 1.30.0-r1 1.32.0-r1 1.33.1-r1 1.34.0 1.35.0: oneAPI Level Zero headers, loader and validation layer
 dev-libs/leveldb 1.23-r6: A fast key-value storage library written at Google
+dev-libs/lexbor 3.0.1: Modular web engine (HTML/CSS parser, renderer, ...)
 dev-libs/libIDL 0.8.14-r4: CORBA tree builder
 dev-libs/libaio 0.3.113-r2 0.3.113_p8 9999: Asynchronous input/output library that uses the kernels native interface
 dev-libs/libansilove 1.4.2-r1 1.4.3 1.4.4 1.4.5 1.4.6 9999: library to convert ANSi and artscene related file formats into PNG images
@@ -11036,7 +11038,7 @@ dev-util/gengetopt 2.23-r1: Tool to write command line option parsing code for C
 dev-util/gertty 1.6.0-r3 9999: Gertty is a console-based interface to the Gerrit Code Review system
 dev-util/gi-docgen 2025.4 2025.5 2026.1: A documentation generator for GObject-based libraries
 dev-util/git-bug 0.12.0: Distributed, offline-first bug tracker embedded in git
-dev-util/git-delta 0.18.2-r3 0.19.2: Syntax-highlighting pager for git
+dev-util/git-delta 0.18.2-r3 0.19.2 0.21.2: Syntax-highlighting pager for git
 dev-util/git-fixup 1.6.1: Fighting the copy-paste element of your rebase workflow
 dev-util/gitchangelog 3.2.0: Creates a nicely formatted changelog from git log history
 dev-util/github-cli 2.102.0 2.103.3 9999: GitHub CLI
@@ -12135,7 +12137,7 @@ gnome-base/libgnomecanvas 2.30.3-r1: The Gnome 2 Canvas library
 gnome-base/libgnomekbd 3.28.1: Gnome keyboard configuration library
 gnome-base/libgtop 2.40.0-r2 2.41.3: A library that provides top functionality to applications
 gnome-base/librsvg 2.40.21-r1 2.58.5-r1 2.62.3 2.62.4: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 49.6-r1 50.3.1 50.4: Default file manager for the GNOME desktop
+gnome-base/nautilus 49.6-r2 50.3.1 50.4: Default file manager for the GNOME desktop
 gnome-extra/cinnamon 6.6.9: A fork of GNOME Shell with layout similar to GNOME 2
 gnome-extra/cinnamon-control-center 6.6.0: Cinnamons's main interface to configure various aspects of the desktop
 gnome-extra/cinnamon-desktop 6.6.2: A collection of libraries and utilites used by Cinnamon
@@ -13202,12 +13204,12 @@ media-gfx/gscan2pdf 2.13.5: Scan documents, perform OCR, produce PDFs and DjVus
 media-gfx/gthumb 3.12.10 3.12.12: Image viewer and browser for Gnome
 media-gfx/gtkimageview 1.6.4: A simple image viewer widget for GTK
 media-gfx/hp2xx 3.4.4-r4: Convert Hewlett-Packard's HP-GL plotter language to other graphics formats
-media-gfx/hugin 2025.0.1 2026.0_rc1 9999: GUI for the creation & processing of panoramic images
+media-gfx/hugin 2025.0.1 2026.0.0 9999: GUI for the creation & processing of panoramic images
 media-gfx/hydrus 694 9999: A booru-like media organizer for the desktop
 media-gfx/icon-slicer 0.3-r1: Utility for generating icon themes and libXcursor cursor themes
 media-gfx/icoutils 0.32.3-r1: Tools to extract and convert images in icon and cursor files (.ico, .cur)
 media-gfx/igal 3.2: Static HTML image gallery generator
-media-gfx/imagemagick 7.1.2.32 7.1.2.35 9999: A collection of tools and libraries for many image formats
+media-gfx/imagemagick 7.1.2.35 7.1.2.36 9999: A collection of tools and libraries for many image formats
 media-gfx/imageworsener 1.3.5: Utility for image scaling and processing
 media-gfx/img2pdf 0.4.4-r1 0.5.1 0.6.1 0.6.3: Losslessly convert raster images to PDF
 media-gfx/imv 5.0.1: Minimal image viewer designed for tiling window manager users
@@ -14810,7 +14812,7 @@ net-analyzer/ttl 0.13.3 0.15.3 0.16.1 0.17.0 0.18.0 0.19.0: Modern traceroute/mt
 net-analyzer/upnpscan 0.4-r3: Scans the network for UPnP capable devices
 net-analyzer/vnstat 2.13-r2 2.13-r3 2.14 9999: Console-based network traffic monitor that keeps statistics of network usage
 net-analyzer/webfuzzer 0.2.0-r2: Poor man's web vulnerability scanner
-net-analyzer/wireshark 4.6.8 4.6.9 9999: Network protocol analyzer (sniffer)
+net-analyzer/wireshark 4.6.8 4.6.9 4.6.10 9999: Network protocol analyzer (sniffer)
 net-analyzer/wtfis 0.14.0 0.15.0 9999: Passive hostname, domain and IP lookup tool for non-robots
 net-analyzer/xnetload 1.11.3-r1: Displays a count and a graph of the traffic over a specified network connection
 net-analyzer/xprobe 0.3-r1 0.3-r2: Active OS fingerprinting tool - this is Xprobe2
@@ -14990,7 +14992,7 @@ net-im/slack 4.51.191 4.53.287: Team collaboration tool
 net-im/spectrum2 2.2.1_p20260727-r1: An open source instant messaging transport
 net-im/swift 4.0.3-r3: Cross-platform C++ library for implementing XMPP applications
 net-im/synapse 1.152.1 1.155.0 1.156.0: Reference implementation of Matrix homeserver
-net-im/talk-desktop-bin 2.2.3 2.2.4 2.3.2 2.3.3 2.3.4: Nextcloud Talk Desktop client
+net-im/talk-desktop-bin 2.3.2 2.3.3 2.3.4 2.3.5: Nextcloud Talk Desktop client
 net-im/telegram-desktop 7.1.2-r1 7.3.1 7.3.5: Official desktop client for Telegram
 net-im/telegram-desktop-bin 7.3.3 7.4.4: Official desktop client for Telegram (binary package)
 net-im/telepathy-mission-control 5.16.6: An account manager and channel dispatcher for the Telepathy framework
@@ -15068,7 +15070,7 @@ net-libs/fzssh 1.3.0 1.4.0: A SSH/SFTP library based on libfilezilla
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
 net-libs/gloox 1.0.24-r1 1.0.28: A portable high-level Jabber/XMPP client library for C++
 net-libs/gnome-online-accounts 3.56.5 3.58.1: GNOME framework for accessing online accounts
-net-libs/gnutls 3.8.11 3.8.12 3.8.12-r1 3.8.13: Secure communications library implementing the SSL, TLS and DTLS protocols
+net-libs/gnutls 3.8.11 3.8.12 3.8.12-r1 3.8.13 3.8.14: Secure communications library implementing the SSL, TLS and DTLS protocols
 net-libs/google-cloud-cpp 2.30.0-r1: Google Cloud Client Library for C++
 net-libs/grpc 1.71.0 1.72.0 1.75.1 1.80.0 1.85.1: Modern open source high performance RPC framework
 net-libs/gsoap 2.8.130-r1 2.8.130-r2 2.8.146: A cross-platform open source C and C++ SDK for SOAP/XML Web services
@@ -15741,7 +15743,7 @@ net-proxy/haproxy 3.0.5 3.0.27 3.0.29 3.0.30 3.0.31 3.0.9999 3.2.23 3.2.25 3.2.2
 net-proxy/haproxy-dataplaneapi 3.0.3 3.1.5: haproxy dataplane api / sidecar
 net-proxy/hatop 0.8.2-r1: Ncurses client and real-time monitoring and displaying of HAProxy status
 net-proxy/havp 0.92a-r3: HTTP AntiVirus Proxy
-net-proxy/lyrebird 0.6.0: An obfuscating proxy supporting Tor's pluggable transport protocol obfs4
+net-proxy/lyrebird 0.6.0 0.10.0: An obfuscating proxy supporting Tor's pluggable transport protocol obfs4
 net-proxy/microsocks 1.0.2 1.0.3: Multithreaded, small, efficient SOCKS5 server
 net-proxy/mitmproxy 12.2.3 12.3.0 12.3.1: An interactive, SSL-capable, man-in-the-middle HTTP proxy
 net-proxy/mitmproxy-linux 0.12.11 0.12.15 0.12.16: mitmproxy's Rust bits (Linux-specific part)
@@ -16776,7 +16778,7 @@ sec-keys/openpgp-keys-gmp 20250628: OpenPGP keys used by Niels Möller (to sign 
 sec-keys/openpgp-keys-gnupg 20220210 20260703 20260913: OpenPGP keys used to sign GnuPG releases
 sec-keys/openpgp-keys-gnustep 20251025: OpenPGP keys used by the GNUstep project
 sec-keys/openpgp-keys-gnutls 20260210 20261103: OpenPGP keys used by GnuTLS
-sec-keys/openpgp-keys-gocryptfs 20250916 20260208: OpenPGP keys used to sign gocryptfs
+sec-keys/openpgp-keys-gocryptfs 20260208: OpenPGP keys used to sign gocryptfs
 sec-keys/openpgp-keys-grep 20220407: OpenPGP keys used by GNU Grep
 sec-keys/openpgp-keys-grke 20260714: OpenPGP key used by Graham Keeling
 sec-keys/openpgp-keys-groff 20260929: OpenPGP keys used by GNU roff
@@ -16808,7 +16810,7 @@ sec-keys/openpgp-keys-kamilaszewczyk 20260920 20261103: OpenPGP keys used by Kam
 sec-keys/openpgp-keys-kamildudka 20220525: OpenPGP keys used by Kamil Dudka
 sec-keys/openpgp-keys-karelzak 20220331 20230110 20230517: OpenPGP keys used by Karel Zak
 sec-keys/openpgp-keys-karlberry 20250528: OpenPGP keys used by Karl Berry
-sec-keys/openpgp-keys-kde 20261008 99999999: OpenPGP keys used for KDE releases
+sec-keys/openpgp-keys-kde 20261008 20261119 99999999: OpenPGP keys used for KDE releases
 sec-keys/openpgp-keys-keepass 20260415: OpenPGP key used by KeePass
 sec-keys/openpgp-keys-keepassxc 20261023: OpenPGP key used for KeePassXC releases
 sec-keys/openpgp-keys-kentoverstreet 20241012: OpenPGP keys used by Kent Overstreet
@@ -17419,7 +17421,7 @@ sys-apps/kbd 2.9.0-r2 2.10.0 9999: Keyboard and console utilities
 sys-apps/kexec-tools 2.0.32 2.0.32-r1 9999: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.6.3-r1: Linux Key Management Utilities
 sys-apps/kmod 33 34.2 9999: Library and tools for managing linux kernel modules
-sys-apps/kmscon 9.3.2 9.3.3 9.3.4 9.3.5 10.0.0 10.0.0-r1 10.0.1 10.0.2 10.0.3 10.0.4 10.1.0 10.1.1: KMS/DRM based virtual Console Emulator
+sys-apps/kmscon 10.1.1 10.1.2: KMS/DRM based virtual Console Emulator
 sys-apps/lcdsplash 0.3-r1: splash Gentoo boot information on LCD's
 sys-apps/lcdutils 0.2-r2: (Sun) Cobalt Qube/RaQ button reading and LCD writing utilities
 sys-apps/less 704 710 9999: Excellent text file viewer
@@ -18016,7 +18018,7 @@ sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel bu
 sys-kernel/gentoo-kernel 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Linux kernel built with Gentoo patches
 sys-kernel/gentoo-kernel-bin 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-kernel-modprep 6.1.192 6.1.192_p1 6.6.162 6.6.162_p1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.192-r1 6.6.162-r1 6.12.117 6.12.118 6.18.63 6.18.64 7.3.4 7.3.5: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-sources 6.1.192-r1 6.1.192-r2 6.6.162-r1 6.6.162-r2 6.12.117 6.12.118 6.12.118-r1 6.18.63 6.18.64 6.18.64-r1 7.3.4 7.3.5 7.3.5-r1: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18024,12 +18026,12 @@ sys-kernel/installkernel 68-r1 70-r1 9999: Gentoo fork of installkernel script f
 sys-kernel/kci-dev 0.1.11: Stand alone tool to interact with KernelCI
 sys-kernel/kpatch 0.9.10 9999: Dynamic kernel patching for Linux
 sys-kernel/linux-docs 6.18.33: Developer documentation generated from the Linux kernel
-sys-kernel/linux-firmware 20260410 20260519 20260622 20260810 20260910 20260916 20261019 99999999: Linux firmware files
+sys-kernel/linux-firmware 20260622 20260810 20260910 20260916 20261019 99999999: Linux firmware files
 sys-kernel/linux-headers 3.18-r1 4.4-r1 4.9-r1 4.14-r2 4.19-r1 5.4-r2 5.10-r2 5.15-r3 6.1 6.6-r1 6.8-r1 6.9 6.10 6.11 6.12 6.13 6.14 6.15 6.16 6.16-r2 6.17-r1 6.18 6.19 7.0 7.1: Linux system headers
 sys-kernel/linux-next 9999: Linux kernel and patches aimed at the next kernel merge window
 sys-kernel/mips-sources 4.19.325 5.4.294: Kernel.org sources for MIPS-based machines
 sys-kernel/modprobed-db 2.47 2.48: Keeps track of EVERY kernel module ever used - useful for make localmodconfig
-sys-kernel/pf-sources 6.17_p4 6.18_p6 6.19_p5 7.0_p1 7.0_p4 7.1_p6 7.2_p6: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
+sys-kernel/pf-sources 6.17_p4 6.18_p6 6.19_p5 7.0_p1 7.0_p4 7.1_p6 7.2_p6 7.3_p6: Linux kernel fork that includes the pf-kernel patchset and Gentoo's genpatches
 sys-kernel/raspberrypi-image 6.1.21_p20230405 6.6.28_p20240424 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250915 6.12.75_p20260408 6.18.46_p20260824 6.18.48_p20260907 6.18.50_p20260915 9999: Raspberry Pi (all versions) kernel and modules
 sys-kernel/raspberrypi-sources 6.1.21_p20230405 6.6.31_p20240529 6.6.47_p20240902 6.12.47_p20250916 6.12.75_p20260408 6.18.46_p20260824-r1 6.18.48_p20260907 6.18.50_p20260915: Raspberry Pi kernel sources
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15.185_p86 6.0.5_p14 6.1.134_p51 6.1.141_p52 6.5.2_p8 6.6.94_p56 6.12.28_p10: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
@@ -18041,7 +18043,7 @@ sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based PO
 sys-kernel/vanilla-kernel 6.1.192 6.1.9999 6.6.162 6.6.9999 6.12.117 6.12.118 6.12.9999 6.18.63 6.18.64 6.18.9999 7.3.4 7.3.5: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 6.1.192 6.6.162 6.12.118 6.18.64 7.3.5: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
-sys-kernel/zen-sources 7.2.15: The Zen Kernel Live Sources
+sys-kernel/zen-sources 7.3.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
 sys-libs/basu 0.2.1: The sd-bus library, extracted from systemd
 sys-libs/binutils-libs 2.34-r2 2.35.2 2.36.1-r2 2.37_p1-r2 2.38-r2 2.39-r5 2.40-r7 2.41-r5 2.42-r2 2.43-r3 2.44-r2 2.45 2.45-r1 2.45.1 2.46.0 2.46.1 2.46.1-r1 2.47 9999: Core binutils libraries (libbfd, libopcodes, libiberty) for external packages
@@ -18379,7 +18381,7 @@ www-apache/mod_nss 1.0.18-r1: SSL/TLS module for the Apache HTTP server
 www-apache/mod_perl 2.0.13-r1 2.0.13-r2: An embedded Perl interpreter for Apache2
 www-apache/mod_qos 11.79: A QOS module for the apache webserver
 www-apache/mod_rpaf 0.8.4: Reverse proxy add forward module
-www-apache/mod_security 2.9.12 2.9.14: Application firewall and intrusion detection for Apache
+www-apache/mod_security 2.9.12 2.9.14 2.9.15: Application firewall and intrusion detection for Apache
 www-apache/mod_tls 0.14.0-r1 0.15.0: Apache module that uses rustls to provide a memory safe TLS implementation in Rust
 www-apache/mod_whatkilledus 2.01-r1: Debug segmentation faults in Apache threads
 www-apache/mod_wsgi 5.0.2 6.0.2 6.0.5: An Apache2 module for running Python WSGI applications
@@ -18560,7 +18562,7 @@ www-servers/lighttpd 1.4.85 9999: Lightweight high-performance web server
 www-servers/mongrel2 1.11.0-r3: A language agnostic web server focused on web applications
 www-servers/moonbridge 1.1.3-r1: Network Server for Lua Applications
 www-servers/nginx 1.30.7 1.31.9 9999: Robust, small and high performance HTTP and reverse proxy server
-www-servers/pound 4.22 4.23: A http/https reverse-proxy and load-balancer
+www-servers/pound 4.22 4.23 4.24: A http/https reverse-proxy and load-balancer
 www-servers/pshs 0.4.3 0.4.4: Pretty small HTTP server -- a command-line tool to share files
 www-servers/puma 6.6.0 6.6.1 7.2.0 7.2.1: a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack
 www-servers/servefile 0.5.4-r2 0.5.4-r3 0.5.4-r4: Serve a single file via HTTP
