@@ -1094,7 +1094,7 @@ app-admin/sysklogd 2.5.2-r1 2.6.2-r1 2.7.2 9999: Standard log daemons
 app-admin/syslog-ng 4.10.2 4.12.0 4.13.0: syslog replacement with advanced filtering features
 app-admin/syslog-summary 1.14-r5 1.14-r6: Summarizes the contents of a syslog log file
 app-admin/sysrqd 17-r2: Daemon providing access to the kernel sysrq functions via network
-app-admin/sysstat 12.6.2-r2 12.7.9: System performance tools for Linux
+app-admin/sysstat 12.6.2-r2 12.7.9 12.8.1: System performance tools for Linux
 app-admin/system-config-printer 1.5.18-r3: Graphical user interface for CUPS administration
 app-admin/systemdgenie 0.100.0_pre20260624: Systemd managment utility
 app-admin/tenshi 0.18: Log parsing and notification program
@@ -3903,7 +3903,7 @@ dev-build/scons 4.10.1 4.11.0 4.11.1: Extensible Python-based build utility
 dev-build/slibtool 0.6.1 0.7.0 0.7.1 0.7.2 0.7.3 0.7.4 9999: A strong libtool implementation, written in C
 dev-build/steve 1.5.0 1.5.1 1.5.2 9999: A load-balancing jobserver for Gentoo
 dev-build/tinycmmc 0.1.0 9999: Tiny CMake Module Collections
-dev-build/xfce4-dev-tools 4.20.0 4.21.1 4.21.2: A set of scripts and m4/autoconf macros that ease build system maintenance
+dev-build/xfce4-dev-tools 4.20.0 4.21.2 4.21.3: A set of scripts and m4/autoconf macros that ease build system maintenance
 dev-cpp/ETL 1.4.1: Multi-platform class and template library
 dev-cpp/abseil-cpp 20250127.1 20250512.1 20250814.1 20260107.1: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/ada 3.4.2 3.4.4 4.0.0: WHATWG-compliant and fast URL parser written in modern C++
@@ -8719,7 +8719,7 @@ dev-python/gitpython 3.1.58 3.1.59 3.1.60 3.1.61 3.1.62 3.2.0 3.2.1: Library use
 dev-python/gmpy2 2.3.1 2.3.2 2.4.0_alpha0: Python bindings for GMP, MPC, MPFR and MPIR libraries
 dev-python/google-api-core 2.41.0 2.42.0 2.43.0 2.43.1 2.43.2 2.44.0: Core Library for Google Client Libraries
 dev-python/google-api-python-client 2.201.0 2.202.0: Google API Client for Python
-dev-python/google-auth 2.62.0 2.62.1 2.62.2 2.63.0: Google Authentication Library
+dev-python/google-auth 2.62.0 2.62.1 2.62.2 2.63.0 2.63.1: Google Authentication Library
 dev-python/google-auth-httplib2 0.4.2 0.4.3 0.4.4: httplib2 Transport for Google Auth
 dev-python/google-auth-oauthlib 1.4.1 1.5.0: Google Authentication Library
 dev-python/google-i18n-address 3.1.1: Google's i18n address metadata repository
@@ -8905,7 +8905,7 @@ dev-python/keyutils 0.6-r2: A set of python bindings for keyutils
 dev-python/kgb 7.3: Python function spy support for unit tests
 dev-python/kiwisolver 1.5.0 1.5.1: An efficient C++ implementation of the Cassowary constraint solving algorithm
 dev-python/klein 24.8.0: Micro-framework for developing production-ready web services with Python
-dev-python/knowit 0.6.1 0.7.0 0.7.1: Know better your media files
+dev-python/knowit 0.7.1 0.8.0: Know better your media files
 dev-python/kombu 5.6.2 5.7.0: AMQP Messaging Framework for Python
 dev-python/krb5 0.9.0 0.10.0: Kerberos API bindings for Python
 dev-python/lap 0.5.13 0.5.14: Linear Assignment Problem solver (LAPJV/LAPMOD)
@@ -8931,7 +8931,7 @@ dev-python/libnacl 2.1.0: Python ctypes wrapper for libsodium
 dev-python/libpass 1.9.3 1.9.4: Fork of passlib, a password hashing framework
 dev-python/librt 0.16.0 0.17.0: Mypyc runtime library
 dev-python/libsass 0.23.0-r1: A straightforward binding of libsass for Python
-dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0 0.60.0 0.61.0 0.62.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
+dev-python/libtmux 0.46.2 0.52.1 0.53.0 0.53.1 0.55.0 0.55.1 0.56.0 0.57.1 0.58.0 0.58.1 0.59.0 0.60.0 0.61.0 0.62.0 0.64.0: Typed library that provides an ORM wrapper for tmux, a terminal multiplexer
 dev-python/libusb1 3.4.0: Python ctype-based wrapper around libusb1
 dev-python/libvirt-python 11.10.0 12.0.0 12.1.0 12.2.0 12.6.0 12.7.0 9999: libvirt Python bindings
 dev-python/license-expression 30.4.4: Parse, compare, simplify and normalize license expressions
@@ -8983,7 +8983,7 @@ dev-python/mdurl 0.1.2: Markdown URL utilities
 dev-python/mdx-gh-links 0.4: An extension which adds links to GitHub users, repositories, issues and commits
 dev-python/mecab-python 1.0.7: Python binding for MeCab
 dev-python/mechanicalsoup 1.4.0: A Python library for automating interaction with websites
-dev-python/mechanize 0.4.10: Stateful programmatic web browsing in Python
+dev-python/mechanize 0.4.10 0.4.11: Stateful programmatic web browsing in Python
 dev-python/mediafile 0.17.0: Read and write audio files' tags in Python
 dev-python/memory-allocator 0.2.0 0.2.1: An extension class for memory allocation in cython
 dev-python/merge3 0.0.16 1.0.0: Python implementation of 3-way merge
@@ -9814,7 +9814,7 @@ dev-python/trakit 0.4.0 0.5.0: Guess additional information from titles in media
 dev-python/translate-toolkit 3.20.0 3.20.1 3.20.2 3.20.3 3.20.4 3.20.6: Toolkit to convert between many translation formats
 dev-python/tree-sitter 0.25.2-r1 0.26.0_p20260816-r1 0.26.1-r1: Python bindings to the Tree-sitter parsing library
 dev-python/treq 25.5.0 26.7.0: A requests-like API built on top of twisted.web's Agent
-dev-python/trimesh 5.1.1 5.2.0 5.2.1: Python library for loading and using triangular meshes
+dev-python/trimesh 5.2.0 5.2.1 5.2.2: Python library for loading and using triangular meshes
 dev-python/trio 0.34.0 0.35.0: Python library for async concurrency and I/O
 dev-python/trio-websocket 0.12.2: WebSocket client and server implementation for Python Trio
 dev-python/trove-classifiers 2026.6.1.19 2026.9.21.13: Canonical source for classifiers on PyPI (pypi.org)
@@ -9885,7 +9885,7 @@ dev-python/verboselogs 1.7-r1: Verbose logging for Python's logging module
 dev-python/versioneer 0.29-r1: Easy VCS-based management of project version strings
 dev-python/versioningit 3.3.0: A setuptools plugin for versioning based on git tags
 dev-python/vine 5.1.0: Python Promises
-dev-python/virtualenv 21.14.10 21.14.11 21.14.12 21.14.13 21.15.1 21.15.2 21.15.6 21.15.9 21.15.11: Virtual Python Environment builder
+dev-python/virtualenv 21.14.13 21.15.1 21.15.2 21.15.6 21.15.9 21.15.11 21.15.12: Virtual Python Environment builder
 dev-python/virtualenv-clone 0.5.7: A script for cloning a non-relocatable virtualenv
 dev-python/virtualenvwrapper 6.1.1: Set of extensions to Ian Bicking's virtualenv tool
 dev-python/visitor 0.1.3-r2: A tiny pythonic visitor implementation
@@ -9898,7 +9898,7 @@ dev-python/watchdog 6.0.0 7.0.0 7.1.0 7.1.1: Python API and shell utilities to m
 dev-python/watchfiles 1.2.0 1.3.0: Simple, modern file watching and code reload in Python
 dev-python/wcag-contrast-ratio 0.9-r1: A library for computing contrast ratios, as required by WCAG 2.0
 dev-python/wcmatch 11.1 11.2 12.0 12.0.1 12.0.3 12.0.4: Wildcard/glob file name matcher
-dev-python/wcwidth 0.9.1 0.9.2 0.9.3 0.9.4: Measures number of Terminal column cells of wide-character codes
+dev-python/wcwidth 0.9.3 0.9.4 0.9.5: Measures number of Terminal column cells of wide-character codes
 dev-python/weasyprint 69.0 70.0: Visual rendering engine for HTML and CSS that can export to PDF
 dev-python/webcolors 25.10.0: Color names and value formats defined by the HTML and CSS specifications
 dev-python/webencodings 0.5.1-r2 0.6.1: Character encoding aliases for legacy web content
@@ -11002,7 +11002,7 @@ dev-util/devhelp 43.0: An API documentation browser for GNOME
 dev-util/dialog 1.3.20250116-r1 1.3.20250817: Tool to display dialog boxes from a shell
 dev-util/diff-cover 9.6.0: Find diff lines that do not have test coverage
 dev-util/diffball 1.0.1-r2: Delta compression suite for using/generating binary patches
-dev-util/diffoscope 325 327 329 332: Will try to get to the bottom of what makes files or directories different
+dev-util/diffoscope 325 327 329 332 339: Will try to get to the bottom of what makes files or directories different
 dev-util/diffstat 1.68 1.69: Display a histogram of diff changes
 dev-util/difftastic 0.68.0 0.69.0 0.71.0 0.72.0: A structural diff that understands syntax
 dev-util/diffuse 0.10.0 0.11.0: A graphical tool to compare and merge text files
@@ -14254,7 +14254,7 @@ media-sound/mp3val 0.1.8-r1: Validate and fix MPEG audio files
 media-sound/mp3wrap 0.5: Command-line utility that wraps multiple mp3 files into one large playable mp3
 media-sound/mpc 0.35: Commandline client for Music Player Daemon (media-sound/mpd)
 media-sound/mpck 0.15-r1: Checks MP3s for errors
-media-sound/mpd 0.24.12-r1 0.24.15 0.24.16 0.24.18: The Music Player Daemon (mpd)
+media-sound/mpd 0.24.12-r1 0.24.18 0.24.20: The Music Player Daemon (mpd)
 media-sound/mpd-ynca 0.3.0: MPD client to control Yamaha AV receivers with YNCA (network control) support
 media-sound/mpdas 0.4.5: AudioScrobbler client for MPD written in C++
 media-sound/mpdscribble 0.25: An MPD client that submits information to Audioscrobbler
