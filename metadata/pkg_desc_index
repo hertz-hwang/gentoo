@@ -2981,7 +2981,7 @@ app-misc/tmux 3.6a 3.7c 3.8 9999: Terminal multiplexer
 app-misc/tmux-mem-cpu-load 3.8.1 9999: CPU, RAM memory, and load monitor for use with tmux
 app-misc/tmux-xpanes 4.2.0: tmux-based terminal divider
 app-misc/tmux2html 0.1.11-r1: Render full tmux windows or individual panes as HTML
-app-misc/tmuxp 1.55.0 1.62.0 1.63.1 1.64.0 1.66.0 1.67.0 1.68.0 1.70.0 1.70.1-r1 1.74.0 1.76.0: tmux session manager. built on libtmux
+app-misc/tmuxp 1.55.0 1.62.0 1.63.1 1.64.0 1.66.0 1.67.0 1.68.0 1.70.0 1.70.1-r1 1.74.0 1.76.0 1.81.0: tmux session manager. built on libtmux
 app-misc/todo 2.12.0-r2 2.13.0: A CLI-based TODO list manager
 app-misc/toilet 0.3-r1: The Other Implementations letters. Figlet replacement
 app-misc/tpipe 1.6-r2: Command to duplicate standard input to more than one program
@@ -3129,7 +3129,7 @@ app-portage/kuroo 1.2.4 9999: Graphical Portage frontend based on KDE Frameworks
 app-portage/metagen 0.7.4 0.7.4-r1 9999: metadata.xml generator for ebuilds
 app-portage/mgorny-dev-scripts 90 91: Handy scripts for ebuild development and more
 app-portage/mirrorselect 2.7.0 2.8.1 9998 9999: Tool to help select distfiles mirrors for Gentoo
-app-portage/nattka 0.4.3 0.5.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
+app-portage/nattka 0.5.0 0.6.0: A New Arch Tester Toolkit -- open-source stable-bot replacement
 app-portage/no-distcc-env 9999: package.env files to disable distcc on a per-package basis
 app-portage/overlint 0.5.3-r6 0.5.4: Simple tool for static analysis of overlays
 app-portage/pfl 3.6.0: Searchable online file/package database for Gentoo
@@ -3962,7 +3962,7 @@ dev-cpp/highway 1.2.0 1.3.0 1.4.0 9999: Performance-portable, length-agnostic SI
 dev-cpp/htmlcxx 0.87-r1: A simple non-validating CSS 1 and HTML parser for C++
 dev-cpp/json11 1.0.0-r1: A tiny JSON library for C++11
 dev-cpp/jsoncons 1.6.0 1.10.0: C++ header-only library for JSON and JSON-like data formats
-dev-cpp/jwt-cpp 0.6.0 0.7.1 0.7.2 0.7.2-r1: header only library for creating and validating JSON Web Tokens in C++11
+dev-cpp/jwt-cpp 0.7.2-r1: header only library for creating and validating JSON Web Tokens in C++11
 dev-cpp/kokkos 4.3.1-r1 4.6.2-r2 4.7.4 5.0.2 5.1.1 9999: C++ Performance Portability Programming EcoSystem
 dev-cpp/libcmis 0.6.3 9999: C++ client library for the CMIS interface
 dev-cpp/libjson-rpc-cpp 1.4.0-r1: JSON-RPC (1.0 & 2.0) framework for C++
@@ -3990,7 +3990,7 @@ dev-cpp/range-v3 0.12.0-r1: Range library for C++14/17/20, basis for C++20's std
 dev-cpp/rapidfuzz-cpp 3.3.3 3.3.4: Rapid fuzzy string matching in C++
 dev-cpp/rapidyaml 0.12.1 0.15.2: Library to parse and emit YAML, and do it fast
 dev-cpp/robin-map 1.3.0 1.4.0-r1 1.4.1 9999: C++ fast hash map and hash set using robin hood hashing
-dev-cpp/scitokens-cpp 1.1.0-r1 1.1.1 1.1.2 1.1.3 1.2.0 1.3.0 1.4.0 1.4.1: C++ implementation of the SciTokens library with a C library interface
+dev-cpp/scitokens-cpp 1.4.1: C++ implementation of the SciTokens library with a C library interface
 dev-cpp/sdbus-c++ 2.3.1: High-level C++ D-Bus library
 dev-cpp/simdutf 9.3.2 9.3.3: Unicode validation and transcoding at billions of characters per second
 dev-cpp/simpleini 4.27 4.28: C++ library providing a simple API to read and write INI-style files
@@ -5241,7 +5241,7 @@ dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/openjdk 8.504_p01 8.512_p09 8.514_p01 11.0.32.1_p1 11.0.32.1_p1-r2 11.0.33_p10 11.0.33.1_p1 17.0.20.1_p1 17.0.20.1_p1-r1 17.0.21.0.3_p1 17.0.21.1_p2 21.0.12.1_p1 21.0.12.1_p1-r1 21.0.13.0.3_p1 21.0.13.1_p2 25.0.4.1_p1 25.0.5.0.3_p1 25.0.5.1_p2 27.0.1.1_p4 28_alpha25: Open source implementation of the Java programming language
-dev-java/openjdk-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1-r1 17.0.21_p9 21.0.12.1_p1-r1 21.0.13_p9 25.0.4.1_p1-r1 25.0.5_p8 27.0.1.0.2_p1 28_alpha22: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk-bin 8.504_p01 8.512_p09 11.0.32.1_p1 11.0.33_p10 17.0.20.1_p1-r1 17.0.21_p9 17.0.21.1_p2 21.0.12.1_p1-r1 21.0.13_p9 21.0.13.1_p2 25.0.4.1_p1-r1 25.0.5_p8 27.0.1.1_p4 28_alpha25: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.504_p01 8.512_p09 8.514_p01 11.0.32.1_p1 11.0.33_p10 11.0.33.1_p1 17.0.20.1_p1 17.0.21_p9 17.0.21.1_p2 21.0.12.1_p1 21.0.13_p9 21.0.13.1_p2 25.0.4.1_p1 25.0.5_p8 25.0.5.1_p2: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
@@ -5563,7 +5563,7 @@ dev-libs/eekboard 1.0.8_p20121001-r2: An easy to use virtual keyboard toolkit
 dev-libs/efl 1.27.0-r1 1.28.1 1.29.0: Enlightenment Foundation Libraries all-in-one package
 dev-libs/elfutils 0.195 0.196-r1 0.196-r2 0.197 9999: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/ell 0.77 0.78 0.79 0.80 0.81 0.82 0.83 9999: Embedded Linux Library provides core, low-level functionality for system daemons
-dev-libs/expat 2.9.0 2.10.0: Stream-oriented XML parser library
+dev-libs/expat 2.10.0 2.11.0: Stream-oriented XML parser library
 dev-libs/faxpp 0.4-r2: Small, fast and conformant XML pull parser written in C
 dev-libs/fcgi 2.4.1_pre0910052249-r2: FastCGI Developer's Kit
 dev-libs/fddl 20111124-r2: Free Decision Diagram Library
@@ -9333,10 +9333,10 @@ dev-python/pypugjs 6.0.3 7.0.0: Pug (Jade) syntax adapter for Django, Jinja2 and
 dev-python/pypy-exe 7.3.23 8.0.0 8.0.1: PyPy executable (build from source)
 dev-python/pypy-exe-bin 7.3.23 8.0.0 8.0.1: PyPy executable (pre-built version)
 dev-python/pyqt-builder 1.19.1 1.20.3 1.21.0: The PEP 517 compliant PyQt build system
-dev-python/pyqt6 6.11.0-r1 6.12.0 6.12.1: Python bindings for the Qt framework
-dev-python/pyqt6-pdf 6.11.0 6.140.0 6.140.1: Python bindings for QtPdf
+dev-python/pyqt6 6.11.0-r1 6.12.1: Python bindings for the Qt framework
+dev-python/pyqt6-pdf 6.11.0 6.140.1: Python bindings for QtPdf
 dev-python/pyqt6-sip 13.13.0 13.13.1: sip module support for PyQt6
-dev-python/pyqt6-webengine 6.11.0 6.140.0 6.140.1: Python bindings for QtWebEngine
+dev-python/pyqt6-webengine 6.11.0 6.140.1: Python bindings for QtWebEngine
 dev-python/pyqtgraph 0.14.0-r1: A pure-python graphics and GUI library built on PyQt and numpy
 dev-python/pyquery 2.1.0: A jQuery-like library for python
 dev-python/pyrate-limiter 4.5.0 4.5.1: Python Rate-Limiter using Leaky-Bucket Algorimth Family
@@ -9968,41 +9968,41 @@ dev-python/zstandard 0.25.0: Zstandard Bindings for Python
 dev-python/zxcvbn 4.5.0: Realistic password strength estimator
 dev-qt/qlementine 1.4.2: Modern QStyle for desktop Qt6 applications
 dev-qt/qt-creator 20.0.2 9999: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qt-docs 6.11.3_p202610220312 6.12.0_p202609280346: Qt6 documentation and examples for Qt Creator and other tools
-dev-qt/qt3d 6.11.3 6.12.0 6.12.9999 6.9999: 3D rendering module for the Qt6 framework
-dev-qt/qt5compat 6.11.3 6.12.0 6.12.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
-dev-qt/qtbase 6.11.3-r1 6.12.0-r1 6.12.9999 6.9999: Cross-platform application development framework
-dev-qt/qtcharts 6.11.3 6.12.0 6.12.9999 6.9999: Chart component library for the Qt6 framework
-dev-qt/qtconnectivity 6.11.3 6.12.0 6.12.9999 6.9999: Bluetooth and NFC support library for the Qt6 framework
-dev-qt/qtdeclarative 6.11.3 6.12.0-r1 6.12.9999 6.9999: Qt Declarative (Quick 2)
-dev-qt/qtgraphs 6.11.3 6.12.0 6.12.9999 6.9999: Graphs component library for the Qt6 framework
-dev-qt/qthttpserver 6.11.3 6.12.0 6.12.9999 6.9999: HTTP server functionality for the Qt6 framework
-dev-qt/qtimageformats 6.11.3 6.12.0 6.12.9999 6.9999: Additional format plugins for the Qt image I/O system
-dev-qt/qtlanguageserver 6.11.3 6.12.0 6.12.9999 6.9999: Implementation of the Language Server Protocol for Qt
-dev-qt/qtlocation 6.11.3 6.12.0 6.12.9999 6.9999: Location (places, maps, navigation) library for the Qt6 framework
-dev-qt/qtmultimedia 6.11.3 6.12.0 6.12.9999 6.9999: Multimedia (audio, video, radio, camera) library for the Qt6 framework
-dev-qt/qtnetworkauth 6.11.3 6.12.0 6.12.9999 6.9999: Network authorization library for the Qt6 framework
+dev-qt/qt-docs 6.11.3_p202610220312 6.12.0_p202609280346 6.12.1_p202611180426: Qt6 documentation and examples for Qt Creator and other tools
+dev-qt/qt3d 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: 3D rendering module for the Qt6 framework
+dev-qt/qt5compat 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt module containing the unsupported Qt 5 APIs
+dev-qt/qtbase 6.11.3-r1 6.12.0-r1 6.12.1 6.12.9999 6.9999: Cross-platform application development framework
+dev-qt/qtcharts 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Chart component library for the Qt6 framework
+dev-qt/qtconnectivity 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Bluetooth and NFC support library for the Qt6 framework
+dev-qt/qtdeclarative 6.11.3 6.12.0-r1 6.12.1 6.12.9999 6.9999: Qt Declarative (Quick 2)
+dev-qt/qtgraphs 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Graphs component library for the Qt6 framework
+dev-qt/qthttpserver 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: HTTP server functionality for the Qt6 framework
+dev-qt/qtimageformats 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Additional format plugins for the Qt image I/O system
+dev-qt/qtlanguageserver 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Implementation of the Language Server Protocol for Qt
+dev-qt/qtlocation 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Location (places, maps, navigation) library for the Qt6 framework
+dev-qt/qtmultimedia 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Multimedia (audio, video, radio, camera) library for the Qt6 framework
+dev-qt/qtnetworkauth 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Network authorization library for the Qt6 framework
 dev-qt/qtpbfimageplugin 5.2-r1: Qt image plugin for displaying Mapbox vector tiles
-dev-qt/qtpositioning 6.11.3 6.12.0 6.12.9999 6.9999: Physical position determination library for the Qt6 framework
-dev-qt/qtquick3d 6.11.3 6.12.0 6.12.9999 6.9999: Qt module and API for defining 3D content in Qt QuickTools
-dev-qt/qtquicktimeline 6.11.3 6.12.0 6.12.9999 6.9999: Qt module for keyframe-based timeline construction
-dev-qt/qtremoteobjects 6.11.3 6.12.0 6.12.9999 6.9999: Inter-Process Communication (IPC) library for the Qt6 framework
-dev-qt/qtscxml 6.11.3 6.12.0 6.12.9999 6.9999: State Chart XML (SCXML) support library for the Qt6 framework
-dev-qt/qtsensors 6.11.3 6.12.0 6.12.9999 6.9999: Hardware sensor access library for the Qt6 framework
-dev-qt/qtserialbus 6.11.3 6.12.0 6.12.9999 6.9999: Qt module to access CAN, ModBus, and other industrial serial buses and protocols
-dev-qt/qtserialport 6.11.3 6.12.0 6.12.9999 6.9999: Serial port abstraction library for the Qt6 framework
-dev-qt/qtshadertools 6.11.3 6.12.0 6.12.9999 6.9999: Qt APIs and Tools for Graphics Pipelines
-dev-qt/qtspeech 6.11.3 6.12.0 6.12.9999 6.9999: Text-to-speech library for the Qt6 framework
-dev-qt/qtsvg 6.11.3 6.12.0 6.12.9999 6.9999: SVG rendering library for the Qt6 framework
-dev-qt/qttasktree 6.11.3 6.12.0 6.12.9999 6.9999: Module to compose and execute asynchronous task workflows for the Qt6 framework
-dev-qt/qttools 6.11.3 6.12.0 6.12.9999 6.9999: Qt Tools Collection
-dev-qt/qttranslations 6.11.3 6.12.0 6.12.9999 6.9999: Translation files for the Qt6 framework
-dev-qt/qtvirtualkeyboard 6.11.3 6.12.0 6.12.9999 6.9999: Customizable input framework and virtual keyboard for Qt
-dev-qt/qtwayland 6.11.3 6.12.0 6.12.9999 6.9999: Toolbox for making Qt based Wayland compositors
-dev-qt/qtwebchannel 6.11.3 6.12.0 6.12.9999 6.9999: Qt WebChannel
+dev-qt/qtpositioning 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Physical position determination library for the Qt6 framework
+dev-qt/qtquick3d 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt module and API for defining 3D content in Qt QuickTools
+dev-qt/qtquicktimeline 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt module for keyframe-based timeline construction
+dev-qt/qtremoteobjects 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Inter-Process Communication (IPC) library for the Qt6 framework
+dev-qt/qtscxml 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: State Chart XML (SCXML) support library for the Qt6 framework
+dev-qt/qtsensors 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Hardware sensor access library for the Qt6 framework
+dev-qt/qtserialbus 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt module to access CAN, ModBus, and other industrial serial buses and protocols
+dev-qt/qtserialport 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Serial port abstraction library for the Qt6 framework
+dev-qt/qtshadertools 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt APIs and Tools for Graphics Pipelines
+dev-qt/qtspeech 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Text-to-speech library for the Qt6 framework
+dev-qt/qtsvg 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: SVG rendering library for the Qt6 framework
+dev-qt/qttasktree 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Module to compose and execute asynchronous task workflows for the Qt6 framework
+dev-qt/qttools 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt Tools Collection
+dev-qt/qttranslations 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Translation files for the Qt6 framework
+dev-qt/qtvirtualkeyboard 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Customizable input framework and virtual keyboard for Qt
+dev-qt/qtwayland 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Toolbox for making Qt based Wayland compositors
+dev-qt/qtwebchannel 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Qt WebChannel
 dev-qt/qtwebengine 6.11.3 6.140.0 6.140.9999 6.9999: Library for rendering dynamic web content in Qt6 C++ and QML applications
-dev-qt/qtwebsockets 6.11.3 6.12.0 6.12.9999 6.9999: Implementation of the WebSocket protocol for the Qt6 framework
-dev-qt/qtwebview 6.11.3 6.12.0 6.12.9999 6.9999: Module for displaying web content in a QML application using the Qt6 framework
+dev-qt/qtwebsockets 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Implementation of the WebSocket protocol for the Qt6 framework
+dev-qt/qtwebview 6.11.3 6.12.0 6.12.1 6.12.9999 6.9999: Module for displaying web content in a QML application using the Qt6 framework
 dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
 dev-ruby/abbrev 0.1.2: Calculates a set of unique abbreviations for a given set of strings
 dev-ruby/abstract 1.0.0-r5: Library which enable you to define abstract method in Ruby
@@ -12374,7 +12374,7 @@ kde-apps/kaccounts-integration 26.08.3: Administer web accounts for the sites an
 kde-apps/kaccounts-providers 26.08.3: KDE accounts providers
 kde-apps/kaddressbook 26.04.3-r1 26.08.3: Address book application based on KDE Frameworks
 kde-apps/kajongg 26.08.3: Classical Mah Jongg for four players
-kde-apps/kalarm 26.04.3-r1 26.08.3: Application to manage alarms and other timer based alerts for the desktop
+kde-apps/kalarm 26.04.3-r1 26.08.3-r2: Application to manage alarms and other timer based alerts for the desktop
 kde-apps/kalgebra 26.08.3: MathML-based 2D and 3D graph calculator by KDE
 kde-apps/kalzium 26.08.3: Periodic table of the elements
 kde-apps/kamera 26.08.3: Plasma integration for gphoto2 cameras
@@ -12673,7 +12673,7 @@ kde-plasma/ksystemstats 6.7.6 6.8.3: Plugin-based system monitoring daemon
 kde-plasma/kup 6.8.3: Backup scheduler for the Plasma desktop
 kde-plasma/kwallet-pam 6.7.6 6.8.3: PAM module to not enter KWallet password again after login
 kde-plasma/kwayland 6.7.6 6.8.3: Qt-style API to interact with the wayland-client API
-kde-plasma/kwin 6.7.6 6.8.3: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwin 6.7.6 6.8.3 6.8.3-r1: Flexible, composited Window Manager for windowing systems on Linux
 kde-plasma/kwin-x11 6.7.6: Flexible, composited X window manager
 kde-plasma/kwrited 6.7.6 6.8.3: KDE Plasma daemon listening for wall and write messages
 kde-plasma/layer-shell-qt 6.7.6 6.8.3: Qt component to allow applications make use of Wayland wl-layer-shell protocol
@@ -12716,7 +12716,7 @@ kde-plasma/qqc2-breeze-style 6.7.6 6.8.3: Breeze inspired QQC2 Style
 kde-plasma/sddm-kcm 6.7.6 6.8.3: KDE Plasma control module for SDDM
 kde-plasma/spectacle 6.7.6 6.8.3: Screenshot capture utility
 kde-plasma/systemsettings 6.7.6 6.8.3: Control Center to configure KDE Plasma desktop
-kde-plasma/union 6.8.3: Style engine providing a unified style description to separate output styles
+kde-plasma/union 6.8.3-r1: Style engine providing a unified style description to separate output styles
 kde-plasma/wacomtablet 6.7.6: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.7.6 6.8.3: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 llvm-core/clang 20.1.8 21.1.8 22.1.8 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: C language family frontend for LLVM
@@ -12799,7 +12799,7 @@ mail-client/mailx-support 20060102-r3: Provides lockspool utility
 mail-client/mutt 2.3.2 2.4.1 2.4.3: A small but very powerful text-based mail client
 mail-client/mutt-wizard 3.3.1 9999: A system for automatically configuring neomutt and isync
 mail-client/neomutt 20260616-r1 99999999: A small but very powerful text-based mail client
-mail-client/roundcube 1.6.19 1.6.21 1.7.6 9999: Browser-based multilingual IMAP client with an application-like user interface
+mail-client/roundcube 1.6.19 1.6.21 1.6.22 1.7.6 1.7.7 9999: Browser-based multilingual IMAP client with an application-like user interface
 mail-client/s-nail 14.9.25 14.9.25-r1: Enhanced mailx-compatible mail client based on Heirloom mailx (nail)
 mail-client/thunderbird 153.6.0 153.7.0 159.0 160.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 153.6.0 153.7.0 159.0 160.0: Thunderbird Mail Client
@@ -14325,7 +14325,7 @@ media-sound/quimup 2.1.1-r1 2.1.2-r1: Qt client for the music player daemon (MPD
 media-sound/quodlibet 4.6.0-r2 4.6.0-r3 4.7.1 4.7.1-r1 4.7.1-r2: audio library tagger, manager, and player for GTK+
 media-sound/rawrec 0.9.991: CLI program to play and record audiofiles
 media-sound/rcenter 0.6.2-r1: Rcenter - A program to control the EMU10K Remote Control
-media-sound/reaper-bin 7.86: Digital audio workstation
+media-sound/reaper-bin 7.86-r1: Digital audio workstation
 media-sound/redoflacs 1.1.0: Bash commandline flac compressor, verifier, organizer, analyzer, retagger
 media-sound/rescrobbled 0.10.0: MPRIS music scrobbler daemon
 media-sound/rexima 1.4-r2: A curses-based interactive mixer which can also be used from the command-line
@@ -15168,7 +15168,7 @@ net-libs/libssh2 1.11.1-r2 9999: Library implementing the SSH2 protocol
 net-libs/libtelnet 0.23-r2: Simple RFC-compliant TELNET implementation as a C library
 net-libs/libtirpc 1.3.6 1.3.7 1.3.7-r2: Transport Independent RPC library (SunRPC replacement)
 net-libs/libtlsrpt 0.5.0 0.5.1 9999: library to implement TLSRPT
-net-libs/libtorrent 0.15.7 0.16.24 0.16.25 0.16.27 0.16.28 9999: BitTorrent library written in C++ for *nix
+net-libs/libtorrent 0.15.7 0.16.28 9999: BitTorrent library written in C++ for *nix
 net-libs/libtorrent-rasterbar 2.0.10 2.0.15 2.1.2: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace processing
 net-libs/libupnp 1.14.31 1.18.5 22.1.8 22.1.10 22.2.4: An Portable Open Source UPnP Development Kit
@@ -15626,7 +15626,7 @@ net-misc/wormhole-william 1.0.8: End-to-end encrypted file transfer, a magic wor
 net-misc/wput 0.6.2_p20130413_p11-r1: Tiny program like wget, to upload files/whole directories via FTP
 net-misc/x11-ssh-askpass 1.2.4.1-r2: X11-based passphrase dialog for use with OpenSSH
 net-misc/x2goserver 4.1.0.6: The X2Go server
-net-misc/xmrig 6.22.2 6.26.0-r1 9999: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
+net-misc/xmrig 6.22.2 6.27.0 9999: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/yandex-disk 0.1.6.1080_p1: CLI to access Yandex Disk file storage service
 net-misc/youtube-viewer 3.11.6 9999: A command line utility for viewing youtube-videos in Mplayer
 net-misc/yt-dlp 2026.10.26 9999: youtube-dl fork with additional features and fixes
@@ -15690,7 +15690,7 @@ net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses int
 net-p2p/nicotine+ 3.3.10 3.3.11: Graphical client for the Soulseek peer to peer network written in Python
 net-p2p/qbittorrent 5.1.4-r2 5.2.4-r1 5.3.0 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.8.1.1390 3.1.1.1075 9999: Resilient, fast and scalable file synchronization tool
-net-p2p/rtorrent 0.15.7 0.16.24 0.16.25 0.16.27 0.16.28 9999: BitTorrent Client using libtorrent
+net-p2p/rtorrent 0.15.7 0.16.28 9999: BitTorrent Client using libtorrent
 net-p2p/stig 0.14.0a_p0 0.14.2a_p0: TUI and CLI for the BitTorrent client Transmission
 net-p2p/syncthing 2.0.10 2.0.16 2.1.2 2.1.3 2.1.7: Open Source Continuous File Synchronization
 net-p2p/torrentinfo 1.8.7: A torrent file parser
@@ -16432,7 +16432,7 @@ sci-libs/spr 3.3.2-r2: Statistical analysis and machine learning library
 sci-libs/stellarsolver 2.8 2.9: Cross-platform Sextractor and Astrometry.net-Based internal astrometric solver
 sci-libs/suitesparse 5.4.0 7.12.2: Metapackage for a suite of sparse matrix tools
 sci-libs/suitesparseconfig 5.4.0 7.12.2-r2: Common configurations for all packages in suitesparse
-sci-libs/sundials 5.8.0 6.2.0 6.5.0 7.0.0 7.1.1 7.3.0 7.5.0 7.7.0 7.8.0: Suite of nonlinear solvers
+sci-libs/sundials 7.3.0 7.9.0: Suite of nonlinear solvers
 sci-libs/superlu 4.3-r4 5.3.0 7.0.1: Sparse LU factorization library
 sci-libs/superlu_mt 3.1-r1 4.0.2: Multithreaded sparse LU factorization library
 sci-libs/symengine 0.14.0-r3 0.15.0: Fast symbolic manipulation library, written in C++
@@ -16696,6 +16696,7 @@ sec-keys/openpgp-keys-apache-logging 20251104: OpenPGP keys used by logging.apac
 sec-keys/openpgp-keys-apache-lucene 20170408: OpenPGP keys used by lucene.apache.org
 sec-keys/openpgp-keys-apache-maven 20260421: OpenPGP keys used by maven.apache.org
 sec-keys/openpgp-keys-apache-pdfbox 20251111: OpenPGP keys used by pdfbox.apache.org
+sec-keys/openpgp-keys-apache-perl 20261122: OpenPGP key used to sign Apache Perl releases
 sec-keys/openpgp-keys-apache-poi 20230921 20240421: OpenPGP keys used by poi.apache.org
 sec-keys/openpgp-keys-apache-tomcat 9 10 11: OpenPGP keys used by tomcat.apache.org
 sec-keys/openpgp-keys-apache-tomcat-connectors 20141023: OpenPGP keys used by tomcat-connectors
@@ -17536,7 +17537,7 @@ sys-apps/sensei-raw-ctl 0.0_pre20180729-r1 0.0_pre20230801: SteelSeries Sensei R
 sys-apps/servicelog 1.1.15 1.1.16: Provides utilities for logging service-related events
 sys-apps/setserial 2.17-r6: Configure your serial ports with it
 sys-apps/sg3_utils 1.47 1.47-r1 1.47-r2 1.48: Apps for querying the sg SCSI interface
-sys-apps/shadow 4.19.4 4.20.0 4.20.2: Utilities to deal with user accounts
+sys-apps/shadow 4.19.4 4.20.0 4.20.2 4.20.4: Utilities to deal with user accounts
 sys-apps/smartmontools 7.5-r1 9999: Tools to monitor storage systems to provide advanced warning of disk degradation
 sys-apps/smc-sum 2.15.0.20251104: Updates the BIOS and IPMI firmware and system settings on Supermicro mainboards
 sys-apps/smcipmitool 2.31.0.260727: An out-of-band utility for interfacing with SuperBlade and IPMI devices via CLI
@@ -17611,7 +17612,7 @@ sys-auth/munge 0.5.18: An authentication service for creating and validating cre
 sys-auth/nss-docker-ng 1.0.7 1.1.3 1.2.1 1.3.0: NSS plugin for finding Docker containers by their ID or name
 sys-auth/nss-mdns 0.15.1 9999: Name Service Switch module for Multicast DNS
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
-sys-auth/nss-pam-ldapd 0.9.13: NSS module for name lookups using LDAP
+sys-auth/nss-pam-ldapd 0.9.13 0.9.14: NSS module for name lookups using LDAP
 sys-auth/nss_ldap 265-r11: NSS LDAP Module
 sys-auth/oath-toolkit 2.6.14 2.6.15: Toolkit for using one-time password authentication with HOTP/TOTP algorithms
 sys-auth/otpcalc 0.98.1: A One Time Password and S/Key calculator for GTK+
@@ -18017,10 +18018,10 @@ sys-kernel/dkms 3.3.0 3.4.3 3.4.4 3.4.5 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 110-r5 111-r2 112 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r2: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.17-r4 4.3.18 4.3.18-r1 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 6.1.192_p2 6.6.162_p2 6.12.118_p1 6.18.64_p1 7.3.5_p1: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 6.1.192_p2 6.6.162_p2 6.12.118_p1 6.18.64_p1 7.3.5_p1: Pre-built Linux kernel with Gentoo patches
-sys-kernel/gentoo-kernel-modprep 6.1.192_p2 6.6.162_p2 6.12.118_p1 6.18.64_p1 7.3.5_p1: Minimal subset of gentoo-kernel-bin for building modules, for containers
-sys-kernel/gentoo-sources 6.1.192-r2 6.6.162-r2 6.12.118-r1 6.18.64-r1 7.3.5-r1: Full sources including the Gentoo patchset for the 7.3 kernel tree
+sys-kernel/gentoo-kernel 6.1.192_p2 6.1.193 6.6.162_p2 6.6.163 6.12.118_p1 6.12.119 6.18.64_p1 6.18.65 7.3.5_p1 7.3.6: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 6.1.192_p2 6.1.193 6.6.162_p2 6.6.163 6.12.118_p1 6.12.119 6.18.64_p1 6.18.65 7.3.5_p1 7.3.6: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel-modprep 6.1.192_p2 6.1.193 6.6.162_p2 6.6.163 6.12.118_p1 6.12.119 6.18.64_p1 6.18.65 7.3.5_p1 7.3.6: Minimal subset of gentoo-kernel-bin for building modules, for containers
+sys-kernel/gentoo-sources 6.1.192-r2 6.1.193 6.6.162-r2 6.6.163 6.12.118-r1 6.12.119 6.18.64-r1 6.18.65 7.3.5-r1 7.3.6: Full sources including the Gentoo patchset for the 7.3 kernel tree
 sys-kernel/git-sources 7.4_rc1 7.4_rc2 7.4_rc3 7.4_rc4: The very latest -git version of the Linux kernel
 sys-kernel/gnumach 1.8_p20260224 1.8_p20260330 1.8_p20260630 9999: GNU Mach microkernel, for the Hurd
 sys-kernel/hurd 0.9_p20251029 0.9_p20260331 0.9_p20260630 9999: GNU Hurd is the GNU project's replacement for UNIX
@@ -18042,8 +18043,8 @@ sys-kernel/scx 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4: sched_ext schedulers and tools
 sys-kernel/scx-loader 1.1.0 1.1.1 1.1.2 1.1.3-r1: DBUS on-demand loader of sched-ext schedulers
 sys-kernel/udev-hid-bpf 2.2.0_p20251121: Automatic HID-BPF loader based on udev events for device workarounds
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 2.2.0 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 6.1.192 6.1.9999 6.6.162 6.6.9999 6.12.118 6.12.9999 6.18.64 6.18.9999 7.3.5: Linux kernel built from vanilla upstream sources
-sys-kernel/vanilla-sources 6.1.192 6.6.162 6.12.118 6.18.64 7.3.5: Full sources for the Linux kernel
+sys-kernel/vanilla-kernel 6.1.192 6.1.193 6.1.9999 6.6.162 6.6.163 6.6.9999 6.12.118 6.12.119 6.12.9999 6.18.64 6.18.65 6.18.9999 7.3.5 7.3.6: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-sources 6.1.193 6.6.163 6.12.119 6.18.65 7.3.6: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.41: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 7.3.5: The Zen Kernel Live Sources
 sys-libs/argp-standalone 1.5.0: Standalone argp library for use with musl
@@ -18070,7 +18071,7 @@ sys-libs/libcap 2.78 9999: POSIX 1003.1e capabilities
 sys-libs/libcap-ng 0.9.3 0.9.6: POSIX 1003.1e capabilities
 sys-libs/libchipcard 5.1.6-r1: Library for accessing chip cards via chip card readers (terminals)
 sys-libs/libfaketime 0.9.12: Report faked system time to programs
-sys-libs/libhx 5.3 5.4 5.5: Platform independent library providing basic system functions
+sys-libs/libhx 5.3 5.4 5.5 5.6: Platform independent library providing basic system functions
 sys-libs/libieee1284 0.2.11-r9: Library to query devices using IEEE1284
 sys-libs/libixp 0.5_p20110208-r3: A stand-alone client/server 9P library including ixpc client
 sys-libs/libmodulemd 2.15.2 2.15.3 9999: C Library for manipulating Fedora Modularity metadata files
@@ -18233,7 +18234,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 6.1.192_p2 6.6.162_p2 6.12.118_p1 6.18.64_p1 7.3.5_p1: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 6.1.192_p2 6.1.193 6.6.162_p2 6.6.163 6.12.118_p1 6.12.119 6.18.64_p1 6.18.65 7.3.5_p1 7.3.6: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0 10.0 10.0-r1 11.0: Virtual for .NET SDK
 virtual/editor 0-r8: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18380,7 +18381,7 @@ www-apache/mod_log_rotate 1.02: Log rotation support for mod_log_config based on
 www-apache/mod_maxminddb 1.2.0-r1 1.3.0: MaxMind DB Apache Module
 www-apache/mod_musicindex 1.4.1-r4: mod_musicindex allows nice displaying of directories containing music files
 www-apache/mod_nss 1.0.18-r1: SSL/TLS module for the Apache HTTP server
-www-apache/mod_perl 2.0.13-r1 2.0.13-r2: An embedded Perl interpreter for Apache2
+www-apache/mod_perl 2.0.13-r1 2.0.13-r2 2.0.14: An embedded Perl interpreter for Apache2
 www-apache/mod_qos 11.79: A QOS module for the apache webserver
 www-apache/mod_rpaf 0.8.4: Reverse proxy add forward module
 www-apache/mod_security 2.9.12 2.9.14 2.9.15: Application firewall and intrusion detection for Apache
@@ -18474,9 +18475,9 @@ www-client/elinks 0.18.0 0.19.0 0.19.1 9999: Advanced and well-established text-
 www-client/epiphany 49.8.1 50.6: GNOME webbrowser based on Webkit
 www-client/falkon 26.08.3: Cross-platform web browser using QtWebEngine
 www-client/fetch 1.0-r4: HTTP download tool built atop the HTTP fetcher library
-www-client/firefox 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
-www-client/firefox-bin 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser
-www-client/firefox-l10n 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1: Firefox Web Browser's translation files
+www-client/firefox 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1 161.0: Firefox Web Browser
+www-client/firefox-bin 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1 161.0: Firefox Web Browser
+www-client/firefox-l10n 153.6.0 153.7.0 159.0 159.0.1 160.0 160.0.1 161.0: Firefox Web Browser's translation files
 www-client/google-chrome 157.0.8103.38 157.0.8103.50 158.0.8127.36: The web browser from Google
 www-client/google-chrome-beta 157.0.8103.6 158.0.8127.2 159.0.8154.6: The web browser from Google
 www-client/google-chrome-unstable 158.0.8106.0 159.0.8130.0 160.0.8157.0: The web browser from Google
@@ -18563,7 +18564,7 @@ www-servers/kore 4.3.0_rc4 4.3.0_rc5: Web application platform for writing scala
 www-servers/lighttpd 1.4.85 9999: Lightweight high-performance web server
 www-servers/mongrel2 1.11.0-r3: A language agnostic web server focused on web applications
 www-servers/moonbridge 1.1.3-r1: Network Server for Lua Applications
-www-servers/nginx 1.30.7 1.31.9 9999: Robust, small and high performance HTTP and reverse proxy server
+www-servers/nginx 1.30.7 1.30.8 1.31.9 1.31.10 9999: Robust, small and high performance HTTP and reverse proxy server
 www-servers/pound 4.22 4.23 4.24: A http/https reverse-proxy and load-balancer
 www-servers/pshs 0.4.3 0.4.4: Pretty small HTTP server -- a command-line tool to share files
 www-servers/puma 6.6.0 6.6.1 7.2.0 7.2.1: a simple, fast, threaded, and highly concurrent HTTP 1.1 server for Ruby/Rack
@@ -19409,7 +19410,7 @@ x11-wm/xpra 6.2.5-r1 6.4.4 6.9999 9999: X Persistent Remote Apps (xpra) and Part
 xfce-base/exo 4.20.0-r1 4.21.0-r1: Extensions, widgets and framework library with session support for Xfce
 xfce-base/garcon 4.20.0 4.21.0: Xfce's freedesktop.org specification compatible menu implementation library
 xfce-base/libxfce4ui 4.20.2 4.21.7 4.21.8 4.21.9: Unified widget and session management libs for Xfce
-xfce-base/libxfce4util 4.20.1 4.21.0: A basic utility library for the Xfce desktop environment
+xfce-base/libxfce4util 4.20.1 4.21.0 4.21.1: A basic utility library for the Xfce desktop environment
 xfce-base/libxfce4windowing 4.20.6 4.20.7: Unified widget and session management libs for Xfce
 xfce-base/thunar 4.20.8 4.20.9 4.20.10 4.21.6 4.21.7-r1: File manager for the Xfce desktop environment
 xfce-base/thunar-volman 4.20.0: Daemon that enforces volume-related policies
