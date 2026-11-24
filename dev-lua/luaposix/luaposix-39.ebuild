@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,11 +9,14 @@ inherit lua toolchain-funcs
 
 DESCRIPTION="Bindings for POSIX APIs"
 HOMEPAGE="https://luaposix.github.io/luaposix/ https://github.com/luaposix/luaposix"
-SRC_URI="https://github.com/luaposix/luaposix/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="
+	https://github.com/luaposix/luaposix/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+	https://dev.gentoo.org/~conikost/distfiles/${P}-restore-luke.patch.gz
+"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~sparc x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="doc"
 REQUIRED_USE="${LUA_REQUIRED_USE}"
 
@@ -29,8 +32,12 @@ RDEPEND="${DEPEND}
 "
 BDEPEND="virtual/pkgconfig"
 
+PATCHES=( "${WORKDIR}/${PN}-39-restore-luke.patch" )
+
 src_prepare() {
 	default
+	# Restored 'luke' needs to be executable
+	chmod +x ./build-aux/luke || die
 	lua_copy_sources
 }
 
