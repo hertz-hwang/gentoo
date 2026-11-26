@@ -3115,7 +3115,7 @@ app-portage/g-octave 0.4.1-r8: A tool that generates and installs ebuilds for Oc
 app-portage/gemato 20.13 20.14 20.15: Stand-alone Manifest generation & verification tool
 app-portage/genlop 0.30.12 9999: Nice emerge.log parser
 app-portage/gentle 1.0.2: Gentoo Lazy Entry - a metadata.xml generator
-app-portage/gentoo-reminders 0.1.0 0.1.1 0.1.2 0.1.3: Generate reminder emails for Gentoo package maintainers
+app-portage/gentoodo 0.2.0: Generate reminder emails for Gentoo package maintainers
 app-portage/gentoolkit 0.8.1 0.8.2 9999: Collection of administration scripts for Gentoo
 app-portage/gentoopm 0.5.0 9999: A common interface to Gentoo package managers
 app-portage/getuto 1.18 1.19.1 2.0 9999: Standalone Gentoo gpg trust anchor generation tool for binpkgs
@@ -9964,7 +9964,7 @@ dev-python/zope-i18nmessageid 8.3 8.4: Zope support for i18nmessageid (tagging s
 dev-python/zope-interface 8.6 8.7: Interfaces for Python
 dev-python/zope-schema 8.1: Zope schema Architecture
 dev-python/zope-testing 6.1 6.2: Zope testing helpers
-dev-python/zstandard 0.25.0: Zstandard Bindings for Python
+dev-python/zstandard 0.25.0 0.25.0-r1: Zstandard Bindings for Python
 dev-python/zxcvbn 4.5.0: Realistic password strength estimator
 dev-qt/qlementine 1.4.2: Modern QStyle for desktop Qt6 applications
 dev-qt/qt-creator 20.0.2 21.0.0 9999: Lightweight IDE for C++/QML development centering around Qt
@@ -17309,11 +17309,11 @@ sys-apps/baobab 49.1 50.0: Disk usage browser for GNOME
 sys-apps/bar 1.11.1-r1: Console Progress Bar
 sys-apps/baselayout 2.17 2.18 2.18-r1 9999: Filesystem baselayout and init scripts
 sys-apps/baselayout-java 0.1.0-r3: Baselayout for Java
-sys-apps/bat 0.23.0-r3 0.24.0-r3 0.25.0-r1 0.26.1-r1: cat(1) clone with syntax highlighting and Git integration
+sys-apps/bat 0.25.0-r1 0.26.1-r1: cat(1) clone with syntax highlighting and Git integration
 sys-apps/bfs 4.0.8 4.1: Breadth-first version of the UNIX find command
 sys-apps/biosdevname 0.7.3-r1: Sets BIOS-given device names instead of kernel eth* names
 sys-apps/biosdisk 1.01: FreeDOS based BIOS updating utility for Dell machines
-sys-apps/bleachbit 4.6.0-r1 4.6.2 5.0.0 5.0.2 6.0.0: Clean junk to free disk space and to maintain privacy
+sys-apps/bleachbit 5.0.2 6.0.0 6.0.6: Clean junk to free disk space and to maintain privacy
 sys-apps/bolt 0.9.10 0.9.11: Userspace system daemon to enable security levels for Thunderbolt 3
 sys-apps/bubblewrap 0.11.2-r1 0.12.0 0.13.0: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/busybox 1.36.1-r4 1.37.0 1.38.0 9999: Utilities for rescue and embedded systems
