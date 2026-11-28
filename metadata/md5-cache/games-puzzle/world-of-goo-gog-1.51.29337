@@ -8,9 +8,9 @@ INHERIT=desktop unpacker xdg
 IUSE=bundled-libs
 KEYWORDS=~amd64 ~x86
 LICENSE=2dboy-EULA
-RDEPEND=!bundled-libs? ( media-libs/libsdl2[opengl,sound,video] media-libs/sdl2-mixer[vorbis] ) >=sys-devel/gcc-3.4 sys-libs/glibc virtual/opengl !games-puzzle/world-of-goo !games-puzzle/world-of-goo-hb
+RDEPEND=!bundled-libs? ( media-libs/libsdl2[opengl,sound,video] media-libs/sdl2-mixer[vorbis] ) >=sys-devel/gcc-3.4 sys-libs/glibc virtual/opengl !games-puzzle/world-of-goo-hb
 RESTRICT=bindist fetch strip bundled-libs? ( splitdebug )
 SLOT=0
 SRC_URI=world_of_goo_1_51_29337.sh
 _eclasses_=desktop	e447b5f77146d69797e9f03ff177f3f1	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	unpacker	4332a3f8fa974013f54f3bf39bab0de4	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=3a4065a0a6d54500f18fc43389c1c42a
+_md5_=10761f0f656e206d6cf652f5544035a4
