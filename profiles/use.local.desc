@@ -2519,8 +2519,6 @@ dev-python/pandas:full-support - Pull all packages to give pandas full support
 dev-python/peewee:native-extensions - Compiles native C extension for more complete SQLite3 support.
 dev-python/pillow:imagequant - Build with Image Quantization Library support
 dev-python/pillow:raqm - Support setting text direction, language or font features. Requires media-libs/raqm.
-dev-python/pivy:quarter - Use media-libs/quarter for GUI bindings
-dev-python/pivy:soqt - Use media-libs/SoQt for GUI bindings
 dev-python/pyarrow:parquet - Enables read/write parquet data format
 dev-python/pyglet:image - Enable support for image formats other than PNG and BMP
 dev-python/pymongo:native-extensions - Compiles native C extensions
@@ -3736,6 +3734,7 @@ kde-frameworks/sonnet:designer - Build plugins for dev-qt/qttools[designer]
 kde-frameworks/sonnet:hunspell - Enable the app-text/hunspell spell-checking backend
 kde-frameworks/sonnet:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
 kde-misc/kdeconnect:X - Enable remote input mousepad/shareinputdevices plugins relying on X11 libs
+kde-misc/kdeconnect:digitizer - Enable plugin that allows to use devices as pressure-sensitive drawing tablets
 kde-misc/kdeconnect:pulseaudio - Enable system volume control plugin using media-libs/libpulse
 kde-misc/kdeconnect:telephony - Enable telephony plugin using kde-frameworks/modemmanager-qt
 kde-misc/kio-gdrive:share - Enable support for a share menu using kde-frameworks/purpose
