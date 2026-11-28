@@ -934,7 +934,7 @@ app-admin/awscli 1.46.2 1.46.3 2.38.5 2.39.3 2.39.6 2.40.3 2.42.1 2.42.5: Univer
 app-admin/bitwarden-cli-bin 2026.8.0 2026.9.1: CLI client for Bitwarden compatible servers
 app-admin/bitwarden-desktop-bin 2026.9.0 2026.10.0: Bitwarden password manager desktop client
 app-admin/bpftune 0.4_p2: BPF driven auto-tuning
-app-admin/btrfs-assistant 2.3.1 2.3.2 3.0.0: GUI management tool to make managing a Btrfs filesystem easier
+app-admin/btrfs-assistant 2.3.1 2.3.2 3.0.0 3.1.0: GUI management tool to make managing a Btrfs filesystem easier
 app-admin/calamares 3.3.14-r1 3.3.14-r4 3.3.14-r8 3.4.2-r1: Distribution-independent installer framework
 app-admin/cancd 0.1.0-r6: CA NetConsole Daemon receives output from the Linux netconsole driver
 app-admin/ccze 0.2.1-r5: A flexible and fast logfile colorizer
@@ -1140,7 +1140,7 @@ app-arch/7zip 26.06: Free file archiver for extremely high compression
 app-arch/advancecomp 2.6-r1: Recompress ZIP, PNG and MNG, considerably improving compression
 app-arch/afio 2.5.2: CPIO-Archiver & backup program with fault tolerant compression
 app-arch/alien 8.95.6 8.95.9: Converts between the rpm, dpkg, stampede slp, and slackware tgz file formats
-app-arch/arc 5.21q: Create & extract files from DOS .ARC files
+app-arch/arc 5.21q 5.21q_p16: Create & extract files from DOS .ARC files
 app-arch/arj 3.10.22_p28-r1 3.10.22_p29: Utility for opening arj archives
 app-arch/atool 0.39.0-r1: Script for managing file archives of various types
 app-arch/brotli 1.2.1 9999: Generic-purpose lossless compression algorithm
@@ -1409,7 +1409,7 @@ app-containers/podman 6.1.4 6.2.0 9999: A tool for managing OCI containers and p
 app-containers/podman-compose 1.5.0 1.6.0: A script to run docker-compose.yml using Podman
 app-containers/podman-tui 2.0.0 9999: Terminal UI frontend for Podman
 app-containers/reg 0.16.1-r1: Docker registry v2 command line client
-app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2 1.5.3: CLI tool for spawning and running containers
+app-containers/runc 1.3.6 1.4.2 1.4.3 1.5.2 1.5.3 1.6.0: CLI tool for spawning and running containers
 app-containers/s6-overlay 2.1.0.2-r1: an s6-based init system for containers
 app-containers/sen 0.8.0 0.8.1: Terminal User Interface for docker engine
 app-containers/skopeo 1.24.1 1.25.1 1.25.2 9999: Work with remote container images registries
@@ -1821,7 +1821,7 @@ app-editors/diakonos 0.9.12: A Linux editor for the masses
 app-editors/e3 2.82: Very tiny editor in ASM with emacs, pico, wordstar, and vi keybindings
 app-editors/ecrire 0.2.0-r1: A simple Notepad-like text editor using EFL
 app-editors/ee 1.5.2-r1: An easy to use text editor. A subset of aee
-app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r4 31.1.90 31.1.9999 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
+app-editors/emacs 18.59-r17 27.2-r26 28.2-r24 29.4-r12 30.2-r8 31.1-r4 31.1.90 31.1.9999 31.2_rc1 32.0.50_pre20260831 32.0.50_pre20261031 32.0.9999: The advanced, extensible, customizable, self-documenting editor
 app-editors/emact 2.58.0-r1: EmACT, a fork of Conroy's MicroEmacs
 app-editors/enter-tex 3.49.0: TeX/LaTeX text editor
 app-editors/ersatz-emacs 20060515-r1: A very minimal imitation of the famous GNU Emacs editor
@@ -1834,7 +1834,7 @@ app-editors/ghex 48.3 50.3 50.4 9999: GNOME hexadecimal editor
 app-editors/ghostwriter 26.08.3: Cross-platform, aesthetic, distraction-free markdown editor
 app-editors/gnome-text-editor 49.2 50.1: A simple text editor for the GNOME desktop
 app-editors/gummi 0.8.3: Simple LaTeX editor for GTK+ users
-app-editors/gvim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9999: GUI version of the Vim text editor
+app-editors/gvim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9.2.1421 9999: GUI version of the Vim text editor
 app-editors/gvim-classic 8.3.0 8.3.1 9999: GUI version of the Vim text editor
 app-editors/helix 25.07.1: A post-modern text editor
 app-editors/hexcurse 1.60.0: ncurses based hex editor
@@ -1881,10 +1881,10 @@ app-editors/ted 2.23-r3: X-based rich text editor
 app-editors/texworks 0.6.10 0.6.11: Simple interface for working with TeX documents
 app-editors/uemacs-pk 4.0.15_p20210330 4.0.15_p20260806: uEmacs/PK is an enhanced version of MicroEMACS
 app-editors/vile 9.8z 9.8z-r1: VI Like Emacs -- yet another full-featured vi clone
-app-editors/vim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9999: Vim, an improved vi-style text editor
+app-editors/vim 9.1.1652-r2 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9.2.1421 9999: Vim, an improved vi-style text editor
 app-editors/vim-classic 8.3.0 8.3.1-r1 9999: Long term support Vim text editor
 app-editors/vim-classic-core 8.3.0 8.3.1-r1 9999: vim-classic and gvim-classic shared files
-app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9999: vim and gvim shared files
+app-editors/vim-core 9.1.1652-r3 9.2.1125 9.2.1202 9.2.1229 9.2.1275 9.2.1302 9.2.1321 9.2.1342 9.2.1373 9.2.1421 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r2 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.146.0 1.147.0-r1 1.148.0: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.140.06880-r1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
@@ -2431,7 +2431,7 @@ app-emulation/open-vm-tools 13.0.10-r1 13.1.0: Tools for VMware guests
 app-emulation/open-vmdk 0.3.12 0.3.13: Tools for creating and converting OVA virtual appliance files
 app-emulation/pcem 17_p20241210-r2: A PC emulator that specializes in running old operating systems and software
 app-emulation/plus42 1.3.13 1.3.15 1.5.1: An Enhanced HP-42S Calculator Simulator
-app-emulation/protontricks 1.13.1 1.14.1 1.15.0: app-emulation/winetricks wrapper for Proton (Steam Play) games
+app-emulation/protontricks 1.13.1 1.15.2: app-emulation/winetricks wrapper for Proton (Steam Play) games
 app-emulation/punes 0.111-r2: Nintendo Entertainment System (NES) emulator
 app-emulation/q4wine 1.4.2: Qt GUI configuration tool for Wine
 app-emulation/qemu 10.0.7-r2 10.0.14-r1 10.0.15 10.1.3-r3 10.1.5 10.2.3-r4 10.2.4-r2 11.1.2-r2 11.1.3 11.2.0_rc0 9999: QEMU + Kernel-based Virtual Machine userland tools
@@ -5241,7 +5241,7 @@ dev-java/ognl 3.1.24: Object Graph Navigation Library
 dev-java/open-test-reporting-events 0.1.0_pre1 0.2.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/open-test-reporting-schema 0.1.0_pre1: Language-agnostic test reporting format and tooling
 dev-java/openjdk 8.514_p01 11.0.33.1_p1 17.0.21.1_p2 21.0.13.1_p2 25.0.5.1_p2 27.0.1.1_p4 28_alpha26: Open source implementation of the Java programming language
-dev-java/openjdk-bin 8.504_p01 8.512_p09 8.514_p01 11.0.32.1_p1 11.0.33_p10 11.0.33.1_p1 17.0.21.1_p2 21.0.13.1_p2 25.0.5.1_p2 27.0.1.1_p4 28_alpha26: Prebuilt Java JDK binaries provided by Eclipse Temurin
+dev-java/openjdk-bin 8.512_p09 8.514_p01 11.0.33_p10 11.0.33.1_p1 17.0.21.1_p2 21.0.13.1_p2 25.0.5.1_p2 27.0.1.1_p4 28_alpha26: Prebuilt Java JDK binaries provided by Eclipse Temurin
 dev-java/openjdk-jre-bin 8.514_p01 11.0.33.1_p1 17.0.21.1_p2 21.0.13.1_p2 25.0.5.1_p2: Prebuilt Java JRE binaries provided by Eclipse Temurin
 dev-java/openjfx 11.0.11_p1-r5: Java OpenJFX client application platform
 dev-java/opentelemetry-java 1.49.0: OpenTelemetry Context (Incubator)
@@ -5283,7 +5283,7 @@ dev-java/slf4j-ext 2.0.3: Extensions to the SLF4J API
 dev-java/slf4j-nop 2.0.3: SLF4J NOP Binding
 dev-java/slf4j-reload4j 2.0.3: SLF4J Reload4j Binding
 dev-java/slf4j-simple 2.0.3: SLF4J Simple binding
-dev-java/snakeyaml 2.5 2.7: YAML 1.1 parser and emitter for Java
+dev-java/snakeyaml 2.7: YAML 1.1 parser and emitter for Java
 dev-java/snappy-java 1.1.10.8: Snappy compressor/decompressor for Java
 dev-java/sparsebitset 1.3: An efficient sparse bitset implementation for Java
 dev-java/stax2-api 4.2.2: stax2 API is an extension to basic Stax 1.0 API
@@ -5582,7 +5582,7 @@ dev-libs/gf-complete 2.0.0_p20170410: Comprehensive Open Source Library for Galo
 dev-libs/gf2x 1.3.0-r1: C/C++ routines for fast arithmetic in GF(2)[x]
 dev-libs/girara 0.4.5 0.4.5-r1 2026.02.04 2026.07.18 9999: UI library that focuses on simplicity and minimalism
 dev-libs/gjs 1.88.1: Javascript bindings for GNOME
-dev-libs/glib 2.88.2 2.88.3 2.88.4: The GLib library of C routines
+dev-libs/glib 2.88.2 2.88.3 2.88.4-r1: The GLib library of C routines
 dev-libs/gmime 2.6.23-r2 3.2.15-r1 3.2.15-r2: Library for creating and parsing MIME messages
 dev-libs/gmp 6.3.0-r2: Library for arbitrary-precision arithmetic on different type of numbers
 dev-libs/gnulib 2025.08.27.16.03.17 2026.01.14.22.26.00 9999-r1: Gnulib is a library of common routines intended to be shared at the source level
@@ -6256,7 +6256,7 @@ dev-ml/lablgtk-sourceview 3.1.5-r1: OCaml bindings to GTK-3
 dev-ml/labltk 8.06.12-r2 8.06.15-r1: OCaml interface to the Tcl/Tk GUI framework
 dev-ml/lambda-term 3.3.2-r1 3.3.3-r1 3.4.0-r1: Terminal manipulation library for OCaml
 dev-ml/libvirt-ocaml 0.6.1.7: OCaml language binding for libvirt native C API
-dev-ml/llvm 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OCaml bindings for LLVM
+dev-ml/llvm 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OCaml bindings for LLVM
 dev-ml/logs 0.7.0-r1 0.8.0 0.9.0 0.10.0: Logging infrastructure for OCaml
 dev-ml/logs-syslog 0.5.0-r1: Logs reporter to syslog (UDP/TCP/TLS)
 dev-ml/luv 0.5.11-r3 0.5.14-r2: Binding to libuv: cross-platform asynchronous I/O
@@ -6989,6 +6989,7 @@ dev-perl/FCGI 0.820.0: Fast CGI module
 dev-perl/FCGI-Client 0.90.0: Client library for fastcgi protocol
 dev-perl/FCGI-ProcManager 0.280.0-r1: A FastCGI process manager
 dev-perl/FFI-CheckLib 0.310.0-r1: Check that a library is available for FFI
+dev-perl/FFI-Platypus 2.120.0: Write Perl bindings to non-Perl libraries with FFI, no XS required
 dev-perl/FLV-AudioExtractor 0.10.0-r2: Extract audio from Flash Videos
 dev-perl/Fatal-Exception 0.50.0-r3: Succeed or throw exception
 dev-perl/Feature-Compat-Class 0.60.0 0.80.0: Make class syntax available
@@ -8160,11 +8161,12 @@ dev-perl/XS-Parse-Sublike 0.370.0-r1 0.390.0 0.410.0: XS functions to assist in 
 dev-perl/XString 0.5.0: Isolated String helpers from B
 dev-perl/XXX 0.380.0: See Your Data in the Nude
 dev-perl/YAML 1.310.0: YAML Ain't Markup Language (tm)
-dev-perl/YAML-LibYAML 0.903.0 0.904.0: Perl YAML Serialization using XS and libyaml
+dev-perl/YAML-LibYAML 0.904.0 0.910.0: Perl YAML Serialization using XS and libyaml
 dev-perl/YAML-PP 0.39.0-r1: YAML 1.2 processor in perl
 dev-perl/YAML-Syck 1.340.0 1.360.0: Fast, lightweight YAML loader and dumper
 dev-perl/YAML-Tiny 1.760.0-r1: Read/Write YAML files with as little code as possible
 dev-perl/ZMQ-Constants 1.40.0-r1: Constants for libzmq
+dev-perl/ZMQ-FFI 1.190.0: Version agnostic Perl bindings for zeromq using ffi
 dev-perl/aliased 0.340.0-r2: Use shorter versions of class names
 dev-perl/asa 1.40.0: Lets your class/object say it works like something else
 dev-perl/autobox 3.0.2: Call methods on native types
@@ -8466,7 +8468,7 @@ dev-python/cheetah3 3.4.0-r1: Python-powered template engine and code generator
 dev-python/cheroot 11.1.2: High-performance, pure-Python HTTP server used by CherryPy
 dev-python/cherrypy 18.10.0: CherryPy is a pythonic, object-oriented HTTP framework
 dev-python/cjkwrap 2.2-r2: A library for wrapping and filling UTF-8 CJK text
-dev-python/clang 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Python bindings for llvm-core/clang
+dev-python/clang 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Python bindings for llvm-core/clang
 dev-python/cleo 2.1.0: Python tool for building testable command-line interfaces
 dev-python/cli-helpers 2.15.3 2.15.4 2.15.5 9999: Python helpers for common CLI tasks
 dev-python/cli-ui 0.19.0-r1: Python library for better command line interfaces
@@ -8939,7 +8941,7 @@ dev-python/line-profiler 5.1.0: Line-by-line profiler
 dev-python/linkify-it-py 2.2.0: Links recognition library with full unicode support
 dev-python/linode-metadata 0.4.0-r1: Python bindings for the Linode Metadata Service
 dev-python/linuxdoc 20240924 99999999: Sphinx-doc extensions for sophisticated C developer
-dev-python/lit 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
+dev-python/lit 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: A stand-alone install of the LLVM suite testing tool
 dev-python/littleutils 0.2.4: Small personal collection of Python utility functions
 dev-python/livereload 2.7.1: livereload server in Python
 dev-python/llfuse 1.5.2: Python bindings for the low-level FUSE API
@@ -9666,7 +9668,7 @@ dev-python/slixmpp 1.16.0: Python 3 library for XMPP
 dev-python/smartypants 2.0.2: ASCII quote-dot-dash to HTML entity converter
 dev-python/smbus2 0.6.1: A drop-in replacement for smbus-cffi/smbus-python in pure Python
 dev-python/smmap 6.0.0: A pure Python implementation of a sliding window memory map manager
-dev-python/snakeoil 0.11.7 9999: misc common functionality and useful optimizations
+dev-python/snakeoil 0.11.7 0.11.8 9999: misc common functionality and useful optimizations
 dev-python/snaketrace 0.3.1-r1: An strace-like tool for Python audit events
 dev-python/snapshottest 0.6.0: Snapshot Testing utils for Python
 dev-python/sniffio 1.3.1: Sniff out which async library your code is running under
@@ -10429,7 +10431,7 @@ dev-ruby/prime 0.1.2-r1 0.1.3 0.1.4: Prime numbers and factorization library
 dev-ruby/prism 1.4.0 1.7.0 1.8.0 1.9.0: Prism Ruby parser
 dev-ruby/process_executer 1.3.0 2.0.0 3.2.0 3.2.4 4.0.0 4.0.1 4.0.2: An API for executing commands in a subprocess
 dev-ruby/propshaft 1.3.1 1.3.1-r1 1.3.2: Deliver assets for Rails
-dev-ruby/pry 0.14.2 0.15.2 0.16.0: Pry is a powerful alternative to the standard IRB shell for Ruby
+dev-ruby/pry 0.14.2 0.15.2 0.16.0 0.16.1: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/pstore 0.2.0: Transactional File Storage for Ruby Objects
 dev-ruby/psych 5.2.6 5.3.1 5.4.0: A YAML parser and emitter
 dev-ruby/ptools 1.5.0 1.5.2: Several handy methods to Ruby's core File class
@@ -12004,7 +12006,7 @@ games-simulation/lincity 1.13.1-r4: City simulation game for X
 games-simulation/lincity-ng 2.9_beta-r1 2.13.1 9999: City simulation game
 games-simulation/micropolis 1.0_p20250628 1.0_p20250710: Free version of the well-known city building simulation
 games-simulation/openrct2 0.5.4 0.5.6 0.5.7: An open source re-implementation of Chris Sawyer's RollerCoaster Tycoon 2
-games-simulation/openttd 15.2 15.3 9999: A clone of Transport Tycoon Deluxe
+games-simulation/openttd 15.2 15.3 15.3-r2 9999: A clone of Transport Tycoon Deluxe
 games-simulation/pmars-sdl 0.9.2e-r2: Portable redcode simulator's sdl port for core war
 games-simulation/searchandrescue 1.7.0-r1: Helicopter based air rescue flight simulator
 games-simulation/senken 0.3.0-r2: City simulation game
@@ -12352,7 +12354,7 @@ kde-apps/blinken 26.08.3: Memory enhancement game based on KDE Frameworks
 kde-apps/bomber 26.08.3: Single player arcade bombing game
 kde-apps/bovo 26.08.3: Five-in-a-row Board Game
 kde-apps/calendarjanitor 26.04.3 26.08.3: Tool to scan calendar data for buggy instances
-kde-apps/calendarsupport 26.04.3-r1 26.08.3: Calendar support library
+kde-apps/calendarsupport 26.04.3-r1 26.04.3-r2 26.08.3-r1: Calendar support library
 kde-apps/cantor 26.08.3: Interface for doing mathematics and scientific computing
 kde-apps/dolphin 26.08.3: Plasma filemanager focusing on usability
 kde-apps/dolphin-plugins-common 26.08.3: Common files for dolphin-plugins
@@ -12361,7 +12363,7 @@ kde-apps/dolphin-plugins-git 26.08.3: Dolphin plugin for Git integration
 kde-apps/dolphin-plugins-mercurial 26.08.3: Dolphin plugin for Mercurial integration
 kde-apps/dolphin-plugins-subversion 26.08.3: Dolphin plugin for Subversion integration
 kde-apps/dragon 26.08.3: Simple video player
-kde-apps/eventviews 26.04.3 26.08.3: Calendar viewer for KDE PIM
+kde-apps/eventviews 26.04.3 26.04.3-r1 26.08.3-r1: Calendar viewer for KDE PIM
 kde-apps/ffmpegthumbs 26.08.3: FFmpeg based thumbnail generator for video files
 kde-apps/filelight 26.08.3: Visualise disk usage with interactive map of concentric, segmented rings
 kde-apps/granatier 26.08.3: KDE Bomberman game
@@ -12720,38 +12722,38 @@ kde-plasma/systemsettings 6.7.6 6.8.3: Control Center to configure KDE Plasma de
 kde-plasma/union 6.8.3-r1: Style engine providing a unified style description to separate output styles
 kde-plasma/wacomtablet 6.7.6: Wacom system settings module that supports different button/pen layout profiles
 kde-plasma/xdg-desktop-portal-kde 6.7.6 6.8.3: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
-llvm-core/clang 20.1.8 21.1.8 22.1.8 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: C language family frontend for LLVM
-llvm-core/clang-common 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Common files shared between multiple slots of clang
+llvm-core/clang 20.1.8 21.1.8 22.1.8 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: C language family frontend for LLVM
+llvm-core/clang-common 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Common files shared between multiple slots of clang
 llvm-core/clang-linker-config 20 21 22 23 24: Default linker configuration for clang
 llvm-core/clang-toolchain-symlinks 20 21 22 23 24: Symlinks to use Clang on GCC-free system
-llvm-core/flang 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: LLVM's Fortran frontend
-llvm-core/lld 20.1.8 21.1.8-r1 22.1.8-r1 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: The LLVM linker (link editor)
+llvm-core/flang 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: LLVM's Fortran frontend
+llvm-core/lld 20.1.8 21.1.8-r1 22.1.8-r1 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: The LLVM linker (link editor)
 llvm-core/lld-toolchain-symlinks 20 21 22 23 24: Symlinks to use LLD on binutils-free system
-llvm-core/lldb 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: The LLVM debugger
-llvm-core/llvm 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Low Level Virtual Machine
-llvm-core/llvm-common 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Common files shared between multiple slots of LLVM
+llvm-core/lldb 20.1.8 21.1.8 22.1.8 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: The LLVM debugger
+llvm-core/llvm 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Low Level Virtual Machine
+llvm-core/llvm-common 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Common files shared between multiple slots of LLVM
 llvm-core/llvm-toolchain-symlinks 20-r1 21 22 23 24: Symlinks to use LLVM on binutils-free system
 llvm-core/llvmgold 20 21 22 23 24: LLVMgold plugin symlink for autoloading
-llvm-core/mlir 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Multi-Level Intermediate Representation (library only)
-llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Polyhedral optimizations for LLVM
+llvm-core/mlir 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Multi-Level Intermediate Representation (library only)
+llvm-core/polly 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Polyhedral optimizations for LLVM
 llvm-runtimes/clang-rtlib-config 20 21 22 23 24: Default rtlib configuration for clang
 llvm-runtimes/clang-runtime 20.1.8-r2 21.1.8-r1 22-r1 23-r2 24: Meta-ebuild for clang runtime libraries
 llvm-runtimes/clang-stdlib-config 20 21 22 23 24: Default C++ library configuration for clang
 llvm-runtimes/clang-unwindlib-config 20 21 22 23 24: Default unwindlib configuration for clang
-llvm-runtimes/compiler-rt 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Compiler runtime library for clang (built-in part)
-llvm-runtimes/compiler-rt-sanitizers 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
-llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: LLVM's Fortran runtime
+llvm-runtimes/compiler-rt 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Compiler runtime library for clang (built-in part)
+llvm-runtimes/compiler-rt-sanitizers 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Compiler runtime libraries for clang (sanitizers & xray)
+llvm-runtimes/flang-rt 21.1.8-r1 22.1.8-r1 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: LLVM's Fortran runtime
 llvm-runtimes/libatomic-stub 0: Stub library which allows compiler-rt to replace libatomic
-llvm-runtimes/libclc 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OpenCL C library
-llvm-runtimes/libcxx 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
-llvm-runtimes/libcxxabi 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Low level support for a standard C++ library
-llvm-runtimes/libgcc 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
-llvm-runtimes/libunwind 20.1.8-r1 21.1.8 22.1.8-r1 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: C++ runtime stack unwinder from LLVM
+llvm-runtimes/libclc 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OpenCL C library
+llvm-runtimes/libcxx 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: New implementation of the C++ standard library, targeting C++11
+llvm-runtimes/libcxxabi 20.1.8-r1 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Low level support for a standard C++ library
+llvm-runtimes/libgcc 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: Compiler runtime library for clang, compatible with libgcc_s
+llvm-runtimes/libunwind 20.1.8-r1 21.1.8 22.1.8-r1 23.1.6-r1 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: C++ runtime stack unwinder from LLVM
 llvm-runtimes/offload 20.1.8-r1 21.1.8 22.1.8: OpenMP offloading support
-llvm-runtimes/openmp 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
-llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OpenMP target library for amdgcn devices
-llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OpenMP target library for nvptx64 devices
-llvm-runtimes/openmp-spirv64-intel 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0.9999: OpenMP target library for spirv64 Intel devices
+llvm-runtimes/openmp 20.1.8 21.1.8 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OpenMP runtime libraries for LLVM/clang compiler
+llvm-runtimes/openmp-amdgcn-amd-amdhsa 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OpenMP target library for amdgcn devices
+llvm-runtimes/openmp-nvptx64-nvidia-cuda 22.1.8 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OpenMP target library for nvptx64 devices
+llvm-runtimes/openmp-spirv64-intel 23.1.6 24.0.0_pre20261115 24.0.0_pre20261121 24.0.0_pre20261128 24.0.0.9999: OpenMP target library for spirv64 Intel devices
 lxde-base/lxappearance 0.6.4-r2: LXDE GTK+ theme switcher
 lxde-base/lxappearance-obconf 0.2.3-r3: LXAppearance plugin for configuring OpenBox
 lxde-base/lxde-common 0.99.2-r1: LXDE Session default configuration files and nuoveXT2 iconset
@@ -12807,7 +12809,7 @@ mail-client/thunderbird-bin 153.6.0 153.7.0 153.8.0 159.0 160.0 161.0: Thunderbi
 mail-client/thunderbird-l10n 153.6.0 153.7.0 153.8.0 159.0 160.0 161.0: Thunderbird mail client's translation files
 mail-filter/MailScanner 4.84.5.2: Free Anti-Virus and Anti-Spam Filter
 mail-filter/amavisd-milter 1.7.2-r1: sendmail milter for amavisd-new
-mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1: High-performance interface between the MTA and content checkers
+mail-filter/amavisd-new 2.13.1-r1 2.14.0-r1 2.15.0: High-performance interface between the MTA and content checkers
 mail-filter/bmf 0.9.4-r4: Fast and small Bayesian spam filter
 mail-filter/bogofilter 1.2.5-r1: Bayesian spam filter designed with fast algorithms, and tuned for speed
 mail-filter/courier-pythonfilter 3.0.4 3.0.6 3.0.6-r1: Python filtering architecture for the Courier MTA
@@ -15308,7 +15310,7 @@ net-mail/stalwart-mail 0.16.15 0.16.16: Stalwart Mail Server
 net-mail/swaks 20240103.0: Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH
 net-mail/t-prot 3.4: TOFU protection - display filter for RFC822 messages
 net-mail/tlsrpt-reporter 0.5.0 0.6.0: tools and daemons to implement TLSRPT services
-net-mail/tnef 1.4.18: Decodes MS-TNEF MIME attachments
+net-mail/tnef 1.4.18 1.5.0: Decodes MS-TNEF MIME attachments
 net-mail/tpop3d 1.5.5-r5: An extensible POP3 server with vmail-sql/MySQL support
 net-mail/vpopmail 5.4.33-r9: Collection of programs to manage virtual email on Qmail servers
 net-mail/vqadmin 2.3.7-r1: A web based control pannel to manage Virtual Qmail Domains
@@ -15813,7 +15815,7 @@ net-vpn/ovpn-dco 0.2.20230426 0.2.20231117 0.2.20241216 0.2.20251017 9999: OpenV
 net-vpn/pptpd 1.4.0-r5: Linux Point-to-Point Tunnelling Protocol Server
 net-vpn/riseup-vpn 0.24.5 0.24.8 0.24.10 0.25.8: Anonymous encrypted VPN client powered by Bitmask
 net-vpn/strongswan 6.0.3 6.0.4 6.0.4-r1 6.0.6 6.0.7: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-net-vpn/tailscale 1.104.4 1.104.5: Tailscale vpn client
+net-vpn/tailscale 1.104.4 1.104.5 1.106.1: Tailscale vpn client
 net-vpn/tinc 1.0.36-r1 1.0.37 1.1_pre18-r2: tinc is an easy to configure VPN implementation
 net-vpn/tor 0.4.9.17 0.4.9.17-r3 9999: Anonymizing overlay network for TCP
 net-vpn/vopono 1.0.1: Launch applications via VPN tunnels using temporary network namespaces
@@ -16606,7 +16608,7 @@ sci-ml/huggingface_hub 1.3.7-r1 1.26.1 1.31.0 2.1.1: a client library to interac
 sci-ml/ideep 3.10.2 3.12: Intel Optimization for Chainer
 sci-ml/jiwer 3.0.3-r1 3.0.5 3.1.0: Evaluate an automatic speech recognition system
 sci-ml/kineto 0.4.0_p20260323 0.4.0_p20260603 0.4.0_p20260805-r1: part of the PyTorch Profiler
-sci-ml/ollama 0.40.18: Get up and running with Llama 3, Mistral, Gemma, and other language models
+sci-ml/ollama 0.40.19: Get up and running with Llama 3, Mistral, Gemma, and other language models
 sci-ml/oneDNN 3.10.2 3.11.2 3.12: oneAPI Deep Neural Network Library
 sci-ml/onnx 1.18.0-r1 1.20.1: Open Neural Network Exchange (ONNX)
 sci-ml/pytorch 2.12.0 2.13.0-r3 2.14.1 2.15.0: Tensors and Dynamic neural networks in Python with strong GPU acceleration
@@ -17487,7 +17489,7 @@ sys-apps/pcsc-lite 2.4.0-r1 2.4.1 2.5.1 2.5.3: PC/SC Architecture smartcard midd
 sys-apps/pcsc-slb-rf72-drv 1.1.0-r2: Schlumberger Reflex 72 Serial Smartcard Reader
 sys-apps/pcsc-tools 1.7.4 1.7.5: PC/SC Architecture smartcard tools
 sys-apps/pick 4.0.0-r1: A fuzzy search tool for the command-line
-sys-apps/pkgcore 0.12.48 0.12.50 9999: a framework for package management
+sys-apps/pkgcore 0.12.48 0.12.50 0.12.51 9999: a framework for package management
 sys-apps/pkgcraft-tools 0.0.31-r2 9999: pkgcraft-based tools for Gentoo
 sys-apps/plocate 1.1.23 1.1.24: Posting locate is a much faster locate
 sys-apps/pmount 0.9.99_alpha-r7 0.9.99_alpha-r8: Policy based mounter that gives the ability to mount removable devices as a user
